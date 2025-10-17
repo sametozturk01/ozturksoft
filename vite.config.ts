@@ -6,7 +6,10 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        home: resolve(__dirname, 'src/pages/home.html')
+        hakkimizda: resolve(__dirname, 'src/pages/hakkimizda.html'),
+        hizmetler: resolve(__dirname, 'src/pages/hizmetler.html'),
+        home: resolve(__dirname, 'src/pages/home.html'),
+        iletisim: resolve(__dirname, 'src/pages/iletisim.html')
       }
     }
   }
