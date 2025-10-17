@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ozturksoft</title>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+  <!-- Üst Menü -->
+  <header>
+    <div class="container header-flex">
+      <a href="#home" class="logo-text">
+        <img src="./public/images/logo.png" alt="Ozturksoft Logo" class="logo">
+      </a>
+      
+      <!-- Hamburger Button -->
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav id="nav">
+        <ul>
+          <li><a href="#home">Ana Sayfa</a></li>
+          <li><a href="#hakkimizda">Hakkımızda</a></li>
+          <li><a href="#hizmetler">Hizmetler</a></li>
+          <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- İçerik buraya yüklenecek -->
+  <main id="app"></main>
+
+  <script type="module" src="./src/main.ts"></script>
+  
+  <script>
+    // Hamburger menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const nav = document.getElementById('nav');
+    const overlay = document.getElementById('navOverlay');
+    const navLinks = document.querySelectorAll('header nav ul li a');
+    
+    function toggleMenu() {
+      hamburger.classList.toggle('active');
+      nav.classList.toggle('active');
+      overlay.classList.toggle('active');
+      document.body.style.overflow = nav.classList.contains('active') ? 'hidden' : '';
+    }
+    
+    hamburger.addEventListener('click', toggleMenu);
+    overlay.addEventListener('click', toggleMenu);
+    
+    // Close menu when clicking on links
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        if (nav.classList.contains('active')) {
+          toggleMenu();
+        }
+      });
+    });
+    
+    // Close menu on window resize to desktop
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 768 && nav.classList.contains('active')) {
+        toggleMenu();
+      }
+    });
+  </script>
+</body>
+</html>

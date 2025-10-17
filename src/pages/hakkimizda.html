@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OzturkSoft - Hakkımızda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Üst Menü -->
+  <header>
+    <div class="container header-flex">
+      <a href="#home" class="logo-text">
+        <img src="./public/images/logo.png" alt="Ozturksoft Logo" class="logo">
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#home">Ana Sayfa</a></li>
+          <li><a href="#hakkimizda">Hakkımızda</a></li>
+          <li><a href="#hizmetler">Hizmetler</a></li>
+          <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hakkımızda -->
+  <section id="hakkimizda" class="content" style="padding-top: 140px;">
+    <h2>Hakkımızda</h2>
+    <p>OzturkSoft, modern yazılım teknolojileriyle müşterilerine en iyi çözümleri sunmayı hedefleyen dinamik bir şirkettir. 
+    Profesyonel ekibimiz, ihtiyaçlarınıza özel çözümler geliştirir.</p>
+  </section>
+
+  <!-- Vizyon -->
+  <section id="vizyon" class="content">
+    <h2>Vizyon & Değerlerimiz</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Vizyonumuz</h3>
+        <p>Global çapta güvenilir ve yenilikçi yazılım çözümleri üreten lider bir marka olmak.</p>
+      </div>
+      <div class="card">
+        <h3>Değerlerimiz</h3>
+        <ul>
+          <li>Yenilikçilik</li>
+          <li>Güvenilirlik</li>
+          <li>Müşteri Odaklılık</li>
+          <li>Sürekli Gelişim</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 OzturkSoft. Tüm hakları saklıdır.</p>
+  </footer>
+
+  <style>
+    /* Mobile specific fixes for hakkimizda */
+    @media (max-width: 768px) {
+      #hakkimizda {
+        padding-top: 120px !important;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+      }
+      
+      .content {
+        padding: 60px 16px !important;
+      }
+      
+      .content h2 {
+        font-size: 1.75rem !important;
+        margin-bottom: 20px !important;
+      }
+      
+      .content p {
+        font-size: 1rem !important;
+        line-height: 1.6 !important;
+      }
+      
+      .cards {
+        grid-template-columns: 1fr !important;
+        gap: 24px !important;
+        margin-top: 32px !important;
+      }
+      
+      .card {
+        padding: 24px !important;
+        margin: 0 !important;
+      }
+      
+      .card h3 {
+        font-size: 1.1rem !important;
+        margin-bottom: 16px !important;
+      }
+      
+      .card p {
+        font-size: 0.95rem !important;
+      }
+      
+      .card ul {
+        font-size: 0.95rem !important;
+      }
+      
+      .card ul li {
+        padding: 4px 0 !important;
+        font-size: 0.9rem !important;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      #hakkimizda {
+        padding-top: 100px !important;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+      }
+      
+      .content {
+        padding: 40px 12px !important;
+      }
+      
+      .content h2 {
+        font-size: 1.5rem !important;
+      }
+      
+      .content h2::after {
+        width: 40px !important;
+        height: 2px !important;
+      }
+      
+      .card {
+        padding: 20px !important;
+      }
+      
+      footer {
+        padding: 30px 12px !important;
+        font-size: 0.85rem !important;
+      }
+    }
+  </style>
+</body>
+</html>
