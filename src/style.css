@@ -57,16 +57,16 @@ header .logo-text {
 }
 
 .logo {
-  width: 80px;  
-  height: 80px;  
+  width: 75px;  
+  height: 75px;  
   object-fit: cover;
   clip-path: circle(50% at 50% 50%);
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.08));
 }
 
 header .logo-text img {
-  height: 80px;
+  height: 75px;
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -634,12 +634,16 @@ footer {
   
   /* Logo smaller on mobile */
   .logo {
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
   }
   
   header .logo-text img {
-    height: 60px;
+    height: 65px;
+  }
+  
+  header .header-flex {
+    padding: 18px 0;
   }
   
   /* Mobile navigation */
@@ -706,31 +710,32 @@ footer {
   }
   
   .hero {
-    padding: 120px 16px 80px;
+    padding: 130px 16px 80px;
   }
   
   .hero-content {
-    margin: 0 auto 40px;
+    margin: 0 auto 50px;
     max-width: 100%;
   }
   
   .hero h1 {
     font-size: 2rem;
-    line-height: 1.2;
-    margin-bottom: 20px;
+    line-height: 1.3;
+    margin-bottom: 24px;
   }
   
   .hero p, .hero-subtitle {
     font-size: 1.05rem;
-    margin-bottom: 32px;
-    padding: 0 8px;
+    line-height: 1.7;
+    margin-bottom: 36px;
+    padding: 0 12px;
   }
   
   .hero-buttons {
     flex-direction: column;
     align-items: center;
-    gap: 12px;
-    margin-bottom: 60px;
+    gap: 16px;
+    margin-bottom: 70px;
   }
   
   .btn {
@@ -743,8 +748,9 @@ footer {
   .hero-stats {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 32px;
+    gap: 40px;
     justify-items: center;
+    padding: 0 16px;
   }
   
   .hero-stats .stat:last-child {
@@ -752,15 +758,17 @@ footer {
   }
   
   .stat {
-    min-width: 120px;
+    min-width: 140px;
   }
   
   .stat-number {
-    font-size: 2rem;
+    font-size: 2.25rem;
+    margin-bottom: 12px;
   }
   
   .stat-label {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
   }
   
   .content {
@@ -850,12 +858,16 @@ footer {
   }
   
   .logo {
-    width: 50px;
-    height: 50px;
+    width: 58px;
+    height: 58px;
   }
   
   header .logo-text img {
-    height: 50px;
+    height: 58px;
+  }
+  
+  header .header-flex {
+    padding: 14px 0;
   }
   
   .hero {

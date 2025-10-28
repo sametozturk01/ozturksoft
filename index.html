@@ -41,37 +41,78 @@
   <script type="module" src="./src/main.ts"></script>
   
   <script>
-    // Hamburger menu toggle
-    const hamburger = document.getElementById('hamburger');
-    const nav = document.getElementById('nav');
-    const overlay = document.getElementById('navOverlay');
-    const navLinks = document.querySelectorAll('header nav ul li a');
-    
-    function toggleMenu() {
-      hamburger.classList.toggle('active');
-      nav.classList.toggle('active');
-      overlay.classList.toggle('active');
-      document.body.style.overflow = nav.classList.contains('active') ? 'hidden' : '';
-    }
-    
-    hamburger.addEventListener('click', toggleMenu);
-    overlay.addEventListener('click', toggleMenu);
-    
-    // Close menu when clicking on links
-    navLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        if (nav.classList.contains('active')) {
-          toggleMenu();
+    // Hamburger menu toggle - Fixed version
+    (function() {
+      let menuOpen = false;
+      
+      function initMenu() {
+        const hamburger = document.getElementById('hamburger');
+        const nav = document.getElementById('nav');
+        const overlay = document.getElementById('navOverlay');
+        const navLinks = document.querySelectorAll('header nav ul li a');
+        
+        if (!hamburger || !nav || !overlay) return;
+        
+        function openMenu() {
+          menuOpen = true;
+          hamburger.classList.add('active');
+          nav.classList.add('active');
+          overlay.classList.add('active');
+          document.body.style.overflow = 'hidden';
         }
-      });
-    });
-    
-    // Close menu on window resize to desktop
-    window.addEventListener('resize', () => {
-      if (window.innerWidth > 768 && nav.classList.contains('active')) {
-        toggleMenu();
+        
+        function closeMenu() {
+          menuOpen = false;
+          hamburger.classList.remove('active');
+          nav.classList.remove('active');
+          overlay.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+        
+        function toggleMenu(e) {
+          if (e) {
+            e.preventDefault();
+            e.stopPropagation();
+          }
+          
+          if (menuOpen) {
+            closeMenu();
+          } else {
+            openMenu();
+          }
+        }
+        
+        // Hamburger click
+        hamburger.addEventListener('click', toggleMenu);
+        
+        // Overlay click
+        overlay.addEventListener('click', function(e) {
+          e.preventDefault();
+          closeMenu();
+        });
+        
+        // Nav links click
+        navLinks.forEach(function(link) {
+          link.addEventListener('click', function() {
+            setTimeout(closeMenu, 150);
+          });
+        });
+        
+        // Window resize
+        window.addEventListener('resize', function() {
+          if (window.innerWidth > 768 && menuOpen) {
+            closeMenu();
+          }
+        });
       }
-    });
+      
+      // Initialize when DOM is ready
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initMenu);
+      } else {
+        initMenu();
+      }
+    })();
   </script>
 </body>
 </html>

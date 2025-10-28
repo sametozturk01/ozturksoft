@@ -7,22 +7,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Üst Menü -->
-  <header>
-    <div class="container header-flex">
-      <a href="#home" class="logo-text">
-        <img src="./public/images/logo.png" alt="Ozturksoft Logo" class="logo">
-      </a>
-      <nav>
-        <ul>
-          <li><a href="#home">Ana Sayfa</a></li>
-          <li><a href="#hakkimizda">Hakkımızda</a></li>
-          <li><a href="#hizmetler">Hizmetler</a></li>
-          <li><a href="#iletisim">İletişim</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+
+
+  <!-- Mobile Menu Overlay -->
+  <div class="nav-overlay" id="navOverlay"></div>
 
   <!-- Hakkımızda -->
   <section id="hakkimizda" class="content" style="padding-top: 140px;">
@@ -57,86 +45,125 @@
     <p>© 2025 OzturkSoft. Tüm hakları saklıdır.</p>
   </footer>
 
+  <script>
+    // Hamburger menu toggle - Fixed version
+    (function() {
+      let menuOpen = false;
+      
+      function initMenu() {
+        const hamburger = document.getElementById('hamburger');
+        const nav = document.getElementById('nav');
+        const overlay = document.getElementById('navOverlay');
+        const navLinks = document.querySelectorAll('header nav ul li a');
+        
+        if (!hamburger || !nav || !overlay) return;
+        
+        function openMenu() {
+          menuOpen = true;
+          hamburger.classList.add('active');
+          nav.classList.add('active');
+          overlay.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        }
+        
+        function closeMenu() {
+          menuOpen = false;
+          hamburger.classList.remove('active');
+          nav.classList.remove('active');
+          overlay.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+        
+        function toggleMenu(e) {
+          if (e) {
+            e.preventDefault();
+            e.stopPropagation();
+          }
+          
+          if (menuOpen) {
+            closeMenu();
+          } else {
+            openMenu();
+          }
+        }
+        
+        // Hamburger click
+        hamburger.addEventListener('click', toggleMenu);
+        
+        // Overlay click
+        overlay.addEventListener('click', function(e) {
+          e.preventDefault();
+          closeMenu();
+        });
+        
+        // Nav links click
+        navLinks.forEach(function(link) {
+          link.addEventListener('click', function() {
+            setTimeout(closeMenu, 150);
+          });
+        });
+        
+        // Window resize
+        window.addEventListener('resize', function() {
+          if (window.innerWidth > 768 && menuOpen) {
+            closeMenu();
+          }
+        });
+      }
+      
+      // Initialize when DOM is ready
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initMenu);
+      } else {
+        initMenu();
+      }
+    })();
+  </script>
+
   <style>
-    /* Mobile specific fixes for hakkimizda */
-    @media (max-width: 768px) {
-      #hakkimizda {
-        padding-top: 120px !important;
-        padding-left: 16px !important;
-        padding-right: 16px !important;
-      }
-      
-      .content {
-        padding: 60px 16px !important;
-      }
-      
-      .content h2 {
-        font-size: 1.75rem !important;
-        margin-bottom: 20px !important;
-      }
-      
-      .content p {
-        font-size: 1rem !important;
-        line-height: 1.6 !important;
-      }
-      
-      .cards {
-        grid-template-columns: 1fr !important;
-        gap: 24px !important;
-        margin-top: 32px !important;
-      }
-      
-      .card {
-        padding: 24px !important;
-        margin: 0 !important;
-      }
-      
-      .card h3 {
-        font-size: 1.1rem !important;
-        margin-bottom: 16px !important;
-      }
-      
-      .card p {
-        font-size: 0.95rem !important;
-      }
-      
-      .card ul {
-        font-size: 0.95rem !important;
-      }
-      
-      .card ul li {
-        padding: 4px 0 !important;
-        font-size: 0.9rem !important;
-      }
+    /* Hakkımızda sayfası için özel mobile fixes */
+    #hakkimizda {
+      padding-top: 140px;
     }
     
-    @media (max-width: 480px) {
-      #hakkimizda {
-        padding-top: 100px !important;
-        padding-left: 12px !important;
-        padding-right: 12px !important;
-      }
-      
+    /* Mobil uyumluluk */
+    @media (max-width: 768px) {
       .content {
-        padding: 40px 12px !important;
+        padding: 80px 24px 60px;
       }
-      
       .content h2 {
-        font-size: 1.5rem !important;
+        text-align: center;
+        font-size: 1.875rem;
       }
-      
-      .content h2::after {
-        width: 40px !important;
-        height: 2px !important;
+      .content p {
+        text-align: center;
+        font-size: 1.05rem;
+        line-height: 1.7;
       }
-      
+      .cards {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+      .card h3 {
+        font-size: 1.25rem;
+        margin-bottom: 16px;
+      }
+      .card ul {
+        text-align: left;
+        display: inline-block;
+        margin: 0 auto;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .content {
+        padding: 60px 16px;
+      }
       .card {
-        padding: 20px !important;
+        padding: 24px;
       }
-      
-      footer {
-        padding: 30px 12px !important;
-        font-size: 0.85rem !important;
+      .card h3 {
+        font-size: 1.125rem;
       }
     }
   </style>
