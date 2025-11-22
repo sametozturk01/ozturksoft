@@ -31,8 +31,7 @@
         <h3>Adres</h3>
         <p style="margin: 16px 0 24px;">Ofis ziyaretleri randevu ile</p>
         <address style="color: #6b7280; font-style: normal; line-height: 1.6;">
-          Home Office<br>
-              <br>
+          Home Office<br><br>
           Çankaya / Ankara
         </address>
       </div>
@@ -58,7 +57,7 @@
             <input type="text" style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s;">
           </div>
         </div>
-        
+
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
           <div>
             <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #374151;">E-posta *</label>
@@ -83,7 +82,7 @@
             <option value="other">Diğer</option>
           </select>
         </div>
-        
+
         <div>
           <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #374151;">Bütçe Aralığı</label>
           <select style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; background: white;">
@@ -99,58 +98,97 @@
           <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #374151;">Proje Detayları *</label>
           <textarea required rows="6" placeholder="Projenizin detaylarını, gereksinimlerinizi ve beklentilerinizi açıklayın..." style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; font-family: inherit; resize: vertical; transition: border-color 0.2s;"></textarea>
         </div>
-        
+
         <div style="display: flex; align-items: center; gap: 12px;">
           <input type="checkbox" required id="privacy" style="width: 18px; height: 18px;">
           <label for="privacy" style="color: #6b7280; font-size: 0.95rem;">
-            <a href="#" style="color: #2563eb; text-decoration: none;">Gizlilik Politikası</a>'nı okudum ve kabul ediyorum. *
+            <a href="#" id="privacyLink" style="color: #2563eb; text-decoration: none;">Gizlilik Politikası</a>'nı okudum ve kabul ediyorum. *
           </label>
         </div>
-        
-        <button type="submit" class="btn btn-primary" style="justify-self: start; min-width: 200px;">
-          Teklif Talep Et
-        </button>
+
+        <button type="submit" class="btn btn-primary" style="justify-self: start; min-width: 200px;">Teklif Talep Et</button>
       </form>
     </div>
   </div>
 </section>
+
+<!-- Gizlilik Modal -->
+<div id="privacyModal" style="display:none; position:fixed; inset:0; background: rgba(0,0,0,0.6); padding:40px; z-index:9999; overflow-y:auto;">
+  <div style="max-width:700px; margin:auto; background:white; padding:32px; border-radius:12px; box-shadow:0 10px 40px rgba(0,0,0,0.2);">
+    <h2>Gizlilik Politikası</h2>
+   <p>
+    Ozturksoft olarak, web sitemizi ziyaret eden kullanıcıların ve iletişim formu üzerinden paylaşım yapan kişilerin kişisel verilerini koruma sorumluluğunu taşıyoruz. 
+     Bu gizlilik politikası, hangi verileri topladığımızı, nasıl kullandığımızı ve haklarınızı açıklamaktadır.
+   </p>
+
+   <h3>Toplanan Veriler</h3>
+   <ul>
+   <ul>İletişim formu üzerinden sağlanan ad-soyad, e-posta, telefon, şirket bilgisi ve proje detayları</ul>
+   <ul>IP adresi ve tarayıcı bilgileri (web sitesi güvenliği ve performans analizi için)</ul>
+   </ul>
+
+   <h3>Veri Kullanımı</h3>
+   <p>
+   Toplanan veriler yalnızca sizinle iletişime geçmek, teklif sunmak ve hizmetlerimizi geliştirmek amacıyla kullanılacaktır. Verileriniz üçüncü kişilerle paylaşılmayacaktır.
+   </p>
+
+   <h3>Veri Saklama Süresi</h3>
+   <p>
+   Kişisel verileriniz, amacının gerçekleşmesi için gerekli süre boyunca saklanır. Teklif veya iletişim süreci tamamlandığında, talebiniz doğrultusunda verileriniz silinir.
+   </p>
+
+   <h3>Kullanıcı Hakları</h3>
+   <p>
+   KVKK kapsamında, kişisel verilerinize erişim, düzeltme, silme, işleme sınırlama ve veri taşınabilirliği haklarınızı kullanabilirsiniz. Taleplerinizi <a href="mailto:info.ozturksoft@gmail.com">info.ozturksoft@gmail.com</a> adresine iletebilirsiniz.
+   </p>
+
+   <h3>Güvenlik</h3>
+   <p>
+   Ozturksoft, kişisel verilerinizi korumak için teknik ve idari güvenlik önlemleri uygular. Ancak internet üzerinden veri iletiminin tamamen güvenli olduğunu garanti edemeyiz.
+   </p>
+
+   <p>Bu politika, kullanıcıların kişisel verilerinin korunmasına ilişkin hak ve yükümlülükleri açıkça ifade eder.</p>
+
+    <button id="closePrivacy" style="margin-top:20px; padding:12px 20px; background:#2563eb; color:white; border:none; border-radius:8px; cursor:pointer;">Kapat</button>
+  </div>
+</div>
 
 <!-- Hızlı İletişim -->
 <section class="process-section" style="background: #f8fafc;">
   <div class="container">
     <h2>Hızlı Yanıt Garantisi</h2>
     <p class="section-subtitle">İletişim kanallarımız ve yanıt sürelerimiz</p>
-    
+
     <div class="process-timeline">
       <div class="process-step">
         <div class="step-number" style="background: #10b981;">📧</div>
         <div class="step-content">
           <h3>E-posta</h3>
-          <p><strong>4 saat içinde</strong> yanıt garantisi. Detaylı teknik sorular ve proje önerileri için ideal kanal.</p>
+          <p><strong>4 saat içinde</strong> yanıt.</p>
         </div>
       </div>
-      
+
       <div class="process-step">
         <div class="step-number" style="background: #f59e0b;">📞</div>
         <div class="step-content">
           <h3>Telefon</h3>
-          <p><strong>Anında görüşme</strong> imkanı. Acil durumlar ve hızlı konsültasyon için bizi arayın.</p>
+          <p><strong>Anında görüşme</strong> imkanı.</p>
         </div>
       </div>
-      
+
       <div class="process-step">
         <div class="step-number" style="background: #8b5cf6;">💬</div>
         <div class="step-content">
-          <h3>WhatsApp Business</h3>
-          <p><strong>2 saat içinde</strong> yanıt. Küçük sorular ve güncel proje durumu için hızlı iletişim.</p>
+          <h3>WhatsApp</h3>
+          <p><strong>2 saat içinde</strong> yanıt.</p>
         </div>
       </div>
-      
+
       <div class="process-step">
         <div class="step-number" style="background: #ef4444;">🚨</div>
         <div class="step-content">
           <h3>Acil Destek</h3>
-          <p><strong>7/24 acil destek</strong> hattı. Production ortamındaki kritik sorunlar için.</p>
+          <p><strong>7/24</strong> hizmet.</p>
         </div>
       </div>
     </div>
@@ -162,27 +200,27 @@
   <div class="container">
     <h2>Sıkça Sorulan Sorular</h2>
     <p class="section-subtitle">Merak ettiklerinizin yanıtları</p>
-    
+
     <div style="max-width: 800px; margin: 48px auto;">
       <div style="display: grid; gap: 24px;">
         <div style="border: 2px solid #e5e7eb; border-radius: 12px; padding: 24px;">
-          <h3 style="color: #111827; margin-bottom: 12px;">Proje süresi ne kadar?</h3>
-          <p style="color: #6b7280; margin: 0;">Proje karmaşıklığına bağlı olarak 2-12 hafta arasında değişir. İlk görüşmede size detaylı timeline sunuyoruz.</p>
+          <h3>Proje süresi ne kadar?</h3>
+          <p>Genelde 2–12 hafta.</p>
         </div>
-        
+
         <div style="border: 2px solid #e5e7eb; border-radius: 12px; padding: 24px;">
-          <h3 style="color: #111827; margin-bottom: 12px;">Test süreci nasıl işliyor?</h3>
-          <p style="color: #6b7280; margin: 0;">Her projeye özel test planı hazırlıyoruz. Automated + Manual testler ile %100 kalite güvencesi sağlıyoruz.</p>
+          <h3>Test süreci nasıl işliyor?</h3>
+          <p>Manual + Automated test süreçleri ile.</p>
         </div>
-        
+
         <div style="border: 2px solid #e5e7eb; border-radius: 12px; padding: 24px;">
-          <h3 style="color: #111827; margin-bottom: 12px;">Proje sonrası destek var mı?</h3>
-          <p style="color: #6b7280; margin: 0;">Evet! Tüm projelerimizde 30-90 gün arası ücretsiz destek veriyoruz. Sonrasında bakım paketlerimiz var.</p>
+          <h3>Proje sonrası destek var mı?</h3>
+          <p>30–90 gün ücretsiz destek.</p>
         </div>
-        
+
         <div style="border: 2px solid #e5e7eb; border-radius: 12px; padding: 24px;">
-          <h3 style="color: #111827; margin-bottom: 12px;">Uzaktan çalışma yapıyor musunuz?</h3>
-          <p style="color: #6b7280; margin: 0;">Evet! Türkiye genelinde ve yurt dışından da projeler kabul ediyoruz. Online toplantılar ile sürekli iletişim halindeyiz.</p>
+          <h3>Uzaktan çalışıyor musunuz?</h3>
+          <p>Evet, Türkiye ve global projeler kabul ediyoruz.</p>
         </div>
       </div>
     </div>
@@ -194,7 +232,7 @@
   <div class="container">
     <div class="cta-content">
       <h2>Hayalinizdeki Projeyi Gerçeğe Dönüştürelim</h2>
-      <p>Uzman ekibimiz projenizin her detayını planlamaya hazır. İlk görüşme ücretsiz!</p>
+      <p>Uzman ekibimiz projenizin her detayını planlamaya hazır.</p>
       <div class="cta-buttons">
         <a href="tel:+905465496806" class="btn btn-primary">Hemen Arayın</a>
         <a href="mailto:info.ozturksoft@gmail.com" class="btn btn-outline">E-posta Gönderin</a>
@@ -211,7 +249,6 @@ input:focus, textarea:focus, select:focus {
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
 }
 
-/* Form responsive */
 @media (max-width: 768px) {
   div[style*="grid-template-columns: 1fr 1fr"] {
     grid-template-columns: 1fr !important;
@@ -220,8 +257,6 @@ input:focus, textarea:focus, select:focus {
 </style>
 
 <!-- Footer -->
-  <footer>
-    <p>© 2025 Ozturksoft. Tüm hakları saklıdır.</p>
-  </footer>
-</body>
-</html>
+<footer>
+  <p>© 2025 Ozturksoft. Tüm hakları saklıdır.</p>
+</footer>
