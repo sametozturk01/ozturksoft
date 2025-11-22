@@ -48,29 +48,28 @@ function initPrivacyModal() {
   });
 }
 
-// Form submit fonksiyonu
 function initContactForm() {
   const form = document.querySelector<HTMLFormElement>("form");
   if (!form) return;
 
   form.addEventListener("submit", (e) => {
-    e.preventDefault(); // normal submit engellenir
+    e.preventDefault();
 
     const formData = new FormData(form);
-    let body = "";
+    let body = `
+   Ad Soyad: ${formData.get("adSoyad") || ""}
+   Şirket: ${formData.get("sirket") || ""}
+   E-posta: ${formData.get("email") || ""}
+   Telefon: ${formData.get("telefon") || ""}
+   Proje Türü: ${formData.get("projeTuru") || ""}
+   Bütçe: ${formData.get("butce") || ""}
+   Proje Detayları: ${formData.get("projeDetay") || ""}
+   `;
 
-    // Form verilerini mail body stringine ekle
-    formData.forEach((value, key) => {
-      body += `${key}: ${value}\n`;
-    });
+    const subject = `Teklif Talebi: ${formData.get("adSoyad") || ""}`;
 
-    // Mail subject: Ad Soyad
-    const subject = `Teklif Talebi: ${formData.get("Ad Soyad *") || ""}`;
-
-    // mailto link oluştur
     const mailtoLink = `mailto:info.ozturksoft@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
-    // kullanıcı mail programını açsın
     window.location.href = mailtoLink;
   });
 }
