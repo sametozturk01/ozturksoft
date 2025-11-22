@@ -50,28 +50,28 @@
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
           <div>
             <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #374151;">Ad Soyad *</label>
-            <input type="text" required style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s;">
+            <input type="text" name="adSoyad" required style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s;">
           </div>
           <div>
             <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #374151;">Şirket</label>
-            <input type="text" style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s;">
+            <input type="text" name="sirket" style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s;">
           </div>
         </div>
 
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
           <div>
             <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #374151;">E-posta *</label>
-            <input type="email" required style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s;">
+            <input type="email" name="email" required style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s;">
           </div>
           <div>
             <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #374151;">Telefon</label>
-            <input type="tel" style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s;">
+            <input type="tel" name="telefon" style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s;">
           </div>
         </div>
         
         <div>
           <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #374151;">Proje Türü *</label>
-          <select required style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; background: white;">
+          <select name="projeTuru" required style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; background: white;">
             <option value="">Seçiniz...</option>
             <option value="web-development">Web Geliştirme</option>
             <option value="mobile-app">Mobil Uygulama</option>
@@ -85,7 +85,7 @@
 
         <div>
           <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #374151;">Bütçe Aralığı</label>
-          <select style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; background: white;">
+          <select name="butce" style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; background: white;">
             <option value="">Seçiniz...</option>
             <option value="10-25k">₺10,000 - ₺25,000</option>
             <option value="25-50k">₺25,000 - ₺50,000</option>
@@ -96,7 +96,7 @@
         
         <div>
           <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #374151;">Proje Detayları *</label>
-          <textarea required rows="6" placeholder="Projenizin detaylarını, gereksinimlerinizi ve beklentilerinizi açıklayın..." style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; font-family: inherit; resize: vertical; transition: border-color 0.2s;"></textarea>
+          <textarea name="projeDetay" required rows="6" placeholder="Projenizin detaylarını, gereksinimlerinizi ve beklentilerinizi açıklayın..." style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; font-family: inherit; resize: vertical; transition: border-color 0.2s;"></textarea>
         </div>
 
         <div style="display: flex; align-items: center; gap: 12px;">
