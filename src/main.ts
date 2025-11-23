@@ -73,3 +73,33 @@ function initContactForm() {
     window.location.href = mailtoLink;
   });
 }
+
+function initScrollTopButton() {
+  const btn = document.getElementById("scrollTopBtn");
+  if (!btn) return;
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      btn.classList.add("show");
+    } else {
+      btn.classList.remove("show");
+    }
+  });
+
+  btn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
+}
+
+initScrollTopButton();
+
+window.addEventListener("hashchange", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+window.addEventListener("popstate", () => {
+  window.scrollTo({ top: 0 });
+});
