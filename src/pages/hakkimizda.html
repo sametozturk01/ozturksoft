@@ -3,11 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OzturkSoft - Hakkımızda</title>
+  <title>Hakkımızda - Ozturksoft</title>
   <link rel="stylesheet" href="style.css">
+
+  <!-- SEO Meta -->
+  <meta name="description" content="Ozturksoft hakkında bilgi edinin. Profesyonel ekibimiz ve değerlerimizle modern yazılım çözümleri üretiyoruz.">
+
+  <!-- Open Graph (Facebook, WhatsApp, Messenger) -->
+  <meta property="og:title" content="Hakkımızda - Ozturksoft">
+  <meta property="og:description" content="Ozturksoft hakkında bilgi edinin. Profesyonel ekibimiz ve değerlerimizle modern yazılım çözümleri üretiyoruz.">
+  <meta property="og:url" content="https://ozturksoft.net/hakkimizda">
+  <meta property="og:image" content="https://ozturksoft.net/public/images/logo.png">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hakkımızda - Ozturksoft">
+  <meta name="twitter:description" content="Ozturksoft hakkında bilgi edinin. Profesyonel ekibimiz ve değerlerimizle modern yazılım çözümleri üretiyoruz.">
+  <meta name="twitter:image" content="https://ozturksoft.net/public/images/logo.png">
+
 </head>
 <body>
-
 
   <!-- Mobile Menu Overlay -->
   <div class="nav-overlay" id="navOverlay"></div>
@@ -38,8 +54,6 @@
       </div>
     </div>
   </section>
-
-
 
   <script>
     // Hamburger menu toggle - Fixed version
@@ -83,23 +97,16 @@
           }
         }
         
-        // Hamburger click
         hamburger.addEventListener('click', toggleMenu);
-        
-        // Overlay click
         overlay.addEventListener('click', function(e) {
           e.preventDefault();
           closeMenu();
         });
-        
-        // Nav links click
         navLinks.forEach(function(link) {
           link.addEventListener('click', function() {
             setTimeout(closeMenu, 150);
           });
         });
-        
-        // Window resize
         window.addEventListener('resize', function() {
           if (window.innerWidth > 768 && menuOpen) {
             closeMenu();
@@ -107,7 +114,6 @@
         });
       }
       
-      // Initialize when DOM is ready
       if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', initMenu);
       } else {
@@ -122,7 +128,6 @@
       padding-top: 140px;
     }
     
-    /* Mobil uyumluluk */
     @media (max-width: 768px) {
       .content {
         padding: 80px 24px 60px;
@@ -163,14 +168,11 @@
       }
     }
   </style>
-</body>
-</html>
 
-
-
-<!-- Footer -->
+  <!-- Footer -->
   <footer>
     <p>© 2025 Ozturksoft. Tüm hakları saklıdır.</p>
   </footer>
+
 </body>
 </html>
