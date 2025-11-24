@@ -1,4 +1,5 @@
 // main.ts
+
 async function loadPage(page: string) {
   const app = document.getElementById("app")!;
   
@@ -7,11 +8,11 @@ async function loadPage(page: string) {
     const html = await res.text();
     app.innerHTML = html;
 
-    // Modal ve link event listener'larını ekle
+    // Sayfa yüklendikten sonra tüm eventler ve animasyonlar
     initPrivacyModal();
-
-    // Form submit event listener
     initContactForm();
+    initScrollTopButton();
+    initHeroStatsAnimation();
   } catch (err) {
     app.innerHTML = "<section class='content'><p>Sayfa bulunamadı.</p></section>";
   }
@@ -22,9 +23,9 @@ function router() {
   loadPage(hash);
 }
 
+// Sayfa yüklendiğinde ve hash değiştiğinde router çalışsın
 window.addEventListener("hashchange", router);
 window.addEventListener("load", router);
-document.addEventListener("DOMContentLoaded", router);
 
 // Gizlilik modal fonksiyonu
 function initPrivacyModal() {
@@ -34,7 +35,7 @@ function initPrivacyModal() {
 
   if (!privacyLink || !modal || !closeBtn) return;
 
-  privacyLink.addEventListener("click", (e: Event) => {
+  privacyLink.addEventListener("click", (e) => {
     e.preventDefault();
     modal.style.display = "block";
   });
@@ -43,63 +44,69 @@ function initPrivacyModal() {
     modal.style.display = "none";
   });
 
-  modal.addEventListener("click", (e: MouseEvent) => {
+  modal.addEventListener("click", (e) => {
     if (e.target === modal) modal.style.display = "none";
   });
 }
 
+// Form submit handler
 function initContactForm() {
   const form = document.querySelector<HTMLFormElement>("form");
   if (!form) return;
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
-
     const formData = new FormData(form);
-    let body = `
-   Ad Soyad: ${formData.get("adSoyad") || ""}
-   Şirket: ${formData.get("sirket") || ""}
-   E-posta: ${formData.get("email") || ""}
-   Telefon: ${formData.get("telefon") || ""}
-   Proje Türü: ${formData.get("projeTuru") || ""}
-   Bütçe: ${formData.get("butce") || ""}
-   Proje Detayları: ${formData.get("projeDetay") || ""}
-   `;
-
+    const body = `
+Ad Soyad: ${formData.get("adSoyad") || ""}
+Şirket: ${formData.get("sirket") || ""}
+E-posta: ${formData.get("email") || ""}
+Telefon: ${formData.get("telefon") || ""}
+Proje Türü: ${formData.get("projeTuru") || ""}
+Bütçe: ${formData.get("butce") || ""}
+Proje Detayları: ${formData.get("projeDetay") || ""}
+`;
     const subject = `Teklif Talebi: ${formData.get("adSoyad") || ""}`;
-
     const mailtoLink = `mailto:info.ozturksoft@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-
     window.location.href = mailtoLink;
   });
 }
 
+// Scroll to top button
 function initScrollTopButton() {
   const btn = document.getElementById("scrollTopBtn");
   if (!btn) return;
 
   window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) {
-      btn.classList.add("show");
-    } else {
-      btn.classList.remove("show");
-    }
+    if (window.scrollY > 300) btn.classList.add("show");
+    else btn.classList.remove("show");
   });
 
   btn.addEventListener("click", () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   });
 }
 
-initScrollTopButton();
+// Hero stats animasyonu
+function initHeroStatsAnimation() {
+  const stats = document.querySelectorAll<HTMLSpanElement>(".stat-number");
+  if (!stats.length) return;
 
-window.addEventListener("hashchange", () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-});
+  stats.forEach((stat) => {
+    const target = parseFloat(stat.dataset.target || "0");
+    let count = 0;
+    const increment = target / 200;
 
-window.addEventListener("popstate", () => {
-  window.scrollTo({ top: 0 });
-});
+    const update = () => {
+      count += increment;
+      if (count < target) {
+        stat.textContent = Math.floor(count).toString();
+        requestAnimationFrame(update);
+      } else {
+        stat.textContent = target.toString();
+      }
+    };
+
+    update();
+  });
+}
