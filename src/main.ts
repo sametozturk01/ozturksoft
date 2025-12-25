@@ -1,5 +1,14 @@
 // main.ts
 
+// 🔴 SEO FIX: Hash URL temizleme (Google duplicate fix)
+if (window.location.hash) {
+  history.replaceState(
+    null,
+    "",
+    window.location.pathname + window.location.search
+  );
+}
+
 async function loadPage(page: string) {
   const app = document.getElementById("app")!;
   
