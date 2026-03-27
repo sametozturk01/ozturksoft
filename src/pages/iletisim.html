@@ -1,262 +1,829 @@
-<!-- İletişim Hero -->
-<section class="hero" style="padding: 140px 20px 80px; background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);">
-  <div class="hero-content">
-    <h1>Bizimle <span class="highlight">İletişime Geçin</span></h1>
-    <p class="hero-subtitle">Projeniz hakkında konuşmaya hazırız. Ücretsiz konsültasyon ve teknik analiz için hemen iletişime geçin.</p>
-  </div>
-</section>
-
-<!-- İletişim Bilgileri -->
-<section class="features-section">
-  <div class="container">
-    <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px;">
-      <div class="feature-card" style="text-align: center; padding: 48px 32px;">
-        <div class="feature-icon" style="font-size: 3.5rem; margin-bottom: 24px;">📧</div>
-        <h3>E-posta</h3>
-        <p style="margin: 16px 0 24px;">7/24 e-posta desteği</p>
-        <a href="mailto:info.ozturksoft@gmail.com" style="color: #2563eb; font-weight: 600; text-decoration: none;">info.ozturksoft@gmail.com</a>
-      </div>
-      
-      <div class="feature-card" style="text-align: center; padding: 48px 32px;">
-        <div class="feature-icon" style="font-size: 3.5rem; margin-bottom: 24px;">📞</div>
-        <h3>Telefon</h3>
-        <p style="margin: 16px 0 24px;">Mesai saatleri: 09:00 - 18:00</p>
-        <a href="tel:+905465496806" style="color: #2563eb; font-weight: 600; text-decoration: none; font-size: 1.25rem;">0546 549 68 06</a>
-        <br>
-        <span style="color: #6b7280; font-size: 0.9rem;">(Teknik Destek)</span>
-      </div>
-      
-      <div class="feature-card" style="text-align: center; padding: 48px 32px;">
-        <div class="feature-icon" style="font-size: 3.5rem; margin-bottom: 24px;">📍</div>
-        <h3>Adres</h3>
-        <p style="margin: 16px 0 24px;">Ofis ziyaretleri randevu ile</p>
-        <address style="color: #6b7280; font-style: normal; line-height: 1.6;">
-          Home Office<br><br>
-          Çankaya / Ankara
-        </address>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- İletişim Formu -->
-<section class="tech-section" style="background: white;">
-  <div class="container">
-    <h2>Proje Teklifi Alın</h2>
-    <p class="section-subtitle">Projenizin detaylarını paylaşın, size en uygun çözümü sunalım</p>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim | Ozturksoft</title>
     
-    <div style="max-width: 700px; margin: 48px auto;">
-      <form style="display: grid; gap: 24px;">
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
-          <div>
-            <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #374151;">Ad Soyad *</label>
-            <input type="text" name="adSoyad" required style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s;">
-          </div>
-          <div>
-            <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #374151;">Şirket</label>
-            <input type="text" name="sirket" style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s;">
-          </div>
-        </div>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    
+    <style>
+        /* Premium Animations */
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+        }
+        
+        @keyframes ripple {
+            0% { transform: scale(0.8); opacity: 1; }
+            100% { transform: scale(2); opacity: 0; }
+        }
+        
+        /* Contact Cards Premium */
+        .contact-card {
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.9) 0%, rgba(30, 41, 59, 0.8) 100%);
+            padding: 50px 40px;
+            border-radius: 28px;
+            border: 1px solid rgba(59, 130, 246, 0.1);
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .contact-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, transparent 100%);
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+        
+        .contact-card:hover {
+            transform: translateY(-15px) scale(1.02);
+            border-color: rgba(59, 130, 246, 0.5);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4), 0 0 50px rgba(59, 130, 246, 0.2);
+        }
+        
+        .contact-card:hover::before {
+            opacity: 1;
+        }
+        
+        .contact-icon {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.2) 0%, rgba(37, 99, 235, 0.1) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            margin: 0 auto 30px;
+            transition: all 0.5s;
+            position: relative;
+        }
+        
+        .contact-icon::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 2px solid var(--primary);
+            opacity: 0;
+            animation: ripple 2s infinite;
+        }
+        
+        .contact-card:hover .contact-icon {
+            background: linear-gradient(135deg, var(--primary) 0%, #2563eb 100%);
+            transform: scale(1.15) rotate(5deg);
+            box-shadow: 0 15px 40px rgba(59, 130, 246, 0.5);
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        /* Form Premium Styles */
+        .form-group {
+            margin-bottom: 28px;
+            animation: slideUp 0.6s ease-out;
+            animation-fill-mode: both;
+        }
+        
+        .form-label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--text-main);
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+        
+        .form-input,
+        .form-select,
+        .form-textarea {
+            width: 100%;
+            padding: 16px 20px;
+            border: 2px solid rgba(59, 130, 246, 0.2);
+            border-radius: 12px;
+            font-size: 1rem;
+            background: rgba(15, 23, 42, 0.6);
+            color: var(--text-main);
+            transition: all 0.4s;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        
+        .form-input:focus,
+        .form-select:focus,
+        .form-textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            background: rgba(15, 23, 42, 0.9);
+            box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15), 0 8px 20px rgba(59, 130, 246, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .form-input::placeholder,
+        .form-textarea::placeholder {
+            color: rgba(255, 255, 255, 0.3);
+        }
+        
+        .form-textarea {
+            resize: vertical;
+            min-height: 180px;
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 28px;
+        }
+        
+        .form-checkbox {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+        
+        .form-checkbox input {
+            width: 22px;
+            height: 22px;
+            margin-top: 2px;
+            cursor: pointer;
+            accent-color: var(--primary);
+        }
+        
+        .form-checkbox label {
+            color: var(--text-dim);
+            font-size: 0.95rem;
+            cursor: pointer;
+            line-height: 1.6;
+        }
+        
+        .form-checkbox a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        
+        .form-checkbox a:hover {
+            color: var(--accent);
+        }
+        
+        /* Submit Button Premium */
+        .submit-btn {
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, var(--primary) 0%, #2563eb 100%);
+            padding: 20px 55px;
+            font-size: 1.15rem;
+            font-weight: 700;
+            border-radius: 14px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            transition: all 0.4s;
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .submit-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transition: left 0.5s;
+        }
+        
+        .submit-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(59, 130, 246, 0.5);
+        }
+        
+        .submit-btn:hover::before {
+            left: 100%;
+        }
+        
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+        
+        /* Response Time Cards */
+        .response-card {
+            background: rgba(15, 23, 42, 0.6);
+            padding: 40px 30px;
+            border-radius: 24px;
+            border: 1px solid rgba(59, 130, 246, 0.1);
+            text-align: center;
+            transition: all 0.4s;
+        }
+        
+        .response-card:hover {
+            background: rgba(15, 23, 42, 0.9);
+            transform: translateY(-12px);
+            border-color: var(--primary);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .response-icon {
+            width: 85px;
+            height: 85px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+            font-size: 2.2rem;
+            transition: all 0.4s;
+        }
+        
+        .response-card:hover .response-icon {
+            transform: scale(1.2) rotate(10deg);
+        }
+        
+        /* FAQ Cards */
+        .faq-card {
+            background: rgba(15, 23, 42, 0.6);
+            padding: 40px 45px;
+            border-radius: 24px;
+            border: 1px solid rgba(59, 130, 246, 0.1);
+            transition: all 0.4s;
+            cursor: pointer;
+        }
+        
+        .faq-card:hover {
+            background: rgba(15, 23, 42, 0.9);
+            border-color: rgba(59, 130, 246, 0.3);
+            transform: translateX(15px);
+        }
+        
+        .faq-card h3 {
+            color: var(--primary);
+            margin-bottom: 18px;
+            font-size: 1.35rem;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .faq-card h3 i {
+            transition: transform 0.3s;
+        }
+        
+        .faq-card:hover h3 i {
+            transform: rotate(180deg);
+        }
+        
+        /* Modal Premium */
+        .modal-content {
+            animation: slideUp 0.5s ease-out;
+        }
+        
+        @media (max-width: 768px) {
+            .form-row {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            
+            .contact-icon {
+                width: 80px;
+                height: 80px;
+                font-size: 2.5rem;
+            }
+            
+            .submit-btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
-          <div>
-            <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #374151;">E-posta *</label>
-            <input type="email" name="email" required style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s;">
-          </div>
-          <div>
-            <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #374151;">Telefon</label>
-            <input type="tel" name="telefon" style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s;">
-          </div>
+    <!-- Premium Hero -->
+    <section class="hero" style="height: 65vh; position: relative;">
+        <div class="hero-bg-container">
+            <div class="hero-slide" style="opacity: 0.3; background-image: url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?q=80&w=1920');"></div>
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at center, transparent, var(--dark-bg)); z-index: 2;"></div>
         </div>
         
-        <div>
-          <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #374151;">Proje Türü *</label>
-          <select name="projeTuru" required style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; background: white;">
-            <option value="">Seçiniz...</option>
-            <option value="web-development">Web Geliştirme</option>
-            <option value="mobile-app">Mobil Uygulama</option>
-            <option value="ecommerce">E-ticaret Sitesi</option>
-            <option value="testing">Test & QA Hizmetleri</option>
-            <option value="devops">DevOps & Cloud</option>
-            <option value="consultation">Danışmanlık</option>
-            <option value="other">Diğer</option>
-          </select>
+        <div class="hero-content" style="z-index: 10;">
+            <h1 style="font-size: clamp(2.5rem, 6vw, 4.5rem); margin-bottom: 30px; margin-top: 80px">
+                Bizimle <span class="highlight">İletişime Geçin</span>
+            </h1>
+            
+            <p class="hero-subtitle" style="max-width: 750px; font-size: 1.2rem;">
+                Projeniz hakkında konuşmaya hazırız. Ücretsiz konsültasyon ve teknik analiz için hemen iletişime geçin.
+            </p>
+            
+            <div style="display: flex; gap: 30px; justify-content: center; margin-top: 40px; flex-wrap: wrap;">
+                <div style="text-align: center;">
+                    <div style="font-size: 2.5rem; font-weight: 800; background: linear-gradient(135deg, var(--primary), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 8px;">4 Saat</div>
+                    <div style="color: var(--text-dim);">Yanıt Süresi</div>
+                </div>
+                <div style="width: 1px; background: rgba(255,255,255,0.1);"></div>
+                <div style="text-align: center;">
+                    <div style="font-size: 2.5rem; font-weight: 800; background: linear-gradient(135deg, var(--primary), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 8px;">Ücretsiz</div>
+                    <div style="color: var(--text-dim);">Konsültasyon</div>
+                </div>
+                <div style="width: 1px; background: rgba(255,255,255,0.1);"></div>
+                <div style="text-align: center;">
+                    <div style="font-size: 2.5rem; font-weight: 800; background: linear-gradient(135deg, var(--primary), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 8px;">7/24</div>
+                    <div style="color: var(--text-dim);">Destek Hattı</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim Kartları -->
+    <section>
+        <div style="text-align: center; margin-bottom: 70px;">
+            <div style="display: inline-block; padding: 8px 20px; background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 30px; margin-bottom: 20px;">
+                <span style="color: var(--primary); font-weight: 700; font-size: 0.85rem; letter-spacing: 2px;">
+                    <i class="fas fa-address-book" style="margin-right: 8px;"></i>
+                    İLETİŞİM BİLGİLERİ
+                </span>
+            </div>
+            
+            <h2 style="font-size: 3rem; font-weight: 800; margin-bottom: 20px;">
+                Bize <span class="highlight">Ulaşın</span>
+            </h2>
+            <p style="color: var(--text-dim); max-width: 700px; margin: 0 auto; font-size: 1.1rem;">
+                Size en uygun iletişim kanalını seçin, hemen yardımcı olalım.
+            </p>
         </div>
 
-        <div>
-          <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #374151;">Bütçe Aralığı</label>
-          <select name="butce" style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; background: white;">
-            <option value="">Seçiniz...</option>
-            <option value="10-25k">₺10,000 - ₺25,000</option>
-            <option value="25-50k">₺25,000 - ₺50,000</option>
-            <option value="50-100k">₺50,000 - ₺100,000</option>
-            <option value="100k+">₺100,000+</option>
-          </select>
-        </div>
-        
-        <div>
-          <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #374151;">Proje Detayları *</label>
-          <textarea name="projeDetay" required rows="6" placeholder="Projenizin detaylarını, gereksinimlerinizi ve beklentilerinizi açıklayın..." style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; font-family: inherit; resize: vertical; transition: border-color 0.2s;"></textarea>
-        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 35px; margin-bottom: 80px;">
+            <!-- E-posta -->
+            <div class="contact-card">
+                <div class="contact-icon">📧</div>
+                <h3 style="margin-bottom: 18px; font-size: 1.6rem; color: white;">E-posta</h3>
+                <p style="margin: 16px 0 28px; color: var(--text-dim); line-height: 1.7;">
+                    7/24 e-posta desteği<br>
+                    <strong style="color: var(--primary);">4 saat içinde yanıt garantisi</strong>
+                </p>
+                <a href="mailto:info.ozturksoft@gmail.com" class="btn btn-primary" style="padding: 14px 28px; font-size: 1rem; display: inline-flex; align-items: center; gap: 10px;">
+                    <i class="fas fa-envelope"></i>
+                    info.ozturksoft@gmail.com
+                </a>
+            </div>
 
-        <div style="display: flex; align-items: center; gap: 12px;">
-          <input type="checkbox" required id="privacy" style="width: 18px; height: 18px;">
-          <label for="privacy" style="color: #6b7280; font-size: 0.95rem;">
-            <a href="#" id="privacyLink" style="color: #2563eb; text-decoration: none;">Gizlilik Politikası</a>'nı okudum ve kabul ediyorum. *
-          </label>
-        </div>
-
-        <button type="submit" class="btn btn-primary" style="justify-self: start; min-width: 200px;">Teklif Talep Et</button>
-      </form>
-    </div>
-  </div>
-</section>
-
-<!-- Gizlilik Modal -->
-<div id="privacyModal" style="display:none; position:fixed; inset:0; background: rgba(0,0,0,0.6); padding:40px; z-index:9999; overflow-y:auto;">
-  <div style="max-width:700px; margin:auto; background:white; padding:32px; border-radius:12px; box-shadow:0 10px 40px rgba(0,0,0,0.2);">
-    <h2>Gizlilik Politikası</h2>
-   <p>
-    Ozturksoft olarak, web sitemizi ziyaret eden kullanıcıların ve iletişim formu üzerinden paylaşım yapan kişilerin kişisel verilerini koruma sorumluluğunu taşıyoruz. 
-     Bu gizlilik politikası, hangi verileri topladığımızı, nasıl kullandığımızı ve haklarınızı açıklamaktadır.
-   </p>
-
-   <h3>Toplanan Veriler</h3>
-   <ul>
-   <ul>İletişim formu üzerinden sağlanan ad-soyad, e-posta, telefon, şirket bilgisi ve proje detayları</ul>
-   <ul>IP adresi ve tarayıcı bilgileri (web sitesi güvenliği ve performans analizi için)</ul>
-   </ul>
-
-   <h3>Veri Kullanımı</h3>
-   <p>
-   Toplanan veriler yalnızca sizinle iletişime geçmek, teklif sunmak ve hizmetlerimizi geliştirmek amacıyla kullanılacaktır. Verileriniz üçüncü kişilerle paylaşılmayacaktır.
-   </p>
-
-   <h3>Veri Saklama Süresi</h3>
-   <p>
-   Kişisel verileriniz, amacının gerçekleşmesi için gerekli süre boyunca saklanır. Teklif veya iletişim süreci tamamlandığında, talebiniz doğrultusunda verileriniz silinir.
-   </p>
-
-   <h3>Kullanıcı Hakları</h3>
-   <p>
-   KVKK kapsamında, kişisel verilerinize erişim, düzeltme, silme, işleme sınırlama ve veri taşınabilirliği haklarınızı kullanabilirsiniz. Taleplerinizi <a href="mailto:info.ozturksoft@gmail.com">info.ozturksoft@gmail.com</a> adresine iletebilirsiniz.
-   </p>
-
-   <h3>Güvenlik</h3>
-   <p>
-   Ozturksoft, kişisel verilerinizi korumak için teknik ve idari güvenlik önlemleri uygular. Ancak internet üzerinden veri iletiminin tamamen güvenli olduğunu garanti edemeyiz.
-   </p>
-
-   <p>Bu politika, kullanıcıların kişisel verilerinin korunmasına ilişkin hak ve yükümlülükleri açıkça ifade eder.</p>
-
-    <button id="closePrivacy" style="margin-top:20px; padding:12px 20px; background:#2563eb; color:white; border:none; border-radius:8px; cursor:pointer;">Kapat</button>
-  </div>
+            <!-- Telefon Kartı -->
+<div class="contact-card">
+    <div class="contact-icon">📞</div>
+    <h3 style="margin-bottom: 18px; font-size: 1.6rem; color: white;">Telefon</h3>
+    <p style="margin: 16px 0 28px; color: var(--text-dim); line-height: 1.7;">
+        Mesai saatleri: 09:00 - 18:00<br>
+        <strong style="color: var(--primary);" id="phoneDisplay"></strong> <!-- Numara burada gizli -->
+    </p>
+    
+    <!-- Buton -->
+    <button id="revealBtn" class="btn btn-primary" style="padding: 14px 28px; font-size: 1rem; cursor: pointer; border: none;">
+        <i class="fas fa-eye"></i> Numarayı Göster
+    </button>
 </div>
 
-<!-- Hızlı İletişim -->
-<section class="process-section" style="background: #f8fafc;">
-  <div class="container">
-    <h2>Hızlı Yanıt Garantisi</h2>
-    <p class="section-subtitle">İletişim kanallarımız ve yanıt sürelerimiz</p>
-
-    <div class="process-timeline">
-      <div class="process-step">
-        <div class="step-number" style="background: #10b981;">📧</div>
-        <div class="step-content">
-          <h3>E-posta</h3>
-          <p><strong>4 saat içinde</strong> yanıt.</p>
+            <!-- Adres -->
+            <div class="contact-card">
+                <div class="contact-icon">📍</div>
+                <h3 style="margin-bottom: 18px; font-size: 1.6rem; color: white;">Adres</h3>
+                <p style="margin: 16px 0 28px; color: var(--text-dim); line-height: 1.7;">
+                    Ofis ziyaretleri randevu ile<br>
+                    <strong style="color: var(--primary);">Çankaya / Ankara</strong>
+                </p>
+                <address style="color: var(--text-dim); font-style: normal; line-height: 1.8; font-size: 1.05rem;">
+                    Home Office<br>
+                    Çankaya, Ankara
+                </address>
+            </div>
         </div>
-      </div>
+    </section>
 
-      <div class="process-step">
-        <div class="step-number" style="background: #f59e0b;">📞</div>
-        <div class="step-content">
-          <h3>Telefon</h3>
-          <p><strong>Anında görüşme</strong> imkanı.</p>
+    <!-- İletişim Formu -->
+    <section style="background: rgba(15, 23, 42, 0.3); position: relative; overflow: hidden;">
+        <div style="position: absolute; right: -100px; bottom: -100px; font-size: 25rem; opacity: 0.02; color: white;">
+            <i class="fas fa-envelope-open-text"></i>
         </div>
-      </div>
+        
+        <div style="text-align: center; margin-bottom: 70px;">
+            <div style="display: inline-block; padding: 8px 20px; background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 30px; margin-bottom: 20px;">
+                <span style="color: var(--primary); font-weight: 700; font-size: 0.85rem; letter-spacing: 2px;">
+                    <i class="fas fa-file-signature" style="margin-right: 8px;"></i>
+                    PROJE TALEBİ
+                </span>
+            </div>
+            
+            <h2 style="font-size: 3rem; font-weight: 800; margin-bottom: 20px;">
+                Proje <span class="highlight">Teklifi Alın</span>
+            </h2>
+            <p style="color: var(--text-dim); max-width: 700px; margin: 0 auto; font-size: 1.1rem;">
+                Projenizin detaylarını paylaşın, size en uygun çözümü sunalım.
+            </p>
+        </div>
 
-      <div class="process-step">
-        <div class="step-number" style="background: #8b5cf6;">💬</div>
-        <div class="step-content">
-          <h3>WhatsApp</h3>
-          <p><strong>2 saat içinde</strong> yanıt.</p>
-        </div>
-      </div>
+        <div style="max-width: 900px; margin: 0 auto; position: relative; z-index: 5;">
+            <form id="contactForm" style="display: grid; gap: 28px;">
+                <!-- Ad Soyad & Şirket -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-user" style="margin-right: 8px; color: var(--primary);"></i>
+                            Ad Soyad *
+                        </label>
+                        <input type="text" name="adSoyad" class="form-input" required placeholder="Adınız ve Soyadınız">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-building" style="margin-right: 8px; color: var(--primary);"></i>
+                            Şirket
+                        </label>
+                        <input type="text" name="sirket" class="form-input" placeholder="Şirket adı (opsiyonel)">
+                    </div>
+                </div>
 
-      <div class="process-step">
-        <div class="step-number" style="background: #ef4444;">🚨</div>
-        <div class="step-content">
-          <h3>Acil Destek</h3>
-          <p><strong>7/24</strong> hizmet.</p>
+                <!-- E-posta & Telefon -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-envelope" style="margin-right: 8px; color: var(--primary);"></i>
+                            E-posta *
+                        </label>
+                        <input type="email" name="email" class="form-input" required placeholder="ornek@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-phone" style="margin-right: 8px; color: var(--primary);"></i>
+                            Telefon
+                        </label>
+                        <input type="tel" name="telefon" class="form-input" placeholder="0555 555 55 55">
+                    </div>
+                </div>
+                
+                <!-- Proje Türü -->
+                <div class="form-group">
+                    <label class="form-label">
+                        <i class="fas fa-tasks" style="margin-right: 8px; color: var(--primary);"></i>
+                        Proje Türü *
+                    </label>
+                    <select name="projeTuru" class="form-select" required>
+                        <option value="">Seçiniz...</option>
+                        <option value="web-development">🌐 Web Geliştirme</option>
+                        <option value="mobile-app">📱 Mobil Uygulama</option>
+                        <option value="ecommerce">🛒 E-ticaret Sitesi</option>
+                        <option value="testing">🧪 Test & QA Hizmetleri</option>
+                        <option value="devops">☁️ DevOps & Cloud</option>
+                        <option value="ui-ux">🎨 UI/UX Tasarımı</option>
+                        <option value="ai-ml">🧠 Yapay Zeka & Analitik</option>
+                        <option value="consultation">💼 Danışmanlık</option>
+                        <option value="other">📝 Diğer</option>
+                    </select>
+                </div>
+
+                <!-- Bütçe -->
+                <div class="form-group">
+                    <label class="form-label">
+                        <i class="fas fa-wallet" style="margin-right: 8px; color: var(--primary);"></i>
+                        Bütçe Aralığı
+                    </label>
+                    <select name="butce" class="form-select">
+                        <option value="">Seçiniz...</option>
+                        <option value="10-25k">₺10,000 - ₺25,000</option>
+                        <option value="25-50k">₺25,000 - ₺50,000</option>
+                        <option value="50-100k">₺50,000 - ₺100,000</option>
+                        <option value="100-200k">₺100,000 - ₺200,000</option>
+                        <option value="200k+">₺200,000+</option>
+                    </select>
+                </div>
+                
+                <!-- Proje Detayları -->
+                <div class="form-group">
+                    <label class="form-label">
+                        <i class="fas fa-clipboard-list" style="margin-right: 8px; color: var(--primary);"></i>
+                        Proje Detayları *
+                    </label>
+                    <textarea name="projeDetay" class="form-textarea" required placeholder="Projenizin detaylarını, gereksinimlerinizi ve beklentilerinizi açıklayın..."></textarea>
+                </div>
+
+                <!-- Gizlilik Onayı -->
+                <div class="form-checkbox">
+                    <input type="checkbox" required id="privacy">
+                    <label for="privacy">
+                        <a href="#" id="privacyLink">Gizlilik Politikası</a>'nı okudum ve kabul ediyorum. *
+                    </label>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i>
+                    Teklif Talep Et
+                </button>
+            </form>
         </div>
-      </div>
+    </section>
+
+    <!-- Hızlı Yanıt Garantisi -->
+    <section>
+        <div style="text-align: center; margin-bottom: 70px;">
+            <div style="display: inline-block; padding: 8px 20px; background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 30px; margin-bottom: 20px;">
+                <span style="color: var(--primary); font-weight: 700; font-size: 0.85rem; letter-spacing: 2px;">
+                    <i class="fas fa-bolt" style="margin-right: 8px;"></i>
+                    HIZLI YANIT
+                </span>
+            </div>
+            
+            <h2 style="font-size: 3rem; font-weight: 800; margin-bottom: 20px;">
+                Yanıt <span class="highlight">Sürelerimiz</span>
+            </h2>
+            <p style="color: var(--text-dim); max-width: 700px; margin: 0 auto; font-size: 1.1rem;">
+                İletişim kanallarımız ve garantili yanıt sürelerimiz
+            </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px;">
+            <div class="response-card">
+                <div class="response-icon" style="background: rgba(16, 185, 129, 0.1);">📧</div>
+                <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: white;">E-posta</h3>
+                <p style="color: var(--text-dim); font-size: 1rem;">
+                    <strong style="color: #10b981; font-size: 1.4rem;">4 saat içinde</strong><br>
+                    yanıt garantisi
+                </p>
+            </div>
+
+            <div class="response-card">
+                <div class="response-icon" style="background: rgba(245, 158, 11, 0.1);">📞</div>
+                <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: white;">Telefon</h3>
+                <p style="color: var(--text-dim); font-size: 1rem;">
+                    <strong style="color: #f59e0b; font-size: 1.4rem;">Anında görüşme</strong><br>
+                    imkanı
+                </p>
+            </div>
+
+            <div class="response-card">
+                <div class="response-icon" style="background: rgba(139, 92, 246, 0.1);">💬</div>
+                <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: white;">WhatsApp</h3>
+                <p style="color: var(--text-dim); font-size: 1rem;">
+                    <strong style="color: #8b5cf6; font-size: 1.4rem;">2 saat içinde</strong><br>
+                    yanıt garantisi
+                </p>
+            </div>
+
+            <div class="response-card">
+                <div class="response-icon" style="background: rgba(239, 68, 68, 0.1);">🚨</div>
+                <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: white;">Acil Destek</h3>
+                <p style="color: var(--text-dim); font-size: 1rem;">
+                    <strong style="color: #ef4444; font-size: 1.4rem;">7/24</strong><br>
+                    kesintisiz hizmet
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SSS -->
+    <section style="background: rgba(15, 23, 42, 0.3);">
+        <div style="text-align: center; margin-bottom: 70px;">
+            <div style="display: inline-block; padding: 8px 20px; background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 30px; margin-bottom: 20px;">
+                <span style="color: var(--primary); font-weight: 700; font-size: 0.85rem; letter-spacing: 2px;">
+                    <i class="fas fa-question-circle" style="margin-right: 8px;"></i>
+                    SSS
+                </span>
+            </div>
+            
+            <h2 style="font-size: 3rem; font-weight: 800; margin-bottom: 20px;">
+                Sıkça Sorulan <span class="highlight">Sorular</span>
+            </h2>
+            <p style="color: var(--text-dim); max-width: 700px; margin: 0 auto; font-size: 1.1rem;">
+                Merak ettiklerinizin yanıtları
+            </p>
+        </div>
+
+        <div style="max-width: 1000px; margin: 0 auto; display: grid; gap: 28px;">
+            <div class="faq-card">
+                <h3>
+                    <i class="fas fa-clock"></i>
+                    Proje süresi ne kadar?
+                </h3>
+                <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;">
+                    Proje karmaşıklığına bağlı olarak 2-12 hafta arasında değişir. İlk görüşmede size detaylı timeline sunuyoruz.
+                </p>
+            </div>
+
+            <div class="faq-card">
+                <h3>
+                    <i class="fas fa-vial"></i>
+                    Test süreci nasıl işliyor?
+                </h3>
+                <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;">
+                    Her projeye özel test planı hazırlıyoruz. Automated + Manual testler ile %100 kalite güvencesi sağlıyoruz.
+                </p>
+            </div>
+
+            <div class="faq-card">
+                <h3>
+                    <i class="fas fa-life-ring"></i>
+                    Proje sonrası destek var mı?
+                </h3>
+                <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;">
+                    Evet! Tüm projelerimizde 30-90 gün arası ücretsiz destek veriyoruz. Sonrasında bakım paketlerimiz var.
+                </p>
+            </div>
+
+            <div class="faq-card">
+                <h3>
+                    <i class="fas fa-globe"></i>
+                    Uzaktan çalışıyor musunuz?
+                </h3>
+                <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;">
+                    Evet! Türkiye genelinde ve yurt dışından da projeler kabul ediyoruz. Online toplantılar ile sürekli iletişim halindeyiz.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Gizlilik Modal -->
+    <div id="privacyModal" style="display:none; position:fixed; inset:0; background: rgba(0,0,0,0.85); padding:40px; z-index:9999; overflow-y:auto; backdrop-filter: blur(15px);">
+        <div class="modal-content" style="max-width:750px; margin:auto; background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.9) 100%); padding:50px; border-radius:28px; box-shadow:0 30px 80px rgba(0,0,0,0.6); border: 1px solid rgba(59, 130, 246, 0.3);">
+            <h2 style="color: var(--text-main); margin-bottom: 30px; font-size: 2.5rem; background: linear-gradient(135deg, var(--primary), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                Gizlilik Politikası
+            </h2>
+            
+            <div style="color: var(--text-dim); line-height: 1.9;">
+                <p style="margin-bottom: 25px; font-size: 1.05rem;">
+                    Ozturksoft olarak, web sitemizi ziyaret eden kullanıcıların ve iletişim formu üzerinden paylaşım yapan kişilerin kişisel verilerini koruma sorumluluğunu taşıyoruz.
+                </p>
+
+                <h3 style="color: var(--primary); margin: 30px 0 18px; font-size: 1.5rem;">Toplanan Veriler</h3>
+                <ul style="padding-left: 25px; margin-bottom: 25px; line-height: 1.9;">
+                    <li>İletişim formu üzerinden sağlanan ad-soyad, e-posta, telefon, şirket bilgisi ve proje detayları</li>
+                    <li>IP adresi ve tarayıcı bilgileri (web sitesi güvenliği ve performans analizi için)</li>
+                </ul>
+
+                <h3 style="color: var(--primary); margin: 30px 0 18px; font-size: 1.5rem;">Veri Kullanımı</h3>
+                <p style="margin-bottom: 25px; font-size: 1.05rem;">
+                    Toplanan veriler yalnızca sizinle iletişime geçmek, teklif sunmak ve hizmetlerimizi geliştirmek amacıyla kullanılacaktır. Verileriniz üçüncü kişilerle paylaşılmayacaktır.
+                </p>
+
+                <h3 style="color: var(--primary); margin: 30px 0 18px; font-size: 1.5rem;">Kullanıcı Hakları</h3>
+                <p style="margin-bottom: 25px; font-size: 1.05rem;">
+                    KVKK kapsamında, kişisel verilerinize erişim, düzeltme, silme, işleme sınırlama ve veri taşınabilirliği haklarınızı kullanabilirsiniz. Taleplerinizi <a href="mailto:info.ozturksoft@gmail.com" style="color: var(--primary); text-decoration: none; font-weight: 600;">info.ozturksoft@gmail.com</a> adresine iletebilirsiniz.
+                </p>
+
+                <h3 style="color: var(--primary); margin: 30px 0 18px; font-size: 1.5rem;">Güvenlik</h3>
+                <p style="margin-bottom: 35px; font-size: 1.05rem;">
+                    Ozturksoft, kişisel verilerinizi korumak için teknik ve idari güvenlik önlemleri uygular.
+                </p>
+            </div>
+
+            <button id="closePrivacy" class="btn btn-primary" style="width: 100%; padding: 18px; font-size: 1.1rem; display: flex; align-items: center; justify-content: center; gap: 12px;">
+                <i class="fas fa-check-circle"></i>
+                Anladım, Kapat
+            </button>
+        </div>
     </div>
-  </div>
-</section>
 
-<!-- SSS -->
-<section class="features-section" style="background: white;">
-  <div class="container">
-    <h2>Sıkça Sorulan Sorular</h2>
-    <p class="section-subtitle">Merak ettiklerinizin yanıtları</p>
+    <script>
+    // Menü Aç/Kapat (Mobil)
+    function toggleMenu() {
+        const navLinks = document.getElementById('navLinks');
+        const menuIcon = document.querySelector('.menu-toggle i');
+        
+        if (navLinks) {
+            navLinks.classList.toggle('active');
+            if (menuIcon) {
+                menuIcon.classList.toggle('fa-bars');
+                menuIcon.classList.toggle('fa-times');
+            }
+        }
+    }
 
-    <div style="max-width: 800px; margin: 48px auto;">
-      <div style="display: grid; gap: 24px;">
-        <div style="border: 2px solid #e5e7eb; border-radius: 12px; padding: 24px;">
-          <h3>Proje süresi ne kadar?</h3>
-          <p>Proje karmaşıklığına bağlı olarak 2-12 hafta arasında değişir. İlk görüşmede size detaylı timeline sunuyoruz.</p>
-        </div>
+    // Telefon Numarasını Göster Fonksiyonu
+    function revealPhone() {
+        const phoneText = document.getElementById('phoneText');
+        const phoneBtn = document.getElementById('phoneBtn');
+        const realNumber = "+90 5XX XXX XX XX"; // Buraya gerçek numaranızı yazabilirsiniz
+        
+        phoneText.innerText = realNumber;
+        phoneBtn.href = "tel:" + realNumber.replace(/\s/g, '');
+        phoneBtn.onclick = null; // Tekrar tıklanabilirliği normal linke çevirir
+        phoneBtn.style.background = "linear-gradient(135deg, #10b981 0%, #059669 100%)"; // Yeşil tonu (onay)
+    }
 
-        <div style="border: 2px solid #e5e7eb; border-radius: 12px; padding: 24px;">
-          <h3>Test süreci nasıl işliyor?</h3>
-          <p>Her projeye özel test planı hazırlıyoruz. Automated + Manual testler ile %100 kalite güvencesi sağlıyoruz.</p>
-        </div>
+    // Gizlilik Modalı Kontrolleri
+    const privacyLink = document.getElementById('privacyLink');
+    const privacyModal = document.getElementById('privacyModal');
+    const closePrivacy = document.getElementById('closePrivacy');
 
-        <div style="border: 2px solid #e5e7eb; border-radius: 12px; padding: 24px;">
-          <h3>Proje sonrası destek var mı?</h3>
-          <p>Evet! Tüm projelerimizde 30-90 gün arası ücretsiz destek veriyoruz. Sonrasında bakım paketlerimiz var.</p>
-        </div>
+    if (privacyLink && privacyModal) {
+        privacyLink.addEventListener('click', (e) => {
+            e.preventDefault(); // Sayfa yukarı sıçramasın
+            privacyModal.style.display = 'flex';
+            document.body.style.overflow = 'hidden'; // Arka plan kaymasını engelle
+        });
+    }
 
-        <div style="border: 2px solid #e5e7eb; border-radius: 12px; padding: 24px;">
-          <h3>Uzaktan çalışıyor musunuz?</h3>
-          <p>Evet! Türkiye genelinde ve yurt dışından da projeler kabul ediyoruz. Online toplantılar ile sürekli iletişim halindeyiz.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    if (closePrivacy) {
+        closePrivacy.addEventListener('click', () => {
+            privacyModal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+    }
 
-<!-- Call to Action -->
-<section class="cta-section">
-  <div class="container">
-    <div class="cta-content">
-      <h2>Hayalinizdeki Projeyi Gerçeğe Dönüştürelim</h2>
-      <p>Uzman ekibimiz projenizin her detayını planlamaya hazır.</p>
-      <div class="cta-buttons">
-        <a href="tel:+905465496806" class="btn btn-primary">Hemen Arayın</a>
-        <a href="mailto:info.ozturksoft@gmail.com" class="btn btn-outline">E-posta Gönderin</a>
-      </div>
-    </div>
-  </div>
-</section>
+    // Modal dışına tıklandığında kapatma
+    window.addEventListener('click', (e) => {
+        if (e.target === privacyModal) {
+            privacyModal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+    });
 
-<style>
-/* Form input focus effects */
-input:focus, textarea:focus, select:focus {
-  outline: none;
-  border-color: #2563eb !important;
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
-}
+    // Form Gönderimi Simülasyonu
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const btn = e.target.querySelector('.submit-btn');
+            const originalContent = btn.innerHTML;
+            
+            btn.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i> Gönderiliyor...';
+            btn.style.opacity = '0.7';
+            btn.disabled = true;
 
-@media (max-width: 768px) {
-  div[style*="grid-template-columns: 1fr 1fr"] {
-    grid-template-columns: 1fr !important;
-  }
-}
-</style>
+            // 2 saniye sonra başarı mesajı (Örnek simülasyon)
+            setTimeout(() => {
+                alert('Mesajınız başarıyla iletildi! En kısa sürede size dönüş yapacağız.');
+                btn.innerHTML = originalContent;
+                btn.style.opacity = '1';
+                btn.disabled = false;
+                contactForm.reset();
+            }, 2000);
+        });
+    }
+</script>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    const body = document.body;
 
-<!-- Footer -->
-<footer>
-  <p>© 2026 Ozturksoft. Tüm hakları saklıdır.</p>
-</footer>
+    // Menü Açma/Kapatma
+    if (menuToggle && navLinks) {
+        menuToggle.addEventListener('click', function(e) {
+            e.stopPropagation(); // Tıklamanın dışarı taşmasını engelle
+            navLinks.classList.toggle('active');
+            
+            // Menü açıldığında ikon değiştir (isteğe bağlı)
+            const icon = this.querySelector('i');
+            if (icon) {
+                icon.classList.toggle('fa-bars');
+                icon.classList.toggle('fa-times');
+            }
+        });
+    }
+
+    // Menü dışına tıklandığında kapatma
+    document.addEventListener('click', function(e) {
+        if (navLinks.classList.contains('active') && !navLinks.contains(e.target) && !menuToggle.contains(e.target)) {
+            navLinks.classList.remove('active');
+            const icon = menuToggle.querySelector('i');
+            if (icon) {
+                icon.classList.add('fa-bars');
+                icon.classList.remove('fa-times');
+            }
+        }
+    });
+
+    // Menü linklerine tıklandığında menüyü kapat (Sayfa içi scroll için)
+    const links = document.querySelectorAll('.nav-links a');
+    links.forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+        });
+    });
+});
+</script>
+</body>
+</html>

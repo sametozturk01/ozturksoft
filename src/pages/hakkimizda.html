@@ -1,151 +1,244 @@
-<!-- Mobile Menu Overlay -->
- <div class="nav-overlay" id="navOverlay"></div>
-
-  <!-- Hakkımızda -->
-  <section id="hakkimizda" class="content" style="padding-top: 140px;">
-    <h1>Hakkımızda</h1>
-    <p>Ozturksoft, modern yazılım teknolojileriyle müşterilerine en iyi çözümleri sunmayı hedefleyen dinamik bir şirkettir. 
-    Profesyonel ekibimiz, ihtiyaçlarınıza özel çözümler geliştirir.</p>
-  </section>
-
-  <!-- Vizyon -->
-  <section id="vizyon" class="content">
-    <h2>Vizyon & Değerlerimiz</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Vizyonumuz</h3>
-        <p>Global çapta güvenilir ve yenilikçi yazılım çözümleri üreten lider bir marka olmak.</p>
-      </div>
-      <div class="card">
-        <h3>Değerlerimiz</h3>
-        <ul>
-          <li>Yenilikçilik</li>
-          <li>Güvenilirlik</li>
-          <li>Müşteri Odaklılık</li>
-          <li>Sürekli Gelişim</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <script>
-    // Hamburger menu toggle - Fixed version
-    (function() {
-      let menuOpen = false;
-      
-      function initMenu() {
-        const hamburger = document.getElementById('hamburger');
-        const nav = document.getElementById('nav');
-        const overlay = document.getElementById('navOverlay');
-        const navLinks = document.querySelectorAll('header nav ul li a');
-        
-        if (!hamburger || !nav || !overlay) return;
-        
-        function openMenu() {
-          menuOpen = true;
-          hamburger.classList.add('active');
-          nav.classList.add('active');
-          overlay.classList.add('active');
-          document.body.style.overflow = 'hidden';
-        }
-        
-        function closeMenu() {
-          menuOpen = false;
-          hamburger.classList.remove('active');
-          nav.classList.remove('active');
-          overlay.classList.remove('active');
-          document.body.style.overflow = '';
-        }
-        
-        function toggleMenu(e) {
-          if (e) {
-            e.preventDefault();
-            e.stopPropagation();
-          }
-          
-          if (menuOpen) {
-            closeMenu();
-          } else {
-            openMenu();
-          }
-        }
-        
-        hamburger.addEventListener('click', toggleMenu);
-        overlay.addEventListener('click', function(e) {
-          e.preventDefault();
-          closeMenu();
-        });
-        navLinks.forEach(function(link) {
-          link.addEventListener('click', function() {
-            setTimeout(closeMenu, 150);
-          });
-        });
-        window.addEventListener('resize', function() {
-          if (window.innerWidth > 768 && menuOpen) {
-            closeMenu();
-          }
-        });
-      }
-      
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initMenu);
-      } else {
-        initMenu();
-      }
-    })();
-  </script>
-
-  <style>
-    /* Hakkımızda sayfası için özel mobile fixes */
-    #hakkimizda {
-      padding-top: 140px;
-    }
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımızda | Ozturksoft</title>
     
-    @media (max-width: 768px) {
-      .content {
-        padding: 80px 24px 60px;
-      }
-      .content h2 {
-        text-align: center;
-        font-size: 1.875rem;
-      }
-      .content p {
-        text-align: center;
-        font-size: 1.05rem;
-        line-height: 1.7;
-      }
-      .cards {
-        grid-template-columns: 1fr;
-        gap: 24px;
-      }
-      .card h3 {
-        font-size: 1.25rem;
-        margin-bottom: 16px;
-      }
-      .card ul {
-        text-align: left;
-        display: inline-block;
-        margin: 0 auto;
-      }
-    }
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    
+    <!-- CSS (Mevcut stil dosyan) -->
+    <link rel="stylesheet" href="./style.css" />
+    
+    <style>
+        /* Hakkımızda Sayfasına Özel Ek Stiller */
+        .about-hero {
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            background: linear-gradient(to bottom, rgba(15, 23, 42, 0.8), var(--dark-bg)), url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1920') center/cover;
+        }
 
-    @media (max-width: 480px) {
-      .content {
-        padding: 60px 16px;
-      }
-      .card {
-        padding: 24px;
-      }
-      .card h3 {
-        font-size: 1.125rem;
-      }
-    }
-  </style>
+        /* Zaman Çizelgesi (Timeline) Stilleri */
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            width: 2px;
+            background: rgba(59, 130, 246, 0.3);
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .timeline-item {
+            padding: 20px 40px;
+            position: relative;
+            width: 50%;
+            box-sizing: border-box;
+        }
+        .timeline-item:nth-child(odd) {
+            left: 0;
+            text-align: right;
+        }
+        .timeline-item:nth-child(even) {
+            left: 50%;
+        }
+        .timeline-dot {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: var(--primary);
+            border-radius: 50%;
+            top: 30px;
+            box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
+        }
+        .timeline-item:nth-child(odd) .timeline-dot {
+            right: -10px;
+        }
+        .timeline-item:nth-child(even) .timeline-dot {
+            left: -10px;
+        }
+        .timeline-content {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 16px;
+            border: 1px solid rgba(255,255,255,0.05);
+            transition: transform 0.3s ease;
+        }
+        .timeline-content:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2026 Ozturksoft. Tüm hakları saklıdır.</p>
-  </footer>
+        @media (max-width: 768px) {
+            .timeline::before { left: 20px; }
+            .timeline-item { width: 100%; padding-left: 50px; padding-right: 20px; text-align: left !important; left: 0 !important; }
+            .timeline-item:nth-child(odd) .timeline-dot, .timeline-item:nth-child(even) .timeline-dot { left: 10px; right: auto; }
+        }
+    </style>
+</head>
+<body style="background-color: var(--dark-bg); color: #fff;">
+
+    <!-- Navbar buraya gelecek (Mevcut kodundan kopyalayabilirsin) -->
+
+    <!-- İç Sayfa Hero Bölümü -->
+    <header class="about-hero">
+        <div style="position: relative; z-index: 10; padding: 0 20px;">
+            <span style="color: var(--primary); font-weight: 700; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem;">Ozturksoft Hakkında</span>
+            <h1 style="font-size: 3.5rem; font-weight: 800; margin: 15px 0;">Kodun Arkasındaki <span class="highlight">Hikaye</span></h1>
+            <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto; font-size: 1.1rem; line-height: 1.6;">
+                Biz sadece yazılım geliştirmiyoruz; işletmelerin dijital dünyadaki karakterini inşa ediyoruz.
+            </p>
+        </div>
+    </header>
+
+    <!-- Kurucu ve Hikayemiz (Güven Alanı) -->
+    <section style="padding: 100px 8%; background: linear-gradient(180deg, var(--dark-bg) 0%, #0f172a 100%);">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 60px; align-items: center; max-width: 1200px; margin: 0 auto;">
+            
+            <!-- Fotoğraf / Görsel Alanı -->
+            <div style="position: relative;">
+                <div style="aspect-ratio: 4/5; border-radius: 24px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+                    <!-- Not: Buraya kendi kurumsal fotoğrafını veya ofis görselini koyabilirsin -->
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800" alt="Ozturksoft Ekibi" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <!-- Ankara Lokasyon Etiketi -->
+                <div style="position: absolute; bottom: -20px; right: -20px; background: var(--card-bg); border: 1px solid var(--primary); padding: 15px 25px; border-radius: 12px; display: flex; align-items: center; gap: 10px; box-shadow: 0 10px 20px rgba(0,0,0,0.3);">
+                    <i class="fas fa-map-marker-alt" style="color: var(--primary); font-size: 1.2rem;"></i>
+                    <span style="font-weight: 600; color: white;">Merkez: Ankara</span>
+                </div>
+            </div>
+
+
+            <!-- Hikaye Metni -->
+            <div>
+                <h2 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 25px;">Mühendislik Tutkusuyla <span style="color: var(--primary);">Başlayan Yolculuk</span></h2>
+                
+                <p style="color: var(--text-dim); line-height: 1.8; margin-bottom: 20px; font-size: 1.05rem;">
+                    Ozturksoft, kurucumuz <strong>Samet ÖZTÜRK</strong>'ün "sürdürülebilir mimari, hatasız mühendislik ve temiz kod" vizyonu doğrultusunda Ankara merkezli bir teknoloji şirketi olarak hayata geçmiştir. Kuruluş felsefemizin merkezinde; işletmelerin giderek karmaşıklaşan iş süreçlerini, uçtan uca optimize edilmiş ve global standartlarda dijital deneyimlere dönüştürme hedefi yer almaktadır. Bizim için yazılım, yalnızca anlık ihtiyaçları çözen bir araç değil; şirketlerin gelecekteki büyüme stratejilerini taşıyacak sağlam bir ekosistemdir.
+                </p>
+                
+                <p style="color: var(--text-dim); line-height: 1.8; margin-bottom: 30px; font-size: 1.05rem;">
+                    Bugün, <strong>modern uygulama geliştirme standartları</strong> ve <strong>yüksek performanslı sistem mimarilerindeki</strong> derin uzmanlığımızla, projeleri sadece "çalışan sistemler" olarak değil; yüksek trafik altında stabilite sunan, ölçeklenebilir ve "geleceğe hazır" dijital varlıklar olarak konumlandırıyoruz. Tip güvenlikli yazılım dilleri ve çevik metodolojilerle harmanladığımız süreçlerimiz sayesinde, iş ortaklarımıza en düşük risk ve en yüksek verimlilikle dijital dönüşüm imkanı sağlıyoruz.
+                </p>
+                
+                <!-- Kurumsallaştırılmış QA (Kalite Güvence) Kutusu -->
+                <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); padding: 30px; border-radius: 20px; margin-top: 30px; position: relative; overflow: hidden;">
+                    <!-- Dekoratif İkon Arka Planı -->
+                    <i class="fas fa-shield-alt" style="position: absolute; right: -10px; bottom: -10px; font-size: 5rem; opacity: 0.03; color: white;"></i>
+                    
+                    <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 15px;">
+                        <div style="width: 55px; height: 55px; background: linear-gradient(135deg, var(--primary) 0%, #1e40af 100%); border-radius: 14px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.6rem; flex-shrink: 0; box-shadow: 0 10px 20px rgba(59, 130, 246, 0.2);">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <h4 style="color: white; font-weight: 700; font-size: 1.3rem; margin: 0; letter-spacing: -0.5px;">Bütünsel Kalite Güvence (QA) Protokolü</h4>
+                    </div>
+                    
+                    <p style="color: var(--text-dim); font-size: 1rem; line-height: 1.8; margin: 0;">
+                        <strong>Test Odaklı Geliştirme</strong> prensiplerine olan tavizsiz bağlılığımız, sıfır hata toleransımızın en büyük teminatıdır. Yazılan her bir fonksiyon birimi, üretim hattına dahil edilmeden önce çok katmanlı güvenlik, yük ve regresyon testlerinden geçer. <strong>Sürekli Entegrasyon ve Dağıtım otomasyonlarımız</strong> sayesinde; iş ortaklarımıza teknik borçlardan arındırılmış, yıllarca sorunsuz çalışacak ve düşük bakım maliyeti sunan endüstriyel standartlarda bir teknoloji altyapısı vaat ediyoruz.
+                    </p>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Yolculuğumuz (Timeline) -->
+    <section style="padding: 100px 8%; background: var(--dark-bg);">
+        <div style="text-align: center; margin-bottom: 60px;">
+            <h2 style="font-size: 2.5rem; font-weight: 800; color: white;">Büyüme <span class="highlight">Yolculuğumuz</span></h2>
+            <p style="color: var(--text-dim); margin-top: 15px;">Fikirden bugüne Ozturksoft'un adımları.</p>
+        </div>
+
+        <div class="timeline">
+            <!-- Aşama 1 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">Temellerin Atılması</span>
+                    <h3 style="color: white; margin: 10px 0; font-size: 1.3rem;">Vizyonun Doğuşu</h3>
+                    <p style="color: var(--text-dim); font-size: 0.95rem;">Ankara'da, modern web teknolojileri ve kalite odaklı yazılım üretme hedefiyle Ozturksoft'un temelleri atıldı.</p>
+                </div>
+            </div>
+            <!-- Aşama 2 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">İlk Büyük Başarılar</span>
+                    <h3 style="color: white; margin: 10px 0; font-size: 1.3rem;">Kurumsal Projeler</h3>
+                    <p style="color: var(--text-dim); font-size: 0.95rem;">Özelleştirilmiş yönetim panelleri ve karmaşık sistem entegrasyonları ile ilk büyük kurumsal müşterilerimize hizmet vermeye başladık.</p>
+                </div>
+            </div>
+            <!-- Aşama 3 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">Bugün ve Gelecek</span>
+                    <h3 style="color: white; margin: 10px 0; font-size: 1.3rem;">Sürekli İnovasyon</h3>
+                    <p style="color: var(--text-dim); font-size: 0.95rem;">Bugün modern stack'imiz (React, Node.js, TS) ile uçtan uca çözümler üretiyor, geleceğin dijital ürünlerini tasarlıyoruz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Çalışma Kültürümüz -->
+    <section style="padding: 100px 8%; background: var(--card-bg);">
+        <div style="text-align: center; margin-bottom: 60px;">
+            <h2 style="font-size: 2.5rem; font-weight: 800; color: white;">Ozturksoft <span class="highlight">Kültürü</span></h2>
+            <p style="color: var(--text-dim); margin-top: 15px;">Bizi biz yapan, işe yaklaşım biçimimiz.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;">
+            
+            <div style="background: rgba(255,255,255,0.02); padding: 40px 30px; border-radius: 20px; text-align: center; border: 1px solid rgba(255,255,255,0.05);">
+                <div style="width: 70px; height: 70px; background: rgba(59, 130, 246, 0.1); border-radius: 16px; display: inline-flex; align-items: center; justify-content: center; color: var(--primary); font-size: 2rem; margin-bottom: 20px;">
+                    <i class="fas fa-book-reader"></i>
+                </div>
+                <h3 style="color: white; margin-bottom: 15px;">Sürekli Öğrenme</h3>
+                <p style="color: var(--text-dim); font-size: 0.95rem;">Teknoloji asla durmaz. Ekibimiz her gün yeni teknolojileri araştırır ve sistemlerimizi güncel tutar.</p>
+            </div>
+
+            <div style="background: rgba(255,255,255,0.02); padding: 40px 30px; border-radius: 20px; text-align: center; border: 1px solid rgba(255,255,255,0.05);">
+                <div style="width: 70px; height: 70px; background: rgba(16, 185, 129, 0.1); border-radius: 16px; display: inline-flex; align-items: center; justify-content: center; color: #10b981; font-size: 2rem; margin-bottom: 20px;">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <h3 style="color: white; margin-bottom: 15px;">Şeffaf İletişim</h3>
+                <p style="color: var(--text-dim); font-size: 0.95rem;">Müşterilerimizle sürprizlere yer vermeden, projenin her aşamasında net ve açık iletişim kurarız.</p>
+            </div>
+
+            <div style="background: rgba(255,255,255,0.02); padding: 40px 30px; border-radius: 20px; text-align: center; border: 1px solid rgba(255,255,255,0.05);">
+                <div style="width: 70px; height: 70px; background: rgba(245, 158, 11, 0.1); border-radius: 16px; display: inline-flex; align-items: center; justify-content: center; color: #f59e0b; font-size: 2rem; margin-bottom: 20px;">
+                    <i class="fas fa-gem"></i>
+                </div>
+                <h3 style="color: white; margin-bottom: 15px;">Zanaatkarlık</h3>
+                <p style="color: var(--text-dim); font-size: 0.95rem;">Yazılımı fabrikasyon bir iş olarak değil, özenle işlenmesi gereken bir zanaat olarak görürüz.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Hafifletilmiş CTA -->
+    <section style="padding: 100px 8%; background: var(--dark-bg); text-align: center;">
+        <div style="max-width: 700px; margin: 0 auto; background: linear-gradient(135deg, rgba(30, 58, 138, 0.2) 0%, rgba(15, 23, 42, 0) 100%); padding: 60px 40px; border-radius: 30px; border: 1px solid rgba(59, 130, 246, 0.2);">
+            <h2 style="font-size: 2.5rem; color: white; margin-bottom: 20px; font-weight: 800;">Ekibimizle Tanışmaya <span class="highlight">Hazır mısınız?</span></h2>
+            <p style="color: var(--text-dim); margin-bottom: 30px; font-size: 1.1rem;">Fikrinizi dinlemek ve nasıl hayat verebileceğimizi konuşmak için sabırsızlanıyoruz.</p>
+            <a href="#iletisim" class="btn" style="padding: 15px 40px; font-size: 1.1rem; border-radius: 50px; text-decoration: none; display: inline-block;">Kahve İçmeye Bekleriz</a>
+        </div>
+    </section>
+
+    <!-- Footer buraya gelecek -->
 
 </body>
 </html>

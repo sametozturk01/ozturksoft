@@ -16,12 +16,14 @@ async function loadPage(page: string) {
     const res = await fetch(`./src/pages/${page}.html`);
     const html = await res.text();
     app.innerHTML = html;
+    
 
     // Sayfa yüklendikten sonra tüm eventler ve animasyonlar
     initPrivacyModal();
     initContactForm();
     initScrollTopButton();
     initHeroStatsAnimation();
+    window.scrollTo(0,0); // Sayfa değişince en üste çık
   } catch (err) {
     app.innerHTML = "<section class='content'><p>Sayfa bulunamadı.</p></section>";
   }
@@ -57,6 +59,19 @@ function initPrivacyModal() {
     if (e.target === modal) modal.style.display = "none";
   });
 }
+
+(window as any).revealPhone = function() {
+    const phoneBtn = document.getElementById('phoneBtn');
+    const phoneText = document.getElementById('phoneText');
+    const realNumber = "+90 546 549 68 06"; // Numaranı buraya yaz
+
+    if (phoneBtn && phoneText) {
+        phoneText.innerText = realNumber;
+        (phoneBtn as HTMLAnchorElement).href = `tel:${realNumber.replace(/\s/g, "")}`;
+        phoneBtn.innerText = "Hemen Ara";
+        phoneBtn.style.background = "#10b981";
+    }
+};
 
 // Form submit handler
 function initContactForm() {
@@ -119,3 +134,55 @@ function initHeroStatsAnimation() {
     update();
   });
 }
+
+const setupPhoneReveal = () => {
+    const btn = document.getElementById('revealBtn');
+    const display = document.getElementById('phoneDisplay');
+    const realNumber = "+90 555 123 45 67"; // Kendi numaranı buraya yaz
+
+    if (btn && display) {
+        btn.onclick = () => {
+            // 1. Yazıyı gerçek numara ile değiştir
+            display.innerText = realNumber;
+            display.style.color = "#10b981"; // Başarılı (Yeşil) renk verelim
+            
+            // 2. Butonu "Hemen Ara" butonuna dönüştür
+            btn.innerHTML = `<i class="fas fa-phone"></i> Hemen Ara`;
+            btn.style.background = "#10b981";
+            
+            // 3. Butona tıklandığında artık arama yapmasını sağla
+            btn.onclick = () => {
+                window.location.href = `tel:${realNumber.replace(/\s/g, "")}`;
+            };
+        };
+    }
+};
+
+// Sayfa her yüklendiğinde bu kontrolü çalıştır
+setupPhoneReveal();
+
+
+// Bu kod her türlü çakışmayı aşar ve direkt çalışır
+document.addEventListener('click', function(e) {
+    const target = e.target as HTMLElement;
+    
+    // Eğer tıklanan şey bizim butonumuzsa veya butonun içindeki ikonsa
+    if (target && (target.id === 'revealBtn' || target.parentElement?.id === 'revealBtn')) {
+        const display = document.getElementById('phoneDisplay');
+        const btn = document.getElementById('revealBtn');
+        const realNumber = "+90 546 549 68 06"; // Kendi numaranı yaz
+
+        if (display && btn) {
+            display.innerText = realNumber;
+            display.style.color = "#10b981";
+            btn.innerHTML = `<i class="fas fa-phone"></i> Hemen Ara`;
+            btn.style.background = "#10b981";
+            
+            // İkinci tıklamada arama yapması için
+            btn.onclick = () => {
+                window.location.href = `tel:${realNumber.replace(/\s/g, "")}`;
+            };
+        }
+    }
+});
+
