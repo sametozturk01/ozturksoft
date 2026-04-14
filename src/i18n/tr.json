@@ -1,0 +1,277 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "contact": "İletişim",
+    "quoteBtn": "Teklif Al"
+  },
+  "hero": {
+    "title": "Yazılım Dünyasının Öncü Geliştirme ve Test Çözümleri",
+    "subtitle": "Ozturksoft olarak, karmaşık iş problemlerinizi modern teknoloji yığınları ve kusursuz QA süreçleriyle çözüyoruz.",
+    "btnExplore": "Çözümlerimizi İnceleyin",
+    "btnMeet": "Bizimle Tanışın"
+  },
+  "services": {
+    "title": "Uçtan Uca Dijital Dönüşüm",
+    "subtitle": "Ozturksoft, modern teknoloji yığınlarını iş hedeflerinizle birleştirerek sürdürülebilir başarı sağlar.",
+    "cards": {
+      "dev": { "title": "Özel Yazılım Geliştirme", "desc": "Karmaşık iş süreçlerinizi optimize eden, ölçeklenebilir ve yüksek performanslı mikroservis mimarileri inşa ediyoruz." },
+      "qa": { "title": "QA & Kalite Güvencesi", "desc": "Sıfır hata vizyonuyla, TDD ve CI/CD süreçlerini entegre ederek yazılımınızın güvenilirliğini en üst seviyeye çıkarıyoruz." },
+      "ai": { "title": "Yapay Zeka & Analitik", "desc": "Verinizi stratejik bir varlığa dönüştüren makine öğrenmesi modelleri ve veri madenciliği çözümleri geliştiriyoruz." },
+      "mobile": { "title": "Mobil Uygulama Geliştirme", "desc": "iOS ve Android platformlarında, kullanıcı odaklı ve yüksek etkileşimli native veya cross-platform çözümler sunuyoruz." },
+      "cloud": { "title": "Bulut & DevOps", "desc": "Modern bulut altyapıları ve otomasyon süreçleri ile yazılım dağıtım hızınızı ve güvenliğinizi artırıyoruz." },
+      "uiux": { "title": "UI/UX Tasarımı", "desc": "Estetikle fonksiyonelliği birleştirerek, markanızın dijital kimliğini güçlendiren kullanıcı deneyimleri kurguluyoruz." }
+    }
+  },
+  "references": {
+    "title": "Güvenle Çalıştığımız Partnerler",
+    "subtitle": "İş birliği içinde olduğumuz değerli markalar."
+  },
+  "stats": {
+    "projects": "Tamamlanan Proje",
+    "satisfaction": "Müşteri Memnuniyeti",
+    "support": "Teknik Destek"
+  },
+  "vision": {
+    "title": "Vizyonumuz",
+    "desc": "Global standartlarda, hatasız ve ölçeklenebilir yazılım mimarileri üreterek sektörde öncü olmak. Türkiye'den dünyaya açılan bir teknoloji şirketi olarak, yenilikçi çözümlerimizle dijital dönüşüme liderlik etmek."
+  },
+  "mission": {
+    "title": "Misyonumuz",
+    "desc": "Müşterilerimizin iş süreçlerini optimize eden, güvenilir ve sürdürülebilir yazılım çözümleri sunmak. Her projede %100 kalite garantisi ile modern teknolojileri iş değerine dönüştürmek."
+  },
+  "values": {
+    "title": "Değerlerimiz",
+    "subtitle": "Ozturksoft'u ayakta tutan ve her projemizde rehberimiz olan temel prensiplerimiz.",
+    "cards": {
+      "technical": { "title": "Teknik Derinlik", "desc": "En güncel teknolojileri takip eder, en karmaşık problemlere dahi çözüm üretiriz. Sürekli öğrenen ve kendini geliştiren bir ekibiz." },
+      "transparent": { "title": "Şeffaf Süreç Yönetimi", "desc": "Projenin her aşamasında müşterimizle tam şeffaflık içinde çalışırız. Her adımı raporlar, her değişikliği paylaşırız." },
+      "qa": { "title": "%100 QA Garantisi", "desc": "Test-Driven Development (TDD) ve CI/CD süreçleriyle her satır kod test edilir. Hatasız teslimat bizim standartımızdır." },
+      "customer": { "title": "Müşteri Odaklılık", "desc": "Müşterilerimizin başarısı bizim başarımızdır. Sadece kod yazmıyoruz, iş ortağınız oluyoruz." },
+      "sustainability": { "title": "Sürdürülebilirlik", "desc": "Bugünün değil, yarının ihtiyaçlarını da düşünerek ölçeklenebilir ve bakımı kolay sistemler kurarız." },
+      "growth": { "title": "Sürekli Gelişim", "desc": "Teknoloji durmadan gelişiyor, biz de. Ekibimiz sürekli eğitim alır ve yeni teknolojileri projelere entegre eder." }
+    }
+  },
+  "whyus": {
+    "title": "Neden",
+    "highlight": "Ozturksoft?",
+    "subtitle": "Rakiplerimizden bizi farklı kılan özellikleri keşfedin.",
+    "cards": {
+      "time": { "title": "Zamanında Teslimat", "desc": "Belirlenen deadline'lara kesin uyum. Projelerimizin %95'i zamanında teslim edilir." },
+      "communication": { "title": "Hızlı İletişim", "desc": "4 saat içinde yanıt garantisi. Acil durumlarda 7/24 destek hattımız." },
+      "security": { "title": "Güvenlik Odaklı", "desc": "OWASP standartlarında güvenlik testleri. Verileriniz bizimle güvende." },
+      "reporting": { "title": "Detaylı Raporlama", "desc": "Haftalık ilerleme raporları. Projenizin her anını takip edin." },
+      "support": { "title": "Proje Sonrası Destek", "desc": "30-90 gün ücretsiz bakım ve destek. Yalnız bırakmıyoruz." },
+      "pricing": { "title": "Rekabetçi Fiyatlar", "desc": "Kaliteden ödün vermeden uygun fiyatlar. Esnek ödeme planları." }
+    }
+  },
+  "cta": {
+    "titleLine1": "Sıradaki Başarı Hikayesini",
+    "titleLine2": "Birlikte Yazalım.",
+    "subtitle": "Ücretsiz konsültasyon için bugün iletişime geçin ve dijital dönüşümünüze başlayalım.",
+    "btnContact": "İletişime Geçin",
+    "btnServices": "Hizmetlerimizi Görün"
+  },
+  "about": {
+    "hero": {
+      "subtitle": "Ozturksoft Hakkında",
+      "title1": "Kodun Arkasındaki",
+      "title2": "Hikaye",
+      "desc": "Biz sadece yazılım geliştirmiyoruz; işletmelerin dijital dünyadaki karakterini inşa ediyoruz."
+    },
+    "location": "Merkez: Ankara",
+    "story": {
+      "title1": "Mühendislik Tutkusuyla",
+      "title2": "Başlayan Yolculuk",
+      "p1": "Ozturksoft, kurucumuz <strong>Samet ÖZTÜRK</strong>'ün \"sürdürülebilir mimari, hatasız mühendislik ve temiz kod\" vizyonu doğrultusunda Ankara merkezli bir teknoloji şirketi olarak hayata geçmiştir. Kuruluş felsefemizin merkezinde; işletmelerin giderek karmaşıklaşan iş süreçlerini, uçtan uca optimize edilmiş ve global standartlarda dijital deneyimlere dönüştürme hedefi yer almaktadır. Bizim için yazılım, yalnızca anlık ihtiyaçları çözen bir araç değil; şirketlerin gelecekteki büyüme stratejilerini taşıyacak sağlam bir ekosistemdir.",
+      "p2": "Bugün, <strong>modern uygulama geliştirme standartları</strong> ve <strong>yüksek performanslı sistem mimarilerindeki</strong> derin uzmanlığımızla, projeleri sadece \"çalışan sistemler\" olarak değil; yüksek trafik altında stabilite sunan, ölçeklenebilir ve \"geleceğe hazır\" dijital varlıklar olarak konumlandırıyoruz. Tip güvenlikli yazılım dilleri ve çevik metodolojilerle harmanladığımız süreçlerimiz sayesinde, iş ortaklarımıza en düşük risk ve en yüksek verimlilikle dijital dönüşüm imkanı sağlıyoruz."
+    },
+    "qa": {
+      "title": "Bütünsel Kalite Güvence (QA) Protokolü",
+      "desc": "<strong>Test Odaklı Geliştirme</strong> prensiplerine olan tavizsiz bağlılığımız, sıfır hata toleransımızın en büyük teminatıdır. Yazılan her bir fonksiyon birimi, üretim hattına dahil edilmeden önce çok katmanlı güvenlik, yük ve regresyon testlerinden geçer. <strong>Sürekli Entegrasyon ve Dağıtım otomasyonlarımız</strong> sayesinde; iş ortaklarımıza teknik borçlardan arındırılmış, yıllarca sorunsuz çalışacak ve düşük bakım maliyeti sunan endüstriyel standartlarda bir teknoloji altyapısı vaat ediyoruz."
+    },
+    "timeline": {
+      "title1": "Büyüme",
+      "title2": "Yolculuğumuz",
+      "desc": "Fikirden bugüne Ozturksoft'un adımları.",
+      "step1": { "sub": "Temellerin Atılması", "title": "Vizyonun Doğuşu", "desc": "Ankara'da, modern web teknolojileri ve kalite odaklı yazılım üretme hedefiyle Ozturksoft'un temelleri atıldı." },
+      "step2": { "sub": "İlk Büyük Başarılar", "title": "Kurumsal Projeler", "desc": "Özelleştirilmiş yönetim panelleri ve karmaşık sistem entegrasyonları ile ilk büyük kurumsal müşterilerimize hizmet vermeye başladık." },
+      "step3": { "sub": "Bugün ve Gelecek", "title": "Sürekli İnovasyon", "desc": "Bugün modern stack'imiz (React, Node.js, TS) ile uçtan uca çözümler üretiyor, geleceğin dijital ürünlerini tasarlıyoruz." }
+    },
+    "culture": {
+      "title": "Kültürü",
+      "desc": "Bizi biz yapan, işe yaklaşım biçimimiz.",
+      "card1": { "title": "Sürekli Öğrenme", "desc": "Teknoloji asla durmaz. Ekibimiz her gün yeni teknolojileri araştırır ve sistemlerimizi güncel tutar." },
+      "card2": { "title": "Şeffaf İletişim", "desc": "Müşterilerimizle sürprizlere yer vermeden, projenin her aşamasında net ve açık iletişim kurarız." },
+      "card3": { "title": "Zanaatkarlık", "desc": "Yazılımı fabrikasyon bir iş olarak değil, özenle işlenmesi gereken bir zanaat olarak görürüz." }
+    },
+    "cta": {
+      "title1": "Ekibimizle Tanışmaya",
+      "title2": "Hazır mısınız?",
+      "desc": "Fikrinizi dinlemek ve nasıl hayat verebileceğimizi konuşmak için sabırsızlanıyoruz.",
+      "btn": "Kahve İçmeye Bekleriz"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "subtitle": "Profesyonel Çözümler",
+      "title1": "Neler",
+      "title2": "Yapıyoruz?",
+      "desc": "Uçtan uca dijital dönüşüm çözümleri ile işletmenizi geleceğe taşıyoruz. Fikirden canlıya, her adımda yanınızdayız."
+    },
+    "cards": {
+      "dev": { "title": "Özel Yazılım Geliştirme", "desc": "React, TypeScript, Node.js ve Python ile yüksek performanslı, ölçeklenebilir web ve mobil uygulamalar geliştiriyoruz.", "list1": "Kurumsal Web Uygulamaları", "list2": "E-ticaret Platformları", "list3": "SaaS Ürünleri", "list4": "RESTful & GraphQL API'ler" },
+      "qa": { "title": "Test & QA Hizmetleri", "desc": "CI/CD entegrasyonlu, otomatik test süreçleri (TDD) ile sıfır hatalı projeler. OWASP standartlarında güvenlik testleri." },
+      "cloud": { "title": "DevOps & Bulut Çözümleri", "desc": "AWS ve Azure altyapıları üzerinde güvenli, ölçeklenebilir ve yüksek erişilebilirlikli mimari kurulumları." },
+      "mobile": { "title": "Mobil Uygulama Geliştirme", "desc": "iOS ve Android platformlarında native ve cross-platform mobil uygulamalar. Kullanıcı deneyimi odaklı tasarımlar.", "list4": "Store Yayınlama" },
+      "ai": { "title": "Yapay Zeka & Analitik", "desc": "Makine öğrenmesi, veri madenciliği ve yapay zeka entegrasyonları ile verilerinizi stratejik bir varlığa dönüştürün.", "list1": "Makine Öğrenmesi", "list2": "Doğal Dil İşleme (NLP)", "list3": "Veri Analizi" },
+      "ui": { "title": "UI/UX Tasarımı", "desc": "Kullanıcı odaklı, estetik ve fonksiyonel arayüz tasarımları. Markanızın dijital kimliğini güçlendiren deneyimler." }
+    },
+    "ai": {
+      "title1": "Neden",
+      "desc": "Sıradan yazılım ajansları sadece \"araç\" üretir, biz \"zeka\" entegre ediyoruz.",
+      "card1": {
+        "title": "Geleneksel Şirketler",
+        "li1": { "title": "Kural Tabanlı Sistemler", "desc": "Sadece önceden yazılmış kodlara ve sabit kurallara göre çalışan statik yapılar." },
+        "li2": { "title": "Manuel İş Yükü", "desc": "Veri girişi, analiz ve dokümantasyon süreçlerinin insan gücüne bağımlı kalması." },
+        "li3": { "title": "Standart Arama ve Filtreleme", "desc": "Kullanıcının ne aradığını tam anlamayan, basit anahtar kelime eşleştirmeleri." }
+      },
+      "card2": {
+        "badge": "GELECEĞİN TEKNOLOJİSİ",
+        "li1": { "title": "Otonom Asistan Modülleri", "desc": "Sektöre özel eğitilmiş modeller. Örneğin; hukuk profesyonelleri için hukuki dili anlayıp saniyeler içinde dilekçe taslağı oluşturabilen akıllı asistanlar." },
+        "li2": { "title": "Öğrenen Algoritmalar (Machine Learning)", "desc": "Kullanıcı davranışlarından sürekli öğrenerek kendini optimize eden ve öngörülü (predictive) kararlar alan dinamik altyapılar." },
+        "li3": { "title": "Doğal Dil İşleme (NLP) Entegrasyonu", "desc": "İnsan dilini anlayan, metin analizi yapan ve karmaşık verileri anlamlı içgörülere dönüştüren akıllı algoritmalar." }
+      }
+    },
+    "global": {
+      "sub": "Üst Segment Mühendislik",
+      "title1": "Teknolojimiz",
+      "title2": "Görünmez Gücünüzdür",
+      "desc": "Biz karmaşık kodlar yazmıyoruz; işinizin kesintisiz çalışmasını, verilerinizin sarsılmaz güvenliğini ve operasyonlarınızın otonom hale gelmesini sağlayan dijital bir omurga inşa ediyoruz.",
+      "card1": { "badge": "01 // ANALİTİK ZEKA", "title": "Kendi Kararını Veren Sistemler", "desc": "Karmaşık veri setlerini saniyeler içinde işleyen modellerimizle, sistemlerinize \"öngörü\" yeteneği kazandırıyoruz. Kararlar artık verilere dayalı ve hatasız." },
+      "card2": { "badge": "02 // DİJİTAL KALELER", "title": "Tavizsiz Veri Güvenliği", "desc": "Küresel siber güvenlik standartlarını yazılımın en küçük hücresine işliyoruz. Sadece bugünü değil, yarının tehditlerini de engelleyen proaktif savunma katmanları." },
+      "card3": { "badge": "03 // SINIRSIZ KAPASİTE", "title": "Geleceğe Hazır Altyapı", "desc": "Milyonlarca kullanıcıyı ve devasa veri trafiğini sorunsuzca yöneten, bulut tabanlı mimariler. İşiniz büyürken sistemleriniz asla geride kalmaz." },
+      "quote": "Teknoloji, doğru ellerde sanata; doğru vizyonda ise rakipsiz bir güce dönüşür."
+    },
+    "process": {
+      "title1": "Nasıl",
+      "title2": "Çalışıyoruz?",
+      "desc": "Şeffaf, düzenli ve sonuç odaklı çevik (agile) proje yönetimi sürecimiz.",
+      "s1": { "title": "Keşif & Analiz", "desc": "İhtiyaçlarınızı dinliyor, iş hedeflerinizi anlıyoruz. Detaylı teknik analiz ve fizibilite raporu hazırlıyoruz." },
+      "s2": { "title": "Planlama & Tasarım", "desc": "Proje roadmap'i, mimari tasarım ve UI/UX mockup'ları oluşturuyoruz. Sprint planlaması yapıyoruz." },
+      "s3": { "title": "Geliştirme", "desc": "Agile metodoloji ile sprint bazlı geliştirme. Haftalık demo ve ilerleme raporları. Sürekli iletişim." },
+      "s4": { "title": "Test & QA", "desc": "Otomatik ve manuel testler. Güvenlik taraması. Performance optimizasyonu. UAT (User Acceptance Testing)." },
+      "s5": { "title": "Deployment & Destek", "desc": "Canlıya alım ve deployment. Kullanıcı eğitimleri. SLA garantili bakım ve destek. Monitoring kurulumu." }
+    },
+    "whyus": {
+      "title1": "Neden",
+      "title2": "Biz?",
+      "c1": { "title": "Yüksek Güvenlik", "desc": "Kurumsal verileriniz KVKK/GDPR standartlarında uçtan uca şifreleme ve global güvenlik protokolleriyle korunur." },
+      "c2": { "title": "Ölçeklenebilirlik", "desc": "Projeniz büyüdükçe performans kaybı yaşamamanız için mikroservis ve modern bulut mimarileri kullanıyoruz." },
+      "c3": { "title": "Kesintisiz Destek", "desc": "Proje teslimi sonrası sizi yalnız bırakmıyor, SLA anlaşmaları kapsamında proaktif izleme ve destek sunuyoruz." }
+    },
+    "cta": {
+      "title1": "Projenize Başlamaya",
+      "title2": "Hazır mısınız?",
+      "desc": "Ücretsiz konsültasyon ve teknik analiz için hemen uzman ekibimizle iletişime geçin.",
+      "btn1": "Teklif Alın",
+      "btn2": "Bizi Tanıyın"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title1": "Bizimle",
+      "title2": "İletişime Geçin",
+      "desc": "Projeniz hakkında konuşmaya hazırız. Ücretsiz konsültasyon ve teknik analiz için hemen iletişime geçin.",
+      "stat1": "4 Saat",
+      "stat1b": "Yanıt Süresi",
+      "stat2": "Ücretsiz",
+      "stat2b": "Konsültasyon",
+      "stat3b": "Destek Hattı"
+    },
+    
+    "info": {
+      "badge": "İLETİŞİM BİLGİLERİ",
+      "title1": "Bize",
+      "title2": "Ulaşın",
+      "desc": "Size en uygun iletişim kanalını seçin, hemen yardımcı olalım."
+    },
+    "cards": {
+      "email": {
+        "title": "E-posta",
+        "desc1": "7/24 e-posta desteği",
+        "desc2": "4 saat içinde yanıt garantisi"
+      },
+      "phone": {
+        "title": "Telefon",
+        "desc": "Mesai saatleri: 09:00 - 18:00",
+        "btn": "Numarayı Göster"
+      },
+      "address": {
+        "title": "Adres",
+        "desc1": "Ofis ziyaretleri randevu ile",
+        "desc2": "Çankaya / Ankara"
+      }
+    },
+    "form": {
+      "badge": "PROJE TALEBİ",
+      "title1": "Proje",
+      "title2": "Teklifi Alın",
+      "desc": "Projenizin detaylarını paylaşın, size en uygun çözümü sunalım.",
+      "name": "Ad Soyad *",
+      "company": "Şirket",
+      "email": "E-posta *",
+      "phone": "Telefon",
+      "type": "Proje Türü *",
+      "budget": "Bütçe Aralığı",
+      "details": "Proje Detayları *",
+      "privacyLink": "Gizlilik Politikası",
+      "privacyText": "'nı okudum ve kabul ediyorum. *",
+      "submit": "Teklif Talep Et",
+      "options": {
+        "select": "Seçiniz...",
+        "web": "🌐 Web Geliştirme",
+        "mobile": "📱 Mobil Uygulama",
+        "ecom": "🛒 E-ticaret Sitesi",
+        "qa": "🧪 Test & QA Hizmetleri",
+        "cloud": "☁️ DevOps & Cloud",
+        "ui": "🎨 UI/UX Tasarımı",
+        "ai": "🧠 Yapay Zeka & Analitik",
+        "consult": "💼 Danışmanlık",
+        "other": "📝 Diğer"
+      }
+    },
+    "response": {
+      "badge": "HIZLI YANIT",
+      "title1": "Yanıt",
+      "title2": "Sürelerimiz",
+      "r1": { "title": "E-posta", "strong": "4 saat içinde", "desc": "yanıt garantisi" },
+      "r2": { "title": "Telefon", "strong": "Anında görüşme", "desc": "imkanı" },
+      "r3": { "strong": "2 saat içinde", "desc": "yanıt garantisi" },
+      "r4": { "title": "Acil Destek", "desc": "7/24 kesintisiz hizmet" }
+    },
+    "faq": {
+      "title1": "Sıkça Sorulan",
+      "title2": "Sorular",
+      "q1": { "title": "Proje süresi ne kadar?", "desc": "Proje karmaşıklığına bağlı olarak 2-12 hafta arasında değişir. İlk görüşmede size detaylı timeline sunuyoruz." },
+      "q2": { "title": "Test süreci nasıl işliyor?", "desc": "Her projeye özel test planı hazırlıyoruz. Automated + Manual testler ile %100 kalite güvencesi sağlıyoruz." },
+      "q3": { "title": "Proje sonrası destek var mı?", "desc": "Evet! Tüm projelerimizde 30-90 gün arası ücretsiz destek veriyoruz. Sonrasında bakım paketlerimiz var." },
+      "q4": { "title": "Uzaktan çalışıyor musunuz?", "desc": "Evet! Türkiye genelinde ve yurt dışından da projeler kabul ediyoruz. Online toplantılar ile sürekli iletişim halindeyiz." }
+    },
+    "modal": {
+      "title": "Gizlilik Politikası",
+      "p1": "Ozturksoft olarak, web sitemizi ziyaret eden kullanıcıların ve iletişim formu üzerinden paylaşım yapan kişilerin kişisel verilerini koruma sorumluluğunu taşıyoruz.",
+      "h1": "Toplanan Veriler",
+      "li1": "İletişim formu üzerinden sağlanan ad-soyad, e-posta, telefon, şirket bilgisi ve proje detayları",
+      "li2": "IP adresi ve tarayıcı bilgileri (web sitesi güvenliği ve performans analizi için)",
+      "h2": "Veri Kullanımı",
+      "p2": "Toplanan veriler yalnızca sizinle iletişime geçmek, teklif sunmak ve hizmetlerimizi geliştirmek amacıyla kullanılacaktır. Verileriniz üçüncü kişilerle paylaşılmayacaktır.",
+      "h3": "Kullanıcı Hakları",
+      "p3": "KVKK kapsamında, kişisel verilerinize erişim, düzeltme, silme, işleme sınırlama ve veri taşınabilirliği haklarınızı kullanabilirsiniz. Taleplerinizi <a href=\"mailto:info.ozturksoft@gmail.com\" style=\"color: var(--primary); text-decoration: none; font-weight: 600;\">info.ozturksoft@gmail.com</a> adresine iletebilirsiniz.",
+      "h4": "Güvenlik",
+      "p4": "Ozturksoft, kişisel verilerinizi korumak için teknik ve idari güvenlik önlemleri uygular.",
+      "btn": "Anladım, Kapat"
+    }
+  }
+}

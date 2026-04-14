@@ -1,4 +1,6 @@
-
+<!DOCTYPE html>
+<html lang="tr">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ozturksoft | Kurumsal Yazılım Çözümleri</title>
@@ -11,55 +13,18 @@
             --primary: #3b82f6;
             --dark-bg: #020617;
             --card-bg: #0f172a;
-            --text-main: #ffffff; /* Tüm ana metinler tam beyaz */
+            --text-main: #ffffff;
             --text-dim: #bbcee7;
-            /* Beyazdan Maviye Geçiş Gradyanı */
             --white-blue-grad: linear-gradient(to right, #ffffff, #4253d3);
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
         body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: var(--dark-bg); color: var(--text-main); overflow-x: hidden; }
 
-        /* --- HERO SECTION --- */
-        .hero {
-            position: relative;
-            width: 100%;
-            height: 90vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-            background: var(--dark-bg);
-        }
-
-        .hero::after {
-            content: '';
-            position: absolute;
-            bottom: 0; left: 0;
-            width: 100%; height: 180px;
-            background: linear-gradient(to bottom, transparent, var(--dark-bg));
-            z-index: 5;
-            pointer-events: none;
-        }
-
-        .hero-bg-container {
-            position: absolute;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
-            z-index: 1;
-        }
-
-        .hero-slide {
-            position: absolute;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
-            background-size: cover;
-            background-position: center;
-            opacity: 0;
-            animation: imageFade 30s linear infinite;
-        }
-
-        /* Fotoğraflar Artırıldı */
+        .hero { position: relative; width: 100%; height: 90vh; display: flex; align-items: center; justify-content: center; overflow: hidden; background: var(--dark-bg); }
+        .hero::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 180px; background: linear-gradient(to bottom, transparent, var(--dark-bg)); z-index: 5; pointer-events: none; }
+        .hero-bg-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
+        .hero-slide { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover; background-position: center; opacity: 0; animation: imageFade 30s linear infinite; }
         .hero-slide:nth-child(1) { background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1920'); animation-delay: -2s; }
         .hero-slide:nth-child(2) { background-image: url('https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1920'); animation-delay: -26s; }
         .hero-slide:nth-child(3) { background-image: url('https://images.unsplash.com/photo-1510511459019-5dee997d7db4?q=80&w=1920'); animation-delay: -20s; }
@@ -75,15 +40,7 @@
         }
 
         .hero-content { position: relative; z-index: 10; text-align: center; max-width: 900px; padding: 0 20px; }
-        
-        /* Beyaz-Mavi Karışımı Başlıklar */
-        .hero-content h1, .section-header h2, .ref-section-header h3 {
-            background: var(--white-blue-grad);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-weight: 800;
-        }
-
+        .hero-content h1, .section-header h2, .ref-section-header h3 { background: var(--white-blue-grad); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 800; }
         .hero-content h1 { font-size: clamp(2.2rem, 6vw, 4rem); line-height: 1.1; margin-bottom: 25px; letter-spacing: -1px; }
         .hero-subtitle { font-size: 1.15rem; color: var(--text-dim); margin-bottom: 40px; max-width: 700px; margin-inline: auto; }
 
@@ -92,68 +49,30 @@
         .btn-outline { border: 2px solid rgba(255,255,255,0.2); color: white; margin-left: 15px; }
         .btn:hover { transform: translateY(-5px); }
 
-        /* --- HİZMETLER --- */
         .services { padding: 100px 8% 60px; background: var(--dark-bg); position: relative; z-index: 10; }
         .section-header { text-align: center; margin-bottom: 60px; }
         .section-header h2 { font-size: 2.5rem; margin-bottom: 10px; }
-        
-        .grid { 
-            display: grid; 
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
-            gap: 30px; 
-        }
-        
-        .card { 
-            background: var(--card-bg); 
-            padding: 50px 40px; 
-            border-radius: 28px; 
-            border: 1px solid rgba(255,255,255,0.03); 
-            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); 
-        }
-
-        .card:hover { 
-            border-color: rgba(59, 130, 246, 0.4); 
-            transform: translateY(-12px); 
-            background: #111a35;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
-        }
-
-        .icon-box {
-            width: 60px; height: 60px;
-            background: rgba(59, 130, 246, 0.1);
-            border-radius: 16px;
-            display: flex; align-items: center; justify-content: center;
-            margin-bottom: 25px;
-            transition: 0.3s;
-        }
-
-        .card:hover .icon-box {
-            background: var(--primary);
-            transform: rotate(-5deg) scale(1.1);
-        }
-
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
+        .card { background: var(--card-bg); padding: 50px 40px; border-radius: 28px; border: 1px solid rgba(255,255,255,0.03); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); }
+        .card:hover { border-color: rgba(59, 130, 246, 0.4); transform: translateY(-12px); background: #111a35; box-shadow: 0 20px 40px rgba(0,0,0,0.4); }
+        .icon-box { width: 60px; height: 60px; background: rgba(59, 130, 246, 0.1); border-radius: 16px; display: flex; align-items: center; justify-content: center; margin-bottom: 25px; transition: 0.3s; }
+        .card:hover .icon-box { background: var(--primary); transform: rotate(-5deg) scale(1.1); }
         .card:hover .icon-box i { color: white; }
         .icon { font-size: 1.8rem; color: var(--primary); transition: 0.3s; }
-        
         .card h3 { margin-bottom: 15px; font-size: 1.5rem; font-weight: 700; color: #ffffff; }
         .card p { color: var(--text-dim); font-size: 0.95rem; line-height: 1.6; }
 
-        /* --- REFERANSLAR --- */
         .ref-section { background: var(--dark-bg); padding: 80px 0 120px; overflow: hidden; position: relative; z-index: 10; }
         .ref-section-header { text-align: center; margin-bottom: 50px; }
         .ref-section-header h3 { font-size: 1.8rem; margin-bottom: 10px; }
         .ref-section-header p { color: var(--text-dim); font-size: 1rem; }
-        
         .ref-slider-box { white-space: nowrap; position: relative; }
         .ref-container { display: inline-block; animation: scroll 40s linear infinite; }
         .ref-logo { display: inline-flex; align-items: center; gap: 12px; margin: 0 60px; color: #64748b; font-size: 1.2rem; font-weight: 700; filter: grayscale(1); transition: 0.3s; }
         .ref-logo:hover { filter: grayscale(0); color: var(--text-main); }
         .ref-logo i { font-size: 1.5rem; color: var(--primary); }
 
-        @keyframes scroll {
-            from { transform: translateX(0); }
-            to { transform: translateX(-50%); }
-        }
+        @keyframes scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
         @media (max-width: 768px) {
             .hero-content h1 { font-size: 2.4rem; }
@@ -174,64 +93,64 @@
         </div>
         
         <div class="hero-content">
-            <h1>Yazılım Dünyasının Öncü Geliştirme ve Test Çözümleri</h1>
-            <p class="hero-subtitle">Ozturksoft olarak, karmaşık iş problemlerinizi modern teknoloji yığınları ve kusursuz QA süreçleriyle çözüyoruz.</p>
+            <h1 data-i18n="hero.title">Yazılım Dünyasının Öncü Geliştirme ve Test Çözümleri</h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">Ozturksoft olarak, karmaşık iş problemlerinizi modern teknoloji yığınları ve kusursuz QA süreçleriyle çözüyoruz.</p>
             <div class="hero-buttons">
-                <a href="#hizmetler" class="btn btn-primary">Çözümlerimizi İnceleyin</a>
-                <a href="#iletisim" class="btn btn-outline">Bizimle Tanışın</a>
+                <a href="#hizmetler" class="btn btn-primary" data-i18n="hero.btnExplore">Çözümlerimizi İnceleyin</a>
+                <a href="#iletisim" class="btn btn-outline" data-i18n="hero.btnMeet">Bizimle Tanışın</a>
             </div>
         </div>
     </section>
 
     <section class="services" id="hizmetler">
         <div class="section-header">
-            <h2>Uçtan Uca Dijital Dönüşüm</h2>
-            <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto;">Ozturksoft, modern teknoloji yığınlarını iş hedeflerinizle birleştirerek sürdürülebilir başarı sağlar.</p>
+            <h2 data-i18n="services.title">Uçtan Uca Dijital Dönüşüm</h2>
+            <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto;" data-i18n="services.subtitle">Ozturksoft, modern teknoloji yığınlarını iş hedeflerinizle birleştirerek sürdürülebilir başarı sağlar.</p>
         </div>
         
         <div class="grid">
             <div class="card">
                 <div class="icon-box"><i class="fas fa-code icon"></i></div>
-                <h3>Özel Yazılım Geliştirme</h3>
-                <p>Karmaşık iş süreçlerinizi optimize eden, ölçeklenebilir ve yüksek performanslı mikroservis mimarileri inşa ediyoruz.</p>
+                <h3 data-i18n="services.cards.dev.title">Özel Yazılım Geliştirme</h3>
+                <p data-i18n="services.cards.dev.desc">Karmaşık iş süreçlerinizi optimize eden, ölçeklenebilir ve yüksek performanslı mikroservis mimarileri inşa ediyoruz.</p>
             </div>
 
             <div class="card">
                 <div class="icon-box"><i class="fas fa-check-double icon"></i></div>
-                <h3>QA & Kalite Güvencesi</h3>
-                <p>Sıfır hata vizyonuyla, TDD ve CI/CD süreçlerini entegre ederek yazılımınızın güvenilirliğini en üst seviyeye çıkarıyoruz.</p>
+                <h3 data-i18n="services.cards.qa.title">QA & Kalite Güvencesi</h3>
+                <p data-i18n="services.cards.qa.desc">Sıfır hata vizyonuyla, TDD ve CI/CD süreçlerini entegre ederek yazılımınızın güvenilirliğini en üst seviyeye çıkarıyoruz.</p>
             </div>
 
             <div class="card">
                 <div class="icon-box"><i class="fas fa-brain icon"></i></div>
-                <h3>Yapay Zeka & Analitik</h3>
-                <p>Verinizi stratejik bir varlığa dönüştüren makine öğrenmesi modelleri ve veri madenciliği çözümleri geliştiriyoruz.</p>
+                <h3 data-i18n="services.cards.ai.title">Yapay Zeka & Analitik</h3>
+                <p data-i18n="services.cards.ai.desc">Verinizi stratejik bir varlığa dönüştüren makine öğrenmesi modelleri ve veri madenciliği çözümleri geliştiriyoruz.</p>
             </div>
 
             <div class="card">
                 <div class="icon-box"><i class="fas fa-mobile-alt icon"></i></div>
-                <h3>Mobil Uygulama Geliştirme</h3>
-                <p>iOS ve Android platformlarında, kullanıcı odaklı ve yüksek etkileşimli native veya cross-platform çözümler sunuyoruz.</p>
+                <h3 data-i18n="services.cards.mobile.title">Mobil Uygulama Geliştirme</h3>
+                <p data-i18n="services.cards.mobile.desc">iOS ve Android platformlarında, kullanıcı odaklı ve yüksek etkileşimli native veya cross-platform çözümler sunuyoruz.</p>
             </div>
 
             <div class="card">
                 <div class="icon-box"><i class="fas fa-cloud icon"></i></div>
-                <h3>Bulut & DevOps</h3>
-                <p>Modern bulut altyapıları ve otomasyon süreçleri ile yazılım dağıtım hızınızı ve güvenliğinizi artırıyoruz.</p>
+                <h3 data-i18n="services.cards.cloud.title">Bulut & DevOps</h3>
+                <p data-i18n="services.cards.cloud.desc">Modern bulut altyapıları ve otomasyon süreçleri ile yazılım dağıtım hızınızı ve güvenliğinizi artırıyoruz.</p>
             </div>
 
             <div class="card">
                 <div class="icon-box"><i class="fas fa-swatchbook icon"></i></div>
-                <h3>UI/UX Tasarımı</h3>
-                <p>Estetikle fonksiyonelliği birleştirerek, markanızın dijital kimliğini güçlendiren kullanıcı deneyimleri kurguluyoruz.</p>
+                <h3 data-i18n="services.cards.uiux.title">UI/UX Tasarımı</h3>
+                <p data-i18n="services.cards.uiux.desc">Estetikle fonksiyonelliği birleştirerek, markanızın dijital kimliğini güçlendiren kullanıcı deneyimleri kurguluyoruz.</p>
             </div>
         </div>
     </section>
 
     <section class="ref-section" id="referanslar">
         <div class="ref-section-header">
-            <h3>Güvenle Çalıştığımız Partnerler</h3>
-            <p>İş birliği içinde olduğumuz değerli markalar.</p>
+            <h3 data-i18n="references.title">Güvenle Çalıştığımız Partnerler</h3>
+            <p data-i18n="references.subtitle">İş birliği içinde olduğumuz değerli markalar.</p>
         </div>
         <div class="ref-slider-box">
             <div class="ref-container">
@@ -250,53 +169,50 @@
         </div>
     </section>
 
-    <!-- İstatistikler -->
     <section style="margin-top: -60px; padding-bottom: 50px; position: relative; z-index: 15;">
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; text-align: center;">
             <div style="background: var(--card-bg); padding: 40px 30px; border-radius: 20px; border-bottom: 3px solid var(--primary); box-shadow: 0 10px 30px rgba(0,0,0,0.4);">
                 <h4 style="font-size: 2.8rem; font-weight: 800; color: white; margin-bottom: 5px;">50+</h4>
-                <p style="color: var(--text-dim); font-size: 0.95rem; font-weight: 600;">Tamamlanan Proje</p>
+                <p style="color: var(--text-dim); font-size: 0.95rem; font-weight: 600;" data-i18n="stats.projects">Tamamlanan Proje</p>
             </div>
             <div style="background: var(--card-bg); padding: 40px 30px; border-radius: 20px; border-bottom: 3px solid var(--primary); box-shadow: 0 10px 30px rgba(0,0,0,0.4);">
                 <h4 style="font-size: 2.8rem; font-weight: 800; color: white; margin-bottom: 5px;">%100</h4>
-                <p style="color: var(--text-dim); font-size: 0.95rem; font-weight: 600;">Müşteri Memnuniyeti</p>
+                <p style="color: var(--text-dim); font-size: 0.95rem; font-weight: 600;" data-i18n="stats.satisfaction">Müşteri Memnuniyeti</p>
             </div>
             <div style="background: var(--card-bg); padding: 40px 30px; border-radius: 20px; border-bottom: 3px solid var(--primary); box-shadow: 0 10px 30px rgba(0,0,0,0.4);">
                 <h4 style="font-size: 2.8rem; font-weight: 800; color: white; margin-bottom: 5px;">24/7</h4>
-                <p style="color: var(--text-dim); font-size: 0.95rem; font-weight: 600;">Teknik Destek</p>
+                <p style="color: var(--text-dim); font-size: 0.95rem; font-weight: 600;" data-i18n="stats.support">Teknik Destek</p>
             </div>
         </div>
     </section>
 
 
-    <!-- Vizyon & Misyon -->
     <section>
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px;">
             <div class="card">
                 <div style="font-size: 3rem; margin-bottom: 20px; line-height: 1;">🎯</div>
-                <h3 style="color: var(--primary); margin-bottom: 20px; font-size: 1.8rem;">Vizyonumuz</h3>
-                <p style="color: var(--text-dim); font-size: 1.05rem; line-height: 1.8;">
+                <h3 style="color: var(--primary); margin-bottom: 20px; font-size: 1.8rem;" data-i18n="vision.title">Vizyonumuz</h3>
+                <p style="color: var(--text-dim); font-size: 1.05rem; line-height: 1.8;" data-i18n="vision.desc">
                     Global standartlarda, hatasız ve ölçeklenebilir yazılım mimarileri üreterek sektörde öncü olmak. Türkiye'den dünyaya açılan bir teknoloji şirketi olarak, yenilikçi çözümlerimizle dijital dönüşüme liderlik etmek.
                 </p>
             </div>
             
             <div class="card">
                 <div style="font-size: 3rem; margin-bottom: 20px; line-height: 1;">🚀</div>
-                <h3 style="color: var(--primary); margin-bottom: 20px; font-size: 1.8rem;">Misyonumuz</h3>
-                <p style="color: var(--text-dim); font-size: 1.05rem; line-height: 1.8;">
+                <h3 style="color: var(--primary); margin-bottom: 20px; font-size: 1.8rem;" data-i18n="mission.title">Misyonumuz</h3>
+                <p style="color: var(--text-dim); font-size: 1.05rem; line-height: 1.8;" data-i18n="mission.desc">
                     Müşterilerimizin iş süreçlerini optimize eden, güvenilir ve sürdürülebilir yazılım çözümleri sunmak. Her projede %100 kalite garantisi ile modern teknolojileri iş değerine dönüştürmek.
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- Değerlerimiz -->
     <section style="background: var(--card-bg);">
         <div style="text-align: center; margin-bottom: 80px;">
             <h2 style="font-size: 3rem; font-weight: 800;">
-                <span class="highlight">Değerlerimiz</span>
+                <span class="highlight" data-i18n="values.title">Değerlerimiz</span>
             </h2>
-            <p style="color: var(--text-dim); max-width: 700px; margin: 20px auto;">
+            <p style="color: var(--text-dim); max-width: 700px; margin: 20px auto;" data-i18n="values.subtitle">
                 Ozturksoft'u ayakta tutan ve her projemizde rehberimiz olan temel prensiplerimiz.
             </p>
         </div>
@@ -304,61 +220,60 @@
         <div class="grid">
             <div class="card">
                 <div style="font-size: 3rem; margin-bottom: 20px; line-height: 1;">⚡</div>
-                <h3 style="margin-bottom: 15px;">Teknik Derinlik</h3>
-                <p style="color: var(--text-dim);">
+                <h3 style="margin-bottom: 15px;" data-i18n="values.cards.technical.title">Teknik Derinlik</h3>
+                <p style="color: var(--text-dim);" data-i18n="values.cards.technical.desc">
                     En güncel teknolojileri takip eder, en karmaşık problemlere dahi çözüm üretiriz. Sürekli öğrenen ve kendini geliştiren bir ekibiz.
                 </p>
             </div>
 
             <div class="card">
                 <div style="font-size: 3rem; margin-bottom: 20px; line-height: 1;">🔍</div>
-                <h3 style="margin-bottom: 15px;">Şeffaf Süreç Yönetimi</h3>
-                <p style="color: var(--text-dim);">
+                <h3 style="margin-bottom: 15px;" data-i18n="values.cards.transparent.title">Şeffaf Süreç Yönetimi</h3>
+                <p style="color: var(--text-dim);" data-i18n="values.cards.transparent.desc">
                     Projenin her aşamasında müşterimizle tam şeffaflık içinde çalışırız. Her adımı raporlar, her değişikliği paylaşırız.
                 </p>
             </div>
 
             <div class="card">
                 <div style="font-size: 3rem; margin-bottom: 20px; line-height: 1;">✅</div>
-                <h3 style="margin-bottom: 15px;">%100 QA Garantisi</h3>
-                <p style="color: var(--text-dim);">
+                <h3 style="margin-bottom: 15px;" data-i18n="values.cards.qa.title">%100 QA Garantisi</h3>
+                <p style="color: var(--text-dim);" data-i18n="values.cards.qa.desc">
                     Test-Driven Development (TDD) ve CI/CD süreçleriyle her satır kod test edilir. Hatasız teslimat bizim standartımızdır.
                 </p>
             </div>
 
             <div class="card">
                 <div style="font-size: 3rem; margin-bottom: 20px; line-height: 1;">🤝</div>
-                <h3 style="margin-bottom: 15px;">Müşteri Odaklılık</h3>
-                <p style="color: var(--text-dim);">
+                <h3 style="margin-bottom: 15px;" data-i18n="values.cards.customer.title">Müşteri Odaklılık</h3>
+                <p style="color: var(--text-dim);" data-i18n="values.cards.customer.desc">
                     Müşterilerimizin başarısı bizim başarımızdır. Sadece kod yazmıyoruz, iş ortağınız oluyoruz.
                 </p>
             </div>
 
             <div class="card">
                 <div style="font-size: 3rem; margin-bottom: 20px; line-height: 1;">🌱</div>
-                <h3 style="margin-bottom: 15px;">Sürdürülebilirlik</h3>
-                <p style="color: var(--text-dim);">
+                <h3 style="margin-bottom: 15px;" data-i18n="values.cards.sustainability.title">Sürdürülebilirlik</h3>
+                <p style="color: var(--text-dim);" data-i18n="values.cards.sustainability.desc">
                     Bugünün değil, yarının ihtiyaçlarını da düşünerek ölçeklenebilir ve bakımı kolay sistemler kurarız.
                 </p>
             </div>
 
             <div class="card">
                 <div style="font-size: 3rem; margin-bottom: 20px; line-height: 1;">🎓</div>
-                <h3 style="margin-bottom: 15px;">Sürekli Gelişim</h3>
-                <p style="color: var(--text-dim);">
+                <h3 style="margin-bottom: 15px;" data-i18n="values.cards.growth.title">Sürekli Gelişim</h3>
+                <p style="color: var(--text-dim);" data-i18n="values.cards.growth.desc">
                     Teknoloji durmadan gelişiyor, biz de. Ekibimiz sürekli eğitim alır ve yeni teknolojileri projelere entegre eder.
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- Neden Biz? -->
     <section>
         <div style="text-align: center; margin-bottom: 80px;">
             <h2 style="font-size: 3rem; font-weight: 800;">
-                Neden <span class="highlight">Ozturksoft?</span>
+                <span data-i18n="whyus.title">Neden</span> <span class="highlight" data-i18n="whyus.highlight">Ozturksoft?</span>
             </h2>
-            <p style="color: var(--text-dim); max-width: 700px; margin: 20px auto;">
+            <p style="color: var(--text-dim); max-width: 700px; margin: 20px auto;" data-i18n="whyus.subtitle">
                 Rakiplerimizden bizi farklı kılan özellikleri keşfedin.
             </p>
         </div>
@@ -366,55 +281,54 @@
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
             <div class="card" style="text-align: center;">
                 <div style="font-size: 2.5rem; margin-bottom: 15px; line-height: 1;">⏱️</div>
-                <h3 style="margin-bottom: 10px; font-size: 1.3rem;">Zamanında Teslimat</h3>
-                <p style="color: var(--text-dim); font-size: 0.9rem;">
+                <h3 style="margin-bottom: 10px; font-size: 1.3rem;" data-i18n="whyus.cards.time.title">Zamanında Teslimat</h3>
+                <p style="color: var(--text-dim); font-size: 0.9rem;" data-i18n="whyus.cards.time.desc">
                     Belirlenen deadline'lara kesin uyum. Projelerimizin %95'i zamanında teslim edilir.
                 </p>
             </div>
 
             <div class="card" style="text-align: center;">
                 <div style="font-size: 2.5rem; margin-bottom: 15px; line-height: 1;">💬</div>
-                <h3 style="margin-bottom: 10px; font-size: 1.3rem;">Hızlı İletişim</h3>
-                <p style="color: var(--text-dim); font-size: 0.9rem;">
+                <h3 style="margin-bottom: 10px; font-size: 1.3rem;" data-i18n="whyus.cards.communication.title">Hızlı İletişim</h3>
+                <p style="color: var(--text-dim); font-size: 0.9rem;" data-i18n="whyus.cards.communication.desc">
                     4 saat içinde yanıt garantisi. Acil durumlarda 7/24 destek hattımız.
                 </p>
             </div>
 
             <div class="card" style="text-align: center;">
                 <div style="font-size: 2.5rem; margin-bottom: 15px; line-height: 1;">🔒</div>
-                <h3 style="margin-bottom: 10px; font-size: 1.3rem;">Güvenlik Odaklı</h3>
-                <p style="color: var(--text-dim); font-size: 0.9rem;">
+                <h3 style="margin-bottom: 10px; font-size: 1.3rem;" data-i18n="whyus.cards.security.title">Güvenlik Odaklı</h3>
+                <p style="color: var(--text-dim); font-size: 0.9rem;" data-i18n="whyus.cards.security.desc">
                     OWASP standartlarında güvenlik testleri. Verileriniz bizimle güvende.
                 </p>
             </div>
 
             <div class="card" style="text-align: center;">
                 <div style="font-size: 2.5rem; margin-bottom: 15px; line-height: 1;">📊</div>
-                <h3 style="margin-bottom: 10px; font-size: 1.3rem;">Detaylı Raporlama</h3>
-                <p style="color: var(--text-dim); font-size: 0.9rem;">
+                <h3 style="margin-bottom: 10px; font-size: 1.3rem;" data-i18n="whyus.cards.reporting.title">Detaylı Raporlama</h3>
+                <p style="color: var(--text-dim); font-size: 0.9rem;" data-i18n="whyus.cards.reporting.desc">
                     Haftalık ilerleme raporları. Projenizin her anını takip edin.
                 </p>
             </div>
 
             <div class="card" style="text-align: center;">
                 <div style="font-size: 2.5rem; margin-bottom: 15px; line-height: 1;">🛠️</div>
-                <h3 style="margin-bottom: 10px; font-size: 1.3rem;">Proje Sonrası Destek</h3>
-                <p style="color: var(--text-dim); font-size: 0.9rem;">
+                <h3 style="margin-bottom: 10px; font-size: 1.3rem;" data-i18n="whyus.cards.support.title">Proje Sonrası Destek</h3>
+                <p style="color: var(--text-dim); font-size: 0.9rem;" data-i18n="whyus.cards.support.desc">
                     30-90 gün ücretsiz bakım ve destek. Yalnız bırakmıyoruz.
                 </p>
             </div>
 
             <div class="card" style="text-align: center;">
                 <div style="font-size: 2.5rem; margin-bottom: 15px; line-height: 1;">💰</div>
-                <h3 style="margin-bottom: 10px; font-size: 1.3rem;">Rekabetçi Fiyatlar</h3>
-                <p style="color: var(--text-dim); font-size: 0.9rem;">
+                <h3 style="margin-bottom: 10px; font-size: 1.3rem;" data-i18n="whyus.cards.pricing.title">Rekabetçi Fiyatlar</h3>
+                <p style="color: var(--text-dim); font-size: 0.9rem;" data-i18n="whyus.cards.pricing.desc">
                     Kaliteden ödün vermeden uygun fiyatlar. Esnek ödeme planları.
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- CTA -->
     <section style="background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%); position: relative; overflow: hidden; padding: 120px 8%;">
         <div style="position: absolute; right: -50px; bottom: -50px; font-size: 20rem; opacity: 0.05; color: white; transform: rotate(-15deg);">
             <i class="fas fa-code"></i>
@@ -422,14 +336,14 @@
         
         <div style="max-width: 800px; margin: 0 auto; text-align: center; position: relative; z-index: 5;">
             <h2 style="color: white; font-size: 3rem; font-weight: 800; line-height: 1.2; margin-bottom: 30px;">
-                Sıradaki Başarı Hikayesini <br> <span style="color: var(--accent);">Birlikte Yazalım.</span>
+                <span data-i18n="cta.titleLine1">Sıradaki Başarı Hikayesini</span> <br> <span style="color: var(--accent);" data-i18n="cta.titleLine2">Birlikte Yazalım.</span>
             </h2>
-            <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.125rem; margin-bottom: 40px;">
+            <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.125rem; margin-bottom: 40px;" data-i18n="cta.subtitle">
                 Ücretsiz konsültasyon için bugün iletişime geçin ve dijital dönüşümünüze başlayalım.
             </p>
             <div class="hero-buttons">
-                <a href="#iletisim" class="btn" style="background: white; color: var(--primary);">İletişime Geçin</a>
-                <a href="#hizmetler" class="btn btn-outline" style="border-color: white; color: white;">Hizmetlerimizi Görün</a>
+                <a href="#iletisim" class="btn" style="background: white; color: var(--primary);" data-i18n="cta.btnContact">İletişime Geçin</a>
+                <a href="#hizmetler" class="btn btn-outline" style="border-color: white; color: white;" data-i18n="cta.btnServices">Hizmetlerimizi Görün</a>
             </div>
         </div>
     </section>

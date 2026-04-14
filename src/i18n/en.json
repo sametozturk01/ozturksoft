@@ -1,0 +1,276 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "quoteBtn": "Get a Quote"
+  },
+  "hero": {
+    "title": "Pioneering Development and Testing Solutions",
+    "subtitle": "At Ozturksoft, we solve your complex business problems with modern technology stacks and flawless QA processes.",
+    "btnExplore": "Explore Our Solutions",
+    "btnMeet": "Meet With Us"
+  },
+  "services": {
+    "title": "End-to-End Digital Transformation",
+    "subtitle": "Ozturksoft combines modern technology stacks with your business goals to ensure sustainable success.",
+    "cards": {
+      "dev": { "title": "Custom Software Development", "desc": "We build scalable, high-performance microservice architectures that optimize your complex business processes." },
+      "qa": { "title": "QA & Quality Assurance", "desc": "With a zero-defect vision, we maximize your software's reliability by integrating TDD and CI/CD processes." },
+      "ai": { "title": "AI & Analytics", "desc": "We develop machine learning models and data mining solutions that turn your data into a strategic asset." },
+      "mobile": { "title": "Mobile App Development", "desc": "We provide user-centric, highly interactive native or cross-platform solutions on iOS and Android." },
+      "cloud": { "title": "Cloud & DevOps", "desc": "We increase your software delivery speed and security with modern cloud infrastructures and automation." },
+      "uiux": { "title": "UI/UX Design", "desc": "We design user experiences that strengthen your brand's digital identity by combining aesthetics with functionality." }
+    }
+  },
+  "references": {
+    "title": "Partners We Work With Safely",
+    "subtitle": "Valuable brands we collaborate with."
+  },
+  "stats": {
+    "projects": "Completed Projects",
+    "satisfaction": "Customer Satisfaction",
+    "support": "Technical Support"
+  },
+  "vision": {
+    "title": "Our Vision",
+    "desc": "To be an industry leader by producing flawless, scalable software architectures at global standards. As a tech company expanding from Turkey to the world, to lead digital transformation with our innovative solutions."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "desc": "To provide reliable, sustainable software solutions that optimize our clients' business processes. To transform modern technologies into business value with a 100% quality guarantee in every project."
+  },
+  "values": {
+    "title": "Our Values",
+    "subtitle": "The core principles that sustain Ozturksoft and guide every project.",
+    "cards": {
+      "technical": { "title": "Technical Depth", "desc": "We follow the latest technologies and solve even the most complex problems. We are a constantly learning and evolving team." },
+      "transparent": { "title": "Transparent Process Management", "desc": "We work in full transparency with our clients at every stage of the project. We report every step and share every change." },
+      "qa": { "title": "100% QA Guarantee", "desc": "Every line of code is tested through TDD and CI/CD processes. Flawless delivery is our standard." },
+      "customer": { "title": "Customer Centricity", "desc": "Our clients' success is our success. We don't just write code, we become your business partner." },
+      "sustainability": { "title": "Sustainability", "desc": "We build scalable, easy-to-maintain systems by considering not just today's needs, but tomorrow's as well." },
+      "growth": { "title": "Continuous Growth", "desc": "Technology constantly evolves, and so do we. Our team continuously trains and integrates new tech into projects." }
+    }
+  },
+  "whyus": {
+    "title": "Why",
+    "highlight": "Ozturksoft?",
+    "subtitle": "Discover the features that set us apart from our competitors.",
+    "cards": {
+      "time": { "title": "On-Time Delivery", "desc": "Strict adherence to deadlines. 95% of our projects are delivered on time." },
+      "communication": { "title": "Fast Communication", "desc": "Guaranteed response within 4 hours. 24/7 support line for emergencies." },
+      "security": { "title": "Security Focused", "desc": "Security testing according to OWASP standards. Your data is safe with us." },
+      "reporting": { "title": "Detailed Reporting", "desc": "Weekly progress reports. Track every moment of your project." },
+      "support": { "title": "Post-Project Support", "desc": "30-90 days of free maintenance and support. We don't leave you alone." },
+      "pricing": { "title": "Competitive Pricing", "desc": "Affordable prices without compromising quality. Flexible payment plans." }
+    }
+  },
+  "cta": {
+    "titleLine1": "Let's Write the Next Success Story",
+    "titleLine2": "Together.",
+    "subtitle": "Contact us today for a free consultation and let's start your digital transformation.",
+    "btnContact": "Contact Us",
+    "btnServices": "See Our Services"
+  },
+  "about": {
+    "hero": {
+      "subtitle": "About Ozturksoft",
+      "title1": "The Story Behind",
+      "title2": "The Code",
+      "desc": "We don't just develop software; we build the digital character of businesses."
+    },
+    "location": "HQ: Ankara, Turkey",
+    "story": {
+      "title1": "A Journey Born of",
+      "title2": "Engineering Passion",
+      "p1": "Ozturksoft was founded in Ankara as a tech company in line with our founder <strong>Samet OZTURK</strong>'s vision of \"sustainable architecture, flawless engineering, and clean code\". At the core of our founding philosophy lies the goal of transforming businesses' increasingly complex processes into end-to-end optimized, global-standard digital experiences. For us, software is not just a tool that solves immediate needs; it is a robust ecosystem that will carry the future growth strategies of companies.",
+      "p2": "Today, with our deep expertise in <strong>modern application development standards</strong> and <strong>high-performance system architectures</strong>, we position projects not just as \"working systems\"; but as scalable, \"future-ready\" digital assets that provide stability under high traffic. Through our processes blended with type-safe programming languages and agile methodologies, we provide our business partners with digital transformation opportunities with the lowest risk and highest efficiency."
+    },
+    "qa": {
+      "title": "Holistic Quality Assurance (QA) Protocol",
+      "desc": "Our uncompromising commitment to <strong>Test-Driven Development</strong> principles is the greatest guarantee of our zero-defect tolerance. Every single function unit written passes through multi-layered security, load, and regression tests before being included in the production line. Thanks to our <strong>Continuous Integration and Deployment automations</strong>; we promise our business partners an industrial-standard technology infrastructure free from technical debt, working flawlessly for years, and offering low maintenance costs."
+    },
+    "timeline": {
+      "title1": "Our Journey of",
+      "title2": "Growth",
+      "desc": "Ozturksoft's steps from an idea to today.",
+      "step1": { "sub": "Laying the Foundations", "title": "Birth of the Vision", "desc": "Founded in Ankara with the goal of producing quality-focused software and modern web technologies." },
+      "step2": { "sub": "First Big Successes", "title": "Corporate Projects", "desc": "We started serving our first large corporate clients with custom management panels and complex system integrations." },
+      "step3": { "sub": "Today & Tomorrow", "title": "Continuous Innovation", "desc": "Today, we produce end-to-end solutions and design the digital products of the future with our modern stack (React, Node.js, TS)." }
+    },
+    "culture": {
+      "title": "Culture",
+      "desc": "Our approach to work is what makes us who we are.",
+      "card1": { "title": "Continuous Learning", "desc": "Technology never stops. Our team researches new technologies every day and keeps our systems up to date." },
+      "card2": { "title": "Transparent Communication", "desc": "We communicate clearly and openly at every stage of the project, without any surprises for our clients." },
+      "card3": { "title": "Craftsmanship", "desc": "We see software not as a factory job, but as a craft that needs to be carefully woven." }
+    },
+    "cta": {
+      "title1": "Ready to Meet",
+      "title2": "Our Team?",
+      "desc": "We can't wait to listen to your idea and talk about how we can bring it to life.",
+      "btn": "Let's Grab a Coffee"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "subtitle": "Professional Solutions",
+      "title1": "What We",
+      "title2": "Do?",
+      "desc": "We carry your business to the future with end-to-end digital transformation solutions. We are with you at every step, from idea to live."
+    },
+    "cards": {
+      "dev": { "title": "Custom Software Development", "desc": "We develop high-performance, scalable web and mobile applications with React, TypeScript, Node.js, and Python.", "list1": "Corporate Web Apps", "list2": "E-commerce Platforms", "list3": "SaaS Products", "list4": "RESTful & GraphQL APIs" },
+      "qa": { "title": "Test & QA Services", "desc": "Zero-defect projects with CI/CD integrated, automated test processes (TDD). Security testing at OWASP standards." },
+      "cloud": { "title": "DevOps & Cloud Solutions", "desc": "Secure, scalable, and highly available architecture setups on AWS and Azure infrastructures." },
+      "mobile": { "title": "Mobile App Development", "desc": "Native and cross-platform mobile apps on iOS and Android. User experience-focused designs.", "list4": "Store Publishing" },
+      "ai": { "title": "AI & Analytics", "desc": "Turn your data into a strategic asset with machine learning, data mining, and AI integrations.", "list1": "Machine Learning", "list2": "Natural Language Processing (NLP)", "list3": "Data Analysis" },
+      "ui": { "title": "UI/UX Design", "desc": "User-centric, aesthetic, and functional interface designs. Experiences that strengthen your brand's digital identity." }
+    },
+    "ai": {
+      "title1": "Why",
+      "desc": "Ordinary software agencies only produce \"tools\", we integrate \"intelligence\".",
+      "card1": {
+        "title": "Traditional Companies",
+        "li1": { "title": "Rule-Based Systems", "desc": "Static structures running only on pre-written codes and fixed rules." },
+        "li2": { "title": "Manual Workload", "desc": "Data entry, analysis, and documentation processes depending on human power." },
+        "li3": { "title": "Standard Search and Filtering", "desc": "Simple keyword matching that doesn't fully understand what the user is looking for." }
+      },
+      "card2": {
+        "badge": "FUTURE TECH",
+        "li1": { "title": "Autonomous Assistant Modules", "desc": "Industry-specific trained models. For example, smart assistants for legal professionals that can understand legal language and create petition drafts in seconds." },
+        "li2": { "title": "Learning Algorithms (Machine Learning)", "desc": "Dynamic infrastructures that continuously learn from user behavior, optimize themselves, and make predictive decisions." },
+        "li3": { "title": "Natural Language Processing (NLP) Integration", "desc": "Smart algorithms that understand human language, perform text analysis, and turn complex data into meaningful insights." }
+      }
+    },
+    "global": {
+      "sub": "High-End Engineering",
+      "title1": "Our Technology is",
+      "title2": "Your Invisible Power",
+      "desc": "We don't write complex codes; we build a digital backbone that ensures your business runs uninterrupted, your data remains unshakeably secure, and your operations become autonomous.",
+      "card1": { "badge": "01 // ANALYTICAL INTELLIGENCE", "title": "Self-Deciding Systems", "desc": "With our models that process complex data sets in seconds, we give your systems 'foresight'. Decisions are now data-driven and flawless." },
+      "card2": { "badge": "02 // DIGITAL FORTRESSES", "title": "Uncompromising Data Security", "desc": "We embed global cybersecurity standards into the smallest cell of the software. Proactive defense layers that block not only today's but tomorrow's threats." },
+      "card3": { "badge": "03 // LIMITLESS CAPACITY", "title": "Future-Ready Infrastructure", "desc": "Cloud-based architectures that flawlessly manage millions of users and massive data traffic. As your business grows, your systems never lag behind." },
+      "quote": "Technology, in the right hands, turns into art; with the right vision, into an unrivaled power."
+    },
+    "process": {
+      "title1": "How Do We",
+      "title2": "Work?",
+      "desc": "Our transparent, organized, and result-oriented agile project management process.",
+      "s1": { "title": "Discovery & Analysis", "desc": "We listen to your needs and understand your business goals. We prepare a detailed technical analysis and feasibility report." },
+      "s2": { "title": "Planning & Design", "desc": "We create the project roadmap, architecture design, and UI/UX mockups. We do sprint planning." },
+      "s3": { "title": "Development", "desc": "Sprint-based development with agile methodology. Weekly demos and progress reports. Continuous communication." },
+      "s4": { "title": "Test & QA", "desc": "Automated and manual tests. Security scanning. Performance optimization. UAT (User Acceptance Testing)." },
+      "s5": { "title": "Deployment & Support", "desc": "Go-live and deployment. User training. SLA-guaranteed maintenance and support. Monitoring setup." }
+    },
+    "whyus": {
+      "title1": "Why",
+      "title2": "Us?",
+      "c1": { "title": "High Security", "desc": "Your corporate data is protected with end-to-end encryption at KVKK/GDPR standards and global security protocols." },
+      "c2": { "title": "Scalability", "desc": "We use microservices and modern cloud architectures so you don't experience performance loss as your project grows." },
+      "c3": { "title": "Uninterrupted Support", "desc": "We don't leave you alone after project delivery; we provide proactive monitoring and support under SLA agreements." }
+    },
+    "cta": {
+      "title1": "Ready to Start",
+      "title2": "Your Project?",
+      "desc": "Contact our expert team immediately for a free consultation and technical analysis.",
+      "btn1": "Get a Quote",
+      "btn2": "Get to Know Us"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title1": "Get in Touch",
+      "title2": "With Us",
+      "desc": "We are ready to talk about your project. Contact us today for a free consultation and technical analysis.",
+      "stat1": "4 Hours",
+      "stat1b": "Response Time",
+      "stat2": "Free",
+      "stat2b": "Consultation",
+      "stat3b": "Support Line"
+    },
+    "info": {
+      "badge": "CONTACT INFO",
+      "title1": "Reach",
+      "title2": "Out to Us",
+      "desc": "Choose the communication channel that suits you best, and let us help you immediately."
+    },
+    "cards": {
+      "email": {
+        "title": "E-mail",
+        "desc1": "24/7 e-mail support",
+        "desc2": "4-hour response guarantee"
+      },
+      "phone": {
+        "title": "Phone",
+        "desc": "Business hours: 09:00 - 18:00",
+        "btn": "Reveal Number"
+      },
+      "address": {
+        "title": "Address",
+        "desc1": "Office visits by appointment",
+        "desc2": "Cankaya / Ankara"
+      }
+    },
+    "form": {
+      "badge": "PROJECT REQUEST",
+      "title1": "Get a Project",
+      "title2": "Quote",
+      "desc": "Share the details of your project, and we will offer you the most suitable solution.",
+      "name": "Full Name *",
+      "company": "Company",
+      "email": "E-mail *",
+      "phone": "Phone",
+      "type": "Project Type *",
+      "budget": "Budget Range",
+      "details": "Project Details *",
+      "privacyLink": "Privacy Policy",
+      "privacyText": "read and accepted. *",
+      "submit": "Request Quote",
+      "options": {
+        "select": "Select...",
+        "web": "🌐 Web Development",
+        "mobile": "📱 Mobile App",
+        "ecom": "🛒 E-commerce",
+        "qa": "🧪 Test & QA Services",
+        "cloud": "☁️ DevOps & Cloud",
+        "ui": "🎨 UI/UX Design",
+        "ai": "🧠 AI & Analytics",
+        "consult": "💼 Consultation",
+        "other": "📝 Other"
+      }
+    },
+    "response": {
+      "badge": "FAST RESPONSE",
+      "title1": "Our Response",
+      "title2": "Times",
+      "r1": { "title": "E-mail", "strong": "Within 4 hours", "desc": "response guarantee" },
+      "r2": { "title": "Phone", "strong": "Instant call", "desc": "opportunity" },
+      "r3": { "strong": "Within 2 hours", "desc": "response guarantee" },
+      "r4": { "title": "Urgent Support", "desc": "7/24 uninterrupted service" }
+    },
+    "faq": {
+      "title1": "Frequently Asked",
+      "title2": "Questions",
+      "q1": { "title": "How long is the project duration?", "desc": "It varies between 2-12 weeks depending on the complexity of the project. We provide you with a detailed timeline in the first meeting." },
+      "q2": { "title": "How does the testing process work?", "desc": "We prepare a custom test plan for every project. We provide 100% quality assurance with Automated + Manual tests." },
+      "q3": { "title": "Is there post-project support?", "desc": "Yes! We provide 30-90 days of free support for all our projects. We have maintenance packages afterwards." },
+      "q4": { "title": "Do you work remotely?", "desc": "Yes! We accept projects from all over Turkey and abroad. We are constantly in touch via online meetings." }
+    },
+    "modal": {
+      "title": "Privacy Policy",
+      "p1": "As Ozturksoft, we bear the responsibility of protecting the personal data of users visiting our website and sharing information via the contact form.",
+      "h1": "Collected Data",
+      "li1": "Name-surname, e-mail, phone, company information, and project details provided via the contact form",
+      "li2": "IP address and browser information (for website security and performance analysis)",
+      "h2": "Data Usage",
+      "p2": "The collected data will only be used to contact you, offer quotes, and improve our services. Your data will not be shared with third parties.",
+      "h3": "User Rights",
+      "p3": "Under the scope of KVKK (Data Protection Law), you can exercise your rights to access, correct, delete, limit processing, and request data portability. You can send your requests to <a href=\"mailto:info.ozturksoft@gmail.com\" style=\"color: var(--primary); text-decoration: none; font-weight: 600;\">info.ozturksoft@gmail.com</a>.",
+      "h4": "Security",
+      "p4": "Ozturksoft implements technical and administrative security measures to protect your personal data.",
+      "btn": "Understood, Close"
+    }
+  }
+}

@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>İletişim | Ozturksoft</title>
     
-    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     
-    <!-- CSS -->
     <link rel="stylesheet" href="./style.css" />
     
     <style>
@@ -324,7 +322,6 @@
 </head>
 <body>
 
-    <!-- Premium Hero -->
     <section class="hero" style="height: 65vh; position: relative;">
         <div class="hero-bg-container">
             <div class="hero-slide" style="opacity: 0.3; background-image: url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?q=80&w=1920');"></div>
@@ -333,97 +330,87 @@
         
         <div class="hero-content" style="z-index: 10;">
             <h1 style="font-size: clamp(2.5rem, 6vw, 4.5rem); margin-bottom: 30px; margin-top: 80px">
-                Bizimle <span class="highlight">İletişime Geçin</span>
+                <span data-i18n="contactPage.hero.title1">Bizimle</span> <span class="highlight" data-i18n="contactPage.hero.title2">İletişime Geçin</span>
             </h1>
             
-            <p class="hero-subtitle" style="max-width: 750px; font-size: 1.2rem;">
+            <p class="hero-subtitle" style="max-width: 750px; font-size: 1.2rem;" data-i18n="contactPage.hero.desc">
                 Projeniz hakkında konuşmaya hazırız. Ücretsiz konsültasyon ve teknik analiz için hemen iletişime geçin.
             </p>
             
             <div style="display: flex; gap: 30px; justify-content: center; margin-top: 40px; flex-wrap: wrap;">
                 <div style="text-align: center;">
-                    <div style="font-size: 2.5rem; font-weight: 800; background: linear-gradient(135deg, var(--primary), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 8px;">4 Saat</div>
-                    <div style="color: var(--text-dim);">Yanıt Süresi</div>
+                    <div style="font-size: 2.5rem; font-weight: 800; background: linear-gradient(135deg, var(--primary), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 8px;" data-i18n="contactPage.hero.stat1">4 Saat</div>
+                    <div style="color: var(--text-dim);" data-i18n="contactPage.hero.stat1b">Yanıt Süresi</div>
                 </div>
                 <div style="width: 1px; background: rgba(255,255,255,0.1);"></div>
                 <div style="text-align: center;">
-                    <div style="font-size: 2.5rem; font-weight: 800; background: linear-gradient(135deg, var(--primary), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 8px;">Ücretsiz</div>
-                    <div style="color: var(--text-dim);">Konsültasyon</div>
+                    <div style="font-size: 2.5rem; font-weight: 800; background: linear-gradient(135deg, var(--primary), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 8px;" data-i18n="contactPage.hero.stat2">Ücretsiz</div>
+                    <div style="color: var(--text-dim);" data-i18n="contactPage.hero.stat2b">Konsültasyon</div>
                 </div>
                 <div style="width: 1px; background: rgba(255,255,255,0.1);"></div>
                 <div style="text-align: center;">
                     <div style="font-size: 2.5rem; font-weight: 800; background: linear-gradient(135deg, var(--primary), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 8px;">7/24</div>
-                    <div style="color: var(--text-dim);">Destek Hattı</div>
+                    <div style="color: var(--text-dim);" data-i18n="contactPage.hero.stat3b">Destek Hattı</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- İletişim Kartları -->
     <section>
         <div style="text-align: center; margin-bottom: 70px;">
             <div style="display: inline-block; padding: 8px 20px; background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 30px; margin-bottom: 20px;">
-                <span style="color: var(--primary); font-weight: 700; font-size: 0.85rem; letter-spacing: 2px;">
-                    <i class="fas fa-address-book" style="margin-right: 8px;"></i>
-                    İLETİŞİM BİLGİLERİ
+                <span style="color: var(--primary); font-weight: 700; font-size: 0.85rem; letter-spacing: 2px;" data-i18n="contactPage.info.badge">
+                    <i class="fas fa-address-book" style="margin-right: 8px;"></i>İLETİŞİM BİLGİLERİ
                 </span>
             </div>
             
             <h2 style="font-size: 3rem; font-weight: 800; margin-bottom: 20px;">
-                Bize <span class="highlight">Ulaşın</span>
+                <span data-i18n="contactPage.info.title1">Bize</span> <span class="highlight" data-i18n="contactPage.info.title2">Ulaşın</span>
             </h2>
-            <p style="color: var(--text-dim); max-width: 700px; margin: 0 auto; font-size: 1.1rem;">
+            <p style="color: var(--text-dim); max-width: 700px; margin: 0 auto; font-size: 1.1rem;" data-i18n="contactPage.info.desc">
                 Size en uygun iletişim kanalını seçin, hemen yardımcı olalım.
             </p>
         </div>
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 35px; margin-bottom: 80px;">
-            <!-- E-posta -->
             <div class="contact-card">
                 <div class="contact-icon">📧</div>
-                <h3 style="margin-bottom: 18px; font-size: 1.6rem; color: white;">E-posta</h3>
+                <h3 style="margin-bottom: 18px; font-size: 1.6rem; color: white;" data-i18n="contactPage.cards.email.title">E-posta</h3>
                 <p style="margin: 16px 0 28px; color: var(--text-dim); line-height: 1.7;">
-                    7/24 e-posta desteği<br>
-                    <strong style="color: var(--primary);">4 saat içinde yanıt garantisi</strong>
+                    <span data-i18n="contactPage.cards.email.desc1">7/24 e-posta desteği</span><br>
+                    <strong style="color: var(--primary);" data-i18n="contactPage.cards.email.desc2">4 saat içinde yanıt garantisi</strong>
                 </p>
                 <a href="mailto:info.ozturksoft@gmail.com" class="btn btn-primary" style="padding: 14px 28px; font-size: 1rem; display: inline-flex; align-items: center; gap: 10px;">
-                    <i class="fas fa-envelope"></i>
-                    info.ozturksoft@gmail.com
+                    <i class="fas fa-envelope"></i> info.ozturksoft@gmail.com
                 </a>
             </div>
 
-            <!-- Telefon Kartı -->
-<div class="contact-card">
-    <div class="contact-icon">📞</div>
-    <h3 style="margin-bottom: 18px; font-size: 1.6rem; color: white;">Telefon</h3>
-    <p style="margin: 16px 0 28px; color: var(--text-dim); line-height: 1.7;">
-        Mesai saatleri: 09:00 - 18:00<br>
-        <strong style="color: var(--primary);" id="phoneDisplay"></strong> <!-- Numara burada gizli -->
-    </p>
-    
-    <!-- Buton -->
-    <button id="revealBtn" class="btn btn-primary" style="padding: 14px 28px; font-size: 1rem; cursor: pointer; border: none;">
-        <i class="fas fa-eye"></i> Numarayı Göster
-    </button>
-</div>
+            <div class="contact-card">
+                <div class="contact-icon">📞</div>
+                <h3 style="margin-bottom: 18px; font-size: 1.6rem; color: white;" data-i18n="contactPage.cards.phone.title">Telefon</h3>
+                <p style="margin: 16px 0 28px; color: var(--text-dim); line-height: 1.7;">
+                    <span data-i18n="contactPage.cards.phone.desc">Mesai saatleri: 09:00 - 18:00</span><br>
+                    <strong style="color: var(--primary);" id="phoneDisplay"></strong> </p>
+                
+                <button id="revealBtn" class="btn btn-primary" style="padding: 14px 28px; font-size: 1rem; cursor: pointer; border: none; display: inline-flex; align-items: center; justify-content: center; gap: 10px;">
+                   <i class="fas fa-eye"></i> <span data-i18n="contactPage.cards.phone.btn">Numarayı Göster</span>
+                  </button>
+            </div>
 
-            <!-- Adres -->
             <div class="contact-card">
                 <div class="contact-icon">📍</div>
-                <h3 style="margin-bottom: 18px; font-size: 1.6rem; color: white;">Adres</h3>
+                <h3 style="margin-bottom: 18px; font-size: 1.6rem; color: white;" data-i18n="contactPage.cards.address.title">Adres</h3>
                 <p style="margin: 16px 0 28px; color: var(--text-dim); line-height: 1.7;">
-                    Ofis ziyaretleri randevu ile<br>
-                    <strong style="color: var(--primary);">Çankaya / Ankara</strong>
+                    <span data-i18n="contactPage.cards.address.desc1">Ofis ziyaretleri randevu ile</span><br>
+                    <strong style="color: var(--primary);" data-i18n="contactPage.cards.address.desc2">Çankaya / Ankara</strong>
                 </p>
                 <address style="color: var(--text-dim); font-style: normal; line-height: 1.8; font-size: 1.05rem;">
-                    Home Office<br>
-                    Çankaya, Ankara
+                    Home Office<br>Çankaya, Ankara
                 </address>
             </div>
         </div>
     </section>
 
-    <!-- İletişim Formu -->
     <section style="background: rgba(15, 23, 42, 0.3); position: relative; overflow: hidden;">
         <div style="position: absolute; right: -100px; bottom: -100px; font-size: 25rem; opacity: 0.02; color: white;">
             <i class="fas fa-envelope-open-text"></i>
@@ -431,86 +418,75 @@
         
         <div style="text-align: center; margin-bottom: 70px;">
             <div style="display: inline-block; padding: 8px 20px; background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 30px; margin-bottom: 20px;">
-                <span style="color: var(--primary); font-weight: 700; font-size: 0.85rem; letter-spacing: 2px;">
-                    <i class="fas fa-file-signature" style="margin-right: 8px;"></i>
-                    PROJE TALEBİ
+                <span style="color: var(--primary); font-weight: 700; font-size: 0.85rem; letter-spacing: 2px;" data-i18n="contactPage.form.badge">
+                    <i class="fas fa-file-signature" style="margin-right: 8px;"></i>PROJE TALEBİ
                 </span>
             </div>
             
             <h2 style="font-size: 3rem; font-weight: 800; margin-bottom: 20px;">
-                Proje <span class="highlight">Teklifi Alın</span>
+                <span data-i18n="contactPage.form.title1">Proje</span> <span class="highlight" data-i18n="contactPage.form.title2">Teklifi Alın</span>
             </h2>
-            <p style="color: var(--text-dim); max-width: 700px; margin: 0 auto; font-size: 1.1rem;">
+            <p style="color: var(--text-dim); max-width: 700px; margin: 0 auto; font-size: 1.1rem;" data-i18n="contactPage.form.desc">
                 Projenizin detaylarını paylaşın, size en uygun çözümü sunalım.
             </p>
         </div>
 
         <div style="max-width: 900px; margin: 0 auto; position: relative; z-index: 5;">
             <form id="contactForm" style="display: grid; gap: 28px;">
-                <!-- Ad Soyad & Şirket -->
                 <div class="form-row">
                     <div class="form-group">
                         <label class="form-label">
-                            <i class="fas fa-user" style="margin-right: 8px; color: var(--primary);"></i>
-                            Ad Soyad *
+                            <i class="fas fa-user" style="margin-right: 8px; color: var(--primary);"></i><span data-i18n="contactPage.form.name">Ad Soyad *</span>
                         </label>
-                        <input type="text" name="adSoyad" class="form-input" required placeholder="Adınız ve Soyadınız">
+                        <input type="text" name="adSoyad" class="form-input" required>
                     </div>
                     <div class="form-group">
                         <label class="form-label">
-                            <i class="fas fa-building" style="margin-right: 8px; color: var(--primary);"></i>
-                            Şirket
+                            <i class="fas fa-building" style="margin-right: 8px; color: var(--primary);"></i><span data-i18n="contactPage.form.company">Şirket</span>
                         </label>
-                        <input type="text" name="sirket" class="form-input" placeholder="Şirket adı (opsiyonel)">
+                        <input type="text" name="sirket" class="form-input">
                     </div>
                 </div>
 
-                <!-- E-posta & Telefon -->
                 <div class="form-row">
                     <div class="form-group">
                         <label class="form-label">
-                            <i class="fas fa-envelope" style="margin-right: 8px; color: var(--primary);"></i>
-                            E-posta *
+                            <i class="fas fa-envelope" style="margin-right: 8px; color: var(--primary);"></i><span data-i18n="contactPage.form.email">E-posta *</span>
                         </label>
-                        <input type="email" name="email" class="form-input" required placeholder="ornek@email.com">
+                        <input type="email" name="email" class="form-input" required>
                     </div>
                     <div class="form-group">
                         <label class="form-label">
-                            <i class="fas fa-phone" style="margin-right: 8px; color: var(--primary);"></i>
-                            Telefon
+                            <i class="fas fa-phone" style="margin-right: 8px; color: var(--primary);"></i><span data-i18n="contactPage.form.phone">Telefon</span>
                         </label>
-                        <input type="tel" name="telefon" class="form-input" placeholder="0555 555 55 55">
+                        <input type="tel" name="telefon" class="form-input">
                     </div>
                 </div>
                 
-                <!-- Proje Türü -->
                 <div class="form-group">
                     <label class="form-label">
-                        <i class="fas fa-tasks" style="margin-right: 8px; color: var(--primary);"></i>
-                        Proje Türü *
+                        <i class="fas fa-tasks" style="margin-right: 8px; color: var(--primary);"></i><span data-i18n="contactPage.form.type">Proje Türü *</span>
                     </label>
                     <select name="projeTuru" class="form-select" required>
-                        <option value="">Seçiniz...</option>
-                        <option value="web-development">🌐 Web Geliştirme</option>
-                        <option value="mobile-app">📱 Mobil Uygulama</option>
-                        <option value="ecommerce">🛒 E-ticaret Sitesi</option>
-                        <option value="testing">🧪 Test & QA Hizmetleri</option>
-                        <option value="devops">☁️ DevOps & Cloud</option>
-                        <option value="ui-ux">🎨 UI/UX Tasarımı</option>
-                        <option value="ai-ml">🧠 Yapay Zeka & Analitik</option>
-                        <option value="consultation">💼 Danışmanlık</option>
-                        <option value="other">📝 Diğer</option>
+                        <option value="" data-i18n="contactPage.form.options.select">Seçiniz...</option>
+                        <option value="web-development" data-i18n="contactPage.form.options.web">🌐 Web Geliştirme</option>
+                        <option value="mobile-app" data-i18n="contactPage.form.options.mobile">📱 Mobil Uygulama</option>
+                        <option value="ecommerce" data-i18n="contactPage.form.options.ecom">🛒 E-ticaret Sitesi</option>
+                        <option value="testing" data-i18n="contactPage.form.options.qa">🧪 Test & QA Hizmetleri</option>
+                        <option value="devops" data-i18n="contactPage.form.options.cloud">☁️ DevOps & Cloud</option>
+                        <option value="ui-ux" data-i18n="contactPage.form.options.ui">🎨 UI/UX Tasarımı</option>
+                        <option value="ai-ml" data-i18n="contactPage.form.options.ai">🧠 Yapay Zeka & Analitik</option>
+                        <option value="consultation" data-i18n="contactPage.form.options.consult">💼 Danışmanlık</option>
+                        <option value="other" data-i18n="contactPage.form.options.other">📝 Diğer</option>
                     </select>
                 </div>
 
-                <!-- Bütçe -->
                 <div class="form-group">
                     <label class="form-label">
-                        <i class="fas fa-wallet" style="margin-right: 8px; color: var(--primary);"></i>
-                        Bütçe Aralığı
+                        <i class="fas fa-wallet" style="margin-right: 8px; color: var(--primary);"></i><span data-i18n="contactPage.form.budget">Bütçe Aralığı</span>
                     </label>
                     <select name="butce" class="form-select">
-                        <option value="">Seçiniz...</option>
+                        <option value="" data-i18n="contactPage.form.options.select">Seçiniz...</option>
                         <option value="10-25k">₺10,000 - ₺25,000</option>
                         <option value="25-50k">₺25,000 - ₺50,000</option>
                         <option value="50-100k">₺50,000 - ₺100,000</option>
@@ -519,44 +495,37 @@
                     </select>
                 </div>
                 
-                <!-- Proje Detayları -->
                 <div class="form-group">
                     <label class="form-label">
-                        <i class="fas fa-clipboard-list" style="margin-right: 8px; color: var(--primary);"></i>
-                        Proje Detayları *
+                        <i class="fas fa-clipboard-list" style="margin-right: 8px; color: var(--primary);"></i><span data-i18n="contactPage.form.details">Proje Detayları *</span>
                     </label>
-                    <textarea name="projeDetay" class="form-textarea" required placeholder="Projenizin detaylarını, gereksinimlerinizi ve beklentilerinizi açıklayın..."></textarea>
+                    <textarea name="projeDetay" class="form-textarea" required></textarea>
                 </div>
 
-                <!-- Gizlilik Onayı -->
                 <div class="form-checkbox">
                     <input type="checkbox" required id="privacy">
                     <label for="privacy">
-                        <a href="#" id="privacyLink">Gizlilik Politikası</a>'nı okudum ve kabul ediyorum. *
+                        <a href="#" id="privacyLink" data-i18n="contactPage.form.privacyLink">Gizlilik Politikası</a> <span data-i18n="contactPage.form.privacyText">'nı okudum ve kabul ediyorum. *</span>
                     </label>
                 </div>
 
-                <!-- Submit Button -->
                 <button type="submit" class="submit-btn">
-                    <i class="fas fa-paper-plane"></i>
-                    Teklif Talep Et
+                    <i class="fas fa-paper-plane"></i> <span data-i18n="contactPage.form.submit">Teklif Talep Et</span>
                 </button>
             </form>
         </div>
     </section>
 
-    <!-- Hızlı Yanıt Garantisi -->
     <section>
         <div style="text-align: center; margin-bottom: 70px;">
             <div style="display: inline-block; padding: 8px 20px; background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 30px; margin-bottom: 20px;">
-                <span style="color: var(--primary); font-weight: 700; font-size: 0.85rem; letter-spacing: 2px;">
-                    <i class="fas fa-bolt" style="margin-right: 8px;"></i>
-                    HIZLI YANIT
+                <span style="color: var(--primary); font-weight: 700; font-size: 0.85rem; letter-spacing: 2px;" data-i18n="contactPage.response.badge">
+                    <i class="fas fa-bolt" style="margin-right: 8px;"></i>HIZLI YANIT
                 </span>
             </div>
             
             <h2 style="font-size: 3rem; font-weight: 800; margin-bottom: 20px;">
-                Yanıt <span class="highlight">Sürelerimiz</span>
+                <span data-i18n="contactPage.response.title1">Yanıt</span> <span class="highlight" data-i18n="contactPage.response.title2">Sürelerimiz</span>
             </h2>
             <p style="color: var(--text-dim); max-width: 700px; margin: 0 auto; font-size: 1.1rem;">
                 İletişim kanallarımız ve garantili yanıt sürelerimiz
@@ -566,19 +535,19 @@
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px;">
             <div class="response-card">
                 <div class="response-icon" style="background: rgba(16, 185, 129, 0.1);">📧</div>
-                <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: white;">E-posta</h3>
+                <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: white;" data-i18n="contactPage.response.r1.title">E-posta</h3>
                 <p style="color: var(--text-dim); font-size: 1rem;">
-                    <strong style="color: #10b981; font-size: 1.4rem;">4 saat içinde</strong><br>
-                    yanıt garantisi
+                    <strong style="color: #10b981; font-size: 1.4rem;" data-i18n="contactPage.response.r1.strong">4 saat içinde</strong><br>
+                    <span data-i18n="contactPage.response.r1.desc">yanıt garantisi</span>
                 </p>
             </div>
 
             <div class="response-card">
                 <div class="response-icon" style="background: rgba(245, 158, 11, 0.1);">📞</div>
-                <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: white;">Telefon</h3>
+                <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: white;" data-i18n="contactPage.response.r2.title">Telefon</h3>
                 <p style="color: var(--text-dim); font-size: 1rem;">
-                    <strong style="color: #f59e0b; font-size: 1.4rem;">Anında görüşme</strong><br>
-                    imkanı
+                    <strong style="color: #f59e0b; font-size: 1.4rem;" data-i18n="contactPage.response.r2.strong">Anında görüşme</strong><br>
+                    <span data-i18n="contactPage.response.r2.desc">imkanı</span>
                 </p>
             </div>
 
@@ -586,23 +555,22 @@
                 <div class="response-icon" style="background: rgba(139, 92, 246, 0.1);">💬</div>
                 <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: white;">WhatsApp</h3>
                 <p style="color: var(--text-dim); font-size: 1rem;">
-                    <strong style="color: #8b5cf6; font-size: 1.4rem;">2 saat içinde</strong><br>
-                    yanıt garantisi
+                    <strong style="color: #8b5cf6; font-size: 1.4rem;" data-i18n="contactPage.response.r3.strong">2 saat içinde</strong><br>
+                    <span data-i18n="contactPage.response.r3.desc">yanıt garantisi</span>
                 </p>
             </div>
 
             <div class="response-card">
                 <div class="response-icon" style="background: rgba(239, 68, 68, 0.1);">🚨</div>
-                <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: white;">Acil Destek</h3>
+                <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: white;" data-i18n="contactPage.response.r4.title">Acil Destek</h3>
                 <p style="color: var(--text-dim); font-size: 1rem;">
                     <strong style="color: #ef4444; font-size: 1.4rem;">7/24</strong><br>
-                    kesintisiz hizmet
+                    <span data-i18n="contactPage.response.r4.desc">kesintisiz hizmet</span>
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- SSS -->
     <section style="background: rgba(15, 23, 42, 0.3);">
         <div style="text-align: center; margin-bottom: 70px;">
             <div style="display: inline-block; padding: 8px 20px; background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 30px; margin-bottom: 20px;">
@@ -613,7 +581,7 @@
             </div>
             
             <h2 style="font-size: 3rem; font-weight: 800; margin-bottom: 20px;">
-                Sıkça Sorulan <span class="highlight">Sorular</span>
+                <span data-i18n="contactPage.faq.title1">Sıkça Sorulan</span> <span class="highlight" data-i18n="contactPage.faq.title2">Sorular</span>
             </h2>
             <p style="color: var(--text-dim); max-width: 700px; margin: 0 auto; font-size: 1.1rem;">
                 Merak ettiklerinizin yanıtları
@@ -624,9 +592,9 @@
             <div class="faq-card">
                 <h3>
                     <i class="fas fa-clock"></i>
-                    Proje süresi ne kadar?
+                    <span data-i18n="contactPage.faq.q1.title">Proje süresi ne kadar?</span>
                 </h3>
-                <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;">
+                <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;" data-i18n="contactPage.faq.q1.desc">
                     Proje karmaşıklığına bağlı olarak 2-12 hafta arasında değişir. İlk görüşmede size detaylı timeline sunuyoruz.
                 </p>
             </div>
@@ -634,9 +602,9 @@
             <div class="faq-card">
                 <h3>
                     <i class="fas fa-vial"></i>
-                    Test süreci nasıl işliyor?
+                    <span data-i18n="contactPage.faq.q2.title">Test süreci nasıl işliyor?</span>
                 </h3>
-                <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;">
+                <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;" data-i18n="contactPage.faq.q2.desc">
                     Her projeye özel test planı hazırlıyoruz. Automated + Manual testler ile %100 kalite güvencesi sağlıyoruz.
                 </p>
             </div>
@@ -644,9 +612,9 @@
             <div class="faq-card">
                 <h3>
                     <i class="fas fa-life-ring"></i>
-                    Proje sonrası destek var mı?
+                    <span data-i18n="contactPage.faq.q3.title">Proje sonrası destek var mı?</span>
                 </h3>
-                <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;">
+                <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;" data-i18n="contactPage.faq.q3.desc">
                     Evet! Tüm projelerimizde 30-90 gün arası ücretsiz destek veriyoruz. Sonrasında bakım paketlerimiz var.
                 </p>
             </div>
@@ -654,53 +622,51 @@
             <div class="faq-card">
                 <h3>
                     <i class="fas fa-globe"></i>
-                    Uzaktan çalışıyor musunuz?
+                    <span data-i18n="contactPage.faq.q4.title">Uzaktan çalışıyor musunuz?</span>
                 </h3>
-                <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;">
+                <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;" data-i18n="contactPage.faq.q4.desc">
                     Evet! Türkiye genelinde ve yurt dışından da projeler kabul ediyoruz. Online toplantılar ile sürekli iletişim halindeyiz.
                 </p>
             </div>
         </div>
     </section>
 
-
-    <!-- Gizlilik Modal -->
     <div id="privacyModal" style="display:none; position:fixed; inset:0; background: rgba(0,0,0,0.85); padding:40px; z-index:9999; overflow-y:auto; backdrop-filter: blur(15px);">
         <div class="modal-content" style="max-width:750px; margin:auto; background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.9) 100%); padding:50px; border-radius:28px; box-shadow:0 30px 80px rgba(0,0,0,0.6); border: 1px solid rgba(59, 130, 246, 0.3);">
-            <h2 style="color: var(--text-main); margin-bottom: 30px; font-size: 2.5rem; background: linear-gradient(135deg, var(--primary), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+            <h2 style="color: var(--text-main); margin-bottom: 30px; font-size: 2.5rem; background: linear-gradient(135deg, var(--primary), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" data-i18n="contactPage.modal.title">
                 Gizlilik Politikası
             </h2>
             
             <div style="color: var(--text-dim); line-height: 1.9;">
-                <p style="margin-bottom: 25px; font-size: 1.05rem;">
+                <p style="margin-bottom: 25px; font-size: 1.05rem;" data-i18n="contactPage.modal.p1">
                     Ozturksoft olarak, web sitemizi ziyaret eden kullanıcıların ve iletişim formu üzerinden paylaşım yapan kişilerin kişisel verilerini koruma sorumluluğunu taşıyoruz.
                 </p>
 
-                <h3 style="color: var(--primary); margin: 30px 0 18px; font-size: 1.5rem;">Toplanan Veriler</h3>
+                <h3 style="color: var(--primary); margin: 30px 0 18px; font-size: 1.5rem;" data-i18n="contactPage.modal.h1">Toplanan Veriler</h3>
                 <ul style="padding-left: 25px; margin-bottom: 25px; line-height: 1.9;">
-                    <li>İletişim formu üzerinden sağlanan ad-soyad, e-posta, telefon, şirket bilgisi ve proje detayları</li>
-                    <li>IP adresi ve tarayıcı bilgileri (web sitesi güvenliği ve performans analizi için)</li>
+                    <li data-i18n="contactPage.modal.li1">İletişim formu üzerinden sağlanan ad-soyad, e-posta, telefon, şirket bilgisi ve proje detayları</li>
+                    <li data-i18n="contactPage.modal.li2">IP adresi ve tarayıcı bilgileri (web sitesi güvenliği ve performans analizi için)</li>
                 </ul>
 
-                <h3 style="color: var(--primary); margin: 30px 0 18px; font-size: 1.5rem;">Veri Kullanımı</h3>
-                <p style="margin-bottom: 25px; font-size: 1.05rem;">
+                <h3 style="color: var(--primary); margin: 30px 0 18px; font-size: 1.5rem;" data-i18n="contactPage.modal.h2">Veri Kullanımı</h3>
+                <p style="margin-bottom: 25px; font-size: 1.05rem;" data-i18n="contactPage.modal.p2">
                     Toplanan veriler yalnızca sizinle iletişime geçmek, teklif sunmak ve hizmetlerimizi geliştirmek amacıyla kullanılacaktır. Verileriniz üçüncü kişilerle paylaşılmayacaktır.
                 </p>
 
-                <h3 style="color: var(--primary); margin: 30px 0 18px; font-size: 1.5rem;">Kullanıcı Hakları</h3>
-                <p style="margin-bottom: 25px; font-size: 1.05rem;">
+                <h3 style="color: var(--primary); margin: 30px 0 18px; font-size: 1.5rem;" data-i18n="contactPage.modal.h3">Kullanıcı Hakları</h3>
+                <p style="margin-bottom: 25px; font-size: 1.05rem;" data-i18n="contactPage.modal.p3">
                     KVKK kapsamında, kişisel verilerinize erişim, düzeltme, silme, işleme sınırlama ve veri taşınabilirliği haklarınızı kullanabilirsiniz. Taleplerinizi <a href="mailto:info.ozturksoft@gmail.com" style="color: var(--primary); text-decoration: none; font-weight: 600;">info.ozturksoft@gmail.com</a> adresine iletebilirsiniz.
                 </p>
 
-                <h3 style="color: var(--primary); margin: 30px 0 18px; font-size: 1.5rem;">Güvenlik</h3>
-                <p style="margin-bottom: 35px; font-size: 1.05rem;">
+                <h3 style="color: var(--primary); margin: 30px 0 18px; font-size: 1.5rem;" data-i18n="contactPage.modal.h4">Güvenlik</h3>
+                <p style="margin-bottom: 35px; font-size: 1.05rem;" data-i18n="contactPage.modal.p4">
                     Ozturksoft, kişisel verilerinizi korumak için teknik ve idari güvenlik önlemleri uygular.
                 </p>
             </div>
 
             <button id="closePrivacy" class="btn btn-primary" style="width: 100%; padding: 18px; font-size: 1.1rem; display: flex; align-items: center; justify-content: center; gap: 12px;">
                 <i class="fas fa-check-circle"></i>
-                Anladım, Kapat
+                <span data-i18n="contactPage.modal.btn">Anladım, Kapat</span>
             </button>
         </div>
     </div>

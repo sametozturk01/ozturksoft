@@ -20,7 +20,7 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
      "types": ["vite/client", "node"],
-    "moduleResolution": "node"
+    "moduleResolution": "bundler"
   },
   "include": ["src"]
 }

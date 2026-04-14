@@ -1,4 +1,51 @@
-// main.ts
+import i18next from 'i18next';
+import trTranslation from './i18n/tr.json';
+import enTranslation from './i18n/en.json';
+
+// --- İ18N (ÇEVİRİ) SİSTEMİ KURULUMU ---
+i18next.init({
+    lng: 'tr',
+    fallbackLng: 'tr',
+    resources: {
+        tr: { translation: trTranslation },
+        en: { translation: enTranslation }
+    }
+}).then(() => {
+    updateContent();
+});
+
+// Çeviriyi Ekrana Uygulayan Fonksiyon
+function updateContent() {
+    document.querySelectorAll("[data-i18n]").forEach(el => {
+        const key = el.getAttribute("data-i18n");
+        if (key) {
+            el.innerHTML = i18next.t(key);
+        }
+    });
+}
+
+// Dil Değiştirme Buton Kontrolleri
+const btnEN = document.getElementById("lang-en");
+const btnTR = document.getElementById("lang-tr");
+
+if (btnEN && btnTR) {
+    btnEN.addEventListener("click", async (e) => {
+        e.preventDefault();
+        await i18next.changeLanguage('en');
+        updateContent();
+        btnEN.style.display = "none";
+        btnTR.style.display = "flex";
+    });
+
+    btnTR.addEventListener("click", async (e) => {
+        e.preventDefault();
+        await i18next.changeLanguage('tr');
+        updateContent();
+        btnTR.style.display = "none";
+        btnEN.style.display = "flex";
+    });
+}
+// --- ÇEVİRİ SİSTEMİ BİTİŞİ ---
 
 // 🔴 SEO FIX: Hash URL temizleme (Google duplicate fix)
 if (window.location.hash) {
@@ -17,6 +64,8 @@ async function loadPage(page: string) {
     const html = await res.text();
     app.innerHTML = html;
     
+    // Sayfa değiştiğinde çeviriyi tekrar çalıştır
+    updateContent(); 
 
     // Sayfa yüklendikten sonra tüm eventler ve animasyonlar
     initPrivacyModal();
@@ -142,15 +191,15 @@ const setupPhoneReveal = () => {
 
     if (btn && display) {
         btn.onclick = () => {
-            // 1. Yazıyı gerçek numara ile değiştir
+            // 1. Numarayı göster
             display.innerText = realNumber;
-            display.style.color = "#10b981"; // Başarılı (Yeşil) renk verelim
+            display.style.color = "#10b981"; 
             
-            // 2. Butonu "Hemen Ara" butonuna dönüştür
+            // 2. Butonu "Hemen Ara" dönüştür
             btn.innerHTML = `<i class="fas fa-phone"></i> Hemen Ara`;
             btn.style.background = "#10b981";
             
-            // 3. Butona tıklandığında artık arama yapmasını sağla
+            // 3. İkinci tıklamada ara
             btn.onclick = () => {
                 window.location.href = `tel:${realNumber.replace(/\s/g, "")}`;
             };
@@ -160,7 +209,6 @@ const setupPhoneReveal = () => {
 
 // Sayfa her yüklendiğinde bu kontrolü çalıştır
 setupPhoneReveal();
-
 
 // Bu kod her türlü çakışmayı aşar ve direkt çalışır
 document.addEventListener('click', function(e) {
@@ -185,4 +233,3 @@ document.addEventListener('click', function(e) {
         }
     }
 });
-
