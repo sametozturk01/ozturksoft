@@ -273,5 +273,9 @@
       "p4": "Ozturksoft, kişisel verilerinizi korumak için teknik ve idari güvenlik önlemleri uygular.",
       "btn": "Anladım, Kapat"
     }
+  },
+
+     "footer": {
+    "copyright": "© 2026 Ozturksoft | Tüm Hakları Saklıdır."
+    }
   }
-}

@@ -272,5 +272,8 @@
       "p4": "Ozturksoft implements technical and administrative security measures to protect your personal data.",
       "btn": "Understood, Close"
     }
+  },
+  "footer": {
+    "copyright": "© 2026 Ozturksoft | All Rights Reserved."
   }
 }
