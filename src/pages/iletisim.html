@@ -687,15 +687,31 @@
     }
 
     // Telefon Numarasını Göster Fonksiyonu
-    function revealPhone() {
-        const phoneText = document.getElementById('phoneText');
-        const phoneBtn = document.getElementById('phoneBtn');
-        const realNumber = "+90 5XX XXX XX XX"; // Buraya gerçek numaranızı yazabilirsiniz
-        
-        phoneText.innerText = realNumber;
-        phoneBtn.href = "tel:" + realNumber.replace(/\s/g, '');
-        phoneBtn.onclick = null; // Tekrar tıklanabilirliği normal linke çevirir
-        phoneBtn.style.background = "linear-gradient(135deg, #10b981 0%, #059669 100%)"; // Yeşil tonu (onay)
+    const revealBtn = document.getElementById('revealBtn');
+    const phoneDisplay = document.getElementById('phoneDisplay');
+
+    if (revealBtn && phoneDisplay) {
+        revealBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            const realNumber = "+90 546 549 68 06"; // Kendi numaranı buraya yaz
+            
+            // Numarayı ekranda göster
+            phoneDisplay.innerText = realNumber;
+            phoneDisplay.style.color = "#10b981";
+            
+            // Sitenin o anki dilini kontrol et (EN butonu gizliyse site İngilizcedir)
+            const isEnglish = document.getElementById('lang-en') && document.getElementById('lang-en').style.display === 'none';
+            const btnText = isEnglish ? "Call Now" : "Hemen Ara";
+            
+            // Butonun içini yenilerken ÇEVİRİ ETİKETİNİ (data-i18n) de ekliyoruz
+            revealBtn.innerHTML = `<i class="fas fa-phone"></i> <span data-i18n="contactPage.cards.phone.callNow">${btnText}</span>`;
+            revealBtn.style.background = "linear-gradient(135deg, #10b981 0%, #059669 100%)";
+            
+            // İkinci tıklamada arama işlemini başlat
+            revealBtn.onclick = function() {
+                window.location.href = `tel:${realNumber.replace(/\s/g, '')}`;
+            };
+        });
     }
 
     // Gizlilik Modalı Kontrolleri

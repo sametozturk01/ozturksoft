@@ -205,7 +205,8 @@
       "phone": {
         "title": "Phone",
         "desc": "Business hours: 09:00 - 18:00",
-        "btn": "Reveal Number"
+        "btn": "Reveal Number",
+        "callNow": "Call Now"
       },
       "address": {
         "title": "Address",

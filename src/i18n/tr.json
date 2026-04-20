@@ -206,7 +206,8 @@
       "phone": {
         "title": "Telefon",
         "desc": "Mesai saatleri: 09:00 - 18:00",
-        "btn": "Numarayı Göster"
+        "btn": "Numarayı Göster",
+        "callNow": "Hemen Ara"
       },
       "address": {
         "title": "Adres",

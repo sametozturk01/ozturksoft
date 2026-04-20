@@ -210,24 +210,35 @@ const setupPhoneReveal = () => {
 // Sayfa her yüklendiğinde bu kontrolü çalıştır
 setupPhoneReveal();
 
-// Bu kod her türlü çakışmayı aşar ve direkt çalışır
+// 🔴 TELEFON GÖSTERME VE DİNAMİK ÇEVİRİ KONTROLÜ 🔴
 document.addEventListener('click', function(e) {
     const target = e.target as HTMLElement;
     
-    // Eğer tıklanan şey bizim butonumuzsa veya butonun içindeki ikonsa
-    if (target && (target.id === 'revealBtn' || target.parentElement?.id === 'revealBtn')) {
-        const display = document.getElementById('phoneDisplay');
-        const btn = document.getElementById('revealBtn');
+    // Tıklanan yer revealBtn veya onun içindeki yazı/ikon ise yakala
+    const revealBtn = target.closest('#revealBtn') as HTMLButtonElement;
+
+    if (revealBtn) {
+        const phoneDisplay = document.getElementById('phoneDisplay');
         const realNumber = "+90 546 549 68 06"; // Kendi numaranı yaz
 
-        if (display && btn) {
-            display.innerText = realNumber;
-            display.style.color = "#10b981";
-            btn.innerHTML = `<i class="fas fa-phone"></i> Hemen Ara`;
-            btn.style.background = "#10b981";
+        if (phoneDisplay) {
+            // 1. Numarayı ekranda göster ve yeşil yap
+            phoneDisplay.innerText = realNumber;
+            phoneDisplay.style.color = "#10b981";
             
-            // İkinci tıklamada arama yapması için
-            btn.onclick = () => {
+            // 2. Butonun içini Çeviri Etiketi (data-i18n) ile yenile
+            revealBtn.innerHTML = `<i class="fas fa-phone"></i> <span data-i18n="contactPage.cards.phone.callNow">Hemen Ara</span>`;
+            revealBtn.style.background = "linear-gradient(135deg, #10b981 0%, #059669 100%)";
+            revealBtn.style.border = "none";
+            
+            // 3. Sistemi Uyar: "Yeni kelime ekledim, İngilizceysen hemen çevir!"
+            if (typeof updateContent === 'function') {
+                updateContent();
+            }
+            
+            // 4. Butonun görevini değiştir: Artık tıklayınca arama yapsın
+            revealBtn.onclick = function(event) {
+                event.preventDefault();
                 window.location.href = `tel:${realNumber.replace(/\s/g, "")}`;
             };
         }
