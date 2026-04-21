@@ -21,7 +21,7 @@
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#0d6efd">
 
-    <meta property="og:title" content="Ozturksoft | Yazılım ve Test Çözümleri">
+    <meta property="og:title" content="Ozturksoft | Yazılım & AI Çözümleri">
     <meta property="og:description" content="Profesyonel web geliştirme, mobil uygulama ve yazılım test çözümleri için Ozturksoft. Modern metodolojilerle projelerinizi güvenle hayata geçirin.">
     <meta property="og:url" content="https://ozturksoft.net/">
     <meta property="og:image" content="https://ozturksoft.net/og-image.png">
@@ -35,74 +35,58 @@
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Ozturksoft",
-  "url": "https://ozturksoft.net/",
-  "description": "Ankara merkezli web tasarım, SEO, mobil uygulama, yapay zekâ ve özel yazılım çözümleri sunan teknoloji şirketi.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Ozturksoft"
-  },
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://ozturksoft.net/?s={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
-}
-</script>
-    
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Ozturksoft",
-  "alternateName": "Öztürksoft Yazılım",
-  "url": "https://ozturksoft.net/",
-  "logo": "https://ozturksoft.net/logo.png",
-  "image": "https://ozturksoft.net/og-image.png",
-  "description": "Ozturksoft, Ankara merkezli web tasarım, SEO, mobil uygulama, yapay zekâ ve özel yazılım çözümleri sunan teknoloji şirketidir.",
-  "email": "info@ozturksoft.net",
-  "telephone": "+905465496806",
-  "founder": {
-    "@type": "Person",
-    "name": "Samet Öztürk"
-  },
-  "sameAs": [
-    "https://www.linkedin.com/company/ozturksoft",
-    "https://github.com/sametozturk01"
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Ozturksoft",
-  "image": "https://ozturksoft.net/og-image.png",
-  "url": "https://ozturksoft.net/",
-  "telephone": "+905465496806",
-  "email": "info@ozturksoft.net",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Ankara",
-    "addressCountry": "TR"
-  },
-  "areaServed": [
+  "@graph": [
     {
-      "@type": "City",
-      "name": "Ankara"
+      "@type": "WebSite",
+      "@id": "https://ozturksoft.net/#website",
+      "url": "https://ozturksoft.net/",
+      "name": "Ozturksoft",
+      "description": "Ankara merkezli web tasarım, SEO, mobil uygulama ve özel yazılım çözümleri.",
+      "publisher": { "@id": "https://ozturksoft.net/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://ozturksoft.net/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
     },
     {
-      "@type": "Country",
-      "name": "Türkiye"
+      "@type": "Organization",
+      "@id": "https://ozturksoft.net/#organization",
+      "name": "Ozturksoft",
+      "alternateName": "Öztürksoft Yazılım",
+      "url": "https://ozturksoft.net/",
+      "logo": "https://ozturksoft.net/logo.png",
+      "image": "https://ozturksoft.net/og-image.png",
+      "description": "Ozturksoft, Ankara merkezli teknoloji ve yazılım çözüm ortağınız.",
+      "email": "info@ozturksoft.net",
+      "telephone": "+905465496806",
+      "founder": {
+        "@type": "Person",
+        "name": "Samet Öztürk"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/ozturksoft",
+        "https://github.com/sametozturk01"
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "parentOrganization": { "@id": "https://ozturksoft.net/#organization" },
+      "name": "Ozturksoft",
+      "image": "https://ozturksoft.net/og-image.png",
+      "url": "https://ozturksoft.net/",
+      "telephone": "+905465496806",
+      "priceRange": "₺₺",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Ankara",
+        "addressCountry": "TR"
+      }
     }
-  ],
-  "priceRange": "₺₺",
-  "founder": {
-    "@type": "Person",
-    "name": "Samet Öztürk"
-  }
+  ]
 }
 </script>
 
