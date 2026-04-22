@@ -17,30 +17,57 @@
 
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "ContactPage",
-        "name": "Ozturksoft İletişim",
-        "description": "Ozturksoft yazılım geliştirme ve test hizmetleri iletişim sayfası.",
-        "url": "https://ozturksoft.net/iletisim",
-        "mainEntity": {
-            "@type": "LocalBusiness",
-            "name": "Ozturksoft",
-            "image": "https://ozturksoft.net/logo.png",
-            "email": "info.ozturksoft@gmail.com",
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ContactPage",
+          "@id": "https://ozturksoft.net/iletisim/#webpage",
+          "url": "https://ozturksoft.net/iletisim",
+          "name": "İletişim | Ozturksoft Yazılım",
+          "description": "Ankara merkezli Ozturksoft ile iletişime geçin. Özel yazılım ve yapay zeka projeleriniz için destek alın.",
+          "inLanguage": ["tr-TR", "en-US"],
+          "publisher": { "@id": "https://ozturksoft.net/#organization" }
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://ozturksoft.net/#organization",
+          "name": "Ozturksoft",
+          "url": "https://ozturksoft.net/",
+          "logo": "https://ozturksoft.net/logo.png",
+          "image": "https://ozturksoft.net/logo.png",
+          "telephone": "+905465496806",
+          "email": "info.ozturksoft@gmail.com",
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Çankaya", 
+            "addressLocality": "Ankara",
+            "addressRegion": "Ankara",
+            "addressCountry": "TR"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 39.9334,
+            "longitude": 32.8597
+          },
+          "hasMap": "https://maps.app.goo.gl/H4EaTtNc8F8wXtnc8",
+          "areaServed": [
+            { "@type": "City", "name": "Ankara" },
+            { "@type": "Country", "name": "Worldwide" }
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
             "telephone": "+905465496806",
-            "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Çankaya",
-                "addressRegion": "Ankara",
-                "addressCountry": "TR"
-            },
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+905465496806",
-                "contactType": "Customer Service",
-                "availableLanguage": ["Turkish", "English"]
-            }
+            "contactType": "customer service",
+            "areaServed": ["TR", "Worldwide"],
+            "availableLanguage": ["Turkish", "English"]
+          },
+          "sameAs": [
+            "https://instagram.com/ozturksoft_",
+            "https://linkedin.com/company/ozturksoft"
+          ]
         }
+      ]
     }
     </script>
 
@@ -62,7 +89,7 @@
                 "name": "Test süreci nasıl işliyor?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Her projeye özel test planı hazırlıyoruz. Automated ve Manual testler ile yüzde 100 kalite güvencesi sağlıyoruz."
+                    "text": "Her projeye özel test planı hazırlıyoruz. Otomasyon ve manuel testler ile yüzde 100 kalite güvencesi sağlıyoruz."
                 }
             },
             {
@@ -78,40 +105,10 @@
                 "name": "Uzaktan çalışıyor musunuz?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Evet! Türkiye genelinde ve yurt dışından da projeler kabul ediyoruz. Online toplantılar ile sürekli iletişim halindeyiz."
+                    "text": "Evet! Ankara ofisimizin yanı sıra, Türkiye genelinden ve yurt dışından projeler kabul ediyoruz. Online toplantılar ile sürekli iletişim halindeyiz."
                 }
             }
         ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Ozturksoft",
-      "url": "https://ozturksoft.net",
-      "image": "https://ozturksoft.net/logo.png",
-      "logo": "https://ozturksoft.net/logo.png",
-      "email": "info.ozturksoft@gmail.com",
-      "telephone": "+905465496806",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Çankaya",
-        "addressRegion": "Ankara",
-        "addressCountry": "TR"
-      },
-      "areaServed": "TR",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+905465496806",
-        "contactType": "customer service",
-        "availableLanguage": ["Turkish", "English"]
-      },
-      "sameAs": [
-        "https://instagram.com/ozturksoft",
-        "https://linkedin.com/company/ozturksoft"
-      ]
     }
     </script>
     

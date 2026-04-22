@@ -32,41 +32,68 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
+      "@type": "ProfessionalService",
       "@id": "https://ozturksoft.net/#organization",
-      "name": "Ozturksoft",
+      "name": "Ozturksoft Yazılım & AI Çözümleri",
       "url": "https://ozturksoft.net",
       "logo": "https://ozturksoft.net/logo.png",
-      "foundingLocation": {
-        "@type": "Place",
-        "name": "Ankara, Türkiye"
+      "image": "https://ozturksoft.net/logo.png",
+      "telephone": "+905465496806",
+      "email": "info.ozturksoft@gmail.com",
+      "description": "Ankara merkezli Ozturksoft; Samet Öztürk tarafından kurulan, mühendislik odaklı yazılım geliştirme ve yapay zeka çözümleri sunan bir teknoloji şirketidir.",
+      
+      /* YEREL OTORİTE (GEO SEO) */
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Ankara",
+        "addressRegion": "Ankara",
+        "addressCountry": "TR"
       },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.9334,
+        "longitude": 32.8597
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Ankara" },
+        { "@type": "Country", "name": "Turkey" },
+        { "@type": "Country", "name": "Worldwide" }
+      ],
+
+      /* KURUCU VE UZMANLIK (E-E-A-T) */
       "founder": {
         "@type": "Person",
+        "@id": "https://ozturksoft.net/#founder",
         "name": "Samet Öztürk",
-        "jobTitle": "Kurucu & Yazılım Mühendisi"
+        "jobTitle": "Founder & Software Engineer",
+        "knowsLanguage": ["tr", "en"],
+        "sameAs": [
+            "https://www.linkedin.com/in/ozturksoft/" 
+        ]
       },
-      "sameAs": [
-        "https://linkedin.com/company/ozturksoft"
-      ],
       "knowsAbout": [
-        "Yazılım Mühendisliği",
-        "AI Odaklı Geliştirme",
-        "Test Odaklı Geliştirme (TDD)",
-        "Sürekli Entegrasyon ve Dağıtım (CI/CD)",
-        "Sistem Mimarisi",
-        "Clean Code"
+        "Software Engineering",
+        "Artificial Intelligence",
+        "Test Driven Development",
+        "CI/CD Systems",
+        "React & TypeScript",
+        "Clean Code Methodologies"
+      ],
+
+      /* SOSYAL SİNYALLER */
+      "sameAs": [
+        "https://linkedin.com/company/ozturksoft",
+        "https://instagram.com/ozturksoft_"
       ]
     },
     {
       "@type": "AboutPage",
       "@id": "https://ozturksoft.net/hakkimizda#page",
-      "name": "Ozturksoft Hakkında",
       "url": "https://ozturksoft.net/hakkimizda",
-      "description": "Ankara merkezli Ozturksoft yazılım ve yapay zeka şirketinin kuruluş hikayesi ve mühendislik kültürü.",
-      "mainEntity": {
-        "@id": "https://ozturksoft.net/#organization"
-      }
+      "name": "Ozturksoft Hakkında | Mühendislik Kültürümüz",
+      "description": "Ozturksoft'un kuruluş vizyonu, Samet Öztürk liderliğindeki yazılım felsefesi ve Ankara'dan dünyaya uzanan teknoloji hikayesi.",
+      "mainEntity": { "@id": "https://ozturksoft.net/#organization" },
+      "inLanguage": ["tr-TR", "en-US"]
     }
   ]
 }

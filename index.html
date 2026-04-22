@@ -36,21 +36,116 @@
       "@id": "https://ozturksoft.net/#website",
       "url": "https://ozturksoft.net/",
       "name": "Ozturksoft",
-      "description": "Ankara merkezli web tasarım, SEO, mobil uygulama ve özel yazılım çözümleri.",
-      "publisher": { "@id": "https://ozturksoft.net/#organization" }
+      "alternateName": "Ozturksoft Software & AI Solutions",
+      "description": "Ankara merkezli kurumsal web tasarım, mobil uygulama, özel yazılım geliştirme ve yapay zeka (AI) çözümleri.",
+      "publisher": { "@id": "https://ozturksoft.net/#organization" },
+      "inLanguage": ["tr-TR", "en-US"]
     },
     {
-      "@type": "Organization",
+      "@type": "ProfessionalService",
       "@id": "https://ozturksoft.net/#organization",
       "name": "Ozturksoft",
-      "alternateName": "Öztürksoft Yazılım",
+      "alternateName": [
+        "Öztürksoft Yazılım",
+        "Ozturksoft Software Development"
+      ],
+      "description": "Ankara'da işletmelere özel yazılım geliştirme, SEO, yapay zeka entegrasyonu ve dijital dönüşüm hizmetleri sunan teknoloji şirketi.",
       "url": "https://ozturksoft.net/",
       "logo": "https://ozturksoft.net/logo.png",
+      "image": "https://ozturksoft.net/logo.png",
       "telephone": "+905465496806",
+      "email": "info@ozturksoft.net",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Buraya ofis caddeni/sokağını yaz",
+        "addressLocality": "Çankaya", 
+        "addressRegion": "Ankara",
+        "postalCode": "06000", 
+        "addressCountry": "TR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.9334,
+        "longitude": 32.8597
+      },
+      "hasMap": "https://maps.app.goo.gl/H4EaTtNc8F8wXtnc8",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ],
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Ankara"
+        },
+        {
+          "@type": "Country",
+          "name": "Turkey"
+        },
+        {
+          "@type": "Country",
+          "name": "Worldwide"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Yazılım ve Yapay Zeka Hizmetleri",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Özel Yazılım Geliştirme"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Yapay Zeka (AI) Çözümleri"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SEO ve Dijital Pazarlama"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Mobil Uygulama Geliştirme"
+            }
+          }
+        ]
+      },
+      "knowsLanguage": [
+        {
+          "@type": "Language",
+          "name": "Turkish",
+          "alternateName": "tr"
+        },
+        {
+          "@type": "Language",
+          "name": "English",
+          "alternateName": "en"
+        }
+      ],
       "founder": {
         "@type": "Person",
         "name": "Samet Öztürk"
-      }
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/ozturksoft",
+        "https://www.instagram.com/ozturksoft_"
+      ]
     }
   ]
 }

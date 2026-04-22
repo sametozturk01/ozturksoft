@@ -23,79 +23,59 @@
       "@type": "ProfessionalService",
       "@id": "https://ozturksoft.net/#organization",
       "name": "Ozturksoft Yazılım & AI Çözümleri",
-      "url": "https://ozturksoft.net",
+      "url": "https://ozturksoft.net/",
       "logo": "https://ozturksoft.net/logo.png",
       "image": "https://ozturksoft.net/logo.png",
-      "telephone": "+90 546 549 68 06",
-      "description": "Ozturksoft; özel yazılım geliştirme, yapay zeka çözümleri, QA test, mobil uygulama ve DevOps hizmetleri sunan kurumsal teknoloji şirketidir.",
+      "telephone": "+905465496806",
+      "email": "info.ozturksoft@gmail.com",
+      "priceRange": "$$",
+      "description": "Ankara merkezli Ozturksoft; yapay zeka, özel yazılım geliştirme, AI Çözümleri, QA test ve mobil uygulama çözümleri sunan lider teknoloji firmasıdır.",
+      
+      /* LOKASYON VE GEO SEO */
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Çankaya",
         "addressLocality": "Ankara",
+        "addressRegion": "Ankara",
+        "postalCode": "06000",
         "addressCountry": "TR"
       },
-      "areaServed": [
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.9334,
+        "longitude": 32.8597
+      },
+
+      /* GOOGLE MAPS ENTEGRASYONU */
+      "hasMap": "https://maps.app.goo.gl/H4EaTtNc8F8wXtnc8",
+
+      /* SOSYAL MEDYA HESAPLARI (Arama Sonuçlarında Bilgi Paneli İçin) */
+      "sameAs": [
+        "https://www.linkedin.com/company/ozturksoft",
+        "https://www.instagram.com/ozturksoft_"
+      ],
+
+      /* ÇALIŞMA SAATLERİ */
+      "openingHoursSpecification": [
         {
-          "@type": "Country",
-          "name": "Turkey"
-        },
-        {
-          "@type": "Continent",
-          "name": "Europe"
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:00"
         }
       ],
-      "sameAs": [
-        "https://linkedin.com/company/ozturksoft"
-      ],
-      "serviceType": [
-        "Software Development",
-        "Artificial Intelligence",
-        "Quality Assurance Testing",
-        "Mobile Application Development",
-        "DevOps Engineering",
-        "UI/UX Design"
-      ]
-    },
-    {
-      "@type": "Service",
-      "name": "Kurumsal Yazılım ve QA Hizmetleri",
-      "provider": {
-        "@id": "https://ozturksoft.net/#organization"
-      },
-      "description": "Uçtan uca dijital dönüşüm: yazılım geliştirme, test otomasyonu, AI entegrasyonu ve bulut mimarileri.",
+
+      /* HİZMET KATALOĞU (Servis SEO) */
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Hizmetler",
+        "name": "Ozturksoft Teknoloji Hizmetleri",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
               "name": "Özel Yazılım Geliştirme",
-              "description": "React, Node.js ve Python ile ölçeklenebilir web ve mobil uygulamalar."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Test & QA Hizmetleri",
-              "description": "OWASP standartlarında manuel ve otomatik test süreçleri."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "DevOps & Bulut Çözümleri",
-              "description": "AWS, Azure, Docker ve Kubernetes tabanlı altyapı çözümleri."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Mobil Uygulama Geliştirme",
-              "description": "Flutter ve React Native ile iOS & Android uygulamalar."
+              "description": "React, TypeScript ve Python ile Ankara merkezli ölçeklenebilir yazılım çözümleri."
             }
           },
           {
@@ -103,18 +83,41 @@
             "itemOffered": {
               "@type": "Service",
               "name": "Yapay Zeka & Analitik",
-              "description": "Makine öğrenmesi, NLP ve veri analitiği çözümleri."
+              "description": "Makine öğrenmesi, NLP ve veri analitiği ile kurumsal AI entegrasyonu."
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "UI/UX Tasarımı"
+              "name": "QA & Yazılım Test Hizmetleri",
+              "description": "Manuel ve otomatik test süreçleri ile %100 kalite güvencesi."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Mobil Uygulama Geliştirme",
+              "description": "Flutter ve React Native ile yüksek performanslı iOS ve Android uygulamaları."
             }
           }
         ]
+      },
+
+      /* KURUCU */
+      "founder": {
+        "@type": "Person",
+        "name": "Samet Öztürk"
       }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ozturksoft.net/#website",
+      "url": "https://ozturksoft.net/",
+      "name": "Ozturksoft",
+      "inLanguage": ["tr-TR", "en-US"],
+      "publisher": { "@id": "https://ozturksoft.net/#organization" }
     }
   ]
 }
