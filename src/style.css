@@ -1020,3 +1020,96 @@ html, body {
         height: 45px;
     }
 }
+
+
+
+
+/* Kurumsal WhatsApp Butonu - Başlangıçta Yuvarlak İkon */
+.corp-wa-btn {
+    position: fixed;
+    bottom: 40px;
+    left: 40px; /* MASAÜSTÜNDE SOLA ALINDI */
+    height: 60px;
+    width: 60px;
+    background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+    color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 16px;
+    text-decoration: none;
+    box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
+    z-index: 9999;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.corp-wa-btn i {
+    font-size: 28px;
+    min-width: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corp-wa-btn .wa-text {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    white-space: nowrap;
+    opacity: 0;
+    margin-left: 0;
+    /* Sola yaslı olduğu için yazının soldan sağa kayarak gelmesi daha şık durur */
+    transform: translateX(-10px); 
+    transition: all 0.4s ease;
+}
+
+/* MASAÜSTÜ: Üzerine Gelince Kapsül Olarak Açılma */
+.corp-wa-btn:hover {
+    width: 180px;
+    box-shadow: 0 15px 35px rgba(37, 211, 102, 0.4);
+}
+
+.corp-wa-btn:hover .wa-text {
+    opacity: 1;
+    margin-left: 12px;
+    transform: translateX(0);
+}
+
+/* MOBİL İÇİN DALGA (RIPPLE) ANİMASYONU */
+@keyframes mobileWaves {
+    0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7), 0 10px 25px rgba(37, 211, 102, 0.3); }
+    70% { box-shadow: 0 0 0 20px rgba(37, 211, 102, 0), 0 10px 25px rgba(37, 211, 102, 0.3); }
+    100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0), 0 10px 25px rgba(37, 211, 102, 0.3); }
+}
+
+/* MOBİL CİHAZLAR İÇİN OPTİMİZASYON */
+
+@media (max-width: 768px) {
+    .corp-wa-btn {
+        bottom: 20px;
+        right: auto;
+        left: 20px; /* Mobilde sola aldık */
+        height: 60px; /* 65px'ten 60px'e küçültüldü */
+        width: 60px;  /* 65px'ten 60px'e küçültüldü */
+        padding-left: 14px; /* İkonun tam merkeze oturması için ayarlandı */
+        border-radius: 50%;
+        animation: mobileWaves 2s infinite; /* Dalga saçma efektini ekledik */
+    }
+    
+    .corp-wa-btn i {
+        font-size: 32px; /* Kapsüle uyumlu olması için biraz küçültüldü */
+        min-width: 32px;
+    }
+    
+    /* Mobilde yazıyı iptal ediyoruz, sadece dalgalı ikon dikkat çekecek */
+    .corp-wa-btn .wa-text {
+        display: none; 
+    }
+    
+    /* Mobilde hover ile genişlemeyi kapattık */
+    .corp-wa-btn:hover {
+        width: 60px; 
+    }
+}
