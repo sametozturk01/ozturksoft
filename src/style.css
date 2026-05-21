@@ -58,6 +58,22 @@ nav {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/* Breadcrumb nav'ı fixed nav kurallarından sıfırla */
+nav.breadcrumb {
+    position: static !important;
+    height: auto !important;
+    width: auto !important;
+    padding: 0 !important;
+    background: none !important;
+    backdrop-filter: none !important;
+    border-bottom: none !important;
+    z-index: auto !important;
+    justify-content: flex-start !important;
+    display: flex !important;
+    gap: 8px !important;
+}
+nav.breadcrumb::after { display: none !important; }
+
 nav::after {
     content: '';
     position: absolute;
@@ -230,11 +246,11 @@ nav::after {
 }
 
 @keyframes imageFade {
-    0% { opacity: 0; transform: scale(1.05); filter: brightness(0.2) contrast(1.1); }
-    6% { opacity: 1; transform: scale(1.03); filter: brightness(0.3) contrast(1.1); }
-    20% { opacity: 1; transform: scale(1.01); filter: brightness(0.3) contrast(1.1); }
-    26% { opacity: 0; transform: scale(1); filter: brightness(0.2) contrast(1.1); }
-    100% { opacity: 0; transform: scale(1); filter: brightness(0.2) contrast(1.1); }
+    0%   { opacity: 0; transform: scale(1.05); }
+    6%   { opacity: 1; transform: scale(1.03); }
+    20%  { opacity: 1; transform: scale(1.01); }
+    26%  { opacity: 0; transform: scale(1);    }
+    100% { opacity: 0; transform: scale(1);    }
 }
 
 .hero-content { 
@@ -1077,11 +1093,11 @@ html, body {
     transform: translateX(0);
 }
 
-/* MOBİL İÇİN DALGA (RIPPLE) ANİMASYONU */
+/* MOBİL İÇİN DALGA (RIPPLE) ANİMASYONU - transform+opacity kullanır (GPU composited) */
 @keyframes mobileWaves {
-    0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7), 0 10px 25px rgba(37, 211, 102, 0.3); }
-    70% { box-shadow: 0 0 0 20px rgba(37, 211, 102, 0), 0 10px 25px rgba(37, 211, 102, 0.3); }
-    100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0), 0 10px 25px rgba(37, 211, 102, 0.3); }
+    0%   { transform: scale(1);   opacity: 0.7; }
+    70%  { transform: scale(1.7); opacity: 0;   }
+    100% { transform: scale(1.7); opacity: 0;   }
 }
 
 /* MOBİL CİHAZLAR İÇİN OPTİMİZASYON */
@@ -1090,12 +1106,22 @@ html, body {
     .corp-wa-btn {
         bottom: 20px;
         right: auto;
-        left: 20px; /* Mobilde sola aldık */
-        height: 60px; /* 65px'ten 60px'e küçültüldü */
-        width: 60px;  /* 65px'ten 60px'e küçültüldü */
-        padding-left: 14px; /* İkonun tam merkeze oturması için ayarlandı */
+        left: 20px;
+        height: 60px;
+        width: 60px;
+        padding-left: 14px;
         border-radius: 50%;
-        animation: mobileWaves 2s infinite; /* Dalga saçma efektini ekledik */
+        overflow: visible;
+    }
+    .corp-wa-btn::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: 50%;
+        background: rgba(37, 211, 102, 0.4);
+        z-index: -1;
+        animation: mobileWaves 2s infinite;
+        will-change: transform, opacity;
     }
     
     .corp-wa-btn i {

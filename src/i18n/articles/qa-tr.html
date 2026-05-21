@@ -1,0 +1,188 @@
+<p>"Bir hata canlıya çıkmadan önce düzeltilirse, maliyeti <strong>1 birim</strong>dir. Canlıya çıktıktan sonra müşteri şikayeti ile fark edilirse, maliyeti <strong>100 birim</strong>dir."</p>
+
+  <p>Bu, yazılım mühendisliğindeki "hata maliyeti" kuralının özetidir. QA (Quality Assurance — Kalite Güvencesi) tam olarak bu maliyeti sıfıra yaklaştırmak için vardır.</p>
+
+  <div class="highlight-box">
+    <p>⚡ <strong>Bu yazıda:</strong> QA test türleri, manuel vs otomasyon test karşılaştırması, TDD nedir ve kaliteli yazılımın işletmenize katkısı.</p>
+  </div>
+
+  <div class="stat-row">
+    <div class="stat-item">
+      <span class="number">30x</span>
+      <span class="label">Canlı hatanın geliştirme aşamasına göre maliyeti</span>
+    </div>
+    <div class="stat-item">
+      <span class="number">%80</span>
+      <span class="label">Yazılım hatalarının erken aşamada önlenebileceği oran</span>
+    </div>
+    <div class="stat-item">
+      <span class="number">%40</span>
+      <span class="label">Otomasyon testlerin regresyon süresini kısaltması</span>
+    </div>
+  </div>
+
+  <h2>QA Test Nedir?</h2>
+
+  <p>QA (Quality Assurance), bir yazılım ürününün beklenen gereksinimlerini karşıladığını ve son kullanıcı için güvenilir, performanslı ve hatasız çalıştığını doğrulama sürecidir. Sadece "hata bulmak" değil; <strong>kaliteyi süreçlere entegre etmek</strong> anlamına gelir.</p>
+
+  <p>QA'yi yalnızca test aşamasına sıkıştırmak büyük bir hatadır. Gerçek kalite güvencesi, geliştirme sürecinin <strong>her adımında</strong> — gereksinim analizinden tasarıma, kodlamadan dağıtıma kadar — yer alır.</p>
+
+  <h2>Yazılım Test Türleri</h2>
+
+  <h3>Fonksiyonel Testler</h3>
+  <ul>
+    <li><strong>Unit Test:</strong> En küçük kod biriminin (fonksiyon, sınıf) doğru çalışıp çalışmadığını test eder. Geliştirici tarafından yazılır.</li>
+    <li><strong>Entegrasyon Testi:</strong> Farklı modüllerin bir arada doğru çalışıp çalışmadığını doğrular.</li>
+    <li><strong>End-to-End (E2E) Test:</strong> Kullanıcı perspektifinden tüm iş akışlarını test eder (örn. kayıt → alışveriş → ödeme).</li>
+    <li><strong>Regresyon Testi:</strong> Yeni eklenen özelliğin mevcut işlevleri bozmadığını doğrular.</li>
+    <li><strong>Kabul Testi (UAT):</strong> Son kullanıcıların sistemi gerçek senaryolarla test etmesi.</li>
+  </ul>
+
+  <h3>Fonksiyonel Olmayan Testler</h3>
+  <ul>
+    <li><strong>Performans Testi:</strong> Sistemin yük altında nasıl davrandığını ölçer.</li>
+    <li><strong>Güvenlik Testi:</strong> SQL injection, XSS, kimlik doğrulama açıkları gibi güvenlik zafiyetlerini tespit eder.</li>
+    <li><strong>Kullanılabilirlik (Usability) Testi:</strong> Kullanıcı deneyiminin kalitesini değerlendirir.</li>
+    <li><strong>Uyumluluk Testi:</strong> Farklı cihaz, tarayıcı ve işletim sistemlerinde doğru çalışmayı doğrular.</li>
+  </ul>
+
+  <h2>Manuel Test mi, Otomasyon Testi mi?</h2>
+
+  <div class="compare-grid">
+    <div class="compare-card">
+      <h4 style="color:#60a5fa">Manuel Test</h4>
+      <ul>
+        <li>İnsan gözüyle UX değerlendirmesi</li>
+        <li>Keşifsel testler için ideal</li>
+        <li>Düşük başlangıç maliyeti</li>
+        <li>Tekrarlayan testlerde yavaş ve pahalı</li>
+        <li>İnsan hatasına açık</li>
+      </ul>
+    </div>
+    <div class="compare-card">
+      <h4 style="color:#34d399">Otomasyon Testi</h4>
+      <ul>
+        <li>Dakikalar içinde binlerce test</li>
+        <li>Regresyon testleri için mükemmel</li>
+        <li>CI/CD pipeline ile entegre</li>
+        <li>Yüksek başlangıç kurulum maliyeti</li>
+        <li>Bakım gerektirir</li>
+      </ul>
+    </div>
+  </div>
+
+  <p><strong>Sonuç:</strong> İkisi birbirinin rakibi değil, tamamlayıcısıdır. Dengeli bir QA stratejisi, tekrarlayan regresyon testleri için otomasyonu, kullanıcı deneyimi ve keşifsel testler için manuel yaklaşımı birlikte kullanır.</p>
+
+  <h2>TDD (Test-Driven Development) Nedir?</h2>
+
+  <p>TDD, kodu yazmadan önce testi yazma pratiğidir. Döngü şöyledir:</p>
+
+  <ol>
+    <li><strong>Red:</strong> Önce başarısız olan bir test yaz (henüz özellik yok).</li>
+    <li><strong>Green:</strong> Testi geçecek minimum kodu yaz.</li>
+    <li><strong>Refactor:</strong> Kodu temizle, optimize et — test hâlâ geçmeli.</li>
+  </ol>
+
+  <p>TDD'nin faydaları: daha temiz kod tasarımı, daha yüksek test kapsamı (%70-90+) ve regresyon hataları ile "korku faktörünün" azalması. Ozturksoft olarak tüm projelerimizde TDD yaklaşımını benimsiyoruz.</p>
+
+  <h2>Popüler QA Araçları (2026)</h2>
+
+  <ul>
+    <li><strong>Selenium:</strong> Web uygulamaları için en yaygın kullanılan otomasyon framework'ü. Java, Python, C# destekler.</li>
+    <li><strong>Cypress:</strong> Modern web uygulamaları için hızlı, güvenilir E2E test aracı. JavaScript tabanlı.</li>
+    <li><strong>Playwright:</strong> Microsoft'tan, Chromium/Firefox/WebKit desteğiyle güçlü E2E testi.</li>
+    <li><strong>Jest / Vitest:</strong> JavaScript/TypeScript unit test framework'leri.</li>
+    <li><strong>Postman / Newman:</strong> API test ve otomasyon.</li>
+    <li><strong>k6 / JMeter:</strong> Yük ve performans testi.</li>
+  </ul>
+
+  <h2>QA'siz Yazılımın Gerçek Maliyeti</h2>
+
+  <p>Yazılım projelerinde "zaman kazanmak" için QA'den ödün vermek, pratikte tam tersine yol açar:</p>
+
+  <ul>
+    <li>Canlıya çıkan hatalar <strong>marka itibarını</strong> doğrudan etkiler.</li>
+    <li>Acil düzeltme (hotfix) süreçleri, planlı geliştirmeden <strong>5-10 kat daha pahalıdır</strong>.</li>
+    <li>Büyüyen kod tabanında testlerin olmadığı durumlarda refactor yapmak neredeyse imkânsız hale gelir — "dokunursan kırılır" sendromu.</li>
+    <li>Güvenlik açıkları, yasal yaptırımlar ve veri ihlalleri ciddi finansal riskler doğurur.</li>
+  </ul>
+
+  <h2>Ankara'da Yazılım Test Hizmetleri ve Sektör Ortamı</h2>
+
+  <p>Ankara'nın güçlü savunma sanayi ve kamu yazılımı ekosistemi, yazılım test ve kalite güvencesi (QA) disiplinini ulusal ölçekte en olgun biçimde geliştiren şehirlerden biri hâline getirmiştir. ASELSAN, Roketsan ve STM gibi kuruluşlarda uygulanan <strong>ISO 9001, CMMI ve ASPICE</strong> standartları, özel sektörde de referans alınmaktadır.</p>
+
+  <p>Öte yandan Ankara'daki startup ve orta ölçekli yazılım firmalarının büyük çoğunluğu, test süreçlerini <strong>geliştiricilere emanet etmek</strong> ya da <strong>tamamen ihmal etmek</strong> gibi maliyetli bir hataya düşmektedir. Bu yaklaşım kısa vadede zaman kazandırır gibi görünse de üretim ortamındaki hatalar, kaybedilen müşteriler ve itibar zararı ile ağır biçimde geri döner.</p>
+
+  <h2>QA Test Maliyetleri: Ankara Piyasası 2026</h2>
+
+  <table class="price-table">
+    <thead>
+      <tr>
+        <th>Hizmet Türü</th>
+        <th>Süre</th>
+        <th>Tahmini Maliyet (TL)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Manuel Fonksiyonel Test (web uygulaması)</td><td>1–2 hafta</td><td>8.000–20.000</td></tr>
+      <tr><td>Test Otomasyon Altyapısı Kurulumu (Selenium/Playwright)</td><td>2–4 hafta</td><td>20.000–50.000</td></tr>
+      <tr><td>Performans ve Yük Testi (JMeter/k6)</td><td>3–5 gün</td><td>10.000–25.000</td></tr>
+      <tr><td>Güvenlik Penetrasyon Testi</td><td>1–2 hafta</td><td>15.000–40.000</td></tr>
+      <tr><td>Mobil Uygulama Test (iOS + Android)</td><td>1–3 hafta</td><td>12.000–30.000</td></tr>
+      <tr><td>Sürekli QA (CI/CD entegrasyonu, aylık)</td><td>Sürekli</td><td>5.000–15.000/ay</td></tr>
+    </tbody>
+  </table>
+
+  <h2>QA Sürecinizi Olgunlaştırmak: 5 Adımlı Yol Haritası</h2>
+
+  <h3>Adım 1: Test Kapsamını Belirleyin</h3>
+  <p>Hangi modüllerin, API endpoint'lerinin ve kullanıcı akışlarının kritik olduğunu listeleyin. Risk bazlı test planlaması ile en önemli alanlara odaklanın.</p>
+
+  <h3>Adım 2: Test Çevrelerini Ayırın</h3>
+  <p>Development, Staging ve Production ortamlarınız birbirinden izole olmalıdır. Test verisi gerçek üretim verisinden ayrılmış ve anonimleştirilmiş olmalıdır.</p>
+
+  <h3>Adım 3: Otomasyona Geçiş Yol Haritası Çizin</h3>
+  <p>Sıfırdan otomasyon kurmak mümkün ama pahalıdır. Önce tekrar eden regresyon testlerini otomatize edin; kritik kullanıcı yolculuklarından (login, ödeme, kayıt) başlayın.</p>
+
+  <h3>Adım 4: CI/CD Pipeline'a QA Entegre Edin</h3>
+  <p>Her pull request'te otomatik testlerin çalışması, hataların erken yakalanmasını sağlar. GitHub Actions, GitLab CI veya Jenkins ile entegrasyon maliyeti düşüktür; getirisi yüksektir.</p>
+
+  <h3>Adım 5: Test Metriklerini Takip Edin</h3>
+  <p>Test kapsama oranı (code coverage), hata kaçış oranı, ortalama hata düzeltme süresi (MTTR) gibi KPI'ları düzenli raporlayın. Bu veriler kalite olgunluğunuzun somut göstergesidir.</p>
+
+  <h2>Popüler QA Araçları Karşılaştırması</h2>
+
+  <table class="price-table">
+    <thead>
+      <tr><th>Araç</th><th>Kullanım Alanı</th><th>Lisans</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Selenium</td><td>Web UI otomasyon</td><td>Açık kaynak</td></tr>
+      <tr><td>Playwright</td><td>Modern web otomasyon (Microsoft)</td><td>Açık kaynak</td></tr>
+      <tr><td>Cypress</td><td>E2E test, hızlı geri bildirim</td><td>Freemium</td></tr>
+      <tr><td>JMeter</td><td>Yük ve performans testi</td><td>Açık kaynak</td></tr>
+      <tr><td>Postman / Newman</td><td>API testi</td><td>Freemium</td></tr>
+      <tr><td>Appium</td><td>Mobil uygulama testi</td><td>Açık kaynak</td></tr>
+      <tr><td>OWASP ZAP</td><td>Güvenlik tarama</td><td>Açık kaynak</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Sık Sorulan Sorular (SSS)</h2>
+
+  <h3>QA test olmadan yazılım yayınlanabilir mi?</h3>
+  <p>Teknik olarak evet, pratikte hayır. Test edilmemiş yazılım, kullanıcı güvenini ve marka itibarını zedeleyecek hatalarla piyasaya çıkma riskini barındırır. Küçük projeler için bile minimum bir smoke test ve regresyon kontrol listesi zorunludur.</p>
+
+  <h3>Manuel test mi, otomasyon mu tercih etmeliyim?</h3>
+  <p>İkisi birbirini tamamlar. Keşif (exploratory) testleri ve UX değerlendirmesi için manuel test; tekrarlayan regresyon ve entegrasyon kontrolleri için otomasyon idealdir. En verimli yaklaşım, <strong>%20 manuel + %80 otomasyon</strong> dengesidir.</p>
+
+  <h3>QA maliyetleri geliştirme bütçesinin ne kadarı olmalı?</h3>
+  <p>Endüstri standardına göre yazılım geliştirme bütçesinin <strong>%15–25'i</strong> kalite güvencesine ayrılmalıdır. Bu oran, canlıda çıkacak hataların düzeltme maliyetiyle kıyaslandığında oldukça makul bir yatırımdır.</p>
+
+  <h3>Ankara'da QA danışmanlığı nereden alabilirim?</h3>
+  <p><a href="/hakkimizda">Ozturksoft</a>, Ankara merkezli olarak yazılım test otomasyonu, performans testi ve CI/CD entegrasyonu konularında danışmanlık hizmeti sunmaktadır. Mevcut projenizi değerlendirmek için ücretsiz bir görüşme talep edebilirsiniz.</p>
+
+  <div class="cta-box">
+    <h3 data-i18n="blog.cta.qa.title">Yazılımınız kalite güvencesi altında mı?</h3>
+    <p data-i18n="blog.cta.qa.desc">Ozturksoft QA uzmanları, mevcut yazılımınızı analiz edip test stratejinizi en başından doğru kurar. Ücretsiz kalite analizi için bizimle iletişime geçin.</p>
+    <a href="/iletisim" class="btn btn-primary" style="font-size:1.05rem;padding:16px 36px"><span data-i18n="blog.cta.qa.btn">Ücretsiz QA Analizi </span><i class="fas fa-arrow-right" style="margin-left:8px"></i></a>
+  </div>

@@ -1,0 +1,185 @@
+<p>Türkiye'de mobil internet kullanımı, masaüstü kullanımını çoktan geride bıraktı. Kullanıcıların zamanlarının <strong>%72'sini</strong> mobil uygulamalarda geçirdiği göz önüne alındığında, işletmenizin güçlü bir mobil varlığa ihtiyacı olduğu tartışmasızdır.</p>
+
+  <p>Peki nereden başlamalısınız? Native mi geliştirmeli, cross-platform mı? Bütçeniz ne olmalı? Bu kapsamlı rehberde tüm soruları yanıtlıyoruz.</p>
+
+  <div class="highlight-box">
+    <p>⚡ <strong>Bu yazıda:</strong> Native, Flutter ve React Native karşılaştırması, 2026 Türkiye mobil uygulama maliyetleri, geliştirme süreci ve App Store/Play Store yayınlama rehberi.</p>
+  </div>
+
+  <h2>Native mi, Cross-Platform mi?</h2>
+
+  <p>Bu soru, her mobil proje tartışmasının merkezindedir. 2026 itibarıyla üç ana yaklaşım öne çıkıyor:</p>
+
+  <div class="tech-grid">
+    <div class="tech-card">
+      <span class="badge badge-native">Native</span>
+      <h4>Swift / Kotlin</h4>
+      <p>iOS için Swift, Android için Kotlin. En yüksek performans, en derin platform entegrasyonu. Her platform için ayrı ekip gerektirir.</p>
+    </div>
+    <div class="tech-card">
+      <span class="badge badge-flutter">Cross-Platform</span>
+      <h4>Flutter</h4>
+      <p>Google'ın Dart tabanlı framework'ü. Tek kod tabanıyla iOS + Android + Web. Performans native'e yakın, animasyonlar mükemmel.</p>
+    </div>
+    <div class="tech-card">
+      <span class="badge badge-rn">Cross-Platform</span>
+      <h4>React Native</h4>
+      <p>JavaScript/TypeScript tabanlı, web geliştiricilere tanıdık. Meta destekli, büyük ekosistem. Web ile kod paylaşımı avantajlı.</p>
+    </div>
+  </div>
+
+  <h3>Hangi Teknolojiyi Seçmelisiniz?</h3>
+
+  <ul>
+    <li><strong>Flutter seçin:</strong> Yeni bir uygulama başlatıyorsanız, bütçeniz kısıtlıysa ve iOS/Android'de tutarlı UI isitiyorsanız. Hız ve maliyet açısından 2026'nın en dengeli seçeneği.</li>
+    <li><strong>React Native seçin:</strong> Ekibiniz JavaScript biliyor ve mevcut bir web projenizle kod paylaşmak istiyorsanız.</li>
+    <li><strong>Native seçin:</strong> Kamera, ARKit/ARCore, çok karmaşık animasyonlar gibi platform özelliklerine derin erişim gerektiren, yüksek bütçeli uygulamalar için.</li>
+  </ul>
+
+  <h2>2026 Mobil Uygulama Geliştirme Maliyetleri (Türkiye)</h2>
+
+  <table class="price-table">
+    <thead>
+      <tr>
+        <th>Uygulama Türü</th>
+        <th>Fiyat Aralığı</th>
+        <th>Süre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basit bilgi/tanıtım uygulaması</td>
+        <td>25.000 – 50.000 TL</td>
+        <td>4–6 hafta</td>
+      </tr>
+      <tr>
+        <td>Sosyal / topluluk uygulaması</td>
+        <td>60.000 – 120.000 TL</td>
+        <td>8–14 hafta</td>
+      </tr>
+      <tr>
+        <td>E-ticaret mobil uygulaması</td>
+        <td>80.000 – 180.000 TL</td>
+        <td>10–18 hafta</td>
+      </tr>
+      <tr>
+        <td>On-demand / marketplace (Trendyol benzeri)</td>
+        <td>200.000+ TL</td>
+        <td>6+ ay</td>
+      </tr>
+      <tr>
+        <td>Fintech / ödeme uygulaması</td>
+        <td>150.000+ TL</td>
+        <td>5+ ay</td>
+      </tr>
+      <tr>
+        <td>Kurumsal iç araç (B2B)</td>
+        <td>40.000 – 100.000 TL</td>
+        <td>6–12 hafta</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Not:</strong> Yukarıdaki fiyatlar Flutter/React Native ile cross-platform geliştirme içindir. Native (ayrı iOS + Android) geliştirme genellikle <strong>%60–80 daha pahalıdır</strong>.</p>
+
+  <h2>Mobil Uygulama Geliştirme Süreci: 6 Adım</h2>
+
+  <ol>
+    <li><strong>Keşif ve Kapsam Belirleme (1–2 hafta):</strong> Hedef kitle, rakip analizi, temel özellikler (MVP) ve teknik gereksinimler belirlenir. Bu aşamayı atlamak, sonradan çok maliyetli revizyonlara yol açar.</li>
+    <li><strong>UI/UX Tasarımı (2–4 hafta):</strong> Wireframe, prototip ve nihai Figma tasarımları hazırlanır. Kullanıcı testi bu aşamada yapılmalıdır.</li>
+    <li><strong>Backend Geliştirme (Paralel, 4–12 hafta):</strong> API servisleri, veritabanı yapısı ve 3. parti entegrasyonlar (ödeme, bildirim, konum vb.) geliştirilir.</li>
+    <li><strong>Mobil Uygulama Geliştirme (4–16 hafta):</strong> Flutter veya React Native ile uygulama geliştirilir, backend ile entegre edilir.</li>
+    <li><strong>QA ve Test (2–4 hafta):</strong> Farklı cihaz ve işletim sistemi sürümlerinde kapsamlı test yapılır. Beta kullanıcıları ile test edilir.</li>
+    <li><strong>Yayınlama (1 hafta):</strong> App Store ve Google Play'e başvuru yapılır. Apple incelemesi 1–3 gün, Google Play ise genellikle birkaç saat sürer.</li>
+  </ol>
+
+  <h2>Dikkat Edilmesi Gereken 5 Kritik Nokta</h2>
+
+  <ul>
+    <li><strong>MVP yaklaşımı benimseyın:</strong> İlk sürümde her özelliği dahil etmek zorunda değilsiniz. Temel değer önerisini doğrulayın, sonra büyütün.</li>
+    <li><strong>Offline çalışma:</strong> Türkiye'de internet bağlantısı her yerde stabil değil. Temel işlevlerin offline çalışması, kullanıcı deneyimini önemli ölçüde artırır.</li>
+    <li><strong>Push bildirim stratejisi:</strong> Aşırı bildirim, uygulamanın kaldırılmasının 1 numaralı sebebidir. Akıllı ve kişiselleştirilmiş bildirim stratejisi kurun.</li>
+    <li><strong>App Store Optimizasyonu (ASO):</strong> Uygulama mağazasında keşfedilebilmek için başlık, açıklama, anahtar kelime ve ekran görüntüleri optimize edilmelidir.</li>
+    <li><strong>Analitik entegrasyonu:</strong> Firebase Analytics veya Amplitude ile kullanıcı davranışlarını takip etmeden iyileştirme yapamazsınız.</li>
+  </ul>
+
+  <h2>Ankara'da Mobil Uygulama Geliştirme Maliyeti 2026</h2>
+
+  <p>Ankara'daki mobil uygulama piyasası, son üç yılda hem proje sayısı hem de fiyat seviyeleri açısından önemli bir ivme kazanmıştır. ODTÜ Teknokent ve Bilkent CYBERPARK'taki startup ekosistemi, yetenekli geliştirici havuzunu desteklerken rekabetçi fiyatlandırmayı da mümkün kılmaktadır.</p>
+
+  <table class="price-table">
+    <thead>
+      <tr>
+        <th>Uygulama Türü</th>
+        <th>Platform</th>
+        <th>Tahmini Maliyet (TL)</th>
+        <th>Süre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Basit Bilgilendirme Uygulaması</td><td>iOS + Android (Flutter)</td><td>40.000–80.000</td><td>6–10 hafta</td></tr>
+      <tr><td>Sosyal / İçerik Platformu</td><td>iOS + Android</td><td>80.000–180.000</td><td>3–6 ay</td></tr>
+      <tr><td>E-Ticaret Mobil Uygulaması</td><td>iOS + Android</td><td>100.000–250.000</td><td>4–8 ay</td></tr>
+      <tr><td>On-Demand / Kurye Uygulaması</td><td>iOS + Android + Yönetim Paneli</td><td>200.000–500.000+</td><td>6–12 ay</td></tr>
+      <tr><td>Fintech / Ödeme Uygulaması</td><td>iOS + Android</td><td>300.000–700.000+</td><td>8–18 ay</td></tr>
+      <tr><td>MVP (Yalın Ürün, Temel Özellikler)</td><td>iOS veya Android</td><td>25.000–60.000</td><td>4–8 hafta</td></tr>
+    </tbody>
+  </table>
+
+  <div class="highlight-box">
+    <p>💡 <strong>Ankara Avantajı:</strong> İstanbul'daki ajanslarla kıyaslandığında Ankara'daki yazılım şirketleri benzer kalitede hizmeti <strong>%20–35 daha uygun maliyetle</strong> sunabilmektedir. Bunun temel nedeni düşük ofis ve yaşam maliyetleridir.</p>
+  </div>
+
+  <h2>Ankara Startup Ekosistemi ve Mobil Uygulama Fırsatları</h2>
+
+  <p>Ankara'nın startup ekosistemi, Türkiye'nin ikinci büyük teknoloji merkezi olarak hızla büyümektedir. ODTÜ Teknokent'te 500'ü aşkın teknoloji şirketi faaliyet göstermekte; Hacettepe Teknokent ve Bilkent CYBERPARK da ekosisteme katkı sağlamaktadır.</p>
+
+  <p>Ankara merkezli mobil uygulama projeleri için <strong>TÜBİTAK TEYDEB</strong> ve <strong>KOSGEB Ar-Ge destekleri</strong> ciddi finansman imkânı sunmaktadır. Özellikle yenilikçi teknoloji içeren projelerde bu destekler, geliştirme maliyetinin <strong>%40–70'ini</strong> karşılayabilmektedir.</p>
+
+  <h2>Flutter vs React Native: Ankara Geliştiricileri Neyi Tercih Ediyor?</h2>
+
+  <p>2026 itibarıyla Ankara'daki mobil geliştirme projelerinin <strong>%58'inde Flutter</strong> tercih edilmektedir. Bunun temel nedenleri:</p>
+
+  <ul>
+    <li><strong>Tek kod tabanı:</strong> iOS, Android ve web için aynı kodla çalışır.</li>
+    <li><strong>Dart dili öğrenme kolaylığı:</strong> Java/Kotlin veya Swift bilgisi olmadan başlanabilir.</li>
+    <li><strong>Performans:</strong> Native'e yakın performans sunar; özellikle animasyon yoğun uygulamalarda üstündür.</li>
+    <li><strong>Google desteği:</strong> Google'ın aktif geliştirmesi uzun vadeli güvenilirlik sağlar.</li>
+  </ul>
+
+  <p>React Native ise <strong>JavaScript/TypeScript bilen ekiplerin</strong> mevcut web bilgisini mobil platforma taşıması için ideal olmaya devam etmektedir. Meta'nın New Architecture güncellemesiyle performans sorunları büyük ölçüde giderilmiştir.</p>
+
+  <h2>App Store ve Google Play'de Öne Çıkma: ASO Rehberi</h2>
+
+  <p>Harika bir uygulama geliştirmek, yeterli indirme almak için tek başına yetmez. <strong>App Store Optimizasyonu (ASO)</strong> ile organik keşfedilebilirliğinizi artırabilirsiniz:</p>
+
+  <ul>
+    <li><strong>Başlık:</strong> Ana hedef anahtar kelimenizi başlıkta kullanın (maks. 30 karakter).</li>
+    <li><strong>Alt başlık / kısa açıklama:</strong> İkinci öncelikli anahtar kelimelerinizi buraya yerleştirin.</li>
+    <li><strong>Ekran görüntüleri:</strong> İlk 3 ekran görüntüsü en kritik değer önerilerini yansıtmalıdır.</li>
+    <li><strong>Derecelendirme ve yorumlar:</strong> Düzenli güncelleme ve hızlı yorum yanıtı, mağaza algoritmasını olumlu etkiler.</li>
+    <li><strong>Yerelleştirme:</strong> Türkçe ASO, Türkiye App Store'unda organik sıralamayı doğrudan etkiler.</li>
+  </ul>
+
+  <h2>Sık Sorulan Sorular (SSS)</h2>
+
+  <h3>Ankara'da mobil uygulama yaptırmak için nereye başvurmalıyım?</h3>
+  <p>ODTÜ Teknokent ve Bilkent CYBERPARK çevresindeki yazılım firmaları ile <a href="/hakkimizda">Ozturksoft</a> gibi Ankara merkezli teknoloji şirketleri değerlendirilebilir. Portföy, müşteri referansı ve teknoloji yetkinliklerini karşılaştırarak seçim yapın.</p>
+
+  <h3>Flutter ile yapılan uygulama App Store'da kabul görür mü?</h3>
+  <p>Evet. Flutter uygulamaları tamamen native görünüm ve performans sunar; Apple ve Google tarafından sorunsuz kabul edilmektedir. Binlerce büyük marka Flutter kullanmaktadır.</p>
+
+  <h3>Mobil uygulamamın bakım maliyeti ne kadar?</h3>
+  <p>iOS ve Android işletim sistemi güncellemeleri, yeni cihaz uyumluluğu ve güvenlik yamaları için yıllık geliştirme maliyetinin <strong>%15–20'si</strong> bakım bütçesi olarak ayrılmalıdır. Ortalama <strong>3.000–10.000 TL/ay</strong> öngörülmelidir.</p>
+
+  <h3>KVKK uyumu mobil uygulama için zorunlu mu?</h3>
+  <p>Evet. Türk kullanıcıların kişisel verilerini işleyen tüm mobil uygulamalar KVKK'ya tabidir. Açık rıza mekanizması, veri saklama politikası ve güvenli veri aktarımı bu kapsamda zorunludur.</p>
+
+  <h3>MVP ile başlamak doğru strateji mi?</h3>
+  <p>Çoğu durumda evet. MVP (Minimum Viable Product) yaklaşımı, <strong>piyasa doğrulaması olmadan büyük yatırım yapmaktan</strong> sizi korur. Temel özelliklerle yayına çıkıp kullanıcı geri bildirimlerine göre ürünü şekillendirmek, startup'lar için standart yaklaşım hâline gelmiştir.</p>
+
+  <div class="cta-box">
+    <h3 data-i18n="blog.cta.mobile.title">Mobil uygulama projenizi birlikte hayata geçirelim</h3>
+    <p data-i18n="blog.cta.mobile.desc">Ozturksoft olarak Flutter ve React Native ile iOS ve Android için yüksek performanslı mobil uygulamalar geliştiriyoruz. Fikrinizi ücretsiz değerlendiriyoruz.</p>
+    <a href="/iletisim" class="btn btn-primary" style="font-size:1.05rem;padding:16px 36px"><span data-i18n="blog.cta.mobile.btn">Projenizi Anlat </span><i class="fas fa-arrow-right" style="margin-left:8px"></i></a>
+  </div>

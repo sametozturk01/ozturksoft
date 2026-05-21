@@ -3,6 +3,7 @@
     "home": "Ana Sayfa",
     "about": "Hakkımızda",
     "services": "Hizmetler",
+    "blog": "Blog",
     "contact": "İletişim",
     "quoteBtn": "Teklif Al"
   },
@@ -276,7 +277,97 @@
     }
   },
 
-     "footer": {
+  "footer": {
     "copyright": "© 2026 Ozturksoft | Tüm Hakları Saklıdır."
+  },
+  "blog": {
+    "hero": {
+      "badge": "Ozturksoft Blog",
+      "title": "Yazılım, AI ve Dijital Dönüşüm Rehberleri",
+      "desc": "Ankara'dan Türkiye'ye: Teknik SEO, yapay zeka entegrasyonu, QA test ve mobil uygulama geliştirme üzerine derinlemesine rehberler."
+    },
+    "tags": {
+      "webDesign": "Web Tasarım",
+      "ai": "Yapay Zeka",
+      "qa": "QA & Test",
+      "mobile": "Mobil"
+    },
+    "cards": {
+      "readMore": "Devamını Oku",
+      "web": {
+        "title": "Ankara'da Web Sitesi Yaptırma Maliyeti ve Fiyatları [2026]",
+        "desc": "Kurumsal web sitesi, e-ticaret ve landing page fiyatları neden bu kadar değişken? Ankara'da gerçekçi maliyet analizi."
+      },
+      "aiCard": {
+        "title": "Yapay Zeka (AI) Entegrasyonu: İşletmenizi Geleceğe Taşıyın",
+        "desc": "Makine öğrenmesi, NLP ve otomasyon ile iş süreçlerinizi nasıl dönüştürebilirsiniz? Adım adım uygulama rehberi."
+      },
+      "qaCard": {
+        "title": "QA Test Nedir? Yazılım Kalite Güvencesinin Kritik Önemi",
+        "desc": "Manuel test, otomasyon ve TDD yaklaşımlarını karşılaştırın. Yazılımınızın canlıya hatasız çıkması için bilmeniz gerekenler."
+      },
+      "mobileCard": {
+        "title": "Mobil Uygulama Geliştirme: iOS ve Android Rehberi [2026]",
+        "desc": "Native mi, Flutter mı, React Native mi? Proje bütçenize ve hedef kitlenize göre doğru teknolojiyi nasıl seçersiniz?"
+      }
+    },
+    "posts": {
+      "web": {
+        "tag": "🌐 Web Tasarım",
+        "title": "Ankara'da Web Sitesi Yaptırma Maliyeti ve Fiyatları [2026]",
+        "breadcrumb": "Web Sitesi Maliyeti 2026"
+      },
+      "ai": {
+        "tag": "🤖 Yapay Zeka",
+        "title": "Yapay Zeka (AI) Entegrasyonu: İşletmenizi Geleceğe Taşıyın",
+        "breadcrumb": "Yapay Zeka Entegrasyonu"
+      },
+      "qa": {
+        "tag": "🛡️ QA & Test",
+        "title": "QA Test Nedir? Yazılım Kalite Güvencesinin Kritik Önemi",
+        "breadcrumb": "QA Test Nedir?"
+      },
+      "mobile": {
+        "tag": "📱 Mobil Geliştirme",
+        "title": "Mobil Uygulama Geliştirme: iOS ve Android Rehberi [2026]",
+        "breadcrumb": "Mobil Uygulama Geliştirme 2026"
+      }
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "blog": "Blog"
+    },
+    "meta": {
+      "date": "21 Mayıs 2026",
+      "read8": "8 dk okuma",
+      "read10": "10 dk okuma",
+      "read7": "7 dk okuma",
+      "read9": "9 dk okuma"
+    },
+    "footer": {
+      "copyright": "© 2026 Ozturksoft — Ankara, Türkiye. Tüm hakları saklıdır."
+    },
+    "cta": {
+      "web": {
+        "title": "Projeniz için ücretsiz teklif alın",
+        "desc": "Ankara'da web sitesi veya yazılım geliştirme projeniz için Ozturksoft uzmanlarıyla ücretsiz görüşün.",
+        "btn": "Ücretsiz Teklif Al"
+      },
+      "ai": {
+        "title": "AI projeniz için uzman danışmanlık alın",
+        "desc": "İşletmenizin veri potansiyelini değerlendirip size özel yapay zeka entegrasyon yol haritası çıkarıyoruz.",
+        "btn": "Ücretsiz Danışmanlık"
+      },
+      "qa": {
+        "title": "Yazılımınız kalite güvencesi altında mı?",
+        "desc": "QA uzmanlarımız mevcut yazılımınızı analiz edip test stratejinizi en başından doğru kurar.",
+        "btn": "Ücretsiz QA Analizi"
+      },
+      "mobile": {
+        "title": "Mobil uygulama projenizi birlikte hayata geçirelim",
+        "desc": "Flutter ve React Native ile yüksek performanslı mobil uygulamalar geliştiriyoruz.",
+        "btn": "Projenizi Anlat"
+      }
     }
   }
+}

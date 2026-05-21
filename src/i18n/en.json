@@ -3,6 +3,7 @@
     "home": "Home",
     "about": "About Us",
     "services": "Services",
+    "blog": "Blog",
     "contact": "Contact",
     "quoteBtn": "Get a Quote"
   },
@@ -276,5 +277,95 @@
   },
   "footer": {
     "copyright": "© 2026 Ozturksoft | All Rights Reserved."
+  },
+  "blog": {
+    "hero": {
+      "badge": "Ozturksoft Blog",
+      "title": "Software, AI & Digital Transformation Guides",
+      "desc": "From Ankara to Turkey: In-depth guides on technical SEO, AI integration, QA testing and mobile app development."
+    },
+    "tags": {
+      "webDesign": "Web Design",
+      "ai": "Artificial Intelligence",
+      "qa": "QA & Testing",
+      "mobile": "Mobile"
+    },
+    "cards": {
+      "readMore": "Read More",
+      "web": {
+        "title": "Website Development Cost & Pricing in Ankara [2026]",
+        "desc": "Why do corporate website, e-commerce and landing page prices vary so much? Realistic cost analysis in Ankara."
+      },
+      "aiCard": {
+        "title": "AI Integration: Take Your Business Into the Future",
+        "desc": "How can you transform your business processes with machine learning, NLP and automation? A step-by-step guide."
+      },
+      "qaCard": {
+        "title": "What Is QA Testing? The Critical Importance of Software Quality Assurance",
+        "desc": "Compare manual testing, automation and TDD approaches. Everything you need to know to launch your software flawlessly."
+      },
+      "mobileCard": {
+        "title": "Mobile App Development: iOS and Android Guide [2026]",
+        "desc": "Native, Flutter or React Native? How to choose the right technology for your project budget and target audience."
+      }
+    },
+    "posts": {
+      "web": {
+        "tag": "🌐 Web Design",
+        "title": "Website Development Cost and Pricing in Ankara [2026]",
+        "breadcrumb": "Website Cost 2026"
+      },
+      "ai": {
+        "tag": "🤖 Artificial Intelligence",
+        "title": "AI Integration: Take Your Business Into the Future",
+        "breadcrumb": "AI Integration Guide"
+      },
+      "qa": {
+        "tag": "🛡️ QA & Testing",
+        "title": "What Is QA Testing? The Critical Importance of Software Quality Assurance",
+        "breadcrumb": "What Is QA Testing?"
+      },
+      "mobile": {
+        "tag": "📱 Mobile Development",
+        "title": "Mobile App Development: iOS and Android Guide [2026]",
+        "breadcrumb": "Mobile App Development 2026"
+      }
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "blog": "Blog"
+    },
+    "meta": {
+      "date": "May 21, 2026",
+      "read8": "8 min read",
+      "read10": "10 min read",
+      "read7": "7 min read",
+      "read9": "9 min read"
+    },
+    "footer": {
+      "copyright": "© 2026 Ozturksoft — Ankara, Turkey. All rights reserved."
+    },
+    "cta": {
+      "web": {
+        "title": "Get a free quote for your project",
+        "desc": "Consult with Ozturksoft experts for free for your website or software development project in Ankara.",
+        "btn": "Get a Free Quote"
+      },
+      "ai": {
+        "title": "Get expert consulting for your AI project",
+        "desc": "We assess your business's data potential and create a custom AI integration roadmap for you.",
+        "btn": "Free Consultation"
+      },
+      "qa": {
+        "title": "Is your software under quality assurance?",
+        "desc": "Our QA experts analyze your existing software and build your testing strategy correctly from the start.",
+        "btn": "Free QA Analysis"
+      },
+      "mobile": {
+        "title": "Let's bring your mobile app project to life together",
+        "desc": "We develop high-performance mobile apps with Flutter and React Native.",
+        "btn": "Tell Us Your Project"
+      }
+    }
   }
 }
