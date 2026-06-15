@@ -3,13 +3,15 @@
     "home": "Home",
     "about": "About Us",
     "services": "Services",
+    "ai": "AI Solutions",
     "blog": "Blog",
     "contact": "Contact",
-    "quoteBtn": "Get a Quote"
+    "quoteBtn": "Get a Quote",
+    "whatsapp": "Live Support"
   },
   "hero": {
-    "title": "Pioneering Development and Testing Solutions",
-    "subtitle": "At Ozturksoft, we solve your complex business problems with modern technology stacks and flawless QA processes.",
+    "title": "Ankara's AI & Software Development Company",
+    "subtitle": "At Ozturksoft, we carry your business to the future with Ankara-based AI integration, custom software development, and digital transformation solutions.",
     "btnExplore": "Explore Our Solutions",
     "btnMeet": "Meet With Us"
   },
@@ -17,12 +19,30 @@
     "title": "End-to-End Digital Transformation",
     "subtitle": "Ozturksoft combines modern technology stacks with your business goals to ensure sustainable success.",
     "cards": {
-      "dev": { "title": "Custom Software Development", "desc": "We build scalable, high-performance microservice architectures that optimize your complex business processes." },
-      "qa": { "title": "QA & Quality Assurance", "desc": "With a zero-defect vision, we maximize your software's reliability by integrating TDD and CI/CD processes." },
-      "ai": { "title": "AI & Analytics", "desc": "We develop machine learning models and data mining solutions that turn your data into a strategic asset." },
-      "mobile": { "title": "Mobile App Development", "desc": "We provide user-centric, highly interactive native or cross-platform solutions on iOS and Android." },
-      "cloud": { "title": "Cloud & DevOps", "desc": "We increase your software delivery speed and security with modern cloud infrastructures and automation." },
-      "uiux": { "title": "UI/UX Design", "desc": "We design user experiences that strengthen your brand's digital identity by combining aesthetics with functionality." }
+      "dev": {
+        "title": "Custom Software Development",
+        "desc": "We build scalable, high-performance microservice architectures that optimize your complex business processes."
+      },
+      "qa": {
+        "title": "QA & Quality Assurance",
+        "desc": "With a zero-defect vision, we maximize your software's reliability by integrating TDD and CI/CD processes."
+      },
+      "ai": {
+        "title": "AI & Analytics",
+        "desc": "We develop machine learning models and data mining solutions that turn your data into a strategic asset."
+      },
+      "mobile": {
+        "title": "Mobile App Development",
+        "desc": "We provide user-centric, highly interactive native or cross-platform solutions on iOS and Android."
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "desc": "We increase your software delivery speed and security with modern cloud infrastructures and automation."
+      },
+      "uiux": {
+        "title": "UI/UX Design",
+        "desc": "We design user experiences that strengthen your brand's digital identity by combining aesthetics with functionality."
+      }
     }
   },
   "references": {
@@ -46,12 +66,30 @@
     "title": "Our Values",
     "subtitle": "The core principles that sustain Ozturksoft and guide every project.",
     "cards": {
-      "technical": { "title": "Technical Depth", "desc": "We follow the latest technologies and solve even the most complex problems. We are a constantly learning and evolving team." },
-      "transparent": { "title": "Transparent Process Management", "desc": "We work in full transparency with our clients at every stage of the project. We report every step and share every change." },
-      "qa": { "title": "100% QA Guarantee", "desc": "Every line of code is tested through TDD and CI/CD processes. Flawless delivery is our standard." },
-      "customer": { "title": "Customer Centricity", "desc": "Our clients' success is our success. We don't just write code, we become your business partner." },
-      "sustainability": { "title": "Sustainability", "desc": "We build scalable, easy-to-maintain systems by considering not just today's needs, but tomorrow's as well." },
-      "growth": { "title": "Continuous Growth", "desc": "Technology constantly evolves, and so do we. Our team continuously trains and integrates new tech into projects." }
+      "technical": {
+        "title": "Technical Depth",
+        "desc": "We follow the latest technologies and solve even the most complex problems. We are a constantly learning and evolving team."
+      },
+      "transparent": {
+        "title": "Transparent Process Management",
+        "desc": "We work in full transparency with our clients at every stage of the project. We report every step and share every change."
+      },
+      "qa": {
+        "title": "100% QA Guarantee",
+        "desc": "Every line of code is tested through TDD and CI/CD processes. Flawless delivery is our standard."
+      },
+      "customer": {
+        "title": "Customer Centricity",
+        "desc": "Our clients' success is our success. We don't just write code, we become your business partner."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "desc": "We build scalable, easy-to-maintain systems by considering not just today's needs, but tomorrow's as well."
+      },
+      "growth": {
+        "title": "Continuous Growth",
+        "desc": "Technology constantly evolves, and so do we. Our team continuously trains and integrates new tech into projects."
+      }
     }
   },
   "whyus": {
@@ -59,12 +97,30 @@
     "highlight": "Ozturksoft?",
     "subtitle": "Discover the features that set us apart from our competitors.",
     "cards": {
-      "time": { "title": "On-Time Delivery", "desc": "Strict adherence to deadlines. 95% of our projects are delivered on time." },
-      "communication": { "title": "Fast Communication", "desc": "Guaranteed response within 4 hours. 24/7 support line for emergencies." },
-      "security": { "title": "Security Focused", "desc": "Security testing according to OWASP standards. Your data is safe with us." },
-      "reporting": { "title": "Detailed Reporting", "desc": "Weekly progress reports. Track every moment of your project." },
-      "support": { "title": "Post-Project Support", "desc": "30-90 days of free maintenance and support. We don't leave you alone." },
-      "pricing": { "title": "Competitive Pricing", "desc": "Affordable prices without compromising quality. Flexible payment plans." }
+      "time": {
+        "title": "On-Time Delivery",
+        "desc": "Strict adherence to deadlines. 95% of our projects are delivered on time."
+      },
+      "communication": {
+        "title": "Fast Communication",
+        "desc": "Guaranteed response within 4 hours. 24/7 support line for emergencies."
+      },
+      "security": {
+        "title": "Security Focused",
+        "desc": "Security testing according to OWASP standards. Your data is safe with us."
+      },
+      "reporting": {
+        "title": "Detailed Reporting",
+        "desc": "Weekly progress reports. Track every moment of your project."
+      },
+      "support": {
+        "title": "Post-Project Support",
+        "desc": "30-90 days of free maintenance and support. We don't leave you alone."
+      },
+      "pricing": {
+        "title": "Competitive Pricing",
+        "desc": "Affordable prices without compromising quality. Flexible payment plans."
+      }
     }
   },
   "cta": {
@@ -96,16 +152,37 @@
       "title1": "Our Journey of",
       "title2": "Growth",
       "desc": "Ozturksoft's steps from an idea to today.",
-      "step1": { "sub": "Laying the Foundations", "title": "Birth of the Vision", "desc": "Founded in Ankara with the goal of producing quality-focused software and modern web technologies." },
-      "step2": { "sub": "First Big Successes", "title": "Corporate Projects", "desc": "We started serving our first large corporate clients with custom management panels and complex system integrations." },
-      "step3": { "sub": "Today & Tomorrow", "title": "Continuous Innovation", "desc": "Today, we produce end-to-end solutions and design the digital products of the future with our modern stack (React, Node.js, TS)." }
+      "step1": {
+        "sub": "Laying the Foundations",
+        "title": "Birth of the Vision",
+        "desc": "Founded in Ankara with the goal of producing quality-focused software and modern web technologies."
+      },
+      "step2": {
+        "sub": "First Big Successes",
+        "title": "Corporate Projects",
+        "desc": "We started serving our first large corporate clients with custom management panels and complex system integrations."
+      },
+      "step3": {
+        "sub": "Today & Tomorrow",
+        "title": "Continuous Innovation",
+        "desc": "Today, we produce end-to-end solutions and design the digital products of the future with our modern stack (React, Node.js, TS)."
+      }
     },
     "culture": {
       "title": "Culture",
       "desc": "Our approach to work is what makes us who we are.",
-      "card1": { "title": "Continuous Learning", "desc": "Technology never stops. Our team researches new technologies every day and keeps our systems up to date." },
-      "card2": { "title": "Transparent Communication", "desc": "We communicate clearly and openly at every stage of the project, without any surprises for our clients." },
-      "card3": { "title": "Craftsmanship", "desc": "We see software not as a factory job, but as a craft that needs to be carefully woven." }
+      "card1": {
+        "title": "Continuous Learning",
+        "desc": "Technology never stops. Our team researches new technologies every day and keeps our systems up to date."
+      },
+      "card2": {
+        "title": "Transparent Communication",
+        "desc": "We communicate clearly and openly at every stage of the project, without any surprises for our clients."
+      },
+      "card3": {
+        "title": "Craftsmanship",
+        "desc": "We see software not as a factory job, but as a craft that needs to be carefully woven."
+      }
     },
     "cta": {
       "title1": "Ready to Meet",
@@ -122,27 +199,71 @@
       "desc": "We carry your business to the future with end-to-end digital transformation solutions. We are with you at every step, from idea to live."
     },
     "cards": {
-      "dev": { "title": "Custom Software Development", "desc": "We develop high-performance, scalable web and mobile applications with React, TypeScript, Node.js, and Python.", "list1": "Corporate Web Apps", "list2": "E-commerce Platforms", "list3": "SaaS Products", "list4": "RESTful & GraphQL APIs" },
-      "qa": { "title": "Test & QA Services", "desc": "Zero-defect projects with CI/CD integrated, automated test processes (TDD). Security testing at OWASP standards." },
-      "cloud": { "title": "DevOps & Cloud Solutions", "desc": "Secure, scalable, and highly available architecture setups on AWS and Azure infrastructures." },
-      "mobile": { "title": "Mobile App Development", "desc": "Native and cross-platform mobile apps on iOS and Android. User experience-focused designs.", "list4": "Store Publishing" },
-      "ai": { "title": "AI & Analytics", "desc": "Turn your data into a strategic asset with machine learning, data mining, and AI integrations.", "list1": "Machine Learning", "list2": "Natural Language Processing (NLP)", "list3": "Data Analysis" },
-      "ui": { "title": "UI/UX Design", "desc": "User-centric, aesthetic, and functional interface designs. Experiences that strengthen your brand's digital identity." }
+      "dev": {
+        "title": "Custom Software Development",
+        "desc": "We develop high-performance, scalable web and mobile applications with React, TypeScript, Node.js, and Python.",
+        "list1": "Corporate Web Apps",
+        "list2": "E-commerce Platforms",
+        "list3": "SaaS Products",
+        "list4": "RESTful & GraphQL APIs"
+      },
+      "qa": {
+        "title": "Test & QA Services",
+        "desc": "Zero-defect projects with CI/CD integrated, automated test processes (TDD). Security testing at OWASP standards."
+      },
+      "cloud": {
+        "title": "DevOps & Cloud Solutions",
+        "desc": "Secure, scalable, and highly available architecture setups on AWS and Azure infrastructures."
+      },
+      "mobile": {
+        "title": "Mobile App Development",
+        "desc": "Native and cross-platform mobile apps on iOS and Android. User experience-focused designs.",
+        "list4": "Store Publishing"
+      },
+      "ai": {
+        "title": "AI & Analytics",
+        "desc": "Turn your data into a strategic asset with machine learning, data mining, and AI integrations.",
+        "list1": "Machine Learning",
+        "list2": "Natural Language Processing (NLP)",
+        "list3": "Data Analysis"
+      },
+      "ui": {
+        "title": "UI/UX Design",
+        "desc": "User-centric, aesthetic, and functional interface designs. Experiences that strengthen your brand's digital identity."
+      }
     },
     "ai": {
       "title1": "Why",
       "desc": "Ordinary software agencies only produce \"tools\", we integrate \"intelligence\".",
       "card1": {
         "title": "Traditional Companies",
-        "li1": { "title": "Rule-Based Systems", "desc": "Static structures running only on pre-written codes and fixed rules." },
-        "li2": { "title": "Manual Workload", "desc": "Data entry, analysis, and documentation processes depending on human power." },
-        "li3": { "title": "Standard Search and Filtering", "desc": "Simple keyword matching that doesn't fully understand what the user is looking for." }
+        "li1": {
+          "title": "Rule-Based Systems",
+          "desc": "Static structures running only on pre-written codes and fixed rules."
+        },
+        "li2": {
+          "title": "Manual Workload",
+          "desc": "Data entry, analysis, and documentation processes depending on human power."
+        },
+        "li3": {
+          "title": "Standard Search and Filtering",
+          "desc": "Simple keyword matching that doesn't fully understand what the user is looking for."
+        }
       },
       "card2": {
         "badge": "FUTURE TECH",
-        "li1": { "title": "Autonomous Assistant Modules", "desc": "Industry-specific trained models. For example, smart assistants for legal professionals that can understand legal language and create petition drafts in seconds." },
-        "li2": { "title": "Learning Algorithms (Machine Learning)", "desc": "Dynamic infrastructures that continuously learn from user behavior, optimize themselves, and make predictive decisions." },
-        "li3": { "title": "Natural Language Processing (NLP) Integration", "desc": "Smart algorithms that understand human language, perform text analysis, and turn complex data into meaningful insights." }
+        "li1": {
+          "title": "Autonomous Assistant Modules",
+          "desc": "Industry-specific trained models. For example, smart assistants for legal professionals that can understand legal language and create petition drafts in seconds."
+        },
+        "li2": {
+          "title": "Learning Algorithms (Machine Learning)",
+          "desc": "Dynamic infrastructures that continuously learn from user behavior, optimize themselves, and make predictive decisions."
+        },
+        "li3": {
+          "title": "Natural Language Processing (NLP) Integration",
+          "desc": "Smart algorithms that understand human language, perform text analysis, and turn complex data into meaningful insights."
+        }
       }
     },
     "global": {
@@ -150,27 +271,63 @@
       "title1": "Our Technology is",
       "title2": "Your Invisible Power",
       "desc": "We don't write complex codes; we build a digital backbone that ensures your business runs uninterrupted, your data remains unshakeably secure, and your operations become autonomous.",
-      "card1": { "badge": "01 // ANALYTICAL INTELLIGENCE", "title": "Self-Deciding Systems", "desc": "With our models that process complex data sets in seconds, we give your systems 'foresight'. Decisions are now data-driven and flawless." },
-      "card2": { "badge": "02 // DIGITAL FORTRESSES", "title": "Uncompromising Data Security", "desc": "We embed global cybersecurity standards into the smallest cell of the software. Proactive defense layers that block not only today's but tomorrow's threats." },
-      "card3": { "badge": "03 // LIMITLESS CAPACITY", "title": "Future-Ready Infrastructure", "desc": "Cloud-based architectures that flawlessly manage millions of users and massive data traffic. As your business grows, your systems never lag behind." },
+      "card1": {
+        "badge": "01 // ANALYTICAL INTELLIGENCE",
+        "title": "Self-Deciding Systems",
+        "desc": "With our models that process complex data sets in seconds, we give your systems 'foresight'. Decisions are now data-driven and flawless."
+      },
+      "card2": {
+        "badge": "02 // DIGITAL FORTRESSES",
+        "title": "Uncompromising Data Security",
+        "desc": "We embed global cybersecurity standards into the smallest cell of the software. Proactive defense layers that block not only today's but tomorrow's threats."
+      },
+      "card3": {
+        "badge": "03 // LIMITLESS CAPACITY",
+        "title": "Future-Ready Infrastructure",
+        "desc": "Cloud-based architectures that flawlessly manage millions of users and massive data traffic. As your business grows, your systems never lag behind."
+      },
       "quote": "Technology, in the right hands, turns into art; with the right vision, into an unrivaled power."
     },
     "process": {
       "title1": "How Do We",
       "title2": "Work?",
       "desc": "Our transparent, organized, and result-oriented agile project management process.",
-      "s1": { "title": "Discovery & Analysis", "desc": "We listen to your needs and understand your business goals. We prepare a detailed technical analysis and feasibility report." },
-      "s2": { "title": "Planning & Design", "desc": "We create the project roadmap, architecture design, and UI/UX mockups. We do sprint planning." },
-      "s3": { "title": "Development", "desc": "Sprint-based development with agile methodology. Weekly demos and progress reports. Continuous communication." },
-      "s4": { "title": "Test & QA", "desc": "Automated and manual tests. Security scanning. Performance optimization. UAT (User Acceptance Testing)." },
-      "s5": { "title": "Deployment & Support", "desc": "Go-live and deployment. User training. SLA-guaranteed maintenance and support. Monitoring setup." }
+      "s1": {
+        "title": "Discovery & Analysis",
+        "desc": "We listen to your needs and understand your business goals. We prepare a detailed technical analysis and feasibility report."
+      },
+      "s2": {
+        "title": "Planning & Design",
+        "desc": "We create the project roadmap, architecture design, and UI/UX mockups. We do sprint planning."
+      },
+      "s3": {
+        "title": "Development",
+        "desc": "Sprint-based development with agile methodology. Weekly demos and progress reports. Continuous communication."
+      },
+      "s4": {
+        "title": "Test & QA",
+        "desc": "Automated and manual tests. Security scanning. Performance optimization. UAT (User Acceptance Testing)."
+      },
+      "s5": {
+        "title": "Deployment & Support",
+        "desc": "Go-live and deployment. User training. SLA-guaranteed maintenance and support. Monitoring setup."
+      }
     },
     "whyus": {
       "title1": "Why",
       "title2": "Us?",
-      "c1": { "title": "High Security", "desc": "Your corporate data is protected with end-to-end encryption at KVKK/GDPR standards and global security protocols." },
-      "c2": { "title": "Scalability", "desc": "We use microservices and modern cloud architectures so you don't experience performance loss as your project grows." },
-      "c3": { "title": "Uninterrupted Support", "desc": "We don't leave you alone after project delivery; we provide proactive monitoring and support under SLA agreements." }
+      "c1": {
+        "title": "High Security",
+        "desc": "Your corporate data is protected with end-to-end encryption at KVKK/GDPR standards and global security protocols."
+      },
+      "c2": {
+        "title": "Scalability",
+        "desc": "We use microservices and modern cloud architectures so you don't experience performance loss as your project grows."
+      },
+      "c3": {
+        "title": "Uninterrupted Support",
+        "desc": "We don't leave you alone after project delivery; we provide proactive monitoring and support under SLA agreements."
+      }
     },
     "cta": {
       "title1": "Ready to Start",
@@ -247,18 +404,44 @@
       "badge": "FAST RESPONSE",
       "title1": "Our Response",
       "title2": "Times",
-      "r1": { "title": "E-mail", "strong": "Within 4 hours", "desc": "response guarantee" },
-      "r2": { "title": "Phone", "strong": "Instant call", "desc": "opportunity" },
-      "r3": { "strong": "Within 2 hours", "desc": "response guarantee" },
-      "r4": { "title": "Urgent Support", "desc": "7/24 uninterrupted service" }
+      "r1": {
+        "title": "E-mail",
+        "strong": "Within 4 hours",
+        "desc": "response guarantee"
+      },
+      "r2": {
+        "title": "Phone",
+        "strong": "Instant call",
+        "desc": "opportunity"
+      },
+      "r3": {
+        "strong": "Within 2 hours",
+        "desc": "response guarantee"
+      },
+      "r4": {
+        "title": "Urgent Support",
+        "desc": "7/24 uninterrupted service"
+      }
     },
     "faq": {
       "title1": "Frequently Asked",
       "title2": "Questions",
-      "q1": { "title": "How long is the project duration?", "desc": "It varies between 2-12 weeks depending on the complexity of the project. We provide you with a detailed timeline in the first meeting." },
-      "q2": { "title": "How does the testing process work?", "desc": "We prepare a custom test plan for every project. We provide 100% quality assurance with Automated + Manual tests." },
-      "q3": { "title": "Is there post-project support?", "desc": "Yes! We provide 30-90 days of free support for all our projects. We have maintenance packages afterwards." },
-      "q4": { "title": "Do you work remotely?", "desc": "Yes! We accept projects from all over Turkey and abroad. We are constantly in touch via online meetings." }
+      "q1": {
+        "title": "How long is the project duration?",
+        "desc": "It varies between 2-12 weeks depending on the complexity of the project. We provide you with a detailed timeline in the first meeting."
+      },
+      "q2": {
+        "title": "How does the testing process work?",
+        "desc": "We prepare a custom test plan for every project. We provide 100% quality assurance with Automated + Manual tests."
+      },
+      "q3": {
+        "title": "Is there post-project support?",
+        "desc": "Yes! We provide 30-90 days of free support for all our projects. We have maintenance packages afterwards."
+      },
+      "q4": {
+        "title": "Do you work remotely?",
+        "desc": "Yes! We accept projects from all over Turkey and abroad. We are constantly in touch via online meetings."
+      }
     },
     "modal": {
       "title": "Privacy Policy",
@@ -277,6 +460,166 @@
   },
   "footer": {
     "copyright": "© 2026 Ozturksoft | All Rights Reserved."
+  },
+  "aiPage": {
+    "hero": {
+      "badge": "Ankara-Based AI Company",
+      "title1": "AI Solutions",
+      "title2": "in Ankara",
+      "desc": "With machine learning, LLM integration, chatbots and process automation, we carry your business into the future. Turn your data into a competitive advantage."
+    },
+    "cards": {
+      "c1": {
+        "title": "Chatbot & Virtual Assistant",
+        "desc": "Smart chatbot systems that understand Turkish natural language and operate 24/7. Ready for WhatsApp, web and mobile integration.",
+        "li1": "GPT-4 & Turkish NLP",
+        "li2": "WhatsApp / Web Integration",
+        "li3": "CRM & ERP Connection",
+        "li4": "Custom-Trained Models"
+      },
+      "c2": {
+        "title": "LLM & GPT Integration",
+        "desc": "We integrate OpenAI, Anthropic or open-source large language models into your existing software to make your processes smarter.",
+        "li1": "OpenAI / Anthropic API",
+        "li2": "RAG (Retrieval Augmented Generation)",
+        "li3": "LangChain & Vector DB",
+        "li4": "On-Premise Deployment"
+      },
+      "c3": {
+        "title": "Predictive Analytics",
+        "desc": "Read the future from past data. We develop ML models for sales forecasting, demand planning, and customer churn prevention.",
+        "li1": "Python ML (scikit-learn, XGBoost)",
+        "li2": "TensorFlow & PyTorch",
+        "li3": "Anomaly Detection",
+        "li4": "Dashboard & Reporting"
+      },
+      "c4": {
+        "title": "Process Automation (RPA + AI)",
+        "desc": "We eliminate repetitive and time-consuming business processes with AI-powered automation. Your employees focus on value-added work.",
+        "li1": "RPA & AI Workflow",
+        "li2": "Document & Invoice Automation",
+        "li3": "API Integration",
+        "li4": "Process Monitoring & Reporting"
+      },
+      "c5": {
+        "title": "Computer Vision & Image Processing",
+        "desc": "We develop custom image processing models for quality control, object detection, face recognition, and defect detection.",
+        "li1": "OpenCV & YOLO",
+        "li2": "Defect & Anomaly Detection",
+        "li3": "Real-Time Analysis",
+        "li4": "Camera & Sensor Integration"
+      },
+      "c6": {
+        "title": "Data Analytics & BI",
+        "desc": "We transform your raw data into decision-supporting insights. We set up Power BI, custom dashboards, and AI-powered reporting systems.",
+        "li1": "Power BI & Tableau",
+        "li2": "ETL & Data Pipeline",
+        "li3": "Custom Dashboard Development",
+        "li4": "Data Warehouse Design"
+      }
+    },
+    "sectors": {
+      "title1": "Which",
+      "title2": "Sectors",
+      "title3": "Do We Serve?",
+      "desc": "We have delivered AI projects across manufacturing, finance, health, retail, and public sectors.",
+      "badge": "LEADER IN ANKARA",
+      "s1": {
+        "title": "Manufacturing & Production",
+        "li1t": "Quality Control Automation",
+        "li1d": "Camera-based AI for instant defect detection on production lines.",
+        "li2t": "Predictive Maintenance",
+        "li2d": "Sensor analysis models that predict machine failures before they occur."
+      },
+      "s2": {
+        "title": "Government & Finance",
+        "li1t": "Document Classification & OCR",
+        "li1d": "Automatic classification and digitization of internal documents.",
+        "li2t": "Risk & Fraud Detection",
+        "li2d": "Secure transaction monitoring with real-time anomaly detection."
+      },
+      "s3": {
+        "title": "Retail & Healthcare",
+        "li1t": "Product Recommendation Engine",
+        "li1d": "Personalized product recommendation algorithms based on user behavior.",
+        "li2t": "Patient Data Analytics",
+        "li2d": "Clinical data analysis for decision support and process improvement."
+      }
+    },
+    "tech": {
+      "sub": "Tech Stack",
+      "title1": "The AI Technologies",
+      "title2": "We Use",
+      "desc": "We work with up-to-date, proven, and enterprise-ready tools.",
+      "card1": {
+        "badge": "01 // LARGE LANGUAGE MODELS",
+        "title": "GPT & LLM Integration",
+        "desc": "We integrate OpenAI, Anthropic and open-source models into your business data and processes. Your data stays on your system.",
+        "tag1": "#GPT4o",
+        "tag2": "#LangChain",
+        "tag3": "#RAG"
+      },
+      "card2": {
+        "badge": "02 // MACHINE LEARNING",
+        "title": "Learning Algorithms",
+        "desc": "Models that learn from past data to predict the future. ML systems used in sales, inventory, churn, and demand forecasting.",
+        "tag1": "#scikit-learn",
+        "tag2": "#XGBoost",
+        "tag3": "#PyTorch"
+      },
+      "card3": {
+        "badge": "03 // GDPR COMPLIANT",
+        "title": "Secure AI Infrastructure",
+        "desc": "All our AI systems are designed to be GDPR/KVKK compliant. With on-premise deployment, your data stays on your servers.",
+        "tag1": "#GDPR",
+        "tag2": "#OnPremise",
+        "tag3": "#Security"
+      }
+    },
+    "process": {
+      "title1": "How Do We",
+      "title2": "Work?",
+      "desc": "Every AI project starts with a free discovery session and ends with measurable results.",
+      "s1": {
+        "title": "Free Discovery Session",
+        "desc": "We listen to your business processes, data, and goals. We determine the most suitable AI approach for you."
+      },
+      "s2": {
+        "title": "Solution Design & Planning",
+        "desc": "We create the model selection, architecture design and integration plan. We provide sprint planning and time/cost estimates."
+      },
+      "s3": {
+        "title": "Development & Testing",
+        "desc": "Sprint-based development with agile methodology. Performance, accuracy and security tests at every stage."
+      },
+      "s4": {
+        "title": "Go-Live & Support",
+        "desc": "We go live, train your team, and provide 30-90 days of free maintenance and support."
+      }
+    },
+    "whyus": {
+      "title1": "Why",
+      "title2": "Ozturksoft?",
+      "c1": {
+        "title": "Ankara-Based",
+        "desc": "We offer face-to-face meetings, on-site support, and a deep understanding of Ankara businesses' needs."
+      },
+      "c2": {
+        "title": "GDPR / KVKK Compliant",
+        "desc": "All our AI systems are designed to KVKK standards. With on-premise option, your data never leaves your infrastructure."
+      },
+      "c3": {
+        "title": "Post-Project Support",
+        "desc": "We don't leave you alone after delivery. 30-90 days of free maintenance and a 4-hour response guarantee."
+      }
+    },
+    "cta": {
+      "title": "Let's Talk About Your",
+      "titleBlue": "AI Project",
+      "desc": "Request a free discovery session for an AI solution that will transform your business in Ankara.",
+      "btn1": "Get Free Consultation",
+      "btn2": "All Our Services"
+    }
   },
   "blog": {
     "hero": {
@@ -307,6 +650,18 @@
       "mobileCard": {
         "title": "Mobile App Development: iOS and Android Guide [2026]",
         "desc": "Native, Flutter or React Native? How to choose the right technology for your project budget and target audience."
+      },
+      "chatbotCard": {
+        "title": "Building a Chatbot in Ankara: Cost, Tech & Key Considerations [2026]",
+        "desc": "GPT-based chatbot costs, WhatsApp integration and KVKK compliance. Everything you need to know before building a chatbot in Ankara."
+      },
+      "llmCard": {
+        "title": "LLM & GPT Integration: How to Add AI to Your Business [2026]",
+        "desc": "Integrate GPT-4o, Claude and open-source models into your existing software. RAG architecture, fine-tuning and cost analysis."
+      },
+      "otomasyonCard": {
+        "title": "Process Automation in Ankara: Boost Efficiency with RPA + AI [2026]",
+        "desc": "Automate your invoice, document and data entry processes. Real ROI examples and an automation cost guide for Ankara."
       }
     },
     "posts": {
@@ -340,7 +695,9 @@
       "read8": "8 min read",
       "read10": "10 min read",
       "read7": "7 min read",
-      "read9": "9 min read"
+      "read9": "9 min read",
+      "date2": "June 14, 2026",
+      "read11": "11 min read"
     },
     "footer": {
       "copyright": "© 2026 Ozturksoft — Ankara, Turkey. All rights reserved."
@@ -365,6 +722,21 @@
         "title": "Let's bring your mobile app project to life together",
         "desc": "We develop high-performance mobile apps with Flutter and React Native.",
         "btn": "Tell Us Your Project"
+      },
+      "chatbot": {
+        "title": "Let's Discuss Your Chatbot Project in Ankara",
+        "desc": "Request a free discovery meeting to determine the most suitable chatbot architecture for your business.",
+        "btn": "Get a Free Quote"
+      },
+      "llm": {
+        "title": "Bring AI to Your Business",
+        "desc": "Get expert consulting for your LLM or GPT integration project. We'll prepare a custom roadmap for your business needs.",
+        "btn": "Free Consultation"
+      },
+      "otomasyon": {
+        "title": "Which of Your Processes Is Ready for Automation?",
+        "desc": "Our Ankara-based expert team analyzes your business processes and creates an automation roadmap for the highest ROI. First analysis is free.",
+        "btn": "Free Process Analysis"
       }
     }
   }

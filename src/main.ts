@@ -1,17 +1,48 @@
 import i18next from 'i18next';
 import trTranslation from './i18n/tr.json';
 import enTranslation from './i18n/en.json';
+import deTranslation from './i18n/de.json';
+import arTranslation from './i18n/ar.json';
+import ruTranslation from './i18n/ru.json';
+import frTranslation from './i18n/fr.json';
+
+const LANG_KEY = 'ozturksoft_lang';
+
+const LANG_META: Record<string, { flag: string; code: string; dir?: string }> = {
+    tr: { flag: '🇹🇷', code: 'TR' },
+    en: { flag: '🇬🇧', code: 'EN' },
+    de: { flag: '🇩🇪', code: 'DE' },
+    ar: { flag: '🇸🇦', code: 'AR', dir: 'rtl' },
+    ru: { flag: '🇷🇺', code: 'RU' },
+    fr: { flag: '🇫🇷', code: 'FR' },
+};
+
+function getSavedLang(): string {
+    return localStorage.getItem(LANG_KEY) || 'tr';
+}
+
+function saveLang(lang: string) {
+    localStorage.setItem(LANG_KEY, lang);
+}
 
 // --- İ18N (ÇEVİRİ) SİSTEMİ KURULUMU ---
+const savedLang = getSavedLang();
+
 i18next.init({
-    lng: 'tr',
+    lng: savedLang,
     fallbackLng: 'tr',
     resources: {
         tr: { translation: trTranslation },
-        en: { translation: enTranslation }
+        en: { translation: enTranslation },
+        de: { translation: deTranslation },
+        ar: { translation: arTranslation },
+        ru: { translation: ruTranslation },
+        fr: { translation: frTranslation },
     }
 }).then(() => {
     updateContent();
+    updateDropdownUI(savedLang);
+    applyDocumentDir(savedLang);
 });
 
 // Çeviriyi Ekrana Uygulayan Fonksiyon
@@ -24,27 +55,60 @@ function updateContent() {
     });
 }
 
-// Dil Değiştirme Buton Kontrolleri
-const btnEN = document.getElementById("lang-en");
-const btnTR = document.getElementById("lang-tr");
+// Dropdown butonunu aktif dile göre güncelle
+function updateDropdownUI(lang: string) {
+    const meta = LANG_META[lang] || LANG_META['tr'];
+    const langLabel = document.getElementById('langLabel');
+    const langCodeEl = document.getElementById('langCode');
 
-if (btnEN && btnTR) {
-    btnEN.addEventListener("click", async (e) => {
-        e.preventDefault();
-        await i18next.changeLanguage('en');
-        updateContent();
-        btnEN.style.display = "none";
-        btnTR.style.display = "flex";
-    });
+    if (langLabel) langLabel.textContent = meta.flag;
+    if (langCodeEl) langCodeEl.textContent = meta.code;
 
-    btnTR.addEventListener("click", async (e) => {
-        e.preventDefault();
-        await i18next.changeLanguage('tr');
-        updateContent();
-        btnTR.style.display = "none";
-        btnEN.style.display = "flex";
+    // Aktif dil linkini işaretle
+    document.querySelectorAll('#langDropMenu a').forEach(a => {
+        a.classList.remove('ldm-active');
+        const anchor = a as HTMLAnchorElement;
+        const hrefLang = anchor.getAttribute('data-lang');
+        if (hrefLang === lang) anchor.classList.add('ldm-active');
     });
 }
+
+// Arapça için RTL yönü uygula
+function applyDocumentDir(lang: string) {
+    if (lang === 'ar') {
+        document.documentElement.setAttribute('dir', 'rtl');
+    } else {
+        document.documentElement.removeAttribute('dir');
+    }
+}
+
+// Dil değiştirme işlemi
+async function changeLanguage(lang: string) {
+    await i18next.changeLanguage(lang);
+    saveLang(lang);
+    updateContent();
+    updateDropdownUI(lang);
+    applyDocumentDir(lang);
+}
+
+// Dropdown dil linklerine tıklamayı dinle
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('#langDropMenu a[data-lang]').forEach(a => {
+        a.addEventListener('click', async (e) => {
+            const lang = (a as HTMLElement).getAttribute('data-lang');
+            if (lang && lang !== i18next.language) {
+                e.preventDefault();
+                await changeLanguage(lang);
+                // Dropdown kapat
+                const menu = document.getElementById('langDropMenu');
+                const btn = document.getElementById('langDropBtn');
+                if (menu) menu.classList.remove('open');
+                if (btn) btn.classList.remove('open');
+            }
+        });
+    });
+});
+
 // --- ÇEVİRİ SİSTEMİ BİTİŞİ ---
 
 // Sayfa yüklendikten sonra çalışacak ortak fonksiyonlar

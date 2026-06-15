@@ -15,6 +15,13 @@
     <meta name="ICBM" content="39.9334, 32.8597" />
 
     <link rel="canonical" href="https://ozturksoft.net/hizmetler" />
+    <link rel="alternate" hreflang="tr" href="https://ozturksoft.net/hizmetler" />
+    <link rel="alternate" hreflang="en" href="https://ozturksoft.net/en" />
+    <link rel="alternate" hreflang="de" href="https://ozturksoft.net/de" />
+    <link rel="alternate" hreflang="ar" href="https://ozturksoft.net/ar" />
+    <link rel="alternate" hreflang="ru" href="https://ozturksoft.net/ru" />
+    <link rel="alternate" hreflang="fr" href="https://ozturksoft.net/fr" />
+    <link rel="alternate" hreflang="x-default" href="https://ozturksoft.net/hizmetler" />
 
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon-32x32.png" sizes="32x32">
@@ -29,6 +36,7 @@
     <meta property="og:image" content="https://ozturksoft.net/og-image.png">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="tr_TR">
+    <meta property="og:locale:alternate" content="en_US">
     <meta property="og:site_name" content="Ozturksoft">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@ozturksoft_">
@@ -339,6 +347,24 @@
       .btn-primary{background:var(--primary);color:#fff;box-shadow:0 4px 15px rgba(59,130,246,.4)}
       @media(max-width:768px){nav{height:70px!important;padding:0 5%!important}.logo-img{height:70px!important}.menu-toggle{display:block!important;color:#fff;font-size:1.5rem;z-index:3000}.nav-links{position:fixed!important;top:0;right:0;width:280px;height:100vh;background:#0f172a;display:flex!important;flex-direction:column!important;padding:100px 30px!important;z-index:2500;transform:translateX(100%);transition:transform .4s ease-in-out;box-shadow:-10px 0 30px rgba(0,0,0,.5)}.nav-links.active{transform:translateX(0%)!important}.btn{width:100%}}
       @media(min-width:769px){.menu-toggle{display:none!important}}
+    #langDropMenu.open { display: block !important; }
+            #langDropMenu.open { display: block !important; }
+        .lang-drop-wrap{position:relative}
+        .lang-drop-btn{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);color:#fff;padding:9px 16px;border-radius:50px;cursor:pointer;font-size:.85rem;font-weight:600;display:flex;align-items:center;gap:8px;transition:all .25s ease;white-space:nowrap;letter-spacing:.01em}
+        .lang-drop-btn:hover{background:rgba(59,130,246,.18);border-color:rgba(59,130,246,.5);box-shadow:0 0 0 3px rgba(59,130,246,.12)}
+        .lang-drop-btn .chev{transition:transform .25s ease;font-size:.6rem;opacity:.7}
+        .lang-drop-btn.open .chev{transform:rotate(180deg)}
+        #langDropMenu{position:absolute;top:calc(100% + 12px);right:0;background:rgba(10,16,32,.97);border:1px solid rgba(255,255,255,.1);border-radius:16px;overflow:hidden;min-width:185px;box-shadow:0 24px 60px rgba(0,0,0,.7),0 0 0 1px rgba(59,130,246,.08);display:none;z-index:2000;backdrop-filter:blur(20px)}
+        #langDropMenu.open{display:block;animation:langFadeIn .2s ease}
+        @keyframes langFadeIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
+        .ldm-header{padding:10px 16px 8px;font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,.3);font-weight:600;border-bottom:1px solid rgba(255,255,255,.06)}
+        #langDropMenu a{display:flex;align-items:center;gap:11px;padding:11px 16px;color:rgba(255,255,255,.65);text-decoration:none;font-size:.875rem;font-weight:500;transition:all .15s ease;border-bottom:1px solid rgba(255,255,255,.04);position:relative}
+        #langDropMenu a:last-child{border-bottom:none}
+        #langDropMenu a:hover{background:rgba(59,130,246,.14);color:#fff;padding-left:20px}
+        #langDropMenu a.ldm-active{color:#fff;font-weight:700;background:rgba(59,130,246,.16)}
+        #langDropMenu a.ldm-active::after{content:'✓';position:absolute;right:14px;color:var(--primary);font-size:.85rem}
+        .ldm-flag{font-size:1.1rem;line-height:1}
+        .ldm-name{flex:1}
     </style>
     
     <style>
@@ -418,17 +444,28 @@
             <li><a href="/" data-i18n="nav.home">Ana Sayfa</a></li>
             <li><a href="/hakkimizda" data-i18n="nav.about">Hakkımızda</a></li>
             <li><a href="/hizmetler" data-i18n="nav.services">Hizmetler</a></li>
+            <li><a href="/ankara-yapay-zeka-cozumleri" data-i18n="nav.ai">Yapay Zeka</a></li>
             <li><a href="/blog">Blog</a></li>
             <li><a href="/iletisim" data-i18n="nav.contact">İletişim</a></li>
         </ul>
 
         <div style="display: flex; align-items: center; gap: 15px;">
-            <a href="#" id="lang-en" style="text-decoration: none; color: #fff; font-weight: 600; display: flex; align-items: center; gap: 5px;">
-                <i class="fas fa-globe"></i> EN
-            </a>
-            <a href="#" id="lang-tr" style="text-decoration: none; color: #fff; font-weight: 600; display: none; align-items: center; gap: 5px;">
-                <i class="fas fa-globe"></i> TR
-            </a>
+            <div class="lang-drop-wrap" id="langDropdown">
+              <button class="lang-drop-btn" id="langDropBtn" aria-label="Select language">
+                <span id="langLabel">🇹🇷</span>
+                <span id="langCode">TR</span>
+                <i class="fas fa-chevron-down chev"></i>
+              </button>
+              <div id="langDropMenu">
+                <div class="ldm-header">Dil / Language</div>
+                <a href="#" data-lang="tr" id="lang-tr" class="ldm-active"><span class="ldm-flag">🇹🇷</span><span class="ldm-name">Türkçe</span></a>
+                <a href="#" data-lang="en" id="lang-en"><span class="ldm-flag">🇬🇧</span><span class="ldm-name">English</span></a>
+                <a href="#" data-lang="de"><span class="ldm-flag">🇩🇪</span><span class="ldm-name">Deutsch</span></a>
+                <a href="#" data-lang="ar"><span class="ldm-flag">🇸🇦</span><span class="ldm-name">العربية</span></a>
+                <a href="#" data-lang="ru"><span class="ldm-flag">🇷🇺</span><span class="ldm-name">Русский</span></a>
+                <a href="#" data-lang="fr"><span class="ldm-flag">🇫🇷</span><span class="ldm-name">Français</span></a>
+              </div>
+            </div>
 
             <a href="/iletisim" class="btn btn-primary" data-i18n="nav.quoteBtn" style="padding: 10px 20px; font-size: 0.85rem;">Teklif Al</a>
             <div class="menu-toggle" id="menuToggle">
@@ -915,6 +952,16 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            // Language dropdown toggle
+            const langDropBtn = document.getElementById('langDropBtn');
+            const langDropMenu = document.getElementById('langDropMenu');
+            if (langDropBtn && langDropMenu) {
+                langDropBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    langDropMenu.classList.toggle('open');
+                    langDropBtn.classList.toggle('open');
+                });
+            }
             const menuToggle = document.getElementById('menuToggle');
             const navLinks = document.getElementById('navLinks');
             const menuIcon = document.getElementById('menuIcon');
@@ -959,7 +1006,7 @@
 
     <a href="https://wa.me/905465496806" class="corp-wa-btn" target="_blank" aria-label="WhatsApp İletişim">
     <i class="fab fa-whatsapp"></i>
-    <span class="wa-text">Canlı Destek</span>
+    <span class="wa-text" data-i18n="nav.whatsapp">Canlı Destek</span>
 </a>
 
 </body>

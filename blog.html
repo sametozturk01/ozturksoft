@@ -7,6 +7,11 @@
 
   <link rel="canonical" href="https://ozturksoft.net/blog" />
   <link rel="alternate" hreflang="tr" href="https://ozturksoft.net/blog" />
+  <link rel="alternate" hreflang="en" href="https://ozturksoft.net/en" />
+  <link rel="alternate" hreflang="de" href="https://ozturksoft.net/de" />
+  <link rel="alternate" hreflang="ar" href="https://ozturksoft.net/ar" />
+  <link rel="alternate" hreflang="ru" href="https://ozturksoft.net/ru" />
+  <link rel="alternate" hreflang="fr" href="https://ozturksoft.net/fr" />
   <link rel="alternate" hreflang="x-default" href="https://ozturksoft.net/blog" />
   <meta name="description" content="Ozturksoft blogu: Ankara yazılım şirketi olarak web sitesi maliyeti, yapay zeka entegrasyonu, QA test ve mobil uygulama geliştirme üzerine uzman rehberleri.">
   <meta name="keywords" content="yazılım blogu, AI rehberi, web sitesi maliyeti Ankara, QA test nedir, mobil uygulama geliştirme, yapay zeka entegrasyonu, teknoloji blog Türkiye">
@@ -108,7 +113,25 @@
     footer{background:#020617;border-top:1px solid rgba(255,255,255,.07);padding:60px 8% 40px;text-align:center;color:#64748b;font-size:.875rem;display:flex;flex-direction:column;align-items:center;gap:10px}
     footer a{color:var(--primary);text-decoration:none}
     @media(max-width:768px){.blog-hero h1{font-size:2rem}.blog-grid{padding:40px 5%;grid-template-columns:1fr}}
-  </style>
+    #langDropMenu.open { display: block !important; }
+          #langDropMenu.open { display: block !important; }
+        .lang-drop-wrap{position:relative}
+        .lang-drop-btn{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);color:#fff;padding:9px 16px;border-radius:50px;cursor:pointer;font-size:.85rem;font-weight:600;display:flex;align-items:center;gap:8px;transition:all .25s ease;white-space:nowrap;letter-spacing:.01em}
+        .lang-drop-btn:hover{background:rgba(59,130,246,.18);border-color:rgba(59,130,246,.5);box-shadow:0 0 0 3px rgba(59,130,246,.12)}
+        .lang-drop-btn .chev{transition:transform .25s ease;font-size:.6rem;opacity:.7}
+        .lang-drop-btn.open .chev{transform:rotate(180deg)}
+        #langDropMenu{position:absolute;top:calc(100% + 12px);right:0;background:rgba(10,16,32,.97);border:1px solid rgba(255,255,255,.1);border-radius:16px;overflow:hidden;min-width:185px;box-shadow:0 24px 60px rgba(0,0,0,.7),0 0 0 1px rgba(59,130,246,.08);display:none;z-index:2000;backdrop-filter:blur(20px)}
+        #langDropMenu.open{display:block;animation:langFadeIn .2s ease}
+        @keyframes langFadeIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
+        .ldm-header{padding:10px 16px 8px;font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,.3);font-weight:600;border-bottom:1px solid rgba(255,255,255,.06)}
+        #langDropMenu a{display:flex;align-items:center;gap:11px;padding:11px 16px;color:rgba(255,255,255,.65);text-decoration:none;font-size:.875rem;font-weight:500;transition:all .15s ease;border-bottom:1px solid rgba(255,255,255,.04);position:relative}
+        #langDropMenu a:last-child{border-bottom:none}
+        #langDropMenu a:hover{background:rgba(59,130,246,.14);color:#fff;padding-left:20px}
+        #langDropMenu a.ldm-active{color:#fff;font-weight:700;background:rgba(59,130,246,.16)}
+        #langDropMenu a.ldm-active::after{content:'✓';position:absolute;right:14px;color:var(--primary);font-size:.85rem}
+        .ldm-flag{font-size:1.1rem;line-height:1}
+        .ldm-name{flex:1}
+    </style>
 </head>
 <body>
 
@@ -120,12 +143,27 @@
     <li><a href="/" data-i18n="nav.home">Ana Sayfa</a></li>
     <li><a href="/hakkimizda" data-i18n="nav.about">Hakkımızda</a></li>
     <li><a href="/hizmetler" data-i18n="nav.services">Hizmetler</a></li>
+    <li><a href="/ankara-yapay-zeka-cozumleri" data-i18n="nav.ai">Yapay Zeka</a></li>
     <li><a href="/blog" style="color:var(--primary)" data-i18n="nav.blog">Blog</a></li>
     <li><a href="/iletisim" data-i18n="nav.contact">İletişim</a></li>
   </ul>
   <div style="display:flex;align-items:center;gap:15px">
-    <a href="#" id="lang-en" style="text-decoration:none;color:#fff;font-weight:600;display:flex;align-items:center;gap:5px"><i class="fas fa-globe"></i> EN</a>
-    <a href="#" id="lang-tr" style="text-decoration:none;color:#fff;font-weight:600;display:none;align-items:center;gap:5px"><i class="fas fa-globe"></i> TR</a>
+    <div class="lang-drop-wrap" id="langDropdown">
+      <button class="lang-drop-btn" id="langDropBtn" aria-label="Select language">
+                <span id="langLabel">🇹🇷</span>
+                <span id="langCode">TR</span>
+        <i class="fas fa-chevron-down chev"></i>
+      </button>
+      <div id="langDropMenu">
+        <div class="ldm-header">Dil / Language</div>
+        <a href="#" data-lang="tr" id="lang-tr" class="ldm-active"><span class="ldm-flag">🇹🇷</span><span class="ldm-name">Türkçe</span></a>
+        <a href="#" data-lang="en" id="lang-en"><span class="ldm-flag">🇬🇧</span><span class="ldm-name">English</span></a>
+        <a href="#" data-lang="de"><span class="ldm-flag">🇩🇪</span><span class="ldm-name">Deutsch</span></a>
+        <a href="#" data-lang="ar"><span class="ldm-flag">🇸🇦</span><span class="ldm-name">العربية</span></a>
+        <a href="#" data-lang="ru"><span class="ldm-flag">🇷🇺</span><span class="ldm-name">Русский</span></a>
+        <a href="#" data-lang="fr"><span class="ldm-flag">🇫🇷</span><span class="ldm-name">Français</span></a>
+      </div>
+    </div>
     <a href="/iletisim" class="btn btn-primary" style="padding:10px 20px;font-size:.85rem" data-i18n="nav.quoteBtn">Teklif Al</a>
     <div class="menu-toggle" id="menuToggle">
       <i class="fas fa-bars" id="menuIcon" style="color:white"></i>
@@ -201,11 +239,72 @@
     </div>
   </a>
 
+
+  <a href="/blog/ankara-chatbot-gelistirme-2026" class="blog-card">
+    <div class="blog-card-img">
+      <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=640&h=210&q=80&auto=format&fit=crop" alt="Ankara'da Chatbot Yaptırmak Maliyet Rehberi 2026" loading="lazy">
+    </div>
+    <div class="blog-card-body">
+      <span class="blog-tag" data-i18n="blog.tags.ai">Yapay Zeka</span>
+      <h2 data-i18n="blog.cards.chatbotCard.title">Ankara'da Chatbot Yaptırmak: Maliyet, Teknik ve Dikkat Edilmesi Gerekenler [2026]</h2>
+      <p data-i18n="blog.cards.chatbotCard.desc">GPT tabanlı chatbot maliyeti, WhatsApp entegrasyonu ve KVKK uyumu. Ankara'da chatbot yaptırmadan önce bilmeniz her şey.</p>
+      <div class="blog-meta">
+        <span><i class="fas fa-calendar-alt"></i> <span data-i18n="blog.meta.date2">14 Haziran 2026</span></span>
+        <span><i class="fas fa-clock"></i> <span data-i18n="blog.meta.read9">9 dk okuma</span></span>
+      </div>
+    </div>
+  </a>
+
+  <a href="/blog/llm-gpt-entegrasyonu-rehberi" class="blog-card">
+    <div class="blog-card-img">
+      <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=640&h=210&q=80&auto=format&fit=crop" alt="LLM GPT Entegrasyonu İşletme Rehberi 2026" loading="lazy">
+    </div>
+    <div class="blog-card-body">
+      <span class="blog-tag" data-i18n="blog.tags.ai">Yapay Zeka</span>
+      <h2 data-i18n="blog.cards.llmCard.title">LLM ve GPT Entegrasyonu: İşletmenize Yapay Zeka Nasıl Eklenir? [2026]</h2>
+      <p data-i18n="blog.cards.llmCard.desc">GPT-4o, Claude ve açık kaynaklı modelleri mevcut yazılımınıza entegre edin. RAG mimarisi, fine-tuning ve maliyet analizi.</p>
+      <div class="blog-meta">
+        <span><i class="fas fa-calendar-alt"></i> <span data-i18n="blog.meta.date2">14 Haziran 2026</span></span>
+        <span><i class="fas fa-clock"></i> <span data-i18n="blog.meta.read11">11 dk okuma</span></span>
+      </div>
+    </div>
+  </a>
+
+  <a href="/blog/ankara-surec-otomasyonu-rpa-yapay-zeka" class="blog-card">
+    <div class="blog-card-img">
+      <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=640&h=210&q=80&auto=format&fit=crop" alt="Ankara Süreç Otomasyonu RPA Yapay Zeka 2026" loading="lazy">
+    </div>
+    <div class="blog-card-body">
+      <span class="blog-tag" data-i18n="blog.tags.ai">Yapay Zeka</span>
+      <h2 data-i18n="blog.cards.otomasyonCard.title">Ankara'da Süreç Otomasyonu: RPA + Yapay Zeka ile Verimliliği Artırın [2026]</h2>
+      <p data-i18n="blog.cards.otomasyonCard.desc">Fatura, belge ve veri girişi süreçlerinizi otomatikleştirin. Somut ROI örnekleri ve Ankara'da otomasyon maliyet rehberi.</p>
+      <div class="blog-meta">
+        <span><i class="fas fa-calendar-alt"></i> <span data-i18n="blog.meta.date2">14 Haziran 2026</span></span>
+        <span><i class="fas fa-clock"></i> <span data-i18n="blog.meta.read10">10 dk okuma</span></span>
+      </div>
+    </div>
+  </a>
+
 </main>
 
 <footer>
-  <p data-i18n="blog.footer.copyright">© 2026 <a href="/">Ozturksoft</a> — Ankara, Türkiye. Tüm hakları saklıdır.</p>
+  <p data-i18n="blog.footer.copyright">© 2026 <a href="/index.html">Ozturksoft</a> — Ankara, Türkiye. Tüm hakları saklıdır.</p>
   <p style="margin-top:10px"><a href="/iletisim" data-i18n="nav.contact">İletişim</a> · <a href="/hizmetler" data-i18n="nav.services">Hizmetler</a> · <a href="/blog" data-i18n="nav.blog">Blog</a></p>
 </footer>
+<script>
+  document.addEventListener('click', function(e) {
+    const menu = document.getElementById('langDropMenu');
+    const dropdown = document.getElementById('langDropdown');
+    if (menu && dropdown && !dropdown.contains(e.target)) {
+      menu.classList.remove('open');
+    }
+  });
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var b=document.getElementById('langDropBtn'), m=document.getElementById('langDropMenu');
+    if(b&&m){b.addEventListener('click',function(e){e.stopPropagation();m.classList.toggle('open');b.classList.toggle('open');});}
+  });
+</script>
 </body>
 </html>

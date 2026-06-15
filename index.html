@@ -6,6 +6,13 @@
     <title>Ozturksoft | Ankara Yazılım Şirketi | Yazılım & AI Çözümleri</title>
     
     <link rel="canonical" href="https://ozturksoft.net/" />
+    <link rel="alternate" hreflang="tr" href="https://ozturksoft.net/" />
+    <link rel="alternate" hreflang="en" href="https://ozturksoft.net/en" />
+    <link rel="alternate" hreflang="de" href="https://ozturksoft.net/de" />
+    <link rel="alternate" hreflang="ar" href="https://ozturksoft.net/ar" />
+    <link rel="alternate" hreflang="ru" href="https://ozturksoft.net/ru" />
+    <link rel="alternate" hreflang="fr" href="https://ozturksoft.net/fr" />
+    <link rel="alternate" hreflang="x-default" href="https://ozturksoft.net/" />
     <meta name="description" content="Ozturksoft; Ankara web tasarım, SEO Hizmetleri, AI Çözümleri, mobil uygulama, yapay zekâ ve özel yazılım çözümleri sunar. İşinizi büyüten modern dijital sistemler geliştiriyoruz.">
     <meta name="keywords" content="yazılım şirketi Ankara, yazılım şirketi İstanbul, yazılım şirketi İzmir, yazılım şirketi Bursa, yazılım şirketi Antalya, yazılım şirketi Adana, yazılım şirketi Gaziantep, yazılım şirketi Konya, yazılım şirketi Mersin, yazılım şirketi Kayseri, yazılım şirketi Eskişehir, yazılım şirketi Trabzon, yazılım şirketi Samsun, yazılım şirketi Denizli, yazılım şirketi Diyarbakır, yapay zeka çözümleri Türkiye, özel yazılım geliştirme, AI yazılım şirketi, web tasarım Türkiye">
     <meta name="robots" content="index, follow">
@@ -28,6 +35,7 @@
     <meta property="og:image" content="https://ozturksoft.net/og-image.png">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="tr_TR">
+    <meta property="og:locale:alternate" content="en_US">
     <meta property="og:site_name" content="Ozturksoft">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@ozturksoft_">
@@ -175,7 +183,14 @@
         {"@type": "AdministrativeArea", "name": "Karabük"},
         {"@type": "AdministrativeArea", "name": "Kilis"},
         {"@type": "AdministrativeArea", "name": "Osmaniye"},
-        {"@type": "AdministrativeArea", "name": "Düzce"}
+        {"@type": "AdministrativeArea", "name": "Düzce"},
+        {"@type": "Country", "name": "Germany"},
+        {"@type": "Country", "name": "Netherlands"},
+        {"@type": "Country", "name": "United Kingdom"},
+        {"@type": "Country", "name": "United States"},
+        {"@type": "Country", "name": "United Arab Emirates"},
+        {"@type": "Country", "name": "Azerbaijan"},
+        {"@type": "Country", "name": "Kazakhstan"}
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -418,6 +433,22 @@
         @font-face { font-family: 'Font Awesome 6 Free';   font-display: swap; src: local(''); }
         @font-face { font-family: 'Font Awesome 6 Brands'; font-display: swap; src: local(''); }
         @font-face { font-family: 'Font Awesome 6 Pro';    font-display: swap; src: local(''); }
+        #langDropMenu.open { display: block !important; }
+        .lang-drop-wrap{position:relative}
+        .lang-drop-btn{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);color:#fff;padding:9px 16px;border-radius:50px;cursor:pointer;font-size:.85rem;font-weight:600;display:flex;align-items:center;gap:8px;transition:all .25s ease;white-space:nowrap;letter-spacing:.01em}
+        .lang-drop-btn:hover{background:rgba(59,130,246,.18);border-color:rgba(59,130,246,.5);box-shadow:0 0 0 3px rgba(59,130,246,.12)}
+        .lang-drop-btn .chev{transition:transform .25s ease;font-size:.6rem;opacity:.7}
+        #langDropMenu{position:absolute;top:calc(100% + 12px);right:0;background:rgba(10,16,32,.97);border:1px solid rgba(255,255,255,.1);border-radius:16px;overflow:hidden;min-width:185px;box-shadow:0 24px 60px rgba(0,0,0,.7),0 0 0 1px rgba(59,130,246,.08);display:none;z-index:2000;backdrop-filter:blur(20px)}
+        #langDropMenu.open{display:block;animation:langFadeIn .2s ease}
+        @keyframes langFadeIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
+        .ldm-header{padding:10px 16px 8px;font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,.3);font-weight:600;border-bottom:1px solid rgba(255,255,255,.06)}
+        #langDropMenu a{display:flex;align-items:center;gap:11px;padding:11px 16px;color:rgba(255,255,255,.65);text-decoration:none;font-size:.875rem;font-weight:500;transition:all .15s ease;border-bottom:1px solid rgba(255,255,255,.04);position:relative}
+        #langDropMenu a:last-child{border-bottom:none}
+        #langDropMenu a:hover{background:rgba(59,130,246,.14);color:#fff;padding-left:20px}
+        #langDropMenu a.ldm-active{color:#fff;font-weight:700;background:rgba(59,130,246,.16)}
+        #langDropMenu a.ldm-active::after{content:'✓';position:absolute;right:14px;color:var(--primary);font-size:.85rem}
+        .ldm-flag{font-size:1.1rem;line-height:1}
+        .ldm-name{flex:1}
     </style>
 </head>
 <body>
@@ -431,17 +462,28 @@
             <li><a href="/" data-i18n="nav.home">Ana Sayfa</a></li>
             <li><a href="/hakkimizda" data-i18n="nav.about">Hakkımızda</a></li>
             <li><a href="/hizmetler" data-i18n="nav.services">Hizmetler</a></li>
+            <li><a href="/ankara-yapay-zeka-cozumleri" data-i18n="nav.ai">Yapay Zeka</a></li>
             <li><a href="/blog">Blog</a></li>
             <li><a href="/iletisim" data-i18n="nav.contact">İletişim</a></li>
         </ul>
 
         <div style="display: flex; align-items: center; gap: 15px;">
-            <a href="#" id="lang-en" style="text-decoration: none; color: #fff; font-weight: 600; display: flex; align-items: center; gap: 5px;">
-                <i class="fas fa-globe"></i> EN
-            </a>
-            <a href="#" id="lang-tr" style="text-decoration: none; color: #fff; font-weight: 600; display: none; align-items: center; gap: 5px;">
-                <i class="fas fa-globe"></i> TR
-            </a>
+            <div class="lang-drop-wrap" id="langDropdown">
+              <button class="lang-drop-btn" id="langDropBtn" aria-label="Select language">
+                <span id="langLabel">🇹🇷</span>
+                <span id="langCode">TR</span>
+                <i class="fas fa-chevron-down chev"></i>
+              </button>
+              <div id="langDropMenu">
+                <div class="ldm-header">Dil / Language</div>
+                <a href="#" data-lang="tr" id="lang-tr" class="ldm-active"><span class="ldm-flag">🇹🇷</span><span class="ldm-name">Türkçe</span></a>
+                <a href="#" data-lang="en" id="lang-en"><span class="ldm-flag">🇬🇧</span><span class="ldm-name">English</span></a>
+                <a href="#" data-lang="de"><span class="ldm-flag">🇩🇪</span><span class="ldm-name">Deutsch</span></a>
+                <a href="#" data-lang="ar"><span class="ldm-flag">🇸🇦</span><span class="ldm-name">العربية</span></a>
+                <a href="#" data-lang="ru"><span class="ldm-flag">🇷🇺</span><span class="ldm-name">Русский</span></a>
+                <a href="#" data-lang="fr"><span class="ldm-flag">🇫🇷</span><span class="ldm-name">Français</span></a>
+              </div>
+            </div>
 
             <a href="/iletisim" class="btn btn-primary" data-i18n="nav.quoteBtn" style="padding: 10px 20px; font-size: 0.85rem;">Teklif Al</a>
             <div class="menu-toggle" id="menuToggle">
@@ -471,8 +513,8 @@
             </div>
             
             <div class="hero-content">
-                <h1 data-i18n="hero.title">Yazılım Dünyasının Öncü Geliştirme ve Test Çözümleri</h1>
-                <p class="hero-subtitle" data-i18n="hero.subtitle">Ozturksoft olarak, karmaşık iş problemlerinizi modern teknoloji yığınları ve kusursuz QA süreçleriyle çözüyoruz.</p>
+                <h1 data-i18n="hero.title">Ankara'nın Yapay Zeka & Yazılım Geliştirme Firması</h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">Ozturksoft olarak, Ankara merkezli yapay zeka entegrasyonu, özel yazılım geliştirme ve dijital dönüşüm çözümleriyle işinizi geleceğe taşıyoruz.</p>
                 <div class="hero-buttons">
                     <a href="/hizmetler" class="btn btn-primary" data-i18n="hero.btnExplore">Çözümlerimizi İnceleyin</a>
                     <a href="/iletisim" class="btn btn-outline" data-i18n="hero.btnMeet">Bizimle Tanışın</a>
@@ -737,6 +779,17 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            // Language dropdown toggle
+            const langDropBtn = document.getElementById('langDropBtn');
+            const langDropMenu = document.getElementById('langDropMenu');
+            if (langDropBtn && langDropMenu) {
+                langDropBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    langDropMenu.classList.toggle('open');
+                    langDropBtn.classList.toggle('open');
+                });
+            }
+
             const menuToggle = document.getElementById('menuToggle');
             const navLinks = document.getElementById('navLinks');
             const menuIcon = document.getElementById('menuIcon');
@@ -758,6 +811,12 @@
                             menuIcon.classList.add('fa-bars');
                             menuIcon.classList.remove('fa-times');
                         }
+                    }
+                    const dropMenu = document.getElementById('langDropMenu');
+                    const dropBtn = document.getElementById('langDropBtn');
+                    if (dropMenu && !document.getElementById('langDropdown').contains(e.target)) {
+                        dropMenu.classList.remove('open');
+                        if (dropBtn) dropBtn.classList.remove('open');
                     }
                 });
             }
@@ -781,7 +840,7 @@
 
     <a href="https://wa.me/905465496806" class="corp-wa-btn" target="_blank" aria-label="WhatsApp İletişim">
     <i class="fab fa-whatsapp"></i>
-    <span class="wa-text">Canlı Destek</span>
+    <span class="wa-text" data-i18n="nav.whatsapp">Canlı Destek</span>
 </a>
 </body>
 </html>

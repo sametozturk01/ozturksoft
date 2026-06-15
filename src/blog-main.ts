@@ -1,46 +1,105 @@
 import i18next from 'i18next';
 import trTranslation from './i18n/tr.json';
 import enTranslation from './i18n/en.json';
-import webEn from './i18n/articles/web-en.html?raw';
-import aiEn from './i18n/articles/ai-en.html?raw';
-import qaEn from './i18n/articles/qa-en.html?raw';
-import mobileEn from './i18n/articles/mobile-en.html?raw';
+import deTranslation from './i18n/de.json';
+import arTranslation from './i18n/ar.json';
+import ruTranslation from './i18n/ru.json';
+import frTranslation from './i18n/fr.json';
 
-const ARTICLE_BODIES_EN: Record<string, string> = {
-    web: webEn,
-    ai: aiEn,
-    qa: qaEn,
-    mobile: mobileEn,
+import webEn from './i18n/articles/web-en.html?raw';
+import webFr from './i18n/articles/web-fr.html?raw';
+import webDe from './i18n/articles/web-de.html?raw';
+import webAr from './i18n/articles/web-ar.html?raw';
+import webRu from './i18n/articles/web-ru.html?raw';
+
+import aiEn from './i18n/articles/ai-en.html?raw';
+import aiFr from './i18n/articles/ai-fr.html?raw';
+import aiDe from './i18n/articles/ai-de.html?raw';
+import aiAr from './i18n/articles/ai-ar.html?raw';
+import aiRu from './i18n/articles/ai-ru.html?raw';
+
+import qaEn from './i18n/articles/qa-en.html?raw';
+import qaFr from './i18n/articles/qa-fr.html?raw';
+import qaDe from './i18n/articles/qa-de.html?raw';
+import qaAr from './i18n/articles/qa-ar.html?raw';
+import qaRu from './i18n/articles/qa-ru.html?raw';
+
+import mobileEn from './i18n/articles/mobile-en.html?raw';
+import mobileFr from './i18n/articles/mobile-fr.html?raw';
+import mobileDe from './i18n/articles/mobile-de.html?raw';
+import mobileAr from './i18n/articles/mobile-ar.html?raw';
+import mobileRu from './i18n/articles/mobile-ru.html?raw';
+
+import chatbotEn from './i18n/articles/chatbot-en.html?raw';
+import chatbotAr from './i18n/articles/chatbot-ar.html?raw';
+import llmEn from './i18n/articles/llm-en.html?raw';
+import llmAr from './i18n/articles/llm-ar.html?raw';
+import otomasyonEn from './i18n/articles/otomasyon-en.html?raw';
+import otomasyonAr from './i18n/articles/otomasyon-ar.html?raw';
+
+const LANG_KEY = 'ozturksoft_lang';
+
+const LANG_META: Record<string, { flag: string; code: string }> = {
+    tr: { flag: '🇹🇷', code: 'TR' },
+    en: { flag: '🇬🇧', code: 'EN' },
+    de: { flag: '🇩🇪', code: 'DE' },
+    ar: { flag: '🇸🇦', code: 'AR' },
+    ru: { flag: '🇷🇺', code: 'RU' },
+    fr: { flag: '🇫🇷', code: 'FR' },
+};
+
+// Article bodies indexed by [lang][articleKey]
+const ARTICLE_BODIES: Record<string, Record<string, string>> = {
+    en: { web: webEn, ai: aiEn, qa: qaEn, mobile: mobileEn, chatbot: chatbotEn, llm: llmEn, otomasyon: otomasyonEn },
+    fr: { web: webFr, ai: aiFr, qa: qaFr, mobile: mobileFr },
+    de: { web: webDe, ai: aiDe, qa: qaDe, mobile: mobileDe },
+    ar: { web: webAr, ai: aiAr, qa: qaAr, mobile: mobileAr, chatbot: chatbotAr, llm: llmAr, otomasyon: otomasyonAr },
+    ru: { web: webRu, ai: aiRu, qa: qaRu, mobile: mobileRu },
 };
 
 let savedTrBody: string | null = null;
+const savedLang = localStorage.getItem(LANG_KEY) || 'tr';
 
 i18next.init({
-    lng: localStorage.getItem('ozturksoft-lang') || 'tr',
+    lng: savedLang,
     fallbackLng: 'tr',
     resources: {
         tr: { translation: trTranslation },
         en: { translation: enTranslation },
+        de: { translation: deTranslation },
+        ar: { translation: arTranslation },
+        ru: { translation: ruTranslation },
+        fr: { translation: frTranslation },
     },
 }).then(() => {
     const body = document.querySelector<HTMLElement>('.article-body');
     if (body && document.body.dataset.article) {
         savedTrBody = body.innerHTML;
     }
-    applyLanguageUI();
+    updateDropdownUI(savedLang);
     updateContent();
 });
 
 function updateArticleBody() {
     const articleKey = document.body.dataset.article;
     const body = document.querySelector<HTMLElement>('.article-body');
-    if (!articleKey || !body || !ARTICLE_BODIES_EN[articleKey]) return;
+    if (!articleKey || !body) return;
 
-    if (i18next.language === 'en') {
-        if (!savedTrBody) savedTrBody = body.innerHTML;
-        body.innerHTML = ARTICLE_BODIES_EN[articleKey];
-    } else if (savedTrBody) {
-        body.innerHTML = savedTrBody;
+    const lang = i18next.language;
+
+    if (lang === 'tr') {
+        // Restore Turkish original
+        if (savedTrBody) {
+            body.innerHTML = savedTrBody;
+        }
+    } else {
+        // Use translated body for the language, fall back to EN
+        const langBodies = ARTICLE_BODIES[lang] || ARTICLE_BODIES['en'];
+        const translatedBody = langBodies?.[articleKey] || ARTICLE_BODIES['en']?.[articleKey];
+        if (translatedBody) {
+            if (!savedTrBody) savedTrBody = body.innerHTML;
+            body.innerHTML = translatedBody;
+        }
     }
 }
 
@@ -63,45 +122,67 @@ function updateContent() {
     });
 }
 
-function applyLanguageUI() {
-    const btnEN = document.getElementById('lang-en');
-    const btnTR = document.getElementById('lang-tr');
-    if (!btnEN || !btnTR) return;
+function updateDropdownUI(lang: string) {
+    const meta = LANG_META[lang] || LANG_META['tr'];
+    const langLabel = document.getElementById('langLabel');
+    const langCodeEl = document.getElementById('langCode');
+    if (langLabel) langLabel.textContent = meta.flag;
+    if (langCodeEl) langCodeEl.textContent = meta.code;
 
-    if (i18next.language === 'en') {
-        btnEN.style.display = 'none';
-        btnTR.style.display = 'flex';
-        document.documentElement.lang = 'en';
+    document.querySelectorAll('#langDropMenu a').forEach(a => {
+        a.classList.remove('ldm-active');
+        if (a.getAttribute('data-lang') === lang) a.classList.add('ldm-active');
+    });
+
+    if (lang === 'ar') {
+        document.documentElement.setAttribute('dir', 'rtl');
     } else {
-        btnTR.style.display = 'none';
-        btnEN.style.display = 'flex';
-        document.documentElement.lang = 'tr';
+        document.documentElement.removeAttribute('dir');
     }
 }
 
-async function setLanguage(lang: 'tr' | 'en') {
+async function changeLanguage(lang: string) {
     await i18next.changeLanguage(lang);
-    localStorage.setItem('ozturksoft-lang', lang);
-    applyLanguageUI();
+    localStorage.setItem(LANG_KEY, lang);
+    updateDropdownUI(lang);
     updateContent();
 }
 
-const btnEN = document.getElementById('lang-en');
-const btnTR = document.getElementById('lang-tr');
-
-if (btnEN && btnTR) {
-    btnEN.addEventListener('click', (e) => {
-        e.preventDefault();
-        setLanguage('en');
-    });
-
-    btnTR.addEventListener('click', (e) => {
-        e.preventDefault();
-        setLanguage('tr');
-    });
-}
-
 window.addEventListener('DOMContentLoaded', () => {
+    // Dropdown buton aç/kapat
+    const langDropBtn = document.getElementById('langDropBtn');
+    const langDropMenu = document.getElementById('langDropMenu');
+    if (langDropBtn && langDropMenu) {
+        langDropBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            langDropMenu.classList.toggle('open');
+            langDropBtn.classList.toggle('open');
+        });
+        document.addEventListener('click', (e) => {
+            const wrap = document.getElementById('langDropdown');
+            if (wrap && !wrap.contains(e.target as Node)) {
+                langDropMenu.classList.remove('open');
+                langDropBtn.classList.remove('open');
+            }
+        });
+    }
+
+    // Dropdown dil linkleri
+    document.querySelectorAll('#langDropMenu a[data-lang]').forEach(a => {
+        a.addEventListener('click', async (e) => {
+            const lang = (a as HTMLElement).getAttribute('data-lang');
+            if (lang) {
+                e.preventDefault();
+                await changeLanguage(lang);
+                const menu = document.getElementById('langDropMenu');
+                const btn = document.getElementById('langDropBtn');
+                if (menu) menu.classList.remove('open');
+                if (btn) btn.classList.remove('open');
+            }
+        });
+    });
+
+    // Mobil menü
     const menuToggle = document.getElementById('menuToggle');
     const navLinks = document.getElementById('navLinks');
     const menuIcon = document.getElementById('menuIcon');

@@ -6,6 +6,31 @@
       "source": "/index",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/english",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/german",
+      "destination": "/de",
+      "permanent": true
+    },
+    {
+      "source": "/arabic",
+      "destination": "/ar",
+      "permanent": true
+    },
+    {
+      "source": "/russian",
+      "destination": "/ru",
+      "permanent": true
+    },
+    {
+      "source": "/french",
+      "destination": "/fr",
+      "permanent": true
     }
   ],
   "headers": [

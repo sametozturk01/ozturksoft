@@ -1,0 +1,743 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Leistungen",
+    "ai": "KI-Lösungen",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "quoteBtn": "Angebot anfragen",
+    "whatsapp": "Live-Support"
+  },
+  "hero": {
+    "title": "Ankaras KI- & Softwareentwicklungsunternehmen",
+    "subtitle": "Bei Ozturksoft bringen wir Ihr Unternehmen mit KI-Integration, individueller Softwareentwicklung und digitalen Transformationslösungen aus Ankara in die Zukunft.",
+    "btnExplore": "Unsere Lösungen entdecken",
+    "btnMeet": "Treffen Sie uns"
+  },
+  "services": {
+    "title": "End-to-End Digitale Transformation",
+    "subtitle": "Ozturksoft kombiniert moderne Technologiestacks mit Ihren Geschäftszielen für nachhaltigen Erfolg.",
+    "cards": {
+      "dev": {
+        "title": "Individuelle Softwareentwicklung",
+        "desc": "Wir entwickeln skalierbare, hochperformante Microservice-Architekturen, die Ihre komplexen Geschäftsprozesse optimieren."
+      },
+      "qa": {
+        "title": "QA & Qualitätssicherung",
+        "desc": "Mit einer Zero-Defect-Vision maximieren wir die Zuverlässigkeit Ihrer Software durch TDD- und CI/CD-Prozesse."
+      },
+      "ai": {
+        "title": "KI & Analytics",
+        "desc": "Wir entwickeln maschinelle Lernmodelle und Data-Mining-Lösungen, die Ihre Daten in ein strategisches Asset verwandeln."
+      },
+      "mobile": {
+        "title": "Mobile App-Entwicklung",
+        "desc": "Wir bieten nutzerzentrierte, hochinteraktive native oder plattformübergreifende Lösungen für iOS und Android."
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "desc": "Wir erhöhen Ihre Softwareliefergeschwindigkeit und -sicherheit mit modernen Cloud-Infrastrukturen und Automatisierung."
+      },
+      "uiux": {
+        "title": "UI/UX Design",
+        "desc": "Wir gestalten Nutzererfahrungen, die die digitale Identität Ihrer Marke stärken, indem wir Ästhetik mit Funktionalität verbinden."
+      }
+    }
+  },
+  "references": {
+    "title": "Partner, denen wir vertrauen",
+    "subtitle": "Wertvolle Marken, mit denen wir zusammenarbeiten."
+  },
+  "stats": {
+    "projects": "Abgeschlossene Projekte",
+    "satisfaction": "Kundenzufriedenheit",
+    "support": "Technischer Support"
+  },
+  "vision": {
+    "title": "Unsere Vision",
+    "desc": "Branchenführer zu sein, indem wir fehlerfreie, skalierbare Softwarearchitekturen nach globalen Standards produzieren. Als Technologieunternehmen, das von der Türkei aus in die Welt expandiert, die digitale Transformation mit unseren innovativen Lösungen anzuführen."
+  },
+  "mission": {
+    "title": "Unsere Mission",
+    "desc": "Zuverlässige, nachhaltige Softwarelösungen bereitzustellen, die die Geschäftsprozesse unserer Kunden optimieren. Moderne Technologien mit einer 100%igen Qualitätsgarantie in jedem Projekt in Geschäftswert zu verwandeln."
+  },
+  "values": {
+    "title": "Unsere Werte",
+    "subtitle": "Die Kernprinzipien, die Ozturksoft tragen und jedes Projekt leiten.",
+    "cards": {
+      "technical": {
+        "title": "Technische Tiefe",
+        "desc": "Wir verfolgen die neuesten Technologien und lösen selbst die komplexesten Probleme. Wir sind ein ständig lernendes und wachsendes Team."
+      },
+      "transparent": {
+        "title": "Transparentes Prozessmanagement",
+        "desc": "Wir arbeiten in volller Transparenz mit unseren Kunden in jeder Projektphase. Wir berichten jeden Schritt und teilen jede Änderung."
+      },
+      "qa": {
+        "title": "100% QA-Garantie",
+        "desc": "Jede Codezeile wird durch TDD- und CI/CD-Prozesse getestet. Fehlerfreie Lieferung ist unser Standard."
+      },
+      "customer": {
+        "title": "Kundenorientierung",
+        "desc": "Der Erfolg unserer Kunden ist unser Erfolg. Wir schreiben nicht nur Code, wir werden Ihr Geschäftspartner."
+      },
+      "sustainability": {
+        "title": "Nachhaltigkeit",
+        "desc": "Wir bauen skalierbare, leicht wartbare Systeme, indem wir nicht nur die heutigen, sondern auch die zukünftigen Bedürfnisse berücksichtigen."
+      },
+      "growth": {
+        "title": "Kontinuierliches Wachstum",
+        "desc": "Technologie entwickelt sich ständig weiter, und so tun wir es auch. Unser Team bildet sich kontinuierlich weiter und integriert neue Technologien in Projekte."
+      }
+    }
+  },
+  "whyus": {
+    "title": "Warum",
+    "highlight": "Ozturksoft?",
+    "subtitle": "Entdecken Sie die Merkmale, die uns von unseren Mitbewerbern abheben.",
+    "cards": {
+      "time": {
+        "title": "Pünktliche Lieferung",
+        "desc": "Strikte Einhaltung von Fristen. 95% unserer Projekte werden pünktlich geliefert."
+      },
+      "communication": {
+        "title": "Schnelle Kommunikation",
+        "desc": "Antwortgarantie innerhalb von 4 Stunden. 24/7-Support-Hotline für Notfälle."
+      },
+      "security": {
+        "title": "Sicherheitsorientiert",
+        "desc": "Sicherheitstests nach OWASP-Standards. Ihre Daten sind bei uns sicher."
+      },
+      "reporting": {
+        "title": "Detailliertes Reporting",
+        "desc": "Wöchentliche Fortschrittsberichte. Verfolgen Sie jeden Moment Ihres Projekts."
+      },
+      "support": {
+        "title": "Support nach dem Projekt",
+        "desc": "30-90 Tage kostenloser Wartung und Support. Wir lassen Sie nicht allein."
+      },
+      "pricing": {
+        "title": "Wettbewerbsfähige Preise",
+        "desc": "Erschwingliche Preise ohne Qualitätseinbußen. Flexible Zahlungspläne."
+      }
+    }
+  },
+  "cta": {
+    "titleLine1": "Lassen Sie uns die nächste Erfolgsgeschichte",
+    "titleLine2": "gemeinsam schreiben.",
+    "subtitle": "Kontaktieren Sie uns noch heute für eine kostenlose Beratung und starten wir Ihre digitale Transformation.",
+    "btnContact": "Kontaktieren Sie uns",
+    "btnServices": "Unsere Leistungen ansehen"
+  },
+  "about": {
+    "hero": {
+      "subtitle": "Über Ozturksoft",
+      "title1": "Die Geschichte hinter",
+      "title2": "dem Code",
+      "desc": "Wir entwickeln nicht nur Software; wir bauen den digitalen Charakter von Unternehmen."
+    },
+    "location": "HQ: Ankara, Türkei",
+    "story": {
+      "title1": "Eine Reise geboren aus",
+      "title2": "Ingenieurleidenschaft",
+      "p1": "Ozturksoft wurde in Ankara als Technologieunternehmen gegründet, in Übereinstimmung mit der Vision unseres Gründers <strong>Samet OZTURK</strong> von 'nachhaltiger Architektur, fehlerfreiem Engineering und sauberem Code'. Im Kern unserer Gründungsphilosophie liegt das Ziel, die zunehmend komplexen Prozesse von Unternehmen in durchgängig optimierte, global-standardisierte digitale Erlebnisse zu transformieren.",
+      "p2": "Heute positionieren wir Projekte mit unserer tiefen Expertise in <strong>modernen Anwendungsentwicklungsstandards</strong> und <strong>hochperformanten Systemarchitekturen</strong> nicht nur als 'funktionierende Systeme', sondern als skalierbare, 'zukunftssichere' digitale Assets, die unter hohem Datenverkehr stabil bleiben."
+    },
+    "qa": {
+      "title": "Ganzheitliches Qualitätssicherungsprotokoll (QA)",
+      "desc": "Unser unerschütterliches Engagement für <strong>Test-Driven Development</strong>-Prinzipien ist die größte Garantie unserer Null-Fehler-Toleranz. Jede einzelne geschriebene Funktionseinheit durchläuft mehrschichtige Sicherheits-, Last- und Regressionstests, bevor sie in die Produktionslinie aufgenommen wird."
+    },
+    "timeline": {
+      "title1": "Unsere Reise des",
+      "title2": "Wachstums",
+      "desc": "Ozturksfts Schritte von einer Idee bis heute.",
+      "step1": {
+        "sub": "Grundsteinlegung",
+        "title": "Geburt der Vision",
+        "desc": "In Ankara gegründet mit dem Ziel, qualitätsorientierte Software und moderne Webtechnologien zu produzieren."
+      },
+      "step2": {
+        "sub": "Erste große Erfolge",
+        "title": "Unternehmensprojekte",
+        "desc": "Wir begannen, unsere ersten großen Unternehmenskunden mit maßgeschneiderten Management-Panels und komplexen Systemintegrationen zu bedienen."
+      },
+      "step3": {
+        "sub": "Heute & Morgen",
+        "title": "Kontinuierliche Innovation",
+        "desc": "Heute produzieren wir End-to-End-Lösungen und gestalten die digitalen Produkte der Zukunft mit unserem modernen Stack (React, Node.js, TS)."
+      }
+    },
+    "culture": {
+      "title": "Kultur",
+      "desc": "Unsere Arbeitsweise macht uns zu dem, was wir sind.",
+      "card1": {
+        "title": "Kontinuierliches Lernen",
+        "desc": "Technologie hört nie auf. Unser Team recherchiert täglich neue Technologien und hält unsere Systeme auf dem neuesten Stand."
+      },
+      "card2": {
+        "title": "Transparente Kommunikation",
+        "desc": "Wir kommunizieren klar und offen in jeder Projektphase, ohne Überraschungen für unsere Kunden."
+      },
+      "card3": {
+        "title": "Handwerkskunst",
+        "desc": "Wir sehen Software nicht als Fabrikarbeit, sondern als ein Handwerk, das sorgfältig gewebt werden muss."
+      }
+    },
+    "cta": {
+      "title1": "Bereit, unser",
+      "title2": "Team kennenzulernen?",
+      "desc": "Wir können es kaum erwarten, Ihre Idee zu hören und darüber zu sprechen, wie wir sie zum Leben erwecken können.",
+      "btn": "Lass uns einen Kaffee trinken"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "subtitle": "Professionelle Lösungen",
+      "title1": "Was wir",
+      "title2": "tun?",
+      "desc": "Wir bringen Ihr Unternehmen mit End-to-End-Lösungen für die digitale Transformation in die Zukunft. Wir begleiten Sie bei jedem Schritt, von der Idee bis zum Launch."
+    },
+    "cards": {
+      "dev": {
+        "title": "Individuelle Softwareentwicklung",
+        "desc": "Wir entwickeln hochperformante, skalierbare Web- und Mobile-Apps mit React, TypeScript, Node.js und Python.",
+        "list1": "Unternehmens-Web-Apps",
+        "list2": "E-Commerce-Plattformen",
+        "list3": "SaaS-Produkte",
+        "list4": "RESTful & GraphQL APIs"
+      },
+      "qa": {
+        "title": "Test & QA-Services",
+        "desc": "Null-Fehler-Projekte mit CI/CD-integrierten, automatisierten Testprozessen (TDD). Sicherheitstests nach OWASP-Standards."
+      },
+      "cloud": {
+        "title": "DevOps & Cloud-Lösungen",
+        "desc": "Sichere, skalierbare und hochverfügbare Architektur-Setups auf AWS- und Azure-Infrastrukturen."
+      },
+      "mobile": {
+        "title": "Mobile App-Entwicklung",
+        "desc": "Native und plattformübergreifende mobile Apps für iOS und Android. Nutzererfahrungsorientierte Designs.",
+        "list4": "Store-Veröffentlichung"
+      },
+      "ai": {
+        "title": "KI & Analytics",
+        "desc": "Verwandeln Sie Ihre Daten in ein strategisches Asset mit maschinellem Lernen, Data-Mining und KI-Integrationen.",
+        "list1": "Maschinelles Lernen",
+        "list2": "Natural Language Processing (NLP)",
+        "list3": "Datenanalyse"
+      },
+      "ui": {
+        "title": "UI/UX Design",
+        "desc": "Nutzerzentrierte, ästhetische und funktionale Interface-Designs. Erlebnisse, die die digitale Identität Ihrer Marke stärken."
+      }
+    },
+    "ai": {
+      "title1": "Warum",
+      "desc": "Gewöhnliche Softwareagenturen produzieren nur 'Werkzeuge', wir integrieren 'Intelligenz'.",
+      "card1": {
+        "title": "Traditionelle Unternehmen",
+        "li1": {
+          "title": "Regelbasierte Systeme",
+          "desc": "Statische Strukturen, die nur auf vorgeschriebenen Codes und festen Regeln laufen."
+        },
+        "li2": {
+          "title": "Manuelle Arbeitsbelastung",
+          "desc": "Dateneingabe-, Analyse- und Dokumentationsprozesse, die von menschlicher Arbeitskraft abhängen."
+        },
+        "li3": {
+          "title": "Standard-Suche und -Filterung",
+          "desc": "Einfache Schlüsselwortsuche, die nicht vollständig versteht, was der Nutzer sucht."
+        }
+      },
+      "card2": {
+        "badge": "ZUKUNFTSTECHNOLOGIE",
+        "li1": {
+          "title": "Autonome Assistenzmodule",
+          "desc": "Branchenspezifisch trainierte Modelle. Zum Beispiel intelligente Assistenten für Rechtsexperten, die Rechtssprache verstehen und in Sekunden Antragsvorlagen erstellen können."
+        },
+        "li2": {
+          "title": "Lernalgorithmen (Maschinelles Lernen)",
+          "desc": "Dynamische Infrastrukturen, die kontinuierlich aus dem Nutzerverhalten lernen, sich selbst optimieren und prädiktive Entscheidungen treffen."
+        },
+        "li3": {
+          "title": "Natural Language Processing (NLP) Integration",
+          "desc": "Intelligente Algorithmen, die menschliche Sprache verstehen, Textanalysen durchführen und komplexe Daten in bedeutungsvolle Erkenntnisse verwandeln."
+        }
+      }
+    },
+    "global": {
+      "sub": "High-End Engineering",
+      "title1": "Unsere Technologie ist",
+      "title2": "Ihre unsichtbare Kraft",
+      "desc": "Wir schreiben keine komplexen Codes; wir bauen ein digitales Rückgrat, das sicherstellt, dass Ihr Unternehmen ununterbrochen läuft, Ihre Daten unerschütterlich sicher bleiben und Ihre Abläufe autonom werden.",
+      "card1": {
+        "badge": "01 // ANALYTISCHE INTELLIGENZ",
+        "title": "Selbstentscheidende Systeme",
+        "desc": "Mit unseren Modellen, die komplexe Datensätze in Sekunden verarbeiten, geben wir Ihren Systemen 'Weitsicht'. Entscheidungen sind jetzt datengesteuert und fehlerfrei."
+      },
+      "card2": {
+        "badge": "02 // DIGITALE FESTUNGEN",
+        "title": "Kompromisslose Datensicherheit",
+        "desc": "Wir integrieren globale Cybersicherheitsstandards in jede kleinste Zelle der Software. Proaktive Verteidigungsschichten, die nicht nur die heutigen, sondern auch die zukünftigen Bedrohungen blockieren."
+      },
+      "card3": {
+        "badge": "03 // GRENZENLOSE KAPAZITÄT",
+        "title": "Zukunftssichere Infrastruktur",
+        "desc": "Cloud-basierte Architekturen, die Millionen von Nutzern und massiven Datenverkehr mühelos verwalten. Während Ihr Unternehmen wächst, hinken Ihre Systeme nie hinterher."
+      },
+      "quote": "Technologie verwandelt sich in den richtigen Händen in Kunst; mit der richtigen Vision in eine unübertroffene Kraft."
+    },
+    "process": {
+      "title1": "Wie arbeiten",
+      "title2": "wir?",
+      "desc": "Unser transparenter, organisierter und ergebnisorientierter agiler Projektmanagementprozess.",
+      "s1": {
+        "title": "Entdeckung & Analyse",
+        "desc": "Wir hören Ihren Bedürfnissen zu und verstehen Ihre Geschäftsziele. Wir erstellen einen detaillierten technischen Analyse- und Machbarkeitsbericht."
+      },
+      "s2": {
+        "title": "Planung & Design",
+        "desc": "Wir erstellen die Projekt-Roadmap, Architekturdesign und UI/UX-Mockups. Wir führen Sprint-Planung durch."
+      },
+      "s3": {
+        "title": "Entwicklung",
+        "desc": "Sprint-basierte Entwicklung mit agiler Methodik. Wöchentliche Demos und Fortschrittsberichte. Kontinuierliche Kommunikation."
+      },
+      "s4": {
+        "title": "Test & QA",
+        "desc": "Automatisierte und manuelle Tests. Sicherheits-Scanning. Performance-Optimierung. UAT (User Acceptance Testing)."
+      },
+      "s5": {
+        "title": "Deployment & Support",
+        "desc": "Go-Live und Deployment. Nutzerschulung. SLA-garantierte Wartung und Support. Monitoring-Setup."
+      }
+    },
+    "whyus": {
+      "title1": "Warum",
+      "title2": "wir?",
+      "c1": {
+        "title": "Hohe Sicherheit",
+        "desc": "Ihre Unternehmensdaten sind mit End-to-End-Verschlüsselung nach DSGVO/KVKK-Standards und globalen Sicherheitsprotokollen geschützt."
+      },
+      "c2": {
+        "title": "Skalierbarkeit",
+        "desc": "Wir verwenden Microservices und moderne Cloud-Architekturen, damit Sie keinen Leistungsverlust erfahren, wenn Ihr Projekt wächst."
+      },
+      "c3": {
+        "title": "Ununterbrochener Support",
+        "desc": "Wir lassen Sie nach der Projektlieferung nicht allein; wir bieten proaktives Monitoring und Support unter SLA-Vereinbarungen."
+      }
+    },
+    "cta": {
+      "title1": "Bereit, Ihr Projekt",
+      "title2": "zu starten?",
+      "desc": "Kontaktieren Sie unser Expertenteam sofort für eine kostenlose Beratung und technische Analyse.",
+      "btn1": "Angebot anfragen",
+      "btn2": "Uns kennenlernen"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title1": "Kontaktieren Sie",
+      "title2": "uns",
+      "desc": "Wir sind bereit, über Ihr Projekt zu sprechen. Kontaktieren Sie uns noch heute für eine kostenlose Beratung und technische Analyse.",
+      "stat1": "4 Stunden",
+      "stat1b": "Antwortzeit",
+      "stat2": "Kostenlos",
+      "stat2b": "Beratung",
+      "stat3b": "Support-Hotline"
+    },
+    "info": {
+      "badge": "KONTAKTINFORMATIONEN",
+      "title1": "Nehmen Sie",
+      "title2": "Kontakt auf",
+      "desc": "Wählen Sie den Kommunikationskanal, der Ihnen am besten passt, und lassen Sie uns Ihnen sofort helfen."
+    },
+    "cards": {
+      "email": {
+        "title": "E-Mail",
+        "desc1": "24/7 E-Mail-Support",
+        "desc2": "4-Stunden-Antwortgarantie"
+      },
+      "phone": {
+        "title": "Telefon",
+        "desc": "Geschäftszeiten: 09:00 - 18:00",
+        "btn": "Nummer anzeigen",
+        "callNow": "Jetzt anrufen"
+      },
+      "address": {
+        "title": "Adresse",
+        "desc1": "Bürobesuche nach Vereinbarung",
+        "desc2": "Çankaya / Ankara"
+      }
+    },
+    "form": {
+      "badge": "PROJEKTANFRAGE",
+      "title1": "Projektangebot",
+      "title2": "anfragen",
+      "desc": "Teilen Sie die Details Ihres Projekts mit und wir bieten Ihnen die am besten geeignete Lösung.",
+      "name": "Vollständiger Name *",
+      "company": "Unternehmen",
+      "email": "E-Mail *",
+      "phone": "Telefon",
+      "type": "Projekttyp *",
+      "budget": "Budgetrahmen",
+      "details": "Projektdetails *",
+      "privacyLink": "Datenschutzrichtlinie",
+      "privacyText": "gelesen und akzeptiert. *",
+      "submit": "Angebot anfragen",
+      "options": {
+        "select": "Auswählen...",
+        "web": "🌐 Webentwicklung",
+        "mobile": "📱 Mobile App",
+        "ecom": "🛒 E-Commerce",
+        "qa": "🧪 Test & QA-Services",
+        "cloud": "☁️ DevOps & Cloud",
+        "ui": "🎨 UI/UX Design",
+        "ai": "🧠 KI & Analytics",
+        "consult": "💼 Beratung",
+        "other": "📝 Sonstiges"
+      }
+    },
+    "response": {
+      "badge": "SCHNELLE ANTWORT",
+      "title1": "Unsere Antwort-",
+      "title2": "zeiten",
+      "r1": {
+        "title": "E-Mail",
+        "strong": "Innerhalb von 4 Stunden",
+        "desc": "Antwortgarantie"
+      },
+      "r2": {
+        "title": "Telefon",
+        "strong": "Sofortanruf",
+        "desc": "Möglichkeit"
+      },
+      "r3": {
+        "strong": "Innerhalb von 2 Stunden",
+        "desc": "Antwortgarantie"
+      },
+      "r4": {
+        "title": "Notfall-Support",
+        "desc": "7/24 ununterbrochener Service"
+      }
+    },
+    "faq": {
+      "title1": "Häufig gestellte",
+      "title2": "Fragen",
+      "q1": {
+        "title": "Wie lange dauert ein Projekt?",
+        "desc": "Je nach Komplexität des Projekts variiert es zwischen 2-12 Wochen. Im ersten Meeting erstellen wir eine detaillierte Zeitplanung für Sie."
+      },
+      "q2": {
+        "title": "Wie läuft der Testprozess ab?",
+        "desc": "Wir erstellen für jedes Projekt einen maßgeschneiderten Testplan. Mit automatisierten + manuellen Tests bieten wir 100% Qualitätssicherung."
+      },
+      "q3": {
+        "title": "Gibt es Support nach dem Projekt?",
+        "desc": "Ja! Wir bieten für alle unsere Projekte 30-90 Tage kostenlosen Support. Danach gibt es Wartungspakete."
+      },
+      "q4": {
+        "title": "Arbeiten Sie remote?",
+        "desc": "Ja! Wir nehmen Projekte aus ganz Deutschland, Österreich, der Schweiz und der Türkei an. Wir sind ständig über Online-Meetings in Kontakt."
+      }
+    },
+    "modal": {
+      "title": "Datenschutzrichtlinie",
+      "p1": "Als Ozturksoft tragen wir die Verantwortung, die persönlichen Daten von Nutzern zu schützen, die unsere Website besuchen und Informationen über das Kontaktformular teilen.",
+      "h1": "Gesammelte Daten",
+      "li1": "Name, E-Mail, Telefon, Unternehmensinfos und Projektdetails aus dem Kontaktformular",
+      "li2": "IP-Adresse und Browser-Informationen (für Website-Sicherheit und Performance-Analyse)",
+      "h2": "Datennutzung",
+      "p2": "Die gesammelten Daten werden nur verwendet, um Sie zu kontaktieren, Angebote zu machen und unsere Dienstleistungen zu verbessern. Ihre Daten werden nicht an Dritte weitergegeben.",
+      "h3": "Nutzerrechte",
+      "p3": "Im Rahmen der DSGVO können Sie Ihre Rechte auf Zugang, Korrektur, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit ausüben. Senden Sie Ihre Anfragen an <a href=\"mailto:info.ozturksoft@gmail.com\" style=\"color: var(--primary); text-decoration: none; font-weight: 600;\">info.ozturksoft@gmail.com</a>.",
+      "h4": "Sicherheit",
+      "p4": "Ozturksoft implementiert technische und administrative Sicherheitsmaßnahmen zum Schutz Ihrer persönlichen Daten.",
+      "btn": "Verstanden, Schließen"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Ozturksoft | Alle Rechte vorbehalten."
+  },
+  "aiPage": {
+    "hero": {
+      "badge": "Ankara-basiertes KI-Unternehmen",
+      "title1": "KI-Lösungen",
+      "title2": "in Ankara",
+      "desc": "Mit maschinellem Lernen, LLM-Integration, Chatbots und Prozessautomatisierung bringen wir Ihr Unternehmen in die Zukunft. Verwandeln Sie Ihre Daten in einen Wettbewerbsvorteil."
+    },
+    "cards": {
+      "c1": {
+        "title": "Chatbot & Virtueller Assistent",
+        "desc": "Intelligente Chatbot-Systeme, die natürliche Sprache verstehen und 24/7 betrieben werden. Bereit für WhatsApp-, Web- und Mobile-Integration.",
+        "li1": "GPT-4 & NLP",
+        "li2": "WhatsApp / Web Integration",
+        "li3": "CRM & ERP Anbindung",
+        "li4": "Benutzerdefinierte Modelle"
+      },
+      "c2": {
+        "title": "LLM & GPT Integration",
+        "desc": "Wir integrieren OpenAI, Anthropic oder Open-Source-Large-Language-Models in Ihre vorhandene Software, um Ihre Prozesse intelligenter zu machen.",
+        "li1": "OpenAI / Anthropic API",
+        "li2": "RAG (Retrieval Augmented Generation)",
+        "li3": "LangChain & Vector DB",
+        "li4": "On-Premise Deployment"
+      },
+      "c3": {
+        "title": "Prädiktive Analytik",
+        "desc": "Lesen Sie die Zukunft aus vergangenen Daten. Wir entwickeln ML-Modelle für Umsatzprognosen, Bedarfsplanung und Kundenbindung.",
+        "li1": "Python ML (scikit-learn, XGBoost)",
+        "li2": "TensorFlow & PyTorch",
+        "li3": "Anomalieerkennung",
+        "li4": "Dashboard & Reporting"
+      },
+      "c4": {
+        "title": "Prozessautomatisierung (RPA + KI)",
+        "desc": "Wir eliminieren repetitive und zeitaufwändige Geschäftsprozesse mit KI-gesteuerter Automatisierung.",
+        "li1": "RPA & KI Workflow",
+        "li2": "Dokument- & Rechnungsautomatisierung",
+        "li3": "API-Integration",
+        "li4": "Prozessüberwachung & Reporting"
+      },
+      "c5": {
+        "title": "Computer Vision & Bildverarbeitung",
+        "desc": "Wir entwickeln benutzerdefinierte Bildverarbeitungsmodelle für Qualitätskontrolle, Objekterkennung und Fehlererkennung.",
+        "li1": "OpenCV & YOLO",
+        "li2": "Fehler- & Anomalieerkennung",
+        "li3": "Echtzeit-Analyse",
+        "li4": "Kamera- & Sensorintegration"
+      },
+      "c6": {
+        "title": "Datenanalyse & BI",
+        "desc": "Wir transformieren Ihre Rohdaten in entscheidungsunterstützende Erkenntnisse. Wir richten Power BI, benutzerdefinierte Dashboards und KI-gestützte Reporting-Systeme ein.",
+        "li1": "Power BI & Tableau",
+        "li2": "ETL & Data Pipeline",
+        "li3": "Benutzerdefinierte Dashboard-Entwicklung",
+        "li4": "Data Warehouse Design"
+      }
+    },
+    "sectors": {
+      "title1": "Welche",
+      "title2": "Branchen",
+      "title3": "bedienen wir?",
+      "desc": "Wir haben KI-Projekte in den Bereichen Fertigung, Finanzen, Gesundheit, Einzelhandel und öffentlicher Sektor geliefert.",
+      "badge": "MARKTFÜHRER IN ANKARA",
+      "s1": {
+        "title": "Fertigung & Produktion",
+        "li1t": "Qualitätskontrollautomatisierung",
+        "li1d": "Kamerabasierte KI für sofortige Fehlererkennung in Produktionslinien.",
+        "li2t": "Prädiktive Wartung",
+        "li2d": "Sensoranalyse-Modelle, die Maschinenausfälle vorhersagen, bevor sie auftreten."
+      },
+      "s2": {
+        "title": "Behörden & Finanzen",
+        "li1t": "Dokumentenklassifizierung & OCR",
+        "li1d": "Automatische Klassifizierung und Digitalisierung interner Dokumente.",
+        "li2t": "Risiko- & Betrugserkennung",
+        "li2d": "Sichere Transaktionsüberwachung mit Echtzeit-Anomalieerkennung."
+      },
+      "s3": {
+        "title": "Einzelhandel & Gesundheit",
+        "li1t": "Produktempfehlungsmaschine",
+        "li1d": "Personalisierte Produktempfehlungsalgorithmen basierend auf dem Nutzerverhalten.",
+        "li2t": "Patientendatenanalyse",
+        "li2d": "Klinische Datenanalyse für Entscheidungsunterstützung und Prozessverbesserung."
+      }
+    },
+    "tech": {
+      "sub": "Tech Stack",
+      "title1": "Die KI-Technologien,",
+      "title2": "die wir verwenden",
+      "desc": "Wir arbeiten mit aktuellen, bewährten und unternehmensreifen Tools.",
+      "card1": {
+        "badge": "01 // GROSSE SPRACHMODELLE",
+        "title": "GPT & LLM Integration",
+        "desc": "Wir integrieren OpenAI, Anthropic und Open-Source-Modelle in Ihre Geschäftsdaten und -prozesse.",
+        "tag1": "#GPT4o",
+        "tag2": "#LangChain",
+        "tag3": "#RAG"
+      },
+      "card2": {
+        "badge": "02 // MASCHINELLES LERNEN",
+        "title": "Lernalgorithmen",
+        "desc": "Modelle, die aus vergangenen Daten lernen, um die Zukunft vorherzusagen.",
+        "tag1": "#scikit-learn",
+        "tag2": "#XGBoost",
+        "tag3": "#PyTorch"
+      },
+      "card3": {
+        "badge": "03 // DSGVO-KONFORM",
+        "title": "Sichere KI-Infrastruktur",
+        "desc": "Alle unsere KI-Systeme sind DSGVO/KVKK-konform gestaltet. Mit On-Premise-Deployment bleiben Ihre Daten auf Ihren Servern.",
+        "tag1": "#DSGVO",
+        "tag2": "#OnPremise",
+        "tag3": "#Sicherheit"
+      }
+    },
+    "process": {
+      "title1": "Wie arbeiten",
+      "title2": "wir?",
+      "desc": "Jedes KI-Projekt beginnt mit einer kostenlosen Discovery-Session und endet mit messbaren Ergebnissen.",
+      "s1": {
+        "title": "Kostenlose Discovery-Session",
+        "desc": "Wir hören Ihren Geschäftsprozessen, Daten und Zielen zu. Wir bestimmen den für Sie geeignetsten KI-Ansatz."
+      },
+      "s2": {
+        "title": "Lösungsdesign & Planung",
+        "desc": "Wir erstellen den Modellauswahl-, Architekturdesign- und Integrationsplan. Wir bieten Sprint-Planung und Zeit-/Kostenschätzungen."
+      },
+      "s3": {
+        "title": "Entwicklung & Testing",
+        "desc": "Sprint-basierte Entwicklung mit agiler Methodik. Performance-, Genauigkeits- und Sicherheitstests bei jedem Schritt."
+      },
+      "s4": {
+        "title": "Go-Live & Support",
+        "desc": "Wir gehen live, schulen Ihr Team und bieten 30-90 Tage kostenlosen Wartung und Support."
+      }
+    },
+    "whyus": {
+      "title1": "Warum",
+      "title2": "Ozturksoft?",
+      "c1": {
+        "title": "Ankara-basiert",
+        "desc": "Wir bieten persönliche Meetings, Vor-Ort-Support und ein tiefes Verständnis der Bedürfnisse von Unternehmen."
+      },
+      "c2": {
+        "title": "DSGVO / KVKK konform",
+        "desc": "Alle unsere KI-Systeme sind nach DSGVO-Standards gestaltet. Mit On-Premise-Option verlassen Ihre Daten niemals Ihre Infrastruktur."
+      },
+      "c3": {
+        "title": "Support nach dem Projekt",
+        "desc": "Wir lassen Sie nach der Lieferung nicht allein. 30-90 Tage kostenlose Wartung und 4-Stunden-Antwortgarantie."
+      }
+    },
+    "cta": {
+      "title": "Lassen Sie uns über Ihr",
+      "titleBlue": "KI-Projekt sprechen",
+      "desc": "Fordern Sie eine kostenlose Discovery-Session für eine KI-Lösung an, die Ihr Unternehmen transformiert.",
+      "btn1": "Kostenlose Beratung anfragen",
+      "btn2": "Alle unsere Leistungen"
+    }
+  },
+  "blog": {
+    "hero": {
+      "badge": "Ozturksoft Blog",
+      "title": "Software, KI & digitale Transformationsleitfäden",
+      "desc": "Von Ankara nach Deutschland: Tiefgehende Leitfäden zu technischem SEO, KI-Integration, QA-Testing und mobiler App-Entwicklung."
+    },
+    "tags": {
+      "webDesign": "Webdesign",
+      "ai": "Künstliche Intelligenz",
+      "qa": "QA & Testing",
+      "mobile": "Mobile"
+    },
+    "cards": {
+      "readMore": "Mehr lesen",
+      "web": {
+        "title": "Kosten für Website-Entwicklung in Ankara [2026]",
+        "desc": "Warum variieren die Preise für Unternehmenswebsites, E-Commerce und Landing Pages so stark? Realistische Kostenanalyse."
+      },
+      "aiCard": {
+        "title": "KI-Integration: Bringen Sie Ihr Unternehmen in die Zukunft",
+        "desc": "Wie können Sie Ihre Geschäftsprozesse mit maschinellem Lernen, NLP und Automatisierung transformieren? Eine Schritt-für-Schritt-Anleitung."
+      },
+      "qaCard": {
+        "title": "Was ist QA-Testing? Die kritische Bedeutung der Softwarequalitätssicherung",
+        "desc": "Manuelle Tests, Automatisierung und TDD-Ansätze vergleichen. Alles, was Sie wissen müssen, um Ihre Software fehlerfrei zu launchen."
+      },
+      "mobileCard": {
+        "title": "Mobile App-Entwicklung: iOS und Android Leitfaden [2026]",
+        "desc": "Native, Flutter oder React Native? Wie wählt man die richtige Technologie für Ihr Projektbudget und Ihre Zielgruppe?"
+      },
+      "chatbotCard": {
+        "title": "Chatbot in Ankara entwickeln: Kosten, Technik & wichtige Punkte [2026]",
+        "desc": "GPT-basierte Chatbot-Kosten, WhatsApp-Integration und KVKK-Compliance. Alles Wissenswerte vor der Chatbot-Entwicklung in Ankara."
+      },
+      "llmCard": {
+        "title": "LLM & GPT-Integration: Wie Sie KI in Ihr Unternehmen bringen [2026]",
+        "desc": "Integrieren Sie GPT-4o, Claude und Open-Source-Modelle in Ihre Software. RAG-Architektur, Fine-Tuning und Kostenanalyse."
+      },
+      "otomasyonCard": {
+        "title": "Prozessautomatisierung in Ankara: Effizienz mit RPA + KI steigern [2026]",
+        "desc": "Automatisieren Sie Ihre Rechnungs-, Dokumenten- und Dateneingabeprozesse. Konkrete ROI-Beispiele und Automatisierungskostenleitfaden."
+      }
+    },
+    "posts": {
+      "web": {
+        "tag": "🌐 Webdesign",
+        "title": "Kosten für Website-Entwicklung in Ankara [2026]",
+        "breadcrumb": "Website-Kosten 2026"
+      },
+      "ai": {
+        "tag": "🤖 Künstliche Intelligenz",
+        "title": "KI-Integration: Bringen Sie Ihr Unternehmen in die Zukunft",
+        "breadcrumb": "KI-Integrationsleitfaden"
+      },
+      "qa": {
+        "tag": "🛡️ QA & Testing",
+        "title": "Was ist QA-Testing? Die kritische Bedeutung der Softwarequalitätssicherung",
+        "breadcrumb": "Was ist QA-Testing?"
+      },
+      "mobile": {
+        "tag": "📱 Mobile Entwicklung",
+        "title": "Mobile App-Entwicklung: iOS und Android Leitfaden [2026]",
+        "breadcrumb": "Mobile App-Entwicklung 2026"
+      }
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "blog": "Blog"
+    },
+    "meta": {
+      "date": "21. Mai 2026",
+      "read8": "8 Min. Lesezeit",
+      "read10": "10 Min. Lesezeit",
+      "read7": "7 Min. Lesezeit",
+      "read9": "9 Min. Lesezeit",
+      "date2": "14. Juni 2026",
+      "read11": "11 Min. Lesezeit"
+    },
+    "footer": {
+      "copyright": "© 2026 Ozturksoft — Ankara, Türkei. Alle Rechte vorbehalten."
+    },
+    "cta": {
+      "web": {
+        "title": "Kostenloses Angebot für Ihr Projekt",
+        "desc": "Konsultieren Sie Ozturksoft-Experten kostenlos für Ihr Website- oder Softwareentwicklungsprojekt.",
+        "btn": "Kostenloses Angebot anfragen"
+      },
+      "ai": {
+        "title": "Expertenberatung für Ihr KI-Projekt",
+        "desc": "Wir bewerten das Datenpotenzial Ihres Unternehmens und erstellen eine individuelle KI-Integrations-Roadmap für Sie.",
+        "btn": "Kostenlose Beratung"
+      },
+      "qa": {
+        "title": "Steht Ihre Software unter Qualitätssicherung?",
+        "desc": "Unsere QA-Experten analysieren Ihre vorhandene Software und bauen Ihre Teststrategie von Anfang an richtig auf.",
+        "btn": "Kostenlose QA-Analyse"
+      },
+      "mobile": {
+        "title": "Lassen Sie uns Ihr Mobile-App-Projekt gemeinsam verwirklichen",
+        "desc": "Wir entwickeln hochperformante mobile Apps mit Flutter und React Native.",
+        "btn": "Erzählen Sie uns von Ihrem Projekt"
+      },
+      "chatbot": {
+        "title": "Lassen Sie uns über Ihr Chatbot-Projekt in Ankara sprechen",
+        "desc": "Fordern Sie ein kostenloses Erstgespräch an, um die beste Chatbot-Architektur für Ihr Unternehmen zu ermitteln.",
+        "btn": "Kostenloses Angebot"
+      },
+      "llm": {
+        "title": "Bringen Sie KI in Ihr Unternehmen",
+        "desc": "Holen Sie sich Expertenberatung für Ihr LLM- oder GPT-Integrationsprojekt. Wir erstellen eine individuelle Roadmap für Ihre Bedürfnisse.",
+        "btn": "Kostenlose Beratung"
+      },
+      "otomasyon": {
+        "title": "Welcher Ihrer Prozesse ist bereit für Automatisierung?",
+        "desc": "Unser Ankara-basiertes Expertenteam analysiert Ihre Geschäftsprozesse und erstellt eine Automatisierungs-Roadmap für höchsten ROI.",
+        "btn": "Kostenlose Prozessanalyse"
+      }
+    }
+  }
+}
