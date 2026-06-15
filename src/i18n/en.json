@@ -662,6 +662,26 @@
       "otomasyonCard": {
         "title": "Process Automation in Ankara: Boost Efficiency with RPA + AI [2026]",
         "desc": "Automate your invoice, document and data entry processes. Real ROI examples and an automation cost guide for Ankara."
+      },
+      "istanbulCard": {
+        "title": "AI Solutions in Istanbul: Business Guide [2026]",
+        "desc": "Chatbot, LLM integration, process automation and data analytics guide for Istanbul businesses."
+      },
+      "izmirCard": {
+        "title": "AI Solutions in Izmir: Business Guide [2026]",
+        "desc": "Chatbot, LLM integration, process automation and data analytics guide for Izmir businesses."
+      },
+      "bursaCard": {
+        "title": "AI Solutions in Bursa: Business Guide [2026]",
+        "desc": "AI guide for Bursa businesses: chatbot, LLM integration and process automation."
+      },
+      "antalyaCard": {
+        "title": "AI Solutions in Antalya: Business Guide [2026]",
+        "desc": "AI guide for Antalya businesses: chatbot, LLM and automation."
+      },
+      "konyaCard": {
+        "title": "AI Solutions in Konya: Business Guide [2026]",
+        "desc": "AI guide for Konya businesses: chatbot, LLM and automation."
       }
     },
     "posts": {
@@ -684,6 +704,31 @@
         "tag": "📱 Mobile Development",
         "title": "Mobile App Development: iOS and Android Guide [2026]",
         "breadcrumb": "Mobile App Development 2026"
+      },
+      "istanbul": {
+        "tag": "🤖 Artificial Intelligence",
+        "title": "AI Solutions in Istanbul: Business Guide [2026]",
+        "breadcrumb": "Istanbul AI"
+      },
+      "izmir": {
+        "tag": "🤖 Artificial Intelligence",
+        "title": "AI Solutions in Izmir: Business Guide [2026]",
+        "breadcrumb": "Izmir AI"
+      },
+      "bursa": {
+        "tag": "🤖 Artificial Intelligence",
+        "title": "AI Solutions in Bursa: Business Guide [2026]",
+        "breadcrumb": "Bursa AI"
+      },
+      "antalya": {
+        "tag": "🤖 Artificial Intelligence",
+        "title": "AI Solutions in Antalya: Business Guide [2026]",
+        "breadcrumb": "Antalya AI"
+      },
+      "konya": {
+        "tag": "🤖 Artificial Intelligence",
+        "title": "AI Solutions in Konya: Business Guide [2026]",
+        "breadcrumb": "Konya AI"
       }
     },
     "breadcrumb": {
@@ -697,7 +742,8 @@
       "read7": "7 min read",
       "read9": "9 min read",
       "date2": "June 14, 2026",
-      "read11": "11 min read"
+      "read11": "11 min read",
+      "date3": "June 15, 2026"
     },
     "footer": {
       "copyright": "© 2026 Ozturksoft — Ankara, Turkey. All rights reserved."
@@ -737,6 +783,31 @@
         "title": "Which of Your Processes Is Ready for Automation?",
         "desc": "Our Ankara-based expert team analyzes your business processes and creates an automation roadmap for the highest ROI. First analysis is free.",
         "btn": "Free Process Analysis"
+      },
+      "istanbul": {
+        "title": "Let's Discuss Your AI Project in Istanbul",
+        "desc": "Request a free discovery meeting for chatbot, LLM and automation projects.",
+        "btn": "Get a Free Quote"
+      },
+      "izmir": {
+        "title": "Let's Discuss Your AI Project in Izmir",
+        "desc": "Request a free discovery meeting for chatbot, LLM and automation projects.",
+        "btn": "Get a Free Quote"
+      },
+      "bursa": {
+        "title": "Let's Discuss Your AI Project in Bursa",
+        "desc": "Request a free discovery meeting.",
+        "btn": "Get a Free Quote"
+      },
+      "antalya": {
+        "title": "Let's Discuss Your AI Project in Antalya",
+        "desc": "Request a free discovery meeting.",
+        "btn": "Get a Free Quote"
+      },
+      "konya": {
+        "title": "Let's Discuss Your AI Project in Konya",
+        "desc": "Request a free discovery meeting.",
+        "btn": "Get a Free Quote"
       }
     }
   }

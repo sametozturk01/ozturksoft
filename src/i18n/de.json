@@ -662,6 +662,26 @@
       "otomasyonCard": {
         "title": "Prozessautomatisierung in Ankara: Effizienz mit RPA + KI steigern [2026]",
         "desc": "Automatisieren Sie Ihre Rechnungs-, Dokumenten- und Dateneingabeprozesse. Konkrete ROI-Beispiele und Automatisierungskostenleitfaden."
+      },
+      "istanbulCard": {
+        "title": "KI-Lösungen in Istanbul: Unternehmensleitfaden [2026]",
+        "desc": "Chatbot-, LLM-Integrations-, Prozessautomatisierungs- und Datenanalyse-Leitfaden für Unternehmen in Istanbul."
+      },
+      "izmirCard": {
+        "title": "KI-Lösungen in Izmir: Unternehmensleitfaden [2026]",
+        "desc": "Chatbot-, LLM- und Automatisierungsleitfaden für Unternehmen in Izmir."
+      },
+      "bursaCard": {
+        "title": "KI-Lösungen in Bursa: Unternehmensleitfaden [2026]",
+        "desc": "KI-Leitfaden für Unternehmen in Bursa."
+      },
+      "antalyaCard": {
+        "title": "KI-Lösungen in Antalya: Unternehmensleitfaden [2026]",
+        "desc": "KI-Leitfaden für Unternehmen in Antalya."
+      },
+      "konyaCard": {
+        "title": "KI-Lösungen in Konya: Unternehmensleitfaden [2026]",
+        "desc": "KI-Leitfaden für Unternehmen in Konya."
       }
     },
     "posts": {
@@ -684,6 +704,31 @@
         "tag": "📱 Mobile Entwicklung",
         "title": "Mobile App-Entwicklung: iOS und Android Leitfaden [2026]",
         "breadcrumb": "Mobile App-Entwicklung 2026"
+      },
+      "istanbul": {
+        "tag": "🤖 Künstliche Intelligenz",
+        "title": "KI-Lösungen in Istanbul: Unternehmensleitfaden [2026]",
+        "breadcrumb": "Istanbul KI"
+      },
+      "izmir": {
+        "tag": "🤖 Künstliche Intelligenz",
+        "title": "KI-Lösungen in Izmir: Unternehmensleitfaden [2026]",
+        "breadcrumb": "Izmir KI"
+      },
+      "bursa": {
+        "tag": "🤖 Künstliche Intelligenz",
+        "title": "KI-Lösungen in Bursa: Unternehmensleitfaden [2026]",
+        "breadcrumb": "Bursa KI"
+      },
+      "antalya": {
+        "tag": "🤖 Künstliche Intelligenz",
+        "title": "KI-Lösungen in Antalya: Unternehmensleitfaden [2026]",
+        "breadcrumb": "Antalya KI"
+      },
+      "konya": {
+        "tag": "🤖 Künstliche Intelligenz",
+        "title": "KI-Lösungen in Konya: Unternehmensleitfaden [2026]",
+        "breadcrumb": "Konya KI"
       }
     },
     "breadcrumb": {
@@ -697,7 +742,8 @@
       "read7": "7 Min. Lesezeit",
       "read9": "9 Min. Lesezeit",
       "date2": "14. Juni 2026",
-      "read11": "11 Min. Lesezeit"
+      "read11": "11 Min. Lesezeit",
+      "date3": "15. Juni 2026"
     },
     "footer": {
       "copyright": "© 2026 Ozturksoft — Ankara, Türkei. Alle Rechte vorbehalten."
@@ -737,6 +783,31 @@
         "title": "Welcher Ihrer Prozesse ist bereit für Automatisierung?",
         "desc": "Unser Ankara-basiertes Expertenteam analysiert Ihre Geschäftsprozesse und erstellt eine Automatisierungs-Roadmap für höchsten ROI.",
         "btn": "Kostenlose Prozessanalyse"
+      },
+      "istanbul": {
+        "title": "Sprechen wir über Ihr KI-Projekt in Istanbul",
+        "desc": "Fordern Sie ein kostenloses Erstgespräch für Chatbot-, LLM- und Automatisierungsprojekte an.",
+        "btn": "Kostenloses Angebot"
+      },
+      "izmir": {
+        "title": "Sprechen wir über Ihr KI-Projekt in Izmir",
+        "desc": "Fordern Sie ein kostenloses Erstgespräch an.",
+        "btn": "Kostenloses Angebot"
+      },
+      "bursa": {
+        "title": "KI-Projekt in Bursa besprechen",
+        "desc": "Kostenloses Erstgespräch anfordern.",
+        "btn": "Kostenloses Angebot"
+      },
+      "antalya": {
+        "title": "KI-Projekt in Antalya",
+        "desc": "Kostenloses Erstgespräch.",
+        "btn": "Kostenloses Angebot"
+      },
+      "konya": {
+        "title": "KI-Projekt in Konya",
+        "desc": "Kostenloses Erstgespräch.",
+        "btn": "Kostenloses Angebot"
       }
     }
   }

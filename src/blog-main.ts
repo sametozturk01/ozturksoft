@@ -37,6 +37,36 @@ import llmAr from './i18n/articles/llm-ar.html?raw';
 import otomasyonEn from './i18n/articles/otomasyon-en.html?raw';
 import otomasyonAr from './i18n/articles/otomasyon-ar.html?raw';
 
+import istanbulEn from './i18n/articles/istanbul-en.html?raw';
+import istanbulDe from './i18n/articles/istanbul-de.html?raw';
+import istanbulFr from './i18n/articles/istanbul-fr.html?raw';
+import istanbulAr from './i18n/articles/istanbul-ar.html?raw';
+import istanbulRu from './i18n/articles/istanbul-ru.html?raw';
+
+import izmirEn from './i18n/articles/izmir-en.html?raw';
+import izmirDe from './i18n/articles/izmir-de.html?raw';
+import izmirFr from './i18n/articles/izmir-fr.html?raw';
+import izmirAr from './i18n/articles/izmir-ar.html?raw';
+import izmirRu from './i18n/articles/izmir-ru.html?raw';
+
+import bursaEn from './i18n/articles/bursa-en.html?raw';
+import bursaDe from './i18n/articles/bursa-de.html?raw';
+import bursaFr from './i18n/articles/bursa-fr.html?raw';
+import bursaAr from './i18n/articles/bursa-ar.html?raw';
+import bursaRu from './i18n/articles/bursa-ru.html?raw';
+
+import antalyaEn from './i18n/articles/antalya-en.html?raw';
+import antalyaDe from './i18n/articles/antalya-de.html?raw';
+import antalyaFr from './i18n/articles/antalya-fr.html?raw';
+import antalyaAr from './i18n/articles/antalya-ar.html?raw';
+import antalyaRu from './i18n/articles/antalya-ru.html?raw';
+
+import konyaEn from './i18n/articles/konya-en.html?raw';
+import konyaDe from './i18n/articles/konya-de.html?raw';
+import konyaFr from './i18n/articles/konya-fr.html?raw';
+import konyaAr from './i18n/articles/konya-ar.html?raw';
+import konyaRu from './i18n/articles/konya-ru.html?raw';
+
 const LANG_KEY = 'ozturksoft_lang';
 
 const LANG_META: Record<string, { flag: string; code: string }> = {
@@ -49,12 +79,13 @@ const LANG_META: Record<string, { flag: string; code: string }> = {
 };
 
 // Article bodies indexed by [lang][articleKey]
+// Article bodies indexed by [lang][articleKey]
 const ARTICLE_BODIES: Record<string, Record<string, string>> = {
-    en: { web: webEn, ai: aiEn, qa: qaEn, mobile: mobileEn, chatbot: chatbotEn, llm: llmEn, otomasyon: otomasyonEn },
-    fr: { web: webFr, ai: aiFr, qa: qaFr, mobile: mobileFr },
-    de: { web: webDe, ai: aiDe, qa: qaDe, mobile: mobileDe },
-    ar: { web: webAr, ai: aiAr, qa: qaAr, mobile: mobileAr, chatbot: chatbotAr, llm: llmAr, otomasyon: otomasyonAr },
-    ru: { web: webRu, ai: aiRu, qa: qaRu, mobile: mobileRu },
+    en: { web: webEn, ai: aiEn, qa: qaEn, mobile: mobileEn, chatbot: chatbotEn, llm: llmEn, otomasyon: otomasyonEn, istanbul: istanbulEn, izmir: izmirEn, bursa: bursaEn, antalya: antalyaEn, konya: konyaEn },
+    fr: { web: webFr, ai: aiFr, qa: qaFr, mobile: mobileFr, istanbul: istanbulFr, izmir: izmirFr, bursa: bursaFr, antalya: antalyaFr, konya: konyaFr },
+    de: { web: webDe, ai: aiDe, qa: qaDe, mobile: mobileDe, istanbul: istanbulDe, izmir: izmirDe, bursa: bursaDe, antalya: antalyaDe, konya: konyaDe },
+    ar: { web: webAr, ai: aiAr, qa: qaAr, mobile: mobileAr, chatbot: chatbotAr, llm: llmAr, otomasyon: otomasyonAr, istanbul: istanbulAr, izmir: izmirAr, bursa: bursaAr, antalya: antalyaAr, konya: konyaAr },
+    ru: { web: webRu, ai: aiRu, qa: qaRu, mobile: mobileRu, istanbul: istanbulRu, izmir: izmirRu, bursa: bursaRu, antalya: antalyaRu, konya: konyaRu },
 };
 
 let savedTrBody: string | null = null;
@@ -76,16 +107,20 @@ i18next.init({
     if (body && document.body.dataset.article) {
         savedTrBody = body.innerHTML;
     }
-    updateDropdownUI(savedLang);
+    updateDropdownUI(normalizeLang(savedLang));
     updateContent();
 });
+
+function normalizeLang(lang: string): string {
+    return lang.split('-')[0];
+}
 
 function updateArticleBody() {
     const articleKey = document.body.dataset.article;
     const body = document.querySelector<HTMLElement>('.article-body');
     if (!articleKey || !body) return;
 
-    const lang = i18next.language;
+    const lang = normalizeLang(i18next.language);
 
     if (lang === 'tr') {
         // Restore Turkish original

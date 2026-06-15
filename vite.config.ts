@@ -20,6 +20,11 @@ export default defineConfig({
         blogChatbot: resolve(__dirname, 'blog/ankara-chatbot-gelistirme-2026.html'),
         blogLlm: resolve(__dirname, 'blog/llm-gpt-entegrasyonu-rehberi.html'),
         blogOtomasyon: resolve(__dirname, 'blog/ankara-surec-otomasyonu-rpa-yapay-zeka.html'),
+        blogIstanbul: resolve(__dirname, 'blog/istanbul-yapay-zeka-cozumleri-rehberi.html'),
+        blogIzmir: resolve(__dirname, 'blog/izmir-yapay-zeka-cozumleri-rehberi.html'),
+        blogBursa: resolve(__dirname, 'blog/bursa-yapay-zeka-cozumleri-rehberi.html'),
+        blogAntalya: resolve(__dirname, 'blog/antalya-yapay-zeka-cozumleri-rehberi.html'),
+        blogKonya: resolve(__dirname, 'blog/konya-yapay-zeka-cozumleri-rehberi.html'),
         // Language pages are standalone static HTML, not Vite entry points
         // They are served as-is by the server (Vercel cleanUrls handles /en → en.html)
       }

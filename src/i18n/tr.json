@@ -662,6 +662,26 @@
       "otomasyonCard": {
         "title": "Ankara'da Süreç Otomasyonu: RPA + Yapay Zeka ile Verimliliği Artırın [2026]",
         "desc": "Fatura, belge ve veri girişi süreçlerinizi otomatikleştirin. Somut ROI örnekleri ve Ankara'da otomasyon maliyet rehberi."
+      },
+      "istanbulCard": {
+        "title": "İstanbul'da Yapay Zeka Çözümleri: İşletmeniz İçin AI Rehberi [2026]",
+        "desc": "İstanbul'daki işletmeler için chatbot, LLM entegrasyonu, süreç otomasyonu ve veri analitiği rehberi."
+      },
+      "izmirCard": {
+        "title": "İzmir'de Yapay Zeka Çözümleri: İşletmeniz İçin AI Rehberi [2026]",
+        "desc": "İzmir'deki işletmeler için chatbot, LLM entegrasyonu, süreç otomasyonu ve veri analitiği rehberi."
+      },
+      "bursaCard": {
+        "title": "Bursa'da Yapay Zeka Çözümleri: İşletmeniz İçin AI Rehberi [2026]",
+        "desc": "Bursa'daki işletmeler için chatbot, LLM entegrasyonu, süreç otomasyonu ve veri analitiği rehberi."
+      },
+      "antalyaCard": {
+        "title": "Antalya'da Yapay Zeka Çözümleri: İşletmeniz İçin AI Rehberi [2026]",
+        "desc": "Antalya'daki işletmeler için chatbot, LLM entegrasyonu, süreç otomasyonu ve veri analitiği rehberi."
+      },
+      "konyaCard": {
+        "title": "Konya'da Yapay Zeka Çözümleri: İşletmeniz İçin AI Rehberi [2026]",
+        "desc": "Konya'daki işletmeler için chatbot, LLM entegrasyonu, süreç otomasyonu ve veri analitiği rehberi."
       }
     },
     "posts": {
@@ -684,6 +704,31 @@
         "tag": "📱 Mobil Geliştirme",
         "title": "Mobil Uygulama Geliştirme: iOS ve Android Rehberi [2026]",
         "breadcrumb": "Mobil Uygulama Geliştirme 2026"
+      },
+      "istanbul": {
+        "tag": "🤖 Yapay Zeka",
+        "title": "İstanbul'da Yapay Zeka Çözümleri: İşletmeniz İçin AI Rehberi [2026]",
+        "breadcrumb": "İstanbul Yapay Zeka"
+      },
+      "izmir": {
+        "tag": "🤖 Yapay Zeka",
+        "title": "İzmir'de Yapay Zeka Çözümleri: İşletmeniz İçin AI Rehberi [2026]",
+        "breadcrumb": "İzmir Yapay Zeka"
+      },
+      "bursa": {
+        "tag": "🤖 Yapay Zeka",
+        "title": "Bursa'da Yapay Zeka Çözümleri: İşletmeniz İçin AI Rehberi [2026]",
+        "breadcrumb": "Bursa Yapay Zeka"
+      },
+      "antalya": {
+        "tag": "🤖 Yapay Zeka",
+        "title": "Antalya'da Yapay Zeka Çözümleri: İşletmeniz İçin AI Rehberi [2026]",
+        "breadcrumb": "Antalya Yapay Zeka"
+      },
+      "konya": {
+        "tag": "🤖 Yapay Zeka",
+        "title": "Konya'da Yapay Zeka Çözümleri: İşletmeniz İçin AI Rehberi [2026]",
+        "breadcrumb": "Konya Yapay Zeka"
       }
     },
     "breadcrumb": {
@@ -697,7 +742,8 @@
       "read7": "7 dk okuma",
       "read9": "9 dk okuma",
       "date2": "14 Haziran 2026",
-      "read11": "11 dk okuma"
+      "read11": "11 dk okuma",
+      "date3": "15 Haziran 2026"
     },
     "footer": {
       "copyright": "© 2026 Ozturksoft — Ankara, Türkiye. Tüm hakları saklıdır."
@@ -737,6 +783,31 @@
         "title": "Hangi Süreciniz Otomasyona Hazır?",
         "desc": "Ankara merkezli uzman ekibimiz, işletmenizin süreçlerini analiz ederek en yüksek ROI sağlayacak otomasyon yol haritasını çıkarıyor.",
         "btn": "Ücretsiz Süreç Analizi"
+      },
+      "istanbul": {
+        "title": "İstanbul İçin Yapay Zeka Projenizi Konuşalım",
+        "desc": "Chatbot, LLM entegrasyonu ve süreç otomasyonu projeleriniz için ücretsiz keşif görüşmesi talep edin.",
+        "btn": "Ücretsiz Teklif Al"
+      },
+      "izmir": {
+        "title": "İzmir İçin Yapay Zeka Projenizi Konuşalım",
+        "desc": "Chatbot, LLM entegrasyonu ve süreç otomasyonu projeleriniz için ücretsiz keşif görüşmesi talep edin.",
+        "btn": "Ücretsiz Teklif Al"
+      },
+      "bursa": {
+        "title": "Bursa İçin Yapay Zeka Projenizi Konuşalım",
+        "desc": "Chatbot, LLM entegrasyonu ve süreç otomasyonu projeleriniz için ücretsiz keşif görüşmesi talep edin.",
+        "btn": "Ücretsiz Teklif Al"
+      },
+      "antalya": {
+        "title": "Antalya İçin Yapay Zeka Projenizi Konuşalım",
+        "desc": "Chatbot, LLM entegrasyonu ve süreç otomasyonu projeleriniz için ücretsiz keşif görüşmesi talep edin.",
+        "btn": "Ücretsiz Teklif Al"
+      },
+      "konya": {
+        "title": "Konya İçin Yapay Zeka Projenizi Konuşalım",
+        "desc": "Chatbot, LLM entegrasyonu ve süreç otomasyonu projeleriniz için ücretsiz keşif görüşmesi talep edin.",
+        "btn": "Ücretsiz Teklif Al"
       }
     }
   }

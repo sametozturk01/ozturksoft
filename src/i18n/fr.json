@@ -662,6 +662,26 @@
       "otomasyonCard": {
         "title": "Automatisation des Processus à Ankara : Boostez l'Efficacité avec RPA + IA [2026]",
         "desc": "Automatisez vos processus de facturation, documents et saisie de données. Exemples ROI concrets et guide des coûts."
+      },
+      "istanbulCard": {
+        "title": "Solutions IA à Istanbul : Guide Entreprise [2026]",
+        "desc": "Guide chatbot, intégration LLM, automatisation et analyse de données pour les entreprises d'Istanbul."
+      },
+      "izmirCard": {
+        "title": "Solutions IA à Izmir : Guide Entreprise [2026]",
+        "desc": "Guide IA pour les entreprises d'Izmir : chatbot, LLM et automatisation."
+      },
+      "bursaCard": {
+        "title": "Solutions IA à Bursa : Guide Entreprise [2026]",
+        "desc": "Guide IA pour les entreprises de Bursa."
+      },
+      "antalyaCard": {
+        "title": "Solutions IA à Antalya : Guide Entreprise [2026]",
+        "desc": "Guide IA pour les entreprises d'Antalya."
+      },
+      "konyaCard": {
+        "title": "Solutions IA à Konya : Guide Entreprise [2026]",
+        "desc": "Guide IA pour les entreprises de Konya."
       }
     },
     "posts": {
@@ -684,6 +704,31 @@
         "tag": "📱 Développement Mobile",
         "title": "Développement d'applications mobiles [2026]",
         "breadcrumb": "Développement mobile 2026"
+      },
+      "istanbul": {
+        "tag": "🤖 Intelligence Artificielle",
+        "title": "Solutions IA à Istanbul : Guide Entreprise [2026]",
+        "breadcrumb": "IA Istanbul"
+      },
+      "izmir": {
+        "tag": "🤖 Intelligence Artificielle",
+        "title": "Solutions IA à Izmir : Guide Entreprise [2026]",
+        "breadcrumb": "IA Izmir"
+      },
+      "bursa": {
+        "tag": "🤖 Intelligence Artificielle",
+        "title": "Solutions IA à Bursa : Guide Entreprise [2026]",
+        "breadcrumb": "IA Bursa"
+      },
+      "antalya": {
+        "tag": "🤖 Intelligence Artificielle",
+        "title": "Solutions IA à Antalya : Guide Entreprise [2026]",
+        "breadcrumb": "IA Antalya"
+      },
+      "konya": {
+        "tag": "🤖 Intelligence Artificielle",
+        "title": "Solutions IA à Konya : Guide Entreprise [2026]",
+        "breadcrumb": "IA Konya"
       }
     },
     "breadcrumb": {
@@ -697,7 +742,8 @@
       "read7": "7 min de lecture",
       "read9": "9 min de lecture",
       "date2": "14 juin 2026",
-      "read11": "11 min de lecture"
+      "read11": "11 min de lecture",
+      "date3": "15 juin 2026"
     },
     "footer": {
       "copyright": "© 2026 Ozturksoft — Ankara, Turquie. Tous droits réservés."
@@ -737,6 +783,31 @@
         "title": "Quel processus est prêt pour l'automatisation?",
         "desc": "Notre équipe basée à Ankara analyse vos processus métier et crée une feuille de route d'automatisation pour le ROI le plus élevé.",
         "btn": "Analyse gratuite"
+      },
+      "istanbul": {
+        "title": "Parlons de votre projet IA à Istanbul",
+        "desc": "Demandez une réunion gratuite pour vos projets chatbot, LLM et automatisation.",
+        "btn": "Devis gratuit"
+      },
+      "izmir": {
+        "title": "Parlons de votre projet IA à Izmir",
+        "desc": "Demandez une réunion gratuite.",
+        "btn": "Devis gratuit"
+      },
+      "bursa": {
+        "title": "Projet IA à Bursa",
+        "desc": "Réunion gratuite.",
+        "btn": "Devis gratuit"
+      },
+      "antalya": {
+        "title": "Projet IA à Antalya",
+        "desc": "Réunion gratuite.",
+        "btn": "Devis gratuit"
+      },
+      "konya": {
+        "title": "Projet IA à Konya",
+        "desc": "Réunion gratuite.",
+        "btn": "Devis gratuit"
       }
     }
   }
