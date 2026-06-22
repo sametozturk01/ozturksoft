@@ -18,6 +18,14 @@ export default defineConfig({
         blogQaTest: resolve(__dirname, 'blog/qa-test-nedir-yazilim-kalite-guvencesi.html'),
         blogMobilUygulama: resolve(__dirname, 'blog/mobil-uygulama-gelistirme-rehberi-2026.html'),
         blogChatbot: resolve(__dirname, 'blog/ankara-chatbot-gelistirme-2026.html'),
+        blogAnkaraSecim: resolve(__dirname, 'blog/ankara-yazilim-sirketi-nasil-secilir-2026.html'),
+        blogEticaret: resolve(__dirname, 'blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026.html'),
+        blogWhatsapp: resolve(__dirname, 'blog/whatsapp-chatbot-isletme-rehberi-2026.html'),
+        blogOzelYazilim: resolve(__dirname, 'blog/ozel-yazilim-gelistirme-nedir-rehberi.html'),
+        blogMobilMaliyet: resolve(__dirname, 'blog/mobil-uygulama-maliyeti-2026.html'),
+        blogKurumsalWeb: resolve(__dirname, 'blog/kurumsal-web-sitesi-yaptirmak-rehberi-2026.html'),
+        blogAiDanismanlik: resolve(__dirname, 'blog/yapay-zeka-danismanligi-isletmeler-rehberi-2026.html'),
+        blogCrmErp: resolve(__dirname, 'blog/crm-erp-entegrasyonu-rehberi-2026.html'),
         blogLlm: resolve(__dirname, 'blog/llm-gpt-entegrasyonu-rehberi.html'),
         blogOtomasyon: resolve(__dirname, 'blog/ankara-surec-otomasyonu-rpa-yapay-zeka.html'),
         blogIstanbul: resolve(__dirname, 'blog/istanbul-yapay-zeka-cozumleri-rehberi.html'),
@@ -25,6 +33,8 @@ export default defineConfig({
         blogBursa: resolve(__dirname, 'blog/bursa-yapay-zeka-cozumleri-rehberi.html'),
         blogAntalya: resolve(__dirname, 'blog/antalya-yapay-zeka-cozumleri-rehberi.html'),
         blogKonya: resolve(__dirname, 'blog/konya-yapay-zeka-cozumleri-rehberi.html'),
+        blogSeo: resolve(__dirname, 'blog/seo-nedir-onemi-rehberi-2026.html'),
+        blogGeo: resolve(__dirname, 'blog/geo-nedir-generative-engine-optimization-rehberi-2026.html'),
         // Language pages are standalone static HTML, not Vite entry points
         // They are served as-is by the server (Vercel cleanUrls handles /en → en.html)
       }

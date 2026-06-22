@@ -42,6 +42,10 @@
       "uiux": {
         "title": "UI/UX Tasarımı",
         "desc": "Estetikle fonksiyonelliği birleştirerek, markanızın dijital kimliğini güçlendiren kullanıcı deneyimleri kurguluyoruz."
+      },
+      "seoGeo": {
+        "title": "SEO & GEO Optimizasyonu",
+        "desc": "Google organik sıralama ve ChatGPT, Perplexity gibi AI arama motorlarında markanızın görünürlüğünü artırıyoruz."
       }
     }
   },
@@ -141,7 +145,7 @@
     "story": {
       "title1": "Mühendislik Tutkusuyla",
       "title2": "Başlayan Yolculuk",
-      "p1": "Ozturksoft, kurucumuz <strong>Samet ÖZTÜRK</strong>'ün \"sürdürülebilir mimari, hatasız mühendislik ve temiz kod\" vizyonu doğrultusunda Ankara merkezli bir teknoloji şirketi olarak hayata geçmiştir. Kuruluş felsefemizin merkezinde; işletmelerin giderek karmaşıklaşan iş süreçlerini, uçtan uca optimize edilmiş ve global standartlarda dijital deneyimlere dönüştürme hedefi yer almaktadır. Bizim için yazılım, yalnızca anlık ihtiyaçları çözen bir araç değil; şirketlerin gelecekteki büyüme stratejilerini taşıyacak sağlam bir ekosistemdir.",
+      "p1": "Ozturksoft, kurucularımız <strong>Samet ÖZTÜRK</strong> ve <strong>Yusuf ÖZTÜRK</strong>'ün \"sürdürülebilir mimari, hatasız mühendislik ve temiz kod\" vizyonu doğrultusunda Ankara merkezli bir teknoloji şirketi olarak hayata geçmiştir. Kuruluş felsefemizin merkezinde; işletmelerin giderek karmaşıklaşan iş süreçlerini, uçtan uca optimize edilmiş ve global standartlarda dijital deneyimlere dönüştürme hedefi yer almaktadır. Bizim için yazılım, yalnızca anlık ihtiyaçları çözen bir araç değil; şirketlerin gelecekteki büyüme stratejilerini taşıyacak sağlam bir ekosistemdir.",
       "p2": "Bugün, <strong>modern uygulama geliştirme standartları</strong> ve <strong>yüksek performanslı sistem mimarilerindeki</strong> derin uzmanlığımızla, projeleri sadece \"çalışan sistemler\" olarak değil; yüksek trafik altında stabilite sunan, ölçeklenebilir ve \"geleceğe hazır\" dijital varlıklar olarak konumlandırıyoruz. Tip güvenlikli yazılım dilleri ve çevik metodolojilerle harmanladığımız süreçlerimiz sayesinde, iş ortaklarımıza en düşük risk ve en yüksek verimlilikle dijital dönüşüm imkanı sağlıyoruz."
     },
     "qa": {
@@ -230,6 +234,16 @@
       "ui": {
         "title": "UI/UX Tasarımı",
         "desc": "Kullanıcı odaklı, estetik ve fonksiyonel arayüz tasarımları. Markanızın dijital kimliğini güçlendiren deneyimler."
+      },
+      "seoGeo": {
+        "title": "SEO & GEO Optimizasyonu",
+        "desc": "Teknik SEO, içerik stratejisi ve Generative Engine Optimization ile Google ve AI arama motorlarında üst sıralara çıkın.",
+        "list1": "Teknik SEO & Core Web Vitals",
+        "list2": "Schema Markup, Sitemap & hreflang",
+        "list3": "GEO: ChatGPT, Perplexity & AI Overviews",
+        "list4": "Anahtar Kelime Odaklı Blog Stratejisi",
+        "linkSeo": "SEO rehberi →",
+        "linkGeo": "GEO rehberi →"
       }
     },
     "ai": {
@@ -627,17 +641,44 @@
       "title": "Yazılım, AI ve Dijital Dönüşüm Rehberleri",
       "desc": "Ankara'dan Türkiye'ye: Teknik SEO, yapay zeka entegrasyonu, QA test ve mobil uygulama geliştirme üzerine derinlemesine rehberler."
     },
+    "ankaraHub": {
+      "title": "📍 Ankara Yazılım & Yapay Zeka Rehberleri",
+      "desc": "Ankara'da yazılım şirketi arayanlar için maliyet, chatbot, otomasyon ve firma seçimi üzerine derinlemesine içerikler.",
+      "linkSecim": "Yazılım şirketi nasıl seçilir? →",
+      "linkWeb": "Web sitesi maliyeti",
+      "linkChatbot": "Chatbot rehberi",
+      "linkOtomasyon": "Süreç otomasyonu"
+    },
     "tags": {
       "webDesign": "Web Tasarım",
       "ai": "Yapay Zeka",
       "qa": "QA & Test",
-      "mobile": "Mobil"
+      "mobile": "Mobil",
+      "ecommerce": "E-Ticaret",
+      "seo": "SEO",
+      "geo": "GEO"
     },
     "cards": {
       "readMore": "Devamını Oku",
       "web": {
         "title": "Ankara'da Web Sitesi Yaptırma Maliyeti ve Fiyatları [2026]",
         "desc": "Kurumsal web sitesi, e-ticaret ve landing page fiyatları neden bu kadar değişken? Ankara'da gerçekçi maliyet analizi."
+      },
+      "ankaraSecimCard": {
+        "title": "Ankara'da Yazılım Şirketi Nasıl Seçilir? [2026 Rehberi]",
+        "desc": "Teklif karşılaştırması, kırmızı bayraklar, KVKK ve yapay zeka deneyimi. Ankara'da doğru yazılım partnerini bulmak için pratik kontrol listesi."
+      },
+      "eticaretCard": {
+        "title": "E-Ticaret Sitesi Yaptırmak: Maliyet ve Fiyat Rehberi [2026]",
+        "desc": "Online mağaza fiyatları, WooCommerce vs özel yazılım, ödeme ve kargo entegrasyonu maliyetleri."
+      },
+      "ozelYazilimCard": {
+        "title": "Özel Yazılım Geliştirme Nedir? Avantajları ve Maliyet [2026]",
+        "desc": "Hazır yazılım mı özel yazılım mı? Süreç, maliyet aralıkları ve ne zaman tercih edilir."
+      },
+      "whatsappCard": {
+        "title": "WhatsApp Chatbot: Kurulum, API ve Maliyet Rehberi [2026]",
+        "desc": "WhatsApp Business API, GPT entegrasyonu ve işletmeler için otomasyon maliyetleri."
       },
       "aiCard": {
         "title": "Yapay Zeka (AI) Entegrasyonu: İşletmenizi Geleceğe Taşıyın",
@@ -682,6 +723,30 @@
       "konyaCard": {
         "title": "Konya'da Yapay Zeka Çözümleri: İşletmeniz İçin AI Rehberi [2026]",
         "desc": "Konya'daki işletmeler için chatbot, LLM entegrasyonu, süreç otomasyonu ve veri analitiği rehberi."
+      },
+      "mobilMaliyetCard": {
+        "title": "Mobil Uygulama Yaptırmak: Maliyet ve Fiyat Rehberi [2026]",
+        "desc": "iOS, Android ve Flutter maliyetleri. MVP bütçesi ve teknoloji karşılaştırması."
+      },
+      "kurumsalWebCard": {
+        "title": "Kurumsal Web Sitesi Yaptırmak: Maliyet ve Rehber [2026]",
+        "desc": "SEO, CMS, çoklu dil ve KVKK uyumlu kurumsal site fiyatları."
+      },
+      "aiDanismanlikCard": {
+        "title": "Yapay Zeka Danışmanlığı: İşletmeler İçin AI Stratejisi [2026]",
+        "desc": "ROI analizi, chatbot, otomasyon ve LLM entegrasyonu yol haritası."
+      },
+      "crmErpCard": {
+        "title": "CRM ve ERP Entegrasyonu: Maliyet ve Yazılım Rehberi [2026]",
+        "desc": "Logo, Netsis, Salesforce API entegrasyonu ve maliyet analizi."
+      },
+      "seoCard": {
+        "title": "SEO Nedir? Arama Motoru Optimizasyonunun Önemi [2026]",
+        "desc": "Teknik SEO, içerik stratejisi, Core Web Vitals ve Google sıralaması için kapsamlı rehber."
+      },
+      "geoCard": {
+        "title": "GEO Nedir? Generative Engine Optimization Rehberi [2026]",
+        "desc": "ChatGPT, Perplexity ve AI arama motorlarında görünürlük stratejisi."
       }
     },
     "posts": {
@@ -689,6 +754,26 @@
         "tag": "🌐 Web Tasarım",
         "title": "Ankara'da Web Sitesi Yaptırma Maliyeti ve Fiyatları [2026]",
         "breadcrumb": "Web Sitesi Maliyeti 2026"
+      },
+      "ankaraSecim": {
+        "tag": "🏢 Ankara",
+        "title": "Ankara'da Yazılım Şirketi Nasıl Seçilir? [2026 Rehberi]",
+        "breadcrumb": "Yazılım Şirketi Seçimi"
+      },
+      "eticaret": {
+        "tag": "🛒 E-Ticaret",
+        "title": "E-Ticaret Sitesi Yaptırmak: Maliyet ve Fiyat Rehberi [2026]",
+        "breadcrumb": "E-Ticaret Maliyeti"
+      },
+      "ozelYazilim": {
+        "tag": "⚙️ Yazılım",
+        "title": "Özel Yazılım Geliştirme Nedir? Avantajları, Maliyet ve Süreç [2026]",
+        "breadcrumb": "Özel Yazılım"
+      },
+      "whatsapp": {
+        "tag": "💬 WhatsApp",
+        "title": "WhatsApp Chatbot: İşletmeler İçin Kurulum, Maliyet ve API Rehberi [2026]",
+        "breadcrumb": "WhatsApp Chatbot"
       },
       "ai": {
         "tag": "🤖 Yapay Zeka",
@@ -729,6 +814,36 @@
         "tag": "🤖 Yapay Zeka",
         "title": "Konya'da Yapay Zeka Çözümleri: İşletmeniz İçin AI Rehberi [2026]",
         "breadcrumb": "Konya Yapay Zeka"
+      },
+      "mobilMaliyet": {
+        "tag": "📱 Mobil",
+        "title": "Mobil Uygulama Yaptırmak: Maliyet ve Fiyat Rehberi [2026]",
+        "breadcrumb": "Mobil Uygulama Maliyeti"
+      },
+      "kurumsalWeb": {
+        "tag": "🌐 Web Tasarım",
+        "title": "Kurumsal Web Sitesi Yaptırmak: Maliyet, Özellikler ve Rehber [2026]",
+        "breadcrumb": "Kurumsal Web Sitesi"
+      },
+      "aiDanismanlik": {
+        "tag": "🤖 Yapay Zeka",
+        "title": "Yapay Zeka Danışmanlığı: İşletmeler İçin AI Stratejisi ve Uygulama [2026]",
+        "breadcrumb": "Yapay Zeka Danışmanlığı"
+      },
+      "crmErp": {
+        "tag": "⚙️ Yazılım",
+        "title": "CRM ve ERP Entegrasyonu: Maliyet, Süreç ve Yazılım Rehberi [2026]",
+        "breadcrumb": "CRM ERP Entegrasyonu"
+      },
+      "seo": {
+        "tag": "🔍 SEO",
+        "title": "SEO Nedir? Arama Motoru Optimizasyonunun Önemi [2026]",
+        "breadcrumb": "SEO Nedir?"
+      },
+      "geo": {
+        "tag": "🤖 GEO",
+        "title": "GEO Nedir? Generative Engine Optimization Rehberi [2026]",
+        "breadcrumb": "GEO Nedir?"
       }
     },
     "breadcrumb": {
@@ -743,7 +858,9 @@
       "read9": "9 dk okuma",
       "date2": "14 Haziran 2026",
       "read11": "11 dk okuma",
-      "date3": "15 Haziran 2026"
+      "date3": "15 Haziran 2026",
+      "date4": "15 Haziran 2026",
+      "date5": "22 Haziran 2026"
     },
     "footer": {
       "copyright": "© 2026 Ozturksoft — Ankara, Türkiye. Tüm hakları saklıdır."
@@ -773,6 +890,26 @@
         "title": "Ankara'da Chatbot Projenizi Konuşalım",
         "desc": "İşletmeniz için en uygun chatbot mimarisini belirlemek üzere ücretsiz keşif görüşmesi talep edin.",
         "btn": "Ücretsiz Teklif Al"
+      },
+      "ankaraSecim": {
+        "title": "Doğru Yazılım Partnerini Birlikte Bulalım",
+        "desc": "Projenizi anlatın — kapsam, bütçe ve teknoloji seçimlerinizi değerlendirmek için ücretsiz danışmanlık sunuyoruz.",
+        "btn": "Ücretsiz Danışmanlık"
+      },
+      "eticaret": {
+        "title": "E-Ticaret Projeniz İçin Teklif Alın",
+        "desc": "Ürün sayınız, entegrasyon ihtiyaçlarınız ve bütçenize göre özel e-ticaret teklifi hazırlıyoruz.",
+        "btn": "Ücretsiz Teklif Al"
+      },
+      "whatsapp": {
+        "title": "WhatsApp Chatbot Projenizi Planlayalım",
+        "desc": "API kurulumu, GPT entegrasyonu ve CRM bağlantısı dahil tam kapsamlı teklif.",
+        "btn": "Ücretsiz Teklif Al"
+      },
+      "ozelYazilim": {
+        "title": "Özel Yazılım Projenizi Konuşalım",
+        "desc": "İhtiyaç analizinden mimariye kadar ücretsiz keşif görüşmesi sunuyoruz.",
+        "btn": "Ücretsiz Danışmanlık"
       },
       "llm": {
         "title": "İşletmenize Yapay Zeka Getirelim",
@@ -808,6 +945,36 @@
         "title": "Konya İçin Yapay Zeka Projenizi Konuşalım",
         "desc": "Chatbot, LLM entegrasyonu ve süreç otomasyonu projeleriniz için ücretsiz keşif görüşmesi talep edin.",
         "btn": "Ücretsiz Teklif Al"
+      },
+      "mobilMaliyet": {
+        "title": "Mobil Uygulama Teklifi Alın",
+        "desc": "Flutter veya native — özelliklerinize göre özel teklif.",
+        "btn": "Ücretsiz Teklif Al"
+      },
+      "kurumsalWeb": {
+        "title": "Kurumsal Web Sitesi Teklifi",
+        "desc": "Markanıza özel, SEO uyumlu kurumsal site.",
+        "btn": "Ücretsiz Teklif Al"
+      },
+      "aiDanismanlik": {
+        "title": "Ücretsiz AI Danışmanlık Görüşmesi",
+        "desc": "Süreçlerinizi analiz edip size özel AI yol haritası çıkarıyoruz.",
+        "btn": "Görüşme Talep Et"
+      },
+      "crmErp": {
+        "title": "CRM / ERP Entegrasyon Teklifi",
+        "desc": "Mevcut sistemlerinizi güvenli API'lerle bağlıyoruz.",
+        "btn": "Ücretsiz Analiz"
+      },
+      "seo": {
+        "title": "SEO Uyumlu Web Sitesi ve İçerik Stratejisi",
+        "desc": "Teknik SEO, hız optimizasyonu ve anahtar kelime odaklı blog stratejisi için ücretsiz analiz alın.",
+        "btn": "Ücretsiz SEO Analizi"
+      },
+      "geo": {
+        "title": "GEO ve AI Görünürlük Stratejinizi Planlayalım",
+        "desc": "ChatGPT ve AI arama motorlarında markanızın önerilmesi için ücretsiz GEO analizi.",
+        "btn": "Ücretsiz GEO Analizi"
       }
     }
   }

@@ -42,6 +42,10 @@
       "uiux": {
         "title": "UI/UX Design",
         "desc": "We design user experiences that strengthen your brand's digital identity by combining aesthetics with functionality."
+      },
+      "seoGeo": {
+        "title": "SEO & GEO Optimization",
+        "desc": "We boost your visibility in Google organic search and AI engines like ChatGPT and Perplexity."
       }
     }
   },
@@ -141,7 +145,7 @@
     "story": {
       "title1": "A Journey Born of",
       "title2": "Engineering Passion",
-      "p1": "Ozturksoft was founded in Ankara as a tech company in line with our founder <strong>Samet OZTURK</strong>'s vision of \"sustainable architecture, flawless engineering, and clean code\". At the core of our founding philosophy lies the goal of transforming businesses' increasingly complex processes into end-to-end optimized, global-standard digital experiences. For us, software is not just a tool that solves immediate needs; it is a robust ecosystem that will carry the future growth strategies of companies.",
+      "p1": "Ozturksoft was founded in Ankara as a tech company in line with our founders <strong>Samet OZTURK</strong> and <strong>Yusuf OZTURK</strong>'s vision of \"sustainable architecture, flawless engineering, and clean code\". At the core of our founding philosophy lies the goal of transforming businesses' increasingly complex processes into end-to-end optimized, global-standard digital experiences. For us, software is not just a tool that solves immediate needs; it is a robust ecosystem that will carry the future growth strategies of companies.",
       "p2": "Today, with our deep expertise in <strong>modern application development standards</strong> and <strong>high-performance system architectures</strong>, we position projects not just as \"working systems\"; but as scalable, \"future-ready\" digital assets that provide stability under high traffic. Through our processes blended with type-safe programming languages and agile methodologies, we provide our business partners with digital transformation opportunities with the lowest risk and highest efficiency."
     },
     "qa": {
@@ -230,6 +234,16 @@
       "ui": {
         "title": "UI/UX Design",
         "desc": "User-centric, aesthetic, and functional interface designs. Experiences that strengthen your brand's digital identity."
+      },
+      "seoGeo": {
+        "title": "SEO & GEO Optimization",
+        "desc": "Technical SEO, content strategy and Generative Engine Optimization for Google and AI search visibility.",
+        "list1": "Technical SEO & Core Web Vitals",
+        "list2": "Schema markup, sitemap & hreflang",
+        "list3": "GEO: ChatGPT, Perplexity & AI Overviews",
+        "list4": "Keyword-focused blog strategy",
+        "linkSeo": "SEO guide →",
+        "linkGeo": "GEO guide →"
       }
     },
     "ai": {
@@ -627,17 +641,44 @@
       "title": "Software, AI & Digital Transformation Guides",
       "desc": "From Ankara to Turkey: In-depth guides on technical SEO, AI integration, QA testing and mobile app development."
     },
+    "ankaraHub": {
+      "title": "📍 Ankara Software & AI Guides",
+      "desc": "In-depth content on costs, chatbots, automation and choosing the right software partner in Ankara.",
+      "linkSecim": "How to choose a software company? →",
+      "linkWeb": "Website cost guide",
+      "linkChatbot": "Chatbot guide",
+      "linkOtomasyon": "Process automation"
+    },
     "tags": {
       "webDesign": "Web Design",
       "ai": "Artificial Intelligence",
       "qa": "QA & Testing",
-      "mobile": "Mobile"
+      "mobile": "Mobile",
+      "ecommerce": "E-Commerce",
+      "seo": "SEO",
+      "geo": "GEO"
     },
     "cards": {
       "readMore": "Read More",
       "web": {
         "title": "Website Development Cost & Pricing in Ankara [2026]",
         "desc": "Why do corporate website, e-commerce and landing page prices vary so much? Realistic cost analysis in Ankara."
+      },
+      "ankaraSecimCard": {
+        "title": "How to Choose a Software Company in Ankara [2026 Guide]",
+        "desc": "Quote comparison, red flags, GDPR/KVKK and AI experience. A practical checklist for finding the right software partner in Ankara."
+      },
+      "eticaretCard": {
+        "title": "E-Commerce Website Cost & Pricing Guide [2026]",
+        "desc": "Online store prices, WooCommerce vs custom software, payment and shipping integration costs."
+      },
+      "ozelYazilimCard": {
+        "title": "What Is Custom Software Development? Benefits & Cost [2026]",
+        "desc": "Off-the-shelf vs custom software — process, cost ranges and when to choose each."
+      },
+      "whatsappCard": {
+        "title": "WhatsApp Chatbot: Setup, API & Cost Guide [2026]",
+        "desc": "WhatsApp Business API, GPT integration and automation costs for businesses."
       },
       "aiCard": {
         "title": "AI Integration: Take Your Business Into the Future",
@@ -682,6 +723,30 @@
       "konyaCard": {
         "title": "AI Solutions in Konya: Business Guide [2026]",
         "desc": "AI guide for Konya businesses: chatbot, LLM and automation."
+      },
+      "mobilMaliyetCard": {
+        "title": "Mobile App Development Cost Guide [2026]",
+        "desc": "iOS, Android and Flutter costs. MVP budget and technology comparison."
+      },
+      "kurumsalWebCard": {
+        "title": "Corporate Website: Cost & Guide [2026]",
+        "desc": "SEO, CMS, multi-language and KVKK-compliant corporate site pricing."
+      },
+      "aiDanismanlikCard": {
+        "title": "AI Consulting for Businesses [2026]",
+        "desc": "ROI analysis, chatbot, automation and LLM integration roadmap."
+      },
+      "crmErpCard": {
+        "title": "CRM & ERP Integration Guide [2026]",
+        "desc": "Logo, Netsis, Salesforce API integration and cost analysis."
+      },
+      "seoCard": {
+        "title": "What Is SEO? Search Engine Optimization Guide [2026]",
+        "desc": "Technical SEO, content strategy, Core Web Vitals and Google ranking — complete guide."
+      },
+      "geoCard": {
+        "title": "What Is GEO? Generative Engine Optimization Guide [2026]",
+        "desc": "Visibility strategy for ChatGPT, Perplexity and AI search engines."
       }
     },
     "posts": {
@@ -689,6 +754,26 @@
         "tag": "🌐 Web Design",
         "title": "Website Development Cost and Pricing in Ankara [2026]",
         "breadcrumb": "Website Cost 2026"
+      },
+      "ankaraSecim": {
+        "tag": "🏢 Ankara",
+        "title": "How to Choose a Software Company in Ankara [2026 Guide]",
+        "breadcrumb": "Choosing a Software Company"
+      },
+      "eticaret": {
+        "tag": "🛒 E-Commerce",
+        "title": "Building an E-Commerce Website: Cost & Pricing Guide [2026]",
+        "breadcrumb": "E-Commerce Cost"
+      },
+      "ozelYazilim": {
+        "tag": "⚙️ Software",
+        "title": "What Is Custom Software Development? Benefits, Cost & Process [2026]",
+        "breadcrumb": "Custom Software"
+      },
+      "whatsapp": {
+        "tag": "💬 WhatsApp",
+        "title": "WhatsApp Chatbot for Business: Setup, Cost & API Guide [2026]",
+        "breadcrumb": "WhatsApp Chatbot"
       },
       "ai": {
         "tag": "🤖 Artificial Intelligence",
@@ -729,6 +814,36 @@
         "tag": "🤖 Artificial Intelligence",
         "title": "AI Solutions in Konya: Business Guide [2026]",
         "breadcrumb": "Konya AI"
+      },
+      "mobilMaliyet": {
+        "tag": "📱 Mobile",
+        "title": "Mobile App Development Cost Guide [2026]",
+        "breadcrumb": "Mobile App Cost"
+      },
+      "kurumsalWeb": {
+        "tag": "🌐 Web Design",
+        "title": "Corporate Website: Cost, Features & Guide [2026]",
+        "breadcrumb": "Corporate Website"
+      },
+      "aiDanismanlik": {
+        "tag": "🤖 AI",
+        "title": "AI Consulting: Business Strategy & Implementation [2026]",
+        "breadcrumb": "AI Consulting"
+      },
+      "crmErp": {
+        "tag": "⚙️ Software",
+        "title": "CRM & ERP Integration: Cost, Process & Guide [2026]",
+        "breadcrumb": "CRM ERP Integration"
+      },
+      "seo": {
+        "tag": "🔍 SEO",
+        "title": "What Is SEO? Search Engine Optimization Guide [2026]",
+        "breadcrumb": "What Is SEO?"
+      },
+      "geo": {
+        "tag": "🤖 GEO",
+        "title": "What Is GEO? Generative Engine Optimization Guide [2026]",
+        "breadcrumb": "What Is GEO?"
       }
     },
     "breadcrumb": {
@@ -743,7 +858,9 @@
       "read9": "9 min read",
       "date2": "June 14, 2026",
       "read11": "11 min read",
-      "date3": "June 15, 2026"
+      "date3": "June 15, 2026",
+      "date4": "June 15, 2026",
+      "date5": "June 22, 2026"
     },
     "footer": {
       "copyright": "© 2026 Ozturksoft — Ankara, Turkey. All rights reserved."
@@ -773,6 +890,26 @@
         "title": "Let's Discuss Your Chatbot Project in Ankara",
         "desc": "Request a free discovery meeting to determine the most suitable chatbot architecture for your business.",
         "btn": "Get a Free Quote"
+      },
+      "ankaraSecim": {
+        "title": "Need Help Choosing the Right Partner?",
+        "desc": "Tell us about your project — we'll help you evaluate scope, budget and technology choices with a free consultation.",
+        "btn": "Free Consultation"
+      },
+      "eticaret": {
+        "title": "Get a Quote for Your E-Commerce Project",
+        "desc": "We'll prepare a custom e-commerce proposal based on your product count, integrations and budget.",
+        "btn": "Get a Free Quote"
+      },
+      "whatsapp": {
+        "title": "Let's Plan Your WhatsApp Chatbot",
+        "desc": "Full proposal including API setup, GPT integration and CRM connection.",
+        "btn": "Get a Free Quote"
+      },
+      "ozelYazilim": {
+        "title": "Let's Discuss Your Custom Software Project",
+        "desc": "Free discovery meeting from needs analysis to architecture.",
+        "btn": "Free Consultation"
       },
       "llm": {
         "title": "Bring AI to Your Business",
@@ -808,6 +945,36 @@
         "title": "Let's Discuss Your AI Project in Konya",
         "desc": "Request a free discovery meeting.",
         "btn": "Get a Free Quote"
+      },
+      "mobilMaliyet": {
+        "title": "Get a Mobile App Quote",
+        "desc": "Flutter or native — proposal based on your features.",
+        "btn": "Free Quote"
+      },
+      "kurumsalWeb": {
+        "title": "Corporate Website Quote",
+        "desc": "SEO-ready corporate site for your brand.",
+        "btn": "Free Quote"
+      },
+      "aiDanismanlik": {
+        "title": "Free AI Consulting Session",
+        "desc": "We map your processes and propose an AI roadmap.",
+        "btn": "Book Free Session"
+      },
+      "crmErp": {
+        "title": "CRM / ERP Integration Quote",
+        "desc": "We connect your systems with secure APIs.",
+        "btn": "Free Analysis"
+      },
+      "seo": {
+        "title": "SEO-Ready Website & Content Strategy",
+        "desc": "Free analysis for technical SEO, speed optimization and keyword strategy.",
+        "btn": "Free SEO Analysis"
+      },
+      "geo": {
+        "title": "Plan Your GEO & AI Visibility Strategy",
+        "desc": "Free GEO analysis to get your brand recommended in ChatGPT and AI search.",
+        "btn": "Free GEO Analysis"
       }
     }
   }

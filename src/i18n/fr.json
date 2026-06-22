@@ -42,6 +42,10 @@
       "uiux": {
         "title": "Design UI/UX",
         "desc": "Nous concevons des expériences utilisateur qui renforcent l'identité numérique de votre marque en combinant esthétique et fonctionnalité."
+      },
+      "seoGeo": {
+        "title": "Optimisation SEO & GEO",
+        "desc": "Visibilité sur Google et les moteurs IA comme ChatGPT et Perplexity."
       }
     }
   },
@@ -141,7 +145,7 @@
     "story": {
       "title1": "Un voyage né de",
       "title2": "la passion pour l'ingénierie",
-      "p1": "Ozturksoft a été fondée à Ankara en tant qu'entreprise technologique, conformément à la vision de notre fondateur <strong>Samet OZTURK</strong> d'une 'architecture durable, d'un engineering sans faille et d'un code propre'.",
+      "p1": "Ozturksoft a été fondée à Ankara en tant qu'entreprise technologique, conformément à la vision de nos fondateurs <strong>Samet OZTURK</strong> et <strong>Yusuf OZTURK</strong> d'une 'architecture durable, d'un engineering sans faille et d'un code propre'.",
       "p2": "Aujourd'hui, avec notre expertise approfondie dans les <strong>standards modernes de développement d'applications</strong> et les <strong>architectures système haute performance</strong>, nous positionnons les projets non seulement comme des 'systèmes fonctionnels', mais comme des actifs numériques évolutifs et 'prêts pour l'avenir'."
     },
     "qa": {
@@ -230,6 +234,16 @@
       "ui": {
         "title": "Design UI/UX",
         "desc": "Designs d'interfaces centrés sur l'utilisateur, esthétiques et fonctionnels. Expériences qui renforcent l'identité numérique de votre marque."
+      },
+      "seoGeo": {
+        "title": "Optimisation SEO & GEO",
+        "desc": "SEO technique, stratégie de contenu et Generative Engine Optimization pour Google et la recherche IA.",
+        "list1": "SEO technique & Core Web Vitals",
+        "list2": "Schema markup, sitemap & hreflang",
+        "list3": "GEO : ChatGPT, Perplexity & AI Overviews",
+        "list4": "Stratégie de blog orientée mots-clés",
+        "linkSeo": "Guide SEO →",
+        "linkGeo": "Guide GEO →"
       }
     },
     "ai": {
@@ -627,17 +641,32 @@
       "title": "Guides sur les logiciels, l'IA & la transformation numérique",
       "desc": "D'Ankara à la France : guides approfondis sur le SEO technique, l'intégration IA, les tests QA et le développement d'applications mobiles."
     },
+    "ankaraHub": {
+      "title": "📍 Guides logiciels & IA à Ankara",
+      "desc": "Contenus approfondis sur les coûts, chatbots, automatisation et choix du bon partenaire logiciel à Ankara.",
+      "linkSecim": "Comment choisir une société logicielle ? →",
+      "linkWeb": "Coût site web",
+      "linkChatbot": "Guide chatbot",
+      "linkOtomasyon": "Automatisation des processus"
+    },
     "tags": {
       "webDesign": "Web Design",
       "ai": "Intelligence Artificielle",
       "qa": "QA & Tests",
-      "mobile": "Mobile"
+      "mobile": "Mobile",
+      "ecommerce": "E-Commerce",
+      "seo": "SEO",
+      "geo": "GEO"
     },
     "cards": {
       "readMore": "Lire la suite",
       "web": {
         "title": "Coût de développement de site web à Ankara [2026]",
         "desc": "Pourquoi les prix des sites web d'entreprise, e-commerce et landing pages varient-ils autant ? Analyse réaliste des coûts."
+      },
+      "ankaraSecimCard": {
+        "title": "Choisir une société logicielle à Ankara [2026]",
+        "desc": "Comparaison des devis et signaux d'alerte."
       },
       "aiCard": {
         "title": "Intégration IA : Propulsez votre entreprise vers l'avenir",
@@ -682,6 +711,42 @@
       "konyaCard": {
         "title": "Solutions IA à Konya : Guide Entreprise [2026]",
         "desc": "Guide IA pour les entreprises de Konya."
+      },
+      "mobilMaliyetCard": {
+        "title": "Coût développement application mobile [2026]",
+        "desc": "Coûts iOS, Android et Flutter. Budget MVP et comparaison."
+      },
+      "kurumsalWebCard": {
+        "title": "Site web corporate : coût & guide [2026]",
+        "desc": "SEO, CMS, multilingue et conformité KVKK."
+      },
+      "aiDanismanlikCard": {
+        "title": "Conseil IA pour entreprises [2026]",
+        "desc": "Analyse ROI, chatbot, automatisation et feuille de route LLM."
+      },
+      "crmErpCard": {
+        "title": "Intégration CRM & ERP : guide [2026]",
+        "desc": "Intégration API Logo, Netsis, Salesforce et coûts."
+      },
+      "eticaretCard": {
+        "title": "Site e-commerce : guide des coûts [2026]",
+        "desc": "Prix et intégrations."
+      },
+      "ozelYazilimCard": {
+        "title": "Qu'est-ce que le logiciel sur mesure ? [2026]",
+        "desc": "SaaS vs sur mesure."
+      },
+      "whatsappCard": {
+        "title": "Chatbot WhatsApp : API & coûts [2026]",
+        "desc": "API WhatsApp Business et GPT."
+      },
+      "seoCard": {
+        "title": "Qu'est-ce que le SEO ? Optimisation pour moteurs de recherche [2026]",
+        "desc": "SEO technique, stratégie de contenu et Core Web Vitals — guide complet."
+      },
+      "geoCard": {
+        "title": "Qu'est-ce que le GEO ? Generative Engine Optimization [2026]",
+        "desc": "Visibilité sur ChatGPT, Perplexity et moteurs de recherche IA."
       }
     },
     "posts": {
@@ -689,6 +754,11 @@
         "tag": "🌐 Web Design",
         "title": "Coût de développement de site web à Ankara [2026]",
         "breadcrumb": "Coût site web 2026"
+      },
+      "ankaraSecim": {
+        "tag": "🏢 Ankara",
+        "title": "Comment choisir une société logicielle à Ankara ? [Guide 2026]",
+        "breadcrumb": "Choisir une société logicielle"
       },
       "ai": {
         "tag": "🤖 Intelligence Artificielle",
@@ -729,6 +799,51 @@
         "tag": "🤖 Intelligence Artificielle",
         "title": "Solutions IA à Konya : Guide Entreprise [2026]",
         "breadcrumb": "IA Konya"
+      },
+      "mobilMaliyet": {
+        "tag": "📱 Mobile",
+        "title": "Coût application mobile [2026]",
+        "breadcrumb": "Coût application mobile"
+      },
+      "kurumsalWeb": {
+        "tag": "🌐 Web Design",
+        "title": "Site corporate : coût & guide [2026]",
+        "breadcrumb": "Site corporate"
+      },
+      "aiDanismanlik": {
+        "tag": "🤖 IA",
+        "title": "Conseil IA : stratégie & mise en œuvre [2026]",
+        "breadcrumb": "Conseil IA"
+      },
+      "crmErp": {
+        "tag": "⚙️ Logiciel",
+        "title": "Intégration CRM & ERP [2026]",
+        "breadcrumb": "Intégration CRM ERP"
+      },
+      "eticaret": {
+        "tag": "🛒 E-Commerce",
+        "title": "Site e-commerce : guide des coûts [2026]",
+        "breadcrumb": "Coût e-commerce"
+      },
+      "ozelYazilim": {
+        "tag": "⚙️ Logiciel",
+        "title": "Logiciel sur mesure : guide [2026]",
+        "breadcrumb": "Logiciel sur mesure"
+      },
+      "whatsapp": {
+        "tag": "💬 WhatsApp",
+        "title": "Chatbot WhatsApp : API & coûts [2026]",
+        "breadcrumb": "Chatbot WhatsApp"
+      },
+      "seo": {
+        "tag": "🔍 SEO",
+        "title": "Qu'est-ce que le SEO ? Guide d'optimisation [2026]",
+        "breadcrumb": "Qu'est-ce que le SEO ?"
+      },
+      "geo": {
+        "tag": "🤖 GEO",
+        "title": "Qu'est-ce que le GEO ? Guide Generative Engine Optimization [2026]",
+        "breadcrumb": "Qu'est-ce que le GEO ?"
       }
     },
     "breadcrumb": {
@@ -743,7 +858,9 @@
       "read9": "9 min de lecture",
       "date2": "14 juin 2026",
       "read11": "11 min de lecture",
-      "date3": "15 juin 2026"
+      "date3": "15 juin 2026",
+      "date4": "15 juin 2026",
+      "date5": "June 22, 2026"
     },
     "footer": {
       "copyright": "© 2026 Ozturksoft — Ankara, Turquie. Tous droits réservés."
@@ -808,6 +925,56 @@
         "title": "Projet IA à Konya",
         "desc": "Réunion gratuite.",
         "btn": "Devis gratuit"
+      },
+      "mobilMaliyet": {
+        "title": "Devis application mobile",
+        "desc": "Flutter ou native selon vos fonctionnalités.",
+        "btn": "Devis gratuit"
+      },
+      "kurumsalWeb": {
+        "title": "Devis site corporate",
+        "desc": "Site SEO pour votre marque.",
+        "btn": "Devis gratuit"
+      },
+      "aiDanismanlik": {
+        "title": "Consultation IA gratuite",
+        "desc": "Feuille de route IA personnalisée.",
+        "btn": "Réserver"
+      },
+      "crmErp": {
+        "title": "Devis intégration CRM/ERP",
+        "desc": "Connexion sécurisée de vos systèmes.",
+        "btn": "Analyse gratuite"
+      },
+      "ankaraSecim": {
+        "title": "Besoin d'aide pour choisir ?",
+        "desc": "Consultation gratuite.",
+        "btn": "Consultation gratuite"
+      },
+      "eticaret": {
+        "title": "Devis e-commerce",
+        "desc": "Proposition sur mesure.",
+        "btn": "Devis gratuit"
+      },
+      "whatsapp": {
+        "title": "Chatbot WhatsApp",
+        "desc": "API, GPT et CRM inclus.",
+        "btn": "Devis gratuit"
+      },
+      "ozelYazilim": {
+        "title": "Logiciel sur mesure",
+        "desc": "Découverte gratuite.",
+        "btn": "Consultation gratuite"
+      },
+      "seo": {
+        "title": "Site web optimisé SEO",
+        "desc": "Analyse gratuite pour le SEO technique et la stratégie de contenu.",
+        "btn": "Analyse SEO gratuite"
+      },
+      "geo": {
+        "title": "Planifiez votre stratégie GEO",
+        "desc": "Analyse GEO gratuite pour ChatGPT et la recherche IA.",
+        "btn": "Analyse GEO gratuite"
       }
     }
   }

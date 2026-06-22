@@ -67,6 +67,57 @@ import konyaFr from './i18n/articles/konya-fr.html?raw';
 import konyaAr from './i18n/articles/konya-ar.html?raw';
 import konyaRu from './i18n/articles/konya-ru.html?raw';
 
+import ankaraSecimEn from './i18n/articles/ankara-secim-en.html?raw';
+import ankaraSecimDe from './i18n/articles/ankara-secim-de.html?raw';
+import ankaraSecimFr from './i18n/articles/ankara-secim-fr.html?raw';
+import ankaraSecimAr from './i18n/articles/ankara-secim-ar.html?raw';
+import ankaraSecimRu from './i18n/articles/ankara-secim-ru.html?raw';
+import eticaretEn from './i18n/articles/eticaret-en.html?raw';
+import eticaretDe from './i18n/articles/eticaret-de.html?raw';
+import eticaretFr from './i18n/articles/eticaret-fr.html?raw';
+import eticaretAr from './i18n/articles/eticaret-ar.html?raw';
+import eticaretRu from './i18n/articles/eticaret-ru.html?raw';
+import whatsappEn from './i18n/articles/whatsapp-en.html?raw';
+import whatsappDe from './i18n/articles/whatsapp-de.html?raw';
+import whatsappFr from './i18n/articles/whatsapp-fr.html?raw';
+import whatsappAr from './i18n/articles/whatsapp-ar.html?raw';
+import whatsappRu from './i18n/articles/whatsapp-ru.html?raw';
+import ozelYazilimEn from './i18n/articles/ozel-yazilim-en.html?raw';
+import ozelYazilimDe from './i18n/articles/ozel-yazilim-de.html?raw';
+import ozelYazilimFr from './i18n/articles/ozel-yazilim-fr.html?raw';
+import ozelYazilimAr from './i18n/articles/ozel-yazilim-ar.html?raw';
+import ozelYazilimRu from './i18n/articles/ozel-yazilim-ru.html?raw';
+import mobilMaliyetEn from './i18n/articles/mobil-maliyet-en.html?raw';
+import mobilMaliyetDe from './i18n/articles/mobil-maliyet-de.html?raw';
+import mobilMaliyetFr from './i18n/articles/mobil-maliyet-fr.html?raw';
+import mobilMaliyetAr from './i18n/articles/mobil-maliyet-ar.html?raw';
+import mobilMaliyetRu from './i18n/articles/mobil-maliyet-ru.html?raw';
+import kurumsalWebEn from './i18n/articles/kurumsal-web-en.html?raw';
+import kurumsalWebDe from './i18n/articles/kurumsal-web-de.html?raw';
+import kurumsalWebFr from './i18n/articles/kurumsal-web-fr.html?raw';
+import kurumsalWebAr from './i18n/articles/kurumsal-web-ar.html?raw';
+import kurumsalWebRu from './i18n/articles/kurumsal-web-ru.html?raw';
+import aiDanismanlikEn from './i18n/articles/ai-danismanlik-en.html?raw';
+import aiDanismanlikDe from './i18n/articles/ai-danismanlik-de.html?raw';
+import aiDanismanlikFr from './i18n/articles/ai-danismanlik-fr.html?raw';
+import aiDanismanlikAr from './i18n/articles/ai-danismanlik-ar.html?raw';
+import aiDanismanlikRu from './i18n/articles/ai-danismanlik-ru.html?raw';
+import crmErpEn from './i18n/articles/crm-erp-en.html?raw';
+import crmErpDe from './i18n/articles/crm-erp-de.html?raw';
+import crmErpFr from './i18n/articles/crm-erp-fr.html?raw';
+import crmErpAr from './i18n/articles/crm-erp-ar.html?raw';
+import crmErpRu from './i18n/articles/crm-erp-ru.html?raw';
+import seoEn from './i18n/articles/seo-en.html?raw';
+import seoDe from './i18n/articles/seo-de.html?raw';
+import seoFr from './i18n/articles/seo-fr.html?raw';
+import seoAr from './i18n/articles/seo-ar.html?raw';
+import seoRu from './i18n/articles/seo-ru.html?raw';
+import geoEn from './i18n/articles/geo-en.html?raw';
+import geoDe from './i18n/articles/geo-de.html?raw';
+import geoFr from './i18n/articles/geo-fr.html?raw';
+import geoAr from './i18n/articles/geo-ar.html?raw';
+import geoRu from './i18n/articles/geo-ru.html?raw';
+
 const LANG_KEY = 'ozturksoft_lang';
 
 const LANG_META: Record<string, { flag: string; code: string }> = {
@@ -81,11 +132,11 @@ const LANG_META: Record<string, { flag: string; code: string }> = {
 // Article bodies indexed by [lang][articleKey]
 // Article bodies indexed by [lang][articleKey]
 const ARTICLE_BODIES: Record<string, Record<string, string>> = {
-    en: { web: webEn, ai: aiEn, qa: qaEn, mobile: mobileEn, chatbot: chatbotEn, llm: llmEn, otomasyon: otomasyonEn, istanbul: istanbulEn, izmir: izmirEn, bursa: bursaEn, antalya: antalyaEn, konya: konyaEn },
-    fr: { web: webFr, ai: aiFr, qa: qaFr, mobile: mobileFr, istanbul: istanbulFr, izmir: izmirFr, bursa: bursaFr, antalya: antalyaFr, konya: konyaFr },
-    de: { web: webDe, ai: aiDe, qa: qaDe, mobile: mobileDe, istanbul: istanbulDe, izmir: izmirDe, bursa: bursaDe, antalya: antalyaDe, konya: konyaDe },
-    ar: { web: webAr, ai: aiAr, qa: qaAr, mobile: mobileAr, chatbot: chatbotAr, llm: llmAr, otomasyon: otomasyonAr, istanbul: istanbulAr, izmir: izmirAr, bursa: bursaAr, antalya: antalyaAr, konya: konyaAr },
-    ru: { web: webRu, ai: aiRu, qa: qaRu, mobile: mobileRu, istanbul: istanbulRu, izmir: izmirRu, bursa: bursaRu, antalya: antalyaRu, konya: konyaRu },
+    en: { web: webEn, ai: aiEn, qa: qaEn, mobile: mobileEn, chatbot: chatbotEn, llm: llmEn, otomasyon: otomasyonEn, ankaraSecim: ankaraSecimEn, eticaret: eticaretEn, whatsapp: whatsappEn, ozelYazilim: ozelYazilimEn, mobilMaliyet: mobilMaliyetEn, kurumsalWeb: kurumsalWebEn, aiDanismanlik: aiDanismanlikEn, crmErp: crmErpEn, seo: seoEn, geo: geoEn, istanbul: istanbulEn, izmir: izmirEn, bursa: bursaEn, antalya: antalyaEn, konya: konyaEn },
+    de: { web: webDe, ai: aiDe, qa: qaDe, mobile: mobileDe, ankaraSecim: ankaraSecimDe, eticaret: eticaretDe, whatsapp: whatsappDe, ozelYazilim: ozelYazilimDe, mobilMaliyet: mobilMaliyetDe, kurumsalWeb: kurumsalWebDe, aiDanismanlik: aiDanismanlikDe, crmErp: crmErpDe, seo: seoDe, geo: geoDe, istanbul: istanbulDe, izmir: izmirDe, bursa: bursaDe, antalya: antalyaDe, konya: konyaDe },
+    fr: { web: webFr, ai: aiFr, qa: qaFr, mobile: mobileFr, ankaraSecim: ankaraSecimFr, eticaret: eticaretFr, whatsapp: whatsappFr, ozelYazilim: ozelYazilimFr, mobilMaliyet: mobilMaliyetFr, kurumsalWeb: kurumsalWebFr, aiDanismanlik: aiDanismanlikFr, crmErp: crmErpFr, seo: seoFr, geo: geoFr, istanbul: istanbulFr, izmir: izmirFr, bursa: bursaFr, antalya: antalyaFr, konya: konyaFr },
+    ar: { web: webAr, ai: aiAr, qa: qaAr, mobile: mobileAr, chatbot: chatbotAr, llm: llmAr, otomasyon: otomasyonAr, ankaraSecim: ankaraSecimAr, eticaret: eticaretAr, whatsapp: whatsappAr, ozelYazilim: ozelYazilimAr, mobilMaliyet: mobilMaliyetAr, kurumsalWeb: kurumsalWebAr, aiDanismanlik: aiDanismanlikAr, crmErp: crmErpAr, seo: seoAr, geo: geoAr, istanbul: istanbulAr, izmir: izmirAr, bursa: bursaAr, antalya: antalyaAr, konya: konyaAr },
+    ru: { web: webRu, ai: aiRu, qa: qaRu, mobile: mobileRu, ankaraSecim: ankaraSecimRu, eticaret: eticaretRu, whatsapp: whatsappRu, ozelYazilim: ozelYazilimRu, mobilMaliyet: mobilMaliyetRu, kurumsalWeb: kurumsalWebRu, aiDanismanlik: aiDanismanlikRu, crmErp: crmErpRu, seo: seoRu, geo: geoRu, istanbul: istanbulRu, izmir: izmirRu, bursa: bursaRu, antalya: antalyaRu, konya: konyaRu },
 };
 
 let savedTrBody: string | null = null;
@@ -138,6 +189,25 @@ function updateArticleBody() {
     }
 }
 
+function applyTranslation(el: Element, translated: string) {
+    if (el.tagName === 'A' && (el.classList.contains('btn-primary') || el.classList.contains('btn'))) {
+        const icon = el.querySelector('i');
+        if (icon) {
+            const textTarget = el.querySelector('span[data-i18n]') || el;
+            if (textTarget !== el) {
+                textTarget.textContent = translated;
+            } else {
+                el.textContent = translated + ' ';
+                el.appendChild(icon);
+            }
+        } else {
+            el.textContent = translated;
+        }
+    } else {
+        el.innerHTML = translated;
+    }
+}
+
 function updateContent() {
     updateArticleBody();
 
@@ -146,7 +216,7 @@ function updateContent() {
         if (!key) return;
         const translated = i18next.t(key);
         if (translated && translated !== key) {
-            el.innerHTML = translated;
+            applyTranslation(el, translated);
         }
     });
 
