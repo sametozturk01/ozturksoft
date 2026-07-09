@@ -287,17 +287,37 @@ function buildPage(post) {
     `<script type="application/ld+json">\n  ${faqSchema(post.faq)}\n  </script>`
   );
 
+  const metaDateKey = post.metaDateKey || 'blog.meta.date6';
+  const metaReadKey = post.metaReadKey || `blog.meta.read${post.readMins}`;
+
+  html = html.replace(/blog\.posts\.chatbot\./g, `blog.posts.${post.articleKey}.`);
   html = html.replace(
-    /<span>Ankara'da Chatbot Geliştirme 2026<\/span>/,
-    `<span>${post.breadcrumb}</span>`
+    /<body data-article="[^"]*"[^>]*>/,
+    `<body data-article="${post.articleKey}" data-i18n-date="${metaDateKey}" data-i18n-read="${metaReadKey}" data-i18n-langs="tr,en,de,fr,ar,ru">`
   );
-  html = html.replace(/<span class="article-tag">🤖 Yapay Zeka<\/span>/, `<span class="article-tag">${post.tag}</span>`);
+  html = html.replace(/data-i18n="blog\.meta\.date2"/, `data-i18n="${metaDateKey}"`);
+  html = html.replace(/data-i18n="blog\.meta\.read9"/, `data-i18n="${metaReadKey}"`);
   html = html.replace(
-    /<h1>Ankara'da Chatbot Yaptırmak:[\s\S]*?<\/h1>/,
-    `<h1>${post.title}</h1>`
+    new RegExp(`(<span data-i18n="blog\\.posts\\.${post.articleKey}\\.breadcrumb">)[^<]*`),
+    `$1${post.breadcrumb}`
   );
-  html = html.replace(/14 Haziran 2026/g, post.date);
-  html = html.replace(/9 dk okuma/g, `${post.readMins} dk okuma`);
+  html = html.replace(
+    new RegExp(`(<span class="article-tag" data-i18n="blog\\.posts\\.${post.articleKey}\\.tag">)[^<]*`),
+    `$1${post.tag}`
+  );
+  html = html.replace(
+    new RegExp(`(<h1 data-i18n="blog\\.posts\\.${post.articleKey}\\.title">)[^<]*`),
+    `$1${post.title}`
+  );
+  html = html.replace(
+    new RegExp(`(<span data-i18n="${metaDateKey.replace(/\./g, '\\.')}">)[^<]*`),
+    `$1${post.date}`
+  );
+  html = html.replace(
+    new RegExp(`(<span data-i18n="${metaReadKey.replace(/\./g, '\\.')}">)[^<]*`),
+    `$1${post.readMins} dk okuma`
+  );
+
   html = html.replace(
     /(<article class="article-body">)[\s\S]*?(<\/article>)/,
     `$1\n\n${post.bodyTr}\n\n$2`

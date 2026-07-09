@@ -959,6 +959,11 @@
       "home": "Startseite",
       "blog": "Blog"
     },
+    "author": {
+      "label": "Autor · Fachinhalt",
+      "role": "Gründer & Software Engineer — Ozturksoft, Ankara",
+      "bio": "Gründer von Ozturksoft zu KI-Integration, Individualsoftware und QA-orientiertem Engineering."
+    },
     "meta": {
       "date": "21. Mai 2026",
       "read8": "8 Min. Lesezeit",

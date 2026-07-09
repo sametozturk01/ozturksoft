@@ -974,6 +974,11 @@
       "home": "Home",
       "blog": "Blog"
     },
+    "author": {
+      "label": "Author · Expert content",
+      "role": "Founder & Software Engineer — Ozturksoft, Ankara",
+      "bio": "Founder of Ozturksoft, writing on AI integration, custom software, and QA-driven engineering."
+    },
     "meta": {
       "date": "May 21, 2026",
       "read8": "8 min read",

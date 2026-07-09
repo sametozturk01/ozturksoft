@@ -281,6 +281,34 @@ function applyTranslation(el: Element, translated: string) {
     }
 }
 
+function updateArticleShell(articleKey: string) {
+    const t = (key: string) => {
+        const v = i18next.t(key);
+        return v && v !== key ? v : null;
+    };
+
+    const setText = (selector: string, key: string) => {
+        const el = document.querySelector<HTMLElement>(selector);
+        if (!el || el.hasAttribute('data-i18n')) return;
+        const v = t(key);
+        if (v) el.textContent = v;
+    };
+
+    setText('.article-hero h1', `blog.posts.${articleKey}.title`);
+    setText('.article-tag', `blog.posts.${articleKey}.tag`);
+
+    const crumbs = document.querySelectorAll('.article-hero .breadcrumb span');
+    const lastCrumb = crumbs[crumbs.length - 1] as HTMLElement | undefined;
+    if (lastCrumb && !lastCrumb.hasAttribute('data-i18n') && lastCrumb.textContent !== '/') {
+        const v = t(`blog.posts.${articleKey}.breadcrumb`);
+        if (v) lastCrumb.textContent = v;
+    }
+
+    setText('.author-label', 'blog.author.label');
+    setText('.author-role', 'blog.author.role');
+    setText('.author-bio', 'blog.author.bio');
+}
+
 function updatePageMeta(lang: string) {
     document.documentElement.lang = lang === 'ar' ? 'ar' : lang;
 
@@ -303,6 +331,9 @@ function updatePageMeta(lang: string) {
 
 function updateContent() {
     updateArticleBody();
+
+    const articleKey = document.body.dataset.article;
+    if (articleKey) updateArticleShell(articleKey);
 
     document.querySelectorAll('[data-i18n]').forEach((el) => {
         const key = el.getAttribute('data-i18n');

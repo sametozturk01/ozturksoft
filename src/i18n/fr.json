@@ -959,6 +959,11 @@
       "home": "Accueil",
       "blog": "Blog"
     },
+    "author": {
+      "label": "Auteur · Contenu expert",
+      "role": "Fondateur & ingénieur logiciel — Ozturksoft, Ankara",
+      "bio": "Fondateur d'Ozturksoft, expert en intégration IA, logiciel sur mesure et ingénierie QA."
+    },
     "meta": {
       "date": "21 mai 2026",
       "read8": "8 min de lecture",

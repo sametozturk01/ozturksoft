@@ -974,6 +974,11 @@
       "home": "Ana Sayfa",
       "blog": "Blog"
     },
+    "author": {
+      "label": "Yazar · Uzman içerik",
+      "role": "Kurucu & Yazılım Mühendisi — Ozturksoft, Ankara",
+      "bio": "Yapay zeka entegrasyonu, özel yazılım ve QA odaklı mühendislik konularında Ozturksoft kurucusu."
+    },
     "meta": {
       "date": "21 Mayıs 2026",
       "read8": "8 dk okuma",
