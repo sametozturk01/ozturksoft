@@ -12,6 +12,8 @@ export default defineConfig({
         iletisim: resolve(__dirname, 'iletisim.html'),
         blog: resolve(__dirname, 'blog.html'),
         ankaraYapayZeka: resolve(__dirname, 'ankara-yapay-zeka-cozumleri.html'),
+        ankaraYazilimSirketi: resolve(__dirname, 'ankara-yazilim-sirketi.html'),
+        sss: resolve(__dirname, 'sss.html'),
         // Blog posts
         blogAnkaraWebSitesi: resolve(__dirname, 'blog/ankara-web-sitesi-maliyeti-2026.html'),
         blogYapayZeka: resolve(__dirname, 'blog/yapay-zeka-entegrasyonu-rehberi.html'),

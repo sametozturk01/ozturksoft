@@ -406,6 +406,63 @@ nav.breadcrumb::after { display: none !important; }
     }
 }
 
+/* Author box — E-E-A-T / GEO */
+.author-box {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 8%;
+}
+.author-box-inner {
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+    background: rgba(15, 23, 42, 0.85);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    border-radius: 14px;
+    padding: 22px 24px;
+    margin-bottom: 8px;
+}
+.author-avatar {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary), #6366f1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+    color: #fff;
+}
+.author-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #64748b;
+    margin-bottom: 4px;
+}
+.author-name {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.05rem;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 4px;
+}
+.author-name:hover { color: var(--primary); }
+.author-role {
+    color: #94a3b8;
+    font-size: 0.88rem;
+    margin-bottom: 6px;
+}
+.author-bio {
+    color: #64748b;
+    font-size: 0.85rem;
+    line-height: 1.55;
+    margin: 0;
+}
+
 /* ==========================================
    HERO SECTION
    ========================================== */

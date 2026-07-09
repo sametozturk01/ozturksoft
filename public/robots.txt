@@ -2,3 +2,13 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ozturksoft.net/sitemap.xml
+
+# LLM / AI context files
+# https://ozturksoft.net/llms.txt
+# https://ozturksoft.net/ai.txt
+
+# Blog RSS
+# https://ozturksoft.net/blog/feed.xml
+
+# IndexNow key
+# https://ozturksoft.net/a7f3c9e2b1d84f6a8e0c2d5b9f1a3e7c.txt

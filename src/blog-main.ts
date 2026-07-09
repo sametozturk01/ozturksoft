@@ -31,10 +31,19 @@ import mobileAr from './i18n/articles/mobile-ar.html?raw';
 import mobileRu from './i18n/articles/mobile-ru.html?raw';
 
 import chatbotEn from './i18n/articles/chatbot-en.html?raw';
+import chatbotDe from './i18n/articles/chatbot-de.html?raw';
+import chatbotFr from './i18n/articles/chatbot-fr.html?raw';
+import chatbotRu from './i18n/articles/chatbot-ru.html?raw';
 import chatbotAr from './i18n/articles/chatbot-ar.html?raw';
 import llmEn from './i18n/articles/llm-en.html?raw';
+import llmDe from './i18n/articles/llm-de.html?raw';
+import llmFr from './i18n/articles/llm-fr.html?raw';
+import llmRu from './i18n/articles/llm-ru.html?raw';
 import llmAr from './i18n/articles/llm-ar.html?raw';
 import otomasyonEn from './i18n/articles/otomasyon-en.html?raw';
+import otomasyonDe from './i18n/articles/otomasyon-de.html?raw';
+import otomasyonFr from './i18n/articles/otomasyon-fr.html?raw';
+import otomasyonRu from './i18n/articles/otomasyon-ru.html?raw';
 import otomasyonAr from './i18n/articles/otomasyon-ar.html?raw';
 
 import istanbulEn from './i18n/articles/istanbul-en.html?raw';
@@ -120,6 +129,33 @@ import geoRu from './i18n/articles/geo-ru.html?raw';
 
 const LANG_KEY = 'ozturksoft_lang';
 
+function getBlogSlug(): string | null {
+    const path = window.location.pathname.replace(/\.html$/, '').replace(/\/$/, '');
+    const localeMatch = path.match(/^\/(en|de|fr|ar|ru)\/blog\/([^/]+)$/);
+    if (localeMatch) return localeMatch[2];
+    const trMatch = path.match(/^\/blog\/([^/]+)$/);
+    return trMatch ? trMatch[1] : null;
+}
+
+function detectPageLang(): string {
+    const fromBody = document.body.dataset.pageLang;
+    if (fromBody) return fromBody;
+    const path = window.location.pathname;
+    const m = path.match(/^\/(en|de|fr|ar|ru)\/blog\//);
+    if (m) return m[1];
+    return localStorage.getItem(LANG_KEY) || 'tr';
+}
+
+function getAvailableLangs(): string[] {
+    const raw = document.body.dataset.i18nLangs;
+    if (raw) return raw.split(',').map((s) => s.trim());
+    return ['tr', 'en', 'de', 'fr', 'ar', 'ru'];
+}
+
+function getLocaleBlogUrl(lang: string, slug: string): string {
+    return lang === 'tr' ? `/blog/${slug}` : `/${lang}/blog/${slug}`;
+}
+
 const LANG_META: Record<string, { flag: string; code: string }> = {
     tr: { flag: '🇹🇷', code: 'TR' },
     en: { flag: '🇬🇧', code: 'EN' },
@@ -133,14 +169,15 @@ const LANG_META: Record<string, { flag: string; code: string }> = {
 // Article bodies indexed by [lang][articleKey]
 const ARTICLE_BODIES: Record<string, Record<string, string>> = {
     en: { web: webEn, ai: aiEn, qa: qaEn, mobile: mobileEn, chatbot: chatbotEn, llm: llmEn, otomasyon: otomasyonEn, ankaraSecim: ankaraSecimEn, eticaret: eticaretEn, whatsapp: whatsappEn, ozelYazilim: ozelYazilimEn, mobilMaliyet: mobilMaliyetEn, kurumsalWeb: kurumsalWebEn, aiDanismanlik: aiDanismanlikEn, crmErp: crmErpEn, seo: seoEn, geo: geoEn, istanbul: istanbulEn, izmir: izmirEn, bursa: bursaEn, antalya: antalyaEn, konya: konyaEn },
-    de: { web: webDe, ai: aiDe, qa: qaDe, mobile: mobileDe, ankaraSecim: ankaraSecimDe, eticaret: eticaretDe, whatsapp: whatsappDe, ozelYazilim: ozelYazilimDe, mobilMaliyet: mobilMaliyetDe, kurumsalWeb: kurumsalWebDe, aiDanismanlik: aiDanismanlikDe, crmErp: crmErpDe, seo: seoDe, geo: geoDe, istanbul: istanbulDe, izmir: izmirDe, bursa: bursaDe, antalya: antalyaDe, konya: konyaDe },
-    fr: { web: webFr, ai: aiFr, qa: qaFr, mobile: mobileFr, ankaraSecim: ankaraSecimFr, eticaret: eticaretFr, whatsapp: whatsappFr, ozelYazilim: ozelYazilimFr, mobilMaliyet: mobilMaliyetFr, kurumsalWeb: kurumsalWebFr, aiDanismanlik: aiDanismanlikFr, crmErp: crmErpFr, seo: seoFr, geo: geoFr, istanbul: istanbulFr, izmir: izmirFr, bursa: bursaFr, antalya: antalyaFr, konya: konyaFr },
+    de: { web: webDe, ai: aiDe, qa: qaDe, mobile: mobileDe, chatbot: chatbotDe, llm: llmDe, otomasyon: otomasyonDe, ankaraSecim: ankaraSecimDe, eticaret: eticaretDe, whatsapp: whatsappDe, ozelYazilim: ozelYazilimDe, mobilMaliyet: mobilMaliyetDe, kurumsalWeb: kurumsalWebDe, aiDanismanlik: aiDanismanlikDe, crmErp: crmErpDe, seo: seoDe, geo: geoDe, istanbul: istanbulDe, izmir: izmirDe, bursa: bursaDe, antalya: antalyaDe, konya: konyaDe },
+    fr: { web: webFr, ai: aiFr, qa: qaFr, mobile: mobileFr, chatbot: chatbotFr, llm: llmFr, otomasyon: otomasyonFr, ankaraSecim: ankaraSecimFr, eticaret: eticaretFr, whatsapp: whatsappFr, ozelYazilim: ozelYazilimFr, mobilMaliyet: mobilMaliyetFr, kurumsalWeb: kurumsalWebFr, aiDanismanlik: aiDanismanlikFr, crmErp: crmErpFr, seo: seoFr, geo: geoFr, istanbul: istanbulFr, izmir: izmirFr, bursa: bursaFr, antalya: antalyaFr, konya: konyaFr },
     ar: { web: webAr, ai: aiAr, qa: qaAr, mobile: mobileAr, chatbot: chatbotAr, llm: llmAr, otomasyon: otomasyonAr, ankaraSecim: ankaraSecimAr, eticaret: eticaretAr, whatsapp: whatsappAr, ozelYazilim: ozelYazilimAr, mobilMaliyet: mobilMaliyetAr, kurumsalWeb: kurumsalWebAr, aiDanismanlik: aiDanismanlikAr, crmErp: crmErpAr, seo: seoAr, geo: geoAr, istanbul: istanbulAr, izmir: izmirAr, bursa: bursaAr, antalya: antalyaAr, konya: konyaAr },
-    ru: { web: webRu, ai: aiRu, qa: qaRu, mobile: mobileRu, ankaraSecim: ankaraSecimRu, eticaret: eticaretRu, whatsapp: whatsappRu, ozelYazilim: ozelYazilimRu, mobilMaliyet: mobilMaliyetRu, kurumsalWeb: kurumsalWebRu, aiDanismanlik: aiDanismanlikRu, crmErp: crmErpRu, seo: seoRu, geo: geoRu, istanbul: istanbulRu, izmir: izmirRu, bursa: bursaRu, antalya: antalyaRu, konya: konyaRu },
+    ru: { web: webRu, ai: aiRu, qa: qaRu, mobile: mobileRu, chatbot: chatbotRu, llm: llmRu, otomasyon: otomasyonRu, ankaraSecim: ankaraSecimRu, eticaret: eticaretRu, whatsapp: whatsappRu, ozelYazilim: ozelYazilimRu, mobilMaliyet: mobilMaliyetRu, kurumsalWeb: kurumsalWebRu, aiDanismanlik: aiDanismanlikRu, crmErp: crmErpRu, seo: seoRu, geo: geoRu, istanbul: istanbulRu, izmir: izmirRu, bursa: bursaRu, antalya: antalyaRu, konya: konyaRu },
 };
 
 let savedTrBody: string | null = null;
-const savedLang = localStorage.getItem(LANG_KEY) || 'tr';
+const pageLang = detectPageLang();
+const savedLang = pageLang || localStorage.getItem(LANG_KEY) || 'tr';
 
 i18next.init({
     lng: savedLang,
@@ -155,7 +192,7 @@ i18next.init({
     },
 }).then(() => {
     const body = document.querySelector<HTMLElement>('.article-body');
-    if (body && document.body.dataset.article) {
+    if (body && document.body.dataset.article && pageLang === 'tr' && !document.body.dataset.pageLang) {
         savedTrBody = body.innerHTML;
     }
     updateDropdownUI(normalizeLang(savedLang));
@@ -167,6 +204,8 @@ function normalizeLang(lang: string): string {
 }
 
 function updateArticleBody() {
+    if (document.body.dataset.pageLang) return;
+
     const articleKey = document.body.dataset.article;
     const body = document.querySelector<HTMLElement>('.article-body');
     if (!articleKey || !body) return;
@@ -208,6 +247,26 @@ function applyTranslation(el: Element, translated: string) {
     }
 }
 
+function updatePageMeta(lang: string) {
+    document.documentElement.lang = lang === 'ar' ? 'ar' : lang;
+
+    const articleKey = document.body.dataset.article;
+    if (!articleKey) return;
+
+    const titleKey = `blog.posts.${articleKey}.title`;
+    const title = i18next.t(titleKey);
+    if (title && title !== titleKey) {
+        document.title = `${title} | Ozturksoft`;
+    }
+
+    const descKey = `blog.posts.${articleKey}.metaDesc`;
+    const desc = i18next.t(descKey);
+    if (desc && desc !== descKey) {
+        const metaDesc = document.querySelector('meta[name="description"]');
+        if (metaDesc) metaDesc.setAttribute('content', desc);
+    }
+}
+
 function updateContent() {
     updateArticleBody();
 
@@ -225,6 +284,8 @@ function updateContent() {
         if (!key) return;
         (el as HTMLInputElement | HTMLTextAreaElement).placeholder = i18next.t(key);
     });
+
+    updatePageMeta(normalizeLang(i18next.language));
 }
 
 function updateDropdownUI(lang: string) {
@@ -244,9 +305,19 @@ function updateDropdownUI(lang: string) {
     } else {
         document.documentElement.removeAttribute('dir');
     }
+
+    document.documentElement.lang = lang;
 }
 
 async function changeLanguage(lang: string) {
+    const slug = getBlogSlug();
+    const available = getAvailableLangs();
+    if (slug && available.includes(lang)) {
+        localStorage.setItem(LANG_KEY, lang);
+        window.location.href = getLocaleBlogUrl(lang, slug);
+        return;
+    }
+
     await i18next.changeLanguage(lang);
     localStorage.setItem(LANG_KEY, lang);
     updateDropdownUI(lang);

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && cp en.html de.html ar.html ru.html fr.html dist/",
+    "build": "tsc && node scripts/patch-blog-hreflang.mjs && node scripts/generate-seo-geo.mjs && vite build && node scripts/generate-i18n-blog-pages.mjs && node scripts/generate-locale-inner-pages.mjs && node scripts/submit-indexnow.mjs && cp en.html de.html ar.html ru.html fr.html dist/ && for d in en de fr ar ru; do [ -d \"$d\" ] && cp -r \"$d\" dist/; done",
     "preview": "vite preview"
   },
   "devDependencies": {

@@ -844,6 +844,21 @@
         "tag": "🤖 GEO",
         "title": "What Is GEO? Generative Engine Optimization Guide [2026]",
         "breadcrumb": "What Is GEO?"
+      },
+      "chatbot": {
+        "tag": "💬 Chatbot",
+        "title": "Building a Chatbot in Ankara: Cost, Technology & Key Considerations [2026]",
+        "breadcrumb": "Ankara Chatbot"
+      },
+      "llm": {
+        "tag": "🤖 LLM",
+        "title": "LLM & GPT Integration: How to Add AI to Your Business [2026]",
+        "breadcrumb": "LLM GPT Integration"
+      },
+      "otomasyon": {
+        "tag": "⚙️ Automation",
+        "title": "Process Automation in Ankara: Boost Efficiency with RPA + AI [2026]",
+        "breadcrumb": "Process Automation"
       }
     },
     "breadcrumb": {

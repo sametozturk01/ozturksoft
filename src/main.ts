@@ -84,6 +84,14 @@ function applyDocumentDir(lang: string) {
 
 // Dil değiştirme işlemi
 async function changeLanguage(lang: string) {
+    const path = window.location.pathname.replace(/\.html$/, '').replace(/\/$/, '') || '/';
+    const localeHome = { tr: '/', en: '/en', de: '/de', ar: '/ar', ru: '/ru', fr: '/fr' } as const;
+    if (path === '/' && lang !== 'tr' && localeHome[lang as keyof typeof localeHome]) {
+        saveLang(lang);
+        window.location.href = localeHome[lang as keyof typeof localeHome];
+        return;
+    }
+
     await i18next.changeLanguage(lang);
     saveLang(lang);
     updateContent();

@@ -844,6 +844,21 @@
         "tag": "🤖 GEO",
         "title": "GEO Nedir? Generative Engine Optimization Rehberi [2026]",
         "breadcrumb": "GEO Nedir?"
+      },
+      "chatbot": {
+        "tag": "💬 Chatbot",
+        "title": "Ankara'da Chatbot Yaptırmak: Maliyet, Teknik ve Dikkat Edilmesi Gerekenler [2026]",
+        "breadcrumb": "Ankara Chatbot"
+      },
+      "llm": {
+        "tag": "🤖 LLM",
+        "title": "LLM ve GPT Entegrasyonu: İşletmenize Yapay Zeka Nasıl Eklenir? [2026]",
+        "breadcrumb": "LLM GPT Entegrasyonu"
+      },
+      "otomasyon": {
+        "tag": "⚙️ Otomasyon",
+        "title": "Ankara'da Süreç Otomasyonu: RPA + Yapay Zeka ile Verimliliği Artırın [2026]",
+        "breadcrumb": "Süreç Otomasyonu"
       }
     },
     "breadcrumb": {
