@@ -49,6 +49,48 @@
       }
     }
   },
+  "expertise": {
+    "title": "Uzmanlık Alanlarımız",
+    "subtitle": "Yazılım & Yapay Zeka",
+    "cards": {
+      "aiAgents": {
+        "title": "AI Agents",
+        "desc": "Otonom AI agent'lar: görev planlama, araç kullanımı ve çok adımlı iş akışlarını uçtan uca otomatikleştirir."
+      },
+      "saas": {
+        "title": "SaaS Geliştirme",
+        "desc": "Bulut tabanlı abonelik ürünleri — çok kiracılı mimari, ödeme entegrasyonu ve ölçeklenebilir altyapı."
+      },
+      "customSoftware": {
+        "title": "Özel Yazılım",
+        "desc": "İş süreçlerinize özel ERP, CRM ve kurumsal yazılım — hazır SaaS'ın yetmediği senaryolar için."
+      },
+      "ocr": {
+        "title": "OCR & Belge AI",
+        "desc": "Fatura, sözleşme ve kurumsal evrakların otomatik okunması, sınıflandırılması ve dijitalleştirilmesi."
+      },
+      "automation": {
+        "title": "Otomasyon & RPA",
+        "desc": "RPA + yapay zeka ile tekrarlayan süreçleri akıllı otomasyona dönüştürür; ekip katma değerli işe odaklanır."
+      },
+      "mcp": {
+        "title": "MCP Sunucuları",
+        "desc": "Model Context Protocol ile LLM'leri araçlara, veritabanlarına ve iş sistemlerinize güvenli şekilde bağlarız."
+      },
+      "flutter": {
+        "title": "Flutter Uygulamaları",
+        "desc": "Tek kod tabanıyla iOS ve Android için yüksek performanslı, native görünümlü mobil uygulamalar."
+      },
+      "laravel": {
+        "title": "Laravel Sistemleri",
+        "desc": "Laravel ile güvenli API, yönetim paneli ve kurumsal backend — hızlı geliştirme, sağlam mimari."
+      },
+      "enterpriseAi": {
+        "title": "Kurumsal AI (Enterprise AI)",
+        "desc": "KVKK uyumlu, on-premise kurumsal yapay zeka — verileriniz kendi sunucularınızda kalır."
+      }
+    }
+  },
   "references": {
     "title": "Güvenle Çalıştığımız Partnerler",
     "subtitle": "İş birliği içinde olduğumuz değerli markalar."
@@ -205,11 +247,12 @@
     "cards": {
       "dev": {
         "title": "Özel Yazılım Geliştirme",
-        "desc": "React, TypeScript, Node.js ve Python ile yüksek performanslı, ölçeklenebilir web ve mobil uygulamalar geliştiriyoruz.",
+        "desc": "React, TypeScript, Laravel, Node.js ve Python ile SaaS, kurumsal web ve özel yazılım geliştiriyoruz.",
         "list1": "Kurumsal Web Uygulamaları",
         "list2": "E-ticaret Platformları",
         "list3": "SaaS Ürünleri",
-        "list4": "RESTful & GraphQL API'ler"
+        "list4": "RESTful & GraphQL API'ler",
+        "list5": "Laravel Sistemleri"
       },
       "qa": {
         "title": "Test & QA Hizmetleri",
@@ -221,15 +264,21 @@
       },
       "mobile": {
         "title": "Mobil Uygulama Geliştirme",
-        "desc": "iOS ve Android platformlarında native ve cross-platform mobil uygulamalar. Kullanıcı deneyimi odaklı tasarımlar.",
+        "desc": "Flutter ve React Native ile iOS ve Android için yüksek performanslı mobil uygulamalar.",
+        "list1": "Flutter Uygulamaları",
+        "list2": "React Native",
+        "list3": "Native iOS & Android",
         "list4": "Store Yayınlama"
       },
       "ai": {
         "title": "Yapay Zeka & Analitik",
-        "desc": "Makine öğrenmesi, veri madenciliği ve yapay zeka entegrasyonları ile verilerinizi stratejik bir varlığa dönüştürün.",
-        "list1": "Makine Öğrenmesi",
-        "list2": "Doğal Dil İşleme (NLP)",
-        "list3": "Veri Analizi"
+        "desc": "AI Agents, Enterprise AI, LLM, OCR, MCP sunucuları ve süreç otomasyonu ile kurumsal yapay zeka çözümleri.",
+        "list1": "AI Agents & Otonom Asistanlar",
+        "list2": "Kurumsal AI (Enterprise AI)",
+        "list3": "OCR & Belge Zekası",
+        "list4": "MCP Sunucuları & LLM Entegrasyonu",
+        "list5": "Otomasyon & RPA + AI",
+        "list6": "Doğal Dil İşleme (NLP)"
       },
       "ui": {
         "title": "UI/UX Tasarımı",
@@ -484,12 +533,12 @@
     },
     "cards": {
       "c1": {
-        "title": "Chatbot & Sanal Asistan",
-        "desc": "Türkçe doğal dil anlayan, 7/24 kesintisiz çalışan akıllı chatbot sistemleri. WhatsApp, web ve mobil entegrasyonuyla kullanıma hazır.",
+        "title": "AI Agents & Chatbot",
+        "desc": "Türkçe doğal dil anlayan, 7/24 kesintisiz çalışan akıllı AI agent ve chatbot sistemleri. WhatsApp, web ve mobil entegrasyonuyla kullanıma hazır.",
         "li1": "GPT-4 & Türkçe NLP",
-        "li2": "WhatsApp / Web Entegrasyonu",
-        "li3": "CRM & ERP Bağlantısı",
-        "li4": "Özel Eğitilmiş Modeller"
+        "li2": "AI Agents & MCP Sunucuları",
+        "li3": "WhatsApp / Web Entegrasyonu",
+        "li4": "CRM & ERP Bağlantısı"
       },
       "c2": {
         "title": "LLM & GPT Entegrasyonu",
@@ -647,7 +696,13 @@
       "linkSecim": "Yazılım şirketi nasıl seçilir? →",
       "linkWeb": "Web sitesi maliyeti",
       "linkChatbot": "Chatbot rehberi",
-      "linkOtomasyon": "Süreç otomasyonu"
+      "linkOtomasyon": "Süreç otomasyonu",
+      "linkAiAgents": "AI Agents rehberi",
+      "linkMcp": "MCP sunucu rehberi",
+      "linkLaravel": "Laravel yazılım rehberi",
+      "linkSaas": "SaaS geliştirme rehberi",
+      "linkOcr": "OCR & belge AI rehberi",
+      "linkFlutter": "Flutter uygulama rehberi"
     },
     "tags": {
       "webDesign": "Web Tasarım",
@@ -704,6 +759,18 @@
         "title": "Ankara'da Süreç Otomasyonu: RPA + Yapay Zeka ile Verimliliği Artırın [2026]",
         "desc": "Fatura, belge ve veri girişi süreçlerinizi otomatikleştirin. Somut ROI örnekleri ve Ankara'da otomasyon maliyet rehberi."
       },
+      "ankaraAiAgentsCard": {
+        "title": "Ankara'da AI Agents Geliştirme: Otonom Asistanlar ve Maliyet [2026]",
+        "desc": "AI agents nedir, chatbot'tan farkı, LangChain/MCP mimarisi ve Ankara'da geliştirme maliyeti rehberi."
+      },
+      "ankaraMcpCard": {
+        "title": "Ankara'da MCP Sunucu Geliştirme: Model Context Protocol Rehberi [2026]",
+        "desc": "LLM'leri CRM, veritabanı ve API'lere güvenle bağlayan MCP sunucu geliştirme ve maliyet rehberi."
+      },
+      "ankaraLaravelCard": {
+        "title": "Ankara'da Laravel Yazılım Geliştirme: API, Panel ve Kurumsal Sistemler [2026]",
+        "desc": "Laravel ile özel yazılım, REST API, admin panel ve SaaS geliştirme maliyet rehberi — Ankara."
+      },
       "istanbulCard": {
         "title": "İstanbul'da Yapay Zeka Çözümleri: İşletmeniz İçin AI Rehberi [2026]",
         "desc": "İstanbul'daki işletmeler için chatbot, LLM entegrasyonu, süreç otomasyonu ve veri analitiği rehberi."
@@ -747,6 +814,18 @@
       "geoCard": {
         "title": "GEO Nedir? Generative Engine Optimization Rehberi [2026]",
         "desc": "ChatGPT, Perplexity ve AI arama motorlarında görünürlük stratejisi."
+      },
+      "ankaraSaasCard": {
+        "title": "Ankara'da SaaS Geliştirme: Bulut Ürün, Maliyet ve Mimari Rehberi [2026]",
+        "desc": "Ankara'da SaaS geliştirme rehberi. Çok kiracılı mimari, abonelik faturalandırma, MVP maliyeti ve doğru teknoloji seçimi."
+      },
+      "ankaraOcrCard": {
+        "title": "Ankara'da OCR & Belge AI: Fatura, Sözleşme Dijitalleştirme Rehberi [2026]",
+        "desc": "Ankara'da OCR ve belge yapay zeka çözümleri. Fatura okuma, sözleşme sınıflandırma, ERP entegrasyonu ve maliyet rehberi."
+      },
+      "ankaraFlutterCard": {
+        "title": "Ankara'da Flutter Uygulama Geliştirme: Maliyet, Süre ve Rehber [2026]",
+        "desc": "Ankara'da Flutter ile iOS ve Android uygulama geliştirme. MVP maliyeti, native performans, store yayınlama ve 2026 fiyat rehberi."
       }
     },
     "posts": {
@@ -859,6 +938,36 @@
         "tag": "⚙️ Otomasyon",
         "title": "Ankara'da Süreç Otomasyonu: RPA + Yapay Zeka ile Verimliliği Artırın [2026]",
         "breadcrumb": "Süreç Otomasyonu"
+      },
+      "ankaraAiAgents": {
+        "tag": "🤖 AI Agents",
+        "title": "Ankara'da AI Agents Geliştirme: Otonom Asistanlar, Maliyet ve Rehber [2026]",
+        "breadcrumb": "Ankara AI Agents"
+      },
+      "ankaraMcp": {
+        "tag": "🔌 MCP",
+        "title": "Ankara'da MCP Sunucu Geliştirme: Model Context Protocol Rehberi [2026]",
+        "breadcrumb": "Ankara MCP Sunucu"
+      },
+      "ankaraLaravel": {
+        "tag": "🐘 Laravel",
+        "title": "Ankara'da Laravel Yazılım Geliştirme: API, Panel ve Kurumsal Sistemler [2026]",
+        "breadcrumb": "Ankara Laravel"
+      },
+      "ankaraSaas": {
+        "tag": "☁️ SaaS",
+        "title": "Ankara'da SaaS Geliştirme: Bulut Ürün, Maliyet ve Mimari Rehberi [2026]",
+        "breadcrumb": "Ankara SaaS 2026"
+      },
+      "ankaraOcr": {
+        "tag": "📄 OCR & Belge AI",
+        "title": "Ankara'da OCR & Belge AI: Fatura, Sözleşme Dijitalleştirme Rehberi [2026]",
+        "breadcrumb": "Ankara OCR Belge AI 2026"
+      },
+      "ankaraFlutter": {
+        "tag": "📱 Flutter",
+        "title": "Ankara'da Flutter Uygulama Geliştirme: Maliyet, Süre ve Rehber [2026]",
+        "breadcrumb": "Ankara Flutter 2026"
       }
     },
     "breadcrumb": {
@@ -875,7 +984,8 @@
       "read11": "11 dk okuma",
       "date3": "15 Haziran 2026",
       "date4": "15 Haziran 2026",
-      "date5": "22 Haziran 2026"
+      "date5": "22 Haziran 2026",
+      "date6": "9 Temmuz 2026"
     },
     "footer": {
       "copyright": "© 2026 Ozturksoft — Ankara, Türkiye. Tüm hakları saklıdır."
@@ -936,6 +1046,21 @@
         "desc": "Ankara merkezli uzman ekibimiz, işletmenizin süreçlerini analiz ederek en yüksek ROI sağlayacak otomasyon yol haritasını çıkarıyor.",
         "btn": "Ücretsiz Süreç Analizi"
       },
+      "ankaraAiAgents": {
+        "title": "Ankara'da AI Agents Projenizi Planlayalım",
+        "desc": "Otonom asistan ve kurumsal AI agent mimarinizi ücretsiz keşif görüşmesinde birlikte tasarlayalım.",
+        "btn": "Ücretsiz Danışmanlık"
+      },
+      "ankaraMcp": {
+        "title": "MCP Sunucu Projenizi Konuşalım",
+        "desc": "LLM'lerinizi CRM, veritabanı ve iş araçlarınıza güvenle bağlayalım.",
+        "btn": "Ücretsiz Teklif Al"
+      },
+      "ankaraLaravel": {
+        "title": "Laravel Projeniz İçin Teklif Alın",
+        "desc": "API, panel veya kurumsal Laravel sistemi — ücretsiz keşif görüşmesi.",
+        "btn": "Ücretsiz Teklif Al"
+      },
       "istanbul": {
         "title": "İstanbul İçin Yapay Zeka Projenizi Konuşalım",
         "desc": "Chatbot, LLM entegrasyonu ve süreç otomasyonu projeleriniz için ücretsiz keşif görüşmesi talep edin.",
@@ -990,6 +1115,21 @@
         "title": "GEO ve AI Görünürlük Stratejinizi Planlayalım",
         "desc": "ChatGPT ve AI arama motorlarında markanızın önerilmesi için ücretsiz GEO analizi.",
         "btn": "Ücretsiz GEO Analizi"
+      },
+      "ankaraSaas": {
+        "title": "Ankara'da SaaS Ürününüzü Planlayalım",
+        "desc": "MVP kapsamı ve mimari için ücretsiz keşif görüşmesi.",
+        "btn": "Ücretsiz Teklif Al"
+      },
+      "ankaraOcr": {
+        "title": "OCR & Belge AI Projenizi Konuşalım",
+        "desc": "Fatura ve evrak süreçlerinizi otomatikleştirmek için ücretsiz danışmanlık.",
+        "btn": "Ücretsiz Danışmanlık"
+      },
+      "ankaraFlutter": {
+        "title": "Flutter Uygulama Projenizi Başlatalım",
+        "desc": "iOS ve Android için tek kod tabanı — ücretsiz keşif görüşmesi.",
+        "btn": "Projenizi Anlatın"
       }
     }
   }

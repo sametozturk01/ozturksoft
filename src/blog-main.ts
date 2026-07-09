@@ -126,6 +126,36 @@ import geoDe from './i18n/articles/geo-de.html?raw';
 import geoFr from './i18n/articles/geo-fr.html?raw';
 import geoAr from './i18n/articles/geo-ar.html?raw';
 import geoRu from './i18n/articles/geo-ru.html?raw';
+import ankaraAiAgentsEn from './i18n/articles/ankara-ai-agents-en.html?raw';
+import ankaraAiAgentsDe from './i18n/articles/ankara-ai-agents-de.html?raw';
+import ankaraAiAgentsFr from './i18n/articles/ankara-ai-agents-fr.html?raw';
+import ankaraAiAgentsAr from './i18n/articles/ankara-ai-agents-ar.html?raw';
+import ankaraAiAgentsRu from './i18n/articles/ankara-ai-agents-ru.html?raw';
+import ankaraMcpEn from './i18n/articles/ankara-mcp-en.html?raw';
+import ankaraMcpDe from './i18n/articles/ankara-mcp-de.html?raw';
+import ankaraMcpFr from './i18n/articles/ankara-mcp-fr.html?raw';
+import ankaraMcpAr from './i18n/articles/ankara-mcp-ar.html?raw';
+import ankaraMcpRu from './i18n/articles/ankara-mcp-ru.html?raw';
+import ankaraLaravelEn from './i18n/articles/ankara-laravel-en.html?raw';
+import ankaraLaravelDe from './i18n/articles/ankara-laravel-de.html?raw';
+import ankaraLaravelFr from './i18n/articles/ankara-laravel-fr.html?raw';
+import ankaraLaravelAr from './i18n/articles/ankara-laravel-ar.html?raw';
+import ankaraLaravelRu from './i18n/articles/ankara-laravel-ru.html?raw';
+import ankaraSaasEn from './i18n/articles/ankara-saas-en.html?raw';
+import ankaraSaasDe from './i18n/articles/ankara-saas-de.html?raw';
+import ankaraSaasFr from './i18n/articles/ankara-saas-fr.html?raw';
+import ankaraSaasAr from './i18n/articles/ankara-saas-ar.html?raw';
+import ankaraSaasRu from './i18n/articles/ankara-saas-ru.html?raw';
+import ankaraOcrEn from './i18n/articles/ankara-ocr-en.html?raw';
+import ankaraOcrDe from './i18n/articles/ankara-ocr-de.html?raw';
+import ankaraOcrFr from './i18n/articles/ankara-ocr-fr.html?raw';
+import ankaraOcrAr from './i18n/articles/ankara-ocr-ar.html?raw';
+import ankaraOcrRu from './i18n/articles/ankara-ocr-ru.html?raw';
+import ankaraFlutterEn from './i18n/articles/ankara-flutter-en.html?raw';
+import ankaraFlutterDe from './i18n/articles/ankara-flutter-de.html?raw';
+import ankaraFlutterFr from './i18n/articles/ankara-flutter-fr.html?raw';
+import ankaraFlutterAr from './i18n/articles/ankara-flutter-ar.html?raw';
+import ankaraFlutterRu from './i18n/articles/ankara-flutter-ru.html?raw';
 
 const LANG_KEY = 'ozturksoft_lang';
 
@@ -166,13 +196,21 @@ const LANG_META: Record<string, { flag: string; code: string }> = {
 };
 
 // Article bodies indexed by [lang][articleKey]
-// Article bodies indexed by [lang][articleKey]
+const ANKARA_NICHE = {
+    ankaraAiAgents: { en: ankaraAiAgentsEn, de: ankaraAiAgentsDe, fr: ankaraAiAgentsFr, ar: ankaraAiAgentsAr, ru: ankaraAiAgentsRu },
+    ankaraMcp: { en: ankaraMcpEn, de: ankaraMcpDe, fr: ankaraMcpFr, ar: ankaraMcpAr, ru: ankaraMcpRu },
+    ankaraLaravel: { en: ankaraLaravelEn, de: ankaraLaravelDe, fr: ankaraLaravelFr, ar: ankaraLaravelAr, ru: ankaraLaravelRu },
+    ankaraSaas: { en: ankaraSaasEn, de: ankaraSaasDe, fr: ankaraSaasFr, ar: ankaraSaasAr, ru: ankaraSaasRu },
+    ankaraOcr: { en: ankaraOcrEn, de: ankaraOcrDe, fr: ankaraOcrFr, ar: ankaraOcrAr, ru: ankaraOcrRu },
+    ankaraFlutter: { en: ankaraFlutterEn, de: ankaraFlutterDe, fr: ankaraFlutterFr, ar: ankaraFlutterAr, ru: ankaraFlutterRu },
+};
+
 const ARTICLE_BODIES: Record<string, Record<string, string>> = {
-    en: { web: webEn, ai: aiEn, qa: qaEn, mobile: mobileEn, chatbot: chatbotEn, llm: llmEn, otomasyon: otomasyonEn, ankaraSecim: ankaraSecimEn, eticaret: eticaretEn, whatsapp: whatsappEn, ozelYazilim: ozelYazilimEn, mobilMaliyet: mobilMaliyetEn, kurumsalWeb: kurumsalWebEn, aiDanismanlik: aiDanismanlikEn, crmErp: crmErpEn, seo: seoEn, geo: geoEn, istanbul: istanbulEn, izmir: izmirEn, bursa: bursaEn, antalya: antalyaEn, konya: konyaEn },
-    de: { web: webDe, ai: aiDe, qa: qaDe, mobile: mobileDe, chatbot: chatbotDe, llm: llmDe, otomasyon: otomasyonDe, ankaraSecim: ankaraSecimDe, eticaret: eticaretDe, whatsapp: whatsappDe, ozelYazilim: ozelYazilimDe, mobilMaliyet: mobilMaliyetDe, kurumsalWeb: kurumsalWebDe, aiDanismanlik: aiDanismanlikDe, crmErp: crmErpDe, seo: seoDe, geo: geoDe, istanbul: istanbulDe, izmir: izmirDe, bursa: bursaDe, antalya: antalyaDe, konya: konyaDe },
-    fr: { web: webFr, ai: aiFr, qa: qaFr, mobile: mobileFr, chatbot: chatbotFr, llm: llmFr, otomasyon: otomasyonFr, ankaraSecim: ankaraSecimFr, eticaret: eticaretFr, whatsapp: whatsappFr, ozelYazilim: ozelYazilimFr, mobilMaliyet: mobilMaliyetFr, kurumsalWeb: kurumsalWebFr, aiDanismanlik: aiDanismanlikFr, crmErp: crmErpFr, seo: seoFr, geo: geoFr, istanbul: istanbulFr, izmir: izmirFr, bursa: bursaFr, antalya: antalyaFr, konya: konyaFr },
-    ar: { web: webAr, ai: aiAr, qa: qaAr, mobile: mobileAr, chatbot: chatbotAr, llm: llmAr, otomasyon: otomasyonAr, ankaraSecim: ankaraSecimAr, eticaret: eticaretAr, whatsapp: whatsappAr, ozelYazilim: ozelYazilimAr, mobilMaliyet: mobilMaliyetAr, kurumsalWeb: kurumsalWebAr, aiDanismanlik: aiDanismanlikAr, crmErp: crmErpAr, seo: seoAr, geo: geoAr, istanbul: istanbulAr, izmir: izmirAr, bursa: bursaAr, antalya: antalyaAr, konya: konyaAr },
-    ru: { web: webRu, ai: aiRu, qa: qaRu, mobile: mobileRu, chatbot: chatbotRu, llm: llmRu, otomasyon: otomasyonRu, ankaraSecim: ankaraSecimRu, eticaret: eticaretRu, whatsapp: whatsappRu, ozelYazilim: ozelYazilimRu, mobilMaliyet: mobilMaliyetRu, kurumsalWeb: kurumsalWebRu, aiDanismanlik: aiDanismanlikRu, crmErp: crmErpRu, seo: seoRu, geo: geoRu, istanbul: istanbulRu, izmir: izmirRu, bursa: bursaRu, antalya: antalyaRu, konya: konyaRu },
+    en: { web: webEn, ai: aiEn, qa: qaEn, mobile: mobileEn, chatbot: chatbotEn, llm: llmEn, otomasyon: otomasyonEn, ankaraSecim: ankaraSecimEn, eticaret: eticaretEn, whatsapp: whatsappEn, ozelYazilim: ozelYazilimEn, mobilMaliyet: mobilMaliyetEn, kurumsalWeb: kurumsalWebEn, aiDanismanlik: aiDanismanlikEn, crmErp: crmErpEn, seo: seoEn, geo: geoEn, istanbul: istanbulEn, izmir: izmirEn, bursa: bursaEn, antalya: antalyaEn, konya: konyaEn, ...Object.fromEntries(Object.entries(ANKARA_NICHE).map(([k, v]) => [k, v.en])) },
+    de: { web: webDe, ai: aiDe, qa: qaDe, mobile: mobileDe, chatbot: chatbotDe, llm: llmDe, otomasyon: otomasyonDe, ankaraSecim: ankaraSecimDe, eticaret: eticaretDe, whatsapp: whatsappDe, ozelYazilim: ozelYazilimDe, mobilMaliyet: mobilMaliyetDe, kurumsalWeb: kurumsalWebDe, aiDanismanlik: aiDanismanlikDe, crmErp: crmErpDe, seo: seoDe, geo: geoDe, istanbul: istanbulDe, izmir: izmirDe, bursa: bursaDe, antalya: antalyaDe, konya: konyaDe, ...Object.fromEntries(Object.entries(ANKARA_NICHE).map(([k, v]) => [k, v.de])) },
+    fr: { web: webFr, ai: aiFr, qa: qaFr, mobile: mobileFr, chatbot: chatbotFr, llm: llmFr, otomasyon: otomasyonFr, ankaraSecim: ankaraSecimFr, eticaret: eticaretFr, whatsapp: whatsappFr, ozelYazilim: ozelYazilimFr, mobilMaliyet: mobilMaliyetFr, kurumsalWeb: kurumsalWebFr, aiDanismanlik: aiDanismanlikFr, crmErp: crmErpFr, seo: seoFr, geo: geoFr, istanbul: istanbulFr, izmir: izmirFr, bursa: bursaFr, antalya: antalyaFr, konya: konyaFr, ...Object.fromEntries(Object.entries(ANKARA_NICHE).map(([k, v]) => [k, v.fr])) },
+    ar: { web: webAr, ai: aiAr, qa: qaAr, mobile: mobileAr, chatbot: chatbotAr, llm: llmAr, otomasyon: otomasyonAr, ankaraSecim: ankaraSecimAr, eticaret: eticaretAr, whatsapp: whatsappAr, ozelYazilim: ozelYazilimAr, mobilMaliyet: mobilMaliyetAr, kurumsalWeb: kurumsalWebAr, aiDanismanlik: aiDanismanlikAr, crmErp: crmErpAr, seo: seoAr, geo: geoAr, istanbul: istanbulAr, izmir: izmirAr, bursa: bursaAr, antalya: antalyaAr, konya: konyaAr, ...Object.fromEntries(Object.entries(ANKARA_NICHE).map(([k, v]) => [k, v.ar])) },
+    ru: { web: webRu, ai: aiRu, qa: qaRu, mobile: mobileRu, chatbot: chatbotRu, llm: llmRu, otomasyon: otomasyonRu, ankaraSecim: ankaraSecimRu, eticaret: eticaretRu, whatsapp: whatsappRu, ozelYazilim: ozelYazilimRu, mobilMaliyet: mobilMaliyetRu, kurumsalWeb: kurumsalWebRu, aiDanismanlik: aiDanismanlikRu, crmErp: crmErpRu, seo: seoRu, geo: geoRu, istanbul: istanbulRu, izmir: izmirRu, bursa: bursaRu, antalya: antalyaRu, konya: konyaRu, ...Object.fromEntries(Object.entries(ANKARA_NICHE).map(([k, v]) => [k, v.ru])) },
 };
 
 let savedTrBody: string | null = null;
@@ -192,7 +230,7 @@ i18next.init({
     },
 }).then(() => {
     const body = document.querySelector<HTMLElement>('.article-body');
-    if (body && document.body.dataset.article && pageLang === 'tr' && !document.body.dataset.pageLang) {
+    if (body && document.body.dataset.article && detectPageLang() === 'tr') {
         savedTrBody = body.innerHTML;
     }
     updateDropdownUI(normalizeLang(savedLang));
@@ -204,8 +242,6 @@ function normalizeLang(lang: string): string {
 }
 
 function updateArticleBody() {
-    if (document.body.dataset.pageLang) return;
-
     const articleKey = document.body.dataset.article;
     const body = document.querySelector<HTMLElement>('.article-body');
     if (!articleKey || !body) return;
@@ -213,12 +249,10 @@ function updateArticleBody() {
     const lang = normalizeLang(i18next.language);
 
     if (lang === 'tr') {
-        // Restore Turkish original
         if (savedTrBody) {
             body.innerHTML = savedTrBody;
         }
     } else {
-        // Use translated body for the language, fall back to EN
         const langBodies = ARTICLE_BODIES[lang] || ARTICLE_BODIES['en'];
         const translatedBody = langBodies?.[articleKey] || ARTICLE_BODIES['en']?.[articleKey];
         if (translatedBody) {
@@ -310,7 +344,23 @@ function updateDropdownUI(lang: string) {
 }
 
 async function changeLanguage(lang: string) {
+    const articleKey = document.body.dataset.article;
     const slug = getBlogSlug();
+
+    // Blog yazıları: sayfa yenilemeden içerik çevirisi (locale URL'ler deploy öncesi 404 vermesin)
+    if (articleKey && slug) {
+        if (lang === 'tr' && document.body.dataset.pageLang && document.body.dataset.pageLang !== 'tr') {
+            localStorage.setItem(LANG_KEY, lang);
+            window.location.href = `/blog/${slug}`;
+            return;
+        }
+        await i18next.changeLanguage(lang);
+        localStorage.setItem(LANG_KEY, lang);
+        updateDropdownUI(lang);
+        updateContent();
+        return;
+    }
+
     const available = getAvailableLangs();
     if (slug && available.includes(lang)) {
         localStorage.setItem(LANG_KEY, lang);

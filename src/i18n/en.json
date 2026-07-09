@@ -49,6 +49,48 @@
       }
     }
   },
+  "expertise": {
+    "title": "Our Expertise",
+    "subtitle": "Software & AI",
+    "cards": {
+      "aiAgents": {
+        "title": "AI Agents",
+        "desc": "Autonomous AI agents for task planning, tool use, and end-to-end multi-step workflow automation."
+      },
+      "saas": {
+        "title": "SaaS Development",
+        "desc": "Cloud subscription products — multi-tenant architecture, billing integration, and scalable infrastructure."
+      },
+      "customSoftware": {
+        "title": "Custom Software",
+        "desc": "Tailored ERP, CRM, and enterprise software when off-the-shelf SaaS is not enough."
+      },
+      "ocr": {
+        "title": "OCR & Document AI",
+        "desc": "Automatic reading, classification, and digitization of invoices, contracts, and corporate documents."
+      },
+      "automation": {
+        "title": "Automation & RPA",
+        "desc": "RPA + AI turns repetitive processes into intelligent automation so teams focus on high-value work."
+      },
+      "mcp": {
+        "title": "MCP Servers",
+        "desc": "Model Context Protocol servers that securely connect LLMs to your tools, databases, and business systems."
+      },
+      "flutter": {
+        "title": "Flutter Apps",
+        "desc": "High-performance, native-looking mobile apps for iOS and Android from a single codebase."
+      },
+      "laravel": {
+        "title": "Laravel Systems",
+        "desc": "Secure APIs, admin panels, and enterprise backends with Laravel — fast delivery, solid architecture."
+      },
+      "enterpriseAi": {
+        "title": "Enterprise AI",
+        "desc": "GDPR/KVKK-compliant, on-premise enterprise AI — your data stays on your servers."
+      }
+    }
+  },
   "references": {
     "title": "Partners We Work With Safely",
     "subtitle": "Valuable brands we collaborate with."
@@ -205,11 +247,12 @@
     "cards": {
       "dev": {
         "title": "Custom Software Development",
-        "desc": "We develop high-performance, scalable web and mobile applications with React, TypeScript, Node.js, and Python.",
+        "desc": "We build SaaS, enterprise web and custom software with React, TypeScript, Laravel, Node.js and Python.",
         "list1": "Corporate Web Apps",
         "list2": "E-commerce Platforms",
         "list3": "SaaS Products",
-        "list4": "RESTful & GraphQL APIs"
+        "list4": "RESTful & GraphQL APIs",
+        "list5": "Laravel Systems"
       },
       "qa": {
         "title": "Test & QA Services",
@@ -221,15 +264,21 @@
       },
       "mobile": {
         "title": "Mobile App Development",
-        "desc": "Native and cross-platform mobile apps on iOS and Android. User experience-focused designs.",
+        "desc": "High-performance mobile apps for iOS and Android with Flutter and React Native.",
+        "list1": "Flutter Apps",
+        "list2": "React Native",
+        "list3": "Native iOS & Android",
         "list4": "Store Publishing"
       },
       "ai": {
         "title": "AI & Analytics",
-        "desc": "Turn your data into a strategic asset with machine learning, data mining, and AI integrations.",
-        "list1": "Machine Learning",
-        "list2": "Natural Language Processing (NLP)",
-        "list3": "Data Analysis"
+        "desc": "Enterprise AI, AI agents, LLM, OCR, MCP servers and process automation for business.",
+        "list1": "AI Agents & Autonomous Assistants",
+        "list2": "Enterprise AI",
+        "list3": "OCR & Document Intelligence",
+        "list4": "MCP Servers & LLM Integration",
+        "list5": "Automation & RPA + AI",
+        "list6": "Natural Language Processing (NLP)"
       },
       "ui": {
         "title": "UI/UX Design",
@@ -484,12 +533,12 @@
     },
     "cards": {
       "c1": {
-        "title": "Chatbot & Virtual Assistant",
-        "desc": "Smart chatbot systems that understand Turkish natural language and operate 24/7. Ready for WhatsApp, web and mobile integration.",
+        "title": "AI Agents & Chatbot",
+        "desc": "Smart AI agent and chatbot systems that understand Turkish natural language and operate 24/7. Ready for WhatsApp, web and mobile integration.",
         "li1": "GPT-4 & Turkish NLP",
-        "li2": "WhatsApp / Web Integration",
-        "li3": "CRM & ERP Connection",
-        "li4": "Custom-Trained Models"
+        "li2": "AI Agents & MCP Servers",
+        "li3": "WhatsApp / Web Integration",
+        "li4": "CRM & ERP Connection"
       },
       "c2": {
         "title": "LLM & GPT Integration",
@@ -647,7 +696,13 @@
       "linkSecim": "How to choose a software company? →",
       "linkWeb": "Website cost guide",
       "linkChatbot": "Chatbot guide",
-      "linkOtomasyon": "Process automation"
+      "linkOtomasyon": "Process automation",
+      "linkAiAgents": "AI Agents guide",
+      "linkMcp": "MCP server guide",
+      "linkLaravel": "Laravel software guide",
+      "linkSaas": "SaaS development guide",
+      "linkOcr": "OCR & document AI guide",
+      "linkFlutter": "Flutter app guide"
     },
     "tags": {
       "webDesign": "Web Design",
@@ -704,6 +759,18 @@
         "title": "Process Automation in Ankara: Boost Efficiency with RPA + AI [2026]",
         "desc": "Automate your invoice, document and data entry processes. Real ROI examples and an automation cost guide for Ankara."
       },
+      "ankaraAiAgentsCard": {
+        "title": "AI Agents Development in Ankara: Autonomous Assistants & Costs [2026]",
+        "desc": "What AI agents are, how they differ from chatbots, LangChain/MCP architecture, and development costs in Ankara."
+      },
+      "ankaraMcpCard": {
+        "title": "MCP Server Development in Ankara: Model Context Protocol Guide [2026]",
+        "desc": "Connect LLMs securely to CRM, databases and APIs — MCP server development and pricing guide."
+      },
+      "ankaraLaravelCard": {
+        "title": "Laravel Software Development in Ankara: API, Panel & Enterprise [2026]",
+        "desc": "Custom software, REST API, admin panel and SaaS with Laravel — cost guide for Ankara."
+      },
       "istanbulCard": {
         "title": "AI Solutions in Istanbul: Business Guide [2026]",
         "desc": "Chatbot, LLM integration, process automation and data analytics guide for Istanbul businesses."
@@ -747,6 +814,18 @@
       "geoCard": {
         "title": "What Is GEO? Generative Engine Optimization Guide [2026]",
         "desc": "Visibility strategy for ChatGPT, Perplexity and AI search engines."
+      },
+      "ankaraSaasCard": {
+        "title": "SaaS Development in Ankara: Cloud Product, Cost & Architecture Guide [2026]",
+        "desc": "SaaS development guide for Ankara. Multi-tenant architecture, subscription billing, MVP cost and tech stack selection."
+      },
+      "ankaraOcrCard": {
+        "title": "OCR & Document AI in Ankara: Invoice & Contract Digitization Guide [2026]",
+        "desc": "OCR and document AI in Ankara. Invoice reading, contract classification, ERP integration and cost guide."
+      },
+      "ankaraFlutterCard": {
+        "title": "Flutter App Development in Ankara: Cost, Timeline & Guide [2026]",
+        "desc": "Flutter iOS and Android development in Ankara. MVP cost, native performance, store publishing and 2026 pricing."
       }
     },
     "posts": {
@@ -859,6 +938,36 @@
         "tag": "⚙️ Automation",
         "title": "Process Automation in Ankara: Boost Efficiency with RPA + AI [2026]",
         "breadcrumb": "Process Automation"
+      },
+      "ankaraAiAgents": {
+        "tag": "🤖 AI Agents",
+        "title": "AI Agents Development in Ankara: Autonomous Assistants, Cost & Guide [2026]",
+        "breadcrumb": "Ankara AI Agents"
+      },
+      "ankaraMcp": {
+        "tag": "🔌 MCP",
+        "title": "MCP Server Development in Ankara: Model Context Protocol Guide [2026]",
+        "breadcrumb": "Ankara MCP Server"
+      },
+      "ankaraLaravel": {
+        "tag": "🐘 Laravel",
+        "title": "Laravel Software Development in Ankara: API, Panel & Enterprise Systems [2026]",
+        "breadcrumb": "Ankara Laravel"
+      },
+      "ankaraSaas": {
+        "tag": "☁️ SaaS",
+        "title": "SaaS Development in Ankara: Cloud Product, Cost & Architecture Guide [2026]",
+        "breadcrumb": "Ankara SaaS 2026"
+      },
+      "ankaraOcr": {
+        "tag": "📄 OCR & Document AI",
+        "title": "OCR & Document AI in Ankara: Invoice & Contract Digitization Guide [2026]",
+        "breadcrumb": "Ankara OCR Document AI 2026"
+      },
+      "ankaraFlutter": {
+        "tag": "📱 Flutter",
+        "title": "Flutter App Development in Ankara: Cost, Timeline & Guide [2026]",
+        "breadcrumb": "Ankara Flutter 2026"
       }
     },
     "breadcrumb": {
@@ -875,7 +984,8 @@
       "read11": "11 min read",
       "date3": "June 15, 2026",
       "date4": "June 15, 2026",
-      "date5": "June 22, 2026"
+      "date5": "June 22, 2026",
+      "date6": "July 9, 2026"
     },
     "footer": {
       "copyright": "© 2026 Ozturksoft — Ankara, Turkey. All rights reserved."
@@ -936,6 +1046,21 @@
         "desc": "Our Ankara-based expert team analyzes your business processes and creates an automation roadmap for the highest ROI. First analysis is free.",
         "btn": "Free Process Analysis"
       },
+      "ankaraAiAgents": {
+        "title": "Plan Your AI Agents Project in Ankara",
+        "desc": "Free discovery session for autonomous assistant and enterprise AI agent architecture.",
+        "btn": "Free Consultation"
+      },
+      "ankaraMcp": {
+        "title": "Let's Discuss Your MCP Server Project",
+        "desc": "Securely connect your LLMs to CRM, databases, and business tools.",
+        "btn": "Get a Free Quote"
+      },
+      "ankaraLaravel": {
+        "title": "Get a Quote for Your Laravel Project",
+        "desc": "API, admin panel, or enterprise Laravel system — free discovery call.",
+        "btn": "Free Quote"
+      },
       "istanbul": {
         "title": "Let's Discuss Your AI Project in Istanbul",
         "desc": "Request a free discovery meeting for chatbot, LLM and automation projects.",
@@ -990,6 +1115,21 @@
         "title": "Plan Your GEO & AI Visibility Strategy",
         "desc": "Free GEO analysis to get your brand recommended in ChatGPT and AI search.",
         "btn": "Free GEO Analysis"
+      },
+      "ankaraSaas": {
+        "title": "Plan Your SaaS Product in Ankara",
+        "desc": "Free discovery session for MVP scope and architecture.",
+        "btn": "Get a Free Quote"
+      },
+      "ankaraOcr": {
+        "title": "Let's Discuss Your OCR & Document AI Project",
+        "desc": "Free consultation to automate invoice and document workflows.",
+        "btn": "Free Consultation"
+      },
+      "ankaraFlutter": {
+        "title": "Start Your Flutter App Project",
+        "desc": "Single codebase for iOS and Android — free discovery call.",
+        "btn": "Tell Us About Your Project"
       }
     }
   }

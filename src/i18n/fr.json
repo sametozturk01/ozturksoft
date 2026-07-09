@@ -49,6 +49,48 @@
       }
     }
   },
+  "expertise": {
+    "title": "Notre expertise",
+    "subtitle": "Logiciel & IA",
+    "cards": {
+      "aiAgents": {
+        "title": "AI Agents",
+        "desc": "Agents IA autonomes pour la planification de tâches, l'utilisation d'outils et l'automatisation de workflows multi-étapes."
+      },
+      "saas": {
+        "title": "Développement SaaS",
+        "desc": "Produits d'abonnement cloud — architecture multi-locataire, facturation et infrastructure évolutive."
+      },
+      "customSoftware": {
+        "title": "Logiciel sur mesure",
+        "desc": "ERP, CRM et logiciels d'entreprise sur mesure quand le SaaS standard ne suffit pas."
+      },
+      "ocr": {
+        "title": "OCR & IA documentaire",
+        "desc": "Lecture, classification et numérisation automatiques de factures, contrats et documents d'entreprise."
+      },
+      "automation": {
+        "title": "Automatisation & RPA",
+        "desc": "RPA + IA transforme les processus répétitifs en automatisation intelligente pour le travail à forte valeur."
+      },
+      "mcp": {
+        "title": "Serveurs MCP",
+        "desc": "Le Model Context Protocol connecte les LLM en toute sécurité à vos outils, bases de données et systèmes métier."
+      },
+      "flutter": {
+        "title": "Applications Flutter",
+        "desc": "Applications mobiles haute performance pour iOS et Android à partir d'une seule base de code."
+      },
+      "laravel": {
+        "title": "Systèmes Laravel",
+        "desc": "APIs sécurisées, panneaux d'administration et backends d'entreprise avec Laravel."
+      },
+      "enterpriseAi": {
+        "title": "IA d'entreprise (Enterprise AI)",
+        "desc": "IA d'entreprise conforme RGPD/KVKK en on-premise — vos données restent sur vos serveurs."
+      }
+    }
+  },
   "references": {
     "title": "Partenaires de confiance",
     "subtitle": "Des marques précieuses avec lesquelles nous collaborons."
@@ -205,11 +247,12 @@
     "cards": {
       "dev": {
         "title": "Développement logiciel sur mesure",
-        "desc": "Nous développons des applications web et mobiles haute performance avec React, TypeScript, Node.js et Python.",
+        "desc": "SaaS, web d'entreprise et logiciel sur mesure avec React, TypeScript, Laravel, Node.js et Python.",
         "list1": "Applications web d'entreprise",
         "list2": "Plateformes e-commerce",
         "list3": "Produits SaaS",
-        "list4": "APIs RESTful & GraphQL"
+        "list4": "APIs RESTful & GraphQL",
+        "list5": "Systèmes Laravel"
       },
       "qa": {
         "title": "Services Test & QA",
@@ -221,15 +264,21 @@
       },
       "mobile": {
         "title": "Développement d'applications mobiles",
-        "desc": "Applications mobiles natives et multiplateformes sur iOS et Android. Designs axés sur l'expérience utilisateur.",
+        "desc": "Applications mobiles haute performance pour iOS et Android avec Flutter et React Native.",
+        "list1": "Applications Flutter",
+        "list2": "React Native",
+        "list3": "Native iOS & Android",
         "list4": "Publication en magasin"
       },
       "ai": {
         "title": "IA & Analytics",
-        "desc": "Transformez vos données en actif stratégique avec le machine learning, le data mining et les intégrations IA.",
-        "list1": "Machine Learning",
-        "list2": "Traitement du Langage Naturel (NLP)",
-        "list3": "Analyse de données"
+        "desc": "Enterprise AI, AI agents, LLM, OCR, serveurs MCP et automatisation des processus.",
+        "list1": "AI Agents & assistants autonomes",
+        "list2": "IA d'entreprise (Enterprise AI)",
+        "list3": "OCR & intelligence documentaire",
+        "list4": "Serveurs MCP & intégration LLM",
+        "list5": "Automatisation & RPA + IA",
+        "list6": "Traitement du Langage Naturel (NLP)"
       },
       "ui": {
         "title": "Design UI/UX",
@@ -484,12 +533,12 @@
     },
     "cards": {
       "c1": {
-        "title": "Chatbot & Assistant virtuel",
-        "desc": "Systèmes de chatbot intelligents comprenant le langage naturel et fonctionnant 24/7. Prêt pour l'intégration WhatsApp, web et mobile.",
+        "title": "AI Agents & Chatbot",
+        "desc": "Systèmes d'agents IA et chatbots intelligents comprenant le langage naturel et fonctionnant 24/7.",
         "li1": "GPT-4 & NLP",
-        "li2": "WhatsApp / Web Integration",
-        "li3": "Connexion CRM & ERP",
-        "li4": "Modèles personnalisés"
+        "li2": "AI Agents & serveurs MCP",
+        "li3": "Connexion WhatsApp / Web",
+        "li4": "Connexion CRM & ERP"
       },
       "c2": {
         "title": "Intégration LLM & GPT",
@@ -647,7 +696,13 @@
       "linkSecim": "Comment choisir une société logicielle ? →",
       "linkWeb": "Coût site web",
       "linkChatbot": "Guide chatbot",
-      "linkOtomasyon": "Automatisation des processus"
+      "linkOtomasyon": "Automatisation des processus",
+      "linkAiAgents": "Guide AI Agents",
+      "linkMcp": "Guide serveurs MCP",
+      "linkLaravel": "Guide Laravel",
+      "linkSaas": "Guide développement SaaS",
+      "linkOcr": "Guide OCR & IA documentaire",
+      "linkFlutter": "Guide application Flutter"
     },
     "tags": {
       "webDesign": "Web Design",
@@ -747,6 +802,30 @@
       "geoCard": {
         "title": "Qu'est-ce que le GEO ? Generative Engine Optimization [2026]",
         "desc": "Visibilité sur ChatGPT, Perplexity et moteurs de recherche IA."
+      },
+      "ankaraAiAgentsCard": {
+        "title": "Développement AI Agents à Ankara [2026]",
+        "desc": "AI agents, différence chatbot, architecture LangChain/MCP et coûts."
+      },
+      "ankaraMcpCard": {
+        "title": "Serveurs MCP à Ankara: Model Context Protocol [2026]",
+        "desc": "Connecter les LLM au CRM, base de données et APIs en toute sécurité."
+      },
+      "ankaraLaravelCard": {
+        "title": "Développement Laravel à Ankara [2026]",
+        "desc": "API, panneau admin et SaaS avec Laravel — guide des coûts."
+      },
+      "ankaraSaasCard": {
+        "title": "Développement SaaS à Ankara : produit cloud, coûts et architecture [2026]",
+        "desc": "Guide SaaS pour Ankara. Architecture multi-tenant, facturation par abonnement, coût MVP et choix technologique."
+      },
+      "ankaraOcrCard": {
+        "title": "OCR & IA documentaire à Ankara : numérisation factures et contrats [2026]",
+        "desc": "OCR et IA documentaire à Ankara. Lecture de factures, classification de contrats, intégration ERP et coûts."
+      },
+      "ankaraFlutterCard": {
+        "title": "Développement Flutter à Ankara : coût, délais et guide [2026]",
+        "desc": "Applications iOS et Android avec Flutter à Ankara. Coût MVP, performances natives, publication store et tarifs 2026."
       }
     },
     "posts": {
@@ -844,6 +923,36 @@
         "tag": "🤖 GEO",
         "title": "Qu'est-ce que le GEO ? Guide Generative Engine Optimization [2026]",
         "breadcrumb": "Qu'est-ce que le GEO ?"
+      },
+      "ankaraAiAgents": {
+        "tag": "🤖 AI Agents",
+        "title": "Développement AI Agents à Ankara [2026]",
+        "breadcrumb": "Ankara AI Agents"
+      },
+      "ankaraMcp": {
+        "tag": "🔌 MCP",
+        "title": "Serveurs MCP à Ankara [2026]",
+        "breadcrumb": "Ankara MCP"
+      },
+      "ankaraLaravel": {
+        "tag": "🐘 Laravel",
+        "title": "Développement Laravel à Ankara [2026]",
+        "breadcrumb": "Ankara Laravel"
+      },
+      "ankaraSaas": {
+        "tag": "☁️ SaaS",
+        "title": "Développement SaaS à Ankara : produit cloud, coûts et architecture [2026]",
+        "breadcrumb": "Ankara SaaS 2026"
+      },
+      "ankaraOcr": {
+        "tag": "📄 OCR & IA documentaire",
+        "title": "OCR & IA documentaire à Ankara : numérisation factures et contrats [2026]",
+        "breadcrumb": "Ankara OCR 2026"
+      },
+      "ankaraFlutter": {
+        "tag": "📱 Flutter",
+        "title": "Développement Flutter à Ankara : coût, délais et guide [2026]",
+        "breadcrumb": "Ankara Flutter 2026"
       }
     },
     "breadcrumb": {
@@ -860,7 +969,8 @@
       "read11": "11 min de lecture",
       "date3": "15 juin 2026",
       "date4": "15 juin 2026",
-      "date5": "June 22, 2026"
+      "date5": "June 22, 2026",
+      "date6": "9 juillet 2026"
     },
     "footer": {
       "copyright": "© 2026 Ozturksoft — Ankara, Turquie. Tous droits réservés."
@@ -975,6 +1085,36 @@
         "title": "Planifiez votre stratégie GEO",
         "desc": "Analyse GEO gratuite pour ChatGPT et la recherche IA.",
         "btn": "Analyse GEO gratuite"
+      },
+      "ankaraAiAgents": {
+        "title": "Planifiez votre projet AI Agents",
+        "desc": "Session découverte gratuite pour assistants autonomes.",
+        "btn": "Consultation gratuite"
+      },
+      "ankaraMcp": {
+        "title": "Discutons de votre serveur MCP",
+        "desc": "Connectez vos LLM en toute sécurité.",
+        "btn": "Devis gratuit"
+      },
+      "ankaraLaravel": {
+        "title": "Devis pour votre projet Laravel",
+        "desc": "API, panneau ou système enterprise — appel découverte gratuit.",
+        "btn": "Devis gratuit"
+      },
+      "ankaraSaas": {
+        "title": "Planifiez votre produit SaaS à Ankara",
+        "desc": "Session découverte gratuite pour le périmètre MVP et l'architecture.",
+        "btn": "Devis gratuit"
+      },
+      "ankaraOcr": {
+        "title": "Parlons de votre projet OCR & IA documentaire",
+        "desc": "Consultation gratuite pour automatiser vos flux de factures et documents.",
+        "btn": "Consultation gratuite"
+      },
+      "ankaraFlutter": {
+        "title": "Lancez votre projet d'application Flutter",
+        "desc": "Une seule base de code pour iOS et Android — appel découverte gratuit.",
+        "btn": "Parlez-nous de votre projet"
       }
     }
   }

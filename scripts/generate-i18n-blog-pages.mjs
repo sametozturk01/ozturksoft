@@ -160,6 +160,10 @@ for (const file of readdirSync(sourceBlogDir).filter((f) => f.endsWith('.html'))
     });
 
     writeFileSync(resolve(outDir, file), page);
+    // Kaynak ağaçta da tut — deploy sonrası /en/blog/... URL'leri çalışsın
+    const srcOutDir = resolve(root, lang, 'blog');
+    mkdirSync(srcOutDir, { recursive: true });
+    writeFileSync(resolve(srcOutDir, file), page);
     sitemapEntries.push({ lang, slug });
     generated++;
     console.log(`  ${lang}/blog/${slug}`);

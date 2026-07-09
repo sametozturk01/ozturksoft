@@ -37,6 +37,12 @@ export default defineConfig({
         blogKonya: resolve(__dirname, 'blog/konya-yapay-zeka-cozumleri-rehberi.html'),
         blogSeo: resolve(__dirname, 'blog/seo-nedir-onemi-rehberi-2026.html'),
         blogGeo: resolve(__dirname, 'blog/geo-nedir-generative-engine-optimization-rehberi-2026.html'),
+        blogAnkaraAiAgents: resolve(__dirname, 'blog/ankara-ai-agents-gelistirme-2026.html'),
+        blogAnkaraMcp: resolve(__dirname, 'blog/ankara-mcp-sunucu-gelistirme-2026.html'),
+        blogAnkaraLaravel: resolve(__dirname, 'blog/ankara-laravel-yazilim-gelistirme-2026.html'),
+        blogAnkaraSaas: resolve(__dirname, 'blog/ankara-saas-gelistirme-2026.html'),
+        blogAnkaraOcr: resolve(__dirname, 'blog/ankara-ocr-belge-ai-2026.html'),
+        blogAnkaraFlutter: resolve(__dirname, 'blog/ankara-flutter-uygulama-gelistirme-2026.html'),
         // Language pages are standalone static HTML, not Vite entry points
         // They are served as-is by the server (Vercel cleanUrls handles /en → en.html)
       }

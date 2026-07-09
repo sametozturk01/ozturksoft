@@ -22,6 +22,12 @@ export const ARTICLE_FILE_PREFIX = {
   crmErp: 'crm-erp',
   seo: 'seo',
   geo: 'geo',
+  ankaraAiAgents: 'ankara-ai-agents',
+  ankaraMcp: 'ankara-mcp',
+  ankaraLaravel: 'ankara-laravel',
+  ankaraSaas: 'ankara-saas',
+  ankaraOcr: 'ankara-ocr',
+  ankaraFlutter: 'ankara-flutter',
 };
 
 export const LOCALE_LANGS = ['en', 'de', 'fr', 'ar', 'ru'];

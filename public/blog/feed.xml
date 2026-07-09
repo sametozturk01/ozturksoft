@@ -5,8 +5,50 @@
     <link>https://ozturksoft.net/blog</link>
     <description>Ankara merkezli Ozturksoft yazılım ve yapay zeka blogu. Fiyat rehberleri, teknik içerikler ve GEO/SEO ipuçları.</description>
     <language>tr</language>
-    <lastBuildDate>Thu, 09 Jul 2026 13:10:03 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 14:10:17 GMT</lastBuildDate>
     <atom:link href="https://ozturksoft.net/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ankara'da AI Agents Geliştirme: Otonom Asistanlar, Maliyet ve Rehber [2026]</title>
+      <link>https://ozturksoft.net/blog/ankara-ai-agents-gelistirme-2026</link>
+      <guid isPermaLink="true">https://ozturksoft.net/blog/ankara-ai-agents-gelistirme-2026</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Ankara'da AI agents geliştirme rehberi. Otonom asistanlar, araç kullanımı, çok adımlı iş akışları, maliyet tablosu ve doğru firma seçimi.</description>
+    </item>
+    <item>
+      <title>Ankara'da Flutter Uygulama Geliştirme: Maliyet, Süre ve Rehber [2026]</title>
+      <link>https://ozturksoft.net/blog/ankara-flutter-uygulama-gelistirme-2026</link>
+      <guid isPermaLink="true">https://ozturksoft.net/blog/ankara-flutter-uygulama-gelistirme-2026</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Ankara'da Flutter ile iOS ve Android uygulama geliştirme. MVP maliyeti, native performans, store yayınlama ve 2026 fiyat rehberi.</description>
+    </item>
+    <item>
+      <title>Ankara'da Laravel Yazılım Geliştirme: API, Panel ve Kurumsal Sistemler [2026]</title>
+      <link>https://ozturksoft.net/blog/ankara-laravel-yazilim-gelistirme-2026</link>
+      <guid isPermaLink="true">https://ozturksoft.net/blog/ankara-laravel-yazilim-gelistirme-2026</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Ankara'da Laravel ile özel yazılım, REST API, yönetim paneli ve kurumsal web uygulaması geliştirme. Maliyet, süre ve teknoloji rehberi.</description>
+    </item>
+    <item>
+      <title>Ankara'da MCP Sunucu Geliştirme: Model Context Protocol Rehberi [2026]</title>
+      <link>https://ozturksoft.net/blog/ankara-mcp-sunucu-gelistirme-2026</link>
+      <guid isPermaLink="true">https://ozturksoft.net/blog/ankara-mcp-sunucu-gelistirme-2026</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Ankara'da MCP (Model Context Protocol) sunucu geliştirme. LLM'leri veritabanı, CRM ve araçlara güvenli bağlama, maliyet ve mimari rehberi.</description>
+    </item>
+    <item>
+      <title>Ankara'da OCR &amp; Belge AI: Fatura, Sözleşme Dijitalleştirme Rehberi [2026]</title>
+      <link>https://ozturksoft.net/blog/ankara-ocr-belge-ai-2026</link>
+      <guid isPermaLink="true">https://ozturksoft.net/blog/ankara-ocr-belge-ai-2026</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Ankara'da OCR ve belge yapay zeka çözümleri. Fatura okuma, sözleşme sınıflandırma, ERP entegrasyonu ve maliyet rehberi.</description>
+    </item>
+    <item>
+      <title>Ankara'da SaaS Geliştirme: Bulut Ürün, Maliyet ve Mimari Rehberi [2026]</title>
+      <link>https://ozturksoft.net/blog/ankara-saas-gelistirme-2026</link>
+      <guid isPermaLink="true">https://ozturksoft.net/blog/ankara-saas-gelistirme-2026</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Ankara'da SaaS geliştirme rehberi. Çok kiracılı mimari, abonelik faturalandırma, MVP maliyeti ve doğru teknoloji seçimi.</description>
+    </item>
     <item>
       <title>CRM ve ERP Entegrasyonu: Maliyet, Süreç ve Yazılım Rehberi [2026]</title>
       <link>https://ozturksoft.net/blog/crm-erp-entegrasyonu-rehberi-2026</link>
