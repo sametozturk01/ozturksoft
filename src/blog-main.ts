@@ -156,6 +156,16 @@ import ankaraFlutterDe from './i18n/articles/ankara-flutter-de.html?raw';
 import ankaraFlutterFr from './i18n/articles/ankara-flutter-fr.html?raw';
 import ankaraFlutterAr from './i18n/articles/ankara-flutter-ar.html?raw';
 import ankaraFlutterRu from './i18n/articles/ankara-flutter-ru.html?raw';
+import ankaraTelecomEn from './i18n/articles/ankara-telekom-en.html?raw';
+import ankaraTelecomDe from './i18n/articles/ankara-telekom-de.html?raw';
+import ankaraTelecomFr from './i18n/articles/ankara-telekom-fr.html?raw';
+import ankaraTelecomAr from './i18n/articles/ankara-telekom-ar.html?raw';
+import ankaraTelecomRu from './i18n/articles/ankara-telekom-ru.html?raw';
+import ankaraSanayiEn from './i18n/articles/ankara-sanayi-en.html?raw';
+import ankaraSanayiDe from './i18n/articles/ankara-sanayi-de.html?raw';
+import ankaraSanayiFr from './i18n/articles/ankara-sanayi-fr.html?raw';
+import ankaraSanayiAr from './i18n/articles/ankara-sanayi-ar.html?raw';
+import ankaraSanayiRu from './i18n/articles/ankara-sanayi-ru.html?raw';
 
 const LANG_KEY = 'ozturksoft_lang';
 
@@ -203,6 +213,8 @@ const ANKARA_NICHE = {
     ankaraSaas: { en: ankaraSaasEn, de: ankaraSaasDe, fr: ankaraSaasFr, ar: ankaraSaasAr, ru: ankaraSaasRu },
     ankaraOcr: { en: ankaraOcrEn, de: ankaraOcrDe, fr: ankaraOcrFr, ar: ankaraOcrAr, ru: ankaraOcrRu },
     ankaraFlutter: { en: ankaraFlutterEn, de: ankaraFlutterDe, fr: ankaraFlutterFr, ar: ankaraFlutterAr, ru: ankaraFlutterRu },
+    ankaraTelecom: { en: ankaraTelecomEn, de: ankaraTelecomDe, fr: ankaraTelecomFr, ar: ankaraTelecomAr, ru: ankaraTelecomRu },
+    ankaraSanayi: { en: ankaraSanayiEn, de: ankaraSanayiDe, fr: ankaraSanayiFr, ar: ankaraSanayiAr, ru: ankaraSanayiRu },
 };
 
 const ARTICLE_BODIES: Record<string, Record<string, string>> = {

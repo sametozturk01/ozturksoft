@@ -43,6 +43,8 @@ export default defineConfig({
         blogAnkaraSaas: resolve(__dirname, 'blog/ankara-saas-gelistirme-2026.html'),
         blogAnkaraOcr: resolve(__dirname, 'blog/ankara-ocr-belge-ai-2026.html'),
         blogAnkaraFlutter: resolve(__dirname, 'blog/ankara-flutter-uygulama-gelistirme-2026.html'),
+        blogAnkaraTelecom: resolve(__dirname, 'blog/ankara-telekom-yazilim-2026.html'),
+        blogAnkaraSanayi: resolve(__dirname, 'blog/ankara-sanayi-yazilim-2026.html'),
         // Language pages are standalone static HTML, not Vite entry points
         // They are served as-is by the server (Vercel cleanUrls handles /en → en.html)
       }

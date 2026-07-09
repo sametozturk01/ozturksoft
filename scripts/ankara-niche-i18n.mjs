@@ -327,6 +327,97 @@ ${cta('ankaraOcr', 'Ücretsiz Danışmanlık')}`,
 <p>Profesyonel paketlerde App Store ve Play Store yayın süreci genelde dahildir.</p>
 ${cta('ankaraFlutter', 'Projenizi Anlatın')}`,
   },
+  {
+    slug: 'ankara-telekom-yazilim-2026',
+    articleKey: 'ankaraTelecom',
+    filePrefix: 'ankara-telekom',
+    tag: '📡 Telekom',
+    section: 'Yazılım',
+    date: '9 Temmuz 2026',
+    readMins: '9',
+    published: '2026-07-09T17:00:00+03:00',
+    title: "Ankara'da Telekom Yazılım Çözümleri: BSS/OSS, Chatbot ve CRM Rehberi [2026]",
+    desc: "Ankara'da telekom sektörü yazılım çözümleri. Müşteri self-servis, chatbot, faturalama entegrasyonu, operasyon panelleri ve maliyet rehberi.",
+    keywords: 'ankara telekom yazılım, telekom yazılım şirketi ankara, bss oss yazılım, telekom chatbot, operatör yazılım türkiye',
+    ogTitle: "Ankara Telekom Yazılım Çözümleri [2026]",
+    twitterDesc: 'Telekom BSS/OSS, müşteri self-servis, chatbot ve faturalama entegrasyonu — Ankara rehberi.',
+    breadcrumb: 'Ankara Telekom Yazılım 2026',
+    faq: [
+      { q: "Ankara'da telekom yazılım projesi ne kadar tutar?", a: 'Müşteri self-servis portalı 80.000–150.000 TL, chatbot + CRM entegrasyonu 120.000–220.000 TL, kurumsal BSS/OSS modülü 250.000–500.000+ TL aralığındadır.' },
+      { q: 'Telekom firmaları için hangi yazılımlar gerekli?', a: 'Müşteri self-servis, faturalama entegrasyonu, chatbot, operasyon panelleri, numara taşıma süreçleri ve CRM entegrasyonu en yaygın ihtiyaçlardır.' },
+      { q: 'Mevcut BSS sistemine entegre olur mu?', a: 'Evet. REST API, SOAP veya middleware katmanı ile mevcut BSS/OSS ve faturalama sistemlerine entegrasyon yapılabilir.' },
+    ],
+    bodyTr: `<p><strong>Telekom sektörü</strong>, müşteri hacmi yüksek, süreçleri karmaşık ve 7/24 operasyon gerektiren bir alandır. <strong>Ankara'da telekom yazılım çözümleri</strong> arayan operatörler, MVNO'lar ve telekom altyapı firmaları için BSS/OSS entegrasyonu, self-servis portalları ve AI chatbot rehberi bu yazıda.</p>
+<div class="highlight-box"><p>⚡ <strong>Bu yazıda:</strong> Telekom yazılım ihtiyaçları, BSS/OSS entegrasyonu, chatbot & self-servis, 2026 maliyet tablosu ve KVKK uyumu.</p></div>
+<h2>Telekom Sektöründe Yazılım İhtiyaçları</h2>
+<ul>
+<li><strong>Müşteri self-servis portalı</strong> — fatura, paket değişikliği, numara taşıma</li>
+<li><strong>Chatbot & IVR entegrasyonu</strong> — 7/24 destek, WhatsApp ve web</li>
+<li><strong>Faturalama & ödeme</strong> — iyzico, banka ve BSS entegrasyonu</li>
+<li><strong>Operasyon panelleri</strong> — arıza takibi, saha ekipleri, SLA raporları</li>
+<li><strong>CRM entegrasyonu</strong> — müşteri geçmişi, kampanya yönetimi</li>
+</ul>
+<h2>Ankara'da Telekom Yazılım Maliyeti (2026)</h2>
+<table class="price-table"><thead><tr><th>Kapsam</th><th>Maliyet</th><th>Süre</th></tr></thead><tbody>
+<tr><td>Self-servis portal MVP</td><td>80.000 – 150.000 TL</td><td>6–10 hafta</td></tr>
+<tr><td>Chatbot + CRM entegrasyonu</td><td>120.000 – 220.000 TL</td><td>8–12 hafta</td></tr>
+<tr><td>Kurumsal BSS/OSS modülü</td><td>250.000 – 500.000+ TL</td><td>3–6 ay</td></tr>
+</tbody></table>
+<p>İlgili: <a href="/blog/ankara-chatbot-gelistirme-2026">chatbot geliştirme</a> · <a href="/blog/crm-erp-entegrasyonu-rehberi-2026">CRM entegrasyonu</a> · <a href="/hizmetler">hizmetlerimiz</a></p>
+<h2>Sık Sorulan Sorular</h2>
+<h3>Telekom chatbot ne kadar tutar?</h3>
+<p>WhatsApp ve web entegre chatbot için <strong>80.000–150.000 TL</strong> bütçe planlayın.</p>
+<h3>On-premise kurulabilir mi?</h3>
+<p>Evet. Müşteri verileri için on-premise veya özel bulut mimarisi kurulabilir.</p>
+${cta('ankaraTelecom', 'Ücretsiz Danışmanlık')}`,
+  },
+  {
+    slug: 'ankara-sanayi-yazilim-2026',
+    articleKey: 'ankaraSanayi',
+    filePrefix: 'ankara-sanayi',
+    tag: '🏭 Sanayi',
+    section: 'Yazılım',
+    date: '9 Temmuz 2026',
+    readMins: '10',
+    published: '2026-07-09T17:30:00+03:00',
+    title: "Ankara'da Sanayi Yazılım Çözümleri: İmalat, Savunma ve Üretim Rehberi [2026]",
+    desc: "Ankara'da sanayi ve imalat sektörü yazılım çözümleri. Kalite kontrol AI, ERP entegrasyonu, öngörülü bakım, savunma sanayi yazılımı ve maliyet rehberi.",
+    keywords: 'ankara sanayi yazılım, imalat yazılım ankara, savunma sanayi yazılım, üretim yazılımı türkiye, endüstri 4.0 ankara',
+    ogTitle: "Ankara Sanayi Yazılım Çözümleri [2026]",
+    twitterDesc: 'İmalat, savunma sanayi ve üretim yazılımı — ERP, kalite kontrol AI ve öngörülü bakım rehberi.',
+    breadcrumb: 'Ankara Sanayi Yazılım 2026',
+    faq: [
+      { q: "Ankara'da sanayi yazılım projesi ne kadar tutar?", a: 'Üretim takip paneli 70.000–130.000 TL, ERP entegre kurumsal sistem 150.000–300.000 TL, savunma sanayi özel yazılım 300.000–600.000+ TL aralığındadır.' },
+      { q: 'Savunma sanayi yazılımında nelere dikkat edilmeli?', a: 'CMMI/ASPICE uyumlu QA, güvenli mimari, on-premise dağıtım, kaynak kod devri ve sızma testi zorunludur.' },
+      { q: 'Kalite kontrol AI nasıl çalışır?', a: 'Kamera ve sensör verilerinden görüntü işleme modelleri ile üretim hattında anlık kusur tespiti yapılır; ERP\'ye otomatik kayıt gönderilir.' },
+    ],
+    bodyTr: `<p><strong>Ankara</strong>, savunma sanayi, makine imalatı ve yüksek teknoloji üretiminin Türkiye'deki önemli merkezlerinden biridir. <strong>Sanayi yazılım çözümleri</strong> — ERP entegrasyonu, kalite kontrol AI, öngörülü bakım ve üretim panelleri — bu sektörlerin dijital dönüşümünde kritik rol oynar.</p>
+<div class="highlight-box"><p>⚡ <strong>Bu yazıda:</strong> İmalat & savunma sanayi yazılım ihtiyaçları, Endüstri 4.0, kalite kontrol AI, 2026 maliyet tablosu ve QA standartları.</p></div>
+<h2>Sanayi Sektöründe Yazılım Kullanım Alanları</h2>
+<ul>
+<li><strong>Üretim takip & MES</strong> — hat verimliliği, OEE raporları</li>
+<li><strong>Kalite kontrol AI</strong> — kamera tabanlı kusur tespiti</li>
+<li><strong>Öngörülü bakım</strong> — sensör verisi ile arıza tahmini</li>
+<li><strong>ERP entegrasyonu</strong> — Logo, Netsis, SAP bağlantısı</li>
+<li><strong>Savunma sanayi</strong> — CMMI/ASPICE uyumlu özel yazılım</li>
+</ul>
+<h2>Ankara'da Sanayi Yazılım Maliyeti (2026)</h2>
+<table class="price-table"><thead><tr><th>Kapsam</th><th>Maliyet</th><th>Süre</th></tr></thead><tbody>
+<tr><td>Üretim takip paneli</td><td>70.000 – 130.000 TL</td><td>5–8 hafta</td></tr>
+<tr><td>ERP entegre kurumsal sistem</td><td>150.000 – 300.000 TL</td><td>10–16 hafta</td></tr>
+<tr><td>Kalite kontrol AI + entegrasyon</td><td>180.000 – 350.000 TL</td><td>8–14 hafta</td></tr>
+<tr><td>Savunma sanayi özel yazılım</td><td>300.000 – 600.000+ TL</td><td>3–8 ay</td></tr>
+</tbody></table>
+<p>İlgili: <a href="/blog/ankara-ocr-belge-ai-2026">belge OCR</a> · <a href="/blog/ankara-surec-otomasyonu-rpa-yapay-zeka">süreç otomasyonu</a> · <a href="/blog/qa-test-nedir-yazilim-kalite-guvencesi">QA rehberi</a> · <a href="/ankara-yapay-zeka-cozumleri">AI çözümleri</a></p>
+<h2>Savunma Sanayi ve QA Standartları</h2>
+<p>ASELSAN, Roketsan ve STM ekosisteminde <strong>CMMI, ASPICE ve ISO 9001</strong> standartları referans alınır. Ozturksoft sanayi projelerinde TDD, CI/CD ve güvenlik testlerini standart süreç olarak uygular.</p>
+<h2>Sık Sorulan Sorular</h2>
+<h3>İmalat firması için ilk adım ne olmalı?</h3>
+<p>Üretim takip paneli veya ERP entegrasyonu ile başlayın — <strong>70.000–130.000 TL</strong> aralığında hızlı ROI sağlar.</p>
+<h3>Kalite kontrol AI ne kadar sürer?</h3>
+<p>Pilot hat kurulumu genelde <strong>8–14 hafta</strong> sürer; doğruluk oranı %95+ hedeflenir.</p>
+${cta('ankaraSanayi', 'Ücretsiz Teklif Al')}`,
+  },
 ];
 
 // EN + DE/FR/AR/RU bodies for new posts
@@ -460,6 +551,97 @@ ${cta('ankaraFlutter', 'أخبرنا عن مشروعك')}`,
 <tr><td>Интеграция ERP/CRM</td><td>250 000 – 400 000+ TRY</td><td>4–6 месяцев</td></tr>
 </tbody></table>
 ${cta('ankaraFlutter', 'Расскажите о проекте')}`,
+  },
+  'ankara-telekom': {
+    en: `<p><strong>Telecom software</strong> in <strong>Ankara</strong> covers customer self-service, BSS/OSS integration, chatbots, billing and operations dashboards for operators and MVNOs.</p>
+<h2>Costs (Ankara, 2026)</h2>
+<table class="price-table"><thead><tr><th>Scope</th><th>Cost</th><th>Timeline</th></tr></thead><tbody>
+<tr><td>Self-service portal MVP</td><td>80,000 – 150,000 TRY</td><td>6–10 weeks</td></tr>
+<tr><td>Chatbot + CRM integration</td><td>120,000 – 220,000 TRY</td><td>8–12 weeks</td></tr>
+<tr><td>Enterprise BSS/OSS module</td><td>250,000 – 500,000+ TRY</td><td>3–6 months</td></tr>
+</tbody></table>
+<p><a href="/blog/ankara-chatbot-gelistirme-2026">chatbot</a> · <a href="/blog/crm-erp-entegrasyonu-rehberi-2026">CRM integration</a></p>
+${cta('ankaraTelecom', 'Free Consultation')}`,
+    de: `<p><strong>Telekom-Software</strong> in <strong>Ankara</strong>: Kunden-Self-Service, BSS/OSS-Integration, Chatbots, Abrechnung und Operations-Dashboards.</p>
+<h2>Kosten (Ankara, 2026)</h2>
+<table class="price-table"><thead><tr><th>Umfang</th><th>Kosten</th><th>Dauer</th></tr></thead><tbody>
+<tr><td>Self-Service MVP</td><td>80.000 – 150.000 TRY</td><td>6–10 Wochen</td></tr>
+<tr><td>Chatbot + CRM</td><td>120.000 – 220.000 TRY</td><td>8–12 Wochen</td></tr>
+<tr><td>BSS/OSS Enterprise</td><td>250.000 – 500.000+ TRY</td><td>3–6 Monate</td></tr>
+</tbody></table>
+${cta('ankaraTelecom', 'Kostenlose Beratung')}`,
+    fr: `<p><strong>Logiciel télécom</strong> à <strong>Ankara</strong> : self-service client, intégration BSS/OSS, chatbots, facturation et tableaux de bord opérationnels.</p>
+<h2>Coûts (Ankara, 2026)</h2>
+<table class="price-table"><thead><tr><th>Portée</th><th>Coût</th><th>Délai</th></tr></thead><tbody>
+<tr><td>Portail self-service MVP</td><td>80 000 – 150 000 TRY</td><td>6–10 semaines</td></tr>
+<tr><td>Chatbot + CRM</td><td>120 000 – 220 000 TRY</td><td>8–12 semaines</td></tr>
+<tr><td>Module BSS/OSS enterprise</td><td>250 000 – 500 000+ TRY</td><td>3–6 mois</td></tr>
+</tbody></table>
+${cta('ankaraTelecom', 'Consultation gratuite')}`,
+    ar: `<p><strong>برمجيات الاتصالات</strong> في <strong>أنقرة</strong>: خدمة ذاتية للعملاء، تكامل BSS/OSS، روبوتات، فوترة ولوحات عمليات.</p>
+<h2>التكاليف (أنقرة، 2026)</h2>
+<table class="price-table"><thead><tr><th>النطاق</th><th>التكلفة</th><th>المدة</th></tr></thead><tbody>
+<tr><td>بوابة self-service MVP</td><td>80.000 – 150.000 TRY</td><td>6–10 أسابيع</td></tr>
+<tr><td>روبوت + CRM</td><td>120.000 – 220.000 TRY</td><td>8–12 أسبوعاً</td></tr>
+<tr><td>وحدة BSS/OSS مؤسسية</td><td>250.000 – 500.000+ TRY</td><td>3–6 أشهر</td></tr>
+</tbody></table>
+${cta('ankaraTelecom', 'استشارة مجانية')}`,
+    ru: `<p><strong>Телеком-ПО</strong> в <strong>Анкаре</strong>: самообслуживание, интеграция BSS/OSS, чатботы, биллинг и операционные панели.</p>
+<h2>Стоимость (Анкара, 2026)</h2>
+<table class="price-table"><thead><tr><th>Объём</th><th>Стоимость</th><th>Срок</th></tr></thead><tbody>
+<tr><td>Self-service MVP</td><td>80 000 – 150 000 TRY</td><td>6–10 недель</td></tr>
+<tr><td>Чатбот + CRM</td><td>120 000 – 220 000 TRY</td><td>8–12 недель</td></tr>
+<tr><td>BSS/OSS enterprise</td><td>250 000 – 500 000+ TRY</td><td>3–6 месяцев</td></tr>
+</tbody></table>
+${cta('ankaraTelecom', 'Бесплатная консультация')}`,
+  },
+  'ankara-sanayi': {
+    en: `<p><strong>Industrial software</strong> in <strong>Ankara</strong> — manufacturing, defense industry, quality-control AI, predictive maintenance and ERP integration.</p>
+<h2>Costs (Ankara, 2026)</h2>
+<table class="price-table"><thead><tr><th>Scope</th><th>Cost</th><th>Timeline</th></tr></thead><tbody>
+<tr><td>Production tracking panel</td><td>70,000 – 130,000 TRY</td><td>5–8 weeks</td></tr>
+<tr><td>ERP-integrated system</td><td>150,000 – 300,000 TRY</td><td>10–16 weeks</td></tr>
+<tr><td>Quality-control AI</td><td>180,000 – 350,000 TRY</td><td>8–14 weeks</td></tr>
+<tr><td>Defense industry custom software</td><td>300,000 – 600,000+ TRY</td><td>3–8 months</td></tr>
+</tbody></table>
+<p><a href="/blog/ankara-ocr-belge-ai-2026">document OCR</a> · <a href="/blog/qa-test-nedir-yazilim-kalite-guvencesi">QA guide</a></p>
+${cta('ankaraSanayi', 'Get a Free Quote')}`,
+    de: `<p><strong>Industriesoftware</strong> in <strong>Ankara</strong> — Fertigung, Verteidigungsindustrie, Qualitätskontrolle-KI, vorausschauende Wartung und ERP-Integration.</p>
+<h2>Kosten (Ankara, 2026)</h2>
+<table class="price-table"><thead><tr><th>Umfang</th><th>Kosten</th><th>Dauer</th></tr></thead><tbody>
+<tr><td>Produktionspanel</td><td>70.000 – 130.000 TRY</td><td>5–8 Wochen</td></tr>
+<tr><td>ERP-integriertes System</td><td>150.000 – 300.000 TRY</td><td>10–16 Wochen</td></tr>
+<tr><td>Qualitätskontrolle-KI</td><td>180.000 – 350.000 TRY</td><td>8–14 Wochen</td></tr>
+<tr><td>Verteidigungsindustrie</td><td>300.000 – 600.000+ TRY</td><td>3–8 Monate</td></tr>
+</tbody></table>
+${cta('ankaraSanayi', 'Kostenloses Angebot')}`,
+    fr: `<p><strong>Logiciel industriel</strong> à <strong>Ankara</strong> — fabrication, défense, IA contrôle qualité, maintenance prédictive et intégration ERP.</p>
+<h2>Coûts (Ankara, 2026)</h2>
+<table class="price-table"><thead><tr><th>Portée</th><th>Coût</th><th>Délai</th></tr></thead><tbody>
+<tr><td>Panneau de production</td><td>70 000 – 130 000 TRY</td><td>5–8 semaines</td></tr>
+<tr><td>Système intégré ERP</td><td>150 000 – 300 000 TRY</td><td>10–16 semaines</td></tr>
+<tr><td>IA contrôle qualité</td><td>180 000 – 350 000 TRY</td><td>8–14 semaines</td></tr>
+<tr><td>Industrie de défense</td><td>300 000 – 600 000+ TRY</td><td>3–8 mois</td></tr>
+</tbody></table>
+${cta('ankaraSanayi', 'Devis gratuit')}`,
+    ar: `<p><strong>برمجيات صناعية</strong> في <strong>أنقرة</strong> — التصنيع، صناعة الدفاع، ذكاء اصطناعي لمراقبة الجودة، صيانة تنبؤية وتكامل ERP.</p>
+<h2>التكاليف (أنقرة، 2026)</h2>
+<table class="price-table"><thead><tr><th>النطاق</th><th>التكلفة</th><th>المدة</th></tr></thead><tbody>
+<tr><td>لوحة تتبع الإنتاج</td><td>70.000 – 130.000 TRY</td><td>5–8 أسابيع</td></tr>
+<tr><td>نظام متكامل ERP</td><td>150.000 – 300.000 TRY</td><td>10–16 أسبوعاً</td></tr>
+<tr><td>ذكاء اصطناعي للجودة</td><td>180.000 – 350.000 TRY</td><td>8–14 أسبوعاً</td></tr>
+<tr><td>صناعة الدفاع</td><td>300.000 – 600.000+ TRY</td><td>3–8 أشهر</td></tr>
+</tbody></table>
+${cta('ankaraSanayi', 'عرض مجاني')}`,
+    ru: `<p><strong>Промышленное ПО</strong> в <strong>Анкаре</strong> — производство, оборона, ИИ контроля качества, предиктивное обслуживание и ERP.</p>
+<h2>Стоимость (Анкара, 2026)</h2>
+<table class="price-table"><thead><tr><th>Объём</th><th>Стоимость</th><th>Срок</th></tr></thead><tbody>
+<tr><td>Панель производства</td><td>70 000 – 130 000 TRY</td><td>5–8 недель</td></tr>
+<tr><td>Система с ERP</td><td>150 000 – 300 000 TRY</td><td>10–16 недель</td></tr>
+<tr><td>ИИ контроля качества</td><td>180 000 – 350 000 TRY</td><td>8–14 недель</td></tr>
+<tr><td>Оборонная промышленность</td><td>300 000 – 600 000+ TRY</td><td>3–8 месяцев</td></tr>
+</tbody></table>
+${cta('ankaraSanayi', 'Бесплатное предложение')}`,
   },
 };
 

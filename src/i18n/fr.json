@@ -11,7 +11,7 @@
   },
   "hero": {
     "title": "Entreprise de développement IA & logiciels à Ankara",
-    "subtitle": "Chez Ozturksoft, nous propulsons votre entreprise vers l'avenir avec l'intégration IA, le développement logiciel sur mesure et des solutions de transformation numérique basées à Ankara.",
+    "subtitle": "IA, logiciel sur mesure et transformation digitale pour entreprises, administrations publiques et PME — basés à Ankara.",
     "btnExplore": "Découvrir nos solutions",
     "btnMeet": "Rencontrez-nous"
   },
@@ -51,7 +51,7 @@
   },
   "expertise": {
     "title": "Notre expertise",
-    "subtitle": "Logiciel & IA",
+    "subtitle": "Logiciel & IA pour Entreprises & Secteur Public",
     "cards": {
       "aiAgents": {
         "title": "AI Agents",
@@ -242,7 +242,7 @@
       "subtitle": "Solutions professionnelles",
       "title1": "Ce que nous",
       "title2": "faisons ?",
-      "desc": "Nous propulsons votre entreprise vers l'avenir avec des solutions de transformation numérique de bout en bout."
+      "desc": "Des groupes aux administrations publiques et PME — transformation digitale conforme RGPD/KVKK."
     },
     "cards": {
       "dev": {
@@ -529,7 +529,7 @@
       "badge": "Entreprise IA basée à Ankara",
       "title1": "Solutions IA",
       "title2": "à Ankara",
-      "desc": "Avec le machine learning, l'intégration LLM, les chatbots et l'automatisation des processus, nous propulsons votre entreprise vers l'avenir."
+      "desc": "IA on-premise, numérisation documentaire et automatisation pour institutions et administrations."
     },
     "cards": {
       "c1": {
@@ -582,31 +582,31 @@
       }
     },
     "sectors": {
-      "title1": "Quels",
-      "title2": "secteurs",
-      "title3": "servons-nous ?",
-      "desc": "Nous avons livré des projets IA dans les secteurs de la fabrication, des finances, de la santé, du retail et du secteur public.",
-      "badge": "LEADER À ANKARA",
+      "title1": "Solutions pour",
+      "title2": "Entreprises &",
+      "title3": "Administrations",
+      "desc": "IA et logiciel conforme KVKK pour holdings, ministères, municipalités et PME.",
+      "badge": "ENTREPRISE & PUBLIC",
       "s1": {
-        "title": "Fabrication & Production",
-        "li1t": "Automatisation du contrôle qualité",
-        "li1d": "IA basée sur caméra pour la détection instantanée de défauts sur les lignes de production.",
-        "li2t": "Maintenance prédictive",
-        "li2d": "Modèles d'analyse de capteurs qui prédisent les pannes machines avant qu'elles se produisent."
+        "title": "Entreprises & Holdings",
+        "li1t": "IA d'entreprise & LLM",
+        "li1d": "IA auditable on-premise ou cloud privé.",
+        "li2t": "ERP / CRM sur mesure",
+        "li2d": "Intégration Logo, SAP et systèmes internes."
       },
       "s2": {
-        "title": "Gouvernement & Finance",
-        "li1t": "Classification de documents & OCR",
-        "li1d": "Classification automatique et numérisation de documents internes.",
-        "li2t": "Détection des risques & fraudes",
-        "li2d": "Surveillance des transactions sécurisée avec détection d'anomalies en temps réel."
+        "title": "Administrations & Secteur Public",
+        "li1t": "OCR documentaire",
+        "li1d": "Lecture automatique des factures et documents officiels.",
+        "li2t": "IA on-premise sécurisée",
+        "li2d": "Données qui ne quittent pas le réseau institutionnel."
       },
       "s3": {
-        "title": "Retail & Santé",
-        "li1t": "Moteur de recommandation de produits",
-        "li1d": "Algorithmes de recommandation de produits personnalisés basés sur le comportement des utilisateurs.",
-        "li2t": "Analyse des données patients",
-        "li2d": "Analyse des données cliniques pour l'aide à la décision et l'amélioration des processus."
+        "title": "PME & Secteur Privé",
+        "li1t": "Chatbot & automatisation",
+        "li1d": "Support 24/7 via WhatsApp et web.",
+        "li2t": "MVP SaaS & mobile",
+        "li2d": "Time-to-market rapide avec Flutter et Laravel."
       }
     },
     "tech": {
@@ -826,6 +826,14 @@
       "ankaraFlutterCard": {
         "title": "Développement Flutter à Ankara : coût, délais et guide [2026]",
         "desc": "Applications iOS et Android avec Flutter à Ankara. Coût MVP, performances natives, publication store et tarifs 2026."
+      },
+      "ankaraTelecomCard": {
+        "title": "Logiciel télécom à Ankara : BSS/OSS, chatbot et CRM [2026]",
+        "desc": "Logiciel télécom à Ankara. Self-service client, chatbots, facturation et tableaux de bord opérationnels."
+      },
+      "ankaraSanayiCard": {
+        "title": "Logiciel industriel à Ankara : fabrication, défense et production [2026]",
+        "desc": "Logiciel industriel à Ankara. IA contrôle qualité, intégration ERP, maintenance prédictive et défense."
       }
     },
     "posts": {
@@ -953,6 +961,16 @@
         "tag": "📱 Flutter",
         "title": "Développement Flutter à Ankara : coût, délais et guide [2026]",
         "breadcrumb": "Ankara Flutter 2026"
+      },
+      "ankaraTelecom": {
+        "tag": "📡 Télécom",
+        "title": "Logiciel télécom à Ankara : BSS/OSS, chatbot et CRM [2026]",
+        "breadcrumb": "Ankara Télécom 2026"
+      },
+      "ankaraSanayi": {
+        "tag": "🏭 Industrie",
+        "title": "Logiciel industriel à Ankara : fabrication, défense et production [2026]",
+        "breadcrumb": "Ankara Industrie 2026"
       }
     },
     "breadcrumb": {
@@ -1120,6 +1138,111 @@
         "title": "Lancez votre projet d'application Flutter",
         "desc": "Une seule base de code pour iOS et Android — appel découverte gratuit.",
         "btn": "Parlez-nous de votre projet"
+      },
+      "ankaraTelecom": {
+        "title": "Parlons de votre projet logiciel télécom",
+        "desc": "Consultation gratuite pour BSS/OSS, self-service et chatbot.",
+        "btn": "Consultation gratuite"
+      },
+      "ankaraSanayi": {
+        "title": "Devis pour votre projet logiciel industriel",
+        "desc": "Fabrication, production et défense — appel découverte gratuit.",
+        "btn": "Devis gratuit"
+      }
+    }
+  },
+  "clients": {
+    "subtitle": "Focus Entreprise & Secteur Public",
+    "title": "À qui nous nous adressons",
+    "desc": "Même discipline QA pour holdings, institutions publiques et secteur privé.",
+    "enterprise": {
+      "title": "Entreprises & Holdings",
+      "desc": "ERP, CRM, web corporate, agents IA et mobile — systèmes scalables.",
+      "li1": "Intégration ERP & CRM",
+      "li2": "Panels multi-services"
+    },
+    "government": {
+      "badge": "ADMINISTRATION PUBLIQUE",
+      "title": "Administrations & Secteur Public",
+      "desc": "IA on-premise, OCR et logiciel sécurisé — données en interne.",
+      "li1": "OCR & archivage numérique",
+      "li2": "Automatisation des dossiers"
+    },
+    "sme": {
+      "title": "PME & Startups",
+      "desc": "MVP SaaS, chatbot et transformation rapide.",
+      "li1": "MVP Flutter & web",
+      "li2": "Chatbot WhatsApp"
+    }
+  },
+  "industries": {
+    "subtitle": "Expertise sectorielle",
+    "title": "Secteurs que nous servons",
+    "desc": "Secteur public, défense, santé, finance et plus — logiciel et IA adaptés à votre secteur à Ankara et en Turquie.",
+    "items": {
+      "public": {
+        "title": "Administrations & Ministères",
+        "desc": "E-gouvernement, OCR documentaire, IA on-premise et logiciel sécurisé."
+      },
+      "defense": {
+        "title": "Industrie de défense",
+        "desc": "QA conforme CMMI/ASPICE, architecture sécurisée et logiciel sur mesure."
+      },
+      "health": {
+        "title": "Santé & Hôpitaux",
+        "desc": "Rendez-vous patients, chatbots cliniques, analytique — conforme RGPD/KVKK."
+      },
+      "education": {
+        "title": "Éducation & Universités",
+        "desc": "Systèmes étudiants, LMS, automatisation des examens et portails institutionnels."
+      },
+      "finance": {
+        "title": "Finance & Banque",
+        "desc": "Analyse des risques, détection de fraude, LLM on-premise et intégrations sécurisées."
+      },
+      "mfg": {
+        "title": "Industrie & Production",
+        "desc": "IA contrôle qualité, maintenance prédictive, intégration ERP et tableaux de bord."
+      },
+      "logistics": {
+        "title": "Logistique & Transport",
+        "desc": "Suivi de flotte, optimisation des routes, entrepôt et automatisation."
+      },
+      "energy": {
+        "title": "Énergie",
+        "desc": "Intégration SCADA, analytique capteurs, planification maintenance et rapports."
+      },
+      "construction": {
+        "title": "BTP & Contractants",
+        "desc": "Gestion de projet, suivi de chantier, marchés publics et automatisation documentaire."
+      },
+      "tourism": {
+        "title": "Tourisme & Hôtellerie",
+        "desc": "Réservations, chatbots multilingues et automatisation de l'expérience client."
+      },
+      "retail": {
+        "title": "E-commerce & Retail",
+        "desc": "Boutiques en ligne, moteurs de recommandation, stock et intégration CRM."
+      },
+      "legal": {
+        "title": "Juridique & Conseil",
+        "desc": "OCR contrats, recherche documentaire, bases de connaissances et assistants LLM."
+      },
+      "agri": {
+        "title": "Agriculture & Agroalimentaire",
+        "desc": "Chaîne d'approvisionnement, traçabilité, stock et contrôle qualité."
+      },
+      "telecom": {
+        "title": "Télécoms",
+        "desc": "Self-service client, chatbots, facturation et tableaux de bord opérationnels."
+      },
+      "auto": {
+        "title": "Automobile",
+        "desc": "Gestion concessionnaires, pièces détachées, réservation service et CRM."
+      },
+      "realestate": {
+        "title": "Immobilier",
+        "desc": "Gestion de portefeuille, plateformes d'annonces, matching clients et contrats."
       }
     }
   }

@@ -5,7 +5,7 @@
     <link>https://ozturksoft.net/blog</link>
     <description>Ankara merkezli Ozturksoft yazılım ve yapay zeka blogu. Fiyat rehberleri, teknik içerikler ve GEO/SEO ipuçları.</description>
     <language>tr</language>
-    <lastBuildDate>Thu, 09 Jul 2026 14:22:57 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 14:55:46 GMT</lastBuildDate>
     <atom:link href="https://ozturksoft.net/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Ankara'da AI Agents Geliştirme: Otonom Asistanlar, Maliyet ve Rehber [2026]</title>
@@ -48,6 +48,20 @@
       <guid isPermaLink="true">https://ozturksoft.net/blog/ankara-saas-gelistirme-2026</guid>
       <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
       <description>Ankara'da SaaS geliştirme rehberi. Çok kiracılı mimari, abonelik faturalandırma, MVP maliyeti ve doğru teknoloji seçimi.</description>
+    </item>
+    <item>
+      <title>Ankara'da Sanayi Yazılım Çözümleri: İmalat, Savunma ve Üretim Rehberi [2026]</title>
+      <link>https://ozturksoft.net/blog/ankara-sanayi-yazilim-2026</link>
+      <guid isPermaLink="true">https://ozturksoft.net/blog/ankara-sanayi-yazilim-2026</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Ankara'da sanayi ve imalat sektörü yazılım çözümleri. Kalite kontrol AI, ERP entegrasyonu, öngörülü bakım, savunma sanayi yazılımı ve maliyet rehberi.</description>
+    </item>
+    <item>
+      <title>Ankara'da Telekom Yazılım Çözümleri: BSS/OSS, Chatbot ve CRM Rehberi [2026]</title>
+      <link>https://ozturksoft.net/blog/ankara-telekom-yazilim-2026</link>
+      <guid isPermaLink="true">https://ozturksoft.net/blog/ankara-telekom-yazilim-2026</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Ankara'da telekom sektörü yazılım çözümleri. Müşteri self-servis, chatbot, faturalama entegrasyonu, operasyon panelleri ve maliyet rehberi.</description>
     </item>
     <item>
       <title>CRM ve ERP Entegrasyonu: Maliyet, Süreç ve Yazılım Rehberi [2026]</title>

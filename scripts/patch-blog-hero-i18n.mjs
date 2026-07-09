@@ -12,6 +12,8 @@ const POST_META = {
   ankaraSaas: { date: 'blog.meta.date6', read: 'blog.meta.read10' },
   ankaraOcr: { date: 'blog.meta.date6', read: 'blog.meta.read9' },
   ankaraFlutter: { date: 'blog.meta.date6', read: 'blog.meta.read9' },
+  ankaraTelecom: { date: 'blog.meta.date6', read: 'blog.meta.read9' },
+  ankaraSanayi: { date: 'blog.meta.date6', read: 'blog.meta.read10' },
   chatbot: { date: 'blog.meta.date2', read: 'blog.meta.read9' },
   llm: { date: 'blog.meta.date3', read: 'blog.meta.read10' },
   otomasyon: { date: 'blog.meta.date4', read: 'blog.meta.read10' },

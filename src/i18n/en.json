@@ -11,7 +11,7 @@
   },
   "hero": {
     "title": "Ankara's AI & Software Development Company",
-    "subtitle": "At Ozturksoft, we carry your business to the future with Ankara-based AI integration, custom software development, and digital transformation solutions.",
+    "subtitle": "AI, custom software and digital transformation for enterprises, government agencies and businesses — based in Ankara, Turkey.",
     "btnExplore": "Explore Our Solutions",
     "btnMeet": "Meet With Us"
   },
@@ -51,7 +51,7 @@
   },
   "expertise": {
     "title": "Our Expertise",
-    "subtitle": "Software & AI",
+    "subtitle": "Software & AI for Enterprise & Public Sector",
     "cards": {
       "aiAgents": {
         "title": "AI Agents",
@@ -242,7 +242,7 @@
       "subtitle": "Professional Solutions",
       "title1": "What We",
       "title2": "Do?",
-      "desc": "We carry your business to the future with end-to-end digital transformation solutions. We are with you at every step, from idea to live."
+      "desc": "From enterprises and government to SMEs and startups — GDPR/KVKK-compliant, scalable digital transformation from idea to production."
     },
     "cards": {
       "dev": {
@@ -529,7 +529,7 @@
       "badge": "Ankara-Based AI Company",
       "title1": "AI Solutions",
       "title2": "in Ankara",
-      "desc": "With machine learning, LLM integration, chatbots and process automation, we carry your business into the future. Turn your data into a competitive advantage."
+      "desc": "On-premise AI, document digitization, process automation and enterprise software for institutions and government agencies."
     },
     "cards": {
       "c1": {
@@ -582,31 +582,31 @@
       }
     },
     "sectors": {
-      "title1": "Which",
-      "title2": "Sectors",
-      "title3": "Do We Serve?",
-      "desc": "We have delivered AI projects across manufacturing, finance, health, retail, and public sectors.",
-      "badge": "LEADER IN ANKARA",
+      "title1": "Solutions for",
+      "title2": "Enterprises &",
+      "title3": "Government",
+      "desc": "KVKK-compliant AI and software for holdings, ministries, municipalities, universities and SMEs.",
+      "badge": "ENTERPRISE & PUBLIC",
       "s1": {
-        "title": "Manufacturing & Production",
-        "li1t": "Quality Control Automation",
-        "li1d": "Camera-based AI for instant defect detection on production lines.",
-        "li2t": "Predictive Maintenance",
-        "li2d": "Sensor analysis models that predict machine failures before they occur."
+        "title": "Enterprises & Holdings",
+        "li1t": "Enterprise AI & LLM Integration",
+        "li1d": "Auditable corporate AI on-premise or in private cloud.",
+        "li2t": "ERP / CRM Custom Software",
+        "li2d": "Enterprise apps integrated with Logo, SAP and custom systems."
       },
       "s2": {
-        "title": "Government & Finance",
-        "li1t": "Document Classification & OCR",
-        "li1d": "Automatic classification and digitization of internal documents.",
-        "li2t": "Risk & Fraud Detection",
-        "li2d": "Secure transaction monitoring with real-time anomaly detection."
+        "title": "Government & Public Sector",
+        "li1t": "Document OCR & Digitization",
+        "li1d": "Automated reading and archiving of invoices, contracts and official documents.",
+        "li2t": "Secure On-Premise AI",
+        "li2d": "Architecture compliant with public-sector security — data never leaves your network."
       },
       "s3": {
-        "title": "Retail & Healthcare",
-        "li1t": "Product Recommendation Engine",
-        "li1d": "Personalized product recommendation algorithms based on user behavior.",
-        "li2t": "Patient Data Analytics",
-        "li2d": "Clinical data analysis for decision support and process improvement."
+        "title": "SMEs & Private Sector",
+        "li1t": "Chatbot & Process Automation",
+        "li1d": "24/7 customer support and operations automation via WhatsApp and web.",
+        "li2t": "SaaS & Mobile MVP",
+        "li2d": "Fast time-to-market with Flutter, Laravel and cloud products."
       }
     },
     "tech": {
@@ -826,6 +826,14 @@
       "ankaraFlutterCard": {
         "title": "Flutter App Development in Ankara: Cost, Timeline & Guide [2026]",
         "desc": "Flutter iOS and Android development in Ankara. MVP cost, native performance, store publishing and 2026 pricing."
+      },
+      "ankaraTelecomCard": {
+        "title": "Telecom Software Solutions in Ankara: BSS/OSS, Chatbot & CRM Guide [2026]",
+        "desc": "Telecom software in Ankara. Customer self-service, chatbots, billing integration and operations dashboards."
+      },
+      "ankaraSanayiCard": {
+        "title": "Industrial Software Solutions in Ankara: Manufacturing, Defense & Production Guide [2026]",
+        "desc": "Industrial software in Ankara. Quality-control AI, ERP integration, predictive maintenance and defense industry solutions."
       }
     },
     "posts": {
@@ -968,6 +976,16 @@
         "tag": "📱 Flutter",
         "title": "Flutter App Development in Ankara: Cost, Timeline & Guide [2026]",
         "breadcrumb": "Ankara Flutter 2026"
+      },
+      "ankaraTelecom": {
+        "tag": "📡 Telecom",
+        "title": "Telecom Software Solutions in Ankara: BSS/OSS, Chatbot & CRM Guide [2026]",
+        "breadcrumb": "Ankara Telecom Software 2026"
+      },
+      "ankaraSanayi": {
+        "tag": "🏭 Industry",
+        "title": "Industrial Software Solutions in Ankara: Manufacturing, Defense & Production Guide [2026]",
+        "breadcrumb": "Ankara Industrial Software 2026"
       }
     },
     "breadcrumb": {
@@ -1135,6 +1153,111 @@
         "title": "Start Your Flutter App Project",
         "desc": "Single codebase for iOS and Android — free discovery call.",
         "btn": "Tell Us About Your Project"
+      },
+      "ankaraTelecom": {
+        "title": "Let's Discuss Your Telecom Software Project",
+        "desc": "Free consultation for BSS/OSS, self-service and chatbot solutions.",
+        "btn": "Free Consultation"
+      },
+      "ankaraSanayi": {
+        "title": "Get a Quote for Your Industrial Software Project",
+        "desc": "Manufacturing, production and defense industry software — free discovery call.",
+        "btn": "Get a Free Quote"
+      }
+    }
+  },
+  "clients": {
+    "subtitle": "Enterprise & Public Sector Focus",
+    "title": "Who We Serve",
+    "desc": "Same QA discipline and compliant architecture for holdings, public institutions and the private sector.",
+    "enterprise": {
+      "title": "Enterprises & Holdings",
+      "desc": "ERP, CRM, corporate web, AI agents and mobile — scalable, auditable systems for thousands of users.",
+      "li1": "Enterprise ERP & CRM integration",
+      "li2": "Multi-department admin panels"
+    },
+    "government": {
+      "badge": "GOVERNMENT & PUBLIC",
+      "title": "Government Agencies & Public Sector",
+      "desc": "On-premise AI, OCR, e-government workflows and secure software — data stays in-house.",
+      "li1": "Document OCR & digital archive",
+      "li2": "Procurement & paperwork automation"
+    },
+    "sme": {
+      "title": "SMEs & Startups",
+      "desc": "SaaS MVP, chatbots and fast digital transformation — transparent budgets and short delivery cycles.",
+      "li1": "Flutter & web MVP",
+      "li2": "WhatsApp chatbot & automation"
+    }
+  },
+  "industries": {
+    "subtitle": "Industry Expertise",
+    "title": "Industries We Serve",
+    "desc": "Public sector, defense, healthcare, finance and more across Ankara and Turkey — sector-specific software and AI.",
+    "items": {
+      "public": {
+        "title": "Government & Ministries",
+        "desc": "E-government workflows, document OCR, on-premise AI and secure enterprise software."
+      },
+      "defense": {
+        "title": "Defense Industry",
+        "desc": "CMMI/ASPICE-compliant QA, secure architecture and custom software development."
+      },
+      "health": {
+        "title": "Healthcare & Hospitals",
+        "desc": "Patient scheduling, clinical chatbots, analytics — GDPR/KVKK-compliant health software."
+      },
+      "education": {
+        "title": "Education & Universities",
+        "desc": "Student information systems, LMS, exam automation and institutional portals."
+      },
+      "finance": {
+        "title": "Finance & Banking",
+        "desc": "Risk analysis, fraud detection, on-premise LLM and secure integrations."
+      },
+      "mfg": {
+        "title": "Manufacturing & Production",
+        "desc": "Quality-control AI, predictive maintenance, ERP integration and production dashboards."
+      },
+      "logistics": {
+        "title": "Logistics & Transport",
+        "desc": "Fleet tracking, route optimization, warehouse management and process automation."
+      },
+      "energy": {
+        "title": "Energy",
+        "desc": "SCADA integration, sensor analytics, maintenance planning and reporting systems."
+      },
+      "construction": {
+        "title": "Construction & Contracting",
+        "desc": "Project management, site tracking, procurement and document automation software."
+      },
+      "tourism": {
+        "title": "Tourism & Hospitality",
+        "desc": "Booking systems, multilingual chatbots and guest experience automation."
+      },
+      "retail": {
+        "title": "E-commerce & Retail",
+        "desc": "Online stores, recommendation engines, inventory and CRM integration."
+      },
+      "legal": {
+        "title": "Legal & Consulting",
+        "desc": "Contract OCR, document search, internal knowledge bases and LLM assistants."
+      },
+      "agri": {
+        "title": "Agriculture & Food",
+        "desc": "Supply chain, traceability, inventory and quality-control software."
+      },
+      "telecom": {
+        "title": "Telecom",
+        "desc": "Customer self-service, chatbots, billing integration and operations dashboards."
+      },
+      "auto": {
+        "title": "Automotive",
+        "desc": "Dealer management, spare-parts inventory, service booking and CRM systems."
+      },
+      "realestate": {
+        "title": "Real Estate",
+        "desc": "Portfolio management, listing platforms, client matching and contract tracking."
       }
     }
   }

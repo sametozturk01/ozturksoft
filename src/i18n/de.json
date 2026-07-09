@@ -11,7 +11,7 @@
   },
   "hero": {
     "title": "Ankaras KI- & Softwareentwicklungsunternehmen",
-    "subtitle": "Bei Ozturksoft bringen wir Ihr Unternehmen mit KI-Integration, individueller Softwareentwicklung und digitalen Transformationslösungen aus Ankara in die Zukunft.",
+    "subtitle": "KI, Individualsoftware und digitale Transformation für Unternehmen, Behörden und KMU — Sitz in Ankara, Türkei.",
     "btnExplore": "Unsere Lösungen entdecken",
     "btnMeet": "Treffen Sie uns"
   },
@@ -51,7 +51,7 @@
   },
   "expertise": {
     "title": "Unsere Expertise",
-    "subtitle": "Software & KI",
+    "subtitle": "Software & KI für Unternehmen & Öffentlichen Sektor",
     "cards": {
       "aiAgents": {
         "title": "AI Agents",
@@ -242,7 +242,7 @@
       "subtitle": "Professionelle Lösungen",
       "title1": "Was wir",
       "title2": "tun?",
-      "desc": "Wir bringen Ihr Unternehmen mit End-to-End-Lösungen für die digitale Transformation in die Zukunft. Wir begleiten Sie bei jedem Schritt, von der Idee bis zum Launch."
+      "desc": "Von Konzernen und Behörden bis KMU — DSGVO/KVKK-konforme, skalierbare digitale Transformation."
     },
     "cards": {
       "dev": {
@@ -529,7 +529,7 @@
       "badge": "Ankara-basiertes KI-Unternehmen",
       "title1": "KI-Lösungen",
       "title2": "in Ankara",
-      "desc": "Mit maschinellem Lernen, LLM-Integration, Chatbots und Prozessautomatisierung bringen wir Ihr Unternehmen in die Zukunft. Verwandeln Sie Ihre Daten in einen Wettbewerbsvorteil."
+      "desc": "On-Premise-KI, Dokumentendigitalisierung und Automatisierung für Institutionen und Behörden."
     },
     "cards": {
       "c1": {
@@ -582,31 +582,31 @@
       }
     },
     "sectors": {
-      "title1": "Welche",
-      "title2": "Branchen",
-      "title3": "bedienen wir?",
-      "desc": "Wir haben KI-Projekte in den Bereichen Fertigung, Finanzen, Gesundheit, Einzelhandel und öffentlicher Sektor geliefert.",
-      "badge": "MARKTFÜHRER IN ANKARA",
+      "title1": "Lösungen für",
+      "title2": "Unternehmen &",
+      "title3": "Behörden",
+      "desc": "KVKK-konforme KI und Software für Holdings, Ministerien, Kommunen und KMU.",
+      "badge": "UNTERNEHMEN & STAAT",
       "s1": {
-        "title": "Fertigung & Produktion",
-        "li1t": "Qualitätskontrollautomatisierung",
-        "li1d": "Kamerabasierte KI für sofortige Fehlererkennung in Produktionslinien.",
-        "li2t": "Prädiktive Wartung",
-        "li2d": "Sensoranalyse-Modelle, die Maschinenausfälle vorhersagen, bevor sie auftreten."
+        "title": "Unternehmen & Holdings",
+        "li1t": "Enterprise AI & LLM",
+        "li1d": "Prüfbare KI On-Premise oder Private Cloud.",
+        "li2t": "ERP / CRM Individualsoftware",
+        "li2d": "Integration mit Logo, SAP und Eigenentwicklungen."
       },
       "s2": {
-        "title": "Behörden & Finanzen",
-        "li1t": "Dokumentenklassifizierung & OCR",
-        "li1d": "Automatische Klassifizierung und Digitalisierung interner Dokumente.",
-        "li2t": "Risiko- & Betrugserkennung",
-        "li2d": "Sichere Transaktionsüberwachung mit Echtzeit-Anomalieerkennung."
+        "title": "Behörden & Öffentlicher Sektor",
+        "li1t": "Dokumenten-OCR",
+        "li1d": "Automatische Erfassung von Rechnungen und Verwaltungsakten.",
+        "li2t": "Sichere On-Premise-KI",
+        "li2d": "Daten verlassen nicht das Behördennetz."
       },
       "s3": {
-        "title": "Einzelhandel & Gesundheit",
-        "li1t": "Produktempfehlungsmaschine",
-        "li1d": "Personalisierte Produktempfehlungsalgorithmen basierend auf dem Nutzerverhalten.",
-        "li2t": "Patientendatenanalyse",
-        "li2d": "Klinische Datenanalyse für Entscheidungsunterstützung und Prozessverbesserung."
+        "title": "KMU & Privatwirtschaft",
+        "li1t": "Chatbot & Automatisierung",
+        "li1d": "24/7-Support über WhatsApp und Web.",
+        "li2t": "SaaS & Mobile MVP",
+        "li2d": "Schneller Marktstart mit Flutter und Laravel."
       }
     },
     "tech": {
@@ -826,6 +826,14 @@
       "ankaraFlutterCard": {
         "title": "Flutter-App-Entwicklung in Ankara: Kosten, Dauer & Leitfaden [2026]",
         "desc": "Flutter iOS/Android in Ankara. MVP-Kosten, native Performance, Store-Veröffentlichung und Preise 2026."
+      },
+      "ankaraTelecomCard": {
+        "title": "Telekom-Software in Ankara: BSS/OSS, Chatbot & CRM Leitfaden [2026]",
+        "desc": "Telekom-Software in Ankara. Kunden-Self-Service, Chatbots, Abrechnungsintegration und Operations-Dashboards."
+      },
+      "ankaraSanayiCard": {
+        "title": "Industriesoftware in Ankara: Fertigung, Verteidigung & Produktion [2026]",
+        "desc": "Industriesoftware in Ankara. Qualitätskontrolle-KI, ERP-Integration, vorausschauende Wartung und Verteidigungsindustrie."
       }
     },
     "posts": {
@@ -953,6 +961,16 @@
         "tag": "📱 Flutter",
         "title": "Flutter-App-Entwicklung in Ankara: Kosten, Dauer & Leitfaden [2026]",
         "breadcrumb": "Ankara Flutter 2026"
+      },
+      "ankaraTelecom": {
+        "tag": "📡 Telekom",
+        "title": "Telekom-Software in Ankara: BSS/OSS, Chatbot & CRM Leitfaden [2026]",
+        "breadcrumb": "Ankara Telekom Software 2026"
+      },
+      "ankaraSanayi": {
+        "tag": "🏭 Industrie",
+        "title": "Industriesoftware in Ankara: Fertigung, Verteidigung & Produktion [2026]",
+        "breadcrumb": "Ankara Industriesoftware 2026"
       }
     },
     "breadcrumb": {
@@ -1120,6 +1138,111 @@
         "title": "Starten Sie Ihr Flutter-App-Projekt",
         "desc": "Eine Codebasis für iOS und Android — kostenloses Erstgespräch.",
         "btn": "Projekt besprechen"
+      },
+      "ankaraTelecom": {
+        "title": "Sprechen wir über Ihr Telekom-Softwareprojekt",
+        "desc": "Kostenlose Beratung für BSS/OSS, Self-Service und Chatbot.",
+        "btn": "Kostenlose Beratung"
+      },
+      "ankaraSanayi": {
+        "title": "Angebot für Ihr Industriesoftware-Projekt",
+        "desc": "Fertigung, Produktion und Verteidigungsindustrie — kostenloses Erstgespräch.",
+        "btn": "Kostenloses Angebot"
+      }
+    }
+  },
+  "clients": {
+    "subtitle": "Fokus Unternehmen & Öffentlicher Sektor",
+    "title": "Für wen wir arbeiten",
+    "desc": "Gleiche QA-Disziplin für Holdings, Behörden und Privatwirtschaft.",
+    "enterprise": {
+      "title": "Unternehmen & Holdings",
+      "desc": "ERP, CRM, Corporate Web, AI Agents und Mobile — skalierbare Systeme.",
+      "li1": "ERP- & CRM-Integration",
+      "li2": "Multi-Abteilungs-Panels"
+    },
+    "government": {
+      "badge": "BEHÖRDEN & STAAT",
+      "title": "Behörden & Öffentlicher Sektor",
+      "desc": "On-Premise-KI, OCR und sichere Software — Daten bleiben intern.",
+      "li1": "Dokumenten-OCR & Archiv",
+      "li2": "Vergabe- & Aktenautomatisierung"
+    },
+    "sme": {
+      "title": "KMU & Startups",
+      "desc": "SaaS-MVP, Chatbot und schnelle Digitalisierung.",
+      "li1": "Flutter & Web-MVP",
+      "li2": "WhatsApp-Chatbot"
+    }
+  },
+  "industries": {
+    "subtitle": "Branchenkompetenz",
+    "title": "Branchen, die wir bedienen",
+    "desc": "Öffentlicher Sektor, Verteidigung, Gesundheit, Finanzen und mehr — branchenspezifische Software und KI in Ankara und der Türkei.",
+    "items": {
+      "public": {
+        "title": "Behörden & Ministerien",
+        "desc": "E-Government, Dokumenten-OCR, On-Premise-KI und sichere Unternehmenssoftware."
+      },
+      "defense": {
+        "title": "Verteidigungsindustrie",
+        "desc": "CMMI/ASPICE-konforme QA, sichere Architektur und Individualsoftware."
+      },
+      "health": {
+        "title": "Gesundheit & Krankenhäuser",
+        "desc": "Patiententermine, klinische Chatbots, Analytik — DSGVO/KVKK-konform."
+      },
+      "education": {
+        "title": "Bildung & Universitäten",
+        "desc": "Studenteninformationssysteme, LMS, Prüfungsautomatisierung und Portale."
+      },
+      "finance": {
+        "title": "Finanzen & Banken",
+        "desc": "Risikoanalyse, Betrugserkennung, On-Premise-LLM und sichere Integrationen."
+      },
+      "mfg": {
+        "title": "Fertigung & Produktion",
+        "desc": "Qualitätskontrolle-KI, vorausschauende Wartung, ERP-Integration und Dashboards."
+      },
+      "logistics": {
+        "title": "Logistik & Transport",
+        "desc": "Flottenverfolgung, Routenoptimierung, Lagerverwaltung und Automatisierung."
+      },
+      "energy": {
+        "title": "Energie",
+        "desc": "SCADA-Integration, Sensoranalytik, Wartungsplanung und Berichtssysteme."
+      },
+      "construction": {
+        "title": "Bau & Generalunternehmen",
+        "desc": "Projektmanagement, Baustellenverfolgung, Vergabe- und Aktenautomatisierung."
+      },
+      "tourism": {
+        "title": "Tourismus & Hotellerie",
+        "desc": "Buchungssysteme, mehrsprachige Chatbots und Gästeerlebnis-Automatisierung."
+      },
+      "retail": {
+        "title": "E-Commerce & Einzelhandel",
+        "desc": "Online-Shops, Empfehlungsmotoren, Bestand und CRM-Integration."
+      },
+      "legal": {
+        "title": "Recht & Beratung",
+        "desc": "Vertrags-OCR, Dokumentensuche, Wissensdatenbanken und LLM-Assistenten."
+      },
+      "agri": {
+        "title": "Landwirtschaft & Lebensmittel",
+        "desc": "Lieferkette, Rückverfolgbarkeit, Bestand und Qualitätskontrolle."
+      },
+      "telecom": {
+        "title": "Telekommunikation",
+        "desc": "Kunden-Self-Service, Chatbots, Abrechnungsintegration und Operations-Dashboards."
+      },
+      "auto": {
+        "title": "Automobil",
+        "desc": "Händlerverwaltung, Ersatzteillager, Servicebuchung und CRM-Systeme."
+      },
+      "realestate": {
+        "title": "Immobilien",
+        "desc": "Portfoliomanagement, Listing-Plattformen, Kundenmatching und Vertragsverfolgung."
       }
     }
   }

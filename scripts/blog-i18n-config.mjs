@@ -28,6 +28,8 @@ export const ARTICLE_FILE_PREFIX = {
   ankaraSaas: 'ankara-saas',
   ankaraOcr: 'ankara-ocr',
   ankaraFlutter: 'ankara-flutter',
+  ankaraTelecom: 'ankara-telekom',
+  ankaraSanayi: 'ankara-sanayi',
 };
 
 export const LOCALE_LANGS = ['en', 'de', 'fr', 'ar', 'ru'];
