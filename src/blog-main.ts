@@ -166,6 +166,21 @@ import ankaraSanayiDe from './i18n/articles/ankara-sanayi-de.html?raw';
 import ankaraSanayiFr from './i18n/articles/ankara-sanayi-fr.html?raw';
 import ankaraSanayiAr from './i18n/articles/ankara-sanayi-ar.html?raw';
 import ankaraSanayiRu from './i18n/articles/ankara-sanayi-ru.html?raw';
+import ankaraKamuEn from './i18n/articles/ankara-kamu-en.html?raw';
+import ankaraKamuDe from './i18n/articles/ankara-kamu-de.html?raw';
+import ankaraKamuFr from './i18n/articles/ankara-kamu-fr.html?raw';
+import ankaraKamuAr from './i18n/articles/ankara-kamu-ar.html?raw';
+import ankaraKamuRu from './i18n/articles/ankara-kamu-ru.html?raw';
+import logoNetsisErpEn from './i18n/articles/logo-netsis-erp-en.html?raw';
+import logoNetsisErpDe from './i18n/articles/logo-netsis-erp-de.html?raw';
+import logoNetsisErpFr from './i18n/articles/logo-netsis-erp-fr.html?raw';
+import logoNetsisErpAr from './i18n/articles/logo-netsis-erp-ar.html?raw';
+import logoNetsisErpRu from './i18n/articles/logo-netsis-erp-ru.html?raw';
+import kvkkAiEn from './i18n/articles/kvkk-ai-en.html?raw';
+import kvkkAiDe from './i18n/articles/kvkk-ai-de.html?raw';
+import kvkkAiFr from './i18n/articles/kvkk-ai-fr.html?raw';
+import kvkkAiAr from './i18n/articles/kvkk-ai-ar.html?raw';
+import kvkkAiRu from './i18n/articles/kvkk-ai-ru.html?raw';
 
 const LANG_KEY = 'ozturksoft_lang';
 
@@ -215,6 +230,9 @@ const ANKARA_NICHE = {
     ankaraFlutter: { en: ankaraFlutterEn, de: ankaraFlutterDe, fr: ankaraFlutterFr, ar: ankaraFlutterAr, ru: ankaraFlutterRu },
     ankaraTelecom: { en: ankaraTelecomEn, de: ankaraTelecomDe, fr: ankaraTelecomFr, ar: ankaraTelecomAr, ru: ankaraTelecomRu },
     ankaraSanayi: { en: ankaraSanayiEn, de: ankaraSanayiDe, fr: ankaraSanayiFr, ar: ankaraSanayiAr, ru: ankaraSanayiRu },
+    ankaraKamu: { en: ankaraKamuEn, de: ankaraKamuDe, fr: ankaraKamuFr, ar: ankaraKamuAr, ru: ankaraKamuRu },
+    logoNetsisErp: { en: logoNetsisErpEn, de: logoNetsisErpDe, fr: logoNetsisErpFr, ar: logoNetsisErpAr, ru: logoNetsisErpRu },
+    kvkkAi: { en: kvkkAiEn, de: kvkkAiDe, fr: kvkkAiFr, ar: kvkkAiAr, ru: kvkkAiRu },
 };
 
 const ARTICLE_BODIES: Record<string, Record<string, string>> = {

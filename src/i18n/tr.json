@@ -88,17 +88,23 @@
       "enterpriseAi": {
         "title": "Kurumsal AI (Enterprise AI)",
         "desc": "KVKK uyumlu, on-premise kurumsal yapay zeka — verileriniz kendi sunucularınızda kalır."
+      },
+      "erpIntegration": {
+        "title": "ERP Entegrasyonu",
+        "desc": "Logo Tiger, Netsis, Mikro ve mevcut SAP kurulumlarınıza API ile bağlanan özel yazılım — danışmanlık değil, entegrasyon."
       }
     }
   },
   "references": {
     "title": "Güvenle Çalıştığımız Partnerler",
-    "subtitle": "İş birliği içinde olduğumuz değerli markalar."
+    "subtitle": "KOBİ'lerden kurumlara — Ankara ve Türkiye genelinde iş birliği yaptığımız markalar."
   },
   "stats": {
     "projects": "Tamamlanan Proje",
     "satisfaction": "Müşteri Memnuniyeti",
-    "support": "Teknik Destek"
+    "support": "7/24 Teknik Destek",
+    "sectors": "Sektör Uzmanlığı",
+    "experience": "Yıllık Deneyim"
   },
   "vision": {
     "title": "Vizyonumuz",
@@ -315,6 +321,7 @@
       },
       "card2": {
         "badge": "GELECEĞİN TEKNOLOJİSİ",
+        "title": "Ozturksoft AI Çözümleri",
         "li1": {
           "title": "Otonom Asistan Modülleri",
           "desc": "Sektöre özel eğitilmiş modeller. Örneğin; hukuk profesyonelleri için hukuki dili anlayıp saniyeler içinde dilekçe taslağı oluşturabilen akıllı asistanlar."
@@ -398,6 +405,11 @@
       "desc": "Ücretsiz konsültasyon ve teknik analiz için hemen uzman ekibimizle iletişime geçin.",
       "btn1": "Teklif Alın",
       "btn2": "Bizi Tanıyın"
+    },
+    "erpNote": {
+      "title": "ERP Entegrasyonu (Logo, Netsis, SAP)",
+      "desc": "SAP implementasyonu veya ABAP danışmanlığı yapmıyoruz. Mevcut Logo, Netsis, Mikro ve SAP sistemlerinize API/RFC ile entegre özel yazılım, chatbot ve otomasyon geliştiriyoruz.",
+      "link": "ERP entegrasyon rehberi →"
     }
   },
   "contactPage": {
@@ -834,6 +846,18 @@
       "ankaraSanayiCard": {
         "title": "Ankara'da Sanayi Yazılım Çözümleri: İmalat, Savunma ve Üretim Rehberi [2026]",
         "desc": "Ankara'da sanayi ve imalat yazılımı. Kalite kontrol AI, ERP entegrasyonu, öngörülü bakım ve savunma sanayi çözümleri."
+      },
+      "ankaraKamuCard": {
+        "title": "Ankara'da Kamu Yazılım Çözümleri: E-Devlet, İhale ve On-Premise AI Rehberi [2026]",
+        "desc": "Kamu ve bakanlık yazılımı. E-devlet, evrak OCR, ihale otomasyonu ve KVKK uyumlu on-premise AI."
+      },
+      "logoNetsisErpCard": {
+        "title": "Logo, Netsis ve SAP ERP Entegrasyonu: API, Maliyet ve Rehber [2026]",
+        "desc": "Logo Tiger, Netsis, Mikro ve SAP API entegrasyonu — danışmanlık değil, özel yazılım bağlantısı."
+      },
+      "kvkkAiCard": {
+        "title": "KVKK Uyumlu Yapay Zeka Rehberi: On-Premise LLM, Veri Güvenliği [2026]",
+        "desc": "KVKK uyumlu AI mimarisi. On-premise LLM, veri maskeleme ve kamu/finans/savunma sektörleri."
       }
     },
     "posts": {
@@ -986,6 +1010,21 @@
         "tag": "🏭 Sanayi",
         "title": "Ankara'da Sanayi Yazılım Çözümleri: İmalat, Savunma ve Üretim Rehberi [2026]",
         "breadcrumb": "Ankara Sanayi Yazılım 2026"
+      },
+      "ankaraKamu": {
+        "tag": "🏛️ Kamu",
+        "title": "Ankara'da Kamu Yazılım Çözümleri: E-Devlet, İhale ve On-Premise AI Rehberi [2026]",
+        "breadcrumb": "Ankara Kamu Yazılım 2026"
+      },
+      "logoNetsisErp": {
+        "tag": "🔗 ERP Entegrasyon",
+        "title": "Logo, Netsis ve SAP ERP Entegrasyonu: API, Maliyet ve Rehber [2026]",
+        "breadcrumb": "Logo Netsis ERP Entegrasyon 2026"
+      },
+      "kvkkAi": {
+        "tag": "🔒 KVKK & AI",
+        "title": "KVKK Uyumlu Yapay Zeka Rehberi: On-Premise LLM, Veri Güvenliği [2026]",
+        "breadcrumb": "KVKK Uyumlu Yapay Zeka 2026"
       }
     },
     "breadcrumb": {
@@ -1008,7 +1047,8 @@
       "date3": "15 Haziran 2026",
       "date4": "15 Haziran 2026",
       "date5": "22 Haziran 2026",
-      "date6": "9 Temmuz 2026"
+      "date6": "9 Temmuz 2026",
+      "date7": "16 Temmuz 2026"
     },
     "footer": {
       "copyright": "© 2026 Ozturksoft — Ankara, Türkiye. Tüm hakları saklıdır."
@@ -1163,6 +1203,21 @@
         "title": "Sanayi Yazılım Projeniz İçin Teklif Alın",
         "desc": "İmalat, üretim ve savunma sanayi yazılımı — ücretsiz keşif görüşmesi.",
         "btn": "Ücretsiz Teklif Al"
+      },
+      "ankaraKamu": {
+        "title": "Kamu Yazılım Projenizi Konuşalım",
+        "desc": "E-devlet, OCR ve on-premise AI için ücretsiz keşif görüşmesi.",
+        "btn": "Ücretsiz Keşif Görüşmesi"
+      },
+      "logoNetsisErp": {
+        "title": "ERP Entegrasyon Analizi Alın",
+        "desc": "Logo, Netsis veya SAP bağlantınız için ücretsiz teknik değerlendirme.",
+        "btn": "Ücretsiz Entegrasyon Analizi"
+      },
+      "kvkkAi": {
+        "title": "KVKK Uyumlu AI Projenizi Planlayalım",
+        "desc": "On-premise LLM ve güvenli AI mimarisi için ücretsiz danışmanlık.",
+        "btn": "KVKK Uyumlu AI Danışmanlığı"
       }
     }
   },
@@ -1259,6 +1314,69 @@
         "title": "Gayrimenkul",
         "desc": "Portföy yönetimi, ilan platformları, müşteri eşleştirme ve sözleşme takibi."
       }
+    },
+    "guideLink": "Sektör rehberi →"
+  },
+  "testimonials": {
+    "title": "Müşterilerimiz Ne Diyor?",
+    "subtitle": "Onaylı, anonim geri bildirimler — müşteri gizliliğine saygıyla paylaşıyoruz.",
+    "t1": {
+      "quote": "Web sitemiz ve rezervasyon sistemimiz zamanında teslim edildi. Süreç boyunca her adımı raporladılar.",
+      "name": "Ankara Turizm Firması",
+      "role": "Web sitesi & rezervasyon projesi",
+      "result": "Online rezervasyonlar belirgin şekilde arttı"
+    },
+    "t2": {
+      "quote": "WhatsApp chatbot entegrasyonu sayesinde müşteri sorularının büyük kısmını otomatik yanıtlıyoruz.",
+      "name": "E-ticaret İşletmesi",
+      "role": "WhatsApp chatbot entegrasyonu",
+      "result": "Destek ekibi yükü azaldı"
+    },
+    "t3": {
+      "quote": "Özel yazılım projemizde QA süreçleri ve kaynak kod devri sözleşmede netti. Güvenle çalıştık.",
+      "name": "Ankara İmalat Firması",
+      "role": "Özel yazılım & üretim takibi",
+      "result": "Üretim süreçleri dijitalleşti"
+    }
+  },
+  "aiAssistantPage": {
+    "hero": {
+      "badge": "Kurumsal AI Asistan",
+      "title1": "Ozturksoft",
+      "title2": "AI Asistan",
+      "desc": "WhatsApp, web ve CRM entegre kurumsal yapay zeka asistanı. 7/24 müşteri desteği, satış ve süreç otomasyonu — KVKK uyumlu, on-premise seçeneği."
+    },
+    "features": {
+      "f1": {
+        "title": "WhatsApp & Web",
+        "desc": "Müşterilerinizin bulunduğu kanallarda 7/24 yanıt — Türkçe NLP ve GPT destekli."
+      },
+      "f2": {
+        "title": "CRM & ERP Bağlantısı",
+        "desc": "Logo, Netsis, Salesforce ve özel sistemlere API entegrasyonu — canlı veri."
+      },
+      "f3": {
+        "title": "KVKK Uyumlu",
+        "desc": "On-premise kurulum, veri maskeleme ve audit log ile kurumsal güvenlik."
+      },
+      "f4": {
+        "title": "AI Agents",
+        "desc": "Sadece soru-cevap değil — sipariş, randevu ve süreç başlatma otonom görevler."
+      }
+    },
+    "pricing": {
+      "title": "2026 Fiyat Aralığı",
+      "row1": "Temel chatbot (WhatsApp + web)",
+      "row1price": "80.000 – 150.000 TL",
+      "row2": "CRM/ERP entegre AI asistan",
+      "row2price": "150.000 – 280.000 TL",
+      "row3": "Kurumsal on-premise platform",
+      "row3price": "280.000 – 500.000+ TL"
+    },
+    "cta": {
+      "title": "AI Asistan Projenizi Planlayalım",
+      "desc": "Ücretsiz keşif görüşmesinde kanal, entegrasyon ve KVKK gereksinimlerinizi birlikte değerlendirelim.",
+      "btn": "Ücretsiz Demo Talep Et"
     }
   }
 }

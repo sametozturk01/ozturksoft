@@ -8,11 +8,11 @@ const root = resolve(__dirname, '..');
 const i18nDir = resolve(root, 'src/i18n');
 
 const LOCALES = [
-  { lang: 'en', home: '/en', servicesPath: 'services', ankaraAiPath: 'ankara-ai-solutions', ankaraSwPath: 'ankara-software-company' },
-  { lang: 'de', home: '/de', servicesPath: 'leistungen', ankaraAiPath: 'ankara-ki-loesungen', ankaraSwPath: 'ankara-softwareunternehmen' },
-  { lang: 'fr', home: '/fr', servicesPath: 'services', ankaraAiPath: 'solutions-ia-ankara', ankaraSwPath: 'entreprise-logicielle-ankara' },
-  { lang: 'ar', home: '/ar', servicesPath: 'services', ankaraAiPath: 'ankara-ai-solutions', ankaraSwPath: 'ankara-software-company', rtl: true },
-  { lang: 'ru', home: '/ru', servicesPath: 'uslugi', ankaraAiPath: 'ankara-ai-resheniya', ankaraSwPath: 'ankara-soft-kompaniya' },
+  { lang: 'en', home: '/en', servicesPath: 'services', ankaraAiPath: 'ankara-ai-solutions', ankaraSwPath: 'ankara-software-company', ankaraAsistanPath: 'ankara-ai-assistant' },
+  { lang: 'de', home: '/de', servicesPath: 'leistungen', ankaraAiPath: 'ankara-ki-loesungen', ankaraSwPath: 'ankara-softwareunternehmen', ankaraAsistanPath: 'ankara-ki-assistent' },
+  { lang: 'fr', home: '/fr', servicesPath: 'services', ankaraAiPath: 'solutions-ia-ankara', ankaraSwPath: 'entreprise-logicielle-ankara', ankaraAsistanPath: 'assistant-ia-ankara' },
+  { lang: 'ar', home: '/ar', servicesPath: 'services', ankaraAiPath: 'ankara-ai-solutions', ankaraSwPath: 'ankara-software-company', ankaraAsistanPath: 'ankara-ai-assistant', rtl: true },
+  { lang: 'ru', home: '/ru', servicesPath: 'uslugi', ankaraAiPath: 'ankara-ai-resheniya', ankaraSwPath: 'ankara-soft-kompaniya', ankaraAsistanPath: 'ankara-ai-assistent' },
 ];
 
 const META = {
@@ -29,6 +29,9 @@ const META = {
     cta: 'Free Consultation',
     contact: 'Contact',
     blog: 'Blog',
+    aiAsistanTitle: 'Ozturksoft AI Assistant | Enterprise WhatsApp & Web | Ankara',
+    aiAsistanDesc: 'Enterprise AI assistant with WhatsApp, web and CRM integration. KVKK compliant, on-premise option.',
+    aiAsistanH1: 'Ozturksoft AI Assistant',
   },
   de: {
     servicesTitle: 'Leistungen | Software & KI aus Ankara | Ozturksoft',
@@ -43,6 +46,9 @@ const META = {
     cta: 'Kostenlose Beratung',
     contact: 'Kontakt',
     blog: 'Blog',
+    aiAsistanTitle: 'Ozturksoft KI-Assistent | Enterprise WhatsApp & Web | Ankara',
+    aiAsistanDesc: 'Enterprise KI-Assistent mit WhatsApp-, Web- und CRM-Integration. KVKK-konform, On-Premise-Option.',
+    aiAsistanH1: 'Ozturksoft KI-Assistent',
   },
   fr: {
     servicesTitle: 'Services | Société logicielle & IA à Ankara | Ozturksoft',
@@ -57,6 +63,9 @@ const META = {
     cta: 'Consultation gratuite',
     contact: 'Contact',
     blog: 'Blog',
+    aiAsistanTitle: 'Assistant IA Ozturksoft | WhatsApp & Web Enterprise | Ankara',
+    aiAsistanDesc: 'Assistant IA enterprise avec intégration WhatsApp, web et CRM. Conforme KVKK, option on-premise.',
+    aiAsistanH1: 'Assistant IA Ozturksoft',
   },
   ar: {
     servicesTitle: 'الخدمات | شركة برمجيات وذكاء اصطناعي في أنقرة | Ozturksoft',
@@ -71,6 +80,9 @@ const META = {
     cta: 'استشارة مجانية',
     contact: 'اتصل بنا',
     blog: 'المدونة',
+    aiAsistanTitle: 'مساعد AI Ozturksoft | واتساب وويب مؤسسي | أنقرة',
+    aiAsistanDesc: 'مساعد ذكاء اصطناعي مؤسسي مع تكامل WhatsApp والويب وCRM. متوافق مع KVKK، خيار on-premise.',
+    aiAsistanH1: 'مساعد AI Ozturksoft',
   },
   ru: {
     servicesTitle: 'Услуги | IT-компания и ИИ в Анкаре | Ozturksoft',
@@ -85,6 +97,9 @@ const META = {
     cta: 'Бесплатная консультация',
     contact: 'Контакты',
     blog: 'Блог',
+    aiAsistanTitle: 'AI-ассистент Ozturksoft | WhatsApp и веб | Анкара',
+    aiAsistanDesc: 'Корпоративный AI-ассистент с интеграцией WhatsApp, веб и CRM. KVKK, опция on-premise.',
+    aiAsistanH1: 'AI-ассистент Ozturksoft',
   },
 };
 
@@ -96,19 +111,28 @@ const SERVICES = {
   ru: ['Разработка ПО на заказ', 'Интеграция ИИ и LLM', 'Мобильные приложения', 'Веб-разработка и SEO', 'QA и тестирование', 'WhatsApp чатбот', 'Интеграция CRM/ERP', 'Автоматизация (RPA)'],
 };
 
+function localePath(locale, trSlug) {
+  const map = {
+    hizmetler: locale.servicesPath,
+    'ankara-yapay-zeka-cozumleri': locale.ankaraAiPath,
+    'ankara-yazilim-sirketi': locale.ankaraSwPath,
+    'ankara-ai-asistan': locale.ankaraAsistanPath,
+  };
+  return map[trSlug];
+}
+
 function hreflangInner(slug, langs) {
   const lines = [`  <link rel="alternate" hreflang="tr" href="${BASE}/${slug}" />`];
-  for (const { lang, home, servicesPath, ankaraAiPath, ankaraSwPath } of LOCALES) {
-    const map = { hizmetler: servicesPath, 'ankara-yapay-zeka-cozumleri': ankaraAiPath, 'ankara-yazilim-sirketi': ankaraSwPath };
-    const part = map[slug];
-    if (part) lines.push(`  <link rel="alternate" hreflang="${lang}" href="${BASE}${home}/${part}" />`);
+  for (const locale of LOCALES) {
+    const part = localePath(locale, slug);
+    if (part) lines.push(`  <link rel="alternate" hreflang="${locale.lang}" href="${BASE}${locale.home}/${part}" />`);
   }
   lines.push(`  <link rel="alternate" hreflang="x-default" href="${BASE}/${slug}" />`);
   return lines.join('\n');
 }
 
 function pageHtml({ lang, locale, slug, trSlug, title, desc, h1, body, rtl }) {
-  const canonical = `${BASE}${locale.home}/${trSlug === 'hizmetler' ? locale.servicesPath : trSlug === 'ankara-yapay-zeka-cozumleri' ? locale.ankaraAiPath : locale.ankaraSwPath}`;
+  const canonical = `${BASE}${locale.home}/${localePath(locale, trSlug)}`;
   const m = META[lang];
   const og = OG_LOCALE[lang] || 'en_US';
   return `<!DOCTYPE html>
@@ -209,6 +233,7 @@ for (const locale of LOCALES) {
     { file: `${locale.servicesPath}.html`, slug: 'hizmetler', trSlug: 'hizmetler', title: m.servicesTitle, desc: m.servicesDesc, h1: m.servicesH1, body: servicesBody(locale.lang) },
     { file: `${locale.ankaraAiPath}.html`, slug: 'ankara-yapay-zeka-cozumleri', trSlug: 'ankara-yapay-zeka-cozumleri', title: m.ankaraAiTitle, desc: m.ankaraAiDesc, h1: m.ankaraAiH1, body: ankaraLinks(locale.lang, 'ai') },
     { file: `${locale.ankaraSwPath}.html`, slug: 'ankara-yazilim-sirketi', trSlug: 'ankara-yazilim-sirketi', title: m.ankaraSwTitle, desc: m.ankaraSwDesc, h1: m.ankaraSwH1, body: ankaraLinks(locale.lang, 'sw') },
+    { file: `${locale.ankaraAsistanPath}.html`, slug: 'ankara-ai-asistan', trSlug: 'ankara-ai-asistan', title: m.aiAsistanTitle, desc: m.aiAsistanDesc, h1: m.aiAsistanH1, body: ankaraLinks(locale.lang, 'ai') },
   ];
 
   for (const p of pages) {
@@ -241,9 +266,21 @@ if (!sitemap.includes(`${BASE}/ankara-yazilim-sirketi</loc>`)) {
 </urlset>`
   );
 }
+if (!sitemap.includes(`${BASE}/ankara-ai-asistan</loc>`)) {
+  sitemap = sitemap.replace(
+    '</urlset>',
+    `  <url>
+    <loc>${BASE}/ankara-ai-asistan</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+</urlset>`
+  );
+}
 const localeUrls = [];
 for (const locale of LOCALES) {
-  for (const part of [locale.servicesPath, locale.ankaraAiPath, locale.ankaraSwPath]) {
+  for (const part of [locale.servicesPath, locale.ankaraAiPath, locale.ankaraSwPath, locale.ankaraAsistanPath]) {
     localeUrls.push(`${BASE}${locale.home}/${part}`);
   }
 }

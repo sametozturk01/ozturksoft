@@ -88,17 +88,23 @@
       "enterpriseAi": {
         "title": "Enterprise AI",
         "desc": "DSGVO/KVKK-konforme, On-Premise Enterprise-KI — Ihre Daten bleiben auf Ihren Servern."
+      },
+      "erpIntegration": {
+        "title": "ERP-Integration",
+        "desc": "Individualsoftware verbunden mit Logo Tiger, Netsis, Mikro und SAP per API — Integration, keine Beratung."
       }
     }
   },
   "references": {
     "title": "Partner, denen wir vertrauen",
-    "subtitle": "Wertvolle Marken, mit denen wir zusammenarbeiten."
+    "subtitle": "Von KMU bis Konzerne — Marken, mit denen wir in Ankara und der Türkei zusammenarbeiten."
   },
   "stats": {
     "projects": "Abgeschlossene Projekte",
     "satisfaction": "Kundenzufriedenheit",
-    "support": "Technischer Support"
+    "support": "24/7 Technischer Support",
+    "sectors": "Branchenexpertise",
+    "experience": "Jahre Erfahrung"
   },
   "vision": {
     "title": "Unsere Vision",
@@ -315,6 +321,7 @@
       },
       "card2": {
         "badge": "ZUKUNFTSTECHNOLOGIE",
+        "title": "Ozturksoft AI-Lösungen",
         "li1": {
           "title": "Autonome Assistenzmodule",
           "desc": "Branchenspezifisch trainierte Modelle. Zum Beispiel intelligente Assistenten für Rechtsexperten, die Rechtssprache verstehen und in Sekunden Antragsvorlagen erstellen können."
@@ -398,6 +405,11 @@
       "desc": "Kontaktieren Sie unser Expertenteam sofort für eine kostenlose Beratung und technische Analyse.",
       "btn1": "Angebot anfragen",
       "btn2": "Uns kennenlernen"
+    },
+    "erpNote": {
+      "title": "ERP-Integration (Logo, Netsis, SAP)",
+      "desc": "Keine SAP-Implementierung oder ABAP-Beratung. Wir entwickeln Individualsoftware, Chatbots und Automatisierung per API/RFC mit bestehenden Logo-, Netsis-, Mikro- und SAP-Systemen.",
+      "link": "ERP-Integrationsleitfaden →"
     }
   },
   "contactPage": {
@@ -834,6 +846,18 @@
       "ankaraSanayiCard": {
         "title": "Industriesoftware in Ankara: Fertigung, Verteidigung & Produktion [2026]",
         "desc": "Industriesoftware in Ankara. Qualitätskontrolle-KI, ERP-Integration, vorausschauende Wartung und Verteidigungsindustrie."
+      },
+      "ankaraKamuCard": {
+        "title": "Behördensoftware in Ankara: E-Government, Ausschreibung & On-Premise KI [2026]",
+        "desc": "Behördensoftware. E-Government, OCR, Ausschreibungsautomatisierung und on-premise KI."
+      },
+      "logoNetsisErpCard": {
+        "title": "Logo, Netsis & SAP ERP-Integration: API, Kosten & Leitfaden [2026]",
+        "desc": "Logo Tiger, Netsis, Mikro und SAP API-Integration — keine Beratung, Software-Anbindung."
+      },
+      "kvkkAiCard": {
+        "title": "KVKK-konforme KI: On-Premise LLM & Datensicherheit [2026]",
+        "desc": "KVKK-konforme KI-Architektur für Behörden, Finanz und Verteidigung."
       }
     },
     "posts": {
@@ -971,6 +995,21 @@
         "tag": "🏭 Industrie",
         "title": "Industriesoftware in Ankara: Fertigung, Verteidigung & Produktion [2026]",
         "breadcrumb": "Ankara Industriesoftware 2026"
+      },
+      "ankaraKamu": {
+        "tag": "🏛️ Behörden",
+        "title": "Behördensoftware in Ankara: E-Government, Ausschreibung & On-Premise KI [2026]",
+        "breadcrumb": "Ankara Behördensoftware 2026"
+      },
+      "logoNetsisErp": {
+        "tag": "🔗 ERP-Integration",
+        "title": "Logo, Netsis & SAP ERP-Integration: API, Kosten & Leitfaden [2026]",
+        "breadcrumb": "Logo Netsis ERP Integration 2026"
+      },
+      "kvkkAi": {
+        "tag": "🔒 KVKK & KI",
+        "title": "KVKK-konforme KI: On-Premise LLM & Datensicherheit [2026]",
+        "breadcrumb": "KVKK-konforme KI 2026"
       }
     },
     "breadcrumb": {
@@ -993,7 +1032,8 @@
       "date3": "15. Juni 2026",
       "date4": "15. Juni 2026",
       "date5": "June 22, 2026",
-      "date6": "9. Juli 2026"
+      "date6": "9. Juli 2026",
+      "date7": "16. Juli 2026"
     },
     "footer": {
       "copyright": "© 2026 Ozturksoft — Ankara, Türkei. Alle Rechte vorbehalten."
@@ -1148,6 +1188,21 @@
         "title": "Angebot für Ihr Industriesoftware-Projekt",
         "desc": "Fertigung, Produktion und Verteidigungsindustrie — kostenloses Erstgespräch.",
         "btn": "Kostenloses Angebot"
+      },
+      "ankaraKamu": {
+        "title": "Behördenprojekt besprechen",
+        "desc": "Kostenlose Erstberatung für E-Government und on-premise KI.",
+        "btn": "Kostenlose Beratung"
+      },
+      "logoNetsisErp": {
+        "title": "ERP-Integrationsanalyse",
+        "desc": "Kostenlose technische Bewertung für Logo, Netsis oder SAP.",
+        "btn": "Kostenlose Analyse"
+      },
+      "kvkkAi": {
+        "title": "KVKK-konformes KI-Projekt planen",
+        "desc": "Kostenlose Beratung für on-premise LLM.",
+        "btn": "Kostenlose Beratung"
       }
     }
   },
@@ -1244,6 +1299,69 @@
         "title": "Immobilien",
         "desc": "Portfoliomanagement, Listing-Plattformen, Kundenmatching und Vertragsverfolgung."
       }
+    },
+    "guideLink": "Branchenleitfaden →"
+  },
+  "testimonials": {
+    "title": "Was unsere Kunden sagen",
+    "subtitle": "Genehmigtes anonymes Feedback — wir respektieren die Privatsphäre unserer Kunden.",
+    "t1": {
+      "quote": "Website und Buchungssystem pünktlich geliefert. Jeder Schritt wurde dokumentiert.",
+      "name": "Tourismusunternehmen in Ankara",
+      "role": "Website- & Buchungssystem-Projekt",
+      "result": "Online-Buchungen deutlich gestiegen"
+    },
+    "t2": {
+      "quote": "WhatsApp-Chatbot beantwortet die meisten Kundenfragen automatisch.",
+      "name": "E-Commerce-Unternehmen",
+      "role": "WhatsApp-Chatbot-Integration",
+      "result": "Support-Aufwand gesenkt"
+    },
+    "t3": {
+      "quote": "QA-Prozesse und Quellcode-Übergabe waren im Vertrag klar definiert.",
+      "name": "Fertigungsunternehmen in Ankara",
+      "role": "Individualsoftware & Produktionsverfolgung",
+      "result": "Produktionsprozesse digitalisiert"
+    }
+  },
+  "aiAssistantPage": {
+    "hero": {
+      "badge": "Enterprise KI-Assistent",
+      "title1": "Ozturksoft",
+      "title2": "KI-Assistent",
+      "desc": "WhatsApp-, Web- und CRM-integrierter KI-Assistent. 24/7 Support, Vertrieb und Automatisierung — KVKK-konform, On-Premise-Option."
+    },
+    "features": {
+      "f1": {
+        "title": "WhatsApp & Web",
+        "desc": "24/7 Antworten auf den Kanälen Ihrer Kunden — Türkisch NLP und GPT."
+      },
+      "f2": {
+        "title": "CRM & ERP Anbindung",
+        "desc": "API-Integration mit Logo, Netsis, Salesforce und Eigenentwicklungen."
+      },
+      "f3": {
+        "title": "KVKK-konform",
+        "desc": "On-Premise, Datenmaskierung und Audit-Logs für Unternehmenssicherheit."
+      },
+      "f4": {
+        "title": "AI Agents",
+        "desc": "Mehr als Q&A — autonome Aufgaben: Bestellungen, Termine, Prozesse."
+      }
+    },
+    "pricing": {
+      "title": "Preise 2026",
+      "row1": "Basis-Chatbot (WhatsApp + Web)",
+      "row1price": "80.000 – 150.000 TRY",
+      "row2": "CRM/ERP-integrierter KI-Assistent",
+      "row2price": "150.000 – 280.000 TRY",
+      "row3": "Enterprise On-Premise",
+      "row3price": "280.000 – 500.000+ TRY"
+    },
+    "cta": {
+      "title": "KI-Assistent-Projekt planen",
+      "desc": "Kostenlose Erstberatung für Kanäle, Integrationen und KVKK.",
+      "btn": "Kostenlose Demo anfordern"
     }
   }
 }

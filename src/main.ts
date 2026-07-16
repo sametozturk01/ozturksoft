@@ -21,15 +21,42 @@ function getSavedLang(): string {
     return localStorage.getItem(LANG_KEY) || 'tr';
 }
 
+function currentPath(): string {
+    return window.location.pathname.replace(/\.html$/, '').replace(/\/$/, '') || '/';
+}
+
+const LOCALE_HOME: Record<string, string> = {
+    tr: '/',
+    en: '/en',
+    de: '/de',
+    ar: '/ar',
+    ru: '/ru',
+    fr: '/fr',
+};
+
+function detectPageLang(): string {
+    const fromBody = document.body?.dataset?.pageLang;
+    if (fromBody) return fromBody;
+    const path = currentPath();
+    const match = Object.entries(LOCALE_HOME).find(([, p]) => p === path);
+    if (match) return match[0];
+    return getSavedLang();
+}
+
+function isLocaleHomePage(path = currentPath()): boolean {
+    return Object.values(LOCALE_HOME).includes(path);
+}
+
 function saveLang(lang: string) {
     localStorage.setItem(LANG_KEY, lang);
 }
 
 // --- İ18N (ÇEVİRİ) SİSTEMİ KURULUMU ---
-const savedLang = getSavedLang();
+const pageLang = detectPageLang();
+saveLang(pageLang);
 
 i18next.init({
-    lng: savedLang,
+    lng: pageLang,
     fallbackLng: 'tr',
     resources: {
         tr: { translation: trTranslation },
@@ -41,8 +68,8 @@ i18next.init({
     }
 }).then(() => {
     updateContent();
-    updateDropdownUI(savedLang);
-    applyDocumentDir(savedLang);
+    updateDropdownUI(pageLang);
+    applyDocumentDir(pageLang);
 });
 
 // Çeviriyi Ekrana Uygulayan Fonksiyon
@@ -84,12 +111,14 @@ function applyDocumentDir(lang: string) {
 
 // Dil değiştirme işlemi
 async function changeLanguage(lang: string) {
-    const path = window.location.pathname.replace(/\.html$/, '').replace(/\/$/, '') || '/';
-    const localeHome = { tr: '/', en: '/en', de: '/de', ar: '/ar', ru: '/ru', fr: '/fr' } as const;
-    if (path === '/' && lang !== 'tr' && localeHome[lang as keyof typeof localeHome]) {
-        saveLang(lang);
-        window.location.href = localeHome[lang as keyof typeof localeHome];
-        return;
+    const path = currentPath();
+    if (isLocaleHomePage(path)) {
+        const target = LOCALE_HOME[lang];
+        if (target && path !== target) {
+            saveLang(lang);
+            window.location.href = target;
+            return;
+        }
     }
 
     await i18next.changeLanguage(lang);

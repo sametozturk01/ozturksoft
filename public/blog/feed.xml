@@ -5,8 +5,29 @@
     <link>https://ozturksoft.net/blog</link>
     <description>Ankara merkezli Ozturksoft yazılım ve yapay zeka blogu. Fiyat rehberleri, teknik içerikler ve GEO/SEO ipuçları.</description>
     <language>tr</language>
-    <lastBuildDate>Thu, 09 Jul 2026 14:55:46 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 15:02:26 GMT</lastBuildDate>
     <atom:link href="https://ozturksoft.net/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ankara'da Kamu Yazılım Çözümleri: E-Devlet, İhale ve On-Premise AI Rehberi [2026]</title>
+      <link>https://ozturksoft.net/blog/ankara-kamu-yazilim-2026</link>
+      <guid isPermaLink="true">https://ozturksoft.net/blog/ankara-kamu-yazilim-2026</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Ankara'da kamu ve bakanlık yazılım çözümleri. E-devlet süreçleri, evrak OCR, ihale otomasyonu, KVKK uyumlu on-premise yapay zeka ve maliyet rehberi.</description>
+    </item>
+    <item>
+      <title>KVKK Uyumlu Yapay Zeka Rehberi: On-Premise LLM, Veri Güvenliği [2026]</title>
+      <link>https://ozturksoft.net/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026</link>
+      <guid isPermaLink="true">https://ozturksoft.net/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <description>KVKK uyumlu yapay zeka nasıl kurulur? On-premise LLM, veri maskeleme, audit log ve kamu/finans/savunma sektörleri için AI mimarisi rehberi.</description>
+    </item>
+    <item>
+      <title>Logo, Netsis ve SAP ERP Entegrasyonu: API, Maliyet ve Rehber [2026]</title>
+      <link>https://ozturksoft.net/blog/logo-netsis-erp-entegrasyon-rehberi-2026</link>
+      <guid isPermaLink="true">https://ozturksoft.net/blog/logo-netsis-erp-entegrasyon-rehberi-2026</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Logo Tiger, Netsis, Mikro ve mevcut SAP sistemlerinize API entegrasyonu rehberi. SAP danışmanlığı değil — özel yazılım ve CRM/chatbot bağlantısı.</description>
+    </item>
     <item>
       <title>Ankara'da AI Agents Geliştirme: Otonom Asistanlar, Maliyet ve Rehber [2026]</title>
       <link>https://ozturksoft.net/blog/ankara-ai-agents-gelistirme-2026</link>

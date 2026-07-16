@@ -30,6 +30,9 @@ export const ARTICLE_FILE_PREFIX = {
   ankaraFlutter: 'ankara-flutter',
   ankaraTelecom: 'ankara-telekom',
   ankaraSanayi: 'ankara-sanayi',
+  ankaraKamu: 'ankara-kamu',
+  logoNetsisErp: 'logo-netsis-erp',
+  kvkkAi: 'kvkk-ai',
 };
 
 export const LOCALE_LANGS = ['en', 'de', 'fr', 'ar', 'ru'];
