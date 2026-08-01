@@ -858,6 +858,18 @@
       "kvkkAiCard": {
         "title": "KVKK Uyumlu Yapay Zeka Rehberi: On-Premise LLM, Veri Güvenliği [2026]",
         "desc": "KVKK uyumlu AI mimarisi. On-premise LLM, veri maskeleme ve kamu/finans/savunma sektörleri."
+      },
+      "ankaraAiSecimCard": {
+        "title": "Ankara'da Yapay Zeka Firması Nasıl Seçilir? [2026 Rehberi]",
+        "desc": "LLM deneyimi, KVKK, on-premise, referans ve teklif karşılaştırması. AI firması seçim kontrol listesi."
+      },
+      "ankaraAiKarsilastirmaCard": {
+        "title": "Ankara Yapay Zeka Firmaları Karşılaştırması [2026]",
+        "desc": "LLM, chatbot, on-premise, KVKK ve fiyat — objektif değerlendirme tablosu."
+      },
+      "ankaraLlmMaliyetCard": {
+        "title": "Ankara LLM Entegrasyonu Maliyeti [2026]",
+        "desc": "GPT/Claude API, RAG, chatbot ve on-premise AI fiyat aralıkları. Gizli maliyetler."
       }
     },
     "posts": {
@@ -1025,6 +1037,24 @@
         "tag": "🔒 KVKK & AI",
         "title": "KVKK Uyumlu Yapay Zeka Rehberi: On-Premise LLM, Veri Güvenliği [2026]",
         "breadcrumb": "KVKK Uyumlu Yapay Zeka 2026"
+      },
+      "ankaraAiSecim": {
+        "tag": "🤖 Yapay Zeka",
+        "title": "Ankara'da Yapay Zeka Firması Nasıl Seçilir? [2026 Rehberi]",
+        "breadcrumb": "AI Firması Seçimi 2026",
+        "metaDesc": "Ankara'da yapay zeka firması seçerken LLM, KVKK, on-premise ve referans kriterleri. 2026 pratik rehber."
+      },
+      "ankaraAiKarsilastirma": {
+        "tag": "🤖 Yapay Zeka",
+        "title": "Ankara Yapay Zeka Firmaları Karşılaştırması [2026]",
+        "breadcrumb": "AI Firmaları Karşılaştırma",
+        "metaDesc": "Ankara yapay zeka firmaları karşılaştırması: LLM, KVKK, on-premise ve fiyat tablosu."
+      },
+      "ankaraLlmMaliyet": {
+        "tag": "💰 Maliyet",
+        "title": "Ankara LLM Entegrasyonu Maliyeti [2026]",
+        "breadcrumb": "LLM Maliyeti Ankara",
+        "metaDesc": "Ankara LLM entegrasyonu maliyeti 2026: GPT, RAG, chatbot ve on-premise fiyat tablosu."
       }
     },
     "breadcrumb": {
@@ -1048,7 +1078,8 @@
       "date4": "15 Haziran 2026",
       "date5": "22 Haziran 2026",
       "date6": "9 Temmuz 2026",
-      "date7": "16 Temmuz 2026"
+      "date7": "16 Temmuz 2026",
+      "date8": "1 Ağustos 2026"
     },
     "footer": {
       "copyright": "© 2026 Ozturksoft — Ankara, Türkiye. Tüm hakları saklıdır."
@@ -1218,6 +1249,21 @@
         "title": "KVKK Uyumlu AI Projenizi Planlayalım",
         "desc": "On-premise LLM ve güvenli AI mimarisi için ücretsiz danışmanlık.",
         "btn": "KVKK Uyumlu AI Danışmanlığı"
+      },
+      "ankaraAiSecim": {
+        "title": "Doğru AI Partnerini Birlikte Bulalım",
+        "desc": "LLM kapsamı, KVKK ve bütçenizi değerlendirmek için ücretsiz danışmanlık.",
+        "btn": "Ücretsiz Danışmanlık"
+      },
+      "ankaraAiKarsilastirma": {
+        "title": "Ankara AI Projeniz İçin Teklif Alın",
+        "desc": "Karşılaştırma sonrası size özel LLM ve entegrasyon teklifi hazırlayalım.",
+        "btn": "Ücretsiz Teklif"
+      },
+      "ankaraLlmMaliyet": {
+        "title": "LLM Projeniz İçin Net Fiyat Alın",
+        "desc": "Kapsamınıza göre özel LLM entegrasyon teklifi — gizli maliyet yok.",
+        "btn": "Ücretsiz Teklif"
       }
     }
   },
@@ -1377,6 +1423,53 @@
       "title": "AI Asistan Projenizi Planlayalım",
       "desc": "Ücretsiz keşif görüşmesinde kanal, entegrasyon ve KVKK gereksinimlerinizi birlikte değerlendirelim.",
       "btn": "Ücretsiz Demo Talep Et"
+    }
+  },
+  "kamuAiPage": {
+    "hero": {
+      "badge": "Kamu & Bakanlık AI",
+      "title": "Ankara Kamu Yapay Zeka Çözümleri",
+      "desc": "Bakanlık ve kamu kurumları için on-premise yapay zeka, evrak OCR, e-devlet süreç otomasyonu ve KVKK uyumlu LLM — veriler kurum içinde kalır.",
+      "guideLink": "Kamu yazılım rehberi →"
+    },
+    "features": {
+      "f1": {
+        "title": "E-Devlet & Vatandaş Portalları",
+        "desc": "Başvuru takibi, bildirim ve AI destekli vatandaş asistanı — Türkçe NLP."
+      },
+      "f2": {
+        "title": "Belge OCR & Dijital Arşiv",
+        "desc": "Evrak, fatura ve ihale dosyalarından otomatik veri çıkarma."
+      },
+      "f3": {
+        "title": "On-Premise & KVKK",
+        "desc": "Veri kurum dışına çıkmadan LLM — audit log ve rol bazlı erişim."
+      },
+      "f4": {
+        "title": "İhale & Süreç Otomasyonu",
+        "desc": "Onay zinciri, hatırlatıcı ve raporlama otomasyonu."
+      }
+    },
+    "pricing": {
+      "title": "2026 Fiyat Aralığı (Kamu AI)",
+      "col1": "Kapsam",
+      "col2": "Maliyet",
+      "row1": "Evrak OCR modülü",
+      "row1price": "60.000 – 120.000 TL",
+      "row2": "İhale / süreç otomasyonu",
+      "row2price": "120.000 – 250.000 TL",
+      "row3": "On-premise AI platformu",
+      "row3price": "250.000 – 500.000+ TL"
+    },
+    "links": {
+      "kvkk": "KVKK uyumlu AI",
+      "ocr": "Belge OCR",
+      "hub": "AI firması hub"
+    },
+    "cta": {
+      "title": "Kamu AI Projenizi Planlayalım",
+      "desc": "On-premise gereksinimleri, KVKK ve entegrasyon ihtiyaçlarınızı ücretsiz keşif görüşmesinde değerlendirelim.",
+      "btn": "Ücretsiz Keşif Görüşmesi"
     }
   }
 }

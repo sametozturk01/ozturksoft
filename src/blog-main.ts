@@ -181,6 +181,21 @@ import kvkkAiDe from './i18n/articles/kvkk-ai-de.html?raw';
 import kvkkAiFr from './i18n/articles/kvkk-ai-fr.html?raw';
 import kvkkAiAr from './i18n/articles/kvkk-ai-ar.html?raw';
 import kvkkAiRu from './i18n/articles/kvkk-ai-ru.html?raw';
+import ankaraAiSecimEn from './i18n/articles/ankara-ai-secim-en.html?raw';
+import ankaraAiSecimDe from './i18n/articles/ankara-ai-secim-de.html?raw';
+import ankaraAiSecimFr from './i18n/articles/ankara-ai-secim-fr.html?raw';
+import ankaraAiSecimAr from './i18n/articles/ankara-ai-secim-ar.html?raw';
+import ankaraAiSecimRu from './i18n/articles/ankara-ai-secim-ru.html?raw';
+import ankaraAiKarsilastirmaEn from './i18n/articles/ankara-ai-karsilastirma-en.html?raw';
+import ankaraAiKarsilastirmaDe from './i18n/articles/ankara-ai-karsilastirma-de.html?raw';
+import ankaraAiKarsilastirmaFr from './i18n/articles/ankara-ai-karsilastirma-fr.html?raw';
+import ankaraAiKarsilastirmaAr from './i18n/articles/ankara-ai-karsilastirma-ar.html?raw';
+import ankaraAiKarsilastirmaRu from './i18n/articles/ankara-ai-karsilastirma-ru.html?raw';
+import ankaraLlmMaliyetEn from './i18n/articles/ankara-llm-maliyet-en.html?raw';
+import ankaraLlmMaliyetDe from './i18n/articles/ankara-llm-maliyet-de.html?raw';
+import ankaraLlmMaliyetFr from './i18n/articles/ankara-llm-maliyet-fr.html?raw';
+import ankaraLlmMaliyetAr from './i18n/articles/ankara-llm-maliyet-ar.html?raw';
+import ankaraLlmMaliyetRu from './i18n/articles/ankara-llm-maliyet-ru.html?raw';
 
 const LANG_KEY = 'ozturksoft_lang';
 
@@ -233,6 +248,9 @@ const ANKARA_NICHE = {
     ankaraKamu: { en: ankaraKamuEn, de: ankaraKamuDe, fr: ankaraKamuFr, ar: ankaraKamuAr, ru: ankaraKamuRu },
     logoNetsisErp: { en: logoNetsisErpEn, de: logoNetsisErpDe, fr: logoNetsisErpFr, ar: logoNetsisErpAr, ru: logoNetsisErpRu },
     kvkkAi: { en: kvkkAiEn, de: kvkkAiDe, fr: kvkkAiFr, ar: kvkkAiAr, ru: kvkkAiRu },
+    ankaraAiSecim: { en: ankaraAiSecimEn, de: ankaraAiSecimDe, fr: ankaraAiSecimFr, ar: ankaraAiSecimAr, ru: ankaraAiSecimRu },
+    ankaraAiKarsilastirma: { en: ankaraAiKarsilastirmaEn, de: ankaraAiKarsilastirmaDe, fr: ankaraAiKarsilastirmaFr, ar: ankaraAiKarsilastirmaAr, ru: ankaraAiKarsilastirmaRu },
+    ankaraLlmMaliyet: { en: ankaraLlmMaliyetEn, de: ankaraLlmMaliyetDe, fr: ankaraLlmMaliyetFr, ar: ankaraLlmMaliyetAr, ru: ankaraLlmMaliyetRu },
 };
 
 const ARTICLE_BODIES: Record<string, Record<string, string>> = {

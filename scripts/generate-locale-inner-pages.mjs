@@ -8,11 +8,11 @@ const root = resolve(__dirname, '..');
 const i18nDir = resolve(root, 'src/i18n');
 
 const LOCALES = [
-  { lang: 'en', home: '/en', servicesPath: 'services', ankaraAiPath: 'ankara-ai-solutions', ankaraSwPath: 'ankara-software-company', ankaraAsistanPath: 'ankara-ai-assistant' },
-  { lang: 'de', home: '/de', servicesPath: 'leistungen', ankaraAiPath: 'ankara-ki-loesungen', ankaraSwPath: 'ankara-softwareunternehmen', ankaraAsistanPath: 'ankara-ki-assistent' },
-  { lang: 'fr', home: '/fr', servicesPath: 'services', ankaraAiPath: 'solutions-ia-ankara', ankaraSwPath: 'entreprise-logicielle-ankara', ankaraAsistanPath: 'assistant-ia-ankara' },
-  { lang: 'ar', home: '/ar', servicesPath: 'services', ankaraAiPath: 'ankara-ai-solutions', ankaraSwPath: 'ankara-software-company', ankaraAsistanPath: 'ankara-ai-assistant', rtl: true },
-  { lang: 'ru', home: '/ru', servicesPath: 'uslugi', ankaraAiPath: 'ankara-ai-resheniya', ankaraSwPath: 'ankara-soft-kompaniya', ankaraAsistanPath: 'ankara-ai-assistent' },
+  { lang: 'en', home: '/en', servicesPath: 'services', ankaraAiFirmPath: 'ankara-ai-company', ankaraAiPath: 'ankara-ai-solutions', ankaraSwPath: 'ankara-software-company', ankaraAsistanPath: 'ankara-ai-assistant', ankaraKamuAiPath: 'ankara-public-sector-ai' },
+  { lang: 'de', home: '/de', servicesPath: 'leistungen', ankaraAiFirmPath: 'ankara-ki-unternehmen', ankaraAiPath: 'ankara-ki-loesungen', ankaraSwPath: 'ankara-softwareunternehmen', ankaraAsistanPath: 'ankara-ki-assistent', ankaraKamuAiPath: 'ankara-oeffentlicher-sektor-ki' },
+  { lang: 'fr', home: '/fr', servicesPath: 'services', ankaraAiFirmPath: 'entreprise-ia-ankara', ankaraAiPath: 'solutions-ia-ankara', ankaraSwPath: 'entreprise-logicielle-ankara', ankaraAsistanPath: 'assistant-ia-ankara', ankaraKamuAiPath: 'ia-secteur-public-ankara' },
+  { lang: 'ar', home: '/ar', servicesPath: 'services', ankaraAiFirmPath: 'ankara-ai-company', ankaraAiPath: 'ankara-ai-solutions', ankaraSwPath: 'ankara-software-company', ankaraAsistanPath: 'ankara-ai-assistant', ankaraKamuAiPath: 'ankara-public-sector-ai', rtl: true },
+  { lang: 'ru', home: '/ru', servicesPath: 'uslugi', ankaraAiFirmPath: 'ankara-ai-kompaniya', ankaraAiPath: 'ankara-ai-resheniya', ankaraSwPath: 'ankara-soft-kompaniya', ankaraAsistanPath: 'ankara-ai-assistent', ankaraKamuAiPath: 'ankara-gos-ai' },
 ];
 
 const META = {
@@ -21,6 +21,9 @@ const META = {
     servicesDesc: 'Ozturksoft — Ankara-based software company: custom software, AI integration, mobile apps, SEO, QA testing and DevOps. Free consultation.',
     ankaraAiTitle: 'Ankara AI Solutions | LLM, Chatbot & Automation | Ozturksoft',
     ankaraAiDesc: 'Ankara AI solutions partner: machine learning, LLM integration, chatbots and process automation for businesses in Ankara, Turkey.',
+    ankaraAiFirmTitle: 'Ankara AI Company | LLM, AI Agents & Chatbot | Ozturksoft',
+    ankaraAiFirmDesc: 'Ozturksoft is an Ankara-based AI company: LLM integration, AI agents, RAG, MCP, OCR and KVKK-compliant enterprise AI.',
+    ankaraAiFirmH1: 'Ankara AI Company',
     ankaraSwTitle: 'Ankara Software Company | Custom Software & AI | Ozturksoft',
     ankaraSwDesc: 'Leading Ankara software company for custom development, AI integration, web and mobile apps. QA-driven delivery, KVKK compliant.',
     servicesH1: 'Software & AI Services in Ankara',
@@ -32,12 +35,18 @@ const META = {
     aiAsistanTitle: 'Ozturksoft AI Assistant | Enterprise WhatsApp & Web | Ankara',
     aiAsistanDesc: 'Enterprise AI assistant with WhatsApp, web and CRM integration. KVKK compliant, on-premise option.',
     aiAsistanH1: 'Ozturksoft AI Assistant',
+    kamuAiTitle: 'Ankara Public Sector AI Solutions | On-Premise & KVKK | Ozturksoft',
+    kamuAiDesc: 'Public sector AI in Ankara: on-premise LLM, document OCR, e-government automation and KVKK-compliant enterprise AI.',
+    kamuAiH1: 'Ankara Public Sector AI',
   },
   de: {
     servicesTitle: 'Leistungen | Software & KI aus Ankara | Ozturksoft',
     servicesDesc: 'Ozturksoft — Softwareunternehmen in Ankara: Individualsoftware, KI-Integration, Mobile Apps, SEO, QA und DevOps.',
     ankaraAiTitle: 'Ankara KI-Lösungen | LLM, Chatbot & Automatisierung | Ozturksoft',
     ankaraAiDesc: 'KI-Lösungspartner in Ankara: Machine Learning, LLM-Integration, Chatbots und Prozessautomatisierung.',
+    ankaraAiFirmTitle: 'Ankara KI-Unternehmen | LLM, AI Agents & Chatbot | Ozturksoft',
+    ankaraAiFirmDesc: 'Ozturksoft ist ein KI-Unternehmen in Ankara: LLM, AI Agents, RAG, MCP, OCR und KVKK-konforme Enterprise-KI.',
+    ankaraAiFirmH1: 'Ankara KI-Unternehmen',
     ankaraSwTitle: 'Softwareunternehmen Ankara | Individualsoftware & KI | Ozturksoft',
     ankaraSwDesc: 'Führendes Softwareunternehmen in Ankara für Individualentwicklung, KI, Web und Mobile Apps.',
     servicesH1: 'Software- & KI-Leistungen in Ankara',
@@ -49,12 +58,18 @@ const META = {
     aiAsistanTitle: 'Ozturksoft KI-Assistent | Enterprise WhatsApp & Web | Ankara',
     aiAsistanDesc: 'Enterprise KI-Assistent mit WhatsApp-, Web- und CRM-Integration. KVKK-konform, On-Premise-Option.',
     aiAsistanH1: 'Ozturksoft KI-Assistent',
+    kamuAiTitle: 'Ankara KI für den öffentlichen Sektor | On-Premise & KVKK | Ozturksoft',
+    kamuAiDesc: 'KI-Lösungen für den öffentlichen Sektor in Ankara: On-Premise LLM, Dokumenten-OCR und KVKK-konforme Enterprise-KI.',
+    kamuAiH1: 'Ankara Öffentlicher Sektor KI',
   },
   fr: {
     servicesTitle: 'Services | Société logicielle & IA à Ankara | Ozturksoft',
     servicesDesc: 'Ozturksoft — société logicielle à Ankara : logiciel sur mesure, intégration IA, apps mobiles, SEO, QA et DevOps.',
     ankaraAiTitle: 'Solutions IA Ankara | LLM, Chatbot & Automatisation | Ozturksoft',
     ankaraAiDesc: 'Partenaire IA à Ankara : machine learning, intégration LLM, chatbots et automatisation des processus.',
+    ankaraAiFirmTitle: 'Entreprise IA Ankara | LLM, Agents IA & Chatbot | Ozturksoft',
+    ankaraAiFirmDesc: 'Ozturksoft est une entreprise IA à Ankara : intégration LLM, agents IA, RAG, MCP, OCR et IA enterprise conforme KVKK.',
+    ankaraAiFirmH1: 'Entreprise IA à Ankara',
     ankaraSwTitle: 'Société logicielle Ankara | Logiciel sur mesure & IA | Ozturksoft',
     ankaraSwDesc: 'Société logicielle de référence à Ankara pour développement sur mesure, IA, web et mobile.',
     servicesH1: 'Services logiciels & IA à Ankara',
@@ -66,12 +81,18 @@ const META = {
     aiAsistanTitle: 'Assistant IA Ozturksoft | WhatsApp & Web Enterprise | Ankara',
     aiAsistanDesc: 'Assistant IA enterprise avec intégration WhatsApp, web et CRM. Conforme KVKK, option on-premise.',
     aiAsistanH1: 'Assistant IA Ozturksoft',
+    kamuAiTitle: 'IA secteur public Ankara | On-premise & KVKK | Ozturksoft',
+    kamuAiDesc: 'Solutions IA secteur public à Ankara : LLM on-premise, OCR documentaire et IA enterprise conforme KVKK.',
+    kamuAiH1: 'IA secteur public à Ankara',
   },
   ar: {
     servicesTitle: 'الخدمات | شركة برمجيات وذكاء اصطناعي في أنقرة | Ozturksoft',
     servicesDesc: 'Ozturksoft — شركة برمجيات في أنقرة: برمجيات مخصصة، تكامل الذكاء الاصطناعي، تطبيقات جوال، SEO واختبار QA.',
     ankaraAiTitle: 'حلول الذكاء الاصطناعي في أنقرة | LLM وروبوت محادثة | Ozturksoft',
     ankaraAiDesc: 'شريك حلول الذكاء الاصطناعي في أنقرة: تعلم الآلة، تكامل LLM، روبوتات المحادثة وأتمتة العمليات.',
+    ankaraAiFirmTitle: 'شركة ذكاء اصطناعي أنقرة | LLM ووكلاء AI | Ozturksoft',
+    ankaraAiFirmDesc: 'Ozturksoft شركة ذكاء اصطناعي في أنقرة: تكامل LLM، وكلاء AI، RAG، MCP، OCR وذكاء اصطناعي مؤسسي متوافق مع KVKK.',
+    ankaraAiFirmH1: 'شركة ذكاء اصطناعي في أنقرة',
     ankaraSwTitle: 'شركة برمجيات أنقرة | برمجيات مخصصة وذكاء اصطناعي | Ozturksoft',
     ankaraSwDesc: 'شركة برمجيات رائدة في أنقرة للتطوير المخصص والذكاء الاصطناعي وتطبيقات الويب والجوال.',
     servicesH1: 'خدمات البرمجيات والذكاء الاصطناعي في أنقرة',
@@ -83,12 +104,18 @@ const META = {
     aiAsistanTitle: 'مساعد AI Ozturksoft | واتساب وويب مؤسسي | أنقرة',
     aiAsistanDesc: 'مساعد ذكاء اصطناعي مؤسسي مع تكامل WhatsApp والويب وCRM. متوافق مع KVKK، خيار on-premise.',
     aiAsistanH1: 'مساعد AI Ozturksoft',
+    kamuAiTitle: 'حلول الذكاء الاصطناعي للقطاع العام في أنقرة | Ozturksoft',
+    kamuAiDesc: 'ذكاء اصطناعي للقطاع العام في أنقرة: LLM on-premise وOCR للمستندات وذكاء اصطناعي متوافق مع KVKK.',
+    kamuAiH1: 'ذكاء اصطناعي للقطاع العام في أنقرة',
   },
   ru: {
     servicesTitle: 'Услуги | IT-компания и ИИ в Анкаре | Ozturksoft',
     servicesDesc: 'Ozturksoft — IT-компания в Анкаре: разработка ПО, интеграция ИИ, мобильные приложения, SEO, QA и DevOps.',
     ankaraAiTitle: 'ИИ-решения в Анкаре | LLM, чатбот и автоматизация | Ozturksoft',
     ankaraAiDesc: 'Партнёр по ИИ в Анкаре: машинное обучение, интеграция LLM, чатботы и автоматизация процессов.',
+    ankaraAiFirmTitle: 'ИИ-компания Анкара | LLM, AI-агенты и чатбот | Ozturksoft',
+    ankaraAiFirmDesc: 'Ozturksoft — ИИ-компания в Анкаре: интеграция LLM, AI-агенты, RAG, MCP, OCR и корпоративный ИИ с соблюдением KVKK.',
+    ankaraAiFirmH1: 'ИИ-компания в Анкаре',
     ankaraSwTitle: 'IT-компания Анкара | Разработка ПО и ИИ | Ozturksoft',
     ankaraSwDesc: 'Ведущая IT-компания в Анкаре: индивидуальная разработка, ИИ, веб и мобильные приложения.',
     servicesH1: 'Услуги разработки ПО и ИИ в Анкаре',
@@ -100,6 +127,9 @@ const META = {
     aiAsistanTitle: 'AI-ассистент Ozturksoft | WhatsApp и веб | Анкара',
     aiAsistanDesc: 'Корпоративный AI-ассистент с интеграцией WhatsApp, веб и CRM. KVKK, опция on-premise.',
     aiAsistanH1: 'AI-ассистент Ozturksoft',
+    kamuAiTitle: 'ИИ для госсектора Анкары | On-premise & KVKK | Ozturksoft',
+    kamuAiDesc: 'ИИ-решения для госсектора в Анкаре: on-premise LLM, OCR документов и корпоративный ИИ с KVKK.',
+    kamuAiH1: 'ИИ для госсектора в Анкаре',
   },
 };
 
@@ -114,9 +144,11 @@ const SERVICES = {
 function localePath(locale, trSlug) {
   const map = {
     hizmetler: locale.servicesPath,
+    'ankara-yapay-zeka-firmasi': locale.ankaraAiFirmPath,
     'ankara-yapay-zeka-cozumleri': locale.ankaraAiPath,
     'ankara-yazilim-sirketi': locale.ankaraSwPath,
     'ankara-ai-asistan': locale.ankaraAsistanPath,
+    'ankara-kamu-yapay-zeka': locale.ankaraKamuAiPath,
   };
   return map[trSlug];
 }
@@ -231,9 +263,11 @@ for (const locale of LOCALES) {
 
   const pages = [
     { file: `${locale.servicesPath}.html`, slug: 'hizmetler', trSlug: 'hizmetler', title: m.servicesTitle, desc: m.servicesDesc, h1: m.servicesH1, body: servicesBody(locale.lang) },
+    { file: `${locale.ankaraAiFirmPath}.html`, slug: 'ankara-yapay-zeka-firmasi', trSlug: 'ankara-yapay-zeka-firmasi', title: m.ankaraAiFirmTitle, desc: m.ankaraAiFirmDesc, h1: m.ankaraAiFirmH1, body: ankaraLinks(locale.lang, 'ai') },
     { file: `${locale.ankaraAiPath}.html`, slug: 'ankara-yapay-zeka-cozumleri', trSlug: 'ankara-yapay-zeka-cozumleri', title: m.ankaraAiTitle, desc: m.ankaraAiDesc, h1: m.ankaraAiH1, body: ankaraLinks(locale.lang, 'ai') },
     { file: `${locale.ankaraSwPath}.html`, slug: 'ankara-yazilim-sirketi', trSlug: 'ankara-yazilim-sirketi', title: m.ankaraSwTitle, desc: m.ankaraSwDesc, h1: m.ankaraSwH1, body: ankaraLinks(locale.lang, 'sw') },
     { file: `${locale.ankaraAsistanPath}.html`, slug: 'ankara-ai-asistan', trSlug: 'ankara-ai-asistan', title: m.aiAsistanTitle, desc: m.aiAsistanDesc, h1: m.aiAsistanH1, body: ankaraLinks(locale.lang, 'ai') },
+    { file: `${locale.ankaraKamuAiPath}.html`, slug: 'ankara-kamu-yapay-zeka', trSlug: 'ankara-kamu-yapay-zeka', title: m.kamuAiTitle, desc: m.kamuAiDesc, h1: m.kamuAiH1, body: ankaraLinks(locale.lang, 'ai') },
   ];
 
   for (const p of pages) {
@@ -266,6 +300,18 @@ if (!sitemap.includes(`${BASE}/ankara-yazilim-sirketi</loc>`)) {
 </urlset>`
   );
 }
+if (!sitemap.includes(`${BASE}/ankara-yapay-zeka-firmasi</loc>`)) {
+  sitemap = sitemap.replace(
+    '</urlset>',
+    `  <url>
+    <loc>${BASE}/ankara-yapay-zeka-firmasi</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.99</priority>
+  </url>
+</urlset>`
+  );
+}
 if (!sitemap.includes(`${BASE}/ankara-ai-asistan</loc>`)) {
   sitemap = sitemap.replace(
     '</urlset>',
@@ -280,7 +326,7 @@ if (!sitemap.includes(`${BASE}/ankara-ai-asistan</loc>`)) {
 }
 const localeUrls = [];
 for (const locale of LOCALES) {
-  for (const part of [locale.servicesPath, locale.ankaraAiPath, locale.ankaraSwPath, locale.ankaraAsistanPath]) {
+  for (const part of [locale.servicesPath, locale.ankaraAiFirmPath, locale.ankaraAiPath, locale.ankaraSwPath, locale.ankaraAsistanPath, locale.ankaraKamuAiPath]) {
     localeUrls.push(`${BASE}${locale.home}/${part}`);
   }
 }

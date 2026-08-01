@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && node scripts/patch-blog-hreflang.mjs && node scripts/generate-seo-geo.mjs && node scripts/generate-locale-home-pages.mjs && vite build && node scripts/generate-i18n-blog-pages.mjs && node scripts/generate-locale-inner-pages.mjs && node scripts/submit-indexnow.mjs && cp en.html de.html ar.html ru.html fr.html dist/ && for d in en de fr ar ru; do [ -d \"$d\" ] && cp -r \"$d\" dist/; done",
+    "build": "tsc && node scripts/patch-blog-hreflang.mjs && node scripts/generate-seo-geo.mjs && node scripts/generate-locale-home-pages.mjs && vite build && node scripts/generate-i18n-blog-pages.mjs && node scripts/generate-locale-inner-pages.mjs && node scripts/patch-seo-hub-links.mjs && node scripts/submit-indexnow.mjs && cp en.html de.html ar.html ru.html fr.html dist/ && cp ankara-yapay-zeka-firmasi.html ankara-kamu-yapay-zeka.html dist/ && for d in en de fr ar ru; do [ -d \"$d\" ] && cp -r \"$d\" dist/; done",
     "preview": "vite preview"
   },
   "devDependencies": {

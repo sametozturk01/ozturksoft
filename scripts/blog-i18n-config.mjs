@@ -33,6 +33,9 @@ export const ARTICLE_FILE_PREFIX = {
   ankaraKamu: 'ankara-kamu',
   logoNetsisErp: 'logo-netsis-erp',
   kvkkAi: 'kvkk-ai',
+  ankaraAiSecim: 'ankara-ai-secim',
+  ankaraAiKarsilastirma: 'ankara-ai-karsilastirma',
+  ankaraLlmMaliyet: 'ankara-llm-maliyet',
 };
 
 export const LOCALE_LANGS = ['en', 'de', 'fr', 'ar', 'ru'];

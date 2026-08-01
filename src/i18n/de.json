@@ -858,6 +858,18 @@
       "kvkkAiCard": {
         "title": "KVKK-konforme KI: On-Premise LLM & Datensicherheit [2026]",
         "desc": "KVKK-konforme KI-Architektur für Behörden, Finanz und Verteidigung."
+      },
+      "ankaraAiSecimCard": {
+        "title": "KI-Unternehmen in Ankara wählen? [2026 Leitfaden]",
+        "desc": "LLM-Erfahrung, KVKK, On-Premise, Referenzen und Angebotsvergleich."
+      },
+      "ankaraAiKarsilastirmaCard": {
+        "title": "Ankara KI-Unternehmen Vergleich [2026]",
+        "desc": "Objektiver Vergleich: LLM, KVKK, On-Premise und Preise."
+      },
+      "ankaraLlmMaliyetCard": {
+        "title": "Ankara LLM-Integrationskosten [2026]",
+        "desc": "GPT/Claude API, RAG, Chatbot und On-Premise KI Preise."
       }
     },
     "posts": {
@@ -1010,6 +1022,24 @@
         "tag": "🔒 KVKK & KI",
         "title": "KVKK-konforme KI: On-Premise LLM & Datensicherheit [2026]",
         "breadcrumb": "KVKK-konforme KI 2026"
+      },
+      "ankaraAiSecim": {
+        "tag": "🤖 KI",
+        "title": "KI-Unternehmen in Ankara wählen? [2026 Leitfaden]",
+        "breadcrumb": "KI-Auswahl 2026",
+        "metaDesc": "KI-Unternehmen in Ankara wählen: LLM, KVKK, On-Premise. Leitfaden 2026."
+      },
+      "ankaraAiKarsilastirma": {
+        "tag": "🤖 KI",
+        "title": "Ankara KI-Unternehmen Vergleich [2026]",
+        "breadcrumb": "KI-Vergleich",
+        "metaDesc": "Vergleich von KI-Unternehmen in Ankara nach LLM, KVKK und Preis."
+      },
+      "ankaraLlmMaliyet": {
+        "tag": "💰 Kosten",
+        "title": "Ankara LLM-Integrationskosten [2026]",
+        "breadcrumb": "LLM-Kosten Ankara",
+        "metaDesc": "LLM-Integrationskosten Ankara 2026: GPT, RAG, Chatbot, On-Premise."
       }
     },
     "breadcrumb": {
@@ -1033,7 +1063,8 @@
       "date4": "15. Juni 2026",
       "date5": "June 22, 2026",
       "date6": "9. Juli 2026",
-      "date7": "16. Juli 2026"
+      "date7": "16. Juli 2026",
+      "date8": "1. August 2026"
     },
     "footer": {
       "copyright": "© 2026 Ozturksoft — Ankara, Türkei. Alle Rechte vorbehalten."
@@ -1203,6 +1234,21 @@
         "title": "KVKK-konformes KI-Projekt planen",
         "desc": "Kostenlose Beratung für on-premise LLM.",
         "btn": "Kostenlose Beratung"
+      },
+      "ankaraAiSecim": {
+        "title": "Den richtigen KI-Partner finden",
+        "desc": "Kostenlose Beratung zu LLM, KVKK und Budget.",
+        "btn": "Kostenlose Beratung"
+      },
+      "ankaraAiKarsilastirma": {
+        "title": "Angebot für Ihr KI-Projekt",
+        "desc": "Individuelles LLM-Angebot nach Vergleich.",
+        "btn": "Kostenloses Angebot"
+      },
+      "ankaraLlmMaliyet": {
+        "title": "Klares LLM-Angebot",
+        "desc": "Scope-basierte LLM-Preise ohne versteckte Kosten.",
+        "btn": "Kostenloses Angebot"
       }
     }
   },
@@ -1362,6 +1408,53 @@
       "title": "KI-Assistent-Projekt planen",
       "desc": "Kostenlose Erstberatung für Kanäle, Integrationen und KVKK.",
       "btn": "Kostenlose Demo anfordern"
+    }
+  },
+  "kamuAiPage": {
+    "hero": {
+      "badge": "Öffentlicher Sektor KI",
+      "title": "Ankara KI-Lösungen für den öffentlichen Sektor",
+      "desc": "On-Premise KI, Dokumenten-OCR, E-Government-Automatisierung und KVKK-konformes LLM.",
+      "guideLink": "Leitfaden öffentliche Software →"
+    },
+    "features": {
+      "f1": {
+        "title": "E-Government & Bürgerportale",
+        "desc": "Antragsverfolgung und KI-Bürgerassistent — Türkisch NLP."
+      },
+      "f2": {
+        "title": "Dokumenten-OCR & Archiv",
+        "desc": "Automatische Datenextraktion aus Akten und Ausschreibungen."
+      },
+      "f3": {
+        "title": "On-Premise & KVKK",
+        "desc": "LLM ohne Datenabfluss — Audit-Log und RBAC."
+      },
+      "f4": {
+        "title": "Ausschreibungs-Automatisierung",
+        "desc": "Genehmigungsketten und Berichte."
+      }
+    },
+    "pricing": {
+      "title": "2026 Preisspanne (Öffentliche KI)",
+      "col1": "Umfang",
+      "col2": "Kosten",
+      "row1": "Dokumenten-OCR",
+      "row1price": "60.000 – 120.000 TRY",
+      "row2": "Prozessautomatisierung",
+      "row2price": "120.000 – 250.000 TRY",
+      "row3": "On-Premise KI-Plattform",
+      "row3price": "250.000 – 500.000+ TRY"
+    },
+    "links": {
+      "kvkk": "KVKK-konforme KI",
+      "ocr": "Dokumenten-OCR",
+      "hub": "KI-Unternehmen Hub"
+    },
+    "cta": {
+      "title": "Öffentliches KI-Projekt planen",
+      "desc": "Kostenlose Erstberatung zu On-Premise und KVKK.",
+      "btn": "Kostenlose Beratung"
     }
   }
 }

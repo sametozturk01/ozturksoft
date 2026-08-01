@@ -12,8 +12,10 @@ export default defineConfig({
         iletisim: resolve(__dirname, 'iletisim.html'),
         blog: resolve(__dirname, 'blog.html'),
         ankaraYapayZeka: resolve(__dirname, 'ankara-yapay-zeka-cozumleri.html'),
+        ankaraYapayZekaFirmasi: resolve(__dirname, 'ankara-yapay-zeka-firmasi.html'),
         ankaraYazilimSirketi: resolve(__dirname, 'ankara-yazilim-sirketi.html'),
         ankaraAiAsistan: resolve(__dirname, 'ankara-ai-asistan.html'),
+        ankaraKamuYapayZeka: resolve(__dirname, 'ankara-kamu-yapay-zeka.html'),
         sss: resolve(__dirname, 'sss.html'),
         // Blog posts
         blogAnkaraWebSitesi: resolve(__dirname, 'blog/ankara-web-sitesi-maliyeti-2026.html'),
@@ -49,6 +51,9 @@ export default defineConfig({
         blogAnkaraKamu: resolve(__dirname, 'blog/ankara-kamu-yazilim-2026.html'),
         blogLogoNetsisErp: resolve(__dirname, 'blog/logo-netsis-erp-entegrasyon-rehberi-2026.html'),
         blogKvkkAi: resolve(__dirname, 'blog/kvkk-uyumlu-yapay-zeka-rehberi-2026.html'),
+        blogAnkaraAiSecim: resolve(__dirname, 'blog/ankara-yapay-zeka-firmasi-nasil-secilir-2026.html'),
+        blogAnkaraAiKarsilastirma: resolve(__dirname, 'blog/ankara-yapay-zeka-firmalari-karsilastirma-2026.html'),
+        blogAnkaraLlmMaliyet: resolve(__dirname, 'blog/ankara-llm-entegrasyonu-maliyeti-2026.html'),
         // Language pages are standalone static HTML, not Vite entry points
         // They are served as-is by the server (Vercel cleanUrls handles /en → en.html)
       }

@@ -858,6 +858,18 @@
       "kvkkAiCard": {
         "title": "KVKK-Compliant AI Guide: On-Premise LLM & Data Security [2026]",
         "desc": "KVKK-compliant AI architecture. On-premise LLM, data masking for public sector, finance and defense."
+      },
+      "ankaraAiSecimCard": {
+        "title": "How to Choose an AI Company in Ankara? [2026 Guide]",
+        "desc": "LLM experience, KVKK, on-premise, references and quote comparison checklist."
+      },
+      "ankaraAiKarsilastirmaCard": {
+        "title": "Ankara AI Companies Comparison [2026]",
+        "desc": "Objective comparison: LLM, KVKK, on-premise and pricing."
+      },
+      "ankaraLlmMaliyetCard": {
+        "title": "Ankara LLM Integration Cost [2026]",
+        "desc": "GPT/Claude API, RAG, chatbot and on-premise AI price ranges."
       }
     },
     "posts": {
@@ -1025,6 +1037,24 @@
         "tag": "🔒 KVKK & AI",
         "title": "KVKK-Compliant AI Guide: On-Premise LLM & Data Security [2026]",
         "breadcrumb": "KVKK-Compliant AI 2026"
+      },
+      "ankaraAiSecim": {
+        "tag": "🤖 AI",
+        "title": "How to Choose an AI Company in Ankara? [2026 Guide]",
+        "breadcrumb": "AI Company Selection 2026",
+        "metaDesc": "How to choose an Ankara AI company: LLM, KVKK, on-premise and references. 2026 guide."
+      },
+      "ankaraAiKarsilastirma": {
+        "tag": "🤖 AI",
+        "title": "Ankara AI Companies Comparison [2026]",
+        "breadcrumb": "AI Companies Comparison",
+        "metaDesc": "Compare Ankara AI companies by LLM depth, KVKK, on-premise and pricing."
+      },
+      "ankaraLlmMaliyet": {
+        "tag": "💰 Cost",
+        "title": "Ankara LLM Integration Cost [2026]",
+        "breadcrumb": "LLM Cost Ankara",
+        "metaDesc": "Ankara LLM integration cost 2026: GPT, RAG, chatbot and on-premise pricing."
       }
     },
     "breadcrumb": {
@@ -1048,7 +1078,8 @@
       "date4": "June 15, 2026",
       "date5": "June 22, 2026",
       "date6": "July 9, 2026",
-      "date7": "July 16, 2026"
+      "date7": "July 16, 2026",
+      "date8": "August 1, 2026"
     },
     "footer": {
       "copyright": "© 2026 Ozturksoft — Ankara, Turkey. All rights reserved."
@@ -1218,6 +1249,21 @@
         "title": "Plan Your KVKK-Compliant AI Project",
         "desc": "Free consultation for on-premise LLM and secure AI architecture.",
         "btn": "Free KVKK AI Consultation"
+      },
+      "ankaraAiSecim": {
+        "title": "Find the Right AI Partner",
+        "desc": "Free consultation on LLM scope, KVKK and budget.",
+        "btn": "Free Consultation"
+      },
+      "ankaraAiKarsilastirma": {
+        "title": "Get a Quote for Your AI Project",
+        "desc": "Custom LLM and integration proposal after comparison.",
+        "btn": "Free Quote"
+      },
+      "ankaraLlmMaliyet": {
+        "title": "Get a Clear LLM Quote",
+        "desc": "Scope-based LLM integration pricing with no hidden costs.",
+        "btn": "Free Quote"
       }
     }
   },
@@ -1377,6 +1423,53 @@
       "title": "Plan Your AI Assistant Project",
       "desc": "Free discovery call to evaluate channels, integrations and KVKK requirements.",
       "btn": "Request Free Demo"
+    }
+  },
+  "kamuAiPage": {
+    "hero": {
+      "badge": "Public Sector AI",
+      "title": "Ankara Public Sector AI Solutions",
+      "desc": "On-premise AI, document OCR, e-government automation and KVKK-compliant LLM for ministries and public institutions.",
+      "guideLink": "Public sector software guide →"
+    },
+    "features": {
+      "f1": {
+        "title": "E-Government & Citizen Portals",
+        "desc": "Application tracking, notifications and AI citizen assistant — Turkish NLP."
+      },
+      "f2": {
+        "title": "Document OCR & Digital Archive",
+        "desc": "Automated data extraction from files, invoices and tender documents."
+      },
+      "f3": {
+        "title": "On-Premise & KVKK",
+        "desc": "LLM without data leaving the institution — audit log and RBAC."
+      },
+      "f4": {
+        "title": "Tender & Process Automation",
+        "desc": "Approval chains, reminders and reporting automation."
+      }
+    },
+    "pricing": {
+      "title": "2026 Price Range (Public AI)",
+      "col1": "Scope",
+      "col2": "Cost",
+      "row1": "Document OCR module",
+      "row1price": "60,000 – 120,000 TRY",
+      "row2": "Tender / process automation",
+      "row2price": "120,000 – 250,000 TRY",
+      "row3": "On-premise AI platform",
+      "row3price": "250,000 – 500,000+ TRY"
+    },
+    "links": {
+      "kvkk": "KVKK-compliant AI",
+      "ocr": "Document OCR",
+      "hub": "AI company hub"
+    },
+    "cta": {
+      "title": "Plan Your Public AI Project",
+      "desc": "Free discovery call for on-premise, KVKK and integration requirements.",
+      "btn": "Free Discovery Call"
     }
   }
 }
