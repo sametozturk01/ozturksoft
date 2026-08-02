@@ -6,7 +6,7 @@
   "trailingSlash": false,
   "builds": [
     {
-      "src": "api/**/*",
+      "src": "api/**/*.js",
       "use": "@vercel/node"
     },
     {

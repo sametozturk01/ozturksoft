@@ -15,6 +15,7 @@
     "vite": "^7.1.2"
   },
   "dependencies": {
-    "i18next": "^26.0.4"
+    "i18next": "^26.0.4",
+    "nodemailer": "^9.0.1"
   }
 }
