@@ -16,7 +16,34 @@ const ALLOWED_ORIGINS = new Set([
 
 const CONTACT_TO = process.env.CONTACT_TO_EMAIL || "info.ozturksoft@gmail.com";
 const CONTACT_FROM =
+  process.env.CONTACT_FROM_EMAIL || "Ozturksoft <onboarding@resend.dev>";
+const CONTACT_FROM_VERIFIED =
   process.env.CONTACT_FROM_EMAIL || "Ozturksoft İletişim <iletisim@ozturksoft.net>";
+
+function parseBody(req) {
+  const raw = req.body;
+  if (!raw) return {};
+  if (typeof raw === "object") return raw;
+  if (typeof raw === "string") {
+    try {
+      return JSON.parse(raw);
+    } catch {
+      return {};
+    }
+  }
+  return {};
+}
+
+async function resendRequest(apiKey, payload) {
+  return fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(payload),
+  });
+}
 
 function corsOrigin(req) {
   const origin = req.headers.origin || "";
@@ -92,46 +119,51 @@ async function sendViaResend(data) {
   }
 
   const subject = `Ozturksoft — ${data.projectType} — ${data.name}`;
-  const response = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      from: CONTACT_FROM,
-      to: [CONTACT_TO],
-      reply_to: data.email,
-      subject,
-      html: buildEmailHtml(data),
-      text: [
-        "Ozturksoft — Yeni Teklif Talebi",
-        "",
-        `Ad Soyad: ${data.name}`,
-        `Şirket: ${data.company || "—"}`,
-        `E-posta: ${data.email}`,
-        `Telefon: ${data.phone || "—"}`,
-        `Proje Türü: ${data.projectType}`,
-        `Bütçe: ${data.budget || "—"}`,
-        `Başlangıç: ${data.timeline || "—"}`,
-        `KVKK: ${data.kvkkConsentAt}`,
-        "",
-        "Detaylar:",
-        data.message,
-      ].join("\n"),
-    }),
-  });
+  const emailPayload = {
+    to: [CONTACT_TO],
+    reply_to: data.email,
+    subject,
+    html: buildEmailHtml(data),
+    text: [
+      "Ozturksoft — Yeni Teklif Talebi",
+      "",
+      `Ad Soyad: ${data.name}`,
+      `Şirket: ${data.company || "—"}`,
+      `E-posta: ${data.email}`,
+      `Telefon: ${data.phone || "—"}`,
+      `Proje Türü: ${data.projectType}`,
+      `Bütçe: ${data.budget || "—"}`,
+      `Başlangıç: ${data.timeline || "—"}`,
+      `KVKK: ${data.kvkkConsentAt}`,
+      "",
+      "Detaylar:",
+      data.message,
+    ].join("\n"),
+  };
 
-  if (!response.ok) {
-    const detail = await response.text().catch(() => "");
-    console.error("Resend error:", response.status, detail);
-    return { ok: false, status: 502, error: "E-posta gönderilemedi." };
+  const fromCandidates = process.env.CONTACT_FROM_EMAIL
+    ? [CONTACT_FROM]
+    : [CONTACT_FROM_VERIFIED, CONTACT_FROM];
+
+  let lastError = "";
+  for (const from of fromCandidates) {
+    const response = await resendRequest(apiKey, { ...emailPayload, from });
+    if (response.ok) return { ok: true };
+
+    lastError = await response.text().catch(() => "");
+    console.error("Resend error:", response.status, from, lastError);
+
+    const domainIssue =
+      response.status === 403 ||
+      /domain|verified|not authorized/i.test(lastError);
+    if (!domainIssue) break;
   }
 
-  return { ok: true };
+  return { ok: false, status: 502, error: "E-posta gönderilemedi. Resend domain doğrulamasını kontrol edin." };
 }
 
 module.exports = async function handler(req, res) {
+  try {
   res.setHeader("Access-Control-Allow-Origin", corsOrigin(req));
   res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
@@ -156,7 +188,7 @@ module.exports = async function handler(req, res) {
     }
   }
 
-  const body = req.body || {};
+  const body = parseBody(req);
   const honeypot = String(body.honeypot || "").trim();
   if (honeypot) {
     return res.status(200).json({ ok: true });
@@ -206,4 +238,8 @@ module.exports = async function handler(req, res) {
   }
 
   return res.status(200).json({ ok: true, message: "Talebiniz alındı." });
+  } catch (err) {
+    console.error("Contact API error:", err);
+    return res.status(500).json({ ok: false, error: "Sunucu hatası." });
+  }
 };
