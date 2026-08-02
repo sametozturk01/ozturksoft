@@ -3,6 +3,15 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   appType: 'mpa',
+  server: {
+    proxy: {
+      '/api': {
+        target: 'https://ozturksoft.net',
+        changeOrigin: true,
+        secure: true,
+      },
+    },
+  },
   build: {
     rollupOptions: {
       input: {

@@ -1,10 +1,10 @@
 /**
  * Ozturksoft contact form API (Vercel serverless)
  *
- * Required env (Vercel → Settings → Environment Variables):
- *   RESEND_API_KEY       — https://resend.com API key
- *   CONTACT_TO_EMAIL     — default: info.ozturksoft@gmail.com
- *   CONTACT_FROM_EMAIL   — default: Ozturksoft İletişim <iletisim@ozturksoft.net>
+ * Env (Vercel → Settings → Environment Variables):
+ *   RESEND_API_KEY
+ *   CONTACT_TO_EMAIL     (optional, default info.ozturksoft@gmail.com)
+ *   CONTACT_FROM_EMAIL   (optional)
  */
 
 const ALLOWED_ORIGINS = new Set([
@@ -105,8 +105,8 @@ async function sendViaResend(data) {
       subject,
       html: buildEmailHtml(data),
       text: [
-        `Ozturksoft — Yeni Teklif Talebi`,
-        ``,
+        "Ozturksoft — Yeni Teklif Talebi",
+        "",
         `Ad Soyad: ${data.name}`,
         `Şirket: ${data.company || "—"}`,
         `E-posta: ${data.email}`,
@@ -115,8 +115,8 @@ async function sendViaResend(data) {
         `Bütçe: ${data.budget || "—"}`,
         `Başlangıç: ${data.timeline || "—"}`,
         `KVKK: ${data.kvkkConsentAt}`,
-        ``,
-        `Detaylar:`,
+        "",
+        "Detaylar:",
         data.message,
       ].join("\n"),
     }),
@@ -131,7 +131,7 @@ async function sendViaResend(data) {
   return { ok: true };
 }
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
   res.setHeader("Access-Control-Allow-Origin", corsOrigin(req));
   res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
@@ -206,4 +206,4 @@ export default async function handler(req, res) {
   }
 
   return res.status(200).json({ ok: true, message: "Talebiniz alındı." });
-}
+};
