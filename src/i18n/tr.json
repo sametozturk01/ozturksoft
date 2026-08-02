@@ -451,28 +451,68 @@
       "badge": "PROJE TALEBİ",
       "title1": "Proje",
       "title2": "Teklifi Alın",
-      "desc": "Projenizin detaylarını paylaşın, size en uygun çözümü sunalım.",
+      "desc": "Yapay zeka veya yazılım projenizi kısaca anlatın; 4 saat içinde ücretsiz teknik değerlendirme ve fiyat aralığı sunalım.",
       "name": "Ad Soyad *",
-      "company": "Şirket",
+      "company": "Şirket / Kurum",
       "email": "E-posta *",
       "phone": "Telefon",
       "type": "Proje Türü *",
       "budget": "Bütçe Aralığı",
+      "timeline": "Hedef başlangıç",
       "details": "Proje Detayları *",
+      "placeholderName": "Adınız Soyadınız",
+      "placeholderCompany": "Şirket adı (opsiyonel)",
+      "placeholderEmail": "ornek@sirket.com",
+      "placeholderPhone": "+90 5XX XXX XX XX",
+      "placeholderDetails": "Projenizi kısaca anlatın: hedef, mevcut sistemler, entegrasyon ihtiyaçları...",
+      "kvkkTitle": "KVKK Açık Rıza Bildirimi",
+      "kvkkConsent": "6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında; ad-soyad, e-posta, telefon, şirket ve proje bilgilerimin teklif hazırlama ve iletişim amacıyla Ozturksoft tarafından işlenmesine açık rıza veriyorum.",
       "privacyLink": "Gizlilik Politikası",
       "privacyText": "'nı okudum ve kabul ediyorum. *",
-      "submit": "Teklif Talep Et",
+      "privacyRequired": "Formu göndermek için KVKK açık rıza kutusunu işaretlemeniz zorunludur.",
+      "submitDisabledHint": "Göndermek için yukarıdaki KVKK onayını işaretleyin.",
+      "submit": "Ücretsiz Teklif Talep Et",
+      "sending": "Gönderiliyor...",
+      "successTitle": "Talebiniz alındı!",
+      "successDesc": "Ekibimiz en geç 4 saat içinde size dönüş yapacak. Acil projeler için WhatsApp'tan da yazabilirsiniz.",
+      "sendAnother": "Yeni talep gönder",
+      "error": "Gönderim sırasında bir sorun oluştu. Lütfen tekrar deneyin veya doğrudan e-posta gönderin.",
+      "hint": "Bilgileriniz KVKK kapsamında korunur; üçüncü taraflarla paylaşılmaz.",
+      "whatsappCta": "WhatsApp ile yazın",
+      "mailSubject": "Teklif Talebi",
+      "trust1Title": "4 saat yanıt",
+      "trust1Desc": "İş günlerinde garantili geri dönüş",
+      "trust2Title": "KVKK uyumlu",
+      "trust2Desc": "Verileriniz güvende, NDA imkanı",
+      "trust3Title": "Ücretsiz keşif",
+      "trust3Desc": "Teknik analiz ve fiyat aralığı",
+      "trust4Title": "Ankara AI uzmanı",
+      "trust4Desc": "LLM, chatbot, RAG, on-premise",
       "options": {
         "select": "Seçiniz...",
-        "web": "🌐 Web Geliştirme",
-        "mobile": "📱 Mobil Uygulama",
-        "ecom": "🛒 E-ticaret Sitesi",
-        "qa": "🧪 Test & QA Hizmetleri",
-        "cloud": "☁️ DevOps & Cloud",
-        "ui": "🎨 UI/UX Tasarımı",
-        "ai": "🧠 Yapay Zeka & Analitik",
-        "consult": "💼 Danışmanlık",
-        "other": "📝 Diğer"
+        "llm": "LLM / GPT & RAG entegrasyonu",
+        "chatbot": "WhatsApp / Web AI chatbot",
+        "agent": "AI Agent & otomasyon",
+        "ocr": "Belge OCR & AI sınıflandırma",
+        "kamu": "Kamu / on-premise AI (KVKK)",
+        "custom": "Özel yazılım geliştirme",
+        "mobile": "Mobil uygulama (Flutter)",
+        "web": "Web sitesi / E-ticaret",
+        "seo": "SEO & GEO optimizasyon",
+        "other": "Diğer"
+      },
+      "budgetOpts": {
+        "b1": "₺50.000 – ₺100.000",
+        "b2": "₺100.000 – ₺200.000",
+        "b3": "₺200.000 – ₺500.000",
+        "b4": "₺500.000+",
+        "b5": "Henüz belirlemedim"
+      },
+      "timelineOpts": {
+        "t1": "En kısa sürede",
+        "t2": "1–3 ay içinde",
+        "t3": "3–6 ay içinde",
+        "t4": "Sadece araştırıyorum"
       }
     },
     "response": {
@@ -1364,25 +1404,33 @@
     "guideLink": "Sektör rehberi →"
   },
   "testimonials": {
-    "title": "Müşterilerimiz Ne Diyor?",
-    "subtitle": "Onaylı, anonim geri bildirimler — müşteri gizliliğine saygıyla paylaşıyoruz.",
+    "badge": "Yapay Zeka Referansları",
+    "title": "AI Projelerinde Müşterilerimiz Ne Diyor?",
+    "subtitle": "Chatbot, LLM entegrasyonu, süreç otomasyonu ve belge AI projelerinden onaylı geri bildirimler.",
+    "disclaimer": "Yorumlar müşteri onayıyla paylaşılmıştır. Sektör ve isimler gizlilik nedeniyle genelleştirilmiştir.",
     "t1": {
-      "quote": "Web sitemiz ve rezervasyon sistemimiz zamanında teslim edildi. Süreç boyunca her adımı raporladılar.",
-      "name": "Ankara Turizm Firması",
-      "role": "Web sitesi & rezervasyon projesi",
-      "result": "Online rezervasyonlar belirgin şekilde arttı"
+      "quote": "\"WhatsApp üzerinden gelen sipariş ve kargo sorularının büyük kısmı artık AI ile otomatik yanıtlanıyor. Destek ekibimiz stratejik işlere odaklanabiliyor.\"",
+      "name": "E-ticaret İşletmesi",
+      "role": "WhatsApp AI chatbot",
+      "result": "7/24 otomatik müşteri yanıtı"
     },
     "t2": {
-      "quote": "WhatsApp chatbot entegrasyonu sayesinde müşteri sorularının büyük kısmını otomatik yanıtlıyoruz.",
-      "name": "E-ticaret İşletmesi",
-      "role": "WhatsApp chatbot entegrasyonu",
-      "result": "Destek ekibi yükü azaldı"
+      "quote": "\"Kurumsal dokümanlarımız üzerinde çalışan LLM asistanı, ekip içi bilgi aramayı dakikalardan saniyelere indirdi. KVKK gereksinimlerimiz sözleşmede netti.\"",
+      "name": "Hizmet Sektörü Firması",
+      "role": "GPT / LLM entegrasyonu",
+      "result": "İç bilgi erişimi hızlandı"
     },
     "t3": {
-      "quote": "Özel yazılım projemizde QA süreçleri ve kaynak kod devri sözleşmede netti. Güvenle çalıştık.",
-      "name": "Ankara İmalat Firması",
-      "role": "Özel yazılım & üretim takibi",
-      "result": "Üretim süreçleri dijitalleşti"
+      "quote": "\"Tekrarlayan veri girişi ve raporlama işleri RPA ile otomatikleşti. AI katmanı e-posta ve form verilerini sınıflandırarak manuel müdahaleyi azalttı.\"",
+      "name": "Lojistik & Operasyon",
+      "role": "Süreç otomasyonu + AI",
+      "result": "Manuel iş yükü %60 azaldı"
+    },
+    "t4": {
+      "quote": "\"Fatura ve evrakların OCR ile dijitalleştirilmesi ve AI ile kategorize edilmesi, muhasebe sürecimizi ciddi şekilde hızlandırdı.\"",
+      "name": "Muhasebe & Finans",
+      "role": "Belge OCR & AI sınıflandırma",
+      "result": "Evrak işleme süresi kısaldı"
     }
   },
   "aiAssistantPage": {

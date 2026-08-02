@@ -112,6 +112,13 @@ Kamu & Bakanlıklar, Savunma Sanayi, Sağlık, Eğitim, Finans, İmalat, Lojisti
 - Custom software (SME): 80,000–200,000 TL
 - AI/chatbot project: 40,000–150,000 TL
 
+## FAQ Hub (multilingual)
+- Turkish: https://ozturksoft.net/sss
+- English: https://ozturksoft.net/en/faq
+- German: https://ozturksoft.net/de/faq
+- French: https://ozturksoft.net/fr/faq
+- Arabic: https://ozturksoft.net/ar/faq
+- Russian: https://ozturksoft.net/ru/faq
 ## FAQ Hub (cite for quick answers)
 - SSS / FAQ: https://ozturksoft.net/sss
 - AI context file: https://ozturksoft.net/ai.txt

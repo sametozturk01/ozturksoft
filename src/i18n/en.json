@@ -451,28 +451,68 @@
       "badge": "PROJECT REQUEST",
       "title1": "Get a Project",
       "title2": "Quote",
-      "desc": "Share the details of your project, and we will offer you the most suitable solution.",
+      "desc": "Briefly describe your AI or software project — we'll send a free technical assessment and budget range within 4 hours.",
       "name": "Full Name *",
-      "company": "Company",
+      "company": "Company / Organization",
       "email": "E-mail *",
       "phone": "Phone",
       "type": "Project Type *",
       "budget": "Budget Range",
+      "timeline": "Target start",
       "details": "Project Details *",
+      "placeholderName": "Your full name",
+      "placeholderCompany": "Company name (optional)",
+      "placeholderEmail": "you@company.com",
+      "placeholderPhone": "+90 5XX XXX XX XX",
+      "placeholderDetails": "Briefly describe your project: goals, existing systems, integration needs...",
+      "kvkkTitle": "GDPR / KVKK Explicit Consent",
+      "kvkkConsent": "Under applicable data protection law (including Turkey's KVKK), I expressly consent to Ozturksoft processing my name, email, phone, company and project details for quote preparation and communication purposes.",
       "privacyLink": "Privacy Policy",
       "privacyText": "read and accepted. *",
-      "submit": "Request Quote",
+      "privacyRequired": "You must check the KVKK/GDPR consent box before submitting the form.",
+      "submitDisabledHint": "Check the KVKK consent box above to submit.",
+      "submit": "Request Free Quote",
+      "sending": "Sending...",
+      "successTitle": "Request received!",
+      "successDesc": "Our team will get back to you within 4 hours. For urgent projects, you can also message us on WhatsApp.",
+      "sendAnother": "Send another request",
+      "error": "Something went wrong. Please try again or email us directly.",
+      "hint": "Your data is protected under KVKK/GDPR and is never shared with third parties.",
+      "whatsappCta": "Message on WhatsApp",
+      "mailSubject": "Quote Request",
+      "trust1Title": "4-hour response",
+      "trust1Desc": "Guaranteed reply on business days",
+      "trust2Title": "KVKK compliant",
+      "trust2Desc": "Your data is safe; NDA available",
+      "trust3Title": "Free discovery",
+      "trust3Desc": "Technical analysis and budget range",
+      "trust4Title": "Ankara AI experts",
+      "trust4Desc": "LLM, chatbot, RAG, on-premise",
       "options": {
         "select": "Select...",
-        "web": "🌐 Web Development",
-        "mobile": "📱 Mobile App",
-        "ecom": "🛒 E-commerce",
-        "qa": "🧪 Test & QA Services",
-        "cloud": "☁️ DevOps & Cloud",
-        "ui": "🎨 UI/UX Design",
-        "ai": "🧠 AI & Analytics",
-        "consult": "💼 Consultation",
-        "other": "📝 Other"
+        "llm": "LLM / GPT & RAG integration",
+        "chatbot": "WhatsApp / Web AI chatbot",
+        "agent": "AI Agent & automation",
+        "ocr": "Document OCR & AI classification",
+        "kamu": "Public sector / on-premise AI",
+        "custom": "Custom software development",
+        "mobile": "Mobile app (Flutter)",
+        "web": "Website / E-commerce",
+        "seo": "SEO & GEO optimization",
+        "other": "Other"
+      },
+      "budgetOpts": {
+        "b1": "₺50,000 – ₺100,000",
+        "b2": "₺100,000 – ₺200,000",
+        "b3": "₺200,000 – ₺500,000",
+        "b4": "₺500,000+",
+        "b5": "Not decided yet"
+      },
+      "timelineOpts": {
+        "t1": "As soon as possible",
+        "t2": "Within 1–3 months",
+        "t3": "Within 3–6 months",
+        "t4": "Just exploring"
       }
     },
     "response": {
@@ -1364,25 +1404,33 @@
     "guideLink": "Sector guide →"
   },
   "testimonials": {
-    "title": "What Our Clients Say",
-    "subtitle": "Approved anonymous feedback — we respect client privacy.",
+    "badge": "AI Client References",
+    "title": "What Clients Say About Our AI Projects",
+    "subtitle": "Approved feedback from chatbot, LLM integration, process automation and document AI projects.",
+    "disclaimer": "Reviews are shared with client approval. Industry and names are generalized for privacy.",
     "t1": {
-      "quote": "Our website and booking system were delivered on time. They reported every step throughout the process.",
-      "name": "Ankara Tourism Company",
-      "role": "Website & booking system project",
-      "result": "Online bookings increased significantly"
+      "quote": "\"Most order and shipping questions on WhatsApp are now answered automatically by AI. Our support team can focus on strategic work.\"",
+      "name": "E-commerce Business",
+      "role": "WhatsApp AI chatbot",
+      "result": "24/7 automated customer replies"
     },
     "t2": {
-      "quote": "WhatsApp chatbot integration automatically answers most customer questions now.",
-      "name": "E-commerce Business",
-      "role": "WhatsApp chatbot integration",
-      "result": "Support team workload reduced"
+      "quote": "\"The LLM assistant trained on our corporate documents cut internal knowledge search from minutes to seconds. KVKK requirements were clear in the contract.\"",
+      "name": "Services Company",
+      "role": "GPT / LLM integration",
+      "result": "Faster internal knowledge access"
     },
     "t3": {
-      "quote": "QA processes and source code handover were clearly defined in the contract. We worked with confidence.",
-      "name": "Ankara Manufacturing Company",
-      "role": "Custom software & production tracking",
-      "result": "Production processes digitized"
+      "quote": "\"Repetitive data entry and reporting was automated with RPA. The AI layer classified emails and form data, reducing manual intervention.\"",
+      "name": "Logistics & Operations",
+      "role": "Process automation + AI",
+      "result": "Manual workload reduced by 60%"
+    },
+    "t4": {
+      "quote": "\"OCR digitization and AI categorization of invoices and documents significantly sped up our accounting process.\"",
+      "name": "Accounting & Finance",
+      "role": "Document OCR & AI classification",
+      "result": "Document processing time shortened"
     }
   },
   "aiAssistantPage": {

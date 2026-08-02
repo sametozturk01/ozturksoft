@@ -19,6 +19,7 @@
     <meta name="description" content="Ozturksoft: интеграция ИИ, разработка ПО на заказ, мобильные приложения и цифровая трансформация для предприятий и госсектора — из Анкары, Турция.">
     <meta name="keywords" content="it компания анкара, разработка по турция, интеграция ии анкара">
     <meta name="robots" content="index, follow">
+    <!-- seo:bing-verification -->
 
     <meta name="geo.region" content="TR-06" />
     <meta name="geo.placename" content="Ankara" />
@@ -413,6 +414,22 @@
         .ref-logo:hover { filter: grayscale(0); color: var(--text-main); }
         .ref-logo i { font-size: 1.5rem; color: var(--primary); }
 
+        .testimonials-section { padding: 80px 8% 90px; background: linear-gradient(180deg, var(--dark-bg) 0%, #0a1020 50%, var(--dark-bg) 100%); position: relative; z-index: 12; }
+        .testimonials-section::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 40% at 50% 0%, rgba(59,130,246,0.08), transparent 70%); pointer-events: none; }
+        .testimonials-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; max-width: 1200px; margin: 0 auto; position: relative; }
+        .testimonial-card { background: linear-gradient(145deg, rgba(15,23,42,0.95), rgba(15,23,42,0.7)); border: 1px solid rgba(255,255,255,0.08); border-radius: 20px; padding: 28px; transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s; position: relative; overflow: hidden; }
+        .testimonial-card::before { content: '\201C'; position: absolute; top: 12px; right: 20px; font-size: 4rem; line-height: 1; color: rgba(59,130,246,0.12); font-family: Georgia, serif; pointer-events: none; }
+        .testimonial-card:hover { transform: translateY(-4px); border-color: rgba(59,130,246,0.35); box-shadow: 0 20px 40px rgba(0,0,0,0.35), 0 0 0 1px rgba(59,130,246,0.1); }
+        .testimonial-top { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; }
+        .testimonial-avatar { width: 48px; height: 48px; border-radius: 14px; background: linear-gradient(135deg, var(--primary), #6366f1); display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.85rem; color: #fff; flex-shrink: 0; letter-spacing: 0.02em; }
+        .testimonial-stars { color: #fbbf24; font-size: 0.8rem; letter-spacing: 2px; margin-bottom: 4px; }
+        .testimonial-name { font-weight: 700; color: #fff; font-size: 1rem; margin: 0; }
+        .testimonial-role { color: var(--text-dim); font-size: 0.82rem; margin: 2px 0 0; }
+        .testimonial-quote { color: var(--text-dim); font-size: 0.98rem; line-height: 1.75; margin: 0 0 18px; font-style: italic; position: relative; z-index: 1; }
+        .testimonial-badge { display: inline-block; padding: 6px 14px; background: rgba(59,130,246,0.12); color: var(--primary); border-radius: 20px; font-size: 0.78rem; font-weight: 600; border: 1px solid rgba(59,130,246,0.2); }
+        .testimonials-footer { text-align: center; margin-top: 40px; max-width: 640px; margin-left: auto; margin-right: auto; position: relative; }
+        .testimonials-footer p { color: #64748b; font-size: 0.88rem; line-height: 1.6; margin: 0; }
+
         @keyframes scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
         @media (max-width: 768px) {
@@ -740,30 +757,64 @@
             </div>
         </section>
 
-        <section style="padding: 60px 8% 80px; background: var(--dark-bg);">
-            <div class="section-header" style="text-align: center; margin-bottom: 40px;">
-                <h2 data-i18n="testimonials.title">Müşterilerimiz Ne Diyor?</h2>
-                <p style="color: var(--text-dim); max-width: 640px; margin: 12px auto 0;" data-i18n="testimonials.subtitle">Onaylı, anonim geri bildirimler — müşteri gizliliğine saygıyla paylaşıyoruz.</p>
+        <section class="testimonials-section" id="yorumlar">
+            <div class="section-header" style="text-align: center; margin-bottom: 48px; position: relative;">
+                <span style="display: inline-block; padding: 6px 16px; background: rgba(59,130,246,0.12); color: var(--primary); border-radius: 20px; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 16px;" data-i18n="testimonials.badge">Yapay Zeka Referansları</span>
+                <h2 data-i18n="testimonials.title">AI Projelerinde Müşterilerimiz Ne Diyor?</h2>
+                <p style="color: var(--text-dim); max-width: 640px; margin: 12px auto 0;" data-i18n="testimonials.subtitle">Chatbot, LLM entegrasyonu, süreç otomasyonu ve belge AI projelerinden onaylı geri bildirimler.</p>
             </div>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; max-width: 1200px; margin: 0 auto;">
-                <div class="card" style="padding: 28px;">
-                    <p style="color: var(--text-dim); font-style: italic; line-height: 1.7; margin-bottom: 20px;" data-i18n="testimonials.t1.quote">"Web sitemiz ve rezervasyon sistemimiz zamanında teslim edildi."</p>
-                    <p style="font-weight: 700; color: white; margin-bottom: 4px;" data-i18n="testimonials.t1.name">Ankara Turizm Firması</p>
-                    <p style="color: var(--text-dim); font-size: 0.88rem; margin-bottom: 12px;" data-i18n="testimonials.t1.role">Web sitesi & rezervasyon projesi</p>
-                    <span style="display: inline-block; padding: 6px 12px; background: rgba(59,130,246,0.15); color: var(--primary); border-radius: 20px; font-size: 0.8rem; font-weight: 600;" data-i18n="testimonials.t1.result">Online rezervasyonlar belirgin şekilde arttı</span>
-                </div>
-                <div class="card" style="padding: 28px;">
-                    <p style="color: var(--text-dim); font-style: italic; line-height: 1.7; margin-bottom: 20px;" data-i18n="testimonials.t2.quote">"WhatsApp chatbot entegrasyonu sayesinde müşteri sorularının büyük kısmını otomatik yanıtlıyoruz."</p>
-                    <p style="font-weight: 700; color: white; margin-bottom: 4px;" data-i18n="testimonials.t2.name">E-ticaret İşletmesi</p>
-                    <p style="color: var(--text-dim); font-size: 0.88rem; margin-bottom: 12px;" data-i18n="testimonials.t2.role">WhatsApp chatbot entegrasyonu</p>
-                    <span style="display: inline-block; padding: 6px 12px; background: rgba(59,130,246,0.15); color: var(--primary); border-radius: 20px; font-size: 0.8rem; font-weight: 600;" data-i18n="testimonials.t2.result">Destek ekibi yükü azaldı</span>
-                </div>
-                <div class="card" style="padding: 28px;">
-                    <p style="color: var(--text-dim); font-style: italic; line-height: 1.7; margin-bottom: 20px;" data-i18n="testimonials.t3.quote">"Özel yazılım projemizde QA süreçleri ve kaynak kod devri sözleşmede netti."</p>
-                    <p style="font-weight: 700; color: white; margin-bottom: 4px;" data-i18n="testimonials.t3.name">Ankara İmalat Firması</p>
-                    <p style="color: var(--text-dim); font-size: 0.88rem; margin-bottom: 12px;" data-i18n="testimonials.t3.role">Özel yazılım & üretim takibi</p>
-                    <span style="display: inline-block; padding: 6px 12px; background: rgba(59,130,246,0.15); color: var(--primary); border-radius: 20px; font-size: 0.8rem; font-weight: 600;" data-i18n="testimonials.t3.result">Üretim süreçleri dijitalleşti</span>
-                </div>
+            <div class="testimonials-grid">
+                <article class="testimonial-card">
+                    <div class="testimonial-top">
+                        <div class="testimonial-avatar" aria-hidden="true">AI</div>
+                        <div>
+                            <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+                            <p class="testimonial-name" data-i18n="testimonials.t1.name">E-ticaret İşletmesi</p>
+                            <p class="testimonial-role" data-i18n="testimonials.t1.role">WhatsApp AI chatbot</p>
+                        </div>
+                    </div>
+                    <blockquote class="testimonial-quote" data-i18n="testimonials.t1.quote">"WhatsApp üzerinden gelen sipariş ve kargo sorularının büyük kısmı artık AI ile otomatik yanıtlanıyor. Destek ekibimiz stratejik işlere odaklanabiliyor."</blockquote>
+                    <span class="testimonial-badge" data-i18n="testimonials.t1.result">7/24 otomatik müşteri yanıtı</span>
+                </article>
+                <article class="testimonial-card">
+                    <div class="testimonial-top">
+                        <div class="testimonial-avatar" aria-hidden="true">LLM</div>
+                        <div>
+                            <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+                            <p class="testimonial-name" data-i18n="testimonials.t2.name">Hizmet Sektörü Firması</p>
+                            <p class="testimonial-role" data-i18n="testimonials.t2.role">GPT / LLM entegrasyonu</p>
+                        </div>
+                    </div>
+                    <blockquote class="testimonial-quote" data-i18n="testimonials.t2.quote">"Kurumsal dokümanlarımız üzerinde çalışan LLM asistanı, ekip içi bilgi aramayı dakikalardan saniyelere indirdi. KVKK gereksinimlerimiz sözleşmede netti."</blockquote>
+                    <span class="testimonial-badge" data-i18n="testimonials.t2.result">İç bilgi erişimi hızlandı</span>
+                </article>
+                <article class="testimonial-card">
+                    <div class="testimonial-top">
+                        <div class="testimonial-avatar" aria-hidden="true">RPA</div>
+                        <div>
+                            <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+                            <p class="testimonial-name" data-i18n="testimonials.t3.name">Lojistik & Operasyon</p>
+                            <p class="testimonial-role" data-i18n="testimonials.t3.role">Süreç otomasyonu + AI</p>
+                        </div>
+                    </div>
+                    <blockquote class="testimonial-quote" data-i18n="testimonials.t3.quote">"Tekrarlayan veri girişi ve raporlama işleri RPA ile otomatikleşti. AI katmanı e-posta ve form verilerini sınıflandırarak manuel müdahaleyi azalttı."</blockquote>
+                    <span class="testimonial-badge" data-i18n="testimonials.t3.result">Manuel iş yükü %60 azaldı</span>
+                </article>
+                <article class="testimonial-card">
+                    <div class="testimonial-top">
+                        <div class="testimonial-avatar" aria-hidden="true">OCR</div>
+                        <div>
+                            <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+                            <p class="testimonial-name" data-i18n="testimonials.t4.name">Muhasebe & Finans</p>
+                            <p class="testimonial-role" data-i18n="testimonials.t4.role">Belge OCR & AI sınıflandırma</p>
+                        </div>
+                    </div>
+                    <blockquote class="testimonial-quote" data-i18n="testimonials.t4.quote">"Fatura ve evrakların OCR ile dijitalleştirilmesi ve AI ile kategorize edilmesi, muhasebe sürecimizi ciddi şekilde hızlandırdı."</blockquote>
+                    <span class="testimonial-badge" data-i18n="testimonials.t4.result">Evrak işleme süresi kısaldı</span>
+                </article>
+            </div>
+            <div class="testimonials-footer">
+                <p data-i18n="testimonials.disclaimer">Yorumlar müşteri onayıyla paylaşılmıştır. Sektör ve isimler gizlilik nedeniyle genelleştirilmiştir.</p>
             </div>
         </section>
 

@@ -451,28 +451,68 @@
       "badge": "DEMANDE DE PROJET",
       "title1": "Demander un",
       "title2": "devis de projet",
-      "desc": "Partagez les détails de votre projet et nous vous proposerons la solution la plus adaptée.",
+      "desc": "Décrivez brièvement votre projet IA ou logiciel — nous vous enverrons une évaluation technique gratuite et une fourchette budgétaire sous 4 heures.",
       "name": "Nom complet *",
-      "company": "Entreprise",
+      "company": "Entreprise / Organisation",
       "email": "E-mail *",
       "phone": "Téléphone",
       "type": "Type de projet *",
       "budget": "Plage budgétaire",
+      "timeline": "Démarrage souhaité",
       "details": "Détails du projet *",
+      "placeholderName": "Votre nom complet",
+      "placeholderCompany": "Nom de l'entreprise (optionnel)",
+      "placeholderEmail": "vous@entreprise.com",
+      "placeholderPhone": "+90 5XX XXX XX XX",
+      "placeholderDetails": "Décrivez brièvement votre projet : objectifs, systèmes existants, besoins d'intégration...",
+      "kvkkTitle": "Consentement RGPD / KVKK",
+      "kvkkConsent": "Conformément au KVKK turc et au RGPD, je consens expressément à ce qu'Ozturksoft traite mon nom, e-mail, téléphone, entreprise et détails du projet aux fins de préparation de devis et de communication.",
       "privacyLink": "Politique de confidentialité",
       "privacyText": "lue et acceptée. *",
-      "submit": "Demander un devis",
+      "privacyRequired": "Vous devez cocher la case de consentement KVKK/RGPD avant d'envoyer le formulaire.",
+      "submitDisabledHint": "Cochez le consentement KVKK ci-dessus pour envoyer.",
+      "submit": "Demander un devis gratuit",
+      "sending": "Envoi en cours...",
+      "successTitle": "Demande reçue !",
+      "successDesc": "Notre équipe vous répondra sous 4 heures. Pour les projets urgents, vous pouvez aussi nous écrire sur WhatsApp.",
+      "sendAnother": "Envoyer une nouvelle demande",
+      "error": "Une erreur s'est produite. Veuillez réessayer ou nous envoyer un e-mail directement.",
+      "hint": "Vos données sont protégées conformément au RGPD et ne sont jamais partagées avec des tiers.",
+      "whatsappCta": "Écrire sur WhatsApp",
+      "mailSubject": "Demande de devis",
+      "trust1Title": "Réponse en 4 h",
+      "trust1Desc": "Retour garanti les jours ouvrés",
+      "trust2Title": "Conforme RGPD",
+      "trust2Desc": "Vos données en sécurité ; NDA possible",
+      "trust3Title": "Découverte gratuite",
+      "trust3Desc": "Analyse technique et fourchette budgétaire",
+      "trust4Title": "Experts IA Ankara",
+      "trust4Desc": "LLM, chatbot, RAG, on-premise",
       "options": {
         "select": "Sélectionner...",
-        "web": "🌐 Développement web",
-        "mobile": "📱 Application mobile",
-        "ecom": "🛒 E-commerce",
-        "qa": "🧪 Services Test & QA",
-        "cloud": "☁️ DevOps & Cloud",
-        "ui": "🎨 Design UI/UX",
-        "ai": "🧠 IA & Analytics",
-        "consult": "💼 Consultation",
-        "other": "📝 Autre"
+        "llm": "Intégration LLM / GPT & RAG",
+        "chatbot": "Chatbot IA WhatsApp / Web",
+        "agent": "Agent IA & automatisation",
+        "ocr": "OCR documentaire & classification IA",
+        "kamu": "Secteur public / IA on-premise",
+        "custom": "Développement logiciel sur mesure",
+        "mobile": "Application mobile (Flutter)",
+        "web": "Site web / E-commerce",
+        "seo": "Optimisation SEO & GEO",
+        "other": "Autre"
+      },
+      "budgetOpts": {
+        "b1": "₺50 000 – ₺100 000",
+        "b2": "₺100 000 – ₺200 000",
+        "b3": "₺200 000 – ₺500 000",
+        "b4": "₺500 000+",
+        "b5": "Pas encore décidé"
+      },
+      "timelineOpts": {
+        "t1": "Dès que possible",
+        "t2": "Dans 1 à 3 mois",
+        "t3": "Dans 3 à 6 mois",
+        "t4": "En phase d'exploration"
       }
     },
     "response": {
@@ -1349,25 +1389,33 @@
     "guideLink": "Guide sectoriel →"
   },
   "testimonials": {
-    "title": "Ce que disent nos clients",
-    "subtitle": "Retours anonymes approuvés — nous respectons la confidentialité de nos clients.",
+    "badge": "Références IA",
+    "title": "Ce que disent nos clients sur nos projets IA",
+    "subtitle": "Retours approuvés sur chatbot, intégration LLM, automatisation des processus et IA documentaire.",
+    "disclaimer": "Avis partagés avec l'accord du client. Secteur et noms généralisés pour la confidentialité.",
     "t1": {
-      "quote": "Site web et système de réservation livrés à temps. Chaque étape a été rapportée.",
-      "name": "Entreprise touristique à Ankara",
-      "role": "Projet site web & réservation",
-      "result": "Réservations en ligne nettement en hausse"
+      "quote": "\"La plupart des questions commande et livraison sur WhatsApp sont désormais répondues automatiquement par l'IA. Notre support se concentre sur le stratégique.\"",
+      "name": "Entreprise e-commerce",
+      "role": "Chatbot IA WhatsApp",
+      "result": "Réponses client 24/7 automatisées"
     },
     "t2": {
-      "quote": "Le chatbot WhatsApp répond automatiquement à la plupart des questions clients.",
-      "name": "Entreprise e-commerce",
-      "role": "Intégration chatbot WhatsApp",
-      "result": "Charge de l'équipe support réduite"
+      "quote": "\"L'assistant LLM sur nos documents internes a réduit la recherche d'information de minutes à secondes. Exigences RGPD/KVKK claires au contrat.\"",
+      "name": "Entreprise de services",
+      "role": "Intégration GPT / LLM",
+      "result": "Accès interne à l'information accéléré"
     },
     "t3": {
-      "quote": "Processus QA et transfert du code source clairement définis au contrat.",
-      "name": "Entreprise industrielle à Ankara",
-      "role": "Logiciel sur mesure & suivi production",
-      "result": "Processus de production digitalisés"
+      "quote": "\"La saisie répétitive et le reporting ont été automatisés par RPA. La couche IA a classifié e-mails et formulaires, réduisant l'intervention manuelle.\"",
+      "name": "Logistique & opérations",
+      "role": "Automatisation des processus + IA",
+      "result": "Charge manuelle réduite de 60%"
+    },
+    "t4": {
+      "quote": "\"La numérisation OCR et la catégorisation IA des factures et documents ont nettement accéléré notre comptabilité.\"",
+      "name": "Comptabilité & finance",
+      "role": "OCR documentaire & classification IA",
+      "result": "Temps de traitement des documents réduit"
     }
   },
   "aiAssistantPage": {

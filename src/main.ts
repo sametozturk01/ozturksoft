@@ -80,6 +80,12 @@ function updateContent() {
             el.innerHTML = i18next.t(key);
         }
     });
+    document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
+        const key = el.getAttribute("data-i18n-placeholder");
+        if (key && (el instanceof HTMLInputElement || el instanceof HTMLTextAreaElement)) {
+            el.placeholder = i18next.t(key);
+        }
+    });
 }
 
 // Dropdown butonunu aktif dile göre güncelle
@@ -167,7 +173,8 @@ function initPrivacyModal() {
 
     privacyLink.addEventListener("click", (e) => {
         e.preventDefault();
-        modal.style.display = "block";
+        e.stopPropagation();
+        modal.style.display = "flex";
     });
 
     closeBtn.addEventListener("click", () => {
@@ -179,26 +186,164 @@ function initPrivacyModal() {
     });
 }
 
-// Form submit handler
+// Form submit handler (iletisim page)
 function initContactForm() {
-    const form = document.querySelector<HTMLFormElement>("form");
+    const form = document.getElementById("contactForm") as HTMLFormElement | null;
     if (!form) return;
 
-    form.addEventListener("submit", (e) => {
+    const submitBtn = document.getElementById("contactSubmitBtn") as HTMLButtonElement | null;
+    const successPanel = document.getElementById("formSuccessPanel");
+    const errorMsg = document.getElementById("formErrorMsg");
+    const resetBtn = document.getElementById("formResetBtn");
+    const details = document.getElementById("cf-details") as HTMLTextAreaElement | null;
+    const charCount = document.getElementById("charCount");
+    const kvkkCheckbox = document.getElementById("privacy") as HTMLInputElement | null;
+    const kvkkBox = document.getElementById("kvkkConsentBox");
+    const kvkkError = document.getElementById("kvkkError");
+    const submitKvkkHint = document.getElementById("submitKvkkHint");
+
+    const updateKvkkState = () => {
+        const accepted = Boolean(kvkkCheckbox?.checked);
+        if (submitBtn) submitBtn.disabled = !accepted;
+        if (accepted) {
+            kvkkBox?.classList.remove("is-invalid");
+            kvkkError?.classList.remove("show");
+            submitKvkkHint?.classList.remove("show");
+        }
+    };
+
+    kvkkCheckbox?.addEventListener("change", updateKvkkState);
+    updateKvkkState();
+
+    const requireKvkkConsent = (): boolean => {
+        if (kvkkCheckbox?.checked) return true;
+        kvkkBox?.classList.add("is-invalid");
+        kvkkError?.classList.add("show");
+        submitKvkkHint?.classList.add("show");
+        if (kvkkError) kvkkError.textContent = i18next.t("contactPage.form.privacyRequired");
+        kvkkBox?.scrollIntoView({ behavior: "smooth", block: "center" });
+        kvkkCheckbox?.focus();
+        return false;
+    };
+
+    if (details && charCount) {
+        const updateCount = () => {
+            charCount.textContent = String(details.value.length);
+        };
+        details.addEventListener("input", updateCount);
+        updateCount();
+    }
+
+    const showSuccess = () => {
+        form.style.display = "none";
+        errorMsg?.classList.remove("show");
+        successPanel?.classList.add("show");
+        form.reset();
+        if (charCount) charCount.textContent = "0";
+        updateKvkkState();
+    };
+
+    const showError = (msg: string) => {
+        if (!errorMsg) return;
+        errorMsg.textContent = msg;
+        errorMsg.classList.add("show");
+    };
+
+    resetBtn?.addEventListener("click", () => {
+        successPanel?.classList.remove("show");
+        form.style.display = "";
+        errorMsg?.classList.remove("show");
+        updateKvkkState();
+    });
+
+    const setLoading = (loading: boolean) => {
+        if (!submitBtn) return;
+        submitBtn.disabled = loading;
+        if (loading) {
+            submitBtn.dataset.originalHtml = submitBtn.innerHTML;
+            submitBtn.innerHTML = `<i class="fas fa-circle-notch fa-spin" aria-hidden="true"></i> <span>${i18next.t("contactPage.form.sending")}</span>`;
+        } else if (submitBtn.dataset.originalHtml) {
+            submitBtn.innerHTML = submitBtn.dataset.originalHtml;
+            delete submitBtn.dataset.originalHtml;
+        }
+    };
+
+    const mailtoFallback = (payload: Record<string, string>) => {
+        const subject = `${i18next.t("contactPage.form.mailSubject")}: ${payload.name}`;
+        const body = [
+            `${i18next.t("contactPage.form.name")}: ${payload.name}`,
+            `${i18next.t("contactPage.form.company")}: ${payload.company || "-"}`,
+            `${i18next.t("contactPage.form.email")}: ${payload.email}`,
+            `${i18next.t("contactPage.form.phone")}: ${payload.phone || "-"}`,
+            `${i18next.t("contactPage.form.type")}: ${payload.projectType}`,
+            `${i18next.t("contactPage.form.budget")}: ${payload.budget || "-"}`,
+            `${i18next.t("contactPage.form.timeline")}: ${payload.timeline || "-"}`,
+            "",
+            payload.message,
+        ].join("\n");
+        window.location.href = `mailto:info.ozturksoft@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        showSuccess();
+    };
+
+    form.addEventListener("submit", async (e) => {
         e.preventDefault();
-        const formData = new FormData(form);
-        const body = `
-Ad Soyad: ${formData.get("adSoyad") || ""}
-Şirket: ${formData.get("sirket") || ""}
-E-posta: ${formData.get("email") || ""}
-Telefon: ${formData.get("telefon") || ""}
-Proje Türü: ${formData.get("projeTuru") || ""}
-Bütçe: ${formData.get("butce") || ""}
-Proje Detayları: ${formData.get("projeDetay") || ""}
-`;
-        const subject = `Teklif Talebi: ${formData.get("adSoyad") || ""}`;
-        const mailtoLink = `mailto:info.ozturksoft@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-        window.location.href = mailtoLink;
+        if (!requireKvkkConsent()) return;
+        if (!form.checkValidity()) {
+            form.reportValidity();
+            return;
+        }
+
+        const fd = new FormData(form);
+        if (fd.get("_honey")) return;
+        if (fd.get("kvkk") !== "accepted") {
+            requireKvkkConsent();
+            return;
+        }
+
+        const payload = {
+            name: String(fd.get("adSoyad") || "").trim(),
+            company: String(fd.get("sirket") || "").trim(),
+            email: String(fd.get("email") || "").trim(),
+            phone: String(fd.get("telefon") || "").trim(),
+            projectType: String(fd.get("projeTuru") || "").trim(),
+            budget: String(fd.get("butce") || "").trim(),
+            timeline: String(fd.get("zaman") || "").trim(),
+            message: String(fd.get("projeDetay") || "").trim(),
+        };
+
+        setLoading(true);
+        errorMsg?.classList.remove("show");
+
+        try {
+            const res = await fetch("/api/contact", {
+                method: "POST",
+                headers: { "Content-Type": "application/json", Accept: "application/json" },
+                body: JSON.stringify({
+                    name: payload.name,
+                    email: payload.email,
+                    phone: payload.phone,
+                    company: payload.company,
+                    projectType: payload.projectType,
+                    budget: payload.budget,
+                    timeline: payload.timeline,
+                    message: payload.message,
+                    kvkkConsent: "accepted",
+                    kvkkConsentAt: new Date().toISOString(),
+                    honeypot: String(fd.get("_honey") || ""),
+                }),
+            });
+
+            if (res.ok) {
+                showSuccess();
+            } else {
+                showError(i18next.t("contactPage.form.error"));
+            }
+        } catch {
+            mailtoFallback(payload);
+        } finally {
+            setLoading(false);
+            updateKvkkState();
+        }
     });
 }
 

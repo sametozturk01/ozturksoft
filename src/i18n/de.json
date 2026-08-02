@@ -451,28 +451,68 @@
       "badge": "PROJEKTANFRAGE",
       "title1": "Projektangebot",
       "title2": "anfragen",
-      "desc": "Teilen Sie die Details Ihres Projekts mit und wir bieten Ihnen die am besten geeignete Lösung.",
+      "desc": "Beschreiben Sie kurz Ihr KI- oder Softwareprojekt — wir senden innerhalb von 4 Stunden eine kostenlose technische Einschätzung und Budgetspanne.",
       "name": "Vollständiger Name *",
-      "company": "Unternehmen",
+      "company": "Unternehmen / Organisation",
       "email": "E-Mail *",
       "phone": "Telefon",
       "type": "Projekttyp *",
       "budget": "Budgetrahmen",
+      "timeline": "Geplanter Start",
       "details": "Projektdetails *",
+      "placeholderName": "Ihr vollständiger Name",
+      "placeholderCompany": "Firmenname (optional)",
+      "placeholderEmail": "sie@firma.de",
+      "placeholderPhone": "+90 5XX XXX XX XX",
+      "placeholderDetails": "Beschreiben Sie kurz Ihr Projekt: Ziele, bestehende Systeme, Integrationsbedarf...",
+      "kvkkTitle": "DSGVO / KVKK Einwilligung",
+      "kvkkConsent": "Gemäß dem türkischen KVKK und der DSGVO willige ich ausdrücklich ein, dass Ozturksoft meinen Namen, E-Mail, Telefon, Unternehmen und Projektdetails zum Zweck der Angebotserstellung und Kommunikation verarbeitet.",
       "privacyLink": "Datenschutzrichtlinie",
       "privacyText": "gelesen und akzeptiert. *",
-      "submit": "Angebot anfragen",
+      "privacyRequired": "Sie müssen das KVKK/DSGVO-Einwilligungsfeld ankreuzen, bevor Sie das Formular absenden.",
+      "submitDisabledHint": "Aktivieren Sie die KVKK-Einwilligung oben, um zu senden.",
+      "submit": "Kostenloses Angebot anfragen",
+      "sending": "Wird gesendet...",
+      "successTitle": "Anfrage erhalten!",
+      "successDesc": "Unser Team meldet sich innerhalb von 4 Stunden. Für dringende Projekte können Sie uns auch per WhatsApp kontaktieren.",
+      "sendAnother": "Neue Anfrage senden",
+      "error": "Beim Senden ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt per E-Mail.",
+      "hint": "Ihre Daten sind DSGVO-konform geschützt und werden nicht an Dritte weitergegeben.",
+      "whatsappCta": "Per WhatsApp schreiben",
+      "mailSubject": "Angebotsanfrage",
+      "trust1Title": "4-Stunden-Antwort",
+      "trust1Desc": "Garantierte Rückmeldung an Werktagen",
+      "trust2Title": "DSGVO-konform",
+      "trust2Desc": "Ihre Daten sind sicher; NDA möglich",
+      "trust3Title": "Kostenlose Analyse",
+      "trust3Desc": "Technische Bewertung und Budgetspanne",
+      "trust4Title": "Ankara KI-Experten",
+      "trust4Desc": "LLM, Chatbot, RAG, On-Premise",
       "options": {
         "select": "Auswählen...",
-        "web": "🌐 Webentwicklung",
-        "mobile": "📱 Mobile App",
-        "ecom": "🛒 E-Commerce",
-        "qa": "🧪 Test & QA-Services",
-        "cloud": "☁️ DevOps & Cloud",
-        "ui": "🎨 UI/UX Design",
-        "ai": "🧠 KI & Analytics",
-        "consult": "💼 Beratung",
-        "other": "📝 Sonstiges"
+        "llm": "LLM / GPT & RAG-Integration",
+        "chatbot": "WhatsApp / Web KI-Chatbot",
+        "agent": "KI-Agent & Automatisierung",
+        "ocr": "Dokumenten-OCR & KI-Klassifizierung",
+        "kamu": "Öffentlicher Sektor / On-Premise KI",
+        "custom": "Individuelle Softwareentwicklung",
+        "mobile": "Mobile App (Flutter)",
+        "web": "Website / E-Commerce",
+        "seo": "SEO & GEO-Optimierung",
+        "other": "Sonstiges"
+      },
+      "budgetOpts": {
+        "b1": "₺50.000 – ₺100.000",
+        "b2": "₺100.000 – ₺200.000",
+        "b3": "₺200.000 – ₺500.000",
+        "b4": "₺500.000+",
+        "b5": "Noch nicht festgelegt"
+      },
+      "timelineOpts": {
+        "t1": "So schnell wie möglich",
+        "t2": "Innerhalb von 1–3 Monaten",
+        "t3": "Innerhalb von 3–6 Monaten",
+        "t4": "Nur recherchieren"
       }
     },
     "response": {
@@ -1349,25 +1389,33 @@
     "guideLink": "Branchenleitfaden →"
   },
   "testimonials": {
-    "title": "Was unsere Kunden sagen",
-    "subtitle": "Genehmigtes anonymes Feedback — wir respektieren die Privatsphäre unserer Kunden.",
+    "badge": "KI-Referenzen",
+    "title": "Was Kunden über unsere KI-Projekte sagen",
+    "subtitle": "Genehmigtes Feedback aus Chatbot-, LLM-, Prozessautomatisierungs- und Dokumenten-KI-Projekten.",
+    "disclaimer": "Bewertungen mit Kundenzustimmung. Branche und Namen aus Datenschutzgründen generalisiert.",
     "t1": {
-      "quote": "Website und Buchungssystem pünktlich geliefert. Jeder Schritt wurde dokumentiert.",
-      "name": "Tourismusunternehmen in Ankara",
-      "role": "Website- & Buchungssystem-Projekt",
-      "result": "Online-Buchungen deutlich gestiegen"
+      "quote": "\"Die meisten Bestell- und Versandfragen auf WhatsApp werden jetzt automatisch per KI beantwortet. Unser Support kann sich auf strategische Aufgaben konzentrieren.\"",
+      "name": "E-Commerce-Unternehmen",
+      "role": "WhatsApp KI-Chatbot",
+      "result": "24/7 automatische Kundenantworten"
     },
     "t2": {
-      "quote": "WhatsApp-Chatbot beantwortet die meisten Kundenfragen automatisch.",
-      "name": "E-Commerce-Unternehmen",
-      "role": "WhatsApp-Chatbot-Integration",
-      "result": "Support-Aufwand gesenkt"
+      "quote": "\"Der LLM-Assistent auf unseren Unternehmensdokumenten verkürzte die interne Wissenssuche von Minuten auf Sekunden. DSGVO/KVKK-Anforderungen waren im Vertrag klar.\"",
+      "name": "Dienstleistungsunternehmen",
+      "role": "GPT / LLM-Integration",
+      "result": "Schnellerer interner Wissenszugriff"
     },
     "t3": {
-      "quote": "QA-Prozesse und Quellcode-Übergabe waren im Vertrag klar definiert.",
-      "name": "Fertigungsunternehmen in Ankara",
-      "role": "Individualsoftware & Produktionsverfolgung",
-      "result": "Produktionsprozesse digitalisiert"
+      "quote": "\"Wiederkehrende Dateneingabe und Berichte wurden per RPA automatisiert. Die KI-Schicht klassifizierte E-Mails und Formulardaten und reduzierte manuelle Eingriffe.\"",
+      "name": "Logistik & Betrieb",
+      "role": "Prozessautomatisierung + KI",
+      "result": "Manueller Aufwand um 60% gesenkt"
+    },
+    "t4": {
+      "quote": "\"OCR-Digitalisierung und KI-Kategorisierung von Rechnungen und Belegen beschleunigte unseren Buchhaltungsprozess deutlich.\"",
+      "name": "Buchhaltung & Finanzen",
+      "role": "Dokumenten-OCR & KI-Klassifizierung",
+      "result": "Kürzere Dokumentenbearbeitungszeit"
     }
   },
   "aiAssistantPage": {
