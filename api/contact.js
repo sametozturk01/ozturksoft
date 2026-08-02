@@ -73,14 +73,23 @@ export default async function handler(req, res) {
   const email = String(body.email || '').trim().toLowerCase().slice(0, 254);
   const company = String(body.company || '').trim().slice(0, 120);
   const phone = String(body.phone || '').trim().slice(0, 30);
-  const projectType = String(body.projectType || '').trim().slice(0, 80);
-  const budget = String(body.budget || '').trim().slice(0, 40);
-  const timeline = String(body.timeline || '').trim().slice(0, 40);
+  const phoneDigits = phone.replace(/\D/g, '');
+  const projectType = String(body.projectType || '').trim().slice(0, 120);
+  const budget = String(body.budget || '').trim().slice(0, 80);
+  const timeline = String(body.timeline || '').trim().slice(0, 80);
   const message = String(body.message || '').trim().slice(0, 2000);
   const kvkkConsentAt = String(body.kvkkConsentAt || new Date().toISOString());
 
   if (!name || !email || !projectType || !message) {
     return res.status(400).json({ ok: false, error: 'Zorunlu alanları doldurun.' });
+  }
+
+  if (!phoneDigits || phoneDigits.length < 10 || phoneDigits.length > 11) {
+    return res.status(400).json({ ok: false, error: 'Geçerli telefon numarası gerekli (10-11 rakam).' });
+  }
+
+  if (!/^5/.test(phoneDigits.replace(/^0/, ''))) {
+    return res.status(400).json({ ok: false, error: 'Geçerli bir cep telefonu numarası girin.' });
   }
 
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
@@ -102,7 +111,6 @@ export default async function handler(req, res) {
     await transporter.verify();
 
     const now = new Date().toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul' });
-    const phoneDigits = phone.replace(/\D/g, '');
     const waLink = phoneDigits
       ? `https://wa.me/${phoneDigits.startsWith('90') ? phoneDigits : `90${phoneDigits.replace(/^0/, '')}`}`
       : '';
@@ -111,7 +119,7 @@ export default async function handler(req, res) {
       ['Ad Soyad', name],
       ['Şirket', company || '—'],
       ['E-posta', email],
-      ['Telefon', phone || '—'],
+      ['Telefon', phoneDigits],
       ['Proje Türü', projectType],
       ['Bütçe', budget || '—'],
       ['Başlangıç', timeline || '—'],
@@ -138,7 +146,7 @@ export default async function handler(req, res) {
         `Ad Soyad: ${name}`,
         `Şirket: ${company || '—'}`,
         `E-posta: ${email}`,
-        `Telefon: ${phone || '—'}`,
+        `Telefon: ${phoneDigits}`,
         `Proje Türü: ${projectType}`,
         `Bütçe: ${budget || '—'}`,
         `Başlangıç: ${timeline || '—'}`,

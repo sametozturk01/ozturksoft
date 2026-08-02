@@ -201,6 +201,24 @@ function initContactForm() {
     const kvkkBox = document.getElementById("kvkkConsentBox");
     const kvkkError = document.getElementById("kvkkError");
     const submitKvkkHint = document.getElementById("submitKvkkHint");
+    const phoneInput = document.getElementById("cf-phone") as HTMLInputElement | null;
+
+    const sanitizePhone = () => {
+        if (!phoneInput) return;
+        phoneInput.value = phoneInput.value.replace(/\D/g, "").slice(0, 11);
+    };
+
+    phoneInput?.addEventListener("input", sanitizePhone);
+    phoneInput?.addEventListener("paste", (e) => {
+        e.preventDefault();
+        const pasted = e.clipboardData?.getData("text") || "";
+        phoneInput.value = pasted.replace(/\D/g, "").slice(0, 11);
+    });
+    phoneInput?.addEventListener("keydown", (e) => {
+        const allowed = ["Backspace", "Delete", "Tab", "ArrowLeft", "ArrowRight", "Home", "End"];
+        if (allowed.includes(e.key) || e.ctrlKey || e.metaKey) return;
+        if (!/^\d$/.test(e.key)) e.preventDefault();
+    });
 
     const updateKvkkState = () => {
         const accepted = Boolean(kvkkCheckbox?.checked);
@@ -300,14 +318,21 @@ function initContactForm() {
             return;
         }
 
+        const getSelectedText = (name: string) => {
+            const select = form.querySelector<HTMLSelectElement>(`[name="${name}"]`);
+            const opt = select?.selectedOptions?.[0];
+            if (!opt?.value) return "";
+            return (opt.textContent || opt.value).trim();
+        };
+
         const payload = {
             name: String(fd.get("adSoyad") || "").trim(),
             company: String(fd.get("sirket") || "").trim(),
             email: String(fd.get("email") || "").trim(),
             phone: String(fd.get("telefon") || "").trim(),
-            projectType: String(fd.get("projeTuru") || "").trim(),
-            budget: String(fd.get("butce") || "").trim(),
-            timeline: String(fd.get("zaman") || "").trim(),
+            projectType: getSelectedText("projeTuru"),
+            budget: getSelectedText("butce"),
+            timeline: getSelectedText("zaman"),
             message: String(fd.get("projeDetay") || "").trim(),
         };
 
