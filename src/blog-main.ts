@@ -235,6 +235,35 @@ const LANG_META: Record<string, { flag: string; code: string }> = {
     fr: { flag: '🇫🇷', code: 'FR' },
 };
 
+const LOCALE_HOME: Record<string, string> = {
+    tr: '/',
+    en: '/en',
+    de: '/de',
+    ar: '/ar',
+    ru: '/ru',
+    fr: '/fr',
+};
+
+function localeHomeUrl(lang: string): string {
+    return LOCALE_HOME[lang] || '/';
+}
+
+function updateLocaleNavLinks(lang: string) {
+    const home = localeHomeUrl(lang);
+    const logo = document.querySelector('nav > a[href]') as HTMLAnchorElement | null;
+    if (logo) logo.href = home;
+    const homeNav = document.querySelector('#navLinks a[data-i18n="nav.home"]') as HTMLAnchorElement | null;
+    if (homeNav) homeNav.href = home;
+}
+
+function currentPath(): string {
+    return window.location.pathname.replace(/\.html$/, '').replace(/\/$/, '') || '/';
+}
+
+function isLocaleHomePage(path = currentPath()): boolean {
+    return Object.values(LOCALE_HOME).includes(path);
+}
+
 // Article bodies indexed by [lang][articleKey]
 const ANKARA_NICHE = {
     ankaraAiAgents: { en: ankaraAiAgentsEn, de: ankaraAiAgentsDe, fr: ankaraAiAgentsFr, ar: ankaraAiAgentsAr, ru: ankaraAiAgentsRu },
@@ -283,6 +312,7 @@ i18next.init({
     }
     updateDropdownUI(normalizeLang(savedLang));
     updateContent();
+    updateLocaleNavLinks(normalizeLang(savedLang));
 });
 
 function normalizeLang(lang: string): string {
@@ -413,6 +443,10 @@ function updateDropdownUI(lang: string) {
         if (a.getAttribute('data-lang') === lang) a.classList.add('ldm-active');
     });
 
+    document.querySelectorAll('.mobile-lang-btn[data-lang]').forEach(btn => {
+        btn.classList.toggle('is-active', btn.getAttribute('data-lang') === lang);
+    });
+
     if (lang === 'ar') {
         document.documentElement.setAttribute('dir', 'rtl');
     } else {
@@ -425,6 +459,16 @@ function updateDropdownUI(lang: string) {
 async function changeLanguage(lang: string) {
     const articleKey = document.body.dataset.article;
     const slug = getBlogSlug();
+    const path = currentPath();
+
+    if (isLocaleHomePage(path)) {
+        const target = LOCALE_HOME[lang];
+        if (target && path !== target) {
+            localStorage.setItem(LANG_KEY, lang);
+            window.location.href = target;
+            return;
+        }
+    }
 
     // Blog yazıları: sayfa yenilemeden içerik çevirisi (locale URL'ler deploy öncesi 404 vermesin)
     if (articleKey && slug) {
@@ -451,43 +495,88 @@ async function changeLanguage(lang: string) {
     localStorage.setItem(LANG_KEY, lang);
     updateDropdownUI(lang);
     updateContent();
+    updateLocaleNavLinks(normalizeLang(lang));
+}
+
+function closeLangDropdown() {
+    document.getElementById('langDropMenu')?.classList.remove('open');
+    document.getElementById('langDropBtn')?.classList.remove('open');
+}
+
+function closeMobileNav() {
+    const navLinks = document.getElementById('navLinks');
+    const menuIcon = document.getElementById('menuIcon');
+    navLinks?.classList.remove('active');
+    if (menuIcon) {
+        menuIcon.classList.add('fa-bars');
+        menuIcon.classList.remove('fa-times');
+    }
+}
+
+function initMobileLangPicker() {
+    const navLinks = document.getElementById('navLinks');
+    if (!navLinks || document.getElementById('mobileLangPicker')) return;
+
+    const li = document.createElement('li');
+    li.id = 'mobileLangPicker';
+    li.className = 'mobile-lang-picker';
+    li.innerHTML = `
+        <p class="mobile-lang-label">Dil / Language</p>
+        <div class="mobile-lang-grid">
+            ${Object.entries(LANG_META).map(([code, meta]) =>
+                `<button type="button" class="mobile-lang-btn" data-lang="${code}">
+                    <span aria-hidden="true">${meta.flag}</span> ${meta.code}
+                </button>`
+            ).join('')}
+        </div>
+    `;
+    navLinks.appendChild(li);
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-    // Dropdown buton aç/kapat
+    if (document.body.dataset.langUiBound === '1') return;
+    document.body.dataset.langUiBound = '1';
+
+    initMobileLangPicker();
+
     const langDropBtn = document.getElementById('langDropBtn');
     const langDropMenu = document.getElementById('langDropMenu');
-    if (langDropBtn && langDropMenu) {
-        langDropBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            langDropMenu.classList.toggle('open');
-            langDropBtn.classList.toggle('open');
-        });
-        document.addEventListener('click', (e) => {
-            const wrap = document.getElementById('langDropdown');
-            if (wrap && !wrap.contains(e.target as Node)) {
-                langDropMenu.classList.remove('open');
-                langDropBtn.classList.remove('open');
-            }
-        });
-    }
+    const langDropdown = document.getElementById('langDropdown');
 
-    // Dropdown dil linkleri
-    document.querySelectorAll('#langDropMenu a[data-lang]').forEach(a => {
-        a.addEventListener('click', async (e) => {
-            const lang = (a as HTMLElement).getAttribute('data-lang');
-            if (lang) {
-                e.preventDefault();
-                await changeLanguage(lang);
-                const menu = document.getElementById('langDropMenu');
-                const btn = document.getElementById('langDropBtn');
-                if (menu) menu.classList.remove('open');
-                if (btn) btn.classList.remove('open');
-            }
+    langDropBtn?.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const willOpen = !langDropMenu?.classList.contains('open');
+        if (willOpen) {
+            langDropMenu?.classList.add('open');
+            langDropBtn.classList.add('open');
+        } else {
+            closeLangDropdown();
+        }
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!langDropdown?.contains(e.target as Node)) {
+            closeLangDropdown();
+        }
+    });
+
+    document.querySelectorAll('#langDropMenu a[data-lang], .mobile-lang-btn[data-lang]').forEach(el => {
+        el.addEventListener('click', async (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            const lang = el.getAttribute('data-lang');
+            if (!lang) return;
+            if (lang === i18next.language && !isLocaleHomePage()) return;
+            await changeLanguage(lang);
+            closeLangDropdown();
+            closeMobileNav();
         });
     });
 
-    // Mobil menü
+    if (document.body.dataset.mobileMenuBound === '1') return;
+    document.body.dataset.mobileMenuBound = '1';
+
     const menuToggle = document.getElementById('menuToggle');
     const navLinks = document.getElementById('navLinks');
     const menuIcon = document.getElementById('menuIcon');
@@ -508,11 +597,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 !navLinks.contains(e.target as Node) &&
                 !menuToggle.contains(e.target as Node)
             ) {
-                navLinks.classList.remove('active');
-                if (menuIcon) {
-                    menuIcon.classList.add('fa-bars');
-                    menuIcon.classList.remove('fa-times');
-                }
+                closeMobileNav();
             }
         });
     }

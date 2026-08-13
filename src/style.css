@@ -888,8 +888,103 @@ footer p {
         width: 100%;
     }
 
-    .btn {
+    .hero-buttons .btn,
+    .cta-box .btn,
+    section .btn:not(nav .btn) {
         width: 100%;
+    }
+
+    /* Nav: dil + teklif + menü yan yana kalsın */
+    nav > div {
+        display: flex !important;
+        align-items: center !important;
+        gap: 8px !important;
+        flex-shrink: 0;
+    }
+
+    nav .btn-primary,
+    nav a.btn {
+        width: auto !important;
+        max-width: none !important;
+        padding: 7px 10px !important;
+        font-size: 0.72rem !important;
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+    .lang-drop-wrap {
+        flex-shrink: 0;
+        position: relative;
+        z-index: 3100;
+    }
+
+    .lang-drop-btn {
+        padding: 8px 11px !important;
+        font-size: 0.78rem !important;
+        touch-action: manipulation;
+    }
+
+    #langDropMenu {
+        z-index: 3200;
+        min-width: 200px;
+    }
+
+    #langDropMenu a {
+        padding: 14px 16px !important;
+        min-height: 44px;
+    }
+
+    .mobile-lang-picker {
+        display: block !important;
+        list-style: none;
+        width: 100%;
+        margin-top: 24px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .mobile-lang-label {
+        font-size: 0.72rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: rgba(255, 255, 255, 0.35);
+        margin-bottom: 12px;
+        font-weight: 600;
+    }
+
+    .mobile-lang-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+
+    .mobile-lang-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        padding: 12px 10px;
+        min-height: 44px;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: rgba(255, 255, 255, 0.05);
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 600;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        touch-action: manipulation;
+    }
+
+    .mobile-lang-btn.is-active {
+        border-color: var(--primary);
+        background: rgba(59, 130, 246, 0.2);
+    }
+}
+
+@media (min-width: 769px) {
+    .mobile-lang-picker {
+        display: none !important;
     }
 }
 

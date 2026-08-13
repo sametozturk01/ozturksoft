@@ -200,6 +200,22 @@
             <li><a href="/iletisim" data-i18n="nav.contact">İletişim</a></li>
         </ul>
         <div style="display:flex;align-items:center;gap:12px">
+            <div class="lang-drop-wrap" id="langDropdown">
+              <button class="lang-drop-btn" id="langDropBtn" aria-label="Select language" type="button">
+                <span id="langLabel">🇹🇷</span>
+                <span id="langCode">TR</span>
+                <i class="fas fa-chevron-down chev"></i>
+              </button>
+              <div id="langDropMenu">
+                <div class="ldm-header">Dil / Language</div>
+                <a href="#" data-lang="tr" id="lang-tr" class="ldm-active"><span class="ldm-flag">🇹🇷</span><span class="ldm-name">Türkçe</span></a>
+                <a href="#" data-lang="en" id="lang-en"><span class="ldm-flag">🇬🇧</span><span class="ldm-name">English</span></a>
+                <a href="#" data-lang="de"><span class="ldm-flag">🇩🇪</span><span class="ldm-name">Deutsch</span></a>
+                <a href="#" data-lang="ar"><span class="ldm-flag">🇸🇦</span><span class="ldm-name">العربية</span></a>
+                <a href="#" data-lang="ru"><span class="ldm-flag">🇷🇺</span><span class="ldm-name">Русский</span></a>
+                <a href="#" data-lang="fr"><span class="ldm-flag">🇫🇷</span><span class="ldm-name">Français</span></a>
+              </div>
+            </div>
             <a href="/iletisim" class="btn btn-primary" style="padding:10px 20px;font-size:.85rem" data-i18n="nav.quoteBtn">Teklif Al</a>
             <div class="menu-toggle" id="menuToggle"><i class="fas fa-bars" id="menuIcon" style="color:#fff"></i></div>
         </div>

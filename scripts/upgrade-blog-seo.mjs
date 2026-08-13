@@ -201,6 +201,7 @@ const POSTS = {
 function buildOgBlock(p, desc) {
   const url = `https://ozturksoft.net/blog/${p.slug}`;
   return `
+  <link rel="icon" href="/favicon-48x48.png" sizes="48x48">
   <link rel="icon" href="/favicon-32x32.png" sizes="32x32">
   <link rel="icon" href="/favicon-16x16.png" sizes="16x16">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
