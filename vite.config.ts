@@ -26,6 +26,11 @@ export default defineConfig({
         ankaraAiAsistan: resolve(__dirname, 'ankara-ai-asistan.html'),
         ankaraKamuYapayZeka: resolve(__dirname, 'ankara-kamu-yapay-zeka.html'),
         sss: resolve(__dirname, 'sss.html'),
+        en: resolve(__dirname, 'en.html'),
+        de: resolve(__dirname, 'de.html'),
+        fr: resolve(__dirname, 'fr.html'),
+        ar: resolve(__dirname, 'ar.html'),
+        ru: resolve(__dirname, 'ru.html'),
         // Blog posts
         blogAnkaraWebSitesi: resolve(__dirname, 'blog/ankara-web-sitesi-maliyeti-2026.html'),
         blogYapayZeka: resolve(__dirname, 'blog/yapay-zeka-entegrasyonu-rehberi.html'),
@@ -63,8 +68,7 @@ export default defineConfig({
         blogAnkaraAiSecim: resolve(__dirname, 'blog/ankara-yapay-zeka-firmasi-nasil-secilir-2026.html'),
         blogAnkaraAiKarsilastirma: resolve(__dirname, 'blog/ankara-yapay-zeka-firmalari-karsilastirma-2026.html'),
         blogAnkaraLlmMaliyet: resolve(__dirname, 'blog/ankara-llm-entegrasyonu-maliyeti-2026.html'),
-        // Language pages are standalone static HTML, not Vite entry points
-        // They are served as-is by the server (Vercel cleanUrls handles /en → en.html)
+        // Locale home pages (en/de/fr/ar/ru) are generated before build; Vite bundles JS/CSS hashes.
       }
     }
   }
