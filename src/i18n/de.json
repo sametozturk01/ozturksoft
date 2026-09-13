@@ -1121,9 +1121,10 @@
         "btn": "Kostenlose Beratung"
       },
       "qa": {
-        "title": "Steht Ihre Software unter Qualitätssicherung?",
-        "desc": "Unsere QA-Experten analysieren Ihre vorhandene Software und bauen Ihre Teststrategie von Anfang an richtig auf.",
-        "btn": "Kostenlose QA-Analyse"
+        "title": "QA + KI-Projekt in Ankara → Ozturksoft",
+        "desc": "Testautomatisierung, CI/CD und KI-Integration aus einer Hand. Kostenloses Erstgespräch für Ihr QA + KI-Projekt.",
+        "btn": "Kostenloses Erstgespräch",
+        "btnAi": "Ankara KI-Lösungen"
       },
       "mobile": {
         "title": "Lassen Sie uns Ihr Mobile-App-Projekt gemeinsam verwirklichen",

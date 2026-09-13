@@ -1136,9 +1136,10 @@
         "btn": "Ücretsiz Danışmanlık"
       },
       "qa": {
-        "title": "Yazılımınız kalite güvencesi altında mı?",
-        "desc": "QA uzmanlarımız mevcut yazılımınızı analiz edip test stratejinizi en başından doğru kurar.",
-        "btn": "Ücretsiz QA Analizi"
+        "title": "Ankara'da QA + AI Projesi → Ozturksoft",
+        "desc": "Test otomasyonu, CI/CD ve yapay zeka entegrasyonunu tek çatı altında sunuyoruz. Ücretsiz keşif görüşmesi ile QA + AI projenizi birlikte planlayalım.",
+        "btn": "Ücretsiz Keşif Görüşmesi",
+        "btnAi": "Ankara AI Çözümleri"
       },
       "mobile": {
         "title": "Mobil uygulama projenizi birlikte hayata geçirelim",

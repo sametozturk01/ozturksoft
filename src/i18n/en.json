@@ -1136,9 +1136,10 @@
         "btn": "Free Consultation"
       },
       "qa": {
-        "title": "Is your software under quality assurance?",
-        "desc": "Our QA experts analyze your existing software and build your testing strategy correctly from the start.",
-        "btn": "Free QA Analysis"
+        "title": "QA + AI Project in Ankara → Ozturksoft",
+        "desc": "We deliver test automation, CI/CD and AI integration under one roof. Book a free discovery call to plan your QA + AI project together.",
+        "btn": "Free Discovery Call",
+        "btnAi": "Ankara AI Solutions"
       },
       "mobile": {
         "title": "Let's bring your mobile app project to life together",

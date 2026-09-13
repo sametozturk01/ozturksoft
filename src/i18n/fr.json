@@ -1121,9 +1121,10 @@
         "btn": "Consultation gratuite"
       },
       "qa": {
-        "title": "Votre logiciel est-il sous assurance qualité ?",
-        "desc": "Nos experts QA analysent votre logiciel existant et construisent votre stratégie de test correctement dès le départ.",
-        "btn": "Analyse QA gratuite"
+        "title": "Projet QA + IA à Ankara → Ozturksoft",
+        "desc": "Automatisation des tests, CI/CD et intégration IA sous un même toit. Réservez un appel découverte gratuit pour votre projet QA + IA.",
+        "btn": "Appel découverte gratuit",
+        "btnAi": "Solutions IA Ankara"
       },
       "mobile": {
         "title": "Concrétisons ensemble votre projet d'application mobile",
