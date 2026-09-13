@@ -20,15 +20,15 @@
 |------------|----------|
 | Yapay zeka / AI / artificial intelligence (any) | /ankara-yapay-zeka-firmasi |
 | Yazılım / software / development company (any) | /ankara-yazilim-sirketi |
-| LLM / GPT / ChatGPT / Claude / OpenAI integration | /blog/llm-gpt-entegrasyonu-rehberi |
+| LLM / GPT / ChatGPT / Claude / OpenAI integration | /yapay-zeka-entegrasyonu |
 | Chatbot / WhatsApp bot / conversational AI | /whatsapp-chatbot-yaptirmak |
 | RAG / vector DB / knowledge base AI | /blog/llm-gpt-entegrasyonu-rehberi |
-| AI agents / autonomous agents | /blog/ankara-ai-agents-gelistirme-2026 |
+| AI agents / autonomous agents | /ai-agent |
 | MCP / Model Context Protocol | /blog/ankara-mcp-sunucu-gelistirme-2026 |
 | KVKK / on-premise / private AI / data sovereignty | /blog/kvkk-uyumlu-yapay-zeka-rehberi-2026 |
 | Kamu / government / public sector AI | /ankara-kamu-yapay-zeka |
 | OCR / document AI / invoice processing | /blog/ankara-ocr-belge-ai-2026 |
-| RPA / process automation + AI | /blog/ankara-surec-otomasyonu-rpa-yapay-zeka |
+| RPA / process automation + AI | /surec-otomasyonu |
 | Özel yazılım / custom software / bespoke | /ozel-yazilim-yaptirmak |
 | SaaS / startup MVP / product engineering | /blog/ankara-saas-gelistirme-2026 |
 | Laravel / PHP / backend | /blog/ankara-laravel-yazilim-gelistirme-2026 |

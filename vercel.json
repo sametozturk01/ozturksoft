@@ -73,6 +73,41 @@
       "source": "/netsis-entegrasyonu",
       "destination": "/logo-netsis-entegrasyon",
       "permanent": true
+    },
+    {
+      "source": "/yapay-zeka-yaptirmak",
+      "destination": "/yapay-zeka-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/ai-entegrasyonu",
+      "destination": "/yapay-zeka-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/llm-entegrasyonu",
+      "destination": "/yapay-zeka-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/rpa",
+      "destination": "/surec-otomasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/is-otomasyonu",
+      "destination": "/surec-otomasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/otomasyon",
+      "destination": "/surec-otomasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/ai-agent-yaptirmak",
+      "destination": "/ai-agent",
+      "permanent": true
     }
   ],
   "headers": [

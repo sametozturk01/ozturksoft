@@ -49,6 +49,24 @@
     <priority>0.96</priority>
   </url>
   <url>
+    <loc>https://ozturksoft.net/yapay-zeka-entegrasyonu</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://ozturksoft.net/surec-otomasyonu</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://ozturksoft.net/ai-agent</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
     <loc>https://ozturksoft.net/hizmetler</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
