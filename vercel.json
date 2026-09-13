@@ -43,6 +43,36 @@
       "source": "/ankara-ai-firmasi",
       "destination": "/ankara-yapay-zeka-firmasi",
       "permanent": true
+    },
+    {
+      "source": "/yazilim-yaptirmak",
+      "destination": "/ozel-yazilim-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/web-sitesi-yaptirmak",
+      "destination": "/web-sitesi-yaptirmak-ankara",
+      "permanent": true
+    },
+    {
+      "source": "/whatsapp-chatbot",
+      "destination": "/whatsapp-chatbot-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/mobil-uygulama",
+      "destination": "/mobil-uygulama-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/logo-entegrasyonu",
+      "destination": "/logo-netsis-entegrasyon",
+      "permanent": true
+    },
+    {
+      "source": "/netsis-entegrasyonu",
+      "destination": "/logo-netsis-entegrasyon",
+      "permanent": true
     }
   ],
   "headers": [
