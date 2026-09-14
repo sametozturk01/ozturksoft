@@ -123,6 +123,76 @@
       "source": "/test-otomasyonu",
       "destination": "/qa-test-hizmeti",
       "permanent": true
+    },
+    {
+      "source": "/fatura-ocr",
+      "destination": "/fatura-okuma",
+      "permanent": true
+    },
+    {
+      "source": "/fatura-okuma-programi",
+      "destination": "/fatura-okuma",
+      "permanent": true
+    },
+    {
+      "source": "/fatura-okuma-yazilimi",
+      "destination": "/fatura-okuma",
+      "permanent": true
+    },
+    {
+      "source": "/evrak-ocr",
+      "destination": "/fatura-okuma",
+      "permanent": true
+    },
+    {
+      "source": "/fatura-tarama",
+      "destination": "/fatura-okuma",
+      "permanent": true
+    },
+    {
+      "source": "/e-ticaret",
+      "destination": "/e-ticaret-sitesi-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/e-ticaret-yaptirmak",
+      "destination": "/e-ticaret-sitesi-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/online-magaza",
+      "destination": "/e-ticaret-sitesi-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/woocommerce",
+      "destination": "/e-ticaret-sitesi-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/web-tasarim-ankara",
+      "destination": "/ankara-web-tasarim",
+      "permanent": true
+    },
+    {
+      "source": "/ankara-web-tasarim-ajansi",
+      "destination": "/ankara-web-tasarim",
+      "permanent": true
+    },
+    {
+      "source": "/ankara-web-tasarim-sirketleri",
+      "destination": "/ankara-web-tasarim",
+      "permanent": true
+    },
+    {
+      "source": "/whatsapp-bot",
+      "destination": "/whatsapp-chatbot-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/whatsapp-business-api",
+      "destination": "/whatsapp-chatbot-yaptirmak",
+      "permanent": true
     }
   ],
   "headers": [
