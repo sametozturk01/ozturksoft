@@ -1520,5 +1520,243 @@
       "desc": "On-premise gereksinimleri, KVKK ve entegrasyon ihtiyaçlarınızı ücretsiz keşif görüşmesinde değerlendirelim.",
       "btn": "Ücretsiz Keşif Görüşmesi"
     }
+  },
+  "webTasarimPage": {
+    "hero": {
+      "badge": "Çankaya · Ajans · SEO · +90 546 549 6806",
+      "title": "Ankara Web Tasarım",
+      "desc": "Ankara web tasarım şirketi ve ajans arayan KOBİ, holding ve üretim firmaları için kurumsal site, e-ticaret ve teknik SEO. Çankaya merkezli Ozturksoft şablon satmaz; yazılı teklif, yerinde keşif ve teslim sonrası panel eğitimi verir. “<a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#38bdf8\">Web sitesi yaptırmak</a>” sipariş sayfası ayrı durur — burası firma listesine bakanlar içindir."
+    },
+    "pricing": {
+      "title": "Ankara web tasarım fiyatları (2026)",
+      "intro": "Fiyat sayfa sayısı, dil, e-ticaret ve entegrasyona göre değişir. Aşağıdaki bantlar 2026 Ankara piyasası içindir; keşif ücretsiz, teklif yazılıdır.",
+      "col1": "Kapsam",
+      "col2": "Fiyat",
+      "col3": "Süre",
+      "row1": "Kurumsal web tasarım",
+      "row2": "E-ticaret",
+      "row3": "Landing / kampanya",
+      "t1": "3–6 hafta",
+      "t2": "6–14 hafta",
+      "t3": "1–3 hafta",
+      "linkOrder": "Web sitesi yaptırmak",
+      "linkGuide": "Maliyet rehberi"
+    },
+    "cards": {
+      "c1title": "📍 Çankaya, yerinde keşif",
+      "c1desc": "Ankara içi keşif ofiste veya sizin yerinizde yapılır. Çankaya, OSTİM, Söğütözü ve organize sanayi bölgeleri dahil. İstanbul ve diğer illere uzaktan hizmet verilir.",
+      "c2title": "🏢 Kurumsal web sitesi",
+      "c2desc": "Holding, kamu ve KOBİ tanıtım siteleri: hizmetler, hakkında, iletişim formu, çok dil, yönetim paneli. Teslimatta teknik SEO (hız, mobil, schema) dahildir.",
+      "c3title": "🛒 E-ticaret mağazası",
+      "c3desc": "Sepet, iyzico/PayTR, kargo API ve stok. WooCommerce veya özel altyapı; Logo/Netsis bağlantısı aynı projeye eklenebilir.",
+      "c3link": "E-ticaret sitesi yaptırmak →",
+      "c4title": "💻 Yazılım aynı ekipte",
+      "c4desc": "Sadece görsel ajans değilleriz. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Logo entegrasyonu</a>, <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">mobil uygulama</a> ve <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#38bdf8\">WhatsApp bot</a> aynı Çankaya ekibinde yürür; tedarikçi parçalanmaz.",
+      "c4link": "Ankara yazılım şirketi →",
+      "c1link": "Keşif ayarla →",
+      "c2link": "Web sitesi yaptırmak →"
+    },
+    "who": {
+      "title": "Ankara’da web tasarımı kim yaptırır?",
+      "intro": "“Ankara web tasarım” ve “Ankara web tasarım şirketleri” araması, ajans kartviziti toplayan KOBİ’lerden OSTİM’deki üreticiye kadar aynı niyeti taşır: yerelde, yazılı fiyatla, teslim edecek bir ekip. Ozturksoft Çankaya merkezlidir; şablon tema satmaz, kurumsal site ve e-ticareti teknik SEO ile birlikte kurar.",
+      "i1": "Google’da Ankara web tasarım şirketleri ve ajans listesine bakıyorsunuz. Referans, yerinde keşif ve kalem kalem teklif istiyorsunuz; “kaç günde yayına çıkar?” sorusunun cevabı yazılı olsun.",
+      "i2": "Sadece görsel tasarım ajansı değil, teslim edecek yazılım ekibi arıyorsunuz. Yönetim paneli, form, hız, SSL ve bakım aynı firmada kalsın; PSD teslim edip kaybolan stüdyo istemiyorsunuz.",
+      "i3": "Çankaya, OSTİM veya Söğütözü’ndesiniz; keşfi ofiste veya sizin yerinizde yapmak istiyorsunuz. Ankara içi yerinde görüşme vardır. İstanbul, İzmir ve diğer illere proje uzaktan yürür.",
+      "i4": "Bugün kurumsal site, yarın teknik SEO, <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">mobil uygulama</a> veya <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Logo bağlantısı</a>. Tek tedarikçi kalsın diye web tasarım ile yazılımı ayırmak istemiyorsunuz.",
+      "outro": "Aramanız “<a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#38bdf8\">web sitesi yaptırmak Ankara</a>” ise sipariş sayfası ayrı durur; fiyat bantları aynıdır. Bu sayfa yerel web tasarım firması / ajans arayanlar içindir. Ücretsiz keşif: <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>."
+    },
+    "diff": {
+      "title": "Ankara web tasarım ajansı mı, yazılım şirketi mi?",
+      "p1": "Ankara web tasarım şirketleri listesinde çoğu firma tema satar veya PSD teslim eder. Ozturksoft Çankaya’da <a href=\"/ankara-yazilim-sirketi\" style=\"color:#38bdf8\">yazılım şirketidir</a>: kurumsal web sitesi, <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#38bdf8\">e-ticaret mağazası</a> ve teknik SEO aynı ekipte üretilir. Yönetim paneli, form, hız, schema ve bakım teslimata dahildir; “ajans işi bitti, yazılımcı bulun” denmez.",
+      "p2": "Yerel arama — Ankara web tasarım ajansı, web tasarım Ankara, Çankaya web tasarım — Google Haritalar ve firma karşılaştırması içindir. Keşif ofiste veya OSTİM / Söğütözü / Yenimahalle’de sizin yerinizde yapılır. İstanbul ve diğer illere proje uzaktan yürür. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Logo entegrasyonu</a>, <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">mobil uygulama</a> veya <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#38bdf8\">WhatsApp bot</a> aynı Çankaya ekibinde eklenir."
+    },
+    "faq": {
+      "title": "Sık sorulanlar",
+      "q1": "Ankara web tasarım fiyatları ne kadar?",
+      "a1": "Kurumsal web tasarım 15.000–90.000 TL (3–6 hafta), e-ticaret 30.000–250.000+ TL, kampanya sayfası 5.000–15.000 TL. Keşif ücretsizdir; net fiyat kapsam yazıldıktan sonra verilir.",
+      "q2": "Ajans mı, yazılım şirketi mi?",
+      "a2": "Ozturksoft Ankara yazılım şirketidir; web tasarımı da aynı ekipte üretir. Sadece mockup veya WordPress tema satılmaz. Panel, SEO iskeleti ve bakım teslimata dahildir.",
+      "q3": "Yerinde görüşme olur mu?",
+      "a3": "Evet. Çankaya merkez. Ankara genelinde (OSTİM, Söğütözü, Çankaya, Yenimahalle) yerinde keşif yapılır. Diğer illere Zoom / uzaktan keşif yeter.",
+      "q4": "Web sitesi yaptırmak sayfası neden ayrı?",
+      "a4link": "Web sitesi yaptırmak Ankara",
+      "a4": "sipariş niyetlidir. Bu sayfa “Ankara web tasarım şirketleri / ajansı” arayanlar içindir. Fiyat aynı, cümle farklıdır."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "Ankara’da keşif ayarlayalım",
+      "desc": "Çankaya · ücretsiz keşif · <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>",
+      "btn2": "Ücretsiz teklif al",
+      "link1": "Web sitesi yaptırmak",
+      "link2": "Yazılım şirketi"
+    },
+    "footer": "© 2026 Ozturksoft — Ankara web tasarım",
+    "related": {
+      "web": "Web sitesi yaptırmak",
+      "shop": "E-ticaret sitesi yaptırmak",
+      "soft": "Yazılım şirketi",
+      "logo": "Logo Netsis",
+      "wa": "WhatsApp chatbot",
+      "app": "Mobil uygulama",
+      "guide": "Maliyet rehberi"
+    },
+    "meta": {
+      "title": "Ankara Web Tasarım | Ajans & Fiyat | Ozturksoft"
+    },
+    "stats": {
+      "s1n": "Çankaya",
+      "s1l": "Yerinde keşif",
+      "s2l": "Kurumsal web tasarım",
+      "s3l": "Teslim süresi"
+    }
+  },
+  "eticaretPage": {
+    "hero": {
+      "badge": "WooCommerce · Ödeme · Kargo · Logo · Ankara",
+      "title": "E-Ticaret Sitesi Yaptırmak",
+      "desc": "E-ticaret sitesi yaptırmak: ürünü koyun, ödemeyi alın, kargo çıksın. WooCommerce veya özel online mağaza; iyzico/PayTR, kargo API ve <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis stok</a> aynı projede bağlanır. Çankaya merkezli Ozturksoft hazır paket satmaz; yazılı teklif ve ücretsiz keşif verir. <a href=\"/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026\" style=\"color:#fb923c\">Maliyet rehberi</a> ayrı durur — burası iş yaptırmak içindir."
+    },
+    "pricing": {
+      "title": "E-ticaret sitesi fiyatı (2026)",
+      "intro": "Fiyat ürün sayısı, ödeme, kargo ve ERP bağlantısına göre değişir. Aşağıdaki bantlar 2026 Ankara piyasası içindir; keşif ücretsiz, teklif yazılıdır.",
+      "col1": "Kapsam",
+      "col2": "Fiyat",
+      "col3": "Süre",
+      "row1": "WooCommerce / hazır tema",
+      "row2": "Özel tasarımlı mağaza (~100 ürün)",
+      "row3": "ERP + kargo + çoklu ödeme",
+      "row4": "B2B / marketplace",
+      "t1": "3–5 hafta",
+      "t2": "6–10 hafta",
+      "t3": "10–16 hafta",
+      "t4": "4–8 ay",
+      "linkGuide": "E-ticaret maliyet rehberi",
+      "linkNote": "kalem kalem bilgi yazısıdır; mağaza yaptırmak bu sayfadandır."
+    },
+    "cards": {
+      "c1title": "🛒 Online mağaza",
+      "c1desc": "Katalog, sepet, stok, kupon ve varyant. Mobil önce tasarım; 50 üründen 10.000 SKU’ya kadar ölçeklenir.",
+      "c2title": "💳 Ödeme ve kargo",
+      "c2desc": "iyzico, PayTR ve banka POS. Yurtiçi, Aras, MNG kargo API; kargo ücreti ve takip numarası otomatik yazılır.",
+      "c3title": "🔗 Logo / Netsis stok",
+      "c3desc": "Sipariş ERP’ye düşer, stok geri gelir. Çift kayıt ve Excel stok biter; Logo entegrasyonu aynı projeye eklenir.",
+      "c3link": "Logo Netsis entegrasyonu →",
+      "c4title": "💬 WhatsApp sipariş",
+      "c4desc": "Mağaza + WhatsApp chatbot aynı projede. Katalog sorusu ve sipariş hattı siteden kopmadan yürür.",
+      "c4link": "WhatsApp chatbot yaptırmak →",
+      "c1link": "Keşif ayarla →",
+      "c2link": "ERP ve stok bağla →"
+    },
+    "who": {
+      "title": "E-ticaret sitesini kim yaptırır?",
+      "intro": "“E-ticaret sitesi yaptırmak” ve “e-ticaret sitesi fiyatı” araması, dükkânını online’a taşıyan KOBİ’den Trendyol’da durup kendi mağazası olmayan markaya kadar aynı niyeti taşır: sepet, ödeme, kargo ve stok. Ozturksoft WooCommerce veya özel yazılım kurar; Logo/Netsis bağlantısı aynı ekipte yürür.",
+      "i1": "Fiziki dükkânınız var, internetten de satacaksınız. Katalog, sepet, iyzico/PayTR ve kargo API tek sitede olsun; “e-ticaret yazılımı Ankara” diye yerelde teslim edecek ekip arıyorsunuz.",
+      "i2": "Trendyol veya Hepsiburada’da duruyorsunuz, kendi mağazanız yok. Komisyon ve marka kontrolü için bağımsız online mağaza istiyorsunuz; pazaryeri stokuyla site stoku çakışmasın.",
+      "i3": "Toptan ve bayi siparişi Excel’de yürüyor. B2B fiyat listesi, cari hesap ve minimum sipariş lazım; marketplace veya bayi paneli aynı projeye eklensin.",
+      "i4": "Hazır paket stok, kargo ve Logo’ya uymuyor. Özel kampanya, yüksek trafik veya ERP entegrasyonu için WooCommerce yetmez; <a href=\"/ozel-yazilim-yaptirmak\" style=\"color:#fb923c\">özel e-ticaret yazılımı</a> istiyorsunuz.",
+      "outro": "<a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#fb923c\">Kurumsal tanıtım sitesi</a> ayrıdır. Bu sayfa sepet ve ödeme olan online mağaza içindir. Ücretsiz keşif: <a href=\"tel:+905465496806\" style=\"color:#fb923c\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Sık sorulanlar",
+      "q1": "E-ticaret sitesi yaptırmak ne kadar tutar?",
+      "a1": "WooCommerce mağaza 25.000–45.000 TL, özel tasarımlı 45.000–75.000 TL, ERP+kargo+ödeme 75.000–120.000 TL, B2B/marketplace 120.000–250.000+ TL. KOBİ ortalaması 50.000–80.000 TL bandındadır; keşif ücretsizdir.",
+      "q2": "WooCommerce mi özel yazılım mı?",
+      "a2": "50–200 ürün ve standart satış için WooCommerce yeter. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a>, özel kampanya veya yüksek trafik için özel e-ticaret yazılımı önerilir. Karar keşifte ürün ve entegrasyon listesine göre yazılır.",
+      "q3": "Kurumsal siteden farkı nedir?",
+      "a3link": "Web sitesi yaptırmak",
+      "a3": "tanıtım sitesidir. Bu sayfada sepet, ödeme ve kargo vardır. İkisini aynı ekipte yaptırabilirsiniz.",
+      "q4": "Ödeme ve kargo bağlanır mı?",
+      "a4": "Evet. iyzico, PayTR, banka POS ve Yurtiçi/Aras/MNG kargo API. İsterseniz <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">WhatsApp sipariş</a> aynı projeye eklenir. Süre: hazır tema 3–5 hafta, özel tasarım 6–10 hafta, ERP’li mağaza 10–16 hafta."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "Mağazanızı konuşalım",
+      "desc": "Ücretsiz keşif — ürün sayısı, ödeme, ERP. <a href=\"tel:+905465496806\" style=\"color:#fb923c\">+90 546 549 6806</a>",
+      "btn2": "Ücretsiz teklif al",
+      "link1": "Web sitesi yaptırmak",
+      "link2": "Maliyet rehberi"
+    },
+    "footer": "© 2026 Ozturksoft — E-ticaret sitesi yaptırmak",
+    "related": {
+      "web": "Ankara web tasarım",
+      "order": "Web sitesi yaptırmak",
+      "logo": "Logo Netsis",
+      "wa": "WhatsApp chatbot",
+      "custom": "Özel yazılım",
+      "guide": "Maliyet rehberi"
+    }
+  },
+  "faturaOkumaPage": {
+    "hero": {
+      "badge": "Fatura · İrsaliye · Evrak · Logo / Netsis · Ankara",
+      "title": "Fatura Okuma Programı",
+      "desc": "Fatura okuma programı: PDF veya WhatsApp fotoğrafından fatura, irsaliye ve evrak alanlarını okuyup <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo, Netsis</a> veya mevcut muhasebeye yazıyoruz. Elle giriş biter. Çankaya merkezli Ozturksoft hazır kutu yazılım satmaz; sizin şablonunuza eğitilmiş OCR + onay katmanı kurulur. Yazılı teklif, ücretsiz keşif."
+    },
+    "pricing": {
+      "title": "Fatura okuma programı fiyatı (2026)",
+      "intro": "Fiyat belge tipi, dil, onay katmanı ve ERP bağlantısına göre değişir. Aşağıdaki bantlar 2026 Ankara piyasası içindir; keşif ücretsiz, teklif yazılıdır.",
+      "col1": "Kapsam",
+      "col2": "Fiyat",
+      "col3": "Süre",
+      "row1": "Tek belge tipi (fatura OCR)",
+      "row2": "Çoklu belge + sınıflandırma",
+      "row3": "Kurumsal belge AI platformu",
+      "t1": "3–6 hafta",
+      "t2": "6–10 hafta",
+      "t3": "3–5 ay",
+      "linkGuide": "OCR nedir rehberi",
+      "linkNote": "bilgi yazısıdır; fatura okuma yazılımı yaptırmak bu sayfadandır."
+    },
+    "cards": {
+      "c1title": "🧾 Fatura ve irsaliye OCR",
+      "c1desc": "VKN, tarih, KDV, tutar ve satır kalemleri PDF veya telefon fotoğrafından çıkarılır. Tedarikçi formatı karışık olsa da şablon eğitimiyle okunur.",
+      "c2title": "🔗 Logo / Netsis kaydı",
+      "c2desc": "Okunan fatura muhasebe fişi olarak ERP’ye yazılır. Çift giriş biter; mevcut SAP veya özel muhasebeye de aktarım yapılır.",
+      "c2link": "Logo Netsis entegrasyonu →",
+      "c3title": "📁 Sözleşme ve evrak arşivi",
+      "c3desc": "Fatura dışında sözleşme, ihale dosyası ve kamu evrakı sınıflandırılır, aranır. Dijital arşiv aynı platformda yürür.",
+      "c4title": "⚙️ İnsan onay katmanı",
+      "c4desc": "%95+ alan doğruluğu hedeflenir; şüpheli satır muhasebeye düşer. Otomatik kayıt hatası fiş bozmaz.",
+      "c4link": "Süreç otomasyonu →",
+      "c1link": "Keşif ayarla →",
+      "c3link": "Yapay zeka entegrasyonu →"
+    },
+    "who": {
+      "title": "Fatura okuma programını kim yaptırır?",
+      "intro": "“Fatura okuma programı” ve “fatura OCR” araması, günde onlarca evrakı elle giren muhasebe ekiplerinden kamu arşivine kadar aynı niyeti taşır: PDF ve fotoğraftan alan çıkarıp ERP’ye yazmak. Ozturksoft hazır kutu satmaz; sizin tedarikçi şablonunuza eğitilmiş OCR + Logo/Netsis aktarımı kurar.",
+      "i1": "Günde onlarca fatura ve irsaliye elle giriliyor; muhasebe yetişmiyor. Personel VKN, KDV ve satır kopyalıyor, hata ve gecikme birikiyor. Fatura tarama programı bu işi otomatikleştirsin istiyorsunuz.",
+      "i2": "Tedarikçi PDF veya WhatsApp fotoğrafı geliyor, <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo veya Netsis</a>’e yazılmıyor. Çift kayıt, eksik fiş ve ay sonu kuyruğu var. Okunan kayıt doğrudan muhasebeye düşsün.",
+      "i3": "Kamu, holding veya hukuk evrak arşivi aranamıyor. Fatura dışında sözleşme ve ihale dosyası da sınıflansın, dijital arşivde bulunsun istiyorsunuz.",
+      "i4": "Hazır kutu OCR sizin fatura şablonuna uymuyor. Türkçe evrak, karışık tedarikçi formatı ve onay akışınız özel eğitim ve insan kontrol katmanı istiyor.",
+      "outro": "“OCR nedir” diye arıyorsanız <a href=\"/blog/ankara-ocr-belge-ai-2026\" style=\"color:#60a5fa\">rehber</a> ayrı durur. Bu sayfa fatura okuma yazılımı yaptırmak içindir. Ücretsiz keşif: <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Sık sorulanlar",
+      "q1": "Fatura okuma programı ne kadar tutar?",
+      "a1": "Tek belge tipi fatura OCR 45.000–90.000 TL (3–6 hafta), çoklu belge + sınıflandırma 90.000–180.000 TL, kurumsal belge AI 180.000–350.000+ TL. Keşif ücretsizdir; net fiyat evrak örneği görüldükten sonra yazılır.",
+      "q2": "Logo veya Netsis’e yazar mı?",
+      "a2": "Evet. Okunan fatura ve irsaliye alanları <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo, Netsis</a> veya mevcut muhasebeye API ile aktarılır. SAP ve özel muhasebe de bağlanır; çift giriş biter.",
+      "q3": "Hazır paket mi, özel yazılım mı?",
+      "a3": "Hazır OCR motoru + sizin evrak şablonlarınıza özel eğitim. Kutu yazılım değil; Logo/Netsis ve onay akışınıza göre kurulur. İnsan onay katmanı ile %95+ alan doğruluğu hedeflenir.",
+      "q4": "OCR nedir diye arayanlar?",
+      "a4link": "Ankara OCR ve belge AI rehberi",
+      "a4": "bilgi yazısıdır. Fatura okuma programı yaptırmak bu sayfadan, ücretsiz keşif /iletisim üzerinden yürür."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "Fatura sürecinizi konuşalım",
+      "desc": "Ücretsiz keşif — kaç evrak, hangi ERP, bütçe. <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>",
+      "btn2": "Ücretsiz teklif al",
+      "link1": "Süreç otomasyonu",
+      "link2": "OCR nedir rehberi"
+    },
+    "footer": "© 2026 Ozturksoft — Fatura okuma programı",
+    "related": {
+      "logo": "Logo Netsis entegrasyonu",
+      "proc": "Süreç otomasyonu",
+      "ai": "Yapay zeka entegrasyonu",
+      "custom": "Özel yazılım",
+      "guide": "OCR rehberi"
+    }
   }
 }

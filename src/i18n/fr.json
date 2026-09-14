@@ -1505,5 +1505,243 @@
       "desc": "Appel découverte gratuit pour on-premise et KVKK.",
       "btn": "Appel découverte gratuit"
     }
+  },
+  "webTasarimPage": {
+    "hero": {
+      "badge": "Çankaya · Agence · SEO · +90 546 549 6806",
+      "title": "Web design Ankara",
+      "desc": "Sites corporate, e-commerce et SEO technique pour PME, holdings et industriels qui cherchent une société ou agence de web design à Ankara. Ozturksoft, à Çankaya, ne vend pas de templates : devis écrit, cadrage sur site et formation CMS après mise en ligne. La page « <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#38bdf8\">faire créer un site</a> » est séparée — ici vous comparez les prestataires locaux."
+    },
+    "pricing": {
+      "title": "Tarifs web design Ankara (2026)",
+      "intro": "Le prix dépend du nombre de pages, des langues, du e-commerce et des intégrations. Tranches 2026 à Ankara ; cadrage gratuit, devis écrit.",
+      "col1": "Périmètre",
+      "col2": "Prix",
+      "col3": "Délai",
+      "row1": "Web design corporate",
+      "row2": "E-commerce",
+      "row3": "Landing / campagne",
+      "t1": "3–6 semaines",
+      "t2": "6–14 semaines",
+      "t3": "1–3 semaines",
+      "linkOrder": "Faire créer un site",
+      "linkGuide": "Guide des coûts"
+    },
+    "cards": {
+      "c1title": "📍 Çankaya, cadrage sur site",
+      "c1desc": "Cadrage à Ankara au bureau ou chez vous — Çankaya, OSTİM, Söğütözü et zones industrielles. Istanbul et autres villes à distance.",
+      "c2title": "🏢 Site corporate",
+      "c2desc": "Holdings, secteur public et PME : offres, à propos, formulaires, CMS multilingue. SEO technique (vitesse, mobile, schema) inclus à la livraison.",
+      "c3title": "🛒 Boutique e-commerce",
+      "c3desc": "Panier, iyzico/PayTR, APIs transporteurs et stock. WooCommerce ou stack sur mesure ; Logo/Netsis sur le même projet.",
+      "c3link": "Faire créer une boutique →",
+      "c4title": "💻 Le logiciel dans la même équipe",
+      "c4desc": "Pas une agence 100 % visuelle. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Intégration Logo</a>, <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">apps mobiles</a> et <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#38bdf8\">bots WhatsApp</a> avec l’équipe Çankaya — sans éclater les prestataires.",
+      "c4link": "Société de logiciel Ankara →",
+      "c1link": "Planifier le cadrage →",
+      "c2link": "Faire créer un site →"
+    },
+    "who": {
+      "title": "Qui fait faire un web design à Ankara ?",
+      "intro": "Les recherches « web design Ankara » et « sociétés de web design Ankara » visent une équipe locale qui livre, avec un prix écrit. Des PME qui collectent des cartes d’agences aux industriels d’OSTİM. Ozturksoft est à Çankaya ; pas de thème catalogue — site corporate et e-commerce avec SEO technique.",
+      "i1": "Vous comparez les sociétés et listes d’agences de web design Ankara sur Google. Vous voulez des références, un cadrage sur site et un devis ligne à ligne — y compris une date de mise en ligne écrite.",
+      "i2": "Vous voulez une équipe logicielle qui livre, pas un studio visuel. CMS, formulaires, vitesse, SSL et maintenance chez un seul prestataire ; pas un PSD qui disparaît ensuite.",
+      "i3": "Vous êtes à Çankaya, OSTİM ou Söğütözü et voulez le cadrage au bureau ou chez vous. Rendez-vous sur site à Ankara. Istanbul, Izmir et autres villes à distance.",
+      "i4": "Aujourd’hui le site corporate, demain le SEO technique, une <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">app</a> ou <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Logo</a>. Vous ne voulez pas séparer web design et logiciel.",
+      "outro": "Si vous avez cherché « <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#38bdf8\">faire créer un site Ankara</a> », la page commande est séparée ; les tranches de prix sont les mêmes. Cette page s’adresse à qui cherche une agence / société locale. Cadrage gratuit : <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>."
+    },
+    "diff": {
+      "title": "Agence de web design Ankara ou société de logiciel ?",
+      "p1": "Sur les listes de sociétés de web design Ankara, beaucoup vendent un thème ou un PSD. Ozturksoft est une <a href=\"/ankara-yazilim-sirketi\" style=\"color:#38bdf8\">société de logiciel</a> à Çankaya : site corporate, <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#38bdf8\">boutique</a> et SEO technique dans la même équipe. CMS, formulaires, vitesse, schema et maintenance sont dans la livraison — on ne vous dit pas « l’agence a fini, trouvez un développeur ».",
+      "p2": "Les requêtes locales — agence web design Ankara, web design Ankara, Çankaya web design — servent Maps et la comparaison. Cadrage au bureau ou chez vous à OSTİM / Söğütözü / Yenimahalle. Autres villes à distance. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Logo</a>, <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">mobile</a> ou <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#38bdf8\">bot WhatsApp</a> : même équipe Çankaya."
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "q1": "Combien coûte le web design à Ankara ?",
+      "a1": "Web design corporate 15 000–90 000 TL (3–6 semaines), e-commerce 30 000–250 000+ TL, pages campagne 5 000–15 000 TL. Cadrage gratuit ; prix ferme après périmètre écrit.",
+      "q2": "Agence ou société de logiciel ?",
+      "a2": "Ozturksoft est une société de logiciel à Ankara qui produit aussi le web design dans la même équipe. Pas de maquettes ou thèmes WordPress seuls. CMS, squelette SEO et maintenance inclus.",
+      "q3": "Y a-t-il des rendez-vous sur site ?",
+      "a3": "Oui. Siège Çankaya. Cadrage dans tout Ankara (OSTİM, Söğütözü, Çankaya, Yenimahalle). Autres villes en Zoom / distant.",
+      "q4": "Pourquoi une page « faire créer un site » à part ?",
+      "a4link": "Faire créer un site à Ankara",
+      "a4": "est l’intention de commande. Cette page vise « sociétés / agence de web design Ankara ». Mêmes prix, autre requête."
+    },
+    "cta": {
+      "btn": "Appel découverte gratuit",
+      "title": "Planifier le cadrage à Ankara",
+      "desc": "Çankaya · cadrage gratuit · <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>",
+      "btn2": "Devis gratuit",
+      "link1": "Faire créer un site",
+      "link2": "Société de logiciel"
+    },
+    "footer": "© 2026 Ozturksoft — Web design Ankara",
+    "related": {
+      "web": "Faire créer un site",
+      "shop": "Faire créer une boutique",
+      "soft": "Société de logiciel",
+      "logo": "Logo Netsis",
+      "wa": "Chatbot WhatsApp",
+      "app": "Application mobile",
+      "guide": "Guide des coûts"
+    },
+    "meta": {
+      "title": "Web design Ankara | Agence & tarifs | Ozturksoft"
+    },
+    "stats": {
+      "s1n": "Çankaya",
+      "s1l": "Cadrage sur site",
+      "s2l": "Web design corporate",
+      "s3l": "Délai de livraison"
+    }
+  },
+  "eticaretPage": {
+    "hero": {
+      "badge": "WooCommerce · Paiement · Livraison · Logo · Ankara",
+      "title": "Faire créer un site e-commerce",
+      "desc": "Faire créer un site e-commerce : publier les produits, encaisser, expédier. WooCommerce ou boutique sur mesure ; iyzico/PayTR, APIs transporteurs et <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">stock Logo/Netsis</a> sur le même projet. Ozturksoft à Çankaya ne vend pas de pack — devis écrit, cadrage gratuit. Le <a href=\"/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026\" style=\"color:#fb923c\">guide des coûts</a> est à part ; ici vous commandez le travail."
+    },
+    "pricing": {
+      "title": "Prix d’un site e-commerce (2026)",
+      "intro": "Le prix dépend des SKU, paiements, livraison et ERP. Tranches marché Ankara 2026 ; cadrage gratuit, devis écrit.",
+      "col1": "Périmètre",
+      "col2": "Prix",
+      "col3": "Délai",
+      "row1": "WooCommerce / thème prêt",
+      "row2": "Boutique design sur mesure (~100 SKU)",
+      "row3": "ERP + livraison + multi-paiement",
+      "row4": "B2B / marketplace",
+      "t1": "3–5 semaines",
+      "t2": "6–10 semaines",
+      "t3": "10–16 semaines",
+      "t4": "4–8 mois",
+      "linkGuide": "Guide des coûts e-commerce",
+      "linkNote": "détaille les postes ; faire créer la boutique se fait sur cette page."
+    },
+    "cards": {
+      "c1title": "🛒 Boutique en ligne",
+      "c1desc": "Catalogue, panier, stock, coupons et variantes. Mobile first ; de 50 produits à 10 000 SKU.",
+      "c2title": "💳 Paiement et livraison",
+      "c2desc": "iyzico, PayTR et TPE banque. APIs Yurtiçi, Aras, MNG ; frais et suivi automatiques.",
+      "c3title": "🔗 Stock Logo / Netsis",
+      "c3desc": "La commande va à l’ERP, le stock revient. Plus de double saisie ; Logo sur le même projet.",
+      "c3link": "Intégration Logo Netsis →",
+      "c4title": "💬 Commande WhatsApp",
+      "c4desc": "Boutique + chatbot WhatsApp sur le même projet. Questions catalogue et ligne de commande restent sur le site.",
+      "c4link": "Faire créer un chatbot WhatsApp →",
+      "c1link": "Planifier le cadrage →",
+      "c2link": "Brancher ERP et stock →"
+    },
+    "who": {
+      "title": "Qui fait créer un site e-commerce ?",
+      "intro": "« Faire créer un site e-commerce » et « prix site e-commerce » visent panier, paiement, livraison et stock. Du magasin qui passe en ligne à la marque présente seulement sur Trendyol. Ozturksoft livre WooCommerce ou du sur-mesure ; Logo/Netsis dans la même équipe.",
+      "i1": "Vous avez un magasin physique et vendrez aussi en ligne. Catalogue, panier, iyzico/PayTR et APIs transporteurs sur un seul site ; vous voulez une équipe locale à Ankara.",
+      "i2": "Vous vendez sur Trendyol ou Hepsiburada sans boutique propre. Boutique indépendante pour commissions et marque ; le stock marketplace ne doit pas entrer en conflit avec le site.",
+      "i3": "Le gros et les revendeurs tournent sous Excel. Listes B2B, comptes clients et minimums ; marketplace ou portail revendeur sur le même projet.",
+      "i4": "Un pack ne colle pas à votre stock, livraison ou Logo. Campagnes, trafic ou ERP : WooCommerce ne suffit plus — <a href=\"/ozel-yazilim-yaptirmak\" style=\"color:#fb923c\">logiciel e-commerce sur mesure</a>.",
+      "outro": "Le <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#fb923c\">site vitrine corporate</a> est une autre page. Ici : boutique avec panier et paiement. Cadrage gratuit : <a href=\"tel:+905465496806\" style=\"color:#fb923c\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "q1": "Combien coûte la création d’un site e-commerce ?",
+      "a1": "WooCommerce 25 000–45 000 TL, design sur mesure 45 000–75 000 TL, ERP+livraison+paiement 75 000–120 000 TL, B2B/marketplace 120 000–250 000+ TL. Moyenne PME 50 000–80 000 TL ; cadrage gratuit.",
+      "q2": "WooCommerce ou sur-mesure ?",
+      "a2": "WooCommerce suffit pour 50–200 produits et un checkout standard. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a>, campagnes ou fort trafic appellent du sur-mesure. La décision est écrite après la liste produits / intégrations au cadrage.",
+      "q3": "Différence avec un site corporate ?",
+      "a3link": "Faire créer un site",
+      "a3": "est un site vitrine. Cette page a panier, paiement et livraison. Les deux peuvent être faits par la même équipe.",
+      "q4": "Paiement et livraison sont-ils branchés ?",
+      "a4": "Oui. iyzico, PayTR, TPE et APIs Yurtiçi/Aras/MNG. <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">Commande WhatsApp</a> possible sur le même projet. Délais : thème 3–5 semaines, sur-mesure 6–10, boutique ERP 10–16 semaines."
+    },
+    "cta": {
+      "btn": "Appel découverte gratuit",
+      "title": "Parlons de votre boutique",
+      "desc": "Cadrage gratuit — nombre de SKU, paiement, ERP. <a href=\"tel:+905465496806\" style=\"color:#fb923c\">+90 546 549 6806</a>",
+      "btn2": "Devis gratuit",
+      "link1": "Faire créer un site",
+      "link2": "Guide des coûts"
+    },
+    "footer": "© 2026 Ozturksoft — Faire créer un site e-commerce",
+    "related": {
+      "web": "Web design Ankara",
+      "order": "Faire créer un site",
+      "logo": "Logo Netsis",
+      "wa": "Chatbot WhatsApp",
+      "custom": "Logiciel sur mesure",
+      "guide": "Guide des coûts"
+    }
+  },
+  "faturaOkumaPage": {
+    "hero": {
+      "badge": "Facture · Bon de livraison · Documents · Logo / Netsis · Ankara",
+      "title": "Logiciel de lecture de factures",
+      "desc": "Logiciel de lecture de factures : extraire les champs facture, bon de livraison et documents depuis un PDF ou une photo WhatsApp, puis les écrire dans <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo, Netsis</a> ou votre comptabilité. Plus de saisie manuelle. Ozturksoft à Çankaya ne vend pas de boîte ; l’OCR est entraîné sur vos modèles + couche de validation. Devis écrit, cadrage gratuit."
+    },
+    "pricing": {
+      "title": "Prix OCR factures (2026)",
+      "intro": "Le prix dépend des types de documents, de la langue, de la validation et de l’ERP. Tranches marché Ankara 2026 ; cadrage gratuit, devis écrit.",
+      "col1": "Périmètre",
+      "col2": "Prix",
+      "col3": "Délai",
+      "row1": "Un type de document (OCR facture)",
+      "row2": "Multi-documents + classification",
+      "row3": "Plateforme IA documentaire entreprise",
+      "t1": "3–6 semaines",
+      "t2": "6–10 semaines",
+      "t3": "3–5 mois",
+      "linkGuide": "Guide « qu’est-ce que l’OCR »",
+      "linkNote": "est l’article explicatif ; faire créer le logiciel se fait ici."
+    },
+    "cards": {
+      "c1title": "🧾 OCR facture et bon de livraison",
+      "c1desc": "N° fiscal, date, TVA, montants et lignes depuis PDF ou photo. Formats fournisseurs mixtes via entraînement de modèles.",
+      "c2title": "🔗 Écriture Logo / Netsis",
+      "c2desc": "Les factures lues s’enregistrent comme pièces dans l’ERP. Plus de double saisie ; SAP ou compta maison aussi.",
+      "c2link": "Intégration Logo Netsis →",
+      "c3title": "📁 Contrats et archive documentaire",
+      "c3desc": "Au-delà des factures : contrats, dossiers d’appel d’offres et documents publics classés et recherchables. Archive numérique sur la même plateforme.",
+      "c4title": "⚙️ Couche de validation humaine",
+      "c4desc": "Objectif 95 %+ d’exactitude des champs ; les lignes douteuses vont à la compta. Une erreur auto n’abîme pas la pièce.",
+      "c4link": "Automatisation des processus →",
+      "c1link": "Planifier le cadrage →",
+      "c3link": "Intégration IA →"
+    },
+    "who": {
+      "title": "Qui fait créer un logiciel de lecture de factures ?",
+      "intro": "« Programme de lecture de factures » et « OCR facture » visent extraire les champs PDF/photos vers l’ERP. Des équipes comptables qui saisissent des dizaines de pièces par jour aux archives publiques. Ozturksoft ne vend pas de boîte ; OCR sur vos modèles fournisseurs, écriture Logo/Netsis.",
+      "i1": "Des dizaines de factures et bons sont saisis à la main ; la compta n’arrive plus. On copie n° fiscal, TVA et lignes — erreurs et retards. Un programme de scan doit automatiser cela.",
+      "i2": "Les fournisseurs envoient PDF ou photos WhatsApp qui n’arrivent jamais dans <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo ou Netsis</a>. Double saisie, pièces manquantes, file de fin de mois. L’enregistrement lu doit tomber en compta.",
+      "i3": "Archives publiques, holding ou juridiques non recherchables. Contrats et appels d’offres doivent être classés avec les factures dans l’archive numérique.",
+      "i4": "L’OCR boîte ne colle pas à vos modèles. Documents turcs, formats mixtes et votre circuit de validation demandent un entraînement et un contrôle humain.",
+      "outro": "Si vous cherchiez « qu’est-ce que l’OCR », le <a href=\"/blog/ankara-ocr-belge-ai-2026\" style=\"color:#60a5fa\">guide</a> est à part. Cette page sert à faire créer le logiciel. Cadrage gratuit : <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "q1": "Combien coûte un logiciel de lecture de factures ?",
+      "a1": "Un type 45 000–90 000 TL (3–6 semaines), multi-documents + classification 90 000–180 000 TL, IA documentaire entreprise 180 000–350 000+ TL. Cadrage gratuit ; prix ferme après échantillons.",
+      "q2": "Écrit-il dans Logo ou Netsis ?",
+      "a2": "Oui. Champs facture et bon via API vers <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo, Netsis</a> ou votre compta. SAP et ledgers maison aussi ; plus de double saisie.",
+      "q3": "Pack ou sur-mesure ?",
+      "a3": "Moteur OCR + entraînement sur vos modèles. Pas une boîte ; installé selon Logo/Netsis et votre validation. La couche humaine vise 95 %+ d’exactitude.",
+      "q4": "Je voulais seulement savoir ce qu’est l’OCR ?",
+      "a4link": "Guide OCR et IA documentaire Ankara",
+      "a4": "est l’article. Faire créer le logiciel se fait ici ; cadrage gratuit via /iletisim."
+    },
+    "cta": {
+      "btn": "Appel découverte gratuit",
+      "title": "Parlons de votre flux factures",
+      "desc": "Cadrage gratuit — volume, quel ERP, budget. <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>",
+      "btn2": "Devis gratuit",
+      "link1": "Automatisation des processus",
+      "link2": "Guide OCR"
+    },
+    "footer": "© 2026 Ozturksoft — Logiciel de lecture de factures",
+    "related": {
+      "logo": "Intégration Logo Netsis",
+      "proc": "Automatisation des processus",
+      "ai": "Intégration IA",
+      "custom": "Logiciel sur mesure",
+      "guide": "Guide OCR"
+    }
   }
 }

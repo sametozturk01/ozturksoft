@@ -140,78 +140,89 @@
     </nav>
 
     <header class="hub-hero">
-        <span style="color:#60a5fa;font-weight:700;font-size:.85rem;letter-spacing:.1em;text-transform:uppercase">Fatura · İrsaliye · Evrak · Logo / Netsis · Ankara</span>
-        <h1>Fatura Okuma Programı</h1>
-        <p>PDF veya fotoğraftan fatura, irsaliye ve evrak alanlarını okuyup muhasebeye yazıyoruz. Elle giriş biter. Yazılı teklif, ücretsiz keşif. “OCR nedir” rehberi duruyor; burası iş yaptırmak için.</p>
-        <a href="/iletisim" class="btn btn-primary">Ücretsiz keşif görüşmesi</a>
+        <span style="color:#60a5fa;font-weight:700;font-size:.85rem;letter-spacing:.1em;text-transform:uppercase" data-i18n="faturaOkumaPage.hero.badge">Fatura · İrsaliye · Evrak · Logo / Netsis · Ankara</span>
+        <h1 data-i18n="faturaOkumaPage.hero.title">Fatura Okuma Programı</h1>
+        <p data-i18n="faturaOkumaPage.hero.desc">Fatura okuma programı: PDF veya WhatsApp fotoğrafından fatura, irsaliye ve evrak alanlarını okuyup <a href="/logo-netsis-entegrasyon" style="color:#60a5fa">Logo, Netsis</a> veya mevcut muhasebeye yazıyoruz. Elle giriş biter. Çankaya merkezli Ozturksoft hazır kutu yazılım satmaz; sizin şablonunuza eğitilmiş OCR + onay katmanı kurulur. Yazılı teklif, ücretsiz keşif.</p>
+        <a href="/iletisim" class="btn btn-primary" data-i18n="faturaOkumaPage.cta.btn">Ücretsiz keşif görüşmesi</a>
     </header>
 
     <section class="hub-section">
-        <h2>Fatura OCR fiyatı (2026)</h2>
+        <h2 data-i18n="faturaOkumaPage.pricing.title">Fatura okuma programı fiyatı (2026)</h2>
+        <p data-i18n="faturaOkumaPage.pricing.intro">Fiyat belge tipi, dil, onay katmanı ve ERP bağlantısına göre değişir. Aşağıdaki bantlar 2026 Ankara piyasası içindir; keşif ücretsiz, teklif yazılıdır.</p>
         <table class="price-table">
-            <thead><tr><th>Kapsam</th><th>Fiyat</th><th>Süre</th></tr></thead>
+            <thead><tr><th data-i18n="faturaOkumaPage.pricing.col1">Kapsam</th><th data-i18n="faturaOkumaPage.pricing.col2">Fiyat</th><th data-i18n="faturaOkumaPage.pricing.col3">Süre</th></tr></thead>
             <tbody>
-                <tr><td>Tek belge tipi (fatura)</td><td>45.000 – 90.000 TL</td><td>3–6 hafta</td></tr>
-                <tr><td>Çoklu belge + sınıflandırma</td><td>90.000 – 180.000 TL</td><td>6–10 hafta</td></tr>
-                <tr><td>Kurumsal belge AI platformu</td><td>180.000 – 350.000+ TL</td><td>3–5 ay</td></tr>
+                <tr><td data-i18n="faturaOkumaPage.pricing.row1">Tek belge tipi (fatura OCR)</td><td>45.000 – 90.000 TL</td><td data-i18n="faturaOkumaPage.pricing.t1">3–6 hafta</td></tr>
+                <tr><td data-i18n="faturaOkumaPage.pricing.row2">Çoklu belge + sınıflandırma</td><td>90.000 – 180.000 TL</td><td data-i18n="faturaOkumaPage.pricing.t2">6–10 hafta</td></tr>
+                <tr><td data-i18n="faturaOkumaPage.pricing.row3">Kurumsal belge AI platformu</td><td>180.000 – 350.000+ TL</td><td data-i18n="faturaOkumaPage.pricing.t3">3–5 ay</td></tr>
             </tbody>
         </table>
-        <p>Teknoloji ve Azure vs özel model: <a href="/blog/ankara-ocr-belge-ai-2026" style="color:#60a5fa">OCR rehberi</a> (bilgi yazısı — bu sayfa teklif içindir).</p>
+        <p><a href="/blog/ankara-ocr-belge-ai-2026" style="color:#60a5fa" data-i18n="faturaOkumaPage.pricing.linkGuide">OCR nedir rehberi</a> <span data-i18n="faturaOkumaPage.pricing.linkNote">bilgi yazısıdır; fatura okuma yazılımı yaptırmak bu sayfadandır.</span></p>
     </section>
 
     <section class="hub-grid">
         <div class="hub-card">
-            <h3>🧾 Fatura &amp; irsaliye</h3>
-            <p>VKN, tarih, KDV, satır. Fotoğraf veya PDF yeter.</p>
+            <h3 data-i18n="faturaOkumaPage.cards.c1title">🧾 Fatura ve irsaliye OCR</h3>
+            <p data-i18n="faturaOkumaPage.cards.c1desc">VKN, tarih, KDV, tutar ve satır kalemleri PDF veya telefon fotoğrafından çıkarılır. Tedarikçi formatı karışık olsa da şablon eğitimiyle okunur.</p>
+            <a href="/iletisim" data-i18n="faturaOkumaPage.cards.c1link">Keşif ayarla →</a>
         </div>
         <div class="hub-card">
-            <h3>🔗 Logo / Netsis</h3>
-            <p>Okunan kayıt ERP’ye yazılır. Çift giriş yok.</p>
-            <a href="/logo-netsis-entegrasyon">Logo Netsis entegrasyonu →</a>
+            <h3 data-i18n="faturaOkumaPage.cards.c2title">🔗 Logo / Netsis kaydı</h3>
+            <p data-i18n="faturaOkumaPage.cards.c2desc">Okunan fatura muhasebe fişi olarak ERP’ye yazılır. Çift giriş biter; mevcut SAP veya özel muhasebeye de aktarım yapılır.</p>
+            <a href="/logo-netsis-entegrasyon" data-i18n="faturaOkumaPage.cards.c2link">Logo Netsis entegrasyonu →</a>
         </div>
         <div class="hub-card">
-            <h3>📁 Sözleşme &amp; evrak</h3>
-            <p>Sınıflandırma, arşiv, arama. Kamu ve hukuk evrakı.</p>
+            <h3 data-i18n="faturaOkumaPage.cards.c3title">📁 Sözleşme ve evrak arşivi</h3>
+            <p data-i18n="faturaOkumaPage.cards.c3desc">Fatura dışında sözleşme, ihale dosyası ve kamu evrakı sınıflandırılır, aranır. Dijital arşiv aynı platformda yürür.</p>
+            <a href="/yapay-zeka-entegrasyonu" data-i18n="faturaOkumaPage.cards.c3link">Yapay zeka entegrasyonu →</a>
         </div>
         <div class="hub-card">
-            <h3>⚙️ Onay katmanı</h3>
-            <p>%95+ hedef; şüpheli satır insana düşer. Muhasebe kontrol eder.</p>
-            <a href="/surec-otomasyonu">Süreç otomasyonu →</a>
+            <h3 data-i18n="faturaOkumaPage.cards.c4title">⚙️ İnsan onay katmanı</h3>
+            <p data-i18n="faturaOkumaPage.cards.c4desc">%95+ alan doğruluğu hedeflenir; şüpheli satır muhasebeye düşer. Otomatik kayıt hatası fiş bozmaz.</p>
+            <a href="/surec-otomasyonu" data-i18n="faturaOkumaPage.cards.c4link">Süreç otomasyonu →</a>
         </div>
     </section>
 
     <section class="hub-section">
-        <h2>Kim yaptırır?</h2>
+        <h2 data-i18n="faturaOkumaPage.who.title">Fatura okuma programını kim yaptırır?</h2>
+        <p data-i18n="faturaOkumaPage.who.intro">“Fatura okuma programı” ve “fatura OCR” araması, günde onlarca evrakı elle giren muhasebe ekiplerinden kamu arşivine kadar aynı niyeti taşır: PDF ve fotoğraftan alan çıkarıp ERP’ye yazmak. Ozturksoft hazır kutu satmaz; sizin tedarikçi şablonunuza eğitilmiş OCR + Logo/Netsis aktarımı kurar.</p>
         <ul>
-            <li>Günde onlarca fatura elle giriliyor, muhasebe yetişmiyor</li>
-            <li>Tedarikçi PDF/WhatsApp fotoğrafı geliyor, Logo’ya yazılmıyor</li>
-            <li>Kamu veya holding evrak arşivi aranamıyor</li>
-            <li>Hazır kutu yazılım sizin şablona uymuyor</li>
+            <li data-i18n="faturaOkumaPage.who.i1">Günde onlarca fatura ve irsaliye elle giriliyor; muhasebe yetişmiyor. Personel VKN, KDV ve satır kopyalıyor, hata ve gecikme birikiyor. Fatura tarama programı bu işi otomatikleştirsin istiyorsunuz.</li>
+            <li data-i18n="faturaOkumaPage.who.i2">Tedarikçi PDF veya WhatsApp fotoğrafı geliyor, <a href="/logo-netsis-entegrasyon" style="color:#60a5fa">Logo veya Netsis</a>’e yazılmıyor. Çift kayıt, eksik fiş ve ay sonu kuyruğu var. Okunan kayıt doğrudan muhasebeye düşsün.</li>
+            <li data-i18n="faturaOkumaPage.who.i3">Kamu, holding veya hukuk evrak arşivi aranamıyor. Fatura dışında sözleşme ve ihale dosyası da sınıflansın, dijital arşivde bulunsun istiyorsunuz.</li>
+            <li data-i18n="faturaOkumaPage.who.i4">Hazır kutu OCR sizin fatura şablonuna uymuyor. Türkçe evrak, karışık tedarikçi formatı ve onay akışınız özel eğitim ve insan kontrol katmanı istiyor.</li>
         </ul>
+        <p data-i18n="faturaOkumaPage.who.outro">“OCR nedir” diye arıyorsanız <a href="/blog/ankara-ocr-belge-ai-2026" style="color:#60a5fa">rehber</a> ayrı durur. Bu sayfa fatura okuma yazılımı yaptırmak içindir. Ücretsiz keşif: <a href="tel:+905465496806" style="color:#60a5fa">+90 546 549 6806</a>.</p>
     </section>
 
     <section class="hub-section hub-faq">
-        <h2>Sık sorulanlar</h2>
-        <h3>Fatura okuma programı ne kadar?</h3>
-        <p>Tek tip 45.000–90.000 TL, çoklu belge 90.000–180.000 TL, kurumsal platform 180.000–350.000+ TL.</p>
-        <h3>Logo / Netsis’e gider mi?</h3>
-        <p>Evet. API ile muhasebe kaydı. Mevcut SAP’ye de aktarım yapılabilir.</p>
-        <h3>OCR nedir diye arayanlar?</h3>
-        <p>Rehber ayrı: <a href="/blog/ankara-ocr-belge-ai-2026" style="color:#60a5fa">Ankara OCR &amp; belge AI</a>. İş yaptırmak buradan.</p>
+        <h2 data-i18n="faturaOkumaPage.faq.title">Sık sorulanlar</h2>
+        <h3 data-i18n="faturaOkumaPage.faq.q1">Fatura okuma programı ne kadar tutar?</h3>
+        <p data-i18n="faturaOkumaPage.faq.a1">Tek belge tipi fatura OCR 45.000–90.000 TL (3–6 hafta), çoklu belge + sınıflandırma 90.000–180.000 TL, kurumsal belge AI 180.000–350.000+ TL. Keşif ücretsizdir; net fiyat evrak örneği görüldükten sonra yazılır.</p>
+        <h3 data-i18n="faturaOkumaPage.faq.q2">Logo veya Netsis’e yazar mı?</h3>
+        <p data-i18n="faturaOkumaPage.faq.a2">Evet. Okunan fatura ve irsaliye alanları <a href="/logo-netsis-entegrasyon" style="color:#60a5fa">Logo, Netsis</a> veya mevcut muhasebeye API ile aktarılır. SAP ve özel muhasebe de bağlanır; çift giriş biter.</p>
+        <h3 data-i18n="faturaOkumaPage.faq.q3">Hazır paket mi, özel yazılım mı?</h3>
+        <p data-i18n="faturaOkumaPage.faq.a3">Hazır OCR motoru + sizin evrak şablonlarınıza özel eğitim. Kutu yazılım değil; Logo/Netsis ve onay akışınıza göre kurulur. İnsan onay katmanı ile %95+ alan doğruluğu hedeflenir.</p>
+        <h3 data-i18n="faturaOkumaPage.faq.q4">OCR nedir diye arayanlar?</h3>
+        <p><a href="/blog/ankara-ocr-belge-ai-2026" style="color:#60a5fa" data-i18n="faturaOkumaPage.faq.a4link">Ankara OCR ve belge AI rehberi</a> <span data-i18n="faturaOkumaPage.faq.a4">bilgi yazısıdır. Fatura okuma programı yaptırmak bu sayfadan, ücretsiz keşif /iletisim üzerinden yürür.</span></p>
     </section>
 
     <section class="hub-cta">
-        <h2 style="margin-bottom:12px">Fatura sürecinizi konuşalım</h2>
-        <p style="color:#94a3b8;margin-bottom:24px">Ücretsiz keşif — kaç evrak, hangi ERP, bütçe. +90 546 549 6806</p>
-        <a href="/iletisim" class="btn btn-primary" style="padding:16px 36px">Ücretsiz teklif al</a>
+        <h2 style="margin-bottom:12px" data-i18n="faturaOkumaPage.cta.title">Fatura sürecinizi konuşalım</h2>
+        <p style="color:#94a3b8;margin-bottom:24px" data-i18n="faturaOkumaPage.cta.desc">Ücretsiz keşif — kaç evrak, hangi ERP, bütçe. <a href="tel:+905465496806" style="color:#60a5fa">+90 546 549 6806</a></p>
+        <a href="/iletisim" class="btn btn-primary" style="padding:16px 36px" data-i18n="faturaOkumaPage.cta.btn2">Ücretsiz teklif al</a>
         <p style="margin-top:20px;font-size:.9rem;color:#64748b">
-            <a href="/surec-otomasyonu" style="color:#60a5fa">Süreç otomasyonu</a> ·
-            <a href="/blog/ankara-ocr-belge-ai-2026" style="color:#60a5fa">OCR nedir rehberi</a>
+            <a href="/logo-netsis-entegrasyon" style="color:#60a5fa" data-i18n="faturaOkumaPage.related.logo">Logo Netsis entegrasyonu</a> ·
+            <a href="/surec-otomasyonu" style="color:#60a5fa" data-i18n="faturaOkumaPage.related.proc">Süreç otomasyonu</a> ·
+            <a href="/yapay-zeka-entegrasyonu" style="color:#60a5fa" data-i18n="faturaOkumaPage.related.ai">Yapay zeka entegrasyonu</a> ·
+            <a href="/ozel-yazilim-yaptirmak" style="color:#60a5fa" data-i18n="faturaOkumaPage.related.custom">Özel yazılım</a> ·
+            <a href="/blog/ankara-ocr-belge-ai-2026" style="color:#60a5fa" data-i18n="faturaOkumaPage.related.guide">OCR rehberi</a>
         </p>
     </section>
 
     <footer style="text-align:center;padding:30px;color:#64748b;border-top:1px solid rgba(255,255,255,.06)">
-        <p>© 2026 Ozturksoft — Fatura okuma | <a href="/" style="color:#3b82f6">Ana Sayfa</a> · <a href="/hizmetler" style="color:#3b82f6">Hizmetler</a></p>
+        <p data-i18n="faturaOkumaPage.footer">© 2026 Ozturksoft — Fatura okuma programı</p>
+        <p style="margin-top:10px"><a href="/" style="color:#3b82f6" data-i18n="nav.home">Ana Sayfa</a> · <a href="/hizmetler" style="color:#3b82f6" data-i18n="nav.services">Hizmetler</a> · <a href="/iletisim" style="color:#3b82f6" data-i18n="nav.contact">İletişim</a></p>
     </footer>
 </body>
 </html>

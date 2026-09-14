@@ -1520,5 +1520,243 @@
       "desc": "Free discovery call for on-premise, KVKK and integration requirements.",
       "btn": "Free Discovery Call"
     }
+  },
+  "webTasarimPage": {
+    "hero": {
+      "badge": "Çankaya · Agency · SEO · +90 546 549 6806",
+      "title": "Ankara Web Design",
+      "desc": "Corporate websites, e-commerce and technical SEO for SMEs, holdings and manufacturers searching for an Ankara web design company or agency. Ozturksoft, based in Çankaya, does not sell templates: written quote, on-site discovery and CMS training after launch. The “<a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#38bdf8\">have a website built</a>” page is separate — this page is for people comparing local firms."
+    },
+    "pricing": {
+      "title": "Ankara web design prices (2026)",
+      "intro": "Price depends on page count, languages, e-commerce and integrations. Bands below are 2026 Ankara market ranges; discovery is free and the quote is written.",
+      "col1": "Scope",
+      "col2": "Price",
+      "col3": "Timeline",
+      "row1": "Corporate web design",
+      "row2": "E-commerce",
+      "row3": "Landing / campaign",
+      "t1": "3–6 weeks",
+      "t2": "6–14 weeks",
+      "t3": "1–3 weeks",
+      "linkOrder": "Have a website built",
+      "linkGuide": "Cost guide"
+    },
+    "cards": {
+      "c1title": "📍 Çankaya, on-site discovery",
+      "c1desc": "Ankara discovery happens in our office or at yours — Çankaya, OSTİM, Söğütözü and industrial zones. Istanbul and other cities are served remotely.",
+      "c2title": "🏢 Corporate website",
+      "c2desc": "Holding, public-sector and SME sites: services, about, contact forms, multilingual CMS. Technical SEO (speed, mobile, schema) is included at handover.",
+      "c3title": "🛒 E-commerce store",
+      "c3desc": "Cart, iyzico/PayTR, shipping APIs and stock. WooCommerce or custom stack; Logo/Netsis can be added to the same project.",
+      "c3link": "Have an e-commerce site built →",
+      "c4title": "💻 Software in the same team",
+      "c4desc": "We are not a visual-only agency. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Logo integration</a>, <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">mobile apps</a> and <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#38bdf8\">WhatsApp bots</a> run with the same Çankaya team — no vendor split.",
+      "c4link": "Ankara software company →",
+      "c1link": "Book discovery →",
+      "c2link": "Have a website built →"
+    },
+    "who": {
+      "title": "Who hires Ankara web design?",
+      "intro": "Searches for “Ankara web design” and “Ankara web design companies” share one intent: a local team that delivers, with a written price. From SMEs collecting agency cards to manufacturers in OSTİM. Ozturksoft is Çankaya-based; we do not sell template themes — we ship corporate sites and e-commerce with technical SEO.",
+      "i1": "You are comparing Ankara web design companies and agency lists on Google. You want references, on-site discovery and a line-item quote — including a written answer to “when does it go live?”",
+      "i2": "You want a software team that actually delivers, not a visual studio. CMS, forms, speed, SSL and maintenance stay with one firm; you do not want a PSD handoff that then disappears.",
+      "i3": "You are in Çankaya, OSTİM or Söğütözü and want discovery in the office or at your site. On-site meetings cover Ankara. Istanbul, Izmir and other cities run remotely.",
+      "i4": "Today a corporate site, tomorrow technical SEO, a <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">mobile app</a> or <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Logo</a>. You do not want to split web design and software across vendors.",
+      "outro": "If you searched “<a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#38bdf8\">have a website built in Ankara</a>”, the order page is separate; price bands are the same. This page is for people looking for a local web design firm / agency. Free discovery: <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>."
+    },
+    "diff": {
+      "title": "Ankara web design agency or software company?",
+      "p1": "Most firms on Ankara web design company lists sell themes or hand over PSDs. Ozturksoft is a <a href=\"/ankara-yazilim-sirketi\" style=\"color:#38bdf8\">software company</a> in Çankaya: corporate websites, <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#38bdf8\">e-commerce</a> and technical SEO are produced by the same team. CMS, forms, speed, schema and maintenance are in the delivery — you are not told “the agency is done, go find a developer”.",
+      "p2": "Local queries — Ankara web design agency, web design Ankara, Çankaya web design — are for Maps and firm comparison. Discovery is in the office or at your site in OSTİM / Söğütözü / Yenimahalle. Other cities run remotely. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Logo</a>, <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">mobile</a> or <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#38bdf8\">WhatsApp bot</a> is added by the same Çankaya team."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "How much does Ankara web design cost?",
+      "a1": "Corporate web design 15,000–90,000 TL (3–6 weeks), e-commerce 30,000–250,000+ TL, campaign pages 5,000–15,000 TL. Discovery is free; a firm price is given after scope is written.",
+      "q2": "Agency or software company?",
+      "a2": "Ozturksoft is an Ankara software company that also produces web design in the same team. We do not sell mockups or WordPress themes only. CMS, SEO skeleton and maintenance are included.",
+      "q3": "Do you meet on site?",
+      "a3": "Yes. Çankaya HQ. On-site discovery across Ankara (OSTİM, Söğütözü, Çankaya, Yenimahalle). Other cities use Zoom / remote discovery.",
+      "q4": "Why is the “have a website built” page separate?",
+      "a4link": "Have a website built in Ankara",
+      "a4": "is the order-intent page. This page is for people searching “Ankara web design companies / agency”. Same prices, different query."
+    },
+    "cta": {
+      "btn": "Free discovery call",
+      "title": "Book discovery in Ankara",
+      "desc": "Çankaya · free discovery · <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>",
+      "btn2": "Get a free quote",
+      "link1": "Have a website built",
+      "link2": "Software company"
+    },
+    "footer": "© 2026 Ozturksoft — Ankara web design",
+    "related": {
+      "web": "Have a website built",
+      "shop": "Have an e-commerce site built",
+      "soft": "Software company",
+      "logo": "Logo Netsis",
+      "wa": "WhatsApp chatbot",
+      "app": "Mobile app",
+      "guide": "Cost guide"
+    },
+    "meta": {
+      "title": "Ankara Web Design | Agency & Pricing | Ozturksoft"
+    },
+    "stats": {
+      "s1n": "Çankaya",
+      "s1l": "On-site discovery",
+      "s2l": "Corporate web design",
+      "s3l": "Delivery time"
+    }
+  },
+  "eticaretPage": {
+    "hero": {
+      "badge": "WooCommerce · Payments · Shipping · Logo · Ankara",
+      "title": "Have an E-Commerce Site Built",
+      "desc": "Have an e-commerce site built: list products, take payment, ship. WooCommerce or a custom online store; iyzico/PayTR, shipping APIs and <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis stock</a> in the same project. Ozturksoft in Çankaya does not sell boxed packages — written quote, free discovery. The <a href=\"/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026\" style=\"color:#fb923c\">cost guide</a> is separate; this page is to hire the work."
+    },
+    "pricing": {
+      "title": "E-commerce website price (2026)",
+      "intro": "Price depends on SKU count, payments, shipping and ERP. Bands below are 2026 Ankara market ranges; discovery is free, quotes are written.",
+      "col1": "Scope",
+      "col2": "Price",
+      "col3": "Timeline",
+      "row1": "WooCommerce / ready theme",
+      "row2": "Custom-designed store (~100 SKUs)",
+      "row3": "ERP + shipping + multi-payment",
+      "row4": "B2B / marketplace",
+      "t1": "3–5 weeks",
+      "t2": "6–10 weeks",
+      "t3": "10–16 weeks",
+      "t4": "4–8 months",
+      "linkGuide": "E-commerce cost guide",
+      "linkNote": "is the line-item explainer; commissioning a store starts on this page."
+    },
+    "cards": {
+      "c1title": "🛒 Online store",
+      "c1desc": "Catalog, cart, stock, coupons and variants. Mobile-first; scales from 50 products to 10,000 SKUs.",
+      "c2title": "💳 Payments and shipping",
+      "c2desc": "iyzico, PayTR and bank POS. Yurtiçi, Aras, MNG shipping APIs; rates and tracking numbers write automatically.",
+      "c3title": "🔗 Logo / Netsis stock",
+      "c3desc": "Orders go to ERP, stock comes back. No double entry or Excel stock; Logo is added to the same project.",
+      "c3link": "Logo Netsis integration →",
+      "c4title": "💬 WhatsApp orders",
+      "c4desc": "Store + WhatsApp chatbot in one project. Catalog questions and the order line stay on-site.",
+      "c4link": "Have a WhatsApp chatbot built →",
+      "c1link": "Book discovery →",
+      "c2link": "Connect ERP and stock →"
+    },
+    "who": {
+      "title": "Who commissions an e-commerce site?",
+      "intro": "Searches for “have an e-commerce site built” and “e-commerce website price” share one intent: cart, payment, shipping and stock. From retailers moving a shop online to brands that only sell on Trendyol. Ozturksoft ships WooCommerce or custom software; Logo/Netsis stays in the same team.",
+      "i1": "You have a physical shop and will also sell online. Catalog, cart, iyzico/PayTR and shipping APIs on one site; you want a local team that delivers e-commerce software in Ankara.",
+      "i2": "You already sell on Trendyol or Hepsiburada and have no store of your own. You want an independent shop for commission and brand control; marketplace stock must not clash with site stock.",
+      "i3": "Wholesale and dealer orders live in Excel. You need B2B price lists, current accounts and minimums; a marketplace or dealer panel should join the same project.",
+      "i4": "A boxed package does not fit your stock, shipping or Logo. Custom campaigns, high traffic or ERP need more than WooCommerce — you want <a href=\"/ozel-yazilim-yaptirmak\" style=\"color:#fb923c\">custom e-commerce software</a>.",
+      "outro": "A <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#fb923c\">corporate brochure site</a> is a different page. This page is for an online store with cart and payment. Free discovery: <a href=\"tel:+905465496806\" style=\"color:#fb923c\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "How much does it cost to have an e-commerce site built?",
+      "a1": "WooCommerce 25,000–45,000 TL, custom design 45,000–75,000 TL, ERP+shipping+payments 75,000–120,000 TL, B2B/marketplace 120,000–250,000+ TL. SME average sits around 50,000–80,000 TL; discovery is free.",
+      "q2": "WooCommerce or custom software?",
+      "a2": "WooCommerce is enough for 50–200 products and standard checkout. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a>, custom campaigns or high traffic call for custom e-commerce. The decision is written after the product and integration list in discovery.",
+      "q3": "How is it different from a corporate site?",
+      "a3link": "Have a website built",
+      "a3": "is a brochure site. This page has cart, payment and shipping. You can commission both from the same team.",
+      "q4": "Do you connect payments and shipping?",
+      "a4": "Yes. iyzico, PayTR, bank POS and Yurtiçi/Aras/MNG APIs. <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">WhatsApp orders</a> can join the same project. Timeline: ready theme 3–5 weeks, custom design 6–10 weeks, ERP store 10–16 weeks."
+    },
+    "cta": {
+      "btn": "Free discovery call",
+      "title": "Let’s talk about your store",
+      "desc": "Free discovery — SKU count, payments, ERP. <a href=\"tel:+905465496806\" style=\"color:#fb923c\">+90 546 549 6806</a>",
+      "btn2": "Get a free quote",
+      "link1": "Have a website built",
+      "link2": "Cost guide"
+    },
+    "footer": "© 2026 Ozturksoft — Have an e-commerce site built",
+    "related": {
+      "web": "Ankara web design",
+      "order": "Have a website built",
+      "logo": "Logo Netsis",
+      "wa": "WhatsApp chatbot",
+      "custom": "Custom software",
+      "guide": "Cost guide"
+    }
+  },
+  "faturaOkumaPage": {
+    "hero": {
+      "badge": "Invoice · Delivery note · Documents · Logo / Netsis · Ankara",
+      "title": "Invoice Reading Software",
+      "desc": "Invoice reading software: we read invoice, delivery-note and document fields from PDF or WhatsApp photos and write them into <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo, Netsis</a> or your accounting system. Manual entry stops. Ozturksoft in Çankaya does not sell boxed software; OCR is trained on your templates plus an approval layer. Written quote, free discovery."
+    },
+    "pricing": {
+      "title": "Invoice OCR software price (2026)",
+      "intro": "Price depends on document types, language, approval layer and ERP. Bands below are 2026 Ankara market ranges; discovery is free, quotes are written.",
+      "col1": "Scope",
+      "col2": "Price",
+      "col3": "Timeline",
+      "row1": "Single document type (invoice OCR)",
+      "row2": "Multi-document + classification",
+      "row3": "Enterprise document AI platform",
+      "t1": "3–6 weeks",
+      "t2": "6–10 weeks",
+      "t3": "3–5 months",
+      "linkGuide": "What is OCR guide",
+      "linkNote": "is the explainer; commissioning invoice-reading software starts here."
+    },
+    "cards": {
+      "c1title": "🧾 Invoice and delivery-note OCR",
+      "c1desc": "Tax ID, date, VAT, totals and line items from PDF or phone photos. Mixed supplier layouts are handled with template training.",
+      "c2title": "🔗 Logo / Netsis posting",
+      "c2desc": "Read invoices post as accounting documents in ERP. Double entry stops; SAP or custom accounting can also receive the feed.",
+      "c2link": "Logo Netsis integration →",
+      "c3title": "📁 Contracts and document archive",
+      "c3desc": "Beyond invoices: contracts, tender files and public documents are classified and searchable. Digital archive runs on the same platform.",
+      "c4title": "⚙️ Human approval layer",
+      "c4desc": "Target 95%+ field accuracy; doubtful lines go to accounting. Auto-posting errors do not break the voucher.",
+      "c4link": "Process automation →",
+      "c1link": "Book discovery →",
+      "c3link": "AI integration →"
+    },
+    "who": {
+      "title": "Who commissions invoice reading software?",
+      "intro": "Searches for “invoice reading software” and “invoice OCR” share one intent: extract fields from PDF and photos into ERP. From accounting teams typing dozens of documents a day to public archives. Ozturksoft does not sell a box; we train OCR on your supplier templates and post to Logo/Netsis.",
+      "i1": "Dozens of invoices and delivery notes are typed by hand; accounting cannot keep up. Staff copy tax IDs, VAT and lines — errors and delays pile up. You want invoice scanning software to automate this.",
+      "i2": "Suppliers send PDFs or WhatsApp photos that never reach <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo or Netsis</a>. Double entry, missing vouchers and month-end queues. Read records should land in accounting directly.",
+      "i3": "Public-sector, holding or legal archives cannot be searched. Contracts and tender files should be classified next to invoices in a digital archive.",
+      "i4": "Boxed OCR does not fit your invoice templates. Turkish documents, mixed supplier layouts and your approval flow need custom training and a human check layer.",
+      "outro": "If you searched “what is OCR”, the <a href=\"/blog/ankara-ocr-belge-ai-2026\" style=\"color:#60a5fa\">guide</a> is separate. This page is to have invoice-reading software built. Free discovery: <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "How much does invoice reading software cost?",
+      "a1": "Single-type invoice OCR 45,000–90,000 TL (3–6 weeks), multi-document + classification 90,000–180,000 TL, enterprise document AI 180,000–350,000+ TL. Discovery is free; a firm price is written after sample documents are seen.",
+      "q2": "Does it write to Logo or Netsis?",
+      "a2": "Yes. Invoice and delivery-note fields post via API to <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo, Netsis</a> or your current accounting. SAP and custom ledgers also connect; double entry stops.",
+      "q3": "Boxed package or custom software?",
+      "a3": "An OCR engine plus training on your document templates. Not boxed software; it is installed against Logo/Netsis and your approval flow. Human approval targets 95%+ field accuracy.",
+      "q4": "I only wanted to know what OCR is?",
+      "a4link": "Ankara OCR and document AI guide",
+      "a4": "is the explainer. Commissioning invoice reading software starts on this page; free discovery via /iletisim."
+    },
+    "cta": {
+      "btn": "Free discovery call",
+      "title": "Let’s talk through your invoice flow",
+      "desc": "Free discovery — document volume, which ERP, budget. <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>",
+      "btn2": "Get a free quote",
+      "link1": "Process automation",
+      "link2": "What is OCR guide"
+    },
+    "footer": "© 2026 Ozturksoft — Invoice reading software",
+    "related": {
+      "logo": "Logo Netsis integration",
+      "proc": "Process automation",
+      "ai": "AI integration",
+      "custom": "Custom software",
+      "guide": "OCR guide"
+    }
   }
 }

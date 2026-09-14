@@ -1505,5 +1505,243 @@
       "desc": "Kostenlose Erstberatung zu On-Premise und KVKK.",
       "btn": "Kostenlose Beratung"
     }
+  },
+  "webTasarimPage": {
+    "hero": {
+      "badge": "Çankaya · Agentur · SEO · +90 546 549 6806",
+      "title": "Ankara Webdesign",
+      "desc": "Corporate-Websites, E-Commerce und technisches SEO für KMU, Holdings und Industrie, die ein Webdesign-Unternehmen oder eine Agentur in Ankara suchen. Ozturksoft in Çankaya verkauft keine Templates: schriftliches Angebot, Vor-Ort-Kickoff und CMS-Schulung nach Launch. Die Seite „<a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#38bdf8\">Website erstellen lassen</a>“ ist getrennt — hier vergleichen Sie lokale Firmen."
+    },
+    "pricing": {
+      "title": "Ankara Webdesign-Preise (2026)",
+      "intro": "Der Preis hängt von Seitenanzahl, Sprachen, Shop und Integrationen ab. Die Bänder unten sind der Ankaraner Markt 2026; Kickoff ist kostenlos, das Angebot schriftlich.",
+      "col1": "Umfang",
+      "col2": "Preis",
+      "col3": "Dauer",
+      "row1": "Corporate-Webdesign",
+      "row2": "E-Commerce",
+      "row3": "Landing / Kampagne",
+      "t1": "3–6 Wochen",
+      "t2": "6–14 Wochen",
+      "t3": "1–3 Wochen",
+      "linkOrder": "Website erstellen lassen",
+      "linkGuide": "Kostenleitfaden"
+    },
+    "cards": {
+      "c1title": "📍 Çankaya, Kickoff vor Ort",
+      "c1desc": "In Ankara im Büro oder bei Ihnen — Çankaya, OSTİM, Söğütözü und Industriezonen. Istanbul und andere Städte remote.",
+      "c2title": "🏢 Corporate-Website",
+      "c2desc": "Holding-, Behörden- und KMU-Seiten: Leistungen, Über uns, Formulare, mehrsprachiges CMS. Technisches SEO (Speed, Mobil, Schema) ist in der Übergabe enthalten.",
+      "c3title": "🛒 Online-Shop",
+      "c3desc": "Warenkorb, iyzico/PayTR, Versand-APIs und Bestand. WooCommerce oder Custom; Logo/Netsis im selben Projekt.",
+      "c3link": "E-Commerce-Shop erstellen lassen →",
+      "c4title": "💻 Software im selben Team",
+      "c4desc": "Keine reine Designagentur. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Logo-Anbindung</a>, <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">Mobile Apps</a> und <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#38bdf8\">WhatsApp-Bots</a> laufen im Çankaya-Team — ohne Lieferantensplit.",
+      "c4link": "Softwarefirma Ankara →",
+      "c1link": "Kickoff vereinbaren →",
+      "c2link": "Website erstellen lassen →"
+    },
+    "who": {
+      "title": "Wer beauftragt Webdesign in Ankara?",
+      "intro": "Suchen nach „Ankara Webdesign“ und „Ankara Webdesign-Firmen“ meinen dasselbe: ein lokales Team, das liefert, mit schriftlichem Preis. Von KMU, die Agenturkarten sammeln, bis zu Herstellern in OSTİM. Ozturksoft sitzt in Çankaya; wir verkaufen keine Themen — Corporate-Site und Shop inklusive technischem SEO.",
+      "i1": "Sie vergleichen Ankara-Webdesign-Firmen und Agenturlisten bei Google. Sie wollen Referenzen, Kickoff vor Ort und ein Positionspapier — inklusive schriftlicher Antwort auf „wann geht es live?“",
+      "i2": "Sie wollen ein Softwareteam, das liefert, kein reines Designstudio. CMS, Formulare, Speed, SSL und Wartung bleiben bei einer Firma; kein PSD, das danach verschwindet.",
+      "i3": "Sie sind in Çankaya, OSTİM oder Söğütözü und wollen den Kickoff im Büro oder bei Ihnen. Vor-Ort-Termine in Ankara. Istanbul, Izmir und andere Städte remote.",
+      "i4": "Heute Corporate-Site, morgen technisches SEO, <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">App</a> oder <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Logo</a>. Webdesign und Software sollen nicht auf mehrere Lieferanten verteilt werden.",
+      "outro": "Haben Sie „<a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#38bdf8\">Website erstellen lassen Ankara</a>“ gesucht, ist die Bestellseite getrennt; die Preisbänder sind gleich. Diese Seite ist für lokale Webdesign-Firmen / Agenturen. Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>."
+    },
+    "diff": {
+      "title": "Webdesign-Agentur Ankara oder Softwarefirma?",
+      "p1": "Viele Firmen auf Ankara-Webdesign-Listen verkaufen Themes oder PSD. Ozturksoft ist eine <a href=\"/ankara-yazilim-sirketi\" style=\"color:#38bdf8\">Softwarefirma</a> in Çankaya: Corporate-Website, <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#38bdf8\">Shop</a> und technisches SEO entstehen im selben Team. CMS, Formulare, Speed, Schema und Wartung gehören zur Lieferung — niemand sagt „die Agentur ist fertig, suchen Sie einen Entwickler“.",
+      "p2": "Lokale Suchen — Webdesign-Agentur Ankara, Webdesign Ankara, Çankaya Webdesign — dienen Maps und Firmenvergleich. Kickoff im Büro oder bei Ihnen in OSTİM / Söğütözü / Yenimahalle. Andere Städte remote. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Logo</a>, <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">Mobile</a> oder <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#38bdf8\">WhatsApp-Bot</a> kommt vom selben Çankaya-Team."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Was kostet Webdesign in Ankara?",
+      "a1": "Corporate-Webdesign 15.000–90.000 TL (3–6 Wochen), E-Commerce 30.000–250.000+ TL, Kampagnenseiten 5.000–15.000 TL. Kickoff kostenlos; Festpreis nach schriftlichem Scope.",
+      "q2": "Agentur oder Softwarefirma?",
+      "a2": "Ozturksoft ist eine Softwarefirma in Ankara und macht Webdesign im selben Team. Keine reinen Mockups oder WordPress-Themes. CMS, SEO-Gerüst und Wartung sind enthalten.",
+      "q3": "Gibt es Termine vor Ort?",
+      "a3": "Ja. Sitz Çankaya. Kickoff in ganz Ankara (OSTİM, Söğütözü, Çankaya, Yenimahalle). Andere Städte per Zoom / remote.",
+      "q4": "Warum gibt es eine eigene „Website erstellen lassen“-Seite?",
+      "a4link": "Website erstellen lassen Ankara",
+      "a4": "ist die Bestellintention. Diese Seite ist für „Ankara Webdesign-Firmen / Agentur“. Gleiche Preise, andere Suchanfrage."
+    },
+    "cta": {
+      "btn": "Kostenloses Erstgespräch",
+      "title": "Kickoff in Ankara vereinbaren",
+      "desc": "Çankaya · kostenloser Kickoff · <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>",
+      "btn2": "Kostenloses Angebot",
+      "link1": "Website erstellen lassen",
+      "link2": "Softwarefirma"
+    },
+    "footer": "© 2026 Ozturksoft — Ankara Webdesign",
+    "related": {
+      "web": "Website erstellen lassen",
+      "shop": "E-Commerce-Shop erstellen lassen",
+      "soft": "Softwarefirma",
+      "logo": "Logo Netsis",
+      "wa": "WhatsApp-Chatbot",
+      "app": "Mobile App",
+      "guide": "Kostenleitfaden"
+    },
+    "meta": {
+      "title": "Ankara Webdesign | Agentur & Preise | Ozturksoft"
+    },
+    "stats": {
+      "s1n": "Çankaya",
+      "s1l": "Kickoff vor Ort",
+      "s2l": "Corporate-Webdesign",
+      "s3l": "Lieferzeit"
+    }
+  },
+  "eticaretPage": {
+    "hero": {
+      "badge": "WooCommerce · Zahlung · Versand · Logo · Ankara",
+      "title": "E-Commerce-Shop erstellen lassen",
+      "desc": "E-Commerce-Shop erstellen lassen: Produkte einstellen, Zahlung annehmen, versenden. WooCommerce oder Custom-Shop; iyzico/PayTR, Versand-APIs und <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis-Bestand</a> im selben Projekt. Ozturksoft in Çankaya verkauft keine Pakete — schriftliches Angebot, kostenloser Kickoff. Der <a href=\"/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026\" style=\"color:#fb923c\">Kostenleitfaden</a> ist getrennt; hier beauftragen Sie die Arbeit."
+    },
+    "pricing": {
+      "title": "E-Commerce-Website-Preis (2026)",
+      "intro": "Preis hängt von SKUs, Zahlung, Versand und ERP ab. Bänder unten: Markt Ankara 2026; Kickoff kostenlos, Angebot schriftlich.",
+      "col1": "Umfang",
+      "col2": "Preis",
+      "col3": "Dauer",
+      "row1": "WooCommerce / Fertigtheme",
+      "row2": "Individuell gestalteter Shop (~100 SKUs)",
+      "row3": "ERP + Versand + Mehrfachzahlung",
+      "row4": "B2B / Marketplace",
+      "t1": "3–5 Wochen",
+      "t2": "6–10 Wochen",
+      "t3": "10–16 Wochen",
+      "t4": "4–8 Monate",
+      "linkGuide": "E-Commerce-Kostenleitfaden",
+      "linkNote": "ist die Positionsübersicht; den Shop beauftragen Sie auf dieser Seite."
+    },
+    "cards": {
+      "c1title": "🛒 Online-Shop",
+      "c1desc": "Katalog, Warenkorb, Bestand, Coupons und Varianten. Mobile First; von 50 Produkten bis 10.000 SKUs.",
+      "c2title": "💳 Zahlung und Versand",
+      "c2desc": "iyzico, PayTR und Bank-POS. Yurtiçi, Aras, MNG-APIs; Gebühren und Tracking automatisch.",
+      "c3title": "🔗 Logo / Netsis-Bestand",
+      "c3desc": "Auftrag ins ERP, Bestand zurück. Kein Doppelerfassen; Logo im selben Projekt.",
+      "c3link": "Logo-Netsis-Anbindung →",
+      "c4title": "💬 WhatsApp-Bestellung",
+      "c4desc": "Shop + WhatsApp-Chatbot in einem Projekt. Katalogfragen und Bestelllinie bleiben auf der Site.",
+      "c4link": "WhatsApp-Chatbot erstellen lassen →",
+      "c1link": "Kickoff vereinbaren →",
+      "c2link": "ERP und Bestand anbinden →"
+    },
+    "who": {
+      "title": "Wer lässt einen E-Commerce-Shop bauen?",
+      "intro": "Suchen nach „E-Commerce-Shop erstellen lassen“ und „E-Commerce-Preis“ meinen Warenkorb, Zahlung, Versand und Bestand. Vom Laden, der online will, bis zur Marke, die nur auf Trendyol steht. Ozturksoft liefert WooCommerce oder Custom; Logo/Netsis bleibt im Team.",
+      "i1": "Sie haben ein Ladenlokal und wollen auch online verkaufen. Katalog, Warenkorb, iyzico/PayTR und Versand auf einer Site; Sie suchen ein lokales Team für E-Commerce-Software in Ankara.",
+      "i2": "Sie verkaufen auf Trendyol oder Hepsiburada ohne eigenen Shop. Unabhängiger Store für Provision und Marke; Marktplatz- und Site-Bestand dürfen nicht kollidieren.",
+      "i3": "Großhandel und Händler laufen in Excel. B2B-Preise, Kontokorrent und Mindestmengen; Marketplace oder Händlerpanel im selben Projekt.",
+      "i4": "Fertigpakete passen nicht zu Bestand, Versand oder Logo. Kampagnen, Last oder ERP brauchen mehr als WooCommerce — <a href=\"/ozel-yazilim-yaptirmak\" style=\"color:#fb923c\">Custom-Shop</a>.",
+      "outro": "Die <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#fb923c\">Corporate-Broschüre</a> ist eine andere Seite. Hier geht es um den Shop mit Warenkorb und Zahlung. Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#fb923c\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Was kostet ein E-Commerce-Shop?",
+      "a1": "WooCommerce 25.000–45.000 TL, Custom-Design 45.000–75.000 TL, ERP+Versand+Zahlung 75.000–120.000 TL, B2B/Marketplace 120.000–250.000+ TL. KMU-Schnitt 50.000–80.000 TL; Kickoff kostenlos.",
+      "q2": "WooCommerce oder Custom?",
+      "a2": "WooCommerce reicht für 50–200 Produkte und Standard-Checkout. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a>, Kampagnen oder Last sprechen für Custom. Die Entscheidung steht nach Produkt- und Integrationsliste im Kickoff.",
+      "q3": "Unterschied zur Corporate-Website?",
+      "a3link": "Website erstellen lassen",
+      "a3": "ist die Broschüre. Hier gibt es Warenkorb, Zahlung und Versand. Beides vom selben Team möglich.",
+      "q4": "Werden Zahlung und Versand angebunden?",
+      "a4": "Ja. iyzico, PayTR, Bank-POS und Yurtiçi/Aras/MNG. <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">WhatsApp-Bestellung</a> im selben Projekt. Dauer: Theme 3–5 Wochen, Custom 6–10, ERP-Shop 10–16 Wochen."
+    },
+    "cta": {
+      "btn": "Kostenloses Erstgespräch",
+      "title": "Lassen Sie uns über Ihren Shop sprechen",
+      "desc": "Kostenloser Kickoff — SKUs, Zahlung, ERP. <a href=\"tel:+905465496806\" style=\"color:#fb923c\">+90 546 549 6806</a>",
+      "btn2": "Kostenloses Angebot",
+      "link1": "Website erstellen lassen",
+      "link2": "Kostenleitfaden"
+    },
+    "footer": "© 2026 Ozturksoft — E-Commerce-Shop erstellen lassen",
+    "related": {
+      "web": "Ankara Webdesign",
+      "order": "Website erstellen lassen",
+      "logo": "Logo Netsis",
+      "wa": "WhatsApp-Chatbot",
+      "custom": "Individuelle Software",
+      "guide": "Kostenleitfaden"
+    }
+  },
+  "faturaOkumaPage": {
+    "hero": {
+      "badge": "Rechnung · Lieferschein · Belege · Logo / Netsis · Ankara",
+      "title": "Rechnungslese-Software",
+      "desc": "Rechnungslese-Software: Felder aus Rechnung, Lieferschein und Belegen aus PDF oder WhatsApp-Fotos lesen und in <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo, Netsis</a> oder Ihre Buchhaltung schreiben. Manuelle Erfassung endet. Ozturksoft in Çankaya verkauft keine Box; OCR wird auf Ihre Vorlagen plus Freigabeschicht trainiert. Schriftliches Angebot, kostenloser Kickoff."
+    },
+    "pricing": {
+      "title": "Rechnung-OCR-Preis (2026)",
+      "intro": "Preis hängt von Belegtypen, Sprache, Freigabe und ERP ab. Bänder: Markt Ankara 2026; Kickoff kostenlos, Angebot schriftlich.",
+      "col1": "Umfang",
+      "col2": "Preis",
+      "col3": "Dauer",
+      "row1": "Ein Belegtyp (Rechnungs-OCR)",
+      "row2": "Mehrere Belege + Klassifikation",
+      "row3": "Enterprise Document-AI-Plattform",
+      "t1": "3–6 Wochen",
+      "t2": "6–10 Wochen",
+      "t3": "3–5 Monate",
+      "linkGuide": "Was ist OCR?",
+      "linkNote": "ist der Erklärtext; Rechnungslese-Software beauftragen Sie hier."
+    },
+    "cards": {
+      "c1title": "🧾 Rechnungs- und Lieferschein-OCR",
+      "c1desc": "Steuernummer, Datum, MwSt., Beträge und Zeilen aus PDF oder Handyfoto. Gemischte Lieferantenlayouts per Vorlagentraining.",
+      "c2title": "🔗 Logo- / Netsis-Buchung",
+      "c2desc": "Gelesene Rechnungen werden als Buchungsbeleg ins ERP geschrieben. Doppelte Erfassung endet; SAP oder Custom-FiBu ebenfalls.",
+      "c2link": "Logo-Netsis-Anbindung →",
+      "c3title": "📁 Verträge und Belegarchiv",
+      "c3desc": "Neben Rechnungen: Verträge, Ausschreibungen und Behördenakten klassifiziert und suchbar. Digitales Archiv auf derselben Plattform.",
+      "c4title": "⚙️ Menschliche Freigabe",
+      "c4desc": "Ziel 95 %+ Feldgenauigkeit; unsichere Zeilen an die Buchhaltung. Auto-Buchungsfehler zerstören den Beleg nicht.",
+      "c4link": "Prozessautomatisierung →",
+      "c1link": "Kickoff vereinbaren →",
+      "c3link": "KI-Integration →"
+    },
+    "who": {
+      "title": "Wer beauftragt Rechnungslese-Software?",
+      "intro": "Suchen nach „Rechnungsleseprogramm“ und „Rechnungs-OCR“ meinen: Felder aus PDF und Fotos ins ERP. Von Buchhaltungsteams mit Dutzenden Belegen am Tag bis zu Behördenarchiven. Ozturksoft verkauft keine Box; OCR auf Ihre Lieferantenvorlagen, Buchung nach Logo/Netsis.",
+      "i1": "Dutzende Rechnungen und Lieferscheine werden per Hand erfasst; die Buchhaltung kommt nicht hinterher. Steuer-ID, MwSt. und Zeilen werden kopiert — Fehler und Verzug. Rechnungsscan soll das automatisieren.",
+      "i2": "Lieferanten senden PDF oder WhatsApp-Fotos, die nie in <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo oder Netsis</a> landen. Doppelte Erfassung, fehlende Belege, Monatsende-Stau. Gelesene Sätze sollen direkt in die FiBu.",
+      "i3": "Behörden-, Holding- oder Rechtsarchive sind nicht durchsuchbar. Verträge und Ausschreibungen sollen neben Rechnungen klassifiziert im Digitalarchiv liegen.",
+      "i4": "Box-OCR passt nicht zu Ihren Rechnungsvorlagen. Türkische Belege, gemischte Layouts und Ihr Freigabefluss brauchen Training und eine Prüfstufe.",
+      "outro": "Wenn Sie „was ist OCR“ gesucht haben, ist der <a href=\"/blog/ankara-ocr-belge-ai-2026\" style=\"color:#60a5fa\">Leitfaden</a> getrennt. Hier beauftragen Sie Rechnungslese-Software. Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Was kostet Rechnungslese-Software?",
+      "a1": "Ein Belegtyp 45.000–90.000 TL (3–6 Wochen), mehrere Belege + Klassifikation 90.000–180.000 TL, Enterprise Document-AI 180.000–350.000+ TL. Kickoff kostenlos; Festpreis nach Musterbelegen.",
+      "q2": "Schreibt es nach Logo oder Netsis?",
+      "a2": "Ja. Rechnungs- und Lieferscheinfelder per API nach <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo, Netsis</a> oder Ihre FiBu. SAP und Custom-Ledgers ebenfalls; Doppelte Erfassung endet.",
+      "q3": "Fertigpaket oder Custom?",
+      "a3": "OCR-Engine plus Training auf Ihre Vorlagen. Keine Box; Installation gegen Logo/Netsis und Ihren Freigabefluss. Menschliche Freigabe zielt auf 95 %+ Feldgenauigkeit.",
+      "q4": "Ich wollte nur wissen, was OCR ist?",
+      "a4link": "Ankara OCR- und Document-AI-Leitfaden",
+      "a4": "ist der Erklärtext. Rechnungslese-Software beauftragen Sie auf dieser Seite; kostenloser Kickoff über /iletisim."
+    },
+    "cta": {
+      "btn": "Kostenloses Erstgespräch",
+      "title": "Sprechen wir über Ihren Rechnungsfluss",
+      "desc": "Kostenloser Kickoff — Belegmenge, welches ERP, Budget. <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>",
+      "btn2": "Kostenloses Angebot",
+      "link1": "Prozessautomatisierung",
+      "link2": "Was ist OCR?"
+    },
+    "footer": "© 2026 Ozturksoft — Rechnungslese-Software",
+    "related": {
+      "logo": "Logo-Netsis-Anbindung",
+      "proc": "Prozessautomatisierung",
+      "ai": "KI-Integration",
+      "custom": "Individuelle Software",
+      "guide": "OCR-Leitfaden"
+    }
   }
 }

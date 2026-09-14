@@ -55,9 +55,15 @@ function saveLang(lang: string) {
 const pageLang = detectPageLang();
 saveLang(pageLang);
 
+function resolvedLang(): string {
+    const raw = i18next.resolvedLanguage || i18next.language || getSavedLang();
+    return (raw.split('-')[0] || 'tr').toLowerCase();
+}
+
 i18next.init({
     lng: pageLang,
     fallbackLng: 'tr',
+    interpolation: { escapeValue: false },
     resources: {
         tr: { translation: trTranslation },
         en: { translation: enTranslation },
@@ -68,24 +74,34 @@ i18next.init({
     }
 }).then(() => {
     updateContent();
-    updateDropdownUI(pageLang);
-    applyDocumentDir(pageLang);
-    updateLocaleNavLinks(pageLang);
+    const lang = resolvedLang();
+    updateDropdownUI(lang);
+    applyDocumentDir(lang);
+    updateLocaleNavLinks(lang);
 });
 
 // Çeviriyi Ekrana Uygulayan Fonksiyon
 function updateContent() {
+    const lang = resolvedLang();
+    document.documentElement.lang = lang;
+    applyDocumentDir(lang);
+
     document.querySelectorAll("[data-i18n]").forEach(el => {
         const key = el.getAttribute("data-i18n");
-        if (key) {
-            el.innerHTML = i18next.t(key);
+        if (!key) return;
+        const val = i18next.t(key);
+        if (typeof val !== 'string' || val === key) return;
+        if (el.tagName === 'TITLE') {
+            document.title = val.replace(/<[^>]+>/g, '');
+            return;
         }
+        el.innerHTML = val;
     });
     document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
         const key = el.getAttribute("data-i18n-placeholder");
-        if (key && (el instanceof HTMLInputElement || el instanceof HTMLTextAreaElement)) {
-            el.placeholder = i18next.t(key);
-        }
+        if (!key || !(el instanceof HTMLInputElement || el instanceof HTMLTextAreaElement)) return;
+        const val = i18next.t(key);
+        if (typeof val === 'string' && val !== key) el.placeholder = val;
     });
 }
 
@@ -136,7 +152,6 @@ async function changeLanguage(lang: string) {
     saveLang(lang);
     updateContent();
     updateDropdownUI(lang);
-    applyDocumentDir(lang);
     updateLocaleNavLinks(lang);
 }
 
@@ -221,7 +236,6 @@ function initLangUI() {
             e.stopPropagation();
             const lang = el.getAttribute('data-lang');
             if (!lang) return;
-            if (lang === i18next.language && !isLocaleHomePage()) return;
             await changeLanguage(lang);
             closeLangDropdown();
             closeMobileNav();

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ankara Web Tasarım | Ajans &amp; Fiyat | Ozturksoft</title>
+    <title data-i18n="webTasarimPage.meta.title">Ankara Web Tasarım | Ajans &amp; Fiyat | Ozturksoft</title>
     <meta name="description" content="Ankara web tasarım: kurumsal 15.000–90.000 TL, e-ticaret 30.000–250.000+ TL. Çankaya merkezli ajans, yerinde keşif, teknik SEO. Ücretsiz teklif — +90 546 549 6806." />
     <meta name="keywords" content="ankara web tasarım, ankara web tasarım şirketleri, ankara web tasarım ajansı, web tasarım ankara, ankara web sitesi, web tasarım fiyatları ankara" />
     <meta name="robots" content="index, follow">
@@ -94,26 +94,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin>
     <link rel="stylesheet" href="/src/style.css">
     <script type="module" src="/src/main.ts"></script>
-    <style>
-      .hub-hero{padding:140px 8% 60px;background:linear-gradient(135deg,rgba(2,6,23,.93),rgba(15,23,42,.88)),url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80') center/cover}
-      .hub-hero h1{font-size:2.6rem;font-weight:800;margin-bottom:16px;max-width:800px}
-      .hub-hero p{color:#94a3b8;font-size:1.1rem;max-width:700px;margin-bottom:28px}
-      .hub-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;padding:50px 8%;max-width:1200px;margin:0 auto}
-      .hub-card{background:#0f172a;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:28px}
-      .hub-card h3{color:#fff;margin-bottom:10px;font-size:1.15rem}
-      .hub-card p{color:#94a3b8;font-size:.95rem;margin-bottom:14px}
-      .hub-card a{color:#38bdf8;text-decoration:none;font-weight:600;font-size:.9rem}
-      .hub-section{max-width:900px;margin:0 auto;padding:40px 8%}
-      .hub-section h2{font-size:1.8rem;margin-bottom:20px;border-left:4px solid #38bdf8;padding-left:14px}
-      .hub-section li,.hub-section p{color:#94a3b8;margin-bottom:10px;line-height:1.7}
-      .hub-faq h3{color:#e2e8f0;margin:24px 0 8px;font-size:1.1rem}
-      .hub-cta{text-align:center;padding:60px 8%;background:linear-gradient(135deg,#0c4a6e,#1e1b4b);margin:40px 8% 80px;border-radius:16px}
-      .price-table{width:100%;border-collapse:collapse;margin:24px 0}
-      .price-table th{background:rgba(56,189,248,.15);color:#38bdf8;padding:12px;text-align:left}
-      .price-table td{padding:12px;border-bottom:1px solid rgba(255,255,255,.06);color:#94a3b8}
-    </style>
 </head>
-<body>
+<body style="--lp-accent:#38bdf8">
     <nav>
         <a href="/"><img src="/images/logo.png" alt="Ozturksoft" class="logo-img" height="80"></a>
         <ul class="nav-links" id="navLinks">
@@ -121,7 +103,7 @@
             <li><a href="/hakkimizda" data-i18n="nav.about">Hakkımızda</a></li>
             <li><a href="/hizmetler" data-i18n="nav.services">Hizmetler</a></li>
             <li><a href="/ankara-yapay-zeka-firmasi" data-i18n="nav.ai">Yapay Zeka</a></li>
-            <li><a href="/blog">Blog</a></li>
+            <li><a href="/blog" data-i18n="nav.blog">Blog</a></li>
             <li><a href="/iletisim" data-i18n="nav.contact">İletişim</a></li>
         </ul>
         <div style="display:flex;align-items:center;gap:12px">
@@ -146,79 +128,127 @@
         </div>
     </nav>
 
-    <header class="hub-hero">
-        <span style="color:#38bdf8;font-weight:700;font-size:.85rem;letter-spacing:.1em;text-transform:uppercase">Çankaya · Ajans · SEO · +90 546 549 6806</span>
-        <h1>Ankara Web Tasarım</h1>
-        <p>Ankara’da web tasarım şirketi arıyorsanız: kurumsal site, e-ticaret, teknik SEO. Şablon ajans değil; yazılı teklif, yerinde keşif. “Yaptırmak” sayfası ayrı; burası firma / ajans araması için.</p>
-        <a href="/iletisim" class="btn btn-primary">Ücretsiz keşif görüşmesi</a>
+    <header class="lp-hero" style="background-image:linear-gradient(135deg,rgba(2,6,23,.92),rgba(15,23,42,.78)),url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80')">
+        <div class="lp-hero-inner">
+            <span class="lp-kicker" data-i18n="webTasarimPage.hero.badge">Çankaya · Ajans · SEO · +90 546 549 6806</span>
+            <h1 data-i18n="webTasarimPage.hero.title">Ankara Web Tasarım</h1>
+            <p data-i18n="webTasarimPage.hero.desc">Ankara web tasarım şirketi ve ajans arayan KOBİ, holding ve üretim firmaları için kurumsal site, e-ticaret ve teknik SEO. Çankaya merkezli Ozturksoft şablon satmaz; yazılı teklif, yerinde keşif ve teslim sonrası panel eğitimi verir. “<a href="/web-sitesi-yaptirmak-ankara">Web sitesi yaptırmak</a>” sipariş sayfası ayrı durur — burası firma listesine bakanlar içindir.</p>
+            <div class="lp-hero-actions">
+                <a href="/iletisim" class="btn btn-primary" data-i18n="webTasarimPage.cta.btn">Ücretsiz keşif görüşmesi</a>
+                <a href="tel:+905465496806" class="btn btn-outline">+90 546 549 6806</a>
+            </div>
+            <div class="lp-stats">
+                <div class="lp-stat"><strong data-i18n="webTasarimPage.stats.s1n">Çankaya</strong><span data-i18n="webTasarimPage.stats.s1l">Yerinde keşif</span></div>
+                <div class="lp-stat"><strong>15.000 – 90.000 TL</strong><span data-i18n="webTasarimPage.stats.s2l">Kurumsal web tasarım</span></div>
+                <div class="lp-stat"><strong data-i18n="webTasarimPage.pricing.t1">3–6 hafta</strong><span data-i18n="webTasarimPage.stats.s3l">Teslim süresi</span></div>
+            </div>
+        </div>
     </header>
 
-    <section class="hub-section">
-        <h2>Ankara web tasarım fiyatları (2026)</h2>
-        <table class="price-table">
-            <thead><tr><th>Kapsam</th><th>Fiyat</th><th>Süre</th></tr></thead>
-            <tbody>
-                <tr><td>Kurumsal web tasarım</td><td>15.000 – 90.000 TL</td><td>3–6 hafta</td></tr>
-                <tr><td>E-ticaret</td><td>30.000 – 250.000+ TL</td><td>6–14 hafta</td></tr>
-                <tr><td>Landing / kampanya</td><td>5.000 – 15.000 TL</td><td>1–3 hafta</td></tr>
-            </tbody>
-        </table>
-        <p>Sipariş cümlesi ayrı: <a href="/web-sitesi-yaptirmak-ankara" style="color:#38bdf8">web sitesi yaptırmak</a>. Kalem kalem: <a href="/blog/ankara-web-sitesi-maliyeti-2026" style="color:#38bdf8">maliyet rehberi</a>.</p>
+    <section class="lp-section">
+        <h2 data-i18n="webTasarimPage.pricing.title">Ankara web tasarım fiyatları (2026)</h2>
+        <p class="lp-lead" data-i18n="webTasarimPage.pricing.intro">Fiyat sayfa sayısı, dil, e-ticaret ve entegrasyona göre değişir. Aşağıdaki bantlar 2026 Ankara piyasası içindir; keşif ücretsiz, teklif yazılıdır.</p>
+        <div class="lp-price-grid">
+            <article class="lp-price-card">
+                <h3 data-i18n="webTasarimPage.pricing.row1">Kurumsal web tasarım</h3>
+                <div class="lp-amt">15.000 – 90.000 TL</div>
+                <div class="lp-time" data-i18n="webTasarimPage.pricing.t1">3–6 hafta</div>
+            </article>
+            <article class="lp-price-card">
+                <h3 data-i18n="webTasarimPage.pricing.row2">E-ticaret</h3>
+                <div class="lp-amt">30.000 – 250.000+ TL</div>
+                <div class="lp-time" data-i18n="webTasarimPage.pricing.t2">6–14 hafta</div>
+            </article>
+            <article class="lp-price-card">
+                <h3 data-i18n="webTasarimPage.pricing.row3">Landing / kampanya</h3>
+                <div class="lp-amt">5.000 – 15.000 TL</div>
+                <div class="lp-time" data-i18n="webTasarimPage.pricing.t3">1–3 hafta</div>
+            </article>
+        </div>
+        <p class="lp-links"><a href="/web-sitesi-yaptirmak-ankara" data-i18n="webTasarimPage.pricing.linkOrder">Web sitesi yaptırmak</a> · <a href="/blog/ankara-web-sitesi-maliyeti-2026" data-i18n="webTasarimPage.pricing.linkGuide">Maliyet rehberi</a></p>
     </section>
 
-    <section class="hub-grid">
-        <div class="hub-card">
-            <h3>📍 Çankaya, yerinde</h3>
-            <p>Ankara içi keşif ofiste veya sizin yerinizde. İstanbul ve diğer iller uzaktan.</p>
-        </div>
-        <div class="hub-card">
-            <h3>🏢 Kurumsal site</h3>
-            <p>Holding, kamu, KOBİ tanıtım. Panel, form, çok dil.</p>
-        </div>
-        <div class="hub-card">
-            <h3>🛒 E-ticaret</h3>
-            <p>Sepet, ödeme, kargo. WooCommerce veya özel.</p>
-            <a href="/e-ticaret-sitesi-yaptirmak">E-ticaret sitesi yaptırmak →</a>
-        </div>
-        <div class="hub-card">
-            <h3>💻 Yazılım da aynı ekip</h3>
-            <p>Logo, mobil, WhatsApp bot. Ajans + yazılım evi ayrılmaz.</p>
-            <a href="/ankara-yazilim-sirketi">Ankara yazılım şirketi →</a>
+    <section class="lp-section" style="padding-top:0">
+        <div class="lp-grid">
+            <article class="lp-card">
+                <h3 data-i18n="webTasarimPage.cards.c1title">📍 Çankaya, yerinde keşif</h3>
+                <p data-i18n="webTasarimPage.cards.c1desc">Ankara içi keşif ofiste veya sizin yerinizde yapılır. Çankaya, OSTİM, Söğütözü ve organize sanayi bölgeleri dahil. İstanbul ve diğer illere uzaktan hizmet verilir.</p>
+                <a href="/iletisim" data-i18n="webTasarimPage.cards.c1link">Keşif ayarla →</a>
+            </article>
+            <article class="lp-card">
+                <h3 data-i18n="webTasarimPage.cards.c2title">🏢 Kurumsal web sitesi</h3>
+                <p data-i18n="webTasarimPage.cards.c2desc">Holding, kamu ve KOBİ tanıtım siteleri: hizmetler, hakkında, iletişim formu, çok dil, yönetim paneli. Teslimatta teknik SEO (hız, mobil, schema) dahildir.</p>
+                <a href="/web-sitesi-yaptirmak-ankara" data-i18n="webTasarimPage.cards.c2link">Web sitesi yaptırmak →</a>
+            </article>
+            <article class="lp-card">
+                <h3 data-i18n="webTasarimPage.cards.c3title">🛒 E-ticaret mağazası</h3>
+                <p data-i18n="webTasarimPage.cards.c3desc">Sepet, iyzico/PayTR, kargo API ve stok. WooCommerce veya özel altyapı; Logo/Netsis bağlantısı aynı projeye eklenebilir.</p>
+                <a href="/e-ticaret-sitesi-yaptirmak" data-i18n="webTasarimPage.cards.c3link">E-ticaret sitesi yaptırmak →</a>
+            </article>
+            <article class="lp-card">
+                <h3 data-i18n="webTasarimPage.cards.c4title">💻 Yazılım aynı ekipte</h3>
+                <p data-i18n="webTasarimPage.cards.c4desc">Sadece görsel ajans değilleriz. <a href="/logo-netsis-entegrasyon">Logo entegrasyonu</a>, <a href="/mobil-uygulama-yaptirmak">mobil uygulama</a> ve <a href="/whatsapp-chatbot-yaptirmak">WhatsApp bot</a> aynı Çankaya ekibinde yürür; tedarikçi parçalanmaz.</p>
+                <a href="/ankara-yazilim-sirketi" data-i18n="webTasarimPage.cards.c4link">Ankara yazılım şirketi →</a>
+            </article>
         </div>
     </section>
 
-    <section class="hub-section">
-        <h2>Kim arar?</h2>
-        <ul>
-            <li>“Ankara web tasarım şirketleri” diye listeye bakıyorsunuz</li>
-            <li>Ajans değil, teslim edecek ekip istiyorsunuz</li>
-            <li>Çankaya / OSTİM / Söğütözü — yerinde görüşmek istiyorsunuz</li>
-            <li>Site + SEO + ileride yazılım aynı yerde kalsın</li>
+    <section class="lp-section lp-narrow">
+        <h2 data-i18n="webTasarimPage.who.title">Ankara’da web tasarımı kim yaptırır?</h2>
+        <p class="lp-lead" data-i18n="webTasarimPage.who.intro">“Ankara web tasarım” ve “Ankara web tasarım şirketleri” araması, ajans kartviziti toplayan KOBİ’lerden OSTİM’deki üreticiye kadar aynı niyeti taşır: yerelde, yazılı fiyatla, teslim edecek bir ekip. Ozturksoft Çankaya merkezlidir; şablon tema satmaz, kurumsal site ve e-ticareti teknik SEO ile birlikte kurar.</p>
+        <ul class="lp-list">
+            <li data-i18n="webTasarimPage.who.i1">Google’da Ankara web tasarım şirketleri ve ajans listesine bakıyorsunuz. Referans, yerinde keşif ve kalem kalem teklif istiyorsunuz; “kaç günde yayına çıkar?” sorusunun cevabı yazılı olsun.</li>
+            <li data-i18n="webTasarimPage.who.i2">Sadece görsel tasarım ajansı değil, teslim edecek yazılım ekibi arıyorsunuz. Yönetim paneli, form, hız, SSL ve bakım aynı firmada kalsın; PSD teslim edip kaybolan stüdyo istemiyorsunuz.</li>
+            <li data-i18n="webTasarimPage.who.i3">Çankaya, OSTİM veya Söğütözü’ndesiniz; keşfi ofiste veya sizin yerinizde yapmak istiyorsunuz. Ankara içi yerinde görüşme vardır. İstanbul, İzmir ve diğer illere proje uzaktan yürür.</li>
+            <li data-i18n="webTasarimPage.who.i4">Bugün kurumsal site, yarın teknik SEO, <a href="/mobil-uygulama-yaptirmak">mobil uygulama</a> veya <a href="/logo-netsis-entegrasyon">Logo bağlantısı</a>. Tek tedarikçi kalsın diye web tasarım ile yazılımı ayırmak istemiyorsunuz.</li>
         </ul>
+        <p class="lp-lead" data-i18n="webTasarimPage.who.outro">Aramanız “<a href="/web-sitesi-yaptirmak-ankara">web sitesi yaptırmak Ankara</a>” ise sipariş sayfası ayrı durur; fiyat bantları aynıdır. Bu sayfa yerel web tasarım firması / ajans arayanlar içindir. Ücretsiz keşif: <a href="tel:+905465496806">+90 546 549 6806</a>.</p>
     </section>
 
-    <section class="hub-section hub-faq">
-        <h2>Sık sorulanlar</h2>
-        <h3>Ankara web tasarım ne kadar?</h3>
-        <p>Kurumsal 15.000–90.000 TL, e-ticaret 30.000–250.000+ TL. Keşif ücretsiz.</p>
-        <h3>Ajans mı yazılım şirketi mi?</h3>
-        <p>Ozturksoft yazılım şirketi; web tasarımı da yapıyor. Sadece PSD satılmaz.</p>
-        <h3>Sadece yaptırmak mı arıyorsunuz?</h3>
-        <p><a href="/web-sitesi-yaptirmak-ankara" style="color:#38bdf8">Web sitesi yaptırmak Ankara</a> — aynı fiyat, sipariş odaklı sayfa.</p>
+    <section class="lp-section lp-narrow" style="padding-top:0">
+        <h2 data-i18n="webTasarimPage.diff.title">Ankara web tasarım ajansı mı, yazılım şirketi mi?</h2>
+        <p class="lp-lead" data-i18n="webTasarimPage.diff.p1">Ankara web tasarım şirketleri listesinde çoğu firma tema satar veya PSD teslim eder. Ozturksoft Çankaya’da <a href="/ankara-yazilim-sirketi">yazılım şirketidir</a>: kurumsal web sitesi, <a href="/e-ticaret-sitesi-yaptirmak">e-ticaret mağazası</a> ve teknik SEO aynı ekipte üretilir. Yönetim paneli, form, hız, schema ve bakım teslimata dahildir; “ajans işi bitti, yazılımcı bulun” denmez.</p>
+        <p class="lp-lead" data-i18n="webTasarimPage.diff.p2">Yerel arama — Ankara web tasarım ajansı, web tasarım Ankara, Çankaya web tasarım — Google Haritalar ve firma karşılaştırması içindir. Keşif ofiste veya OSTİM / Söğütözü / Yenimahalle’de sizin yerinizde yapılır. İstanbul ve diğer illere proje uzaktan yürür. <a href="/logo-netsis-entegrasyon">Logo entegrasyonu</a>, <a href="/mobil-uygulama-yaptirmak">mobil uygulama</a> veya <a href="/whatsapp-chatbot-yaptirmak">WhatsApp bot</a> aynı Çankaya ekibinde eklenir.</p>
     </section>
 
-    <section class="hub-cta">
-        <h2 style="margin-bottom:12px">Ankara’da keşif ayarlayalım</h2>
-        <p style="color:#94a3b8;margin-bottom:24px">Çankaya · ücretsiz keşif · +90 546 549 6806</p>
-        <a href="/iletisim" class="btn btn-primary" style="padding:16px 36px">Ücretsiz teklif al</a>
-        <p style="margin-top:20px;font-size:.9rem;color:#64748b">
-            <a href="/web-sitesi-yaptirmak-ankara" style="color:#38bdf8">Web sitesi yaptırmak</a> ·
-            <a href="/ankara-yazilim-sirketi" style="color:#38bdf8">Yazılım şirketi</a>
+    <section class="lp-section lp-narrow lp-faq" style="padding-top:0">
+        <h2 data-i18n="webTasarimPage.faq.title">Sık sorulanlar</h2>
+        <details open>
+            <summary data-i18n="webTasarimPage.faq.q1">Ankara web tasarım fiyatları ne kadar?</summary>
+            <p data-i18n="webTasarimPage.faq.a1">Kurumsal web tasarım 15.000–90.000 TL (3–6 hafta), e-ticaret 30.000–250.000+ TL, kampanya sayfası 5.000–15.000 TL. Keşif ücretsizdir; net fiyat kapsam yazıldıktan sonra verilir.</p>
+        </details>
+        <details>
+            <summary data-i18n="webTasarimPage.faq.q2">Ajans mı, yazılım şirketi mi?</summary>
+            <p data-i18n="webTasarimPage.faq.a2">Ozturksoft Ankara yazılım şirketidir; web tasarımı da aynı ekipte üretir. Sadece mockup veya WordPress tema satılmaz. Panel, SEO iskeleti ve bakım teslimata dahildir.</p>
+        </details>
+        <details>
+            <summary data-i18n="webTasarimPage.faq.q3">Yerinde görüşme olur mu?</summary>
+            <p data-i18n="webTasarimPage.faq.a3">Evet. Çankaya merkez. Ankara genelinde (OSTİM, Söğütözü, Çankaya, Yenimahalle) yerinde keşif yapılır. Diğer illere Zoom / uzaktan keşif yeter.</p>
+        </details>
+        <details>
+            <summary data-i18n="webTasarimPage.faq.q4">Web sitesi yaptırmak sayfası neden ayrı?</summary>
+            <p><a href="/web-sitesi-yaptirmak-ankara" data-i18n="webTasarimPage.faq.a4link">Web sitesi yaptırmak Ankara</a> <span data-i18n="webTasarimPage.faq.a4">sipariş niyetlidir. Bu sayfa “Ankara web tasarım şirketleri / ajansı” arayanlar içindir. Fiyat aynı, cümle farklıdır.</span></p>
+        </details>
+    </section>
+
+    <section class="lp-cta">
+        <h2 data-i18n="webTasarimPage.cta.title">Ankara’da keşif ayarlayalım</h2>
+        <p data-i18n="webTasarimPage.cta.desc">Çankaya · ücretsiz keşif · <a href="tel:+905465496806">+90 546 549 6806</a></p>
+        <a href="/iletisim" class="btn btn-primary" style="padding:16px 36px" data-i18n="webTasarimPage.cta.btn2">Ücretsiz teklif al</a>
+        <p class="lp-links" style="margin-top:22px">
+            <a href="/web-sitesi-yaptirmak-ankara" data-i18n="webTasarimPage.related.web">Web sitesi yaptırmak</a> ·
+            <a href="/e-ticaret-sitesi-yaptirmak" data-i18n="webTasarimPage.related.shop">E-ticaret sitesi yaptırmak</a> ·
+            <a href="/ankara-yazilim-sirketi" data-i18n="webTasarimPage.related.soft">Yazılım şirketi</a> ·
+            <a href="/logo-netsis-entegrasyon" data-i18n="webTasarimPage.related.logo">Logo Netsis</a> ·
+            <a href="/whatsapp-chatbot-yaptirmak" data-i18n="webTasarimPage.related.wa">WhatsApp chatbot</a> ·
+            <a href="/mobil-uygulama-yaptirmak" data-i18n="webTasarimPage.related.app">Mobil uygulama</a> ·
+            <a href="/blog/ankara-web-sitesi-maliyeti-2026" data-i18n="webTasarimPage.related.guide">Maliyet rehberi</a>
         </p>
     </section>
 
-    <footer style="text-align:center;padding:30px;color:#64748b;border-top:1px solid rgba(255,255,255,.06)">
-        <p>© 2026 Ozturksoft — Ankara web tasarım | <a href="/" style="color:#3b82f6">Ana Sayfa</a> · <a href="/hizmetler" style="color:#3b82f6">Hizmetler</a></p>
+    <footer class="lp-footer">
+        <p data-i18n="webTasarimPage.footer">© 2026 Ozturksoft — Ankara web tasarım</p>
+        <p style="margin-top:10px"><a href="/" data-i18n="nav.home">Ana Sayfa</a> · <a href="/hizmetler" data-i18n="nav.services">Hizmetler</a> · <a href="/iletisim" data-i18n="nav.contact">İletişim</a></p>
     </footer>
 </body>
 </html>
