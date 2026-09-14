@@ -1683,7 +1683,9 @@
       "logo": "Logo Netsis",
       "wa": "WhatsApp chatbot",
       "custom": "Özel yazılım",
-      "guide": "Maliyet rehberi"
+      "guide": "Maliyet rehberi",
+      "ty": "Trendyol entegrasyonu",
+      "ef": "E-fatura"
     }
   },
   "faturaOkumaPage": {
@@ -1756,7 +1758,540 @@
       "proc": "Süreç otomasyonu",
       "ai": "Yapay zeka entegrasyonu",
       "custom": "Özel yazılım",
-      "guide": "OCR rehberi"
+      "guide": "OCR rehberi",
+      "ef": "E-fatura entegrasyonu"
+    }
+  },
+  "yzEntegrasyonPage": {
+    "hero": {
+      "badge": "ChatGPT · GPT · Claude · RAG · KVKK · +90 546 549 6806",
+      "title": "Yapay Zeka Entegrasyonu",
+      "desc": "Yapay zeka entegrasyonu: ChatGPT / GPT, Claude veya Llama’yı mevcut yazılımınıza bağlarız. Şirket dokümanından yanıt (RAG), chatbot, on-premise KVKK. ChatGPT hesabı açmak entegrasyon değildir — API, yetki ve iş sürecine yazılır. Çankaya merkezli Ozturksoft hazır paket satmaz; yazılı teklif, ücretsiz keşif. Rehber ayrı durur: <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">LLM rehberi</a> · <a href=\"/blog/ankara-llm-entegrasyonu-maliyeti-2026\" style=\"color:#818cf8\">maliyet</a>."
+    },
+    "pricing": {
+      "title": "Yapay zeka entegrasyonu fiyatı (2026)",
+      "intro": "Fiyat model, RAG kapsamı, KVKK ve bağlanacak sisteme göre değişir. Aşağıdaki bantlar 2026 Ankara piyasası içindir; keşif ücretsiz, teklif yazılıdır. Aylık API ayrıdır.",
+      "row1": "GPT / ChatGPT chatbot",
+      "row2": "RAG / şirket içi asistan",
+      "row3": "On-premise / kurumsal AI",
+      "t1": "3–5 hafta",
+      "t2": "6–10 hafta",
+      "t3": "2–6 ay",
+      "linkGuide": "LLM maliyet rehberi",
+      "linkLlm": "LLM / GPT rehberi"
+    },
+    "cards": {
+      "c1title": "💬 ChatGPT / GPT bağlama",
+      "c1desc": "OpenAI, Claude veya Llama API iş yazılımına yazılır. Yetki, log ve yanıt şablonu sizin sürecinize göre kurulur. ChatGPT sekmesi yetmez; entegrasyon kopyala-yapıştırı bitirir.",
+      "c1link": "Keşif ayarla →",
+      "c2title": "📄 RAG — şirket dokümanı",
+      "c2desc": "Prosedür, fiyat listesi, evrak. Model uydurmasın; sizin metninizden yanıtlasın. Şirket içi yapay zeka asistanı bu katmandır.",
+      "c2link": "RAG nedir →",
+      "c3title": "🔒 On-premise / KVKK",
+      "c3desc": "Kamu ve holding: veri kurum ağında kalır. TR barındırma veya yerel model. <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#818cf8\">Kamu AI</a> ve <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#818cf8\">KVKK rehberi</a> ayrı durur.",
+      "c3link": "Kamu yapay zeka →",
+      "c4title": "⚡ Chatbot ve agent ayrı",
+      "c4desc": "Kanal botu <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp chatbot</a>; otonom iş <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a>. Bu sayfa LLM’yi yazılımınıza bağlamaktır; o iki iş ayrı durur.",
+      "c4link": "AI agent yaptırmak →"
+    },
+    "who": {
+      "title": "Yapay zeka entegrasyonunu kim yaptırır?",
+      "intro": "“Yapay zeka entegrasyonu”, “ChatGPT entegrasyonu” ve “LLM entegrasyonu” aynı siparişi taşır: modeli iş yazılımına bağlamak. Ozturksoft Çankaya’da hazır ChatGPT ekranı satmaz; RAG, yetki ve KVKK ile yazılı teslim eder.",
+      "i1": "ChatGPT’yi iş sürecine bağlamak istiyorsunuz. Hesap açmak yetmedi; API, yetki ve şirket dokümanından yanıt lazım. “ChatGPT entegrasyonu Ankara” diye yerelde teslim edecek ekip arıyorsunuz.",
+      "i2": "Prosedür ve fiyat listesi PDF’te duruyor; temsilci her seferinde arıyor. RAG ile şirket içi asistan, uydurma cevabı kessin. Veri mümkünse dışarı çıkmasın.",
+      "i3": "Holding, kamu veya finans: on-premise veya TR barındırma şart. Model seçimi (GPT, Claude, Llama) keşifte maliyet ve KVKK’ya göre yazılır.",
+      "i4": "Sadece sohbet değil; yarın <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a>, <a href=\"/fatura-okuma\" style=\"color:#818cf8\">fatura OCR</a> veya <a href=\"/surec-otomasyonu\" style=\"color:#818cf8\">süreç otomasyonu</a> aynı ekipte eklensin. Tek tedarikçi.",
+      "outro": "Aramanız rehber ise <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">LLM yazısı</a> ayrı durur. Bu sayfa iş yaptırmak içindir. Ücretsiz keşif: <a href=\"tel:+905465496806\" style=\"color:#818cf8\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Sık sorulanlar",
+      "q1": "Yapay zeka entegrasyonu ne kadar tutar?",
+      "a1": "GPT/ChatGPT chatbot 40.000–80.000 TL (3–5 hafta), RAG şirket içi asistan 80.000–200.000 TL (6–10 hafta), on-premise kurumsal 150.000–500.000+ TL. Keşif ücretsizdir; net fiyat kapsam yazıldıktan sonra verilir. Aylık API ayrıca.",
+      "q2": "ChatGPT entegrasyonu hesap açmak mıdır?",
+      "a2": "Hayır. ChatGPT hesabı kopyala-yapıştır kalır. Entegrasyon API, yetki, RAG ve iş yazılımına bağlamadır. Yanıt sizin dokümandan gelir; süreç kaydı tutulur.",
+      "q3": "Veriler dışarı çıkar mı?",
+      "a3": "Zorunlu değil. On-premise veya Türkiye’de barındırma seçilir. Kamu ve holdingde veri kurum ağında kalır. Model (GPT, Claude, Llama) keşifte netleşir.",
+      "q4": "Chatbot ve AI agent bu sayfada mı?",
+      "a4": "Web chatbot <a href=\"/chatbot-yaptirmak\" style=\"color:#818cf8\">chatbot yaptırmak</a>, WhatsApp kanalı <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp chatbot</a>, otonom iş <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a> sayfalarındadır. Bu URL LLM / ChatGPT / RAG bağlamadır."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "AI projenizi konuşalım",
+      "desc": "Ücretsiz keşif — model, KVKK, bütçe. <a href=\"tel:+905465496806\" style=\"color:#818cf8\">+90 546 549 6806</a>",
+      "btn2": "Ücretsiz teklif al"
+    },
+    "footer": "© 2026 Ozturksoft — Yapay zeka entegrasyonu",
+    "related": {
+      "wa": "WhatsApp chatbot",
+      "agent": "AI agent",
+      "ocr": "Fatura okuma",
+      "proc": "Süreç otomasyonu",
+      "hub": "Yapay zeka firması",
+      "guide": "LLM rehberi",
+      "bot": "Chatbot yaptırmak"
+    },
+    "meta": {
+      "title": "Yapay Zeka Entegrasyonu | ChatGPT & LLM | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "GPT / ChatGPT chatbot",
+      "s2l": "RAG / şirket içi asistan",
+      "s3l": "RAG teslim"
+    }
+  },
+  "chatbotPage": {
+    "hero": {
+      "badge": "Web · GPT · CRM · KVKK · +90 546 549 6806",
+      "title": "Chatbot Yaptırmak",
+      "desc": "Chatbot yaptırmak: sitede 7/24 yanıt, GPT ve şirket dokümanından RAG. Çankaya merkezli Ozturksoft hazır bot satmaz; yazılı teklif, ücretsiz keşif. WhatsApp kanalı ayrı durur — <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp chatbot yaptırmak</a>. Rehber: <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">chatbot maliyeti</a>."
+    },
+    "pricing": {
+      "title": "Chatbot yaptırmak fiyatı (2026)",
+      "intro": "Fiyat senaryo, GPT, RAG ve CRM’e göre değişir. Bantlar 2026 Ankara piyasasıdır; keşif ücretsiz, teklif yazılıdır. Aylık API ayrıdır.",
+      "row1": "FAQ / kural tabanlı",
+      "row2": "GPT web chatbot",
+      "row3": "RAG / şirket dokümanı",
+      "t1": "2–4 hafta",
+      "t2": "3–5 hafta",
+      "t3": "6–10 hafta",
+      "linkWa": "WhatsApp chatbot (60.000–100.000 TL)",
+      "linkGuide": "Maliyet rehberi"
+    },
+    "cards": {
+      "c1title": "💬 Site widget",
+      "c1desc": "Kurumsal site ve e-ticarette köşe sohbet. SSS, sipariş durumu, insan devri. Mobil ve masaüstü aynı asistan.",
+      "c1link": "Keşif ayarla →",
+      "c2title": "🧠 GPT + RAG",
+      "c2desc": "Katalog ve prosedürden yanıt. Uydurma düşer. LLM bağlamı <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">yapay zeka entegrasyonu</a> ile aynı ekipte yürür.",
+      "c2link": "ChatGPT / LLM bağla →",
+      "c3title": "📱 WhatsApp ayrı kanal",
+      "c3desc": "Aynı asistan WhatsApp’a da çıkar; Business API ve Meta ücreti o sayfada. Bu URL web / GPT chatbot siparişidir.",
+      "c3link": "WhatsApp chatbot yaptırmak →",
+      "c4title": "⚡ Agent değil",
+      "c4desc": "Chatbot konuşur. E-posta atıp CRM yazacak otonom iş <a href=\"/ai-agent\" style=\"color:#2dd4bf\">AI agent</a> sayfasındadır.",
+      "c4link": "AI agent yaptırmak →"
+    },
+    "who": {
+      "title": "Chatbotu kim yaptırır?",
+      "intro": "“Chatbot yaptırmak”, “yapay zeka chatbot” ve “GPT chatbot” aynı siparişi taşır: sitede veya panelde 7/24 yanıt. WhatsApp arayanlar kanal sayfasına gider. Ozturksoft Çankaya’da hazır kutu bot satmaz; senaryo, GPT ve CRM yazılı teslim edilir.",
+      "i1": "Müşteri hizmetleri mesai dışında kapanıyor. Sitede SSS, kargo ve iade soruları botta bitsin; zor soru insana devredilsin.",
+      "i2": "GPT veya ChatGPT ile katalogdan yanıt istiyorsunuz. Hesap yetmez; widget, yetki ve şirket metninden RAG lazım.",
+      "i3": "WhatsApp da istiyorsunuz ama önce web. Kanal <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp chatbot</a> sayfasında eklenir; aynı asistan paylaşılır.",
+      "i4": "Yarın CRM güncellemesi veya sipariş açma lazım olursa <a href=\"/ai-agent\" style=\"color:#2dd4bf\">AI agent</a> aynı ekipte eklenir. Tek tedarikçi.",
+      "outro": "Aramanız rehber ise <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">maliyet yazısı</a> ayrı durur. Bu sayfa iş yaptırmak içindir. Ücretsiz keşif: <a href=\"tel:+905465496806\" style=\"color:#2dd4bf\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Sık sorulanlar",
+      "q1": "Chatbot yaptırmak ne kadar tutar?",
+      "a1": "FAQ 25.000–45.000 TL (2–4 hafta), GPT web 45.000–80.000 TL (3–5 hafta), RAG 80.000–150.000 TL (6–10 hafta). WhatsApp AI 60.000–100.000 TL ayrı kanaldadır. Keşif ücretsiz; net fiyat kapsam yazıldıktan sonra.",
+      "q2": "WhatsApp chatbot ile farkı nedir?",
+      "a2": "Bu sayfa site widget ve GPT bottur. WhatsApp Business API, şablon mesaj ve Meta ücreti <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp chatbot yaptırmak</a> sayfasındadır. İkisi aynı asistan olabilir.",
+      "q3": "Chatbot ile AI agent farkı?",
+      "a3": "Chatbot soru yanıtlar. Agent araç kullanır: e-posta, CRM, sipariş. Otonom iş <a href=\"/ai-agent\" style=\"color:#2dd4bf\">AI agent</a> sayfasındadır.",
+      "q4": "Veriler dışarı çıkar mı?",
+      "a4": "Zorunlu değil. On-premise veya TR barındırma seçilir. LLM katmanı <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">yapay zeka entegrasyonu</a> ile aynı KVKK mimarisinde kurulur."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "Chatbotunuzu konuşalım",
+      "desc": "Ücretsiz keşif — senaryo, GPT, bütçe. <a href=\"tel:+905465496806\" style=\"color:#2dd4bf\">+90 546 549 6806</a>",
+      "btn2": "Ücretsiz teklif al"
+    },
+    "footer": "© 2026 Ozturksoft — Chatbot yaptırmak",
+    "related": {
+      "wa": "WhatsApp chatbot",
+      "ai": "Yapay zeka entegrasyonu",
+      "agent": "AI agent",
+      "asistan": "AI Asistan",
+      "hub": "Yapay zeka firması",
+      "guide": "Maliyet rehberi"
+    },
+    "meta": {
+      "title": "Chatbot Yaptırmak | GPT & Web Bot Fiyat | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "FAQ chatbot",
+      "s2l": "GPT web chatbot",
+      "s3l": "GPT teslim"
+    }
+  },
+  "aiAgentPage": {
+    "hero": {
+      "badge": "Otonom · CRM · ERP · MCP · +90 546 549 6806",
+      "title": "AI Agent Yaptırmak",
+      "desc": "AI agent yaptırmak: sohbet botu değil. E-posta sınıflar, CRM günceller, sipariş açar, rapor üretir. Kritik adımda insan onayı kuraldır. Çankaya — yazılı teklif, ücretsiz keşif. Konuşan bot <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">chatbot yaptırmak</a> sayfasındadır. Rehber: <a href=\"/blog/ankara-ai-agents-gelistirme-2026\" style=\"color:#c084fc\">AI agents</a>."
+    },
+    "pricing": {
+      "title": "AI agent fiyatı (2026)",
+      "intro": "Fiyat araç sayısı, ERP ve on-premise’e göre değişir. Bantlar 2026 Ankara piyasasıdır; keşif ücretsiz, teklif yazılıdır.",
+      "row1": "PoC / tek senaryo",
+      "row2": "Çok araçlı kurumsal",
+      "row3": "On-premise + MCP",
+      "t1": "4–6 hafta",
+      "t2": "8–14 hafta",
+      "t3": "3–6 ay",
+      "linkGuide": "AI agents rehberi",
+      "linkBot": "Chatbot yaptırmak"
+    },
+    "cards": {
+      "c1title": "📬 Operasyon",
+      "c1desc": "Destek kuyruğu, sipariş, randevu. Agent araç çağırır; her adım loglanır. Kontrolsüz çalışmaz.",
+      "c1link": "Keşif ayarla →",
+      "c2title": "🔗 ERP / CRM",
+      "c2desc": "Logo, Netsis, özel API. Yanlış yazmasın diye onay kapısı konur. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">ERP entegrasyonu</a> aynı ekipte.",
+      "c2link": "Logo Netsis →",
+      "c3title": "🔄 RPA ile birlikte",
+      "c3desc": "RPA tıklar, agent karar verir. İkisi <a href=\"/surec-otomasyonu\" style=\"color:#c084fc\">süreç otomasyonu</a> ile aynı projede olabilir.",
+      "c3link": "Süreç otomasyonu →",
+      "c4title": "💬 Chatbot değil",
+      "c4desc": "Sadece yanıt için <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">chatbot</a> veya <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#c084fc\">WhatsApp</a>. Bu sayfa iş yapan ajandır.",
+      "c4link": "Chatbot yaptırmak →"
+    },
+    "who": {
+      "title": "AI agent’ı kim yaptırır?",
+      "intro": "“AI agent yaptırmak” ve “otonom yapay zeka” aynı sipariştir: modelin araç kullanması. Chatbot arayanlar konuşma sayfasına gider. Ozturksoft Çankaya’da hazır ajan satmaz; senaryo, yetki ve onay yazılı teslim edilir.",
+      "i1": "Destek kuyruğu ve e-posta elle yürüyor. Agent sınıflasın, taslak yazsın, CRM’e kayıt düşsün; yanlış kaydı insan onaylasın.",
+      "i2": "Sipariş veya randevu botta konuşuluyor ama sisteme yazılmıyor. Agent API çağırsın; Logo/Netsis aynı ekipte bağlansın.",
+      "i3": "Kamu veya holding: on-premise, MCP, audit. Veri ağda kalsın. Model keşifte netleşir.",
+      "i4": "Önce konuşan bot, yarın ajan. <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">Chatbot</a> ve agent aynı Çankaya ekibinde; tedarikçi parçalanmaz.",
+      "outro": "Rehber ayrıdır: <a href=\"/blog/ankara-ai-agents-gelistirme-2026\" style=\"color:#c084fc\">AI agents yazısı</a>. Bu sayfa iş yaptırmak içindir. Ücretsiz keşif: <a href=\"tel:+905465496806\" style=\"color:#c084fc\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Sık sorulanlar",
+      "q1": "AI agent yaptırmak ne kadar tutar?",
+      "a1": "PoC 60.000–120.000 TL (4–6 hafta), kurumsal 150.000–280.000 TL (8–14 hafta), on-premise + MCP 280.000–500.000+ TL. Keşif ücretsiz; net fiyat kapsam yazıldıktan sonra.",
+      "q2": "Chatbot’tan farkı nedir?",
+      "a2": "Chatbot soru yanıtlar — <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">chatbot yaptırmak</a>. Agent araç kullanır: e-posta, CRM, sipariş. İkisi aynı asistan ürününde birleşebilir: <a href=\"/ankara-ai-asistan\" style=\"color:#c084fc\">AI Asistan</a>.",
+      "q3": "Kontrolsüz mü çalışır?",
+      "a3": "Hayır. Kritik adımlarda insan onayı kuraldır. Log ve yetki teslimata dahildir.",
+      "q4": "ERP’ye bağlanır mı?",
+      "a4": "Evet. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">Logo, Netsis</a> ve özel API. Yanlış fiş yazılmasın diye onay kapısı konur."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "Agent senaryonuzu konuşalım",
+      "desc": "Ücretsiz keşif — hangi görev, hangi sistem. <a href=\"tel:+905465496806\" style=\"color:#c084fc\">+90 546 549 6806</a>",
+      "btn2": "Ücretsiz teklif al"
+    },
+    "footer": "© 2026 Ozturksoft — AI agent yaptırmak",
+    "related": {
+      "bot": "Chatbot yaptırmak",
+      "ai": "Yapay zeka entegrasyonu",
+      "proc": "Süreç otomasyonu",
+      "logo": "Logo Netsis",
+      "hub": "Yapay zeka firması",
+      "guide": "Rehber"
+    },
+    "meta": {
+      "title": "AI Agent Yaptırmak | Otonom Yapay Zeka | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "PoC / tek senaryo",
+      "s2l": "Kurumsal agent",
+      "s3l": "Kurumsal teslim"
+    }
+  },
+  "waChatbotPage": {
+    "hero": {
+      "badge": "Business API · GPT · CRM · +90 546 549 6806",
+      "title": "WhatsApp Chatbot Yaptırmak",
+      "desc": "WhatsApp chatbot yaptırmak: 7/24 sipariş, fiyat ve SSS. Resmi Business API, GPT/RAG, CRM. Çankaya — yazılı teklif, ücretsiz keşif. Site widget ayrıdır: <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">chatbot yaptırmak</a>. Rehber: <a href=\"/blog/whatsapp-chatbot-isletme-rehberi-2026\" style=\"color:#25d366\">WhatsApp rehberi</a>."
+    },
+    "pricing": {
+      "title": "WhatsApp chatbot fiyatı (2026)",
+      "intro": "Fiyat senaryo, GPT ve CRM’e göre değişir. Meta mesaj ücreti ayrıca. Bantlar 2026 Ankara piyasasıdır; keşif ücretsiz, teklif yazılıdır.",
+      "row1": "WhatsApp FAQ",
+      "row2": "WhatsApp GPT / AI",
+      "row3": "WhatsApp + CRM / ERP",
+      "t1": "3–5 hafta",
+      "t2": "4–8 hafta",
+      "t3": "6–12 hafta",
+      "linkWeb": "Web chatbot (site widget)",
+      "linkGuide": "WhatsApp rehberi"
+    },
+    "cards": {
+      "c1title": "💬 7/24 yanıt",
+      "c1desc": "Mesai dışında sipariş, fiyat, kargo. Zor soru insana devredilir. Şablon mesaj resmi API ile gider.",
+      "c1link": "Keşif ayarla →",
+      "c2title": "🔗 CRM ve stok",
+      "c2desc": "Sipariş, randevu, bakiye. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#25d366\">Logo / Netsis</a> veya özel API. Çift kayıt bitmez.",
+      "c2link": "ERP bağla →",
+      "c3title": "🌐 Web ayrı kanal",
+      "c3desc": "Site köşe sohbeti <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">chatbot yaptırmak</a> sayfasındadır. Aynı asistan iki kanala çıkar.",
+      "c3link": "Web chatbot →",
+      "c4title": "🔒 KVKK",
+      "c4desc": "On-premise veya TR barındırma, log, silme politikası. Kurumsal paket <a href=\"/ankara-ai-asistan\" style=\"color:#25d366\">AI Asistan</a>.",
+      "c4link": "AI Asistan →"
+    },
+    "who": {
+      "title": "WhatsApp botunu kim yaptırır?",
+      "intro": "“WhatsApp chatbot yaptırmak” kanal siparişidir: müşteri zaten WhatsApp’ta. Site botu ayrı URL’dedir. Ozturksoft BSP başvurusunu birlikte yürütür; hazır kutu bot satılmaz.",
+      "i1": "Sipariş ve fiyat WhatsApp’tan geliyor, gece yanıt yok. Bot katalog ve kargo sorsun; zor kayıt insana düşsün.",
+      "i2": "Resmi şablon ve toplu bilgilendirme lazım. Business API şart; başvuruyu birlikte açarız.",
+      "i3": "WhatsApp + site aynı asistan olsun. Web <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">chatbot</a> sayfasında eklenir.",
+      "i4": "Sipariş ERP’ye yazılsın. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#25d366\">Logo</a> veya <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#25d366\">e-ticaret</a> aynı Çankaya ekibinde.",
+      "outro": "Rehber ayrıdır. Bu sayfa iş yaptırmak içindir. Ücretsiz keşif: <a href=\"tel:+905465496806\" style=\"color:#25d366\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Sık sorulanlar",
+      "q1": "WhatsApp chatbot yaptırmak ne kadar?",
+      "a1": "FAQ 40.000–70.000 TL, GPT 60.000–100.000 TL, CRM/ERP 90.000–160.000 TL. Meta mesaj ve OpenAI aylık ayrıca. Keşif ücretsizdir.",
+      "q2": "Business API şart mı?",
+      "a2": "Resmi otomasyon ve şablon için evet. BSP ve numara doğrulamayı birlikte yürütürüz. Meta onayı süre ekleyebilir.",
+      "q3": "Web sitesine de eklenir mi?",
+      "a3": "Evet. Widget <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">chatbot yaptırmak</a> sayfasındadır; aynı asistan paylaşılır.",
+      "q4": "Ne kadar sürer?",
+      "a4": "FAQ 3–5 hafta, GPT 4–8 hafta, CRM 6–12 hafta. BSP beklerken senaryo yazılır."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "WhatsApp botunuzu planlayalım",
+      "desc": "Ücretsiz keşif — senaryo, API, bütçe. <a href=\"tel:+905465496806\" style=\"color:#25d366\">+90 546 549 6806</a>",
+      "btn2": "Ücretsiz teklif al"
+    },
+    "footer": "© 2026 Ozturksoft — WhatsApp chatbot yaptırmak",
+    "related": {
+      "bot": "Chatbot yaptırmak",
+      "shop": "E-ticaret",
+      "agent": "AI agent",
+      "asistan": "AI Asistan",
+      "hub": "Yapay zeka firması",
+      "guide": "Rehber"
+    },
+    "meta": {
+      "title": "WhatsApp Chatbot Yaptırmak | Business API | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "WhatsApp GPT",
+      "s2l": "Canlıya alma",
+      "s3n": "BSP",
+      "s3l": "API başvurusu bizde"
+    }
+  },
+  "efaturaPage": {
+    "hero": {
+      "badge": "GİB · E-Arşiv · E-İrsaliye · Logo · +90 546 549 6806",
+      "title": "E-Fatura Entegrasyonu",
+      "desc": "E-fatura entegrasyonu: GİB’e resmi e-belge. Gelen/giden fatura <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo veya Netsis</a> fişine düşer. Kâğıt tarama değil — o iş <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">fatura okuma</a> sayfasındadır. Çankaya, yazılı teklif, ücretsiz keşif."
+    },
+    "pricing": {
+      "title": "E-fatura entegrasyonu fiyatı (2026)",
+      "intro": "Fiyat belge tipi, özel entegratör ve ERP’ye göre değişir. Bantlar 2026 Ankara piyasasıdır; keşif ücretsiz, teklif yazılıdır. Entegratör lisans ücreti ayrıca.",
+      "row1": "Tek ERP bağlayıcı",
+      "row2": "E-arşiv + e-irsaliye",
+      "row3": "Holding / çok şube",
+      "t1": "3–6 hafta",
+      "t2": "6–10 hafta",
+      "t3": "3–5 ay",
+      "linkOcr": "Fatura okuma (OCR)",
+      "linkLogo": "Logo Netsis"
+    },
+    "cards": {
+      "c1title": "📨 Gelen / giden e-fatura",
+      "c1desc": "GİB veya özel entegratör kuyruğu. UBL, imza, reddetme/kabul. Portal tıklamak bitmez.",
+      "c1link": "Keşif ayarla →",
+      "c2title": "🔗 Logo / Netsis fişi",
+      "c2desc": "E-belge muhasebe kaydına yazılır. Çift giriş biter. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">ERP API</a> aynı projede.",
+      "c2link": "ERP bağla →",
+      "c3title": "📦 E-irsaliye / e-arşiv",
+      "c3desc": "Sevk ve e-arşiv aynı bağlayıcıda. E-ticaret siparişi faturaya düşer.",
+      "c3link": "E-ticaret yaptırmak →",
+      "c4title": "📷 OCR değil",
+      "c4desc": "Kâğıt veya WhatsApp fotoğrafı <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">fatura okuma programı</a>dır. Bu URL resmi e-belgedir.",
+      "c4link": "Fatura okuma →"
+    },
+    "who": {
+      "title": "E-fatura entegrasyonunu kim yaptırır?",
+      "intro": "“E-fatura entegrasyonu” GİB’e bağlanmaktır. Portal + Excel yetmez. OCR arayanlar fatura okuma sayfasına gider. Ozturksoft bağlayıcıyı sizin ERP’nize yazar; kutu lisans satmaz.",
+      "i1": "Gelen e-fatura portaldan indirilip elle Logo’ya yazılıyor. Kuyruk ve son gün hatası bitsin.",
+      "i2": "E-ticaret veya saha siparişi e-fatura kessin. <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f59e0b\">Mağaza</a> veya <a href=\"/trendyol-entegrasyonu\" style=\"color:#f59e0b\">Trendyol</a> aynı ekipte bağlanır.",
+      "i3": "E-irsaliye ve e-arşiv aynı anda. Çok şube, holding mali işler.",
+      "i4": "Kâğıt tedarikçi faturası da var. OCR <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">ayrı</a>; ikisi birlikte yürüyebilir.",
+      "outro": "Ücretsiz keşif: <a href=\"tel:+905465496806\" style=\"color:#f59e0b\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Sık sorulanlar",
+      "q1": "E-fatura entegrasyonu ne kadar tutar?",
+      "a1": "Bağlayıcı 35.000–70.000 TL (3–6 hafta), e-arşiv + e-irsaliye 70.000–140.000 TL, holding 140.000–280.000+ TL. Entegratör ücreti ayrıca. Keşif ücretsizdir.",
+      "q2": "Fatura okuma ile karışır mı?",
+      "a2": "Hayır. OCR fotoğraf/PDF okur: <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">fatura okuma</a>. Bu sayfa GİB e-belge API’sidir.",
+      "q3": "Logo / Netsis yazar mı?",
+      "a3": "Evet. Gelen ve giden belge <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo, Netsis</a> fişine düşer.",
+      "q4": "Özel entegratör şart mı?",
+      "a4": "Çoğu projede evet. Mevcut entegratörünüz varsa ona bağlarız; yoksa keşifte seçilir."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "E-fatura bağlayıcısını konuşalım",
+      "desc": "Ücretsiz keşif — GİB, ERP, bütçe. <a href=\"tel:+905465496806\" style=\"color:#f59e0b\">+90 546 549 6806</a>",
+      "btn2": "Ücretsiz teklif al"
+    },
+    "footer": "© 2026 Ozturksoft — E-fatura entegrasyonu",
+    "related": {
+      "ocr": "Fatura okuma",
+      "logo": "Logo Netsis",
+      "ty": "Trendyol",
+      "shop": "E-ticaret",
+      "proc": "Süreç otomasyonu"
+    },
+    "meta": {
+      "title": "E-Fatura Entegrasyonu | GİB & ERP | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Tek ERP bağlayıcı",
+      "s2l": "E-arşiv + e-irsaliye",
+      "s3l": "Bağlayıcı teslim"
+    }
+  },
+  "trendyolPage": {
+    "hero": {
+      "badge": "Sipariş · Stok · Kargo · Logo · +90 546 549 6806",
+      "title": "Trendyol Entegrasyonu",
+      "desc": "Trendyol entegrasyonu: sipariş panelden kopyalanmasın. Stok, kargo, iade API ile yürür. Kendi mağaza ayrıdır — <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">e-ticaret sitesi yaptırmak</a>. Çankaya, yazılı teklif, ücretsiz keşif."
+    },
+    "pricing": {
+      "title": "Trendyol entegrasyonu fiyatı (2026)",
+      "intro": "Fiyat sipariş hacmi, kargo ve ERP’ye göre değişir. Bantlar 2026 Ankara piyasasıdır; keşif ücretsiz, teklif yazılıdır.",
+      "row1": "Sipariş çekme",
+      "row2": "Stok + kargo",
+      "row3": "Pazaryeri + ERP",
+      "t1": "2–4 hafta",
+      "t2": "4–8 hafta",
+      "t3": "8–14 hafta",
+      "linkShop": "Kendi e-ticaret sitesi",
+      "linkLogo": "Logo Netsis"
+    },
+    "cards": {
+      "c1title": "📦 Sipariş",
+      "c1desc": "Yeni sipariş panele düşer, yazıcı veya depo kuyruğuna gider. Excel kopyala biter.",
+      "c1link": "Keşif ayarla →",
+      "c2title": "📊 Stok senkron",
+      "c2desc": "Satış stoku Logo’dan veya mağazadan geri yazar. Çift satış ve eksi stok kesilir. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">ERP</a> aynı ekipte.",
+      "c2link": "ERP bağla →",
+      "c3title": "🚚 Kargo ve iade",
+      "c3desc": "Takip numarası, iade kabul. Yurtiçi/Aras API. E-fatura aynı siparişten kesilir: <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">e-fatura</a>.",
+      "c3link": "E-fatura bağla →",
+      "c4title": "🏪 Kendi mağaza ayrı",
+      "c4desc": "Komisyonsuz kendi site <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">e-ticaret yaptırmak</a>. Pazaryeri stoku ile site stoku çakışmaz.",
+      "c4link": "E-ticaret sitesi →"
+    },
+    "who": {
+      "title": "Trendyol entegrasyonunu kim yaptırır?",
+      "intro": "“Trendyol entegrasyonu” pazaryeri API siparişidir. Kendi mağaza arayanlar e-ticaret sayfasına gider. Ozturksoft hazır pazaryeri paketi satmaz; sipariş, stok ve ERP sizin akışınıza yazılır.",
+      "i1": "Sipariş panelden kopyalanıyor, stok gece eksiye düşüyor. API çeksin, stok geri yazsın.",
+      "i2": "Hepsiburada veya N11 aynı stoktan gitsin. İkinci kanal aynı omurgaya eklenir.",
+      "i3": "Fatura Logo’dan kessin. <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">E-fatura</a> ve <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">ERP</a> aynı Çankaya ekibinde.",
+      "i4": "Kendi marka mağazası da olsun. Site <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">ayrı URL</a>; stok tek kaynaktan.",
+      "outro": "Ücretsiz keşif: <a href=\"tel:+905465496806\" style=\"color:#f27a1a\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Sık sorulanlar",
+      "q1": "Trendyol entegrasyonu ne kadar tutar?",
+      "a1": "Sipariş 25.000–50.000 TL (2–4 hafta), stok+kargo 50.000–95.000 TL, ERP 95.000–180.000 TL. Keşif ücretsizdir.",
+      "q2": "E-ticaret sitesi bu mu?",
+      "a2": "Hayır. Kendi mağaza <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">e-ticaret sitesi yaptırmak</a>. Bu sayfa Trendyol/pazaryeri API’sidir.",
+      "q3": "Hepsiburada eklenir mi?",
+      "a3": "Evet. Aynı stok omurgasına ikinci pazaryeri yazılır. Fiyat keşifte kanal sayısına göre.",
+      "q4": "Logo’ya sipariş düşer mi?",
+      "a4": "Evet. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">Logo / Netsis</a> fişi ve isteğe <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">e-fatura</a> aynı projede."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "Pazaryeri akışını konuşalım",
+      "desc": "Ücretsiz keşif — sipariş, stok, ERP. <a href=\"tel:+905465496806\" style=\"color:#f27a1a\">+90 546 549 6806</a>",
+      "btn2": "Ücretsiz teklif al"
+    },
+    "footer": "© 2026 Ozturksoft — Trendyol entegrasyonu",
+    "related": {
+      "shop": "E-ticaret yaptırmak",
+      "ef": "E-fatura",
+      "logo": "Logo Netsis",
+      "wa": "WhatsApp chatbot"
+    },
+    "meta": {
+      "title": "Trendyol Entegrasyonu | Sipariş & Stok | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Sipariş çekme",
+      "s2l": "Stok + kargo",
+      "s3l": "Stok teslim"
+    }
+  },
+  "danismanlikPage": {
+    "hero": {
+      "badge": "Yol haritası · PoC · KVKK · +90 546 549 6806",
+      "title": "Yapay Zeka Danışmanlığı",
+      "desc": "Yapay zeka danışmanlığı: ChatGPT hesabı strateji değildir. Hangi süreç, hangi bütçe, veri dışarı çıkar mı — yazılı yol haritası. Uygulama ayrı sipariştir: <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">entegrasyon</a>, <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">agent</a>. Çankaya, ücretsiz keşif. Rehber: <a href=\"/blog/yapay-zeka-danismanligi-isletmeler-rehberi-2026\" style=\"color:#38bdf8\">danışmanlık yazısı</a>."
+    },
+    "pricing": {
+      "title": "Yapay zeka danışmanlığı fiyatı (2026)",
+      "intro": "Keşif ücretsizdir. Yol ve PoC yazılı teslim edilir; kod ayrı tekliftir. Bantlar 2026 Ankara piyasasıdır.",
+      "row1": "Keşif",
+      "row2": "Yol haritası",
+      "row3": "PoC",
+      "p1": "Ücretsiz",
+      "t1": "45–90 dk",
+      "t2": "1–3 hafta",
+      "t3": "4–8 hafta",
+      "linkAi": "Uygulama: entegrasyon",
+      "linkGuide": "Rehber"
+    },
+    "cards": {
+      "c1title": "🗺️ Süreç seçimi",
+      "c1desc": "Destek, evrak, satış — hangisi 90 günde para kazandırır. Liste yazılıdır; slayt teslimi yoktur.",
+      "c1link": "Keşif ayarla →",
+      "c2title": "💰 Maliyet bandı",
+      "c2desc": "Chatbot, RAG, agent ayrı fiyatlanır. Sürpriz yok. Uygulama aynı ekipte tekliflenir.",
+      "c2link": "Entegrasyon fiyatı →",
+      "c3title": "🔒 KVKK",
+      "c3desc": "Veri dışarı çıkar mı, on-premise şart mı. <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">Kamu</a> ve holding için mimari notu.",
+      "c3link": "KVKK rehberi →",
+      "c4title": "🛠️ Sonra kod",
+      "c4desc": "Karar netleşince <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">agent</a> veya LLM aynı Çankaya ekibinde yapılır.",
+      "c4link": "Yapay zeka firması →"
+    },
+    "who": {
+      "title": "Danışmanlığı kim yaptırır?",
+      "intro": "“Yapay zeka danışmanlığı” henüz ne yaptıracağını bilmeyen sipariştir. ChatGPT entegrasyonu arayanlar uygulama sayfasına gider. Ozturksoft önce yol yazar; isterseniz aynı ekip kodlar.",
+      "i1": "Yönetim “AI yapın” dedi, süreç listesi yok. 90 günlük yol ve bütçe bandı yazılı olsun.",
+      "i2": "Hazır bot aldınız, uymadı. PoC ile doğru senaryo kanıtlansın; sonra <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">chatbot</a> veya <a href=\"/ai-agent\" style=\"color:#38bdf8\">agent</a>.",
+      "i3": "KVKK ve kamu. On-premise şart mı, keşifte yazılır. Uygulama <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">entegrasyon</a> veya <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">kamu AI</a>.",
+      "i4": "Rehber okudunuz. Bilgi yazısı <a href=\"/blog/yapay-zeka-danismanligi-isletmeler-rehberi-2026\" style=\"color:#38bdf8\">ayrı</a>; iş bu sayfadan başlar.",
+      "outro": "Ücretsiz keşif: <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Sık sorulanlar",
+      "q1": "Yapay zeka danışmanlığı ne kadar tutar?",
+      "a1": "Keşif ücretsiz. Yol haritası 25.000–60.000 TL (1–3 hafta), PoC 40.000–80.000 TL. Yazılım ayrı tekliftir.",
+      "q2": "Entegrasyon ile farkı nedir?",
+      "a2": "Burası nereden başlanır. Kod <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">yapay zeka entegrasyonu</a>, <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">AI agent</a> sayfalarındadır.",
+      "q3": "Sadece slayt mı?",
+      "a3": "Hayır. Süreç listesi, maliyet bandı, 90 günlük sıra. İsterseniz aynı ekip uygular.",
+      "q4": "Keşif gerçekten ücretsiz mi?",
+      "a4": "Evet. 45–90 dk, bağlayıcı yok. <a href=\"/iletisim\" style=\"color:#38bdf8\">Form</a> veya <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "Yol haritasını konuşalım",
+      "desc": "Ücretsiz keşif — süreç, KVKK, bütçe. <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>",
+      "btn2": "Ücretsiz teklif al"
+    },
+    "footer": "© 2026 Ozturksoft — Yapay zeka danışmanlığı",
+    "related": {
+      "ai": "Entegrasyon",
+      "bot": "Chatbot",
+      "agent": "AI agent",
+      "hub": "Yapay zeka firması",
+      "guide": "Rehber"
+    },
+    "meta": {
+      "title": "Yapay Zeka Danışmanlığı | Yol Haritası | Ozturksoft"
+    },
+    "stats": {
+      "s1n": "Ücretsiz",
+      "s1l": "Keşif görüşmesi",
+      "s2l": "Yol haritası",
+      "s3l": "PoC"
     }
   }
 }

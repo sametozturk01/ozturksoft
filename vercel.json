@@ -60,6 +60,31 @@
       "permanent": true
     },
     {
+      "source": "/chatbot",
+      "destination": "/chatbot-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/yapay-zeka-chatbot",
+      "destination": "/chatbot-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/ai-chatbot",
+      "destination": "/chatbot-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/web-chatbot",
+      "destination": "/chatbot-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/gpt-chatbot",
+      "destination": "/chatbot-yaptirmak",
+      "permanent": true
+    },
+    {
       "source": "/mobil-uygulama",
       "destination": "/mobil-uygulama-yaptirmak",
       "permanent": true
@@ -86,6 +111,21 @@
     },
     {
       "source": "/llm-entegrasyonu",
+      "destination": "/yapay-zeka-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt-entegrasyonu",
+      "destination": "/yapay-zeka-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/gpt-entegrasyonu",
+      "destination": "/yapay-zeka-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/openai-entegrasyonu",
       "destination": "/yapay-zeka-entegrasyonu",
       "permanent": true
     },
@@ -192,6 +232,46 @@
     {
       "source": "/whatsapp-business-api",
       "destination": "/whatsapp-chatbot-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/e-fatura",
+      "destination": "/e-fatura-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/efatura",
+      "destination": "/e-fatura-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/e-arsiv-entegrasyonu",
+      "destination": "/e-fatura-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/trendyol",
+      "destination": "/trendyol-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/trendyol-api",
+      "destination": "/trendyol-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/pazaryeri-entegrasyonu",
+      "destination": "/trendyol-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/ai-danismanlik",
+      "destination": "/yapay-zeka-danismanligi",
+      "permanent": true
+    },
+    {
+      "source": "/yapay-zeka-danismanlik",
+      "destination": "/yapay-zeka-danismanligi",
       "permanent": true
     }
   ],

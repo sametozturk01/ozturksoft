@@ -1668,7 +1668,9 @@
       "logo": "Logo Netsis",
       "wa": "WhatsApp-Chatbot",
       "custom": "Individuelle Software",
-      "guide": "Kostenleitfaden"
+      "guide": "Kostenleitfaden",
+      "ty": "Trendyol-Anbindung",
+      "ef": "E-Rechnung"
     }
   },
   "faturaOkumaPage": {
@@ -1741,7 +1743,540 @@
       "proc": "Prozessautomatisierung",
       "ai": "KI-Integration",
       "custom": "Individuelle Software",
-      "guide": "OCR-Leitfaden"
+      "guide": "OCR-Leitfaden",
+      "ef": "E-Rechnung-Anbindung"
+    }
+  },
+  "yzEntegrasyonPage": {
+    "hero": {
+      "badge": "ChatGPT · GPT · Claude · RAG · KVKK · +90 546 549 6806",
+      "title": "KI-Integration",
+      "desc": "KI-Integration: ChatGPT / GPT, Claude oder Llama an Ihre Software. Antworten aus Unternehmensdokumenten (RAG), Chatbot, On-Premise KVKK. Ein ChatGPT-Konto ist keine Integration — API, Rechte und Prozess werden verdrahtet. Ozturksoft in Çankaya verkauft kein Paket; schriftliches Angebot, kostenloser Kickoff. Leitfäden getrennt: <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">LLM-Leitfaden</a> · <a href=\"/blog/ankara-llm-entegrasyonu-maliyeti-2026\" style=\"color:#818cf8\">Kosten</a>."
+    },
+    "pricing": {
+      "title": "KI-Integrationspreis (2026)",
+      "intro": "Preis hängt von Modell, RAG, KVKK und angebundenen Systemen ab. Bänder: Markt Ankara 2026; Kickoff kostenlos, Angebot schriftlich. Monatliche API extra.",
+      "row1": "GPT- / ChatGPT-Chatbot",
+      "row2": "RAG / interner Assistent",
+      "row3": "On-Premise / Enterprise-KI",
+      "t1": "3–5 Wochen",
+      "t2": "6–10 Wochen",
+      "t3": "2–6 Monate",
+      "linkGuide": "LLM-Kostenleitfaden",
+      "linkLlm": "LLM- / GPT-Leitfaden"
+    },
+    "cards": {
+      "c1title": "💬 ChatGPT / GPT anbinden",
+      "c1desc": "OpenAI-, Claude- oder Llama-API in Ihre Geschäftssoftware. Rechte, Logs und Antwortvorlagen nach Ihrem Prozess. Ein ChatGPT-Tab reicht nicht; Integration beendet Copy-Paste.",
+      "c1link": "Kickoff vereinbaren →",
+      "c2title": "📄 RAG — Unternehmensdokumente",
+      "c2desc": "Verfahren, Preislisten, Akten. Das Modell soll nicht erfinden; es antwortet aus Ihrem Text. Interner KI-Assistent ist diese Schicht.",
+      "c2link": "Was ist RAG →",
+      "c3title": "🔒 On-Premise / KVKK",
+      "c3desc": "Behörden und Holdings: Daten bleiben im Firmennetz. TR-Hosting oder lokales Modell. <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#818cf8\">Behörden-KI</a> und <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#818cf8\">KVKK-Leitfaden</a> getrennt.",
+      "c3link": "Behörden-KI →",
+      "c4title": "⚡ Chatbot und Agent getrennt",
+      "c4desc": "Kanal-Bot: <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp-Chatbot</a>; autonome Arbeit: <a href=\"/ai-agent\" style=\"color:#818cf8\">AI-Agent</a>. Diese Seite verdrahtet das LLM; die anderen Jobs bleiben auf eigenen URLs.",
+      "c4link": "AI-Agent beauftragen →"
+    },
+    "who": {
+      "title": "Wer beauftragt KI-Integration?",
+      "intro": "„KI-Integration“, „ChatGPT-Integration“ und „LLM-Integration“ sind derselbe Auftrag: Modell an die Geschäftssoftware. Ozturksoft in Çankaya verkauft keinen fertigen ChatGPT-Screen; Lieferung schriftlich mit RAG, Rechten und KVKK.",
+      "i1": "Sie wollen ChatGPT im Prozess. Ein Konto reichte nicht; API, Rechte und Antworten aus Unternehmensdokumenten. Sie suchen ein lokales Team für ChatGPT-Integration.",
+      "i2": "Verfahren und Preislisten liegen in PDFs; Mitarbeitende suchen jedes Mal. Ein RAG-Assistent soll erfundene Antworten kappen. Daten möglichst intern.",
+      "i3": "Holding, Behörde oder Finanz: On-Premise oder TR-Hosting Pflicht. Modellwahl (GPT, Claude, Llama) im Kickoff nach Kosten und KVKK.",
+      "i4": "Nicht nur Chat; morgen <a href=\"/ai-agent\" style=\"color:#818cf8\">AI-Agent</a>, <a href=\"/fatura-okuma\" style=\"color:#818cf8\">Rechnungs-OCR</a> oder <a href=\"/surec-otomasyonu\" style=\"color:#818cf8\">Prozessautomatisierung</a> im selben Team. Ein Lieferant.",
+      "outro": "Wollten Sie einen Leitfaden, steht der <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">LLM-Artikel</a> getrennt. Hier beauftragen Sie die Arbeit. Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#818cf8\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Was kostet KI-Integration?",
+      "a1": "GPT-/ChatGPT-Chatbot 40.000–80.000 TL (3–5 Wochen), RAG-Assistent 80.000–200.000 TL (6–10 Wochen), On-Premise Enterprise 150.000–500.000+ TL. Kickoff kostenlos; Festpreis nach Umfang. Monatliche API extra.",
+      "q2": "Ist ChatGPT-Integration ein Konto?",
+      "a2": "Nein. Ein ChatGPT-Konto bleibt Copy-Paste. Integration ist API, Rechte, RAG und Anbindung an die Geschäftssoftware. Antworten aus Ihren Dokumenten; Prozesslog bleibt.",
+      "q3": "Verlassen Daten das Unternehmen?",
+      "a3": "Nicht zwingend. On-Premise oder Hosting in der Türkei. Bei Behörden und Holdings bleiben Daten im Firmennetz. Modell (GPT, Claude, Llama) im Kickoff.",
+      "q4": "Sind Chatbot und AI-Agent auf dieser Seite?",
+      "a4": "Web-Chatbot auf <a href=\"/chatbot-yaptirmak\" style=\"color:#818cf8\">Chatbot erstellen lassen</a>, WhatsApp auf <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp-Chatbot</a>, autonome Arbeit auf <a href=\"/ai-agent\" style=\"color:#818cf8\">AI-Agent</a>. Diese URL verdrahtet LLM / ChatGPT / RAG."
+    },
+    "cta": {
+      "btn": "Kostenloses Erstgespräch",
+      "title": "Sprechen wir über Ihr KI-Projekt",
+      "desc": "Kostenloser Kickoff — Modell, KVKK, Budget. <a href=\"tel:+905465496806\" style=\"color:#818cf8\">+90 546 549 6806</a>",
+      "btn2": "Kostenloses Angebot"
+    },
+    "footer": "© 2026 Ozturksoft — KI-Integration",
+    "related": {
+      "wa": "WhatsApp-Chatbot",
+      "agent": "AI-Agent",
+      "ocr": "Rechnungslese",
+      "proc": "Prozessautomatisierung",
+      "hub": "KI-Firma",
+      "guide": "LLM-Leitfaden",
+      "bot": "Chatbot erstellen lassen"
+    },
+    "meta": {
+      "title": "KI-Integration | ChatGPT & LLM | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "GPT- / ChatGPT-Chatbot",
+      "s2l": "RAG / interner Assistent",
+      "s3l": "RAG-Lieferung"
+    }
+  },
+  "chatbotPage": {
+    "hero": {
+      "badge": "Web · GPT · CRM · KVKK · +90 546 549 6806",
+      "title": "Chatbot erstellen lassen",
+      "desc": "Chatbot beauftragen: 7/24 Antworten auf der Website, GPT und RAG aus Unternehmensdokumenten. Ozturksoft in Çankaya verkauft keinen Box-Bot; schriftliches Angebot, kostenloser Kickoff. WhatsApp ist ein eigener Kanal — <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp-Chatbot erstellen lassen</a>. Leitfaden: <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">Chatbot-Kosten</a>."
+    },
+    "pricing": {
+      "title": "Chatbot-Preis (2026)",
+      "intro": "Preis hängt von Szenarien, GPT, RAG und CRM ab. Bänder: Markt Ankara 2026; Kickoff kostenlos, Angebot schriftlich. Monatliche API extra.",
+      "row1": "FAQ / regelbasiert",
+      "row2": "GPT-Web-Chatbot",
+      "row3": "RAG / Unternehmensdokumente",
+      "t1": "2–4 Wochen",
+      "t2": "3–5 Wochen",
+      "t3": "6–10 Wochen",
+      "linkWa": "WhatsApp-Chatbot (60.000–100.000 TL)",
+      "linkGuide": "Kostenleitfaden"
+    },
+    "cards": {
+      "c1title": "💬 Website-Widget",
+      "c1desc": "Eck-Chat auf Firmen- und Shop-Seiten. FAQ, Bestellstatus, Übergabe an Menschen. Derselbe Assistent mobil und Desktop.",
+      "c1link": "Kickoff vereinbaren →",
+      "c2title": "🧠 GPT + RAG",
+      "c2desc": "Antworten aus Katalog und Verfahren. Weniger Erfindungen. LLM-Anbindung läuft im selben Team wie <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">KI-Integration</a>.",
+      "c2link": "ChatGPT / LLM anbinden →",
+      "c3title": "📱 WhatsApp eigener Kanal",
+      "c3desc": "Derselbe Assistent kann nach WhatsApp; Business API und Meta-Gebühren auf jener Seite. Diese URL ist der Web-/GPT-Chatbot-Auftrag.",
+      "c3link": "WhatsApp-Chatbot erstellen lassen →",
+      "c4title": "⚡ Kein Agent",
+      "c4desc": "Ein Chatbot spricht. Autonome Arbeit (E-Mail, CRM) steht auf <a href=\"/ai-agent\" style=\"color:#2dd4bf\">AI-Agent</a>.",
+      "c4link": "AI-Agent beauftragen →"
+    },
+    "who": {
+      "title": "Wer beauftragt einen Chatbot?",
+      "intro": "„Chatbot erstellen lassen“, „KI-Chatbot“ und „GPT-Chatbot“ sind derselbe Auftrag: 7/24 Antworten auf der Site. WhatsApp-Suchende gehen zur Kanalseite. Ozturksoft in Çankaya verkauft keinen Box-Bot; Szenarien, GPT und CRM schriftlich.",
+      "i1": "Support schließt nach Feierabend. FAQ, Versand und Retouren sollen im Bot enden; schwierige Fragen an Menschen.",
+      "i2": "Sie wollen GPT- oder ChatGPT-Antworten aus dem Katalog. Ein Konto reicht nicht; Widget, Rechte und RAG aus Unternehmenstext.",
+      "i3": "WhatsApp auch, aber zuerst Web. Kanal auf <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp-Chatbot</a>; derselbe Assistent.",
+      "i4": "Wenn morgen CRM-Updates oder Bestellungen nötig sind, kommt <a href=\"/ai-agent\" style=\"color:#2dd4bf\">AI-Agent</a> ins selbe Team. Ein Lieferant.",
+      "outro": "Wollten Sie einen Leitfaden, steht der <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">Kostenartikel</a> getrennt. Hier beauftragen Sie die Arbeit. Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#2dd4bf\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Was kostet ein Chatbot?",
+      "a1": "FAQ 25.000–45.000 TL (2–4 Wochen), GPT-Web 45.000–80.000 TL (3–5 Wochen), RAG 80.000–150.000 TL (6–10 Wochen). WhatsApp-AI 60.000–100.000 TL ist ein eigener Kanal. Kickoff kostenlos; Festpreis nach Umfang.",
+      "q2": "Unterschied zum WhatsApp-Chatbot?",
+      "a2": "Diese Seite ist Widget und GPT-Bot. WhatsApp Business API, Vorlagen und Meta-Gebühren auf <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp-Chatbot erstellen lassen</a>. Beide können einen Assistenten teilen.",
+      "q3": "Chatbot vs. AI-Agent?",
+      "a3": "Chatbot beantwortet Fragen. Ein Agent nutzt Tools: E-Mail, CRM, Bestellung. Autonome Arbeit auf <a href=\"/ai-agent\" style=\"color:#2dd4bf\">AI-Agent</a>.",
+      "q4": "Verlassen Daten das Unternehmen?",
+      "a4": "Nicht zwingend. On-Premise oder TR-Hosting. Die LLM-Schicht sitzt in derselben KVKK-Architektur wie <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">KI-Integration</a>."
+    },
+    "cta": {
+      "btn": "Kostenloses Erstgespräch",
+      "title": "Sprechen wir über Ihren Chatbot",
+      "desc": "Kostenloser Kickoff — Szenarien, GPT, Budget. <a href=\"tel:+905465496806\" style=\"color:#2dd4bf\">+90 546 549 6806</a>",
+      "btn2": "Kostenloses Angebot"
+    },
+    "footer": "© 2026 Ozturksoft — Chatbot erstellen lassen",
+    "related": {
+      "wa": "WhatsApp-Chatbot",
+      "ai": "KI-Integration",
+      "agent": "AI-Agent",
+      "asistan": "KI-Assistent",
+      "hub": "KI-Firma",
+      "guide": "Kostenleitfaden"
+    },
+    "meta": {
+      "title": "Chatbot erstellen lassen | GPT- & Web-Bot-Preis | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "FAQ-Chatbot",
+      "s2l": "GPT-Web-Chatbot",
+      "s3l": "GPT-Lieferung"
+    }
+  },
+  "aiAgentPage": {
+    "hero": {
+      "badge": "Autonom · CRM · ERP · MCP · +90 546 549 6806",
+      "title": "AI Agent Yaptırmak",
+      "desc": "AI-Agent erstellen lassen: kein Chatbot. E-Mails klassifizieren, CRM aktualisieren, Bestellungen öffnen, Berichte schreiben. Freigabe durch Menschen an kritischen Schritten. Çankaya — schriftliches Angebot, kostenloser Kickoff. Sprechende Bots auf <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">Chatbot erstellen lassen</a>. Leitfaden: <a href=\"/blog/ankara-ai-agents-gelistirme-2026\" style=\"color:#c084fc\">AI Agents</a>."
+    },
+    "pricing": {
+      "title": "AI-Agent-Preis (2026)",
+      "intro": "Preis folgt Toolzahl, ERP und On-Premise. Bänder sind der Ankara-Markt 2026; Kickoff kostenlos, Angebot schriftlich.",
+      "row1": "PoC / ein Szenario",
+      "row2": "Enterprise mit vielen Tools",
+      "row3": "On-Premise + MCP",
+      "t1": "4–6 Wochen",
+      "t2": "8–14 Wochen",
+      "t3": "3–6 Monate",
+      "linkGuide": "AI-Agents-Leitfaden",
+      "linkBot": "Chatbot erstellen lassen"
+    },
+    "cards": {
+      "c1title": "📬 Betrieb",
+      "c1desc": "Support-Warteschlange, Bestellung, Termin. Der Agent ruft Tools; jeder Schritt wird geloggt. Kein unkontrollierter Lauf.",
+      "c1link": "Kickoff buchen →",
+      "c2title": "🔗 ERP / CRM",
+      "c2desc": "Logo, Netsis, eigene API. Freigabetor gegen Fehlbuchungen. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">ERP-Anbindung</a> im selben Team.",
+      "c2link": "Logo Netsis →",
+      "c3title": "🔄 Mit RPA",
+      "c3desc": "RPA klickt, der Agent entscheidet. Beides im selben <a href=\"/surec-otomasyonu\" style=\"color:#c084fc\">Prozessautomatisierungs</a>-Projekt möglich.",
+      "c3link": "Prozessautomatisierung →",
+      "c4title": "💬 Kein Chatbot",
+      "c4desc": "Nur Antworten: <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">Chatbot</a> oder <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#c084fc\">WhatsApp</a>. Diese Seite ist der arbeitende Agent.",
+      "c4link": "Chatbot erstellen lassen →"
+    },
+    "who": {
+      "title": "Wer beauftragt einen AI-Agenten?",
+      "intro": "„AI-Agent erstellen lassen“ und „autonome KI“ sind derselbe Auftrag: das Modell nutzt Tools. Chatbot-Suchende gehen auf die Gesprächsseite. Ozturksoft in Çankaya verkauft keinen Box-Agenten; Szenario, Rechte und Freigabe werden schriftlich geliefert.",
+      "i1": "Support und E-Mail laufen per Hand. Der Agent soll klassifizieren, entwerfen und CRM schreiben; falsche Sätze bestätigt ein Mensch.",
+      "i2": "Bestellung oder Termin wird im Bot gesprochen, aber nicht ins System geschrieben. Der Agent soll APIs rufen; Logo/Netsis im selben Team.",
+      "i3": "Öffentlicher Sektor oder Holding: On-Premise, MCP, Audit. Daten bleiben im Netz. Das Modell steht im Kickoff fest.",
+      "i4": "Zuerst sprechender Bot, morgen Agent. <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">Chatbot</a> und Agent im selben Çankaya-Team; kein Lieferantensplit.",
+      "outro": "Leitfaden separat: <a href=\"/blog/ankara-ai-agents-gelistirme-2026\" style=\"color:#c084fc\">AI-Agents-Artikel</a>. Diese Seite ist Auftrag. Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#c084fc\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Was kostet ein AI-Agent?",
+      "a1": "PoC 60.000–120.000 TL (4–6 Wochen), Enterprise 150.000–280.000 TL (8–14 Wochen), On-Premise + MCP 280.000–500.000+ TL. Kickoff kostenlos; Festpreis nach Scope.",
+      "q2": "Unterschied zum Chatbot?",
+      "a2": "Der Chatbot antwortet — <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">Chatbot erstellen lassen</a>. Der Agent nutzt Tools: E-Mail, CRM, Bestellung. Beide können in <a href=\"/ankara-ai-asistan\" style=\"color:#c084fc\">AI-Assistent</a> zusammenlaufen.",
+      "q3": "Läuft er unkontrolliert?",
+      "a3": "Nein. An kritischen Schritten ist Menschenfreigabe Pflicht. Log und Rechte gehören zur Lieferung.",
+      "q4": "Anbindung an ERP?",
+      "a4": "Ja. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">Logo, Netsis</a> und eigene APIs. Freigabetor gegen falsche Belege."
+    },
+    "cta": {
+      "btn": "Kostenloses Kickoff-Gespräch",
+      "title": "Sprechen wir über Ihr Agent-Szenario",
+      "desc": "Kostenloser Kickoff — welche Aufgabe, welches System. <a href=\"tel:+905465496806\" style=\"color:#c084fc\">+90 546 549 6806</a>",
+      "btn2": "Kostenloses Angebot"
+    },
+    "footer": "© 2026 Ozturksoft — AI-Agent erstellen lassen",
+    "related": {
+      "bot": "Chatbot erstellen lassen",
+      "ai": "KI-Integration",
+      "proc": "Prozessautomatisierung",
+      "logo": "Logo Netsis",
+      "hub": "KI-Firma",
+      "guide": "Leitfaden"
+    },
+    "meta": {
+      "title": "AI-Agent erstellen lassen | Autonome KI | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "PoC / ein Szenario",
+      "s2l": "Enterprise-Agent",
+      "s3l": "Enterprise-Lieferung"
+    }
+  },
+  "waChatbotPage": {
+    "hero": {
+      "badge": "Business API · GPT · CRM · +90 546 549 6806",
+      "title": "WhatsApp Chatbot Yaptırmak",
+      "desc": "WhatsApp-Chatbot erstellen lassen: 7/24 Bestellung, Preis und FAQ. Offizielle Business API, GPT/RAG, CRM. Çankaya — schriftliches Angebot, kostenloser Kickoff. Website-Widget separat: <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">Chatbot erstellen lassen</a>. Leitfaden: <a href=\"/blog/whatsapp-chatbot-isletme-rehberi-2026\" style=\"color:#25d366\">WhatsApp-Leitfaden</a>."
+    },
+    "pricing": {
+      "title": "WhatsApp-Chatbot-Preis (2026)",
+      "intro": "Preis folgt Szenario, GPT und CRM. Meta-Nachrichten extra. Bänder Ankara 2026; Kickoff kostenlos, Angebot schriftlich.",
+      "row1": "WhatsApp-FAQ",
+      "row2": "WhatsApp GPT / KI",
+      "row3": "WhatsApp + CRM / ERP",
+      "t1": "3–5 Wochen",
+      "t2": "4–8 Wochen",
+      "t3": "6–12 Wochen",
+      "linkWeb": "Web-Chatbot (Widget)",
+      "linkGuide": "WhatsApp-Leitfaden"
+    },
+    "cards": {
+      "c1title": "💬 7/24 Antwort",
+      "c1desc": "Bestellung, Preis, Versand nach Feierabend. Schwere Fragen an Menschen. Vorlagen über die offizielle API.",
+      "c1link": "Kickoff buchen →",
+      "c2title": "🔗 CRM und Bestand",
+      "c2desc": "Bestellung, Termin, Saldo. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#25d366\">Logo / Netsis</a> oder eigene API. Doppelte Sätze stoppen.",
+      "c2link": "ERP anbinden →",
+      "c3title": "🌐 Web eigener Kanal",
+      "c3desc": "Ecken-Chat auf der Site auf <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">Chatbot erstellen lassen</a>. Derselbe Assistent auf zwei Kanälen.",
+      "c3link": "Web-Chatbot →",
+      "c4title": "🔒 KVKK",
+      "c4desc": "On-Premise oder TR-Hosting, Log, Löschpolitik. Enterprise-Paket <a href=\"/ankara-ai-asistan\" style=\"color:#25d366\">AI-Assistent</a>.",
+      "c4link": "AI-Assistent →"
+    },
+    "who": {
+      "title": "Wer beauftragt den WhatsApp-Bot?",
+      "intro": "„WhatsApp-Chatbot erstellen lassen“ ist ein Kanalauftrag: der Kunde ist schon auf WhatsApp. Der Site-Bot hat eine eigene URL. Ozturksoft führt den BSP-Antrag mit; kein Box-Bot.",
+      "i1": "Bestellung und Preis kommen per WhatsApp, nachts keine Antwort. Der Bot soll Katalog und Versand klären; harte Sätze an Menschen.",
+      "i2": "Offizielle Vorlagen und Masseninfo nötig. Business API Pflicht; Antrag gemeinsam.",
+      "i3": "WhatsApp + Site, ein Assistent. Web auf <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">Chatbot</a>.",
+      "i4": "Bestellung ins ERP. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#25d366\">Logo</a> oder <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#25d366\">E-Commerce</a> im Çankaya-Team.",
+      "outro": "Leitfaden separat. Diese Seite ist Auftrag. Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#25d366\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Was kostet ein WhatsApp-Chatbot?",
+      "a1": "FAQ 40.000–70.000 TL, GPT 60.000–100.000 TL, CRM/ERP 90.000–160.000 TL. Meta und OpenAI monatlich extra. Kickoff kostenlos.",
+      "q2": "Ist Business API Pflicht?",
+      "a2": "Ja für offizielle Automatisierung und Vorlagen. BSP und Nummernprüfung gemeinsam. Meta-Freigabe kann Zeit kosten.",
+      "q3": "Auch auf der Website?",
+      "a3": "Ja. Widget auf <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">Chatbot erstellen lassen</a>; derselbe Assistent.",
+      "q4": "Wie lange dauert es?",
+      "a4": "FAQ 3–5 Wochen, GPT 4–8, CRM 6–12. Szenarien während BSP-Wartezeit."
+    },
+    "cta": {
+      "btn": "Kostenloses Kickoff-Gespräch",
+      "title": "Planen wir Ihren WhatsApp-Bot",
+      "desc": "Kostenloser Kickoff — Szenario, API, Budget. <a href=\"tel:+905465496806\" style=\"color:#25d366\">+90 546 549 6806</a>",
+      "btn2": "Kostenloses Angebot"
+    },
+    "footer": "© 2026 Ozturksoft — WhatsApp-Chatbot erstellen lassen",
+    "related": {
+      "bot": "Chatbot erstellen lassen",
+      "shop": "E-Commerce",
+      "agent": "AI-Agent",
+      "asistan": "AI-Assistent",
+      "hub": "KI-Firma",
+      "guide": "Leitfaden"
+    },
+    "meta": {
+      "title": "WhatsApp-Chatbot erstellen lassen | Business API | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "WhatsApp GPT",
+      "s2l": "Go-live",
+      "s3n": "BSP",
+      "s3l": "API-Antrag bei uns"
+    }
+  },
+  "efaturaPage": {
+    "hero": {
+      "badge": "GİB · E-Archiv · E-Lieferschein · Logo · +90 546 549 6806",
+      "title": "E-Fatura Entegrasyonu",
+      "desc": "E-Rechnung-Anbindung: offizielle E-Belege an GİB. Ein-/Ausgang landet auf <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo oder Netsis</a>. Kein Papierscan — das ist <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">Rechnungs-OCR</a>. Çankaya, schriftliches Angebot, kostenloser Kickoff."
+    },
+    "pricing": {
+      "title": "E-Rechnung-Anbindung Preis (2026)",
+      "intro": "Preis folgt Belegtyp, Integrator und ERP. Bänder Ankara 2026; Kickoff kostenlos. Integrator-Lizenz extra.",
+      "row1": "Ein ERP-Konnektor",
+      "row2": "E-Archiv + E-Lieferschein",
+      "row3": "Holding / mehrere Standorte",
+      "t1": "3–6 Wochen",
+      "t2": "6–10 Wochen",
+      "t3": "3–5 Monate",
+      "linkOcr": "Rechnungs-OCR",
+      "linkLogo": "Logo Netsis"
+    },
+    "cards": {
+      "c1title": "📨 Ein-/Ausgang E-Rechnung",
+      "c1desc": "GİB- oder Integrator-Warteschlange. UBL, Signatur, Ablehnen/Annehmen. Portal-Klicks enden.",
+      "c1link": "Kickoff buchen →",
+      "c2title": "🔗 Logo-/Netsis-Beleg",
+      "c2desc": "E-Beleg wird Buchung. Doppelte Eingabe endet. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">ERP-API</a> im selben Projekt.",
+      "c2link": "ERP anbinden →",
+      "c3title": "📦 E-Lieferschein / E-Archiv",
+      "c3desc": "Versand und E-Archiv am selben Konnektor. Shop-Bestellung wird Rechnung.",
+      "c3link": "E-Commerce erstellen lassen →",
+      "c4title": "📷 Kein OCR",
+      "c4desc": "Papier oder WhatsApp-Foto ist <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">Rechnungs-OCR</a>. Diese URL ist der offizielle E-Beleg.",
+      "c4link": "Rechnungs-OCR →"
+    },
+    "who": {
+      "title": "Wer beauftragt E-Rechnung-Anbindung?",
+      "intro": "„E-Rechnung-Anbindung“ heißt GİB. Portal + Excel reicht nicht. OCR-Suchende gehen zur Rechnungslesung. Ozturksoft schreibt den Konnektor in Ihr ERP; keine Box-Lizenz.",
+      "i1": "Eingangs-E-Rechnung wird aus dem Portal geholt und per Hand in Logo getippt. Warteschlange und Stichtagsfehler sollen enden.",
+      "i2": "Shop- oder Außendienstauftrag soll E-Rechnung schneiden. <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f59e0b\">Shop</a> oder <a href=\"/trendyol-entegrasyonu\" style=\"color:#f59e0b\">Trendyol</a> im selben Team.",
+      "i3": "E-Lieferschein und E-Archiv zugleich. Mehrere Standorte, Holding-Finanzen.",
+      "i4": "Es gibt auch Papierlieferanten. OCR ist <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">separat</a>; beides kann parallel laufen.",
+      "outro": "Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#f59e0b\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Was kostet E-Rechnung-Anbindung?",
+      "a1": "Konnektor 35.000–70.000 TL (3–6 Wochen), E-Archiv + E-Lieferschein 70.000–140.000 TL, Holding 140.000–280.000+ TL. Integrator extra. Kickoff kostenlos.",
+      "q2": "Gleich wie Rechnungs-OCR?",
+      "a2": "Nein. OCR liest Foto/PDF: <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">Rechnungs-OCR</a>. Diese Seite ist die GİB-E-Beleg-API.",
+      "q3": "Schreibt Logo / Netsis?",
+      "a3": "Ja. Ein- und Ausgang landen auf <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo, Netsis</a>.",
+      "q4": "Privater Integrator Pflicht?",
+      "a4": "In den meisten Projekten ja. Vorhandenen Integrator binden wir an; sonst Wahl im Kickoff."
+    },
+    "cta": {
+      "btn": "Kostenloses Kickoff-Gespräch",
+      "title": "Sprechen wir über den E-Rechnung-Konnektor",
+      "desc": "Kostenloser Kickoff — GİB, ERP, Budget. <a href=\"tel:+905465496806\" style=\"color:#f59e0b\">+90 546 549 6806</a>",
+      "btn2": "Kostenloses Angebot"
+    },
+    "footer": "© 2026 Ozturksoft — E-Rechnung-Anbindung",
+    "related": {
+      "ocr": "Rechnungs-OCR",
+      "logo": "Logo Netsis",
+      "ty": "Trendyol",
+      "shop": "E-Commerce",
+      "proc": "Prozessautomatisierung"
+    },
+    "meta": {
+      "title": "E-Rechnung-Anbindung | GİB & ERP | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Ein ERP-Konnektor",
+      "s2l": "E-Archiv + E-Lieferschein",
+      "s3l": "Konnektor-Lieferung"
+    }
+  },
+  "trendyolPage": {
+    "hero": {
+      "badge": "Bestellung · Bestand · Versand · Logo · +90 546 549 6806",
+      "title": "Trendyol Entegrasyonu",
+      "desc": "Trendyol-Anbindung: Bestellungen nicht aus dem Panel kopieren. Bestand, Versand, Retouren per API. Eigener Shop separat — <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">E-Commerce erstellen lassen</a>. Çankaya, schriftliches Angebot, kostenloser Kickoff."
+    },
+    "pricing": {
+      "title": "Trendyol-Anbindung Preis (2026)",
+      "intro": "Preis folgt Volumen, Versand und ERP. Bänder Ankara 2026; Kickoff kostenlos, Angebot schriftlich.",
+      "row1": "Bestellungen ziehen",
+      "row2": "Bestand + Versand",
+      "row3": "Marktplatz + ERP",
+      "t1": "2–4 Wochen",
+      "t2": "4–8 Wochen",
+      "t3": "8–14 Wochen",
+      "linkShop": "Eigener E-Commerce",
+      "linkLogo": "Logo Netsis"
+    },
+    "cards": {
+      "c1title": "📦 Bestellung",
+      "c1desc": "Neue Bestellung landet im Panel, Drucker oder Lager. Excel-Kopie endet.",
+      "c1link": "Kickoff buchen →",
+      "c2title": "📊 Bestandssync",
+      "c2desc": "Verkauf schreibt Bestand aus Logo oder Shop zurück. Doppelverkauf und Minusbestand stoppen. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">ERP</a> im selben Team.",
+      "c2link": "ERP anbinden →",
+      "c3title": "🚚 Versand und Retoure",
+      "c3desc": "Sendungsnummer, Retourenannahme. Yurtiçi/Aras-API. E-Rechnung aus derselben Bestellung: <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">E-Rechnung</a>.",
+      "c3link": "E-Rechnung anbinden →",
+      "c4title": "🏪 Eigener Shop separat",
+      "c4desc": "Provisionsfreier eigener Shop <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">E-Commerce erstellen lassen</a>. Marktplatz- und Shop-Bestand kollidieren nicht.",
+      "c4link": "E-Commerce-Site →"
+    },
+    "who": {
+      "title": "Wer beauftragt Trendyol-Anbindung?",
+      "intro": "„Trendyol-Anbindung“ ist Marktplatz-API. Wer einen eigenen Shop will, geht zur E-Commerce-Seite. Ozturksoft verkauft kein Box-Paket; Bestellung, Bestand und ERP werden in Ihren Fluss geschrieben.",
+      "i1": "Bestellungen werden aus dem Panel kopiert, Bestand geht nachts ins Minus. API soll ziehen, Bestand zurückschreiben.",
+      "i2": "Hepsiburada oder N11 vom selben Bestand. Zweiter Kanal auf dieselbe Wirbelsäule.",
+      "i3": "Rechnung aus Logo. <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">E-Rechnung</a> und <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">ERP</a> im Çankaya-Team.",
+      "i4": "Auch eigener Markenshop. Site <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">eigene URL</a>; Bestand eine Quelle.",
+      "outro": "Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#f27a1a\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Was kostet Trendyol-Anbindung?",
+      "a1": "Bestellung 25.000–50.000 TL (2–4 Wochen), Bestand+Versand 50.000–95.000 TL, ERP 95.000–180.000 TL. Kickoff kostenlos.",
+      "q2": "Ist das ein E-Commerce-Shop?",
+      "a2": "Nein. Eigener Shop <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">E-Commerce erstellen lassen</a>. Diese Seite ist Trendyol-/Marktplatz-API.",
+      "q3": "Hepsiburada dazu?",
+      "a3": "Ja. Zweiter Marktplatz auf dieselbe Bestandswirbelsäule. Preis nach Kanalzahl im Kickoff.",
+      "q4": "Bestellung nach Logo?",
+      "a4": "Ja. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">Logo / Netsis</a>-Beleg und optional <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">E-Rechnung</a> im selben Projekt."
+    },
+    "cta": {
+      "btn": "Kostenloses Kickoff-Gespräch",
+      "title": "Sprechen wir über den Marktplatzfluss",
+      "desc": "Kostenloser Kickoff — Bestellung, Bestand, ERP. <a href=\"tel:+905465496806\" style=\"color:#f27a1a\">+90 546 549 6806</a>",
+      "btn2": "Kostenloses Angebot"
+    },
+    "footer": "© 2026 Ozturksoft — Trendyol-Anbindung",
+    "related": {
+      "shop": "E-Commerce erstellen lassen",
+      "ef": "E-Rechnung",
+      "logo": "Logo Netsis",
+      "wa": "WhatsApp-Chatbot"
+    },
+    "meta": {
+      "title": "Trendyol-Anbindung | Bestellung & Bestand | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Bestellungen ziehen",
+      "s2l": "Bestand + Versand",
+      "s3l": "Bestandslieferung"
+    }
+  },
+  "danismanlikPage": {
+    "hero": {
+      "badge": "Roadmap · PoC · KVKK · +90 546 549 6806",
+      "title": "Yapay Zeka Danışmanlığı",
+      "desc": "KI-Beratung: ein ChatGPT-Konto ist keine Strategie. Welcher Prozess, welches Budget, verlassen Daten das Haus — schriftliche Roadmap. Umsetzung ist ein eigener Auftrag: <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">Integration</a>, <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">Chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">Agent</a>. Çankaya, kostenloser Kickoff. Leitfaden: <a href=\"/blog/yapay-zeka-danismanligi-isletmeler-rehberi-2026\" style=\"color:#38bdf8\">Beratungsartikel</a>."
+    },
+    "pricing": {
+      "title": "KI-Beratung Preis (2026)",
+      "intro": "Kickoff kostenlos. Roadmap und PoC schriftlich; Code extra. Bänder Ankara 2026.",
+      "row1": "Kickoff",
+      "row2": "Roadmap",
+      "row3": "PoC",
+      "p1": "Kostenlos",
+      "t1": "45–90 Min.",
+      "t2": "1–3 Wochen",
+      "t3": "4–8 Wochen",
+      "linkAi": "Umsetzung: Integration",
+      "linkGuide": "Leitfaden"
+    },
+    "cards": {
+      "c1title": "🗺️ Prozesswahl",
+      "c1desc": "Support, Belege, Vertrieb — was in 90 Tagen Geld bringt. Liste schriftlich; keine Folien-only-Lieferung.",
+      "c1link": "Kickoff buchen →",
+      "c2title": "💰 Kostenband",
+      "c2desc": "Chatbot, RAG, Agent getrennt bepreist. Keine Überraschung. Umsetzung im selben Team.",
+      "c2link": "Integrationspreis →",
+      "c3title": "🔒 KVKK",
+      "c3desc": "Verlassen Daten das Haus, On-Premise Pflicht? Architektur für <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">öffentlichen Sektor</a> und Holdings.",
+      "c3link": "KVKK-Leitfaden →",
+      "c4title": "🛠️ Dann Code",
+      "c4desc": "Ist die Entscheidung klar, bauen <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">Chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">Agent</a> oder LLM dasselbe Çankaya-Team.",
+      "c4link": "KI-Firma →"
+    },
+    "who": {
+      "title": "Wer beauftragt Beratung?",
+      "intro": "„KI-Beratung“ ist der Auftrag, wenn noch unklar ist, was gebaut wird. ChatGPT-Integration geht auf die Umsetzungsseite. Ozturksoft schreibt zuerst den Weg; dasselbe Team kann codeen.",
+      "i1": "Geschäftsleitung sagt „macht KI“, keine Prozessliste. 90-Tage-Weg und Kostenband schriftlich.",
+      "i2": "Box-Bot gekauft, passt nicht. PoC soll das richtige Szenario beweisen; dann <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">Chatbot</a> oder <a href=\"/ai-agent\" style=\"color:#38bdf8\">Agent</a>.",
+      "i3": "KVKK und öffentlicher Sektor. On-Premise im Kickoff. Umsetzung <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">Integration</a> oder <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">öffentliche KI</a>.",
+      "i4": "Leitfaden gelesen. Infotext <a href=\"/blog/yapay-zeka-danismanligi-isletmeler-rehberi-2026\" style=\"color:#38bdf8\">separat</a>; Arbeit startet hier.",
+      "outro": "Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Was kostet KI-Beratung?",
+      "a1": "Kickoff kostenlos. Roadmap 25.000–60.000 TL (1–3 Wochen), PoC 40.000–80.000 TL. Software extra.",
+      "q2": "Unterschied zur Integration?",
+      "a2": "Hier startet man. Code auf <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">KI-Integration</a>, <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">Chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">AI-Agent</a>.",
+      "q3": "Nur Folien?",
+      "a3": "Nein. Prozessliste, Kostenband, 90-Tage-Reihenfolge. Dasselbe Team kann umsetzen.",
+      "q4": "Ist Kickoff wirklich kostenlos?",
+      "a4": "Ja. 45–90 Min., keine Bindung. <a href=\"/iletisim\" style=\"color:#38bdf8\">Formular</a> oder <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>."
+    },
+    "cta": {
+      "btn": "Kostenloses Kickoff-Gespräch",
+      "title": "Sprechen wir über die Roadmap",
+      "desc": "Kostenloser Kickoff — Prozess, KVKK, Budget. <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>",
+      "btn2": "Kostenloses Angebot"
+    },
+    "footer": "© 2026 Ozturksoft — KI-Beratung",
+    "related": {
+      "ai": "Integration",
+      "bot": "Chatbot",
+      "agent": "AI-Agent",
+      "hub": "KI-Firma",
+      "guide": "Leitfaden"
+    },
+    "meta": {
+      "title": "KI-Beratung | Roadmap | Ozturksoft"
+    },
+    "stats": {
+      "s1n": "Kostenlos",
+      "s1l": "Kickoff-Gespräch",
+      "s2l": "Roadmap",
+      "s3l": "PoC"
     }
   }
 }

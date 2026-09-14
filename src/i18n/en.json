@@ -1683,7 +1683,9 @@
       "logo": "Logo Netsis",
       "wa": "WhatsApp chatbot",
       "custom": "Custom software",
-      "guide": "Cost guide"
+      "guide": "Cost guide",
+      "ty": "Trendyol integration",
+      "ef": "E-invoice"
     }
   },
   "faturaOkumaPage": {
@@ -1756,7 +1758,540 @@
       "proc": "Process automation",
       "ai": "AI integration",
       "custom": "Custom software",
-      "guide": "OCR guide"
+      "guide": "OCR guide",
+      "ef": "E-invoice integration"
+    }
+  },
+  "yzEntegrasyonPage": {
+    "hero": {
+      "badge": "ChatGPT · GPT · Claude · RAG · KVKK · +90 546 549 6806",
+      "title": "AI Integration",
+      "desc": "AI integration: we connect ChatGPT / GPT, Claude or Llama to your existing software. Answers from company documents (RAG), chatbot, on-premise KVKK. Opening a ChatGPT account is not integration — API, permissions and your workflow are wired in. Ozturksoft in Çankaya does not sell a boxed pack; written quote, free discovery. Guides sit apart: <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">LLM guide</a> · <a href=\"/blog/ankara-llm-entegrasyonu-maliyeti-2026\" style=\"color:#818cf8\">cost</a>."
+    },
+    "pricing": {
+      "title": "AI integration price (2026)",
+      "intro": "Price depends on model, RAG scope, KVKK and the systems you connect. Bands below are 2026 Ankara market ranges; discovery is free, quotes are written. Monthly API is extra.",
+      "row1": "GPT / ChatGPT chatbot",
+      "row2": "RAG / internal assistant",
+      "row3": "On-premise / enterprise AI",
+      "t1": "3–5 weeks",
+      "t2": "6–10 weeks",
+      "t3": "2–6 months",
+      "linkGuide": "LLM cost guide",
+      "linkLlm": "LLM / GPT guide"
+    },
+    "cards": {
+      "c1title": "💬 ChatGPT / GPT wiring",
+      "c1desc": "OpenAI, Claude or Llama API is written into your business software. Permissions, logs and answer templates follow your process. A ChatGPT tab is not enough; integration ends copy-paste.",
+      "c1link": "Book discovery →",
+      "c2title": "📄 RAG — company documents",
+      "c2desc": "Procedures, price lists, files. The model should not invent; it answers from your text. An internal AI assistant is this layer.",
+      "c2link": "What is RAG →",
+      "c3title": "🔒 On-premise / KVKK",
+      "c3desc": "Public sector and holdings: data stays on the corporate network. TR hosting or a local model. <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#818cf8\">Public-sector AI</a> and the <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#818cf8\">KVKK guide</a> sit apart.",
+      "c3link": "Public-sector AI →",
+      "c4title": "⚡ Chatbot and agent are separate",
+      "c4desc": "Channel bot: <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp chatbot</a>; autonomous work: <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a>. This page is wiring an LLM into your software; those two jobs stay on their own URLs.",
+      "c4link": "Commission an AI agent →"
+    },
+    "who": {
+      "title": "Who commissions AI integration?",
+      "intro": "“AI integration”, “ChatGPT integration” and “LLM integration” are the same order: connect the model to business software. Ozturksoft in Çankaya does not sell a ready ChatGPT screen; delivery is written with RAG, permissions and KVKK.",
+      "i1": "You want ChatGPT in the workflow. An account was not enough; you need API, permissions and answers from company documents. You are looking for a local team to deliver ChatGPT integration.",
+      "i2": "Procedures and price lists sit in PDFs; staff look them up every time. A RAG internal assistant should cut invented answers. Data should stay in-house if possible.",
+      "i3": "Holding, public sector or finance: on-premise or TR hosting is required. Model choice (GPT, Claude, Llama) is written at discovery against cost and KVKK.",
+      "i4": "Not chat only; tomorrow <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a>, <a href=\"/fatura-okuma\" style=\"color:#818cf8\">invoice OCR</a> or <a href=\"/surec-otomasyonu\" style=\"color:#818cf8\">process automation</a> should join the same team. One vendor.",
+      "outro": "If you wanted a guide, the <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">LLM article</a> is separate. This page is to have the work built. Free discovery: <a href=\"tel:+905465496806\" style=\"color:#818cf8\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "How much does AI integration cost?",
+      "a1": "GPT/ChatGPT chatbot 40,000–80,000 TL (3–5 weeks), RAG internal assistant 80,000–200,000 TL (6–10 weeks), on-premise enterprise 150,000–500,000+ TL. Discovery is free; a firm price is written after scope. Monthly API is extra.",
+      "q2": "Is ChatGPT integration just opening an account?",
+      "a2": "No. A ChatGPT account stays copy-paste. Integration is API, permissions, RAG and wiring into business software. Answers come from your documents; a process log is kept.",
+      "q3": "Does data leave the company?",
+      "a3": "Not necessarily. On-premise or hosting in Turkey is available. In public sector and holdings, data stays on the corporate network. Model (GPT, Claude, Llama) is settled at discovery.",
+      "q4": "Are chatbot and AI agent on this page?",
+      "a4": "Web chatbot lives on <a href=\"/chatbot-yaptirmak\" style=\"color:#818cf8\">have a chatbot built</a>, WhatsApp on <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp chatbot</a>, autonomous work on <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a>. This URL is LLM / ChatGPT / RAG wiring."
+    },
+    "cta": {
+      "btn": "Free discovery call",
+      "title": "Let’s talk through your AI project",
+      "desc": "Free discovery — model, KVKK, budget. <a href=\"tel:+905465496806\" style=\"color:#818cf8\">+90 546 549 6806</a>",
+      "btn2": "Get a free quote"
+    },
+    "footer": "© 2026 Ozturksoft — AI integration",
+    "related": {
+      "wa": "WhatsApp chatbot",
+      "agent": "AI agent",
+      "ocr": "Invoice OCR",
+      "proc": "Process automation",
+      "hub": "AI company",
+      "guide": "LLM guide",
+      "bot": "Have a chatbot built"
+    },
+    "meta": {
+      "title": "AI Integration | ChatGPT & LLM | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "GPT / ChatGPT chatbot",
+      "s2l": "RAG / internal assistant",
+      "s3l": "RAG delivery"
+    }
+  },
+  "chatbotPage": {
+    "hero": {
+      "badge": "Web · GPT · CRM · KVKK · +90 546 549 6806",
+      "title": "Have a Chatbot Built",
+      "desc": "Commission a chatbot: 24/7 answers on the site, GPT and RAG from company documents. Ozturksoft in Çankaya does not sell a boxed bot; written quote, free discovery. WhatsApp is a separate channel — <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">have a WhatsApp chatbot built</a>. Guide: <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">chatbot cost</a>."
+    },
+    "pricing": {
+      "title": "Chatbot price (2026)",
+      "intro": "Price depends on scenarios, GPT, RAG and CRM. Bands are 2026 Ankara market; discovery is free, quotes are written. Monthly API is extra.",
+      "row1": "FAQ / rule-based",
+      "row2": "GPT web chatbot",
+      "row3": "RAG / company documents",
+      "t1": "2–4 weeks",
+      "t2": "3–5 weeks",
+      "t3": "6–10 weeks",
+      "linkWa": "WhatsApp chatbot (60,000–100,000 TL)",
+      "linkGuide": "Cost guide"
+    },
+    "cards": {
+      "c1title": "💬 Site widget",
+      "c1desc": "Corner chat on corporate and ecommerce sites. FAQ, order status, handoff to a human. Same assistant on mobile and desktop.",
+      "c1link": "Book discovery →",
+      "c2title": "🧠 GPT + RAG",
+      "c2desc": "Answers from catalogue and procedures. Fewer invented replies. LLM wiring runs with the same team as <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">AI integration</a>.",
+      "c2link": "Wire ChatGPT / LLM →",
+      "c3title": "📱 WhatsApp is a separate channel",
+      "c3desc": "The same assistant can also go to WhatsApp; Business API and Meta fees live on that page. This URL is the web / GPT chatbot order.",
+      "c3link": "Have a WhatsApp chatbot built →",
+      "c4title": "⚡ Not an agent",
+      "c4desc": "A chatbot talks. Autonomous work that emails and writes CRM lives on <a href=\"/ai-agent\" style=\"color:#2dd4bf\">AI agent</a>.",
+      "c4link": "Commission an AI agent →"
+    },
+    "who": {
+      "title": "Who commissions a chatbot?",
+      "intro": "“Have a chatbot built”, “AI chatbot” and “GPT chatbot” are the same order: 24/7 answers on the site or in a panel. WhatsApp searchers go to the channel page. Ozturksoft in Çankaya does not sell a boxed bot; scenarios, GPT and CRM are delivered in writing.",
+      "i1": "Support closes after hours. FAQ, shipping and returns should finish in the bot; hard questions hand off to a person.",
+      "i2": "You want GPT or ChatGPT answers from the catalogue. An account is not enough; you need a widget, permissions and RAG from company text.",
+      "i3": "You also want WhatsApp, but web first. The channel is added on <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp chatbot</a>; the same assistant is shared.",
+      "i4": "If tomorrow you need CRM updates or order creation, <a href=\"/ai-agent\" style=\"color:#2dd4bf\">AI agent</a> joins the same team. One vendor.",
+      "outro": "If you wanted a guide, the <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">cost article</a> is separate. This page is to have the work built. Free discovery: <a href=\"tel:+905465496806\" style=\"color:#2dd4bf\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "How much does a chatbot cost?",
+      "a1": "FAQ 25,000–45,000 TL (2–4 weeks), GPT web 45,000–80,000 TL (3–5 weeks), RAG 80,000–150,000 TL (6–10 weeks). WhatsApp AI 60,000–100,000 TL is a separate channel. Discovery is free; a firm price after scope.",
+      "q2": "How is it different from a WhatsApp chatbot?",
+      "a2": "This page is the site widget and GPT bot. WhatsApp Business API, templates and Meta fees live on <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">have a WhatsApp chatbot built</a>. Both can share one assistant.",
+      "q3": "Chatbot vs AI agent?",
+      "a3": "A chatbot answers questions. An agent uses tools: email, CRM, orders. Autonomous work is on <a href=\"/ai-agent\" style=\"color:#2dd4bf\">AI agent</a>.",
+      "q4": "Does data leave the company?",
+      "a4": "Not necessarily. On-premise or TR hosting is available. The LLM layer is installed in the same KVKK architecture as <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">AI integration</a>."
+    },
+    "cta": {
+      "btn": "Free discovery call",
+      "title": "Let’s talk through your chatbot",
+      "desc": "Free discovery — scenarios, GPT, budget. <a href=\"tel:+905465496806\" style=\"color:#2dd4bf\">+90 546 549 6806</a>",
+      "btn2": "Get a free quote"
+    },
+    "footer": "© 2026 Ozturksoft — Have a chatbot built",
+    "related": {
+      "wa": "WhatsApp chatbot",
+      "ai": "AI integration",
+      "agent": "AI agent",
+      "asistan": "AI Assistant",
+      "hub": "AI company",
+      "guide": "Cost guide"
+    },
+    "meta": {
+      "title": "Have a Chatbot Built | GPT & Web Bot Price | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "FAQ chatbot",
+      "s2l": "GPT web chatbot",
+      "s3l": "GPT delivery"
+    }
+  },
+  "aiAgentPage": {
+    "hero": {
+      "badge": "Autonomous · CRM · ERP · MCP · +90 546 549 6806",
+      "title": "AI Agent Yaptırmak",
+      "desc": "Have an AI agent built: not a chat bot. It classifies email, updates CRM, opens orders, writes reports. Human approval is required on critical steps. Çankaya — written quote, free discovery. Talking bots live on <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">have a chatbot built</a>. Guide: <a href=\"/blog/ankara-ai-agents-gelistirme-2026\" style=\"color:#c084fc\">AI agents</a>."
+    },
+    "pricing": {
+      "title": "AI agent price (2026)",
+      "intro": "Price follows tool count, ERP and on-premise. Bands are 2026 Ankara market; discovery is free, the quote is written.",
+      "row1": "PoC / one scenario",
+      "row2": "Multi-tool enterprise",
+      "row3": "On-premise + MCP",
+      "t1": "4–6 weeks",
+      "t2": "8–14 weeks",
+      "t3": "3–6 months",
+      "linkGuide": "AI agents guide",
+      "linkBot": "Have a chatbot built"
+    },
+    "cards": {
+      "c1title": "📬 Operations",
+      "c1desc": "Support queues, orders, appointments. The agent calls tools; every step is logged. It does not run unchecked.",
+      "c1link": "Book discovery →",
+      "c2title": "🔗 ERP / CRM",
+      "c2desc": "Logo, Netsis, custom API. An approval gate stops bad writes. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">ERP integration</a> is the same team.",
+      "c2link": "Logo Netsis →",
+      "c3title": "🔄 With RPA",
+      "c3desc": "RPA clicks, the agent decides. Both can sit in the same <a href=\"/surec-otomasyonu\" style=\"color:#c084fc\">process automation</a> project.",
+      "c3link": "Process automation →",
+      "c4title": "💬 Not a chatbot",
+      "c4desc": "Answers only: <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">chatbot</a> or <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#c084fc\">WhatsApp</a>. This page is an agent that does work.",
+      "c4link": "Have a chatbot built →"
+    },
+    "who": {
+      "title": "Who commissions an AI agent?",
+      "intro": "“Have an AI agent built” and “autonomous AI” are the same order: the model using tools. Chatbot searchers go to the conversation page. Ozturksoft in Çankaya does not sell a boxed agent; scenario, permissions and approval are delivered in writing.",
+      "i1": "Support queues and email still run by hand. The agent should classify, draft and write CRM; a human should approve a bad record.",
+      "i2": "Orders or appointments are discussed in a bot but never written to the system. The agent should call APIs; Logo/Netsis joins the same team.",
+      "i3": "Public sector or holding: on-premise, MCP, audit. Data stays on the network. The model is fixed in discovery.",
+      "i4": "Talking bot first, agent tomorrow. <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">Chatbot</a> and agent stay in one Çankaya team; vendors are not split.",
+      "outro": "The guide is separate: <a href=\"/blog/ankara-ai-agents-gelistirme-2026\" style=\"color:#c084fc\">AI agents article</a>. This page is for commissioning work. Free discovery: <a href=\"tel:+905465496806\" style=\"color:#c084fc\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "How much does an AI agent cost?",
+      "a1": "PoC 60,000–120,000 TL (4–6 weeks), enterprise 150,000–280,000 TL (8–14 weeks), on-premise + MCP 280,000–500,000+ TL. Discovery is free; a firm price after scope.",
+      "q2": "How is it different from a chatbot?",
+      "a2": "A chatbot answers questions — <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">have a chatbot built</a>. An agent uses tools: email, CRM, orders. Both can merge in <a href=\"/ankara-ai-asistan\" style=\"color:#c084fc\">AI Assistant</a>.",
+      "q3": "Does it run unchecked?",
+      "a3": "No. Human approval is required on critical steps. Logs and permissions are in the delivery.",
+      "q4": "Can it connect to ERP?",
+      "a4": "Yes. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">Logo, Netsis</a> and custom APIs. An approval gate stops a wrong voucher."
+    },
+    "cta": {
+      "btn": "Free discovery call",
+      "title": "Let’s talk through your agent scenario",
+      "desc": "Free discovery — which task, which system. <a href=\"tel:+905465496806\" style=\"color:#c084fc\">+90 546 549 6806</a>",
+      "btn2": "Get a free quote"
+    },
+    "footer": "© 2026 Ozturksoft — Have an AI agent built",
+    "related": {
+      "bot": "Have a chatbot built",
+      "ai": "AI integration",
+      "proc": "Process automation",
+      "logo": "Logo Netsis",
+      "hub": "AI company",
+      "guide": "Guide"
+    },
+    "meta": {
+      "title": "Have an AI Agent Built | Autonomous AI | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "PoC / one scenario",
+      "s2l": "Enterprise agent",
+      "s3l": "Enterprise delivery"
+    }
+  },
+  "waChatbotPage": {
+    "hero": {
+      "badge": "Business API · GPT · CRM · +90 546 549 6806",
+      "title": "WhatsApp Chatbot Yaptırmak",
+      "desc": "Have a WhatsApp chatbot built: 24/7 orders, prices and FAQ. Official Business API, GPT/RAG, CRM. Çankaya — written quote, free discovery. The site widget is separate: <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">have a chatbot built</a>. Guide: <a href=\"/blog/whatsapp-chatbot-isletme-rehberi-2026\" style=\"color:#25d366\">WhatsApp guide</a>."
+    },
+    "pricing": {
+      "title": "WhatsApp chatbot price (2026)",
+      "intro": "Price follows scenarios, GPT and CRM. Meta message fees are extra. Bands are 2026 Ankara market; discovery is free, the quote is written.",
+      "row1": "WhatsApp FAQ",
+      "row2": "WhatsApp GPT / AI",
+      "row3": "WhatsApp + CRM / ERP",
+      "t1": "3–5 weeks",
+      "t2": "4–8 weeks",
+      "t3": "6–12 weeks",
+      "linkWeb": "Web chatbot (site widget)",
+      "linkGuide": "WhatsApp guide"
+    },
+    "cards": {
+      "c1title": "💬 24/7 answers",
+      "c1desc": "Orders, prices, shipping after hours. Hard questions hand off to a human. Template messages go via the official API.",
+      "c1link": "Book discovery →",
+      "c2title": "🔗 CRM and stock",
+      "c2desc": "Orders, appointments, balances. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#25d366\">Logo / Netsis</a> or a custom API. Duplicate records stop.",
+      "c2link": "Connect ERP →",
+      "c3title": "🌐 Web is a separate channel",
+      "c3desc": "Corner chat on the site lives on <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">have a chatbot built</a>. The same assistant can serve both channels.",
+      "c3link": "Web chatbot →",
+      "c4title": "🔒 KVKK",
+      "c4desc": "On-premise or TR hosting, logs, deletion policy. The enterprise pack is <a href=\"/ankara-ai-asistan\" style=\"color:#25d366\">AI Assistant</a>.",
+      "c4link": "AI Assistant →"
+    },
+    "who": {
+      "title": "Who commissions a WhatsApp bot?",
+      "intro": "“Have a WhatsApp chatbot built” is a channel order: the customer is already on WhatsApp. The site bot has its own URL. Ozturksoft runs the BSP application with you; no boxed bot is sold.",
+      "i1": "Orders and prices arrive on WhatsApp, nights go unanswered. The bot should handle catalogue and shipping; hard records go to a human.",
+      "i2": "You need official templates and bulk notices. Business API is required; we open the application together.",
+      "i3": "WhatsApp + site should share one assistant. Web is added on <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">chatbot</a>.",
+      "i4": "Orders should write to ERP. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#25d366\">Logo</a> or <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#25d366\">e-commerce</a> is the same Çankaya team.",
+      "outro": "The guide is separate. This page is for commissioning work. Free discovery: <a href=\"tel:+905465496806\" style=\"color:#25d366\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "How much does a WhatsApp chatbot cost?",
+      "a1": "FAQ 40,000–70,000 TL, GPT 60,000–100,000 TL, CRM/ERP 90,000–160,000 TL. Meta messages and OpenAI are monthly extras. Discovery is free.",
+      "q2": "Is Business API required?",
+      "a2": "Yes for official automation and templates. We run BSP and number verification with you. Meta approval can add time.",
+      "q3": "Can it also go on the website?",
+      "a3": "Yes. The widget lives on <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">have a chatbot built</a>; the same assistant is shared.",
+      "q4": "How long does it take?",
+      "a4": "FAQ 3–5 weeks, GPT 4–8 weeks, CRM 6–12 weeks. Scenarios are written while BSP is pending."
+    },
+    "cta": {
+      "btn": "Free discovery call",
+      "title": "Let’s plan your WhatsApp bot",
+      "desc": "Free discovery — scenarios, API, budget. <a href=\"tel:+905465496806\" style=\"color:#25d366\">+90 546 549 6806</a>",
+      "btn2": "Get a free quote"
+    },
+    "footer": "© 2026 Ozturksoft — Have a WhatsApp chatbot built",
+    "related": {
+      "bot": "Have a chatbot built",
+      "shop": "E-commerce",
+      "agent": "AI agent",
+      "asistan": "AI Assistant",
+      "hub": "AI company",
+      "guide": "Guide"
+    },
+    "meta": {
+      "title": "Have a WhatsApp Chatbot Built | Business API | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "WhatsApp GPT",
+      "s2l": "Go-live",
+      "s3n": "BSP",
+      "s3l": "We handle the API application"
+    }
+  },
+  "efaturaPage": {
+    "hero": {
+      "badge": "GİB · E-Archive · E-Dispatch · Logo · +90 546 549 6806",
+      "title": "E-Fatura Entegrasyonu",
+      "desc": "E-invoice integration: official e-documents to GİB. Inbound/outbound invoices post to a <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo or Netsis</a> voucher. Not paper scanning — that job is <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">invoice OCR</a>. Çankaya, written quote, free discovery."
+    },
+    "pricing": {
+      "title": "E-invoice integration price (2026)",
+      "intro": "Price follows document types, the private integrator and ERP. Bands are 2026 Ankara market; discovery is free, the quote is written. Integrator licence fees are extra.",
+      "row1": "Single ERP connector",
+      "row2": "E-archive + e-dispatch",
+      "row3": "Holding / multi-branch",
+      "t1": "3–6 weeks",
+      "t2": "6–10 weeks",
+      "t3": "3–5 months",
+      "linkOcr": "Invoice OCR",
+      "linkLogo": "Logo Netsis"
+    },
+    "cards": {
+      "c1title": "📨 Inbound / outbound e-invoice",
+      "c1desc": "GİB or private-integrator queue. UBL, signature, reject/accept. Portal clicking stops.",
+      "c1link": "Book discovery →",
+      "c2title": "🔗 Logo / Netsis voucher",
+      "c2desc": "The e-document writes an accounting record. Double entry stops. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">ERP API</a> is the same project.",
+      "c2link": "Connect ERP →",
+      "c3title": "📦 E-dispatch / e-archive",
+      "c3desc": "Despatch and e-archive on the same connector. E-commerce orders become invoices.",
+      "c3link": "Have an e-commerce site built →",
+      "c4title": "📷 Not OCR",
+      "c4desc": "Paper or WhatsApp photos are <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">invoice OCR software</a>. This URL is official e-documents.",
+      "c4link": "Invoice OCR →"
+    },
+    "who": {
+      "title": "Who commissions e-invoice integration?",
+      "intro": "“E-invoice integration” is connecting to GİB. Portal + Excel is not enough. OCR searchers go to invoice reading. Ozturksoft writes the connector to your ERP; it does not sell a boxed licence.",
+      "i1": "Inbound e-invoices are downloaded from the portal and typed into Logo. Queue and last-day errors should stop.",
+      "i2": "E-commerce or field orders should issue e-invoices. <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f59e0b\">Store</a> or <a href=\"/trendyol-entegrasyonu\" style=\"color:#f59e0b\">Trendyol</a> joins the same team.",
+      "i3": "E-dispatch and e-archive at once. Multi-branch, holding finance.",
+      "i4": "You also have paper supplier invoices. OCR is <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">separate</a>; both can run together.",
+      "outro": "Free discovery: <a href=\"tel:+905465496806\" style=\"color:#f59e0b\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "How much does e-invoice integration cost?",
+      "a1": "Connector 35,000–70,000 TL (3–6 weeks), e-archive + e-dispatch 70,000–140,000 TL, holding 140,000–280,000+ TL. Integrator fees extra. Discovery is free.",
+      "q2": "Is it the same as invoice OCR?",
+      "a2": "No. OCR reads photos/PDFs: <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">invoice OCR</a>. This page is the GİB e-document API.",
+      "q3": "Does it write Logo / Netsis?",
+      "a3": "Yes. Inbound and outbound documents post to a <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo, Netsis</a> voucher.",
+      "q4": "Is a private integrator required?",
+      "a4": "In most projects yes. If you already have one we connect to it; otherwise it is chosen in discovery."
+    },
+    "cta": {
+      "btn": "Free discovery call",
+      "title": "Let’s talk through the e-invoice connector",
+      "desc": "Free discovery — GİB, ERP, budget. <a href=\"tel:+905465496806\" style=\"color:#f59e0b\">+90 546 549 6806</a>",
+      "btn2": "Get a free quote"
+    },
+    "footer": "© 2026 Ozturksoft — E-invoice integration",
+    "related": {
+      "ocr": "Invoice OCR",
+      "logo": "Logo Netsis",
+      "ty": "Trendyol",
+      "shop": "E-commerce",
+      "proc": "Process automation"
+    },
+    "meta": {
+      "title": "E-Invoice Integration | GİB & ERP | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Single ERP connector",
+      "s2l": "E-archive + e-dispatch",
+      "s3l": "Connector delivery"
+    }
+  },
+  "trendyolPage": {
+    "hero": {
+      "badge": "Orders · Stock · Shipping · Logo · +90 546 549 6806",
+      "title": "Trendyol Entegrasyonu",
+      "desc": "Trendyol integration: orders should not be copied from the panel. Stock, shipping and returns run via API. Your own store is separate — <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">have an e-commerce site built</a>. Çankaya, written quote, free discovery."
+    },
+    "pricing": {
+      "title": "Trendyol integration price (2026)",
+      "intro": "Price follows order volume, shipping and ERP. Bands are 2026 Ankara market; discovery is free, the quote is written.",
+      "row1": "Order pull",
+      "row2": "Stock + shipping",
+      "row3": "Marketplace + ERP",
+      "t1": "2–4 weeks",
+      "t2": "4–8 weeks",
+      "t3": "8–14 weeks",
+      "linkShop": "Your own e-commerce site",
+      "linkLogo": "Logo Netsis"
+    },
+    "cards": {
+      "c1title": "📦 Orders",
+      "c1desc": "New orders land in the panel, printer or warehouse queue. Copy-paste from Excel stops.",
+      "c1link": "Book discovery →",
+      "c2title": "📊 Stock sync",
+      "c2desc": "Sold stock writes back from Logo or the store. Double-sell and negative stock stop. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">ERP</a> is the same team.",
+      "c2link": "Connect ERP →",
+      "c3title": "🚚 Shipping and returns",
+      "c3desc": "Tracking numbers, return accept. Yurtiçi/Aras API. E-invoices cut from the same order: <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">e-invoice</a>.",
+      "c3link": "Connect e-invoice →",
+      "c4title": "🏪 Own store is separate",
+      "c4desc": "Commission-free own site: <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">have e-commerce built</a>. Marketplace stock and site stock do not clash.",
+      "c4link": "E-commerce site →"
+    },
+    "who": {
+      "title": "Who commissions Trendyol integration?",
+      "intro": "“Trendyol integration” is a marketplace API order. Shoppers who want their own store go to e-commerce. Ozturksoft does not sell a boxed marketplace pack; orders, stock and ERP are written to your flow.",
+      "i1": "Orders are copied from the panel, stock goes negative at night. The API should pull; stock should write back.",
+      "i2": "Hepsiburada or N11 should share the same stock. A second channel is added to the same spine.",
+      "i3": "Invoices should cut from Logo. <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">E-invoice</a> and <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">ERP</a> are the same Çankaya team.",
+      "i4": "You also want a brand store. The site is a <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">separate URL</a>; stock is one source.",
+      "outro": "Free discovery: <a href=\"tel:+905465496806\" style=\"color:#f27a1a\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "How much does Trendyol integration cost?",
+      "a1": "Orders 25,000–50,000 TL (2–4 weeks), stock+shipping 50,000–95,000 TL, ERP 95,000–180,000 TL. Discovery is free.",
+      "q2": "Is this an e-commerce site?",
+      "a2": "No. Your own store is <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">have an e-commerce site built</a>. This page is the Trendyol/marketplace API.",
+      "q3": "Can Hepsiburada be added?",
+      "a3": "Yes. A second marketplace is written onto the same stock spine. Price follows channel count in discovery.",
+      "q4": "Do orders post to Logo?",
+      "a4": "Yes. A <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">Logo / Netsis</a> voucher and optional <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">e-invoice</a> in the same project."
+    },
+    "cta": {
+      "btn": "Free discovery call",
+      "title": "Let’s talk through marketplace flow",
+      "desc": "Free discovery — orders, stock, ERP. <a href=\"tel:+905465496806\" style=\"color:#f27a1a\">+90 546 549 6806</a>",
+      "btn2": "Get a free quote"
+    },
+    "footer": "© 2026 Ozturksoft — Trendyol integration",
+    "related": {
+      "shop": "Have e-commerce built",
+      "ef": "E-invoice",
+      "logo": "Logo Netsis",
+      "wa": "WhatsApp chatbot"
+    },
+    "meta": {
+      "title": "Trendyol Integration | Orders & Stock | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Order pull",
+      "s2l": "Stock + shipping",
+      "s3l": "Stock delivery"
+    }
+  },
+  "danismanlikPage": {
+    "hero": {
+      "badge": "Roadmap · PoC · KVKK · +90 546 549 6806",
+      "title": "Yapay Zeka Danışmanlığı",
+      "desc": "AI consulting: a ChatGPT account is not a strategy. Which process, which budget, does data leave — a written roadmap. Build is a separate order: <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">integration</a>, <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">agent</a>. Çankaya, free discovery. Guide: <a href=\"/blog/yapay-zeka-danismanligi-isletmeler-rehberi-2026\" style=\"color:#38bdf8\">consulting article</a>."
+    },
+    "pricing": {
+      "title": "AI consulting price (2026)",
+      "intro": "Discovery is free. Roadmap and PoC are written deliverables; code is a separate quote. Bands are 2026 Ankara market.",
+      "row1": "Discovery",
+      "row2": "Roadmap",
+      "row3": "PoC",
+      "p1": "Free",
+      "t1": "45–90 min",
+      "t2": "1–3 weeks",
+      "t3": "4–8 weeks",
+      "linkAi": "Build: integration",
+      "linkGuide": "Guide"
+    },
+    "cards": {
+      "c1title": "🗺️ Process pick",
+      "c1desc": "Support, documents, sales — which one makes money in 90 days. The list is written; there is no slide-only delivery.",
+      "c1link": "Book discovery →",
+      "c2title": "💰 Cost band",
+      "c2desc": "Chatbot, RAG and agent are priced separately. No surprise. Build is quoted by the same team.",
+      "c2link": "Integration price →",
+      "c3title": "🔒 KVKK",
+      "c3desc": "Does data leave, is on-premise required. Architecture note for <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">public sector</a> and holdings.",
+      "c3link": "KVKK guide →",
+      "c4title": "🛠️ Then code",
+      "c4desc": "Once the decision is clear, <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">agent</a> or LLM is built by the same Çankaya team.",
+      "c4link": "AI company →"
+    },
+    "who": {
+      "title": "Who commissions consulting?",
+      "intro": "“AI consulting” is the order when you do not yet know what to build. ChatGPT integration searchers go to the build page. Ozturksoft writes the path first; the same team can code if you want.",
+      "i1": "Management said “do AI”, there is no process list. A 90-day path and budget band should be written.",
+      "i2": "You bought a boxed bot; it did not fit. A PoC should prove the right scenario; then <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">chatbot</a> or <a href=\"/ai-agent\" style=\"color:#38bdf8\">agent</a>.",
+      "i3": "KVKK and public sector. Whether on-premise is required is written in discovery. Build is <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">integration</a> or <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">public-sector AI</a>.",
+      "i4": "You read the guide. The information article is <a href=\"/blog/yapay-zeka-danismanligi-isletmeler-rehberi-2026\" style=\"color:#38bdf8\">separate</a>; work starts on this page.",
+      "outro": "Free discovery: <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "How much does AI consulting cost?",
+      "a1": "Discovery is free. Roadmap 25,000–60,000 TL (1–3 weeks), PoC 40,000–80,000 TL. Software is a separate quote.",
+      "q2": "How is it different from integration?",
+      "a2": "This page is where to start. Code lives on <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">AI integration</a>, <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">AI agent</a>.",
+      "q3": "Is it slides only?",
+      "a3": "No. Process list, cost band, 90-day sequence. The same team can implement if you want.",
+      "q4": "Is discovery really free?",
+      "a4": "Yes. 45–90 min, no commitment. <a href=\"/iletisim\" style=\"color:#38bdf8\">Form</a> or <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>."
+    },
+    "cta": {
+      "btn": "Free discovery call",
+      "title": "Let’s talk through the roadmap",
+      "desc": "Free discovery — process, KVKK, budget. <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>",
+      "btn2": "Get a free quote"
+    },
+    "footer": "© 2026 Ozturksoft — AI consulting",
+    "related": {
+      "ai": "Integration",
+      "bot": "Chatbot",
+      "agent": "AI agent",
+      "hub": "AI company",
+      "guide": "Guide"
+    },
+    "meta": {
+      "title": "AI Consulting | Roadmap | Ozturksoft"
+    },
+    "stats": {
+      "s1n": "Free",
+      "s1l": "Discovery call",
+      "s2l": "Roadmap",
+      "s3l": "PoC"
     }
   }
 }
