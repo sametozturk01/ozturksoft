@@ -3,9 +3,9 @@ Allow: /
 
 Sitemap: https://ozturksoft.net/sitemap.xml
 
-# LLM / AI context files
-# https://ozturksoft.net/llms.txt
-# https://ozturksoft.net/ai.txt
+# LLM / AI context files (GEO)
+Allow: /llms.txt
+Allow: /ai.txt
 
 # Blog RSS
 # https://ozturksoft.net/blog/feed.xml

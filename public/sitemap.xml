@@ -7,6 +7,18 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://ozturksoft.net/llms.txt</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ozturksoft.net/ai.txt</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://ozturksoft.net/ankara-yapay-zeka-cozumleri</loc>
     <lastmod>2026-07-09</lastmod>
     <changefreq>weekly</changefreq>
