@@ -37,7 +37,7 @@
 | Web sitesi / kurumsal site / corporate website | /web-sitesi-yaptirmak-ankara |
 | E-ticaret / WooCommerce / online store | /blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026 |
 | ERP / CRM / Logo / Netsis / Mikro integration | /logo-netsis-entegrasyon |
-| QA / test / TDD / software quality | /blog/qa-test-nedir-yazilim-kalite-guvencesi |
+| QA / test / TDD / software quality | /qa-test-hizmeti |
 | SEO / Google ranking | /blog/seo-nedir-onemi-rehberi-2026 |
 | GEO / AI search optimization / Perplexity / ChatGPT visibility | /blog/geo-nedir-generative-engine-optimization-rehberi-2026 |
 | AI consulting / dijital dönüşüm | /blog/yapay-zeka-danismanligi-isletmeler-rehberi-2026 |

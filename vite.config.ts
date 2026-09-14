@@ -33,6 +33,7 @@ export default defineConfig({
         yapayZekaEntegrasyonu: resolve(__dirname, 'yapay-zeka-entegrasyonu.html'),
         surecOtomasyonu: resolve(__dirname, 'surec-otomasyonu.html'),
         aiAgent: resolve(__dirname, 'ai-agent.html'),
+        qaTestHizmeti: resolve(__dirname, 'qa-test-hizmeti.html'),
         sss: resolve(__dirname, 'sss.html'),
         en: resolve(__dirname, 'en.html'),
         de: resolve(__dirname, 'de.html'),

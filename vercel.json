@@ -108,6 +108,21 @@
       "source": "/ai-agent-yaptirmak",
       "destination": "/ai-agent",
       "permanent": true
+    },
+    {
+      "source": "/qa-test",
+      "destination": "/qa-test-hizmeti",
+      "permanent": true
+    },
+    {
+      "source": "/yazilim-test-hizmeti",
+      "destination": "/qa-test-hizmeti",
+      "permanent": true
+    },
+    {
+      "source": "/test-otomasyonu",
+      "destination": "/qa-test-hizmeti",
+      "permanent": true
     }
   ],
   "headers": [
