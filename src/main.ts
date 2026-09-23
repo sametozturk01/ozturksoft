@@ -125,10 +125,6 @@ function updateDropdownUI(lang: string) {
     document.querySelectorAll('.mobile-lang-btn[data-lang]').forEach(btn => {
         btn.classList.toggle('is-active', btn.getAttribute('data-lang') === lang);
     });
-
-    document.querySelectorAll('.footer-langs a[data-lang]').forEach(a => {
-        a.classList.toggle('is-active', a.getAttribute('data-lang') === lang);
-    });
 }
 
 // Arapça için RTL yönü uygula
@@ -234,7 +230,7 @@ function initLangUI() {
         }
     });
 
-    document.querySelectorAll('#langDropMenu a[data-lang], .mobile-lang-btn[data-lang], .footer-langs a[data-lang]').forEach(el => {
+    document.querySelectorAll('#langDropMenu a[data-lang], .mobile-lang-btn[data-lang]').forEach(el => {
         el.addEventListener('click', async (e) => {
             e.preventDefault();
             e.stopPropagation();

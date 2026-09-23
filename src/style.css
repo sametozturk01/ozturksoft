@@ -1003,41 +1003,6 @@ footer p {
     color: #fff;
 }
 
-.footer-langs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 6px 4px;
-    width: 100%;
-    max-width: 560px;
-    position: static;
-    height: auto;
-    padding: 4px 0 0;
-    background: none;
-    backdrop-filter: none;
-    border: none;
-    z-index: auto;
-}
-
-.footer-langs a {
-    color: #94a3b8;
-    text-decoration: none;
-    font-size: 0.78rem;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    padding: 6px 10px;
-    border-radius: 8px;
-    line-height: 1.2;
-    white-space: nowrap;
-}
-
-.footer-langs a:hover,
-.footer-langs a.is-active {
-    color: #fff;
-    background: rgba(255, 255, 255, 0.06);
-}
-
 /* ==========================================
    MOBILE RESPONSIVE
    ========================================== */
