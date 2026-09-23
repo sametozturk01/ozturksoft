@@ -574,7 +574,24 @@
     }
   },
   "footer": {
-    "copyright": "© 2026 Ozturksoft | Все права защищены."
+    "copyright": "© 2026 Ozturksoft | Все права защищены.",
+    "langs": "Язык",
+    "links": {
+      "webDesign": "Веб-дизайн Анкара",
+      "website": "Заказать сайт",
+      "ecommerce": "Интернет-магазин",
+      "invoiceOcr": "OCR счетов",
+      "aiIntegration": "Интеграция ИИ",
+      "chatbot": "Заказать чат-бота",
+      "whatsapp": "WhatsApp-чатбот",
+      "aiAgent": "AI-агент",
+      "consulting": "Консалтинг ИИ",
+      "einvoice": "E-factura",
+      "trendyol": "Trendyol",
+      "customSoftware": "Индивидуальный софт",
+      "automation": "Автоматизация процессов",
+      "qa": "QA-тестирование"
+    }
   },
   "aiPage": {
     "hero": {

@@ -574,7 +574,24 @@
     }
   },
   "footer": {
-    "copyright": "© 2026 Ozturksoft | Tüm Hakları Saklıdır."
+    "copyright": "© 2026 Ozturksoft | Tüm Hakları Saklıdır.",
+    "langs": "Dil",
+    "links": {
+      "webDesign": "Ankara web tasarım",
+      "website": "Web sitesi yaptırmak",
+      "ecommerce": "E-ticaret yaptırmak",
+      "invoiceOcr": "Fatura okuma",
+      "aiIntegration": "Yapay zeka entegrasyonu",
+      "chatbot": "Chatbot yaptırmak",
+      "whatsapp": "WhatsApp chatbot",
+      "aiAgent": "AI agent",
+      "consulting": "Yapay zeka danışmanlığı",
+      "einvoice": "E-fatura",
+      "trendyol": "Trendyol entegrasyonu",
+      "customSoftware": "Özel yazılım",
+      "automation": "Süreç otomasyonu",
+      "qa": "QA test hizmeti"
+    }
   },
   "aiPage": {
     "hero": {

@@ -574,7 +574,24 @@
     }
   },
   "footer": {
-    "copyright": "© 2026 Ozturksoft | Tous droits réservés."
+    "copyright": "© 2026 Ozturksoft | Tous droits réservés.",
+    "langs": "Langue",
+    "links": {
+      "webDesign": "Web design Ankara",
+      "website": "Faire créer un site",
+      "ecommerce": "E-commerce",
+      "invoiceOcr": "OCR factures",
+      "aiIntegration": "Intégration IA",
+      "chatbot": "Faire créer un chatbot",
+      "whatsapp": "Chatbot WhatsApp",
+      "aiAgent": "Agent IA",
+      "consulting": "Conseil IA",
+      "einvoice": "E-facture",
+      "trendyol": "Trendyol",
+      "customSoftware": "Logiciel sur mesure",
+      "automation": "Automatisation des processus",
+      "qa": "Tests QA"
+    }
   },
   "aiPage": {
     "hero": {
