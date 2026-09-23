@@ -926,11 +926,14 @@ section {
 .lp-cta h2 { color: #fff; margin-bottom: 12px; border: 0; padding: 0; }
 .lp-cta p { color: #94a3b8; margin-bottom: 24px; }
 .lp-footer {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     padding: 36px 8% 48px;
     color: #64748b;
     border-top: 1px solid rgba(255, 255, 255, 0.06);
+    gap: 12px;
 }
 .lp-footer a { color: #3b82f6; text-decoration: none; }
 @media (max-width: 900px) {
@@ -944,21 +947,60 @@ section {
    FOOTER
    ========================================== */
 footer {
-    padding: 50px 8%;
+    padding: 36px 6% 44px;
     background: var(--dark-bg);
     border-top: 1px solid rgba(255, 255, 255, 0.05);
     text-align: center;
-    min-height: 100px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 16px;
     position: relative;
     z-index: 10;
 }
 
 footer p {
     color: var(--text-dim);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px 10px;
+    max-width: 960px;
+    width: 100%;
+    position: static;
+    height: auto;
+    padding: 0;
+    background: none;
+    backdrop-filter: none;
+    border: none;
+    z-index: auto;
+}
+
+.footer-links a {
+    color: #93c5fd;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    white-space: nowrap;
+    line-height: 1.2;
+}
+
+.footer-links a:hover {
+    background: rgba(59, 130, 246, 0.18);
+    border-color: rgba(59, 130, 246, 0.45);
+    color: #fff;
 }
 
 /* ==========================================
