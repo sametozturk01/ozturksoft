@@ -1,6 +1,6 @@
 import nodemailer from 'nodemailer';
 
-const POLICY_VERSION = '2026-09-27';
+const POLICY_VERSION = '2026-09-27-ga';
 const POLICY_URL = 'https://ozturksoft.net/gizlilik';
 
 const SITE_ORIGINS = [

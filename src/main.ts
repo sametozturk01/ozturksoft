@@ -61,6 +61,39 @@ function resolvedLang(): string {
 }
 
 const COOKIE_CONSENT_KEY = 'ozturksoft_cookie_consent';
+const COOKIE_CONSENT_VERSION_KEY = 'ozturksoft_cookie_policy_v';
+const COOKIE_POLICY_VERSION = '2026-09-27-ga';
+
+function gaMeasurementId(): string {
+    const id = String(import.meta.env.VITE_GA_MEASUREMENT_ID || 'G-081WMH9GE9').trim();
+    return /^G-[A-Z0-9]+$/i.test(id) ? id : '';
+}
+
+function loadGoogleAnalytics() {
+    const id = gaMeasurementId();
+    if (!id || document.getElementById('ga-gtag')) return;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function gtag() {
+        window.dataLayer!.push(arguments);
+    };
+    window.gtag('js', new Date());
+    window.gtag('config', id, { anonymize_ip: true });
+    const s = document.createElement('script');
+    s.id = 'ga-gtag';
+    s.async = true;
+    s.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(id)}`;
+    document.head.appendChild(s);
+}
+
+function applyAnalyticsFromConsent(value: 'all' | 'necessary') {
+    if (value === 'all') {
+        loadGoogleAnalytics();
+        return;
+    }
+    if (document.getElementById('ga-gtag')) {
+        window.location.reload();
+    }
+}
 
 function cookieConsentValue(): string | null {
     try {
@@ -70,16 +103,40 @@ function cookieConsentValue(): string | null {
     }
 }
 
-const COOKIE_POLICY_VERSION = '2026-09-27';
+function cookiePolicyVersionMatches(): boolean {
+    try {
+        return localStorage.getItem(COOKIE_CONSENT_VERSION_KEY) === COOKIE_POLICY_VERSION;
+    } catch {
+        return false;
+    }
+}
+
+function currentCookieConsent(): 'all' | 'necessary' | null {
+    const v = cookieConsentValue();
+    if ((v === 'all' || v === 'necessary') && cookiePolicyVersionMatches()) return v;
+    return null;
+}
+
+function clearStoredCookieConsent() {
+    try {
+        localStorage.removeItem(COOKIE_CONSENT_KEY);
+        localStorage.removeItem(COOKIE_CONSENT_VERSION_KEY);
+    } catch {
+        /* ignore */
+    }
+    delete document.documentElement.dataset.cookieConsent;
+}
 
 function setCookieConsent(value: 'all' | 'necessary') {
     try {
         localStorage.setItem(COOKIE_CONSENT_KEY, value);
+        localStorage.setItem(COOKIE_CONSENT_VERSION_KEY, COOKIE_POLICY_VERSION);
     } catch {
         /* private mode */
     }
     document.documentElement.dataset.cookieConsent = value;
     recordCookieConsent(value);
+    applyAnalyticsFromConsent(value);
 }
 
 function recordCookieConsent(value: 'all' | 'necessary') {
@@ -169,7 +226,7 @@ function showCookieBanner() {
       <div class="cookie-banner-inner">
         <div class="cookie-banner-copy">
           <p id="cookieBannerTitle" class="cookie-banner-kicker" data-i18n="cookieBanner.title">Çerez tercihi</p>
-          <p id="cookieBannerText" data-i18n="cookieBanner.text">Zorunlu kayıt: dil ve çerez tercihi (tarayıcı). Reklam çerezi yok. Ayrıntı: gizlilik ve KVKK aydınlatma metni.</p>
+          <p id="cookieBannerText" data-i18n="cookieBanner.text">Zorunlu: dil ve tercih kaydı. “Kabul et”: Google Analytics (sayfa, kaynak, cihaz — reklam profili değil). “Yalnızca zorunlu”: ölçüm yok. Ayrıntı: gizlilik metni.</p>
         </div>
         <div class="cookie-banner-actions">
           <button type="button" class="btn btn-primary" data-cookie="all" data-i18n="cookieBanner.accept">Kabul et</button>
@@ -200,29 +257,20 @@ function initCookieBanner() {
             const trigger = (e.target as HTMLElement).closest('[data-cookie-settings]');
             if (!trigger) return;
             e.preventDefault();
-            try {
-                localStorage.removeItem(COOKIE_CONSENT_KEY);
-            } catch {
-                /* ignore */
-            }
-            delete document.documentElement.dataset.cookieConsent;
+            clearStoredCookieConsent();
             showCookieBanner();
         });
         window.addEventListener('resize', syncCookieFabOffset);
     }
     if (cookiePreviewRequested()) {
-        try {
-            localStorage.removeItem(COOKIE_CONSENT_KEY);
-        } catch {
-            /* ignore */
-        }
-        delete document.documentElement.dataset.cookieConsent;
+        clearStoredCookieConsent();
         showCookieBanner();
         return;
     }
-    const saved = cookieConsentValue();
-    if (saved === 'all' || saved === 'necessary') {
+    const saved = currentCookieConsent();
+    if (saved) {
         document.documentElement.dataset.cookieConsent = saved;
+        if (saved === 'all') loadGoogleAnalytics();
         if (i18next.isInitialized) updateContent();
         return;
     }
