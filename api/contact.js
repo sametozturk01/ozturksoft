@@ -4,6 +4,8 @@ const SITE_ORIGINS = [
   'https://ozturksoft.net',
   'https://www.ozturksoft.net',
   'http://localhost:5173',
+  'http://localhost:5174',
+  'http://localhost:5175',
   'http://localhost:3000',
 ];
 
@@ -28,6 +30,14 @@ function getSmtpConfig() {
   const pass = (process.env.SMTP_PASS || '').replace(/\s/g, '');
   const to = (process.env.CONTACT_TO || process.env.CONTACT_TO_EMAIL || user).trim();
   return { user, pass, to };
+}
+
+function clientIp(req) {
+  const xf = req.headers['x-forwarded-for'];
+  if (typeof xf === 'string' && xf.trim()) return xf.split(',')[0].trim().slice(0, 64);
+  const real = req.headers['x-real-ip'];
+  if (typeof real === 'string' && real.trim()) return real.trim().slice(0, 64);
+  return String(req.socket?.remoteAddress || '').slice(0, 64);
 }
 
 function parseBody(req) {
@@ -124,6 +134,8 @@ export default async function handler(req, res) {
       ['Bütçe', budget || '—'],
       ['Başlangıç', timeline || '—'],
       ['KVKK Onayı', kvkkConsentAt],
+      ['Politika', 'https://ozturksoft.net/gizlilik · 2026-09-27'],
+      ['IP', clientIp(req) || '—'],
     ];
 
     const tableHtml = rows
@@ -151,6 +163,8 @@ export default async function handler(req, res) {
         `Bütçe: ${budget || '—'}`,
         `Başlangıç: ${timeline || '—'}`,
         `KVKK: ${kvkkConsentAt}`,
+        'Politika: https://ozturksoft.net/gizlilik · 2026-09-27',
+        `IP: ${clientIp(req) || '—'}`,
         '',
         'Proje Detayları:',
         message,

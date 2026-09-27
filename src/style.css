@@ -1322,7 +1322,9 @@ html, body {
 }
 
 #langDropMenu,
-#langDropMenu * {
+#langDropMenu *,
+#cookieBanner,
+#cookieBanner * {
     max-width: none;
 }
 
@@ -1814,4 +1816,148 @@ html, body {
 h1 {
     line-height: 1.2; 
     padding-bottom: 15px; /* Alt kancalara güvenli alan */
+}
+
+/* Çerez paneli — hub kartı + .btn / .btn-primary / .btn-outline */
+#cookieBanner {
+    position: fixed;
+    left: 50%;
+    right: auto;
+    bottom: 24px;
+    z-index: 5000;
+    width: min(880px, calc(100vw - 48px));
+    transform: translateX(-50%);
+    padding: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.cookie-banner-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px 24px;
+    padding: 22px 24px;
+    background: var(--card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 18px 50px rgba(2, 6, 23, 0.65);
+}
+.cookie-banner-copy {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+.cookie-banner-kicker {
+    margin: 0 0 6px;
+    color: var(--primary);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+#cookieBanner #cookieBannerText {
+    margin: 0;
+    max-width: none;
+    color: var(--text-dim);
+    font-size: 0.92rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.cookie-banner-actions {
+    display: grid;
+    grid-template-columns: minmax(190px, 1fr) minmax(190px, 1fr);
+    gap: 10px;
+    align-items: stretch;
+    flex: 0 0 auto;
+    min-width: 400px;
+}
+#cookieBanner .cookie-banner-actions .btn {
+    font-family: inherit;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    min-width: 0;
+    height: 52px;
+    min-height: 52px;
+    padding: 0 18px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.cookie-banner-policy {
+    grid-column: 1 / -1;
+    justify-self: center;
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+    padding: 4px 8px 0;
+    white-space: nowrap;
+    text-align: center;
+}
+.cookie-banner-policy:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+html.cookie-banner-open .corp-wa-btn,
+html.cookie-banner-open .back-to-top,
+html.cookie-banner-open[dir="rtl"] .corp-wa-btn,
+html.cookie-banner-open[dir="rtl"] .back-to-top {
+    bottom: var(--cookie-fab-lift, 168px);
+}
+
+@media (max-width: 768px) {
+    #cookieBanner {
+        bottom: 12px;
+        width: calc(100vw - 24px);
+        left: 12px;
+        right: 12px;
+        transform: none;
+    }
+    .cookie-banner-inner {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 16px;
+        padding: 18px 16px calc(16px + env(safe-area-inset-bottom, 0px));
+        border-radius: 14px;
+        text-align: center;
+    }
+    #cookieBanner #cookieBannerText {
+        font-size: 0.88rem;
+        line-height: 1.55;
+    }
+    .cookie-banner-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+        flex: none;
+        width: 100%;
+        min-width: 0;
+    }
+    #cookieBanner .cookie-banner-actions .btn {
+        width: 100% !important;
+        max-width: none !important;
+        margin: 0 !important;
+        height: 52px;
+        min-height: 52px;
+        padding: 0 20px;
+        font-size: 0.95rem;
+        white-space: nowrap;
+        text-align: center;
+        justify-content: center;
+        display: inline-flex;
+    }
+    .cookie-banner-policy {
+        width: 100%;
+        justify-self: center;
+        text-align: center;
+        padding: 8px 0 2px;
+    }
+    html.cookie-banner-open .corp-wa-btn,
+    html.cookie-banner-open[dir="rtl"] .corp-wa-btn,
+    html.cookie-banner-open .back-to-top,
+    html.cookie-banner-open[dir="rtl"] .back-to-top {
+        bottom: var(--cookie-fab-lift, 220px);
+    }
 }

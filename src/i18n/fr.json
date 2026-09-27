@@ -475,7 +475,7 @@
       "placeholderPhone": "05XXXXXXXXX",
       "placeholderDetails": "Décrivez brièvement votre projet : objectifs, systèmes existants, besoins d'intégration...",
       "kvkkTitle": "Consentement RGPD / KVKK",
-      "kvkkConsent": "Conformément au KVKK turc et au RGPD, je consens expressément à ce qu'Ozturksoft traite mon nom, e-mail, téléphone, entreprise et détails du projet aux fins de préparation de devis et de communication.",
+      "kvkkConsent": "Je consens expressément, loi n° 6698, au traitement de mes nom, e-mail, téléphone, société et projet pour le devis, y compris l’e-mail/hébergement décrits et les transferts associés.",
       "privacyLink": "Politique de confidentialité",
       "privacyText": "lue et acceptée. *",
       "privacyRequired": "Vous devez cocher la case de consentement KVKK/RGPD avant d'envoyer le formulaire.",
@@ -486,7 +486,7 @@
       "successDesc": "Notre équipe vous répondra sous 4 heures. Pour les projets urgents, vous pouvez aussi nous écrire sur WhatsApp.",
       "sendAnother": "Envoyer une nouvelle demande",
       "error": "Une erreur s'est produite. Veuillez réessayer ou nous envoyer un e-mail directement.",
-      "hint": "Vos données sont protégées conformément au RGPD et ne sont jamais partagées avec des tiers.",
+      "hint": "Traitement selon la loi n° 6698. Hébergement, e-mail et WhatsApp (si vous cliquez) sont décrits dans la notice.",
       "whatsappCta": "Écrire sur WhatsApp",
       "mailSubject": "Demande de devis",
       "trust1Title": "Réponse en 4 h",
@@ -569,16 +569,16 @@
     },
     "modal": {
       "title": "Politique de confidentialité",
-      "p1": "En tant qu'Ozturksoft, nous assumons la responsabilité de protéger les données personnelles des utilisateurs visitant notre site web.",
+      "p1": "Traitement selon la loi n° 6698. Texte intégral : <a href=\"/gizlilik\">/gizlilik</a>.",
       "h1": "Données collectées",
-      "li1": "Nom, e-mail, téléphone, informations sur l'entreprise et détails du projet fournis via le formulaire de contact",
-      "li2": "Adresse IP et informations du navigateur",
+      "li1": "Formulaire : nom, e-mail, téléphone, société, projet, budget, délai, notes, horodatage du consentement",
+      "li2": "Journaux d’hébergement (IP, date, requête) ; langue et cookies. Pas d’analytics pub.",
       "h2": "Utilisation des données",
-      "p2": "Les données collectées seront uniquement utilisées pour vous contacter, proposer des devis et améliorer nos services.",
+      "p2": "Finalité devis/contact. Pas de vente. Vercel, Google, CDN, WhatsApp (clic) dans la notice.",
       "h3": "Droits des utilisateurs",
-      "p3": "Dans le cadre du RGPD, vous pouvez exercer vos droits d'accès, de rectification, de suppression. Envoyez vos demandes à <a href=\"mailto:info.ozturksoft@gmail.com\" style=\"color: var(--primary); text-decoration: none; font-weight: 600;\">info.ozturksoft@gmail.com</a>.",
+      "p3": "Art. 11 : <a href=\"mailto:info.ozturksoft@gmail.com\">info.ozturksoft@gmail.com</a>. Autorité : kvkk.gov.tr.",
       "h4": "Sécurité",
-      "p4": "Ozturksoft met en œuvre des mesures de sécurité techniques et administratives pour protéger vos données personnelles.",
+      "p4": "HTTPS et case obligatoire. Internet n’est pas sans risque.",
       "btn": "Compris, Fermer"
     }
   },
@@ -598,7 +598,8 @@
       "trendyol": "Trendyol",
       "customSoftware": "Logiciel sur mesure",
       "automation": "Automatisation des processus",
-      "qa": "Tests QA"
+      "qa": "Tests QA",
+      "privacy": "Confidentialité & cookies"
     }
   },
   "aiFirmPage": {
@@ -2484,5 +2485,51 @@
     "botCta": "Nous contacter",
     "botGuide": "Comment choisir une entreprise logicielle →",
     "foot": "© 2026 Ozturksoft — Entreprise logicielle Ankara | <a href=\"/\" style=\"color:#3b82f6\">Accueil</a> · <a href=\"/hizmetler\" style=\"color:#3b82f6\">Services</a> · <a href=\"/ankara-yapay-zeka-firmasi\" style=\"color:#3b82f6\">IA</a>"
+  },
+  "cookieBanner": {
+    "title": "Préférence cookies",
+    "text": "Nécessaire : langue et choix cookies dans le navigateur. Pas de cookies pub. Détails dans la notice.",
+    "accept": "Accepter",
+    "necessary": "Nécessaires seulement",
+    "policy": "Confidentialité & cookies",
+    "settings": "Paramètres cookies"
+  },
+  "privacyPage": {
+    "meta": {
+      "title": "Confidentialité, cookies et notice KVKK | Ozturksoft"
+    },
+    "h1": "Confidentialité, cookies et protection des données",
+    "updated": "En vigueur le 27 septembre 2026 · Notice loi turque n° 6698 (KVKK) art. 10 et information cookies.",
+    "controllerD": "Responsable : <strong>Ozturksoft</strong> (Öztürksoft Yazılım), Çankaya / Ankara, Türkiye. <a href=\"mailto:info.ozturksoft@gmail.com\">info.ozturksoft@gmail.com</a> · <a href=\"tel:+905465496806\">+90 546 549 6806</a> · <a href=\"/iletisim\">ozturksoft.net/iletisim</a>. Raison sociale, MERSIS et n° fiscal sur demande écrite.",
+    "scopeT": "1. Champ",
+    "scopeD": "Visiteurs de <a href=\"https://ozturksoft.net\">ozturksoft.net</a>, formulaires devis, téléphone, e-mail, WhatsApp. Les contrats client et NDA prévalent en cas de conflit.",
+    "catT": "2. Données traitées",
+    "catD": "<li><strong>Identité/contact :</strong> nom, e-mail, téléphone, société.</li><li><strong>Devis :</strong> type, budget, délai, notes, horodatage du consentement.</li><li><strong>Canaux :</strong> appels, mails, WhatsApp que vous initiez.</li><li><strong>Technique :</strong> langue et choix cookies ; journaux d’hébergement (IP, date, URL, navigateur — pas de profil pub).</li>",
+    "purposeT": "3. Finalités",
+    "purposeD": "Devis et découverte, contact, vérification, anti-fraude/spam, obligations légales, fonctionnement du site. Pas de liste marketing automatique, pas de profilage, pas de vente.",
+    "legalT": "4. Bases légales",
+    "legalD": "Formulaire : consentement art. 5/1. Stockage nécessaire et fonctionnement : art. 5/2 (c) et (f). Pas de cookies pub. Après contrat : exécution et conservation commerciale/fiscale.",
+    "cookieT": "5. Cookies et localStorage",
+    "cookieD": "Pas de cookies pub/analytics HTTP. Choix dans le navigateur et chez nous pour preuve : choix, date, version (2026-09-27), page, IP, navigateur, e-mail au responsable (objet [KVKK kayıt]). Pas une liste marketing.",
+    "cookieTable": "<table><thead><tr><th>Clé</th><th>Durée</th><th>Finalité</th><th>Type</th></tr></thead><tbody><tr><td>ozturksoft_lang</td><td>Jusqu’à suppression</td><td>Langue</td><td>Nécessaire</td></tr><tr><td>ozturksoft_cookie_consent</td><td>Jusqu’à modification</td><td>Mémoriser le choix</td><td>Nécessaire</td></tr></tbody></table>",
+    "optionalT": "6. Mesure optionnelle",
+    "optionalD": "Pas de Google Analytics, Meta Pixel ou régie. « Accepter » enregistre un futur mesurage ; le texte sera mis à jour. « Nécessaires seulement » : langue et ce choix.",
+    "formT": "7. Formulaire et canaux",
+    "formD": "Formulaire via /api/contact (Gmail SMTP). Le mail contient l’horodatage du consentement, l’URL de la notice et l’IP. WhatsApp : wa.me Meta.",
+    "thirdT": "8. Destinataires",
+    "thirdD": "Pas de vente. <strong>Vercel</strong>, <strong>Google</strong> (Gmail, Fonts), <strong>Cloudflare / cdnjs</strong>, <strong>WhatsApp / Meta</strong> si vous cliquez.",
+    "transferT": "9. Transfert hors Turquie",
+    "transferD": "Serveurs éventuels hors TR (USA/UE). Envoi du formulaire = consentement art. 9. Sinon : téléphone ou e-mail TR.",
+    "retentionT": "10. Conservation",
+    "retentionD": "Devis et preuves : 24 mois max. après dernier contact ou retrait. Après contrat TTK/fiscal (souvent 10 ans). Effacer le navigateur ; copie serveur : info.ozturksoft@gmail.com.",
+    "securityT": "11. Sécurité",
+    "securityD": "HTTPS, honeypot, pas d’envoi sans case, SMTP. Pas de données santé/pénales dans le formulaire.",
+    "rightsT": "12. Droits art. 11",
+    "rightsD": "Accès, rectification, effacement, destinataires, opposition aux décisions uniquement automatisées, réparation. Pas de profilage sur ce site.",
+    "applyT": "13. Demande et autorité",
+    "applyD": "<a href=\"mailto:info.ozturksoft@gmail.com\">info.ozturksoft@gmail.com</a>, objet « demande KVKK », 30 jours. Recours : <a href=\"https://www.kvkk.gov.tr\" rel=\"noopener noreferrer\" target=\"_blank\">kvkk.gov.tr</a>.",
+    "changesT": "14. Mises à jour",
+    "changesD": "Nouveaux outils ou changement légal : cette page est actualisée.",
+    "disclaimer": "Notice institutionnelle, pas un avis d’avocat. Projets clients : contrat."
   }
 }

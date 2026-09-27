@@ -41,6 +41,7 @@ export default defineConfig({
         trendyolEntegrasyonu: resolve(__dirname, 'trendyol-entegrasyonu.html'),
         yapayZekaDanismanligi: resolve(__dirname, 'yapay-zeka-danismanligi.html'),
         ankaraWebTasarim: resolve(__dirname, 'ankara-web-tasarim.html'),
+        gizlilik: resolve(__dirname, 'gizlilik.html'),
         sss: resolve(__dirname, 'sss.html'),
         en: resolve(__dirname, 'en.html'),
         de: resolve(__dirname, 'de.html'),

@@ -60,6 +60,175 @@ function resolvedLang(): string {
     return (raw.split('-')[0] || 'tr').toLowerCase();
 }
 
+const COOKIE_CONSENT_KEY = 'ozturksoft_cookie_consent';
+
+function cookieConsentValue(): string | null {
+    try {
+        return localStorage.getItem(COOKIE_CONSENT_KEY);
+    } catch {
+        return null;
+    }
+}
+
+const COOKIE_POLICY_VERSION = '2026-09-27';
+
+function setCookieConsent(value: 'all' | 'necessary') {
+    try {
+        localStorage.setItem(COOKIE_CONSENT_KEY, value);
+    } catch {
+        /* private mode */
+    }
+    document.documentElement.dataset.cookieConsent = value;
+    recordCookieConsent(value);
+}
+
+function recordCookieConsent(value: 'all' | 'necessary') {
+    try {
+        void fetch('/api/consent', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+            body: JSON.stringify({
+                choice: value,
+                policyVersion: COOKIE_POLICY_VERSION,
+                lang: document.documentElement.lang || 'tr',
+                path: window.location.pathname,
+            }),
+            keepalive: true,
+        });
+    } catch {
+        /* kayıt gitti tarayıcıda durur */
+    }
+}
+
+function cookiePreviewRequested(): boolean {
+    try {
+        return new URLSearchParams(window.location.search).has('cerez');
+    } catch {
+        return false;
+    }
+}
+
+function clearCookiePreviewQuery() {
+    try {
+        const url = new URL(window.location.href);
+        if (!url.searchParams.has('cerez')) return;
+        url.searchParams.delete('cerez');
+        const qs = url.searchParams.toString();
+        history.replaceState({}, '', url.pathname + (qs ? `?${qs}` : '') + url.hash);
+    } catch {
+        /* ignore */
+    }
+}
+
+function hideCookieBanner() {
+    document.getElementById('cookieBanner')?.remove();
+    document.documentElement.classList.remove('cookie-banner-open');
+    document.documentElement.style.removeProperty('--cookie-fab-lift');
+    clearCookiePreviewQuery();
+}
+
+function syncCookieFabOffset() {
+    const el = document.getElementById('cookieBanner');
+    if (!el) {
+        document.documentElement.style.removeProperty('--cookie-fab-lift');
+        return;
+    }
+    const h = Math.ceil(el.getBoundingClientRect().height);
+    document.documentElement.style.setProperty('--cookie-fab-lift', `${h + 16}px`);
+}
+
+function injectFooterPrivacyLinks() {
+    document.querySelectorAll('footer').forEach((footer) => {
+        const wrap = footer.querySelector('.footer-links') || footer;
+        if (!footer.querySelector('a[href="/gizlilik"]')) {
+            const privacy = document.createElement('a');
+            privacy.href = '/gizlilik';
+            privacy.setAttribute('data-i18n', 'footer.links.privacy');
+            privacy.textContent = 'Gizlilik & çerezler';
+            wrap.appendChild(privacy);
+        }
+        if (!footer.querySelector('[data-cookie-settings]')) {
+            const settings = document.createElement('a');
+            settings.href = '#';
+            settings.setAttribute('data-cookie-settings', '1');
+            settings.setAttribute('data-i18n', 'cookieBanner.settings');
+            settings.textContent = 'Çerez ayarları';
+            wrap.appendChild(settings);
+        }
+    });
+}
+
+function showCookieBanner() {
+    if (document.getElementById('cookieBanner')) return;
+    const el = document.createElement('div');
+    el.id = 'cookieBanner';
+    el.setAttribute('role', 'dialog');
+    el.setAttribute('aria-modal', 'false');
+    el.setAttribute('aria-labelledby', 'cookieBannerTitle');
+    el.innerHTML = `
+      <div class="cookie-banner-inner">
+        <div class="cookie-banner-copy">
+          <p id="cookieBannerTitle" class="cookie-banner-kicker" data-i18n="cookieBanner.title">Çerez tercihi</p>
+          <p id="cookieBannerText" data-i18n="cookieBanner.text">Zorunlu kayıt: dil ve çerez tercihi (tarayıcı). Reklam çerezi yok. Ayrıntı: gizlilik ve KVKK aydınlatma metni.</p>
+        </div>
+        <div class="cookie-banner-actions">
+          <button type="button" class="btn btn-primary" data-cookie="all" data-i18n="cookieBanner.accept">Kabul et</button>
+          <button type="button" class="btn btn-outline" data-cookie="necessary" data-i18n="cookieBanner.necessary">Yalnızca zorunlu</button>
+          <a href="/gizlilik" class="cookie-banner-policy" data-i18n="cookieBanner.policy">Gizlilik &amp; çerezler</a>
+        </div>
+      </div>`;
+    document.body.appendChild(el);
+    document.documentElement.classList.add('cookie-banner-open');
+    if (i18next.isInitialized) updateContent();
+    syncCookieFabOffset();
+    requestAnimationFrame(syncCookieFabOffset);
+    el.querySelector('[data-cookie="all"]')?.addEventListener('click', () => {
+        setCookieConsent('all');
+        hideCookieBanner();
+    });
+    el.querySelector('[data-cookie="necessary"]')?.addEventListener('click', () => {
+        setCookieConsent('necessary');
+        hideCookieBanner();
+    });
+}
+
+function initCookieBanner() {
+    injectFooterPrivacyLinks();
+    if (document.body.dataset.cookieBannerClicks !== '1') {
+        document.body.dataset.cookieBannerClicks = '1';
+        document.body.addEventListener('click', (e) => {
+            const trigger = (e.target as HTMLElement).closest('[data-cookie-settings]');
+            if (!trigger) return;
+            e.preventDefault();
+            try {
+                localStorage.removeItem(COOKIE_CONSENT_KEY);
+            } catch {
+                /* ignore */
+            }
+            delete document.documentElement.dataset.cookieConsent;
+            showCookieBanner();
+        });
+        window.addEventListener('resize', syncCookieFabOffset);
+    }
+    if (cookiePreviewRequested()) {
+        try {
+            localStorage.removeItem(COOKIE_CONSENT_KEY);
+        } catch {
+            /* ignore */
+        }
+        delete document.documentElement.dataset.cookieConsent;
+        showCookieBanner();
+        return;
+    }
+    const saved = cookieConsentValue();
+    if (saved === 'all' || saved === 'necessary') {
+        document.documentElement.dataset.cookieConsent = saved;
+        if (i18next.isInitialized) updateContent();
+        return;
+    }
+    showCookieBanner();
+}
+
 i18next.init({
     lng: pageLang,
     fallbackLng: 'tr',
@@ -78,6 +247,9 @@ i18next.init({
     updateDropdownUI(lang);
     applyDocumentDir(lang);
     updateLocaleNavLinks(lang);
+    initCookieBanner();
+}).catch(() => {
+    initCookieBanner();
 });
 
 // Çeviriyi Ekrana Uygulayan Fonksiyon
@@ -153,6 +325,7 @@ async function changeLanguage(lang: string) {
     updateContent();
     updateDropdownUI(lang);
     updateLocaleNavLinks(lang);
+    initCookieBanner();
 }
 
 function localeHomeUrl(lang: string): string {
@@ -343,6 +516,7 @@ function onReady(fn: () => void) {
 onReady(() => {
     initLangUI();
     initMobileMenu();
+    initCookieBanner();
 });
 
 // --- ÇEVİRİ SİSTEMİ BİTİŞİ ---
@@ -354,6 +528,7 @@ window.addEventListener("load", () => {
     initScrollTopButton();
     initHeroStatsAnimation();
     setupPhoneReveal();
+    initCookieBanner();
 });
 
 // Gizlilik modal fonksiyonu
@@ -365,6 +540,8 @@ function initPrivacyModal() {
     if (!privacyLink || !modal || !closeBtn) return;
 
     privacyLink.addEventListener("click", (e) => {
+        const href = privacyLink.getAttribute("href") || "";
+        if (href.includes("gizlilik")) return;
         e.preventDefault();
         e.stopPropagation();
         modal.style.display = "flex";

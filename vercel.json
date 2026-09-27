@@ -6,6 +6,9 @@
   "functions": {
     "api/contact.js": {
       "maxDuration": 10
+    },
+    "api/consent.js": {
+      "maxDuration": 10
     }
   },
   "redirects": [
@@ -272,6 +275,21 @@
     {
       "source": "/yapay-zeka-danismanlik",
       "destination": "/yapay-zeka-danismanligi",
+      "permanent": true
+    },
+    {
+      "source": "/privacy",
+      "destination": "/gizlilik",
+      "permanent": true
+    },
+    {
+      "source": "/cookie-policy",
+      "destination": "/gizlilik",
+      "permanent": true
+    },
+    {
+      "source": "/cerez-politikasi",
+      "destination": "/gizlilik",
       "permanent": true
     }
   ],

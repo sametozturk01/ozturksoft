@@ -475,7 +475,7 @@
       "placeholderPhone": "05XXXXXXXXX",
       "placeholderDetails": "Briefly describe your project: goals, existing systems, integration needs...",
       "kvkkTitle": "GDPR / KVKK Explicit Consent",
-      "kvkkConsent": "Under applicable data protection law (including Turkey's KVKK), I expressly consent to Ozturksoft processing my name, email, phone, company and project details for quote preparation and communication purposes.",
+      "kvkkConsent": "I give explicit consent under Law No. 6698 for my name, email, phone, company and project details to be processed for quotes and contact, including the email/hosting described in the privacy notice and related transfers abroad.",
       "privacyLink": "Privacy Policy",
       "privacyText": "read and accepted. *",
       "privacyRequired": "You must check the KVKK/GDPR consent box before submitting the form.",
@@ -486,7 +486,7 @@
       "successDesc": "Our team will get back to you within 4 hours. For urgent projects, you can also message us on WhatsApp.",
       "sendAnother": "Send another request",
       "error": "Something went wrong. Please try again or email us directly.",
-      "hint": "Your data is protected under KVKK/GDPR and is never shared with third parties.",
+      "hint": "Processed under Law No. 6698. Hosting, email delivery and WhatsApp (if you click) are described in the privacy notice.",
       "whatsappCta": "Message on WhatsApp",
       "mailSubject": "Quote Request",
       "trust1Title": "4-hour response",
@@ -569,16 +569,16 @@
     },
     "modal": {
       "title": "Privacy Policy",
-      "p1": "As Ozturksoft, we bear the responsibility of protecting the personal data of users visiting our website and sharing information via the contact form.",
+      "p1": "Ozturksoft processes visitor and quote-form data under Law No. 6698. Full text: <a href=\"/gizlilik\">/gizlilik</a>.",
       "h1": "Collected Data",
-      "li1": "Name-surname, e-mail, phone, company information, and project details provided via the contact form",
-      "li2": "IP address and browser information (for website security and performance analysis)",
+      "li1": "Form: name, email, phone, company, project type, budget, timeline, notes and time of consent",
+      "li2": "Hosting security logs (IP, time, request); language and cookie choice in the browser. No ad analytics.",
       "h2": "Data Usage",
-      "p2": "The collected data will only be used to contact you, offer quotes, and improve our services. Your data will not be shared with third parties.",
+      "p2": "Purpose is quotes and contact. No sale of data. Vercel, Google (Gmail/Fonts), CDN and WhatsApp (if you click) are listed in the notice.",
       "h3": "User Rights",
-      "p3": "Under the scope of KVKK (Data Protection Law), you can exercise your rights to access, correct, delete, limit processing, and request data portability. You can send your requests to <a href=\"mailto:info.ozturksoft@gmail.com\" style=\"color: var(--primary); text-decoration: none; font-weight: 600;\">info.ozturksoft@gmail.com</a>.",
+      "p3": "Art. 11 rights: <a href=\"mailto:info.ozturksoft@gmail.com\">info.ozturksoft@gmail.com</a>. Board: kvkk.gov.tr. Reply within 30 days.",
       "h4": "Security",
-      "p4": "Ozturksoft implements technical and administrative security measures to protect your personal data.",
+      "p4": "HTTPS and mandatory consent on the form. The internet is not risk-free.",
       "btn": "Understood, Close"
     }
   },
@@ -598,7 +598,8 @@
       "trendyol": "Trendyol",
       "customSoftware": "Custom software",
       "automation": "Process automation",
-      "qa": "QA testing"
+      "qa": "QA testing",
+      "privacy": "Privacy & cookies"
     }
   },
   "aiFirmPage": {
@@ -2499,5 +2500,51 @@
     "botCta": "Contact us now",
     "botGuide": "How to choose a software company →",
     "foot": "© 2026 Ozturksoft — Ankara Software Company | <a href=\"/\" style=\"color:#3b82f6\">Home</a> · <a href=\"/hizmetler\" style=\"color:#3b82f6\">Services</a> · <a href=\"/ankara-yapay-zeka-firmasi\" style=\"color:#3b82f6\">AI</a>"
+  },
+  "cookieBanner": {
+    "title": "Cookie preference",
+    "text": "Necessary: language and cookie choice in your browser. No ad cookies. Details in the privacy notice.",
+    "accept": "Accept",
+    "necessary": "Necessary only",
+    "policy": "Privacy & cookies",
+    "settings": "Cookie settings"
+  },
+  "privacyPage": {
+    "meta": {
+      "title": "Privacy, Cookies and Personal Data Notice | Ozturksoft"
+    },
+    "h1": "Privacy, Cookies and Personal Data Protection",
+    "updated": "Effective 27 September 2026 · Information notice under Turkish Law No. 6698 (KVKK) Art. 10 and cookie disclosure.",
+    "controllerD": "Controller: <strong>Ozturksoft</strong> (Öztürksoft Yazılım), Çankaya / Ankara, Türkiye. Contact: <a href=\"mailto:info.ozturksoft@gmail.com\">info.ozturksoft@gmail.com</a> · <a href=\"tel:+905465496806\">+90 546 549 6806</a> · <a href=\"/iletisim\">ozturksoft.net/iletisim</a>. Legal title, MERSIS and tax ID are provided on written request.",
+    "scopeT": "1. Scope",
+    "scopeD": "This notice covers visitors of <a href=\"https://ozturksoft.net\">ozturksoft.net</a>, quote-form senders, and people who contact us by phone, email or WhatsApp. Customer contracts, NDAs and project processing are governed by those documents; they prevail in case of conflict.",
+    "catT": "2. Personal data we process",
+    "catD": "<li><strong>Identity and contact:</strong> name, email, phone, company.</li><li><strong>Quote content:</strong> project type, budget band, timeline, free-text notes, time of consent.</li><li><strong>Channel records:</strong> calls, emails or WhatsApp you start.</li><li><strong>Technical:</strong> language and cookie choice in the browser; hosting security logs (IP, time, URL, user-agent — not ad profiling).</li>",
+    "purposeT": "3. Purposes",
+    "purposeD": "Preparing a quote and discovery call, contacting you, verifying the request, reducing fraud and spam, legal duties, running the site. No automatic marketing lists, profiling or sale of data.",
+    "legalT": "4. Legal bases",
+    "legalD": "Quote form: explicit consent (Art. 5/1); the form does not send without the checkbox. Strictly necessary language/consent storage and site operation: Art. 5/2 (c) and (f). Not advertising cookies. If a contract is signed, performance and commercial/tax retention also apply.",
+    "cookieT": "5. Cookies and local storage",
+    "cookieD": "No ad or third-party analytics HTTP cookies today. Your choice is stored in the browser (localStorage) and on our side for proof: choice, time, policy version (2026-09-27), page, IP, user-agent, emailed to the controller (subject [KVKK kayıt]). Not a marketing list. Change it in the footer.",
+    "cookieTable": "<table><thead><tr><th>Key</th><th>Period</th><th>Purpose</th><th>Type</th></tr></thead><tbody><tr><td>ozturksoft_lang</td><td>Until you delete it</td><td>UI language</td><td>Necessary</td></tr><tr><td>ozturksoft_cookie_consent</td><td>Until you change or delete it</td><td>Remember cookie choice</td><td>Necessary</td></tr></tbody></table>",
+    "optionalT": "6. Optional measurement",
+    "optionalD": "Google Analytics, Meta Pixel or ad networks are not installed. “Accept” stores consent for measurement we may add later; if we add tools, this page is updated and consent is renewed where required. “Necessary only” keeps language and this choice.",
+    "formT": "7. Quote form and channels",
+    "formD": "The form is emailed via /api/contact (Gmail SMTP). The message includes consent time, policy URL (/gizlilik · 2026-09-27) and IP for the quote and accountability. Failure may open mailto. WhatsApp goes to Meta wa.me.",
+    "thirdT": "8. Recipients",
+    "thirdD": "We do not sell data. Processing uses <strong>Vercel</strong> (site and API), <strong>Google</strong> (Gmail; Google Fonts), <strong>Cloudflare / cdnjs</strong> (icon font), and <strong>WhatsApp / Meta</strong> if you click. They may be independent controllers or processors.",
+    "transferT": "9. Transfers abroad",
+    "transferD": "Hosting, email and CDN servers may be outside Türkiye (e.g. US / EU). Sending the form and accepting this notice is explicit consent to that transfer under KVKK Art. 9. If you refuse, do not use the form; ask for phone or Türkiye-only email.",
+    "retentionT": "10. Retention",
+    "retentionD": "Quote emails and consent records: up to 24 months from last contact or until withdrawal, unless needed for legal defence. Cookie proof logs the same. After a contract, TTK/tax (typically 10 years). You can clear the browser; email info.ozturksoft@gmail.com to request erasure of the server copy.",
+    "securityT": "11. Security",
+    "securityD": "HTTPS, a honeypot field, no send without consent, SMTP authentication. The internet is not risk-free. Do not put special-category health or criminal data in the form.",
+    "rightsT": "12. Your rights (Art. 11)",
+    "rightsD": "Learn whether we process your data; obtain information; learn whether it is used for its purpose; know recipients in/out of Türkiye; rectify; erase/destroy as the law allows; have that notified to recipients; object to solely automated adverse decisions; claim damages for unlawful processing. This site does not make automated decisions or profiles.",
+    "applyT": "13. How to apply",
+    "applyD": "Email <a href=\"mailto:info.ozturksoft@gmail.com\">info.ozturksoft@gmail.com</a> with identity details, subject “KVKK request”. We reply within 30 days under the Communiqué; a fee may apply in the cases it lists. Appeal: Personal Data Protection Board, <a href=\"https://www.kvkk.gov.tr\" rel=\"noopener noreferrer\" target=\"_blank\">kvkk.gov.tr</a>.",
+    "changesT": "14. Updates",
+    "changesD": "If we add measurement, a new channel or the law changes, this page is updated. The date is above. Material changes also update the banner or the form text.",
+    "disclaimer": "This is a corporate information and cookie notice aligned with current law. It is not a substitute for a lawyer or a Board decision. Project processing is set in the customer contract."
   }
 }
