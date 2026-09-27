@@ -592,7 +592,6 @@
       "qa": "QA-Tests"
     }
   },
-
   "aiFirmPage": {
     "meta": {
       "title": "KI-Unternehmen Ankara | LLM, KI-Agent & Chatbot | Ozturksoft"
@@ -2392,5 +2391,65 @@
       "s2l": "Roadmap",
       "s3l": "PoC"
     }
+  },
+  "softwareFirmPage": {
+    "meta": {
+      "title": "Softwareunternehmen Ankara | Individualsoftware & KI | Ozturksoft"
+    },
+    "badge": "Çankaya, Ankara",
+    "h1": "Softwareunternehmen Ankara — Konzerne, Öffentliche Hand & KMU",
+    "desc": "Ozturksoft entwickelt Individualsoftware, On-Premise-KI, Beleg-OCR, Mobile Apps und SEO für Holdings, Behörden, Kommunen und KMU. QA-Lieferung und KVKK-konforme Architektur — Ihre Daten bleiben in der Organisation.",
+    "cta": "Kostenloses Erstgespräch",
+    "seg": {
+      "corpT": "🏢 Konzerne & Holdings",
+      "corpD": "ERP, CRM, Corporate Web, KI-Agenten und Mobile — prüfbare Systeme für Tausende Nutzer.",
+      "pubBadge": "ÖFFENTLICHER SEKTOR",
+      "pubT": "🏛️ Behörden & Staat",
+      "pubD": "On-Premise-KI, Beleg-OCR, E-Government und sichere Software — Daten bleiben im Netz der Behörde.",
+      "smeT": "🚀 KMU & Start-ups",
+      "smeD": "SaaS-MVP, Chatbots und schnelle Digitalisierung — transparente Budgets, kurze Lieferzeiten."
+    },
+    "svc": {
+      "customT": "⚙️ Individualsoftware",
+      "customD": "ERP, CRM, SaaS, Laravel und Corporate-Web. React, TypeScript, Python.",
+      "customL": "Individualsoftware beauftragen →",
+      "aiT": "🤖 KI & LLM",
+      "aiD": "KI-Agenten, Enterprise-KI, MCP-Server, OCR, Chatbots, GPT-Integration und Prozessautomatisierung.",
+      "aiL": "KI-Unternehmen Ankara →",
+      "mobileT": "📱 Mobile Apps",
+      "mobileD": "iOS & Android mit Flutter und React Native.",
+      "mobileL": "App entwickeln lassen →",
+      "webT": "🌐 Web & SEO",
+      "webD": "Unternehmenswebsite, E-Commerce, technisches SEO und GEO.",
+      "webL": "Webdesign Ankara →",
+      "webSiteL": "Website erstellen lassen →",
+      "ecomL": "Onlineshop erstellen lassen →",
+      "qaT": "🛡️ QA & Test",
+      "qaD": "Automatisierte Tests, Security-Scans und Null-Fehler-Kultur.",
+      "qaL": "QA-Test →",
+      "waT": "💬 WhatsApp-Chatbot",
+      "waD": "Vertriebs- und Support-Automatisierung mit CRM.",
+      "waL": "WhatsApp-Chatbot beauftragen →"
+    },
+    "whyT": "Warum Ozturksoft in Ankara?",
+    "why1": "<strong>Konzern- & Behördenfokus</strong> — On-Premise-KI für Holdings, Ministerien, Kommunen und Hochschulen",
+    "why2": "<strong>Team in Çankaya</strong> — Vor Ort und remote in ganz Ankara",
+    "why3": "<strong>QA-Lieferung</strong> — Jedes Projekt durchläuft Tests",
+    "why4": "<strong>KVKK-konforme Architektur</strong> — Daten bleiben sicher, On-Premise-Option",
+    "why5": "<strong>Transparente Preise</strong> — Schriftlicher Scope und Festangebot",
+    "why6": "<strong>KI & Software unter einem Dach</strong> — LLM, Chatbot und Individualsoftware",
+    "why7": "<strong>6 Sprachen</strong> — EN, DE, FR, AR, RU für internationale Kunden",
+    "faqT": "Häufige Fragen",
+    "q1": "Welches ist das beste Softwareunternehmen in Ankara?",
+    "a1": "Ozturksoft gehört in Ankara zu den führenden Anbietern für Individualsoftware, KI, Mobile und SEO. Vergleichen Sie uns über Referenzen und Blog-Guides.",
+    "q2": "Wie lange dauert ein Softwareprojekt?",
+    "a2": "Corporate-Web 3–6 Wochen, Individualsoftware 2–6 Monate, Apps 8–20 Wochen. Den Zeitplan klären wir im Erstgespräch.",
+    "q3": "Liefern Sie auch außerhalb Ankaras?",
+    "a3": "Ja. Sitz in Ankara; remote für Istanbul, Izmir und das Ausland. Kunden in Ankara können vor Ort treffen.",
+    "botT": "Sprechen wir über Ihr Softwareprojekt in Ankara",
+    "botD": "Kostenloses Erstgespräch — Scope, Budget und Technologie.",
+    "botCta": "Jetzt Kontakt aufnehmen",
+    "botGuide": "Softwareunternehmen wählen →",
+    "foot": "© 2026 Ozturksoft — Softwareunternehmen Ankara | <a href=\"/\" style=\"color:#3b82f6\">Start</a> · <a href=\"/hizmetler\" style=\"color:#3b82f6\">Leistungen</a> · <a href=\"/ankara-yapay-zeka-firmasi\" style=\"color:#3b82f6\">KI</a>"
   }
 }

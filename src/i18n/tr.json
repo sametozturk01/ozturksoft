@@ -592,7 +592,6 @@
       "qa": "QA test hizmeti"
     }
   },
-
   "aiFirmPage": {
     "meta": {
       "title": "Ankara Yapay Zeka Firması | AI, LLM & Chatbot | Ozturksoft"
@@ -2407,5 +2406,65 @@
       "s2l": "Yol haritası",
       "s3l": "PoC"
     }
+  },
+  "softwareFirmPage": {
+    "meta": {
+      "title": "Ankara Yazılım Şirketi | Özel Yazılım & AI | Ozturksoft"
+    },
+    "badge": "Çankaya, Ankara",
+    "h1": "Ankara Yazılım Şirketi — Kurumlar, Kamu & Özel Sektör",
+    "desc": "Ozturksoft; holdingler, devlet daireleri, belediyeler ve KOBİ'ler için özel yazılım, on-premise yapay zeka, belge OCR, mobil uygulama ve SEO çözümleri geliştirir. QA odaklı teslimat, KVKK uyumlu mimari — verileriniz kurum içinde kalır.",
+    "cta": "Ücretsiz Keşif Görüşmesi",
+    "seg": {
+      "corpT": "🏢 Kurumlar & Holdingler",
+      "corpD": "ERP, CRM, kurumsal web, AI agents ve mobil — binlerce kullanıcıya ölçeklenen, denetlenebilir sistemler.",
+      "pubBadge": "KAMU & DEVLET",
+      "pubT": "🏛️ Devlet Daireleri & Kamu",
+      "pubD": "On-premise yapay zeka, belge OCR, e-devlet süreçleri ve güvenli yazılım — veriler kurum ağında kalır.",
+      "smeT": "🚀 KOBİ & Girişimler",
+      "smeD": "SaaS MVP, chatbot ve hızlı dijital dönüşüm — şeffaf bütçe ve kısa teslim süreleri."
+    },
+    "svc": {
+      "customT": "⚙️ Özel Yazılım Geliştirme",
+      "customD": "ERP, CRM, SaaS, Laravel ve kurumsal web uygulamaları. React, TypeScript, Python.",
+      "customL": "Özel yazılım yaptırmak →",
+      "aiT": "🤖 Yapay Zeka & LLM",
+      "aiD": "AI Agents, Enterprise AI, MCP sunucuları, OCR, chatbot, GPT entegrasyonu ve süreç otomasyonu.",
+      "aiL": "Ankara Yapay Zeka Firması →",
+      "mobileT": "📱 Mobil Uygulama",
+      "mobileD": "Flutter ve React Native ile iOS & Android uygulamaları.",
+      "mobileL": "Mobil uygulama yaptırmak →",
+      "webT": "🌐 Web & SEO",
+      "webD": "Kurumsal web sitesi, e-ticaret, teknik SEO ve GEO optimizasyonu.",
+      "webL": "Ankara web tasarım →",
+      "webSiteL": "Web sitesi yaptırmak →",
+      "ecomL": "E-ticaret yaptırmak →",
+      "qaT": "🛡️ QA & Test",
+      "qaD": "Otomatik test, güvenlik taraması ve sıfır hata teslimat kültürü.",
+      "qaL": "QA test hizmeti →",
+      "waT": "💬 WhatsApp Chatbot",
+      "waD": "Satış ve destek otomasyonu, CRM entegrasyonu.",
+      "waL": "WhatsApp chatbot yaptırmak →"
+    },
+    "whyT": "Neden Ankara'da Ozturksoft?",
+    "why1": "<strong>Kurum & kamu odaklı</strong> — Holdingler, bakanlıklar, belediyeler ve üniversiteler için on-premise AI",
+    "why2": "<strong>Çankaya merkezli ekip</strong> — Ankara genelinde yerinde ve uzaktan destek",
+    "why3": "<strong>QA odaklı teslimat</strong> — Her proje test süreçlerinden geçer",
+    "why4": "<strong>KVKK uyumlu mimari</strong> — Verileriniz güvende, on-premise seçeneği",
+    "why5": "<strong>Şeffaf fiyatlandırma</strong> — Yazılı kapsam ve sabit teklif",
+    "why6": "<strong>AI & yazılım tek çatı altında</strong> — LLM, chatbot ve özel yazılım birlikte",
+    "why7": "<strong>6 dilde içerik</strong> — Uluslararası müşteriler için EN, DE, FR, AR, RU",
+    "faqT": "Sık Sorulan Sorular",
+    "q1": "Ankara'da en iyi yazılım şirketi hangisi?",
+    "a1": "Ozturksoft; özel yazılım, AI, mobil ve SEO alanlarında Ankara'nın önde gelen firmalarından biridir. Referanslarımızı ve blog rehberlerimizi inceleyerek karşılaştırma yapabilirsiniz.",
+    "q2": "Yazılım projesi ne kadar sürer?",
+    "a2": "Kurumsal web 3–6 hafta, özel yazılım 2–6 ay, mobil uygulama 8–20 hafta. Keşif görüşmesinde net takvim sunuyoruz.",
+    "q3": "Ankara dışına da hizmet veriyor musunuz?",
+    "a3": "Evet. Ankara merkezliyiz; İstanbul, İzmir ve yurtdışı müşterilere uzaktan hizmet veriyoruz. Ankara müşterilerine yerinde toplantı imkânı sunuyoruz.",
+    "botT": "Ankara'da Yazılım Projenizi Konuşalım",
+    "botD": "Ücretsiz keşif görüşmesi — kapsam, bütçe ve teknoloji seçimi.",
+    "botCta": "Hemen İletişime Geçin",
+    "botGuide": "Yazılım şirketi seçim rehberi →",
+    "foot": "© 2026 Ozturksoft — Ankara Yazılım Şirketi | <a href=\"/\" style=\"color:#3b82f6\">Ana Sayfa</a> · <a href=\"/hizmetler\" style=\"color:#3b82f6\">Hizmetler</a> · <a href=\"/ankara-yapay-zeka-firmasi\" style=\"color:#3b82f6\">Yapay Zeka</a>"
   }
 }

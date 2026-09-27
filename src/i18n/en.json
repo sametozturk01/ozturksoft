@@ -592,7 +592,6 @@
       "qa": "QA testing"
     }
   },
-
   "aiFirmPage": {
     "meta": {
       "title": "Ankara AI Company | LLM, AI Agent & Chatbot | Ozturksoft"
@@ -2407,5 +2406,65 @@
       "s2l": "Roadmap",
       "s3l": "PoC"
     }
+  },
+  "softwareFirmPage": {
+    "meta": {
+      "title": "Ankara Software Company | Custom Software & AI | Ozturksoft"
+    },
+    "badge": "Çankaya, Ankara",
+    "h1": "Ankara Software Company — Enterprise, Public Sector & SMEs",
+    "desc": "Ozturksoft builds custom software, on-premise AI, document OCR, mobile apps and SEO for holdings, government agencies, municipalities and SMEs. QA-led delivery and KVKK-compliant architecture — your data stays inside the organisation.",
+    "cta": "Free Discovery Call",
+    "seg": {
+      "corpT": "🏢 Enterprises & Holdings",
+      "corpD": "ERP, CRM, corporate web, AI agents and mobile — auditable systems that scale to thousands of users.",
+      "pubBadge": "PUBLIC SECTOR",
+      "pubT": "🏛️ Government & Public Agencies",
+      "pubD": "On-premise AI, document OCR, e-government processes and secure software — data stays on your network.",
+      "smeT": "🚀 SMEs & Startups",
+      "smeD": "SaaS MVPs, chatbots and fast digital transformation — transparent budgets and short delivery."
+    },
+    "svc": {
+      "customT": "⚙️ Custom Software",
+      "customD": "ERP, CRM, SaaS, Laravel and corporate web apps. React, TypeScript, Python.",
+      "customL": "Have custom software built →",
+      "aiT": "🤖 AI & LLM",
+      "aiD": "AI agents, enterprise AI, MCP servers, OCR, chatbots, GPT integration and process automation.",
+      "aiL": "Ankara AI company →",
+      "mobileT": "📱 Mobile Apps",
+      "mobileD": "iOS & Android with Flutter and React Native.",
+      "mobileL": "Have a mobile app built →",
+      "webT": "🌐 Web & SEO",
+      "webD": "Corporate websites, e-commerce, technical SEO and GEO.",
+      "webL": "Ankara web design →",
+      "webSiteL": "Have a website built →",
+      "ecomL": "Have an e-commerce site built →",
+      "qaT": "🛡️ QA & Testing",
+      "qaD": "Automated tests, security scans and a zero-defect delivery culture.",
+      "qaL": "QA testing →",
+      "waT": "💬 WhatsApp Chatbot",
+      "waD": "Sales and support automation with CRM integration.",
+      "waL": "Have a WhatsApp chatbot built →"
+    },
+    "whyT": "Why Ozturksoft in Ankara?",
+    "why1": "<strong>Enterprise & public focus</strong> — On-premise AI for holdings, ministries, municipalities and universities",
+    "why2": "<strong>Çankaya-based team</strong> — On-site and remote support across Ankara",
+    "why3": "<strong>QA-led delivery</strong> — Every project goes through testing",
+    "why4": "<strong>KVKK-compliant architecture</strong> — Your data stays safe, on-premise option",
+    "why5": "<strong>Transparent pricing</strong> — Written scope and a fixed quote",
+    "why6": "<strong>AI & software under one roof</strong> — LLM, chatbot and custom software together",
+    "why7": "<strong>6 languages</strong> — EN, DE, FR, AR, RU for international clients",
+    "faqT": "FAQ",
+    "q1": "Who is the best software company in Ankara?",
+    "a1": "Ozturksoft is among Ankara’s leading firms for custom software, AI, mobile and SEO. Compare us via references and our blog guides.",
+    "q2": "How long does a software project take?",
+    "a2": "Corporate web 3–6 weeks, custom software 2–6 months, mobile apps 8–20 weeks. We give a clear timeline in discovery.",
+    "q3": "Do you serve clients outside Ankara?",
+    "a3": "Yes. We are Ankara-based and work remotely with Istanbul, Izmir and international clients. Ankara clients can meet on-site.",
+    "botT": "Let’s talk about your Ankara software project",
+    "botD": "Free discovery — scope, budget and tech choice.",
+    "botCta": "Contact us now",
+    "botGuide": "How to choose a software company →",
+    "foot": "© 2026 Ozturksoft — Ankara Software Company | <a href=\"/\" style=\"color:#3b82f6\">Home</a> · <a href=\"/hizmetler\" style=\"color:#3b82f6\">Services</a> · <a href=\"/ankara-yapay-zeka-firmasi\" style=\"color:#3b82f6\">AI</a>"
   }
 }

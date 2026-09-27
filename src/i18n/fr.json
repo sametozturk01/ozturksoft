@@ -592,7 +592,6 @@
       "qa": "Tests QA"
     }
   },
-
   "aiFirmPage": {
     "meta": {
       "title": "Entreprise d’IA à Ankara | LLM, agent IA & chatbot | Ozturksoft"
@@ -2392,5 +2391,65 @@
       "s2l": "Feuille de route",
       "s3l": "PoC"
     }
+  },
+  "softwareFirmPage": {
+    "meta": {
+      "title": "Entreprise logicielle Ankara | Logiciel sur mesure & IA | Ozturksoft"
+    },
+    "badge": "Çankaya, Ankara",
+    "h1": "Entreprise logicielle à Ankara — Groupes, secteur public & PME",
+    "desc": "Ozturksoft développe des logiciels sur mesure, de l’IA on-premise, de l’OCR documentaire, des apps mobiles et du SEO pour holdings, administrations, communes et PME. Livraison QA et architecture conforme KVKK — vos données restent dans l’organisation.",
+    "cta": "Appel découverte gratuit",
+    "seg": {
+      "corpT": "🏢 Groupes & holdings",
+      "corpD": "ERP, CRM, web corporate, agents IA et mobile — systèmes auditables à l’échelle de milliers d’utilisateurs.",
+      "pubBadge": "SECTEUR PUBLIC",
+      "pubT": "🏛️ Administrations & État",
+      "pubD": "IA on-premise, OCR, e-gouvernement et logiciels sécurisés — les données restent sur votre réseau.",
+      "smeT": "🚀 PME & startups",
+      "smeD": "MVP SaaS, chatbots et transformation rapide — budgets transparents, délais courts."
+    },
+    "svc": {
+      "customT": "⚙️ Logiciel sur mesure",
+      "customD": "ERP, CRM, SaaS, Laravel et web corporate. React, TypeScript, Python.",
+      "customL": "Faire développer un logiciel →",
+      "aiT": "🤖 IA & LLM",
+      "aiD": "Agents IA, IA d’entreprise, serveurs MCP, OCR, chatbots, GPT et automatisation.",
+      "aiL": "Entreprise IA Ankara →",
+      "mobileT": "📱 Applications mobiles",
+      "mobileD": "iOS & Android avec Flutter et React Native.",
+      "mobileL": "Faire développer une app →",
+      "webT": "🌐 Web & SEO",
+      "webD": "Site corporate, e-commerce, SEO technique et GEO.",
+      "webL": "Webdesign Ankara →",
+      "webSiteL": "Faire un site web →",
+      "ecomL": "Faire un e-commerce →",
+      "qaT": "🛡️ QA & tests",
+      "qaD": "Tests automatisés, scans de sécurité et culture zéro défaut.",
+      "qaL": "Service QA →",
+      "waT": "💬 Chatbot WhatsApp",
+      "waD": "Automatisation ventes/support avec CRM.",
+      "waL": "Faire un chatbot WhatsApp →"
+    },
+    "whyT": "Pourquoi Ozturksoft à Ankara ?",
+    "why1": "<strong>Focus groupes & public</strong> — IA on-premise pour holdings, ministères, communes et universités",
+    "why2": "<strong>Équipe à Çankaya</strong> — Sur site et à distance dans tout Ankara",
+    "why3": "<strong>Livraison QA</strong> — Chaque projet passe par les tests",
+    "why4": "<strong>Architecture KVKK</strong> — Données protégées, option on-premise",
+    "why5": "<strong>Prix transparents</strong> — Périmètre écrit et devis fixe",
+    "why6": "<strong>IA et logiciel sous un même toit</strong> — LLM, chatbot et logiciel sur mesure",
+    "why7": "<strong>6 langues</strong> — EN, DE, FR, AR, RU pour les clients internationaux",
+    "faqT": "Questions fréquentes",
+    "q1": "Quelle est la meilleure entreprise logicielle à Ankara ?",
+    "a1": "Ozturksoft compte parmi les acteurs d’Ankara pour le logiciel sur mesure, l’IA, le mobile et le SEO. Comparez-nous via les références et nos guides.",
+    "q2": "Combien de temps dure un projet logiciel ?",
+    "a2": "Web corporate 3–6 semaines, logiciel sur mesure 2–6 mois, apps 8–20 semaines. Le calendrier est fixé en découverte.",
+    "q3": "Travaillez-vous hors d’Ankara ?",
+    "a3": "Oui. Basés à Ankara, nous livrons à distance Istanbul, Izmir et l’international. Les clients d’Ankara peuvent se rencontrer sur place.",
+    "botT": "Parlons de votre projet logiciel à Ankara",
+    "botD": "Découverte gratuite — périmètre, budget et stack.",
+    "botCta": "Nous contacter",
+    "botGuide": "Comment choisir une entreprise logicielle →",
+    "foot": "© 2026 Ozturksoft — Entreprise logicielle Ankara | <a href=\"/\" style=\"color:#3b82f6\">Accueil</a> · <a href=\"/hizmetler\" style=\"color:#3b82f6\">Services</a> · <a href=\"/ankara-yapay-zeka-firmasi\" style=\"color:#3b82f6\">IA</a>"
   }
 }
