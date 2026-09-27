@@ -55,39 +55,48 @@
     "cards": {
       "aiAgents": {
         "title": "AI Agents",
-        "desc": "Autonomous AI agents for task planning, tool use, and end-to-end multi-step workflow automation."
+        "desc": "Autonomous AI agents for task planning, tool use, and end-to-end multi-step workflow automation.",
+        "quote": "Have an AI agent built →"
       },
       "saas": {
         "title": "SaaS Development",
-        "desc": "Cloud subscription products — multi-tenant architecture, billing integration, and scalable infrastructure."
+        "desc": "Cloud subscription products — multi-tenant architecture, billing integration, and scalable infrastructure.",
+        "quote": "SaaS / custom software →"
       },
       "customSoftware": {
         "title": "Custom Software",
-        "desc": "Tailored ERP, CRM, and enterprise software when off-the-shelf SaaS is not enough."
+        "desc": "Tailored ERP, CRM, and enterprise software when off-the-shelf SaaS is not enough.",
+        "quote": "Have custom software built →"
       },
       "ocr": {
         "title": "OCR & Document AI",
-        "desc": "Automatic reading, classification, and digitization of invoices, contracts, and corporate documents."
+        "desc": "Automatic reading, classification, and digitization of invoices, contracts, and corporate documents.",
+        "quote": "Invoice OCR →"
       },
       "automation": {
         "title": "Automation & RPA",
-        "desc": "RPA + AI turns repetitive processes into intelligent automation so teams focus on high-value work."
+        "desc": "RPA + AI turns repetitive processes into intelligent automation so teams focus on high-value work.",
+        "quote": "Process automation →"
       },
       "mcp": {
         "title": "MCP Servers",
-        "desc": "Model Context Protocol servers that securely connect LLMs to your tools, databases, and business systems."
+        "desc": "Model Context Protocol servers that securely connect LLMs to your tools, databases, and business systems.",
+        "quote": "MCP / AI agent →"
       },
       "flutter": {
         "title": "Flutter Apps",
-        "desc": "High-performance, native-looking mobile apps for iOS and Android from a single codebase."
+        "desc": "High-performance, native-looking mobile apps for iOS and Android from a single codebase.",
+        "quote": "Have a mobile app built →"
       },
       "laravel": {
         "title": "Laravel Systems",
-        "desc": "Secure APIs, admin panels, and enterprise backends with Laravel — fast delivery, solid architecture."
+        "desc": "Secure APIs, admin panels, and enterprise backends with Laravel — fast delivery, solid architecture.",
+        "quote": "Have custom software built →"
       },
       "enterpriseAi": {
         "title": "Enterprise AI",
-        "desc": "GDPR/KVKK-compliant, on-premise enterprise AI — your data stays on your servers."
+        "desc": "GDPR/KVKK-compliant, on-premise enterprise AI — your data stays on your servers.",
+        "quote": "AI integration →"
       },
       "erpIntegration": {
         "title": "ERP Integration",
@@ -694,7 +703,8 @@
       "badge": "Ankara-Based AI Company",
       "title1": "AI Solutions",
       "title2": "in Ankara",
-      "desc": "On-premise AI, document digitization, process automation and enterprise software for institutions and government agencies."
+      "desc": "On-premise AI, document digitization, process automation and enterprise software for institutions and government agencies.",
+      "quoteLine": "Quote: <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#60a5fa;font-weight:600\">integration</a> · <a href=\"/chatbot-yaptirmak\" style=\"color:#60a5fa;font-weight:600\">chatbot</a> · <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#60a5fa;font-weight:600\">WhatsApp</a> · <a href=\"/ai-agent\" style=\"color:#60a5fa;font-weight:600\">AI agent</a> · <a href=\"/ankara-yapay-zeka-firmasi\" style=\"color:#60a5fa;font-weight:600\">company hub</a>"
     },
     "cards": {
       "c1": {
@@ -703,7 +713,9 @@
         "li1": "GPT-4 & Turkish NLP",
         "li2": "AI Agents & MCP Servers",
         "li3": "WhatsApp / Web Integration",
-        "li4": "CRM & ERP Connection"
+        "li4": "CRM & ERP Connection",
+        "quote": "Have a chatbot built →",
+        "quoteWa": "WhatsApp →"
       },
       "c2": {
         "title": "LLM & GPT Integration",
@@ -711,7 +723,8 @@
         "li1": "OpenAI / Anthropic API",
         "li2": "RAG (Retrieval Augmented Generation)",
         "li3": "LangChain & Vector DB",
-        "li4": "On-Premise Deployment"
+        "li4": "On-Premise Deployment",
+        "quote": "AI integration →"
       },
       "c3": {
         "title": "Predictive Analytics",
@@ -719,7 +732,8 @@
         "li1": "Python ML (scikit-learn, XGBoost)",
         "li2": "TensorFlow & PyTorch",
         "li3": "Anomaly Detection",
-        "li4": "Dashboard & Reporting"
+        "li4": "Dashboard & Reporting",
+        "quote": "Book discovery →"
       },
       "c4": {
         "title": "Process Automation (RPA + AI)",
@@ -727,7 +741,8 @@
         "li1": "RPA & AI Workflow",
         "li2": "Document & Invoice Automation",
         "li3": "API Integration",
-        "li4": "Process Monitoring & Reporting"
+        "li4": "Process Monitoring & Reporting",
+        "quote": "Process automation →"
       },
       "c5": {
         "title": "Computer Vision & Image Processing",
@@ -735,7 +750,8 @@
         "li1": "OpenCV & YOLO",
         "li2": "Defect & Anomaly Detection",
         "li3": "Real-Time Analysis",
-        "li4": "Camera & Sensor Integration"
+        "li4": "Camera & Sensor Integration",
+        "quote": "Book discovery →"
       },
       "c6": {
         "title": "Data Analytics & BI",
@@ -743,7 +759,8 @@
         "li1": "Power BI & Tableau",
         "li2": "ETL & Data Pipeline",
         "li3": "Custom Dashboard Development",
-        "li4": "Data Warehouse Design"
+        "li4": "Data Warehouse Design",
+        "quote": "Book discovery →"
       }
     },
     "sectors": {
@@ -1549,19 +1566,25 @@
   },
   "aiAssistantPage": {
     "hero": {
-      "badge": "Enterprise AI Assistant",
+      "badge": "Bundle product · channels quoted separately",
       "title1": "Ozturksoft",
       "title2": "AI Assistant",
-      "desc": "WhatsApp, web and CRM-integrated enterprise AI assistant. 24/7 support, sales and process automation — KVKK compliant, on-premise option."
+      "desc": "This page is the bundle: web + WhatsApp + CRM as one assistant. For a single channel use the quote page — web <a href=\"/chatbot-yaptirmak\" style=\"color:#60a5fa\">chatbot</a>, WhatsApp <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#60a5fa\">Business API</a>, work agent <a href=\"/ai-agent\" style=\"color:#60a5fa\">AI agent</a>, LLM wiring <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#60a5fa\">integration</a>. KVKK / on-premise option. Çankaya, free discovery.",
+      "webCta": "Web chatbot →",
+      "waCta": "WhatsApp →",
+      "agentCta": "AI agent →"
     },
     "features": {
       "f1": {
         "title": "WhatsApp & Web",
-        "desc": "24/7 responses on channels your customers use — Turkish NLP and GPT-powered."
+        "desc": "24/7 responses on channels your customers use — Turkish NLP and GPT-powered.",
+        "link": "Web quote →",
+        "linkWa": "WhatsApp quote →"
       },
       "f2": {
         "title": "CRM & ERP Connection",
-        "desc": "API integration with Logo, Netsis, Salesforce and custom systems — live data."
+        "desc": "API integration with Logo, Netsis, Salesforce and custom systems — live data.",
+        "link": "LLM integration →"
       },
       "f3": {
         "title": "KVKK Compliant",
@@ -1569,7 +1592,8 @@
       },
       "f4": {
         "title": "AI Agents",
-        "desc": "Beyond Q&A — autonomous tasks: orders, appointments and process triggers."
+        "desc": "Beyond Q&A — autonomous tasks: orders, appointments and process triggers.",
+        "link": "Have an AI agent built →"
       }
     },
     "pricing": {
@@ -1579,7 +1603,8 @@
       "row2": "CRM/ERP integrated AI assistant",
       "row2price": "150,000 – 280,000 TRY",
       "row3": "Enterprise on-premise platform",
-      "row3price": "280,000 – 500,000+ TRY"
+      "row3price": "280,000 – 500,000+ TRY",
+      "note": "Build cost is in the table. Monthly OpenAI/Claude tokens and WhatsApp Meta fees are extra — ranges on the <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#60a5fa\">integration FAQ</a> and <a href=\"/sss#aylik-api\" style=\"color:#60a5fa\">SSS</a>."
     },
     "cta": {
       "title": "Plan Your AI Assistant Project",
@@ -1883,7 +1908,7 @@
     },
     "pricing": {
       "title": "AI integration price (2026)",
-      "intro": "Price depends on model, RAG scope, KVKK and the systems you connect. Bands below are 2026 Ankara market ranges; discovery is free, quotes are written. Monthly API is extra.",
+      "intro": "Price depends on model, RAG scope, KVKK and connected systems. 2026 Ankara bands; free discovery, written quote. Monthly API/tokens extra (typically 12,000–90,000 TL/month).",
       "row1": "GPT / ChatGPT chatbot",
       "row2": "RAG / internal assistant",
       "row3": "On-premise / enterprise AI",
@@ -1925,7 +1950,9 @@
       "q3": "Does data leave the company?",
       "a3": "Not necessarily. On-premise or hosting in Turkey is available. In public sector and holdings, data stays on the corporate network. Model (GPT, Claude, Llama) is settled at discovery.",
       "q4": "Are chatbot and AI agent on this page?",
-      "a4": "Web chatbot lives on <a href=\"/chatbot-yaptirmak\" style=\"color:#818cf8\">have a chatbot built</a>, WhatsApp on <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp chatbot</a>, autonomous work on <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a>. This URL is LLM / ChatGPT / RAG wiring."
+      "a4": "Web chatbot lives on <a href=\"/chatbot-yaptirmak\" style=\"color:#818cf8\">have a chatbot built</a>, WhatsApp on <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp chatbot</a>, autonomous work on <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a>. This URL is LLM / ChatGPT / RAG wiring.",
+      "q5": "What is the monthly API / token cost?",
+      "a5": "Build (40,000–500,000+ TL) is one-off. Monthly OpenAI, Claude, Azure OpenAI or Gemini tokens are extra: light bot 12,000–35,000 TL/month, heavy RAG 35,000–90,000 TL/month. WhatsApp Meta conversation fees sit on the channel page. On-premise replaces tokens with GPU/hosting. Free discovery; band follows volume."
     },
     "cta": {
       "btn": "Free discovery call",
@@ -2183,13 +2210,13 @@
   },
   "efaturaPage": {
     "hero": {
-      "badge": "GİB · E-Archive · E-Dispatch · Logo · +90 546 549 6806",
+      "badge": "GİB · Integrator · e-Ledger · Logo · Mikro · +90 546 549 6806",
       "title": "E-Fatura Entegrasyonu",
-      "desc": "E-invoice integration: official e-documents to GİB. Inbound/outbound invoices post to a <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo or Netsis</a> voucher. Not paper scanning — that job is <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">invoice OCR</a>. Çankaya, written quote, free discovery."
+      "desc": "E-invoice integration: official e-documents to GİB. Inbound/outbound invoices post to <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo, Netsis or Mikro</a>. Clicking the portal does not write ERP. Paper scan is separate — <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">invoice OCR</a>. Çankaya, written quote, free discovery."
     },
     "pricing": {
       "title": "E-invoice integration price (2026)",
-      "intro": "Price follows document types, the private integrator and ERP. Bands are 2026 Ankara market; discovery is free, the quote is written. Integrator licence fees are extra.",
+      "intro": "Price depends on document types, integrator and ERP. 2026 Ankara bands; free discovery, written quote. Integrator licence and per-document credits are extra.",
       "row1": "Single ERP connector",
       "row2": "E-archive + e-dispatch",
       "row3": "Holding / multi-branch",
@@ -2197,17 +2224,19 @@
       "t2": "6–10 weeks",
       "t3": "3–5 months",
       "linkOcr": "Invoice OCR",
-      "linkLogo": "Logo Netsis"
+      "linkLogo": "Logo Netsis",
+      "row4": "e-Ledger connector",
+      "t4": "4–8 weeks"
     },
     "cards": {
       "c1title": "📨 Inbound / outbound e-invoice",
       "c1desc": "GİB or private-integrator queue. UBL, signature, reject/accept. Portal clicking stops.",
       "c1link": "Book discovery →",
-      "c2title": "🔗 Logo / Netsis voucher",
+      "c2title": "🔗 Logo / Netsis / Mikro posting",
       "c2desc": "The e-document writes an accounting record. Double entry stops. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">ERP API</a> is the same project.",
       "c2link": "Connect ERP →",
-      "c3title": "📦 E-dispatch / e-archive",
-      "c3desc": "Despatch and e-archive on the same connector. E-commerce orders become invoices.",
+      "c3title": "📦 e-Despatch / e-Archive / e-Ledger",
+      "c3desc": "Despatch, e-archive and e-ledger on the same spine. Store orders become invoices. e-Ledger is a separate line.",
       "c3link": "Have an e-commerce site built →",
       "c4title": "📷 Not OCR",
       "c4desc": "Paper or WhatsApp photos are <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">invoice OCR software</a>. This URL is official e-documents.",
@@ -2229,9 +2258,13 @@
       "q2": "Is it the same as invoice OCR?",
       "a2": "No. OCR reads photos/PDFs: <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">invoice OCR</a>. This page is the GİB e-document API.",
       "q3": "Does it write Logo / Netsis?",
-      "a3": "Yes. Inbound and outbound documents post to a <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo, Netsis</a> voucher.",
+      "a3": "Yes. Documents post to <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo, Netsis or Mikro</a>.",
       "q4": "Is a private integrator required?",
-      "a4": "In most projects yes. If you already have one we connect to it; otherwise it is chosen in discovery."
+      "a4": "For most SMEs and enterprises, yes. If you already have Foriba, Uyumsoft, İzibiz, Logo, Mikro, Bizmu or Veriban, we bind to it; otherwise we choose in discovery.",
+      "q5": "GİB Portal vs special integrator vs direct GİB?",
+      "a5": "The portal is for low volume and does not post ERP. A special integrator is the Turkish standard — licence and credits go to them. Direct GİB needs high volume, HSM and 24/7 IT; quoted separately. Ozturksoft does not sell boxed licences; we write the connector to your ERP.",
+      "q6": "Are credits included? e-Ledger?",
+      "a6": "No. The TL bands above are software/connector. Integrator yearly licence (roughly 4,000–35,000 TL) and per-document credits are extra. e-Ledger connector is 90,000–180,000 TL as an add-on. Line items are written in discovery."
     },
     "cta": {
       "btn": "Free discovery call",

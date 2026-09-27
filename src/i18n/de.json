@@ -55,39 +55,48 @@
     "cards": {
       "aiAgents": {
         "title": "AI Agents",
-        "desc": "Autonome KI-Agenten für Aufgabenplanung, Tool-Nutzung und mehrstufige Workflow-Automatisierung."
+        "desc": "Autonome KI-Agenten für Aufgabenplanung, Tool-Nutzung und mehrstufige Workflow-Automatisierung.",
+        "quote": "KI-Agent beauftragen →"
       },
       "saas": {
         "title": "SaaS-Entwicklung",
-        "desc": "Cloud-Abonnementprodukte — Multi-Tenant-Architektur, Zahlungsintegration und skalierbare Infrastruktur."
+        "desc": "Cloud-Abonnementprodukte — Multi-Tenant-Architektur, Zahlungsintegration und skalierbare Infrastruktur.",
+        "quote": "SaaS / Individualsoftware →"
       },
       "customSoftware": {
         "title": "Individuelle Software",
-        "desc": "Maßgeschneiderte ERP-, CRM- und Unternehmenssoftware, wenn Standard-SaaS nicht ausreicht."
+        "desc": "Maßgeschneiderte ERP-, CRM- und Unternehmenssoftware, wenn Standard-SaaS nicht ausreicht.",
+        "quote": "Individualsoftware beauftragen →"
       },
       "ocr": {
         "title": "OCR & Dokumenten-KI",
-        "desc": "Automatisches Lesen, Klassifizieren und Digitalisieren von Rechnungen, Verträgen und Dokumenten."
+        "desc": "Automatisches Lesen, Klassifizieren und Digitalisieren von Rechnungen, Verträgen und Dokumenten.",
+        "quote": "Rechnungs-OCR →"
       },
       "automation": {
         "title": "Automatisierung & RPA",
-        "desc": "RPA + KI verwandelt repetitive Prozesse in intelligente Automatisierung für wertschöpfende Arbeit."
+        "desc": "RPA + KI verwandelt repetitive Prozesse in intelligente Automatisierung für wertschöpfende Arbeit.",
+        "quote": "Prozessautomatisierung →"
       },
       "mcp": {
         "title": "MCP-Server",
-        "desc": "Model Context Protocol verbindet LLMs sicher mit Ihren Tools, Datenbanken und Geschäftssystemen."
+        "desc": "Model Context Protocol verbindet LLMs sicher mit Ihren Tools, Datenbanken und Geschäftssystemen.",
+        "quote": "MCP / KI-Agent →"
       },
       "flutter": {
         "title": "Flutter Apps",
-        "desc": "Hochperformante, native Mobile Apps für iOS und Android aus einer Codebasis."
+        "desc": "Hochperformante, native Mobile Apps für iOS und Android aus einer Codebasis.",
+        "quote": "App beauftragen →"
       },
       "laravel": {
         "title": "Laravel-Systeme",
-        "desc": "Sichere APIs, Admin-Panels und Enterprise-Backends mit Laravel — schnelle Lieferung, solide Architektur."
+        "desc": "Sichere APIs, Admin-Panels und Enterprise-Backends mit Laravel — schnelle Lieferung, solide Architektur.",
+        "quote": "Individualsoftware beauftragen →"
       },
       "enterpriseAi": {
         "title": "Enterprise AI",
-        "desc": "DSGVO/KVKK-konforme, On-Premise Enterprise-KI — Ihre Daten bleiben auf Ihren Servern."
+        "desc": "DSGVO/KVKK-konforme, On-Premise Enterprise-KI — Ihre Daten bleiben auf Ihren Servern.",
+        "quote": "KI-Integration →"
       },
       "erpIntegration": {
         "title": "ERP-Integration",
@@ -694,7 +703,8 @@
       "badge": "Ankara-basiertes KI-Unternehmen",
       "title1": "KI-Lösungen",
       "title2": "in Ankara",
-      "desc": "On-Premise-KI, Dokumentendigitalisierung und Automatisierung für Institutionen und Behörden."
+      "desc": "On-Premise-KI, Dokumentendigitalisierung und Automatisierung für Institutionen und Behörden.",
+      "quoteLine": "Angebot: <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#60a5fa;font-weight:600\">Integration</a> · <a href=\"/chatbot-yaptirmak\" style=\"color:#60a5fa;font-weight:600\">Chatbot</a> · <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#60a5fa;font-weight:600\">WhatsApp</a> · <a href=\"/ai-agent\" style=\"color:#60a5fa;font-weight:600\">KI-Agent</a> · <a href=\"/ankara-yapay-zeka-firmasi\" style=\"color:#60a5fa;font-weight:600\">Firmen-Hub</a>"
     },
     "cards": {
       "c1": {
@@ -703,7 +713,9 @@
         "li1": "GPT-4 & NLP",
         "li2": "AI Agents & MCP-Server",
         "li3": "WhatsApp / Web Integration",
-        "li4": "CRM & ERP Anbindung"
+        "li4": "CRM & ERP Anbindung",
+        "quote": "Chatbot beauftragen →",
+        "quoteWa": "WhatsApp →"
       },
       "c2": {
         "title": "LLM & GPT Integration",
@@ -711,7 +723,8 @@
         "li1": "OpenAI / Anthropic API",
         "li2": "RAG (Retrieval Augmented Generation)",
         "li3": "LangChain & Vector DB",
-        "li4": "On-Premise Deployment"
+        "li4": "On-Premise Deployment",
+        "quote": "KI-Integration →"
       },
       "c3": {
         "title": "Prädiktive Analytik",
@@ -719,7 +732,8 @@
         "li1": "Python ML (scikit-learn, XGBoost)",
         "li2": "TensorFlow & PyTorch",
         "li3": "Anomalieerkennung",
-        "li4": "Dashboard & Reporting"
+        "li4": "Dashboard & Reporting",
+        "quote": "Discovery buchen →"
       },
       "c4": {
         "title": "Prozessautomatisierung (RPA + KI)",
@@ -727,7 +741,8 @@
         "li1": "RPA & KI Workflow",
         "li2": "Dokument- & Rechnungsautomatisierung",
         "li3": "API-Integration",
-        "li4": "Prozessüberwachung & Reporting"
+        "li4": "Prozessüberwachung & Reporting",
+        "quote": "Prozessautomatisierung →"
       },
       "c5": {
         "title": "Computer Vision & Bildverarbeitung",
@@ -735,7 +750,8 @@
         "li1": "OpenCV & YOLO",
         "li2": "Fehler- & Anomalieerkennung",
         "li3": "Echtzeit-Analyse",
-        "li4": "Kamera- & Sensorintegration"
+        "li4": "Kamera- & Sensorintegration",
+        "quote": "Discovery buchen →"
       },
       "c6": {
         "title": "Datenanalyse & BI",
@@ -743,7 +759,8 @@
         "li1": "Power BI & Tableau",
         "li2": "ETL & Data Pipeline",
         "li3": "Benutzerdefinierte Dashboard-Entwicklung",
-        "li4": "Data Warehouse Design"
+        "li4": "Data Warehouse Design",
+        "quote": "Discovery buchen →"
       }
     },
     "sectors": {
@@ -1534,19 +1551,25 @@
   },
   "aiAssistantPage": {
     "hero": {
-      "badge": "Enterprise KI-Assistent",
+      "badge": "Paket · Kanäle separat anbieten",
       "title1": "Ozturksoft",
       "title2": "KI-Assistent",
-      "desc": "WhatsApp-, Web- und CRM-integrierter KI-Assistent. 24/7 Support, Vertrieb und Automatisierung — KVKK-konform, On-Premise-Option."
+      "desc": "Diese Seite ist das Paket: Web + WhatsApp + CRM als ein Assistent. Ein Kanal: Web-<a href=\"/chatbot-yaptirmak\" style=\"color:#60a5fa\">Chatbot</a>, WhatsApp <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#60a5fa\">Business API</a>, Arbeits-Agent <a href=\"/ai-agent\" style=\"color:#60a5fa\">KI-Agent</a>, LLM <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#60a5fa\">Integration</a>. KVKK / On-Premise. Çankaya, kostenloses Discovery.",
+      "webCta": "Web-Chatbot →",
+      "waCta": "WhatsApp →",
+      "agentCta": "KI-Agent →"
     },
     "features": {
       "f1": {
         "title": "WhatsApp & Web",
-        "desc": "24/7 Antworten auf den Kanälen Ihrer Kunden — Türkisch NLP und GPT."
+        "desc": "24/7 Antworten auf den Kanälen Ihrer Kunden — Türkisch NLP und GPT.",
+        "link": "Web-Angebot →",
+        "linkWa": "WhatsApp-Angebot →"
       },
       "f2": {
         "title": "CRM & ERP Anbindung",
-        "desc": "API-Integration mit Logo, Netsis, Salesforce und Eigenentwicklungen."
+        "desc": "API-Integration mit Logo, Netsis, Salesforce und Eigenentwicklungen.",
+        "link": "LLM-Integration →"
       },
       "f3": {
         "title": "KVKK-konform",
@@ -1554,7 +1577,8 @@
       },
       "f4": {
         "title": "AI Agents",
-        "desc": "Mehr als Q&A — autonome Aufgaben: Bestellungen, Termine, Prozesse."
+        "desc": "Mehr als Q&A — autonome Aufgaben: Bestellungen, Termine, Prozesse.",
+        "link": "KI-Agent beauftragen →"
       }
     },
     "pricing": {
@@ -1564,7 +1588,8 @@
       "row2": "CRM/ERP-integrierter KI-Assistent",
       "row2price": "150.000 – 280.000 TRY",
       "row3": "Enterprise On-Premise",
-      "row3price": "280.000 – 500.000+ TRY"
+      "row3price": "280.000 – 500.000+ TRY",
+      "note": "Bau in der Tabelle. Monatliche OpenAI/Claude-Tokens und WhatsApp-Meta extra — <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#60a5fa\">Integrations-FAQ</a> und <a href=\"/sss#aylik-api\" style=\"color:#60a5fa\">SSS</a>."
     },
     "cta": {
       "title": "KI-Assistent-Projekt planen",
@@ -1868,7 +1893,7 @@
     },
     "pricing": {
       "title": "KI-Integrationspreis (2026)",
-      "intro": "Preis hängt von Modell, RAG, KVKK und angebundenen Systemen ab. Bänder: Markt Ankara 2026; Kickoff kostenlos, Angebot schriftlich. Monatliche API extra.",
+      "intro": "Preis nach Modell, RAG, KVKK und Systemen. 2026-Ankara-Bänder; Discovery gratis, Angebot schriftlich. Monatliche API/Tokens extra (typisch 12.000–90.000 TL/Monat).",
       "row1": "GPT- / ChatGPT-Chatbot",
       "row2": "RAG / interner Assistent",
       "row3": "On-Premise / Enterprise-KI",
@@ -1910,7 +1935,9 @@
       "q3": "Verlassen Daten das Unternehmen?",
       "a3": "Nicht zwingend. On-Premise oder Hosting in der Türkei. Bei Behörden und Holdings bleiben Daten im Firmennetz. Modell (GPT, Claude, Llama) im Kickoff.",
       "q4": "Sind Chatbot und AI-Agent auf dieser Seite?",
-      "a4": "Web-Chatbot auf <a href=\"/chatbot-yaptirmak\" style=\"color:#818cf8\">Chatbot erstellen lassen</a>, WhatsApp auf <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp-Chatbot</a>, autonome Arbeit auf <a href=\"/ai-agent\" style=\"color:#818cf8\">AI-Agent</a>. Diese URL verdrahtet LLM / ChatGPT / RAG."
+      "a4": "Web-Chatbot auf <a href=\"/chatbot-yaptirmak\" style=\"color:#818cf8\">Chatbot erstellen lassen</a>, WhatsApp auf <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp-Chatbot</a>, autonome Arbeit auf <a href=\"/ai-agent\" style=\"color:#818cf8\">AI-Agent</a>. Diese URL verdrahtet LLM / ChatGPT / RAG.",
+      "q5": "Was kostet die monatliche API / Token?",
+      "a5": "Bau (40.000–500.000+ TL) einmalig. Monatliche OpenAI-, Claude-, Azure-OpenAI- oder Gemini-Tokens extra: leichter Bot 12.000–35.000 TL/Monat, starkes RAG 35.000–90.000 TL/Monat. WhatsApp-Meta auf der Kanal-Seite. On-Premise ersetzt Tokens durch GPU. Discovery gratis."
     },
     "cta": {
       "btn": "Kostenloses Erstgespräch",
@@ -2168,13 +2195,13 @@
   },
   "efaturaPage": {
     "hero": {
-      "badge": "GİB · E-Archiv · E-Lieferschein · Logo · +90 546 549 6806",
+      "badge": "GİB · Integrator · e-Defter · Logo · Mikro · +90 546 549 6806",
       "title": "E-Fatura Entegrasyonu",
-      "desc": "E-Rechnung-Anbindung: offizielle E-Belege an GİB. Ein-/Ausgang landet auf <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo oder Netsis</a>. Kein Papierscan — das ist <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">Rechnungs-OCR</a>. Çankaya, schriftliches Angebot, kostenloser Kickoff."
+      "desc": "E-Rechnung: offizielle e-Belege an GİB. Ein-/Ausgang auf <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo, Netsis oder Mikro</a>. Portal schreibt kein ERP. Papier-Scan ist <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">Rechnungs-OCR</a>. Çankaya, schriftliches Angebot, kostenloses Discovery."
     },
     "pricing": {
       "title": "E-Rechnung-Anbindung Preis (2026)",
-      "intro": "Preis folgt Belegtyp, Integrator und ERP. Bänder Ankara 2026; Kickoff kostenlos. Integrator-Lizenz extra.",
+      "intro": "Preis nach Belegtyp, Integrator und ERP. 2026-Ankara-Bänder; Discovery gratis. Integrator-Lizenz und Kontör extra.",
       "row1": "Ein ERP-Konnektor",
       "row2": "E-Archiv + E-Lieferschein",
       "row3": "Holding / mehrere Standorte",
@@ -2182,17 +2209,19 @@
       "t2": "6–10 Wochen",
       "t3": "3–5 Monate",
       "linkOcr": "Rechnungs-OCR",
-      "linkLogo": "Logo Netsis"
+      "linkLogo": "Logo Netsis",
+      "row4": "e-Defter-Konnektor",
+      "t4": "4–8 Wochen"
     },
     "cards": {
       "c1title": "📨 Ein-/Ausgang E-Rechnung",
       "c1desc": "GİB- oder Integrator-Warteschlange. UBL, Signatur, Ablehnen/Annehmen. Portal-Klicks enden.",
       "c1link": "Kickoff buchen →",
-      "c2title": "🔗 Logo-/Netsis-Beleg",
+      "c2title": "🔗 Logo / Netsis / Mikro-Buchung",
       "c2desc": "E-Beleg wird Buchung. Doppelte Eingabe endet. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">ERP-API</a> im selben Projekt.",
       "c2link": "ERP anbinden →",
-      "c3title": "📦 E-Lieferschein / E-Archiv",
-      "c3desc": "Versand und E-Archiv am selben Konnektor. Shop-Bestellung wird Rechnung.",
+      "c3title": "📦 e-İrsaliye / e-Arşiv / e-Defter",
+      "c3desc": "Versand, e-Archiv und e-Defter auf derselben Schiene. Shop-Auftrag wird Rechnung. e-Defter ist extra.",
       "c3link": "E-Commerce erstellen lassen →",
       "c4title": "📷 Kein OCR",
       "c4desc": "Papier oder WhatsApp-Foto ist <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">Rechnungs-OCR</a>. Diese URL ist der offizielle E-Beleg.",
@@ -2214,9 +2243,13 @@
       "q2": "Gleich wie Rechnungs-OCR?",
       "a2": "Nein. OCR liest Foto/PDF: <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">Rechnungs-OCR</a>. Diese Seite ist die GİB-E-Beleg-API.",
       "q3": "Schreibt Logo / Netsis?",
-      "a3": "Ja. Ein- und Ausgang landen auf <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo, Netsis</a>.",
+      "a3": "Ja. Belege gehen auf <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo, Netsis oder Mikro</a>.",
       "q4": "Privater Integrator Pflicht?",
-      "a4": "In den meisten Projekten ja. Vorhandenen Integrator binden wir an; sonst Wahl im Kickoff."
+      "a4": "Bei den meisten KMU und Konzernen ja. Vorhandenes Foriba, Uyumsoft, İzibiz, Logo, Mikro, Bizmu oder Veriban binden wir; sonst Auswahl im Discovery.",
+      "q5": "GİB-Portal, Spezialintegrator oder direktes GİB?",
+      "a5": "Portal = geringes Volumen, kein ERP. Spezialintegrator ist Standard — Lizenz und Kontör an den Integrator. Direktes GİB braucht Volumen, HSM und 24/7-IT; extra Angebot. Ozturksoft verkauft keine Box-Lizenz; wir schreiben den Konnektor in Ihr ERP.",
+      "q6": "Ist Kontör enthalten? e-Defter?",
+      "a6": "Nein. Die TL-Bänder sind Software. Jährliche Integrator-Lizenz (ca. 4.000–35.000 TL) und Beleg-Kontör extra. e-Defter-Konnektor 90.000–180.000 TL. Positionen im Discovery schriftlich."
     },
     "cta": {
       "btn": "Kostenloses Kickoff-Gespräch",

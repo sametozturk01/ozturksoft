@@ -55,39 +55,48 @@
     "cards": {
       "aiAgents": {
         "title": "AI Agents",
-        "desc": "Otonom AI agent'lar: görev planlama, araç kullanımı ve çok adımlı iş akışlarını uçtan uca otomatikleştirir."
+        "desc": "Otonom AI agent'lar: görev planlama, araç kullanımı ve çok adımlı iş akışlarını uçtan uca otomatikleştirir.",
+        "quote": "AI agent yaptırmak →"
       },
       "saas": {
         "title": "SaaS Geliştirme",
-        "desc": "Bulut tabanlı abonelik ürünleri — çok kiracılı mimari, ödeme entegrasyonu ve ölçeklenebilir altyapı."
+        "desc": "Bulut tabanlı abonelik ürünleri — çok kiracılı mimari, ödeme entegrasyonu ve ölçeklenebilir altyapı.",
+        "quote": "SaaS / özel yazılım →"
       },
       "customSoftware": {
         "title": "Özel Yazılım",
-        "desc": "İş süreçlerinize özel ERP, CRM ve kurumsal yazılım — hazır SaaS'ın yetmediği senaryolar için."
+        "desc": "İş süreçlerinize özel ERP, CRM ve kurumsal yazılım — hazır SaaS'ın yetmediği senaryolar için.",
+        "quote": "Özel yazılım yaptırmak →"
       },
       "ocr": {
         "title": "OCR & Belge AI",
-        "desc": "Fatura, sözleşme ve kurumsal evrakların otomatik okunması, sınıflandırılması ve dijitalleştirilmesi."
+        "desc": "Fatura, sözleşme ve kurumsal evrakların otomatik okunması, sınıflandırılması ve dijitalleştirilmesi.",
+        "quote": "Fatura okuma →"
       },
       "automation": {
         "title": "Otomasyon & RPA",
-        "desc": "RPA + yapay zeka ile tekrarlayan süreçleri akıllı otomasyona dönüştürür; ekip katma değerli işe odaklanır."
+        "desc": "RPA + yapay zeka ile tekrarlayan süreçleri akıllı otomasyona dönüştürür; ekip katma değerli işe odaklanır.",
+        "quote": "Süreç otomasyonu →"
       },
       "mcp": {
         "title": "MCP Sunucuları",
-        "desc": "Model Context Protocol ile LLM'leri araçlara, veritabanlarına ve iş sistemlerinize güvenli şekilde bağlarız."
+        "desc": "Model Context Protocol ile LLM'leri araçlara, veritabanlarına ve iş sistemlerinize güvenli şekilde bağlarız.",
+        "quote": "MCP / AI agent →"
       },
       "flutter": {
         "title": "Flutter Uygulamaları",
-        "desc": "Tek kod tabanıyla iOS ve Android için yüksek performanslı, native görünümlü mobil uygulamalar."
+        "desc": "Tek kod tabanıyla iOS ve Android için yüksek performanslı, native görünümlü mobil uygulamalar.",
+        "quote": "Mobil uygulama yaptırmak →"
       },
       "laravel": {
         "title": "Laravel Sistemleri",
-        "desc": "Laravel ile güvenli API, yönetim paneli ve kurumsal backend — hızlı geliştirme, sağlam mimari."
+        "desc": "Laravel ile güvenli API, yönetim paneli ve kurumsal backend — hızlı geliştirme, sağlam mimari.",
+        "quote": "Özel yazılım yaptırmak →"
       },
       "enterpriseAi": {
         "title": "Kurumsal AI (Enterprise AI)",
-        "desc": "KVKK uyumlu, on-premise kurumsal yapay zeka — verileriniz kendi sunucularınızda kalır."
+        "desc": "KVKK uyumlu, on-premise kurumsal yapay zeka — verileriniz kendi sunucularınızda kalır.",
+        "quote": "Yapay zeka entegrasyonu →"
       },
       "erpIntegration": {
         "title": "ERP Entegrasyonu",
@@ -694,7 +703,8 @@
       "badge": "Ankara Merkezli AI Firması",
       "title1": "Ankara'da Yapay Zeka",
       "title2": "Çözümleri",
-      "desc": "Kurumlar ve devlet daireleri için on-premise AI, belge dijitalleştirme, süreç otomasyonu ve kurumsal yazılım. Veriniz güvende, süreçleriniz akıllı."
+      "desc": "Kurumlar ve devlet daireleri için on-premise AI, belge dijitalleştirme, süreç otomasyonu ve kurumsal yazılım. Veriniz güvende, süreçleriniz akıllı.",
+      "quoteLine": "Teklif: <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#60a5fa;font-weight:600\">entegrasyon</a> · <a href=\"/chatbot-yaptirmak\" style=\"color:#60a5fa;font-weight:600\">chatbot</a> · <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#60a5fa;font-weight:600\">WhatsApp</a> · <a href=\"/ai-agent\" style=\"color:#60a5fa;font-weight:600\">AI agent</a> · <a href=\"/ankara-yapay-zeka-firmasi\" style=\"color:#60a5fa;font-weight:600\">firma hub</a>"
     },
     "cards": {
       "c1": {
@@ -703,7 +713,9 @@
         "li1": "GPT-4 & Türkçe NLP",
         "li2": "AI Agents & MCP Sunucuları",
         "li3": "WhatsApp / Web Entegrasyonu",
-        "li4": "CRM & ERP Bağlantısı"
+        "li4": "CRM & ERP Bağlantısı",
+        "quote": "Chatbot yaptırmak →",
+        "quoteWa": "WhatsApp →"
       },
       "c2": {
         "title": "LLM & GPT Entegrasyonu",
@@ -711,7 +723,8 @@
         "li1": "OpenAI / Anthropic API",
         "li2": "RAG (Retrieval Augmented Generation)",
         "li3": "LangChain & Vektör DB",
-        "li4": "On-Premise Dağıtım"
+        "li4": "On-Premise Dağıtım",
+        "quote": "Yapay zeka entegrasyonu →"
       },
       "c3": {
         "title": "Tahmine Dayalı Analitik",
@@ -719,7 +732,8 @@
         "li1": "Python ML (scikit-learn, XGBoost)",
         "li2": "TensorFlow & PyTorch",
         "li3": "Anomali Tespiti",
-        "li4": "Dashboard & Raporlama"
+        "li4": "Dashboard & Raporlama",
+        "quote": "Keşif görüşmesi →"
       },
       "c4": {
         "title": "Süreç Otomasyonu (RPA + AI)",
@@ -727,7 +741,8 @@
         "li1": "RPA & AI Workflow",
         "li2": "Belge & Fatura Otomasyonu",
         "li3": "API Entegrasyon",
-        "li4": "Süreç İzleme & Raporlama"
+        "li4": "Süreç İzleme & Raporlama",
+        "quote": "Süreç otomasyonu →"
       },
       "c5": {
         "title": "Görüntü İşleme & Bilgisayarlı Görü",
@@ -735,7 +750,8 @@
         "li1": "OpenCV & YOLO",
         "li2": "Kusur & Anomali Tespiti",
         "li3": "Gerçek Zamanlı Analiz",
-        "li4": "Kamera & Sensör Entegrasyonu"
+        "li4": "Kamera & Sensör Entegrasyonu",
+        "quote": "Keşif görüşmesi →"
       },
       "c6": {
         "title": "Veri Analitiği & BI",
@@ -743,7 +759,8 @@
         "li1": "Power BI & Tableau",
         "li2": "ETL & Veri Hattı",
         "li3": "Özel Dashboard Geliştirme",
-        "li4": "Veri Ambarı Tasarımı"
+        "li4": "Veri Ambarı Tasarımı",
+        "quote": "Keşif görüşmesi →"
       }
     },
     "sectors": {
@@ -1549,19 +1566,25 @@
   },
   "aiAssistantPage": {
     "hero": {
-      "badge": "Kurumsal AI Asistan",
+      "badge": "Kurumsal paket · kanallar ayrı teklif",
       "title1": "Ozturksoft",
       "title2": "AI Asistan",
-      "desc": "WhatsApp, web ve CRM entegre kurumsal yapay zeka asistanı. 7/24 müşteri desteği, satış ve süreç otomasyonu — KVKK uyumlu, on-premise seçeneği."
+      "desc": "Bu sayfa paket üründür: web + WhatsApp + CRM aynı asistan. Tek kanal istiyorsanız ayrı teklif sayfasına gidin — web <a href=\"/chatbot-yaptirmak\" style=\"color:#60a5fa\">chatbot</a>, WhatsApp <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#60a5fa\">Business API</a>, iş yapan ajan <a href=\"/ai-agent\" style=\"color:#60a5fa\">AI agent</a>, LLM bağlama <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#60a5fa\">entegrasyon</a>. KVKK / on-premise seçeneği. Çankaya, ücretsiz keşif.",
+      "webCta": "Web chatbot →",
+      "waCta": "WhatsApp →",
+      "agentCta": "AI agent →"
     },
     "features": {
       "f1": {
         "title": "WhatsApp & Web",
-        "desc": "Müşterilerinizin bulunduğu kanallarda 7/24 yanıt — Türkçe NLP ve GPT destekli."
+        "desc": "Müşterilerinizin bulunduğu kanallarda 7/24 yanıt — Türkçe NLP ve GPT destekli.",
+        "link": "Web teklifi →",
+        "linkWa": "WhatsApp teklifi →"
       },
       "f2": {
         "title": "CRM & ERP Bağlantısı",
-        "desc": "Logo, Netsis, Salesforce ve özel sistemlere API entegrasyonu — canlı veri."
+        "desc": "Logo, Netsis, Salesforce ve özel sistemlere API entegrasyonu — canlı veri.",
+        "link": "LLM entegrasyonu →"
       },
       "f3": {
         "title": "KVKK Uyumlu",
@@ -1569,7 +1592,8 @@
       },
       "f4": {
         "title": "AI Agents",
-        "desc": "Sadece soru-cevap değil — sipariş, randevu ve süreç başlatma otonom görevler."
+        "desc": "Sadece soru-cevap değil — sipariş, randevu ve süreç başlatma otonom görevler.",
+        "link": "AI agent yaptırmak →"
       }
     },
     "pricing": {
@@ -1579,7 +1603,8 @@
       "row2": "CRM/ERP entegre AI asistan",
       "row2price": "150.000 – 280.000 TL",
       "row3": "Kurumsal on-premise platform",
-      "row3price": "280.000 – 500.000+ TL"
+      "row3price": "280.000 – 500.000+ TL",
+      "note": "Kurulum bu tablodadır. Aylık OpenAI/Claude token ve WhatsApp Meta mesaj ücreti ayrıca — bantlar <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#60a5fa\">entegrasyon SSS</a> ve <a href=\"/sss#aylik-api\" style=\"color:#60a5fa\">SSS</a> içindedir."
     },
     "cta": {
       "title": "AI Asistan Projenizi Planlayalım",
@@ -1883,7 +1908,7 @@
     },
     "pricing": {
       "title": "Yapay zeka entegrasyonu fiyatı (2026)",
-      "intro": "Fiyat model, RAG kapsamı, KVKK ve bağlanacak sisteme göre değişir. Aşağıdaki bantlar 2026 Ankara piyasası içindir; keşif ücretsiz, teklif yazılıdır. Aylık API ayrıdır.",
+      "intro": "Fiyat model, RAG kapsamı, KVKK ve bağlanacak sisteme göre değişir. Bantlar 2026 Ankara piyasasıdır; keşif ücretsiz, teklif yazılıdır. Aylık API/token ayrıca (12.000–90.000 TL/ay tipik).",
       "row1": "GPT / ChatGPT chatbot",
       "row2": "RAG / şirket içi asistan",
       "row3": "On-premise / kurumsal AI",
@@ -1925,7 +1950,9 @@
       "q3": "Veriler dışarı çıkar mı?",
       "a3": "Zorunlu değil. On-premise veya Türkiye’de barındırma seçilir. Kamu ve holdingde veri kurum ağında kalır. Model (GPT, Claude, Llama) keşifte netleşir.",
       "q4": "Chatbot ve AI agent bu sayfada mı?",
-      "a4": "Web chatbot <a href=\"/chatbot-yaptirmak\" style=\"color:#818cf8\">chatbot yaptırmak</a>, WhatsApp kanalı <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp chatbot</a>, otonom iş <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a> sayfalarındadır. Bu URL LLM / ChatGPT / RAG bağlamadır."
+      "a4": "Web chatbot <a href=\"/chatbot-yaptirmak\" style=\"color:#818cf8\">chatbot yaptırmak</a>, WhatsApp kanalı <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp chatbot</a>, otonom iş <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a> sayfalarındadır. Bu URL LLM / ChatGPT / RAG bağlamadır.",
+      "q5": "Aylık API / token ne kadar tutar?",
+      "a5": "Kurulum (40.000–500.000+ TL) bir kereliktir. Aylık OpenAI, Claude, Azure OpenAI veya Gemini token ayrıdır: hafif bot 12.000–35.000 TL/ay, yoğun RAG 35.000–90.000 TL/ay. WhatsApp Meta konuşma ücreti kanal sayfasındadır. On-premise seçilirse token yerine sunucu/GPU yazılır. Keşif ücretsiz; net bant hacme göre."
     },
     "cta": {
       "btn": "Ücretsiz keşif görüşmesi",
@@ -2183,13 +2210,13 @@
   },
   "efaturaPage": {
     "hero": {
-      "badge": "GİB · E-Arşiv · E-İrsaliye · Logo · +90 546 549 6806",
+      "badge": "GİB · Özel entegratör · E-Defter · Logo · Mikro · +90 546 549 6806",
       "title": "E-Fatura Entegrasyonu",
-      "desc": "E-fatura entegrasyonu: GİB’e resmi e-belge. Gelen/giden fatura <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo veya Netsis</a> fişine düşer. Kâğıt tarama değil — o iş <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">fatura okuma</a> sayfasındadır. Çankaya, yazılı teklif, ücretsiz keşif."
+      "desc": "E-fatura entegrasyonu: GİB’e resmi e-belge. Gelen/giden fatura <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo, Netsis veya Mikro</a> fişine düşer. Portal tıklamak ERP yazmaz. Kâğıt tarama değil — o iş <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">fatura okuma</a> sayfasındadır. Çankaya, yazılı teklif, ücretsiz keşif."
     },
     "pricing": {
       "title": "E-fatura entegrasyonu fiyatı (2026)",
-      "intro": "Fiyat belge tipi, özel entegratör ve ERP’ye göre değişir. Bantlar 2026 Ankara piyasasıdır; keşif ücretsiz, teklif yazılıdır. Entegratör lisans ücreti ayrıca.",
+      "intro": "Fiyat belge tipi, özel entegratör ve ERP’ye göre değişir. Bantlar 2026 Ankara piyasasıdır; keşif ücretsiz, teklif yazılıdır. Entegratör lisans ve kontör ayrıca.",
       "row1": "Tek ERP bağlayıcı",
       "row2": "E-arşiv + e-irsaliye",
       "row3": "Holding / çok şube",
@@ -2197,17 +2224,19 @@
       "t2": "6–10 hafta",
       "t3": "3–5 ay",
       "linkOcr": "Fatura okuma (OCR)",
-      "linkLogo": "Logo Netsis"
+      "linkLogo": "Logo Netsis",
+      "row4": "E-Defter bağlayıcı",
+      "t4": "4–8 hafta"
     },
     "cards": {
       "c1title": "📨 Gelen / giden e-fatura",
       "c1desc": "GİB veya özel entegratör kuyruğu. UBL, imza, reddetme/kabul. Portal tıklamak bitmez.",
       "c1link": "Keşif ayarla →",
-      "c2title": "🔗 Logo / Netsis fişi",
+      "c2title": "🔗 Logo / Netsis / Mikro fişi",
       "c2desc": "E-belge muhasebe kaydına yazılır. Çift giriş biter. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">ERP API</a> aynı projede.",
       "c2link": "ERP bağla →",
-      "c3title": "📦 E-irsaliye / e-arşiv",
-      "c3desc": "Sevk ve e-arşiv aynı bağlayıcıda. E-ticaret siparişi faturaya düşer.",
+      "c3title": "📦 E-irsaliye / e-arşiv / e-Defter",
+      "c3desc": "Sevk, e-arşiv ve e-Defter aynı omurgada. E-ticaret siparişi faturaya düşer. E-Defter ayrı satırdır.",
       "c3link": "E-ticaret yaptırmak →",
       "c4title": "📷 OCR değil",
       "c4desc": "Kâğıt veya WhatsApp fotoğrafı <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">fatura okuma programı</a>dır. Bu URL resmi e-belgedir.",
@@ -2229,9 +2258,13 @@
       "q2": "Fatura okuma ile karışır mı?",
       "a2": "Hayır. OCR fotoğraf/PDF okur: <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">fatura okuma</a>. Bu sayfa GİB e-belge API’sidir.",
       "q3": "Logo / Netsis yazar mı?",
-      "a3": "Evet. Gelen ve giden belge <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo, Netsis</a> fişine düşer.",
+      "a3": "Evet. Gelen ve giden belge <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo, Netsis veya Mikro</a> fişine düşer.",
       "q4": "Özel entegratör şart mı?",
-      "a4": "Çoğu projede evet. Mevcut entegratörünüz varsa ona bağlarız; yoksa keşifte seçilir."
+      "a4": "Çoğu KOBİ ve kurumda evet. Mevcut Foriba, Uyumsoft, İzibiz, Logo, Mikro, Bizmu veya Veriban hesabınız varsa ona bağlarız; yoksa keşifte seçilir.",
+      "q5": "GİB Portal, özel entegratör, doğrudan GİB farkı?",
+      "a5": "Portal düşük hacim içindir; ERP’ye fiş yazmaz. Özel entegratör Türkiye’deki standarttır — lisans ve kontör entegratöre aittir. Doğrudan GİB yüksek fatura hacmi, HSM ve 7/24 IT ister; ayrı tekliftir. Ozturksoft kutu lisans satmaz; sizin ERP’nize bağlayıcı yazar.",
+      "q6": "Kontör bu fiyata dahil mi? E-Defter?",
+      "a6": "Hayır. Yukarıdaki TL bantlar yazılım/bağlayıcıdır. Entegratör yıllık lisans (kabaca 4.000–35.000 TL) ve belge başı kontör ayrıca ödenir. E-Defter bağlayıcı 90.000–180.000 TL ek sipariştir. Net kalem keşifte yazılıdır."
     },
     "cta": {
       "btn": "Ücretsiz keşif görüşmesi",
