@@ -3,6 +3,12 @@
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/agent-sistem/:path*",
+      "destination": "https://agent-sistem-lisans.vercel.app/agent-sistem/:path*"
+    }
+  ],
   "functions": {
     "api/contact.js": {
       "maxDuration": 10
