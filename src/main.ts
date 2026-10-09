@@ -575,7 +575,6 @@ window.addEventListener("load", () => {
     initContactForm();
     initScrollTopButton();
     initHeroStatsAnimation();
-    setupPhoneReveal();
     initCookieBanner();
 });
 
@@ -826,39 +825,5 @@ function initHeroStatsAnimation() {
         };
 
         update();
-    });
-}
-
-// Telefon Gösterme ve Arama Mantığı (Tek bir fonksiyonda birleştirildi ve temizlendi)
-function setupPhoneReveal() {
-    document.addEventListener('click', function(e) {
-        const target = e.target as HTMLElement;
-        const revealBtn = target.closest('#revealBtn') as HTMLButtonElement;
-
-        if (revealBtn) {
-            e.preventDefault(); 
-            const phoneDisplay = document.getElementById('phoneDisplay');
-            const realNumber = "+90 546 549 68 06"; // Kendi numaranı yaz
-
-            if (phoneDisplay) {
-                // 1. Numarayı ekranda göster ve yeşil yap
-                phoneDisplay.innerText = realNumber;
-                phoneDisplay.style.color = "#10b981";
-                
-                // 2. Butonun içini Çeviri Etiketi (data-i18n) ile yenile
-                revealBtn.innerHTML = `<i class="fas fa-phone"></i> <span data-i18n="contactPage.cards.phone.callNow">Hemen Ara</span>`;
-                revealBtn.style.background = "linear-gradient(135deg, #10b981 0%, #059669 100%)";
-                revealBtn.style.border = "none";
-                
-                // 3. Sistemi Uyar: "Yeni kelime ekledim, İngilizceysen hemen çevir!"
-                updateContent();
-                
-                // 4. Butonun görevini değiştir: Artık tıklayınca arama yapsın
-                revealBtn.onclick = function(event) {
-                    event.preventDefault();
-                    window.location.href = `tel:${realNumber.replace(/\s/g, "")}`;
-                };
-            }
-        }
     });
 }
