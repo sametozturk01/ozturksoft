@@ -49,6 +49,6 @@ export default {
     { id: 'teknolojiler', q: 'What technologies do you use?', html: 'React, TypeScript, Python, Flutter, PostgreSQL, OpenAI/Claude API, LangChain, RAG vector DB, RPA and AWS/Azure. AI: GPT-4o, Claude 3.5 and open-source Llama.' },
     { id: 'diller-hizmet', q: 'Which languages do you support?', html: 'Turkish, English, German, French, Arabic and Russian. Multilingual URLs: <a href="/">TR</a>, <a href="/en">EN</a>, <a href="/de">DE</a>, <a href="/fr">FR</a>.' },
     { id: 'destek-kesif', q: 'Free discovery call and post-project support?', html: 'Yes — free discovery calls. <strong>30–90 days</strong> free support on projects; maintenance packages available after. <a href="/iletisim">Contact →</a>' },
-    { id: 'iletisim', q: 'How to contact Ozturksoft?', html: 'Phone: <strong>+90 546 549 6806</strong> · Email: info.ozturksoft@gmail.com · <a href="/iletisim">Contact form</a> · Remote worldwide, on-site meetings in Ankara.' },
+    { id: 'iletisim', q: 'How to contact Ozturksoft?', html: 'Phone: <strong>+90 546 549 6806</strong> · Email: info@ozturksoft.net · <a href="/iletisim">Contact form</a> · Remote worldwide, on-site meetings in Ankara.' },
   ],
 };

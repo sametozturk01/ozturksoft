@@ -49,6 +49,6 @@ export default {
     { id: 'teknolojiler', q: 'ما التقنيات المستخدمة؟', html: 'React، TypeScript، Python، Flutter، PostgreSQL، OpenAI/Claude، LangChain، RAG، RPA، AWS/Azure.' },
     { id: 'diller-hizmet', q: 'ما اللغات المدعومة؟', html: 'التركية، الإنجليزية، الألمانية، الفرنسية، العربية، الروسية. <a href="/ar">/ar</a>، <a href="/en">/en</a>.' },
     { id: 'destek-kesif', q: 'استشارة مجانية ودعم ما بعد المشروع؟', html: 'نعم — استكشاف مجاني، دعم <strong>30–90 يوماً</strong>، ثم صيانة. <a href="/iletisim">اتصل →</a>' },
-    { id: 'iletisim', q: 'كيف أتواصل مع Ozturksoft؟', html: 'هاتف: <strong>+90 546 549 6806</strong> · info.ozturksoft@gmail.com · <a href="/iletisim">نموذج الاتصال</a>' },
+    { id: 'iletisim', q: 'كيف أتواصل مع Ozturksoft؟', html: 'هاتف: <strong>+90 546 549 6806</strong> · info@ozturksoft.net · <a href="/iletisim">نموذج الاتصال</a>' },
   ],
 };

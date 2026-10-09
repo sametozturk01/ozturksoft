@@ -717,7 +717,7 @@ function initContactForm() {
             "",
             payload.message,
         ].join("\n");
-        window.location.href = `mailto:info.ozturksoft@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        window.location.href = `mailto:info@ozturksoft.net?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
         showSuccess();
     };
 

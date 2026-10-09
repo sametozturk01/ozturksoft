@@ -28,7 +28,8 @@ function isAllowedRequest(req) {
 function getSmtpConfig() {
   const user = (process.env.SMTP_USER || '').trim();
   const pass = (process.env.SMTP_PASS || '').replace(/\s/g, '');
-  const to = (process.env.CONTACT_TO || process.env.CONTACT_TO_EMAIL || user).trim();
+  const envTo = (process.env.CONTACT_TO || process.env.CONTACT_TO_EMAIL || '').trim();
+  const to = /@ozturksoft\.net$/i.test(envTo) ? envTo : 'info@ozturksoft.net';
   return { user, pass, to };
 }
 

@@ -160,7 +160,7 @@ export default {
     {
       id: 'iletisim',
       q: 'Ozturksoft ile nasıl iletişime geçilir?',
-      html: 'Telefon: <strong>+90 546 549 6806</strong> · E-posta: info.ozturksoft@gmail.com · <a href="/iletisim">İletişim formu</a> · Ankara dışına uzaktan, Ankara\'da yerinde görüşme imkânı.',
+      html: 'Telefon: <strong>+90 546 549 6806</strong> · E-posta: info@ozturksoft.net · <a href="/iletisim">İletişim formu</a> · Ankara dışına uzaktan, Ankara\'da yerinde görüşme imkânı.',
     },
   ],
 };
