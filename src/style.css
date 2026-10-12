@@ -1849,20 +1849,22 @@ h1 {
     min-width: 0;
 }
 .cookie-banner-kicker {
-    margin: 0 0 6px;
-    color: var(--primary);
-    font-size: 0.75rem;
+    margin: 0 0 8px;
+    color: #fff;
+    font-size: 1.05rem;
     font-weight: 800;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+    letter-spacing: 0;
+    text-transform: none;
 }
 #cookieBanner #cookieBannerText {
     margin: 0;
     max-width: none;
     color: var(--text-dim);
     font-size: 0.92rem;
-    line-height: 1.6;
+    line-height: 1.65;
     font-weight: 400;
+    word-spacing: normal;
+    white-space: normal;
 }
 .cookie-banner-actions {
     display: grid;

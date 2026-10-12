@@ -2494,11 +2494,11 @@
     "foot": "© 2026 Ozturksoft — Entreprise logicielle Ankara | <a href=\"/\" style=\"color:#3b82f6\">Accueil</a> · <a href=\"/hizmetler\" style=\"color:#3b82f6\">Services</a> · <a href=\"/ankara-yapay-zeka-firmasi\" style=\"color:#3b82f6\">IA</a>"
   },
   "cookieBanner": {
-    "title": "Préférence cookies",
-    "text": "Nécessaire : langue et choix. « Accepter » : Google Analytics (page, source, appareil — pas de profil pub). « Nécessaires seulement » : pas de mesure. Détails dans la notice.",
+    "title": "Vos préférences cookies",
+    "text": "Nous utilisons des cookies nécessaires au bon fonctionnement du site. Les cookies d’analyse facultatifs nous aident à comprendre l’usage et à améliorer l’expérience. Indiquez votre préférence.",
     "accept": "Accepter",
     "necessary": "Nécessaires seulement",
-    "policy": "Confidentialité & cookies",
+    "policy": "Politique cookies",
     "settings": "Paramètres cookies"
   },
   "privacyPage": {

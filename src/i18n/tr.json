@@ -2509,11 +2509,11 @@
     "foot": "© 2026 Ozturksoft — Ankara Yazılım Şirketi | <a href=\"/\" style=\"color:#3b82f6\">Ana Sayfa</a> · <a href=\"/hizmetler\" style=\"color:#3b82f6\">Hizmetler</a> · <a href=\"/ankara-yapay-zeka-firmasi\" style=\"color:#3b82f6\">Yapay Zeka</a>"
   },
   "cookieBanner": {
-    "title": "Çerez tercihi",
-    "text": "Zorunlu: dil ve tercih kaydı. “Kabul et”: Google Analytics (sayfa, kaynak, cihaz — reklam profili değil). “Yalnızca zorunlu”: ölçüm yok. Ayrıntı: gizlilik metni.",
+    "title": "Çerez tercihleriniz",
+    "text": "Sitenin düzgün çalışması için gerekli çerezleri kullanıyoruz. İsteğe bağlı analitik çerezler, site kullanımını anlamamıza ve deneyimi geliştirmemize yardımcı olur. Tercihinizi belirtin.",
     "accept": "Kabul et",
     "necessary": "Yalnızca zorunlu",
-    "policy": "Gizlilik & çerezler",
+    "policy": "Çerez politikası",
     "settings": "Çerez ayarları"
   },
   "privacyPage": {

@@ -2509,11 +2509,11 @@
     "foot": "© 2026 Ozturksoft — Ankara Software Company | <a href=\"/\" style=\"color:#3b82f6\">Home</a> · <a href=\"/hizmetler\" style=\"color:#3b82f6\">Services</a> · <a href=\"/ankara-yapay-zeka-firmasi\" style=\"color:#3b82f6\">AI</a>"
   },
   "cookieBanner": {
-    "title": "Cookie preference",
-    "text": "Necessary: language and your choice. “Accept”: Google Analytics (page, source, device — not ad profiling). “Necessary only”: no measurement. Details in the privacy notice.",
+    "title": "Your cookie preferences",
+    "text": "We use necessary cookies so the site works properly. Optional analytics cookies help us understand how the site is used and improve the experience. Please indicate your preference.",
     "accept": "Accept",
     "necessary": "Necessary only",
-    "policy": "Privacy & cookies",
+    "policy": "Cookie policy",
     "settings": "Cookie settings"
   },
   "privacyPage": {

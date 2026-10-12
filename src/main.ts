@@ -225,13 +225,13 @@ function showCookieBanner() {
     el.innerHTML = `
       <div class="cookie-banner-inner">
         <div class="cookie-banner-copy">
-          <p id="cookieBannerTitle" class="cookie-banner-kicker" data-i18n="cookieBanner.title">Çerez tercihi</p>
-          <p id="cookieBannerText" data-i18n="cookieBanner.text">Zorunlu: dil ve tercih kaydı. “Kabul et”: Google Analytics (sayfa, kaynak, cihaz — reklam profili değil). “Yalnızca zorunlu”: ölçüm yok. Ayrıntı: gizlilik metni.</p>
+          <p id="cookieBannerTitle" class="cookie-banner-kicker" data-i18n="cookieBanner.title">Çerez tercihleriniz</p>
+          <p id="cookieBannerText" data-i18n="cookieBanner.text">Sitenin düzgün çalışması için gerekli çerezleri kullanıyoruz. İsteğe bağlı analitik çerezler, site kullanımını anlamamıza ve deneyimi geliştirmemize yardımcı olur. Tercihinizi belirtin.</p>
         </div>
         <div class="cookie-banner-actions">
           <button type="button" class="btn btn-primary" data-cookie="all" data-i18n="cookieBanner.accept">Kabul et</button>
           <button type="button" class="btn btn-outline" data-cookie="necessary" data-i18n="cookieBanner.necessary">Yalnızca zorunlu</button>
-          <a href="/gizlilik" class="cookie-banner-policy" data-i18n="cookieBanner.policy">Gizlilik &amp; çerezler</a>
+          <a href="/gizlilik" class="cookie-banner-policy" data-i18n="cookieBanner.policy">Çerez politikası</a>
         </div>
       </div>`;
     document.body.appendChild(el);
