@@ -512,7 +512,7 @@
         "web": "موقع ويب / تجارة إلكترونية",
         "seo": "تحسين SEO و GEO",
         "other": "أخرى",
-        "marketplace": "تكامل ترينديول / Hepsiburada",
+        "marketplace": "تكامل ترينديول / Hepsiburada / أمازون",
         "crm": "تطوير برمجيات CRM",
         "mikro": "تكامل Logo / Mikro"
       },
@@ -607,6 +607,7 @@
       "qa": "اختبار الجودة",
       "privacy": "الخصوصية وملفات الارتباط",
       "hepsiburada": "Hepsiburada",
+      "amazon": "تكامل أمازون",
       "crm": "برمجيات CRM",
       "seo": "SEO أنقرة",
       "mikro": "ربط Mikro"
@@ -1826,7 +1827,8 @@
       "guide": "دليل التكلفة",
       "ty": "تكامل ترينديول",
       "ef": "الفاتورة الإلكترونية",
-      "hb": "Hepsiburada"
+      "hb": "Hepsiburada",
+      "am": "أمازون"
     }
   },
   "faturaOkumaPage": {
@@ -2340,7 +2342,7 @@
       "q2": "هل هذا موقع تجارة؟",
       "a2": "لا. متجركم <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">طلب موقع تجارة إلكترونية</a>. هذه الصفحة واجهة ترينديول/السوق.",
       "q3": "هل يُضاف Hepsiburada؟",
-      "a3": "نعم. قناة ثانية على نفس المخزون. صفحة مستقلة: <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#f27a1a\">تكامل Hepsiburada</a>.",
+      "a3": "نعم. قناة ثانية على نفس المخزون. <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#f27a1a\">Hepsiburada</a> · <a href=\"/amazon-entegrasyonu\" style=\"color:#f27a1a\">أمازون</a>.",
       "q4": "هل يسقط الطلب في Logo؟",
       "a4": "نعم. قيد <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">Logo / Netsis</a> و<a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">فاتورة إلكترونية</a> اختيارية في نفس المشروع."
     },
@@ -2356,7 +2358,8 @@
       "ef": "فاتورة إلكترونية",
       "logo": "Logo Netsis",
       "wa": "شات بوت واتساب",
-      "hb": "Hepsiburada"
+      "hb": "Hepsiburada",
+      "am": "أمازون"
     },
     "meta": {
       "title": "تكامل ترينديول | طلب ومخزون | Ozturksoft"
@@ -2614,7 +2617,8 @@
       "ty": "ترينديول",
       "shop": "تجارة إلكترونية",
       "mikro": "Mikro",
-      "ef": "فاتورة إلكترونية"
+      "ef": "فاتورة إلكترونية",
+      "am": "أمازون"
     },
     "meta": {
       "title": "تكامل Hepsiburada | الطلبات والمخزون | أوزتورك سوفت"
@@ -2622,6 +2626,83 @@
     "stats": {
       "s1l": "سحب الطلبات",
       "s2l": "مخزون + شحن",
+      "s3l": "تسليم المخزون"
+    }
+  },
+  "amazonPage": {
+    "hero": {
+      "badge": "SP-API · FBA · FBM · Seller Central · +90 546 549 6806",
+      "title": "تكامل أمازون",
+      "desc": "تكامل أمازون: لا تُنسخ الطلبات من Seller Central. SP-API يشغّل الطلبات والمخزون وFBA/FBM. ترينديول وHepsiburada منفصلان — <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">ترينديول</a> · <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">Hepsiburada</a>. تشانكايا، عرض مكتوب، استكشاف مجاني."
+    },
+    "pricing": {
+      "title": "سعر تكامل أمازون (2026)",
+      "intro": "السعر يتبع حجم الطلبات وFBA/FBM وERP. شرائح أنقرة 2026؛ الاستكشاف مجاني والعرض مكتوب. لا نبيع حساب بائع.",
+      "row1": "سحب الطلبات",
+      "row2": "مخزون + FBA/FBM",
+      "row3": "السوق + ERP",
+      "t1": "2–4 أسابيع",
+      "t2": "4–8 أسابيع",
+      "t3": "8–14 أسبوعاً",
+      "linkTy": "تكامل ترينديول",
+      "linkHb": "Hepsiburada",
+      "linkLogo": "Logo Netsis",
+      "linkMikro": "Mikro"
+    },
+    "cards": {
+      "c1title": "📦 الطلبات",
+      "c1desc": "الطلبات الجديدة تصل إلى اللوحة أو الطابعة أو المستودع. ينتهي النسخ من Seller Central.",
+      "c1link": "حجز استكشاف →",
+      "c2title": "📊 مزامنة المخزون",
+      "c2desc": "مخزون FBA وFBM يُكتب من Logo أو Mikro أو المتجر. يتوقف البيع المزدوج. <a href=\"/mikro-entegrasyon\" style=\"color:#ff9900\">Mikro</a> في نفس الفريق.",
+      "c2link": "ربط Mikro / ERP →",
+      "c3title": "🚚 FBA وFBM وEasy Ship",
+      "c3desc": "مستودع أمازون أو شحنكم. التتبع والإرجاع. الفاتورة الإلكترونية: <a href=\"/e-fatura-entegrasyonu\" style=\"color:#ff9900\">فاتورة إلكترونية</a>.",
+      "c3link": "ربط الفاتورة الإلكترونية →",
+      "c4title": "🏪 Shopify، موقعكم",
+      "c4desc": "Shopify/Woo لا يتعارض مع أمازون. موقعكم: <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">بناء متجر إلكتروني</a>.",
+      "c4link": "موقع تجارة إلكترونية →"
+    },
+    "who": {
+      "title": "من يطلب تكامل أمازون؟",
+      "intro": "«تكامل أمازون» طلب SP-API لـ Amazon.com.tr. لا نبيع حساب بائع ولا موصل جاهز؛ الطلبات والمخزون وERP تُكتب على تدفقكم.",
+      "i1": "الطلبات تُنسخ من Seller Central؛ المخزون يصبح سالباً ليلاً.",
+      "i2": "ترينديول أو Hepsiburada موجود؛ أمازون يجب أن يشارك المخزون. <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">ترينديول</a> · <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">Hepsiburada</a>.",
+      "i3": "FBA وFBM يختلطان؛ Shopify أو Woo لا يتعارض مع أمازون.",
+      "i4": "الفواتير من Logo/Mikro؛ iyzico يبقى على موقعكم — <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">تجارة إلكترونية</a>.",
+      "outro": "استكشاف مجاني: <a href=\"tel:+905465496806\" style=\"color:#ff9900\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "الأسئلة الشائعة",
+      "q1": "كم يكلف تكامل أمازون؟",
+      "a1": "الطلبات 25.000–50.000 ليرة (2–4 أسابيع)، المخزون+FBA/FBM 50.000–95.000 ليرة، ERP 95.000–180.000 ليرة. الاستكشاف مجاني.",
+      "q2": "هل هذه صفحة ترينديول أو Hepsiburada؟",
+      "a2": "لا. ترينديول <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">رابط مستقل</a>. Hepsiburada <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">رابط مستقل</a>. قناة ثالثة على نفس عمود المخزون.",
+      "q3": "FBA وFBM وAmazon.com.tr؟",
+      "a3": "Amazon.com.tr Seller Central + SP-API. FBA مستودع أمازون، FBM شحنكم، Easy Ship ملصقات أمازون. لا نبيع حساب بائع.",
+      "q4": "Shopify وiyzico والشحن؟",
+      "a4": "iyzico/PayTR وShopify على موقعكم عمل <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">التجارة الإلكترونية</a>. دفع أمازون يبقى لدى أمازون؛ شحن FBM واجهة Yurtiçi/Aras/MNG."
+    },
+    "cta": {
+      "btn": "مكالمة استكشاف مجانية",
+      "title": "نتحدث عن تدفق أمازون",
+      "desc": "استكشاف مجاني — الطلبات، المخزون، FBA، ERP. <a href=\"tel:+905465496806\" style=\"color:#ff9900\">+90 546 549 6806</a>",
+      "btn2": "عرض مجاني"
+    },
+    "footer": "© 2026 أوزتورك سوفت — تكامل أمازون",
+    "related": {
+      "ty": "ترينديول",
+      "hb": "Hepsiburada",
+      "shop": "تجارة إلكترونية",
+      "mikro": "Mikro",
+      "ef": "فاتورة إلكترونية"
+    },
+    "meta": {
+      "title": "تكامل أمازون | طلبات ومخزون SP-API | أوزتورك سوفت"
+    },
+    "stats": {
+      "s1l": "سحب الطلبات",
+      "s2l": "مخزون + FBA/FBM",
       "s3l": "تسليم المخزون"
     }
   },

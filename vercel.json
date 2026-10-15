@@ -299,6 +299,26 @@
       "permanent": true
     },
     {
+      "source": "/amazon",
+      "destination": "/amazon-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/amazon-entegrasyon",
+      "destination": "/amazon-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/amazon-sp-api",
+      "destination": "/amazon-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/amazon-tr",
+      "destination": "/amazon-entegrasyonu",
+      "permanent": true
+    },
+    {
       "source": "/crm-yazilim",
       "destination": "/crm-yazilim-yaptirmak",
       "permanent": true

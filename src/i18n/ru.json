@@ -512,7 +512,7 @@
         "web": "Сайт / E-commerce",
         "seo": "SEO и GEO оптимизация",
         "other": "Другое",
-        "marketplace": "Интеграция Trendyol / Hepsiburada",
+        "marketplace": "Интеграция Trendyol / Hepsiburada / Amazon",
         "crm": "Заказать CRM",
         "mikro": "Интеграция Logo / Mikro"
       },
@@ -607,6 +607,7 @@
       "qa": "QA-тестирование",
       "privacy": "Конфиденциальность и cookie",
       "hepsiburada": "Hepsiburada",
+      "amazon": "Интеграция Amazon",
       "crm": "CRM-система",
       "seo": "SEO Анкара",
       "mikro": "Интеграция Mikro"
@@ -1826,7 +1827,8 @@
       "guide": "Гид по стоимости",
       "ty": "Интеграция Trendyol",
       "ef": "E-factura",
-      "hb": "Hepsiburada"
+      "hb": "Hepsiburada",
+      "am": "Amazon"
     }
   },
   "faturaOkumaPage": {
@@ -2340,7 +2342,7 @@
       "q2": "Это интернет-магазин?",
       "a2": "Нет. Свой магазин <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">заказать интернет-магазин</a>. Эта страница — API Trendyol/маркетплейса.",
       "q3": "Можно добавить Hepsiburada?",
-      "a3": "Да. Второй маркетплейс на том же складе. Отдельная страница: <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#f27a1a\">интеграция Hepsiburada</a>.",
+      "a3": "Да. Второй маркетплейс на том же складе. <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#f27a1a\">Hepsiburada</a> · <a href=\"/amazon-entegrasyonu\" style=\"color:#f27a1a\">Amazon</a>.",
       "q4": "Заказы падают в Logo?",
       "a4": "Да. Проводка <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">Logo / Netsis</a> и опционально <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">e-factura</a> в том же проекте."
     },
@@ -2356,7 +2358,8 @@
       "ef": "E-factura",
       "logo": "Logo Netsis",
       "wa": "WhatsApp-чатбот",
-      "hb": "Hepsiburada"
+      "hb": "Hepsiburada",
+      "am": "Amazon"
     },
     "meta": {
       "title": "Интеграция Trendyol | Заказы и склад | Ozturksoft"
@@ -2614,7 +2617,8 @@
       "ty": "Trendyol",
       "shop": "Интернет-магазин",
       "mikro": "Mikro",
-      "ef": "Э-счёт"
+      "ef": "Э-счёт",
+      "am": "Amazon"
     },
     "meta": {
       "title": "Интеграция Hepsiburada | Заказы и склад | Ozturksoft"
@@ -2622,6 +2626,83 @@
     "stats": {
       "s1l": "Выгрузка заказов",
       "s2l": "Склад + доставка",
+      "s3l": "Сдача склада"
+    }
+  },
+  "amazonPage": {
+    "hero": {
+      "badge": "SP-API · FBA · FBM · Seller Central · +90 546 549 6806",
+      "title": "Интеграция Amazon",
+      "desc": "Интеграция Amazon: заказы не копируют из Seller Central. SP-API ведёт заказы, склад, FBA/FBM. Trendyol и Hepsiburada отдельно — <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">Trendyol</a> · <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">Hepsiburada</a>. Чанкая, письменная смета, бесплатный разбор."
+    },
+    "pricing": {
+      "title": "Цена интеграции Amazon (2026)",
+      "intro": "Цена зависит от объёма, FBA/FBM и ERP. Диапазоны рынка Анкары 2026; разбор бесплатный, смета письменная. Аккаунты продавца не продаём.",
+      "row1": "Выгрузка заказов",
+      "row2": "Склад + FBA/FBM",
+      "row3": "Маркетплейс + ERP",
+      "t1": "2–4 недели",
+      "t2": "4–8 недель",
+      "t3": "8–14 недель",
+      "linkTy": "Интеграция Trendyol",
+      "linkHb": "Hepsiburada",
+      "linkLogo": "Logo Netsis",
+      "linkMikro": "Mikro"
+    },
+    "cards": {
+      "c1title": "📦 Заказы",
+      "c1desc": "Новые заказы приходят на панель, принтер или склад. Копирование из Seller Central заканчивается.",
+      "c1link": "Записаться на разбор →",
+      "c2title": "📊 Синхрон склада",
+      "c2desc": "Склад FBA и FBM пишется из Logo, Mikro или магазина. Двойные продажи стоп. <a href=\"/mikro-entegrasyon\" style=\"color:#ff9900\">Mikro</a> в той же команде.",
+      "c2link": "Подключить Mikro / ERP →",
+      "c3title": "🚚 FBA, FBM, Easy Ship",
+      "c3desc": "Склад Amazon или ваша доставка. Трекинг и возвраты. Э-счёт: <a href=\"/e-fatura-entegrasyonu\" style=\"color:#ff9900\">э-счёт</a>.",
+      "c3link": "Подключить э-счёт →",
+      "c4title": "🏪 Shopify, свой сайт",
+      "c4desc": "Shopify/Woo не должен пересекаться с Amazon. Свой сайт: <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">сделать интернет-магазин</a>.",
+      "c4link": "Интернет-магазин →"
+    },
+    "who": {
+      "title": "Кто заказывает интеграцию Amazon?",
+      "intro": "«Интеграция Amazon» — заказ SP-API Amazon.com.tr. Аккаунты продавца и коробочные коннекторы не продаём; заказы, склад и ERP пишутся под ваш поток.",
+      "i1": "Заказы копируют из Seller Central; склад уходит в минус ночью.",
+      "i2": "Trendyol или Hepsiburada уже есть; Amazon должен делить склад. <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">Trendyol</a> · <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">Hepsiburada</a>.",
+      "i3": "FBA и FBM путаются; Shopify или Woo не должен пересекаться с Amazon.",
+      "i4": "Счета из Logo/Mikro; iyzico остаётся на своём сайте — <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">магазин</a>.",
+      "outro": "Бесплатный разбор: <a href=\"tel:+905465496806\" style=\"color:#ff9900\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Частые вопросы",
+      "q1": "Сколько стоит интеграция Amazon?",
+      "a1": "Заказы 25 000–50 000 TL (2–4 недели), склад+FBA/FBM 50 000–95 000 TL, ERP 95 000–180 000 TL. Разбор бесплатный.",
+      "q2": "Это страница Trendyol или Hepsiburada?",
+      "a2": "Нет. Trendyol — <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">отдельный URL</a>. Hepsiburada — <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">отдельный URL</a>. Третий канал на той же складской оси.",
+      "q3": "FBA, FBM, Amazon.com.tr?",
+      "a3": "Amazon.com.tr Seller Central + SP-API. FBA — склад Amazon, FBM — ваша доставка, Easy Ship — ярлыки Amazon. Аккаунты не продаём.",
+      "q4": "Shopify, iyzico и доставка?",
+      "a4": "iyzico/PayTR и Shopify на своём сайте — это <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">интернет-магазин</a>. Оплата Amazon остаётся у Amazon; доставка FBM — API Yurtiçi/Aras/MNG."
+    },
+    "cta": {
+      "btn": "Бесплатный разбор",
+      "title": "Обсудим поток Amazon",
+      "desc": "Бесплатный разбор — заказы, склад, FBA, ERP. <a href=\"tel:+905465496806\" style=\"color:#ff9900\">+90 546 549 6806</a>",
+      "btn2": "Бесплатная смета"
+    },
+    "footer": "© 2026 Ozturksoft — интеграция Amazon",
+    "related": {
+      "ty": "Trendyol",
+      "hb": "Hepsiburada",
+      "shop": "Интернет-магазин",
+      "mikro": "Mikro",
+      "ef": "Э-счёт"
+    },
+    "meta": {
+      "title": "Интеграция Amazon | SP-API заказы и склад | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Выгрузка заказов",
+      "s2l": "Склад + FBA/FBM",
       "s3l": "Сдача склада"
     }
   },

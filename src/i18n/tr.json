@@ -512,7 +512,7 @@
         "web": "Web sitesi / E-ticaret",
         "seo": "SEO & GEO optimizasyon",
         "other": "Diğer",
-        "marketplace": "Trendyol / Hepsiburada entegrasyonu",
+        "marketplace": "Trendyol / Hepsiburada / Amazon entegrasyonu",
         "crm": "CRM yazılım yaptırmak",
         "mikro": "Logo / Mikro entegrasyon"
       },
@@ -607,6 +607,7 @@
       "qa": "QA test hizmeti",
       "privacy": "Gizlilik & çerezler",
       "hepsiburada": "Hepsiburada",
+      "amazon": "Amazon entegrasyonu",
       "crm": "CRM yazılım",
       "seo": "Ankara SEO",
       "mikro": "Mikro entegrasyon"
@@ -1841,7 +1842,8 @@
       "guide": "Maliyet rehberi",
       "ty": "Trendyol entegrasyonu",
       "ef": "E-fatura",
-      "hb": "Hepsiburada"
+      "hb": "Hepsiburada",
+      "am": "Amazon"
     }
   },
   "faturaOkumaPage": {
@@ -2355,7 +2357,7 @@
       "q2": "E-ticaret sitesi bu mu?",
       "a2": "Hayır. Kendi mağaza <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">e-ticaret sitesi yaptırmak</a>. Bu sayfa Trendyol/pazaryeri API’sidir.",
       "q3": "Hepsiburada eklenir mi?",
-      "a3": "Evet. Aynı stok omurgasına ikinci pazaryeri yazılır. Ayrı sayfa: <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#f27a1a\">Hepsiburada entegrasyonu</a>.",
+      "a3": "Evet. Aynı stok omurgasına ikinci pazaryeri yazılır. <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#f27a1a\">Hepsiburada</a> · <a href=\"/amazon-entegrasyonu\" style=\"color:#f27a1a\">Amazon</a>.",
       "q4": "Logo’ya sipariş düşer mi?",
       "a4": "Evet. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">Logo / Netsis</a> fişi ve isteğe <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">e-fatura</a> aynı projede."
     },
@@ -2371,7 +2373,8 @@
       "ef": "E-fatura",
       "logo": "Logo Netsis",
       "wa": "WhatsApp chatbot",
-      "hb": "Hepsiburada"
+      "hb": "Hepsiburada",
+      "am": "Amazon"
     },
     "meta": {
       "title": "Trendyol Entegrasyonu | Sipariş & Stok | Ozturksoft"
@@ -2629,7 +2632,8 @@
       "ty": "Trendyol",
       "shop": "E-ticaret",
       "mikro": "Mikro",
-      "ef": "E-fatura"
+      "ef": "E-fatura",
+      "am": "Amazon"
     },
     "meta": {
       "title": "Hepsiburada Entegrasyonu | Sipariş & Stok | Ozturksoft"
@@ -2637,6 +2641,83 @@
     "stats": {
       "s1l": "Sipariş çekme",
       "s2l": "Stok + kargo",
+      "s3l": "Stok teslim"
+    }
+  },
+  "amazonPage": {
+    "hero": {
+      "badge": "SP-API · FBA · FBM · Seller Central · +90 546 549 6806",
+      "title": "Amazon Entegrasyonu",
+      "desc": "Amazon entegrasyonu: Seller Central’dan sipariş kopyalanmasın. SP-API sipariş, stok, FBA/FBM. Trendyol ve Hepsiburada ayrıdır — <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">Trendyol</a> · <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">Hepsiburada</a>. Çankaya, yazılı teklif, ücretsiz keşif."
+    },
+    "pricing": {
+      "title": "Amazon entegrasyonu fiyatı (2026)",
+      "intro": "Fiyat sipariş hacmi, FBA/FBM ve ERP’ye göre değişir. Bantlar 2026 Ankara piyasasıdır; keşif ücretsiz, teklif yazılıdır. Seller hesabı satılmaz.",
+      "row1": "Sipariş çekme",
+      "row2": "Stok + FBA/FBM",
+      "row3": "Pazaryeri + ERP",
+      "t1": "2–4 hafta",
+      "t2": "4–8 hafta",
+      "t3": "8–14 hafta",
+      "linkTy": "Trendyol entegrasyonu",
+      "linkHb": "Hepsiburada",
+      "linkLogo": "Logo Netsis",
+      "linkMikro": "Mikro"
+    },
+    "cards": {
+      "c1title": "📦 Sipariş",
+      "c1desc": "Yeni sipariş panele düşer, yazıcı veya depo kuyruğuna gider. Seller Central kopyala biter.",
+      "c1link": "Keşif ayarla →",
+      "c2title": "📊 Stok senkron",
+      "c2desc": "FBA ve FBM stoku Logo, Mikro veya mağazadan geri yazar. Çift satış kesilir. <a href=\"/mikro-entegrasyon\" style=\"color:#ff9900\">Mikro</a> aynı ekipte.",
+      "c2link": "Mikro / ERP bağla →",
+      "c3title": "🚚 FBA, FBM, Easy Ship",
+      "c3desc": "Amazon deposu veya sizin kargo. Takip ve iade. E-fatura: <a href=\"/e-fatura-entegrasyonu\" style=\"color:#ff9900\">e-fatura</a>.",
+      "c3link": "E-fatura bağla →",
+      "c4title": "🏪 Shopify, kendi site",
+      "c4desc": "Shopify/Woo mağaza Amazon ile çakışmasın. Kendi site <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">e-ticaret yaptırmak</a>.",
+      "c4link": "E-ticaret sitesi →"
+    },
+    "who": {
+      "title": "Amazon entegrasyonunu kim yaptırır?",
+      "intro": "“Amazon entegrasyonu” Amazon.com.tr SP-API siparişidir. Seller hesabı ve kutu bağlayıcı satılmaz; sipariş, stok ve ERP sizin akışınıza yazılır.",
+      "i1": "Seller Central’dan sipariş kopyalanıyor, stok gece eksiye düşüyor.",
+      "i2": "Trendyol veya Hepsiburada zaten var; Amazon aynı stoktan gitsin. <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">Trendyol</a> · <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">Hepsiburada</a>.",
+      "i3": "FBA ve FBM karışıyor; Shopify veya Woo Amazon ile çakışmasın.",
+      "i4": "Fatura Logo/Mikro’dan kessin; iyzico kendi sitede kalsın — <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">e-ticaret</a>.",
+      "outro": "Ücretsiz keşif: <a href=\"tel:+905465496806\" style=\"color:#ff9900\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Sık sorulanlar",
+      "q1": "Amazon entegrasyonu ne kadar tutar?",
+      "a1": "Sipariş 25.000–50.000 TL (2–4 hafta), stok+FBA/FBM 50.000–95.000 TL, ERP 95.000–180.000 TL. Keşif ücretsizdir.",
+      "q2": "Trendyol veya Hepsiburada bu sayfa mı?",
+      "a2": "Hayır. Trendyol <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">ayrı URL</a>. Hepsiburada <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">ayrı URL</a>. Aynı stok omurgasına üçüncü kanal eklenir.",
+      "q3": "FBA, FBM, Amazon.com.tr?",
+      "a3": "Amazon.com.tr Seller Central + SP-API. FBA Amazon deposu, FBM sizin kargo, Easy Ship Amazon etiket. Seller hesabı satılmaz.",
+      "q4": "Shopify, iyzico ve kargo?",
+      "a4": "Kendi sitede iyzico/PayTR ve Shopify <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">e-ticaret</a> işidir. Amazon ödemesi Amazon’dadır; FBM kargosu Yurtiçi/Aras/MNG API."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "Amazon akışını konuşalım",
+      "desc": "Ücretsiz keşif — sipariş, stok, FBA, ERP. <a href=\"tel:+905465496806\" style=\"color:#ff9900\">+90 546 549 6806</a>",
+      "btn2": "Ücretsiz teklif al"
+    },
+    "footer": "© 2026 Ozturksoft — Amazon entegrasyonu",
+    "related": {
+      "ty": "Trendyol",
+      "hb": "Hepsiburada",
+      "shop": "E-ticaret",
+      "mikro": "Mikro",
+      "ef": "E-fatura"
+    },
+    "meta": {
+      "title": "Amazon Entegrasyonu | SP-API Sipariş & Stok | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Sipariş çekme",
+      "s2l": "Stok + FBA/FBM",
       "s3l": "Stok teslim"
     }
   },

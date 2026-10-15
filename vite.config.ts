@@ -40,6 +40,7 @@ export default defineConfig({
         eFaturaEntegrasyonu: resolve(__dirname, 'e-fatura-entegrasyonu.html'),
         trendyolEntegrasyonu: resolve(__dirname, 'trendyol-entegrasyonu.html'),
         hepsiburadaEntegrasyonu: resolve(__dirname, 'hepsiburada-entegrasyonu.html'),
+        amazonEntegrasyonu: resolve(__dirname, 'amazon-entegrasyonu.html'),
         crmYazilimYaptirmak: resolve(__dirname, 'crm-yazilim-yaptirmak.html'),
         ankaraSeo: resolve(__dirname, 'ankara-seo.html'),
         mikroEntegrasyon: resolve(__dirname, 'mikro-entegrasyon.html'),

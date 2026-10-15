@@ -512,7 +512,7 @@
         "web": "Website / E-commerce",
         "seo": "SEO & GEO optimization",
         "other": "Other",
-        "marketplace": "Trendyol / Hepsiburada integration",
+        "marketplace": "Trendyol / Hepsiburada / Amazon integration",
         "crm": "Have CRM software built",
         "mikro": "Logo / Mikro integration"
       },
@@ -607,6 +607,7 @@
       "qa": "QA testing",
       "privacy": "Privacy & cookies",
       "hepsiburada": "Hepsiburada",
+      "amazon": "Amazon integration",
       "crm": "CRM software",
       "seo": "Ankara SEO",
       "mikro": "Mikro integration"
@@ -1841,7 +1842,8 @@
       "guide": "Cost guide",
       "ty": "Trendyol integration",
       "ef": "E-invoice",
-      "hb": "Hepsiburada"
+      "hb": "Hepsiburada",
+      "am": "Amazon"
     }
   },
   "faturaOkumaPage": {
@@ -2355,7 +2357,7 @@
       "q2": "Is this an e-commerce site?",
       "a2": "No. Your own store is <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">have an e-commerce site built</a>. This page is the Trendyol/marketplace API.",
       "q3": "Can Hepsiburada be added?",
-      "a3": "Yes. A second marketplace is written onto the same stock spine. Separate page: <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#f27a1a\">Hepsiburada integration</a>.",
+      "a3": "Yes. A second marketplace is written onto the same stock spine. <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#f27a1a\">Hepsiburada</a> · <a href=\"/amazon-entegrasyonu\" style=\"color:#f27a1a\">Amazon</a>.",
       "q4": "Do orders post to Logo?",
       "a4": "Yes. A <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">Logo / Netsis</a> voucher and optional <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">e-invoice</a> in the same project."
     },
@@ -2371,7 +2373,8 @@
       "ef": "E-invoice",
       "logo": "Logo Netsis",
       "wa": "WhatsApp chatbot",
-      "hb": "Hepsiburada"
+      "hb": "Hepsiburada",
+      "am": "Amazon"
     },
     "meta": {
       "title": "Trendyol Integration | Orders & Stock | Ozturksoft"
@@ -2629,7 +2632,8 @@
       "ty": "Trendyol",
       "shop": "E-commerce",
       "mikro": "Mikro",
-      "ef": "E-invoice"
+      "ef": "E-invoice",
+      "am": "Amazon"
     },
     "meta": {
       "title": "Hepsiburada Integration | Orders & Stock | Ozturksoft"
@@ -2637,6 +2641,83 @@
     "stats": {
       "s1l": "Order pull",
       "s2l": "Stock + shipping",
+      "s3l": "Stock delivery"
+    }
+  },
+  "amazonPage": {
+    "hero": {
+      "badge": "SP-API · FBA · FBM · Seller Central · +90 546 549 6806",
+      "title": "Amazon Integration",
+      "desc": "Amazon integration: orders should not be copied from Seller Central. SP-API runs orders, stock, FBA/FBM. Trendyol and Hepsiburada are separate — <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">Trendyol</a> · <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">Hepsiburada</a>. Çankaya, written quote, free discovery."
+    },
+    "pricing": {
+      "title": "Amazon integration price (2026)",
+      "intro": "Price follows order volume, FBA/FBM and ERP. Bands are 2026 Ankara market; discovery is free, the quote is written. We do not sell seller accounts.",
+      "row1": "Order pull",
+      "row2": "Stock + FBA/FBM",
+      "row3": "Marketplace + ERP",
+      "t1": "2–4 weeks",
+      "t2": "4–8 weeks",
+      "t3": "8–14 weeks",
+      "linkTy": "Trendyol integration",
+      "linkHb": "Hepsiburada",
+      "linkLogo": "Logo Netsis",
+      "linkMikro": "Mikro"
+    },
+    "cards": {
+      "c1title": "📦 Orders",
+      "c1desc": "New orders land in the panel, printer or warehouse queue. Seller Central copy-paste stops.",
+      "c1link": "Book discovery →",
+      "c2title": "📊 Stock sync",
+      "c2desc": "FBA and FBM stock writes back from Logo, Mikro or the store. Double-sell stops. <a href=\"/mikro-entegrasyon\" style=\"color:#ff9900\">Mikro</a> is the same team.",
+      "c2link": "Connect Mikro / ERP →",
+      "c3title": "🚚 FBA, FBM, Easy Ship",
+      "c3desc": "Amazon warehouse or your own shipping. Tracking and returns. E-invoice: <a href=\"/e-fatura-entegrasyonu\" style=\"color:#ff9900\">e-invoice</a>.",
+      "c3link": "Connect e-invoice →",
+      "c4title": "🏪 Shopify, own site",
+      "c4desc": "Shopify/Woo must not clash with Amazon. Own site: <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">have e-commerce built</a>.",
+      "c4link": "E-commerce site →"
+    },
+    "who": {
+      "title": "Who commissions Amazon integration?",
+      "intro": "“Amazon integration” is an Amazon.com.tr SP-API order. We do not sell seller accounts or boxed connectors; orders, stock and ERP are written to your flow.",
+      "i1": "Orders are copied from Seller Central; stock goes negative at night.",
+      "i2": "You already have Trendyol or Hepsiburada; Amazon should share stock. <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">Trendyol</a> · <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">Hepsiburada</a>.",
+      "i3": "FBA and FBM mix; Shopify or Woo must not clash with Amazon.",
+      "i4": "Invoices should cut from Logo/Mikro; iyzico stays on your own site — <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">e-commerce</a>.",
+      "outro": "Free discovery: <a href=\"tel:+905465496806\" style=\"color:#ff9900\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "How much does Amazon integration cost?",
+      "a1": "Orders 25,000–50,000 TL (2–4 weeks), stock+FBA/FBM 50,000–95,000 TL, ERP 95,000–180,000 TL. Discovery is free.",
+      "q2": "Is this the Trendyol or Hepsiburada page?",
+      "a2": "No. Trendyol is a <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">separate URL</a>. Hepsiburada is a <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">separate URL</a>. A third channel is added to the same stock spine.",
+      "q3": "FBA, FBM, Amazon.com.tr?",
+      "a3": "Amazon.com.tr Seller Central + SP-API. FBA is Amazon’s warehouse, FBM is your shipping, Easy Ship is Amazon labels. We do not sell seller accounts.",
+      "q4": "Shopify, iyzico and shipping?",
+      "a4": "iyzico/PayTR and Shopify on your own site is <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">e-commerce</a>. Amazon payments stay on Amazon; FBM shipping is Yurtiçi/Aras/MNG API."
+    },
+    "cta": {
+      "btn": "Free discovery call",
+      "title": "Let’s talk Amazon flow",
+      "desc": "Free discovery — orders, stock, FBA, ERP. <a href=\"tel:+905465496806\" style=\"color:#ff9900\">+90 546 549 6806</a>",
+      "btn2": "Get a free quote"
+    },
+    "footer": "© 2026 Ozturksoft — Amazon integration",
+    "related": {
+      "ty": "Trendyol",
+      "hb": "Hepsiburada",
+      "shop": "E-commerce",
+      "mikro": "Mikro",
+      "ef": "E-invoice"
+    },
+    "meta": {
+      "title": "Amazon Integration | SP-API Orders & Stock | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Order pull",
+      "s2l": "Stock + FBA/FBM",
       "s3l": "Stock delivery"
     }
   },
