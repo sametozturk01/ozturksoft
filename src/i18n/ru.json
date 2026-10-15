@@ -416,9 +416,11 @@
       "btn2": "Узнать о нас"
     },
     "erpNote": {
-      "title": "Интеграция ERP (Logo, Netsis, SAP)",
+      "title": "Интеграция ERP (Logo, Netsis, Mikro)",
       "desc": "Мы не делаем внедрение SAP и ABAP-консалтинг. Разрабатываем кастомное ПО, чатботы и автоматизацию с интеграцией в существующие Logo, Netsis, Mikro и SAP через API/RFC.",
-      "link": "Руководство по интеграции ERP →"
+      "link": "Руководство по интеграции ERP →",
+      "linkLogo": "Смета Logo / Netsis →",
+      "linkMikro": "Интеграция Mikro →"
     }
   },
   "contactPage": {
@@ -509,7 +511,10 @@
         "mobile": "Мобильное приложение (Flutter)",
         "web": "Сайт / E-commerce",
         "seo": "SEO и GEO оптимизация",
-        "other": "Другое"
+        "other": "Другое",
+        "marketplace": "Интеграция Trendyol / Hepsiburada",
+        "crm": "Заказать CRM",
+        "mikro": "Интеграция Logo / Mikro"
       },
       "budgetOpts": {
         "b1": "₺50 000 – ₺100 000",
@@ -600,7 +605,11 @@
       "customSoftware": "Индивидуальный софт",
       "automation": "Автоматизация процессов",
       "qa": "QA-тестирование",
-      "privacy": "Конфиденциальность и cookie"
+      "privacy": "Конфиденциальность и cookie",
+      "hepsiburada": "Hepsiburada",
+      "crm": "CRM-система",
+      "seo": "SEO Анкара",
+      "mikro": "Интеграция Mikro"
     }
   },
   "aiFirmPage": {
@@ -1816,7 +1825,8 @@
       "custom": "Индивидуальный софт",
       "guide": "Гид по стоимости",
       "ty": "Интеграция Trendyol",
-      "ef": "E-factura"
+      "ef": "E-factura",
+      "hb": "Hepsiburada"
     }
   },
   "faturaOkumaPage": {
@@ -2329,8 +2339,8 @@
       "a1": "Заказы 25 000–50 000 TL (2–4 недели), склад+доставка 50 000–95 000 TL, ERP 95 000–180 000 TL. Знакомство бесплатно.",
       "q2": "Это интернет-магазин?",
       "a2": "Нет. Свой магазин <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">заказать интернет-магазин</a>. Эта страница — API Trendyol/маркетплейса.",
-      "q3": "Можно Hepsiburada?",
-      "a3": "Да. Второй маркетплейс пишется на тот же позвоночник склада. Цена по числу каналов на знакомстве.",
+      "q3": "Можно добавить Hepsiburada?",
+      "a3": "Да. Второй маркетплейс на том же складе. Отдельная страница: <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#f27a1a\">интеграция Hepsiburada</a>.",
       "q4": "Заказы падают в Logo?",
       "a4": "Да. Проводка <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">Logo / Netsis</a> и опционально <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">e-factura</a> в том же проекте."
     },
@@ -2345,7 +2355,8 @@
       "shop": "Заказать интернет-магазин",
       "ef": "E-factura",
       "logo": "Logo Netsis",
-      "wa": "WhatsApp-чатбот"
+      "wa": "WhatsApp-чатбот",
+      "hb": "Hepsiburada"
     },
     "meta": {
       "title": "Интеграция Trendyol | Заказы и склад | Ozturksoft"
@@ -2538,5 +2549,301 @@
     "changesT": "14. Обновления",
     "changesD": "Новые инструменты или закон — страница обновляется.",
     "disclaimer": "Корпоративное уведомление, не замена юристу. Проекты клиентов — в договоре."
+  },
+  "hepsiburadaPage": {
+    "hero": {
+      "badge": "Заказы · Склад · Доставка · N11 · ikas · +90 546 549 6806",
+      "title": "Интеграция Hepsiburada",
+      "desc": "Интеграция Hepsiburada: заказы не копируют из панели. Склад, доставка и возвраты через API. Trendyol отдельно — <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">интеграция Trendyol</a>. Чанкая, письменная смета, бесплатный созвон."
+    },
+    "pricing": {
+      "title": "Цена интеграции Hepsiburada (2026)",
+      "intro": "Цена зависит от объёма, доставки и ERP. Диапазоны рынка Анкары 2026; созвон бесплатный, смета письменная.",
+      "row1": "Выгрузка заказов",
+      "row2": "Склад + доставка",
+      "row3": "Маркетплейс + ERP",
+      "t1": "2–4 недели",
+      "t2": "4–8 недель",
+      "t3": "8–14 недель",
+      "linkTy": "Интеграция Trendyol",
+      "linkLogo": "Logo Netsis",
+      "linkMikro": "Mikro"
+    },
+    "cards": {
+      "c1title": "📦 Заказы",
+      "c1desc": "Новые заказы попадают в панель, на принтер или в очередь склада. Копирование из Excel заканчивается.",
+      "c1link": "Записаться на созвон →",
+      "c2title": "📊 Синхрон склада",
+      "c2desc": "Проданный остаток пишется из Logo, Mikro или ikas. Двойные продажи прекращаются. <a href=\"/mikro-entegrasyon\" style=\"color:#ff6000\">Mikro</a> — та же команда.",
+      "c2link": "Подключить Mikro / ERP →",
+      "c3title": "🚚 Доставка и возвраты",
+      "c3desc": "Yurtiçi, Aras, MNG, HepsiJet. Трекинг и возвраты. Э-счёт: <a href=\"/e-fatura-entegrasyonu\" style=\"color:#ff6000\">e-fatura</a>.",
+      "c3link": "Подключить э-счёт →",
+      "c4title": "🏪 N11, ikas, свой сайт",
+      "c4desc": "N11 вторым каналом. Магазин ikas/Ticimax/Shopify. Свой сайт: <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">заказать интернет-магазин</a>.",
+      "c4link": "Интернет-магазин →"
+    },
+    "who": {
+      "title": "Кто заказывает интеграцию Hepsiburada?",
+      "intro": "«Интеграция Hepsiburada» — заказ API маркетплейса. Не коробка; заказы, склад и ERP пишутся в ваш поток.",
+      "i1": "Заказы копируют из панели HB; остаток уходит в минус ночью.",
+      "i2": "Trendyol уже есть; HB или N11 должны делить склад. Trendyol — <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">отдельный URL</a>.",
+      "i3": "ikas или ваш Woo не должны конфликтовать с маркетплейсом.",
+      "i4": "Счета режутся из Logo/Mikro; iyzico остаётся на вашем сайте — <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">интернет-магазин</a>.",
+      "outro": "Бесплатный созвон: <a href=\"tel:+905465496806\" style=\"color:#ff6000\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Частые вопросы",
+      "q1": "Сколько стоит интеграция Hepsiburada?",
+      "a1": "Заказы 25 000–50 000 TL (2–4 недели), склад+доставка 50 000–95 000 TL, ERP 95 000–180 000 TL. Созвон бесплатный.",
+      "q2": "Это страница Trendyol?",
+      "a2": "Нет. Trendyol — <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">отдельный URL</a>. Второй канал сажается на ту же складскую ось.",
+      "q3": "N11, ikas, Shopify?",
+      "a3": "N11 — маркетплейс; ikas, Ticimax, Shopify — API магазина. Число каналов тарифицируется на созвоне.",
+      "q4": "iyzico и доставка?",
+      "a4": "iyzico/PayTR на вашем сайте — это <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">интернет-магазин</a>. Доставка маркетплейса: API Yurtiçi/Aras/MNG/HepsiJet."
+    },
+    "cta": {
+      "btn": "Бесплатный созвон",
+      "title": "Обсудим поток Hepsiburada",
+      "desc": "Бесплатный созвон — заказы, склад, ERP. <a href=\"tel:+905465496806\" style=\"color:#ff6000\">+90 546 549 6806</a>",
+      "btn2": "Бесплатная смета"
+    },
+    "footer": "© 2026 Ozturksoft — интеграция Hepsiburada",
+    "related": {
+      "ty": "Trendyol",
+      "shop": "Интернет-магазин",
+      "mikro": "Mikro",
+      "ef": "Э-счёт"
+    },
+    "meta": {
+      "title": "Интеграция Hepsiburada | Заказы и склад | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Выгрузка заказов",
+      "s2l": "Склад + доставка",
+      "s3l": "Сдача склада"
+    }
+  },
+  "crmPage": {
+    "hero": {
+      "badge": "Продажи · Контрагенты · WhatsApp · Logo · +90 546 549 6806",
+      "title": "Заказать CRM",
+      "desc": "Заказать CRM: хватит жить в Excel. Воронка, КП и оплаты в одной панели. Лицензии Salesforce не продаём — пишем вашу или подключаем существующий API. Чанкая, бесплатный созвон. Гайд: <a href=\"/blog/crm-erp-entegrasyonu-rehberi-2026\" style=\"color:#3b82f6\">статья CRM/ERP</a>."
+    },
+    "pricing": {
+      "title": "Цена CRM (2026)",
+      "intro": "Цена зависит от пользователей, ERP и WhatsApp. Диапазоны Анкары 2026; созвон бесплатный, смета письменная. Гайд отдельно.",
+      "row1": "Панель продаж для МСБ",
+      "row2": "CRM + WhatsApp",
+      "row3": "CRM + Logo / Mikro",
+      "t1": "8–14 недель",
+      "t2": "10–16 недель",
+      "t3": "3–6 месяцев",
+      "linkCustom": "Заказная разработка",
+      "linkGuide": "Гайд CRM/ERP"
+    },
+    "cards": {
+      "c1title": "👤 Контрагенты и воронка",
+      "c1desc": "Компания, контакт, сделка, КП. Кто звонил, кто закрыл.",
+      "c1link": "Записаться на созвон →",
+      "c2title": "🔗 Проводка ERP",
+      "c2desc": "Заказы и оплаты пишутся в Logo, Netsis или Mikro. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#3b82f6\">Logo</a> · <a href=\"/mikro-entegrasyon\" style=\"color:#3b82f6\">Mikro</a>.",
+      "c2link": "Logo / Netsis →",
+      "c3title": "💬 Продажи WhatsApp",
+      "c3desc": "Чат привязывается к контрагенту. Бот открывает заказы. <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#3b82f6\">WhatsApp-чатбот</a>.",
+      "c3link": "WhatsApp-чатбот →",
+      "c4title": "📦 Не коробка",
+      "c4desc": "Лицензии Paraşüt/Salesforce не продаём. Своя панель, если не подходит; API, если подходит.",
+      "c4link": "Заказная разработка →"
+    },
+    "who": {
+      "title": "Кто заказывает CRM?",
+      "intro": "«CRM Анкара» и «заказать CRM» — один заказ: клиенты в одном месте. Если SaaS хватает — купите; если процесс другой — пишем.",
+      "i1": "Клиенты живут в Excel и WhatsApp. Нужны панель и роли.",
+      "i2": "Контрагенты в Logo; у продаж нет экрана. Проводки должны вернуться в <a href=\"/logo-netsis-entegrasyon\" style=\"color:#3b82f6\">ERP</a>.",
+      "i3": "Paraşüt мало или Salesforce дорого. Не лицензия — ваш поток.",
+      "i4": "Чатбот должен открывать заказы. <a href=\"/ankara-ai-asistan\" style=\"color:#3b82f6\">Ассистент</a> и CRM — та же команда.",
+      "outro": "Бесплатный созвон: <a href=\"tel:+905465496806\" style=\"color:#3b82f6\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Частые вопросы",
+      "q1": "Сколько стоит заказная CRM?",
+      "a1": "МСБ 80 000–180 000 TL, WhatsApp 120 000–220 000 TL, с ERP 150 000–300 000 TL. Созвон бесплатный.",
+      "q2": "Продаёте Salesforce / Paraşüt?",
+      "a2": "Коробочных лицензий нет. Пишем CRM или подключаем API (Salesforce, HubSpot, Paraşüt).",
+      "q3": "Хватит ли гайда ERP?",
+      "a3": "Гайд — информация. Работа начинается здесь; статья — <a href=\"/blog/crm-erp-entegrasyonu-rehberi-2026\" style=\"color:#3b82f6\">гайд CRM/ERP</a>.",
+      "q4": "Mikro подойдёт?",
+      "a4": "Да. <a href=\"/mikro-entegrasyon\" style=\"color:#3b82f6\">Интеграция Mikro</a> — та же команда в Чанкае."
+    },
+    "cta": {
+      "btn": "Бесплатный созвон",
+      "title": "Обсудим панель CRM",
+      "desc": "Бесплатный созвон — продажи, счета, ERP. <a href=\"tel:+905465496806\" style=\"color:#3b82f6\">+90 546 549 6806</a>",
+      "btn2": "Бесплатная смета"
+    },
+    "footer": "© 2026 Ozturksoft — заказать CRM",
+    "related": {
+      "custom": "Заказная разработка",
+      "mikro": "Mikro",
+      "wa": "WhatsApp",
+      "seo": "SEO Анкара"
+    },
+    "meta": {
+      "title": "Заказать CRM | Цена Анкара | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Панель МСБ",
+      "s2l": "CRM + ERP",
+      "s3l": "Сдача панели"
+    }
+  },
+  "seoPage": {
+    "hero": {
+      "badge": "Технический SEO · Локальный · GEO · +90 546 549 6806",
+      "title": "SEO Анкара",
+      "desc": "SEO Анкара: появляться, когда ищут вашу услугу; чтобы ChatGPT и Gemini вас цитировали. Не Google Ads и не соцсети. Сайт — та же команда в Чанкае — <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">веб-дизайн</a>. Бесплатный созвон."
+    },
+    "pricing": {
+      "title": "Цена SEO Анкара (2026)",
+      "intro": "Цена зависит от числа страниц и конкуренции. Диапазоны Анкары 2026; созвон бесплатный, смета письменная. Рекламный бюджет не входит.",
+      "row1": "Технический SEO",
+      "row2": "Локальный SEO Анкара",
+      "row3": "SEO + GEO",
+      "t1": "2–4 недели",
+      "t2": "4–8 недель",
+      "t3": "8–12 недель",
+      "linkWeb": "Веб-дизайн Анкара",
+      "linkGuide": "Гайд SEO"
+    },
+    "cards": {
+      "c1title": "⚙️ Технический SEO",
+      "c1desc": "Скорость, индекс, schema, sitemap, hreflang. Контент не пишем, пока сайт не открывается.",
+      "c1link": "Записаться на созвон →",
+      "c2title": "📍 Локальная Анкара",
+      "c2desc": "Страницы услуга + город, карточка компании. Не реклама. <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">Веб-дизайн</a>.",
+      "c2link": "Веб-дизайн →",
+      "c3title": "🤖 GEO",
+      "c3desc": "llms.txt, блоки цитат, FAQ. Гайд: <a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\" style=\"color:#22c55e\">GEO</a>.",
+      "c3link": "Гайд GEO →",
+      "c4title": "🚫 Без рекламы",
+      "c4desc": "Не продаём Google Ads и соцсети. Органика + ИИ-поиск.",
+      "c4link": "Заказать сайт →"
+    },
+    "who": {
+      "title": "Кто заказывает SEO Анкара?",
+      "intro": "«SEO Анкара» — быть найденным, не покупать рекламу. Без дашборда агентства сайт и поиск остаются у той же софтверной команды.",
+      "i1": "Сайт есть; конкуренты выходят по «веб-дизайн / софт Анкара».",
+      "i2": "Есть блог, нет URL сметы. Нужны страницы с намерением заказать.",
+      "i3": "ChatGPT не называет вас среди компаний Анкары. GEO — та же работа.",
+      "i4": "Нужна команда, которая сдала сайт, не ads-агентство. Сайта ещё нет: <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#22c55e\">заказать сайт</a>.",
+      "outro": "Бесплатный созвон: <a href=\"tel:+905465496806\" style=\"color:#22c55e\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Частые вопросы",
+      "q1": "Сколько стоит SEO Анкара?",
+      "a1": "Технический 25 000–45 000 TL (2–4 недели), локальный 45 000–80 000 TL, SEO+GEO 80 000–140 000 TL. Созвон бесплатный.",
+      "q2": "Google Ads входит?",
+      "a2": "Нет. Ни рекламы, ни соцсетей. Органический Google + ИИ-поиск.",
+      "q3": "Хватит ли гайда?",
+      "a3": "Информация в <a href=\"/blog/seo-nedir-onemi-rehberi-2026\" style=\"color:#22c55e\">гайде SEO</a> и <a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\" style=\"color:#22c55e\">GEO</a>. Работа начинается здесь.",
+      "q4": "Сайта ещё нет?",
+      "a4": "Сначала <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">веб-дизайн</a> или <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#22c55e\">заказать сайт</a>; SEO в ту же смету."
+    },
+    "cta": {
+      "btn": "Бесплатный созвон",
+      "title": "Обсудим поиск в Анкаре",
+      "desc": "Бесплатный созвон — техника, локаль, GEO. <a href=\"tel:+905465496806\" style=\"color:#22c55e\">+90 546 549 6806</a>",
+      "btn2": "Бесплатная смета"
+    },
+    "footer": "© 2026 Ozturksoft — SEO Анкара",
+    "related": {
+      "web": "Веб-дизайн",
+      "crm": "CRM",
+      "geo": "Гайд GEO"
+    },
+    "meta": {
+      "title": "SEO Анкара | Технический SEO и GEO | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Техническая настройка",
+      "s2l": "SEO + GEO",
+      "s3l": "Техническая сдача"
+    }
+  },
+  "mikroPage": {
+    "hero": {
+      "badge": "Mikro Jump · Склад · Контрагенты · Счета · +90 546 549 6806",
+      "title": "Интеграция Mikro",
+      "desc": "Интеграция Mikro: склад, контрагенты и счета должны идти на сайт, маркетплейс или в CRM. Не лицензия дилера — пишем API к вашему Mikro. Logo — <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">отдельный URL</a>. Чанкая, бесплатный созвон."
+    },
+    "pricing": {
+      "title": "Цена интеграции Mikro (2026)",
+      "intro": "Цена зависит от типов документов и направления. Диапазоны Анкары 2026; созвон бесплатный, смета письменная. Лицензии Mikro отдельно.",
+      "row1": "Односторонний API",
+      "row2": "Двусторонний",
+      "row3": "Маркетплейс + Mikro",
+      "t1": "2–4 недели",
+      "t2": "6–10 недель",
+      "t3": "8–14 недель",
+      "linkLogo": "Logo / Netsis",
+      "linkEf": "Э-счёт"
+    },
+    "cards": {
+      "c1title": "📦 Склад",
+      "c1desc": "Проданный остаток падает в Mikro; магазин или маркетплейс пишет обратно.",
+      "c1link": "Hepsiburada →",
+      "c2title": "👤 Контрагенты",
+      "c2desc": "Остатки в CRM или WhatsApp. <a href=\"/crm-yazilim-yaptirmak\" style=\"color:#14b8a6\">Заказать CRM</a>.",
+      "c2link": "Заказать CRM →",
+      "c3title": "🧾 Счета",
+      "c3desc": "Э-счёт с записью Mikro. <a href=\"/e-fatura-entegrasyonu\" style=\"color:#14b8a6\">Э-счёт</a>.",
+      "c3link": "Э-счёт →",
+      "c4title": "⚠️ Не дилер",
+      "c4desc": "Mikro Jump не продаём. Пишем коннектор к вашей установке.",
+      "c4link": "Заказная разработка →"
+    },
+    "who": {
+      "title": "Кто заказывает интеграцию Mikro?",
+      "intro": "Mikro обычен у МСБ. Ищущие Logo идут на соседнюю страницу. Ozturksoft не продаёт коробку ERP; сдаём рабочий API.",
+      "i1": "Склад маркетплейса оторван от Mikro; ночью уходит в минус.",
+      "i2": "Э-счета с портала, проводки руками. Напишите <a href=\"/e-fatura-entegrasyonu\" style=\"color:#14b8a6\">коннектор</a>.",
+      "i3": "Продажам нужна CRM; бухгалтерия остаётся в Mikro.",
+      "i4": "У вас Mikro, не Logo; <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">страница Logo</a> не должна вас пропустить.",
+      "outro": "Бесплатный созвон: <a href=\"tel:+905465496806\" style=\"color:#14b8a6\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Частые вопросы",
+      "q1": "Сколько стоит интеграция Mikro?",
+      "a1": "Односторонний 20 000–45 000 TL (2–4 недели), двусторонний 55 000–130 000 TL, маркетплейс 95 000–180 000 TL.",
+      "q2": "Продаёте лицензии Mikro?",
+      "a2": "Нет. Мы не дилер. Подключаем API к вашему Mikro Jump / Mikro.",
+      "q3": "Это страница Logo?",
+      "a3": "Нет. Logo и Netsis — <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">отдельный URL</a>. Эта страница — Mikro.",
+      "q4": "Paraşüt?",
+      "a4": "Paraşüt — коробка учёта; не продаём. Своя панель или API — это <a href=\"/crm-yazilim-yaptirmak\" style=\"color:#14b8a6\">CRM</a>."
+    },
+    "cta": {
+      "btn": "Бесплатный созвон",
+      "title": "Обсудим связь Mikro",
+      "desc": "Бесплатный созвон — склад, счета, накладные. <a href=\"tel:+905465496806\" style=\"color:#14b8a6\">+90 546 549 6806</a>",
+      "btn2": "Бесплатная смета"
+    },
+    "footer": "© 2026 Ozturksoft — интеграция Mikro",
+    "related": {
+      "logo": "Logo Netsis",
+      "crm": "CRM",
+      "hb": "Hepsiburada",
+      "ef": "Э-счёт"
+    },
+    "meta": {
+      "title": "Интеграция Mikro | API и цена | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Односторонний API",
+      "s2l": "Двусторонний",
+      "s3l": "Сдача одностороннего"
+    }
   }
 }

@@ -416,9 +416,11 @@
       "btn2": "Nous connaître"
     },
     "erpNote": {
-      "title": "Intégration ERP (Logo, Netsis, SAP)",
+      "title": "Intégration ERP (Logo, Netsis, Mikro)",
       "desc": "Pas d'implémentation SAP ni de conseil ABAP. Nous développons logiciel sur mesure, chatbots et automatisation intégrés à vos systèmes Logo, Netsis, Mikro et SAP via API/RFC.",
-      "link": "Guide d'intégration ERP →"
+      "link": "Guide d'intégration ERP →",
+      "linkLogo": "Devis Logo / Netsis →",
+      "linkMikro": "Intégration Mikro →"
     }
   },
   "contactPage": {
@@ -509,7 +511,10 @@
         "mobile": "Application mobile (Flutter)",
         "web": "Site web / E-commerce",
         "seo": "Optimisation SEO & GEO",
-        "other": "Autre"
+        "other": "Autre",
+        "marketplace": "Intégration Trendyol / Hepsiburada",
+        "crm": "Faire développer un CRM",
+        "mikro": "Intégration Logo / Mikro"
       },
       "budgetOpts": {
         "b1": "₺50 000 – ₺100 000",
@@ -600,7 +605,11 @@
       "customSoftware": "Logiciel sur mesure",
       "automation": "Automatisation des processus",
       "qa": "Tests QA",
-      "privacy": "Confidentialité & cookies"
+      "privacy": "Confidentialité & cookies",
+      "hepsiburada": "Hepsiburada",
+      "crm": "Logiciel CRM",
+      "seo": "SEO Ankara",
+      "mikro": "Intégration Mikro"
     }
   },
   "aiFirmPage": {
@@ -1816,7 +1825,8 @@
       "custom": "Logiciel sur mesure",
       "guide": "Guide des coûts",
       "ty": "Intégration Trendyol",
-      "ef": "E-facture"
+      "ef": "E-facture",
+      "hb": "Hepsiburada"
     }
   },
   "faturaOkumaPage": {
@@ -2329,8 +2339,8 @@
       "a1": "Commandes 25 000–50 000 TL (2–4 semaines), stock+livraison 50 000–95 000 TL, ERP 95 000–180 000 TL. Découverte gratuite.",
       "q2": "C’est un site e-commerce ?",
       "a2": "Non. Votre boutique : <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">faire créer un site e-commerce</a>. Cette page est l’API Trendyol/marketplace.",
-      "q3": "Hepsiburada aussi ?",
-      "a3": "Oui. Un second marketplace s’écrit sur la même colonne de stock. Le prix suit le nombre de canaux en découverte.",
+      "q3": "Hepsiburada peut-il s’ajouter ?",
+      "a3": "Oui. Un second marketplace s’écrit sur la même colonne de stock. Page dédiée : <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#f27a1a\">intégration Hepsiburada</a>.",
       "q4": "Les commandes tombent dans Logo ?",
       "a4": "Oui. Voucher <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">Logo / Netsis</a> et <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">e-facture</a> optionnelle dans le même projet."
     },
@@ -2345,7 +2355,8 @@
       "shop": "Faire créer un e-commerce",
       "ef": "E-facture",
       "logo": "Logo Netsis",
-      "wa": "Chatbot WhatsApp"
+      "wa": "Chatbot WhatsApp",
+      "hb": "Hepsiburada"
     },
     "meta": {
       "title": "Intégration Trendyol | Commandes & stock | Ozturksoft"
@@ -2538,5 +2549,301 @@
     "changesT": "14. Mises à jour",
     "changesD": "Nouveaux outils ou changement légal : cette page est actualisée.",
     "disclaimer": "Notice institutionnelle, pas un avis d’avocat. Projets clients : contrat."
+  },
+  "hepsiburadaPage": {
+    "hero": {
+      "badge": "Commandes · Stock · Livraison · N11 · ikas · +90 546 549 6806",
+      "title": "Intégration Hepsiburada",
+      "desc": "Intégration Hepsiburada : ne plus copier les commandes depuis le panel. Stock, livraison et retours via API. Trendyol est séparé — <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">intégration Trendyol</a>. Çankaya, devis écrit, découverte gratuite."
+    },
+    "pricing": {
+      "title": "Prix intégration Hepsiburada (2026)",
+      "intro": "Le prix suit le volume, la livraison et l’ERP. Tranches marché Ankara 2026 ; découverte gratuite, devis écrit.",
+      "row1": "Collecte des commandes",
+      "row2": "Stock + livraison",
+      "row3": "Marketplace + ERP",
+      "t1": "2–4 semaines",
+      "t2": "4–8 semaines",
+      "t3": "8–14 semaines",
+      "linkTy": "Intégration Trendyol",
+      "linkLogo": "Logo Netsis",
+      "linkMikro": "Mikro"
+    },
+    "cards": {
+      "c1title": "📦 Commandes",
+      "c1desc": "Les nouvelles commandes arrivent au panel, à l’imprimante ou à la file d’entrepôt. Le copier-coller Excel s’arrête.",
+      "c1link": "Réserver une découverte →",
+      "c2title": "📊 Sync stock",
+      "c2desc": "Le stock vendu s’écrit depuis Logo, Mikro ou ikas. La double vente s’arrête. <a href=\"/mikro-entegrasyon\" style=\"color:#ff6000\">Mikro</a> est la même équipe.",
+      "c2link": "Relier Mikro / ERP →",
+      "c3title": "🚚 Livraison et retours",
+      "c3desc": "Yurtiçi, Aras, MNG, HepsiJet. Suivi et retours. E-facture : <a href=\"/e-fatura-entegrasyonu\" style=\"color:#ff6000\">e-fatura</a>.",
+      "c3link": "Relier e-facture →",
+      "c4title": "🏪 N11, ikas, site propre",
+      "c4desc": "N11 en second canal. Boutique ikas/Ticimax/Shopify. Site propre : <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">faire un e-commerce</a>.",
+      "c4link": "Site e-commerce →"
+    },
+    "who": {
+      "title": "Qui commande une intégration Hepsiburada ?",
+      "intro": "« Intégration Hepsiburada » est une commande d’API marketplace. Pas de pack boîte ; commandes, stock et ERP s’écrivent dans votre flux.",
+      "i1": "Les commandes se copient depuis le panel HB ; le stock passe négatif la nuit.",
+      "i2": "Trendyol est déjà là ; HB ou N11 doivent partager le stock. Trendyol est une <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">URL séparée</a>.",
+      "i3": "ikas ou votre boutique Woo ne doivent pas entrer en conflit avec le marketplace.",
+      "i4": "Les factures doivent sortir de Logo/Mikro ; iyzico reste sur votre site — <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">e-commerce</a>.",
+      "outro": "Découverte gratuite : <a href=\"tel:+905465496806\" style=\"color:#ff6000\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "Combien coûte l’intégration Hepsiburada ?",
+      "a1": "Commandes 25 000–50 000 TL (2–4 semaines), stock+livraison 50 000–95 000 TL, ERP 95 000–180 000 TL. Découverte gratuite.",
+      "q2": "Est-ce la page Trendyol ?",
+      "a2": "Non. Trendyol est une <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">URL séparée</a>. Un second canal s’ajoute à la même colonne de stock.",
+      "q3": "N11, ikas, Shopify ?",
+      "a3": "N11 est un marketplace ; ikas, Ticimax, Shopify sont des API boutique. Le nombre de canaux se tarife en découverte.",
+      "q4": "iyzico et livraison ?",
+      "a4": "iyzico/PayTR sur votre site est de l’<a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">e-commerce</a>. Livraison marketplace : API Yurtiçi/Aras/MNG/HepsiJet."
+    },
+    "cta": {
+      "btn": "Appel découverte gratuit",
+      "title": "Parlons du flux Hepsiburada",
+      "desc": "Découverte gratuite — commandes, stock, ERP. <a href=\"tel:+905465496806\" style=\"color:#ff6000\">+90 546 549 6806</a>",
+      "btn2": "Devis gratuit"
+    },
+    "footer": "© 2026 Ozturksoft — Intégration Hepsiburada",
+    "related": {
+      "ty": "Trendyol",
+      "shop": "E-commerce",
+      "mikro": "Mikro",
+      "ef": "E-facture"
+    },
+    "meta": {
+      "title": "Intégration Hepsiburada | Commandes & stock | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Collecte des commandes",
+      "s2l": "Stock + livraison",
+      "s3l": "Livraison stock"
+    }
+  },
+  "crmPage": {
+    "hero": {
+      "badge": "Ventes · Comptes · WhatsApp · Logo · +90 546 549 6806",
+      "title": "Faire développer un CRM",
+      "desc": "Faire développer un CRM : fini Excel. Pipeline, devis et encaissements dans un panel. Pas de licences Salesforce — nous écrivons le vôtre ou relions une API existante. Çankaya, découverte gratuite. Guide : <a href=\"/blog/crm-erp-entegrasyonu-rehberi-2026\" style=\"color:#3b82f6\">article CRM/ERP</a>."
+    },
+    "pricing": {
+      "title": "Prix logiciel CRM (2026)",
+      "intro": "Le prix suit les utilisateurs, l’ERP et WhatsApp. Tranches Ankara 2026 ; découverte gratuite, devis écrit. Le guide reste à part.",
+      "row1": "Panel ventes PME",
+      "row2": "CRM + WhatsApp",
+      "row3": "CRM + Logo / Mikro",
+      "t1": "8–14 semaines",
+      "t2": "10–16 semaines",
+      "t3": "3–6 mois",
+      "linkCustom": "Logiciel sur mesure",
+      "linkGuide": "Guide CRM/ERP"
+    },
+    "cards": {
+      "c1title": "👤 Comptes et pipeline",
+      "c1desc": "Société, personne, opportunité, devis. Qui a appelé, qui a clos.",
+      "c1link": "Réserver une découverte →",
+      "c2title": "🔗 Pièce ERP",
+      "c2desc": "Commandes et encaissements s’écrivent dans Logo, Netsis ou Mikro. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#3b82f6\">Logo</a> · <a href=\"/mikro-entegrasyon\" style=\"color:#3b82f6\">Mikro</a>.",
+      "c2link": "Logo / Netsis →",
+      "c3title": "💬 Ventes WhatsApp",
+      "c3desc": "Le chat se lie au compte. Le bot ouvre les commandes. <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#3b82f6\">Chatbot WhatsApp</a>.",
+      "c3link": "Chatbot WhatsApp →",
+      "c4title": "📦 Pas un produit boîte",
+      "c4desc": "Pas de licences Paraşüt/Salesforce. Panel sur mesure s’il ne convient pas ; API s’il convient.",
+      "c4link": "Logiciel sur mesure →"
+    },
+    "who": {
+      "title": "Qui commande un CRM ?",
+      "intro": "« CRM Ankara » et « faire un CRM » sont la même commande : les clients au même endroit. Si un SaaS suffit, achetez-le ; si votre process diffère, nous l’écrivons.",
+      "i1": "Les clients vivent dans Excel et WhatsApp. Vous voulez un panel et des rôles.",
+      "i2": "Les comptes sont dans Logo ; les ventes n’ont pas d’écran. Les pièces doivent revenir dans l’<a href=\"/logo-netsis-entegrasyon\" style=\"color:#3b82f6\">ERP</a>.",
+      "i3": "Paraşüt ne suffit pas ou Salesforce est cher. Pas une licence — votre flux.",
+      "i4": "Le chatbot doit ouvrir les commandes. <a href=\"/ankara-ai-asistan\" style=\"color:#3b82f6\">Assistant</a> et CRM sont la même équipe.",
+      "outro": "Découverte gratuite : <a href=\"tel:+905465496806\" style=\"color:#3b82f6\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "Combien coûte un CRM sur mesure ?",
+      "a1": "PME 80 000–180 000 TL, WhatsApp 120 000–220 000 TL, avec ERP 150 000–300 000 TL. Découverte gratuite.",
+      "q2": "Vendez-vous Salesforce / Paraşüt ?",
+      "a2": "Pas de licences boîte. Nous écrivons un CRM ou relions une API existante (Salesforce, HubSpot, Paraşüt).",
+      "q3": "Le guide ERP suffit-il ?",
+      "a3": "Le guide informe. Le travail commence ici ; l’article est le <a href=\"/blog/crm-erp-entegrasyonu-rehberi-2026\" style=\"color:#3b82f6\">guide CRM/ERP</a>.",
+      "q4": "Mikro fonctionne-t-il ?",
+      "a4": "Oui. L’<a href=\"/mikro-entegrasyon\" style=\"color:#3b82f6\">intégration Mikro</a> est la même équipe Çankaya."
+    },
+    "cta": {
+      "btn": "Appel découverte gratuit",
+      "title": "Parlons du panel CRM",
+      "desc": "Découverte gratuite — ventes, comptes, ERP. <a href=\"tel:+905465496806\" style=\"color:#3b82f6\">+90 546 549 6806</a>",
+      "btn2": "Devis gratuit"
+    },
+    "footer": "© 2026 Ozturksoft — Faire développer un CRM",
+    "related": {
+      "custom": "Logiciel sur mesure",
+      "mikro": "Mikro",
+      "wa": "WhatsApp",
+      "seo": "SEO Ankara"
+    },
+    "meta": {
+      "title": "Faire développer un CRM | Prix Ankara | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Panel PME",
+      "s2l": "CRM + ERP",
+      "s3l": "Livraison panel"
+    }
+  },
+  "seoPage": {
+    "hero": {
+      "badge": "SEO technique · Local · GEO · +90 546 549 6806",
+      "title": "SEO Ankara",
+      "desc": "SEO Ankara : apparaître quand on cherche votre service ; que ChatGPT et Gemini vous citent. Pas Google Ads ni gestion des réseaux. Le site est la même équipe Çankaya — <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">web design</a>. Découverte gratuite."
+    },
+    "pricing": {
+      "title": "Prix SEO Ankara (2026)",
+      "intro": "Le prix suit le nombre de pages et la concurrence. Tranches Ankara 2026 ; découverte gratuite, devis écrit. Budget pub non inclus.",
+      "row1": "SEO technique",
+      "row2": "SEO local Ankara",
+      "row3": "SEO + GEO",
+      "t1": "2–4 semaines",
+      "t2": "4–8 semaines",
+      "t3": "8–12 semaines",
+      "linkWeb": "Web design Ankara",
+      "linkGuide": "Guide SEO"
+    },
+    "cards": {
+      "c1title": "⚙️ SEO technique",
+      "c1desc": "Vitesse, index, schema, sitemap, hreflang. Pas de contenu tant que le site n’ouvre pas.",
+      "c1link": "Réserver une découverte →",
+      "c2title": "📍 Local Ankara",
+      "c2desc": "Pages service + ville, fiche établissement. Pas de pubs. <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">Web design</a>.",
+      "c2link": "Web design →",
+      "c3title": "🤖 GEO",
+      "c3desc": "llms.txt, blocs de citation, FAQ. Guide : <a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\" style=\"color:#22c55e\">GEO</a>.",
+      "c3link": "Guide GEO →",
+      "c4title": "🚫 Pas de pubs",
+      "c4desc": "Pas de Google Ads ni de social. Recherche organique + IA.",
+      "c4link": "Faire un site →"
+    },
+    "who": {
+      "title": "Qui commande le SEO Ankara ?",
+      "intro": "« SEO Ankara » c’est être trouvé, pas acheter de la pub. Sans tableau d’agence, site et recherche restent dans la même équipe logicielle.",
+      "i1": "Vous avez un site ; les rivaux sortent sur « web design / logiciel Ankara ».",
+      "i2": "Vous avez un blog, pas d’URL devis. Les pages d’intention d’achat doivent être écrites.",
+      "i3": "ChatGPT ne vous nomme pas pour les sociétés d’Ankara. Le GEO est le même travail.",
+      "i4": "Vous voulez l’équipe qui a livré le site, pas une agence ads. Pas encore de site : <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#22c55e\">faire un site</a>.",
+      "outro": "Découverte gratuite : <a href=\"tel:+905465496806\" style=\"color:#22c55e\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "Combien coûte le SEO Ankara ?",
+      "a1": "Technique 25 000–45 000 TL (2–4 semaines), local 45 000–80 000 TL, SEO+GEO 80 000–140 000 TL. Découverte gratuite.",
+      "q2": "Google Ads est-il inclus ?",
+      "a2": "Non. Pas de pubs ni de social. Google organique + recherche IA.",
+      "q3": "Le guide suffit-il ?",
+      "a3": "L’info est dans le <a href=\"/blog/seo-nedir-onemi-rehberi-2026\" style=\"color:#22c55e\">guide SEO</a> et le <a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\" style=\"color:#22c55e\">GEO</a>. Le travail commence ici.",
+      "q4": "Pas encore de site ?",
+      "a4": "D’abord <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">web design</a> ou <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#22c55e\">faire un site</a> ; le SEO rejoint le même devis."
+    },
+    "cta": {
+      "btn": "Appel découverte gratuit",
+      "title": "Parlons de la recherche Ankara",
+      "desc": "Découverte gratuite — technique, local, GEO. <a href=\"tel:+905465496806\" style=\"color:#22c55e\">+90 546 549 6806</a>",
+      "btn2": "Devis gratuit"
+    },
+    "footer": "© 2026 Ozturksoft — SEO Ankara",
+    "related": {
+      "web": "Web design",
+      "crm": "CRM",
+      "geo": "Guide GEO"
+    },
+    "meta": {
+      "title": "SEO Ankara | SEO technique & GEO | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Installation technique",
+      "s2l": "SEO + GEO",
+      "s3l": "Livraison technique"
+    }
+  },
+  "mikroPage": {
+    "hero": {
+      "badge": "Mikro Jump · Stock · Comptes · Factures · +90 546 549 6806",
+      "title": "Intégration Mikro",
+      "desc": "Intégration Mikro : stock, comptes et factures doivent aller vers le web, le marketplace ou le CRM. Pas de licence revendeur — nous écrivons l’API contre votre Mikro. Logo est une <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">URL séparée</a>. Çankaya, découverte gratuite."
+    },
+    "pricing": {
+      "title": "Prix intégration Mikro (2026)",
+      "intro": "Le prix suit les types de documents et le sens. Tranches Ankara 2026 ; découverte gratuite, devis écrit. Licences Mikro en plus.",
+      "row1": "API à sens unique",
+      "row2": "Bidirectionnel",
+      "row3": "Marketplace + Mikro",
+      "t1": "2–4 semaines",
+      "t2": "6–10 semaines",
+      "t3": "8–14 semaines",
+      "linkLogo": "Logo / Netsis",
+      "linkEf": "E-facture"
+    },
+    "cards": {
+      "c1title": "📦 Stock",
+      "c1desc": "Le stock vendu descend dans Mikro ; boutique ou marketplace réécrit.",
+      "c1link": "Hepsiburada →",
+      "c2title": "👤 Comptes",
+      "c2desc": "Soldes vers CRM ou WhatsApp. <a href=\"/crm-yazilim-yaptirmak\" style=\"color:#14b8a6\">Faire un CRM</a>.",
+      "c2link": "Faire un CRM →",
+      "c3title": "🧾 Factures",
+      "c3desc": "E-facture avec l’enregistrement Mikro. <a href=\"/e-fatura-entegrasyonu\" style=\"color:#14b8a6\">E-facture</a>.",
+      "c3link": "E-facture →",
+      "c4title": "⚠️ Pas revendeur",
+      "c4desc": "Nous ne vendons pas Mikro Jump. Nous écrivons un connecteur vers votre installation.",
+      "c4link": "Logiciel sur mesure →"
+    },
+    "who": {
+      "title": "Qui commande une intégration Mikro ?",
+      "intro": "Mikro est courant chez les PME. Les chercheurs Logo vont à la page sœur. Ozturksoft ne vend pas d’ERP boîte ; nous livrons une API qui tourne.",
+      "i1": "Le stock marketplace est détaché de Mikro ; il passe négatif la nuit.",
+      "i2": "E-factures depuis le portail, pièces à la main. Écrire un <a href=\"/e-fatura-entegrasyonu\" style=\"color:#14b8a6\">connecteur</a>.",
+      "i3": "Les ventes veulent un CRM ; la compta reste dans Mikro.",
+      "i4": "Vous utilisez Mikro, pas Logo ; la <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">page Logo</a> ne doit pas vous rater.",
+      "outro": "Découverte gratuite : <a href=\"tel:+905465496806\" style=\"color:#14b8a6\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "Combien coûte l’intégration Mikro ?",
+      "a1": "Sens unique 20 000–45 000 TL (2–4 semaines), bidirectionnel 55 000–130 000 TL, marketplace 95 000–180 000 TL.",
+      "q2": "Vendez-vous des licences Mikro ?",
+      "a2": "Non. Nous ne sommes pas revendeur. Nous relions l’API à votre Mikro Jump / Mikro.",
+      "q3": "Est-ce la page Logo ?",
+      "a3": "Non. Logo et Netsis sont une <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">URL séparée</a>. Cette page est Mikro.",
+      "q4": "Paraşüt ?",
+      "a4": "Paraşüt est de la compta boîte ; nous ne la vendons pas. Un panel ou une API sur mesure est du <a href=\"/crm-yazilim-yaptirmak\" style=\"color:#14b8a6\">CRM</a>."
+    },
+    "cta": {
+      "btn": "Appel découverte gratuit",
+      "title": "Parlons de Mikro",
+      "desc": "Découverte gratuite — stock, comptes, factures. <a href=\"tel:+905465496806\" style=\"color:#14b8a6\">+90 546 549 6806</a>",
+      "btn2": "Devis gratuit"
+    },
+    "footer": "© 2026 Ozturksoft — Intégration Mikro",
+    "related": {
+      "logo": "Logo Netsis",
+      "crm": "CRM",
+      "hb": "Hepsiburada",
+      "ef": "E-facture"
+    },
+    "meta": {
+      "title": "Intégration Mikro | API & prix | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "API à sens unique",
+      "s2l": "Bidirectionnel",
+      "s3l": "Livraison sens unique"
+    }
   }
 }

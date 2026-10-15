@@ -274,6 +274,61 @@
       "permanent": true
     },
     {
+      "source": "/hepsiburada",
+      "destination": "/hepsiburada-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/hepsiburada-entegrasyon",
+      "destination": "/hepsiburada-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/n11-entegrasyonu",
+      "destination": "/hepsiburada-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/n11",
+      "destination": "/hepsiburada-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/ikas-entegrasyonu",
+      "destination": "/hepsiburada-entegrasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/crm-yazilim",
+      "destination": "/crm-yazilim-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/ankara-crm",
+      "destination": "/crm-yazilim-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/seo",
+      "destination": "/ankara-seo",
+      "permanent": true
+    },
+    {
+      "source": "/ankara-seo-ajansi",
+      "destination": "/ankara-seo",
+      "permanent": true
+    },
+    {
+      "source": "/mikro-entegrasyonu",
+      "destination": "/mikro-entegrasyon",
+      "permanent": true
+    },
+    {
+      "source": "/mikro-yazilim-entegrasyon",
+      "destination": "/mikro-entegrasyon",
+      "permanent": true
+    },
+    {
       "source": "/ai-danismanlik",
       "destination": "/yapay-zeka-danismanligi",
       "permanent": true

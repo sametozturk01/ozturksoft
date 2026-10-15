@@ -416,9 +416,11 @@
       "btn2": "تعرّف علينا"
     },
     "erpNote": {
-      "title": "تكامل ERP (Logo، Netsis، SAP)",
+      "title": "تكامل ERP (Logo، Netsis، Mikro)",
       "desc": "لا نقدم تنفيذ SAP أو استشارات ABAP. نطور برمجيات مخصصة وروبوتات وأتمتة متصلة بأنظمة Logo وNetsis وMikro وSAP الحالية عبر API/RFC.",
-      "link": "دليل تكامل ERP →"
+      "link": "دليل تكامل ERP →",
+      "linkLogo": "عرض Logo / Netsis →",
+      "linkMikro": "تكامل Mikro →"
     }
   },
   "contactPage": {
@@ -509,7 +511,10 @@
         "mobile": "تطبيق جوال (Flutter)",
         "web": "موقع ويب / تجارة إلكترونية",
         "seo": "تحسين SEO و GEO",
-        "other": "أخرى"
+        "other": "أخرى",
+        "marketplace": "تكامل ترينديول / Hepsiburada",
+        "crm": "تطوير برمجيات CRM",
+        "mikro": "تكامل Logo / Mikro"
       },
       "budgetOpts": {
         "b1": "₺50,000 – ₺100,000",
@@ -600,7 +605,11 @@
       "customSoftware": "برمجيات خاصة",
       "automation": "أتمتة العمليات",
       "qa": "اختبار الجودة",
-      "privacy": "الخصوصية وملفات الارتباط"
+      "privacy": "الخصوصية وملفات الارتباط",
+      "hepsiburada": "Hepsiburada",
+      "crm": "برمجيات CRM",
+      "seo": "SEO أنقرة",
+      "mikro": "ربط Mikro"
     }
   },
   "aiFirmPage": {
@@ -1816,7 +1825,8 @@
       "custom": "برمجيات خاصة",
       "guide": "دليل التكلفة",
       "ty": "تكامل ترينديول",
-      "ef": "الفاتورة الإلكترونية"
+      "ef": "الفاتورة الإلكترونية",
+      "hb": "Hepsiburada"
     }
   },
   "faturaOkumaPage": {
@@ -2330,7 +2340,7 @@
       "q2": "هل هذا موقع تجارة؟",
       "a2": "لا. متجركم <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">طلب موقع تجارة إلكترونية</a>. هذه الصفحة واجهة ترينديول/السوق.",
       "q3": "هل يُضاف Hepsiburada؟",
-      "a3": "نعم. سوق ثانٍ على نفس عمود المخزون. السعر حسب عدد القنوات في الاكتشاف.",
+      "a3": "نعم. قناة ثانية على نفس المخزون. صفحة مستقلة: <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#f27a1a\">تكامل Hepsiburada</a>.",
       "q4": "هل يسقط الطلب في Logo؟",
       "a4": "نعم. قيد <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">Logo / Netsis</a> و<a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">فاتورة إلكترونية</a> اختيارية في نفس المشروع."
     },
@@ -2345,7 +2355,8 @@
       "shop": "طلب تجارة إلكترونية",
       "ef": "فاتورة إلكترونية",
       "logo": "Logo Netsis",
-      "wa": "شات بوت واتساب"
+      "wa": "شات بوت واتساب",
+      "hb": "Hepsiburada"
     },
     "meta": {
       "title": "تكامل ترينديول | طلب ومخزون | Ozturksoft"
@@ -2538,5 +2549,301 @@
     "changesT": "14. التحديث",
     "changesD": "عند أداة قياس أو قناة أو تغيير قانوني تُحدَّث هذه الصفحة.",
     "disclaimer": "إشعار مؤسسي وفق القانون الساري، وليس بديلاً عن محامٍ. مشاريع العملاء تُنظَّم بالعقد."
+  },
+  "hepsiburadaPage": {
+    "hero": {
+      "badge": "طلبات · مخزون · شحن · N11 · ikas · +90 546 549 6806",
+      "title": "تكامل Hepsiburada",
+      "desc": "تكامل Hepsiburada: لا تُنسخ الطلبات من اللوحة. المخزون والشحن والمرتجعات عبر API. ترينديول منفصل — <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">تكامل ترينديول</a>. تشانكايا، عرض مكتوب، استكشاف مجاني."
+    },
+    "pricing": {
+      "title": "سعر تكامل Hepsiburada (2026)",
+      "intro": "السعر يتبع حجم الطلبات والشحن وERP. شرائح سوق أنقرة 2026؛ الاستكشاف مجاني والعرض مكتوب.",
+      "row1": "سحب الطلبات",
+      "row2": "مخزون + شحن",
+      "row3": "سوق + ERP",
+      "t1": "2–4 أسابيع",
+      "t2": "4–8 أسابيع",
+      "t3": "8–14 أسبوعاً",
+      "linkTy": "تكامل ترينديول",
+      "linkLogo": "Logo Netsis",
+      "linkMikro": "Mikro"
+    },
+    "cards": {
+      "c1title": "📦 الطلبات",
+      "c1desc": "الطلبات الجديدة تصل إلى اللوحة أو الطابعة أو طابور المستودع. ينتهي النسخ من Excel.",
+      "c1link": "حجز استكشاف →",
+      "c2title": "📊 مزامنة المخزون",
+      "c2desc": "المخزون المباع يُكتب من Logo أو Mikro أو ikas. يتوقف البيع المزدوج. <a href=\"/mikro-entegrasyon\" style=\"color:#ff6000\">Mikro</a> نفس الفريق.",
+      "c2link": "ربط Mikro / ERP →",
+      "c3title": "🚚 الشحن والمرتجعات",
+      "c3desc": "Yurtiçi وAras وMNG وHepsiJet. تتبع ومرتجعات. الفاتورة الإلكترونية: <a href=\"/e-fatura-entegrasyonu\" style=\"color:#ff6000\">e-fatura</a>.",
+      "c3link": "ربط الفاتورة الإلكترونية →",
+      "c4title": "🏪 N11 وikas وموقعك",
+      "c4desc": "N11 قناة ثانية. متجر ikas/Ticimax/Shopify. موقعك: <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">إنشاء تجارة إلكترونية</a>.",
+      "c4link": "موقع تجارة إلكترونية →"
+    },
+    "who": {
+      "title": "من يطلب تكامل Hepsiburada؟",
+      "intro": "«تكامل Hepsiburada» طلب API للسوق. لا حزمة جاهزة؛ الطلبات والمخزون وERP تُكتب على تدفقكم.",
+      "i1": "الطلبات تُنسخ من لوحة HB؛ المخزون يصبح سالباً ليلاً.",
+      "i2": "ترينديول موجود؛ يجب أن يشارك HB أو N11 المخزون. ترينديول <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">رابط مستقل</a>.",
+      "i3": "ikas أو متجر Woo يجب ألا يتعارضا مع السوق.",
+      "i4": "الفواتير من Logo/Mikro؛ iyzico يبقى على موقعكم — <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">تجارة إلكترونية</a>.",
+      "outro": "استكشاف مجاني: <a href=\"tel:+905465496806\" style=\"color:#ff6000\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "أسئلة شائعة",
+      "q1": "كم يكلف تكامل Hepsiburada؟",
+      "a1": "الطلبات 25.000–50.000 ليرة (2–4 أسابيع)، المخزون والشحن 50.000–95.000، ERP 95.000–180.000. الاستكشاف مجاني.",
+      "q2": "هل هذه صفحة ترينديول؟",
+      "a2": "لا. ترينديول <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">رابط مستقل</a>. تُضاف قناة ثانية على نفس عمود المخزون.",
+      "q3": "N11 وikas وShopify؟",
+      "a3": "N11 سوق؛ ikas وTicimax وShopify واجهات متجر. عدد القنوات يُسعَّر في الاستكشاف.",
+      "q4": "iyzico والشحن؟",
+      "a4": "iyzico/PayTR على موقعكم عمل <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">التجارة الإلكترونية</a>. شحن السوق API لـ Yurtiçi/Aras/MNG/HepsiJet."
+    },
+    "cta": {
+      "btn": "مكالمة استكشاف مجانية",
+      "title": "لنتحدث عن تدفق Hepsiburada",
+      "desc": "استكشاف مجاني — الطلبات والمخزون وERP. <a href=\"tel:+905465496806\" style=\"color:#ff6000\">+90 546 549 6806</a>",
+      "btn2": "عرض سعر مجاني"
+    },
+    "footer": "© 2026 أوزتورك سوفت — تكامل Hepsiburada",
+    "related": {
+      "ty": "ترينديول",
+      "shop": "تجارة إلكترونية",
+      "mikro": "Mikro",
+      "ef": "فاتورة إلكترونية"
+    },
+    "meta": {
+      "title": "تكامل Hepsiburada | الطلبات والمخزون | أوزتورك سوفت"
+    },
+    "stats": {
+      "s1l": "سحب الطلبات",
+      "s2l": "مخزون + شحن",
+      "s3l": "تسليم المخزون"
+    }
+  },
+  "crmPage": {
+    "hero": {
+      "badge": "مبيعات · حسابات · WhatsApp · Logo · +90 546 549 6806",
+      "title": "تطوير برمجيات CRM",
+      "desc": "تطوير CRM: انتهى Excel. خط الأنابيب والعروض والتحصيل في لوحة واحدة. لا نبيع تراخيص Salesforce — نكتب نظامكم أو نربط API قائماً. تشانكايا، استكشاف مجاني. الدليل: <a href=\"/blog/crm-erp-entegrasyonu-rehberi-2026\" style=\"color:#3b82f6\">مقالة CRM/ERP</a>."
+    },
+    "pricing": {
+      "title": "سعر برمجيات CRM (2026)",
+      "intro": "السعر يتبع عدد المستخدمين وERP وWhatsApp. شرائح أنقرة 2026؛ الاستكشاف مجاني والعرض مكتوب. الدليل منفصل.",
+      "row1": "لوحة مبيعات للشركات الصغيرة",
+      "row2": "CRM + WhatsApp",
+      "row3": "CRM + Logo / Mikro",
+      "t1": "8–14 أسبوعاً",
+      "t2": "10–16 أسبوعاً",
+      "t3": "3–6 أشهر",
+      "linkCustom": "برمجيات مخصصة",
+      "linkGuide": "دليل CRM/ERP"
+    },
+    "cards": {
+      "c1title": "👤 الحسابات وخط الأنابيب",
+      "c1desc": "شركة، شخص، فرصة، عرض. من اتصل ومن أغلق الصفقة.",
+      "c1link": "حجز استكشاف →",
+      "c2title": "🔗 قيد ERP",
+      "c2desc": "الطلبات والتحصيل تُكتب إلى Logo أو Netsis أو Mikro. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#3b82f6\">Logo</a> · <a href=\"/mikro-entegrasyon\" style=\"color:#3b82f6\">Mikro</a>.",
+      "c2link": "Logo / Netsis →",
+      "c3title": "💬 مبيعات WhatsApp",
+      "c3desc": "المحادثة ترتبط بالحساب. البوت يفتح الطلبات. <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#3b82f6\">روبوت WhatsApp</a>.",
+      "c3link": "روبوت WhatsApp →",
+      "c4title": "📦 ليست حزمة جاهزة",
+      "c4desc": "لا نبيع تراخيص Paraşüt/Salesforce. لوحة مخصصة إن لم يناسب؛ API إن ناسب.",
+      "c4link": "برمجيات مخصصة →"
+    },
+    "who": {
+      "title": "من يطلب CRM؟",
+      "intro": "«CRM أنقرة» و«تطوير CRM» نفس الطلب: العملاء في مكان واحد. إن كفى SaaS اشتروه؛ إن اختلفت عمليتكم نكتبها.",
+      "i1": "العملاء في Excel وWhatsApp. تريدون لوحة وصلاحيات.",
+      "i2": "الحسابات في Logo؛ للمبيعات لا شاشة. يجب أن تعود القيود إلى <a href=\"/logo-netsis-entegrasyon\" style=\"color:#3b82f6\">ERP</a>.",
+      "i3": "Paraşüt لا يكفي أو Salesforce غالٍ. ليست رخصة — تدفقكم.",
+      "i4": "البوت يفتح الطلبات. <a href=\"/ankara-ai-asistan\" style=\"color:#3b82f6\">المساعد</a> وCRM نفس الفريق.",
+      "outro": "استكشاف مجاني: <a href=\"tel:+905465496806\" style=\"color:#3b82f6\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "أسئلة شائعة",
+      "q1": "كم يكلف CRM مخصص؟",
+      "a1": "الشركات الصغيرة 80.000–180.000 ليرة، WhatsApp 120.000–220.000، مع ERP 150.000–300.000. الاستكشاف مجاني.",
+      "q2": "هل تبيعون Salesforce / Paraşüt؟",
+      "a2": "لا تراخيص جاهزة. نكتب CRM أو نربط API قائماً (Salesforce وHubSpot وParaşüt).",
+      "q3": "هل يكفي دليل ERP؟",
+      "a3": "الدليل معلومة. العمل يبدأ من هنا؛ المقالة <a href=\"/blog/crm-erp-entegrasyonu-rehberi-2026\" style=\"color:#3b82f6\">دليل CRM/ERP</a>.",
+      "q4": "هل يعمل Mikro؟",
+      "a4": "نعم. <a href=\"/mikro-entegrasyon\" style=\"color:#3b82f6\">تكامل Mikro</a> نفس فريق تشانكايا."
+    },
+    "cta": {
+      "btn": "مكالمة استكشاف مجانية",
+      "title": "لنتحدث عن لوحة CRM",
+      "desc": "استكشاف مجاني — المبيعات والحسابات وERP. <a href=\"tel:+905465496806\" style=\"color:#3b82f6\">+90 546 549 6806</a>",
+      "btn2": "عرض سعر مجاني"
+    },
+    "footer": "© 2026 أوزتورك سوفت — تطوير CRM",
+    "related": {
+      "custom": "برمجيات مخصصة",
+      "mikro": "Mikro",
+      "wa": "WhatsApp",
+      "seo": "SEO أنقرة"
+    },
+    "meta": {
+      "title": "تطوير برمجيات CRM | سعر أنقرة | أوزتورك سوفت"
+    },
+    "stats": {
+      "s1l": "لوحة الشركات الصغيرة",
+      "s2l": "CRM + ERP",
+      "s3l": "تسليم اللوحة"
+    }
+  },
+  "seoPage": {
+    "hero": {
+      "badge": "SEO تقني · محلي · GEO · +90 546 549 6806",
+      "title": "SEO أنقرة",
+      "desc": "SEO أنقرة: تظهرون عند البحث عن خدمتكم؛ ويقتبسكم ChatGPT وGemini. ليست إعلانات Google ولا إدارة شبكات. الموقع نفس فريق تشانكايا — <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">تصميم ويب</a>. استكشاف مجاني."
+    },
+    "pricing": {
+      "title": "سعر SEO أنقرة (2026)",
+      "intro": "السعر يتبع عدد الصفحات والمنافسة. شرائح أنقرة 2026؛ الاستكشاف مجاني والعرض مكتوب. ميزانية الإعلانات غير مشمولة.",
+      "row1": "SEO تقني",
+      "row2": "SEO محلي لأنقرة",
+      "row3": "SEO + GEO",
+      "t1": "2–4 أسابيع",
+      "t2": "4–8 أسابيع",
+      "t3": "8–12 أسبوعاً",
+      "linkWeb": "تصميم ويب أنقرة",
+      "linkGuide": "دليل SEO"
+    },
+    "cards": {
+      "c1title": "⚙️ SEO تقني",
+      "c1desc": "السرعة والفهرسة والـ schema وsitemap وhreflang. لا محتوى قبل أن يفتح الموقع.",
+      "c1link": "حجز استكشاف →",
+      "c2title": "📍 أنقرة المحلية",
+      "c2desc": "صفحات خدمة + مدينة، ملف النشاط. ليست إعلانات. <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">تصميم ويب</a>.",
+      "c2link": "تصميم ويب →",
+      "c3title": "🤖 GEO",
+      "c3desc": "llms.txt وكتل اقتباس وأسئلة. الدليل: <a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\" style=\"color:#22c55e\">GEO</a>.",
+      "c3link": "دليل GEO →",
+      "c4title": "🚫 بلا إعلانات",
+      "c4desc": "لا نبيع Google Ads ولا إدارة الشبكات. بحث عضوي + ذكاء اصطناعي.",
+      "c4link": "إنشاء موقع →"
+    },
+    "who": {
+      "title": "من يطلب SEO أنقرة؟",
+      "intro": "«SEO أنقرة» أن تُوجدوا لا أن تشتروا إعلاناً. بلا لوحة وكالة يبقى الموقع والبحث لدى نفس فريق البرمجيات.",
+      "i1": "لديكم موقع؛ يظهر المنافسون عند «تصميم ويب / برمجيات أنقرة».",
+      "i2": "لديكم مدونة بلا رابط عرض. يجب كتابة صفحات نية الشراء.",
+      "i3": "ChatGPT لا يذكركم لشركات أنقرة. GEO نفس العمل.",
+      "i4": "تريدون الفريق الذي سلّم الموقع لا وكالة إعلانات. لا موقع بعد: <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#22c55e\">إنشاء موقع</a>.",
+      "outro": "استكشاف مجاني: <a href=\"tel:+905465496806\" style=\"color:#22c55e\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "أسئلة شائعة",
+      "q1": "كم يكلف SEO أنقرة؟",
+      "a1": "تقني 25.000–45.000 ليرة (2–4 أسابيع)، محلي 45.000–80.000، SEO+GEO 80.000–140.000. الاستكشاف مجاني.",
+      "q2": "هل Google Ads مشمول؟",
+      "a2": "لا. بلا إعلانات وبلا شبكات. بحث Google عضوي + ذكاء اصطناعي.",
+      "q3": "هل يكفي الدليل؟",
+      "a3": "المعلومة في <a href=\"/blog/seo-nedir-onemi-rehberi-2026\" style=\"color:#22c55e\">دليل SEO</a> و<a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\" style=\"color:#22c55e\">GEO</a>. العمل يبدأ من هنا.",
+      "q4": "لا موقع بعد؟",
+      "a4": "أولاً <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">تصميم ويب</a> أو <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#22c55e\">إنشاء موقع</a>؛ يُضاف SEO لنفس العرض."
+    },
+    "cta": {
+      "btn": "مكالمة استكشاف مجانية",
+      "title": "لنتحدث عن بحث أنقرة",
+      "desc": "استكشاف مجاني — تقني ومحلي وGEO. <a href=\"tel:+905465496806\" style=\"color:#22c55e\">+90 546 549 6806</a>",
+      "btn2": "عرض سعر مجاني"
+    },
+    "footer": "© 2026 أوزتورك سوفت — SEO أنقرة",
+    "related": {
+      "web": "تصميم ويب",
+      "crm": "CRM",
+      "geo": "دليل GEO"
+    },
+    "meta": {
+      "title": "SEO أنقرة | تقني وGEO | أوزتورك سوفت"
+    },
+    "stats": {
+      "s1l": "إعداد تقني",
+      "s2l": "SEO + GEO",
+      "s3l": "تسليم تقني"
+    }
+  },
+  "mikroPage": {
+    "hero": {
+      "badge": "Mikro Jump · مخزون · حسابات · فواتير · +90 546 549 6806",
+      "title": "تكامل Mikro",
+      "desc": "تكامل Mikro: المخزون والحسابات والفواتير تتدفق إلى الويب أو السوق أو CRM. لا رخصة موزّع — نكتب API على Mikro لديكم. Logo <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">رابط مستقل</a>. تشانكايا، استكشاف مجاني."
+    },
+    "pricing": {
+      "title": "سعر تكامل Mikro (2026)",
+      "intro": "السعر يتبع أنواع المستندات والاتجاه. شرائح أنقرة 2026؛ الاستكشاف مجاني والعرض مكتوب. تراخيص Mikro منفصلة.",
+      "row1": "API باتجاه واحد",
+      "row2": "ثنائي الاتجاه",
+      "row3": "سوق + Mikro",
+      "t1": "2–4 أسابيع",
+      "t2": "6–10 أسابيع",
+      "t3": "8–14 أسبوعاً",
+      "linkLogo": "Logo / Netsis",
+      "linkEf": "فاتورة إلكترونية"
+    },
+    "cards": {
+      "c1title": "📦 المخزون",
+      "c1desc": "المخزون المباع ينخفض في Mikro؛ المتجر أو السوق يكتب العودة.",
+      "c1link": "Hepsiburada →",
+      "c2title": "👤 الحسابات",
+      "c2desc": "الأرصدة إلى CRM أو WhatsApp. <a href=\"/crm-yazilim-yaptirmak\" style=\"color:#14b8a6\">تطوير CRM</a>.",
+      "c2link": "تطوير CRM →",
+      "c3title": "🧾 الفواتير",
+      "c3desc": "فاتورة إلكترونية مع سجل Mikro. <a href=\"/e-fatura-entegrasyonu\" style=\"color:#14b8a6\">فاتورة إلكترونية</a>.",
+      "c3link": "فاتورة إلكترونية →",
+      "c4title": "⚠️ لسنا موزّعاً",
+      "c4desc": "لا نبيع Mikro Jump. نكتب موصّلاً إلى تثبيتم الحالي.",
+      "c4link": "برمجيات مخصصة →"
+    },
+    "who": {
+      "title": "من يطلب تكامل Mikro؟",
+      "intro": "Mikro شائع لدى الشركات الصغيرة. باحثو Logo يذهبون للصفحة الشقيقة. أوزتورك سوفت لا تبيع ERP جاهزاً؛ نسلّم API يعمل.",
+      "i1": "مخزون السوق منفصل عن Mikro؛ يصبح سالباً ليلاً.",
+      "i2": "فواتير إلكترونية من البوابة وقيود يدوياً. اكتبوا <a href=\"/e-fatura-entegrasyonu\" style=\"color:#14b8a6\">موصّلاً</a>.",
+      "i3": "المبيعات تريد CRM؛ المحاسبة تبقى في Mikro.",
+      "i4": "تستخدمون Mikro لا Logo؛ <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">صفحة Logo</a> يجب ألا تفوتكم.",
+      "outro": "استكشاف مجاني: <a href=\"tel:+905465496806\" style=\"color:#14b8a6\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "أسئلة شائعة",
+      "q1": "كم يكلف تكامل Mikro؟",
+      "a1": "اتجاه واحد 20.000–45.000 ليرة (2–4 أسابيع)، ثنائي 55.000–130.000، سوق 95.000–180.000.",
+      "q2": "هل تبيعون تراخيص Mikro؟",
+      "a2": "لا. لسنا موزّعاً. نربط API بـ Mikro Jump / Mikro لديكم.",
+      "q3": "هل هذه صفحة Logo؟",
+      "a3": "لا. Logo وNetsis <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">رابط مستقل</a>. هذه الصفحة Mikro.",
+      "q4": "Paraşüt؟",
+      "a4": "Paraşüt محاسبة جاهزة؛ لا نبيعها. لوحة أو API مخصص عمل <a href=\"/crm-yazilim-yaptirmak\" style=\"color:#14b8a6\">CRM</a>."
+    },
+    "cta": {
+      "btn": "مكالمة استكشاف مجانية",
+      "title": "لنتحدث عن ربط Mikro",
+      "desc": "استكشاف مجاني — المخزون والحسابات والفواتير. <a href=\"tel:+905465496806\" style=\"color:#14b8a6\">+90 546 549 6806</a>",
+      "btn2": "عرض سعر مجاني"
+    },
+    "footer": "© 2026 أوزتورك سوفت — تكامل Mikro",
+    "related": {
+      "logo": "Logo Netsis",
+      "crm": "CRM",
+      "hb": "Hepsiburada",
+      "ef": "فاتورة إلكترونية"
+    },
+    "meta": {
+      "title": "تكامل Mikro | API والسعر | أوزتورك سوفت"
+    },
+    "stats": {
+      "s1l": "API باتجاه واحد",
+      "s2l": "ثنائي الاتجاه",
+      "s3l": "تسليم اتجاه واحد"
+    }
   }
 }

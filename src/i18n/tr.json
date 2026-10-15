@@ -416,9 +416,11 @@
       "btn2": "Bizi Tanıyın"
     },
     "erpNote": {
-      "title": "ERP Entegrasyonu (Logo, Netsis, SAP)",
+      "title": "ERP Entegrasyonu (Logo, Netsis, Mikro)",
       "desc": "SAP implementasyonu veya ABAP danışmanlığı yapmıyoruz. Mevcut Logo, Netsis, Mikro ve SAP sistemlerinize API/RFC ile entegre özel yazılım, chatbot ve otomasyon geliştiriyoruz.",
-      "link": "ERP entegrasyon rehberi →"
+      "link": "ERP entegrasyon rehberi →",
+      "linkLogo": "Logo / Netsis teklif →",
+      "linkMikro": "Mikro entegrasyon →"
     }
   },
   "contactPage": {
@@ -509,7 +511,10 @@
         "mobile": "Mobil uygulama (Flutter)",
         "web": "Web sitesi / E-ticaret",
         "seo": "SEO & GEO optimizasyon",
-        "other": "Diğer"
+        "other": "Diğer",
+        "marketplace": "Trendyol / Hepsiburada entegrasyonu",
+        "crm": "CRM yazılım yaptırmak",
+        "mikro": "Logo / Mikro entegrasyon"
       },
       "budgetOpts": {
         "b1": "₺50.000 – ₺100.000",
@@ -600,7 +605,11 @@
       "customSoftware": "Özel yazılım",
       "automation": "Süreç otomasyonu",
       "qa": "QA test hizmeti",
-      "privacy": "Gizlilik & çerezler"
+      "privacy": "Gizlilik & çerezler",
+      "hepsiburada": "Hepsiburada",
+      "crm": "CRM yazılım",
+      "seo": "Ankara SEO",
+      "mikro": "Mikro entegrasyon"
     }
   },
   "aiFirmPage": {
@@ -1831,7 +1840,8 @@
       "custom": "Özel yazılım",
       "guide": "Maliyet rehberi",
       "ty": "Trendyol entegrasyonu",
-      "ef": "E-fatura"
+      "ef": "E-fatura",
+      "hb": "Hepsiburada"
     }
   },
   "faturaOkumaPage": {
@@ -2345,7 +2355,7 @@
       "q2": "E-ticaret sitesi bu mu?",
       "a2": "Hayır. Kendi mağaza <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">e-ticaret sitesi yaptırmak</a>. Bu sayfa Trendyol/pazaryeri API’sidir.",
       "q3": "Hepsiburada eklenir mi?",
-      "a3": "Evet. Aynı stok omurgasına ikinci pazaryeri yazılır. Fiyat keşifte kanal sayısına göre.",
+      "a3": "Evet. Aynı stok omurgasına ikinci pazaryeri yazılır. Ayrı sayfa: <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#f27a1a\">Hepsiburada entegrasyonu</a>.",
       "q4": "Logo’ya sipariş düşer mi?",
       "a4": "Evet. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">Logo / Netsis</a> fişi ve isteğe <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">e-fatura</a> aynı projede."
     },
@@ -2360,7 +2370,8 @@
       "shop": "E-ticaret yaptırmak",
       "ef": "E-fatura",
       "logo": "Logo Netsis",
-      "wa": "WhatsApp chatbot"
+      "wa": "WhatsApp chatbot",
+      "hb": "Hepsiburada"
     },
     "meta": {
       "title": "Trendyol Entegrasyonu | Sipariş & Stok | Ozturksoft"
@@ -2553,5 +2564,301 @@
     "changesT": "14. Güncelleme",
     "changesD": "Ölçüm aracı, yeni kanal veya yasal değişiklik halinde bu sayfa güncellenir. Yayın tarihi yukarıdadır. Önemli değişikliklerde çerez paneli veya form metni de yenilenir.",
     "disclaimer": "Bu metin yürürlükteki mevzuata uygun kurumsal aydınlatma ve çerez bilgilendirmesidir. Somut uyuşmazlıkta avukat veya Kurul kararı yerine geçmez; müşteri projelerindeki veri işleme ayrıca sözleşmeyle belirlenir."
+  },
+  "hepsiburadaPage": {
+    "hero": {
+      "badge": "Sipariş · Stok · Kargo · N11 · ikas · +90 546 549 6806",
+      "title": "Hepsiburada Entegrasyonu",
+      "desc": "Hepsiburada entegrasyonu: sipariş panelden kopyalanmasın. Stok, kargo, iade API ile yürür. Trendyol ayrıdır — <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">Trendyol entegrasyonu</a>. Çankaya, yazılı teklif, ücretsiz keşif."
+    },
+    "pricing": {
+      "title": "Hepsiburada entegrasyonu fiyatı (2026)",
+      "intro": "Fiyat sipariş hacmi, kargo ve ERP’ye göre değişir. Bantlar 2026 Ankara piyasasıdır; keşif ücretsiz, teklif yazılıdır.",
+      "row1": "Sipariş çekme",
+      "row2": "Stok + kargo",
+      "row3": "Pazaryeri + ERP",
+      "t1": "2–4 hafta",
+      "t2": "4–8 hafta",
+      "t3": "8–14 hafta",
+      "linkTy": "Trendyol entegrasyonu",
+      "linkLogo": "Logo Netsis",
+      "linkMikro": "Mikro"
+    },
+    "cards": {
+      "c1title": "📦 Sipariş",
+      "c1desc": "Yeni sipariş panele düşer, yazıcı veya depo kuyruğuna gider. Excel kopyala biter.",
+      "c1link": "Keşif ayarla →",
+      "c2title": "📊 Stok senkron",
+      "c2desc": "Satış stoku Logo, Mikro veya ikas’tan geri yazar. Çift satış kesilir. <a href=\"/mikro-entegrasyon\" style=\"color:#ff6000\">Mikro</a> aynı ekipte.",
+      "c2link": "Mikro / ERP bağla →",
+      "c3title": "🚚 Kargo ve iade",
+      "c3desc": "Yurtiçi, Aras, MNG, HepsiJet. Takip ve iade. E-fatura: <a href=\"/e-fatura-entegrasyonu\" style=\"color:#ff6000\">e-fatura</a>.",
+      "c3link": "E-fatura bağla →",
+      "c4title": "🏪 N11, ikas, kendi site",
+      "c4desc": "N11 ikinci kanal. ikas/Ticimax/Shopify mağaza. Kendi site <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">e-ticaret yaptırmak</a>.",
+      "c4link": "E-ticaret sitesi →"
+    },
+    "who": {
+      "title": "Hepsiburada entegrasyonunu kim yaptırır?",
+      "intro": "“Hepsiburada entegrasyonu” pazaryeri API siparişidir. Hazır kutu satılmaz; sipariş, stok ve ERP sizin akışınıza yazılır.",
+      "i1": "HB panelinden sipariş kopyalanıyor, stok gece eksiye düşüyor.",
+      "i2": "Trendyol zaten var; HB veya N11 aynı stoktan gitsin. Trendyol <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">ayrı URL</a>.",
+      "i3": "ikas veya kendi Woo mağaza pazaryeriyle çakışmasın.",
+      "i4": "Fatura Logo/Mikro’dan kessin; iyzico kendi sitede kalsın — <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">e-ticaret</a>.",
+      "outro": "Ücretsiz keşif: <a href=\"tel:+905465496806\" style=\"color:#ff6000\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Sık sorulanlar",
+      "q1": "Hepsiburada entegrasyonu ne kadar tutar?",
+      "a1": "Sipariş 25.000–50.000 TL (2–4 hafta), stok+kargo 50.000–95.000 TL, ERP 95.000–180.000 TL. Keşif ücretsizdir.",
+      "q2": "Trendyol bu sayfa mı?",
+      "a2": "Hayır. Trendyol <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">ayrı URL</a>. Aynı stok omurgasına ikinci kanal eklenir.",
+      "q3": "N11, ikas, Shopify?",
+      "a3": "N11 pazaryeri; ikas, Ticimax, Shopify mağaza API. Kanal sayısı keşifte fiyatlanır.",
+      "q4": "iyzico ve kargo?",
+      "a4": "Kendi sitede iyzico/PayTR <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">e-ticaret</a> işidir. Pazaryeri kargosu Yurtiçi/Aras/MNG/HepsiJet API."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "Hepsiburada akışını konuşalım",
+      "desc": "Ücretsiz keşif — sipariş, stok, ERP. <a href=\"tel:+905465496806\" style=\"color:#ff6000\">+90 546 549 6806</a>",
+      "btn2": "Ücretsiz teklif al"
+    },
+    "footer": "© 2026 Ozturksoft — Hepsiburada entegrasyonu",
+    "related": {
+      "ty": "Trendyol",
+      "shop": "E-ticaret",
+      "mikro": "Mikro",
+      "ef": "E-fatura"
+    },
+    "meta": {
+      "title": "Hepsiburada Entegrasyonu | Sipariş & Stok | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Sipariş çekme",
+      "s2l": "Stok + kargo",
+      "s3l": "Stok teslim"
+    }
+  },
+  "crmPage": {
+    "hero": {
+      "badge": "Satış · Cari · WhatsApp · Logo · +90 546 549 6806",
+      "title": "CRM Yazılım Yaptırmak",
+      "desc": "CRM yazılım yaptırmak: Excel’deki müşteri bitsin. Pipeline, teklif, tahsilat tek panel. Salesforce lisansı satılmaz — işinize özel yazılır veya mevcut API’ye bağlanır. Çankaya, ücretsiz keşif. Rehber: <a href=\"/blog/crm-erp-entegrasyonu-rehberi-2026\" style=\"color:#3b82f6\">CRM/ERP yazısı</a>."
+    },
+    "pricing": {
+      "title": "CRM yazılım fiyatı (2026)",
+      "intro": "Fiyat kullanıcı sayısı, ERP ve WhatsApp’a göre değişir. Bantlar 2026 Ankara piyasasıdır; keşif ücretsiz, teklif yazılıdır. Rehber ayrı durur.",
+      "row1": "KOBİ satış paneli",
+      "row2": "CRM + WhatsApp",
+      "row3": "CRM + Logo / Mikro",
+      "t1": "8–14 hafta",
+      "t2": "10–16 hafta",
+      "t3": "3–6 ay",
+      "linkCustom": "Özel yazılım",
+      "linkGuide": "CRM/ERP rehberi"
+    },
+    "cards": {
+      "c1title": "👤 Cari ve pipeline",
+      "c1desc": "Firma, kişi, fırsat, teklif. Kim aradı, kim kapattı görünür.",
+      "c1link": "Keşif ayarla →",
+      "c2title": "🔗 ERP fişi",
+      "c2desc": "Sipariş ve tahsilat Logo, Netsis veya Mikro’ya yazılır. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#3b82f6\">Logo</a> · <a href=\"/mikro-entegrasyon\" style=\"color:#3b82f6\">Mikro</a>.",
+      "c2link": "Logo / Netsis →",
+      "c3title": "💬 WhatsApp satış",
+      "c3desc": "Sohbet cariye bağlanır. Bot sipariş açar. <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#3b82f6\">WhatsApp chatbot</a>.",
+      "c3link": "WhatsApp chatbot →",
+      "c4title": "📦 Hazır kutu değil",
+      "c4desc": "Paraşüt/Salesforce lisansı satılmaz. Uymuyorsa özel panel; uyuyorsa API.",
+      "c4link": "Özel yazılım →"
+    },
+    "who": {
+      "title": "CRM’i kim yaptırır?",
+      "intro": "“Ankara CRM” ve “CRM yazılım yaptırmak” aynı sipariştir: müşteri tek yerde dursun. Hazır SaaS yetiyorsa onu alın; süreçiniz farklıysa özel yazılır.",
+      "i1": "Excel ve WhatsApp’ta müşteri dağılıyor. Panel ve yetki istiyorsunuz.",
+      "i2": "Logo’da cari var, satışçının ekranı yok. Fiş <a href=\"/logo-netsis-entegrasyon\" style=\"color:#3b82f6\">ERP</a>’ye geri yazılsın.",
+      "i3": "Paraşüt yetmiyor veya Salesforce pahalı. Lisans değil, sizin akış.",
+      "i4": "Chatbot sipariş açsın. <a href=\"/ankara-ai-asistan\" style=\"color:#3b82f6\">Asistan</a> ve CRM aynı ekipte.",
+      "outro": "Ücretsiz keşif: <a href=\"tel:+905465496806\" style=\"color:#3b82f6\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Sık sorulanlar",
+      "q1": "CRM yazılım yaptırmak ne kadar tutar?",
+      "a1": "KOBİ 80.000–180.000 TL, WhatsApp 120.000–220.000 TL, ERP’li 150.000–300.000 TL. Keşif ücretsizdir.",
+      "q2": "Salesforce / Paraşüt satıyor musunuz?",
+      "a2": "Hayır. Kutu lisans yok. Özel CRM veya mevcut API (Salesforce, HubSpot, Paraşüt) bağlanır.",
+      "q3": "ERP rehberi yeter mi?",
+      "a3": "Rehber bilgi içindir. İş bu sayfadan; teknik yazı <a href=\"/blog/crm-erp-entegrasyonu-rehberi-2026\" style=\"color:#3b82f6\">CRM/ERP rehberi</a>.",
+      "q4": "Mikro olur mu?",
+      "a4": "Evet. <a href=\"/mikro-entegrasyon\" style=\"color:#3b82f6\">Mikro entegrasyon</a> aynı Çankaya ekibinde."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "CRM panelini konuşalım",
+      "desc": "Ücretsiz keşif — satış, cari, ERP. <a href=\"tel:+905465496806\" style=\"color:#3b82f6\">+90 546 549 6806</a>",
+      "btn2": "Ücretsiz teklif al"
+    },
+    "footer": "© 2026 Ozturksoft — CRM yazılım yaptırmak",
+    "related": {
+      "custom": "Özel yazılım",
+      "mikro": "Mikro",
+      "wa": "WhatsApp",
+      "seo": "Ankara SEO"
+    },
+    "meta": {
+      "title": "CRM Yazılım Yaptırmak | Ankara Fiyat | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "KOBİ paneli",
+      "s2l": "CRM + ERP",
+      "s3l": "Panel teslim"
+    }
+  },
+  "seoPage": {
+    "hero": {
+      "badge": "Teknik SEO · Yerel · GEO · +90 546 549 6806",
+      "title": "Ankara SEO",
+      "desc": "Ankara SEO: Google’da hizmet aramasında çıkın; ChatGPT ve Gemini sizi kaynak göstersin. Google Ads ve sosyal medya yönetimi değil. Site <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">web tasarım</a> aynı Çankaya ekibinde. Ücretsiz keşif."
+    },
+    "pricing": {
+      "title": "Ankara SEO fiyatı (2026)",
+      "intro": "Fiyat sayfa sayısı ve rekabete göre değişir. Bantlar 2026 Ankara piyasasıdır; keşif ücretsiz, teklif yazılıdır. Reklam bütçesi dahil değildir.",
+      "row1": "Teknik SEO",
+      "row2": "Yerel Ankara SEO",
+      "row3": "SEO + GEO",
+      "t1": "2–4 hafta",
+      "t2": "4–8 hafta",
+      "t3": "8–12 hafta",
+      "linkWeb": "Ankara web tasarım",
+      "linkGuide": "SEO rehberi"
+    },
+    "cards": {
+      "c1title": "⚙️ Teknik SEO",
+      "c1desc": "Hız, indeks, schema, sitemap, hreflang. Site açılmıyorsa içerik yazılmaz.",
+      "c1link": "Keşif ayarla →",
+      "c2title": "📍 Yerel Ankara",
+      "c2desc": "Hizmet + şehir sayfası, Google İşletme. Ads değil. <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">Web tasarım</a>.",
+      "c2link": "Web tasarım →",
+      "c3title": "🤖 GEO",
+      "c3desc": "llms.txt, alıntı bloğu, SSS. Rehber: <a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\" style=\"color:#22c55e\">GEO</a>.",
+      "c3link": "GEO rehberi →",
+      "c4title": "🚫 Ads yok",
+      "c4desc": "Google Ads ve sosyal medya yönetimi satılmaz. Organik + AI arama.",
+      "c4link": "Web sitesi yaptırmak →"
+    },
+    "who": {
+      "title": "Ankara SEO’yu kim yaptırır?",
+      "intro": "“Ankara SEO” reklam değil, aranınca bulunmaktır. Ajans panosu istemiyorsanız site ve arama aynı yazılım ekibinde yürür.",
+      "i1": "Site var, “Ankara web tasarım / yazılım” yazınca rakip çıkıyor.",
+      "i2": "Teklif sayfası yok; blog var. Hire-intent URL yazılsın.",
+      "i3": "ChatGPT Ankara firması sorunca adınız yok. GEO aynı iş.",
+      "i4": "Ads ajansı değil, teslim edilen siteyi ölçen ekip. Site yoksa <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#22c55e\">web sitesi yaptırmak</a>.",
+      "outro": "Ücretsiz keşif: <a href=\"tel:+905465496806\" style=\"color:#22c55e\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Sık sorulanlar",
+      "q1": "Ankara SEO ne kadar tutar?",
+      "a1": "Teknik 25.000–45.000 TL (2–4 hafta), yerel 45.000–80.000 TL, SEO+GEO 80.000–140.000 TL. Keşif ücretsizdir.",
+      "q2": "Google Ads dahil mi?",
+      "a2": "Hayır. Reklam ve sosyal medya yönetimi yok. Organik Google + AI arama.",
+      "q3": "Rehber yeter mi?",
+      "a3": "Bilgi <a href=\"/blog/seo-nedir-onemi-rehberi-2026\" style=\"color:#22c55e\">SEO rehberi</a> ve <a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\" style=\"color:#22c55e\">GEO</a>. İş bu sayfadan.",
+      "q4": "Site yoksa?",
+      "a4": "Önce <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">web tasarım</a> veya <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#22c55e\">web sitesi yaptırmak</a>; SEO aynı teklife eklenir."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "Ankara aramasını konuşalım",
+      "desc": "Ücretsiz keşif — teknik, yerel, GEO. <a href=\"tel:+905465496806\" style=\"color:#22c55e\">+90 546 549 6806</a>",
+      "btn2": "Ücretsiz teklif al"
+    },
+    "footer": "© 2026 Ozturksoft — Ankara SEO",
+    "related": {
+      "web": "Web tasarım",
+      "crm": "CRM",
+      "geo": "GEO rehberi"
+    },
+    "meta": {
+      "title": "Ankara SEO | Teknik SEO & GEO | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Teknik kurulum",
+      "s2l": "SEO + GEO",
+      "s3l": "Teknik teslim"
+    }
+  },
+  "mikroPage": {
+    "hero": {
+      "badge": "Mikro Jump · Stok · Cari · Fatura · +90 546 549 6806",
+      "title": "Mikro Entegrasyon",
+      "desc": "Mikro entegrasyon: stok, cari ve fatura web, pazaryeri veya CRM’e aksın. Bayi lisansı satılmaz — mevcut Mikro’ya API yazılır. Logo <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">ayrı URL</a>. Çankaya, ücretsiz keşif."
+    },
+    "pricing": {
+      "title": "Mikro entegrasyon fiyatı (2026)",
+      "intro": "Fiyat belge tipi ve yöne göre değişir. Bantlar 2026 Ankara piyasasıdır; keşif ücretsiz, teklif yazılıdır. Mikro yazılım lisansı ayrıca.",
+      "row1": "Tek yönlü API",
+      "row2": "Çift yönlü",
+      "row3": "Pazaryeri + Mikro",
+      "t1": "2–4 hafta",
+      "t2": "6–10 hafta",
+      "t3": "8–14 hafta",
+      "linkLogo": "Logo / Netsis",
+      "linkEf": "E-fatura"
+    },
+    "cards": {
+      "c1title": "📦 Stok",
+      "c1desc": "Satış stoku Mikro’dan düşer, mağaza veya pazaryeri geri yazar.",
+      "c1link": "Hepsiburada →",
+      "c2title": "👤 Cari",
+      "c2desc": "Bakiye CRM veya WhatsApp’a. <a href=\"/crm-yazilim-yaptirmak\" style=\"color:#14b8a6\">CRM yaptırmak</a>.",
+      "c2link": "CRM yaptırmak →",
+      "c3title": "🧾 Fatura",
+      "c3desc": "E-fatura Mikro kaydıyla. <a href=\"/e-fatura-entegrasyonu\" style=\"color:#14b8a6\">E-fatura</a>.",
+      "c3link": "E-fatura →",
+      "c4title": "⚠️ Bayi değil",
+      "c4desc": "Mikro Jump satılmaz. Var olan kurulumunuza bağlayıcı yazarız.",
+      "c4link": "Özel yazılım →"
+    },
+    "who": {
+      "title": "Mikro entegrasyonu kim yaptırır?",
+      "intro": "KOBİ’de Mikro yaygındır. Logo arayanlar kardeş sayfaya gider. Ozturksoft kutu ERP satmaz; çalışan API teslim eder.",
+      "i1": "Pazaryeri stoğu Mikro’dan bağımsız; gece eksiye düşüyor.",
+      "i2": "E-fatura portaldan, fiş elle. <a href=\"/e-fatura-entegrasyonu\" style=\"color:#14b8a6\">Bağlayıcı</a> yazılsın.",
+      "i3": "Satışçı CRM istiyor; muhasebe Mikro’da kalsın.",
+      "i4": "Logo değil Mikro kullanıyorsunuz; <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">Logo sayfası</a> sizi kaçırmasın.",
+      "outro": "Ücretsiz keşif: <a href=\"tel:+905465496806\" style=\"color:#14b8a6\">+90 546 549 6806</a>."
+    },
+    "faq": {
+      "title": "Sık sorulanlar",
+      "q1": "Mikro entegrasyon ne kadar tutar?",
+      "a1": "Tek yön 20.000–45.000 TL (2–4 hafta), çift yön 55.000–130.000 TL, pazaryeri 95.000–180.000 TL.",
+      "q2": "Mikro lisansı satıyor musunuz?",
+      "a2": "Hayır. Bayi değiliz. Mevcut Mikro Jump / Mikro’ya API bağlarız.",
+      "q3": "Logo sayfası mı bu?",
+      "a3": "Hayır. Logo ve Netsis <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">ayrı URL</a>. Bu sayfa Mikro.",
+      "q4": "Paraşüt?",
+      "a4": "Paraşüt kutu ön muhasebedir; satmayız. Özel panel veya API <a href=\"/crm-yazilim-yaptirmak\" style=\"color:#14b8a6\">CRM</a> işidir."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "Mikro bağlantısını konuşalım",
+      "desc": "Ücretsiz keşif — stok, cari, fatura. <a href=\"tel:+905465496806\" style=\"color:#14b8a6\">+90 546 549 6806</a>",
+      "btn2": "Ücretsiz teklif al"
+    },
+    "footer": "© 2026 Ozturksoft — Mikro entegrasyon",
+    "related": {
+      "logo": "Logo Netsis",
+      "crm": "CRM",
+      "hb": "Hepsiburada",
+      "ef": "E-fatura"
+    },
+    "meta": {
+      "title": "Mikro Entegrasyon | API & Fiyat | Ozturksoft"
+    },
+    "stats": {
+      "s1l": "Tek yönlü API",
+      "s2l": "Çift yönlü",
+      "s3l": "Tek yön teslim"
+    }
   }
 }
