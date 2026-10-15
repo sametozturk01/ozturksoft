@@ -33,7 +33,8 @@ function getSmtpConfig() {
   const pass = (process.env.SMTP_PASS || '').replace(/\s/g, '');
   const envTo = (process.env.CONTACT_TO || process.env.CONTACT_TO_EMAIL || '').trim();
   const to = /@ozturksoft\.net$/i.test(envTo) ? envTo : 'info@ozturksoft.net';
-  return { user, pass, to };
+  const bcc = user && user.toLowerCase() !== to.toLowerCase() ? user : '';
+  return { user, pass, to, bcc };
 }
 
 function parseBody(req) {
@@ -75,7 +76,7 @@ export default async function handler(req, res) {
     return res.status(400).json({ ok: false, error: 'Geçersiz tercih.' });
   }
 
-  const { user, pass, to } = getSmtpConfig();
+  const { user, pass, to, bcc } = getSmtpConfig();
   if (!user || !pass) {
     return res.status(503).json({ ok: false, error: 'Kayıt servisi yapılandırılmamış.' });
   }
@@ -98,6 +99,7 @@ export default async function handler(req, res) {
     await transporter.sendMail({
       from: `"Ozturksoft KVKK kayıt" <${user}>`,
       to,
+      ...(bcc ? { bcc } : {}),
       subject: `[KVKK kayıt] çerez · ${choice} · ${nowTr}`,
       headers: { 'X-Entity-Ref-ID': 'ozturksoft-cerez-onayi' },
       text: [
