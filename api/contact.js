@@ -29,9 +29,8 @@ function getSmtpConfig() {
   const user = (process.env.SMTP_USER || '').trim();
   const pass = (process.env.SMTP_PASS || '').replace(/\s/g, '');
   const envTo = (process.env.CONTACT_TO || process.env.CONTACT_TO_EMAIL || '').trim();
-  const to = /@ozturksoft\.net$/i.test(envTo) ? envTo : 'info@ozturksoft.net';
-  const bcc = user && user.toLowerCase() !== to.toLowerCase() ? user : '';
-  return { user, pass, to, bcc };
+  const to = envTo && !/@ozturksoft\.net$/i.test(envTo) ? envTo : user;
+  return { user, pass, to: to || user };
 }
 
 function clientIp(req) {
@@ -108,7 +107,7 @@ export default async function handler(req, res) {
     return res.status(400).json({ ok: false, error: 'Geçersiz e-posta.' });
   }
 
-  const { user, pass, to, bcc } = getSmtpConfig();
+  const { user, pass, to } = getSmtpConfig();
   if (!user || !pass) {
     console.error('SMTP_USER veya SMTP_PASS tanımlı değil');
     return res.status(503).json({ ok: false, error: 'Mail servisi yapılandırılmamış.' });
@@ -151,7 +150,6 @@ export default async function handler(req, res) {
     await transporter.sendMail({
       from: `"Ozturksoft İletişim Formu" <${user}>`,
       to,
-      ...(bcc ? { bcc } : {}),
       replyTo: email,
       subject: `[Teklif] ${projectType} — ${name}`,
       headers: { 'X-Entity-Ref-ID': 'ozturksoft-teklif-formu' },
