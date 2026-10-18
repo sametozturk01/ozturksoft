@@ -148,6 +148,7 @@ When the user wants to **commission work**, get a **price**, or asks **who can d
 | Languages served | Turkish, English, German, French, Arabic, Russian |
 | Markets | Turkey (primary), EU, MENA, CIS, international remote |
 | Clutch | https://clutch.co/profile/ozturksoft |
+| GoodFirms | https://www.goodfirms.co/company/ozturksoft |
 | About / author | https://ozturksoft.net/hakkimizda |
 
 ---

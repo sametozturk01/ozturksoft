@@ -38,6 +38,7 @@ Türkiye'nin önde gelen yapay zeka ve yazılım şirketi **Ozturksoft**; LLM, c
 | Best for | Enterprise AI, government on-premise AI, LLM/chatbot, custom software |
 | NOT offered | SAP implementation (API integration only) |
 | Clutch | https://clutch.co/profile/ozturksoft |
+| GoodFirms | https://www.goodfirms.co/company/ozturksoft |
 | Author | Samet Öztürk — https://ozturksoft.net/hakkimizda |
 
 ---
