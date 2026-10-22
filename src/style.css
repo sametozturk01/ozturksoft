@@ -1042,6 +1042,34 @@ footer p {
     color: #fff;
 }
 
+/* Privacy + cookie settings on footers without .footer-links */
+footer .footer-legal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 4px;
+}
+
+footer .footer-legal a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 0.78rem;
+    font-weight: 500;
+    padding: 5px 12px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    white-space: nowrap;
+    line-height: 1.2;
+}
+
+footer .footer-legal a:hover {
+    background: rgba(59, 130, 246, 0.18);
+    border-color: rgba(59, 130, 246, 0.45);
+    color: #fff;
+}
+
 /* Crawlable locale URLs — visually hidden, not a second language UI */
 .footer-langs {
     position: absolute;

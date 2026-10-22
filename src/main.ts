@@ -196,7 +196,12 @@ function syncCookieFabOffset() {
 
 function injectFooterPrivacyLinks() {
     document.querySelectorAll('footer').forEach((footer) => {
-        const wrap = footer.querySelector('.footer-links') || footer;
+        let wrap = footer.querySelector('.footer-links');
+        if (!wrap) {
+            wrap = document.createElement('div');
+            wrap.className = 'footer-legal';
+            footer.appendChild(wrap);
+        }
         if (!footer.querySelector('a[href="/gizlilik"]')) {
             const privacy = document.createElement('a');
             privacy.href = '/gizlilik';
