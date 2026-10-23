@@ -346,10 +346,6 @@ function updateDropdownUI(lang: string) {
         const hrefLang = anchor.getAttribute('data-lang');
         if (hrefLang === lang) anchor.classList.add('ldm-active');
     });
-
-    document.querySelectorAll('.mobile-lang-btn[data-lang]').forEach(btn => {
-        btn.classList.toggle('is-active', btn.getAttribute('data-lang') === lang);
-    });
 }
 
 // Arapça için RTL yönü uygula
@@ -464,26 +460,6 @@ function closeMobileNav() {
     }
 }
 
-function initMobileLangPicker() {
-    const navLinks = document.getElementById('navLinks');
-    if (!navLinks || document.getElementById('mobileLangPicker')) return;
-
-    const li = document.createElement('li');
-    li.id = 'mobileLangPicker';
-    li.className = 'mobile-lang-picker';
-    li.innerHTML = `
-        <p class="mobile-lang-label">Dil / Language</p>
-        <div class="mobile-lang-grid">
-            ${Object.entries(LANG_META).map(([code, meta]) =>
-                `<button type="button" class="mobile-lang-btn" data-lang="${code}">
-                    <span aria-hidden="true">${meta.flag}</span> ${meta.code}
-                </button>`
-            ).join('')}
-        </div>
-    `;
-    navLinks.appendChild(li);
-}
-
 function initLangUI() {
     const prev = (window as unknown as { __langUiAbort?: AbortController }).__langUiAbort;
     prev?.abort();
@@ -493,8 +469,6 @@ function initLangUI() {
 
     const langDropBtn = document.getElementById('langDropBtn');
     const langDropMenu = document.getElementById('langDropMenu');
-
-    initMobileLangPicker();
 
     langDropBtn?.addEventListener('click', (e) => {
         e.preventDefault();
@@ -515,7 +489,7 @@ function initLangUI() {
         closeLangDropdown();
     }, { signal });
 
-    document.querySelectorAll('#langDropMenu a[data-lang], .mobile-lang-btn[data-lang]').forEach(el => {
+    document.querySelectorAll('#langDropMenu a[data-lang]').forEach(el => {
         el.addEventListener('click', async (e) => {
             e.preventDefault();
             e.stopPropagation();

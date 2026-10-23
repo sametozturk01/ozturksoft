@@ -443,9 +443,6 @@ function updateDropdownUI(lang: string) {
         if (a.getAttribute('data-lang') === lang) a.classList.add('ldm-active');
     });
 
-    document.querySelectorAll('.mobile-lang-btn[data-lang]').forEach(btn => {
-        btn.classList.toggle('is-active', btn.getAttribute('data-lang') === lang);
-    });
 
     if (lang === 'ar') {
         document.documentElement.setAttribute('dir', 'rtl');
@@ -569,26 +566,6 @@ function closeMobileNav() {
     }
 }
 
-function initMobileLangPicker() {
-    const navLinks = document.getElementById('navLinks');
-    if (!navLinks || document.getElementById('mobileLangPicker')) return;
-
-    const li = document.createElement('li');
-    li.id = 'mobileLangPicker';
-    li.className = 'mobile-lang-picker';
-    li.innerHTML = `
-        <p class="mobile-lang-label">Dil / Language</p>
-        <div class="mobile-lang-grid">
-            ${Object.entries(LANG_META).map(([code, meta]) =>
-                `<button type="button" class="mobile-lang-btn" data-lang="${code}">
-                    <span aria-hidden="true">${meta.flag}</span> ${meta.code}
-                </button>`
-            ).join('')}
-        </div>
-    `;
-    navLinks.appendChild(li);
-}
-
 function onReady(fn: () => void) {
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', fn);
@@ -603,8 +580,6 @@ onReady(() => {
     const ac = new AbortController();
     (window as unknown as { __langUiAbort?: AbortController }).__langUiAbort = ac;
     const { signal } = ac;
-
-    initMobileLangPicker();
 
     const langDropBtn = document.getElementById('langDropBtn');
     const langDropMenu = document.getElementById('langDropMenu');
@@ -628,7 +603,7 @@ onReady(() => {
         closeLangDropdown();
     }, { signal });
 
-    document.querySelectorAll('#langDropMenu a[data-lang], .mobile-lang-btn[data-lang]').forEach(el => {
+    document.querySelectorAll('#langDropMenu a[data-lang]').forEach(el => {
         el.addEventListener('click', async (e) => {
             e.preventDefault();
             e.stopPropagation();
