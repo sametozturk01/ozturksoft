@@ -1946,3 +1946,34 @@ html.cookie-banner-open[dir="rtl"] .back-to-top {
         bottom: var(--cookie-fab-lift, 220px);
     }
 }
+/* ==========================================
+   MOBİL: taşma ve menü kaydırma kilidi
+   ========================================== */
+@media (max-width: 768px) {
+    /* section{width:100%} + yan margin ekrandan taşırıyordu */
+    section.hub-cta,
+    section.lp-cta,
+    section#ai-cite {
+        width: auto !important;
+    }
+
+    .hub-cta,
+    .lp-cta {
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+
+    /* Menü ekrana sığmazsa sadece kendi içinde kayar */
+    .nav-links {
+        height: 100dvh !important;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Menü açıkken arkadaki sayfa kaymaz */
+    html:has(#navLinks.active),
+    html:has(#navLinks.active) body {
+        overflow: hidden !important;
+    }
+}
