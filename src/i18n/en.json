@@ -2798,13 +2798,13 @@
   },
   "seoPage": {
     "hero": {
-      "badge": "Technical SEO · Local · GEO · +90 546 549 6806",
+      "badge": "Technical SEO · Local SEO · GEO",
       "title": "Ankara SEO",
-      "desc": "Ankara SEO: show up when people search your service on Google; let ChatGPT and Gemini cite you. Not Google Ads or social-media management. The site is the same Çankaya team — <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">web design</a>. Free discovery."
+      "desc": "Technical SEO, local SEO and AI search optimization for businesses in Ankara. Our goal is for customers looking for your services to find you on Google and in AI assistants such as ChatGPT and Gemini. Lasting organic visibility, not paid ad management. Free discovery call."
     },
     "pricing": {
       "title": "Ankara SEO price (2026)",
-      "intro": "Price follows page count and competition. Bands are 2026 Ankara market; discovery is free, the quote is written. Ad spend is not included.",
+      "intro": "Pricing depends on page count, competition in your sector and target keywords. The ranges below reflect the 2026 Ankara market. The discovery call is free; the proposal is provided in writing. Ad budgets are out of scope.",
       "row1": "Technical SEO",
       "row2": "Local Ankara SEO",
       "row3": "SEO + GEO",
@@ -2815,47 +2815,47 @@
       "linkGuide": "SEO guide"
     },
     "cards": {
-      "c1title": "⚙️ Technical SEO",
-      "c1desc": "Speed, index, schema, sitemap, hreflang. No content until the site opens.",
-      "c1link": "Book discovery →",
-      "c2title": "📍 Local Ankara",
-      "c2desc": "Service + city pages, Business Profile. Not ads. <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">Web design</a>.",
-      "c2link": "Web design →",
-      "c3title": "🤖 GEO",
-      "c3desc": "llms.txt, cite blocks, FAQ. Guide: <a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\" style=\"color:#22c55e\">GEO</a>.",
+      "c1title": "Technical SEO",
+      "c1desc": "Page speed, indexing, structured data (schema), sitemap and multilingual setup (hreflang). The technical foundation must be solid before content work begins.",
+      "c1link": "Schedule a discovery call →",
+      "c2title": "Local Ankara SEO",
+      "c2desc": "Service and city pages, Google Business Profile optimization and consistent company data for visibility on “Ankara + service” searches.",
+      "c2link": "Ankara web design →",
+      "c3title": "GEO: AI search",
+      "c3desc": "Structured content, FAQ blocks and llms.txt to be cited in ChatGPT, Gemini, Perplexity and Google AI Overviews.",
       "c3link": "GEO optimization →",
-      "c4title": "🚫 No ads",
-      "c4desc": "We do not sell Google Ads or social management. Organic + AI search.",
+      "c4title": "Measurement and reporting",
+      "c4desc": "Monthly Search Console reporting on impressions, clicks and rankings. Paid advertising and social media management are not part of our services.",
       "c4link": "Have a website built →"
     },
     "who": {
-      "title": "Who commissions Ankara SEO?",
-      "intro": "“Ankara SEO” is being found, not buying ads. If you do not want an agency dashboard, site and search stay with the same software team.",
-      "i1": "You have a site; rivals show for “Ankara web design / software”.",
-      "i2": "You have a blog, not a quote URL. Hire-intent pages should be written.",
-      "i3": "ChatGPT does not name you for Ankara firms. GEO is the same job.",
-      "i4": "You want the team that shipped the site, not an ads agency. No site yet: <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#22c55e\">have a website built</a>.",
-      "outro": "Free discovery: <a href=\"tel:+905465496806\" style=\"color:#22c55e\">+90 546 549 6806</a>."
+      "title": "Who is Ankara SEO for?",
+      "intro": "SEO keeps you in search results without depending on an ad budget. Your website and search visibility are managed by the same software team.",
+      "i1": "Businesses with a website whose competitors lead on “Ankara + service” searches.",
+      "i2": "Sites with blog content but without service- and price-focused landing pages.",
+      "i3": "Brands that are not named when AI assistants are asked about firms in Ankara.",
+      "i4": "Organizations looking for a technical team that builds the site and measures results, rather than an ad agency. No website yet: <a href=\"/web-sitesi-yaptirmak-ankara\">have a website built</a>.",
+      "outro": "Free discovery call: <a href=\"tel:+905465496806\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "FAQ",
       "q1": "How much is Ankara SEO?",
       "a1": "Technical 25,000–45,000 TL (2–4 weeks), local 45,000–80,000 TL, SEO+GEO 80,000–140,000 TL. Discovery is free.",
-      "q2": "Is Google Ads included?",
-      "a2": "No. No ads or social management. Organic Google + AI search.",
-      "q3": "Is the guide enough?",
-      "a3": "Information lives in the <a href=\"/blog/seo-nedir-onemi-rehberi-2026\" style=\"color:#22c55e\">SEO guide</a> and <a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\" style=\"color:#22c55e\">GEO</a>. Work starts here.",
-      "q4": "No website yet?",
-      "a4": "First <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">web design</a> or <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#22c55e\">have a website built</a>; SEO joins the same quote.",
+      "q2": "Is Google Ads management included?",
+      "a2": "No. Our service does not cover paid advertising or social media management; it focuses on organic Google rankings and AI search.",
+      "q3": "Where can I learn more about SEO?",
+      "a3": "For general information see our <a href=\"/blog/seo-nedir-onemi-rehberi-2026\">SEO guide</a> and <a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\">GEO guide</a>. For your project, schedule a free discovery call.",
+      "q4": "Can I get SEO without a website?",
+      "a4": "A <a href=\"/ankara-web-tasarim\">web design</a> or <a href=\"/web-sitesi-yaptirmak-ankara\">website</a> project is planned first; SEO is included in the same proposal.",
       "q5": "When do Ankara SEO results show?",
       "a5": "Technical fixes usually show within 2–6 weeks; lasting gains on competitive “Ankara + service” searches take 3–6 months.",
       "q6": "Do you guarantee the top spot?",
-      "a6": "No. Nobody can guarantee Google rankings. We report target searches and monthly progress in writing. For AI search: <a href=\"/geo-optimizasyonu\" style=\"color:#22c55e\">GEO optimization</a>."
+      "a6": "No. Nobody can guarantee Google rankings. We report target searches and monthly progress in writing. For AI search: <a href=\"/geo-optimizasyonu\">GEO optimization</a>."
     },
     "cta": {
       "btn": "Free discovery call",
-      "title": "Let’s talk Ankara search",
-      "desc": "Free discovery — technical, local, GEO. <a href=\"tel:+905465496806\" style=\"color:#22c55e\">+90 546 549 6806</a>",
+      "title": "Let's plan your search visibility in Ankara",
+      "desc": "Free discovery call for technical SEO, local SEO and GEO. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
       "btn2": "Get a free quote"
     },
     "footer": "© 2026 Ozturksoft — Ankara SEO",
@@ -2871,17 +2871,17 @@
     "stats": {
       "s1l": "Technical setup",
       "s2l": "SEO + GEO",
-      "s3l": "Technical delivery"
+      "s3l": "Technical setup time"
     },
     "process": {
       "title": "Ankara SEO process",
-      "s1t": "1. Audit",
+      "s1t": "Audit",
       "s1d": "Search Console, speed, indexing and competitor analysis. We document where you rank for each search and why you trail.",
-      "s2t": "2. Technical fixes",
+      "s2t": "Technical fixes",
       "s2d": "Speed, mobile, schema, sitemap, canonical and hreflang. The site has to open cleanly for Google before content work.",
-      "s3t": "3. Service and city pages",
+      "s3t": "Service and city pages",
       "s3d": "Quote pages with prices and FAQ that answer “Ankara + service” searches; Google Business Profile and local signals.",
-      "s4t": "4. Measurement",
+      "s4t": "Measurement",
       "s4d": "Monthly Search Console report: impressions, clicks, position. We track progress on target searches together."
     }
   },
@@ -2995,7 +2995,7 @@
       "r4a": "Measurement",
       "r4b": "Search Console rank and clicks",
       "r4c": "Recurring prompt tests + Search Console AI report",
-      "note": "They are not alternatives: AI answers rely heavily on search results. That is why the same team runs GEO and <a href=\"/ankara-seo\" style=\"color:#c084fc\">Ankara SEO</a>."
+      "note": "They are not alternatives: AI answers rely heavily on search results. That is why the same team runs GEO and <a href=\"/ankara-seo\">Ankara SEO</a>."
     },
     "pricing": {
       "title": "GEO optimization price (2026)",
@@ -3008,40 +3008,40 @@
       "t3": "8–12 weeks",
       "d1": "We test 20–30 real customer questions on ChatGPT, Gemini, Perplexity and Google AI; written report and roadmap.",
       "d2": "Audit + schema and entity data, llms.txt, quotable content blocks, FAQ and external profile clean-up.",
-      "d3": "Technical and local SEO plus GEO in one package. Details: <a href=\"/ankara-seo\" style=\"color:#c084fc\">Ankara SEO</a>."
+      "d3": "Technical and local SEO plus GEO in one package. Details: <a href=\"/ankara-seo\">Ankara SEO</a>."
     },
     "cards": {
       "title": "What GEO covers",
-      "c1t": "🏷️ Entity and brand consistency",
+      "c1t": "Entity and brand consistency",
       "c1d": "Name, address, phone, services and prices match on the site, Google Business Profile and directories. Organization and LocalBusiness schema, sameAs links.",
-      "c2t": "✍️ Quotable content",
+      "c2t": "Quotable content",
       "c2d": "Every service page gets a one-sentence definition, price range, timeline and FAQ: short blocks a model can copy and cite.",
-      "c3t": "🤖 AI crawler access",
+      "c3t": "AI crawler access",
       "c3d": "GPTBot, ClaudeBot, PerplexityBot and Google-Extended allowed in robots.txt; llms.txt and sitemap; server-rendered text, not hidden in JavaScript.",
-      "c4t": "🔗 Third-party sources",
+      "c4t": "Third-party sources",
       "c4d": "Verifiable presence on Clutch, GoodFirms, LinkedIn, Google reviews and industry sites. Models look at who mentions you, not only your site.",
-      "c5t": "📍 Ankara and local signal",
+      "c5t": "Ankara and local signal",
       "c5d": "City and district data, map listing and local references to stand out for “firm in Ankara” questions.",
-      "c6t": "📊 Measurement and reporting",
+      "c6t": "Measurement and reporting",
       "c6d": "Target questions are re-asked every month on ChatGPT, Gemini, Perplexity and Google AI; the share of answers that mention you and Search Console data are reported."
     },
     "steps": {
       "title": "How the GEO process works",
-      "s1t": "1. Question list",
+      "s1t": "Question list",
       "s1d": "Together we define the 20–30 questions your customers ask AI: “have … built in Ankara”, “… price”, “best … firm”.",
-      "s2t": "2. Audit",
+      "s2t": "Audit",
       "s2d": "We ask every question on four platforms and record who is recommended and which sources are shown. We list your site's technical and content gaps.",
-      "s3t": "3. Fixes",
+      "s3t": "Fixes",
       "s3d": "Schema, llms.txt, crawler access, page titles and quotable blocks. We apply them even if we did not build your site.",
-      "s4t": "4. External sources",
+      "s4t": "External sources",
       "s4d": "Directory profiles, Google Business Profile and consistent company data. A real customer-review routine is set up.",
-      "s5t": "5. Monthly measurement",
+      "s5t": "Monthly measurement",
       "s5d": "The same questions are asked again, change is reported and new content needs are identified."
     },
     "proof": {
-      "title": "We tested it on our own site",
+      "title": "We apply the method to our own site",
       "p1": "According to Google Search Console, ozturksoft.net shows in positions 4–5 for long, question-style searches such as “which firms build KVKK and GDPR compliant enterprise AI solutions?”. We applied the method on this page to our own site first.",
-      "p2": "<strong>Honest note:</strong> do not trust an agency that guarantees “#1 on ChatGPT or Gemini”. Models re-select their sources for every question. We target measurable visibility gains and report them every month."
+      "p2": "<strong>Our transparency principle:</strong> AI answers have no fixed ranking; models re-select their sources for every question. We therefore do not guarantee a “#1 spot”; we target measurable visibility gains and report them every month."
     },
     "who": {
       "title": "Who is GEO for?",
@@ -3063,12 +3063,12 @@
       "q5": "Is adding llms.txt enough?",
       "a5": "No. llms.txt is useful but does not deliver results alone. Models mainly rely on page content, search results and external sources that mention you.",
       "q6": "Can GEO work without SEO?",
-      "a6": "Partly. Most AI answers draw on search results, so weak SEO also limits GEO. That is why we plan both together with <a href=\"/ankara-seo\" style=\"color:#c084fc\">Ankara SEO</a>."
+      "a6": "Partly. Most AI answers draw on search results, so weak SEO also limits GEO. That is why we plan both together with <a href=\"/ankara-seo\">Ankara SEO</a>."
     },
     "cta": {
       "btn": "Free GEO discovery",
-      "title": "Let AI recommend you",
-      "desc": "In the free discovery we test 5 target questions together. <a href=\"tel:+905465496806\" style=\"color:#c084fc\">+90 546 549 6806</a>",
+      "title": "Let's position your brand in AI search",
+      "desc": "In the free discovery we test 5 target questions together. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
       "btn2": "Get a GEO quote"
     },
     "related": {

@@ -2798,13 +2798,13 @@
   },
   "seoPage": {
     "hero": {
-      "badge": "Teknik SEO · Yerel · GEO · +90 546 549 6806",
+      "badge": "Teknik SEO · Yerel SEO · GEO",
       "title": "Ankara SEO",
-      "desc": "Ankara SEO: Google’da hizmet aramasında çıkın; ChatGPT ve Gemini sizi kaynak göstersin. Google Ads ve sosyal medya yönetimi değil. Site <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">web tasarım</a> aynı Çankaya ekibinde. Ücretsiz keşif."
+      "desc": "Ankara'daki işletmeler için teknik SEO, yerel SEO ve yapay zeka arama optimizasyonu. Hedefimiz, hizmetlerinizi arayan müşterilerin sizi Google'da ve ChatGPT, Gemini gibi yapay zeka asistanlarında bulması. Ücretli reklam yönetimi değil, kalıcı organik görünürlük. Ücretsiz keşif görüşmesi."
     },
     "pricing": {
       "title": "Ankara SEO fiyatı (2026)",
-      "intro": "Fiyat sayfa sayısı ve rekabete göre değişir. Bantlar 2026 Ankara piyasasıdır; keşif ücretsiz, teklif yazılıdır. Reklam bütçesi dahil değildir.",
+      "intro": "Fiyatlandırma sayfa sayısına, sektördeki rekabete ve hedef anahtar kelimelere göre belirlenir. Aşağıdaki aralıklar 2026 yılı Ankara piyasasını yansıtır. Keşif görüşmesi ücretsizdir; teklif yazılı olarak sunulur. Reklam bütçesi kapsam dışıdır.",
       "row1": "Teknik SEO",
       "row2": "Yerel Ankara SEO",
       "row3": "SEO + GEO",
@@ -2815,38 +2815,38 @@
       "linkGuide": "SEO rehberi"
     },
     "cards": {
-      "c1title": "⚙️ Teknik SEO",
-      "c1desc": "Hız, indeks, schema, sitemap, hreflang. Site açılmıyorsa içerik yazılmaz.",
-      "c1link": "Keşif ayarla →",
-      "c2title": "📍 Yerel Ankara",
-      "c2desc": "Hizmet + şehir sayfası, Google İşletme. Ads değil. <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">Web tasarım</a>.",
-      "c2link": "Web tasarım →",
-      "c3title": "🤖 GEO",
-      "c3desc": "llms.txt, alıntı bloğu, SSS. Rehber: <a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\" style=\"color:#22c55e\">GEO</a>.",
+      "c1title": "Teknik SEO",
+      "c1desc": "Sayfa hızı, indekslenme, yapılandırılmış veri (schema), site haritası ve çok dilli yapı (hreflang). İçerik çalışmasından önce sitenin teknik altyapısı sağlam olmalıdır.",
+      "c1link": "Keşif görüşmesi planlayın →",
+      "c2title": "Yerel Ankara SEO",
+      "c2desc": "Hizmet ve şehir odaklı sayfalar, Google İşletme Profili optimizasyonu ve tutarlı firma bilgisi ile “Ankara + hizmet” aramalarında görünürlük.",
+      "c2link": "Ankara web tasarım →",
+      "c3title": "GEO: Yapay zeka araması",
+      "c3desc": "ChatGPT, Gemini, Perplexity ve Google AI Özetleri'nde kaynak gösterilmek için yapılandırılmış içerik, SSS blokları ve llms.txt.",
       "c3link": "GEO optimizasyonu →",
-      "c4title": "🚫 Ads yok",
-      "c4desc": "Google Ads ve sosyal medya yönetimi satılmaz. Organik + AI arama.",
+      "c4title": "Ölçüm ve raporlama",
+      "c4desc": "Aylık Search Console raporu ile gösterim, tıklama ve sıralama takibi. Ücretli reklam ve sosyal medya yönetimi hizmetlerimiz arasında yer almaz.",
       "c4link": "Web sitesi yaptırmak →"
     },
     "who": {
-      "title": "Ankara SEO’yu kim yaptırır?",
-      "intro": "“Ankara SEO” reklam değil, aranınca bulunmaktır. Ajans panosu istemiyorsanız site ve arama aynı yazılım ekibinde yürür.",
-      "i1": "Site var, “Ankara web tasarım / yazılım” yazınca rakip çıkıyor.",
-      "i2": "Teklif sayfası yok; blog var. Hire-intent URL yazılsın.",
-      "i3": "ChatGPT Ankara firması sorunca adınız yok. GEO aynı iş.",
-      "i4": "Ads ajansı değil, teslim edilen siteyi ölçen ekip. Site yoksa <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#22c55e\">web sitesi yaptırmak</a>.",
-      "outro": "Ücretsiz keşif: <a href=\"tel:+905465496806\" style=\"color:#22c55e\">+90 546 549 6806</a>."
+      "title": "Ankara SEO hizmeti kimler için uygundur?",
+      "intro": "SEO, reklam bütçesine bağlı olmadan arama sonuçlarında kalıcı olarak yer almanızı sağlar. Web siteniz ve arama görünürlüğünüz aynı yazılım ekibi tarafından yönetilir.",
+      "i1": "Web sitesi olduğu hâlde “Ankara + hizmet” aramalarında rakipleri öne çıkan işletmeler.",
+      "i2": "Blog içeriği bulunan ancak hizmet ve fiyat odaklı teklif sayfaları eksik olan siteler.",
+      "i3": "Yapay zeka asistanlarında Ankara'daki firmalar sorulduğunda adı geçmeyen markalar.",
+      "i4": "Reklam ajansı yerine siteyi geliştiren ve sonuçları ölçen bir teknik ekip arayan kurumlar. Henüz siteniz yoksa: <a href=\"/web-sitesi-yaptirmak-ankara\">web sitesi yaptırmak</a>.",
+      "outro": "Ücretsiz keşif görüşmesi: <a href=\"tel:+905465496806\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "Sık sorulanlar",
       "q1": "Ankara SEO ne kadar tutar?",
       "a1": "Teknik 25.000–45.000 TL (2–4 hafta), yerel 45.000–80.000 TL, SEO+GEO 80.000–140.000 TL. Keşif ücretsizdir.",
-      "q2": "Google Ads dahil mi?",
-      "a2": "Hayır. Reklam ve sosyal medya yönetimi yok. Organik Google + AI arama.",
-      "q3": "Rehber yeter mi?",
-      "a3": "Bilgi <a href=\"/blog/seo-nedir-onemi-rehberi-2026\" style=\"color:#22c55e\">SEO rehberi</a> ve <a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\" style=\"color:#22c55e\">GEO</a>. İş bu sayfadan.",
-      "q4": "Site yoksa?",
-      "a4": "Önce <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">web tasarım</a> veya <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#22c55e\">web sitesi yaptırmak</a>; SEO aynı teklife eklenir.",
+      "q2": "Google Ads yönetimi hizmete dahil mi?",
+      "a2": "Hayır. Hizmetimiz ücretli reklam ve sosyal medya yönetimini kapsamaz; organik Google sıralaması ve yapay zeka araması üzerine odaklanır.",
+      "q3": "SEO hakkında daha fazla bilgiyi nerede bulabilirim?",
+      "a3": "Genel bilgi için <a href=\"/blog/seo-nedir-onemi-rehberi-2026\">SEO rehberimizi</a> ve <a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\">GEO rehberimizi</a> inceleyebilirsiniz. Projeniz için ücretsiz keşif görüşmesi planlayabilirsiniz.",
+      "q4": "Web sitem yoksa SEO hizmeti alabilir miyim?",
+      "a4": "Önce <a href=\"/ankara-web-tasarim\">web tasarım</a> veya <a href=\"/web-sitesi-yaptirmak-ankara\">web sitesi</a> projesi planlanır; SEO çalışması aynı teklife dahil edilir.",
       "q5": "Ankara SEO'da sonuç ne zaman görülür?",
       "a5": "Teknik düzeltmelerin etkisi genelde 2–6 haftada, rekabetçi “Ankara + hizmet” aramalarında kalıcı yükselme 3–6 ayda görülür.",
       "q6": "İlk sıra garantisi veriyor musunuz?",
@@ -2854,8 +2854,8 @@
     },
     "cta": {
       "btn": "Ücretsiz keşif görüşmesi",
-      "title": "Ankara aramasını konuşalım",
-      "desc": "Ücretsiz keşif — teknik, yerel, GEO. <a href=\"tel:+905465496806\" style=\"color:#22c55e\">+90 546 549 6806</a>",
+      "title": "Ankara'da arama görünürlüğünüzü birlikte planlayalım",
+      "desc": "Teknik SEO, yerel SEO ve GEO için ücretsiz keşif görüşmesi. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
       "btn2": "Ücretsiz teklif al"
     },
     "footer": "© 2026 Ozturksoft — Ankara SEO",
@@ -2871,17 +2871,17 @@
     "stats": {
       "s1l": "Teknik kurulum",
       "s2l": "SEO + GEO",
-      "s3l": "Teknik teslim"
+      "s3l": "Teknik kurulum süresi"
     },
     "process": {
       "title": "Ankara SEO süreci",
-      "s1t": "1. Denetim",
+      "s1t": "Denetim",
       "s1d": "Search Console, hız, indeks ve rakip analizi. Hangi aramada kaçıncı sırada olduğunuzu ve neden geride kaldığınızı yazılı olarak çıkarırız.",
-      "s2t": "2. Teknik düzeltme",
+      "s2t": "Teknik düzeltme",
       "s2d": "Hız, mobil uyum, schema, sitemap, canonical ve hreflang. İçerikten önce sitenin Google'a düzgün açılması gerekir.",
-      "s3t": "3. Hizmet ve şehir sayfaları",
+      "s3t": "Hizmet ve şehir sayfaları",
       "s3d": "“Ankara + hizmet” aramasına karşılık gelen, fiyat ve SSS içeren teklif sayfaları; Google İşletme Profili ve yerel sinyal.",
-      "s4t": "4. Ölçüm",
+      "s4t": "Ölçüm",
       "s4d": "Aylık Search Console raporu: gösterim, tıklama, sıra. Hedef aramalarda ilerlemeyi birlikte takip ederiz."
     }
   },
@@ -3012,36 +3012,36 @@
     },
     "cards": {
       "title": "GEO kapsamında ne yapıyoruz?",
-      "c1t": "🏷️ Varlık ve marka tutarlılığı",
+      "c1t": "Varlık ve marka tutarlılığı",
       "c1d": "Firma adı, adres, telefon, hizmetler ve fiyatlar sitede, Google İşletme Profili'nde ve dizinlerde aynı. Organization ve LocalBusiness schema, sameAs bağlantıları.",
-      "c2t": "✍️ Alıntılanabilir içerik",
+      "c2t": "Alıntılanabilir içerik",
       "c2d": "Her hizmet sayfasında tek cümlelik net tanım, fiyat aralığı, süre ve SSS. Modelin kopyalayıp kaynak gösterebileceği kısa bloklar.",
-      "c3t": "🤖 Yapay zeka botu erişimi",
+      "c3t": "Yapay zeka botu erişimi",
       "c3d": "robots.txt'te GPTBot, ClaudeBot, PerplexityBot ve Google-Extended izinleri; llms.txt ve sitemap; JavaScript'e gömülü kalmayan, sunucudan gelen metin.",
-      "c4t": "🔗 Üçüncü taraf kaynaklar",
+      "c4t": "Üçüncü taraf kaynaklar",
       "c4d": "Clutch, GoodFirms, LinkedIn, Google yorumları ve sektör sitelerinde doğrulanabilir varlık. Modeller sadece sizin sitenize değil, sizden bahsedenlere de bakar.",
-      "c5t": "📍 Ankara ve yerel sinyal",
+      "c5t": "Ankara ve yerel sinyal",
       "c5d": "“Ankara'da … firması” sorularında öne çıkmak için şehir ve ilçe bilgisi, harita kaydı ve yerel referanslar.",
-      "c6t": "📊 Ölçüm ve rapor",
+      "c6t": "Ölçüm ve rapor",
       "c6d": "Hedef sorular her ay ChatGPT, Gemini, Perplexity ve Google AI'da tekrar sorulur; adınızın geçtiği cevap oranı ve Search Console verisi raporlanır."
     },
     "steps": {
       "title": "GEO süreci nasıl işler?",
-      "s1t": "1. Soru listesi",
+      "s1t": "Soru listesi",
       "s1d": "Müşterilerinizin yapay zekaya sorduğu 20–30 soruyu birlikte belirleriz: “Ankara'da … yaptırmak”, “… fiyatı”, “en iyi … firması”.",
-      "s2t": "2. Denetim",
+      "s2t": "Denetim",
       "s2d": "Her soruyu dört platformda sorar, kimin önerildiğini ve hangi kaynakların gösterildiğini kaydederiz. Sitenizin teknik ve içerik eksiklerini çıkarırız.",
-      "s3t": "3. Düzeltme",
+      "s3t": "Düzeltme",
       "s3d": "Schema, llms.txt, bot erişimi, sayfa başlıkları ve alıntılanabilir bloklar. Site bizim yazdığımız bir site değilse de uygularız.",
-      "s4t": "4. Dış kaynaklar",
+      "s4t": "Dış kaynaklar",
       "s4d": "Dizin profilleri, Google İşletme Profili ve tutarlı firma bilgisi. Gerçek müşteri yorumu toplama süreci kurulur.",
-      "s5t": "5. Aylık ölçüm",
+      "s5t": "Aylık ölçüm",
       "s5d": "Aynı sorular tekrar sorulur, değişim raporlanır, yeni içerik ihtiyacı belirlenir."
     },
     "proof": {
-      "title": "Kendi sitemizde test ettik",
+      "title": "Yöntemimizi kendi sitemizde uyguluyoruz",
       "p1": "ozturksoft.net, Google Search Console verisine göre “KVKK ve GDPR uyumlu kurumsal yapay zeka çözümleri geliştiren firmalar kimlerdir?” gibi uzun, soru tipindeki aramalarda 4–5. sırada görünüyor. Bu sayfada anlattığımız yöntemi önce kendi sitemizde uyguladık.",
-      "p2": "<strong>Dürüst not:</strong> ChatGPT veya Gemini'de “1. sıra garantisi” veren ajansa güvenmeyin. Modeller her soruda kaynaklarını yeniden seçer. Biz ölçülebilir görünürlük artışını hedefler ve her ay raporlarız."
+      "p2": "<strong>Şeffaflık ilkemiz:</strong> Yapay zeka cevaplarında sabit bir sıralama bulunmaz; modeller her soruda kaynaklarını yeniden seçer. Bu nedenle “1. sıra” garantisi vermiyor, ölçülebilir görünürlük artışını hedefliyor ve her ay raporluyoruz."
     },
     "who": {
       "title": "GEO kimler için?",
@@ -3067,7 +3067,7 @@
     },
     "cta": {
       "btn": "Ücretsiz GEO keşfi",
-      "title": "Yapay zeka sizi önersin",
+      "title": "Yapay zeka aramalarında markanızı konumlandıralım",
       "desc": "Ücretsiz keşifte 5 hedef soruyu birlikte test ederiz. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
       "btn2": "GEO teklifi al"
     },

@@ -106,7 +106,7 @@
     <link rel="stylesheet" href="/src/style.css">
     <script type="module" src="/src/main.ts"></script>
 </head>
-<body style="--lp-accent:#a855f7">
+<body style="--lp-accent:#3b82f6">
     <nav>
         <a href="/"><img src="/images/logo.png" alt="Ozturksoft" class="logo-img" height="80"></a>
         <ul class="nav-links" id="navLinks">
@@ -139,7 +139,7 @@
         </div>
     </nav>
 
-    <header class="lp-hero" style="background-image:linear-gradient(135deg,rgba(2,6,23,.93),rgba(88,28,135,.72)),url('https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1920&q=80')">
+    <header class="lp-hero" style="background-image:linear-gradient(135deg,rgba(2,6,23,.94),rgba(30,58,138,.78)),url('https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1920&q=80')">
         <div class="lp-hero-inner">
             <span class="lp-kicker" data-i18n="geoPage.hero.badge">GEO · ChatGPT · Gemini · Perplexity · Google AI</span>
             <h1 data-i18n="geoPage.hero.title">GEO Optimizasyonu</h1>
@@ -207,27 +207,33 @@
         <h2 data-i18n="geoPage.cards.title">GEO kapsamında ne yapıyoruz?</h2>
         <div class="lp-grid lp-grid-3">
             <article class="lp-card">
-                <h3 data-i18n="geoPage.cards.c1t">🏷️ Varlık ve marka tutarlılığı</h3>
+                <div class="lp-icon"><i class="fas fa-id-card" aria-hidden="true"></i></div>
+                <h3 data-i18n="geoPage.cards.c1t">Varlık ve marka tutarlılığı</h3>
                 <p data-i18n="geoPage.cards.c1d">Firma adı, adres, telefon, hizmetler ve fiyatlar sitede, Google İşletme Profili'nde ve dizinlerde aynı. Organization ve LocalBusiness schema, sameAs bağlantıları.</p>
             </article>
             <article class="lp-card">
-                <h3 data-i18n="geoPage.cards.c2t">✍️ Alıntılanabilir içerik</h3>
+                <div class="lp-icon"><i class="fas fa-quote-left" aria-hidden="true"></i></div>
+                <h3 data-i18n="geoPage.cards.c2t">Alıntılanabilir içerik</h3>
                 <p data-i18n="geoPage.cards.c2d">Her hizmet sayfasında tek cümlelik net tanım, fiyat aralığı, süre ve SSS. Modelin kopyalayıp kaynak gösterebileceği kısa bloklar.</p>
             </article>
             <article class="lp-card">
-                <h3 data-i18n="geoPage.cards.c3t">🤖 Yapay zeka botu erişimi</h3>
+                <div class="lp-icon"><i class="fas fa-robot" aria-hidden="true"></i></div>
+                <h3 data-i18n="geoPage.cards.c3t">Yapay zeka botu erişimi</h3>
                 <p data-i18n="geoPage.cards.c3d">robots.txt'te GPTBot, ClaudeBot, PerplexityBot ve Google-Extended izinleri; llms.txt ve sitemap; JavaScript'e gömülü kalmayan, sunucudan gelen metin.</p>
             </article>
             <article class="lp-card">
-                <h3 data-i18n="geoPage.cards.c4t">🔗 Üçüncü taraf kaynaklar</h3>
+                <div class="lp-icon"><i class="fas fa-link" aria-hidden="true"></i></div>
+                <h3 data-i18n="geoPage.cards.c4t">Üçüncü taraf kaynaklar</h3>
                 <p data-i18n="geoPage.cards.c4d">Clutch, GoodFirms, LinkedIn, Google yorumları ve sektör sitelerinde doğrulanabilir varlık. Modeller sadece sizin sitenize değil, sizden bahsedenlere de bakar.</p>
             </article>
             <article class="lp-card">
-                <h3 data-i18n="geoPage.cards.c5t">📍 Ankara ve yerel sinyal</h3>
+                <div class="lp-icon"><i class="fas fa-location-dot" aria-hidden="true"></i></div>
+                <h3 data-i18n="geoPage.cards.c5t">Ankara ve yerel sinyal</h3>
                 <p data-i18n="geoPage.cards.c5d">“Ankara'da … firması” sorularında öne çıkmak için şehir ve ilçe bilgisi, harita kaydı ve yerel referanslar.</p>
             </article>
             <article class="lp-card">
-                <h3 data-i18n="geoPage.cards.c6t">📊 Ölçüm ve rapor</h3>
+                <div class="lp-icon"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
+                <h3 data-i18n="geoPage.cards.c6t">Ölçüm ve rapor</h3>
                 <p data-i18n="geoPage.cards.c6d">Hedef sorular her ay ChatGPT, Gemini, Perplexity ve Google AI'da tekrar sorulur; adınızın geçtiği cevap oranı ve Search Console verisi raporlanır.</p>
             </article>
         </div>
@@ -237,23 +243,23 @@
         <h2 data-i18n="geoPage.steps.title">GEO süreci nasıl işler?</h2>
         <ol class="lp-steps">
             <li>
-                <h3 data-i18n="geoPage.steps.s1t">1. Soru listesi</h3>
+                <h3 data-i18n="geoPage.steps.s1t">Soru listesi</h3>
                 <p data-i18n="geoPage.steps.s1d">Müşterilerinizin yapay zekaya sorduğu 20–30 soruyu birlikte belirleriz: “Ankara'da … yaptırmak”, “… fiyatı”, “en iyi … firması”.</p>
             </li>
             <li>
-                <h3 data-i18n="geoPage.steps.s2t">2. Denetim</h3>
+                <h3 data-i18n="geoPage.steps.s2t">Denetim</h3>
                 <p data-i18n="geoPage.steps.s2d">Her soruyu dört platformda sorar, kimin önerildiğini ve hangi kaynakların gösterildiğini kaydederiz. Sitenizin teknik ve içerik eksiklerini çıkarırız.</p>
             </li>
             <li>
-                <h3 data-i18n="geoPage.steps.s3t">3. Düzeltme</h3>
+                <h3 data-i18n="geoPage.steps.s3t">Düzeltme</h3>
                 <p data-i18n="geoPage.steps.s3d">Schema, llms.txt, bot erişimi, sayfa başlıkları ve alıntılanabilir bloklar. Site bizim yazdığımız bir site değilse de uygularız.</p>
             </li>
             <li>
-                <h3 data-i18n="geoPage.steps.s4t">4. Dış kaynaklar</h3>
+                <h3 data-i18n="geoPage.steps.s4t">Dış kaynaklar</h3>
                 <p data-i18n="geoPage.steps.s4d">Dizin profilleri, Google İşletme Profili ve tutarlı firma bilgisi. Gerçek müşteri yorumu toplama süreci kurulur.</p>
             </li>
             <li>
-                <h3 data-i18n="geoPage.steps.s5t">5. Aylık ölçüm</h3>
+                <h3 data-i18n="geoPage.steps.s5t">Aylık ölçüm</h3>
                 <p data-i18n="geoPage.steps.s5d">Aynı sorular tekrar sorulur, değişim raporlanır, yeni içerik ihtiyacı belirlenir.</p>
             </li>
         </ol>
@@ -261,9 +267,9 @@
 
     <section class="lp-section lp-narrow" style="padding-top:0">
         <div class="lp-note">
-            <h2 data-i18n="geoPage.proof.title">Kendi sitemizde test ettik</h2>
+            <h2 data-i18n="geoPage.proof.title">Yöntemimizi kendi sitemizde uyguluyoruz</h2>
             <p data-i18n="geoPage.proof.p1">ozturksoft.net, Google Search Console verisine göre “KVKK ve GDPR uyumlu kurumsal yapay zeka çözümleri geliştiren firmalar kimlerdir?” gibi uzun, soru tipindeki aramalarda 4–5. sırada görünüyor. Bu sayfada anlattığımız yöntemi önce kendi sitemizde uyguladık.</p>
-            <p data-i18n="geoPage.proof.p2"><strong>Dürüst not:</strong> ChatGPT veya Gemini'de “1. sıra garantisi” veren ajansa güvenmeyin. Modeller her soruda kaynaklarını yeniden seçer. Biz ölçülebilir görünürlük artışını hedefler ve her ay raporlarız.</p>
+            <p data-i18n="geoPage.proof.p2"><strong>Şeffaflık ilkemiz:</strong> Yapay zeka cevaplarında sabit bir sıralama bulunmaz; modeller her soruda kaynaklarını yeniden seçer. Bu nedenle “1. sıra” garantisi vermiyor, ölçülebilir görünürlük artışını hedefliyor ve her ay raporluyoruz.</p>
         </div>
     </section>
 
@@ -306,7 +312,7 @@
     </section>
 
     <section class="lp-cta">
-        <h2 data-i18n="geoPage.cta.title">Yapay zeka sizi önersin</h2>
+        <h2 data-i18n="geoPage.cta.title">Yapay zeka aramalarında markanızı konumlandıralım</h2>
         <p data-i18n="geoPage.cta.desc">Ücretsiz keşifte 5 hedef soruyu birlikte test ederiz. <a href="tel:+905465496806">+90 546 549 6806</a></p>
         <a href="/iletisim" class="btn btn-primary" style="padding:16px 36px" data-i18n="geoPage.cta.btn2">GEO teklifi al</a>
         <p class="lp-links" style="margin-top:22px">
