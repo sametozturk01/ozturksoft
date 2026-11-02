@@ -610,7 +610,8 @@
       "amazon": "Amazon-Anbindung",
       "crm": "CRM-Software",
       "seo": "Ankara-SEO",
-      "mikro": "Mikro-Anbindung"
+      "mikro": "Mikro-Anbindung",
+      "geo": "GEO-Optimierung"
     }
   },
   "aiFirmPage": {
@@ -2807,7 +2808,7 @@
       "c2link": "Webdesign →",
       "c3title": "🤖 GEO",
       "c3desc": "llms.txt, Zitatblöcke, FAQ. Leitfaden: <a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\" style=\"color:#22c55e\">GEO</a>.",
-      "c3link": "GEO-Leitfaden →",
+      "c3link": "GEO-Optimierung →",
       "c4title": "🚫 Keine Ads",
       "c4desc": "Kein Google Ads und kein Social-Management. Organisch + KI-Suche.",
       "c4link": "Website erstellen lassen →"
@@ -2830,7 +2831,11 @@
       "q3": "Reicht der Leitfaden?",
       "a3": "Information steht im <a href=\"/blog/seo-nedir-onemi-rehberi-2026\" style=\"color:#22c55e\">SEO-Leitfaden</a> und bei <a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\" style=\"color:#22c55e\">GEO</a>. Die Arbeit startet hier.",
       "q4": "Noch keine Website?",
-      "a4": "Zuerst <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">Webdesign</a> oder <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#22c55e\">Website erstellen lassen</a>; SEO kommt ins selbe Angebot."
+      "a4": "Zuerst <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">Webdesign</a> oder <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#22c55e\">Website erstellen lassen</a>; SEO kommt ins selbe Angebot.",
+      "q5": "Wann zeigt Ankara SEO Wirkung?",
+      "a5": "Technische Korrekturen wirken meist in 2–6 Wochen; dauerhafte Verbesserungen bei umkämpften Suchen wie „Ankara + Leistung“ brauchen 3–6 Monate.",
+      "q6": "Garantieren Sie Platz 1?",
+      "a6": "Nein. Niemand kann Google-Rankings garantieren. Wir berichten Zielsuchen und monatlichen Fortschritt schriftlich. Für KI-Suche: <a href=\"/geo-optimizasyonu\" style=\"color:#22c55e\">GEO-Optimierung</a>."
     },
     "cta": {
       "btn": "Kostenloses Kickoff-Gespräch",
@@ -2842,7 +2847,8 @@
     "related": {
       "web": "Webdesign",
       "crm": "CRM",
-      "geo": "GEO-Leitfaden"
+      "geo": "GEO-Leitfaden",
+      "geoPage": "GEO-Optimierung"
     },
     "meta": {
       "title": "Ankara-SEO | Technisches SEO & GEO | Ozturksoft"
@@ -2851,6 +2857,17 @@
       "s1l": "Technische Einrichtung",
       "s2l": "SEO + GEO",
       "s3l": "Technische Lieferung"
+    },
+    "process": {
+      "title": "Ablauf von Ankara SEO",
+      "s1t": "1. Audit",
+      "s1d": "Search Console, Geschwindigkeit, Indexierung und Wettbewerbsanalyse. Wir dokumentieren, wo Sie bei welcher Suche stehen und warum Sie zurückliegen.",
+      "s2t": "2. Technische Korrekturen",
+      "s2d": "Geschwindigkeit, Mobilfähigkeit, Schema, Sitemap, Canonical und hreflang. Vor dem Inhalt muss die Website für Google sauber laden.",
+      "s3t": "3. Leistungs- und Stadtseiten",
+      "s3d": "Angebotsseiten mit Preisen und FAQ für Suchen wie „Ankara + Leistung“; Google-Unternehmensprofil und lokale Signale.",
+      "s4t": "4. Messung",
+      "s4d": "Monatlicher Search-Console-Bericht: Impressionen, Klicks, Position. Den Fortschritt bei Zielsuchen verfolgen wir gemeinsam."
     }
   },
   "mikroPage": {
@@ -2926,5 +2943,124 @@
       "s2l": "Bidirektional",
       "s3l": "Einweg-Lieferung"
     }
+  },
+  "geoPage": {
+    "meta": {
+      "title": "GEO-Optimierung | Sichtbarkeit in ChatGPT, Gemini & Google AI | Ozturksoft"
+    },
+    "hero": {
+      "badge": "GEO · ChatGPT · Gemini · Perplexity · Google AI",
+      "title": "GEO-Optimierung",
+      "desc": "GEO-Optimierung: Wenn Ihre Kunden ChatGPT, Gemini, Perplexity oder Google AI fragen, „welche Firma?“, steht Ihr Name in der Antwort. Keine Werbung, sondern eine Website und Marke, die KI verstehen, prüfen und zitieren kann. Team in Ankara-Çankaya, kostenloses Erstgespräch."
+    },
+    "stats": {
+      "s1l": "GEO-Audit",
+      "s2l": "GEO-Einrichtung",
+      "s3l": "Erste Wirkung"
+    },
+    "what": {
+      "title": "Was ist GEO?",
+      "p1": "<strong>GEO (Generative Engine Optimization)</strong> sorgt dafür, dass eine Marke in Antworten generativer KI wie ChatGPT, Gemini, Perplexity, Copilot und Google AI Overviews als Quelle genannt und empfohlen wird. SEO bringt Sie in den Suchergebnissen nach oben; GEO bringt Sie in die KI-Antwort, die Nutzer ohne Klick lesen.",
+      "p2": "KI-Assistenten lesen für ihre Antworten Suchergebnisse, klare Definitionen, Preise, FAQ-Blöcke und Drittquellen, die Sie erwähnen. Sind Ihre Angaben verstreut, widersprüchlich oder nur in Bildern, übergeht das Modell Sie. GEO macht diese Informationen maschinenlesbar und zitierfähig."
+    },
+    "diff": {
+      "title": "Unterschied zwischen SEO und GEO",
+      "h1": "Kriterium",
+      "h2": "SEO",
+      "h3": "GEO",
+      "r1a": "Ziel",
+      "r1b": "Top-Positionen bei Google",
+      "r1c": "Zitierte Quelle oder empfohlene Firma in KI-Antworten",
+      "r2a": "Ergebnisanzeige",
+      "r2b": "10 blaue Links",
+      "r2c": "Eine Antwort, wenige Quellen",
+      "r3a": "Hauptsignal",
+      "r3b": "Inhalt, Technik, Backlinks",
+      "r3c": "Klarheit, Konsistenz, Erwähnungen durch Dritte",
+      "r4a": "Messung",
+      "r4b": "Ranking und Klicks in der Search Console",
+      "r4c": "Regelmäßige Prompt-Tests + KI-Bericht der Search Console",
+      "note": "Beides ergänzt sich: KI-Antworten stützen sich stark auf Suchergebnisse. Deshalb betreut dasselbe Team GEO und <a href=\"/ankara-seo\" style=\"color:#c084fc\">Ankara SEO</a>."
+    },
+    "pricing": {
+      "title": "Preis für GEO-Optimierung (2026)",
+      "intro": "Der Preis hängt von Seitenzahl, Wettbewerb in Ihrer Branche und Anzahl der Zielfragen ab. Das Erstgespräch ist kostenlos, das Angebot schriftlich.",
+      "row1": "GEO-Audit",
+      "row2": "GEO-Einrichtung",
+      "row3": "SEO + GEO",
+      "t1": "1–2 Wochen",
+      "t2": "3–6 Wochen",
+      "t3": "8–12 Wochen",
+      "d1": "Wir testen 20–30 echte Kundenfragen in ChatGPT, Gemini, Perplexity und Google AI; schriftlicher Bericht und Fahrplan.",
+      "d2": "Audit + Schema und Entitätsdaten, llms.txt, zitierfähige Inhaltsblöcke, FAQ und Bereinigung externer Profile.",
+      "d3": "Technisches und lokales SEO plus GEO in einem Paket. Details: <a href=\"/ankara-seo\" style=\"color:#c084fc\">Ankara SEO</a>."
+    },
+    "cards": {
+      "title": "Was GEO umfasst",
+      "c1t": "🏷️ Entität und Markenkonsistenz",
+      "c1d": "Name, Adresse, Telefon, Leistungen und Preise stimmen auf der Website, im Google-Unternehmensprofil und in Verzeichnissen überein. Organization- und LocalBusiness-Schema, sameAs-Links.",
+      "c2t": "✍️ Zitierfähige Inhalte",
+      "c2d": "Jede Leistungsseite erhält eine Ein-Satz-Definition, Preisspanne, Dauer und FAQ: kurze Blöcke, die ein Modell übernehmen und zitieren kann.",
+      "c3t": "🤖 Zugang für KI-Crawler",
+      "c3d": "GPTBot, ClaudeBot, PerplexityBot und Google-Extended in robots.txt erlaubt; llms.txt und Sitemap; serverseitiger Text statt in JavaScript versteckt.",
+      "c4t": "🔗 Drittquellen",
+      "c4d": "Prüfbare Präsenz auf Clutch, GoodFirms, LinkedIn, in Google-Bewertungen und Branchenportalen. Modelle schauen auch darauf, wer Sie erwähnt.",
+      "c5t": "📍 Ankara und lokale Signale",
+      "c5d": "Stadt- und Bezirksangaben, Karteneintrag und lokale Referenzen für Fragen wie „Firma in Ankara“.",
+      "c6t": "📊 Messung und Bericht",
+      "c6d": "Zielfragen werden monatlich in ChatGPT, Gemini, Perplexity und Google AI erneut gestellt; Nennungsquote und Search-Console-Daten werden berichtet."
+    },
+    "steps": {
+      "title": "So läuft der GEO-Prozess",
+      "s1t": "1. Fragenliste",
+      "s1d": "Gemeinsam legen wir die 20–30 Fragen fest, die Ihre Kunden der KI stellen: „… in Ankara beauftragen“, „Preis für …“, „beste …-Firma“.",
+      "s2t": "2. Audit",
+      "s2d": "Wir stellen jede Frage auf vier Plattformen und dokumentieren, wer empfohlen wird und welche Quellen erscheinen. Technische und inhaltliche Lücken Ihrer Website werden erfasst.",
+      "s3t": "3. Umsetzung",
+      "s3d": "Schema, llms.txt, Crawler-Zugang, Seitentitel und zitierfähige Blöcke – auch wenn wir Ihre Website nicht gebaut haben.",
+      "s4t": "4. Externe Quellen",
+      "s4d": "Verzeichnisprofile, Google-Unternehmensprofil und einheitliche Firmendaten. Ein Prozess für echte Kundenbewertungen wird eingerichtet.",
+      "s5t": "5. Monatliche Messung",
+      "s5d": "Dieselben Fragen werden erneut gestellt, Veränderungen berichtet und neuer Inhaltsbedarf festgelegt."
+    },
+    "proof": {
+      "title": "Auf unserer eigenen Website getestet",
+      "p1": "Laut Google Search Console erscheint ozturksoft.net bei langen Fragesuchen wie „Welche Firmen entwickeln KVKK- und DSGVO-konforme KI-Lösungen für Unternehmen?“ auf Position 4–5. Die hier beschriebene Methode haben wir zuerst bei uns selbst angewendet.",
+      "p2": "<strong>Ehrlicher Hinweis:</strong> Vertrauen Sie keiner Agentur, die „Platz 1 in ChatGPT oder Gemini“ garantiert. Modelle wählen ihre Quellen bei jeder Frage neu. Wir zielen auf messbar mehr Sichtbarkeit und berichten monatlich."
+    },
+    "who": {
+      "title": "Für wen ist GEO?",
+      "i1": "B2B-Firmen und Dienstleister, deren Kunden vor einer Entscheidung ChatGPT fragen.",
+      "i2": "Unternehmen, die bei Google auf Seite 1 stehen, deren Konkurrent aber in KI-Antworten empfohlen wird.",
+      "i3": "Vertrauensbranchen in Ankara wie Software, Gesundheit, Recht, Ingenieurwesen und Bildung.",
+      "i4": "Exporteure, die in englisch- und deutschsprachigen KI-Suchen sichtbar sein wollen."
+    },
+    "faq": {
+      "title": "GEO-Optimierung: häufige Fragen",
+      "q1": "Was ist GEO-Optimierung?",
+      "a1": "Arbeit, damit Ihre Marke in KI-Antworten wie ChatGPT, Gemini, Perplexity und Google AI Overviews zitiert und empfohlen wird. Sie verbindet Technik, klare Inhalte und Drittquellen.",
+      "q2": "Was kostet GEO-Optimierung?",
+      "a2": "GEO-Audit 15.000–25.000 TL (1–2 Wochen), GEO-Einrichtung 35.000–60.000 TL (3–6 Wochen), SEO + GEO 80.000–140.000 TL (8–12 Wochen). Das Erstgespräch ist kostenlos.",
+      "q3": "Wann sieht man Ergebnisse?",
+      "a3": "Google AI Overviews und Perplexity ändern sich meist in 4–8 Wochen, weil sie aktuelle Suchergebnisse nutzen. Das eingebaute Wissen von ChatGPT und Gemini aktualisiert sich langsamer; Antworten mit Websuche reagieren schneller.",
+      "q4": "Garantieren Sie Platz 1 in ChatGPT?",
+      "a4": "Nein. KI-Antworten haben kein festes Ranking, und wer das garantiert, ist nicht ehrlich. Wir messen und steigern, wie oft Sie bei Zielfragen genannt werden.",
+      "q5": "Reicht eine llms.txt?",
+      "a5": "Nein. llms.txt ist nützlich, bringt allein aber keine Ergebnisse. Modelle stützen sich vor allem auf Seiteninhalte, Suchergebnisse und externe Erwähnungen.",
+      "q6": "Funktioniert GEO ohne SEO?",
+      "a6": "Nur teilweise. Die meisten KI-Antworten beruhen auf Suchergebnissen, schwaches SEO begrenzt also auch GEO. Deshalb planen wir beides zusammen mit <a href=\"/ankara-seo\" style=\"color:#c084fc\">Ankara SEO</a>."
+    },
+    "cta": {
+      "btn": "Kostenloses GEO-Gespräch",
+      "title": "Lassen Sie sich von KI empfehlen",
+      "desc": "Im kostenlosen Erstgespräch testen wir gemeinsam 5 Zielfragen. <a href=\"tel:+905465496806\" style=\"color:#c084fc\">+90 546 549 6806</a>",
+      "btn2": "GEO-Angebot anfordern"
+    },
+    "related": {
+      "seo": "Ankara SEO",
+      "guide": "GEO-Leitfaden",
+      "ai": "KI-Integration"
+    },
+    "footer": "© 2026 Ozturksoft — GEO-Optimierung, Ankara"
   }
 }

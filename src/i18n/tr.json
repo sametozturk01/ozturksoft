@@ -610,7 +610,8 @@
       "amazon": "Amazon entegrasyonu",
       "crm": "CRM yazılım",
       "seo": "Ankara SEO",
-      "mikro": "Mikro entegrasyon"
+      "mikro": "Mikro entegrasyon",
+      "geo": "GEO optimizasyonu"
     }
   },
   "aiFirmPage": {
@@ -2822,7 +2823,7 @@
       "c2link": "Web tasarım →",
       "c3title": "🤖 GEO",
       "c3desc": "llms.txt, alıntı bloğu, SSS. Rehber: <a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\" style=\"color:#22c55e\">GEO</a>.",
-      "c3link": "GEO rehberi →",
+      "c3link": "GEO optimizasyonu →",
       "c4title": "🚫 Ads yok",
       "c4desc": "Google Ads ve sosyal medya yönetimi satılmaz. Organik + AI arama.",
       "c4link": "Web sitesi yaptırmak →"
@@ -2845,7 +2846,11 @@
       "q3": "Rehber yeter mi?",
       "a3": "Bilgi <a href=\"/blog/seo-nedir-onemi-rehberi-2026\" style=\"color:#22c55e\">SEO rehberi</a> ve <a href=\"/blog/geo-nedir-generative-engine-optimization-rehberi-2026\" style=\"color:#22c55e\">GEO</a>. İş bu sayfadan.",
       "q4": "Site yoksa?",
-      "a4": "Önce <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">web tasarım</a> veya <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#22c55e\">web sitesi yaptırmak</a>; SEO aynı teklife eklenir."
+      "a4": "Önce <a href=\"/ankara-web-tasarim\" style=\"color:#22c55e\">web tasarım</a> veya <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#22c55e\">web sitesi yaptırmak</a>; SEO aynı teklife eklenir.",
+      "q5": "Ankara SEO'da sonuç ne zaman görülür?",
+      "a5": "Teknik düzeltmelerin etkisi genelde 2–6 haftada, rekabetçi “Ankara + hizmet” aramalarında kalıcı yükselme 3–6 ayda görülür.",
+      "q6": "İlk sıra garantisi veriyor musunuz?",
+      "a6": "Hayır. Google sıralamasını kimse garanti edemez. Hedef aramaları ve aylık ilerlemeyi yazılı raporlarız. Yapay zeka aramaları için: <a href=\"/geo-optimizasyonu\">GEO optimizasyonu</a>."
     },
     "cta": {
       "btn": "Ücretsiz keşif görüşmesi",
@@ -2857,7 +2862,8 @@
     "related": {
       "web": "Web tasarım",
       "crm": "CRM",
-      "geo": "GEO rehberi"
+      "geo": "GEO rehberi",
+      "geoPage": "GEO optimizasyonu"
     },
     "meta": {
       "title": "Ankara SEO | Teknik SEO & GEO | Ozturksoft"
@@ -2866,6 +2872,17 @@
       "s1l": "Teknik kurulum",
       "s2l": "SEO + GEO",
       "s3l": "Teknik teslim"
+    },
+    "process": {
+      "title": "Ankara SEO süreci",
+      "s1t": "1. Denetim",
+      "s1d": "Search Console, hız, indeks ve rakip analizi. Hangi aramada kaçıncı sırada olduğunuzu ve neden geride kaldığınızı yazılı olarak çıkarırız.",
+      "s2t": "2. Teknik düzeltme",
+      "s2d": "Hız, mobil uyum, schema, sitemap, canonical ve hreflang. İçerikten önce sitenin Google'a düzgün açılması gerekir.",
+      "s3t": "3. Hizmet ve şehir sayfaları",
+      "s3d": "“Ankara + hizmet” aramasına karşılık gelen, fiyat ve SSS içeren teklif sayfaları; Google İşletme Profili ve yerel sinyal.",
+      "s4t": "4. Ölçüm",
+      "s4d": "Aylık Search Console raporu: gösterim, tıklama, sıra. Hedef aramalarda ilerlemeyi birlikte takip ederiz."
     }
   },
   "mikroPage": {
@@ -2941,5 +2958,124 @@
       "s2l": "Çift yönlü",
       "s3l": "Tek yön teslim"
     }
+  },
+  "geoPage": {
+    "meta": {
+      "title": "GEO Optimizasyonu | ChatGPT, Gemini & Google AI Görünürlüğü | Ozturksoft"
+    },
+    "hero": {
+      "badge": "GEO · ChatGPT · Gemini · Perplexity · Google AI",
+      "title": "GEO Optimizasyonu",
+      "desc": "GEO optimizasyonu: Müşteriniz ChatGPT, Gemini, Perplexity veya Google AI'a “Ankara'da hangi firma?” diye sorduğunda cevapta adınız geçsin. Reklam değil; sitenizin ve markanızın yapay zeka tarafından anlaşılır, doğrulanabilir ve alıntılanabilir olması. Ankara Çankaya ekibi, ücretsiz keşif."
+    },
+    "stats": {
+      "s1l": "GEO denetimi",
+      "s2l": "GEO kurulumu",
+      "s3l": "İlk etki"
+    },
+    "what": {
+      "title": "GEO nedir?",
+      "p1": "<strong>GEO (Generative Engine Optimization)</strong>, bir markanın ChatGPT, Gemini, Perplexity, Copilot ve Google AI Özetleri gibi üretken yapay zeka cevaplarında kaynak gösterilmesi ve önerilmesi için yapılan optimizasyondur. SEO sizi arama sonuçlarında yukarı taşır; GEO ise kullanıcının hiç tıklamadan okuduğu yapay zeka cevabının içine girer.",
+      "p2": "Yapay zeka asistanları cevap üretirken arama sonuçlarını, net tanımları, fiyat bilgisini, SSS bloklarını ve sizden bahseden üçüncü taraf kaynakları tarar. Bilgileriniz dağınık, çelişkili veya sadece görsellerin içindeyse model sizi atlar. GEO bu bilgiyi makinenin okuyup alıntılayabileceği hâle getirir."
+    },
+    "diff": {
+      "title": "SEO ile GEO farkı",
+      "h1": "Kriter",
+      "h2": "SEO",
+      "h3": "GEO",
+      "r1a": "Hedef",
+      "r1b": "Google'da üst sıralar",
+      "r1c": "Yapay zeka cevabında kaynak veya önerilen firma olmak",
+      "r2a": "Sonuç ekranı",
+      "r2b": "10 mavi link",
+      "r2c": "Tek cevap, birkaç kaynak",
+      "r3a": "Ana sinyal",
+      "r3b": "İçerik, teknik altyapı, backlink",
+      "r3c": "Netlik, tutarlılık, üçüncü taraf bahsedilmeler",
+      "r4a": "Ölçüm",
+      "r4b": "Search Console sıralama ve tıklama",
+      "r4c": "Düzenli soru testleri + Search Console AI raporu",
+      "note": "İkisi birbirinin alternatifi değil: yapay zeka cevapları büyük ölçüde arama sonuçlarına dayanır. Bu yüzden GEO'yu <a href=\"/ankara-seo\">Ankara SEO</a> ile aynı ekip yürütür."
+    },
+    "pricing": {
+      "title": "GEO optimizasyonu fiyatı (2026)",
+      "intro": "Fiyat sayfa sayısına, sektördeki rekabete ve hedeflenen soru sayısına göre değişir. Keşif ücretsizdir, teklif yazılıdır.",
+      "row1": "GEO denetimi",
+      "row2": "GEO kurulumu",
+      "row3": "SEO + GEO",
+      "t1": "1–2 hafta",
+      "t2": "3–6 hafta",
+      "t3": "8–12 hafta",
+      "d1": "20–30 gerçek müşteri sorusuyla ChatGPT, Gemini, Perplexity ve Google AI'da nerede olduğunuzu ölçeriz; yazılı rapor ve yol haritası.",
+      "d2": "Denetim + schema ve varlık bilgisi, llms.txt, alıntılanabilir içerik blokları, SSS ve dış profil düzenlemesi.",
+      "d3": "Teknik ve yerel SEO ile GEO tek pakette. Ayrıntı: <a href=\"/ankara-seo\">Ankara SEO</a>."
+    },
+    "cards": {
+      "title": "GEO kapsamında ne yapıyoruz?",
+      "c1t": "🏷️ Varlık ve marka tutarlılığı",
+      "c1d": "Firma adı, adres, telefon, hizmetler ve fiyatlar sitede, Google İşletme Profili'nde ve dizinlerde aynı. Organization ve LocalBusiness schema, sameAs bağlantıları.",
+      "c2t": "✍️ Alıntılanabilir içerik",
+      "c2d": "Her hizmet sayfasında tek cümlelik net tanım, fiyat aralığı, süre ve SSS. Modelin kopyalayıp kaynak gösterebileceği kısa bloklar.",
+      "c3t": "🤖 Yapay zeka botu erişimi",
+      "c3d": "robots.txt'te GPTBot, ClaudeBot, PerplexityBot ve Google-Extended izinleri; llms.txt ve sitemap; JavaScript'e gömülü kalmayan, sunucudan gelen metin.",
+      "c4t": "🔗 Üçüncü taraf kaynaklar",
+      "c4d": "Clutch, GoodFirms, LinkedIn, Google yorumları ve sektör sitelerinde doğrulanabilir varlık. Modeller sadece sizin sitenize değil, sizden bahsedenlere de bakar.",
+      "c5t": "📍 Ankara ve yerel sinyal",
+      "c5d": "“Ankara'da … firması” sorularında öne çıkmak için şehir ve ilçe bilgisi, harita kaydı ve yerel referanslar.",
+      "c6t": "📊 Ölçüm ve rapor",
+      "c6d": "Hedef sorular her ay ChatGPT, Gemini, Perplexity ve Google AI'da tekrar sorulur; adınızın geçtiği cevap oranı ve Search Console verisi raporlanır."
+    },
+    "steps": {
+      "title": "GEO süreci nasıl işler?",
+      "s1t": "1. Soru listesi",
+      "s1d": "Müşterilerinizin yapay zekaya sorduğu 20–30 soruyu birlikte belirleriz: “Ankara'da … yaptırmak”, “… fiyatı”, “en iyi … firması”.",
+      "s2t": "2. Denetim",
+      "s2d": "Her soruyu dört platformda sorar, kimin önerildiğini ve hangi kaynakların gösterildiğini kaydederiz. Sitenizin teknik ve içerik eksiklerini çıkarırız.",
+      "s3t": "3. Düzeltme",
+      "s3d": "Schema, llms.txt, bot erişimi, sayfa başlıkları ve alıntılanabilir bloklar. Site bizim yazdığımız bir site değilse de uygularız.",
+      "s4t": "4. Dış kaynaklar",
+      "s4d": "Dizin profilleri, Google İşletme Profili ve tutarlı firma bilgisi. Gerçek müşteri yorumu toplama süreci kurulur.",
+      "s5t": "5. Aylık ölçüm",
+      "s5d": "Aynı sorular tekrar sorulur, değişim raporlanır, yeni içerik ihtiyacı belirlenir."
+    },
+    "proof": {
+      "title": "Kendi sitemizde test ettik",
+      "p1": "ozturksoft.net, Google Search Console verisine göre “KVKK ve GDPR uyumlu kurumsal yapay zeka çözümleri geliştiren firmalar kimlerdir?” gibi uzun, soru tipindeki aramalarda 4–5. sırada görünüyor. Bu sayfada anlattığımız yöntemi önce kendi sitemizde uyguladık.",
+      "p2": "<strong>Dürüst not:</strong> ChatGPT veya Gemini'de “1. sıra garantisi” veren ajansa güvenmeyin. Modeller her soruda kaynaklarını yeniden seçer. Biz ölçülebilir görünürlük artışını hedefler ve her ay raporlarız."
+    },
+    "who": {
+      "title": "GEO kimler için?",
+      "i1": "Müşterileri karar vermeden önce ChatGPT'ye danışan B2B firmalar ve kurumsal hizmet sağlayıcılar.",
+      "i2": "Google'da ilk sayfada olduğu hâlde yapay zeka cevaplarında rakibi önerilen işletmeler.",
+      "i3": "Ankara'da yazılım, sağlık, hukuk, mühendislik, eğitim gibi güven gerektiren sektörler.",
+      "i4": "Yurt dışına satış yapan, İngilizce ve Almanca yapay zeka aramalarında görünmek isteyen şirketler."
+    },
+    "faq": {
+      "title": "GEO optimizasyonu: sık sorulanlar",
+      "q1": "GEO optimizasyonu nedir?",
+      "a1": "ChatGPT, Gemini, Perplexity ve Google AI Özetleri gibi yapay zeka cevaplarında markanızın kaynak gösterilmesi ve önerilmesi için yapılan çalışmadır. Teknik altyapı, net içerik ve üçüncü taraf kaynaklardan oluşur.",
+      "q2": "GEO optimizasyonu ne kadar tutar?",
+      "a2": "GEO denetimi 15.000–25.000 TL (1–2 hafta), GEO kurulumu 35.000–60.000 TL (3–6 hafta), SEO + GEO paketi 80.000–140.000 TL (8–12 hafta). Keşif ücretsizdir.",
+      "q3": "Sonuç ne zaman görülür?",
+      "a3": "Google AI Özetleri ve Perplexity genelde 4–8 haftada değişir, çünkü güncel arama sonuçlarını kullanırlar. ChatGPT ve Gemini'nin kendi bilgisi daha yavaş güncellenir; web aramalı cevaplarda etki daha hızlıdır.",
+      "q4": "ChatGPT'de ilk sırada çıkmayı garanti ediyor musunuz?",
+      "a4": "Hayır. Yapay zeka cevaplarında sabit bir sıralama yok ve garanti veren dürüst değildir. Hedef sorularda adınızın geçme oranını ölçer ve artırmaya çalışırız.",
+      "q5": "llms.txt eklemek yeterli mi?",
+      "a5": "Hayır. llms.txt faydalı bir dosya ama tek başına sonuç getirmez. Modeller ağırlıklı olarak sayfa içeriğine, arama sonuçlarına ve sizden bahseden dış kaynaklara bakar.",
+      "q6": "SEO olmadan GEO yapılabilir mi?",
+      "a6": "Kısmen. Yapay zeka cevaplarının çoğu arama sonuçlarından beslendiği için zayıf SEO, GEO'yu da sınırlar. Bu yüzden ikisini <a href=\"/ankara-seo\">Ankara SEO</a> ile birlikte planlıyoruz."
+    },
+    "cta": {
+      "btn": "Ücretsiz GEO keşfi",
+      "title": "Yapay zeka sizi önersin",
+      "desc": "Ücretsiz keşifte 5 hedef soruyu birlikte test ederiz. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "GEO teklifi al"
+    },
+    "related": {
+      "seo": "Ankara SEO",
+      "guide": "GEO rehberi",
+      "ai": "Yapay zeka entegrasyonu"
+    },
+    "footer": "© 2026 Ozturksoft — GEO Optimizasyonu, Ankara"
   }
 }

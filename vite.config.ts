@@ -43,6 +43,7 @@ export default defineConfig({
         amazonEntegrasyonu: resolve(__dirname, 'amazon-entegrasyonu.html'),
         crmYazilimYaptirmak: resolve(__dirname, 'crm-yazilim-yaptirmak.html'),
         ankaraSeo: resolve(__dirname, 'ankara-seo.html'),
+        geoOptimizasyonu: resolve(__dirname, 'geo-optimizasyonu.html'),
         mikroEntegrasyon: resolve(__dirname, 'mikro-entegrasyon.html'),
         yapayZekaDanismanligi: resolve(__dirname, 'yapay-zeka-danismanligi.html'),
         ankaraWebTasarim: resolve(__dirname, 'ankara-web-tasarim.html'),

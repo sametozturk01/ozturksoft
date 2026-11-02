@@ -329,6 +329,36 @@
       "permanent": true
     },
     {
+      "source": "/geo",
+      "destination": "/geo-optimizasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/geo-optimizasyon",
+      "destination": "/geo-optimizasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/geo-optimization",
+      "destination": "/geo-optimizasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/generative-engine-optimization",
+      "destination": "/geo-optimizasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/yapay-zeka-seo",
+      "destination": "/geo-optimizasyonu",
+      "permanent": true
+    },
+    {
+      "source": "/ai-seo",
+      "destination": "/geo-optimizasyonu",
+      "permanent": true
+    },
+    {
       "source": "/seo",
       "destination": "/ankara-seo",
       "permanent": true

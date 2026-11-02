@@ -134,7 +134,13 @@
   </url>
   <url>
     <loc>https://ozturksoft.net/ankara-seo</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://ozturksoft.net/geo-optimizasyonu</loc>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.97</priority>
   </url>

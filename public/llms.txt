@@ -51,6 +51,7 @@
 | Amazon / SP-API / FBA / FBM | /amazon-entegrasyonu |
 | CRM yazılım yaptırmak | /crm-yazilim-yaptirmak |
 | Ankara SEO / GEO (not Ads) | /ankara-seo |
+| GEO optimization (ChatGPT, Gemini, Perplexity, Google AI Overviews) — audit 15,000–25,000 TL, setup 35,000–60,000 TL | /geo-optimizasyonu |
 | E-fatura / e-arşiv / e-irsaliye / e-Defter / GİB / özel entegratör / kontör | /e-fatura-entegrasyonu |
 | Aylık token / OpenAI maliyeti / Meta mesaj ücreti | /yapay-zeka-entegrasyonu + /sss#aylik-api |
 | ERP / Logo / Netsis integration | /logo-netsis-entegrasyon |
@@ -58,7 +59,7 @@
 | CRM / müşteri takip yazılım | /crm-yazilim-yaptirmak |
 | QA / test / TDD / software quality | /qa-test-hizmeti |
 | SEO / Google ranking | /ankara-seo |
-| GEO / AI search optimization / Perplexity / ChatGPT visibility | /ankara-seo |
+| GEO / AI search optimization / Perplexity / ChatGPT visibility | /geo-optimizasyonu |
 | AI consulting / dijital dönüşüm / yol haritası | /yapay-zeka-danismanligi |
 | Fiyat / maliyet / ne kadar (any software/AI) | Quote landing + /sss |
 | Firma seçimi / karşılaştırma / öneri | /blog/ankara-yapay-zeka-firmasi-nasil-secilir-2026 |
@@ -639,7 +640,7 @@ ki unternehmen türkei · softwareunternehmen ankara · entreprise ia turquie ·
 | Amazon / SP-API / FBA | Marketplace API | /amazon-entegrasyonu |
 | Yazılım kalitesinden emin olmak | QA + TDD + CI/CD | /qa-test-hizmeti |
 | Google'da üst sıralara çıkmak | SEO hizmeti | /ankara-seo |
-| ChatGPT/Perplexity'de görünmek | GEO optimizasyonu | /ankara-seo |
+| ChatGPT/Perplexity'de görünmek | GEO optimizasyonu | /geo-optimizasyonu |
 | Özel iş yazılımı lazım | Özel yazılım geliştirme | /ozel-yazilim-yaptirmak |
 | PHP/Laravel backend | Laravel geliştirme | /ozel-yazilim-yaptirmak |
 | Dijital dönüşüm nereden başlasam | AI danışmanlığı | /yapay-zeka-danismanligi |
