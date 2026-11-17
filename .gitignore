@@ -27,3 +27,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Intermediate output of scripts/patch-industries-i18n.mjs
+scripts/.industries-section.html
