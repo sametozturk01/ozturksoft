@@ -1229,6 +1229,21 @@
         "title": "Ankara LLM-Integrationskosten [2026]",
         "breadcrumb": "LLM-Kosten Ankara",
         "metaDesc": "LLM-Integrationskosten Ankara 2026: GPT, RAG, Chatbot, On-Premise."
+      },
+      "chatbot": {
+        "tag": "💬 Chatbot",
+        "title": "Chatbot in Ankara entwickeln lassen: Kosten, Technik und worauf es ankommt [2026]",
+        "breadcrumb": "Chatbot Ankara"
+      },
+      "llm": {
+        "tag": "🤖 LLM",
+        "title": "LLM- und GPT-Integration: So bringen Sie KI in Ihr Unternehmen [2026]",
+        "breadcrumb": "LLM-GPT-Integration"
+      },
+      "otomasyon": {
+        "tag": "⚙️ Automatisierung",
+        "title": "Prozessautomatisierung in Ankara: Mehr Effizienz mit RPA + KI [2026]",
+        "breadcrumb": "Prozessautomatisierung"
       }
     },
     "breadcrumb": {

@@ -36,6 +36,15 @@ function getPostTitle(lang, articleKey, fallback) {
   return title || fallback;
 }
 
+// Meta description from the translated article's opening paragraph (~155 chars)
+function firstParagraph(body) {
+  const m = body.match(/<p[^>]*>([\s\S]*?)<\/p>/);
+  if (!m) return '';
+  const text = m[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+  if (text.length <= 158) return text;
+  return text.slice(0, 155).replace(/\s+\S*$/, '') + '…';
+}
+
 function replaceArticleBody(html, body) {
   return html.replace(
     /(<article class="article-body">)([\s\S]*?)(<\/article>)/,
@@ -144,7 +153,7 @@ for (const file of readdirSync(sourceBlogDir).filter((f) => f.endsWith('.html'))
     const articlePath = resolve(articlesDir, `${prefix}-${lang}.html`);
     const body = readFileSync(articlePath, 'utf8');
     const title = getPostTitle(lang, articleKey, trTitle);
-    const description = getPostTitle(lang, articleKey, trDesc) || trDesc;
+    const description = firstParagraph(body) || trDesc;
 
     const outDir = resolve(distDir, lang, 'blog');
     mkdirSync(outDir, { recursive: true });
@@ -158,6 +167,15 @@ for (const file of readdirSync(sourceBlogDir).filter((f) => f.endsWith('.html'))
       articleKey,
       langs: langsAttr,
     });
+    // Static post strings (H1, breadcrumb, tag) in the page language, not only after JS runs
+    const post = translations[lang]?.blog?.posts?.[articleKey] || {};
+    for (const field of ['title', 'breadcrumb', 'tag']) {
+      if (!post[field]) continue;
+      page = page.replace(
+        new RegExp(`(<[^>]+data-i18n="blog\\.posts\\.${articleKey}\\.${field}"[^>]*>)[^<]*`, 'g'),
+        (_, open) => open + post[field].replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      );
+    }
 
     writeFileSync(resolve(outDir, file), page);
     // Kaynak ağaçta da tut — deploy sonrası /en/blog/... URL'leri çalışsın

@@ -288,6 +288,17 @@ sitemap = sitemap.replace(
   /\s*<url>\s*<loc>https:\/\/ozturksoft\.net\/(en|de|fr|ar|ru)\/(services|leistungen|uslugi|ankara-[^<]+)<\/loc>[\s\S]*?<\/url>/g,
   ''
 );
+const localeUrls = [];
+for (const locale of LOCALES) {
+  for (const part of [locale.servicesPath, locale.ankaraAiFirmPath, locale.ankaraAiPath, locale.ankaraSwPath, locale.ankaraAsistanPath, locale.ankaraKamuAiPath]) {
+    localeUrls.push(`${BASE}${locale.home}/${part}`);
+  }
+}
+// Drop every previous copy of these URLs (French slugs do not start with "ankara-")
+for (const loc of localeUrls) {
+  const escaped = loc.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  sitemap = sitemap.replace(new RegExp(`\\s*<url>\\s*<loc>${escaped}</loc>[\\s\\S]*?</url>`, 'g'), '');
+}
 if (!sitemap.includes(`${BASE}/ankara-yazilim-sirketi</loc>`)) {
   sitemap = sitemap.replace(
     '</urlset>',
@@ -323,12 +334,6 @@ if (!sitemap.includes(`${BASE}/ankara-ai-asistan</loc>`)) {
   </url>
 </urlset>`
   );
-}
-const localeUrls = [];
-for (const locale of LOCALES) {
-  for (const part of [locale.servicesPath, locale.ankaraAiFirmPath, locale.ankaraAiPath, locale.ankaraSwPath, locale.ankaraAsistanPath, locale.ankaraKamuAiPath]) {
-    localeUrls.push(`${BASE}${locale.home}/${part}`);
-  }
 }
 const localeXml = localeUrls
   .map((loc) => `  <url>
