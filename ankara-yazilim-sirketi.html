@@ -60,23 +60,43 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Ankara'da en iyi yazılım şirketi hangisi?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Ozturksoft, Ankara Çankaya merkezli; özel yazılım, AI entegrasyonu, mobil uygulama ve SEO alanlarında QA odaklı teslimat sunan kurumsal yazılım firmasıdır. Referans projeler ve ücretsiz keşif görüşmesi ile değerlendirebilirsiniz." }
+          "name": "Ankara'daki yazılım firmaları arasında nasıl seçim yapmalıyım?",
+          "acceptedAnswer": { "@type": "Answer", "text": "En az üç firmadan yazılı teklif alın; kapsamı, kaynak kod devrini, test sürecini ve destek şartlarını karşılaştırın. Yukarıdaki kontrol listesi ve yazılım şirketi seçim rehberimiz bu karşılaştırma için hazırlandı." }
         },
         {
           "@type": "Question",
-          "name": "Ankara yazılım şirketi fiyatları ne kadar?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Kurumsal web sitesi 15.000–90.000 TL, özel yazılım 80.000–400.000+ TL, mobil uygulama 120.000–350.000 TL aralığındadır. Proje kapsamına göre ücretsiz teklif sunuyoruz." }
+          "name": "Yazılım projesi ne kadar sürer?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Kurumsal web 3–6 hafta, özel yazılım 2–6 ay, mobil uygulama 8–20 hafta. Keşif görüşmesinde net takvim sunuyoruz." }
         },
         {
           "@type": "Question",
-          "name": "Ankara'da yazılım firması seçerken nelere dikkat edilmeli?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yazılı teklif ve kapsam dokümanı, canlı referanslar, QA/test süreçleri, KVKK uyumu, kaynak kod devri ve bakım şartlarını mutlaka kontrol edin. Detaylı rehber: ankara-yazilim-sirketi-nasil-secilir blog yazımız." }
+          "name": "Ankara dışına da hizmet veriyor musunuz?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Evet. Ankara merkezliyiz; İstanbul, İzmir ve yurtdışı müşterilere uzaktan hizmet veriyoruz. Ankara müşterilerine yerinde toplantı imkânı sunuyoruz." }
         },
         {
           "@type": "Question",
-          "name": "Ozturksoft hangi Ankara ilçelerine hizmet veriyor?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Çankaya merkezli ekibimiz Ankara genelinde (Çankaya, Yenimahalle, Keçiören, Etimesgut, Sincan, Mamak ve tüm ilçeler) yerinde ve uzaktan yazılım hizmeti sunar." }
+          "name": "Ankara'da yazılım yaptırmanın maliyeti nedir?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Kurumsal web sitesi 15.000–90.000 TL, özel yazılım KOBİ'ler için 80.000–200.000 TL, kurumsal projelerde 200.000–500.000+ TL, mobil uygulama 80.000–350.000 TL. Kesin fiyat keşif sonrası yazılı teklifte belirlenir." }
+        },
+        {
+          "@type": "Question",
+          "name": "Kaynak kod bize mi ait olur?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Evet. Teslimde kaynak kod, veritabanı ve sunucu erişimleri müşteriye devredilir; bu şart sözleşmede yazılıdır." }
+        },
+        {
+          "@type": "Question",
+          "name": "Mevcut yazılımımıza yapay zeka eklenebilir mi?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Evet. ERP, CRM veya web uygulamanıza ChatGPT, doküman arama (RAG) ya da chatbot eklenebilir. Ayrıntı: yapay zeka entegrasyonu." }
+        },
+        {
+          "@type": "Question",
+          "name": "Kamu kurumlarıyla çalışıyor musunuz?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Kamu kurumları için verinin kurum ağında kaldığı on-premise yapay zeka ve belge OCR çözümleri geliştiriyoruz. Ayrıntı: kamu yapay zeka çözümleri." }
+        },
+        {
+          "@type": "Question",
+          "name": "Teslimden sonra destek veriyor musunuz?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Her projede 30–90 gün ücretsiz hata düzeltme desteği vardır; sonrasında isteğe bağlı aylık bakım sözleşmesi yapılır." }
         }
       ]
     }
@@ -88,6 +108,14 @@
     <link rel="stylesheet" href="/src/style.css">
     <script type="module" src="/src/main.ts"></script>
     <style>
+      .sw-lead{color:#94a3b8;line-height:1.75;margin-bottom:22px}
+      .sw-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+      .sw-grid .hub-card h3{font-size:1.05rem}
+      .sw-links a{color:#60a5fa;font-weight:600;text-decoration:none}
+      .sw-links a:hover{text-decoration:underline}
+      .hub-faq p a,.sw-lead a{color:#60a5fa;text-decoration:none;font-weight:600}
+      .lp-table a{color:#60a5fa;text-decoration:none;font-weight:600;white-space:nowrap}
+      @media(max-width:900px){.sw-grid{grid-template-columns:1fr}}
       .hub-hero{padding:140px 8% 60px;background:linear-gradient(135deg,rgba(2,6,23,.92),rgba(30,27,75,.9)),url('https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1920&q=80') center/cover}
       .hub-hero h1{font-size:2.6rem;font-weight:800;margin-bottom:16px;max-width:800px}
       .hub-hero p{color:#94a3b8;font-size:1.1rem;max-width:700px;margin-bottom:28px}
@@ -209,14 +237,107 @@
         </ul>
     </section>
 
+    <section class="hub-section" style="--lp-accent:#3b82f6">
+        <h2 data-i18n="softwareFirmPage.price.title">Ankara'da yazılım yaptırmak: fiyatlar (2026)</h2>
+        <p class="sw-lead" data-i18n="softwareFirmPage.price.intro">Aşağıdaki aralıklar hizmet sayfalarımızda yayınladığımız 2026 fiyatlarıdır. Kesin fiyat, ücretsiz keşif görüşmesinden sonra yazılı teklifle belirlenir.</p>
+        <div class="lp-table-wrap">
+            <table class="lp-table">
+                <thead><tr><th scope="col" data-i18n="softwareFirmPage.price.h1">Hizmet</th><th scope="col" data-i18n="softwareFirmPage.price.h2">Fiyat aralığı</th><th scope="col" data-i18n="softwareFirmPage.price.h3">Ayrıntı</th></tr></thead>
+                <tbody>
+                    <tr><th scope="row" data-i18n="softwareFirmPage.price.r1">Kurumsal web sitesi</th><td>15.000 – 90.000 TL</td><td><a href="/web-sitesi-yaptirmak-ankara" data-i18n="softwareFirmPage.price.more">İncele →</a></td></tr>
+                    <tr><th scope="row" data-i18n="softwareFirmPage.price.r2">E-ticaret sitesi</th><td>25.000 – 250.000+ TL</td><td><a href="/e-ticaret-sitesi-yaptirmak" data-i18n="softwareFirmPage.price.more">İncele →</a></td></tr>
+                    <tr><th scope="row" data-i18n="softwareFirmPage.price.r3">Özel yazılım (KOBİ)</th><td>80.000 – 200.000 TL</td><td><a href="/ozel-yazilim-yaptirmak" data-i18n="softwareFirmPage.price.more">İncele →</a></td></tr>
+                    <tr><th scope="row" data-i18n="softwareFirmPage.price.r4">Kurumsal yazılım / ERP</th><td>200.000 – 500.000+ TL</td><td><a href="/ozel-yazilim-yaptirmak" data-i18n="softwareFirmPage.price.more">İncele →</a></td></tr>
+                    <tr><th scope="row" data-i18n="softwareFirmPage.price.r5">Mobil uygulama</th><td>80.000 – 350.000 TL</td><td><a href="/mobil-uygulama-yaptirmak" data-i18n="softwareFirmPage.price.more">İncele →</a></td></tr>
+                    <tr><th scope="row" data-i18n="softwareFirmPage.price.r6">CRM yazılımı</th><td>80.000 – 300.000 TL</td><td><a href="/crm-yazilim-yaptirmak" data-i18n="softwareFirmPage.price.more">İncele →</a></td></tr>
+                    <tr><th scope="row" data-i18n="softwareFirmPage.price.r7">Yapay zeka entegrasyonu</th><td>40.000 – 500.000+ TL</td><td><a href="/yapay-zeka-entegrasyonu" data-i18n="softwareFirmPage.price.more">İncele →</a></td></tr>
+                    <tr><th scope="row" data-i18n="softwareFirmPage.price.r8">ERP entegrasyonu (Logo, Netsis, Mikro)</th><td>20.000 – 130.000 TL</td><td><a href="/logo-netsis-entegrasyon" data-i18n="softwareFirmPage.price.more">İncele →</a></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="hub-section" style="max-width:1100px">
+        <h2 data-i18n="softwareFirmPage.choose.title">Ankara'da yazılım firması seçerken nelere bakılmalı?</h2>
+        <p class="sw-lead" data-i18n="softwareFirmPage.choose.intro">Ankara'da yüzlerce yazılım firması var. Teklifleri karşılaştırırken şu altı noktayı yazılı olarak netleştirin:</p>
+        <div class="sw-grid">
+            <div class="hub-card">
+                <h3 data-i18n="softwareFirmPage.choose.c1t">Yazılı kapsam ve sabit teklif</h3>
+                <p data-i18n="softwareFirmPage.choose.c1d">Fonksiyonlar, teslim tarihleri ve fiyat yazılı olmalı. Kapsamı belirsiz, saat ücretli teklifler bütçeyi kolayca aşar.</p>
+            </div>
+            <div class="hub-card">
+                <h3 data-i18n="softwareFirmPage.choose.c2t">Kaynak kod ve fikri mülkiyet</h3>
+                <p data-i18n="softwareFirmPage.choose.c2d">Proje bittiğinde kaynak kodun, veritabanının ve sunucu erişimlerinin size devredileceği sözleşmede açıkça yazmalı.</p>
+            </div>
+            <div class="hub-card">
+                <h3 data-i18n="softwareFirmPage.choose.c3t">Canlı referans ve doğrulanabilir firma</h3>
+                <p data-i18n="softwareFirmPage.choose.c3d">Yayındaki projeleri inceleyin; Google ve Clutch yorumlarını, vergi kaydını ve iletişim bilgilerini kontrol edin.</p>
+            </div>
+            <div class="hub-card">
+                <h3 data-i18n="softwareFirmPage.choose.c4t">Test ve kalite süreci</h3>
+                <p data-i18n="softwareFirmPage.choose.c4d">Otomatik testlerin, test ortamının ve kabul testinin nasıl yapılacağını sorun. Testsiz teslim edilen yazılımın bakımı pahalıdır.</p>
+            </div>
+            <div class="hub-card">
+                <h3 data-i18n="softwareFirmPage.choose.c5t">KVKK ve verinin yeri</h3>
+                <p data-i18n="softwareFirmPage.choose.c5d">Kişisel verilerin nerede saklanacağını ve yurt dışına aktarılıp aktarılmadığını öğrenin; gerekiyorsa kurum içi (on-premise) kurulum isteyin.</p>
+            </div>
+            <div class="hub-card">
+                <h3 data-i18n="softwareFirmPage.choose.c6t">Teslim sonrası destek</h3>
+                <p data-i18n="softwareFirmPage.choose.c6d">Garanti süresi, hata düzeltme süresi ve bakım ücreti baştan belli olmalı.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hub-section" style="--lp-accent:#3b82f6">
+        <h2 data-i18n="softwareFirmPage.proc.title">Çalışma sürecimiz</h2>
+        <ol class="lp-steps">
+            <li>
+                <h3 data-i18n="softwareFirmPage.proc.s1t">Ücretsiz keşif görüşmesi</h3>
+                <p data-i18n="softwareFirmPage.proc.s1d">İhtiyacınızı, mevcut sistemlerinizi ve bütçenizi konuşuruz. Görüşme online, sizin ofisinizde veya randevuyla Çankaya'da yapılır.</p>
+            </li>
+            <li>
+                <h3 data-i18n="softwareFirmPage.proc.s2t">Yazılı kapsam ve teklif</h3>
+                <p data-i18n="softwareFirmPage.proc.s2d">Fonksiyon listesi, ekran taslakları, takvim ve sabit fiyat içeren teklif sunulur.</p>
+            </li>
+            <li>
+                <h3 data-i18n="softwareFirmPage.proc.s3t">Tasarım ve geliştirme</h3>
+                <p data-i18n="softwareFirmPage.proc.s3d">İki haftalık aralarla çalışan sürüm gösterilir; geri bildiriminiz bir sonraki adıma eklenir.</p>
+            </li>
+            <li>
+                <h3 data-i18n="softwareFirmPage.proc.s4t">Test ve yayın</h3>
+                <p data-i18n="softwareFirmPage.proc.s4d">Otomatik testler ve kabul testi tamamlandıktan sonra sistem yayına alınır, kaynak kod ve erişimler teslim edilir.</p>
+            </li>
+            <li>
+                <h3 data-i18n="softwareFirmPage.proc.s5t">Destek</h3>
+                <p data-i18n="softwareFirmPage.proc.s5d">30–90 gün ücretsiz hata düzeltme; sonrasında isteğe bağlı bakım sözleşmesi.</p>
+            </li>
+        </ol>
+    </section>
+
+    <section class="hub-section">
+        <h2 data-i18n="softwareFirmPage.aiLink.title">Yazılım ve yapay zeka aynı ekipte</h2>
+        <p class="sw-lead" data-i18n="softwareFirmPage.aiLink.p">Mevcut ERP, CRM veya web uygulamanıza ChatGPT, doküman arama (RAG), chatbot ya da otomasyon eklemek için ayrı bir ajansa gerek yok. Yapay zeka projelerimizi ayrıca anlatıyoruz:</p>
+        <p class="sw-links"><a href="/ankara-yapay-zeka-firmasi" data-i18n="softwareFirmPage.aiLink.l1">Ankara yapay zeka firması</a> · <a href="/yapay-zeka-entegrasyonu" data-i18n="softwareFirmPage.aiLink.l2">Yapay zeka entegrasyonu</a> · <a href="/chatbot-yaptirmak" data-i18n="softwareFirmPage.aiLink.l3">Chatbot yaptırmak</a> · <a href="/ai-agent" data-i18n="softwareFirmPage.aiLink.l4">AI agent geliştirme</a></p>
+    </section>
+
     <section class="hub-section hub-faq">
         <h2 data-i18n="softwareFirmPage.faqT">Sık Sorulan Sorular</h2>
-        <h3 data-i18n="softwareFirmPage.q1">Ankara'da en iyi yazılım şirketi hangisi?</h3>
-        <p data-i18n="softwareFirmPage.a1">Ozturksoft; özel yazılım, AI, mobil ve SEO alanlarında Ankara'nın önde gelen firmalarından biridir. Referanslarımızı ve blog rehberlerimizi inceleyerek karşılaştırma yapabilirsiniz.</p>
+        <h3 data-i18n="softwareFirmPage.q1">Ankara'daki yazılım firmaları arasında nasıl seçim yapmalıyım?</h3>
+        <p data-i18n="softwareFirmPage.a1">En az üç firmadan yazılı teklif alın; kapsamı, kaynak kod devrini, test sürecini ve destek şartlarını karşılaştırın. Yukarıdaki kontrol listesi ve <a href="/blog/ankara-yazilim-sirketi-nasil-secilir-2026">yazılım şirketi seçim rehberimiz</a> bu karşılaştırma için hazırlandı.</p>
         <h3 data-i18n="softwareFirmPage.q2">Yazılım projesi ne kadar sürer?</h3>
         <p data-i18n="softwareFirmPage.a2">Kurumsal web 3–6 hafta, özel yazılım 2–6 ay, mobil uygulama 8–20 hafta. Keşif görüşmesinde net takvim sunuyoruz.</p>
         <h3 data-i18n="softwareFirmPage.q3">Ankara dışına da hizmet veriyor musunuz?</h3>
         <p data-i18n="softwareFirmPage.a3">Evet. Ankara merkezliyiz; İstanbul, İzmir ve yurtdışı müşterilere uzaktan hizmet veriyoruz. Ankara müşterilerine yerinde toplantı imkânı sunuyoruz.</p>
+        <h3 data-i18n="softwareFirmPage.q4">Ankara'da yazılım yaptırmanın maliyeti nedir?</h3>
+        <p data-i18n="softwareFirmPage.a4">Kurumsal web sitesi 15.000–90.000 TL, özel yazılım KOBİ'ler için 80.000–200.000 TL, kurumsal projelerde 200.000–500.000+ TL, mobil uygulama 80.000–350.000 TL. Kesin fiyat keşif sonrası yazılı teklifte belirlenir.</p>
+        <h3 data-i18n="softwareFirmPage.q5">Kaynak kod bize mi ait olur?</h3>
+        <p data-i18n="softwareFirmPage.a5">Evet. Teslimde kaynak kod, veritabanı ve sunucu erişimleri müşteriye devredilir; bu şart sözleşmede yazılıdır.</p>
+        <h3 data-i18n="softwareFirmPage.q6">Mevcut yazılımımıza yapay zeka eklenebilir mi?</h3>
+        <p data-i18n="softwareFirmPage.a6">Evet. ERP, CRM veya web uygulamanıza ChatGPT, doküman arama (RAG) ya da chatbot eklenebilir. Ayrıntı: <a href="/yapay-zeka-entegrasyonu">yapay zeka entegrasyonu</a>.</p>
+        <h3 data-i18n="softwareFirmPage.q7">Kamu kurumlarıyla çalışıyor musunuz?</h3>
+        <p data-i18n="softwareFirmPage.a7">Kamu kurumları için verinin kurum ağında kaldığı on-premise yapay zeka ve belge OCR çözümleri geliştiriyoruz. Ayrıntı: <a href="/ankara-kamu-yapay-zeka">kamu yapay zeka çözümleri</a>.</p>
+        <h3 data-i18n="softwareFirmPage.q8">Teslimden sonra destek veriyor musunuz?</h3>
+        <p data-i18n="softwareFirmPage.a8">Her projede 30–90 gün ücretsiz hata düzeltme desteği vardır; sonrasında isteğe bağlı aylık bakım sözleşmesi yapılır.</p>
     </section>
 
     <section class="hub-cta">
