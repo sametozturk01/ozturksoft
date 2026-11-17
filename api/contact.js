@@ -90,6 +90,7 @@ export default async function handler(req, res) {
   const timeline = String(body.timeline || '').trim().slice(0, 80);
   const message = String(body.message || '').trim().slice(0, 2000);
   const kvkkConsentAt = String(body.kvkkConsentAt || new Date().toISOString());
+  const sourcePage = String(body.sourcePage || '').trim().slice(0, 200);
 
   if (!name || !email || !projectType || !message) {
     return res.status(400).json({ ok: false, error: 'Zorunlu alanları doldurun.' });
@@ -134,6 +135,7 @@ export default async function handler(req, res) {
       ['Proje Türü', projectType],
       ['Bütçe', budget || '—'],
       ['Başlangıç', timeline || '—'],
+      ['Geldiği sayfa', sourcePage || '—'],
       ['KVKK Onayı', kvkkConsentAt],
       ['Politika', 'https://ozturksoft.net/gizlilik · 2026-09-27'],
       ['IP', clientIp(req) || '—'],
@@ -163,6 +165,7 @@ export default async function handler(req, res) {
         `Proje Türü: ${projectType}`,
         `Bütçe: ${budget || '—'}`,
         `Başlangıç: ${timeline || '—'}`,
+        `Geldiği sayfa: ${sourcePage || '—'}`,
         `KVKK: ${kvkkConsentAt}`,
         'Politika: https://ozturksoft.net/gizlilik · 2026-09-27',
         `IP: ${clientIp(req) || '—'}`,

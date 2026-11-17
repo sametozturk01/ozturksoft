@@ -544,6 +544,7 @@ onReady(() => {
     initLangUI();
     initMobileMenu();
     initCookieBanner();
+    initContactClickTracking();
 });
 
 // --- ÇEVİRİ SİSTEMİ BİTİŞİ ---
@@ -722,6 +723,7 @@ function initContactForm() {
         };
 
         const payload = {
+            sourcePage: leadSourcePage(),
             name: String(fd.get("adSoyad") || "").trim(),
             company: String(fd.get("sirket") || "").trim(),
             email: String(fd.get("email") || "").trim(),
@@ -748,6 +750,7 @@ function initContactForm() {
                     budget: payload.budget,
                     timeline: payload.timeline,
                     message: payload.message,
+                    sourcePage: payload.sourcePage,
                     kvkkConsent: "accepted",
                     kvkkConsentAt: new Date().toISOString(),
                     honeypot: String(fd.get("_honey") || ""),
@@ -755,6 +758,10 @@ function initContactForm() {
             });
 
             if (res.ok) {
+                trackEvent("generate_lead", {
+                    lead_source_page: payload.sourcePage,
+                    project_type: payload.projectType,
+                });
                 showSuccess();
             } else {
                 showError(i18next.t("contactPage.form.error"));
@@ -765,6 +772,35 @@ function initContactForm() {
             setLoading(false);
             updateKvkkState();
         }
+    });
+}
+
+// Page the visitor came from before the contact form (no storage; browser referrer only)
+function leadSourcePage(): string {
+    const ref = document.referrer;
+    if (!ref) return "doğrudan";
+    try {
+        const url = new URL(ref);
+        if (url.origin === location.origin) return url.pathname || "/";
+        return url.hostname;
+    } catch {
+        return "";
+    }
+}
+
+// GA4 events only fire when analytics consent loaded gtag
+function trackEvent(name: string, params: Record<string, unknown> = {}) {
+    window.gtag?.("event", name, { page_path: location.pathname, ...params });
+}
+
+function initContactClickTracking() {
+    document.addEventListener("click", (e) => {
+        const link = (e.target as HTMLElement | null)?.closest<HTMLAnchorElement>("a[href]");
+        if (!link) return;
+        const href = link.getAttribute("href") || "";
+        if (href.startsWith("tel:")) trackEvent("click_call");
+        else if (href.includes("wa.me/") || href.includes("api.whatsapp.com")) trackEvent("click_whatsapp");
+        else if (href.startsWith("mailto:")) trackEvent("click_email");
     });
 }
 
