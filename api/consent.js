@@ -77,6 +77,38 @@ function approxLocation(req) {
   return [city, country].filter(Boolean).join(', ') || 'Bilinmiyor';
 }
 
+// Short, readable device/browser summary from the user agent
+function uaSummary(ua) {
+  const u = String(ua || '');
+  if (!u) return '—';
+  let device = 'Bilinmeyen cihaz';
+  let os = '';
+  let m;
+  if ((m = u.match(/iPhone OS (\d+)[_.](\d+)/))) { device = 'iPhone'; os = `iOS ${m[1]}.${m[2]}`; }
+  else if ((m = u.match(/iPad.*OS (\d+)[_.](\d+)/))) { device = 'iPad'; os = `iPadOS ${m[1]}.${m[2]}`; }
+  else if ((m = u.match(/Android (\d+(?:\.\d+)?)/))) { device = /Mobile/.test(u) ? 'Android telefon' : 'Android tablet'; os = `Android ${m[1]}`; }
+  else if (/Windows NT/.test(u)) { device = 'Bilgisayar'; os = 'Windows'; }
+  else if ((m = u.match(/Mac OS X (\d+)[_.](\d+)/))) { device = 'Mac'; os = `macOS ${m[1]}.${m[2]}`; }
+  else if (/Linux/.test(u)) { device = 'Bilgisayar'; os = 'Linux'; }
+  let browser = 'Tarayıcı';
+  if (/FBAN|FBAV|Instagram/.test(u)) browser = 'Facebook/Instagram uygulaması';
+  else if (/EdgA?\//.test(u)) browser = 'Edge';
+  else if (/SamsungBrowser/.test(u)) browser = 'Samsung Internet';
+  else if (/OPR\//.test(u)) browser = 'Opera';
+  else if (/Firefox|FxiOS/.test(u)) browser = 'Firefox';
+  else if (/Chrome|CriOS/.test(u)) browser = 'Chrome';
+  else if (/Safari/.test(u)) browser = 'Safari';
+  return [device, os, browser].filter(Boolean).join(' · ');
+}
+
+// Crawlers and link-preview bots that sometimes run the cookie banner
+function botHint(ip, ua) {
+  const u = String(ua || '');
+  if (/bot|crawler|spider|preview|facebookexternalhit|HeadlessChrome|Lighthouse/i.test(u)) return 'Tarayıcı kimliği bot/önizleme aracına ait';
+  if (/^(173\.252\.|69\.171\.|66\.220\.|31\.13\.|157\.240\.|69\.63\.)/.test(String(ip || ''))) return 'IP Meta (Facebook) ağına ait; muhtemelen link önizleme botu';
+  return '';
+}
+
 function clientIp(req) {
   const xf = req.headers['x-forwarded-for'];
   if (typeof xf === 'string' && xf.trim()) return xf.split(',')[0].trim().slice(0, 64);
@@ -117,23 +149,32 @@ export default async function handler(req, res) {
   const label = choice === 'all' ? 'Kabul Et' : 'Yalnızca Zorunlu';
   const source = sourceLabel(body.referrer);
   const location = approxLocation(req);
+  const bot = botHint(ip, ua);
   const pageUrl = path ? `https://ozturksoft.net${path}` : '';
+  const pageName = path === '/' || !path ? 'Ana sayfa (/)' : path;
+  const badge =
+    choice === 'all'
+      ? { text: 'Kabul Et', bg: '#dcfce7', fg: '#166534', border: '#86efac' }
+      : { text: 'Yalnızca Zorunlu', bg: '#fef3c7', fg: '#92400e', border: '#fcd34d' };
   const rows = [
-    ['Sayfa', path ? `<a href="${escapeHtml(pageUrl)}" style="color:#93c5fd;text-decoration:underline">${escapeHtml(path)}</a>` : '—'],
+    ['Sayfa', `<a href="${escapeHtml(pageUrl || 'https://ozturksoft.net/')}" style="color:#1d4ed8;text-decoration:underline;font-weight:600">${escapeHtml(pageName)}</a>`],
     ['Geldiği yer', escapeHtml(source)],
-    ['Konum', escapeHtml(location)],
+    ['Konum', `${escapeHtml(location)} <span style="color:#64748b;font-size:13px">(IP'ye göre yaklaşık)</span>`],
     ['Zaman', escapeHtml(nowTr)],
-    ['Dil', escapeHtml(lang || '—')],
+    ['Dil', escapeHtml((lang || '—').toUpperCase())],
     ['IP', escapeHtml(ip || '—')],
-    ['Tarayıcı', `<span style="font-size:13px;word-break:break-all;overflow-wrap:anywhere">${escapeHtml(ua || '—')}</span>`],
+    ['Cihaz', `<strong style="color:#0f172a">${escapeHtml(uaSummary(ua))}</strong><br><span style="color:#64748b;font-size:12px;line-height:1.5;word-break:break-all;overflow-wrap:anywhere">${escapeHtml(ua || '—')}</span>`],
   ];
   const rowsHtml = rows
     .map(
-      ([k, v]) =>
-        `<tr><td style="padding:10px 12px 10px 0;width:110px;vertical-align:top;color:#94a3b8;font-size:15px">${k}</td>` +
-        `<td style="padding:10px 0;color:#e2e8f0;font-size:15px;word-break:break-word;overflow-wrap:anywhere">${v}</td></tr>`
+      ([k, v], i) =>
+        `<tr><td style="padding:12px 12px 12px 0;width:104px;vertical-align:top;color:#64748b;font-size:14px;${i ? 'border-top:1px solid #e2e8f0;' : ''}">${k}</td>` +
+        `<td style="padding:12px 0;vertical-align:top;color:#0f172a;font-size:15px;line-height:1.5;word-break:break-word;overflow-wrap:anywhere;${i ? 'border-top:1px solid #e2e8f0;' : ''}">${v}</td></tr>`
     )
     .join('');
+  const botHtml = bot
+    ? `<tr><td style="padding:0 20px 4px"><div style="background:#fff7ed;border:1px solid #fdba74;border-radius:10px;padding:10px 14px;color:#9a3412;font-size:14px;line-height:1.5"><strong>Muhtemelen bot:</strong> ${escapeHtml(bot)}.</div></td></tr>`
+    : '';
 
   try {
     const transporter = nodemailer.createTransport({
@@ -156,23 +197,27 @@ export default async function handler(req, res) {
         `Zaman: ${nowTr} (${nowIso})`,
         `Dil: ${lang || '—'}`,
         `IP: ${ip || '—'}`,
+        `Cihaz: ${uaSummary(ua)}`,
         `Tarayıcı: ${ua || '—'}`,
+        ...(bot ? [`Not: Muhtemelen bot — ${bot}`] : []),
         `Politika: ${POLICY_URL} · ${policyVersion}`,
         '',
         'KVKK ispat kaydı (6698 sayılı Kanun, hesap verebilirlik). Pazarlama listesi değildir.',
       ].join('\n'),
       html: `
-        <div style="background:#020617;padding:24px 12px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
-          <table role="presentation" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;table-layout:fixed;margin:0 auto;background:#0f172a;border:1px solid #1e293b;border-radius:16px;overflow:hidden">
-            <tr><td style="background:#1d4ed8;background-image:linear-gradient(135deg,#2563eb 0%,#1e3a8a 100%);padding:24px 20px">
-              <p style="margin:0 0 8px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#bfdbfe">Ozturksoft · Çerez tercihi kaydı</p>
-              <p style="margin:0;font-size:22px;line-height:1.3;font-weight:800;color:#ffffff;overflow-wrap:anywhere">${escapeHtml(label)} · ${escapeHtml(path || '/')}</p>
+        <div style="background:#f1f5f9;padding:20px 10px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+          <table role="presentation" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;table-layout:fixed;margin:0 auto;background:#ffffff;border:1px solid #e2e8f0;border-top:6px solid #2563eb;border-radius:14px">
+            <tr><td style="padding:22px 20px 6px">
+              <p style="margin:0 0 6px;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#2563eb">Ozturksoft · Çerez tercihi kaydı</p>
+              <p style="margin:0 0 12px;font-size:21px;line-height:1.35;font-weight:800;color:#0f172a;overflow-wrap:anywhere">${escapeHtml(pageName)}</p>
+              <span style="display:inline-block;padding:5px 12px;border-radius:999px;background:${badge.bg};border:1px solid ${badge.border};color:${badge.fg};font-size:13px;font-weight:700">${badge.text}</span>
             </td></tr>
-            <tr><td style="padding:18px 20px 8px">
+            ${botHtml}
+            <tr><td style="padding:10px 20px 6px">
               <table role="presentation" cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;table-layout:fixed">${rowsHtml}</table>
             </td></tr>
-            <tr><td style="padding:8px 20px 22px;font-size:13px;line-height:1.6;color:#64748b">
-              KVKK ispat kaydı · ${escapeHtml(policyVersion)} · <a href="${POLICY_URL}" style="color:#64748b">gizlilik</a> · pazarlama listesi değildir
+            <tr><td style="padding:12px 20px 20px;font-size:12px;line-height:1.6;color:#64748b;border-top:1px solid #e2e8f0">
+              KVKK ispat kaydı · politika ${escapeHtml(policyVersion)} · <a href="${POLICY_URL}" style="color:#64748b">ozturksoft.net/gizlilik</a><br>Pazarlama listesi değildir.
             </td></tr>
           </table>
         </div>
