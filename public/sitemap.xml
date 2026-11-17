@@ -127,6 +127,24 @@
     <priority>0.97</priority>
   </url>
   <url>
+    <loc>https://ozturksoft.net/yarim-kalan-yazilim-projesi</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://ozturksoft.net/b2b-bayi-portali</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://ozturksoft.net/ihale-sartname-analizi-yapay-zeka</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
     <loc>https://ozturksoft.net/kurum-ici-yapay-zeka</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -506,6 +524,12 @@
   </url>
   <url>
     <loc>https://ozturksoft.net/blog/pdf-e-fatura-muhasebeye-aktarma-2026</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ozturksoft.net/blog/kosgeb-tubitak-destekli-yazilim-projesi-2026</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>

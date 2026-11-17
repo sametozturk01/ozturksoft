@@ -613,7 +613,10 @@
       "mikro": "Mikro-Anbindung",
       "geo": "GEO-Optimierung",
       "ocr": "OCR und Dokumentenerkennung",
-      "privateAi": "Firmeneigenes ChatGPT"
+      "privateAi": "Firmeneigenes ChatGPT",
+      "takeover": "Übernahme von Softwareprojekten",
+      "b2b": "B2B-Händlerportal",
+      "tender": "KI-Ausschreibungsanalyse"
     }
   },
   "aiFirmPage": {
@@ -730,7 +733,8 @@
       "r5": "Rechnungs- und Dokumenten-OCR",
       "r6": "KI-Beratung (Roadmap, PoC)",
       "sw": "Die Software, an die die KI angebunden wird (ERP, CRM, Web, Mobile), entwickelt dasselbe Team: <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">Softwareunternehmen in Ankara</a>.",
-      "r7": "Interne KI (firmeneigenes ChatGPT)"
+      "r7": "Interne KI (firmeneigenes ChatGPT)",
+      "r8": "Ausschreibungsanalyse"
     }
   },
   "aiPage": {
@@ -1687,7 +1691,8 @@
       "kvkk": "KVKK-konforme KI",
       "ocr": "Dokumenten-OCR",
       "hub": "KI-Unternehmen Hub",
-      "ebys": "DMS und KI (Türkisch)"
+      "ebys": "DMS und KI (Türkisch)",
+      "ihale": "KI-Ausschreibungsanalyse"
     },
     "cta": {
       "title": "Öffentliches KI-Projekt planen",
@@ -1805,7 +1810,8 @@
       "t3": "10–16 Wochen",
       "t4": "4–8 Monate",
       "linkGuide": "E-Commerce-Kostenleitfaden",
-      "linkNote": "ist die Positionsübersicht; den Shop beauftragen Sie auf dieser Seite."
+      "linkNote": "ist die Positionsübersicht; den Shop beauftragen Sie auf dieser Seite.",
+      "linkB2b": "Für Händlerbestellungen: <a href=\"/b2b-bayi-portali\" style=\"color:#60a5fa\">B2B-Händlerportal (Türkisch) →</a>"
     },
     "cards": {
       "c1title": "🛒 Online-Shop",
@@ -2555,7 +2561,9 @@
       "r6": "CRM-Software",
       "r7": "KI-Integration",
       "r8": "ERP-Integration (Logo, Netsis, Mikro)",
-      "more": "Ansehen →"
+      "more": "Ansehen →",
+      "r9": "B2B-Händlerportal",
+      "r10": "Übernahme unfertiger Projekte (Code-Audit)"
     },
     "choose": {
       "title": "Worauf Sie bei der Wahl eines Softwareunternehmens in Ankara achten sollten",

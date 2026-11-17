@@ -5,7 +5,7 @@
     <link>https://ozturksoft.net/blog</link>
     <description>Ankara merkezli Ozturksoft yazılım ve yapay zeka blogu. Fiyat rehberleri, teknik içerikler ve GEO/SEO ipuçları.</description>
     <language>tr</language>
-    <lastBuildDate>Tue, 17 Nov 2026 20:31:05 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 20:48:23 GMT</lastBuildDate>
     <atom:link href="https://ozturksoft.net/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>EBYS ve Yapay Zeka: Kamuda Evrak Sınıflandırma ve Yönlendirme [2026]</title>
@@ -20,6 +20,13 @@
       <guid isPermaLink="true">https://ozturksoft.net/blog/excel-yerine-ozel-program-yaptirmak-2026</guid>
       <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
       <description>Stok, sipariş, teklif ve servis takibini Excel&amp;#x27;de yürüten şirketler için: özel programa ne zaman geçilmeli, hazır program mı özel yazılım mı, 2026 maliyeti ve Excel verisinin taşınması.</description>
+    </item>
+    <item>
+      <title>KOSGEB ve TÜBİTAK Destekleriyle Yazılım ve Yapay Zeka Projesi: Neye Dikkat Edilmeli? [2026]</title>
+      <link>https://ozturksoft.net/blog/kosgeb-tubitak-destekli-yazilim-projesi-2026</link>
+      <guid isPermaLink="true">https://ozturksoft.net/blog/kosgeb-tubitak-destekli-yazilim-projesi-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Yazılım veya yapay zeka projesini KOSGEB ya da TÜBİTAK desteğiyle yapmak isteyenler için: hangi proje hangi desteğe uyar, Ar-Ge ile standart yazılım farkı, destekli projede yazılım tarafında dikkat edilecekler.</description>
     </item>
     <item>
       <title>PDF ve E-Fatura Verisini Muhasebeye Otomatik Aktarma Rehberi [2026]</title>

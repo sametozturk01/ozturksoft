@@ -613,7 +613,10 @@
       "mikro": "Mikro entegrasyon",
       "geo": "GEO optimizasyonu",
       "ocr": "OCR ve belge okuma",
-      "privateAi": "Şirketinize özel ChatGPT"
+      "privateAi": "Şirketinize özel ChatGPT",
+      "takeover": "Yazılım projesi devralma",
+      "b2b": "B2B bayi portalı",
+      "tender": "İhale şartnamesi yapay zeka"
     }
   },
   "aiFirmPage": {
@@ -730,7 +733,8 @@
       "r5": "Fatura ve belge OCR",
       "r6": "Yapay zeka danışmanlığı (yol haritası, PoC)",
       "sw": "Yapay zekanın bağlanacağı yazılım altyapısını (ERP, CRM, web, mobil) da aynı ekip geliştirir: <a href=\"/ankara-yazilim-sirketi\">Ankara yazılım şirketi</a>.",
-      "r7": "Kurum içi yapay zeka (şirkete özel ChatGPT)"
+      "r7": "Kurum içi yapay zeka (şirkete özel ChatGPT)",
+      "r8": "İhale şartnamesi analizi"
     }
   },
   "aiPage": {
@@ -1087,6 +1091,10 @@
       "ebysAiCard": {
         "title": "EBYS ve Yapay Zeka: Kamuda Evrak Sınıflandırma ve Yönlendirme [2026]",
         "desc": "Kamu kurumları ve üniversiteler için: EBYS'ye gelen evrakın yapay zeka ile sınıflandırılması, birim yönlendirme önerisi, taranmış evrakta arama, on-premise kurulum, KVKK ve pilot proje ile başlama."
+      },
+      "kosgebTubitakCard": {
+        "title": "KOSGEB ve TÜBİTAK Destekleriyle Yazılım ve Yapay Zeka Projesi: Neye Dikkat Edilmeli? [2026]",
+        "desc": "Yazılım veya yapay zeka projesini KOSGEB ya da TÜBİTAK desteğiyle yapmak isteyenler için: hangi proje hangi desteğe uyar, Ar-Ge ile standart yazılım farkı, destekli projede yazılım tarafında dikkat edilecekler."
       }
     },
     "posts": {
@@ -1699,7 +1707,8 @@
       "kvkk": "KVKK uyumlu AI",
       "ocr": "Belge OCR",
       "hub": "AI firması hub",
-      "ebys": "EBYS ve yapay zeka"
+      "ebys": "EBYS ve yapay zeka",
+      "ihale": "İhale şartnamesi yapay zeka"
     },
     "cta": {
       "title": "Kamu AI Projenizi Planlayalım",
@@ -1817,7 +1826,8 @@
       "t3": "10–16 hafta",
       "t4": "4–8 ay",
       "linkGuide": "E-ticaret maliyet rehberi",
-      "linkNote": "kalem kalem bilgi yazısıdır; mağaza yaptırmak bu sayfadandır."
+      "linkNote": "kalem kalem bilgi yazısıdır; mağaza yaptırmak bu sayfadandır.",
+      "linkB2b": "Bayi sipariş sistemi için: <a href=\"/b2b-bayi-portali\">B2B bayi portalı →</a>"
     },
     "cards": {
       "c1title": "🛒 Online mağaza",
@@ -2567,7 +2577,9 @@
       "r6": "CRM yazılımı",
       "r7": "Yapay zeka entegrasyonu",
       "r8": "ERP entegrasyonu (Logo, Netsis, Mikro)",
-      "more": "İncele →"
+      "more": "İncele →",
+      "r9": "B2B bayi portalı",
+      "r10": "Yarım kalan projeyi devralma (kod denetimi)"
     },
     "choose": {
       "title": "Ankara'da yazılım firması seçerken nelere bakılmalı?",

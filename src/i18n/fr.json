@@ -613,7 +613,10 @@
       "mikro": "Intégration Mikro",
       "geo": "Optimisation GEO",
       "ocr": "OCR et lecture de documents",
-      "privateAi": "ChatGPT privé d'entreprise"
+      "privateAi": "ChatGPT privé d'entreprise",
+      "takeover": "Reprise de projet logiciel",
+      "b2b": "Portail revendeurs B2B",
+      "tender": "Analyse d'appels d'offres par IA"
     }
   },
   "aiFirmPage": {
@@ -730,7 +733,8 @@
       "r5": "OCR de factures et documents",
       "r6": "Conseil en IA (feuille de route, PoC)",
       "sw": "La même équipe développe le logiciel auquel l'IA se connecte (ERP, CRM, web, mobile) : <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">entreprise de logiciels à Ankara</a>.",
-      "r7": "IA interne (ChatGPT privé d'entreprise)"
+      "r7": "IA interne (ChatGPT privé d'entreprise)",
+      "r8": "Analyse de dossiers d'appel d'offres"
     }
   },
   "aiPage": {
@@ -1687,7 +1691,8 @@
       "kvkk": "IA conforme KVKK",
       "ocr": "OCR documentaire",
       "hub": "Hub entreprise IA",
-      "ebys": "GED et IA (en turc)"
+      "ebys": "GED et IA (en turc)",
+      "ihale": "Analyse d'appels d'offres par IA"
     },
     "cta": {
       "title": "Planifions votre projet IA public",
@@ -1805,7 +1810,8 @@
       "t3": "10–16 semaines",
       "t4": "4–8 mois",
       "linkGuide": "Guide des coûts e-commerce",
-      "linkNote": "détaille les postes ; faire créer la boutique se fait sur cette page."
+      "linkNote": "détaille les postes ; faire créer la boutique se fait sur cette page.",
+      "linkB2b": "Pour les commandes revendeurs : <a href=\"/b2b-bayi-portali\" style=\"color:#60a5fa\">portail revendeurs B2B (en turc) →</a>"
     },
     "cards": {
       "c1title": "🛒 Boutique en ligne",
@@ -2555,7 +2561,9 @@
       "r6": "Logiciel CRM",
       "r7": "Intégration IA",
       "r8": "Intégration ERP (Logo, Netsis, Mikro)",
-      "more": "Voir →"
+      "more": "Voir →",
+      "r9": "Portail revendeurs B2B",
+      "r10": "Reprise de projet inachevé (audit de code)"
     },
     "choose": {
       "title": "Comment choisir une entreprise de logiciels à Ankara",

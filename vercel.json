@@ -329,6 +329,46 @@
       "permanent": true
     },
     {
+      "source": "/yazilim-devralma",
+      "destination": "/yarim-kalan-yazilim-projesi",
+      "permanent": true
+    },
+    {
+      "source": "/yarim-kalan-proje",
+      "destination": "/yarim-kalan-yazilim-projesi",
+      "permanent": true
+    },
+    {
+      "source": "/yazilim-bakim",
+      "destination": "/yarim-kalan-yazilim-projesi",
+      "permanent": true
+    },
+    {
+      "source": "/b2b-portal",
+      "destination": "/b2b-bayi-portali",
+      "permanent": true
+    },
+    {
+      "source": "/bayi-portali",
+      "destination": "/b2b-bayi-portali",
+      "permanent": true
+    },
+    {
+      "source": "/bayi-siparis-sistemi",
+      "destination": "/b2b-bayi-portali",
+      "permanent": true
+    },
+    {
+      "source": "/ihale-yapay-zeka",
+      "destination": "/ihale-sartname-analizi-yapay-zeka",
+      "permanent": true
+    },
+    {
+      "source": "/sartname-analizi",
+      "destination": "/ihale-sartname-analizi-yapay-zeka",
+      "permanent": true
+    },
+    {
       "source": "/sirkete-ozel-chatgpt",
       "destination": "/kurum-ici-yapay-zeka",
       "permanent": true

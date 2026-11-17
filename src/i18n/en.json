@@ -613,7 +613,10 @@
       "mikro": "Mikro integration",
       "geo": "GEO optimization",
       "ocr": "OCR and document reading",
-      "privateAi": "Private company ChatGPT"
+      "privateAi": "Private company ChatGPT",
+      "takeover": "Software project takeover",
+      "b2b": "B2B dealer portal",
+      "tender": "AI tender document analysis"
     }
   },
   "aiFirmPage": {
@@ -730,7 +733,8 @@
       "r5": "Invoice and document OCR",
       "r6": "AI consulting (roadmap, PoC)",
       "sw": "The same team builds the software the AI connects to (ERP, CRM, web, mobile): <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">Ankara software company</a>.",
-      "r7": "In-house AI (private company ChatGPT)"
+      "r7": "In-house AI (private company ChatGPT)",
+      "r8": "Tender document analysis"
     }
   },
   "aiPage": {
@@ -1687,7 +1691,8 @@
       "kvkk": "KVKK-compliant AI",
       "ocr": "Document OCR",
       "hub": "AI company hub",
-      "ebys": "EDMS and AI (Turkish)"
+      "ebys": "EDMS and AI (Turkish)",
+      "ihale": "AI tender document analysis"
     },
     "cta": {
       "title": "Plan Your Public AI Project",
@@ -1805,7 +1810,8 @@
       "t3": "10–16 weeks",
       "t4": "4–8 months",
       "linkGuide": "E-commerce cost guide",
-      "linkNote": "is the line-item explainer; commissioning a store starts on this page."
+      "linkNote": "is the line-item explainer; commissioning a store starts on this page.",
+      "linkB2b": "For dealer ordering: <a href=\"/b2b-bayi-portali\" style=\"color:#60a5fa\">B2B dealer portal (Turkish) →</a>"
     },
     "cards": {
       "c1title": "🛒 Online store",
@@ -2555,7 +2561,9 @@
       "r6": "CRM software",
       "r7": "AI integration",
       "r8": "ERP integration (Logo, Netsis, Mikro)",
-      "more": "View →"
+      "more": "View →",
+      "r9": "B2B dealer portal",
+      "r10": "Unfinished project takeover (code audit)"
     },
     "choose": {
       "title": "What to check when choosing a software company in Ankara",
