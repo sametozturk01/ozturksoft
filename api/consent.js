@@ -206,10 +206,12 @@ export default async function handler(req, res) {
       ].join('\n'),
       html: `
         <div style="background:#f1f5f9;padding:20px 10px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
-          <table role="presentation" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;table-layout:fixed;margin:0 auto;background:#ffffff;border:1px solid #e2e8f0;border-top:6px solid #2563eb;border-radius:14px">
-            <tr><td style="padding:22px 20px 6px">
-              <p style="margin:0 0 6px;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#2563eb">Ozturksoft · Çerez tercihi kaydı</p>
-              <p style="margin:0 0 12px;font-size:21px;line-height:1.35;font-weight:800;color:#0f172a;overflow-wrap:anywhere">${escapeHtml(pageName)}</p>
+          <table role="presentation" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;table-layout:fixed;margin:0 auto;background:#ffffff;border:1px solid #e2e8f0;border-radius:14px;border-collapse:separate">
+            <tr><td style="background-color:#3b82f6;background-image:linear-gradient(135deg,#3b82f6 0%,#8b5cf6 100%);padding:24px 22px;border-radius:12px 12px 0 0">
+              <p style="margin:0 0 8px;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#ffffff">Ozturksoft · Çerez tercihi kaydı</p>
+              <p style="margin:0;font-size:22px;line-height:1.35;font-weight:800;color:#ffffff;overflow-wrap:anywhere">${escapeHtml(badge.text)} · ${escapeHtml(pageName)}</p>
+            </td></tr>
+            <tr><td style="padding:16px 20px 4px">
               <span style="display:inline-block;padding:5px 12px;border-radius:999px;background:${badge.bg};border:1px solid ${badge.border};color:${badge.fg};font-size:13px;font-weight:700">${badge.text}</span>
             </td></tr>
             ${botHtml}
