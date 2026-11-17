@@ -611,7 +611,8 @@
       "crm": "CRM-Software",
       "seo": "Ankara-SEO",
       "mikro": "Mikro-Anbindung",
-      "geo": "GEO-Optimierung"
+      "geo": "GEO-Optimierung",
+      "ocr": "OCR und Dokumentenerkennung"
     }
   },
   "aiFirmPage": {
@@ -1879,7 +1880,8 @@
       "t2": "6–10 Wochen",
       "t3": "3–5 Monate",
       "linkGuide": "Was ist OCR?",
-      "linkNote": "ist der Erklärtext; Rechnungslese-Software beauftragen Sie hier."
+      "linkNote": "ist der Erklärtext; Rechnungslese-Software beauftragen Sie hier.",
+      "linkOcr": "Für andere Dokumente als Rechnungen (Verträge, Formulare, Bankbelege, Archive): <a href=\"/ocr-belge-okuma\" style=\"color:#60a5fa\">OCR- und Dokumentenerkennungssoftware →</a>"
     },
     "cards": {
       "c1title": "🧾 Rechnungs- und Lieferschein-OCR",
@@ -3153,5 +3155,98 @@
       "ai": "KI-Integration"
     },
     "footer": "© 2026 Ozturksoft — GEO-Optimierung, Ankara"
+  },
+  "ocrPage": {
+    "meta": {
+      "title": "OCR- und Dokumentenerkennungssoftware | Digitalisierung | Ozturksoft"
+    },
+    "hero": {
+      "badge": "OCR · KI · Dokumentendigitalisierung · KVKK",
+      "title": "OCR- und Dokumentenerkennungssoftware",
+      "desc": "Individuell entwickelte OCR-Software, die gescannte Dokumente, PDFs und Fotos ausliest und die Daten in Ihr ERP, CRM oder DMS überträgt. Sie kombiniert klassische OCR mit KI; Daten können auf Ihren eigenen Servern bleiben. Ankara, kostenloses Erstgespräch."
+    },
+    "stats": {
+      "s1l": "Ein Dokumenttyp",
+      "s2l": "Mehrere Dokumenttypen",
+      "s3v": "On-Premise",
+      "s3l": "Option für interne Installation"
+    },
+    "what": {
+      "title": "Was leistet individuelle OCR?",
+      "p1": "<strong>OCR (optische Zeichenerkennung)</strong> wandelt Text im Bild in Text um. Das allein reicht nicht: Auf einer Rechnung muss klar sein, welcher Betrag die MwSt. und welcher die Summe ist; in einem Vertrag braucht man Parteien und Daten. Deshalb interpretieren wir die OCR-Ausgabe mit KI-Modellen, zerlegen sie in Felder, prüfen sie mit Regeln und übertragen sie in Ihr System.",
+      "p2": "Wir verkaufen kein Standardpaket. Im Erstgespräch prüfen wir Dokumenttypen, Volumen und Zielsystem und entwickeln einen passenden Erkennungs- und Freigabeprozess. Unsichere Felder gehen zur Freigabe an eine Person, damit Fehler vor der Buchung auffallen."
+    },
+    "docs": {
+      "title": "Für welche Dokumente entwickeln wir?",
+      "d1t": "Rechnungen und Lieferscheine",
+      "d1d": "Lieferant, Betrag, MwSt. und Positionen aus Rechnungen, Lieferscheinen und Belegen, gebucht in Logo, Netsis oder Mikro. Details: <a href=\"/fatura-okuma\" style=\"color:#60a5fa\">Rechnungserkennung</a>.",
+      "d2t": "Verträge und amtliche Schreiben",
+      "d2d": "Parteien, Daten, Laufzeiten, Beträge und Kernklauseln in einem durchsuchbaren Vertragsarchiv.",
+      "d3t": "Formulare, Anträge und Ausweise",
+      "d3d": "Felderkennung aus handschriftlichen Formularen, Anträgen und Ausweisdokumenten mit KVKK-konformer Maskierung.",
+      "d4t": "Bank- und Finanzbelege",
+      "d4d": "Buchungen aus Belegen, Kontoauszügen und Quittungen, abgeglichen mit der Buchhaltung.",
+      "d5t": "Behördenschriftverkehr",
+      "d5d": "Klassifizierung von Ein- und Ausgängen, Anträgen und amtlichen Schreiben samt Betreff und Aktenzeichen.",
+      "d6t": "Gescannte Archive",
+      "d6d": "Papierarchive als durchsuchbare PDFs und Datenbankeinträge, mit Vorverarbeitung für alte oder schlechte Scans."
+    },
+    "pricing": {
+      "title": "Preis für OCR-Software (2026)",
+      "intro": "Der Preis hängt von Anzahl der Dokumenttypen, Monatsvolumen und Zielsystem ab. Das Erstgespräch ist kostenlos, das Angebot schriftlich.",
+      "row1": "Ein Dokumenttyp",
+      "row2": "Mehrere Dokumenttypen",
+      "row3": "On-Premise und große Archive",
+      "t1": "Ein Dokumenttyp, ein Zielsystem",
+      "t2": "Mehrere Dokumenttypen mit Freigabe",
+      "t3": "On-Premise-Modell und Server",
+      "a3": "Angebot nach Erstgespräch",
+      "d3": "Installation, bei der Daten das Haus nie verlassen, oder Umwandlung von Archiven mit Zehntausenden Seiten; Umfang wird im Erstgespräch festgelegt."
+    },
+    "steps": {
+      "title": "So läuft das Projekt",
+      "s1t": "Analyse von Beispieldokumenten",
+      "s1d": "Wir prüfen anonymisierte Beispiele und legen fest, welche Felder gelesen und wohin sie übertragen werden.",
+      "s2t": "Schriftlicher Umfang und Angebot",
+      "s2d": "Dokumenttypen, Feldliste, Genauigkeitsmessung, Zeitplan und Festpreis werden schriftlich festgehalten.",
+      "s3t": "Entwicklung und Test",
+      "s3d": "Erkennung, Prüfregeln und Freigabemaske werden entwickelt und mit Ihren Dokumenten getestet; die Ergebnisse werden berichtet.",
+      "s4t": "Integration",
+      "s4d": "Anbindung an ERP, CRM, DMS oder Postfach; Datensätze entstehen automatisch.",
+      "s5t": "Livegang und Support",
+      "s5d": "Die Genauigkeit wird im Betrieb überwacht, neue Formate kommen hinzu; 30–90 Tage kostenlose Fehlerbehebung."
+    },
+    "kvkk": {
+      "title": "KVKK und Datensicherheit",
+      "p1": "Ausweise, Verträge und Finanzbelege enthalten personenbezogene Daten. Auf Wunsch laufen OCR und KI-Modell vollständig auf Ihren Servern; Dokumente verlassen das Haus nicht. Bei Cloud-Nutzung wird schriftlich festgelegt, welche Daten wohin gehen.",
+      "p2": "Interne KI-Optionen: <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#60a5fa\">KI für Behörden und On-Premise</a> · <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#60a5fa\">Leitfaden KVKK-konforme KI</a>."
+    },
+    "faq": {
+      "title": "OCR-Software: häufige Fragen",
+      "q1": "Wofür wird OCR-Software eingesetzt?",
+      "a1": "Sie liest Text aus Scans, PDFs und Fotos, zerlegt ihn in sinnvolle Felder und bucht ihn automatisch in ERP, CRM oder DMS. Das reduziert manuelle Dateneingabe und Fehler.",
+      "q2": "Was kostet OCR-Software?",
+      "a2": "45.000–90.000 TL für einen Dokumenttyp, 90.000–180.000 TL für mehrere Dokumenttypen mit Freigabe. On-Premise und große Archivprojekte werden nach dem Erstgespräch angeboten.",
+      "q3": "Erkennt sie Handschrift und schlechte Scans?",
+      "a3": "Die Lesbarkeit hängt von der Scanqualität ab. Vorverarbeitung verbessert die meisten Scans; unsichere Felder gehen zur Freigabe. Wir testen vorab mit Ihren Beispieldokumenten.",
+      "q4": "Was unterscheidet sie von Standard-OCR?",
+      "a4": "Standardprogramme extrahieren allgemeinen Text. Eine individuelle Lösung erkennt Ihre Dokumenttypen, prüft Felder per Regeln und legt Datensätze direkt in Ihrem System an.",
+      "q5": "Werden unsere Dokumente nach außen gesendet?",
+      "a5": "Auf Wunsch nicht. OCR und KI-Modell können On-Premise laufen. Bei Cloud-Nutzung wird der Datenfluss schriftlich festgelegt.",
+      "q6": "In welche Systeme können Daten übertragen werden?",
+      "a6": "ERP-Systeme wie Logo, Netsis und Mikro, CRMs, DMS, Datenbanken und Postfächer. Details: <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">ERP-Integration</a>."
+    },
+    "cta": {
+      "btn": "Kostenloses Erstgespräch",
+      "title": "Prüfen wir Ihren Dokumentenaufwand",
+      "desc": "Kostenloses Erstgespräch mit Ihren Beispieldokumenten. <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>",
+      "btn2": "OCR-Angebot anfordern"
+    },
+    "related": {
+      "invoice": "Rechnungserkennung",
+      "auto": "Prozessautomatisierung",
+      "guide": "Leitfaden OCR und Dokumenten-KI"
+    },
+    "footer": "© 2026 Ozturksoft — OCR- und Dokumentenerkennungssoftware, Ankara"
   }
 }

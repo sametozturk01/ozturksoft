@@ -611,7 +611,8 @@
       "crm": "CRM yazılım",
       "seo": "Ankara SEO",
       "mikro": "Mikro entegrasyon",
-      "geo": "GEO optimizasyonu"
+      "geo": "GEO optimizasyonu",
+      "ocr": "OCR ve belge okuma"
     }
   },
   "aiFirmPage": {
@@ -1879,7 +1880,8 @@
       "t2": "6–10 hafta",
       "t3": "3–5 ay",
       "linkGuide": "OCR nedir rehberi",
-      "linkNote": "bilgi yazısıdır; fatura okuma yazılımı yaptırmak bu sayfadandır."
+      "linkNote": "bilgi yazısıdır; fatura okuma yazılımı yaptırmak bu sayfadandır.",
+      "linkOcr": "Fatura dışındaki belgeler (sözleşme, form, banka belgesi, arşiv) için: <a href=\"/ocr-belge-okuma\">OCR ve belge okuma yazılımı →</a>"
     },
     "cards": {
       "c1title": "🧾 Fatura ve irsaliye OCR",
@@ -3153,5 +3155,98 @@
       "ai": "Yapay zeka entegrasyonu"
     },
     "footer": "© 2026 Ozturksoft — GEO Optimizasyonu, Ankara"
+  },
+  "ocrPage": {
+    "meta": {
+      "title": "OCR ve Belge Okuma Yazılımı | Evrak Dijitalleştirme | Ozturksoft"
+    },
+    "hero": {
+      "badge": "OCR · Yapay zeka · Evrak dijitalleştirme · KVKK",
+      "title": "OCR ve Belge Okuma Yazılımı",
+      "desc": "Taranmış evrak, PDF ve fotoğraflardaki bilgiyi okuyup ERP, CRM veya belge yönetim sisteminize aktaran, projeye özel geliştirilen OCR yazılımı. Klasik OCR ile yapay zekayı birlikte kullanır; veriler isterseniz kurum içinde kalır. Ankara, ücretsiz keşif."
+    },
+    "stats": {
+      "s1l": "Tek belge türü",
+      "s2l": "Çoklu belge türü",
+      "s3v": "On-premise",
+      "s3l": "Kurum içi kurulum seçeneği"
+    },
+    "what": {
+      "title": "Projeye özel OCR ne yapar?",
+      "p1": "<strong>OCR (optik karakter tanıma)</strong>, görüntüdeki yazıyı metne çevirir. Tek başına bu yetmez: bir faturada hangi rakamın KDV, hangisinin toplam olduğunu, bir sözleşmede taraf ve tarih bilgisini ayırmak gerekir. Bu yüzden OCR çıktısını yapay zeka modelleriyle yorumlayıp alanlara ayırıyor, kurallarla doğruluyor ve sisteminize aktarıyoruz.",
+      "p2": "Hazır bir paket satmıyoruz. Belge türlerinizi, hacminizi ve aktarılacak sistemi keşif görüşmesinde inceleyip size özel bir okuma ve onay akışı geliştiriyoruz. Emin olunamayan alanlar bir kişinin onayına düşer; böylece hata sisteme kaydedilmeden yakalanır."
+    },
+    "docs": {
+      "title": "Hangi belgeler için geliştiriyoruz?",
+      "d1t": "Fatura ve irsaliye",
+      "d1d": "Tedarikçi faturaları, irsaliyeler ve fişlerden cari, tutar, KDV ve kalem bilgisi; Logo, Netsis veya Mikro'ya kayıt. Ayrıntı: <a href=\"/fatura-okuma\">fatura okuma programı</a>.",
+      "d2t": "Sözleşme ve resmi yazı",
+      "d2d": "Taraflar, tarihler, süreler, tutarlar ve kritik maddelerin çıkarılması; sözleşme arşivinde aranabilir kayıt.",
+      "d3t": "Form, başvuru ve kimlik",
+      "d3d": "Elle doldurulmuş formlar, başvuru dilekçeleri ve kimlik belgelerinden alan okuma; KVKK'ya uygun maskeleme.",
+      "d4t": "Banka ve finans belgeleri",
+      "d4d": "Dekont, hesap ekstresi ve makbuzlardan hareket bilgisi; muhasebe kaydıyla eşleştirme.",
+      "d5t": "Kamu evrakı ve yazışmalar",
+      "d5d": "Gelen-giden evrak, dilekçe ve resmi yazıların sınıflandırılması, konu ve sayı bilgisinin çıkarılması.",
+      "d6t": "Taranmış arşiv",
+      "d6d": "Kâğıt arşivin taranıp aranabilir PDF'e ve veritabanı kaydına dönüştürülmesi; eski ve düşük kaliteli taramalar için ön işleme."
+    },
+    "pricing": {
+      "title": "OCR yazılımı fiyatı (2026)",
+      "intro": "Fiyat belge türü sayısına, aylık hacme ve aktarılacak sisteme göre değişir. Keşif ücretsizdir, teklif yazılıdır.",
+      "row1": "Tek belge türü",
+      "row2": "Çoklu belge türü",
+      "row3": "Kurum içi kurulum ve büyük arşiv",
+      "t1": "Bir belge türü, bir hedef sistem",
+      "t2": "Birden fazla belge türü ve onay akışı",
+      "t3": "On-premise model ve sunucu",
+      "a3": "Keşif sonrası teklif",
+      "d3": "Verinin kurum dışına çıkmadığı kurulum veya on binlerce sayfalık arşiv dönüşümü; kapsam keşifte belirlenir."
+    },
+    "steps": {
+      "title": "Süreç nasıl işler?",
+      "s1t": "Örnek belge analizi",
+      "s1d": "Belge türlerinizden anonimleştirilmiş örnekler incelenir; hangi alanların okunacağı ve nereye aktarılacağı belirlenir.",
+      "s2t": "Yazılı kapsam ve teklif",
+      "s2d": "Belge türleri, alan listesi, hedeflenen doğruluk ölçümü, takvim ve sabit fiyat yazılı olarak sunulur.",
+      "s3t": "Geliştirme ve test",
+      "s3d": "Okuma, doğrulama kuralları ve onay ekranı geliştirilir; sizin belgelerinizle test edilip sonuçlar raporlanır.",
+      "s4t": "Entegrasyon",
+      "s4d": "ERP, CRM, belge yönetim sistemi veya e-posta kutusu bağlantısı kurulur; kayıtlar otomatik oluşur.",
+      "s5t": "Yayın ve destek",
+      "s5d": "Canlı kullanımda doğruluk izlenir, yeni belge formatları eklenir; 30–90 gün ücretsiz hata düzeltme."
+    },
+    "kvkk": {
+      "title": "KVKK ve veri güvenliği",
+      "p1": "Kimlik, sözleşme ve finans belgeleri kişisel veri içerir. İsterseniz OCR ve yapay zeka modeli tamamen kurum sunucunuzda çalışır, belgeler dışarı gönderilmez. Bulut kullanılacaksa hangi verinin nereye gittiği yazılı olarak belirlenir.",
+      "p2": "Kurum içi yapay zeka seçenekleri için: <a href=\"/ankara-kamu-yapay-zeka\">kamu ve on-premise yapay zeka</a> · <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\">KVKK uyumlu yapay zeka rehberi</a>."
+    },
+    "faq": {
+      "title": "OCR yazılımı: sık sorulanlar",
+      "q1": "OCR yazılımı ne işe yarar?",
+      "a1": "Taranmış belge, PDF ve fotoğraflardaki yazıyı okuyup anlamlı alanlara ayırır ve ERP, CRM veya belge yönetim sistemine otomatik kaydeder. Elle veri girişini ve buna bağlı hataları azaltır.",
+      "q2": "OCR yazılımı ne kadar tutar?",
+      "a2": "Tek belge türü için 45.000–90.000 TL, birden fazla belge türü ve onay akışı için 90.000–180.000 TL. Kurum içi kurulum ve büyük arşiv dönüşümü keşif sonrası teklif edilir.",
+      "q3": "El yazısı ve kötü taramaları okuyabilir mi?",
+      "a3": "Okunabilirlik taramanın kalitesine bağlıdır. Ön işleme ile çoğu taramada iyileştirme sağlanır; emin olunamayan alanlar onaya düşer. Örnek belgelerinizle keşifte test edip sonucu önceden paylaşırız.",
+      "q4": "Hazır bir OCR programından farkı ne?",
+      "a4": "Hazır programlar genel metin çıkarır. Projeye özel çözüm sizin belge türlerinizi tanır, alanları kurallarla doğrular ve doğrudan kendi sisteminize kayıt açar.",
+      "q5": "Belgelerimiz dışarı gönderilir mi?",
+      "a5": "İsterseniz hayır. OCR ve yapay zeka modeli kurum içinde (on-premise) çalışabilir. Bulut tercih edilirse veri akışı yazılı olarak belirlenir.",
+      "q6": "Hangi sistemlere aktarım yapılabilir?",
+      "a6": "Logo, Netsis, Mikro gibi ERP'ler, CRM'ler, belge yönetim sistemleri, veritabanları ve e-posta kutuları. Ayrıntı: <a href=\"/logo-netsis-entegrasyon\">ERP entegrasyonu</a>."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "Belge iş yükünüzü birlikte inceleyelim",
+      "desc": "Örnek belgelerinizle ücretsiz keşif görüşmesi. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "OCR teklifi al"
+    },
+    "related": {
+      "invoice": "Fatura okuma programı",
+      "auto": "Süreç otomasyonu",
+      "guide": "OCR ve belge AI rehberi"
+    },
+    "footer": "© 2026 Ozturksoft — OCR ve Belge Okuma Yazılımı, Ankara"
   }
 }

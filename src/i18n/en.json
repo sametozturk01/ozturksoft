@@ -611,7 +611,8 @@
       "crm": "CRM software",
       "seo": "Ankara SEO",
       "mikro": "Mikro integration",
-      "geo": "GEO optimization"
+      "geo": "GEO optimization",
+      "ocr": "OCR and document reading"
     }
   },
   "aiFirmPage": {
@@ -1879,7 +1880,8 @@
       "t2": "6–10 weeks",
       "t3": "3–5 months",
       "linkGuide": "What is OCR guide",
-      "linkNote": "is the explainer; commissioning invoice-reading software starts here."
+      "linkNote": "is the explainer; commissioning invoice-reading software starts here.",
+      "linkOcr": "For documents other than invoices (contracts, forms, bank documents, archives): <a href=\"/ocr-belge-okuma\" style=\"color:#60a5fa\">OCR and document reading software →</a>"
     },
     "cards": {
       "c1title": "🧾 Invoice and delivery-note OCR",
@@ -3153,5 +3155,98 @@
       "ai": "AI integration"
     },
     "footer": "© 2026 Ozturksoft — GEO Optimization, Ankara"
+  },
+  "ocrPage": {
+    "meta": {
+      "title": "OCR and Document Reading Software | Document Digitization | Ozturksoft"
+    },
+    "hero": {
+      "badge": "OCR · AI · Document digitization · KVKK",
+      "title": "OCR and Document Reading Software",
+      "desc": "Custom-built OCR software that reads scanned documents, PDFs and photos and transfers the data into your ERP, CRM or document management system. It combines classic OCR with AI, and data can stay on your own servers. Ankara, free discovery."
+    },
+    "stats": {
+      "s1l": "Single document type",
+      "s2l": "Multiple document types",
+      "s3v": "On-premise",
+      "s3l": "In-house deployment option"
+    },
+    "what": {
+      "title": "What does custom OCR do?",
+      "p1": "<strong>OCR (optical character recognition)</strong> turns text in an image into text. On its own that is not enough: on an invoice you need to know which figure is VAT and which is the total; in a contract you need the parties and dates. So we interpret OCR output with AI models, split it into fields, validate it with rules and transfer it into your system.",
+      "p2": "We do not sell an off-the-shelf package. In the discovery call we review your document types, volume and target system, then build a reading and approval flow for you. Fields the system is unsure about go to a person for approval, so errors are caught before they are recorded."
+    },
+    "docs": {
+      "title": "Which documents do we build for?",
+      "d1t": "Invoices and dispatch notes",
+      "d1d": "Supplier, amount, VAT and line items from invoices, dispatch notes and receipts, recorded in Logo, Netsis or Mikro. Details: <a href=\"/fatura-okuma\" style=\"color:#60a5fa\">invoice reading software</a>.",
+      "d2t": "Contracts and official letters",
+      "d2d": "Parties, dates, terms, amounts and key clauses extracted into a searchable contract archive.",
+      "d3t": "Forms, applications and IDs",
+      "d3d": "Field reading from handwritten forms, applications and identity documents, with KVKK-compliant masking.",
+      "d4t": "Bank and finance documents",
+      "d4d": "Transactions from receipts, bank statements and slips, matched against accounting records.",
+      "d5t": "Public-sector correspondence",
+      "d5d": "Classifying incoming and outgoing documents, petitions and official letters and extracting subject and reference numbers.",
+      "d6t": "Scanned archives",
+      "d6d": "Turning paper archives into searchable PDFs and database records, with pre-processing for old or low-quality scans."
+    },
+    "pricing": {
+      "title": "OCR software price (2026)",
+      "intro": "Price depends on the number of document types, monthly volume and the target system. Discovery is free, the proposal is written.",
+      "row1": "Single document type",
+      "row2": "Multiple document types",
+      "row3": "On-premise and large archives",
+      "t1": "One document type, one target system",
+      "t2": "Several document types with approval flow",
+      "t3": "On-premise model and server",
+      "a3": "Quoted after discovery",
+      "d3": "Deployment where data never leaves your organization, or conversion of archives with tens of thousands of pages; scope is set in discovery."
+    },
+    "steps": {
+      "title": "How the process works",
+      "s1t": "Sample document analysis",
+      "s1d": "We review anonymized samples of your documents and decide which fields to read and where to send them.",
+      "s2t": "Written scope and proposal",
+      "s2d": "Document types, field list, the accuracy measure, timeline and fixed price are set out in writing.",
+      "s3t": "Development and testing",
+      "s3d": "Reading, validation rules and an approval screen are built and tested on your documents; results are reported.",
+      "s4t": "Integration",
+      "s4d": "Connection to your ERP, CRM, document management system or mailbox is set up; records are created automatically.",
+      "s5t": "Launch and support",
+      "s5d": "Accuracy is monitored in live use and new formats are added; 30–90 days of free bug fixing."
+    },
+    "kvkk": {
+      "title": "KVKK and data security",
+      "p1": "IDs, contracts and financial documents contain personal data. If you prefer, OCR and the AI model run entirely on your servers and documents are never sent out. If the cloud is used, which data goes where is set out in writing.",
+      "p2": "For in-house AI options: <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#60a5fa\">public-sector and on-premise AI</a> · <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#60a5fa\">KVKK-compliant AI guide</a>."
+    },
+    "faq": {
+      "title": "OCR software: FAQ",
+      "q1": "What is OCR software used for?",
+      "a1": "It reads text in scanned documents, PDFs and photos, splits it into meaningful fields and records it automatically in your ERP, CRM or document management system, reducing manual data entry and its errors.",
+      "q2": "How much does OCR software cost?",
+      "a2": "45,000–90,000 TL for one document type and 90,000–180,000 TL for several document types with an approval flow. On-premise deployment and large archive conversion are quoted after discovery.",
+      "q3": "Can it read handwriting and poor scans?",
+      "a3": "Readability depends on scan quality. Pre-processing improves most scans, and uncertain fields go to approval. We test with your sample documents during discovery and share the results in advance.",
+      "q4": "How is it different from off-the-shelf OCR?",
+      "a4": "Off-the-shelf tools extract generic text. A custom solution recognizes your document types, validates fields with rules and creates records directly in your own system.",
+      "q5": "Are our documents sent outside?",
+      "a5": "Not if you prefer otherwise. OCR and the AI model can run on-premise. If the cloud is chosen, the data flow is defined in writing.",
+      "q6": "Which systems can the data be sent to?",
+      "a6": "ERPs such as Logo, Netsis and Mikro, CRMs, document management systems, databases and mailboxes. Details: <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">ERP integration</a>."
+    },
+    "cta": {
+      "btn": "Free discovery call",
+      "title": "Let's review your document workload",
+      "desc": "Free discovery call with your sample documents. <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>",
+      "btn2": "Get an OCR quote"
+    },
+    "related": {
+      "invoice": "Invoice reading software",
+      "auto": "Process automation",
+      "guide": "OCR and document AI guide"
+    },
+    "footer": "© 2026 Ozturksoft — OCR and Document Reading Software, Ankara"
   }
 }

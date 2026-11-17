@@ -127,6 +127,12 @@
     <priority>0.97</priority>
   </url>
   <url>
+    <loc>https://ozturksoft.net/ocr-belge-okuma</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
     <loc>https://ozturksoft.net/geo-optimizasyonu</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>

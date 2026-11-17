@@ -26,6 +26,7 @@ Prices below are 2026 ranges in Turkish lira (TL) published on the linked pages;
 - [AI agent development](https://ozturksoft.net/ai-agent): proof of concept 60,000–120,000 TL; enterprise 150,000–280,000 TL; on-premise 280,000–500,000+ TL
 - [AI consulting](https://ozturksoft.net/yapay-zeka-danismanligi): roadmap 25,000–60,000 TL; PoC 40,000–80,000 TL
 - [Invoice and document OCR](https://ozturksoft.net/fatura-okuma): single document type 45,000–90,000 TL; multiple types 90,000–180,000 TL
+- [OCR and document reading software](https://ozturksoft.net/ocr-belge-okuma): custom-built OCR + AI for contracts, forms, bank documents, public-sector correspondence and scanned archives; single document type 45,000–90,000 TL; multiple types 90,000–180,000 TL; on-premise and large archives quoted after discovery
 - [Process automation (RPA + AI)](https://ozturksoft.net/surec-otomasyonu): single process 40,000–80,000 TL; department 80,000–180,000 TL; ERP-integrated 120,000–250,000 TL
 - [Public-sector AI](https://ozturksoft.net/ankara-kamu-yapay-zeka): on-premise LLM, document OCR, e-government workflows
 - [AI assistant product](https://ozturksoft.net/ankara-ai-asistan): WhatsApp, web and CRM assistant with on-premise option

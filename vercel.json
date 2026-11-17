@@ -329,6 +329,31 @@
       "permanent": true
     },
     {
+      "source": "/ocr",
+      "destination": "/ocr-belge-okuma",
+      "permanent": true
+    },
+    {
+      "source": "/ocr-yazilimi",
+      "destination": "/ocr-belge-okuma",
+      "permanent": true
+    },
+    {
+      "source": "/belge-okuma",
+      "destination": "/ocr-belge-okuma",
+      "permanent": true
+    },
+    {
+      "source": "/belge-ocr",
+      "destination": "/ocr-belge-okuma",
+      "permanent": true
+    },
+    {
+      "source": "/evrak-dijitallestirme",
+      "destination": "/ocr-belge-okuma",
+      "permanent": true
+    },
+    {
       "source": "/geo",
       "destination": "/geo-optimizasyonu",
       "permanent": true

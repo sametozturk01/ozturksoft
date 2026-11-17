@@ -611,7 +611,8 @@
       "crm": "Logiciel CRM",
       "seo": "SEO Ankara",
       "mikro": "Intégration Mikro",
-      "geo": "Optimisation GEO"
+      "geo": "Optimisation GEO",
+      "ocr": "OCR et lecture de documents"
     }
   },
   "aiFirmPage": {
@@ -1879,7 +1880,8 @@
       "t2": "6–10 semaines",
       "t3": "3–5 mois",
       "linkGuide": "Guide « qu’est-ce que l’OCR »",
-      "linkNote": "est l’article explicatif ; faire créer le logiciel se fait ici."
+      "linkNote": "est l’article explicatif ; faire créer le logiciel se fait ici.",
+      "linkOcr": "Pour les documents autres que les factures (contrats, formulaires, documents bancaires, archives) : <a href=\"/ocr-belge-okuma\" style=\"color:#60a5fa\">logiciel OCR et lecture de documents →</a>"
     },
     "cards": {
       "c1title": "🧾 OCR facture et bon de livraison",
@@ -3153,5 +3155,98 @@
       "ai": "Intégration IA"
     },
     "footer": "© 2026 Ozturksoft — Optimisation GEO, Ankara"
+  },
+  "ocrPage": {
+    "meta": {
+      "title": "Logiciel OCR et lecture de documents | Numérisation | Ozturksoft"
+    },
+    "hero": {
+      "badge": "OCR · IA · Numérisation de documents · KVKK",
+      "title": "Logiciel OCR et lecture de documents",
+      "desc": "Logiciel OCR développé sur mesure qui lit les documents scannés, PDF et photos et transfère les données vers votre ERP, CRM ou GED. Il associe OCR classique et IA ; les données peuvent rester sur vos propres serveurs. Ankara, premier échange gratuit."
+    },
+    "stats": {
+      "s1l": "Un type de document",
+      "s2l": "Plusieurs types de documents",
+      "s3v": "Sur site",
+      "s3l": "Option d'installation interne"
+    },
+    "what": {
+      "title": "Que fait un OCR sur mesure ?",
+      "p1": "<strong>L'OCR (reconnaissance optique de caractères)</strong> transforme le texte d'une image en texte. Cela ne suffit pas : sur une facture, il faut savoir quel montant est la TVA et lequel est le total ; dans un contrat, il faut les parties et les dates. Nous interprétons donc la sortie OCR avec des modèles d'IA, la découpons en champs, la vérifions par des règles et la transférons dans votre système.",
+      "p2": "Nous ne vendons pas de logiciel standard. Lors du premier échange, nous étudions vos types de documents, votre volume et le système cible, puis construisons un flux de lecture et de validation adapté. Les champs incertains sont envoyés à une personne pour validation, afin de repérer les erreurs avant l'enregistrement."
+    },
+    "docs": {
+      "title": "Pour quels documents développons-nous ?",
+      "d1t": "Factures et bons de livraison",
+      "d1d": "Fournisseur, montant, TVA et lignes à partir de factures, bons et reçus, enregistrés dans Logo, Netsis ou Mikro. Détails : <a href=\"/fatura-okuma\" style=\"color:#60a5fa\">lecture de factures</a>.",
+      "d2t": "Contrats et courriers officiels",
+      "d2d": "Parties, dates, durées, montants et clauses clés dans une archive de contrats consultable.",
+      "d3t": "Formulaires, demandes et pièces d'identité",
+      "d3d": "Lecture de champs de formulaires manuscrits, demandes et pièces d'identité, avec masquage conforme KVKK.",
+      "d4t": "Documents bancaires et financiers",
+      "d4d": "Opérations issues de reçus, relevés et bordereaux, rapprochées de la comptabilité.",
+      "d5t": "Courrier administratif",
+      "d5d": "Classement du courrier entrant et sortant, des requêtes et lettres officielles avec objet et références.",
+      "d6t": "Archives numérisées",
+      "d6d": "Archives papier converties en PDF consultables et en enregistrements de base de données, avec prétraitement des scans anciens ou de faible qualité."
+    },
+    "pricing": {
+      "title": "Prix d'un logiciel OCR (2026)",
+      "intro": "Le prix dépend du nombre de types de documents, du volume mensuel et du système cible. Premier échange gratuit, proposition écrite.",
+      "row1": "Un type de document",
+      "row2": "Plusieurs types de documents",
+      "row3": "Sur site et grandes archives",
+      "t1": "Un type de document, un système cible",
+      "t2": "Plusieurs types avec flux de validation",
+      "t3": "Modèle et serveur sur site",
+      "a3": "Devis après le premier échange",
+      "d3": "Installation où les données ne quittent jamais votre organisation, ou conversion d'archives de dizaines de milliers de pages ; périmètre défini lors de l'échange."
+    },
+    "steps": {
+      "title": "Comment se déroule le projet",
+      "s1t": "Analyse de documents exemples",
+      "s1d": "Nous étudions des exemples anonymisés et définissons les champs à lire et leur destination.",
+      "s2t": "Périmètre écrit et proposition",
+      "s2d": "Types de documents, liste de champs, mesure de précision, calendrier et prix fixe sont formalisés par écrit.",
+      "s3t": "Développement et tests",
+      "s3d": "Lecture, règles de contrôle et écran de validation sont développés et testés sur vos documents ; les résultats sont rapportés.",
+      "s4t": "Intégration",
+      "s4d": "Connexion à votre ERP, CRM, GED ou boîte mail ; les enregistrements sont créés automatiquement.",
+      "s5t": "Mise en service et support",
+      "s5d": "La précision est suivie en production et de nouveaux formats sont ajoutés ; 30 à 90 jours de corrections gratuites."
+    },
+    "kvkk": {
+      "title": "KVKK et sécurité des données",
+      "p1": "Pièces d'identité, contrats et documents financiers contiennent des données personnelles. Si vous le souhaitez, l'OCR et le modèle d'IA fonctionnent entièrement sur vos serveurs, sans envoi de documents à l'extérieur. En cas d'usage du cloud, les flux de données sont définis par écrit.",
+      "p2": "Options d'IA interne : <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#60a5fa\">IA secteur public et sur site</a> · <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#60a5fa\">guide de l'IA conforme KVKK</a>."
+    },
+    "faq": {
+      "title": "Logiciel OCR : questions fréquentes",
+      "q1": "À quoi sert un logiciel OCR ?",
+      "a1": "Il lit le texte des documents scannés, PDF et photos, le découpe en champs utiles et l'enregistre automatiquement dans votre ERP, CRM ou GED, ce qui réduit la saisie manuelle et ses erreurs.",
+      "q2": "Combien coûte un logiciel OCR ?",
+      "a2": "45 000–90 000 TL pour un type de document, 90 000–180 000 TL pour plusieurs types avec flux de validation. L'installation sur site et les grandes archives sont chiffrées après le premier échange.",
+      "q3": "Peut-il lire l'écriture manuscrite et les mauvais scans ?",
+      "a3": "La lisibilité dépend de la qualité du scan. Le prétraitement améliore la plupart des scans ; les champs incertains passent en validation. Nous testons en amont avec vos documents exemples.",
+      "q4": "Quelle différence avec un OCR standard ?",
+      "a4": "Les outils standard extraient du texte générique. Une solution sur mesure reconnaît vos types de documents, vérifie les champs par des règles et crée les enregistrements directement dans votre système.",
+      "q5": "Nos documents sont-ils envoyés à l'extérieur ?",
+      "a5": "Pas si vous ne le souhaitez pas. L'OCR et le modèle d'IA peuvent fonctionner sur site. En cas de cloud, le flux de données est défini par écrit.",
+      "q6": "Vers quels systèmes les données peuvent-elles être envoyées ?",
+      "a6": "ERP comme Logo, Netsis et Mikro, CRM, GED, bases de données et boîtes mail. Détails : <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">intégration ERP</a>."
+    },
+    "cta": {
+      "btn": "Premier échange gratuit",
+      "title": "Étudions votre charge documentaire",
+      "desc": "Premier échange gratuit avec vos documents exemples. <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>",
+      "btn2": "Demander un devis OCR"
+    },
+    "related": {
+      "invoice": "Lecture de factures",
+      "auto": "Automatisation des processus",
+      "guide": "Guide OCR et IA documentaire"
+    },
+    "footer": "© 2026 Ozturksoft — Logiciel OCR et lecture de documents, Ankara"
   }
 }
