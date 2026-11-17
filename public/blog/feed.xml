@@ -5,8 +5,29 @@
     <link>https://ozturksoft.net/blog</link>
     <description>Ankara merkezli Ozturksoft yazılım ve yapay zeka blogu. Fiyat rehberleri, teknik içerikler ve GEO/SEO ipuçları.</description>
     <language>tr</language>
-    <lastBuildDate>Mon, 02 Nov 2026 17:29:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 20:31:05 GMT</lastBuildDate>
     <atom:link href="https://ozturksoft.net/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>EBYS ve Yapay Zeka: Kamuda Evrak Sınıflandırma ve Yönlendirme [2026]</title>
+      <link>https://ozturksoft.net/blog/ebys-yapay-zeka-evrak-siniflandirma-2026</link>
+      <guid isPermaLink="true">https://ozturksoft.net/blog/ebys-yapay-zeka-evrak-siniflandirma-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Kamu kurumları ve üniversiteler için: EBYS&amp;#x27;ye gelen evrakın yapay zeka ile sınıflandırılması, birim yönlendirme önerisi, taranmış evrakta arama, on-premise kurulum, KVKK ve pilot proje ile başlama.</description>
+    </item>
+    <item>
+      <title>Excel Yerine Şirkete Özel Program: Ne Zaman Geçilmeli, Maliyeti Ne? [2026]</title>
+      <link>https://ozturksoft.net/blog/excel-yerine-ozel-program-yaptirmak-2026</link>
+      <guid isPermaLink="true">https://ozturksoft.net/blog/excel-yerine-ozel-program-yaptirmak-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Stok, sipariş, teklif ve servis takibini Excel&amp;#x27;de yürüten şirketler için: özel programa ne zaman geçilmeli, hazır program mı özel yazılım mı, 2026 maliyeti ve Excel verisinin taşınması.</description>
+    </item>
+    <item>
+      <title>PDF ve E-Fatura Verisini Muhasebeye Otomatik Aktarma Rehberi [2026]</title>
+      <link>https://ozturksoft.net/blog/pdf-e-fatura-muhasebeye-aktarma-2026</link>
+      <guid isPermaLink="true">https://ozturksoft.net/blog/pdf-e-fatura-muhasebeye-aktarma-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Gelen faturaları elle girmeyi bırakmak isteyenler için: e-Fatura XML&amp;#x27;i, PDF ve kâğıt faturalar için hangi yöntem gerekir, ücretsiz araçlar ne zaman yeter, Logo-Netsis-Mikro&amp;#x27;ya aktarım ve 2026 maliyeti.</description>
+    </item>
     <item>
       <title>Ankara LLM Entegrasyonu Maliyeti ve Fiyatları [2026]</title>
       <link>https://ozturksoft.net/blog/ankara-llm-entegrasyonu-maliyeti-2026</link>

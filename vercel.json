@@ -329,6 +329,31 @@
       "permanent": true
     },
     {
+      "source": "/sirkete-ozel-chatgpt",
+      "destination": "/kurum-ici-yapay-zeka",
+      "permanent": true
+    },
+    {
+      "source": "/ozel-chatgpt",
+      "destination": "/kurum-ici-yapay-zeka",
+      "permanent": true
+    },
+    {
+      "source": "/on-premise-yapay-zeka",
+      "destination": "/kurum-ici-yapay-zeka",
+      "permanent": true
+    },
+    {
+      "source": "/kurum-ici-ai",
+      "destination": "/kurum-ici-yapay-zeka",
+      "permanent": true
+    },
+    {
+      "source": "/private-gpt",
+      "destination": "/kurum-ici-yapay-zeka",
+      "permanent": true
+    },
+    {
       "source": "/ocr",
       "destination": "/ocr-belge-okuma",
       "permanent": true

@@ -612,7 +612,8 @@
       "seo": "Ankara SEO",
       "mikro": "Mikro integration",
       "geo": "GEO optimization",
-      "ocr": "OCR and document reading"
+      "ocr": "OCR and document reading",
+      "privateAi": "Private company ChatGPT"
     }
   },
   "aiFirmPage": {
@@ -728,7 +729,8 @@
       "r4": "AI agent",
       "r5": "Invoice and document OCR",
       "r6": "AI consulting (roadmap, PoC)",
-      "sw": "The same team builds the software the AI connects to (ERP, CRM, web, mobile): <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">Ankara software company</a>."
+      "sw": "The same team builds the software the AI connects to (ERP, CRM, web, mobile): <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">Ankara software company</a>.",
+      "r7": "In-house AI (private company ChatGPT)"
     }
   },
   "aiPage": {
@@ -1684,7 +1686,8 @@
     "links": {
       "kvkk": "KVKK-compliant AI",
       "ocr": "Document OCR",
-      "hub": "AI company hub"
+      "hub": "AI company hub",
+      "ebys": "EDMS and AI (Turkish)"
     },
     "cta": {
       "title": "Plan Your Public AI Project",
@@ -1881,7 +1884,8 @@
       "t3": "3–5 months",
       "linkGuide": "What is OCR guide",
       "linkNote": "is the explainer; commissioning invoice-reading software starts here.",
-      "linkOcr": "For documents other than invoices (contracts, forms, bank documents, archives): <a href=\"/ocr-belge-okuma\" style=\"color:#60a5fa\">OCR and document reading software →</a>"
+      "linkOcr": "For documents other than invoices (contracts, forms, bank documents, archives): <a href=\"/ocr-belge-okuma\" style=\"color:#60a5fa\">OCR and document reading software →</a>",
+      "linkPdfGuide": "Automatically transferring e-invoices, e-archive and PDF invoices into accounting: <a href=\"/blog/pdf-e-fatura-muhasebeye-aktarma-2026\" style=\"color:#60a5fa\">read the guide (Turkish) →</a>"
     },
     "cards": {
       "c1title": "🧾 Invoice and delivery-note OCR",
@@ -1963,7 +1967,7 @@
       "c2link": "What is RAG →",
       "c3title": "🔒 On-premise / KVKK",
       "c3desc": "Public sector and holdings: data stays on the corporate network. TR hosting or a local model. <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#818cf8\">Public-sector AI</a> and the <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#818cf8\">KVKK guide</a> sit apart.",
-      "c3link": "Public-sector AI →",
+      "c3link": "Private company ChatGPT →",
       "c4title": "⚡ Chatbot and agent are separate",
       "c4desc": "Channel bot: <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp chatbot</a>; autonomous work: <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a>. This page is wiring an LLM into your software; those two jobs stay on their own URLs.",
       "c4link": "Commission an AI agent →"
@@ -3248,5 +3252,116 @@
       "guide": "OCR and document AI guide"
     },
     "footer": "© 2026 Ozturksoft — OCR and Document Reading Software, Ankara"
+  },
+  "privateAiPage": {
+    "meta": {
+      "title": "Private ChatGPT for Your Company | On-Premise AI | Ozturksoft"
+    },
+    "hero": {
+      "badge": "In-house AI · KVKK · On-premise · RAG",
+      "title": "A Private ChatGPT for Your Company",
+      "desc": "An AI assistant that runs on your own server, knows your company documents and shows which document each answer comes from. Data never leaves your organization. Custom setup that starts with a small pilot. Ankara, free discovery."
+    },
+    "stats": {
+      "s1l": "Pilot (PoC)",
+      "s2l": "Document assistant (RAG)",
+      "s3l": "On-premise deployment"
+    },
+    "what": {
+      "title": "What is it?",
+      "p1": "An employee types <em>“What is the late-delivery penalty in our contract with company X?”</em> or <em>“How do I apply for annual leave?”</em>. The AI finds the answer in your contracts, procedures and regulations, gives a short, clear reply and shows <strong>which document and section it came from</strong>.",
+      "p2": "The difference: this assistant does not run on a server abroad like ChatGPT, but on <strong>your own server</strong>. Your documents, questions and answers stay inside your network. It is built with open-source language models (such as Llama, Qwen and Mistral) and a searchable knowledge base of your documents (RAG)."
+    },
+    "cmp": {
+      "title": "How it differs from public ChatGPT",
+      "h1": "Criterion",
+      "h2": "Public ChatGPT",
+      "h3": "In-house AI",
+      "r1a": "Where is data processed?",
+      "r1b": "On the provider's servers abroad",
+      "r1c": "On your own server or a data center you choose",
+      "r2a": "Does it know your documents?",
+      "r2b": "Only the file uploaded to that chat",
+      "r2c": "All documents you are authorized for, with sources",
+      "r3a": "Who can access what?",
+      "r3b": "Per account",
+      "r3c": "Department- and role-based permissions",
+      "r4a": "Cost model",
+      "r4b": "Monthly subscription per user",
+      "r4c": "One-off setup and hardware; independent of user count"
+    },
+    "use": {
+      "title": "Who uses it, and for what?",
+      "u1t": "Law and consulting",
+      "u1d": "Searching contracts and case files and finding precedent clauses; client data stays in the firm.",
+      "u2t": "Healthcare",
+      "u2d": "Fast access to procedures, protocols and quality documents; patient data stays in-house.",
+      "u3t": "Defense and industry",
+      "u3d": "Q&A over technical specifications, standards and project documents; confidential data never leaves the network.",
+      "u4t": "Public institutions",
+      "u4d": "Searching legislation, regulations and internal correspondence. Details: <a href=\"/blog/ebys-yapay-zeka-evrak-siniflandirma-2026\" style=\"color:#60a5fa\">EDMS and AI (Turkish)</a>.",
+      "u5t": "Human resources",
+      "u5d": "Answering staff regulation, leave and benefits questions without loading HR.",
+      "u6t": "Sales and support teams",
+      "u6d": "Quick answers from product catalogs, technical documents and past proposals."
+    },
+    "steps": {
+      "title": "How it is set up",
+      "s1t": "Discovery and document inventory",
+      "s1d": "Together we decide which documents to use, who can access what and the most frequent questions.",
+      "s2t": "Pilot (2–4 weeks)",
+      "s2d": "The system is built with 100–500 documents from one department and answer quality is measured with real questions. You decide on next steps based on the results.",
+      "s3t": "Hardware and installation",
+      "s3d": "A server is recommended based on document and user counts; the model, knowledge base and chat interface are installed on your server.",
+      "s4t": "Permissions and integration",
+      "s4d": "Department- and role-based access; Active Directory, EDMS or document system connection if needed.",
+      "s5t": "Training and support",
+      "s5d": "User training, automatic ingestion of new documents and 30–90 days of free bug fixing."
+    },
+    "pricing": {
+      "title": "Price (2026)",
+      "intro": "Price depends on document count, user count and hardware. Discovery is free, the proposal is written. Hardware is quoted separately.",
+      "row1": "Pilot (PoC)",
+      "row2": "Document assistant (RAG)",
+      "row3": "Full on-premise deployment",
+      "t1": "2–4 weeks",
+      "t2": "Cloud or on-premise",
+      "t3": "On-premise model and server",
+      "d1": "One department, a limited document set; answer quality is measured and reported.",
+      "d2": "A Q&A assistant connected to your documents, with source citations and permissions.",
+      "d3": "Full deployment where data never leaves your organization, multiple departments and integrations."
+    },
+    "note": {
+      "title": "To be honest",
+      "p1": "Open-source models running in-house are not as broadly knowledgeable as the latest ChatGPT. But for questions grounded in your documents, which is this system's real job, they are usually sufficient and consistent. The pilot exists to measure exactly that with your documents, before any large investment.",
+      "p2": "Under KVKK, an in-house deployment removes data-transfer risk, but data inventory, access rights and logging still need planning. Details: <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#60a5fa\">KVKK-compliant AI guide</a>."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "What is a private company ChatGPT?",
+      "a1": "An AI assistant that runs on your company's own server, answers from your company documents and shows its sources. Data does not leave the organization.",
+      "q2": "How much does it cost?",
+      "a2": "Pilot 40,000–80,000 TL, document assistant (RAG) 80,000–200,000 TL, full on-premise deployment 150,000–500,000+ TL. Hardware is quoted separately.",
+      "q3": "What hardware is needed?",
+      "a3": "A GPU server sized to the model and user count. You can use your own server, buy a new one or rent one in a data center in Turkey; we advise during discovery.",
+      "q4": "Is it as good as ChatGPT?",
+      "a4": "Not for general-knowledge questions. For questions grounded in company documents it is usually sufficient, and because it cites sources, answers can be verified. The pilot measures this with your documents.",
+      "q5": "Which documents does it work with?",
+      "a5": "PDF, Word, Excel, email archives, EDMS and document management systems. Scanned documents are converted to text with OCR first. Details: <a href=\"/ocr-belge-okuma\" style=\"color:#60a5fa\">OCR and document reading</a>.",
+      "q6": "Can everyone see every document?",
+      "a6": "No. Permissions are department- and role-based; users only get answers from documents they are authorized to access."
+    },
+    "cta": {
+      "btn": "Free discovery call",
+      "title": "Let's start with a pilot",
+      "desc": "Let's plan a small pilot with one department's documents; see results before a large investment. <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>",
+      "btn2": "Get a pilot quote"
+    },
+    "related": {
+      "ai": "Ankara AI company",
+      "int": "AI integration",
+      "pub": "Public-sector AI"
+    },
+    "footer": "© 2026 Ozturksoft — Private Company ChatGPT, Ankara"
   }
 }

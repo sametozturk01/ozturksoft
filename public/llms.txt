@@ -23,6 +23,7 @@ Prices below are 2026 ranges in Turkish lira (TL) published on the linked pages;
 - [Yapay zeka entegrasyonu / AI integration](https://ozturksoft.net/yapay-zeka-entegrasyonu): ChatGPT / GPT integration 40,000–80,000 TL; RAG over company documents 80,000–200,000 TL; on-premise LLM 150,000–500,000+ TL
 - [Chatbot development](https://ozturksoft.net/chatbot-yaptirmak): FAQ bot 25,000–45,000 TL; GPT web chatbot 45,000–80,000 TL; RAG chatbot 80,000–150,000 TL
 - [WhatsApp chatbot](https://ozturksoft.net/whatsapp-chatbot-yaptirmak): FAQ 40,000–70,000 TL; GPT 60,000–100,000 TL; CRM-connected 90,000–160,000 TL (WhatsApp Business API)
+- [Private company ChatGPT / on-premise AI](https://ozturksoft.net/kurum-ici-yapay-zeka): assistant on the client's own server, answering from company documents with citations (open-source LLM + RAG); pilot 40,000–80,000 TL; RAG assistant 80,000–200,000 TL; full on-premise 150,000–500,000+ TL plus hardware
 - [AI agent development](https://ozturksoft.net/ai-agent): proof of concept 60,000–120,000 TL; enterprise 150,000–280,000 TL; on-premise 280,000–500,000+ TL
 - [AI consulting](https://ozturksoft.net/yapay-zeka-danismanligi): roadmap 25,000–60,000 TL; PoC 40,000–80,000 TL
 - [Invoice and document OCR](https://ozturksoft.net/fatura-okuma): single document type 45,000–90,000 TL; multiple types 90,000–180,000 TL
@@ -64,6 +65,9 @@ Prices below are 2026 ranges in Turkish lira (TL) published on the linked pages;
 - [LLM integration cost](https://ozturksoft.net/blog/ankara-llm-entegrasyonu-maliyeti-2026)
 - [Document OCR with AI](https://ozturksoft.net/blog/ankara-ocr-belge-ai-2026)
 - [Process automation with RPA + AI](https://ozturksoft.net/blog/ankara-surec-otomasyonu-rpa-yapay-zeka)
+- [Replacing Excel with custom software](https://ozturksoft.net/blog/excel-yerine-ozel-program-yaptirmak-2026) (Turkish)
+- [Transferring e-invoices and PDF invoices into accounting](https://ozturksoft.net/blog/pdf-e-fatura-muhasebeye-aktarma-2026) (Turkish)
+- [EDMS (EBYS) and AI document classification for the public sector](https://ozturksoft.net/blog/ebys-yapay-zeka-evrak-siniflandirma-2026) (Turkish)
 - [How to choose an AI company in Ankara](https://ozturksoft.net/blog/ankara-yapay-zeka-firmasi-nasil-secilir-2026) and [how to choose a software company](https://ozturksoft.net/blog/ankara-yazilim-sirketi-nasil-secilir-2026)
 - [Custom software development](https://ozturksoft.net/blog/ozel-yazilim-gelistirme-nedir-rehberi), [SaaS](https://ozturksoft.net/blog/ankara-saas-gelistirme-2026), [Laravel](https://ozturksoft.net/blog/ankara-laravel-yazilim-gelistirme-2026)
 - [Mobile app cost](https://ozturksoft.net/blog/mobil-uygulama-maliyeti-2026) and [mobile development guide](https://ozturksoft.net/blog/mobil-uygulama-gelistirme-rehberi-2026)

@@ -612,7 +612,8 @@
       "seo": "SEO Ankara",
       "mikro": "Intégration Mikro",
       "geo": "Optimisation GEO",
-      "ocr": "OCR et lecture de documents"
+      "ocr": "OCR et lecture de documents",
+      "privateAi": "ChatGPT privé d'entreprise"
     }
   },
   "aiFirmPage": {
@@ -728,7 +729,8 @@
       "r4": "Agent IA",
       "r5": "OCR de factures et documents",
       "r6": "Conseil en IA (feuille de route, PoC)",
-      "sw": "La même équipe développe le logiciel auquel l'IA se connecte (ERP, CRM, web, mobile) : <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">entreprise de logiciels à Ankara</a>."
+      "sw": "La même équipe développe le logiciel auquel l'IA se connecte (ERP, CRM, web, mobile) : <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">entreprise de logiciels à Ankara</a>.",
+      "r7": "IA interne (ChatGPT privé d'entreprise)"
     }
   },
   "aiPage": {
@@ -1684,7 +1686,8 @@
     "links": {
       "kvkk": "IA conforme KVKK",
       "ocr": "OCR documentaire",
-      "hub": "Hub entreprise IA"
+      "hub": "Hub entreprise IA",
+      "ebys": "GED et IA (en turc)"
     },
     "cta": {
       "title": "Planifions votre projet IA public",
@@ -1881,7 +1884,8 @@
       "t3": "3–5 mois",
       "linkGuide": "Guide « qu’est-ce que l’OCR »",
       "linkNote": "est l’article explicatif ; faire créer le logiciel se fait ici.",
-      "linkOcr": "Pour les documents autres que les factures (contrats, formulaires, documents bancaires, archives) : <a href=\"/ocr-belge-okuma\" style=\"color:#60a5fa\">logiciel OCR et lecture de documents →</a>"
+      "linkOcr": "Pour les documents autres que les factures (contrats, formulaires, documents bancaires, archives) : <a href=\"/ocr-belge-okuma\" style=\"color:#60a5fa\">logiciel OCR et lecture de documents →</a>",
+      "linkPdfGuide": "Transférer automatiquement e-factures, e-archives et factures PDF en comptabilité : <a href=\"/blog/pdf-e-fatura-muhasebeye-aktarma-2026\" style=\"color:#60a5fa\">lire le guide (en turc) →</a>"
     },
     "cards": {
       "c1title": "🧾 OCR facture et bon de livraison",
@@ -1963,7 +1967,7 @@
       "c2link": "Qu’est-ce que le RAG →",
       "c3title": "🔒 On-premise / KVKK",
       "c3desc": "Secteur public et holdings : les données restent sur le réseau. Hébergement TR ou modèle local. <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#818cf8\">IA publique</a> et <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#818cf8\">guide KVKK</a> à part.",
-      "c3link": "IA secteur public →",
+      "c3link": "ChatGPT privé d'entreprise →",
       "c4title": "⚡ Chatbot et agent à part",
       "c4desc": "Bot canal : <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">chatbot WhatsApp</a> ; travail autonome : <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a>. Cette page branche le LLM ; ces deux jobs restent sur leurs URL.",
       "c4link": "Faire créer un AI agent →"
@@ -3248,5 +3252,116 @@
       "guide": "Guide OCR et IA documentaire"
     },
     "footer": "© 2026 Ozturksoft — Logiciel OCR et lecture de documents, Ankara"
+  },
+  "privateAiPage": {
+    "meta": {
+      "title": "ChatGPT privé pour votre entreprise | IA sur site | Ozturksoft"
+    },
+    "hero": {
+      "badge": "IA interne · KVKK · Sur site · RAG",
+      "title": "Un ChatGPT privé pour votre entreprise",
+      "desc": "Un assistant IA qui fonctionne sur votre propre serveur, connaît les documents de votre entreprise et indique la source de chaque réponse. Les données ne quittent pas votre organisation. Installation sur mesure qui commence par un petit pilote. Ankara, premier échange gratuit."
+    },
+    "stats": {
+      "s1l": "Pilote (PoC)",
+      "s2l": "Assistant documentaire (RAG)",
+      "s3l": "Installation sur site"
+    },
+    "what": {
+      "title": "De quoi s'agit-il ?",
+      "p1": "Un employé écrit : <em>« Quelle est la pénalité de retard dans notre contrat avec la société X ? »</em> ou <em>« Comment demander mes congés annuels ? »</em>. L'IA trouve la réponse dans vos contrats, procédures et règlements, répond clairement et indique <strong>de quel document et de quelle section</strong> elle provient.",
+      "p2": "La différence : cet assistant ne tourne pas sur un serveur à l'étranger comme ChatGPT, mais sur <strong>votre propre serveur</strong>. Documents, questions et réponses restent dans votre réseau. Il repose sur des modèles de langage open source (Llama, Qwen, Mistral…) et une base de connaissances consultable de vos documents (RAG)."
+    },
+    "cmp": {
+      "title": "Différence avec ChatGPT public",
+      "h1": "Critère",
+      "h2": "ChatGPT public",
+      "h3": "IA interne",
+      "r1a": "Où les données sont-elles traitées ?",
+      "r1b": "Sur les serveurs du fournisseur à l'étranger",
+      "r1c": "Sur votre serveur ou dans le centre de données de votre choix",
+      "r2a": "Connaît-elle vos documents ?",
+      "r2b": "Seulement le fichier chargé dans la conversation",
+      "r2c": "Tous les documents autorisés, avec la source",
+      "r3a": "Qui accède à quoi ?",
+      "r3b": "Par compte",
+      "r3c": "Droits par service et par rôle",
+      "r4a": "Modèle de coût",
+      "r4b": "Abonnement mensuel par utilisateur",
+      "r4c": "Installation et matériel ponctuels ; indépendant du nombre d'utilisateurs"
+    },
+    "use": {
+      "title": "Qui l'utilise, et pour quoi ?",
+      "u1t": "Droit et conseil",
+      "u1d": "Recherche dans les contrats et dossiers, clauses similaires ; les données clients restent au cabinet.",
+      "u2t": "Santé",
+      "u2d": "Accès rapide aux procédures, protocoles et documents qualité ; les données patients restent en interne.",
+      "u3t": "Défense et industrie",
+      "u3d": "Questions sur cahiers des charges, normes et documents de projet ; les informations confidentielles ne quittent pas le réseau.",
+      "u4t": "Institutions publiques",
+      "u4d": "Recherche dans la réglementation et la correspondance interne. Détails : <a href=\"/blog/ebys-yapay-zeka-evrak-siniflandirma-2026\" style=\"color:#60a5fa\">GED et IA (en turc)</a>.",
+      "u5t": "Ressources humaines",
+      "u5d": "Répondre aux questions sur le règlement, les congés et les avantages sans surcharger les RH.",
+      "u6t": "Ventes et support",
+      "u6d": "Réponses rapides à partir des catalogues, documents techniques et anciennes offres."
+    },
+    "steps": {
+      "title": "Comment l'installer",
+      "s1t": "Échange et inventaire documentaire",
+      "s1d": "Nous définissons ensemble les documents utilisés, les droits d'accès et les questions les plus fréquentes.",
+      "s2t": "Pilote (2–4 semaines)",
+      "s2d": "Le système est construit avec 100 à 500 documents d'un service ; la qualité des réponses est mesurée avec de vraies questions. Vous décidez de la suite selon les résultats.",
+      "s3t": "Matériel et installation",
+      "s3d": "Serveur recommandé selon le nombre de documents et d'utilisateurs ; modèle, base de connaissances et interface installés sur votre serveur.",
+      "s4t": "Droits et intégration",
+      "s4d": "Accès par service et par rôle ; connexion à Active Directory, à la GED ou au système documentaire si nécessaire.",
+      "s5t": "Formation et support",
+      "s5d": "Formation des utilisateurs, ajout automatique des nouveaux documents et 30 à 90 jours de corrections gratuites."
+    },
+    "pricing": {
+      "title": "Prix (2026)",
+      "intro": "Le prix dépend du nombre de documents, d'utilisateurs et du matériel. Premier échange gratuit, proposition écrite. Le matériel est chiffré séparément.",
+      "row1": "Pilote (PoC)",
+      "row2": "Assistant documentaire (RAG)",
+      "row3": "Installation complète sur site",
+      "t1": "2–4 semaines",
+      "t2": "Cloud ou sur site",
+      "t3": "Modèle et serveur sur site",
+      "d1": "Un service, un ensemble limité de documents ; la qualité des réponses est mesurée et rapportée.",
+      "d2": "Assistant questions-réponses relié à vos documents, avec sources et gestion des droits.",
+      "d3": "Installation complète où les données ne quittent jamais votre organisation, plusieurs services et intégrations."
+    },
+    "note": {
+      "title": "Pour être honnête",
+      "p1": "Les modèles open source exécutés en interne ne sont pas aussi généralistes que le dernier ChatGPT. Mais pour les questions fondées sur vos documents, qui sont le vrai rôle de ce système, ils sont généralement suffisants et cohérents. Le pilote sert précisément à le mesurer avec vos documents, avant tout investissement important.",
+      "p2": "Au regard du KVKK, une installation interne supprime le risque de transfert de données, mais l'inventaire des données, les droits d'accès et la journalisation restent à planifier. Détails : <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#60a5fa\">guide de l'IA conforme KVKK</a>."
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "q1": "Qu'est-ce qu'un ChatGPT privé d'entreprise ?",
+      "a1": "Un assistant IA qui fonctionne sur le serveur de votre entreprise, répond à partir de vos documents et indique ses sources. Les données ne quittent pas l'organisation.",
+      "q2": "Combien cela coûte-t-il ?",
+      "a2": "Pilote 40 000–80 000 TL, assistant documentaire (RAG) 80 000–200 000 TL, installation complète sur site 150 000–500 000+ TL. Le matériel est chiffré séparément.",
+      "q3": "Quel matériel faut-il ?",
+      "a3": "Un serveur GPU dimensionné selon le modèle et le nombre d'utilisateurs : votre serveur, un serveur neuf ou un serveur loué dans un centre de données en Turquie. Nous conseillons lors du premier échange.",
+      "q4": "Est-il aussi bon que ChatGPT ?",
+      "a4": "Pas pour la culture générale. Pour les questions sur vos documents, il est généralement suffisant et vérifiable grâce aux sources. Le pilote le mesure avec vos documents.",
+      "q5": "Avec quels documents fonctionne-t-il ?",
+      "a5": "PDF, Word, Excel, archives e-mail, GED et systèmes documentaires. Les documents scannés sont d'abord convertis en texte par OCR. Détails : <a href=\"/ocr-belge-okuma\" style=\"color:#60a5fa\">OCR et lecture de documents</a>.",
+      "q6": "Tout le monde voit-il tous les documents ?",
+      "a6": "Non. Les droits sont définis par service et par rôle ; chacun n'obtient des réponses qu'à partir des documents auxquels il a accès."
+    },
+    "cta": {
+      "btn": "Premier échange gratuit",
+      "title": "Commençons par un pilote",
+      "desc": "Planifions un petit pilote avec les documents d'un service ; voyez les résultats avant un gros investissement. <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>",
+      "btn2": "Demander un devis pilote"
+    },
+    "related": {
+      "ai": "Entreprise IA à Ankara",
+      "int": "Intégration IA",
+      "pub": "IA secteur public"
+    },
+    "footer": "© 2026 Ozturksoft — ChatGPT privé d'entreprise, Ankara"
   }
 }

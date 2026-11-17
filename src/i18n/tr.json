@@ -612,7 +612,8 @@
       "seo": "Ankara SEO",
       "mikro": "Mikro entegrasyon",
       "geo": "GEO optimizasyonu",
-      "ocr": "OCR ve belge okuma"
+      "ocr": "OCR ve belge okuma",
+      "privateAi": "Şirketinize özel ChatGPT"
     }
   },
   "aiFirmPage": {
@@ -728,7 +729,8 @@
       "r4": "AI agent",
       "r5": "Fatura ve belge OCR",
       "r6": "Yapay zeka danışmanlığı (yol haritası, PoC)",
-      "sw": "Yapay zekanın bağlanacağı yazılım altyapısını (ERP, CRM, web, mobil) da aynı ekip geliştirir: <a href=\"/ankara-yazilim-sirketi\">Ankara yazılım şirketi</a>."
+      "sw": "Yapay zekanın bağlanacağı yazılım altyapısını (ERP, CRM, web, mobil) da aynı ekip geliştirir: <a href=\"/ankara-yazilim-sirketi\">Ankara yazılım şirketi</a>.",
+      "r7": "Kurum içi yapay zeka (şirkete özel ChatGPT)"
     }
   },
   "aiPage": {
@@ -1073,6 +1075,18 @@
       "ankaraLlmMaliyetCard": {
         "title": "Ankara LLM Entegrasyonu Maliyeti [2026]",
         "desc": "GPT/Claude API, RAG, chatbot ve on-premise AI fiyat aralıkları. Gizli maliyetler."
+      },
+      "excelProgramCard": {
+        "title": "Excel Yerine Şirkete Özel Program: Ne Zaman Geçilmeli, Maliyeti Ne? [2026]",
+        "desc": "Stok, sipariş, teklif ve servis takibini Excel'de yürüten şirketler için: özel programa ne zaman geçilmeli, hazır program mı özel yazılım mı, 2026 maliyeti ve Excel verisinin taşınması."
+      },
+      "pdfEfaturaCard": {
+        "title": "PDF ve E-Fatura Verisini Muhasebeye Otomatik Aktarma Rehberi [2026]",
+        "desc": "Gelen faturaları elle girmeyi bırakmak isteyenler için: e-Fatura XML'i, PDF ve kâğıt faturalar için hangi yöntem gerekir, ücretsiz araçlar ne zaman yeter, Logo-Netsis-Mikro'ya aktarım ve 2026 maliyeti."
+      },
+      "ebysAiCard": {
+        "title": "EBYS ve Yapay Zeka: Kamuda Evrak Sınıflandırma ve Yönlendirme [2026]",
+        "desc": "Kamu kurumları ve üniversiteler için: EBYS'ye gelen evrakın yapay zeka ile sınıflandırılması, birim yönlendirme önerisi, taranmış evrakta arama, on-premise kurulum, KVKK ve pilot proje ile başlama."
       }
     },
     "posts": {
@@ -1684,7 +1698,8 @@
     "links": {
       "kvkk": "KVKK uyumlu AI",
       "ocr": "Belge OCR",
-      "hub": "AI firması hub"
+      "hub": "AI firması hub",
+      "ebys": "EBYS ve yapay zeka"
     },
     "cta": {
       "title": "Kamu AI Projenizi Planlayalım",
@@ -1881,7 +1896,8 @@
       "t3": "3–5 ay",
       "linkGuide": "OCR nedir rehberi",
       "linkNote": "bilgi yazısıdır; fatura okuma yazılımı yaptırmak bu sayfadandır.",
-      "linkOcr": "Fatura dışındaki belgeler (sözleşme, form, banka belgesi, arşiv) için: <a href=\"/ocr-belge-okuma\">OCR ve belge okuma yazılımı →</a>"
+      "linkOcr": "Fatura dışındaki belgeler (sözleşme, form, banka belgesi, arşiv) için: <a href=\"/ocr-belge-okuma\">OCR ve belge okuma yazılımı →</a>",
+      "linkPdfGuide": "e-Fatura, e-Arşiv ve PDF faturaları muhasebeye otomatik aktarma: <a href=\"/blog/pdf-e-fatura-muhasebeye-aktarma-2026\">rehberi okuyun →</a>"
     },
     "cards": {
       "c1title": "🧾 Fatura ve irsaliye OCR",
@@ -1963,7 +1979,7 @@
       "c2link": "RAG nedir →",
       "c3title": "🔒 On-premise / KVKK",
       "c3desc": "Kamu ve holding: veri kurum ağında kalır. TR barındırma veya yerel model. <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#818cf8\">Kamu AI</a> ve <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#818cf8\">KVKK rehberi</a> ayrı durur.",
-      "c3link": "Kamu yapay zeka →",
+      "c3link": "Şirketinize özel ChatGPT →",
       "c4title": "⚡ Chatbot ve agent ayrı",
       "c4desc": "Kanal botu <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp chatbot</a>; otonom iş <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a>. Bu sayfa LLM’yi yazılımınıza bağlamaktır; o iki iş ayrı durur.",
       "c4link": "AI agent yaptırmak →"
@@ -3248,5 +3264,116 @@
       "guide": "OCR ve belge AI rehberi"
     },
     "footer": "© 2026 Ozturksoft — OCR ve Belge Okuma Yazılımı, Ankara"
+  },
+  "privateAiPage": {
+    "meta": {
+      "title": "Şirketinize Özel ChatGPT | Kurum İçi (On-Premise) Yapay Zeka | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Kurum içi yapay zeka · KVKK · On-premise · RAG",
+      "title": "Şirketinize Özel ChatGPT",
+      "desc": "Kendi sunucunuzda çalışan, şirket belgelerinizi bilen ve cevabını hangi belgeden aldığını gösteren yapay zeka asistanı. Veriler kurumunuzun dışına çıkmaz. Projeye özel kurulum, küçük bir pilotla başlar. Ankara, ücretsiz keşif."
+    },
+    "stats": {
+      "s1l": "Pilot (PoC)",
+      "s2l": "Doküman asistanı (RAG)",
+      "s3l": "Kurum içi kurulum"
+    },
+    "what": {
+      "title": "Nasıl bir şey?",
+      "p1": "Bir çalışan sohbet ekranına <em>“X firmasıyla sözleşmemizde gecikme cezası maddesi ne?”</em> ya da <em>“Yıllık izin başvurusu nasıl yapılıyor?”</em> diye yazar. Yapay zeka şirketinizin sözleşmeleri, prosedürleri ve yönetmelikleri arasından cevabı bulur, kısa ve anlaşılır bir yanıt verir ve <strong>hangi belgenin hangi bölümünden aldığını</strong> gösterir.",
+      "p2": "Fark şurada: bu asistan ChatGPT gibi yurt dışındaki bir sunucuda değil, <strong>kendi sunucunuzda</strong> çalışır. Belgeleriniz, sorularınız ve cevaplar kurumunuzun ağında kalır. Açık kaynaklı dil modelleri (Llama, Qwen, Mistral gibi) ve şirket belgelerinizden oluşan aranabilir bir bilgi tabanı (RAG) ile kurulur."
+    },
+    "cmp": {
+      "title": "Genel ChatGPT ile farkı",
+      "h1": "Kriter",
+      "h2": "Genel ChatGPT",
+      "h3": "Kurum içi yapay zeka",
+      "r1a": "Veri nerede işlenir?",
+      "r1b": "Sağlayıcının yurt dışındaki sunucularında",
+      "r1c": "Kendi sunucunuzda veya seçtiğiniz veri merkezinde",
+      "r2a": "Şirket belgelerinizi bilir mi?",
+      "r2b": "Yalnızca o sohbete yüklediğiniz dosyayı",
+      "r2c": "Yetkili olduğunuz tüm belgeleri, kaynak göstererek",
+      "r3a": "Kim neye erişir?",
+      "r3b": "Hesap bazında",
+      "r3c": "Departman ve rol bazında yetkilendirme",
+      "r4a": "Maliyet modeli",
+      "r4b": "Kullanıcı başına aylık abonelik",
+      "r4c": "Bir kerelik kurulum ve donanım; kullanıcı sayısından bağımsız"
+    },
+    "use": {
+      "title": "Kimler kullanıyor, ne için?",
+      "u1t": "Hukuk ve danışmanlık",
+      "u1d": "Sözleşme ve dava dosyalarında arama, emsal madde bulma; müvekkil bilgisi büro dışına çıkmaz.",
+      "u2t": "Sağlık kuruluşları",
+      "u2d": "Prosedür, protokol ve kalite dokümanlarına hızlı erişim; hasta verisi kurum içinde kalır.",
+      "u3t": "Savunma ve sanayi",
+      "u3d": "Teknik şartname, standart ve proje dokümanlarında soru-cevap; gizli bilgiler ağdan çıkmaz.",
+      "u4t": "Kamu kurumları",
+      "u4d": "Mevzuat, yönetmelik ve kurum içi yazışmalarda arama. Ayrıntı: <a href=\"/blog/ebys-yapay-zeka-evrak-siniflandirma-2026\">EBYS ve yapay zeka</a>.",
+      "u5t": "İnsan kaynakları",
+      "u5d": "Personel yönetmeliği, izin ve yan haklar sorularını İK'ya yük olmadan yanıtlama.",
+      "u6t": "Satış ve destek ekipleri",
+      "u6d": "Ürün katalogları, teknik dokümanlar ve geçmiş tekliflerden hızlı cevap."
+    },
+    "steps": {
+      "title": "Nasıl kurulur?",
+      "s1t": "Keşif ve belge envanteri",
+      "s1d": "Hangi belgelerin kullanılacağını, kimin neye erişeceğini ve en sık sorulan soruları birlikte belirleriz.",
+      "s2t": "Pilot (2–4 hafta)",
+      "s2d": "Seçilen bir departmanın 100–500 belgesiyle sistem kurulur; gerçek sorularla cevap kalitesi ölçülür. Devam kararını sonuçlara göre verirsiniz.",
+      "s3t": "Donanım ve kurulum",
+      "s3d": "Belge ve kullanıcı sayısına göre sunucu önerilir; model, bilgi tabanı ve sohbet ekranı kurum sunucusuna kurulur.",
+      "s4t": "Yetkilendirme ve entegrasyon",
+      "s4d": "Departman ve rol bazında erişim; gerekirse Active Directory, EBYS veya doküman sistemi bağlantısı.",
+      "s5t": "Eğitim ve destek",
+      "s5d": "Kullanıcı eğitimi, yeni belgelerin otomatik eklenmesi ve 30–90 gün ücretsiz hata düzeltme."
+    },
+    "pricing": {
+      "title": "Fiyat (2026)",
+      "intro": "Fiyat belge sayısına, kullanıcı sayısına ve donanıma göre değişir. Keşif ücretsizdir, teklif yazılıdır. Donanım bedeli ayrıca belirtilir.",
+      "row1": "Pilot (PoC)",
+      "row2": "Doküman asistanı (RAG)",
+      "row3": "Kurum içi tam kurulum",
+      "t1": "2–4 hafta",
+      "t2": "Bulut veya kurum içi",
+      "t3": "On-premise model ve sunucu",
+      "d1": "Bir departman, sınırlı belge seti; cevap kalitesi ölçülür ve raporlanır.",
+      "d2": "Şirket belgelerinize bağlı soru-cevap asistanı, kaynak gösterimi ve yetkilendirme.",
+      "d3": "Verinin kurum dışına çıkmadığı tam kurulum, çoklu departman ve entegrasyonlar."
+    },
+    "note": {
+      "title": "Dürüst olmak gerekirse",
+      "p1": "Kurum içinde çalışan açık kaynak modeller, en güncel ChatGPT kadar genel bilgili değildir. Ama şirket belgelerinize dayalı soru-cevapta, yani bu sistemin asıl işinde, çoğu zaman yeterli ve tutarlıdır. Pilot proje tam olarak bunu sizin belgelerinizle ölçmek için vardır; büyük bir yatırımdan önce sonucu görürsünüz.",
+      "p2": "KVKK açısından kurum içi kurulum veri aktarımı riskini ortadan kaldırır; ancak veri envanteri, erişim yetkileri ve kayıt tutma yine planlanmalıdır. Ayrıntı: <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\">KVKK uyumlu yapay zeka rehberi</a>."
+    },
+    "faq": {
+      "title": "Sık sorulan sorular",
+      "q1": "Şirkete özel ChatGPT nedir?",
+      "a1": "Şirketinizin kendi sunucusunda çalışan, şirket belgelerinize dayanarak cevap veren ve kaynağını gösteren bir yapay zeka asistanıdır. Veriler kurum dışına çıkmaz.",
+      "q2": "Ne kadar tutar?",
+      "a2": "Pilot 40.000–80.000 TL, doküman asistanı (RAG) 80.000–200.000 TL, kurum içi tam kurulum 150.000–500.000+ TL. Donanım bedeli ayrıca belirtilir.",
+      "q3": "Hangi donanım gerekir?",
+      "a3": "Model boyutuna ve kullanıcı sayısına göre ekran kartlı (GPU) bir sunucu gerekir. Kendi sunucunuz, satın alacağınız yeni bir sunucu veya Türkiye'deki bir veri merkezinden kiralık sunucu kullanılabilir; keşifte öneri veririz.",
+      "q4": "ChatGPT kadar iyi cevap verir mi?",
+      "a4": "Genel kültür sorularında hayır. Şirket belgelerine dayalı sorularda çoğu zaman yeterlidir ve cevabın kaynağını gösterdiği için doğrulanabilir. Pilot bunu sizin belgelerinizle ölçer.",
+      "q5": "Hangi belgelerle çalışır?",
+      "a5": "PDF, Word, Excel, e-posta arşivi, EBYS ve doküman yönetim sistemlerindeki belgeler. Taranmış belgeler önce OCR ile metne çevrilir. Ayrıntı: <a href=\"/ocr-belge-okuma\">OCR ve belge okuma</a>.",
+      "q6": "Herkes her belgeyi görebilir mi?",
+      "a6": "Hayır. Departman ve rol bazında yetkilendirme yapılır; kullanıcı yalnızca erişim yetkisi olan belgelerden cevap alır."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "Pilotla başlayalım",
+      "desc": "Bir departmanınızın belgeleriyle küçük bir pilot planlayalım; sonucu görmeden büyük yatırım yapmayın. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Pilot teklifi al"
+    },
+    "related": {
+      "ai": "Ankara yapay zeka firması",
+      "int": "Yapay zeka entegrasyonu",
+      "pub": "Kamu yapay zeka"
+    },
+    "footer": "© 2026 Ozturksoft — Şirketinize Özel ChatGPT, Ankara"
   }
 }

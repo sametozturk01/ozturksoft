@@ -612,7 +612,8 @@
       "seo": "Ankara-SEO",
       "mikro": "Mikro-Anbindung",
       "geo": "GEO-Optimierung",
-      "ocr": "OCR und Dokumentenerkennung"
+      "ocr": "OCR und Dokumentenerkennung",
+      "privateAi": "Firmeneigenes ChatGPT"
     }
   },
   "aiFirmPage": {
@@ -728,7 +729,8 @@
       "r4": "KI-Agent",
       "r5": "Rechnungs- und Dokumenten-OCR",
       "r6": "KI-Beratung (Roadmap, PoC)",
-      "sw": "Die Software, an die die KI angebunden wird (ERP, CRM, Web, Mobile), entwickelt dasselbe Team: <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">Softwareunternehmen in Ankara</a>."
+      "sw": "Die Software, an die die KI angebunden wird (ERP, CRM, Web, Mobile), entwickelt dasselbe Team: <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">Softwareunternehmen in Ankara</a>.",
+      "r7": "Interne KI (firmeneigenes ChatGPT)"
     }
   },
   "aiPage": {
@@ -1684,7 +1686,8 @@
     "links": {
       "kvkk": "KVKK-konforme KI",
       "ocr": "Dokumenten-OCR",
-      "hub": "KI-Unternehmen Hub"
+      "hub": "KI-Unternehmen Hub",
+      "ebys": "DMS und KI (Türkisch)"
     },
     "cta": {
       "title": "Öffentliches KI-Projekt planen",
@@ -1881,7 +1884,8 @@
       "t3": "3–5 Monate",
       "linkGuide": "Was ist OCR?",
       "linkNote": "ist der Erklärtext; Rechnungslese-Software beauftragen Sie hier.",
-      "linkOcr": "Für andere Dokumente als Rechnungen (Verträge, Formulare, Bankbelege, Archive): <a href=\"/ocr-belge-okuma\" style=\"color:#60a5fa\">OCR- und Dokumentenerkennungssoftware →</a>"
+      "linkOcr": "Für andere Dokumente als Rechnungen (Verträge, Formulare, Bankbelege, Archive): <a href=\"/ocr-belge-okuma\" style=\"color:#60a5fa\">OCR- und Dokumentenerkennungssoftware →</a>",
+      "linkPdfGuide": "E-Rechnungen, E-Archiv- und PDF-Rechnungen automatisch in die Buchhaltung übertragen: <a href=\"/blog/pdf-e-fatura-muhasebeye-aktarma-2026\" style=\"color:#60a5fa\">Leitfaden (Türkisch) →</a>"
     },
     "cards": {
       "c1title": "🧾 Rechnungs- und Lieferschein-OCR",
@@ -1963,7 +1967,7 @@
       "c2link": "Was ist RAG →",
       "c3title": "🔒 On-Premise / KVKK",
       "c3desc": "Behörden und Holdings: Daten bleiben im Firmennetz. TR-Hosting oder lokales Modell. <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#818cf8\">Behörden-KI</a> und <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#818cf8\">KVKK-Leitfaden</a> getrennt.",
-      "c3link": "Behörden-KI →",
+      "c3link": "Firmeneigenes ChatGPT →",
       "c4title": "⚡ Chatbot und Agent getrennt",
       "c4desc": "Kanal-Bot: <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp-Chatbot</a>; autonome Arbeit: <a href=\"/ai-agent\" style=\"color:#818cf8\">AI-Agent</a>. Diese Seite verdrahtet das LLM; die anderen Jobs bleiben auf eigenen URLs.",
       "c4link": "AI-Agent beauftragen →"
@@ -3248,5 +3252,116 @@
       "guide": "Leitfaden OCR und Dokumenten-KI"
     },
     "footer": "© 2026 Ozturksoft — OCR- und Dokumentenerkennungssoftware, Ankara"
+  },
+  "privateAiPage": {
+    "meta": {
+      "title": "Firmeneigenes ChatGPT | On-Premise-KI | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Interne KI · KVKK · On-Premise · RAG",
+      "title": "Ein eigenes ChatGPT für Ihr Unternehmen",
+      "desc": "Ein KI-Assistent, der auf Ihrem eigenen Server läuft, Ihre Unternehmensdokumente kennt und zu jeder Antwort die Quelle zeigt. Die Daten verlassen Ihr Haus nicht. Individuelle Einrichtung, beginnend mit einem kleinen Pilotprojekt. Ankara, kostenloses Erstgespräch."
+    },
+    "stats": {
+      "s1l": "Pilot (PoC)",
+      "s2l": "Dokumentenassistent (RAG)",
+      "s3l": "On-Premise-Installation"
+    },
+    "what": {
+      "title": "Was ist das?",
+      "p1": "Ein Mitarbeiter fragt im Chat: <em>„Wie hoch ist die Vertragsstrafe im Vertrag mit Firma X?“</em> oder <em>„Wie beantrage ich Jahresurlaub?“</em>. Die KI findet die Antwort in Ihren Verträgen, Verfahren und Richtlinien, antwortet kurz und verständlich und zeigt, <strong>aus welchem Dokument und Abschnitt</strong> sie stammt.",
+      "p2": "Der Unterschied: Dieser Assistent läuft nicht wie ChatGPT auf einem Server im Ausland, sondern auf <strong>Ihrem eigenen Server</strong>. Dokumente, Fragen und Antworten bleiben in Ihrem Netz. Er basiert auf Open-Source-Sprachmodellen (z. B. Llama, Qwen, Mistral) und einer durchsuchbaren Wissensbasis Ihrer Dokumente (RAG)."
+    },
+    "cmp": {
+      "title": "Unterschied zum öffentlichen ChatGPT",
+      "h1": "Kriterium",
+      "h2": "Öffentliches ChatGPT",
+      "h3": "Interne KI",
+      "r1a": "Wo werden Daten verarbeitet?",
+      "r1b": "Auf Servern des Anbieters im Ausland",
+      "r1c": "Auf Ihrem Server oder in einem Rechenzentrum Ihrer Wahl",
+      "r2a": "Kennt sie Ihre Dokumente?",
+      "r2b": "Nur die im Chat hochgeladene Datei",
+      "r2c": "Alle freigegebenen Dokumente, mit Quellenangabe",
+      "r3a": "Wer darf was sehen?",
+      "r3b": "Pro Konto",
+      "r3c": "Rechte nach Abteilung und Rolle",
+      "r4a": "Kostenmodell",
+      "r4b": "Monatliches Abo pro Nutzer",
+      "r4c": "Einmalige Einrichtung und Hardware; unabhängig von der Nutzerzahl"
+    },
+    "use": {
+      "title": "Wer nutzt es wofür?",
+      "u1t": "Recht und Beratung",
+      "u1d": "Suche in Verträgen und Akten, Finden vergleichbarer Klauseln; Mandantendaten bleiben in der Kanzlei.",
+      "u2t": "Gesundheitswesen",
+      "u2d": "Schneller Zugriff auf Verfahren, Protokolle und QM-Dokumente; Patientendaten bleiben im Haus.",
+      "u3t": "Verteidigung und Industrie",
+      "u3d": "Fragen zu Spezifikationen, Normen und Projektunterlagen; vertrauliche Daten verlassen das Netz nicht.",
+      "u4t": "Öffentliche Einrichtungen",
+      "u4d": "Suche in Vorschriften, Richtlinien und internem Schriftverkehr. Details: <a href=\"/blog/ebys-yapay-zeka-evrak-siniflandirma-2026\" style=\"color:#60a5fa\">DMS und KI (Türkisch)</a>.",
+      "u5t": "Personalwesen",
+      "u5d": "Fragen zu Personalordnung, Urlaub und Zusatzleistungen beantworten, ohne die Personalabteilung zu belasten.",
+      "u6t": "Vertrieb und Support",
+      "u6d": "Schnelle Antworten aus Produktkatalogen, technischen Unterlagen und früheren Angeboten."
+    },
+    "steps": {
+      "title": "So wird es eingerichtet",
+      "s1t": "Erstgespräch und Dokumenteninventar",
+      "s1d": "Gemeinsam legen wir fest, welche Dokumente genutzt werden, wer worauf zugreift und welche Fragen am häufigsten sind.",
+      "s2t": "Pilot (2–4 Wochen)",
+      "s2d": "Das System wird mit 100–500 Dokumenten einer Abteilung aufgebaut; die Antwortqualität wird mit echten Fragen gemessen. Über die Fortsetzung entscheiden Sie anhand der Ergebnisse.",
+      "s3t": "Hardware und Installation",
+      "s3d": "Serverempfehlung nach Dokument- und Nutzerzahl; Modell, Wissensbasis und Chatoberfläche werden auf Ihrem Server installiert.",
+      "s4t": "Rechte und Integration",
+      "s4d": "Zugriff nach Abteilung und Rolle; bei Bedarf Anbindung an Active Directory, DMS oder Dokumentensystem.",
+      "s5t": "Schulung und Support",
+      "s5d": "Anwenderschulung, automatische Aufnahme neuer Dokumente und 30–90 Tage kostenlose Fehlerbehebung."
+    },
+    "pricing": {
+      "title": "Preis (2026)",
+      "intro": "Der Preis hängt von Dokument- und Nutzerzahl sowie Hardware ab. Das Erstgespräch ist kostenlos, das Angebot schriftlich. Hardware wird separat ausgewiesen.",
+      "row1": "Pilot (PoC)",
+      "row2": "Dokumentenassistent (RAG)",
+      "row3": "Vollständige On-Premise-Installation",
+      "t1": "2–4 Wochen",
+      "t2": "Cloud oder On-Premise",
+      "t3": "On-Premise-Modell und Server",
+      "d1": "Eine Abteilung, begrenzter Dokumentensatz; die Antwortqualität wird gemessen und berichtet.",
+      "d2": "Frage-Antwort-Assistent auf Ihren Dokumenten, mit Quellenangabe und Rechteverwaltung.",
+      "d3": "Vollinstallation, bei der Daten das Haus nie verlassen, mehrere Abteilungen und Integrationen."
+    },
+    "note": {
+      "title": "Ehrlich gesagt",
+      "p1": "Intern betriebene Open-Source-Modelle sind nicht so breit informiert wie das neueste ChatGPT. Für Fragen auf Basis Ihrer Dokumente – die eigentliche Aufgabe dieses Systems – sind sie meist ausreichend und konsistent. Genau das misst das Pilotprojekt mit Ihren Dokumenten, bevor Sie größer investieren.",
+      "p2": "Nach KVKK beseitigt eine interne Installation das Risiko der Datenübermittlung; Dateninventar, Zugriffsrechte und Protokollierung müssen dennoch geplant werden. Details: <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#60a5fa\">Leitfaden KVKK-konforme KI</a>."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Was ist ein firmeneigenes ChatGPT?",
+      "a1": "Ein KI-Assistent, der auf dem eigenen Server Ihres Unternehmens läuft, auf Basis Ihrer Dokumente antwortet und die Quelle zeigt. Daten verlassen das Haus nicht.",
+      "q2": "Was kostet es?",
+      "a2": "Pilot 40.000–80.000 TL, Dokumentenassistent (RAG) 80.000–200.000 TL, vollständige On-Premise-Installation 150.000–500.000+ TL. Hardware wird separat ausgewiesen.",
+      "q3": "Welche Hardware wird benötigt?",
+      "a3": "Ein GPU-Server passend zu Modellgröße und Nutzerzahl. Möglich sind Ihr eigener Server, ein neu gekaufter oder ein gemieteter Server in einem Rechenzentrum in der Türkei; wir beraten im Erstgespräch.",
+      "q4": "Ist es so gut wie ChatGPT?",
+      "a4": "Bei Allgemeinwissen nicht. Bei Fragen zu Unternehmensdokumenten meist ausreichend, und dank Quellenangabe überprüfbar. Das Pilotprojekt misst dies mit Ihren Dokumenten.",
+      "q5": "Mit welchen Dokumenten funktioniert es?",
+      "a5": "PDF, Word, Excel, E-Mail-Archive, DMS und Dokumentensysteme. Gescannte Dokumente werden zuerst per OCR in Text umgewandelt. Details: <a href=\"/ocr-belge-okuma\" style=\"color:#60a5fa\">OCR und Dokumentenerkennung</a>.",
+      "q6": "Kann jeder jedes Dokument sehen?",
+      "a6": "Nein. Rechte werden nach Abteilung und Rolle vergeben; Nutzer erhalten nur Antworten aus Dokumenten, auf die sie Zugriff haben."
+    },
+    "cta": {
+      "btn": "Kostenloses Erstgespräch",
+      "title": "Starten wir mit einem Pilotprojekt",
+      "desc": "Planen wir einen kleinen Pilot mit den Dokumenten einer Abteilung – Ergebnisse sehen, bevor Sie groß investieren. <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>",
+      "btn2": "Pilotangebot anfordern"
+    },
+    "related": {
+      "ai": "KI-Unternehmen in Ankara",
+      "int": "KI-Integration",
+      "pub": "KI für Behörden"
+    },
+    "footer": "© 2026 Ozturksoft — Firmeneigenes ChatGPT, Ankara"
   }
 }
