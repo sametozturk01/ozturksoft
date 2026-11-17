@@ -421,6 +421,17 @@
       "link": "ERP integration guide →",
       "linkLogo": "Logo / Netsis quote →",
       "linkMikro": "Mikro integration →"
+    },
+    "extra": {
+      "awsAzure": "AWS / Azure management"
+    },
+    "tags": {
+      "t1": "#CognitiveAutomation",
+      "t2": "#DataMining",
+      "t3": "#IndustrialSecurity",
+      "t4": "#CriticalInfrastructure",
+      "t5": "#HighAvailability",
+      "t6": "#GlobalArchitecture"
     }
   },
   "contactPage": {
@@ -551,7 +562,8 @@
       "r4": {
         "title": "Urgent Support",
         "desc": "7/24 uninterrupted service"
-      }
+      },
+      "subtitle": "Our contact channels and guaranteed response times"
     },
     "faq": {
       "title1": "Frequently Asked",
@@ -571,7 +583,9 @@
       "q4": {
         "title": "Do you work remotely?",
         "desc": "Yes! We accept projects from all over Turkey and abroad. We are constantly in touch via online meetings."
-      }
+      },
+      "badge": "FAQ",
+      "subtitle": "Answers to your questions"
     },
     "modal": {
       "title": "Privacy Policy",
@@ -616,7 +630,8 @@
       "privateAi": "Private company ChatGPT",
       "takeover": "Software project takeover",
       "b2b": "B2B dealer portal",
-      "tender": "AI tender document analysis"
+      "tender": "AI tender document analysis",
+      "softwareCompany": "Ankara software company"
     }
   },
   "aiFirmPage": {
@@ -2180,7 +2195,7 @@
   "waChatbotPage": {
     "hero": {
       "badge": "Business API · GPT · CRM · +90 546 549 6806",
-      "title": "WhatsApp Chatbot Yaptırmak",
+      "title": "WhatsApp Chatbot Development",
       "desc": "Have a WhatsApp chatbot built: 24/7 orders, prices and FAQ. Official Business API, GPT/RAG, CRM. Çankaya — written quote, free discovery. The site widget is separate: <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">have a chatbot built</a>. Guide: <a href=\"/blog/whatsapp-chatbot-isletme-rehberi-2026\" style=\"color:#25d366\">WhatsApp guide</a>."
     },
     "pricing": {
@@ -3378,5 +3393,580 @@
       "pub": "Public-sector AI"
     },
     "footer": "© 2026 Ozturksoft — Private Company ChatGPT, Ankara"
+  },
+  "onlyLang": {
+    "text": "This page is currently available in Turkish only.",
+    "link": "Go to the English homepage →"
+  },
+  "takeoverPage": {
+    "meta": {
+      "title": "Unfinished Software Project Takeover | Code Audit and Completion | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Code audit · Takeover · Completion · Maintenance",
+      "title": "We Take Over Your Unfinished Software Project",
+      "desc": "Did your developer abandon the project, is the agency unreachable, or does the delivered system not work? We first audit the code and infrastructure independently and report its state in writing; then we finish it from where it stopped or take over its maintenance. Ankara, free initial call."
+    },
+    "cta": {
+      "btn": "Free initial call",
+      "title": "Find out the real state of your project",
+      "desc": "In a free initial call we listen to your situation and define the audit scope together. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Get an audit quote"
+    },
+    "footer": "© 2026 Ozturksoft — We Take Over Your Unfinished Software Project, Ankara",
+    "stats": {
+      "s1": {
+        "v": "15.000 – 40.000 TL",
+        "l": "Code and takeover audit"
+      },
+      "s2": {
+        "v": "80.000 – 200.000 TL",
+        "l": "Completing an SME project"
+      },
+      "s3": {
+        "v": "1–2 weeks",
+        "l": "Audit report time"
+      }
+    },
+    "related": {
+      "r1": "QA testing service",
+      "r2": "Custom software",
+      "r3": "Ankara software company"
+    },
+    "b1": {
+      "title": "Does any of this sound familiar?",
+      "c1": {
+        "t": "The developer or agency disappeared",
+        "d": "Calls go unanswered, the project stopped halfway and you do not know what you actually have."
+      },
+      "c2": {
+        "t": "Time and budget long exceeded",
+        "d": "Every month you hear \"almost done\", but the delivery date keeps slipping."
+      },
+      "c3": {
+        "t": "You do not hold the source code or server",
+        "d": "The code repository, server or domain sit in the former vendor's account."
+      },
+      "c4": {
+        "t": "Every change creates a new bug",
+        "d": "The system runs, but a small fix breaks something else."
+      },
+      "c5": {
+        "t": "No documentation, nobody knows the code",
+        "d": "The person who wrote it is gone and nothing explains how it works."
+      },
+      "c6": {
+        "t": "A system grown out of patches",
+        "d": "Built on a ready-made theme or template and patched until it became unmanageable."
+      }
+    },
+    "b2": {
+      "title": "The takeover process",
+      "s1": {
+        "t": "Collecting access",
+        "d": "Code repository, server, domain, database and third-party accounts are listed. If you do not have access, we plan together how to regain it."
+      },
+      "s2": {
+        "t": "Independent audit",
+        "d": "Code quality, security gaps, missing features, tests and infrastructure are reviewed. The result is a written report: finish it or rewrite it?"
+      },
+      "s3": {
+        "t": "Decision and proposal",
+        "d": "Based on the report, the options (finish from where it stopped, rewrite critical parts, maintenance only) are offered in a fixed-price written proposal."
+      },
+      "s4": {
+        "t": "Safe takeover",
+        "d": "The code moves to a repository in your own account, a test environment is set up and automated tests are added. Work continues without stopping the live system."
+      },
+      "s5": {
+        "t": "Completion and maintenance",
+        "d": "Gaps are completed and documentation is written; an optional monthly maintenance and support contract follows."
+      }
+    },
+    "b3": {
+      "title": "Finish it or rewrite it?",
+      "intro": "We do not decide before the audit. \"Let's rewrite everything\" is the easiest answer and usually the most expensive one.",
+      "h1": "Situation",
+      "h2": "Usually the right decision",
+      "r1": {
+        "a": "Code is tidy, gaps are clear",
+        "b": "Finish from where it stopped"
+      },
+      "r2": {
+        "a": "Code works but is messy and untested",
+        "b": "Add tests and improve step by step"
+      },
+      "r3": {
+        "a": "Serious security gap or flawed core architecture",
+        "b": "Rewrite the critical parts"
+      },
+      "r4": {
+        "a": "The technology is no longer supported",
+        "b": "Planned migration to a current version"
+      }
+    },
+    "b4": {
+      "title": "Price (2026)",
+      "intro": "The final price is set in a written proposal after the audit report. The initial call is free.",
+      "p1": {
+        "n": "Code and takeover audit",
+        "a": "15.000 – 40.000 TL",
+        "t": "1–2 weeks",
+        "d": "Written report: current state, risks, completion options and estimated cost."
+      },
+      "p2": {
+        "n": "Completing the project",
+        "a": "80.000 – 200.000 TL",
+        "t": "SME projects",
+        "d": "Completing the gaps in the report; enterprise projects 200,000–500,000+ TL."
+      },
+      "p3": {
+        "n": "Maintenance and support",
+        "a": "Fixed monthly fee",
+        "t": "Quoted after discovery",
+        "d": "Bug fixes, security updates, small improvements and server monitoring."
+      }
+    },
+    "b5": {
+      "title": "Which technologies?",
+      "p1": "We take over projects built with React, TypeScript, Laravel/PHP and Python on the web, and Flutter and React Native on mobile. For a project in another technology we give an honest assessment in the initial call; if we are not the right fit, we say so up front.",
+      "p2": "Our testing and quality approach in the audit is the same as in our <a href=\"/qa-test-hizmeti\">QA testing service</a>."
+    },
+    "b6": {
+      "title": "FAQ",
+      "q1": "We do not have the source code. What can we do?",
+      "a1": "We review your contract and your hosting and domain accounts together. If you have server or repository access, the code can be taken from there. If access sits entirely with the former vendor, you may need to review legal options with your lawyer; we report what can be done technically.",
+      "q2": "How much does the audit cost and how long does it take?",
+      "a2": "15,000–40,000 TL depending on project size; the report is usually ready in 1–2 weeks.",
+      "q3": "Does everything need to be rewritten?",
+      "a3": "Usually not. Tidy code is finished from where it stopped; only parts with serious security or architecture problems are rewritten. The audit report decides.",
+      "q4": "Will the live system stop while you work?",
+      "a4": "No. Development happens in a separate test environment; changes go live in a planned way after testing.",
+      "q5": "Can we continue with another company after the audit?",
+      "a5": "Yes. The audit report is independent and yours; you can continue with any team you choose."
+    }
+  },
+  "b2bPage": {
+    "meta": {
+      "title": "B2B Dealer Portal Development | Dealer Ordering System and ERP Integration | Ozturksoft"
+    },
+    "hero": {
+      "badge": "B2B · Dealer ordering · ERP integration · Mobile",
+      "title": "B2B Dealer Portal and Dealer Ordering System",
+      "desc": "Instead of ordering by phone, WhatsApp or an Excel list, your dealers see their own prices, stock and account balance and order 24/7. Orders land directly in Logo, Netsis or Mikro. Custom development for manufacturers and wholesalers. Ankara, free discovery."
+    },
+    "cta": {
+      "btn": "Free discovery call",
+      "title": "Let's talk about your dealer ordering",
+      "desc": "In a free discovery call we review your dealer count, pricing rules and ERP and estimate the cost. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Get a B2B portal quote"
+    },
+    "footer": "© 2026 Ozturksoft — B2B Dealer Portal and Dealer Ordering System, Ankara",
+    "stats": {
+      "s1": {
+        "v": "120.000 – 250.000+ TL",
+        "l": "B2B dealer portal"
+      },
+      "s2": {
+        "v": "55.000 – 130.000 TL",
+        "l": "Two-way ERP integration"
+      },
+      "s3": {
+        "v": "24/7",
+        "l": "Dealer ordering access"
+      }
+    },
+    "related": {
+      "r1": "E-commerce website",
+      "r2": "Logo and Netsis integration",
+      "r3": "Mikro integration"
+    },
+    "b1": {
+      "title": "Why a dealer portal?",
+      "p1": "Companies that take dealer orders by phone and message keep facing the same problems: orders at the wrong price, out-of-stock products, \"what is my balance?\" questions, and a sales team whose day goes into entering orders.",
+      "p2": "A B2B portal hands this to the dealer: each dealer sees only their own price, discount and account status and places the order; the order is processed into the ERP automatically. Your sales team sells instead of typing orders."
+    },
+    "b2": {
+      "title": "What the portal includes",
+      "c1": {
+        "t": "Dealer-specific prices and discounts",
+        "d": "Price lists, dealer-group discounts, campaigns and volume discounts follow the same rules as your ERP."
+      },
+      "c2": {
+        "t": "Live stock and delivery times",
+        "d": "The dealer sees stock status and the estimated dispatch date before ordering."
+      },
+      "c3": {
+        "t": "Account balance and credit limit",
+        "d": "Balance, statement, due payments and credit-limit checks."
+      },
+      "c4": {
+        "t": "Fast ordering",
+        "d": "Search by product code or barcode, bulk upload from Excel, repeat a previous order."
+      },
+      "c5": {
+        "t": "Order, shipment and invoice tracking",
+        "d": "Approval, shipment and invoice status of each order on one screen."
+      },
+      "c6": {
+        "t": "Announcements and product documents",
+        "d": "Campaign announcements, price-list changes, technical documents and catalogs."
+      }
+    },
+    "b3": {
+      "title": "ERP integration: which data flows where?",
+      "intro": "The portal and the ERP use the same data; nothing is entered twice. Details: <a href=\"/logo-netsis-entegrasyon\">Logo and Netsis integration</a> · <a href=\"/mikro-entegrasyon\">Mikro integration</a>.",
+      "h1": "Data",
+      "h2": "Direction",
+      "r1": {
+        "a": "Products, stock and price lists",
+        "b": "ERP → portal"
+      },
+      "r2": {
+        "a": "Dealer account, balance and credit limit",
+        "b": "ERP → portal"
+      },
+      "r3": {
+        "a": "Orders",
+        "b": "Portal → ERP (automatic sales order)"
+      },
+      "r4": {
+        "a": "Shipment and invoice status",
+        "b": "ERP → portal"
+      }
+    },
+    "b4": {
+      "title": "How the project runs",
+      "s1": {
+        "t": "Discovery",
+        "d": "Your pricing rules, number of dealers, ERP structure and order flow are reviewed."
+      },
+      "s2": {
+        "t": "Written scope and proposal",
+        "d": "Screens, integration points, timeline and a fixed price are set out in writing."
+      },
+      "s3": {
+        "t": "Development and ERP connection",
+        "d": "The portal and integration are built in a test environment; your ERP data is verified before going live."
+      },
+      "s4": {
+        "t": "Pilot with selected dealers",
+        "d": "A few dealers you choose use the portal with real orders; it is adjusted to their feedback."
+      },
+      "s5": {
+        "t": "Launch and support",
+        "d": "The portal opens to all dealers with user training; 30–90 days of free bug fixing."
+      }
+    },
+    "b5": {
+      "title": "Price (2026)",
+      "intro": "Price depends on the number of dealers, the complexity of pricing rules and the ERP. Discovery is free, the proposal is written.",
+      "p1": {
+        "n": "B2B dealer portal",
+        "a": "120.000 – 250.000+ TL",
+        "t": "Depending on scope",
+        "d": "Dealer-specific prices, stock, account and ordering; admin panel."
+      },
+      "p2": {
+        "n": "ERP integration",
+        "a": "55.000 – 130.000 TL",
+        "t": "Two-way",
+        "d": "Stock, price, account and order sync with Logo, Netsis or Mikro."
+      },
+      "p3": {
+        "n": "Dealer mobile app",
+        "a": "80.000 – 350.000 TL",
+        "t": "Optional",
+        "d": "iOS and Android app for field sales reps and dealers."
+      }
+    },
+    "b6": {
+      "title": "FAQ",
+      "q1": "How is it different from a B2C online store?",
+      "a1": "On a B2C site everyone sees the same price and pays by card. In a B2B portal each dealer sees their own price, discount and account status; payment is usually on account and on terms.",
+      "q2": "Why custom development instead of an off-the-shelf B2B package?",
+      "a2": "If your pricing rules are simple and your ERP fits a ready package, a package may be enough; we say so openly in discovery. With complex discount structures, special approval flows or a different ERP, custom development runs more smoothly.",
+      "q3": "Which ERPs does it work with?",
+      "a3": "ERPs with an API, above all Logo, Netsis and Mikro. For other systems, the integration path is assessed in discovery.",
+      "q4": "Can dealers use it on their phones?",
+      "a4": "Yes. The portal is mobile-friendly; if field needs such as barcode scanning exist, a mobile app can be added.",
+      "q5": "Does it work with our existing online store?",
+      "a5": "Yes. The B2B portal and the B2C site can share the same product, stock and ERP infrastructure. Details: <a href=\"/e-ticaret-sitesi-yaptirmak\">e-commerce website</a>."
+    }
+  },
+  "tenderPage": {
+    "meta": {
+      "title": "AI for Tender Specification Analysis and Bid Preparation | Ozturksoft"
+    },
+    "hero": {
+      "badge": "AI · Tenders · Bid documents · On-premise",
+      "title": "AI for Tender Specification Analysis and Bid Preparation",
+      "desc": "Scan technical and administrative specifications of hundreds of pages with AI: eligibility criteria, required documents, key dates, penalty clauses and technical requirements listed in minutes, and a draft built from your past bids. Data can stay in-house. Custom development that starts with a pilot."
+    },
+    "cta": {
+      "btn": "Free discovery call",
+      "title": "Let's run a pilot with your last tender file",
+      "desc": "Using a completed tender file, we show what the system catches compared with your team's list. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Get a pilot quote"
+    },
+    "footer": "© 2026 Ozturksoft — AI for Tender Specification Analysis and Bid Preparation, Ankara",
+    "stats": {
+      "s1": {
+        "v": "40.000 – 80.000 TL",
+        "l": "Pilot (PoC)"
+      },
+      "s2": {
+        "v": "80.000 – 200.000 TL",
+        "l": "Document assistant (RAG)"
+      },
+      "s3": {
+        "v": "150.000 – 500.000+ TL",
+        "l": "On-premise deployment"
+      }
+    },
+    "related": {
+      "r1": "Private company ChatGPT",
+      "r2": "OCR and document reading",
+      "r3": "Ankara AI company"
+    },
+    "b1": {
+      "title": "Who is it for?",
+      "p1": "Contractors who bid regularly in public and defense tenders; construction, healthcare, IT and service suppliers. Bid teams spend days reading specifications, and missing a single clause can mean disqualification or penalties after the contract is signed.",
+      "p2": "AI takes over this reading and listing work so your team can focus on the substance of the bid."
+    },
+    "b2": {
+      "title": "What the system does",
+      "c1": {
+        "t": "Eligibility and document checklist",
+        "d": "Required documents, eligibility criteria and experience requirements listed with clause numbers."
+      },
+      "c2": {
+        "t": "Key dates and periods",
+        "d": "Bid deadline, clarification request period, delivery and warranty periods."
+      },
+      "c3": {
+        "t": "Penalty and risk clauses",
+        "d": "Late-delivery penalties, guarantee rates and conditions that carry risk for you are flagged."
+      },
+      "c4": {
+        "t": "Technical compliance table",
+        "d": "Each technical clause in a table showing where your product complies and where it deviates."
+      },
+      "c5": {
+        "t": "Clarification request drafts",
+        "d": "Draft questions to the contracting authority for unclear or conflicting clauses."
+      },
+      "c6": {
+        "t": "Drafts from past bids",
+        "d": "A technical proposal draft that reuses your answers from similar tenders."
+      }
+    },
+    "b3": {
+      "title": "AI does not replace your bid team",
+      "p1": "Every output is linked to the specification clause it comes from, so your team clicks through and checks. The final decision, pricing and signature always remain with your experts. Because AI can make mistakes, no bid should be submitted without human review.",
+      "p2": "Bid and price information is a trade secret. The system can run on your own server so documents never leave your organization. Details: <a href=\"/kurum-ici-yapay-zeka\">private company ChatGPT</a>."
+    },
+    "b4": {
+      "title": "How to start",
+      "s1": {
+        "t": "Reviewing sample files",
+        "d": "Specification and bid files from a few completed tenders are reviewed to decide which outputs help you most."
+      },
+      "s2": {
+        "t": "Pilot",
+        "d": "The system is built with 3–5 past tender files; its lists are compared with your team's own lists and reported."
+      },
+      "s3": {
+        "t": "Deployment",
+        "d": "If results are good, the system is set up in the cloud or on your server; <a href=\"/ocr-belge-okuma\">OCR</a> is added for scanned specifications."
+      },
+      "s4": {
+        "t": "Connecting the bid archive",
+        "d": "Your past bids and technical documents are loaded into a searchable knowledge base."
+      },
+      "s5": {
+        "t": "Training and support",
+        "d": "User training for the bid team; 30–90 days of free bug fixing."
+      }
+    },
+    "b5": {
+      "title": "Price (2026)",
+      "intro": "Price depends on tender volume, document types and where it is installed. Discovery is free, the proposal is written.",
+      "p1": {
+        "n": "Pilot (PoC)",
+        "a": "40.000 – 80.000 TL",
+        "t": "Measured on past tenders",
+        "d": "You see results before a large investment."
+      },
+      "p2": {
+        "n": "Tender document assistant",
+        "a": "80.000 – 200.000 TL",
+        "t": "Cloud or on-premise",
+        "d": "Specification analysis, checklists and search across your bid archive."
+      },
+      "p3": {
+        "n": "Full on-premise deployment",
+        "a": "150.000 – 500.000+ TL",
+        "t": "On-premise model and server",
+        "d": "Deployment where data never leaves your organization; hardware separate."
+      }
+    },
+    "b6": {
+      "title": "FAQ",
+      "q1": "Does it comply with Turkish public procurement rules?",
+      "a1": "The system does not take part in the tender process; it only analyzes documents. Application and bidding are carried out by your team through EKAP in line with current legislation.",
+      "q2": "Can it read scanned PDF specifications?",
+      "a2": "Yes. Scanned documents are first converted to text with OCR; uncertain sections in low-quality scans are flagged.",
+      "q3": "Does it prepare the price offer too?",
+      "a3": "No. Pricing is your decision; the system focuses on technical and administrative documents.",
+      "q4": "Does our data leave the company?",
+      "a4": "Not with an on-premise deployment. If the cloud is chosen, where data is processed is set out in writing.",
+      "q5": "How accurate is it?",
+      "a5": "Accuracy depends on document type and quality, so it is measured and reported in the pilot using your past tenders. Every output is shown with its source clause, so your team can check it easily."
+    }
+  },
+  "academicPage": {
+    "meta": {
+      "title": "Software Development for Theses and Academic Research Projects | BAP and TÜBİTAK | Ozturksoft"
+    },
+    "hero": {
+      "badge": "PhD · Master's · BAP · TÜBİTAK",
+      "title": "Software Development for Academic Research Projects",
+      "desc": "We develop the software your thesis or research project needs: data collection apps, experiment platforms, mobile apps, survey systems, data processing and visualization tools. Quotes and invoices are prepared to fit your university's BAP or project procurement process. The scientific contribution and thesis text remain yours."
+    },
+    "cta": {
+      "btn": "Free initial call",
+      "title": "Which software does your research need?",
+      "desc": "In a free initial call we listen to your research design and plan the software scope and procurement together. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Request a quote"
+    },
+    "footer": "© 2026 Ozturksoft — Software Development for Academic Research Projects, Ankara",
+    "stats": {
+      "s1": {
+        "v": "BAP · TÜBİTAK",
+        "l": "Quote that fits the project budget"
+      },
+      "s2": {
+        "v": "e-Invoice",
+        "l": "Corporate invoice to the university"
+      },
+      "s3": {
+        "v": "Source code",
+        "l": "Delivered to the project with documentation"
+      }
+    },
+    "related": {
+      "r1": "Mobile app",
+      "r2": "Custom software",
+      "r3": "KOSGEB and TÜBİTAK funded projects (Turkish)"
+    },
+    "b1": {
+      "title": "First, let's be clear about the boundary",
+      "p1": "<strong>We do not write theses, run analyses or produce results.</strong> The scientific contribution, hypotheses, method, analyses and thesis text of your research are yours. We develop the <strong>software tool</strong> needed for the research you designed, just as a lab buys equipment.",
+      "p2": "If the software itself is the original contribution of your thesis (for example, if the thesis is about developing a new algorithm), outsourcing that part is not appropriate; we assess this together in the initial call and decline the work if necessary. Follow your institute's rules and your supervisor's guidance on how external technical support is acknowledged in the thesis."
+    },
+    "b2": {
+      "title": "What software do we build?",
+      "c1": {
+        "t": "Data collection apps",
+        "d": "Mobile or web apps for fieldwork, observation and measurement, with offline mode and secure data transfer."
+      },
+      "c2": {
+        "t": "Experiment platforms",
+        "d": "Web or mobile task screens for participants, recording time, responses and interactions."
+      },
+      "c3": {
+        "t": "Survey and scale systems",
+        "d": "Conditional questions, randomization and custom scales where off-the-shelf survey tools fall short."
+      },
+      "c4": {
+        "t": "Data processing infrastructure",
+        "d": "Cleaning, storing and exporting raw data according to your method design."
+      },
+      "c5": {
+        "t": "Visualization and dashboards",
+        "d": "An admin dashboard for the research team to monitor collected data."
+      },
+      "c6": {
+        "t": "Device and sensor connection",
+        "d": "Interfaces that receive data from measurement devices or sensors (assessed per hardware)."
+      }
+    },
+    "b3": {
+      "title": "How is payment made?",
+      "intro": "It depends on the type of support. Rules differ between universities; the following is the general path, and you should check your institution's current rules.",
+      "h1": "Type of support",
+      "h2": "General process",
+      "r1": {
+        "a": "University BAP project",
+        "b": "The software or service is purchased by the university; we are asked for a quote and the invoice is issued to the university. The money is not paid to the student."
+      },
+      "r2": {
+        "a": "TÜBİTAK or institution-funded research project",
+        "b": "The service-procurement item in the project budget is used under the purchasing rules of the institution running the project."
+      },
+      "r3": {
+        "a": "Personal scholarship or own budget",
+        "b": "The contract and invoice are made out to the researcher personally."
+      }
+    },
+    "b4": {
+      "title": "Process",
+      "s1": {
+        "t": "Initial call",
+        "d": "We listen to your research design and what you expect from the software, and clarify the ethical boundary and scope together."
+      },
+      "s2": {
+        "t": "Technical specification and quote",
+        "d": "A written quote, and a pro forma if needed, with technical features and deliverables that can be submitted to the purchasing office."
+      },
+      "s3": {
+        "t": "Supervisor approval",
+        "d": "We recommend that your supervisor approves the scope; for studies requiring ethics approval, the software is designed to fit that approval."
+      },
+      "s4": {
+        "t": "Development and pilot",
+        "d": "The software is built and tested in a small pilot; the data format is aligned with your analysis plan."
+      },
+      "s5": {
+        "t": "Delivery and documentation",
+        "d": "Source code, installation and user documentation are delivered; the invoice and delivery record follow the procurement process."
+      }
+    },
+    "b5": {
+      "title": "Price",
+      "intro": "Academic budgets and scopes vary widely, so we do not offer fixed packages. We prepare the quote in stages to fit your project budget: first the essential core of the research, then extra features if budget remains.",
+      "p1": {
+        "n": "Small research tool",
+        "a": "Depending on scope",
+        "t": "Single-screen experiment, custom survey",
+        "d": "A web app for one data collection or experiment need."
+      },
+      "p2": {
+        "n": "Data collection app",
+        "a": "Depending on scope",
+        "t": "Mobile or web",
+        "d": "Fieldwork, offline recording and an admin dashboard."
+      },
+      "p3": {
+        "n": "Comprehensive research platform",
+        "a": "Depending on scope",
+        "t": "Multi-stage projects",
+        "d": "Several modules, device connection or data processing infrastructure."
+      }
+    },
+    "b6": {
+      "title": "FAQ",
+      "q1": "Do you write my thesis?",
+      "a1": "No. The thesis text, analysis, interpretation and scientific contribution belong to the researcher. We only develop the software tool the research needs.",
+      "q2": "How do you work with a BAP project?",
+      "a2": "We prepare a quote and technical description in the format your purchasing office requires; the university makes the purchase and the invoice is issued to the university. Thresholds and document lists vary by university, so we check your institution's BAP rules together.",
+      "q3": "Who owns the source code?",
+      "a3": "It is set in the contract. Usually the source code and usage rights are transferred to the project (the university or the researcher); your institution's intellectual property rules apply.",
+      "q4": "How is participant data protected?",
+      "a4": "Data is kept on a server you choose; identity data is stored separately or anonymized if needed. The design follows the conditions of your ethics approval.",
+      "q5": "Can my supervisor join the call?",
+      "a5": "Yes, we recommend it. Agreeing on the scope with your supervisor from the start makes both the process and the thesis defense easier."
+    }
   }
 }

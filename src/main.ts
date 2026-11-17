@@ -52,8 +52,30 @@ function saveLang(lang: string) {
 }
 
 // --- İ18N (ÇEVİRİ) SİSTEMİ KURULUMU ---
-const pageLang = detectPageLang();
-saveLang(pageLang);
+// Pages published in one language only (data-only-lang): render them fully in that
+// language and keep the visitor's saved preference for every other page.
+const onlyLang = document.body?.dataset?.onlyLang || '';
+const preferredLang = getSavedLang();
+const pageLang = onlyLang || detectPageLang();
+if (!onlyLang) saveLang(pageLang);
+
+function showOnlyLangNotice() {
+    if (!onlyLang || preferredLang === onlyLang || document.getElementById('onlyLangNote')) return;
+    const t = i18next.getFixedT(preferredLang);
+    const text = t('onlyLang.text');
+    const link = t('onlyLang.link');
+    if (!text || text === 'onlyLang.text') return;
+    const note = document.createElement('div');
+    note.id = 'onlyLangNote';
+    note.className = 'only-lang-note';
+    note.setAttribute('lang', preferredLang);
+    if (preferredLang === 'ar') note.setAttribute('dir', 'rtl');
+    note.innerHTML = `<span>${text}</span> <a href="${LOCALE_HOME[preferredLang] || '/'}">${link}</a>`;
+    // Inside the hero, above the title, so the fixed nav never covers it
+    const host = document.querySelector('.lp-hero-inner, .article-hero, .hub-hero');
+    if (host) host.prepend(note);
+    else document.body.prepend(note);
+}
 
 function resolvedLang(): string {
     const raw = i18next.resolvedLanguage || i18next.language || getSavedLang();
@@ -296,6 +318,7 @@ i18next.init({
     }
 }).then(() => {
     updateContent();
+    showOnlyLangNotice();
     const lang = resolvedLang();
     updateDropdownUI(lang);
     applyDocumentDir(lang);
@@ -359,6 +382,11 @@ function applyDocumentDir(lang: string) {
 
 // Dil değiştirme işlemi
 async function changeLanguage(lang: string) {
+    if (onlyLang && lang !== onlyLang) {
+        saveLang(lang);
+        window.location.href = LOCALE_HOME[lang] || '/';
+        return;
+    }
     const path = currentPath();
     if (isLocaleHomePage(path)) {
         const target = LOCALE_HOME[lang];

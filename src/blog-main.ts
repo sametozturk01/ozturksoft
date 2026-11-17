@@ -291,8 +291,30 @@ const ARTICLE_BODIES: Record<string, Record<string, string>> = {
 };
 
 let savedTrBody: string | null = null;
-const pageLang = detectPageLang();
-const savedLang = pageLang || localStorage.getItem(LANG_KEY) || 'tr';
+// Posts published in one language only (data-only-lang) stay in that language;
+// the visitor's own preference is kept for the rest of the site.
+const onlyLang = document.body.dataset.onlyLang || '';
+const preferredLang = localStorage.getItem(LANG_KEY) || 'tr';
+const pageLang = onlyLang || detectPageLang();
+const savedLang = pageLang || preferredLang;
+
+function showOnlyLangNotice() {
+    if (!onlyLang || preferredLang === onlyLang || document.getElementById('onlyLangNote')) return;
+    const t = i18next.getFixedT(preferredLang);
+    const text = t('onlyLang.text');
+    const link = t('onlyLang.link');
+    if (!text || text === 'onlyLang.text') return;
+    const note = document.createElement('div');
+    note.id = 'onlyLangNote';
+    note.className = 'only-lang-note';
+    note.setAttribute('lang', preferredLang);
+    if (preferredLang === 'ar') note.setAttribute('dir', 'rtl');
+    note.innerHTML = `<span>${text}</span> <a href="${LOCALE_HOME[preferredLang] || '/'}">${link}</a>`;
+    // Inside the hero, above the title, so the fixed nav never covers it
+    const host = document.querySelector('.lp-hero-inner, .article-hero, .hub-hero');
+    if (host) host.prepend(note);
+    else document.body.prepend(note);
+}
 
 i18next.init({
     lng: savedLang,
@@ -306,6 +328,7 @@ i18next.init({
         fr: { translation: frTranslation },
     },
 }).then(() => {
+    showOnlyLangNotice();
     const body = document.querySelector<HTMLElement>('.article-body');
     if (body && document.body.dataset.article && detectPageLang() === 'tr') {
         savedTrBody = body.innerHTML;
@@ -454,6 +477,11 @@ function updateDropdownUI(lang: string) {
 }
 
 async function changeLanguage(lang: string) {
+    if (onlyLang && lang !== onlyLang) {
+        localStorage.setItem(LANG_KEY, lang);
+        window.location.href = LOCALE_HOME[lang] || '/';
+        return;
+    }
     const articleKey = document.body.dataset.article;
     const slug = getBlogSlug();
     const path = currentPath();

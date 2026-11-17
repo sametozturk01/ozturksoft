@@ -421,6 +421,17 @@
       "link": "Guide d'intégration ERP →",
       "linkLogo": "Devis Logo / Netsis →",
       "linkMikro": "Intégration Mikro →"
+    },
+    "extra": {
+      "awsAzure": "Gestion AWS / Azure"
+    },
+    "tags": {
+      "t1": "#AutomatisationCognitive",
+      "t2": "#ExplorationDeDonnées",
+      "t3": "#SécuritéIndustrielle",
+      "t4": "#InfrastructureCritique",
+      "t5": "#HauteDisponibilité",
+      "t6": "#ArchitectureGlobale"
     }
   },
   "contactPage": {
@@ -551,7 +562,8 @@
       "r4": {
         "title": "Support urgent",
         "desc": "Service ininterrompu 7/24"
-      }
+      },
+      "subtitle": "Nos canaux de contact et nos délais de réponse garantis"
     },
     "faq": {
       "title1": "Questions fréquemment",
@@ -571,7 +583,9 @@
       "q4": {
         "title": "Travaillez-vous à distance ?",
         "desc": "Oui ! Nous acceptons des projets de toute la France, la Belgique, la Suisse et au-delà. Nous sommes constamment en contact via des réunions en ligne."
-      }
+      },
+      "badge": "FAQ",
+      "subtitle": "Les réponses à vos questions"
     },
     "modal": {
       "title": "Politique de confidentialité",
@@ -616,7 +630,8 @@
       "privateAi": "ChatGPT privé d'entreprise",
       "takeover": "Reprise de projet logiciel",
       "b2b": "Portail revendeurs B2B",
-      "tender": "Analyse d'appels d'offres par IA"
+      "tender": "Analyse d'appels d'offres par IA",
+      "softwareCompany": "Entreprise de logiciels à Ankara"
     }
   },
   "aiFirmPage": {
@@ -2180,7 +2195,7 @@
   "waChatbotPage": {
     "hero": {
       "badge": "Business API · GPT · CRM · +90 546 549 6806",
-      "title": "WhatsApp Chatbot Yaptırmak",
+      "title": "Création de chatbot WhatsApp",
       "desc": "Faire créer un chatbot WhatsApp : commandes, prix et FAQ 24/7. Business API officielle, GPT/RAG, CRM. Çankaya — devis écrit, découverte gratuite. Le widget site est à part : <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">faire créer un chatbot</a>. Guide : <a href=\"/blog/whatsapp-chatbot-isletme-rehberi-2026\" style=\"color:#25d366\">guide WhatsApp</a>."
     },
     "pricing": {
@@ -3378,5 +3393,580 @@
       "pub": "IA secteur public"
     },
     "footer": "© 2026 Ozturksoft — ChatGPT privé d'entreprise, Ankara"
+  },
+  "onlyLang": {
+    "text": "Cette page est pour l'instant disponible uniquement en turc.",
+    "link": "Aller à la page d'accueil en français →"
+  },
+  "takeoverPage": {
+    "meta": {
+      "title": "Reprise de projet logiciel inachevé | Audit de code et finalisation | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Audit de code · Reprise · Finalisation · Maintenance",
+      "title": "Nous reprenons votre projet logiciel inachevé",
+      "desc": "Votre développeur a abandonné le projet, l'agence ne répond plus ou le système livré ne fonctionne pas ? Nous auditons d'abord le code et l'infrastructure de façon indépendante et rendons un rapport écrit ; puis nous terminons le projet là où il s'est arrêté ou en reprenons la maintenance. Ankara, premier échange gratuit."
+    },
+    "cta": {
+      "btn": "Premier échange gratuit",
+      "title": "Connaissez l'état réel de votre projet",
+      "desc": "Lors d'un premier échange gratuit, nous écoutons votre situation et définissons ensemble le périmètre de l'audit. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Demander un devis d'audit"
+    },
+    "footer": "© 2026 Ozturksoft — Nous reprenons votre projet logiciel inachevé, Ankara",
+    "stats": {
+      "s1": {
+        "v": "15.000 – 40.000 TL",
+        "l": "Audit de code et de reprise"
+      },
+      "s2": {
+        "v": "80.000 – 200.000 TL",
+        "l": "Finalisation d'un projet PME"
+      },
+      "s3": {
+        "v": "1–2 semaines",
+        "l": "Délai du rapport d'audit"
+      }
+    },
+    "related": {
+      "r1": "Service de test QA",
+      "r2": "Logiciel sur mesure",
+      "r3": "Entreprise de logiciels à Ankara"
+    },
+    "b1": {
+      "title": "Une de ces situations vous parle ?",
+      "c1": {
+        "t": "Le développeur ou l'agence a disparu",
+        "d": "Les appels restent sans réponse, le projet est à moitié fait et vous ne savez pas ce que vous avez réellement."
+      },
+      "c2": {
+        "t": "Délais et budget largement dépassés",
+        "d": "Chaque mois on vous dit « presque fini », mais la date de livraison recule sans cesse."
+      },
+      "c3": {
+        "t": "Le code source ou le serveur n'est pas chez vous",
+        "d": "Le dépôt de code, le serveur ou le domaine sont sur le compte de l'ancien prestataire."
+      },
+      "c4": {
+        "t": "Chaque modification crée un nouveau bug",
+        "d": "Le système tourne, mais une petite correction en casse une autre."
+      },
+      "c5": {
+        "t": "Aucune documentation, personne ne connaît le code",
+        "d": "La personne qui l'a écrit est partie et rien n'explique son fonctionnement."
+      },
+      "c6": {
+        "t": "Un système construit à coups de rustines",
+        "d": "Bâti sur un thème ou un modèle tout fait et rafistolé jusqu'à devenir ingérable."
+      }
+    },
+    "b2": {
+      "title": "Le processus de reprise",
+      "s1": {
+        "t": "Récupération des accès",
+        "d": "Dépôt de code, serveur, domaine, base de données et comptes tiers sont inventoriés. Si vous n'avez pas les accès, nous planifions ensemble leur récupération."
+      },
+      "s2": {
+        "t": "Audit indépendant",
+        "d": "Qualité du code, failles de sécurité, fonctions manquantes, tests et infrastructure sont examinés. Le résultat est un rapport écrit : terminer ou réécrire ?"
+      },
+      "s3": {
+        "t": "Décision et proposition",
+        "d": "Selon le rapport, les options (terminer, réécrire les parties critiques, maintenance seule) sont proposées dans une offre écrite à prix fixe."
+      },
+      "s4": {
+        "t": "Reprise sécurisée",
+        "d": "Le code est placé dans un dépôt sur votre propre compte, un environnement de test est créé et des tests automatisés sont ajoutés, sans arrêter le système en production."
+      },
+      "s5": {
+        "t": "Finalisation et maintenance",
+        "d": "Les manques sont comblés et documentés ; un contrat mensuel de maintenance et de support est proposé en option."
+      }
+    },
+    "b3": {
+      "title": "Terminer ou réécrire ?",
+      "intro": "Nous ne décidons pas avant l'audit. « Tout réécrire » est la réponse la plus facile et souvent la plus chère.",
+      "h1": "Situation",
+      "h2": "Décision généralement adaptée",
+      "r1": {
+        "a": "Code propre, manques identifiés",
+        "b": "Reprendre là où le projet s'est arrêté"
+      },
+      "r2": {
+        "a": "Code fonctionnel mais désordonné et non testé",
+        "b": "Ajouter des tests et améliorer progressivement"
+      },
+      "r3": {
+        "a": "Faille de sécurité grave ou architecture de base défaillante",
+        "b": "Réécrire les parties critiques"
+      },
+      "r4": {
+        "a": "Technologie qui n'est plus maintenue",
+        "b": "Migration planifiée vers une version actuelle"
+      }
+    },
+    "b4": {
+      "title": "Prix (2026)",
+      "intro": "Le prix final figure dans une proposition écrite après le rapport d'audit. Le premier échange est gratuit.",
+      "p1": {
+        "n": "Audit de code et de reprise",
+        "a": "15.000 – 40.000 TL",
+        "t": "1–2 semaines",
+        "d": "Rapport écrit : état actuel, risques, options de finalisation et coût estimé."
+      },
+      "p2": {
+        "n": "Finalisation du projet",
+        "a": "80.000 – 200.000 TL",
+        "t": "Projets PME",
+        "d": "Comblement des manques du rapport ; projets d'entreprise 200 000–500 000+ TL."
+      },
+      "p3": {
+        "n": "Maintenance et support",
+        "a": "Forfait mensuel fixe",
+        "t": "Devis après échange",
+        "d": "Corrections, mises à jour de sécurité, petites évolutions et suivi des serveurs."
+      }
+    },
+    "b5": {
+      "title": "Quelles technologies ?",
+      "p1": "Nous reprenons des projets web en React, TypeScript, Laravel/PHP et Python, et des projets mobiles en Flutter et React Native. Pour une autre technologie, nous donnons un avis honnête dès le premier échange ; si nous ne sommes pas le bon choix, nous le disons d'emblée.",
+      "p2": "Notre approche de test et de qualité dans l'audit est la même que dans notre <a href=\"/qa-test-hizmeti\">service de test QA</a>."
+    },
+    "b6": {
+      "title": "Questions fréquentes",
+      "q1": "Nous n'avons pas le code source. Que faire ?",
+      "a1": "Nous examinons ensemble votre contrat et vos comptes d'hébergement et de domaine. Si vous avez accès au serveur ou au dépôt, le code peut être récupéré. Si tout est chez l'ancien prestataire, il peut être nécessaire d'étudier les voies juridiques avec votre avocat ; nous indiquons ce qui est possible techniquement.",
+      "q2": "Combien coûte l'audit et combien de temps prend-il ?",
+      "a2": "15 000–40 000 TL selon la taille du projet ; le rapport est généralement prêt en 1 à 2 semaines.",
+      "q3": "Faut-il tout réécrire ?",
+      "a3": "Le plus souvent non. Un code propre est terminé là où il s'est arrêté ; seules les parties présentant de graves problèmes de sécurité ou d'architecture sont réécrites. Le rapport d'audit décide.",
+      "q4": "Le système en production s'arrête-t-il pendant les travaux ?",
+      "a4": "Non. Le développement se fait dans un environnement de test séparé ; les changements sont mis en ligne de façon planifiée après les tests.",
+      "q5": "Pouvons-nous continuer avec une autre entreprise après l'audit ?",
+      "a5": "Oui. Le rapport d'audit est indépendant et vous appartient ; vous pouvez poursuivre avec l'équipe de votre choix."
+    }
+  },
+  "b2bPage": {
+    "meta": {
+      "title": "Créer un portail revendeurs B2B | Commandes revendeurs et intégration ERP | Ozturksoft"
+    },
+    "hero": {
+      "badge": "B2B · Commandes revendeurs · Intégration ERP · Mobile",
+      "title": "Portail revendeurs B2B et système de commande",
+      "desc": "Au lieu de commander par téléphone, WhatsApp ou liste Excel, vos revendeurs voient leurs propres prix, stocks et soldes et commandent 24 h/24. Les commandes arrivent directement dans Logo, Netsis ou Mikro. Développement sur mesure pour fabricants et grossistes. Ankara, premier échange gratuit."
+    },
+    "cta": {
+      "btn": "Premier échange gratuit",
+      "title": "Parlons de vos commandes revendeurs",
+      "desc": "Lors d'un premier échange gratuit, nous étudions votre nombre de revendeurs, vos règles de prix et votre ERP et estimons le coût. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Demander un devis portail B2B"
+    },
+    "footer": "© 2026 Ozturksoft — Portail revendeurs B2B et système de commande, Ankara",
+    "stats": {
+      "s1": {
+        "v": "120.000 – 250.000+ TL",
+        "l": "Portail revendeurs B2B"
+      },
+      "s2": {
+        "v": "55.000 – 130.000 TL",
+        "l": "Intégration ERP bidirectionnelle"
+      },
+      "s3": {
+        "v": "24/7",
+        "l": "Commandes revendeurs"
+      }
+    },
+    "related": {
+      "r1": "Site e-commerce",
+      "r2": "Intégration Logo et Netsis",
+      "r3": "Intégration Mikro"
+    },
+    "b1": {
+      "title": "Pourquoi un portail revendeurs ?",
+      "p1": "Les entreprises qui prennent les commandes par téléphone et messages rencontrent toujours les mêmes problèmes : commandes au mauvais prix, produits en rupture, questions sur le solde et équipe commerciale occupée à saisir des commandes.",
+      "p2": "Le portail B2B confie cela au revendeur : chacun ne voit que son prix, sa remise et son compte, et passe commande ; la commande est intégrée automatiquement à l'ERP. Votre équipe vend au lieu de saisir."
+    },
+    "b2": {
+      "title": "Ce que comprend le portail",
+      "c1": {
+        "t": "Prix et remises par revendeur",
+        "d": "Listes de prix, remises par groupe, promotions et remises quantitatives selon les règles de votre ERP."
+      },
+      "c2": {
+        "t": "Stock et délai en temps réel",
+        "d": "Le revendeur voit le stock et la date d'expédition estimée avant de commander."
+      },
+      "c3": {
+        "t": "Solde et limite de crédit",
+        "d": "Solde, relevé, échéances et contrôle de la limite de crédit."
+      },
+      "c4": {
+        "t": "Commande rapide",
+        "d": "Recherche par référence ou code-barres, import Excel en masse, renouvellement d'une commande."
+      },
+      "c5": {
+        "t": "Suivi commandes, expéditions et factures",
+        "d": "Statut de validation, d'expédition et de facturation sur un seul écran."
+      },
+      "c6": {
+        "t": "Annonces et documents produits",
+        "d": "Promotions, changements de tarifs, documents techniques et catalogues."
+      }
+    },
+    "b3": {
+      "title": "Intégration ERP : quelles données vont où ?",
+      "intro": "Le portail et l'ERP utilisent les mêmes données ; rien n'est saisi deux fois. Détails : <a href=\"/logo-netsis-entegrasyon\">intégration Logo et Netsis</a> · <a href=\"/mikro-entegrasyon\">intégration Mikro</a>.",
+      "h1": "Données",
+      "h2": "Sens",
+      "r1": {
+        "a": "Produits, stocks et listes de prix",
+        "b": "ERP → portail"
+      },
+      "r2": {
+        "a": "Compte revendeur, solde et limite de crédit",
+        "b": "ERP → portail"
+      },
+      "r3": {
+        "a": "Commandes",
+        "b": "Portail → ERP (commande automatique)"
+      },
+      "r4": {
+        "a": "Statut d'expédition et de facture",
+        "b": "ERP → portail"
+      }
+    },
+    "b4": {
+      "title": "Déroulement du projet",
+      "s1": {
+        "t": "Découverte",
+        "d": "Vos règles de prix, le nombre de revendeurs, la structure de l'ERP et le flux de commande sont analysés."
+      },
+      "s2": {
+        "t": "Périmètre écrit et proposition",
+        "d": "Écrans, points d'intégration, calendrier et prix fixe sont formalisés par écrit."
+      },
+      "s3": {
+        "t": "Développement et connexion ERP",
+        "d": "Le portail et l'intégration sont développés en environnement de test ; vos données ERP sont vérifiées avant la mise en ligne."
+      },
+      "s4": {
+        "t": "Pilote avec quelques revendeurs",
+        "d": "Quelques revendeurs choisis utilisent le portail avec de vraies commandes ; il est ajusté selon leurs retours."
+      },
+      "s5": {
+        "t": "Mise en ligne et support",
+        "d": "Ouverture à tous les revendeurs avec formation ; 30 à 90 jours de corrections gratuites."
+      }
+    },
+    "b5": {
+      "title": "Prix (2026)",
+      "intro": "Le prix dépend du nombre de revendeurs, de la complexité des règles de prix et de l'ERP. Premier échange gratuit, proposition écrite.",
+      "p1": {
+        "n": "Portail revendeurs B2B",
+        "a": "120.000 – 250.000+ TL",
+        "t": "Selon le périmètre",
+        "d": "Prix, stock, compte et commande par revendeur ; panneau d'administration."
+      },
+      "p2": {
+        "n": "Intégration ERP",
+        "a": "55.000 – 130.000 TL",
+        "t": "Bidirectionnelle",
+        "d": "Synchronisation stock, prix, comptes et commandes avec Logo, Netsis ou Mikro."
+      },
+      "p3": {
+        "n": "Application mobile revendeurs",
+        "a": "80.000 – 350.000 TL",
+        "t": "En option",
+        "d": "Application iOS et Android pour commerciaux terrain et revendeurs."
+      }
+    },
+    "b6": {
+      "title": "Questions fréquentes",
+      "q1": "Quelle différence avec une boutique en ligne B2C ?",
+      "a1": "Sur un site B2C, tout le monde voit le même prix et paie par carte. Dans un portail B2B, chaque revendeur voit son prix, sa remise et son compte ; le paiement se fait généralement sur compte, à terme.",
+      "q2": "Pourquoi du sur-mesure plutôt qu'un logiciel B2B standard ?",
+      "a2": "Si vos règles de prix sont simples et que votre ERP est compatible, une solution standard peut suffire ; nous le disons franchement. Avec des remises complexes, des validations spécifiques ou un autre ERP, le sur-mesure fonctionne mieux.",
+      "q3": "Avec quels ERP fonctionne-t-il ?",
+      "a3": "Avec les ERP disposant d'une API, en premier lieu Logo, Netsis et Mikro. Pour les autres systèmes, la voie d'intégration est étudiée lors de l'échange.",
+      "q4": "Les revendeurs peuvent-ils l'utiliser sur mobile ?",
+      "a4": "Oui. Le portail est adapté au mobile ; en cas de besoin terrain comme la lecture de codes-barres, une application peut être ajoutée.",
+      "q5": "Fonctionne-t-il avec notre boutique en ligne actuelle ?",
+      "a5": "Oui. Le portail B2B et le site B2C peuvent partager la même base produits, stocks et ERP. Détails : <a href=\"/e-ticaret-sitesi-yaptirmak\">création de site e-commerce</a>."
+    }
+  },
+  "tenderPage": {
+    "meta": {
+      "title": "IA pour l'analyse des cahiers des charges et la préparation des offres | Ozturksoft"
+    },
+    "hero": {
+      "badge": "IA · Appels d'offres · Dossiers d'offre · Sur site",
+      "title": "IA pour l'analyse des cahiers des charges et la préparation des offres",
+      "desc": "Analysez par IA des cahiers des charges techniques et administratifs de centaines de pages : critères de qualification, pièces exigées, dates clés, pénalités et exigences techniques listés en quelques minutes, avec un brouillon fondé sur vos offres passées. Les données peuvent rester en interne. Développement sur mesure qui commence par un pilote."
+    },
+    "cta": {
+      "btn": "Premier échange gratuit",
+      "title": "Faisons un pilote avec votre dernier dossier",
+      "desc": "À partir d'un appel d'offres terminé, nous montrons ce que le système repère par rapport à la liste de votre équipe. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Demander un devis pilote"
+    },
+    "footer": "© 2026 Ozturksoft — IA pour l'analyse des cahiers des charges et la préparation des offres, Ankara",
+    "stats": {
+      "s1": {
+        "v": "40.000 – 80.000 TL",
+        "l": "Pilote (PoC)"
+      },
+      "s2": {
+        "v": "80.000 – 200.000 TL",
+        "l": "Assistant documentaire (RAG)"
+      },
+      "s3": {
+        "v": "150.000 – 500.000+ TL",
+        "l": "Installation sur site"
+      }
+    },
+    "related": {
+      "r1": "ChatGPT privé d'entreprise",
+      "r2": "OCR et lecture de documents",
+      "r3": "Entreprise IA à Ankara"
+    },
+    "b1": {
+      "title": "Pour qui ?",
+      "p1": "Pour les entreprises qui répondent régulièrement aux appels d'offres publics et de défense : BTP, santé, informatique et services. Les équipes passent des jours à lire les cahiers des charges, et une clause manquée peut entraîner l'élimination ou des pénalités après signature.",
+      "p2": "L'IA prend en charge ce travail de lecture et de listage pour que votre équipe se concentre sur le fond de l'offre."
+    },
+    "b2": {
+      "title": "Ce que fait le système",
+      "c1": {
+        "t": "Liste de contrôle qualifications et pièces",
+        "d": "Pièces exigées, critères de qualification et références demandées, avec numéro de clause."
+      },
+      "c2": {
+        "t": "Dates et délais clés",
+        "d": "Date limite de remise, délai de questions, délais de livraison et de garantie."
+      },
+      "c3": {
+        "t": "Clauses de pénalité et de risque",
+        "d": "Pénalités de retard, taux de garantie et conditions risquées pour vous sont signalés."
+      },
+      "c4": {
+        "t": "Tableau de conformité technique",
+        "d": "Chaque exigence technique dans un tableau indiquant conformité et écarts de votre produit."
+      },
+      "c5": {
+        "t": "Brouillons de demandes de précision",
+        "d": "Projets de questions à l'acheteur pour les clauses floues ou contradictoires."
+      },
+      "c6": {
+        "t": "Brouillons à partir d'offres passées",
+        "d": "Un projet d'offre technique qui réutilise vos réponses à des appels d'offres similaires."
+      }
+    },
+    "b3": {
+      "title": "L'IA ne remplace pas votre équipe",
+      "p1": "Chaque résultat est relié à la clause d'origine ; votre équipe vérifie la source en un clic. La décision, le prix et la signature restent toujours aux experts. L'IA pouvant se tromper, aucune offre ne doit être déposée sans relecture humaine.",
+      "p2": "Les informations d'offre et de prix sont des secrets d'affaires. Le système peut fonctionner sur votre propre serveur ; les documents ne quittent pas votre organisation. Détails : <a href=\"/kurum-ici-yapay-zeka\">ChatGPT privé d'entreprise</a>."
+    },
+    "b4": {
+      "title": "Comment démarrer",
+      "s1": {
+        "t": "Étude de dossiers exemples",
+        "d": "Les cahiers des charges et offres de quelques appels d'offres terminés sont examinés pour définir les résultats les plus utiles."
+      },
+      "s2": {
+        "t": "Pilote",
+        "d": "Le système est construit avec 3 à 5 dossiers passés ; ses listes sont comparées à celles de votre équipe et rapportées."
+      },
+      "s3": {
+        "t": "Installation",
+        "d": "Si les résultats sont bons, le système est installé dans le cloud ou sur votre serveur ; l'<a href=\"/ocr-belge-okuma\">OCR</a> est ajouté pour les documents scannés."
+      },
+      "s4": {
+        "t": "Connexion de l'archive d'offres",
+        "d": "Vos offres passées et documents techniques alimentent une base de connaissances consultable."
+      },
+      "s5": {
+        "t": "Formation et support",
+        "d": "Formation de l'équipe ; 30 à 90 jours de corrections gratuites."
+      }
+    },
+    "b5": {
+      "title": "Prix (2026)",
+      "intro": "Le prix dépend du volume d'appels d'offres, des types de documents et du lieu d'installation. Premier échange gratuit, proposition écrite.",
+      "p1": {
+        "n": "Pilote (PoC)",
+        "a": "40.000 – 80.000 TL",
+        "t": "Mesuré sur des dossiers passés",
+        "d": "Vous voyez les résultats avant un investissement important."
+      },
+      "p2": {
+        "n": "Assistant appels d'offres",
+        "a": "80.000 – 200.000 TL",
+        "t": "Cloud ou sur site",
+        "d": "Analyse des cahiers des charges, listes de contrôle et recherche dans l'archive d'offres."
+      },
+      "p3": {
+        "n": "Installation complète sur site",
+        "a": "150.000 – 500.000+ TL",
+        "t": "Modèle et serveur sur site",
+        "d": "Installation où les données ne quittent pas votre organisation ; matériel en sus."
+      }
+    },
+    "b6": {
+      "title": "Questions fréquentes",
+      "q1": "Est-ce conforme aux règles turques des marchés publics ?",
+      "a1": "Le système ne participe pas à la procédure ; il analyse seulement les documents. La candidature et la remise de l'offre sont effectuées par votre équipe via EKAP, conformément à la réglementation en vigueur.",
+      "q2": "Peut-il lire des cahiers des charges scannés ?",
+      "a2": "Oui. Les documents scannés sont d'abord convertis en texte par OCR ; les passages incertains des scans de mauvaise qualité sont signalés.",
+      "q3": "Prépare-t-il aussi l'offre de prix ?",
+      "a3": "Non. Le prix est votre décision ; le système se concentre sur les documents techniques et administratifs.",
+      "q4": "Nos données quittent-elles l'entreprise ?",
+      "a4": "Pas avec une installation sur site. En cas de cloud, le lieu de traitement est défini par écrit.",
+      "q5": "Quelle est sa précision ?",
+      "a5": "Elle dépend du type et de la qualité des documents ; elle est donc mesurée et rapportée lors du pilote sur vos appels d'offres passés. Chaque résultat est affiché avec sa clause source pour une vérification facile."
+    }
+  },
+  "academicPage": {
+    "meta": {
+      "title": "Développement logiciel pour thèses et projets de recherche | BAP et TÜBİTAK | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Doctorat · Master · BAP · TÜBİTAK",
+      "title": "Développement logiciel pour les projets de recherche académique",
+      "desc": "Nous développons le logiciel dont votre thèse ou votre projet de recherche a besoin : applications de collecte de données, plateformes d'expérimentation, applications mobiles, systèmes d'enquête, outils de traitement et de visualisation. Devis et factures sont préparés selon la procédure d'achat BAP ou projet de votre université. La contribution scientifique et le texte de la thèse restent les vôtres."
+    },
+    "cta": {
+      "btn": "Premier échange gratuit",
+      "title": "De quel logiciel votre recherche a-t-elle besoin ?",
+      "desc": "Lors d'un premier échange gratuit, nous écoutons votre plan de recherche et organisons ensemble le périmètre et l'achat. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Demander un devis"
+    },
+    "footer": "© 2026 Ozturksoft — Développement logiciel pour les projets de recherche académique, Ankara",
+    "stats": {
+      "s1": {
+        "v": "BAP · TÜBİTAK",
+        "l": "Devis adapté au budget du projet"
+      },
+      "s2": {
+        "v": "Facture électronique",
+        "l": "Facture à l'université"
+      },
+      "s3": {
+        "v": "Code source",
+        "l": "Remis au projet avec documentation"
+      }
+    },
+    "related": {
+      "r1": "Application mobile",
+      "r2": "Logiciel sur mesure",
+      "r3": "Projets financés KOSGEB et TÜBİTAK (en turc)"
+    },
+    "b1": {
+      "title": "D'abord, clarifions la limite",
+      "p1": "<strong>Nous n'écrivons pas de thèse, ne réalisons pas d'analyses et ne produisons pas de résultats.</strong> La contribution scientifique, les hypothèses, la méthode, les analyses et le texte vous appartiennent. Nous développons l'<strong>outil logiciel</strong> nécessaire à la recherche que vous avez conçue, comme un laboratoire achète un appareil.",
+      "p2": "Si le logiciel est lui-même la contribution originale de votre thèse (par exemple le développement d'un nouvel algorithme), il n'est pas approprié d'externaliser cette partie ; nous l'évaluons ensemble au premier échange et déclinons si nécessaire. Pour mentionner une aide technique externe dans la thèse, suivez les règles de votre institut et l'avis de votre directeur."
+    },
+    "b2": {
+      "title": "Quels logiciels développons-nous ?",
+      "c1": {
+        "t": "Applications de collecte de données",
+        "d": "Applications mobiles ou web pour le terrain, l'observation et la mesure, avec mode hors ligne et transfert sécurisé."
+      },
+      "c2": {
+        "t": "Plateformes d'expérimentation",
+        "d": "Écrans de tâches web ou mobiles pour les participants, avec enregistrement du temps, des réponses et des interactions."
+      },
+      "c3": {
+        "t": "Systèmes d'enquête et d'échelles",
+        "d": "Questions conditionnelles, randomisation et échelles spécifiques là où les outils standard ne suffisent pas."
+      },
+      "c4": {
+        "t": "Infrastructure de traitement des données",
+        "d": "Nettoyage, stockage et export des données brutes selon votre plan méthodologique."
+      },
+      "c5": {
+        "t": "Visualisation et tableau de bord",
+        "d": "Un tableau de bord pour que l'équipe suive les données collectées."
+      },
+      "c6": {
+        "t": "Connexion d'appareils et capteurs",
+        "d": "Interfaces recevant les données d'appareils de mesure ou de capteurs (selon le matériel)."
+      }
+    },
+    "b3": {
+      "title": "Comment se fait le paiement ?",
+      "intro": "Cela dépend du type de financement. Les règles varient selon les universités ; voici le principe général, à vérifier auprès de votre établissement.",
+      "h1": "Type de financement",
+      "h2": "Fonctionnement général",
+      "r1": {
+        "a": "Projet BAP de l'université",
+        "b": "Le logiciel ou le service est acheté par l'université ; un devis nous est demandé et la facture est adressée à l'université. L'argent n'est pas versé à l'étudiant."
+      },
+      "r2": {
+        "a": "Projet TÜBİTAK ou financé par une institution",
+        "b": "La ligne « prestations de services » du budget est utilisée selon les règles d'achat de l'institution porteuse."
+      },
+      "r3": {
+        "a": "Bourse personnelle ou budget propre",
+        "b": "Le contrat et la facture sont établis au nom du chercheur."
+      }
+    },
+    "b4": {
+      "title": "Déroulement",
+      "s1": {
+        "t": "Premier échange",
+        "d": "Nous écoutons votre plan de recherche et vos attentes, et clarifions ensemble la limite éthique et le périmètre."
+      },
+      "s2": {
+        "t": "Spécification technique et devis",
+        "d": "Un devis écrit, et si besoin une facture pro forma, avec caractéristiques techniques et livrables à présenter au service achats."
+      },
+      "s3": {
+        "t": "Accord du directeur",
+        "d": "Nous recommandons de faire valider le périmètre par votre directeur ; pour les études soumises à un comité d'éthique, le logiciel est conçu selon l'autorisation obtenue."
+      },
+      "s4": {
+        "t": "Développement et pilote",
+        "d": "Le logiciel est développé puis testé lors d'un petit pilote ; le format des données est aligné sur votre plan d'analyse."
+      },
+      "s5": {
+        "t": "Livraison et documentation",
+        "d": "Code source, documentation d'installation et d'utilisation sont remis ; facture et procès-verbal de livraison suivent la procédure d'achat."
+      }
+    },
+    "b5": {
+      "title": "Prix",
+      "intro": "Les budgets et périmètres académiques varient beaucoup ; nous ne proposons donc pas de forfait fixe. Le devis est établi par étapes selon votre budget : d'abord le cœur indispensable, puis des fonctions supplémentaires si le budget le permet.",
+      "p1": {
+        "n": "Petit outil de recherche",
+        "a": "Selon le périmètre",
+        "t": "Expérience simple, enquête spécifique",
+        "d": "Une application web pour un besoin unique de collecte ou d'expérience."
+      },
+      "p2": {
+        "n": "Application de collecte de données",
+        "a": "Selon le périmètre",
+        "t": "Mobile ou web",
+        "d": "Terrain, enregistrement hors ligne et tableau de bord."
+      },
+      "p3": {
+        "n": "Plateforme de recherche complète",
+        "a": "Selon le périmètre",
+        "t": "Projets en plusieurs étapes",
+        "d": "Plusieurs modules, connexion d'appareils ou traitement de données."
+      }
+    },
+    "b6": {
+      "title": "Questions fréquentes",
+      "q1": "Écrivez-vous ma thèse ?",
+      "a1": "Non. Le texte, l'analyse, l'interprétation et la contribution scientifique appartiennent au chercheur. Nous développons uniquement l'outil logiciel nécessaire.",
+      "q2": "Comment travaillez-vous avec un projet BAP ?",
+      "a2": "Nous préparons devis et description technique au format demandé par votre service achats ; l'université achète et la facture lui est adressée. Seuils et pièces variant selon les universités, nous vérifions ensemble les règles BAP de votre établissement.",
+      "q3": "À qui appartient le code source ?",
+      "a3": "C'est fixé par contrat. En général, le code et les droits d'usage sont cédés au projet (université ou chercheur) ; les règles de propriété intellectuelle de votre établissement s'appliquent.",
+      "q4": "Comment les données des participants sont-elles protégées ?",
+      "a4": "Les données sont stockées sur un serveur de votre choix ; les données d'identité sont séparées ou anonymisées si nécessaire, selon les conditions de votre autorisation éthique.",
+      "q5": "Mon directeur peut-il participer à l'échange ?",
+      "a5": "Oui, nous le recommandons. Un périmètre validé dès le départ avec votre directeur facilite le projet et la soutenance."
+    }
   }
 }

@@ -421,6 +421,17 @@
       "link": "ERP entegrasyon rehberi →",
       "linkLogo": "Logo / Netsis teklif →",
       "linkMikro": "Mikro entegrasyon →"
+    },
+    "extra": {
+      "awsAzure": "AWS / Azure Yönetimi"
+    },
+    "tags": {
+      "t1": "#BilişselOtomasyon",
+      "t2": "#VeriMadenciliği",
+      "t3": "#EndüstriyelGüvenlik",
+      "t4": "#KritikAltyapı",
+      "t5": "#YüksekErişilebilirlik",
+      "t6": "#GlobalMimari"
     }
   },
   "contactPage": {
@@ -551,7 +562,8 @@
       "r4": {
         "title": "Acil Destek",
         "desc": "7/24 kesintisiz hizmet"
-      }
+      },
+      "subtitle": "İletişim kanallarımız ve garantili yanıt sürelerimiz"
     },
     "faq": {
       "title1": "Sıkça Sorulan",
@@ -571,7 +583,9 @@
       "q4": {
         "title": "Uzaktan çalışıyor musunuz?",
         "desc": "Evet! Türkiye genelinde ve yurt dışından da projeler kabul ediyoruz. Online toplantılar ile sürekli iletişim halindeyiz."
-      }
+      },
+      "badge": "SSS",
+      "subtitle": "Merak ettiklerinizin yanıtları"
     },
     "modal": {
       "title": "Gizlilik Politikası",
@@ -616,7 +630,8 @@
       "privateAi": "Şirketinize özel ChatGPT",
       "takeover": "Yazılım projesi devralma",
       "b2b": "B2B bayi portalı",
-      "tender": "İhale şartnamesi yapay zeka"
+      "tender": "İhale şartnamesi yapay zeka",
+      "softwareCompany": "Ankara yazılım şirketi"
     }
   },
   "aiFirmPage": {
@@ -3394,5 +3409,580 @@
       "pub": "Kamu yapay zeka"
     },
     "footer": "© 2026 Ozturksoft — Şirketinize Özel ChatGPT, Ankara"
+  },
+  "onlyLang": {
+    "text": "Bu sayfa şu an yalnızca Türkçe yayındadır.",
+    "link": "Ana sayfaya git →"
+  },
+  "takeoverPage": {
+    "meta": {
+      "title": "Yarım Kalan Yazılım Projesi Devralma | Kod Denetimi ve Tamamlama | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Kod denetimi · Devralma · Tamamlama · Bakım",
+      "title": "Yarım Kalan Yazılım Projenizi Devralıyoruz",
+      "desc": "Yazılımcınız projeyi bıraktı, firmaya ulaşılamıyor ya da teslim edilen sistem çalışmıyor mu? Önce kodu ve altyapıyı bağımsız olarak denetliyor, ne durumda olduğunu yazılı raporluyoruz; sonra kaldığı yerden tamamlıyor ya da bakımını üstleniyoruz. Ankara, ücretsiz ön görüşme."
+    },
+    "cta": {
+      "btn": "Ücretsiz ön görüşme",
+      "title": "Projenizin gerçek durumunu öğrenin",
+      "desc": "Ücretsiz ön görüşmede durumu dinleyip denetimin kapsamını birlikte çıkaralım. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Denetim teklifi al"
+    },
+    "footer": "© 2026 Ozturksoft — Yarım Kalan Yazılım Projenizi Devralıyoruz, Ankara",
+    "stats": {
+      "s1": {
+        "v": "15.000 – 40.000 TL",
+        "l": "Kod ve devralma denetimi"
+      },
+      "s2": {
+        "v": "80.000 – 200.000 TL",
+        "l": "KOBİ projesini tamamlama"
+      },
+      "s3": {
+        "v": "1–2 hafta",
+        "l": "Denetim raporu süresi"
+      }
+    },
+    "related": {
+      "r1": "QA test hizmeti",
+      "r2": "Özel yazılım",
+      "r3": "Ankara yazılım şirketi"
+    },
+    "b1": {
+      "title": "Bu durumlardan biri size tanıdık mı?",
+      "c1": {
+        "t": "Yazılımcı ya da ajans ortadan kayboldu",
+        "d": "Telefonlara dönülmüyor, proje yarıda kaldı ve elinizde ne olduğunu bilmiyorsunuz."
+      },
+      "c2": {
+        "t": "Süre ve bütçe çoktan aşıldı",
+        "d": "Her ay \"bitmek üzere\" deniyor ama teslim tarihi sürekli kayıyor."
+      },
+      "c3": {
+        "t": "Kaynak kod veya sunucu sizde değil",
+        "d": "Kod deposu, sunucu ya da alan adı eski firmanın hesabında duruyor."
+      },
+      "c4": {
+        "t": "Her değişiklik yeni hata çıkarıyor",
+        "d": "Sistem çalışıyor ama küçük bir düzeltme başka bir yeri bozuyor."
+      },
+      "c5": {
+        "t": "Belge yok, kimse kodu bilmiyor",
+        "d": "Kodu yazan kişi gitti; nasıl çalıştığını anlatan bir belge de yok."
+      },
+      "c6": {
+        "t": "Yamalarla büyümüş sistem",
+        "d": "Hazır bir tema veya şablon üzerine eklenen yamalarla yönetilemez hâle gelmiş."
+      }
+    },
+    "b2": {
+      "title": "Devralma süreci",
+      "s1": {
+        "t": "Erişimlerin toplanması",
+        "d": "Kaynak kod deposu, sunucu, alan adı, veritabanı ve üçüncü taraf hesaplar listelenir. Erişim sizde değilse geri alma yolunu birlikte planlarız."
+      },
+      "s2": {
+        "t": "Bağımsız denetim",
+        "d": "Kod kalitesi, güvenlik açıkları, eksik özellikler, testler ve altyapı incelenir. Sonuç yazılı rapordur: tamamlamak mı, yeniden yazmak mı?"
+      },
+      "s3": {
+        "t": "Karar ve teklif",
+        "d": "Rapora göre seçenekler (kaldığı yerden tamamlama, kritik bölümleri yeniden yazma, yalnızca bakım) sabit fiyatlı yazılı teklifle sunulur."
+      },
+      "s4": {
+        "t": "Güvenli devralma",
+        "d": "Kod sizin hesabınızdaki bir depoya alınır, test ortamı kurulur, otomatik testler eklenir. Canlı sistem durmadan çalışılır."
+      },
+      "s5": {
+        "t": "Tamamlama ve bakım",
+        "d": "Eksikler tamamlanır, belgelendirme yazılır; isteğe bağlı aylık bakım ve destek sözleşmesi yapılır."
+      }
+    },
+    "b3": {
+      "title": "Tamamlamak mı, yeniden yazmak mı?",
+      "intro": "Bu kararı denetimden önce vermiyoruz. \"Hepsini baştan yazalım\" demek en kolay ve çoğu zaman en pahalı cevaptır.",
+      "h1": "Durum",
+      "h2": "Genelde doğru karar",
+      "r1": {
+        "a": "Kod düzenli, eksikler belli",
+        "b": "Kaldığı yerden tamamlama"
+      },
+      "r2": {
+        "a": "Kod çalışıyor ama dağınık ve testsiz",
+        "b": "Test ekleyip kademeli iyileştirme"
+      },
+      "r3": {
+        "a": "Ciddi güvenlik açığı veya hatalı temel mimari",
+        "b": "Kritik bölümleri yeniden yazma"
+      },
+      "r4": {
+        "a": "Kullanılan teknoloji artık desteklenmiyor",
+        "b": "Planlı geçiş (yeni sürüme taşıma)"
+      }
+    },
+    "b4": {
+      "title": "Fiyat (2026)",
+      "intro": "Kesin fiyat denetim raporundan sonra yazılı teklifle belirlenir. Ön görüşme ücretsizdir.",
+      "p1": {
+        "n": "Kod ve devralma denetimi",
+        "a": "15.000 – 40.000 TL",
+        "t": "1–2 hafta",
+        "d": "Yazılı rapor: mevcut durum, riskler, tamamlama seçenekleri ve tahmini maliyet."
+      },
+      "p2": {
+        "n": "Projeyi tamamlama",
+        "a": "80.000 – 200.000 TL",
+        "t": "KOBİ projeleri",
+        "d": "Rapordaki eksiklerin tamamlanması; kurumsal projelerde 200.000–500.000+ TL."
+      },
+      "p3": {
+        "n": "Bakım ve destek",
+        "a": "Aylık sabit ücret",
+        "t": "Keşif sonrası teklif",
+        "d": "Hata düzeltme, güvenlik güncellemeleri, küçük geliştirmeler ve sunucu takibi."
+      }
+    },
+    "b5": {
+      "title": "Hangi teknolojiler?",
+      "p1": "Web tarafında React, TypeScript, Laravel/PHP ve Python; mobilde Flutter ve React Native ile yazılmış projeleri devralıyoruz. Farklı bir teknolojiyle yazılmış bir proje için ön görüşmede dürüst bir değerlendirme yaparız; uygun değilsek bunu baştan söyleriz.",
+      "p2": "Denetimde test ve kalite yaklaşımımız <a href=\"/qa-test-hizmeti\">QA test hizmetimizle</a> aynıdır."
+    },
+    "b6": {
+      "title": "Sık sorulan sorular",
+      "q1": "Kaynak kod bizde değil, ne yapabiliriz?",
+      "a1": "Sözleşmenizi, hosting ve alan adı hesaplarınızı birlikte inceleriz. Sunucu veya depo erişimi sizdeyse kod oradan alınabilir. Erişim tamamen eski firmadaysa hukuki yolları avukatınızla değerlendirmeniz gerekebilir; teknik olarak yapılabilecekleri raporlarız.",
+      "q2": "Denetim ne kadar tutar ve ne kadar sürer?",
+      "a2": "Projenin büyüklüğüne göre 15.000–40.000 TL; rapor genelde 1–2 haftada hazır olur.",
+      "q3": "Her şeyi baştan yazmak gerekir mi?",
+      "a3": "Çoğu zaman hayır. Düzenli bir kod kaldığı yerden tamamlanır; sadece ciddi güvenlik veya mimari sorunu olan bölümler yeniden yazılır. Kararı denetim raporu belirler.",
+      "q4": "Çalışırken canlı sistem durur mu?",
+      "a4": "Hayır. Geliştirme ayrı bir test ortamında yapılır; değişiklikler test edildikten sonra planlı olarak yayına alınır.",
+      "q5": "Denetimden sonra başka bir firmayla devam edebilir miyiz?",
+      "a5": "Evet. Denetim raporu bağımsızdır ve size aittir; sonucuna göre istediğiniz ekiple devam edebilirsiniz."
+    }
+  },
+  "b2bPage": {
+    "meta": {
+      "title": "B2B Bayi Portalı Yaptırmak | Bayi Sipariş Sistemi ve ERP Entegrasyonu | Ozturksoft"
+    },
+    "hero": {
+      "badge": "B2B · Bayi siparişi · ERP entegrasyonu · Mobil",
+      "title": "B2B Bayi Portalı ve Bayi Sipariş Sistemi",
+      "desc": "Bayileriniz telefonla, WhatsApp'tan ya da Excel listesiyle sipariş vermek yerine kendi fiyatlarını, stokları ve cari bakiyelerini görerek 7/24 sipariş versin. Siparişler doğrudan Logo, Netsis veya Mikro'ya düşsün. Üretici ve toptancılar için projeye özel geliştirme. Ankara, ücretsiz keşif."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "Bayi sipariş sürecinizi konuşalım",
+      "desc": "Ücretsiz keşifte bayi sayınızı, fiyatlandırma kurallarınızı ve ERP'nizi inceleyip yaklaşık maliyeti çıkaralım. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "B2B portal teklifi al"
+    },
+    "footer": "© 2026 Ozturksoft — B2B Bayi Portalı ve Bayi Sipariş Sistemi, Ankara",
+    "stats": {
+      "s1": {
+        "v": "120.000 – 250.000+ TL",
+        "l": "B2B bayi portalı"
+      },
+      "s2": {
+        "v": "55.000 – 130.000 TL",
+        "l": "Çift yönlü ERP entegrasyonu"
+      },
+      "s3": {
+        "v": "7/24",
+        "l": "Bayi sipariş erişimi"
+      }
+    },
+    "related": {
+      "r1": "E-ticaret sitesi",
+      "r2": "Logo ve Netsis entegrasyonu",
+      "r3": "Mikro entegrasyonu"
+    },
+    "b1": {
+      "title": "Neden bayi portalı?",
+      "p1": "Bayi siparişlerinin telefon ve mesajla alındığı firmalarda aynı sorunlar tekrar eder: yanlış fiyattan sipariş, stokta olmayan ürün, \"bakiyem ne kadar?\" soruları ve satış ekibinin gününün sipariş girişiyle geçmesi.",
+      "p2": "B2B portal bu işi bayinin kendisine bırakır: her bayi yalnızca kendi fiyatını, iskontosunu ve cari durumunu görür, siparişini verir; sipariş ERP'ye otomatik işlenir. Satış ekibiniz sipariş yazmak yerine satışa odaklanır."
+    },
+    "b2": {
+      "title": "Portalda neler var?",
+      "c1": {
+        "t": "Bayiye özel fiyat ve iskonto",
+        "d": "Fiyat listeleri, bayi grubu iskontoları, kampanya ve miktar indirimleri ERP'deki kurallarla aynı."
+      },
+      "c2": {
+        "t": "Anlık stok ve teslim süresi",
+        "d": "Bayi siparişten önce stok durumunu ve tahmini sevk tarihini görür."
+      },
+      "c3": {
+        "t": "Cari bakiye ve risk limiti",
+        "d": "Bakiye, ekstre, vadesi gelen ödemeler ve risk limiti kontrolü."
+      },
+      "c4": {
+        "t": "Hızlı sipariş",
+        "d": "Ürün kodu veya barkodla arama, Excel'den toplu sipariş yükleme, önceki siparişi tekrarlama."
+      },
+      "c5": {
+        "t": "Sipariş, sevkiyat ve fatura takibi",
+        "d": "Siparişin onay, sevkiyat ve fatura durumu tek ekranda."
+      },
+      "c6": {
+        "t": "Duyuru ve ürün dokümanları",
+        "d": "Kampanya duyuruları, fiyat listesi değişiklikleri, teknik dokümanlar ve kataloglar."
+      }
+    },
+    "b3": {
+      "title": "ERP entegrasyonu: hangi veri nereye akar?",
+      "intro": "Portal ve ERP aynı veriyi kullanır; hiçbir bilgi iki kez girilmez. Ayrıntı: <a href=\"/logo-netsis-entegrasyon\">Logo ve Netsis entegrasyonu</a> · <a href=\"/mikro-entegrasyon\">Mikro entegrasyonu</a>.",
+      "h1": "Veri",
+      "h2": "Yön",
+      "r1": {
+        "a": "Ürün, stok ve fiyat listeleri",
+        "b": "ERP → portal"
+      },
+      "r2": {
+        "a": "Bayi carisi, bakiye ve risk limiti",
+        "b": "ERP → portal"
+      },
+      "r3": {
+        "a": "Sipariş",
+        "b": "Portal → ERP (otomatik sipariş fişi)"
+      },
+      "r4": {
+        "a": "Sevkiyat ve fatura durumu",
+        "b": "ERP → portal"
+      }
+    },
+    "b4": {
+      "title": "Proje nasıl ilerler?",
+      "s1": {
+        "t": "Keşif",
+        "d": "Fiyatlandırma kuralları, bayi sayısı, ERP yapısı ve sipariş akışınız incelenir."
+      },
+      "s2": {
+        "t": "Yazılı kapsam ve teklif",
+        "d": "Ekranlar, entegrasyon noktaları, takvim ve sabit fiyat yazılı olarak sunulur."
+      },
+      "s3": {
+        "t": "Geliştirme ve ERP bağlantısı",
+        "d": "Portal ve entegrasyon test ortamında geliştirilir; ERP verileriniz canlıya geçmeden doğrulanır."
+      },
+      "s4": {
+        "t": "Pilot bayilerle deneme",
+        "d": "Seçeceğiniz birkaç bayi portalı gerçek siparişlerle kullanır; geri bildirime göre düzenlenir."
+      },
+      "s5": {
+        "t": "Yayın ve destek",
+        "d": "Tüm bayilere açılır, kullanım eğitimi verilir; 30–90 gün ücretsiz hata düzeltme."
+      }
+    },
+    "b5": {
+      "title": "Fiyat (2026)",
+      "intro": "Fiyat bayi sayısına, fiyatlandırma kurallarının karmaşıklığına ve ERP'ye göre değişir. Keşif ücretsizdir, teklif yazılıdır.",
+      "p1": {
+        "n": "B2B bayi portalı",
+        "a": "120.000 – 250.000+ TL",
+        "t": "Kapsama göre",
+        "d": "Bayiye özel fiyat, stok, cari ve sipariş; yönetim paneli."
+      },
+      "p2": {
+        "n": "ERP entegrasyonu",
+        "a": "55.000 – 130.000 TL",
+        "t": "Çift yönlü",
+        "d": "Logo, Netsis veya Mikro ile stok, fiyat, cari ve sipariş senkronu."
+      },
+      "p3": {
+        "n": "Bayi mobil uygulaması",
+        "a": "80.000 – 350.000 TL",
+        "t": "İsteğe bağlı",
+        "d": "Sahadaki satış temsilcileri ve bayiler için iOS ve Android uygulama."
+      }
+    },
+    "b6": {
+      "title": "Sık sorulan sorular",
+      "q1": "B2C e-ticaret sitesinden farkı ne?",
+      "a1": "B2C sitede herkes aynı fiyatı görür ve kartla öder. B2B portalda her bayi kendi fiyatını, iskontosunu ve cari durumunu görür; ödeme çoğunlukla cari hesaptan ve vadeli yapılır.",
+      "q2": "Hazır B2B paketleri yerine neden özel geliştirme?",
+      "a2": "Fiyatlandırma kurallarınız basitse ve ERP'niz hazır paketle uyumluysa hazır paket yeterli olabilir; bunu keşifte açıkça söyleriz. Karmaşık iskonto yapıları, özel onay akışları veya farklı bir ERP varsa özel geliştirme daha sorunsuz çalışır.",
+      "q3": "Hangi ERP'lerle çalışır?",
+      "a3": "Logo, Netsis ve Mikro başta olmak üzere API'si olan ERP'lerle. Diğer sistemler için keşifte entegrasyon yolu değerlendirilir.",
+      "q4": "Bayiler telefondan kullanabilir mi?",
+      "a4": "Evet. Portal mobil uyumludur; sahada barkod okuma gibi ihtiyaçlar varsa ayrıca mobil uygulama eklenebilir.",
+      "q5": "Mevcut e-ticaret sitemizle birlikte çalışır mı?",
+      "a5": "Evet. B2B portal ve B2C site aynı ürün, stok ve ERP altyapısını kullanabilir. Ayrıntı: <a href=\"/e-ticaret-sitesi-yaptirmak\">e-ticaret sitesi yaptırmak</a>."
+    }
+  },
+  "tenderPage": {
+    "meta": {
+      "title": "İhale Şartnamesi Analizi ve Teklif Hazırlamada Yapay Zeka | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Yapay zeka · İhale · Teklif dokümanı · Kurum içi",
+      "title": "İhale Şartnamesi Analizi ve Teklif Hazırlamada Yapay Zeka",
+      "desc": "Yüzlerce sayfalık teknik ve idari şartnameleri yapay zeka ile tarayın: yeterlilik şartları, istenen belgeler, kritik tarihler, cezai maddeler ve teknik gereksinimler dakikalar içinde listelensin; geçmiş tekliflerinizden yararlanan bir taslak hazırlansın. Veriler kurum içinde kalabilir. Projeye özel geliştirme, pilotla başlar."
+    },
+    "cta": {
+      "btn": "Ücretsiz keşif görüşmesi",
+      "title": "Son ihale dosyanızla pilot yapalım",
+      "desc": "Tamamlanmış bir ihalenizin dosyasıyla sistemin neleri yakaladığını, ekibinizin listesiyle karşılaştırarak gösterelim. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Pilot teklifi al"
+    },
+    "footer": "© 2026 Ozturksoft — İhale Şartnamesi Analizi ve Teklif Hazırlamada Yapay Zeka, Ankara",
+    "stats": {
+      "s1": {
+        "v": "40.000 – 80.000 TL",
+        "l": "Pilot (PoC)"
+      },
+      "s2": {
+        "v": "80.000 – 200.000 TL",
+        "l": "Doküman asistanı (RAG)"
+      },
+      "s3": {
+        "v": "150.000 – 500.000+ TL",
+        "l": "Kurum içi kurulum"
+      }
+    },
+    "related": {
+      "r1": "Şirketinize özel ChatGPT",
+      "r2": "OCR ve belge okuma",
+      "r3": "Ankara yapay zeka firması"
+    },
+    "b1": {
+      "title": "Kimin işine yarar?",
+      "p1": "Kamu ve savunma ihalelerine düzenli teklif veren yükleniciler; inşaat, sağlık, bilişim ve hizmet tedarikçileri. Teklif ekipleri şartname okumaya günler harcar ve tek bir maddenin gözden kaçması ihaleden elenmeye ya da sözleşme sonrası cezai yaptırıma yol açabilir.",
+      "p2": "Yapay zeka bu okuma ve listeleme yükünü üstlenir; ekibiniz zamanını teklifin içeriğine ayırır."
+    },
+    "b2": {
+      "title": "Sistem ne yapar?",
+      "c1": {
+        "t": "Yeterlilik ve belge kontrol listesi",
+        "d": "İstenen belgeler, yeterlilik şartları ve iş deneyimi kriterleri madde numarasıyla listelenir."
+      },
+      "c2": {
+        "t": "Kritik tarih ve süreler",
+        "d": "Son teklif tarihi, açıklama talebi süresi, teslim ve garanti süreleri."
+      },
+      "c3": {
+        "t": "Cezai ve riskli maddeler",
+        "d": "Gecikme cezaları, teminat oranları ve sizin için risk taşıyan şartlar işaretlenir."
+      },
+      "c4": {
+        "t": "Teknik uyum tablosu",
+        "d": "Her teknik madde, ürününüzün uyduğu ve sapma gösterdiği noktalarla tabloya dökülür."
+      },
+      "c5": {
+        "t": "Açıklama talebi taslakları",
+        "d": "Belirsiz veya çelişkili maddeler için idareye sorulacak soruların taslağı."
+      },
+      "c6": {
+        "t": "Geçmiş tekliflerden taslak",
+        "d": "Benzer ihalelerde verdiğiniz cevaplardan yararlanan teknik teklif taslağı."
+      }
+    },
+    "b3": {
+      "title": "Yapay zeka teklif ekibinin yerine geçmez",
+      "p1": "Sistem her çıktıyı ilgili şartname maddesine bağlayarak gösterir; ekibiniz kaynağa tıklayıp kontrol eder. Son karar, fiyatlandırma ve imza her zaman uzman ekipte kalır. Yapay zekanın hata payı olduğu için insan kontrolü olmadan teklif verilmemelidir.",
+      "p2": "Teklif ve fiyat bilgileri ticari sırdır. Sistem kendi sunucunuzda çalışacak şekilde kurulabilir; belgeler kurum dışına çıkmaz. Ayrıntı: <a href=\"/kurum-ici-yapay-zeka\">şirketinize özel ChatGPT</a>."
+    },
+    "b4": {
+      "title": "Nasıl başlanır?",
+      "s1": {
+        "t": "Örnek dosyaların incelenmesi",
+        "d": "Tamamlanmış birkaç ihalenizin şartname ve teklif dosyaları incelenir; hangi çıktıların işinize yarayacağı belirlenir."
+      },
+      "s2": {
+        "t": "Pilot",
+        "d": "Geçmiş 3–5 ihale dosyasıyla sistem kurulur; çıkardığı listeler ekibinizin hazırladığı listelerle karşılaştırılıp raporlanır."
+      },
+      "s3": {
+        "t": "Kurulum",
+        "d": "Sonuç yeterliyse sistem bulutta veya kendi sunucunuzda kurulur; taranmış şartnameler için <a href=\"/ocr-belge-okuma\">OCR</a> eklenir."
+      },
+      "s4": {
+        "t": "Teklif arşivinin bağlanması",
+        "d": "Geçmiş teklifleriniz ve teknik dokümanlarınız aranabilir bilgi tabanına aktarılır."
+      },
+      "s5": {
+        "t": "Eğitim ve destek",
+        "d": "Teklif ekibine kullanım eğitimi; 30–90 gün ücretsiz hata düzeltme."
+      }
+    },
+    "b5": {
+      "title": "Fiyat (2026)",
+      "intro": "Fiyat ihale hacmine, belge türlerine ve kurulum yerine göre değişir. Keşif ücretsizdir, teklif yazılıdır.",
+      "p1": {
+        "n": "Pilot (PoC)",
+        "a": "40.000 – 80.000 TL",
+        "t": "Geçmiş ihalelerle ölçüm",
+        "d": "Sonuçları görmeden büyük yatırım yapmazsınız."
+      },
+      "p2": {
+        "n": "İhale doküman asistanı",
+        "a": "80.000 – 200.000 TL",
+        "t": "Bulut veya kurum içi",
+        "d": "Şartname analizi, kontrol listeleri ve teklif arşivinde arama."
+      },
+      "p3": {
+        "n": "Kurum içi tam kurulum",
+        "a": "150.000 – 500.000+ TL",
+        "t": "On-premise model ve sunucu",
+        "d": "Verinin kurum dışına çıkmadığı kurulum; donanım ayrıca."
+      }
+    },
+    "b6": {
+      "title": "Sık sorulan sorular",
+      "q1": "Kamu ihale mevzuatına uygun mu?",
+      "a1": "Sistem ihale sürecine katılmaz, yalnızca dokümanları analiz eder. Başvuru ve teklif süreci mevcut mevzuata uygun şekilde, EKAP üzerinden ekibiniz tarafından yürütülür.",
+      "q2": "Taranmış PDF şartnameleri okuyabilir mi?",
+      "a2": "Evet. Taranmış belgeler önce OCR ile metne çevrilir; kalitesi düşük taramalarda emin olunamayan bölümler işaretlenir.",
+      "q3": "Fiyat teklifini de hazırlar mı?",
+      "a3": "Hayır. Fiyatlandırma sizin kararınızdır; sistem teknik ve idari dokümanlara odaklanır.",
+      "q4": "Verilerimiz dışarı çıkar mı?",
+      "a4": "Kurum içi kurulumda hayır. Bulut tercih edilirse verinin nerede işlendiği yazılı olarak belirlenir.",
+      "q5": "Ne kadar doğru çalışır?",
+      "a5": "Doğruluk belge türüne ve kalitesine göre değişir; bu yüzden pilotta sizin geçmiş ihalelerinizle ölçülür ve raporlanır. Her çıktı kaynak maddesiyle gösterildiği için ekibiniz kolayca kontrol eder."
+    }
+  },
+  "academicPage": {
+    "meta": {
+      "title": "Tez ve Akademik Araştırma Projeleri İçin Yazılım Geliştirme | BAP ve TÜBİTAK | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Doktora · Yüksek lisans · BAP · TÜBİTAK",
+      "title": "Akademik Araştırma Projeleri İçin Yazılım Geliştirme",
+      "desc": "Tezinizin veya araştırma projenizin ihtiyaç duyduğu yazılımı geliştiriyoruz: veri toplama uygulaması, deney platformu, mobil uygulama, anket sistemi, veri işleme ve görselleştirme araçları. Teklif ve faturayı üniversitenizin BAP veya proje satın alma sürecine uygun hazırlıyoruz. Bilimsel katkı ve tez metni size aittir."
+    },
+    "cta": {
+      "btn": "Ücretsiz ön görüşme",
+      "title": "Araştırmanız için hangi yazılım gerekiyor?",
+      "desc": "Ücretsiz ön görüşmede araştırma tasarımınızı dinleyip yazılım kapsamını ve satın alma sürecini birlikte planlayalım. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Teklif iste"
+    },
+    "footer": "© 2026 Ozturksoft — Akademik Araştırma Projeleri İçin Yazılım Geliştirme, Ankara",
+    "stats": {
+      "s1": {
+        "v": "BAP · TÜBİTAK",
+        "l": "Proje bütçesine uygun teklif"
+      },
+      "s2": {
+        "v": "e-Fatura",
+        "l": "Üniversiteye kurumsal fatura"
+      },
+      "s3": {
+        "v": "Kaynak kod",
+        "l": "Projeye teslim ve belgelendirme"
+      }
+    },
+    "related": {
+      "r1": "Mobil uygulama",
+      "r2": "Özel yazılım",
+      "r3": "KOSGEB ve TÜBİTAK destekli projeler"
+    },
+    "b1": {
+      "title": "Önce sınırı netleştirelim",
+      "p1": "<strong>Tez yazmıyoruz, analiz yapmıyoruz, sonuç üretmiyoruz.</strong> Araştırmanızın bilimsel katkısı, hipotezleri, yöntemi, analizleri ve tez metni size aittir. Biz, sizin tasarladığınız araştırma için gereken <strong>yazılım aracını</strong> geliştiriyoruz; tıpkı bir laboratuvarın cihaz satın alması gibi.",
+      "p2": "Yazılımın kendisi tezinizin özgün katkısıysa (örneğin tezin konusu yeni bir algoritma geliştirmekse), o bölümü dışarıya yaptırmak uygun değildir; bunu ön görüşmede birlikte değerlendirir, gerekiyorsa işi kabul etmeyiz. Dışarıdan alınan teknik desteğin tezde nasıl belirtileceği konusunda enstitünüzün kurallarını ve danışmanınızın görüşünü esas alın."
+    },
+    "b2": {
+      "title": "Hangi yazılımları geliştiriyoruz?",
+      "c1": {
+        "t": "Veri toplama uygulamaları",
+        "d": "Saha çalışması, gözlem ve ölçüm için mobil veya web uygulaması; çevrimdışı çalışma ve güvenli veri aktarımı."
+      },
+      "c2": {
+        "t": "Deney platformları",
+        "d": "Katılımcıların görev yaptığı web veya mobil deney ekranları; süre, tepki ve etkileşim kaydı."
+      },
+      "c3": {
+        "t": "Anket ve ölçek sistemleri",
+        "d": "Hazır anket araçlarının yetmediği durumlar için koşullu sorular, randomizasyon ve özel ölçekler."
+      },
+      "c4": {
+        "t": "Veri işleme altyapısı",
+        "d": "Ham verinin temizlenmesi, saklanması ve sizin yöntem tasarımınıza göre dışa aktarılması."
+      },
+      "c5": {
+        "t": "Görselleştirme ve panel",
+        "d": "Toplanan verinin araştırma ekibi için izlenebildiği yönetim paneli."
+      },
+      "c6": {
+        "t": "Cihaz ve sensör bağlantısı",
+        "d": "Ölçüm cihazlarından veya sensörlerden veri alan arayüzler (donanıma göre değerlendirilir)."
+      }
+    },
+    "b3": {
+      "title": "Ödeme nasıl yapılır?",
+      "intro": "Destek türüne göre değişir. Kurallar üniversiteden üniversiteye farklıdır; aşağıdakiler genel yoldur ve kendi kurumunuzun güncel esaslarını kontrol etmeniz gerekir.",
+      "h1": "Destek türü",
+      "h2": "Genel işleyiş",
+      "r1": {
+        "a": "Üniversite BAP projesi",
+        "b": "Yazılım veya hizmet alımı üniversite tarafından yapılır; bizden fiyat teklifi istenir, fatura üniversiteye kesilir. Para öğrenciye verilmez."
+      },
+      "r2": {
+        "a": "TÜBİTAK veya kurum destekli araştırma projesi",
+        "b": "Proje bütçesindeki hizmet alımı kalemi, projenin yürütüldüğü kurumun satın alma kurallarıyla kullanılır."
+      },
+      "r3": {
+        "a": "Kişisel burs veya kendi bütçe",
+        "b": "Sözleşme ve fatura araştırmacıya kişisel olarak yapılır."
+      }
+    },
+    "b4": {
+      "title": "Süreç",
+      "s1": {
+        "t": "Ön görüşme",
+        "d": "Araştırma tasarımınızı ve yazılımdan beklentinizi dinleriz; etik sınırı ve kapsamı birlikte netleştiririz."
+      },
+      "s2": {
+        "t": "Teknik şartname ve teklif",
+        "d": "Satın alma birimine sunulabilecek, teknik özellikleri ve teslim kalemlerini içeren yazılı teklif ve gerekirse proforma hazırlanır."
+      },
+      "s3": {
+        "t": "Danışman onayı",
+        "d": "Kapsamın danışmanınız tarafından uygun görülmesini öneririz; etik kurul izni gerektiren çalışmalarda yazılım bu izne uygun tasarlanır."
+      },
+      "s4": {
+        "t": "Geliştirme ve pilot",
+        "d": "Yazılım geliştirilir, küçük bir pilot uygulamayla denenir; veri formatı analiz planınıza göre ayarlanır."
+      },
+      "s5": {
+        "t": "Teslim ve belgelendirme",
+        "d": "Kaynak kod, kurulum ve kullanım belgesi teslim edilir; fatura ve teslim tutanağı satın alma sürecine uygun düzenlenir."
+      }
+    },
+    "b5": {
+      "title": "Fiyat",
+      "intro": "Akademik projelerin bütçesi ve kapsamı çok farklıdır; bu yüzden sabit paket vermiyoruz. Teklifi proje bütçenize göre aşamalı hazırlıyoruz: önce araştırmanın vazgeçilmez çekirdeği, bütçe kalırsa ek özellikler.",
+      "p1": {
+        "n": "Küçük araştırma aracı",
+        "a": "Kapsama göre",
+        "t": "Tek ekranlı deney, özel anket",
+        "d": "Tek bir veri toplama veya deney ihtiyacı için web uygulaması."
+      },
+      "p2": {
+        "n": "Veri toplama uygulaması",
+        "a": "Kapsama göre",
+        "t": "Mobil veya web",
+        "d": "Saha çalışması, çevrimdışı kayıt ve yönetim paneli."
+      },
+      "p3": {
+        "n": "Kapsamlı araştırma platformu",
+        "a": "Kapsama göre",
+        "t": "Çok aşamalı projeler",
+        "d": "Birden fazla modül, cihaz bağlantısı veya veri işleme altyapısı."
+      }
+    },
+    "b6": {
+      "title": "Sık sorulan sorular",
+      "q1": "Tezimi yazıyor musunuz?",
+      "a1": "Hayır. Tez metni, analiz, yorum ve bilimsel katkı araştırmacıya aittir. Biz yalnızca araştırmanın ihtiyaç duyduğu yazılım aracını geliştiriyoruz.",
+      "q2": "BAP projesiyle nasıl çalışıyorsunuz?",
+      "a2": "Satın alma biriminizin istediği formatta fiyat teklifi ve teknik açıklama hazırlıyoruz; alım üniversite tarafından yapılır ve fatura üniversiteye kesilir. Eşik tutarlar ve belge listesi üniversiteye göre değiştiği için kurumunuzun BAP esaslarını birlikte kontrol ediyoruz.",
+      "q3": "Kaynak kod kime ait olur?",
+      "a3": "Sözleşmede belirlenir. Genelde kaynak kod ve kullanım hakları projeye (üniversite veya araştırmacı) devredilir; kurumunuzun fikri mülkiyet kuralları esas alınır.",
+      "q4": "Katılımcı verileri nasıl korunuyor?",
+      "a4": "Veriler sizin belirlediğiniz sunucuda tutulur; kimlik bilgileri gerekiyorsa ayrı saklanır veya anonimleştirilir. Etik kurul izninizdeki koşullara göre tasarlanır.",
+      "q5": "Danışmanım da görüşmeye katılabilir mi?",
+      "a5": "Evet, öneririz. Kapsamın baştan danışmanınızla birlikte netleşmesi hem süreci hem tez savunmasını kolaylaştırır."
+    }
   }
 }

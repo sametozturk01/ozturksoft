@@ -421,6 +421,17 @@
       "link": "ERP-Integrationsleitfaden →",
       "linkLogo": "Logo / Netsis Angebot →",
       "linkMikro": "Mikro-Anbindung →"
+    },
+    "extra": {
+      "awsAzure": "AWS-/Azure-Verwaltung"
+    },
+    "tags": {
+      "t1": "#KognitiveAutomatisierung",
+      "t2": "#DataMining",
+      "t3": "#IndustrielleSicherheit",
+      "t4": "#KritischeInfrastruktur",
+      "t5": "#Hochverfügbarkeit",
+      "t6": "#GlobaleArchitektur"
     }
   },
   "contactPage": {
@@ -551,7 +562,8 @@
       "r4": {
         "title": "Notfall-Support",
         "desc": "7/24 ununterbrochener Service"
-      }
+      },
+      "subtitle": "Unsere Kontaktkanäle und garantierten Antwortzeiten"
     },
     "faq": {
       "title1": "Häufig gestellte",
@@ -571,7 +583,9 @@
       "q4": {
         "title": "Arbeiten Sie remote?",
         "desc": "Ja! Wir nehmen Projekte aus ganz Deutschland, Österreich, der Schweiz und der Türkei an. Wir sind ständig über Online-Meetings in Kontakt."
-      }
+      },
+      "badge": "FAQ",
+      "subtitle": "Antworten auf Ihre Fragen"
     },
     "modal": {
       "title": "Datenschutzrichtlinie",
@@ -616,7 +630,8 @@
       "privateAi": "Firmeneigenes ChatGPT",
       "takeover": "Übernahme von Softwareprojekten",
       "b2b": "B2B-Händlerportal",
-      "tender": "KI-Ausschreibungsanalyse"
+      "tender": "KI-Ausschreibungsanalyse",
+      "softwareCompany": "Softwareunternehmen in Ankara"
     }
   },
   "aiFirmPage": {
@@ -2180,7 +2195,7 @@
   "waChatbotPage": {
     "hero": {
       "badge": "Business API · GPT · CRM · +90 546 549 6806",
-      "title": "WhatsApp Chatbot Yaptırmak",
+      "title": "WhatsApp-Chatbot-Entwicklung",
       "desc": "WhatsApp-Chatbot erstellen lassen: 7/24 Bestellung, Preis und FAQ. Offizielle Business API, GPT/RAG, CRM. Çankaya — schriftliches Angebot, kostenloser Kickoff. Website-Widget separat: <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">Chatbot erstellen lassen</a>. Leitfaden: <a href=\"/blog/whatsapp-chatbot-isletme-rehberi-2026\" style=\"color:#25d366\">WhatsApp-Leitfaden</a>."
     },
     "pricing": {
@@ -3378,5 +3393,580 @@
       "pub": "KI für Behörden"
     },
     "footer": "© 2026 Ozturksoft — Firmeneigenes ChatGPT, Ankara"
+  },
+  "onlyLang": {
+    "text": "Diese Seite ist derzeit nur auf Türkisch verfügbar.",
+    "link": "Zur deutschen Startseite →"
+  },
+  "takeoverPage": {
+    "meta": {
+      "title": "Übernahme unfertiger Softwareprojekte | Code-Audit und Fertigstellung | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Code-Audit · Übernahme · Fertigstellung · Wartung",
+      "title": "Wir übernehmen Ihr unfertiges Softwareprojekt",
+      "desc": "Hat Ihr Entwickler das Projekt aufgegeben, ist die Agentur nicht erreichbar oder funktioniert das gelieferte System nicht? Wir prüfen zuerst Code und Infrastruktur unabhängig und berichten den Zustand schriftlich; dann stellen wir das Projekt fertig oder übernehmen die Wartung. Ankara, kostenloses Erstgespräch."
+    },
+    "cta": {
+      "btn": "Kostenloses Erstgespräch",
+      "title": "Erfahren Sie den tatsächlichen Stand Ihres Projekts",
+      "desc": "Im kostenlosen Erstgespräch hören wir uns Ihre Situation an und legen den Audit-Umfang gemeinsam fest. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Audit-Angebot anfordern"
+    },
+    "footer": "© 2026 Ozturksoft — Wir übernehmen Ihr unfertiges Softwareprojekt, Ankara",
+    "stats": {
+      "s1": {
+        "v": "15.000 – 40.000 TL",
+        "l": "Code- und Übernahme-Audit"
+      },
+      "s2": {
+        "v": "80.000 – 200.000 TL",
+        "l": "Fertigstellung eines KMU-Projekts"
+      },
+      "s3": {
+        "v": "1–2 Wochen",
+        "l": "Dauer des Audit-Berichts"
+      }
+    },
+    "related": {
+      "r1": "QA-Testservice",
+      "r2": "Individualsoftware",
+      "r3": "Softwareunternehmen in Ankara"
+    },
+    "b1": {
+      "title": "Kommt Ihnen das bekannt vor?",
+      "c1": {
+        "t": "Entwickler oder Agentur ist verschwunden",
+        "d": "Anrufe bleiben unbeantwortet, das Projekt steht halb fertig und Sie wissen nicht, was Sie eigentlich haben."
+      },
+      "c2": {
+        "t": "Zeit und Budget längst überschritten",
+        "d": "Jeden Monat heißt es „fast fertig“, aber der Liefertermin verschiebt sich ständig."
+      },
+      "c3": {
+        "t": "Quellcode oder Server liegen nicht bei Ihnen",
+        "d": "Code-Repository, Server oder Domain liegen im Konto des früheren Dienstleisters."
+      },
+      "c4": {
+        "t": "Jede Änderung erzeugt neue Fehler",
+        "d": "Das System läuft, aber eine kleine Korrektur beschädigt etwas anderes."
+      },
+      "c5": {
+        "t": "Keine Dokumentation, niemand kennt den Code",
+        "d": "Der Entwickler ist weg, und nichts erklärt, wie das System funktioniert."
+      },
+      "c6": {
+        "t": "Ein aus Flicken gewachsenes System",
+        "d": "Auf einem fertigen Theme oder Template aufgebaut und so lange geflickt, bis es unbeherrschbar wurde."
+      }
+    },
+    "b2": {
+      "title": "So läuft die Übernahme",
+      "s1": {
+        "t": "Zugänge sammeln",
+        "d": "Code-Repository, Server, Domain, Datenbank und Drittanbieter-Konten werden erfasst. Fehlen Ihnen Zugänge, planen wir gemeinsam, wie Sie sie zurückerhalten."
+      },
+      "s2": {
+        "t": "Unabhängiges Audit",
+        "d": "Codequalität, Sicherheitslücken, fehlende Funktionen, Tests und Infrastruktur werden geprüft. Ergebnis ist ein schriftlicher Bericht: fertigstellen oder neu schreiben?"
+      },
+      "s3": {
+        "t": "Entscheidung und Angebot",
+        "d": "Auf Basis des Berichts werden die Optionen (fertigstellen, kritische Teile neu schreiben, nur Wartung) als schriftliches Festpreisangebot vorgelegt."
+      },
+      "s4": {
+        "t": "Sichere Übernahme",
+        "d": "Der Code kommt in ein Repository in Ihrem eigenen Konto, eine Testumgebung wird eingerichtet und automatisierte Tests werden ergänzt. Das Live-System läuft weiter."
+      },
+      "s5": {
+        "t": "Fertigstellung und Wartung",
+        "d": "Lücken werden geschlossen und dokumentiert; optional folgt ein monatlicher Wartungs- und Supportvertrag."
+      }
+    },
+    "b3": {
+      "title": "Fertigstellen oder neu schreiben?",
+      "intro": "Diese Entscheidung treffen wir nicht vor dem Audit. „Alles neu schreiben“ ist die einfachste und meist die teuerste Antwort.",
+      "h1": "Situation",
+      "h2": "Meist die richtige Entscheidung",
+      "r1": {
+        "a": "Code ist sauber, Lücken sind klar",
+        "b": "Dort weitermachen, wo aufgehört wurde"
+      },
+      "r2": {
+        "a": "Code läuft, ist aber unordentlich und ungetestet",
+        "b": "Tests ergänzen und schrittweise verbessern"
+      },
+      "r3": {
+        "a": "Gravierende Sicherheitslücke oder fehlerhafte Grundarchitektur",
+        "b": "Kritische Teile neu schreiben"
+      },
+      "r4": {
+        "a": "Die Technologie wird nicht mehr unterstützt",
+        "b": "Geplante Migration auf eine aktuelle Version"
+      }
+    },
+    "b4": {
+      "title": "Preis (2026)",
+      "intro": "Der endgültige Preis steht nach dem Audit-Bericht im schriftlichen Angebot. Das Erstgespräch ist kostenlos.",
+      "p1": {
+        "n": "Code- und Übernahme-Audit",
+        "a": "15.000 – 40.000 TL",
+        "t": "1–2 Wochen",
+        "d": "Schriftlicher Bericht: aktueller Zustand, Risiken, Optionen zur Fertigstellung und geschätzte Kosten."
+      },
+      "p2": {
+        "n": "Fertigstellung des Projekts",
+        "a": "80.000 – 200.000 TL",
+        "t": "KMU-Projekte",
+        "d": "Schließen der im Bericht genannten Lücken; Unternehmensprojekte 200.000–500.000+ TL."
+      },
+      "p3": {
+        "n": "Wartung und Support",
+        "a": "Feste Monatspauschale",
+        "t": "Angebot nach Erstgespräch",
+        "d": "Fehlerbehebung, Sicherheitsupdates, kleine Weiterentwicklungen und Serverüberwachung."
+      }
+    },
+    "b5": {
+      "title": "Welche Technologien?",
+      "p1": "Wir übernehmen Webprojekte in React, TypeScript, Laravel/PHP und Python sowie mobile Projekte in Flutter und React Native. Bei anderen Technologien geben wir im Erstgespräch eine ehrliche Einschätzung; passen wir nicht, sagen wir das von Anfang an.",
+      "p2": "Unser Test- und Qualitätsansatz im Audit entspricht unserem <a href=\"/qa-test-hizmeti\">QA-Testservice</a>."
+    },
+    "b6": {
+      "title": "Häufige Fragen",
+      "q1": "Wir haben den Quellcode nicht. Was können wir tun?",
+      "a1": "Wir prüfen gemeinsam Ihren Vertrag sowie Ihre Hosting- und Domain-Konten. Haben Sie Server- oder Repository-Zugang, kann der Code von dort übernommen werden. Liegt der Zugang vollständig beim früheren Dienstleister, sollten Sie rechtliche Schritte mit Ihrem Anwalt prüfen; wir berichten, was technisch möglich ist.",
+      "q2": "Was kostet das Audit und wie lange dauert es?",
+      "a2": "Je nach Projektgröße 15.000–40.000 TL; der Bericht liegt meist in 1–2 Wochen vor.",
+      "q3": "Muss alles neu geschrieben werden?",
+      "a3": "Meist nicht. Sauberer Code wird fertiggestellt; nur Teile mit gravierenden Sicherheits- oder Architekturproblemen werden neu geschrieben. Das entscheidet der Audit-Bericht.",
+      "q4": "Steht das Live-System während der Arbeit still?",
+      "a4": "Nein. Entwickelt wird in einer separaten Testumgebung; Änderungen gehen nach dem Test geplant live.",
+      "q5": "Können wir nach dem Audit mit einer anderen Firma weitermachen?",
+      "a5": "Ja. Der Audit-Bericht ist unabhängig und gehört Ihnen; Sie können mit jedem Team Ihrer Wahl weitermachen."
+    }
+  },
+  "b2bPage": {
+    "meta": {
+      "title": "B2B-Händlerportal entwickeln lassen | Händlerbestellsystem und ERP-Integration | Ozturksoft"
+    },
+    "hero": {
+      "badge": "B2B · Händlerbestellungen · ERP-Integration · Mobile",
+      "title": "B2B-Händlerportal und Händlerbestellsystem",
+      "desc": "Statt per Telefon, WhatsApp oder Excel-Liste zu bestellen, sehen Ihre Händler ihre eigenen Preise, Bestände und Kontostände und bestellen rund um die Uhr. Bestellungen landen direkt in Logo, Netsis oder Mikro. Individuelle Entwicklung für Hersteller und Großhändler. Ankara, kostenloses Erstgespräch."
+    },
+    "cta": {
+      "btn": "Kostenloses Erstgespräch",
+      "title": "Sprechen wir über Ihre Händlerbestellungen",
+      "desc": "Im kostenlosen Erstgespräch prüfen wir Händlerzahl, Preisregeln und ERP und schätzen die Kosten. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "B2B-Portal-Angebot anfordern"
+    },
+    "footer": "© 2026 Ozturksoft — B2B-Händlerportal und Händlerbestellsystem, Ankara",
+    "stats": {
+      "s1": {
+        "v": "120.000 – 250.000+ TL",
+        "l": "B2B-Händlerportal"
+      },
+      "s2": {
+        "v": "55.000 – 130.000 TL",
+        "l": "Bidirektionale ERP-Integration"
+      },
+      "s3": {
+        "v": "24/7",
+        "l": "Bestellzugang für Händler"
+      }
+    },
+    "related": {
+      "r1": "Onlineshop",
+      "r2": "Logo- und Netsis-Integration",
+      "r3": "Mikro-Integration"
+    },
+    "b1": {
+      "title": "Warum ein Händlerportal?",
+      "p1": "Firmen, die Händlerbestellungen per Telefon und Nachricht annehmen, haben immer dieselben Probleme: Bestellungen zum falschen Preis, Artikel ohne Bestand, Fragen nach dem Kontostand und ein Vertriebsteam, dessen Tag mit Bestelleingabe vergeht.",
+      "p2": "Das B2B-Portal überlässt dies dem Händler: Jeder Händler sieht nur seinen Preis, seinen Rabatt und seinen Kontostand und bestellt selbst; die Bestellung wird automatisch ins ERP übernommen. Ihr Vertrieb verkauft, statt Bestellungen abzutippen."
+    },
+    "b2": {
+      "title": "Was das Portal bietet",
+      "c1": {
+        "t": "Händlerspezifische Preise und Rabatte",
+        "d": "Preislisten, Gruppenrabatte, Aktionen und Mengenrabatte folgen denselben Regeln wie Ihr ERP."
+      },
+      "c2": {
+        "t": "Aktueller Bestand und Lieferzeit",
+        "d": "Der Händler sieht vor der Bestellung Bestand und voraussichtliches Versanddatum."
+      },
+      "c3": {
+        "t": "Kontostand und Kreditlimit",
+        "d": "Saldo, Kontoauszug, fällige Zahlungen und Prüfung des Kreditlimits."
+      },
+      "c4": {
+        "t": "Schnellbestellung",
+        "d": "Suche per Artikelnummer oder Barcode, Sammelbestellung per Excel, Wiederholung früherer Bestellungen."
+      },
+      "c5": {
+        "t": "Bestell-, Versand- und Rechnungsverfolgung",
+        "d": "Freigabe-, Versand- und Rechnungsstatus jeder Bestellung auf einem Bildschirm."
+      },
+      "c6": {
+        "t": "Mitteilungen und Produktunterlagen",
+        "d": "Aktionen, Preislistenänderungen, technische Dokumente und Kataloge."
+      }
+    },
+    "b3": {
+      "title": "ERP-Integration: Welche Daten fließen wohin?",
+      "intro": "Portal und ERP nutzen dieselben Daten; nichts wird doppelt erfasst. Details: <a href=\"/logo-netsis-entegrasyon\">Logo- und Netsis-Integration</a> · <a href=\"/mikro-entegrasyon\">Mikro-Integration</a>.",
+      "h1": "Daten",
+      "h2": "Richtung",
+      "r1": {
+        "a": "Artikel, Bestand und Preislisten",
+        "b": "ERP → Portal"
+      },
+      "r2": {
+        "a": "Händlerkonto, Saldo und Kreditlimit",
+        "b": "ERP → Portal"
+      },
+      "r3": {
+        "a": "Bestellungen",
+        "b": "Portal → ERP (automatischer Auftrag)"
+      },
+      "r4": {
+        "a": "Versand- und Rechnungsstatus",
+        "b": "ERP → Portal"
+      }
+    },
+    "b4": {
+      "title": "So läuft das Projekt",
+      "s1": {
+        "t": "Erstgespräch",
+        "d": "Preisregeln, Händlerzahl, ERP-Struktur und Bestellablauf werden analysiert."
+      },
+      "s2": {
+        "t": "Schriftlicher Umfang und Angebot",
+        "d": "Masken, Schnittstellen, Zeitplan und Festpreis werden schriftlich festgehalten."
+      },
+      "s3": {
+        "t": "Entwicklung und ERP-Anbindung",
+        "d": "Portal und Integration entstehen in einer Testumgebung; Ihre ERP-Daten werden vor dem Livegang geprüft."
+      },
+      "s4": {
+        "t": "Pilot mit ausgewählten Händlern",
+        "d": "Einige von Ihnen gewählte Händler nutzen das Portal mit echten Bestellungen; danach wird angepasst."
+      },
+      "s5": {
+        "t": "Livegang und Support",
+        "d": "Freischaltung für alle Händler mit Schulung; 30–90 Tage kostenlose Fehlerbehebung."
+      }
+    },
+    "b5": {
+      "title": "Preis (2026)",
+      "intro": "Der Preis hängt von Händlerzahl, Komplexität der Preisregeln und ERP ab. Das Erstgespräch ist kostenlos, das Angebot schriftlich.",
+      "p1": {
+        "n": "B2B-Händlerportal",
+        "a": "120.000 – 250.000+ TL",
+        "t": "Je nach Umfang",
+        "d": "Händlerspezifische Preise, Bestand, Konto und Bestellung; Verwaltungsoberfläche."
+      },
+      "p2": {
+        "n": "ERP-Integration",
+        "a": "55.000 – 130.000 TL",
+        "t": "Bidirektional",
+        "d": "Abgleich von Bestand, Preisen, Konten und Bestellungen mit Logo, Netsis oder Mikro."
+      },
+      "p3": {
+        "n": "Händler-App",
+        "a": "80.000 – 350.000 TL",
+        "t": "Optional",
+        "d": "iOS- und Android-App für Außendienst und Händler."
+      }
+    },
+    "b6": {
+      "title": "Häufige Fragen",
+      "q1": "Was unterscheidet es von einem B2C-Onlineshop?",
+      "a1": "Im B2C-Shop sieht jeder denselben Preis und zahlt per Karte. Im B2B-Portal sieht jeder Händler seinen Preis, Rabatt und Kontostand; bezahlt wird meist auf Rechnung mit Zahlungsziel.",
+      "q2": "Warum Individualentwicklung statt eines fertigen B2B-Pakets?",
+      "a2": "Sind Ihre Preisregeln einfach und passt Ihr ERP zu einem fertigen Paket, kann das genügen; das sagen wir im Erstgespräch offen. Bei komplexen Rabattstrukturen, besonderen Freigaben oder einem anderen ERP läuft eine Individuallösung reibungsloser.",
+      "q3": "Mit welchen ERP-Systemen funktioniert es?",
+      "a3": "Mit ERP-Systemen mit API, vor allem Logo, Netsis und Mikro. Für andere Systeme prüfen wir den Integrationsweg im Erstgespräch.",
+      "q4": "Können Händler es auf dem Smartphone nutzen?",
+      "a4": "Ja. Das Portal ist mobil nutzbar; bei Bedarf wie Barcode-Scan im Außendienst kann eine App ergänzt werden.",
+      "q5": "Funktioniert es mit unserem bestehenden Onlineshop?",
+      "a5": "Ja. B2B-Portal und B2C-Shop können dieselbe Artikel-, Bestands- und ERP-Basis nutzen. Details: <a href=\"/e-ticaret-sitesi-yaptirmak\">Onlineshop erstellen lassen</a>."
+    }
+  },
+  "tenderPage": {
+    "meta": {
+      "title": "KI für Ausschreibungsanalyse und Angebotserstellung | Ozturksoft"
+    },
+    "hero": {
+      "badge": "KI · Ausschreibungen · Angebotsunterlagen · On-Premise",
+      "title": "KI für Ausschreibungsanalyse und Angebotserstellung",
+      "desc": "Durchsuchen Sie technische und administrative Leistungsverzeichnisse mit Hunderten Seiten per KI: Eignungskriterien, geforderte Unterlagen, wichtige Fristen, Vertragsstrafen und technische Anforderungen in Minuten aufgelistet, dazu ein Entwurf auf Basis Ihrer früheren Angebote. Daten können im Haus bleiben. Individuelle Entwicklung, die mit einem Pilot beginnt."
+    },
+    "cta": {
+      "btn": "Kostenloses Erstgespräch",
+      "title": "Starten wir einen Pilot mit Ihrer letzten Ausschreibung",
+      "desc": "Anhand einer abgeschlossenen Ausschreibung zeigen wir, was das System im Vergleich zur Liste Ihres Teams findet. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Pilotangebot anfordern"
+    },
+    "footer": "© 2026 Ozturksoft — KI für Ausschreibungsanalyse und Angebotserstellung, Ankara",
+    "stats": {
+      "s1": {
+        "v": "40.000 – 80.000 TL",
+        "l": "Pilot (PoC)"
+      },
+      "s2": {
+        "v": "80.000 – 200.000 TL",
+        "l": "Dokumentenassistent (RAG)"
+      },
+      "s3": {
+        "v": "150.000 – 500.000+ TL",
+        "l": "On-Premise-Installation"
+      }
+    },
+    "related": {
+      "r1": "Firmeneigenes ChatGPT",
+      "r2": "OCR und Dokumentenerkennung",
+      "r3": "KI-Unternehmen in Ankara"
+    },
+    "b1": {
+      "title": "Für wen ist das?",
+      "p1": "Für Auftragnehmer, die regelmäßig an öffentlichen und Verteidigungsausschreibungen teilnehmen; für Bau-, Gesundheits-, IT- und Dienstleistungsanbieter. Angebotsteams lesen tagelang Leistungsverzeichnisse, und eine übersehene Klausel kann zum Ausschluss oder zu Vertragsstrafen führen.",
+      "p2": "Die KI übernimmt diese Lese- und Listenarbeit, damit sich Ihr Team auf den Inhalt des Angebots konzentrieren kann."
+    },
+    "b2": {
+      "title": "Was das System leistet",
+      "c1": {
+        "t": "Checkliste für Eignung und Unterlagen",
+        "d": "Geforderte Unterlagen, Eignungskriterien und Referenzanforderungen mit Klauselnummer."
+      },
+      "c2": {
+        "t": "Wichtige Termine und Fristen",
+        "d": "Angebotsfrist, Frist für Bieterfragen, Liefer- und Gewährleistungsfristen."
+      },
+      "c3": {
+        "t": "Strafklauseln und Risiken",
+        "d": "Verzugsstrafen, Sicherheitsleistungen und für Sie riskante Bedingungen werden markiert."
+      },
+      "c4": {
+        "t": "Technische Konformitätstabelle",
+        "d": "Jede technische Anforderung in einer Tabelle mit Erfüllung und Abweichungen Ihres Produkts."
+      },
+      "c5": {
+        "t": "Entwürfe für Bieterfragen",
+        "d": "Fragenentwürfe an die Vergabestelle zu unklaren oder widersprüchlichen Klauseln."
+      },
+      "c6": {
+        "t": "Entwürfe aus früheren Angeboten",
+        "d": "Ein technischer Angebotsentwurf, der Ihre Antworten aus ähnlichen Ausschreibungen nutzt."
+      }
+    },
+    "b3": {
+      "title": "KI ersetzt Ihr Angebotsteam nicht",
+      "p1": "Jedes Ergebnis ist mit der zugehörigen Klausel verknüpft; Ihr Team prüft per Klick die Quelle. Entscheidung, Preis und Unterschrift bleiben immer bei Ihren Fachleuten. Da KI Fehler machen kann, sollte kein Angebot ohne menschliche Prüfung abgegeben werden.",
+      "p2": "Angebots- und Preisinformationen sind Geschäftsgeheimnisse. Das System kann auf Ihrem eigenen Server laufen; Dokumente verlassen das Haus nicht. Details: <a href=\"/kurum-ici-yapay-zeka\">firmeneigenes ChatGPT</a>."
+    },
+    "b4": {
+      "title": "So starten Sie",
+      "s1": {
+        "t": "Prüfung von Beispielunterlagen",
+        "d": "Leistungsverzeichnisse und Angebote einiger abgeschlossener Ausschreibungen werden geprüft, um die nützlichsten Ergebnisse festzulegen."
+      },
+      "s2": {
+        "t": "Pilot",
+        "d": "Das System wird mit 3–5 früheren Ausschreibungen aufgebaut; seine Listen werden mit denen Ihres Teams verglichen und berichtet."
+      },
+      "s3": {
+        "t": "Installation",
+        "d": "Bei guten Ergebnissen wird das System in der Cloud oder auf Ihrem Server eingerichtet; für gescannte Unterlagen kommt <a href=\"/ocr-belge-okuma\">OCR</a> hinzu."
+      },
+      "s4": {
+        "t": "Anbindung des Angebotsarchivs",
+        "d": "Frühere Angebote und technische Unterlagen werden in eine durchsuchbare Wissensbasis übernommen."
+      },
+      "s5": {
+        "t": "Schulung und Support",
+        "d": "Schulung des Angebotsteams; 30–90 Tage kostenlose Fehlerbehebung."
+      }
+    },
+    "b5": {
+      "title": "Preis (2026)",
+      "intro": "Der Preis hängt von Ausschreibungsvolumen, Dokumenttypen und Installationsort ab. Das Erstgespräch ist kostenlos, das Angebot schriftlich.",
+      "p1": {
+        "n": "Pilot (PoC)",
+        "a": "40.000 – 80.000 TL",
+        "t": "Gemessen an früheren Ausschreibungen",
+        "d": "Sie sehen Ergebnisse vor einer größeren Investition."
+      },
+      "p2": {
+        "n": "Ausschreibungsassistent",
+        "a": "80.000 – 200.000 TL",
+        "t": "Cloud oder On-Premise",
+        "d": "Analyse von Leistungsverzeichnissen, Checklisten und Suche im Angebotsarchiv."
+      },
+      "p3": {
+        "n": "Vollständige On-Premise-Installation",
+        "a": "150.000 – 500.000+ TL",
+        "t": "On-Premise-Modell und Server",
+        "d": "Installation, bei der Daten das Haus nicht verlassen; Hardware separat."
+      }
+    },
+    "b6": {
+      "title": "Häufige Fragen",
+      "q1": "Ist das mit dem türkischen Vergaberecht vereinbar?",
+      "a1": "Das System nimmt nicht am Vergabeverfahren teil, sondern analysiert nur Dokumente. Bewerbung und Angebotsabgabe erfolgen durch Ihr Team über EKAP gemäß geltendem Recht.",
+      "q2": "Kann es gescannte PDF-Unterlagen lesen?",
+      "a2": "Ja. Gescannte Dokumente werden zunächst per OCR in Text umgewandelt; unsichere Stellen in schlechten Scans werden markiert.",
+      "q3": "Erstellt es auch das Preisangebot?",
+      "a3": "Nein. Die Preisgestaltung ist Ihre Entscheidung; das System konzentriert sich auf technische und administrative Unterlagen.",
+      "q4": "Verlassen unsere Daten das Unternehmen?",
+      "a4": "Bei einer On-Premise-Installation nicht. Bei Cloud-Nutzung wird schriftlich festgelegt, wo Daten verarbeitet werden.",
+      "q5": "Wie genau arbeitet es?",
+      "a5": "Die Genauigkeit hängt von Dokumenttyp und -qualität ab und wird daher im Pilot mit Ihren früheren Ausschreibungen gemessen und berichtet. Jedes Ergebnis wird mit seiner Quellklausel angezeigt, sodass Ihr Team es leicht prüfen kann."
+    }
+  },
+  "academicPage": {
+    "meta": {
+      "title": "Softwareentwicklung für Abschlussarbeiten und Forschungsprojekte | BAP und TÜBİTAK | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Promotion · Master · BAP · TÜBİTAK",
+      "title": "Softwareentwicklung für akademische Forschungsprojekte",
+      "desc": "Wir entwickeln die Software, die Ihre Dissertation oder Ihr Forschungsprojekt braucht: Datenerhebungs-Apps, Experimentplattformen, mobile Apps, Umfragesysteme, Datenverarbeitung und Visualisierung. Angebot und Rechnung erstellen wir passend zum BAP- oder Beschaffungsprozess Ihrer Universität. Der wissenschaftliche Beitrag und der Text der Arbeit bleiben Ihre."
+    },
+    "cta": {
+      "btn": "Kostenloses Erstgespräch",
+      "title": "Welche Software braucht Ihre Forschung?",
+      "desc": "Im kostenlosen Erstgespräch hören wir uns Ihr Forschungsdesign an und planen Softwareumfang und Beschaffung gemeinsam. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Angebot anfordern"
+    },
+    "footer": "© 2026 Ozturksoft — Softwareentwicklung für akademische Forschungsprojekte, Ankara",
+    "stats": {
+      "s1": {
+        "v": "BAP · TÜBİTAK",
+        "l": "Angebot passend zum Projektbudget"
+      },
+      "s2": {
+        "v": "E-Rechnung",
+        "l": "Rechnung an die Universität"
+      },
+      "s3": {
+        "v": "Quellcode",
+        "l": "Übergabe an das Projekt mit Dokumentation"
+      }
+    },
+    "related": {
+      "r1": "Mobile App",
+      "r2": "Individualsoftware",
+      "r3": "KOSGEB- und TÜBİTAK-geförderte Projekte (Türkisch)"
+    },
+    "b1": {
+      "title": "Zuerst die Grenze klar ziehen",
+      "p1": "<strong>Wir schreiben keine Abschlussarbeiten, führen keine Analysen durch und erzeugen keine Ergebnisse.</strong> Wissenschaftlicher Beitrag, Hypothesen, Methode, Analysen und Text Ihrer Arbeit gehören Ihnen. Wir entwickeln das <strong>Software-Werkzeug</strong> für die von Ihnen entworfene Forschung, so wie ein Labor ein Gerät anschafft.",
+      "p2": "Ist die Software selbst der eigenständige Beitrag Ihrer Arbeit (etwa die Entwicklung eines neuen Algorithmus), ist es nicht angemessen, diesen Teil auszulagern; das prüfen wir im Erstgespräch gemeinsam und lehnen den Auftrag gegebenenfalls ab. Wie externe technische Unterstützung in der Arbeit anzugeben ist, richtet sich nach den Regeln Ihres Instituts und Ihrer Betreuung."
+    },
+    "b2": {
+      "title": "Welche Software entwickeln wir?",
+      "c1": {
+        "t": "Datenerhebungs-Apps",
+        "d": "Mobile oder Web-Apps für Feldarbeit, Beobachtung und Messung, mit Offline-Modus und sicherer Datenübertragung."
+      },
+      "c2": {
+        "t": "Experimentplattformen",
+        "d": "Web- oder mobile Aufgabenbildschirme für Teilnehmende mit Erfassung von Zeit, Reaktionen und Interaktionen."
+      },
+      "c3": {
+        "t": "Umfrage- und Skalensysteme",
+        "d": "Bedingte Fragen, Randomisierung und eigene Skalen, wo Standardwerkzeuge nicht ausreichen."
+      },
+      "c4": {
+        "t": "Datenverarbeitungsinfrastruktur",
+        "d": "Bereinigung, Speicherung und Export der Rohdaten gemäß Ihrem Methodendesign."
+      },
+      "c5": {
+        "t": "Visualisierung und Dashboard",
+        "d": "Ein Verwaltungs-Dashboard, mit dem das Team die erhobenen Daten verfolgt."
+      },
+      "c6": {
+        "t": "Geräte- und Sensoranbindung",
+        "d": "Schnittstellen, die Daten von Messgeräten oder Sensoren empfangen (je nach Hardware)."
+      }
+    },
+    "b3": {
+      "title": "Wie wird bezahlt?",
+      "intro": "Das hängt von der Art der Förderung ab. Die Regeln unterscheiden sich je nach Universität; im Folgenden der allgemeine Weg – prüfen Sie die aktuellen Regeln Ihrer Einrichtung.",
+      "h1": "Art der Förderung",
+      "h2": "Allgemeiner Ablauf",
+      "r1": {
+        "a": "BAP-Projekt der Universität",
+        "b": "Software oder Dienstleistung kauft die Universität; wir werden um ein Angebot gebeten, die Rechnung geht an die Universität. Das Geld wird nicht an den Studierenden gezahlt."
+      },
+      "r2": {
+        "a": "TÜBİTAK- oder institutionell gefördertes Projekt",
+        "b": "Der Posten für Dienstleistungen im Projektbudget wird nach den Beschaffungsregeln der durchführenden Einrichtung genutzt."
+      },
+      "r3": {
+        "a": "Persönliches Stipendium oder eigenes Budget",
+        "b": "Vertrag und Rechnung laufen auf die forschende Person."
+      }
+    },
+    "b4": {
+      "title": "Ablauf",
+      "s1": {
+        "t": "Erstgespräch",
+        "d": "Wir besprechen Ihr Forschungsdesign und Ihre Erwartungen an die Software und klären gemeinsam ethische Grenze und Umfang."
+      },
+      "s2": {
+        "t": "Technische Spezifikation und Angebot",
+        "d": "Ein schriftliches Angebot, bei Bedarf eine Proforma, mit technischen Merkmalen und Lieferumfang für die Beschaffungsstelle."
+      },
+      "s3": {
+        "t": "Zustimmung der Betreuung",
+        "d": "Wir empfehlen, den Umfang von Ihrer Betreuung bestätigen zu lassen; bei ethikpflichtigen Studien wird die Software passend zum Ethikvotum gestaltet."
+      },
+      "s4": {
+        "t": "Entwicklung und Pilot",
+        "d": "Die Software wird entwickelt und in einem kleinen Pilot erprobt; das Datenformat wird an Ihren Analyseplan angepasst."
+      },
+      "s5": {
+        "t": "Übergabe und Dokumentation",
+        "d": "Quellcode sowie Installations- und Benutzerdokumentation werden übergeben; Rechnung und Abnahmeprotokoll entsprechen dem Beschaffungsprozess."
+      }
+    },
+    "b5": {
+      "title": "Preis",
+      "intro": "Budgets und Umfang akademischer Projekte sind sehr unterschiedlich, daher bieten wir keine festen Pakete an. Wir erstellen das Angebot stufenweise passend zu Ihrem Budget: zuerst der unverzichtbare Kern, dann Zusatzfunktionen, wenn Budget bleibt.",
+      "p1": {
+        "n": "Kleines Forschungswerkzeug",
+        "a": "Je nach Umfang",
+        "t": "Einzelexperiment, eigene Umfrage",
+        "d": "Eine Web-App für einen einzelnen Erhebungs- oder Experimentbedarf."
+      },
+      "p2": {
+        "n": "Datenerhebungs-App",
+        "a": "Je nach Umfang",
+        "t": "Mobil oder Web",
+        "d": "Feldarbeit, Offline-Erfassung und Verwaltungs-Dashboard."
+      },
+      "p3": {
+        "n": "Umfassende Forschungsplattform",
+        "a": "Je nach Umfang",
+        "t": "Mehrstufige Projekte",
+        "d": "Mehrere Module, Geräteanbindung oder Datenverarbeitungsinfrastruktur."
+      }
+    },
+    "b6": {
+      "title": "Häufige Fragen",
+      "q1": "Schreiben Sie meine Arbeit?",
+      "a1": "Nein. Text, Analyse, Interpretation und wissenschaftlicher Beitrag gehören der forschenden Person. Wir entwickeln nur das benötigte Software-Werkzeug.",
+      "q2": "Wie arbeiten Sie mit einem BAP-Projekt?",
+      "a2": "Wir erstellen Angebot und technische Beschreibung im von Ihrer Beschaffungsstelle verlangten Format; die Universität kauft, die Rechnung geht an die Universität. Schwellenwerte und Unterlagen unterscheiden sich je nach Universität, daher prüfen wir die BAP-Regeln Ihrer Einrichtung gemeinsam.",
+      "q3": "Wem gehört der Quellcode?",
+      "a3": "Das regelt der Vertrag. Meist gehen Quellcode und Nutzungsrechte an das Projekt (Universität oder forschende Person); es gelten die Regeln Ihrer Einrichtung zum geistigen Eigentum.",
+      "q4": "Wie werden Teilnehmerdaten geschützt?",
+      "a4": "Die Daten liegen auf einem Server Ihrer Wahl; Identitätsdaten werden bei Bedarf getrennt gespeichert oder anonymisiert. Die Gestaltung folgt den Auflagen Ihres Ethikvotums.",
+      "q5": "Kann meine Betreuung am Gespräch teilnehmen?",
+      "a5": "Ja, das empfehlen wir. Wird der Umfang von Anfang an mit der Betreuung abgestimmt, erleichtert das Prozess und Verteidigung."
+    }
   }
 }

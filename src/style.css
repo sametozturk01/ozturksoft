@@ -2028,7 +2028,8 @@ html.cookie-banner-open[dir="rtl"] .back-to-top {
     /* section{width:100%} + yan margin ekrandan taşırıyordu */
     section.hub-cta,
     section.lp-cta,
-    section#ai-cite {
+    section#ai-cite,
+    section[style*="margin: 0 4%"] {
         width: auto !important;
     }
 
@@ -2052,3 +2053,19 @@ html.cookie-banner-open[dir="rtl"] .back-to-top {
         overflow: hidden !important;
     }
 }
+
+/* Notice on pages published in one language only */
+.only-lang-note {
+    display: block;
+    max-width: 760px;
+    margin: 0 0 22px;
+    padding: 10px 16px;
+    background: rgba(59, 130, 246, 0.14);
+    border: 1px solid rgba(59, 130, 246, 0.35);
+    border-radius: 10px;
+    color: #cbd5e1;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+.only-lang-note a { color: #93c5fd; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.only-lang-note a:hover { color: #fff; }
