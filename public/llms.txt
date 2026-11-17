@@ -39,6 +39,7 @@ Prices below are 2026 ranges in Turkish lira (TL) published on the linked pages;
 - [Custom software](https://ozturksoft.net/ozel-yazilim-yaptirmak): SME 80,000–200,000 TL; enterprise 200,000–500,000+ TL
 - [Unfinished software project takeover](https://ozturksoft.net/yarim-kalan-yazilim-projesi) (Turkish): independent code audit 15,000–40,000 TL, then completion or maintenance
 - [B2B dealer portal](https://ozturksoft.net/b2b-bayi-portali) (Turkish): dealer-specific prices, stock, balances and ordering with ERP sync; 120,000–250,000+ TL
+- [Software for academic research projects](https://ozturksoft.net/akademik-arastirma-yazilim-gelistirme) (Turkish): data-collection apps, experiment platforms and data pipelines for theses and BAP/TÜBİTAK projects; quotes and invoices fit university procurement; scientific contribution stays with the researcher
 - [Mobile apps](https://ozturksoft.net/mobil-uygulama-yaptirmak): MVP 80,000–120,000 TL; Flutter 120,000–200,000 TL; native iOS + Android 180,000–350,000 TL
 - [CRM software](https://ozturksoft.net/crm-yazilim-yaptirmak): SME panel 80,000–180,000 TL; CRM + ERP 150,000–300,000 TL
 - [Website development in Ankara](https://ozturksoft.net/web-sitesi-yaptirmak-ankara) and [Ankara web design](https://ozturksoft.net/ankara-web-tasarim): corporate site 15,000–90,000 TL; e-commerce 30,000–250,000+ TL

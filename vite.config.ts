@@ -49,6 +49,7 @@ export default defineConfig({
         yarimKalanProje: resolve(__dirname, 'yarim-kalan-yazilim-projesi.html'),
         b2bBayiPortali: resolve(__dirname, 'b2b-bayi-portali.html'),
         ihaleSartnameAi: resolve(__dirname, 'ihale-sartname-analizi-yapay-zeka.html'),
+        akademikArastirma: resolve(__dirname, 'akademik-arastirma-yazilim-gelistirme.html'),
         blogKosgebTubitak: resolve(__dirname, 'blog/kosgeb-tubitak-destekli-yazilim-projesi-2026.html'),
         mikroEntegrasyon: resolve(__dirname, 'mikro-entegrasyon.html'),
         yapayZekaDanismanligi: resolve(__dirname, 'yapay-zeka-danismanligi.html'),

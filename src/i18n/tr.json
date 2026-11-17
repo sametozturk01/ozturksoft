@@ -2243,7 +2243,9 @@
       "q3": "Web sitesine de eklenir mi?",
       "a3": "Evet. Widget <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">chatbot yaptırmak</a> sayfasındadır; aynı asistan paylaşılır.",
       "q4": "Ne kadar sürer?",
-      "a4": "FAQ 3–5 hafta, GPT 4–8 hafta, CRM 6–12 hafta. BSP beklerken senaryo yazılır."
+      "a4": "FAQ 3–5 hafta, GPT 4–8 hafta, CRM 6–12 hafta. BSP beklerken senaryo yazılır.",
+      "q5": "Meta WhatsApp'ta yapay zekayı yasakladı mı?",
+      "a5": "Hayır, tamamen değil. 15 Ocak 2026'dan itibaren yasak olan, ChatGPT gibi her konuda sohbet eden genel amaçlı asistanlar. İşletmenin kendi müşteri desteği, sipariş ve randevu botları yapay zeka kullanarak çalışmaya devam edebilir."
     },
     "cta": {
       "btn": "Ücretsiz keşif görüşmesi",
@@ -2268,6 +2270,11 @@
       "s2l": "Canlıya alma",
       "s3n": "BSP",
       "s3l": "API başvurusu bizde"
+    },
+    "policy": {
+      "title": "Meta'nın WhatsApp yapay zeka kuralı (2026)",
+      "p1": "Meta, 15 Ocak 2026'dan itibaren WhatsApp Business API üzerinde <strong>genel amaçlı yapay zeka asistanlarına</strong> (her konuda sohbet eden, ChatGPT benzeri botlar) izin vermiyor. <strong>İşletmenizin kendi müşterilerine destek, sipariş, randevu ve bilgilendirme amacıyla kurulan botlar ise serbest</strong>; bunlar yapay zeka (GPT) kullanabilir.",
+      "p2": "Kurduğumuz WhatsApp botları bu yüzden işletmenize özel kapsamla sınırlanır: ürünleriniz, hizmetleriniz, siparişleriniz ve SSS'niz. Kapsam dışı sorular kibarca yetkili bir kişiye veya web sitenize yönlendirilir. Meta kurallarını keşif aşamasında birlikte kontrol ederiz."
     }
   },
   "efaturaPage": {

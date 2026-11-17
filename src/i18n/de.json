@@ -2227,7 +2227,9 @@
       "q3": "Auch auf der Website?",
       "a3": "Ja. Widget auf <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">Chatbot erstellen lassen</a>; derselbe Assistent.",
       "q4": "Wie lange dauert es?",
-      "a4": "FAQ 3–5 Wochen, GPT 4–8, CRM 6–12. Szenarien während BSP-Wartezeit."
+      "a4": "FAQ 3–5 Wochen, GPT 4–8, CRM 6–12. Szenarien während BSP-Wartezeit.",
+      "q5": "Hat Meta KI auf WhatsApp verboten?",
+      "a5": "Nicht vollständig. Seit dem 15. Januar 2026 sind allgemeine Assistenten wie ChatGPT verboten, die über alles chatten. Support-, Bestell- und Terminbots eines Unternehmens dürfen weiterhin KI nutzen."
     },
     "cta": {
       "btn": "Kostenloses Kickoff-Gespräch",
@@ -2252,6 +2254,11 @@
       "s2l": "Go-live",
       "s3n": "BSP",
       "s3l": "API-Antrag bei uns"
+    },
+    "policy": {
+      "title": "Metas KI-Regel für WhatsApp (2026)",
+      "p1": "Seit dem 15. Januar 2026 erlaubt Meta auf der WhatsApp Business API keine <strong>allgemeinen KI-Assistenten</strong> mehr (ChatGPT-ähnliche Bots für beliebige Themen). <strong>Bots, die ein Unternehmen für Support, Bestellungen, Termine und Informationen seiner eigenen Kunden einsetzt, bleiben erlaubt</strong> und dürfen KI (GPT) nutzen.",
+      "p2": "Unsere WhatsApp-Bots sind deshalb auf Ihr Geschäft beschränkt: Produkte, Leistungen, Bestellungen und FAQ. Themenfremde Fragen werden höflich an eine Person oder Ihre Website weitergeleitet. Metas Regeln prüfen wir gemeinsam im Erstgespräch."
     }
   },
   "efaturaPage": {

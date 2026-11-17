@@ -2227,7 +2227,9 @@
       "q3": "Aussi sur le site ?",
       "a3": "Oui. Le widget vit sur <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">faire créer un chatbot</a> ; le même assistant est partagé.",
       "q4": "Combien de temps ?",
-      "a4": "FAQ 3–5 semaines, GPT 4–8, CRM 6–12. Les scénarios s’écrivent pendant l’attente BSP."
+      "a4": "FAQ 3–5 semaines, GPT 4–8, CRM 6–12. Les scénarios s’écrivent pendant l’attente BSP.",
+      "q5": "Meta a-t-il interdit l'IA sur WhatsApp ?",
+      "a5": "Pas entièrement. Depuis le 15 janvier 2026, les assistants généralistes comme ChatGPT qui parlent de tout sont interdits. Les bots de support, de commande et de rendez-vous d'une entreprise peuvent continuer à utiliser l'IA."
     },
     "cta": {
       "btn": "Appel de découverte gratuit",
@@ -2252,6 +2254,11 @@
       "s2l": "Mise en ligne",
       "s3n": "BSP",
       "s3l": "Demande API chez nous"
+    },
+    "policy": {
+      "title": "La règle IA de Meta sur WhatsApp (2026)",
+      "p1": "Depuis le 15 janvier 2026, Meta n'autorise plus les <strong>assistants IA généralistes</strong> (bots de type ChatGPT qui parlent de tout) sur l'API WhatsApp Business. <strong>Les bots qu'une entreprise met en place pour le support, les commandes, les rendez-vous et l'information de ses propres clients restent autorisés</strong> et peuvent utiliser l'IA (GPT).",
+      "p2": "Nos bots WhatsApp sont donc limités au périmètre de votre activité : produits, services, commandes et FAQ. Les questions hors sujet sont redirigées poliment vers une personne ou votre site. Nous vérifions ensemble les règles de Meta lors du premier échange."
     }
   },
   "efaturaPage": {

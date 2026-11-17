@@ -2227,7 +2227,9 @@
       "q3": "Can it also go on the website?",
       "a3": "Yes. The widget lives on <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">have a chatbot built</a>; the same assistant is shared.",
       "q4": "How long does it take?",
-      "a4": "FAQ 3–5 weeks, GPT 4–8 weeks, CRM 6–12 weeks. Scenarios are written while BSP is pending."
+      "a4": "FAQ 3–5 weeks, GPT 4–8 weeks, CRM 6–12 weeks. Scenarios are written while BSP is pending.",
+      "q5": "Has Meta banned AI on WhatsApp?",
+      "a5": "Not entirely. Since 15 January 2026 general-purpose assistants such as ChatGPT that chat about anything are banned. A business's own support, order and booking bots can keep using AI."
     },
     "cta": {
       "btn": "Free discovery call",
@@ -2252,6 +2254,11 @@
       "s2l": "Go-live",
       "s3n": "BSP",
       "s3l": "We handle the API application"
+    },
+    "policy": {
+      "title": "Meta's WhatsApp AI rule (2026)",
+      "p1": "Since 15 January 2026 Meta no longer allows <strong>general-purpose AI assistants</strong> (ChatGPT-style bots that chat about anything) on the WhatsApp Business API. <strong>Bots that a business sets up for its own customers' support, orders, bookings and updates remain allowed</strong>, and they may use AI (GPT).",
+      "p2": "That is why the WhatsApp bots we build are limited to your business scope: your products, services, orders and FAQ. Off-topic questions are politely routed to a person or your website. We review Meta's rules together during discovery."
     }
   },
   "efaturaPage": {

@@ -329,6 +329,26 @@
       "permanent": true
     },
     {
+      "source": "/akademik",
+      "destination": "/akademik-arastirma-yazilim-gelistirme",
+      "permanent": true
+    },
+    {
+      "source": "/tez-yazilim",
+      "destination": "/akademik-arastirma-yazilim-gelistirme",
+      "permanent": true
+    },
+    {
+      "source": "/bap-projesi-yazilim",
+      "destination": "/akademik-arastirma-yazilim-gelistirme",
+      "permanent": true
+    },
+    {
+      "source": "/arastirma-yazilim",
+      "destination": "/akademik-arastirma-yazilim-gelistirme",
+      "permanent": true
+    },
+    {
       "source": "/yazilim-devralma",
       "destination": "/yarim-kalan-yazilim-projesi",
       "permanent": true
