@@ -1,6 +1,6 @@
 import nodemailer from 'nodemailer';
 
-const POLICY_VERSION = '2026-09-27-ga';
+const POLICY_VERSION = '2026-11-18-ga';
 const POLICY_URL = 'https://ozturksoft.net/gizlilik';
 
 const SITE_ORIGINS = [
@@ -50,6 +50,33 @@ function parseBody(req) {
   return {};
 }
 
+// Where the visitor came from: site path, external host, or nothing
+function sourceLabel(raw) {
+  const ref = String(raw || '').trim().slice(0, 200);
+  if (!ref || ref === 'doğrudan') return 'Doğrudan / bilinmiyor';
+  if (ref.startsWith('/')) return `Site içi · ${ref}`;
+  const host = ref.replace(/^www\./, '');
+  const known = [
+    [/(^|\.)google\./, 'Google'], [/(^|\.)bing\.com$/, 'Bing'], [/(^|\.)yandex\./, 'Yandex'],
+    [/(^|\.)duckduckgo\.com$/, 'DuckDuckGo'], [/(^|\.)linkedin\.com$|^lnkd\.in$/, 'LinkedIn'],
+    [/(^|\.)(facebook|instagram)\.com$/, 'Meta'], [/(^|\.)(chatgpt\.com|openai\.com)$/, 'ChatGPT'],
+    [/(^|\.)perplexity\.ai$/, 'Perplexity'], [/(^|\.)gemini\.google\.com$/, 'Gemini'],
+    [/(^|\.)clutch\.co$/, 'Clutch'], [/(^|\.)goodfirms\.co$/, 'GoodFirms'],
+  ];
+  const hit = known.find(([re]) => re.test(host));
+  return hit ? `${hit[1]} · ${host}` : host;
+}
+
+// Approximate location Vercel derives from the IP (city, country)
+function approxLocation(req) {
+  const dec = (v) => {
+    try { return decodeURIComponent(String(v || '')); } catch { return String(v || ''); }
+  };
+  const city = dec(req.headers['x-vercel-ip-city']).slice(0, 60);
+  const country = dec(req.headers['x-vercel-ip-country']).slice(0, 8);
+  return [city, country].filter(Boolean).join(', ') || 'Bilinmiyor';
+}
+
 function clientIp(req) {
   const xf = req.headers['x-forwarded-for'];
   if (typeof xf === 'string' && xf.trim()) return xf.split(',')[0].trim().slice(0, 64);
@@ -87,7 +114,26 @@ export default async function handler(req, res) {
   const policyVersion = String(body.policyVersion || POLICY_VERSION).slice(0, 32);
   const ip = clientIp(req);
   const ua = String(req.headers['user-agent'] || '').slice(0, 240);
-  const label = choice === 'all' ? 'Kabul et (all)' : 'Yalnızca zorunlu (necessary)';
+  const label = choice === 'all' ? 'Kabul Et' : 'Yalnızca Zorunlu';
+  const source = sourceLabel(body.referrer);
+  const location = approxLocation(req);
+  const pageUrl = path ? `https://ozturksoft.net${path}` : '';
+  const rows = [
+    ['Sayfa', path ? `<a href="${escapeHtml(pageUrl)}" style="color:#93c5fd;text-decoration:underline">${escapeHtml(path)}</a>` : '—'],
+    ['Geldiği yer', escapeHtml(source)],
+    ['Konum', escapeHtml(location)],
+    ['Zaman', escapeHtml(nowTr)],
+    ['Dil', escapeHtml(lang || '—')],
+    ['IP', escapeHtml(ip || '—')],
+    ['Tarayıcı', `<span style="font-size:13px;word-break:break-all;overflow-wrap:anywhere">${escapeHtml(ua || '—')}</span>`],
+  ];
+  const rowsHtml = rows
+    .map(
+      ([k, v]) =>
+        `<tr><td style="padding:10px 12px 10px 0;width:110px;vertical-align:top;color:#94a3b8;font-size:15px">${k}</td>` +
+        `<td style="padding:10px 0;color:#e2e8f0;font-size:15px;word-break:break-word;overflow-wrap:anywhere">${v}</td></tr>`
+    )
+    .join('');
 
   try {
     const transporter = nodemailer.createTransport({
@@ -98,35 +144,37 @@ export default async function handler(req, res) {
     await transporter.sendMail({
       from: `"Ozturksoft KVKK kayıt" <${user}>`,
       to,
-      subject: `[KVKK kayıt] çerez · ${choice} · ${nowTr}`,
+      subject: `[Çerez] ${label} · ${path || '/'} · ${nowTr}`,
       headers: { 'X-Entity-Ref-ID': 'ozturksoft-cerez-onayi' },
       text: [
-        'OZTURKSOFT ÇEREZ / ONAY KAYDI (ispat)',
+        'OZTURKSOFT · ÇEREZ TERCİHİ KAYDI',
         '',
-        `Tercih: ${label}`,
-        `Zaman (ISO): ${nowIso}`,
-        `Zaman (TR): ${nowTr}`,
-        `Politika: ${POLICY_URL}`,
-        `Politika sürümü: ${policyVersion}`,
-        `Dil: ${lang || '—'}`,
+        `Tercih: ${label} (${choice})`,
         `Sayfa: ${path || '—'}`,
+        `Geldiği yer: ${source}`,
+        `Konum (IP'ye göre yaklaşık): ${location}`,
+        `Zaman: ${nowTr} (${nowIso})`,
+        `Dil: ${lang || '—'}`,
         `IP: ${ip || '—'}`,
-        `User-Agent: ${ua || '—'}`,
+        `Tarayıcı: ${ua || '—'}`,
+        `Politika: ${POLICY_URL} · ${policyVersion}`,
         '',
-        'Bu kayıt, 6698 sayılı Kanun kapsamındaki hesap verebilirlik (ispat) içindir. Pazarlama listesi değildir.',
+        'KVKK ispat kaydı (6698 sayılı Kanun, hesap verebilirlik). Pazarlama listesi değildir.',
       ].join('\n'),
       html: `
-        <div style="font-family:sans-serif;max-width:560px;margin:0 auto;color:#0f172a">
-          <p style="margin:0 0 12px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#64748b">KVKK ispat kaydı</p>
-          <h2 style="margin:0 0 16px;font-size:18px">Çerez tercihi: ${escapeHtml(label)}</h2>
-          <table style="width:100%;font-size:14px;border-collapse:collapse">
-            <tr><td style="padding:6px 0;color:#64748b">Zaman</td><td>${escapeHtml(nowTr)}<br><span style="font-size:12px;color:#94a3b8">${escapeHtml(nowIso)}</span></td></tr>
-            <tr><td style="padding:6px 0;color:#64748b">Politika</td><td><a href="${POLICY_URL}">${POLICY_URL}</a> · ${escapeHtml(policyVersion)}</td></tr>
-            <tr><td style="padding:6px 0;color:#64748b">Dil / sayfa</td><td>${escapeHtml(lang || '—')} · ${escapeHtml(path || '—')}</td></tr>
-            <tr><td style="padding:6px 0;color:#64748b">IP</td><td>${escapeHtml(ip || '—')}</td></tr>
-            <tr><td style="padding:6px 0;color:#64748b">Tarayıcı</td><td style="word-break:break-all">${escapeHtml(ua || '—')}</td></tr>
+        <div style="background:#020617;padding:24px 12px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+          <table role="presentation" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;table-layout:fixed;margin:0 auto;background:#0f172a;border:1px solid #1e293b;border-radius:16px;overflow:hidden">
+            <tr><td style="background:#1d4ed8;background-image:linear-gradient(135deg,#2563eb 0%,#1e3a8a 100%);padding:24px 20px">
+              <p style="margin:0 0 8px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#bfdbfe">Ozturksoft · Çerez tercihi kaydı</p>
+              <p style="margin:0;font-size:22px;line-height:1.3;font-weight:800;color:#ffffff;overflow-wrap:anywhere">${escapeHtml(label)} · ${escapeHtml(path || '/')}</p>
+            </td></tr>
+            <tr><td style="padding:18px 20px 8px">
+              <table role="presentation" cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;table-layout:fixed">${rowsHtml}</table>
+            </td></tr>
+            <tr><td style="padding:8px 20px 22px;font-size:13px;line-height:1.6;color:#64748b">
+              KVKK ispat kaydı · ${escapeHtml(policyVersion)} · <a href="${POLICY_URL}" style="color:#64748b">gizlilik</a> · pazarlama listesi değildir
+            </td></tr>
           </table>
-          <p style="margin:16px 0 0;font-size:12px;color:#94a3b8">Hesap verebilirlik kaydı — pazarlama listesi değil.</p>
         </div>
       `,
     });

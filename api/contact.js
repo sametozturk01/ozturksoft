@@ -137,7 +137,7 @@ export default async function handler(req, res) {
       ['Başlangıç', timeline || '—'],
       ['Geldiği sayfa', sourcePage || '—'],
       ['KVKK Onayı', kvkkConsentAt],
-      ['Politika', 'https://ozturksoft.net/gizlilik · 2026-09-27'],
+      ['Politika', 'https://ozturksoft.net/gizlilik · 2026-11-18'],
       ['IP', clientIp(req) || '—'],
     ];
 
@@ -167,7 +167,7 @@ export default async function handler(req, res) {
         `Başlangıç: ${timeline || '—'}`,
         `Geldiği sayfa: ${sourcePage || '—'}`,
         `KVKK: ${kvkkConsentAt}`,
-        'Politika: https://ozturksoft.net/gizlilik · 2026-09-27',
+        'Politika: https://ozturksoft.net/gizlilik · 2026-11-18',
         `IP: ${clientIp(req) || '—'}`,
         '',
         'Proje Detayları:',

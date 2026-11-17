@@ -84,7 +84,7 @@ function resolvedLang(): string {
 
 const COOKIE_CONSENT_KEY = 'ozturksoft_cookie_consent';
 const COOKIE_CONSENT_VERSION_KEY = 'ozturksoft_cookie_policy_v';
-const COOKIE_POLICY_VERSION = '2026-09-27-ga';
+const COOKIE_POLICY_VERSION = '2026-11-18-ga';
 
 function gaMeasurementId(): string {
     const id = String(import.meta.env.VITE_GA_MEASUREMENT_ID || 'G-081WMH9GE9').trim();
@@ -171,6 +171,7 @@ function recordCookieConsent(value: 'all' | 'necessary') {
                 policyVersion: COOKIE_POLICY_VERSION,
                 lang: document.documentElement.lang || 'tr',
                 path: window.location.pathname,
+                referrer: leadSourcePage(),
             }),
             keepalive: true,
         });
