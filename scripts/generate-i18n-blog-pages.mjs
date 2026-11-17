@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { prerenderI18n } from './lib/prerender-i18n.mjs';
 import {
   ARTICLE_FILE_PREFIX,
   LOCALE_LANGS,
@@ -177,6 +178,8 @@ for (const file of readdirSync(sourceBlogDir).filter((f) => f.endsWith('.html'))
       );
     }
 
+    page = prerenderI18n(page, translations[lang]);
+
     writeFileSync(resolve(outDir, file), page);
     // Kaynak ağaçta da tut — deploy sonrası /en/blog/... URL'leri çalışsın
     const srcOutDir = resolve(root, lang, 'blog');
@@ -208,7 +211,19 @@ const newUrls = sitemapEntries
   </url>`)
   .join('\n');
 
-sitemap = sitemap.replace('</urlset>', `${newUrls}\n</urlset>`);
+// Every Turkish source post must be listed too (some were only reachable via links)
+const missingTr = readdirSync(sourceBlogDir)
+  .filter((f) => f.endsWith('.html'))
+  .map((f) => blogUrl('tr', f.replace('.html', '')))
+  .filter((loc) => !sitemap.includes(`<loc>${loc}</loc>`))
+  .map((loc) => `  <url>
+    <loc>${loc}</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>`);
+
+sitemap = sitemap.replace('</urlset>', `${[...missingTr, newUrls].join('\n')}\n</urlset>`);
 writeFileSync(sitemapPath, sitemap);
 
 console.log(`\nDone: ${generated} localized pages + sitemap updated`);

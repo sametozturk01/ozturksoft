@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { prerenderI18n } from './lib/prerender-i18n.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, '..');
@@ -94,6 +95,7 @@ const LOCALES = [
 
 function buildLocalePage(locale) {
   const canonical = `${BASE}${locale.path}`;
+  const dict = JSON.parse(readFileSync(resolve(root, 'src/i18n', `${locale.lang}.json`), 'utf8'));
   let html = template;
 
   html = html.replace(/<html lang="tr">/, `<html lang="${locale.htmlLang}"${locale.rtl ? ' dir="rtl"' : ''}>`);
@@ -142,7 +144,8 @@ function buildLocalePage(locale) {
     `<span id="langCode">${locale.code}</span>`
   );
 
-  return html;
+  // Locale text in the HTML itself, not only after main.ts runs
+  return prerenderI18n(html, dict);
 }
 
 for (const locale of LOCALES) {
