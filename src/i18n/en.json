@@ -4379,25 +4379,25 @@
   },
   "spamRecoveryPage": {
     "meta": {
-      "title": "Google Spam Update Penalty Recovery | Traffic Drops and Manual Actions | Ozturksoft"
+      "title": "Have Your Google Clicks Suddenly Dropped? Spam Update Penalty Recovery | Ozturksoft"
     },
     "hero": {
-      "badge": "Spam update · Manual action · Traffic drop · Search Console",
-      "title": "Google Spam Update Penalty Recovery",
-      "desc": "If your website suddenly lost visitors after a Google update, we first find out why: is it a penalty a Google reviewer applied by hand (a manual action), or the automatic effect of a spam update? Then we clean up the problem content, links and technical errors and, if needed, prepare your reconsideration request to Google. We are based in Çankaya, Ankara, and the first assessment is free."
+      "badge": "Google traffic · Search Console · Spam update · Penalty recovery",
+      "title": "Have Your Clicks from Google Suddenly Dropped to Zero?",
+      "desc": "Until yesterday Google sent you visitors and customers every day, and today almost none arrive? The most common reason is that a Google update (a spam update) has pushed your site down in search results, or that Google has penalized your site. We find the cause, clean up the problem and take the steps needed for your site to show up in Google again. We are based in Çankaya, Ankara, and the first assessment is free."
     },
     "stats": {
-      "s1l": "Penalty diagnosis",
-      "s2l": "Cleanup and recovery",
-      "s3l": "Diagnosis time"
+      "s1l": "Diagnosis and cleanup",
+      "s2l": "Full recovery",
+      "s3l": "First fixes"
     },
     "what": {
-      "title": "What is a spam update penalty?",
-      "p1": "Several times a year Google releases a <strong>spam update</strong> to clear low-quality or misleading sites out of its search results. These updates automatically lower the rankings of pages Google finds in breach of its spam policies. On top of that, a Google employee can review your site and apply a <strong>manual action</strong>; in that case you will see a notice in Search Console.",
-      "p2": "The two situations are fixed in different ways. With a manual action, you fix the problem and send Google a reconsideration request. With an automatic drop there is nowhere to apply: you fix the problem and wait for Google to reassess the site. And not every traffic drop is a penalty; sometimes the cause is a core update, a technical error or a seasonal dip. That is why the first step is always an accurate diagnosis."
+      "title": "Why do clicks suddenly drop?",
+      "p1": "Several times a year Google releases a <strong>spam update</strong> to clear low-quality or misleading sites out of its search results. If your site has something Google considers against its rules, your pages can fall far down in search results after such an update, and your clicks can drop to almost zero overnight. Sometimes a Google employee also reviews your site and applies a <strong>manual action</strong>, in other words a penalty applied by hand.",
+      "p2": "Not every drop means a penalty; the cause can also be a technical error, the site being accidentally blocked from Google, or a seasonal dip. That is why the first step is an accurate diagnosis. If the click chart in the “Performance” report in Search Console falls steeply after a certain date, this page is exactly for you."
     },
     "diff": {
-      "title": "Manual action vs. automatic drop: the difference",
+      "title": "A penalty applied by hand, or an automatic drop?",
       "h1": "Topic",
       "h2": "Manual action",
       "h3": "Spam update (automatic)",
@@ -4416,29 +4416,29 @@
       "note": "We work out which situation you are in by comparing your Search Console data, your traffic chart and Google's update timeline."
     },
     "pricing": {
-      "title": "Spam update recovery pricing (2026)",
+      "title": "Recovery pricing (2026)",
       "intro": "The price depends on the size of your site, the type of problem (content, links or a hack) and the number of pages to fix. The price ranges below apply to 2026; the exact price is set in a written quote after the free initial assessment.",
-      "row1": "Penalty diagnosis",
-      "row2": "Cleanup and recovery",
+      "row1": "Diagnosis and cleanup",
+      "row2": "Full recovery",
       "row3": "Recovery + SEO + GEO",
-      "t1": "1–2 weeks",
-      "t2": "4–8 weeks",
-      "t3": "8–12 weeks",
-      "d1": "We review your Search Console, traffic and link data. You receive a written report on the cause of the drop, the affected pages and what needs to be done.",
-      "d2": "We fix the issues found in the report: thin or duplicate content, harmful links, hacked pages and hidden redirects. If there is a manual action, we prepare the reconsideration request.",
+      "t1": "3–6 weeks",
+      "t2": "6–10 weeks",
+      "t3": "10–16 weeks",
+      "d1": "We find out why your clicks dropped, list the affected pages and clean up the most critical problems. If there is a manual action, we prepare the reconsideration request.",
+      "d2": "A complete cleanup of content, links and technical setup for sites with many pages, serious link problems or hacked sections.",
       "d3": "After the cleanup we rework the site to meet Google's quality expectations and focus on winning back your visibility with <a href=\"/ankara-seo\">SEO</a> and <a href=\"/geo-optimizasyonu\">GEO</a> work."
     },
     "cards": {
       "title": "Which problems do we solve?",
-      "c1t": "Mass-produced content",
+      "c1t": "Mass AI-generated pages",
       "c1d": "If large numbers of similar pages that add no value for readers were produced with AI or templates, we merge, improve or remove them.",
-      "c2t": "Unnatural links",
+      "c2t": "Bought links",
       "c2d": "We identify backlinks that were bought or come from link networks. For the ones that cannot be removed, we prepare a disavow file for Google.",
       "c3t": "Hacked site",
       "c3d": "We clean out spam pages secretly added to your site, unrelated foreign-language content and harmful redirects, and close the security hole the attack came through.",
       "c4t": "Site reputation abuse",
       "c4d": "We find sponsored content published on your site by third parties that has nothing to do with your site's topic, and decide together with you whether to remove it or keep it out of Google's index.",
-      "c5t": "Cloaking and doorway pages",
+      "c5t": "Pages that mislead Google",
       "c5d": "We fix pages that show different content to visitors and to Google (cloaking), doorway pages created only for search, and hidden text.",
       "c6t": "Monitoring and reporting",
       "c6d": "After the cleanup we track your Search Console data and rankings every month and report the changes to you in writing."
@@ -4446,7 +4446,7 @@
     "steps": {
       "title": "How does the recovery process work?",
       "s1t": "Free initial assessment",
-      "s1d": "We look at your traffic chart together. In this meeting we share our first view on whether the drop comes from a penalty or from something else.",
+      "s1d": "We look at the click chart in your Search Console together. In this meeting we share our first view on whether the drop comes from a penalty or from something else.",
       "s2t": "Diagnosis",
       "s2d": "We compare the date of the drop with Google's update timeline and review the affected pages, content quality and link profile one by one.",
       "s3t": "Cleanup",
@@ -4463,17 +4463,17 @@
     },
     "who": {
       "title": "Who is it for?",
-      "i1": "Businesses whose visitor numbers and customer enquiries dropped suddenly after a Google update.",
+      "i1": "Businesses whose clicks from Google fell to almost zero overnight.",
       "i2": "Site owners who received a manual action notice in Search Console.",
       "i3": "Companies that bought backlinks in bulk in the past or had large numbers of pages produced with AI.",
       "i4": "Organizations whose site was hacked and now show foreign-language or unrelated pages next to their name on Google."
     },
     "faq": {
       "title": "Spam update penalty: frequently asked questions",
-      "q1": "How do I know if my site has been penalized by Google?",
-      "a1": "First check the “Security & Manual Actions” section in Search Console. If there is a notice there, you have a manual action. If there is no notice but your traffic dropped sharply on the date of a spam update announced by Google, an automatic effect may be the cause. An exact diagnosis requires looking at traffic and page data together.",
+      "q1": "Why have my clicks from Google suddenly dropped to zero?",
+      "a1": "The most common reason is that Google has pushed your site down in search results after a spam update, or has applied a manual action to your site. First check the “Security & Manual Actions” section in Search Console; if there is a notice there, you have a manual action. If there is no notice but the drop matches the date of an update announced by Google, an automatic effect may be the cause. An exact diagnosis requires looking at traffic and page data together.",
       "q2": "How much does spam update recovery cost?",
-      "a2": "Penalty diagnosis costs 15,000–25,000 TL (1–2 weeks), cleanup and recovery 40,000–90,000 TL (4–8 weeks), and recovery combined with SEO and GEO work 80,000–150,000 TL (8–12 weeks). The initial assessment is free.",
+      "a2": "Diagnosis and cleanup costs 75,000–120,000 TL (3–6 weeks), full recovery 120,000–180,000 TL (6–10 weeks), and recovery combined with SEO and GEO work 180,000–280,000 TL (10–16 weeks). The initial assessment is free.",
       "q3": "When will my traffic come back?",
       "a3": "With a manual action, a reconsideration request is usually answered within a few days to a few weeks. With automatic drops, it can take several months for Google's systems to notice the changes. A return to the old traffic level is not certain either; traffic that came from low-quality pages in particular may not come back.",
       "q4": "Do you guarantee to bring back my old traffic?",
@@ -4481,12 +4481,16 @@
       "q5": "Is a disavow file always necessary?",
       "a5": "No. Google already ignores most bad links. A disavow file is mainly needed if you received a manual action because of links, or if you have many links that were knowingly bought. Because a badly prepared file can also harm your useful links, we prepare it with care.",
       "q6": "Would moving to a new domain solve the problem?",
-      "a6": "Usually not. If the problem is in the content, you will get the same result on the new domain and lose everything your old domain had built up. Fixing the problem first is almost always the better path."
+      "a6": "Usually not. If the problem is in the content, you will get the same result on the new domain and lose everything your old domain had built up. Fixing the problem first is almost always the better path.",
+      "q7": "Why is my site not showing on Google?",
+      "a7": "There can be several reasons a site does not show on Google: the site was accidentally blocked from search engines (a noindex or robots.txt mistake), server errors, a hack, or a Google penalty. The “Pages” and “Manual actions” reports in Search Console usually point to the cause; we go through them together in the free initial assessment.",
+      "q8": "How do I remove a Google penalty?",
+      "a8": "With a manual action, you first fully fix the problem Google pointed out, then send a reconsideration request through Search Console explaining the fixes you made. With an automatic drop there is nowhere to apply; you clean up the problem and wait for Google to reassess the site. In both cases, the most important step is finding the real source of the problem."
     },
     "cta": {
       "btn": "Free initial assessment",
-      "title": "Let's find out together why your traffic dropped",
-      "desc": "In the free initial assessment we look at your traffic chart together and discuss the likely cause of the drop. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "title": "Let's find out together why your clicks dropped",
+      "desc": "In the free initial assessment we look at your click chart together and discuss the likely cause of the drop. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
       "btn2": "Get a recovery quote"
     },
     "related": {
@@ -4494,6 +4498,16 @@
       "geo": "GEO optimization",
       "guide": "SEO guide"
     },
-    "footer": "© 2026 Ozturksoft — Google Spam Update Penalty Recovery, Ankara"
+    "footer": "© 2026 Ozturksoft — Google Spam Update Penalty Recovery, Ankara",
+    "symptoms": {
+      "title": "Does any of this sound familiar?",
+      "i1": "Your site is not showing on Google anymore, or it is hard to find even when you search for your company name.",
+      "i2": "Your Google rankings dropped from the first page to far behind within a few days.",
+      "i3": "Your organic traffic, meaning the visitors who come from Google without ads, suddenly dropped.",
+      "i4": "The clicks and impressions chart in Search Console fell sharply.",
+      "i5": "You received a “Manual actions” or “Security issues” notice in Search Console.",
+      "i6": "Pages you don't recognize, in a foreign language, are showing up on Google under your site's name.",
+      "note": "If you see any of these signs, the sooner someone looks at it, the easier the recovery."
+    }
   }
 }

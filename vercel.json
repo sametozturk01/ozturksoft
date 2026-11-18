@@ -504,6 +504,36 @@
       "permanent": true
     },
     {
+      "source": "/google-trafik-dustu",
+      "destination": "/google-spam-update-cezasi-kurtarma",
+      "permanent": true
+    },
+    {
+      "source": "/google-tiklamalar-dustu",
+      "destination": "/google-spam-update-cezasi-kurtarma",
+      "permanent": true
+    },
+    {
+      "source": "/organik-trafik-dustu",
+      "destination": "/google-spam-update-cezasi-kurtarma",
+      "permanent": true
+    },
+    {
+      "source": "/google-siralama-dustu",
+      "destination": "/google-spam-update-cezasi-kurtarma",
+      "permanent": true
+    },
+    {
+      "source": "/sitem-google-da-cikmiyor",
+      "destination": "/google-spam-update-cezasi-kurtarma",
+      "permanent": true
+    },
+    {
+      "source": "/site-google-da-gorunmuyor",
+      "destination": "/google-spam-update-cezasi-kurtarma",
+      "permanent": true
+    },
+    {
       "source": "/seo",
       "destination": "/ankara-seo",
       "permanent": true

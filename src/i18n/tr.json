@@ -4395,25 +4395,25 @@
   },
   "spamRecoveryPage": {
     "meta": {
-      "title": "Google Spam Update Cezası Kurtarma | Trafik Düşüşü ve Manuel İşlem | Ozturksoft"
+      "title": "Google Tıklamalarınız Birden Düştü mü? Spam Update Cezası Kurtarma | Ozturksoft"
     },
     "hero": {
-      "badge": "Spam update · Manuel işlem · Trafik düşüşü · Search Console",
-      "title": "Google Spam Update Cezasından Kurtarma",
-      "desc": "Bir Google güncellemesinden sonra sitenizin ziyaretçi sayısı birden düştüyse önce nedenini netleştiriyoruz: Google'ın elle verdiği bir ceza mı (manuel işlem), yoksa spam güncellemesinin otomatik etkisi mi? Ardından sorunlu içeriği, bağlantıları ve teknik hataları temizliyor, gerekiyorsa Google'a yeniden inceleme talebini hazırlıyoruz. Ankara Çankaya'dayız; ilk değerlendirme ücretsizdir."
+      "badge": "Google trafiği · Search Console · Spam update · Ceza kurtarma",
+      "title": "Google'dan Gelen Tıklamalarınız Birden Sıfıra mı Düştü?",
+      "desc": "Dün Google'dan her gün ziyaretçi ve müşteri geliyordu, bugün neredeyse hiç gelmiyor mu? Bunun en sık nedeni, Google'ın bir güncellemeyle (spam update) sitenizi aramalarda geriye itmesi ya da sitenize ceza vermesidir. Nedenini buluyor, sorunu temizliyor ve sitenizin Google'da yeniden görünmesi için gereken adımları atıyoruz. Ankara Çankaya'dayız; ilk değerlendirme ücretsizdir."
     },
     "stats": {
-      "s1l": "Ceza teşhisi",
-      "s2l": "Temizlik ve kurtarma",
-      "s3l": "Teşhis süresi"
+      "s1l": "Teşhis ve temizlik",
+      "s2l": "Kapsamlı kurtarma",
+      "s3l": "İlk düzeltmeler"
     },
     "what": {
-      "title": "Spam update cezası nedir?",
-      "p1": "Google, arama sonuçlarını kalitesiz veya yanıltıcı sitelerden arındırmak için yılda birkaç kez <strong>spam güncellemesi (spam update)</strong> yayınlar. Bu güncellemeler, Google'ın spam politikalarına aykırı bulduğu sayfaların sıralamasını otomatik olarak düşürür. Bunun yanında bir Google çalışanı sitenizi inceleyip <strong>manuel işlem</strong> de uygulayabilir; bu durumda Search Console'da bir bildirim görürsünüz.",
-      "p2": "İki durumun çözüm yolu farklıdır. Manuel işlemde sorun düzeltilir ve Google'a yeniden inceleme talebi gönderilir. Otomatik düşüşte ise başvurulacak bir yer yoktur: sorun giderilir ve Google'ın siteyi yeniden değerlendirmesi beklenir. Her trafik düşüşü de ceza anlamına gelmez; neden bazen bir çekirdek güncelleme, teknik bir hata ya da mevsimsel bir düşüştür. Bu yüzden ilk iş doğru teşhistir."
+      "title": "Tıklamalar neden birden düşer?",
+      "p1": "Google, arama sonuçlarını kalitesiz veya yanıltıcı sitelerden temizlemek için yılda birkaç kez <strong>spam güncellemesi (spam update)</strong> yayınlar. Sitenizde Google'ın kurallarına aykırı bulduğu bir şey varsa bu güncellemeden sonra sayfalarınız aramalarda çok geriye düşer ve tıklamalar bir gecede sıfıra yaklaşabilir. Bazen de bir Google çalışanı sitenizi inceleyip <strong>manuel işlem</strong>, yani elle ceza uygular.",
+      "p2": "Her düşüş ceza anlamına gelmez; neden teknik bir hata, sitenin yanlışlıkla Google'a kapatılması ya da mevsimsel bir düşüş de olabilir. Bu yüzden ilk iş doğru teşhistir. Search Console'daki “Performans” raporunda tıklama grafiğiniz belirli bir tarihten sonra dik bir şekilde düşüyorsa bu sayfa tam olarak sizin için."
     },
     "diff": {
-      "title": "Manuel işlem ile otomatik düşüş arasındaki fark",
+      "title": "Elle verilen ceza mı, otomatik düşüş mü?",
       "h1": "Konu",
       "h2": "Manuel işlem",
       "h3": "Spam update (otomatik)",
@@ -4432,29 +4432,29 @@
       "note": "Hangi durumda olduğunuzu Search Console verisini, trafik grafiğinizi ve Google'ın güncelleme takvimini karşılaştırarak belirliyoruz."
     },
     "pricing": {
-      "title": "Spam update kurtarma fiyatı (2026)",
+      "title": "Kurtarma fiyatı (2026)",
       "intro": "Fiyat; sitenizin büyüklüğüne, sorunun türüne (içerik, bağlantı veya hacklenme) ve düzeltilecek sayfa sayısına göre değişir. Aşağıdaki fiyat aralıkları 2026 yılı içindir; kesin fiyat ücretsiz ön değerlendirmeden sonra yazılı teklifle belirlenir.",
-      "row1": "Ceza teşhisi",
-      "row2": "Temizlik ve kurtarma",
+      "row1": "Teşhis ve temizlik",
+      "row2": "Kapsamlı kurtarma",
       "row3": "Kurtarma + SEO + GEO",
-      "t1": "1–2 hafta",
-      "t2": "4–8 hafta",
-      "t3": "8–12 hafta",
-      "d1": "Search Console, trafik ve bağlantı verilerinizi inceleriz. Düşüşün nedenini, etkilenen sayfaları ve yapılması gerekenleri yazılı bir raporla teslim ederiz.",
-      "d2": "Raporda çıkan sorunları gideririz: zayıf veya kopya içerik, zararlı bağlantılar, hacklenmiş sayfalar, gizli yönlendirmeler. Manuel işlem varsa yeniden inceleme talebini hazırlarız.",
+      "t1": "3–6 hafta",
+      "t2": "6–10 hafta",
+      "t3": "10–16 hafta",
+      "d1": "Tıklamaların neden düştüğünü bulur, etkilenen sayfaları çıkarır ve en kritik sorunları temizleriz. Manuel işlem varsa yeniden inceleme talebini hazırlarız.",
+      "d2": "Çok sayıda sayfası, yoğun bağlantı sorunu veya hacklenmiş bölümleri olan siteler için içeriğin, bağlantıların ve teknik altyapının baştan sona temizlenmesi.",
       "d3": "Temizliğin ardından siteyi Google'ın kalite beklentilerine göre yeniden düzenler, <a href=\"/ankara-seo\">SEO</a> ve <a href=\"/geo-optimizasyonu\">GEO</a> çalışmasıyla görünürlüğünüzü yeniden kazanmaya odaklanırız."
     },
     "cards": {
       "title": "Hangi sorunları çözüyoruz?",
-      "c1t": "Toplu üretilmiş içerik",
+      "c1t": "Yapay zekayla üretilmiş toplu sayfalar",
       "c1d": "Yapay zekayla veya şablonla çok sayıda, birbirine benzeyen ve okuyucuya değer katmayan sayfa üretildiyse bu sayfaları birleştirir, iyileştirir ya da kaldırırız.",
-      "c2t": "Doğal olmayan bağlantılar",
+      "c2t": "Satın alınmış bağlantılar",
       "c2d": "Satın alınmış veya bağlantı ağlarından gelen backlink'leri tespit ederiz. Kaldırılamayanlar için Google'a bağlantı reddetme (disavow) dosyası hazırlarız.",
       "c3t": "Hacklenmiş site",
       "c3d": "Sitenize gizlice eklenmiş spam sayfaları, alakasız yabancı dildeki içerikleri ve zararlı yönlendirmeleri temizler, saldırının girdiği açığı kapatırız.",
       "c4t": "Site itibarının kötüye kullanılması",
       "c4d": "Sitenizde üçüncü kişilerin yayımladığı, sitenizin konusuyla ilgisi olmayan sponsorlu içerikleri tespit eder; kaldırma veya dizin dışı bırakma kararını sizinle birlikte veririz.",
-      "c5t": "Gizleme ve kapı sayfaları",
+      "c5t": "Google'ı yanıltan sayfalar",
       "c5d": "Ziyaretçiye ve Google'a farklı içerik gösteren sayfaları (cloaking), yalnızca arama için açılmış kapı sayfalarını ve gizli metinleri düzeltiriz.",
       "c6t": "Takip ve rapor",
       "c6d": "Temizlikten sonra Search Console verisini ve sıralamaları her ay izler, değişimi size yazılı olarak raporlarız."
@@ -4462,7 +4462,7 @@
     "steps": {
       "title": "Kurtarma süreci nasıl işler?",
       "s1t": "Ücretsiz ön değerlendirme",
-      "s1d": "Trafik grafiğinize birlikte bakarız. Düşüşün bir ceza mı yoksa başka bir nedenden mi kaynaklandığına dair ilk görüşümüzü bu görüşmede paylaşırız.",
+      "s1d": "Search Console'daki tıklama grafiğinize birlikte bakarız. Düşüşün bir ceza mı yoksa başka bir nedenden mi kaynaklandığına dair ilk görüşümüzü bu görüşmede paylaşırız.",
       "s2t": "Teşhis",
       "s2d": "Düşüş tarihini Google'ın güncelleme takvimiyle karşılaştırır; etkilenen sayfaları, içerik kalitesini ve bağlantı profilini tek tek inceleriz.",
       "s3t": "Temizlik",
@@ -4479,17 +4479,17 @@
     },
     "who": {
       "title": "Kimler için?",
-      "i1": "Bir Google güncellemesinden sonra ziyaretçi sayısı ve müşteri talepleri birden düşen işletmeler.",
+      "i1": "Google'dan gelen tıklamaları bir gecede neredeyse sıfıra düşen işletmeler.",
       "i2": "Search Console'da manuel işlem bildirimi alan site sahipleri.",
       "i3": "Geçmişte toplu backlink satın almış veya yapay zekayla çok sayıda sayfa ürettirmiş firmalar.",
       "i4": "Sitesi hacklenmiş, Google'da adının yanında yabancı dilde veya alakasız sayfalar görünen kurumlar."
     },
     "faq": {
       "title": "Spam update cezası: sık sorulanlar",
-      "q1": "Sitemin Google'dan ceza aldığını nasıl anlarım?",
-      "a1": "Önce Search Console'daki “Güvenlik ve Manuel İşlemler” bölümüne bakın. Orada bir bildirim varsa manuel işlem almışsınızdır. Bildirim yoksa ama trafiğiniz Google'ın açıkladığı bir spam güncellemesi tarihinde birden düştüyse otomatik bir etki söz konusu olabilir. Kesin teşhis için trafik ve sayfa verilerini birlikte incelemek gerekir.",
+      "q1": "Google'dan gelen tıklamalarım neden birden sıfıra düştü?",
+      "a1": "En sık neden, Google'ın bir spam güncellemesinden sonra sitenizi aramalarda geriye itmesi veya sitenize manuel işlem uygulamasıdır. Önce Search Console'daki “Güvenlik ve Manuel İşlemler” bölümüne bakın; orada bir bildirim varsa manuel işlem almışsınızdır. Bildirim yoksa ama düşüş Google'ın açıkladığı bir güncelleme tarihine denk geliyorsa otomatik bir etki söz konusu olabilir. Kesin teşhis için trafik ve sayfa verilerini birlikte incelemek gerekir.",
       "q2": "Spam update kurtarma ne kadar tutar?",
-      "a2": "Ceza teşhisi 15.000–25.000 TL (1–2 hafta), temizlik ve kurtarma 40.000–90.000 TL (4–8 hafta), kurtarmayla birlikte SEO ve GEO çalışması 80.000–150.000 TL (8–12 hafta). Ön değerlendirme ücretsizdir.",
+      "a2": "Teşhis ve temizlik 75.000–120.000 TL (3–6 hafta), kapsamlı kurtarma 120.000–180.000 TL (6–10 hafta), kurtarmayla birlikte SEO ve GEO çalışması 180.000–280.000 TL (10–16 hafta). Ön değerlendirme ücretsizdir.",
       "q3": "Trafiğim ne zaman geri gelir?",
       "a3": "Manuel işlemde yeniden inceleme talebi genellikle birkaç gün ile birkaç hafta içinde yanıtlanır. Otomatik düşüşlerde ise Google'ın sistemlerinin yapılan değişiklikleri fark etmesi birkaç ay sürebilir. Trafiğin eski seviyesine dönmesi de kesin değildir; özellikle düşük kaliteli sayfalardan gelen trafik geri gelmeyebilir.",
       "q4": "Eski trafiğimi geri getirmeyi garanti ediyor musunuz?",
@@ -4497,12 +4497,16 @@
       "q5": "Bağlantı reddetme (disavow) dosyası her zaman gerekli mi?",
       "a5": "Hayır. Google kötü bağlantıların çoğunu zaten dikkate almaz. Reddetme dosyası özellikle bağlantılar nedeniyle manuel işlem aldıysanız veya bilerek satın alınmış çok sayıda bağlantınız varsa gerekir. Yanlış hazırlanırsa faydalı bağlantılarınıza da zarar verebileceği için dikkatle hazırlarız.",
       "q6": "Yeni bir alan adına (domain) taşınmak çözüm olur mu?",
-      "a6": "Çoğu zaman hayır. Sorun içerikteyse yeni alan adında da aynı sonuçla karşılaşırsınız ve eski alan adınızın birikimini kaybedersiniz. Önce sorunu gidermek neredeyse her zaman daha doğru yoldur."
+      "a6": "Çoğu zaman hayır. Sorun içerikteyse yeni alan adında da aynı sonuçla karşılaşırsınız ve eski alan adınızın birikimini kaybedersiniz. Önce sorunu gidermek neredeyse her zaman daha doğru yoldur.",
+      "q7": "Sitem Google'da neden çıkmıyor?",
+      "a7": "Sitenin Google'da görünmemesinin birkaç nedeni olabilir: sitenin yanlışlıkla arama motorlarına kapatılması (noindex veya robots.txt hatası), sunucu hataları, hacklenme ya da bir Google cezası. Search Console'daki “Sayfalar” ve “Manuel işlemler” raporları nedeni büyük ölçüde gösterir; ücretsiz ön değerlendirmede bunlara birlikte bakarız.",
+      "q8": "Google cezası nasıl kaldırılır?",
+      "a8": "Manuel işlemde önce Google'ın belirttiği sorun tamamen giderilir, ardından Search Console üzerinden yapılan düzeltmeleri anlatan bir yeniden inceleme talebi gönderilir. Otomatik düşüşlerde başvurulacak bir yer yoktur; sorun temizlenir ve Google'ın siteyi yeniden değerlendirmesi beklenir. İki durumda da en önemli adım, sorunun kaynağını doğru bulmaktır."
     },
     "cta": {
       "btn": "Ücretsiz ön değerlendirme",
-      "title": "Trafiğinizin neden düştüğünü birlikte bulalım",
-      "desc": "Ücretsiz ön değerlendirmede trafik grafiğinize birlikte bakar, düşüşün olası nedenini konuşuruz. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "title": "Tıklamalarınızın neden düştüğünü birlikte bulalım",
+      "desc": "Ücretsiz ön değerlendirmede tıklama grafiğinize birlikte bakar, düşüşün olası nedenini konuşuruz. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
       "btn2": "Kurtarma teklifi al"
     },
     "related": {
@@ -4510,6 +4514,16 @@
       "geo": "GEO optimizasyonu",
       "guide": "SEO rehberi"
     },
-    "footer": "© 2026 Ozturksoft — Google Spam Update Cezası Kurtarma, Ankara"
+    "footer": "© 2026 Ozturksoft — Google Spam Update Cezası Kurtarma, Ankara",
+    "symptoms": {
+      "title": "Bu durumlardan biri size tanıdık geliyor mu?",
+      "i1": "Siteniz Google'da artık çıkmıyor ya da firma adınızla aradığınızda bile zor bulunuyor.",
+      "i2": "Google sıralamanız birkaç gün içinde ilk sayfadan çok gerilere düştü.",
+      "i3": "Organik trafiğiniz, yani reklamsız gelen Google ziyaretçileriniz bir anda azaldı.",
+      "i4": "Search Console'daki tıklama ve gösterim grafiği dik bir şekilde aşağı indi.",
+      "i5": "Search Console'da “manuel işlem” veya “güvenlik sorunu” bildirimi aldınız.",
+      "i6": "Google'da sitenizin adının yanında tanımadığınız, yabancı dilde sayfalar görünüyor.",
+      "note": "Bu belirtilerden biri varsa, ne kadar erken bakılırsa kurtarma o kadar kolaylaşır."
+    }
   }
 }

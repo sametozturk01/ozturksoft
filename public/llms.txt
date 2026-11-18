@@ -57,7 +57,7 @@ Prices below are 2026 ranges in Turkish lira (TL) published on the linked pages;
 
 - [Ankara SEO](https://ozturksoft.net/ankara-seo): technical SEO 25,000–45,000 TL; local SEO 45,000–80,000 TL; SEO + GEO 80,000–140,000 TL. Paid ads and social media management are not offered.
 - [GEO optimization](https://ozturksoft.net/geo-optimizasyonu): visibility in ChatGPT, Gemini, Perplexity and Google AI Overviews. GEO audit 15,000–25,000 TL; GEO setup 35,000–60,000 TL. No ranking guarantees.
-- [Google spam update penalty recovery](https://ozturksoft.net/google-spam-update-cezasi-kurtarma): diagnosis of traffic drops after Google spam updates or manual actions, cleanup (scaled content, unnatural links, hacked pages, cloaking), disavow and reconsideration requests. Diagnosis 15,000–25,000 TL; cleanup and recovery 40,000–90,000 TL; recovery + SEO + GEO 80,000–150,000 TL. No recovery guarantees.
+- [Google traffic drop and spam update penalty recovery](https://ozturksoft.net/google-spam-update-cezasi-kurtarma): for sites whose clicks from Google suddenly dropped to near zero, that no longer show up on Google, or that received a manual action. Diagnosis, cleanup (scaled content, unnatural links, hacked pages, cloaking), disavow and reconsideration requests. Diagnosis and cleanup 75,000–120,000 TL; full recovery 120,000–180,000 TL; recovery + SEO + GEO 180,000–280,000 TL. No recovery guarantees.
 
 ## Guides
 

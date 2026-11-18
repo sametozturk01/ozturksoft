@@ -4379,25 +4379,25 @@
   },
   "spamRecoveryPage": {
     "meta": {
-      "title": "Sortir d'une pénalité Google Spam Update | Chute de trafic et actions manuelles | Ozturksoft"
+      "title": "Vos clics Google ont soudain chuté ? Sortir d'une pénalité Spam Update | Ozturksoft"
     },
     "hero": {
-      "badge": "Spam update · Action manuelle · Chute de trafic · Search Console",
-      "title": "Sortir d'une pénalité Google Spam Update",
-      "desc": "Si votre site a soudainement perdu des visiteurs après une mise à jour de Google, nous commençons par en identifier la cause : s'agit-il d'une sanction appliquée à la main par un employé de Google (une action manuelle) ou de l'effet automatique d'une mise à jour anti-spam ? Nous nettoyons ensuite les contenus, les liens et les erreurs techniques en cause et, si nécessaire, préparons votre demande de réexamen auprès de Google. Nous sommes situés à Çankaya, Ankara ; la première évaluation est gratuite."
+      "badge": "Trafic Google · Search Console · Spam update · Levée de pénalité",
+      "title": "Vos clics depuis Google sont-ils soudain tombés à zéro ?",
+      "desc": "Hier encore, Google vous amenait chaque jour des visiteurs et des clients, et aujourd'hui presque plus personne ? La cause la plus fréquente : une mise à jour de Google (spam update) a fait reculer votre site dans les résultats de recherche, ou Google a pénalisé votre site. Nous trouvons la cause, réglons le problème et prenons les mesures nécessaires pour que votre site réapparaisse dans Google. Nous sommes situés à Çankaya, Ankara ; la première évaluation est gratuite."
     },
     "stats": {
-      "s1l": "Diagnostic de la pénalité",
-      "s2l": "Nettoyage et rétablissement",
-      "s3l": "Durée du diagnostic"
+      "s1l": "Diagnostic et nettoyage",
+      "s2l": "Rétablissement complet",
+      "s3l": "Premières corrections"
     },
     "what": {
-      "title": "Qu'est-ce qu'une pénalité liée à une spam update ?",
-      "p1": "Plusieurs fois par an, Google publie une <strong>mise à jour anti-spam (spam update)</strong> pour débarrasser ses résultats de recherche des sites de mauvaise qualité ou trompeurs. Ces mises à jour font automatiquement reculer les pages que Google juge contraires à ses règles concernant le spam. Par ailleurs, un employé de Google peut examiner votre site et appliquer une <strong>action manuelle</strong> ; dans ce cas, vous voyez une notification dans la Search Console.",
-      "p2": "Les deux situations ne se règlent pas de la même façon. En cas d'action manuelle, on corrige le problème puis on envoie une demande de réexamen à Google. En cas de baisse automatique, il n'y a aucun recours à déposer : on corrige le problème et on attend que Google réévalue le site. Et toute baisse de trafic n'est pas une pénalité : la cause peut être une mise à jour principale (core update), une erreur technique ou une baisse saisonnière. C'est pourquoi la première étape est toujours un diagnostic précis."
+      "title": "Pourquoi les clics chutent-ils soudainement ?",
+      "p1": "Plusieurs fois par an, Google publie une <strong>mise à jour anti-spam (spam update)</strong> pour débarrasser ses résultats de recherche des sites de mauvaise qualité ou trompeurs. Si votre site contient quelque chose que Google juge contraire à ses règles, vos pages peuvent reculer très loin dans les résultats après cette mise à jour, et vos clics peuvent tomber presque à zéro du jour au lendemain. Parfois, un employé de Google examine aussi votre site et applique une <strong>action manuelle</strong>, c'est-à-dire une pénalité appliquée à la main.",
+      "p2": "Toute baisse n'est pas une pénalité : la cause peut aussi être une erreur technique, un site bloqué par erreur pour Google ou une baisse saisonnière. C'est pourquoi la première étape est un diagnostic précis. Si, dans le rapport « Performances » de la Search Console, votre courbe de clics plonge à partir d'une date précise, cette page est faite pour vous."
     },
     "diff": {
-      "title": "La différence entre une action manuelle et une baisse automatique",
+      "title": "Pénalité appliquée à la main ou baisse automatique ?",
       "h1": "Critère",
       "h2": "Action manuelle",
       "h3": "Spam update (automatique)",
@@ -4416,29 +4416,29 @@
       "note": "Nous déterminons votre situation en comparant vos données Search Console, votre courbe de trafic et le calendrier des mises à jour de Google."
     },
     "pricing": {
-      "title": "Tarifs de rétablissement après une spam update (2026)",
+      "title": "Tarifs du rétablissement (2026)",
       "intro": "Le prix dépend de la taille de votre site, du type de problème (contenu, liens ou piratage) et du nombre de pages à corriger. Les fourchettes ci-dessous s'appliquent à 2026 ; le prix exact est fixé dans un devis écrit après l'évaluation initiale gratuite.",
-      "row1": "Diagnostic de la pénalité",
-      "row2": "Nettoyage et rétablissement",
+      "row1": "Diagnostic et nettoyage",
+      "row2": "Rétablissement complet",
       "row3": "Rétablissement + SEO + GEO",
-      "t1": "1–2 semaines",
-      "t2": "4–8 semaines",
-      "t3": "8–12 semaines",
-      "d1": "Nous analysons vos données Search Console, de trafic et de liens. Vous recevez un rapport écrit sur la cause de la baisse, les pages touchées et les actions à mener.",
-      "d2": "Nous corrigeons les problèmes relevés dans le rapport : contenus pauvres ou dupliqués, liens nuisibles, pages piratées, redirections cachées. En cas d'action manuelle, nous préparons la demande de réexamen.",
+      "t1": "3–6 semaines",
+      "t2": "6–10 semaines",
+      "t3": "10–16 semaines",
+      "d1": "Nous trouvons pourquoi vos clics ont chuté, recensons les pages touchées et réglons les problèmes les plus critiques. En cas d'action manuelle, nous préparons la demande de réexamen.",
+      "d2": "Un nettoyage complet du contenu, des liens et de l'infrastructure technique pour les sites comptant de nombreuses pages, de gros problèmes de liens ou des sections piratées.",
       "d3": "Après le nettoyage, nous retravaillons le site selon les exigences de qualité de Google et nous concentrons sur la reconquête de votre visibilité grâce au <a href=\"/ankara-seo\">SEO</a> et au <a href=\"/geo-optimizasyonu\">GEO</a>."
     },
     "cards": {
       "title": "Quels problèmes résolvons-nous ?",
-      "c1t": "Contenu produit en masse",
+      "c1t": "Pages produites en masse par l'IA",
       "c1d": "Si de nombreuses pages similaires, sans valeur pour le lecteur, ont été produites avec l'IA ou à partir de modèles, nous les fusionnons, les améliorons ou les supprimons.",
-      "c2t": "Liens artificiels",
+      "c2t": "Liens achetés",
       "c2d": "Nous repérons les backlinks achetés ou issus de réseaux de liens. Pour ceux qui ne peuvent pas être supprimés, nous préparons un fichier de désaveu (disavow) pour Google.",
       "c3t": "Site piraté",
       "c3d": "Nous supprimons les pages de spam ajoutées à votre insu, les contenus en langue étrangère sans rapport et les redirections malveillantes, puis nous colmatons la faille par laquelle l'attaque est passée.",
       "c4t": "Abus de réputation de site",
       "c4d": "Nous repérons les contenus sponsorisés publiés sur votre site par des tiers et sans lien avec votre activité ; nous décidons avec vous de les supprimer ou de les exclure de l'index.",
-      "c5t": "Cloaking et pages satellites",
+      "c5t": "Pages qui trompent Google",
       "c5d": "Nous corrigeons les pages qui montrent un contenu différent aux visiteurs et à Google (cloaking), les pages satellites créées uniquement pour la recherche et les textes cachés.",
       "c6t": "Suivi et rapports",
       "c6d": "Après le nettoyage, nous suivons chaque mois vos données Search Console et vos positions, et vous rendons compte de l'évolution par écrit."
@@ -4446,7 +4446,7 @@
     "steps": {
       "title": "Comment se déroule le rétablissement ?",
       "s1t": "Évaluation initiale gratuite",
-      "s1d": "Nous examinons ensemble votre courbe de trafic. Lors de cet échange, nous vous donnons un premier avis : la baisse vient-elle d'une pénalité ou d'une autre cause ?",
+      "s1d": "Nous examinons ensemble la courbe de clics de votre Search Console. Lors de cet échange, nous vous donnons notre premier avis : la baisse vient-elle d'une pénalité ou d'une autre cause ?",
       "s2t": "Diagnostic",
       "s2d": "Nous comparons la date de la baisse au calendrier des mises à jour de Google et examinons une à une les pages touchées, la qualité du contenu et le profil de liens.",
       "s3t": "Nettoyage",
@@ -4463,17 +4463,17 @@
     },
     "who": {
       "title": "Pour qui ?",
-      "i1": "Les entreprises dont le nombre de visiteurs et de demandes clients a chuté brutalement après une mise à jour de Google.",
+      "i1": "Les entreprises dont les clics depuis Google sont tombés presque à zéro du jour au lendemain.",
       "i2": "Les propriétaires de sites qui ont reçu une notification d'action manuelle dans la Search Console.",
       "i3": "Les sociétés qui ont acheté des backlinks en masse par le passé ou fait produire de nombreuses pages par l'IA.",
       "i4": "Les organisations dont le site a été piraté et qui voient apparaître sur Google, à côté de leur nom, des pages en langue étrangère ou sans rapport."
     },
     "faq": {
       "title": "Pénalité spam update : questions fréquentes",
-      "q1": "Comment savoir si mon site a été pénalisé par Google ?",
-      "a1": "Consultez d'abord la section « Sécurité et actions manuelles » de la Search Console. Si une notification y figure, votre site fait l'objet d'une action manuelle. S'il n'y en a pas mais que votre trafic a chuté brutalement à la date d'une mise à jour anti-spam annoncée par Google, il peut s'agir d'un effet automatique. Un diagnostic sûr exige d'analyser ensemble les données de trafic et de pages.",
+      "q1": "Pourquoi mes clics depuis Google sont-ils soudain tombés à zéro ?",
+      "a1": "La cause la plus fréquente : après une mise à jour anti-spam, Google a fait reculer votre site dans les résultats de recherche ou lui a appliqué une action manuelle. Consultez d'abord la section « Sécurité et actions manuelles » de la Search Console ; si une notification y figure, votre site fait l'objet d'une action manuelle. S'il n'y en a pas mais que la baisse coïncide avec la date d'une mise à jour annoncée par Google, il peut s'agir d'un effet automatique. Un diagnostic sûr exige d'analyser ensemble les données de trafic et de pages.",
       "q2": "Combien coûte le rétablissement après une spam update ?",
-      "a2": "Le diagnostic de la pénalité coûte 15 000–25 000 TL (1–2 semaines), le nettoyage et le rétablissement 40 000–90 000 TL (4–8 semaines), et le rétablissement accompagné d'un travail SEO et GEO 80 000–150 000 TL (8–12 semaines). L'évaluation initiale est gratuite.",
+      "a2": "Le diagnostic et nettoyage coûte 75 000–120 000 TL (3–6 semaines), le rétablissement complet 120 000–180 000 TL (6–10 semaines), et le rétablissement accompagné d'un travail SEO et GEO 180 000–280 000 TL (10–16 semaines). L'évaluation initiale est gratuite.",
       "q3": "Quand mon trafic reviendra-t-il ?",
       "a3": "En cas d'action manuelle, la demande de réexamen reçoit généralement une réponse en quelques jours à quelques semaines. En cas de baisse automatique, les systèmes de Google peuvent mettre plusieurs mois à prendre en compte les modifications. Le retour au niveau de trafic antérieur n'est pas certain non plus : le trafic qui venait de pages de faible qualité, en particulier, peut ne pas revenir.",
       "q4": "Garantissez-vous le retour de mon ancien trafic ?",
@@ -4481,12 +4481,16 @@
       "q5": "Un fichier de désaveu de liens (disavow) est-il toujours nécessaire ?",
       "a5": "Non. Google ignore déjà la plupart des mauvais liens. Un fichier de désaveu est surtout nécessaire si vous avez reçu une action manuelle à cause de liens ou si vous avez de nombreux liens achetés en connaissance de cause. Comme un fichier mal préparé peut aussi nuire à vos liens utiles, nous le préparons avec soin.",
       "q6": "Passer à un nouveau nom de domaine résout-il le problème ?",
-      "a6": "Le plus souvent, non. Si le problème vient du contenu, vous obtiendrez le même résultat sur le nouveau domaine et perdrez tout ce que votre ancien domaine avait acquis. Corriger d'abord le problème est presque toujours la meilleure solution."
+      "a6": "Le plus souvent, non. Si le problème vient du contenu, vous obtiendrez le même résultat sur le nouveau domaine et perdrez tout ce que votre ancien domaine avait acquis. Corriger d'abord le problème est presque toujours la meilleure solution.",
+      "q7": "Pourquoi mon site n'apparaît pas sur Google ?",
+      "a7": "Plusieurs raisons sont possibles : le site a été bloqué par erreur pour les moteurs de recherche (une erreur noindex ou robots.txt), des erreurs serveur, un piratage ou une pénalité Google. Les rapports « Pages » et « Actions manuelles » de la Search Console indiquent généralement la cause ; nous les examinons ensemble lors de l'évaluation initiale gratuite.",
+      "q8": "Comment lever une pénalité Google ?",
+      "a8": "En cas d'action manuelle, on corrige d'abord entièrement le problème signalé par Google, puis on envoie via la Search Console une demande de réexamen qui décrit les corrections effectuées. En cas de baisse automatique, il n'y a aucun recours possible : on corrige le problème et on attend que Google réévalue le site. Dans les deux cas, l'étape la plus importante est de trouver la véritable source du problème."
     },
     "cta": {
       "btn": "Évaluation initiale gratuite",
-      "title": "Trouvons ensemble pourquoi votre trafic a chuté",
-      "desc": "Lors de l'évaluation initiale gratuite, nous examinons ensemble votre courbe de trafic et discutons de la cause probable de la baisse. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "title": "Trouvons ensemble pourquoi vos clics ont chuté",
+      "desc": "Lors de l'évaluation initiale gratuite, nous examinons ensemble votre courbe de clics et discutons de la cause probable de la baisse. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
       "btn2": "Demander un devis de rétablissement"
     },
     "related": {
@@ -4494,6 +4498,16 @@
       "geo": "Optimisation GEO",
       "guide": "Guide SEO"
     },
-    "footer": "© 2026 Ozturksoft — Sortir d'une pénalité Google Spam Update, Ankara"
+    "footer": "© 2026 Ozturksoft — Sortir d'une pénalité Google Spam Update, Ankara",
+    "symptoms": {
+      "title": "L'une de ces situations vous parle ?",
+      "i1": "Votre site n'apparaît plus sur Google, ou il est difficile à trouver même en cherchant le nom de votre entreprise.",
+      "i2": "Votre classement Google est passé de la première page à bien plus loin en quelques jours.",
+      "i3": "Votre trafic organique, c'est-à-dire les visiteurs qui viennent de Google sans publicité, a chuté d'un coup.",
+      "i4": "La courbe des clics et des impressions dans la Search Console a plongé.",
+      "i5": "Vous avez reçu une notification « Actions manuelles » ou « Problèmes de sécurité » dans la Search Console.",
+      "i6": "Sur Google, des pages en langue étrangère que vous ne connaissez pas apparaissent sous le nom de votre site.",
+      "note": "Si vous constatez l'un de ces signes, plus on intervient tôt, plus la récupération est facile."
+    }
   }
 }
