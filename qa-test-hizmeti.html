@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QA Test Hizmeti | Yazılım Test &amp; Otomasyon | Ozturksoft</title>
+    <title data-i18n="qaPage.meta.title">QA Test Hizmeti | Yazılım Test &amp; Otomasyon | Ozturksoft</title>
     <meta name="description" content="QA test hizmeti: audit 15.000–40.000 TL, test otomasyonu 40.000–120.000 TL. Playwright, Cypress, API, CI/CD. Yazılı teklif — Ankara. Ücretsiz keşif." />
     <meta name="keywords" content="qa test hizmeti, qa testi yaptırmak, yazılım test hizmeti, test otomasyonu ankara, qa firması ankara, yazılım kalite güvence, playwright cypress" />
     <meta name="robots" content="index, follow">
@@ -65,22 +65,22 @@
         {
           "@type": "Question",
           "name": "QA test hizmeti ne kadar tutar?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Mevcut yazılım QA audit 15.000–40.000 TL, Playwright/Cypress otomasyon kurulumu 40.000–120.000 TL. Yeni yazılım projesinde QA, geliştirme bedelinin %15–25'i olarak planlanır." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Mevcut ürün denetimi 15.000–40.000 TL, test otomasyonu 40.000–120.000 TL arasındadır. Yeni bir projede QA, geliştirme bedelinin %15–25’i olarak planlanır." }
         },
         {
           "@type": "Question",
-          "name": "Sadece test yaptırabilir miyim, yazılım sizde olmasa da?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Evet. Başka ekibin yazdığı uygulamaya bağımsız QA, regresyon ve otomasyon kurulumu yapılır. Kaynak kod erişimi ve staging ortamı yeter." }
+          "name": "Yazılımı sizin geliştirmiş olmanız gerekir mi?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Hayır. Bir test ortamına (staging) ve kaynak koda erişim yeterlidir; testleri bağımsız olarak yaparız." }
         },
         {
           "@type": "Question",
-          "name": "Manuel mi otomasyon mu?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Keşif ve UX için manuel; login, ödeme, API için otomasyon. Tipik denge %20 manuel, %80 otomasyon." }
+          "name": "Elle test mi, otomasyon mu?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Keşif ve kullanıcı deneyimi (UX) kontrolleri için elle test; giriş, ödeme ve API gibi tekrar eden kontroller için otomasyon kullanılır. Tipik denge %20 elle test, %80 otomasyondur." }
         },
         {
           "@type": "Question",
-          "name": "Ne kadar sürer?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Audit 1–2 hafta, otomasyon iskeleti 3–8 hafta. Sürekli QA sprint bazlı yürür." }
+          "name": "QA testi ne kadar sürer?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Mevcut ürün denetimi 1–2 hafta, test otomasyonunun temel kurulumu 3–8 hafta sürer. Sürekli QA ise geliştirme aşamalarıyla (sprint) birlikte yürür." }
         }
       ]
     }
@@ -144,77 +144,74 @@
     </nav>
 
     <header class="hub-hero">
-        <span style="color:#4ade80;font-weight:700;font-size:.85rem;letter-spacing:.1em;text-transform:uppercase">Playwright · Cypress · API · CI/CD · Ankara</span>
-        <h1>QA Test Hizmeti</h1>
-        <p>Yazılımınızı canlıya çıkmadan test edin — veya mevcut ürüne bağımsız QA. Manuel keşif, otomasyon, performans ve güvenlik taraması. Yazılı teklif, ücretsiz keşif. “QA nedir” rehberi duruyor; burası iş yaptırmak için.</p>
-        <a href="/iletisim" class="btn btn-primary">Ücretsiz keşif görüşmesi</a>
+        <span style="color:#4ade80;font-weight:700;font-size:.85rem;letter-spacing:.1em;text-transform:uppercase" data-i18n="qaPage.hero.badge">Playwright · Cypress · API · CI/CD · Ankara</span>
+        <h1 data-i18n="qaPage.hero.title">QA Test Hizmeti</h1>
+        <p data-i18n="qaPage.hero.desc">Yazılımınızı kullanıcılarınıza ulaşmadan önce test ediyoruz; mevcut bir ürününüz varsa ona da bağımsız kalite kontrolü (QA) yapıyoruz. Elle yapılan keşif testleri, otomatik testler, performans ölçümü ve güvenlik taraması hizmetlerimiz arasındadır. Ücretsiz keşif görüşmesinden sonra yazılı teklif sunarız.</p>
+        <a href="/iletisim" class="btn btn-primary" data-i18n="qaPage.hero.cta">Ücretsiz keşif görüşmesi</a>
     </header>
 
     <section class="hub-section">
-        <h2>QA test fiyatı (2026)</h2>
+        <h2 data-i18n="qaPage.price.title">QA test fiyatları (2026)</h2>
         <table class="price-table">
-            <thead><tr><th>Kapsam</th><th>Fiyat</th><th>Süre</th></tr></thead>
+            <thead><tr><th data-i18n="qaPage.price.colScope">Kapsam</th><th data-i18n="qaPage.price.colPrice">Fiyat</th><th data-i18n="qaPage.price.colTime">Süre</th></tr></thead>
             <tbody>
-                <tr><td>QA audit / mevcut ürün tarama</td><td>15.000 – 40.000 TL</td><td>1–2 hafta</td></tr>
-                <tr><td>Test otomasyonu (Playwright / Cypress)</td><td>40.000 – 120.000 TL</td><td>3–8 hafta</td></tr>
-                <tr><td>Yeni yazılımda proje QA</td><td>Geliştirmenin %15–25’i</td><td>Sprint boyunca</td></tr>
+                <tr><td data-i18n="qaPage.price.r1">Mevcut ürünün kalite denetimi (QA audit)</td><td>15.000 – 40.000 TL</td><td data-i18n="qaPage.price.r1Time">1–2 hafta</td></tr>
+                <tr><td data-i18n="qaPage.price.r2">Test otomasyonu (Playwright / Cypress)</td><td>40.000 – 120.000 TL</td><td data-i18n="qaPage.price.r2Time">3–8 hafta</td></tr>
+                <tr><td data-i18n="qaPage.price.r3">Yeni yazılım projesinde QA</td><td data-i18n="qaPage.price.r3Price">Geliştirme bedelinin %15–25’i</td><td data-i18n="qaPage.price.r3Time">Geliştirme süresi boyunca</td></tr>
             </tbody>
         </table>
-        <p>QA nedir, türler ve araçlar: <a href="/blog/qa-test-nedir-yazilim-kalite-guvencesi" style="color:#4ade80">QA rehberi</a> (bilgi yazısı — bu sayfa teklif içindir). Başka bir firmanın yarım bıraktığı projeniz mi var? <a href="/yarim-kalan-yazilim-projesi" style="color:#4ade80">Yazılım projesi devralma</a>.</p>
+        <p data-i18n="qaPage.price.note">QA’nın ne olduğunu, test türlerini ve kullanılan araçları merak ediyorsanız <a href="/blog/qa-test-nedir-yazilim-kalite-guvencesi" style="color:#4ade80">QA rehberimize</a> göz atabilirsiniz. Başka bir firmanın yarım bıraktığı bir projeniz varsa <a href="/yarim-kalan-yazilim-projesi" style="color:#4ade80">yazılım projesi devralma</a> hizmetimizle de yardımcı olabiliriz.</p>
     </section>
 
     <section class="hub-grid">
         <div class="hub-card">
-            <h3>🧪 Manuel &amp; keşif</h3>
-            <p>Kritik akış: login, ödeme, kayıt. Hata listesi + öncelik.</p>
+            <h3 data-i18n="qaPage.cards.manual.title">Elle test ve keşif</h3>
+            <p data-i18n="qaPage.cards.manual.desc">Giriş, ödeme ve kayıt gibi kritik adımlar tek tek denenir. Bulunan hatalar önem sırasına göre listelenir.</p>
         </div>
         <div class="hub-card">
-            <h3>🤖 Otomasyon</h3>
-            <p>Playwright / Cypress / API. Her PR’de CI’da çalışır.</p>
+            <h3 data-i18n="qaPage.cards.auto.title">Test otomasyonu</h3>
+            <p data-i18n="qaPage.cards.auto.desc">Playwright, Cypress ve API testleri, kodda yapılan her değişiklikte otomatik olarak çalışır (CI).</p>
         </div>
         <div class="hub-card">
-            <h3>⚡ Performans &amp; güvenlik</h3>
-            <p>Yük, Core Web Vitals, OWASP tarama. Canlı öncesi rapor.</p>
+            <h3 data-i18n="qaPage.cards.perf.title">Performans ve güvenlik</h3>
+            <p data-i18n="qaPage.cards.perf.desc">Yük testi, sayfa hızı ölçümü (Core Web Vitals) ve OWASP güvenlik taraması yapılır; canlıya çıkmadan önce rapor alırsınız.</p>
         </div>
         <div class="hub-card">
-            <h3>🤖 AI projelerinde QA</h3>
-            <p>Chatbot/RAG yanıt doğruluğu, halüsinasyon ve regresyon.</p>
-            <a href="/yapay-zeka-entegrasyonu">Yapay zeka entegrasyonu →</a>
+            <h3 data-i18n="qaPage.cards.ai.title">Yapay zeka projelerinde QA</h3>
+            <p data-i18n="qaPage.cards.ai.desc">Chatbot ve belgelerinizden yanıt üreten yapay zeka (RAG) cevaplarının doğruluğu ölçülür; uydurma yanıtlar (halüsinasyon) ve güncelleme sonrası bozulmalar yakalanır.</p>
+            <a href="/yapay-zeka-entegrasyonu" data-i18n="qaPage.cards.ai.link">Yapay zeka entegrasyonu →</a>
         </div>
     </section>
 
     <section class="hub-section">
-        <h2>Kim yaptırır?</h2>
+        <h2 data-i18n="qaPage.who.title">Kimler için uygun?</h2>
         <ul>
-            <li>Yazılımı başka ekip yaptı, canlı öncesi bağımsız test istiyorsunuz</li>
-            <li>Regresyon her sürümde elle yürüyor, otomasyon lazım</li>
-            <li>AI / chatbot çıktısı ölçülmüyor</li>
-            <li>Kamu veya holding tesliminde test raporu şart</li>
+            <li data-i18n="qaPage.who.l1">Yazılımınızı başka bir ekip geliştirdi ve canlıya çıkmadan önce bağımsız bir test istiyorsunuz.</li>
+            <li data-i18n="qaPage.who.l2">Her yeni sürümde aynı kontroller elle yapılıyor ve bu işin otomatikleşmesini istiyorsunuz.</li>
+            <li data-i18n="qaPage.who.l3">Yapay zeka veya chatbot yanıtlarınızın ne kadar doğru olduğunu ölçemiyorsunuz.</li>
+            <li data-i18n="qaPage.who.l4">Kamu kurumuna veya holdinge teslimat yapacaksınız ve sizden test raporu isteniyor.</li>
         </ul>
     </section>
 
     <section class="hub-section hub-faq">
-        <h2>Sık sorulanlar</h2>
-        <h3>QA test hizmeti ne kadar?</h3>
-        <p>Audit 15.000–40.000 TL, otomasyon 40.000–120.000 TL. Yeni projede geliştirmenin %15–25’i.</p>
-        <h3>Yazılım sizde olmak zorunda mı?</h3>
-        <p>Hayır. Staging + kod erişimi yeter. Bağımsız QA yapılır.</p>
-        <h3>QA nedir diye arayanlar?</h3>
-        <p>Rehber ayrı: <a href="/blog/qa-test-nedir-yazilim-kalite-guvencesi" style="color:#4ade80">QA test nedir</a>. İş yaptırmak buradan.</p>
+        <h2 data-i18n="qaPage.faq.title">Sık sorulan sorular</h2>
+        <h3 data-i18n="qaPage.faq.q1">QA test hizmeti ne kadar tutar?</h3>
+        <p data-i18n="qaPage.faq.a1">Mevcut ürün denetimi 15.000–40.000 TL, test otomasyonu 40.000–120.000 TL arasındadır. Yeni bir projede QA, geliştirme bedelinin %15–25’i olarak planlanır.</p>
+        <h3 data-i18n="qaPage.faq.q2">Yazılımı sizin geliştirmiş olmanız gerekir mi?</h3>
+        <p data-i18n="qaPage.faq.a2">Hayır. Bir test ortamına (staging) ve kaynak koda erişim yeterlidir; testleri bağımsız olarak yaparız.</p>
+        <h3 data-i18n="qaPage.faq.q3">QA nedir, nasıl çalışır?</h3>
+        <p data-i18n="qaPage.faq.a3">Konuya genel bir giriş için <a href="/blog/qa-test-nedir-yazilim-kalite-guvencesi" style="color:#4ade80">QA test nedir</a> yazımızı okuyabilirsiniz. Kendi projeniz için test yaptırmak isterseniz ücretsiz keşif görüşmesi için bizimle iletişime geçin.</p>
     </section>
 
     <section class="hub-cta">
-        <h2 style="margin-bottom:12px">Test kapsamınızı konuşalım</h2>
-        <p style="color:#94a3b8;margin-bottom:24px">Ücretsiz keşif — hangi ürün, hangi risk, bütçe. +90 546 549 6806</p>
-        <a href="/iletisim" class="btn btn-primary" style="padding:16px 36px">Ücretsiz teklif al</a>
-        <p style="margin-top:20px;font-size:.9rem;color:#64748b">
-            <a href="/ozel-yazilim-yaptirmak" style="color:#4ade80">Özel yazılım yaptırmak</a> ·
-            <a href="/blog/qa-test-nedir-yazilim-kalite-guvencesi" style="color:#4ade80">QA nedir rehberi</a>
-        </p>
+        <h2 style="margin-bottom:12px" data-i18n="qaPage.cta.title">Test ihtiyacınızı konuşalım</h2>
+        <p style="color:#94a3b8;margin-bottom:24px" data-i18n="qaPage.cta.desc">Ücretsiz keşif görüşmesinde hangi ürünü test etmek istediğinizi, hangi risklerden kaygı duyduğunuzu ve bütçenizi konuşalım. Telefon: +90 546 549 6806</p>
+        <a href="/iletisim" class="btn btn-primary" style="padding:16px 36px" data-i18n="qaPage.cta.btn">Ücretsiz teklif al</a>
+        <p style="margin-top:20px;font-size:.9rem;color:#64748b" data-i18n="qaPage.cta.links"><a href="/ozel-yazilim-yaptirmak" style="color:#4ade80">Özel yazılım yaptırmak</a> · <a href="/blog/qa-test-nedir-yazilim-kalite-guvencesi" style="color:#4ade80">QA nedir rehberi</a></p>
     </section>
 
     <footer style="text-align:center;padding:30px;color:#64748b;border-top:1px solid rgba(255,255,255,.06)">
-        <p>© 2026 Ozturksoft — QA test hizmeti | <a href="/" style="color:#3b82f6">Ana Sayfa</a> · <a href="/hizmetler" style="color:#3b82f6">Hizmetler</a></p>
+        <p data-i18n="qaPage.footer.text">© 2026 Ozturksoft — QA test hizmeti | <a href="/" style="color:#3b82f6">Ana Sayfa</a> · <a href="/hizmetler" style="color:#3b82f6">Hizmetler</a></p>
     </footer>
 </body>
 </html>

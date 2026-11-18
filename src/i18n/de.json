@@ -1717,19 +1717,19 @@
   },
   "webTasarimPage": {
     "hero": {
-      "badge": "Çankaya · Agentur · SEO · +90 546 549 6806",
+      "badge": "Çankaya · Webdesign-Agentur · SEO · +90 546 549 6806",
       "title": "Ankara Webdesign",
-      "desc": "Corporate-Websites, E-Commerce und technisches SEO für KMU, Holdings und Industrie, die ein Webdesign-Unternehmen oder eine Agentur in Ankara suchen. Ozturksoft in Çankaya verkauft keine Templates: schriftliches Angebot, Vor-Ort-Kickoff und CMS-Schulung nach Launch. Die Seite „<a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#38bdf8\">Website erstellen lassen</a>“ ist getrennt — hier vergleichen Sie lokale Firmen."
+      "desc": "Wir erstellen Unternehmenswebsites, Onlineshops und technisches SEO, damit Sie bei Google gefunden werden – für KMU, Holdings und Produktionsbetriebe in Ankara. Statt einer fertigen Vorlage gestalten wir eine Website, die zu Ihrem Geschäft passt, erstellen ein schriftliches Angebot, kommen zum Termin vor Ort und schulen Ihr Team nach dem Start im Verwaltungsbereich. Wenn Sie bereit für eine Bestellung sind, finden Sie die Schritte unter „<a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#38bdf8\">Website erstellen lassen</a>“."
     },
     "pricing": {
       "title": "Ankara Webdesign-Preise (2026)",
-      "intro": "Der Preis hängt von Seitenanzahl, Sprachen, Shop und Integrationen ab. Die Bänder unten sind der Ankaraner Markt 2026; Kickoff ist kostenlos, das Angebot schriftlich.",
+      "intro": "Der Preis hängt von der Seitenzahl, den Sprachen, dem E-Commerce-Bedarf und den anzubindenden Systemen ab. Die folgenden Preisspannen gelten für 2026; der genaue Preis wird nach einem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt.",
       "col1": "Umfang",
       "col2": "Preis",
       "col3": "Dauer",
       "row1": "Corporate-Webdesign",
       "row2": "E-Commerce",
-      "row3": "Landing / Kampagne",
+      "row3": "Kampagnen- / Landingpage",
       "t1": "3–6 Wochen",
       "t2": "6–14 Wochen",
       "t3": "1–3 Wochen",
@@ -1737,49 +1737,49 @@
       "linkGuide": "Kostenleitfaden"
     },
     "cards": {
-      "c1title": "📍 Çankaya, Kickoff vor Ort",
-      "c1desc": "In Ankara im Büro oder bei Ihnen — Çankaya, OSTİM, Söğütözü und Industriezonen. Istanbul und andere Städte remote.",
-      "c2title": "🏢 Corporate-Website",
-      "c2desc": "Holding-, Behörden- und KMU-Seiten: Leistungen, Über uns, Formulare, mehrsprachiges CMS. Technisches SEO (Speed, Mobil, Schema) ist in der Übergabe enthalten.",
-      "c3title": "🛒 Online-Shop",
-      "c3desc": "Warenkorb, iyzico/PayTR, Versand-APIs und Bestand. WooCommerce oder Custom; Logo/Netsis im selben Projekt.",
+      "c1title": "Erstgespräch vor Ort in Çankaya",
+      "c1desc": "Innerhalb Ankaras findet das Erstgespräch in unserem Büro oder bei Ihnen statt, auch in Çankaya, OSTİM, Söğütözü und den Industriegebieten. Projekte in Istanbul und anderen Städten betreuen wir aus der Ferne.",
+      "c2title": "Unternehmenswebsite",
+      "c2desc": "Mehrsprachige, leicht zu pflegende Unternehmenswebsites für Holdings, Behörden und KMU. Geschwindigkeit, Mobiloptimierung und strukturierte Daten (Schema) für Suchmaschinen sind inklusive.",
+      "c3title": "Onlineshop",
+      "c3desc": "Warenkorb, Onlinezahlung über iyzico/PayTR, Versandanbindung und Lagerverwaltung. Auf WooCommerce oder eigener Plattform; eine Logo/Netsis-Anbindung lässt sich im selben Projekt ergänzen.",
       "c3link": "E-Commerce-Shop erstellen lassen →",
-      "c4title": "💻 Software im selben Team",
-      "c4desc": "Keine reine Designagentur. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Logo-Anbindung</a>, <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">Mobile Apps</a> und <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#38bdf8\">WhatsApp-Bots</a> laufen im Çankaya-Team — ohne Lieferantensplit.",
+      "c4title": "Software im selben Team",
+      "c4desc": "Wir machen mehr als visuelles Design. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Logo-Anbindung</a>, <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">Mobile Apps</a> und <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#38bdf8\">WhatsApp-Bots</a> entwickelt dasselbe Team in Çankaya – Sie müssen nicht mit mehreren Anbietern arbeiten.",
       "c4link": "Softwarefirma Ankara →",
-      "c1link": "Kickoff vereinbaren →",
+      "c1link": "Erstgespräch vereinbaren →",
       "c2link": "Website erstellen lassen →"
     },
     "who": {
-      "title": "Wer beauftragt Webdesign in Ankara?",
-      "intro": "Suchen nach „Ankara Webdesign“ und „Ankara Webdesign-Firmen“ meinen dasselbe: ein lokales Team, das liefert, mit schriftlichem Preis. Von KMU, die Agenturkarten sammeln, bis zu Herstellern in OSTİM. Ozturksoft sitzt in Çankaya; wir verkaufen keine Themen — Corporate-Site und Shop inklusive technischem SEO.",
-      "i1": "Sie vergleichen Ankara-Webdesign-Firmen und Agenturlisten bei Google. Sie wollen Referenzen, Kickoff vor Ort und ein Positionspapier — inklusive schriftlicher Antwort auf „wann geht es live?“",
-      "i2": "Sie wollen ein Softwareteam, das liefert, kein reines Designstudio. CMS, Formulare, Speed, SSL und Wartung bleiben bei einer Firma; kein PSD, das danach verschwindet.",
-      "i3": "Sie sind in Çankaya, OSTİM oder Söğütözü und wollen den Kickoff im Büro oder bei Ihnen. Vor-Ort-Termine in Ankara. Istanbul, Izmir und andere Städte remote.",
-      "i4": "Heute Corporate-Site, morgen technisches SEO, <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">App</a> oder <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Logo</a>. Webdesign und Software sollen nicht auf mehrere Lieferanten verteilt werden.",
-      "outro": "Haben Sie „<a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#38bdf8\">Website erstellen lassen Ankara</a>“ gesucht, ist die Bestellseite getrennt; die Preisbänder sind gleich. Diese Seite ist für lokale Webdesign-Firmen / Agenturen. Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>."
+      "title": "Wer lässt in Ankara Webdesign machen?",
+      "intro": "Die meisten, die in Ankara eine Webdesign-Firma suchen, wünschen sich dasselbe: ein Team in der Nähe, das den Preis schriftlich festhält und das Projekt bis zur Übergabe begleitet. Das gilt für ein KMU, das Visitenkarten vergleicht, ebenso wie für einen Hersteller in OSTİM. Ozturksoft sitzt in Çankaya; statt fertige Themes zu verkaufen, baut das Team Ihre Unternehmenswebsite oder Ihren Onlineshop zusammen mit technischem SEO.",
+      "i1": "Sie vergleichen Webdesign-Firmen in Ankara. Sie möchten Referenzen sehen, sich persönlich treffen und ein Angebot mit Einzelposten erhalten – mit schriftlichem Termin für den Start der Website.",
+      "i2": "Sie suchen kein Studio, das Designdateien abgibt und dann verschwindet, sondern ein Softwareteam, das eine funktionierende Website übergibt. Verwaltungsbereich, Formulare, Geschwindigkeit, SSL-Sicherheitszertifikat und Wartung sollen bei einer Firma bleiben.",
+      "i3": "Sie sind in Çankaya, OSTİM oder Söğütözü und möchten sich in unserem Büro oder bei Ihnen treffen. In Ankara kommen wir vor Ort; Projekte in Istanbul, İzmir und anderen Städten betreuen wir aus der Ferne.",
+      "i4": "Heute brauchen Sie vielleicht eine Unternehmenswebsite, morgen technisches SEO, eine <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">Mobile App</a> oder eine <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Logo-Anbindung</a>. Statt Webdesign und Software auf verschiedene Firmen zu verteilen, möchten Sie mit einem einzigen Partner arbeiten.",
+      "outro": "Wenn Sie direkt zu den Bestellschritten möchten, sehen Sie sich „<a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#38bdf8\">Website erstellen lassen in Ankara</a>“ an; die Preisspannen sind dieselben. Kostenloses Erstgespräch: <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>."
     },
     "diff": {
       "title": "Webdesign-Agentur Ankara oder Softwarefirma?",
-      "p1": "Viele Firmen auf Ankara-Webdesign-Listen verkaufen Themes oder PSD. Ozturksoft ist eine <a href=\"/ankara-yazilim-sirketi\" style=\"color:#38bdf8\">Softwarefirma</a> in Çankaya: Corporate-Website, <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#38bdf8\">Shop</a> und technisches SEO entstehen im selben Team. CMS, Formulare, Speed, Schema und Wartung gehören zur Lieferung — niemand sagt „die Agentur ist fertig, suchen Sie einen Entwickler“.",
-      "p2": "Lokale Suchen — Webdesign-Agentur Ankara, Webdesign Ankara, Çankaya Webdesign — dienen Maps und Firmenvergleich. Kickoff im Büro oder bei Ihnen in OSTİM / Söğütözü / Yenimahalle. Andere Städte remote. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Logo</a>, <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">Mobile</a> oder <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#38bdf8\">WhatsApp-Bot</a> kommt vom selben Çankaya-Team."
+      "p1": "Viele Webdesign-Firmen in Ankara verkaufen fertige Themes oder liefern nur Designdateien. Ozturksoft ist dagegen ein <a href=\"/ankara-yazilim-sirketi\" style=\"color:#38bdf8\">Softwareunternehmen</a> in Çankaya: Ihre Unternehmenswebsite, Ihr <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#38bdf8\">Onlineshop</a> und das technische SEO entstehen im selben Team. Verwaltungsbereich, Formulare, Geschwindigkeit, strukturierte Daten (Schema) und Wartung sind inklusive – nach dem Design müssen Sie keinen Entwickler mehr suchen.",
+      "p2": "Wenn Sie lieber mit einem Team in Ihrer Nähe arbeiten, führen wir das Erstgespräch in unserem Büro oder bei Ihnen in OSTİM, Söğütözü oder Yenimahalle. Projekte in Istanbul und anderen Städten betreuen wir aus der Ferne. Bei Bedarf ergänzt dasselbe Team in Çankaya eine <a href=\"/logo-netsis-entegrasyon\" style=\"color:#38bdf8\">Logo-Anbindung</a>, eine <a href=\"/mobil-uygulama-yaptirmak\" style=\"color:#38bdf8\">Mobile App</a> oder einen <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#38bdf8\">WhatsApp-Bot</a>."
     },
     "faq": {
       "title": "Häufige Fragen",
       "q1": "Was kostet Webdesign in Ankara?",
-      "a1": "Corporate-Webdesign 15.000–90.000 TL (3–6 Wochen), E-Commerce 30.000–250.000+ TL, Kampagnenseiten 5.000–15.000 TL. Kickoff kostenlos; Festpreis nach schriftlichem Scope.",
-      "q2": "Agentur oder Softwarefirma?",
-      "a2": "Ozturksoft ist eine Softwarefirma in Ankara und macht Webdesign im selben Team. Keine reinen Mockups oder WordPress-Themes. CMS, SEO-Gerüst und Wartung sind enthalten.",
-      "q3": "Gibt es Termine vor Ort?",
-      "a3": "Ja. Sitz Çankaya. Kickoff in ganz Ankara (OSTİM, Söğütözü, Çankaya, Yenimahalle). Andere Städte per Zoom / remote.",
-      "q4": "Warum gibt es eine eigene „Website erstellen lassen“-Seite?",
+      "a1": "Eine Unternehmenswebsite kostet 15.000–90.000 TL und wird in 3–6 Wochen geliefert. Onlineshops liegen bei 30.000–250.000+ TL, Kampagnenseiten bei 5.000–15.000 TL. Das Erstgespräch ist kostenlos; den genauen Preis nennen wir, sobald wir den Umfang gemeinsam festgehalten haben.",
+      "q2": "Sind Sie eine Agentur oder ein Softwareunternehmen?",
+      "a2": "Ozturksoft ist ein Softwareunternehmen in Ankara, das auch Webdesign im selben Team umsetzt. Sie erhalten nicht nur ein Mock-up oder ein fertiges WordPress-Theme; Verwaltungsbereich, eine suchmaschinenfreundliche Seitenstruktur und Wartung sind inklusive.",
+      "q3": "Können wir uns persönlich treffen?",
+      "a3": "Ja. Unser Sitz ist in Çankaya, und in ganz Ankara (OSTİM, Söğütözü, Çankaya, Yenimahalle) kommen wir zum Erstgespräch vor Ort. Für andere Städte genügt ein Gespräch per Zoom.",
+      "q4": "Gibt es einen Unterschied zwischen Webdesign und „Website erstellen lassen“?",
       "a4link": "Website erstellen lassen Ankara",
-      "a4": "ist die Bestellintention. Diese Seite ist für „Ankara Webdesign-Firmen / Agentur“. Gleiche Preise, andere Suchanfrage."
+      "a4": "– dieser Bereich beschreibt die Schritte und den Umfang für alle, die direkt bestellen möchten. Preise und Team sind in beiden Fällen dieselben."
     },
     "cta": {
       "btn": "Kostenloses Erstgespräch",
       "title": "Kickoff in Ankara vereinbaren",
-      "desc": "Çankaya · kostenloser Kickoff · <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>",
+      "desc": "Çankaya · kostenloses Erstgespräch · <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>",
       "btn2": "Kostenloses Angebot",
       "link1": "Website erstellen lassen",
       "link2": "Softwarefirma"
@@ -1806,67 +1806,67 @@
   },
   "eticaretPage": {
     "hero": {
-      "badge": "WooCommerce · Zahlung · Versand · Logo · Ankara",
+      "badge": "WooCommerce · Onlinezahlung · Versand · Logo · Ankara",
       "title": "E-Commerce-Shop erstellen lassen",
-      "desc": "E-Commerce-Shop erstellen lassen: Produkte einstellen, Zahlung annehmen, versenden. WooCommerce oder Custom-Shop; iyzico/PayTR, Versand-APIs und <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis-Bestand</a> im selben Projekt. Ozturksoft in Çankaya verkauft keine Pakete — schriftliches Angebot, kostenloser Kickoff. Der <a href=\"/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026\" style=\"color:#fb923c\">Kostenleitfaden</a> ist getrennt; hier beauftragen Sie die Arbeit."
+      "desc": "Präsentieren Sie Ihre Produkte online, nehmen Sie Zahlungen online an und versenden Sie bequem. Wir bauen einen WooCommerce- oder individuellen Onlineshop und setzen iyzico/PayTR-Zahlungen, die Anbindung an Versanddienstleister und die <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis-Lageranbindung</a> im selben Projekt um. Statt eines fertigen Pakets erstellt unser Team in Çankaya ein schriftliches Angebot für Ihr Geschäft; das Erstgespräch ist kostenlos. Die Kostenpunkte im Detail finden Sie in unserem <a href=\"/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026\" style=\"color:#fb923c\">Kostenleitfaden</a>."
     },
     "pricing": {
       "title": "E-Commerce-Website-Preis (2026)",
-      "intro": "Preis hängt von SKUs, Zahlung, Versand und ERP ab. Bänder unten: Markt Ankara 2026; Kickoff kostenlos, Angebot schriftlich.",
+      "intro": "Der Preis hängt von der Zahl der Produkte, den Zahlungs- und Versandoptionen und der Anbindung an Ihr ERP (Buchhaltungs- und Lagersoftware) ab. Die folgenden Preisspannen gelten für 2026; der genaue Preis wird nach einem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt.",
       "col1": "Umfang",
       "col2": "Preis",
       "col3": "Dauer",
       "row1": "WooCommerce / Fertigtheme",
       "row2": "Individuell gestalteter Shop (~100 SKUs)",
       "row3": "ERP + Versand + Mehrfachzahlung",
-      "row4": "B2B / Marketplace",
+      "row4": "B2B / Marktplatz",
       "t1": "3–5 Wochen",
       "t2": "6–10 Wochen",
       "t3": "10–16 Wochen",
       "t4": "4–8 Monate",
       "linkGuide": "E-Commerce-Kostenleitfaden",
-      "linkNote": "ist die Positionsübersicht; den Shop beauftragen Sie auf dieser Seite.",
-      "linkB2b": "Für Händlerbestellungen: <a href=\"/b2b-bayi-portali\" style=\"color:#60a5fa\">B2B-Händlerportal (Türkisch) →</a>"
+      "linkNote": "erklärt jeden Kostenpunkt im Detail; wenn Sie Ihren Shop erstellen lassen möchten, sprechen Sie uns einfach direkt an.",
+      "linkB2b": "Sie suchen ein Bestellsystem für Ihre Händler? <a href=\"/b2b-bayi-portali\" style=\"color:#60a5fa\">B2B-Händlerportal (Türkisch) →</a>"
     },
     "cards": {
-      "c1title": "🛒 Online-Shop",
-      "c1desc": "Katalog, Warenkorb, Bestand, Coupons und Varianten. Mobile First; von 50 Produkten bis 10.000 SKUs.",
-      "c2title": "💳 Zahlung und Versand",
-      "c2desc": "iyzico, PayTR und Bank-POS. Yurtiçi, Aras, MNG-APIs; Gebühren und Tracking automatisch.",
-      "c3title": "🔗 Logo / Netsis-Bestand",
-      "c3desc": "Auftrag ins ERP, Bestand zurück. Kein Doppelerfassen; Logo im selben Projekt.",
+      "c1title": "Onlineshop",
+      "c1desc": "Produktkatalog, Warenkorb, Lagerbestand, Rabattgutscheine und Produktvarianten wie Größe oder Farbe. Mobile-first gestaltet; wächst von 50 Produkten bis zu 10.000 Artikelvarianten (SKU).",
+      "c2title": "Zahlung und Versand",
+      "c2desc": "Sie nehmen Zahlungen über iyzico, PayTR und virtuelles Bank-POS an. Dank der Anbindung an Yurtiçi, Aras und MNG werden Versandkosten und Sendungsnummer automatisch in die Bestellung eingetragen.",
+      "c3title": "Logo / Netsis-Lageranbindung",
+      "c3desc": "Bestellungen gelangen automatisch in Ihr ERP, der aktuelle Lagerbestand fließt zurück in den Shop. So müssen Sie nichts doppelt erfassen und keinen Bestand mehr in Excel führen.",
       "c3link": "Logo-Netsis-Anbindung →",
-      "c4title": "💬 WhatsApp-Bestellung",
-      "c4desc": "Shop + WhatsApp-Chatbot in einem Projekt. Katalogfragen und Bestelllinie bleiben auf der Site.",
+      "c4title": "Bestellungen per WhatsApp",
+      "c4desc": "Shop und WhatsApp-Chatbot entstehen im selben Projekt. Ihre Kunden können per WhatsApp Fragen zu Produkten stellen und bestellen – alles bleibt mit Ihrem Shop verbunden.",
       "c4link": "WhatsApp-Chatbot erstellen lassen →",
       "c1link": "Kickoff vereinbaren →",
       "c2link": "ERP und Bestand anbinden →"
     },
     "who": {
-      "title": "Wer lässt einen E-Commerce-Shop bauen?",
-      "intro": "Suchen nach „E-Commerce-Shop erstellen lassen“ und „E-Commerce-Preis“ meinen Warenkorb, Zahlung, Versand und Bestand. Vom Laden, der online will, bis zur Marke, die nur auf Trendyol steht. Ozturksoft liefert WooCommerce oder Custom; Logo/Netsis bleibt im Team.",
-      "i1": "Sie haben ein Ladenlokal und wollen auch online verkaufen. Katalog, Warenkorb, iyzico/PayTR und Versand auf einer Site; Sie suchen ein lokales Team für E-Commerce-Software in Ankara.",
-      "i2": "Sie verkaufen auf Trendyol oder Hepsiburada ohne eigenen Shop. Unabhängiger Store für Provision und Marke; Marktplatz- und Site-Bestand dürfen nicht kollidieren.",
-      "i3": "Großhandel und Händler laufen in Excel. B2B-Preise, Kontokorrent und Mindestmengen; Marketplace oder Händlerpanel im selben Projekt.",
-      "i4": "Fertigpakete passen nicht zu Bestand, Versand oder Logo. Kampagnen, Last oder ERP brauchen mehr als WooCommerce — <a href=\"/ozel-yazilim-yaptirmak\" style=\"color:#fb923c\">Custom-Shop</a>.",
-      "outro": "Die <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#fb923c\">Corporate-Broschüre</a> ist eine andere Seite. Hier geht es um den Shop mit Warenkorb und Zahlung. Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#fb923c\">+90 546 549 6806</a>."
+      "title": "Wer lässt einen Onlineshop erstellen?",
+      "intro": "Ein KMU, das sein Geschäft ins Internet bringt, und eine Marke, die auf Trendyol verkauft, aber keinen eigenen Shop hat, brauchen dasselbe: Warenkorb, Onlinezahlung, Versand und korrekte Lagerbestände. Ozturksoft setzt das mit WooCommerce oder individueller Software um; die Logo/Netsis-Anbindung übernimmt dasselbe Team.",
+      "i1": "Sie haben ein Ladengeschäft und möchten auch online verkaufen. Produktkatalog, Warenkorb, iyzico/PayTR-Zahlung und Versandanbindung sollen auf einer Website laufen, und Sie suchen ein lokales Team in Ankara, das liefert.",
+      "i2": "Sie verkaufen auf Trendyol oder Hepsiburada, haben aber keinen eigenen Shop. Um Provisionen zu senken und die Kontrolle über Ihre Marke zu behalten, möchten Sie einen unabhängigen Onlineshop – ohne dass sich Marktplatz- und Shopbestand widersprechen.",
+      "i3": "Großhandels- und Händlerbestellungen verwalten Sie noch in Excel. Sie brauchen händlerspezifische Preislisten (B2B), Kundenkonten und Mindestbestellwerte und möchten einen Marktplatz oder ein Händlerpanel im selben Projekt.",
+      "i4": "Fertige Pakete passen nicht zu Ihren Anforderungen an Lager, Versand und Logo. Für besondere Kampagnen, hohen Traffic oder eine ERP-Anbindung reicht WooCommerce nicht aus, und Sie möchten <a href=\"/ozel-yazilim-yaptirmak\" style=\"color:#fb923c\">individuelle E-Commerce-Software</a>.",
+      "outro": "Wenn Sie nur eine Website suchen, die Ihr Unternehmen vorstellt – ohne Warenkorb und Zahlung –, sehen Sie sich unser Angebot für <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#fb923c\">Unternehmenswebsites</a> an. Kostenloses Erstgespräch: <a href=\"tel:+905465496806\" style=\"color:#fb923c\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "Häufige Fragen",
       "q1": "Was kostet ein E-Commerce-Shop?",
-      "a1": "WooCommerce 25.000–45.000 TL, Custom-Design 45.000–75.000 TL, ERP+Versand+Zahlung 75.000–120.000 TL, B2B/Marketplace 120.000–250.000+ TL. KMU-Schnitt 50.000–80.000 TL; Kickoff kostenlos.",
-      "q2": "WooCommerce oder Custom?",
-      "a2": "WooCommerce reicht für 50–200 Produkte und Standard-Checkout. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a>, Kampagnen oder Last sprechen für Custom. Die Entscheidung steht nach Produkt- und Integrationsliste im Kickoff.",
+      "a1": "Ein WooCommerce-Shop kostet 25.000–45.000 TL, ein individuell gestalteter Shop 45.000–75.000 TL, ein Shop mit ERP-, Versand- und Zahlungsanbindung 75.000–120.000 TL, B2B- oder Marktplatzprojekte 120.000–250.000+ TL. Der KMU-Durchschnitt liegt bei 50.000–80.000 TL; das Erstgespräch ist kostenlos.",
+      "q2": "WooCommerce oder individuelle Software?",
+      "a2": "Wenn Sie 50–200 Produkte verkaufen und Ihr Verkaufsprozess standardmäßig ist, reicht WooCommerce. Für eine <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a>-Anbindung, besondere Kampagnen oder hohen Traffic empfehlen wir individuelle E-Commerce-Software. Die Entscheidung treffen wir gemeinsam im Erstgespräch anhand Ihrer Produkt- und Integrationsliste.",
       "q3": "Unterschied zur Corporate-Website?",
       "a3link": "Website erstellen lassen",
-      "a3": "ist die Broschüre. Hier gibt es Warenkorb, Zahlung und Versand. Beides vom selben Team möglich.",
-      "q4": "Werden Zahlung und Versand angebunden?",
-      "a4": "Ja. iyzico, PayTR, Bank-POS und Yurtiçi/Aras/MNG. <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">WhatsApp-Bestellung</a> im selben Projekt. Dauer: Theme 3–5 Wochen, Custom 6–10, ERP-Shop 10–16 Wochen."
+      "a3": "ist unser Angebot für Unternehmenswebsites, die Ihre Firma vorstellen. Ein Onlineshop bietet zusätzlich Warenkorb, Onlinezahlung und Versand. Beides können Sie beim selben Team beauftragen.",
+      "q4": "Lassen sich Zahlungs- und Versandsysteme anbinden?",
+      "a4": "Ja. Wir richten iyzico, PayTR, virtuelles Bank-POS und die Versandanbindung an Yurtiçi/Aras/MNG ein. Auf Wunsch kommen <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">Bestellungen per WhatsApp</a> im selben Projekt hinzu. Dauer: fertiges Theme 3–5 Wochen, individuelles Design 6–10 Wochen, Shop mit ERP-Anbindung 10–16 Wochen."
     },
     "cta": {
       "btn": "Kostenloses Erstgespräch",
       "title": "Lassen Sie uns über Ihren Shop sprechen",
-      "desc": "Kostenloser Kickoff — SKUs, Zahlung, ERP. <a href=\"tel:+905465496806\" style=\"color:#fb923c\">+90 546 549 6806</a>",
+      "desc": "Sprechen wir im kostenlosen Erstgespräch über Ihre Produktanzahl, Zahlungsoptionen und Ihren ERP-Bedarf. <a href=\"tel:+905465496806\" style=\"color:#fb923c\">+90 546 549 6806</a>",
       "btn2": "Kostenloses Angebot",
       "link1": "Website erstellen lassen",
       "link2": "Kostenleitfaden"
@@ -1889,67 +1889,67 @@
     "hero": {
       "badge": "Rechnung · Lieferschein · Belege · Logo / Netsis · Ankara",
       "title": "Rechnungslese-Software",
-      "desc": "Rechnungslese-Software: Felder aus Rechnung, Lieferschein und Belegen aus PDF oder WhatsApp-Fotos lesen und in <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo, Netsis</a> oder Ihre Buchhaltung schreiben. Manuelle Erfassung endet. Ozturksoft in Çankaya verkauft keine Box; OCR wird auf Ihre Vorlagen plus Freigabeschicht trainiert. Schriftliches Angebot, kostenloser Kickoff."
+      "desc": "Eine Rechnungslese-Software liest die Angaben auf Rechnungen, Lieferscheinen und anderen Belegen automatisch aus, ob sie als PDF eingehen oder als Foto per WhatsApp, und überträgt sie nach <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo, Netsis</a> oder in Ihre bestehende Buchhaltungssoftware. So muss Ihr Team diese Daten nicht mehr von Hand eingeben. Ozturksoft richtet ein auf Ihre Belegvorlagen trainiertes Belegerkennungssystem (OCR) ein, dazu einen Freigabeschritt, in dem Sie die Buchungen prüfen können. Das Erstgespräch ist kostenlos, das Angebot erhalten Sie schriftlich."
     },
     "pricing": {
       "title": "Rechnung-OCR-Preis (2026)",
-      "intro": "Preis hängt von Belegtypen, Sprache, Freigabe und ERP ab. Bänder: Markt Ankara 2026; Kickoff kostenlos, Angebot schriftlich.",
+      "intro": "Der Preis hängt von den zu lesenden Belegarten, ihrer Sprache, dem Freigabeschritt und der Anbindung an Ihr ERP (Unternehmenssoftware) ab. Die folgenden Preisspannen gelten für 2026; den genauen Preis legen wir nach einem kostenlosen Erstgespräch in einem schriftlichen Angebot fest.",
       "col1": "Umfang",
       "col2": "Preis",
       "col3": "Dauer",
-      "row1": "Ein Belegtyp (Rechnungs-OCR)",
-      "row2": "Mehrere Belege + Klassifikation",
-      "row3": "Enterprise Document-AI-Plattform",
+      "row1": "Eine Belegart (Rechnungserkennung)",
+      "row2": "Mehrere Belegarten mit automatischer Klassifizierung",
+      "row3": "Dokumenten-KI-Plattform für Unternehmen",
       "t1": "3–6 Wochen",
       "t2": "6–10 Wochen",
       "t3": "3–5 Monate",
-      "linkGuide": "Was ist OCR?",
-      "linkNote": "ist der Erklärtext; Rechnungslese-Software beauftragen Sie hier.",
+      "linkGuide": "Unser Leitfaden „Was ist OCR?“",
+      "linkNote": "erklärt verständlich, wie Belegerkennung funktioniert.",
       "linkOcr": "Für andere Dokumente als Rechnungen (Verträge, Formulare, Bankbelege, Archive): <a href=\"/ocr-belge-okuma\" style=\"color:#60a5fa\">OCR- und Dokumentenerkennungssoftware →</a>",
-      "linkPdfGuide": "E-Rechnungen, E-Archiv- und PDF-Rechnungen automatisch in die Buchhaltung übertragen: <a href=\"/blog/pdf-e-fatura-muhasebeye-aktarma-2026\" style=\"color:#60a5fa\">Leitfaden (Türkisch) →</a>"
+      "linkPdfGuide": "Wie E-Rechnungen, E-Archiv- und PDF-Rechnungen automatisch in die Buchhaltung gelangen: <a href=\"/blog/pdf-e-fatura-muhasebeye-aktarma-2026\" style=\"color:#60a5fa\">Leitfaden (Türkisch) →</a>"
     },
     "cards": {
-      "c1title": "🧾 Rechnungs- und Lieferschein-OCR",
-      "c1desc": "Steuernummer, Datum, MwSt., Beträge und Zeilen aus PDF oder Handyfoto. Gemischte Lieferantenlayouts per Vorlagentraining.",
-      "c2title": "🔗 Logo- / Netsis-Buchung",
-      "c2desc": "Gelesene Rechnungen werden als Buchungsbeleg ins ERP geschrieben. Doppelte Erfassung endet; SAP oder Custom-FiBu ebenfalls.",
+      "c1title": "Rechnungen und Lieferscheine auslesen",
+      "c1desc": "Steuernummer (VKN), Datum, MwSt., Betrag und Positionen werden automatisch aus PDF oder Handyfoto ausgelesen. Auch unterschiedliche Rechnungslayouts Ihrer Lieferanten liest das System, weil es auf Ihre Vorlagen trainiert wird.",
+      "c2title": "Buchung in Logo und Netsis",
+      "c2desc": "Die ausgelesene Rechnung wird als Buchungsbeleg in Ihrem ERP erfasst; dieselben Daten müssen Sie nicht zweimal eingeben. Auch eine Übertragung nach SAP oder in eine individuelle Buchhaltungssoftware ist möglich.",
       "c2link": "Logo-Netsis-Anbindung →",
-      "c3title": "📁 Verträge und Belegarchiv",
-      "c3desc": "Neben Rechnungen: Verträge, Ausschreibungen und Behördenakten klassifiziert und suchbar. Digitales Archiv auf derselben Plattform.",
-      "c4title": "⚙️ Menschliche Freigabe",
-      "c4desc": "Ziel 95 %+ Feldgenauigkeit; unsichere Zeilen an die Buchhaltung. Auto-Buchungsfehler zerstören den Beleg nicht.",
+      "c3title": "Vertrags- und Dokumentenarchiv",
+      "c3desc": "Neben Rechnungen werden auch Verträge, Ausschreibungsunterlagen und amtliche Dokumente klassifiziert und sind leicht durchsuchbar. Ihr digitales Archiv läuft auf derselben Plattform.",
+      "c4title": "Prüf- und Freigabeschritt",
+      "c4desc": "Angestrebt werden 95%+ Feldgenauigkeit; Zeilen, bei denen das System unsicher ist, gehen zur Freigabe an Ihre Buchhaltung. So gelangt keine fehlerhafte Buchung in Ihre Belege.",
       "c4link": "Prozessautomatisierung →",
-      "c1link": "Kickoff vereinbaren →",
+      "c1link": "Erstgespräch vereinbaren →",
       "c3link": "KI-Integration →"
     },
     "who": {
-      "title": "Wer beauftragt Rechnungslese-Software?",
-      "intro": "Suchen nach „Rechnungsleseprogramm“ und „Rechnungs-OCR“ meinen: Felder aus PDF und Fotos ins ERP. Von Buchhaltungsteams mit Dutzenden Belegen am Tag bis zu Behördenarchiven. Ozturksoft verkauft keine Box; OCR auf Ihre Lieferantenvorlagen, Buchung nach Logo/Netsis.",
-      "i1": "Dutzende Rechnungen und Lieferscheine werden per Hand erfasst; die Buchhaltung kommt nicht hinterher. Steuer-ID, MwSt. und Zeilen werden kopiert — Fehler und Verzug. Rechnungsscan soll das automatisieren.",
-      "i2": "Lieferanten senden PDF oder WhatsApp-Fotos, die nie in <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo oder Netsis</a> landen. Doppelte Erfassung, fehlende Belege, Monatsende-Stau. Gelesene Sätze sollen direkt in die FiBu.",
-      "i3": "Behörden-, Holding- oder Rechtsarchive sind nicht durchsuchbar. Verträge und Ausschreibungen sollen neben Rechnungen klassifiziert im Digitalarchiv liegen.",
-      "i4": "Box-OCR passt nicht zu Ihren Rechnungsvorlagen. Türkische Belege, gemischte Layouts und Ihr Freigabefluss brauchen Training und eine Prüfstufe.",
-      "outro": "Wenn Sie „was ist OCR“ gesucht haben, ist der <a href=\"/blog/ankara-ocr-belge-ai-2026\" style=\"color:#60a5fa\">Leitfaden</a> getrennt. Hier beauftragen Sie Rechnungslese-Software. Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>."
+      "title": "Für wen eignet sich eine Rechnungslese-Software?",
+      "intro": "Eine Rechnungslese-Software liest die Angaben auf Rechnungen, die als PDF oder Foto eingehen, automatisch aus und überträgt sie in Ihr ERP oder Ihre Buchhaltungssoftware. Sie spart vielen Organisationen Zeit – von Buchhaltungsteams, die täglich Dutzende Belege von Hand erfassen, bis zu Behörden, die ihr Archiv digitalisieren möchten. Ozturksoft richtet ein auf die Rechnungsvorlagen Ihrer Lieferanten trainiertes Belegerkennungssystem (OCR) samt Übertragung nach Logo/Netsis ein.",
+      "i1": "Täglich werden Dutzende Rechnungen und Lieferscheine von Hand erfasst, und Ihre Buchhaltung kommt nicht hinterher. Weil Steuernummer, MwSt. und Positionen einzeln abgetippt werden, häufen sich Fehler und Verzögerungen; Sie möchten diese Arbeit automatisieren.",
+      "i2": "Rechnungen, die Ihre Lieferanten als PDF oder WhatsApp-Foto schicken, gelangen nicht von selbst nach <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo oder Netsis</a>. Doppelte Buchungen, fehlende Belege und Stau zum Monatsende sind die Folge; Sie möchten, dass ausgelesene Daten direkt in der Buchhaltung landen.",
+      "i3": "Als Behörde, Holding oder Kanzlei finden Sie in Ihrem Dokumentenarchiv nur mühsam, was Sie suchen. Neben Rechnungen sollen auch Verträge und Ausschreibungsunterlagen klassifiziert und im digitalen Archiv leicht auffindbar sein.",
+      "i4": "Die Standard-OCR-Programme, die Sie getestet haben, passten nicht zu Ihren Rechnungslayouts. Ihre türkischen Belege, unterschiedlichen Lieferantenformate und Ihr Freigabeprozess brauchen ein speziell für Sie trainiertes System und eine menschliche Kontrolle.",
+      "outro": "Wenn Sie zuerst erfahren möchten, was OCR ist, lesen Sie unseren <a href=\"/blog/ankara-ocr-belge-ai-2026\" style=\"color:#60a5fa\">Leitfaden</a>. Kostenloses Erstgespräch zu Ihrem Projekt: <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>."
     },
     "faq": {
-      "title": "Häufige Fragen",
+      "title": "Häufig gestellte Fragen",
       "q1": "Was kostet Rechnungslese-Software?",
-      "a1": "Ein Belegtyp 45.000–90.000 TL (3–6 Wochen), mehrere Belege + Klassifikation 90.000–180.000 TL, Enterprise Document-AI 180.000–350.000+ TL. Kickoff kostenlos; Festpreis nach Musterbelegen.",
-      "q2": "Schreibt es nach Logo oder Netsis?",
-      "a2": "Ja. Rechnungs- und Lieferscheinfelder per API nach <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo, Netsis</a> oder Ihre FiBu. SAP und Custom-Ledgers ebenfalls; Doppelte Erfassung endet.",
-      "q3": "Fertigpaket oder Custom?",
-      "a3": "OCR-Engine plus Training auf Ihre Vorlagen. Keine Box; Installation gegen Logo/Netsis und Ihren Freigabefluss. Menschliche Freigabe zielt auf 95 %+ Feldgenauigkeit.",
-      "q4": "Ich wollte nur wissen, was OCR ist?",
-      "a4link": "Ankara OCR- und Document-AI-Leitfaden",
-      "a4": "ist der Erklärtext. Rechnungslese-Software beauftragen Sie auf dieser Seite; kostenloser Kickoff über /iletisim."
+      "a1": "Rechnungserkennung für eine Belegart kostet 45.000–90.000 TL (3–6 Wochen), mehrere Belegarten mit Klassifizierung 90.000–180.000 TL, eine Dokumenten-KI-Plattform für Unternehmen 180.000–350.000+ TL. Das Erstgespräch ist kostenlos; den genauen Preis nennen wir schriftlich, nachdem wir Beispielbelege gesehen haben.",
+      "q2": "Kann die Software Daten nach Logo oder Netsis übertragen?",
+      "a2": "Ja. Die ausgelesenen Rechnungs- und Lieferscheindaten werden per API-Anbindung nach <a href=\"/logo-netsis-entegrasyon\" style=\"color:#60a5fa\">Logo, Netsis</a> oder in Ihre bestehende Buchhaltungssoftware übertragen. Auch SAP und individuelle Buchhaltungslösungen lassen sich anbinden; dieselben Daten müssen Sie nicht zweimal eingeben.",
+      "q3": "Standardpaket oder individuelle Software?",
+      "a3": "Wir trainieren eine bewährte OCR-Engine gezielt auf Ihre Belegvorlagen. Das System ist kein Programm von der Stange, sondern wird passend zu Ihrer Logo/Netsis-Umgebung und Ihrem Freigabeprozess eingerichtet. Mit menschlicher Kontrolle im Freigabeschritt werden 95%+ Feldgenauigkeit angestrebt.",
+      "q4": "Was ist OCR und wie funktioniert es?",
+      "a4link": "Unser Leitfaden zu OCR und Dokumenten-KI aus Ankara",
+      "a4": "beantwortet diese Frage ausführlich. Für eine Software zu Ihren eigenen Rechnungen vereinbaren Sie über /iletisim ein kostenloses Erstgespräch."
     },
     "cta": {
       "btn": "Kostenloses Erstgespräch",
       "title": "Sprechen wir über Ihren Rechnungsfluss",
-      "desc": "Kostenloser Kickoff — Belegmenge, welches ERP, Budget. <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>",
+      "desc": "Im kostenlosen Erstgespräch besprechen wir Belegmenge, ERP und Budget gemeinsam. <a href=\"tel:+905465496806\" style=\"color:#60a5fa\">+90 546 549 6806</a>",
       "btn2": "Kostenloses Angebot",
       "link1": "Prozessautomatisierung",
-      "link2": "Was ist OCR?"
+      "link2": "Leitfaden: Was ist OCR?"
     },
     "footer": "© 2026 Ozturksoft — Rechnungslese-Software",
     "related": {
@@ -1965,32 +1965,32 @@
     "hero": {
       "badge": "ChatGPT · GPT · Claude · RAG · KVKK · +90 546 549 6806",
       "title": "KI-Integration",
-      "desc": "KI-Integration: ChatGPT / GPT, Claude oder Llama an Ihre Software. Antworten aus Unternehmensdokumenten (RAG), Chatbot, On-Premise KVKK. Ein ChatGPT-Konto ist keine Integration — API, Rechte und Prozess werden verdrahtet. Ozturksoft in Çankaya verkauft kein Paket; schriftliches Angebot, kostenloser Kickoff. Leitfäden getrennt: <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">LLM-Leitfaden</a> · <a href=\"/blog/ankara-llm-entegrasyonu-maliyeti-2026\" style=\"color:#818cf8\">Kosten</a>."
+      "desc": "Wir verbinden ein KI-Modell wie ChatGPT (GPT), Claude oder Llama mit der Software, die Sie bereits nutzen. So kann das Modell aus Ihren Unternehmensdokumenten antworten (RAG), als Chatbot auf Ihrer Website arbeiten oder gemäß KVKK auf Ihrem eigenen Server bleiben. Das ist etwas anderes als ein ChatGPT-Konto: Das Modell wird über eine API (die Verbindung, über die Systeme miteinander kommunizieren) an Ihre Systeme und Abläufe angebunden, und Zugriffsrechte werden festgelegt. Ozturksoft setzt jedes Projekt von Çankaya aus passend zu Ihrem Bedarf um; das Erstgespräch ist kostenlos, das Angebot erhalten Sie schriftlich. Wenn Sie sich zuerst einlesen möchten: <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">LLM-Leitfaden</a> · <a href=\"/blog/ankara-llm-entegrasyonu-maliyeti-2026\" style=\"color:#818cf8\">Kostenartikel</a>."
     },
     "pricing": {
       "title": "KI-Integrationspreis (2026)",
-      "intro": "Preis nach Modell, RAG, KVKK und Systemen. 2026-Ankara-Bänder; Discovery gratis, Angebot schriftlich. Monatliche API/Tokens extra (typisch 12.000–90.000 TL/Monat).",
+      "intro": "Der Preis hängt vom Modell, den Dokumenten, mit denen die KI arbeitet (RAG-Umfang), den KVKK-Anforderungen und den anzubindenden Systemen ab. Die Spannen unten gelten für 2026; den genauen Preis nennt ein schriftliches Angebot nach dem kostenlosen Erstgespräch. Monatliche API-/Token-Gebühren kommen hinzu (typisch 12.000–90.000 TL/Monat).",
       "row1": "GPT- / ChatGPT-Chatbot",
-      "row2": "RAG / interner Assistent",
-      "row3": "On-Premise / Enterprise-KI",
+      "row2": "Assistent, der aus Unternehmensdokumenten antwortet (RAG)",
+      "row3": "Installation im eigenen Haus / Unternehmens-KI",
       "t1": "3–5 Wochen",
       "t2": "6–10 Wochen",
       "t3": "2–6 Monate",
       "linkGuide": "LLM-Kostenleitfaden",
-      "linkLlm": "LLM- / GPT-Leitfaden"
+      "linkLlm": "LLM- und GPT-Leitfaden"
     },
     "cards": {
-      "c1title": "💬 ChatGPT / GPT anbinden",
-      "c1desc": "OpenAI-, Claude- oder Llama-API in Ihre Geschäftssoftware. Rechte, Logs und Antwortvorlagen nach Ihrem Prozess. Ein ChatGPT-Tab reicht nicht; Integration beendet Copy-Paste.",
-      "c1link": "Kickoff vereinbaren →",
-      "c2title": "📄 RAG — Unternehmensdokumente",
-      "c2desc": "Verfahren, Preislisten, Akten. Das Modell soll nicht erfinden; es antwortet aus Ihrem Text. Interner KI-Assistent ist diese Schicht.",
-      "c2link": "Was ist RAG →",
-      "c3title": "🔒 On-Premise / KVKK",
-      "c3desc": "Behörden und Holdings: Daten bleiben im Firmennetz. TR-Hosting oder lokales Modell. <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#818cf8\">Behörden-KI</a> und <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#818cf8\">KVKK-Leitfaden</a> getrennt.",
+      "c1title": "ChatGPT an Ihre Software anbinden",
+      "c1desc": "Wir binden ein Modell von OpenAI, Claude oder Llama per API an Ihre Unternehmenssoftware an. Rechte, Protokolle und Antwortvorlagen richten sich nach Ihren Abläufen; Ihr Team muss nicht mehr in ChatGPT kopieren und einfügen.",
+      "c1link": "Erstgespräch vereinbaren →",
+      "c2title": "Antworten aus Unternehmensdokumenten (RAG)",
+      "c2desc": "Ihre Verfahren, Preislisten und Unterlagen werden zur Quelle der KI. Statt zu raten, antwortet das Modell aus Ihren eigenen Texten; so arbeitet ein interner Unternehmensassistent.",
+      "c2link": "Was ist RAG? →",
+      "c3title": "Installation im eigenen Haus und KVKK",
+      "c3desc": "In Behörden und Holdings bleiben die Daten im Netzwerk der Organisation; das System kann in der Türkei gehostet werden oder mit einem lokalen Modell laufen. Mehr dazu: <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#818cf8\">KI im öffentlichen Sektor</a> und <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#818cf8\">KVKK-Leitfaden</a>.",
       "c3link": "Firmeneigenes ChatGPT →",
-      "c4title": "⚡ Chatbot und Agent getrennt",
-      "c4desc": "Kanal-Bot: <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp-Chatbot</a>; autonome Arbeit: <a href=\"/ai-agent\" style=\"color:#818cf8\">AI-Agent</a>. Diese Seite verdrahtet das LLM; die anderen Jobs bleiben auf eigenen URLs.",
+      "c4title": "Chatbot- und KI-Agent-Leistungen",
+      "c4desc": "Für einen Bot, der mit Ihren Kunden über WhatsApp spricht, gibt es unseren <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp-Chatbot</a>; für eine KI, die Aufgaben selbstständig erledigt, unseren <a href=\"/ai-agent\" style=\"color:#818cf8\">KI-Agenten</a>.",
       "c4link": "AI-Agent beauftragen →"
     },
     "who": {
@@ -2003,22 +2003,22 @@
       "outro": "Wenn Sie sich zuerst informieren möchten, lesen Sie unseren <a style=\"color:#818cf8\" href=\"/blog/llm-gpt-entegrasyonu-rehberi\">Leitfaden zur LLM- und GPT-Integration</a>. Kostenloses Erstgespräch für Ihr Projekt: <a style=\"color:#818cf8\" href=\"tel:+905465496806\">+90 546 549 6806</a>."
     },
     "faq": {
-      "title": "Häufige Fragen",
+      "title": "Häufig gestellte Fragen",
       "q1": "Was kostet KI-Integration?",
-      "a1": "GPT-/ChatGPT-Chatbot 40.000–80.000 TL (3–5 Wochen), RAG-Assistent 80.000–200.000 TL (6–10 Wochen), On-Premise Enterprise 150.000–500.000+ TL. Kickoff kostenlos; Festpreis nach Umfang. Monatliche API extra.",
-      "q2": "Ist ChatGPT-Integration ein Konto?",
-      "a2": "Nein. Ein ChatGPT-Konto bleibt Copy-Paste. Integration ist API, Rechte, RAG und Anbindung an die Geschäftssoftware. Antworten aus Ihren Dokumenten; Prozesslog bleibt.",
-      "q3": "Verlassen Daten das Unternehmen?",
-      "a3": "Nicht zwingend. On-Premise oder Hosting in der Türkei. Bei Behörden und Holdings bleiben Daten im Firmennetz. Modell (GPT, Claude, Llama) im Kickoff.",
-      "q4": "Sind Chatbot und AI-Agent auf dieser Seite?",
-      "a4": "Web-Chatbot auf <a href=\"/chatbot-yaptirmak\" style=\"color:#818cf8\">Chatbot erstellen lassen</a>, WhatsApp auf <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp-Chatbot</a>, autonome Arbeit auf <a href=\"/ai-agent\" style=\"color:#818cf8\">AI-Agent</a>. Diese URL verdrahtet LLM / ChatGPT / RAG.",
-      "q5": "Was kostet die monatliche API / Token?",
-      "a5": "Bau (40.000–500.000+ TL) einmalig. Monatliche OpenAI-, Claude-, Azure-OpenAI- oder Gemini-Tokens extra: leichter Bot 12.000–35.000 TL/Monat, starkes RAG 35.000–90.000 TL/Monat. WhatsApp-Meta auf der Kanal-Seite. On-Premise ersetzt Tokens durch GPU. Discovery gratis."
+      "a1": "Ein GPT/ChatGPT-Chatbot kostet 40.000–80.000 TL (3–5 Wochen), ein RAG-Assistent, der aus Unternehmensdokumenten antwortet, 80.000–200.000 TL (6–10 Wochen), eine Unternehmensinstallation im eigenen Haus (On-Premise) 150.000–500.000+ TL. Das Erstgespräch ist kostenlos; den genauen Preis nennen wir, sobald wir den Umfang gemeinsam festgehalten haben. Die monatliche API-Gebühr des Modells kommt hinzu.",
+      "q2": "Bedeutet ChatGPT-Integration einfach, ein ChatGPT-Konto zu eröffnen?",
+      "a2": "Nein. Mit einem bloßen Konto kopiert Ihr Team Informationen weiter von Hand in ChatGPT. Bei der Integration wird das Modell per API an Ihre Software angebunden, Rechte werden festgelegt und dank RAG stammen die Antworten aus Ihren Dokumenten; zudem wird alles protokolliert.",
+      "q3": "Verlassen unsere Daten das Unternehmen?",
+      "a3": "Nicht nötig. Das System kann auf Ihrem eigenen Server (On-Premise) installiert oder in der Türkei gehostet werden; in Behörden und Holdings bleiben die Daten im eigenen Netz. Welches Modell (GPT, Claude, Llama) eingesetzt wird, klären wir im Erstgespräch.",
+      "q4": "Kann ich auch einen Chatbot oder KI-Agenten erstellen lassen?",
+      "a4": "Ja. Für einen Chat-Assistenten auf Ihrer Website siehe <a href=\"/chatbot-yaptirmak\" style=\"color:#818cf8\">Chatbot erstellen lassen</a>, für WhatsApp <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp-Chatbot</a> und für eine KI, die Aufgaben selbstständig erledigt, <a href=\"/ai-agent\" style=\"color:#818cf8\">KI-Agent</a>.",
+      "q5": "Wie hoch ist die monatliche API- bzw. Token-Gebühr?",
+      "a5": "Die Einrichtungsgebühr (40.000–500.000+ TL) zahlen Sie einmalig. Dazu kommt bei Modellen wie OpenAI, Claude, Azure OpenAI oder Gemini eine monatliche Token-Gebühr (Tokens messen die Textmenge, die das Modell verarbeitet): 12.000–35.000 TL/Monat für einen wenig genutzten Bot, 35.000–90.000 TL/Monat für einen intensiv genutzten RAG-Assistenten. Die Gesprächsgebühren von Meta für WhatsApp erläutern wir auf der WhatsApp-Chatbot-Seite. Installieren Sie das System auf Ihrem eigenen Server, fallen statt Tokens Server-/GPU-Kosten an. Das Erstgespräch ist kostenlos; der genaue Betrag richtet sich nach Ihrem Nutzungsvolumen."
     },
     "cta": {
       "btn": "Kostenloses Erstgespräch",
       "title": "Sprechen wir über Ihr KI-Projekt",
-      "desc": "Kostenloser Kickoff — Modell, KVKK, Budget. <a href=\"tel:+905465496806\" style=\"color:#818cf8\">+90 546 549 6806</a>",
+      "desc": "Im kostenlosen Erstgespräch klären wir Modell, KVKK und Budget gemeinsam. <a href=\"tel:+905465496806\" style=\"color:#818cf8\">+90 546 549 6806</a>",
       "btn2": "Kostenloses Angebot"
     },
     "footer": "© 2026 Ozturksoft — KI-Integration",
@@ -2036,22 +2036,22 @@
     },
     "stats": {
       "s1l": "GPT- / ChatGPT-Chatbot",
-      "s2l": "RAG / interner Assistent",
-      "s3l": "RAG-Lieferung"
+      "s2l": "Assistent mit Ihren Dokumenten (RAG)",
+      "s3l": "Lieferzeit RAG-Assistent"
     }
   },
   "chatbotPage": {
     "hero": {
       "badge": "Web · GPT · CRM · KVKK · +90 546 549 6806",
       "title": "Chatbot erstellen lassen",
-      "desc": "Chatbot beauftragen: 7/24 Antworten auf der Website, GPT und RAG aus Unternehmensdokumenten. Ozturksoft in Çankaya verkauft keinen Box-Bot; schriftliches Angebot, kostenloser Kickoff. WhatsApp ist ein eigener Kanal — <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp-Chatbot erstellen lassen</a>. Leitfaden: <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">Chatbot-Kosten</a>."
+      "desc": "Wir richten auf Ihrer Website einen Chatbot ein, der Kundenfragen 24/7 beantwortet. Er spricht mit GPT in natürlicher Sprache und antwortet aus Ihren Unternehmensdokumenten (RAG). Ozturksoft entwickelt jeden Chatbot von Çankaya aus passend zu Ihrem Geschäft; das Erstgespräch ist kostenlos, das Angebot schriftlich. Für WhatsApp: <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp-Chatbot erstellen lassen</a>. Kosten: <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">Chatbot-Kosten</a>."
     },
     "pricing": {
       "title": "Chatbot-Preis (2026)",
-      "intro": "Preis hängt von Szenarien, GPT, RAG und CRM ab. Bänder: Markt Ankara 2026; Kickoff kostenlos, Angebot schriftlich. Monatliche API extra.",
-      "row1": "FAQ / regelbasiert",
-      "row2": "GPT-Web-Chatbot",
-      "row3": "RAG / Unternehmensdokumente",
+      "intro": "Der Preis hängt von den Szenarien, dem Einsatz von GPT und RAG sowie der Anbindung an Ihr CRM (Kundenverwaltung) ab. Die Spannen unten gelten für 2026; den genauen Preis nennt ein schriftliches Angebot nach dem kostenlosen Erstgespräch. Monatliche API-Gebühren kommen hinzu.",
+      "row1": "FAQ-Bot mit festen Antworten (regelbasiert)",
+      "row2": "GPT-gestützter Web-Chatbot",
+      "row3": "Bot, der aus Unternehmensdokumenten antwortet (RAG)",
       "t1": "2–4 Wochen",
       "t2": "3–5 Wochen",
       "t3": "6–10 Wochen",
@@ -2059,43 +2059,43 @@
       "linkGuide": "Kostenleitfaden"
     },
     "cards": {
-      "c1title": "💬 Website-Widget",
-      "c1desc": "Eck-Chat auf Firmen- und Shop-Seiten. FAQ, Bestellstatus, Übergabe an Menschen. Derselbe Assistent mobil und Desktop.",
-      "c1link": "Kickoff vereinbaren →",
-      "c2title": "🧠 GPT + RAG",
-      "c2desc": "Antworten aus Katalog und Verfahren. Weniger Erfindungen. LLM-Anbindung läuft im selben Team wie <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">KI-Integration</a>.",
-      "c2link": "ChatGPT / LLM anbinden →",
-      "c3title": "📱 WhatsApp eigener Kanal",
-      "c3desc": "Derselbe Assistent kann nach WhatsApp; Business API und Meta-Gebühren auf jener Seite. Diese URL ist der Web-/GPT-Chatbot-Auftrag.",
+      "c1title": "Chatfenster auf der Website",
+      "c1desc": "Ein Chatfenster auf Ihrer Unternehmens- oder Shop-Website. Es beantwortet häufige Fragen und den Bestellstatus, übergibt bei Bedarf an Ihr Team und läuft auf Mobilgerät und Desktop.",
+      "c1link": "Erstgespräch vereinbaren →",
+      "c2title": "GPT und Unternehmensdokumente (RAG)",
+      "c2desc": "Der Chatbot antwortet aus Ihrem Katalog und Ihren Verfahren; so sinkt das Risiko erfundener Antworten. Die Modellanbindung übernimmt unser Team für <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">KI-Integration</a>.",
+      "c2link": "ChatGPT-/LLM-Anbindung →",
+      "c3title": "WhatsApp-Kanal",
+      "c3desc": "Derselbe Assistent kann auch auf WhatsApp arbeiten. WhatsApp Business API und Meta-Gebühren erklären wir auf unserer WhatsApp-Chatbot-Seite.",
       "c3link": "WhatsApp-Chatbot erstellen lassen →",
-      "c4title": "⚡ Kein Agent",
-      "c4desc": "Ein Chatbot spricht. Autonome Arbeit (E-Mail, CRM) steht auf <a href=\"/ai-agent\" style=\"color:#2dd4bf\">AI-Agent</a>.",
+      "c4title": "Chatbot oder KI-Agent?",
+      "c4desc": "Ein Chatbot beantwortet Fragen. Für eine KI, die E-Mails versendet oder CRM-Einträge anlegt: <a href=\"/ai-agent\" style=\"color:#2dd4bf\">KI-Agent</a>.",
       "c4link": "AI-Agent beauftragen →"
     },
     "who": {
-      "title": "Wer beauftragt einen Chatbot?",
-      "intro": "„Chatbot erstellen lassen“, „KI-Chatbot“ und „GPT-Chatbot“ sind derselbe Auftrag: 7/24 Antworten auf der Site. WhatsApp-Suchende gehen zur Kanalseite. Ozturksoft in Çankaya verkauft keinen Box-Bot; Szenarien, GPT und CRM schriftlich.",
-      "i1": "Support schließt nach Feierabend. FAQ, Versand und Retouren sollen im Bot enden; schwierige Fragen an Menschen.",
-      "i2": "Sie wollen GPT- oder ChatGPT-Antworten aus dem Katalog. Ein Konto reicht nicht; Widget, Rechte und RAG aus Unternehmenstext.",
-      "i3": "WhatsApp auch, aber zuerst Web. Kanal auf <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp-Chatbot</a>; derselbe Assistent.",
-      "i4": "Wenn morgen CRM-Updates oder Bestellungen nötig sind, kommt <a href=\"/ai-agent\" style=\"color:#2dd4bf\">AI-Agent</a> ins selbe Team. Ein Lieferant.",
-      "outro": "Wollten Sie einen Leitfaden, steht der <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">Kostenartikel</a> getrennt. Hier beauftragen Sie die Arbeit. Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#2dd4bf\">+90 546 549 6806</a>."
+      "title": "Für wen eignet sich ein Chatbot?",
+      "intro": "Ein Chatbot ist ein Chat-Assistent auf Ihrer Website oder in Ihrem Portal, der die Fragen Ihrer Kunden 24/7 beantwortet. Ein KI-Chatbot mit GPT antwortet in natürlicher Sprache auf Basis Ihrer Unternehmensinformationen. Ozturksoft richtet jeden Chatbot nach Ihren Szenarien, dem eingesetzten GPT-Modell und Ihrem CRM-System ein und übergibt ihn schriftlich dokumentiert.",
+      "i1": "Ihr Kundenservice ist außerhalb der Geschäftszeiten nicht erreichbar. Fragen zu Versand, Rücksendungen und häufige Fragen soll der Chatbot auf der Website beantworten, schwierige an Ihr Team weitergeben.",
+      "i2": "Sie möchten einen Assistenten, der mit GPT aus Ihrem Produktkatalog antwortet. Ein ChatGPT-Konto reicht dafür nicht; nötig sind ein Chatfenster auf der Website, Zugriffsrechte und ein Aufbau, der aus Ihren Dokumenten antwortet (RAG).",
+      "i3": "Sie denken auch an WhatsApp, möchten aber mit der Website beginnen. WhatsApp lässt sich später als <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp-Chatbot</a> mit demselben Assistenten ergänzen.",
+      "i4": "Brauchen Sie später eine KI, die Ihr CRM aktualisiert oder Bestellungen anlegt, ergänzt dasselbe Team einen <a href=\"/ai-agent\" style=\"color:#2dd4bf\">KI-Agenten</a>; Sie arbeiten mit nur einem Anbieter.",
+      "outro": "Wenn Sie sich zuerst über die Kosten informieren möchten, lesen Sie unseren <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">Artikel zu Chatbot-Kosten</a>. Kostenloses Erstgespräch zu Ihrem Projekt: <a href=\"tel:+905465496806\" style=\"color:#2dd4bf\">+90 546 549 6806</a>."
     },
     "faq": {
-      "title": "Häufige Fragen",
+      "title": "Häufig gestellte Fragen",
       "q1": "Was kostet ein Chatbot?",
-      "a1": "FAQ 25.000–45.000 TL (2–4 Wochen), GPT-Web 45.000–80.000 TL (3–5 Wochen), RAG 80.000–150.000 TL (6–10 Wochen). WhatsApp-AI 60.000–100.000 TL ist ein eigener Kanal. Kickoff kostenlos; Festpreis nach Umfang.",
-      "q2": "Unterschied zum WhatsApp-Chatbot?",
-      "a2": "Diese Seite ist Widget und GPT-Bot. WhatsApp Business API, Vorlagen und Meta-Gebühren auf <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp-Chatbot erstellen lassen</a>. Beide können einen Assistenten teilen.",
-      "q3": "Chatbot vs. AI-Agent?",
-      "a3": "Chatbot beantwortet Fragen. Ein Agent nutzt Tools: E-Mail, CRM, Bestellung. Autonome Arbeit auf <a href=\"/ai-agent\" style=\"color:#2dd4bf\">AI-Agent</a>.",
-      "q4": "Verlassen Daten das Unternehmen?",
-      "a4": "Nicht zwingend. On-Premise oder TR-Hosting. Die LLM-Schicht sitzt in derselben KVKK-Architektur wie <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">KI-Integration</a>."
+      "a1": "FAQ-Bot mit festen Antworten 25.000–45.000 TL (2–4 Wochen), GPT-gestützter Web-Chatbot 45.000–80.000 TL (3–5 Wochen), RAG-Chatbot mit Antworten aus Ihren Dokumenten 80.000–150.000 TL (6–10 Wochen). Ein WhatsApp-KI-Bot ist eine eigene Leistung: 60.000–100.000 TL. Das Erstgespräch ist kostenlos; den genauen Preis nennen wir, sobald wir den Umfang gemeinsam festgehalten haben.",
+      "q2": "Worin unterscheidet sich das von einem WhatsApp-Chatbot?",
+      "a2": "Diese Leistung umfasst das Chatfenster auf Ihrer Website und den GPT-Bot. Zu WhatsApp Business API, Vorlagennachrichten und Meta-Gebühren lesen Sie unsere Seite <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp-Chatbot erstellen lassen</a>. Beide Kanäle können denselben Assistenten nutzen.",
+      "q3": "Was ist der Unterschied zwischen Chatbot und KI-Agent?",
+      "a3": "Ein Chatbot beantwortet Fragen. Ein KI-Agent nutzt Werkzeuge und erledigt die Arbeit selbst: Er versendet E-Mails, legt CRM-Einträge an und erstellt Bestellungen. Details auf unserer Seite <a href=\"/ai-agent\" style=\"color:#2dd4bf\">KI-Agent</a>.",
+      "q4": "Verlassen unsere Daten das Unternehmen?",
+      "a4": "Das ist nicht nötig. Das System kann auf Ihrem eigenen Server (On-Premise) installiert oder in der Türkei gehostet werden. Die KI-Schicht wird in derselben KVKK-konformen Architektur aufgebaut wie unsere <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">KI-Integration</a>."
     },
     "cta": {
       "btn": "Kostenloses Erstgespräch",
       "title": "Sprechen wir über Ihren Chatbot",
-      "desc": "Kostenloser Kickoff — Szenarien, GPT, Budget. <a href=\"tel:+905465496806\" style=\"color:#2dd4bf\">+90 546 549 6806</a>",
+      "desc": "Im kostenlosen Erstgespräch klären wir Szenarien, GPT-Einsatz und Budget gemeinsam. <a href=\"tel:+905465496806\" style=\"color:#2dd4bf\">+90 546 549 6806</a>",
       "btn2": "Kostenloses Angebot"
     },
     "footer": "© 2026 Ozturksoft — Chatbot erstellen lassen",
@@ -2113,21 +2113,21 @@
     "stats": {
       "s1l": "FAQ-Chatbot",
       "s2l": "GPT-Web-Chatbot",
-      "s3l": "GPT-Lieferung"
+      "s3l": "Lieferzeit GPT-Chatbot"
     }
   },
   "aiAgentPage": {
     "hero": {
       "badge": "Autonom · CRM · ERP · MCP · +90 546 549 6806",
-      "title": "AI Agent Yaptırmak",
-      "desc": "AI-Agent erstellen lassen: kein Chatbot. E-Mails klassifizieren, CRM aktualisieren, Bestellungen öffnen, Berichte schreiben. Freigabe durch Menschen an kritischen Schritten. Çankaya — schriftliches Angebot, kostenloser Kickoff. Sprechende Bots auf <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">Chatbot erstellen lassen</a>. Leitfaden: <a href=\"/blog/ankara-ai-agents-gelistirme-2026\" style=\"color:#c084fc\">AI Agents</a>."
+      "title": "KI-Agenten-Entwicklung",
+      "desc": "Ein AI Agent ist nicht nur ein Chatbot, der Fragen beantwortet, sondern eine KI-Software, die in Ihrem Auftrag Aufgaben erledigt. Er sortiert eingehende E-Mails, aktualisiert CRM-Einträge, legt Bestellungen an und erstellt Berichte. Bei kritischen Schritten bleibt die letzte Freigabe immer bei einem Ihrer Mitarbeitenden. Nach einem kostenlosen Erstgespräch erhalten Sie von unserem Team in Çankaya ein schriftliches Angebot. Wenn Sie nur einen Bot für Gespräche mit Ihren Kunden suchen, lesen Sie unsere Seite <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">Chatbot-Entwicklung</a>; wenn Sie sich zuerst informieren möchten, unseren <a href=\"/blog/ankara-ai-agents-gelistirme-2026\" style=\"color:#c084fc\">Leitfaden zu AI Agents</a>."
     },
     "pricing": {
-      "title": "AI-Agent-Preis (2026)",
-      "intro": "Preis folgt Toolzahl, ERP und On-Premise. Bänder sind der Ankara-Markt 2026; Kickoff kostenlos, Angebot schriftlich.",
-      "row1": "PoC / ein Szenario",
-      "row2": "Enterprise mit vielen Tools",
-      "row3": "On-Premise + MCP",
+      "title": "Preise für AI Agents (2026)",
+      "intro": "Der Preis hängt davon ab, wie viele Werkzeuge und Systeme der Agent nutzt, ob er an Ihr ERP angebunden wird und ob er auf Ihren eigenen Servern (On-Premise) läuft. Die folgenden Preisspannen gelten für 2026; den genauen Preis erhalten Sie nach dem kostenlosen Erstgespräch in einem schriftlichen Angebot.",
+      "row1": "Pilotprojekt (PoC), ein Szenario",
+      "row2": "Unternehmens-Agent für mehrere Systeme",
+      "row3": "On-Premise-Installation + MCP",
       "t1": "4–6 Wochen",
       "t2": "8–14 Wochen",
       "t3": "3–6 Monate",
@@ -2135,43 +2135,43 @@
       "linkBot": "Chatbot erstellen lassen"
     },
     "cards": {
-      "c1title": "📬 Betrieb",
-      "c1desc": "Support-Warteschlange, Bestellung, Termin. Der Agent ruft Tools; jeder Schritt wird geloggt. Kein unkontrollierter Lauf.",
+      "c1title": "Tägliche Abläufe",
+      "c1desc": "Er übernimmt wiederkehrende Aufgaben wie Supportanfragen, Bestellungen und Termine. Jeder Schritt wird protokolliert; nichts läuft außerhalb Ihrer Kontrolle.",
       "c1link": "Kickoff buchen →",
-      "c2title": "🔗 ERP / CRM",
-      "c2desc": "Logo, Netsis, eigene API. Freigabetor gegen Fehlbuchungen. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">ERP-Anbindung</a> im selben Team.",
+      "c2title": "ERP- und CRM-Anbindung",
+      "c2desc": "Er arbeitet über eine API mit Logo, Netsis oder Ihrer eigenen Software. Wichtige Vorgänge werden Ihnen zur Freigabe vorgelegt, damit keine fehlerhaften Buchungen entstehen. Die <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">ERP-Integration</a> übernimmt dasselbe Team.",
       "c2link": "Logo Netsis →",
-      "c3title": "🔄 Mit RPA",
-      "c3desc": "RPA klickt, der Agent entscheidet. Beides im selben <a href=\"/surec-otomasyonu\" style=\"color:#c084fc\">Prozessautomatisierungs</a>-Projekt möglich.",
+      "c3title": "Zusammen mit RPA",
+      "c3desc": "RPA, also ein Software-Roboter, der Klicks auf dem Bildschirm nachahmt, führt die Arbeit aus; der Agent trifft die Entscheidungen. Beide lassen sich im selben Projekt zur <a href=\"/surec-otomasyonu\" style=\"color:#c084fc\">Prozessautomatisierung</a> kombinieren.",
       "c3link": "Prozessautomatisierung →",
-      "c4title": "💬 Kein Chatbot",
-      "c4desc": "Nur Antworten: <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">Chatbot</a> oder <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#c084fc\">WhatsApp</a>. Diese Seite ist der arbeitende Agent.",
+      "c4title": "Der Unterschied zum Chatbot",
+      "c4desc": "Wenn Sie nur einen Assistenten für Fragen brauchen, genügt ein <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">Chatbot</a> oder ein <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#c084fc\">WhatsApp-Bot</a>. Ein AI Agent geht weiter und erledigt die Arbeit selbst.",
       "c4link": "Chatbot erstellen lassen →"
     },
     "who": {
-      "title": "Wer beauftragt einen AI-Agenten?",
-      "intro": "„AI-Agent erstellen lassen“ und „autonome KI“ sind derselbe Auftrag: das Modell nutzt Tools. Chatbot-Suchende gehen auf die Gesprächsseite. Ozturksoft in Çankaya verkauft keinen Box-Agenten; Szenario, Rechte und Freigabe werden schriftlich geliefert.",
-      "i1": "Support und E-Mail laufen per Hand. Der Agent soll klassifizieren, entwerfen und CRM schreiben; falsche Sätze bestätigt ein Mensch.",
-      "i2": "Bestellung oder Termin wird im Bot gesprochen, aber nicht ins System geschrieben. Der Agent soll APIs rufen; Logo/Netsis im selben Team.",
-      "i3": "Öffentlicher Sektor oder Holding: On-Premise, MCP, Audit. Daten bleiben im Netz. Das Modell steht im Kickoff fest.",
-      "i4": "Zuerst sprechender Bot, morgen Agent. <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">Chatbot</a> und Agent im selben Çankaya-Team; kein Lieferantensplit.",
-      "outro": "Leitfaden separat: <a href=\"/blog/ankara-ai-agents-gelistirme-2026\" style=\"color:#c084fc\">AI-Agents-Artikel</a>. Diese Seite ist Auftrag. Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#c084fc\">+90 546 549 6806</a>."
+      "title": "Für wen eignet sich ein AI Agent?",
+      "intro": "Ein AI Agent bedeutet, dass KI nicht nur spricht, sondern mit Werkzeugen wie E-Mail, CRM oder ERP Aufgaben erledigt. Man spricht auch von „autonomer KI“. Statt ein fertiges Paket zu verkaufen, legt Ozturksoft gemeinsam mit Ihnen fest, welche Aufgaben der Agent übernimmt, welche Berechtigungen er hat und bei welchen Schritten er eine Freigabe einholt, und übergibt all das schriftlich.",
+      "i1": "Supportanfragen und E-Mails werden noch von Hand sortiert. Der Agent soll eingehende Nachrichten einordnen, Antwortentwürfe schreiben und CRM-Einträge anlegen; unsichere Einträge gibt ein Mitarbeitender frei.",
+      "i2": "Ihre Kunden besprechen Bestellungen oder Termine mit einem Bot, doch die Daten landen nicht in Ihrem System. Der Agent soll den Eintrag direkt über eine API anlegen; die Anbindung an Logo oder Netsis richtet dasselbe Team ein.",
+      "i3": "Sie sind eine Behörde oder Holding, und Ihre Daten müssen in Ihrem Netzwerk bleiben. Das System läuft auf Ihren eigenen Servern, nutzt MCP, einen Standard für die sichere Anbindung von KI an Ihre Systeme, und protokolliert jeden Vorgang für Prüfungen. Das Modell wählen wir im Erstgespräch.",
+      "i4": "Sie möchten heute mit einem Bot für Kundengespräche beginnen und später zu einem Agent wechseln, der Aufgaben erledigt. Da dasselbe Team in Çankaya <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">Chatbot</a> und Agent entwickelt, müssen Sie sich nicht mit mehreren Anbietern abstimmen.",
+      "outro": "Wenn Sie sich zuerst informieren möchten, lesen Sie unseren <a href=\"/blog/ankara-ai-agents-gelistirme-2026\" style=\"color:#c084fc\">Leitfaden zu AI Agents</a>. Kostenloses Erstgespräch zu Ihrem Projekt: <a href=\"tel:+905465496806\" style=\"color:#c084fc\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "Häufige Fragen",
       "q1": "Was kostet ein AI-Agent?",
-      "a1": "PoC 60.000–120.000 TL (4–6 Wochen), Enterprise 150.000–280.000 TL (8–14 Wochen), On-Premise + MCP 280.000–500.000+ TL. Kickoff kostenlos; Festpreis nach Scope.",
+      "a1": "Ein Pilotprojekt (PoC) mit einem Szenario kostet 60.000–120.000 TL und dauert 4–6 Wochen, ein Unternehmens-Agent kostet 150.000–280.000 TL und dauert 8–14 Wochen, Projekte mit On-Premise-Installation und MCP kosten 280.000–500.000+ TL. Das Erstgespräch ist kostenlos; den genauen Preis nennen wir, sobald der Umfang schriftlich festgelegt ist.",
       "q2": "Unterschied zum Chatbot?",
-      "a2": "Der Chatbot antwortet — <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">Chatbot erstellen lassen</a>. Der Agent nutzt Tools: E-Mail, CRM, Bestellung. Beide können in <a href=\"/ankara-ai-asistan\" style=\"color:#c084fc\">AI-Assistent</a> zusammenlaufen.",
-      "q3": "Läuft er unkontrolliert?",
-      "a3": "Nein. An kritischen Schritten ist Menschenfreigabe Pflicht. Log und Rechte gehören zur Lieferung.",
-      "q4": "Anbindung an ERP?",
-      "a4": "Ja. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">Logo, Netsis</a> und eigene APIs. Freigabetor gegen falsche Belege."
+      "a2": "Ein Chatbot beantwortet Fragen; Details finden Sie auf unserer Seite <a href=\"/chatbot-yaptirmak\" style=\"color:#c084fc\">Chatbot-Entwicklung</a>. Ein AI Agent erledigt die Arbeit selbst und nutzt dafür Werkzeuge wie E-Mail, CRM und Bestellsysteme. Beides lässt sich in einem Assistenten vereinen: <a href=\"/ankara-ai-asistan\" style=\"color:#c084fc\">KI-Assistent</a>.",
+      "q3": "Arbeitet der Agent unkontrolliert?",
+      "a3": "Nein. Bei kritischen Schritten entscheidet immer ein Mitarbeitender zuletzt. Ein Protokoll aller Vorgänge und klare Berechtigungen sind Teil der Lieferung.",
+      "q4": "Lässt er sich an unser ERP anbinden?",
+      "a4": "Ja. Er lässt sich an <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">Logo, Netsis</a> und andere Software mit API anbinden. Wichtige Vorgänge werden Ihnen zuerst zur Freigabe vorgelegt, damit keine fehlerhaften Belege entstehen."
     },
     "cta": {
       "btn": "Kostenloses Kickoff-Gespräch",
-      "title": "Sprechen wir über Ihr Agent-Szenario",
-      "desc": "Kostenloser Kickoff — welche Aufgabe, welches System. <a href=\"tel:+905465496806\" style=\"color:#c084fc\">+90 546 549 6806</a>",
+      "title": "Planen wir gemeinsam die Aufgaben Ihres Agents",
+      "desc": "Im kostenlosen Erstgespräch legen wir gemeinsam fest, welche Aufgabe automatisiert wird und welche Systeme angebunden werden. <a href=\"tel:+905465496806\" style=\"color:#c084fc\">+90 546 549 6806</a>",
       "btn2": "Kostenloses Angebot"
     },
     "footer": "© 2026 Ozturksoft — AI-Agent erstellen lassen",
@@ -2187,69 +2187,69 @@
       "title": "AI-Agent erstellen lassen | Autonome KI | Ozturksoft"
     },
     "stats": {
-      "s1l": "PoC / ein Szenario",
+      "s1l": "Pilotprojekt (PoC)",
       "s2l": "Enterprise-Agent",
-      "s3l": "Enterprise-Lieferung"
+      "s3l": "Dauer eines Unternehmensprojekts"
     }
   },
   "waChatbotPage": {
     "hero": {
       "badge": "Business API · GPT · CRM · +90 546 549 6806",
       "title": "WhatsApp-Chatbot-Entwicklung",
-      "desc": "WhatsApp-Chatbot erstellen lassen: 7/24 Bestellung, Preis und FAQ. Offizielle Business API, GPT/RAG, CRM. Çankaya — schriftliches Angebot, kostenloser Kickoff. Website-Widget separat: <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">Chatbot erstellen lassen</a>. Leitfaden: <a href=\"/blog/whatsapp-chatbot-isletme-rehberi-2026\" style=\"color:#25d366\">WhatsApp-Leitfaden</a>."
+      "desc": "Ein WhatsApp-Chatbot beantwortet die Fragen Ihrer Kunden zu Bestellungen, Preisen und häufigen Themen rund um die Uhr (7/24) auf WhatsApp. Er läuft über die offizielle WhatsApp Business API von Meta und lässt sich um KI erweitern, die aus Ihren Unternehmensdokumenten antwortet (GPT/RAG), sowie um eine CRM-Anbindung. Nach einem kostenlosen Erstgespräch erhalten Sie von unserem Team in Çankaya ein schriftliches Angebot. Für ein Chatfenster auf Ihrer Website lesen Sie unsere Seite <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">Chatbot-Entwicklung</a>; zur ersten Orientierung unseren <a href=\"/blog/whatsapp-chatbot-isletme-rehberi-2026\" style=\"color:#25d366\">WhatsApp-Leitfaden</a>."
     },
     "pricing": {
-      "title": "WhatsApp-Chatbot-Preis (2026)",
-      "intro": "Preis folgt Szenario, GPT und CRM. Meta-Nachrichten extra. Bänder Ankara 2026; Kickoff kostenlos, Angebot schriftlich.",
-      "row1": "WhatsApp-FAQ",
-      "row2": "WhatsApp GPT / KI",
-      "row3": "WhatsApp + CRM / ERP",
+      "title": "Preise für WhatsApp-Chatbots (2026)",
+      "intro": "Der Preis hängt von den Szenarien des Bots ab, davon, ob KI (GPT) eingesetzt wird, und von der CRM-Anbindung. Die Nachrichtengebühren von Meta sind nicht enthalten. Die folgenden Preisspannen gelten für 2026; den genauen Preis erhalten Sie nach dem kostenlosen Erstgespräch in einem schriftlichen Angebot.",
+      "row1": "FAQ-Bot",
+      "row2": "WhatsApp-Bot mit KI (GPT)",
+      "row3": "WhatsApp-Bot mit CRM-/ERP-Anbindung",
       "t1": "3–5 Wochen",
       "t2": "4–8 Wochen",
       "t3": "6–12 Wochen",
-      "linkWeb": "Web-Chatbot (Widget)",
+      "linkWeb": "Website-Chatbot",
       "linkGuide": "WhatsApp-Leitfaden"
     },
     "cards": {
-      "c1title": "💬 7/24 Antwort",
-      "c1desc": "Bestellung, Preis, Versand nach Feierabend. Schwere Fragen an Menschen. Vorlagen über die offizielle API.",
+      "c1title": "Antworten rund um die Uhr (7/24)",
+      "c1desc": "Er beantwortet Fragen zu Bestellung, Preis und Versand auch nach Feierabend und gibt schwierige Fragen an Ihr Team weiter. Vorlagennachrichten laufen über die offizielle API.",
       "c1link": "Kickoff buchen →",
-      "c2title": "🔗 CRM und Bestand",
-      "c2desc": "Bestellung, Termin, Saldo. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#25d366\">Logo / Netsis</a> oder eigene API. Doppelte Sätze stoppen.",
+      "c2title": "CRM- und Lageranbindung",
+      "c2desc": "Bestell-, Termin- und Kontodaten werden direkt mit <a href=\"/logo-netsis-entegrasyon\" style=\"color:#25d366\">Logo / Netsis</a> oder Ihrer eigenen Software abgeglichen. Sie müssen nichts doppelt erfassen.",
       "c2link": "ERP anbinden →",
-      "c3title": "🌐 Web eigener Kanal",
-      "c3desc": "Ecken-Chat auf der Site auf <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">Chatbot erstellen lassen</a>. Derselbe Assistent auf zwei Kanälen.",
+      "c3title": "Eigener Kanal für Ihre Website",
+      "c3desc": "Das Chatfenster in der Ecke Ihrer Website beschreiben wir auf der Seite <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">Chatbot-Entwicklung</a>. Derselbe Assistent kann auf WhatsApp und auf Ihrer Website arbeiten.",
       "c3link": "Web-Chatbot →",
-      "c4title": "🔒 KVKK",
-      "c4desc": "On-Premise oder TR-Hosting, Log, Löschpolitik. Enterprise-Paket <a href=\"/ankara-ai-asistan\" style=\"color:#25d366\">AI-Assistent</a>.",
+      "c4title": "KVKK und Datensicherheit",
+      "c4desc": "Das System kann auf Ihrem eigenen Server oder auf einem Server in der Türkei laufen; Regeln für Gesprächsprotokolle und Löschung werden von Anfang an festgelegt. Für Unternehmen: <a href=\"/ankara-ai-asistan\" style=\"color:#25d366\">KI-Assistent</a>.",
       "c4link": "AI-Assistent →"
     },
     "who": {
-      "title": "Wer beauftragt den WhatsApp-Bot?",
-      "intro": "„WhatsApp-Chatbot erstellen lassen“ ist ein Kanalauftrag: der Kunde ist schon auf WhatsApp. Der Site-Bot hat eine eigene URL. Ozturksoft führt den BSP-Antrag mit; kein Box-Bot.",
-      "i1": "Bestellung und Preis kommen per WhatsApp, nachts keine Antwort. Der Bot soll Katalog und Versand klären; harte Sätze an Menschen.",
-      "i2": "Offizielle Vorlagen und Masseninfo nötig. Business API Pflicht; Antrag gemeinsam.",
-      "i3": "WhatsApp + Site, ein Assistent. Web auf <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">Chatbot</a>.",
-      "i4": "Bestellung ins ERP. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#25d366\">Logo</a> oder <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#25d366\">E-Commerce</a> im Çankaya-Team.",
-      "outro": "Leitfaden separat. Diese Seite ist Auftrag. Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#25d366\">+90 546 549 6806</a>."
+      "title": "Für wen eignet sich ein WhatsApp-Chatbot?",
+      "intro": "Wenn Ihre Kunden Ihnen bereits über WhatsApp schreiben, antwortet der Chatbot dort schnell und einheitlich. Ein Website-Chatbot ist ein eigener Service. Statt eines Standard-Bots entwickeln wir einen Bot für Ihr Unternehmen und begleiten gemeinsam mit Ihnen den Antrag für die WhatsApp Business API über einen offiziellen Meta-Partner (BSP).",
+      "i1": "Bestell- und Preisanfragen kommen über WhatsApp, doch nachts antwortet niemand. Der Bot soll Fragen zu Katalog und Versand beantworten und komplexe Anliegen an Ihre Mitarbeitenden weitergeben.",
+      "i2": "Sie möchten Ihren Kunden Sammelnachrichten mit genehmigten Vorlagen senden. Dafür ist die WhatsApp Business API nötig; den Antrag stellen wir gemeinsam mit Ihnen.",
+      "i3": "Sie möchten denselben Assistenten auf WhatsApp und auf Ihrer Website. Die Website-Seite wird so ergänzt, wie auf unserer <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">Chatbot</a>-Seite beschrieben.",
+      "i4": "Bestellungen aus WhatsApp sollen automatisch in Ihre Buchhaltung oder Lagerverwaltung übernommen werden. Die Anbindungen an <a href=\"/logo-netsis-entegrasyon\" style=\"color:#25d366\">Logo</a> und <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#25d366\">E-Commerce</a> richtet dasselbe Team in Çankaya ein.",
+      "outro": "Kostenloses Erstgespräch zu Ihrem Projekt: <a href=\"tel:+905465496806\" style=\"color:#25d366\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "Häufige Fragen",
       "q1": "Was kostet ein WhatsApp-Chatbot?",
-      "a1": "FAQ 40.000–70.000 TL, GPT 60.000–100.000 TL, CRM/ERP 90.000–160.000 TL. Meta und OpenAI monatlich extra. Kickoff kostenlos.",
-      "q2": "Ist Business API Pflicht?",
-      "a2": "Ja für offizielle Automatisierung und Vorlagen. BSP und Nummernprüfung gemeinsam. Meta-Freigabe kann Zeit kosten.",
-      "q3": "Auch auf der Website?",
-      "a3": "Ja. Widget auf <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">Chatbot erstellen lassen</a>; derselbe Assistent.",
-      "q4": "Wie lange dauert es?",
-      "a4": "FAQ 3–5 Wochen, GPT 4–8, CRM 6–12. Szenarien während BSP-Wartezeit.",
+      "a1": "Ein FAQ-Bot kostet 40.000–70.000 TL, ein Bot mit KI (GPT) 60.000–100.000 TL und ein Bot mit CRM-/ERP-Anbindung 90.000–160.000 TL. Die Nachrichtengebühren von Meta und die Nutzungskosten von OpenAI fallen monatlich zusätzlich an. Das Erstgespräch ist kostenlos.",
+      "q2": "Ist die WhatsApp Business API notwendig?",
+      "a2": "Ja, für automatische Antworten und genehmigte Vorlagennachrichten. Den Antrag über einen offiziellen Meta-Partner (BSP) und die Nummernverifizierung übernehmen wir gemeinsam mit Ihnen. Die Freigabe durch Meta kann die Projektdauer etwas verlängern.",
+      "q3": "Kann derselbe Bot auch auf unsere Website?",
+      "a3": "Ja. Das Website-Chatfenster beschreiben wir auf der Seite <a href=\"/chatbot-yaptirmak\" style=\"color:#25d366\">Chatbot-Entwicklung</a>; beide Kanäle nutzen denselben Assistenten.",
+      "q4": "Wie lange dauert das Projekt?",
+      "a4": "FAQ-Bot 3–5 Wochen, KI-Bot 4–8 Wochen, Bot mit CRM-Anbindung 6–12 Wochen. Während der Meta-Freigabe schreiben wir die Szenarien.",
       "q5": "Hat Meta KI auf WhatsApp verboten?",
       "a5": "Nicht vollständig. Seit dem 15. Januar 2026 sind allgemeine Assistenten wie ChatGPT verboten, die über alles chatten. Support-, Bestell- und Terminbots eines Unternehmens dürfen weiterhin KI nutzen."
     },
     "cta": {
       "btn": "Kostenloses Kickoff-Gespräch",
-      "title": "Planen wir Ihren WhatsApp-Bot",
-      "desc": "Kostenloser Kickoff — Szenario, API, Budget. <a href=\"tel:+905465496806\" style=\"color:#25d366\">+90 546 549 6806</a>",
+      "title": "Planen wir gemeinsam Ihren WhatsApp-Bot",
+      "desc": "Im kostenlosen Erstgespräch klären wir gemeinsam die Szenarien des Bots, den API-Antrag und das Budget. <a href=\"tel:+905465496806\" style=\"color:#25d366\">+90 546 549 6806</a>",
       "btn2": "Kostenloses Angebot"
     },
     "footer": "© 2026 Ozturksoft — WhatsApp-Chatbot erstellen lassen",
@@ -2265,10 +2265,10 @@
       "title": "WhatsApp-Chatbot erstellen lassen | Business API | Ozturksoft"
     },
     "stats": {
-      "s1l": "WhatsApp GPT",
-      "s2l": "Go-live",
+      "s1l": "WhatsApp-Bot mit KI",
+      "s2l": "Zeit bis zum Start",
       "s3n": "BSP",
-      "s3l": "API-Antrag bei uns"
+      "s3l": "Den API-Antrag übernehmen wir"
     },
     "policy": {
       "title": "Metas KI-Regel für WhatsApp (2026)",
@@ -2278,146 +2278,146 @@
   },
   "efaturaPage": {
     "hero": {
-      "badge": "GİB · Integrator · e-Defter · Logo · Mikro · +90 546 549 6806",
-      "title": "E-Fatura Entegrasyonu",
-      "desc": "E-Rechnung: offizielle e-Belege an GİB. Ein-/Ausgang auf <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo, Netsis oder Mikro</a>. Portal schreibt kein ERP. Papier-Scan ist <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">Rechnungs-OCR</a>. Çankaya, schriftliches Angebot, kostenloses Discovery."
+      "badge": "GİB-konform · Privater Integrator · e-Defter · Logo und Mikro · +90 546 549 6806",
+      "title": "E-Rechnungs-Integration",
+      "desc": "Mit der E-Rechnungs-Anbindung versenden und empfangen Sie Rechnungen als offizielle E-Belege über GİB, und diese werden automatisch in Ihrer Buchhaltungssoftware erfasst. Ein- und ausgehende Rechnungen landen direkt in <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo, Netsis oder Mikro</a> – Sie müssen sie nicht mehr aus dem Portal herunterladen und von Hand eintippen. Wenn Sie Papier- oder fotografierte Rechnungen erfassen möchten, ist unser <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">Rechnungslese-Service</a> die passende Lösung. Wir sitzen in Çankaya; das Erstgespräch ist kostenlos, und Sie erhalten ein schriftliches Angebot."
     },
     "pricing": {
-      "title": "E-Rechnung-Anbindung Preis (2026)",
-      "intro": "Preis nach Belegtyp, Integrator und ERP. 2026-Ankara-Bänder; Discovery gratis. Integrator-Lizenz und Kontör extra.",
-      "row1": "Ein ERP-Konnektor",
-      "row2": "E-Archiv + E-Lieferschein",
-      "row3": "Holding / mehrere Standorte",
+      "title": "Preise für die E-Rechnungs-Anbindung (2026)",
+      "intro": "Der Preis hängt von den genutzten Belegarten, Ihrem privaten Integrator und Ihrer Buchhaltungssoftware (ERP) ab. Die folgenden Preisspannen gelten für 2026; der genaue Preis wird nach einem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt. Lizenz- und Kontör-Gebühren (Nutzung pro Beleg) des Integrators werden gesondert bezahlt.",
+      "row1": "Anbindung an ein Buchhaltungssystem",
+      "row2": "Inklusive E-Archiv und E-Lieferschein",
+      "row3": "Holdings und Unternehmen mit mehreren Filialen",
       "t1": "3–6 Wochen",
       "t2": "6–10 Wochen",
       "t3": "3–5 Monate",
-      "linkOcr": "Rechnungs-OCR",
-      "linkLogo": "Logo Netsis",
-      "row4": "e-Defter-Konnektor",
+      "linkOcr": "Rechnungen lesen (OCR)",
+      "linkLogo": "Logo- und Netsis-Anbindung",
+      "row4": "e-Defter-Anbindung",
       "t4": "4–8 Wochen"
     },
     "cards": {
-      "c1title": "📨 Ein-/Ausgang E-Rechnung",
-      "c1desc": "GİB- oder Integrator-Warteschlange. UBL, Signatur, Ablehnen/Annehmen. Portal-Klicks enden.",
-      "c1link": "Kickoff buchen →",
-      "c2title": "🔗 Logo / Netsis / Mikro-Buchung",
-      "c2desc": "E-Beleg wird Buchung. Doppelte Eingabe endet. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">ERP-API</a> im selben Projekt.",
-      "c2link": "ERP anbinden →",
-      "c3title": "📦 e-İrsaliye / e-Arşiv / e-Defter",
-      "c3desc": "Versand, e-Archiv und e-Defter auf derselben Schiene. Shop-Auftrag wird Rechnung. e-Defter ist extra.",
-      "c3link": "E-Commerce erstellen lassen →",
-      "c4title": "📷 Kein OCR",
-      "c4desc": "Papier oder WhatsApp-Foto ist <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">Rechnungs-OCR</a>. Diese URL ist der offizielle E-Beleg.",
-      "c4link": "Rechnungs-OCR →"
+      "c1title": "Ein- und ausgehende E-Rechnungen",
+      "c1desc": "Ihre Rechnungen werden im offiziellen Format (UBL) erstellt, signiert und automatisch an GİB oder Ihren privaten Integrator gesendet. Um eingehende Rechnungen anzunehmen oder abzulehnen, müssen Sie sich nicht mehr im Portal anmelden.",
+      "c1link": "Erstgespräch vereinbaren →",
+      "c2title": "Automatische Buchung in Logo, Netsis und Mikro",
+      "c2desc": "Jeder E-Beleg wird selbstständig in Ihrer Buchhaltungssoftware erfasst, doppelte Eingaben entfallen. Auf Wunsch übernehmen wir die <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">ERP-Anbindung</a> im selben Projekt.",
+      "c2link": "Buchhaltungssoftware anbinden →",
+      "c3title": "E-Lieferschein, E-Archiv und e-Defter",
+      "c3desc": "Lieferscheine, E-Archiv-Rechnungen und e-Defter laufen über dieselbe Infrastruktur, und Ihre Online-Bestellungen werden automatisch zu Rechnungen. Die e-Defter-Anbindung wird gesondert berechnet.",
+      "c3link": "Onlineshop erstellen lassen →",
+      "c4title": "Rechnungslesen für Papierrechnungen",
+      "c4desc": "Für Papierrechnungen oder per WhatsApp gesendete Fotos kommt eine <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">Software zum Rechnungslesen</a> zum Einsatz. Die E-Rechnungs-Anbindung ist dagegen für offizielle E-Belege gedacht.",
+      "c4link": "Rechnungslesen ansehen →"
     },
     "who": {
-      "title": "Wer beauftragt E-Rechnung-Anbindung?",
-      "intro": "„E-Rechnung-Anbindung“ heißt GİB. Portal + Excel reicht nicht. OCR-Suchende gehen zur Rechnungslesung. Ozturksoft schreibt den Konnektor in Ihr ERP; keine Box-Lizenz.",
-      "i1": "Eingangs-E-Rechnung wird aus dem Portal geholt und per Hand in Logo getippt. Warteschlange und Stichtagsfehler sollen enden.",
-      "i2": "Shop- oder Außendienstauftrag soll E-Rechnung schneiden. <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f59e0b\">Shop</a> oder <a href=\"/trendyol-entegrasyonu\" style=\"color:#f59e0b\">Trendyol</a> im selben Team.",
-      "i3": "E-Lieferschein und E-Archiv zugleich. Mehrere Standorte, Holding-Finanzen.",
-      "i4": "Es gibt auch Papierlieferanten. OCR ist <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">separat</a>; beides kann parallel laufen.",
-      "outro": "Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#f59e0b\">+90 546 549 6806</a>."
+      "title": "Für wen eignet sich die E-Rechnungs-Anbindung?",
+      "intro": "E-Rechnungs-Anbindung bedeutet, Ihre Buchhaltungssoftware mit dem E-Beleg-System von GİB zu verbinden. Mit dem GİB-Portal und Excel stoßen Sie an Grenzen, sobald die Zahl der Rechnungen wächst. Statt eine Paketlizenz zu verkaufen, richtet Ozturksoft die Anbindung speziell für die Buchhaltungssoftware ein, die Sie bereits nutzen. Wenn Sie Papierrechnungen erfassen möchten, passt unser Rechnungslese-Service besser.",
+      "i1": "Sie laden eingehende E-Rechnungen aus dem Portal herunter und tippen sie von Hand in Logo ein – und möchten Rückstaus und Fehler in letzter Minute hinter sich lassen.",
+      "i2": "Bestellungen aus Ihrem Onlineshop oder Ihrem Außendienst sollen automatisch zu E-Rechnungen werden. Dasselbe Team kann auch Ihren <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f59e0b\">Onlineshop</a> oder Ihr <a href=\"/trendyol-entegrasyonu\" style=\"color:#f59e0b\">Trendyol</a>-Konto anbinden.",
+      "i3": "Sie brauchen E-Lieferschein und E-Archiv zusammen und arbeiten in der Finanzabteilung eines Unternehmens mit mehreren Filialen oder einer Holding.",
+      "i4": "Manche Lieferanten schicken noch Papierrechnungen. Dafür ist <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">Rechnungslesen (OCR)</a> ein eigener Service; beide Systeme können parallel laufen.",
+      "outro": "Kostenloses Erstgespräch für Ihr Projekt: <a href=\"tel:+905465496806\" style=\"color:#f59e0b\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "Häufige Fragen",
-      "q1": "Was kostet E-Rechnung-Anbindung?",
-      "a1": "Konnektor 35.000–70.000 TL (3–6 Wochen), E-Archiv + E-Lieferschein 70.000–140.000 TL, Holding 140.000–280.000+ TL. Integrator extra. Kickoff kostenlos.",
-      "q2": "Gleich wie Rechnungs-OCR?",
-      "a2": "Nein. OCR liest Foto/PDF: <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">Rechnungs-OCR</a>. Diese Seite ist die GİB-E-Beleg-API.",
-      "q3": "Schreibt Logo / Netsis?",
-      "a3": "Ja. Belege gehen auf <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo, Netsis oder Mikro</a>.",
-      "q4": "Privater Integrator Pflicht?",
-      "a4": "Bei den meisten KMU und Konzernen ja. Vorhandenes Foriba, Uyumsoft, İzibiz, Logo, Mikro, Bizmu oder Veriban binden wir; sonst Auswahl im Discovery.",
-      "q5": "GİB-Portal, Spezialintegrator oder direktes GİB?",
-      "a5": "Portal = geringes Volumen, kein ERP. Spezialintegrator ist Standard — Lizenz und Kontör an den Integrator. Direktes GİB braucht Volumen, HSM und 24/7-IT; extra Angebot. Ozturksoft verkauft keine Box-Lizenz; wir schreiben den Konnektor in Ihr ERP.",
-      "q6": "Ist Kontör enthalten? e-Defter?",
-      "a6": "Nein. Die TL-Bänder sind Software. Jährliche Integrator-Lizenz (ca. 4.000–35.000 TL) und Beleg-Kontör extra. e-Defter-Konnektor 90.000–180.000 TL. Positionen im Discovery schriftlich."
+      "q1": "Was kostet eine E-Rechnungs-Anbindung?",
+      "a1": "Die Anbindung an ein Buchhaltungssystem kostet 35.000–70.000 TL und wird in 3–6 Wochen geliefert. Eine Lösung inklusive E-Archiv und E-Lieferschein kostet 70.000–140.000 TL, für Holdings und Unternehmen mit mehreren Filialen 140.000–280.000+ TL. Integrator-Gebühren sind nicht enthalten; das Erstgespräch ist kostenlos.",
+      "q2": "Ist das dasselbe wie Rechnungslesen?",
+      "a2": "Nein. Rechnungslesen (OCR) liest Rechnungen aus Fotos oder PDFs aus und macht daraus Daten; Details finden Sie bei unserem <a href=\"/fatura-okuma\" style=\"color:#f59e0b\">Rechnungslese-Service</a>. Die E-Rechnungs-Anbindung verbindet Sie dagegen mit dem offiziellen E-Beleg-System von GİB.",
+      "q3": "Werden Rechnungen automatisch in Logo oder Netsis erfasst?",
+      "a3": "Ja. Alle ein- und ausgehenden E-Belege werden als Buchungen in <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f59e0b\">Logo, Netsis oder Mikro</a> erfasst.",
+      "q4": "Ist ein privater Integrator Pflicht?",
+      "a4": "Für die meisten KMU und Institutionen ja. Wenn Sie bereits ein Konto bei Foriba, Uyumsoft, İzibiz, Logo, Mikro, Bizmu oder Veriban haben, binden wir das System daran an; andernfalls wählen wir im Erstgespräch gemeinsam den passenden Anbieter aus.",
+      "q5": "Was unterscheidet GİB-Portal, privaten Integrator und direkte GİB-Anbindung?",
+      "a5": "Das GİB-Portal ist für Unternehmen mit wenigen Rechnungen gedacht und erfasst sie nicht in Ihrer Buchhaltungssoftware. Der private Integrator ist in der Türkei der Standardweg; Lizenz- und Kontör-Gebühren gehen an den Integrator. Eine direkte GİB-Anbindung setzt ein hohes Rechnungsvolumen, ein Hardware-Sicherheitsmodul (HSM) und ein rund um die Uhr (24/7) verfügbares IT-Team voraus; sie wird gesondert angeboten. Ozturksoft verkauft keine Paketlizenzen, sondern richtet die Anbindung in Ihrer Buchhaltungssoftware ein.",
+      "q6": "Sind Kontör und e-Defter im Preis enthalten?",
+      "a6": "Nein. Die obigen Preise umfassen die Software- und Anbindungsarbeit. Die Jahreslizenz des Integrators (ca. 4.000–35.000 TL) und die Kontör-Gebühren pro Beleg werden gesondert bezahlt. Die e-Defter-Anbindung ist eine Zusatzleistung für 90.000–180.000 TL. Alle Posten werden nach dem Erstgespräch einzeln im schriftlichen Angebot aufgeführt."
     },
     "cta": {
-      "btn": "Kostenloses Kickoff-Gespräch",
-      "title": "Sprechen wir über den E-Rechnung-Konnektor",
-      "desc": "Kostenloser Kickoff — GİB, ERP, Budget. <a href=\"tel:+905465496806\" style=\"color:#f59e0b\">+90 546 549 6806</a>",
-      "btn2": "Kostenloses Angebot"
+      "btn": "Kostenloses Erstgespräch",
+      "title": "Sprechen wir über Ihre E-Rechnungs-Anbindung",
+      "desc": "Im kostenlosen Erstgespräch prüfen wir gemeinsam Ihre GİB-Anbindung, Ihre Buchhaltungssoftware und Ihr Budget. <a href=\"tel:+905465496806\" style=\"color:#f59e0b\">+90 546 549 6806</a>",
+      "btn2": "Kostenloses Angebot anfordern"
     },
-    "footer": "© 2026 Ozturksoft — E-Rechnung-Anbindung",
+    "footer": "© 2026 Ozturksoft — E-Rechnungs-Anbindung",
     "related": {
-      "ocr": "Rechnungs-OCR",
-      "logo": "Logo Netsis",
-      "ty": "Trendyol",
-      "shop": "E-Commerce",
+      "ocr": "Rechnungslesen",
+      "logo": "Logo und Netsis",
+      "ty": "Trendyol-Anbindung",
+      "shop": "Onlineshop",
       "proc": "Prozessautomatisierung"
     },
     "meta": {
       "title": "E-Rechnung-Anbindung | GİB & ERP | Ozturksoft"
     },
     "stats": {
-      "s1l": "Ein ERP-Konnektor",
-      "s2l": "E-Archiv + E-Lieferschein",
-      "s3l": "Konnektor-Lieferung"
+      "s1l": "Anbindung an ein Buchhaltungssystem",
+      "s2l": "Inklusive E-Archiv und E-Lieferschein",
+      "s3l": "Lieferzeit"
     }
   },
   "trendyolPage": {
     "hero": {
-      "badge": "Bestellung · Bestand · Versand · Logo · +90 546 549 6806",
-      "title": "Trendyol Entegrasyonu",
-      "desc": "Trendyol-Anbindung: Bestellungen nicht aus dem Panel kopieren. Bestand, Versand, Retouren per API. Eigener Shop separat — <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">E-Commerce erstellen lassen</a>. Çankaya, schriftliches Angebot, kostenloser Kickoff."
+      "badge": "Bestellungen · Bestand · Versand · Logo · +90 546 549 6806",
+      "title": "Trendyol-Integration",
+      "desc": "Die Trendyol-Anbindung überträgt Bestellungen ohne Kopieren aus dem Panel in Ihr eigenes Lager- und Buchhaltungssystem. Bestand, Versand und Retouren aktualisieren sich automatisch per API (der Schnittstelle, über die Systeme miteinander sprechen). Für Ihren eigenen Shop: <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">Onlineshop erstellen lassen</a>. Wir sitzen in Çankaya; Erstgespräch kostenlos, Angebot schriftlich."
     },
     "pricing": {
-      "title": "Trendyol-Anbindung Preis (2026)",
-      "intro": "Preis folgt Volumen, Versand und ERP. Bänder Ankara 2026; Kickoff kostenlos, Angebot schriftlich.",
-      "row1": "Bestellungen ziehen",
-      "row2": "Bestand + Versand",
-      "row3": "Marktplatz + ERP",
+      "title": "Preise für die Trendyol-Anbindung (2026)",
+      "intro": "Der Preis hängt von Bestellvolumen, Versanddienstleistern und dem anzubindenden ERP ab. Die Spannen entsprechen Ankaraner Preisen 2026; den genauen Preis nennen wir nach einem kostenlosen Erstgespräch schriftlich.",
+      "row1": "Bestellübernahme",
+      "row2": "Bestand und Versand",
+      "row3": "Marktplatz und ERP",
       "t1": "2–4 Wochen",
       "t2": "4–8 Wochen",
       "t3": "8–14 Wochen",
-      "linkShop": "Eigener E-Commerce",
-      "linkLogo": "Logo Netsis"
+      "linkShop": "Ihr eigener Onlineshop",
+      "linkLogo": "Logo-Netsis-Anbindung"
     },
     "cards": {
-      "c1title": "📦 Bestellung",
-      "c1desc": "Neue Bestellung landet im Panel, Drucker oder Lager. Excel-Kopie endet.",
-      "c1link": "Kickoff buchen →",
-      "c2title": "📊 Bestandssync",
-      "c2desc": "Verkauf schreibt Bestand aus Logo oder Shop zurück. Doppelverkauf und Minusbestand stoppen. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">ERP</a> im selben Team.",
+      "c1title": "Bestellübernahme",
+      "c1desc": "Neue Bestellungen erscheinen automatisch in Ihrem Panel und gehen an Drucker oder Lagerliste. Das Kopieren in Excel entfällt.",
+      "c1link": "Erstgespräch vereinbaren →",
+      "c2title": "Bestandsabgleich",
+      "c2desc": "Der Bestand verkaufter Artikel wird automatisch aus Logo oder dem Shop aktualisiert – Doppelverkäufe und Minusbestand entfallen. Die <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">ERP-Anbindung</a> richtet dasselbe Team ein.",
       "c2link": "ERP anbinden →",
-      "c3title": "🚚 Versand und Retoure",
-      "c3desc": "Sendungsnummer, Retourenannahme. Yurtiçi/Aras-API. E-Rechnung aus derselben Bestellung: <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">E-Rechnung</a>.",
+      "c3title": "Versand und Retouren",
+      "c3desc": "Sendungsnummern von Yurtiçi und Aras sowie Retourenfreigaben werden automatisch verarbeitet. Die Rechnung stellen Sie aus derselben Bestellung als <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">E-Rechnung</a> aus.",
       "c3link": "E-Rechnung anbinden →",
-      "c4title": "🏪 Eigener Shop separat",
-      "c4desc": "Provisionsfreier eigener Shop <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">E-Commerce erstellen lassen</a>. Marktplatz- und Shop-Bestand kollidieren nicht.",
-      "c4link": "E-Commerce-Site →"
+      "c4title": "Auch ein eigener Shop",
+      "c4desc": "Für provisionsfreie Verkäufe bauen wir auch Ihre eigene Website: <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">Onlineshop erstellen lassen</a>. Marktplatz- und Shopbestand geraten nicht durcheinander.",
+      "c4link": "Zum Onlineshop →"
     },
     "who": {
-      "title": "Wer beauftragt Trendyol-Anbindung?",
-      "intro": "„Trendyol-Anbindung“ ist Marktplatz-API. Wer einen eigenen Shop will, geht zur E-Commerce-Seite. Ozturksoft verkauft kein Box-Paket; Bestellung, Bestand und ERP werden in Ihren Fluss geschrieben.",
-      "i1": "Bestellungen werden aus dem Panel kopiert, Bestand geht nachts ins Minus. API soll ziehen, Bestand zurückschreiben.",
-      "i2": "Hepsiburada oder N11 vom selben Bestand. Zweiter Kanal auf dieselbe Wirbelsäule.",
-      "i3": "Rechnung aus Logo. <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">E-Rechnung</a> und <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">ERP</a> im Çankaya-Team.",
-      "i4": "Auch eigener Markenshop. Site <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">eigene URL</a>; Bestand eine Quelle.",
-      "outro": "Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#f27a1a\">+90 546 549 6806</a>."
+      "title": "Für wen eignet sich die Trendyol-Anbindung?",
+      "intro": "Die Trendyol-Anbindung verbindet Ihren Shop über eine API mit Ihrem eigenen Bestell-, Lager- und Buchhaltungssystem. Statt eines Fertigpakets richten wir die Anbindung nach Ihren Abläufen bei Bestellungen, Bestand und ERP aus. Ein Shop unter eigener Marke ist ein separates Onlineshop-Projekt.",
+      "i1": "Sie kopieren Bestellungen von Hand aus dem Trendyol-Panel, und nachts rutscht der Bestand ins Minus; Bestellungen und Bestand sollen sich selbst aktualisieren.",
+      "i2": "Sie möchten dieselben Produkte auch auf Hepsiburada oder N11 verkaufen. Der neue Kanal kommt in dieselbe Struktur und verkauft aus demselben Bestand.",
+      "i3": "Ihre Rechnungen sollen aus Logo kommen. <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">E-Rechnung</a> und <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">ERP</a> bindet dasselbe Team in Çankaya an.",
+      "i4": "Neben dem Marktplatz möchten Sie einen Shop unter eigener Marke. <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">Ihre eigene Website</a> läuft unter separater Adresse, der Bestand kommt aus einer Quelle.",
+      "outro": "Rufen Sie uns für ein kostenloses Erstgespräch an: <a href=\"tel:+905465496806\" style=\"color:#f27a1a\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "Häufige Fragen",
-      "q1": "Was kostet Trendyol-Anbindung?",
-      "a1": "Bestellung 25.000–50.000 TL (2–4 Wochen), Bestand+Versand 50.000–95.000 TL, ERP 95.000–180.000 TL. Kickoff kostenlos.",
-      "q2": "Ist das ein E-Commerce-Shop?",
-      "a2": "Nein. Eigener Shop <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">E-Commerce erstellen lassen</a>. Diese Seite ist Trendyol-/Marktplatz-API.",
-      "q3": "Kann Hepsiburada ergänzt werden?",
-      "a3": "Ja. Ein zweiter Marktplatz sitzt auf derselben Bestandsachse. <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#f27a1a\">Hepsiburada</a> · <a href=\"/amazon-entegrasyonu\" style=\"color:#f27a1a\">Amazon</a>.",
-      "q4": "Bestellung nach Logo?",
-      "a4": "Ja. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">Logo / Netsis</a>-Beleg und optional <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">E-Rechnung</a> im selben Projekt."
+      "q1": "Was kostet eine Trendyol-Anbindung?",
+      "a1": "Die Bestellübernahme kostet 25.000–50.000 TL und wird in 2–4 Wochen geliefert. Bestand und Versand kosten 50.000–95.000 TL, ein Projekt mit ERP 95.000–180.000 TL. Das Erstgespräch ist kostenlos.",
+      "q2": "Ist das ein Onlineshop?",
+      "a2": "Nein. Dieser Service verbindet Ihren Trendyol-Shop mit Ihren eigenen Systemen. Für eine Website unter Ihrer eigenen Marke siehe <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#f27a1a\">Onlineshop erstellen lassen</a>.",
+      "q3": "Lässt sich Hepsiburada ergänzen?",
+      "a3": "Ja. Ein zweiter Marktplatz wird an dieselbe Bestandsbasis angebunden; alle Kanäle verkaufen aus demselben Bestand. Mehr dazu auf unseren Seiten zu <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#f27a1a\">Hepsiburada</a> und <a href=\"/amazon-entegrasyonu\" style=\"color:#f27a1a\">Amazon</a>.",
+      "q4": "Kommen Bestellungen in Logo an?",
+      "a4": "Ja. Bestellungen landen als Belege in Ihrem <a href=\"/logo-netsis-entegrasyon\" style=\"color:#f27a1a\">Logo oder Netsis</a>; auf Wunsch wird im selben Projekt die <a href=\"/e-fatura-entegrasyonu\" style=\"color:#f27a1a\">E-Rechnung</a> eingerichtet."
     },
     "cta": {
-      "btn": "Kostenloses Kickoff-Gespräch",
-      "title": "Sprechen wir über den Marktplatzfluss",
-      "desc": "Kostenloser Kickoff — Bestellung, Bestand, ERP. <a href=\"tel:+905465496806\" style=\"color:#f27a1a\">+90 546 549 6806</a>",
-      "btn2": "Kostenloses Angebot"
+      "btn": "Kostenloses Erstgespräch",
+      "title": "Planen wir Ihre Trendyol-Verkäufe gemeinsam",
+      "desc": "Im kostenlosen Erstgespräch klären wir gemeinsam Ihren Bedarf bei Bestellungen, Bestand und ERP. <a href=\"tel:+905465496806\" style=\"color:#f27a1a\">+90 546 549 6806</a>",
+      "btn2": "Kostenloses Angebot anfordern"
     },
     "footer": "© 2026 Ozturksoft — Trendyol-Anbindung",
     "related": {
-      "shop": "E-Commerce erstellen lassen",
+      "shop": "Onlineshop",
       "ef": "E-Rechnung",
       "logo": "Logo Netsis",
       "wa": "WhatsApp-Chatbot",
@@ -2428,68 +2428,68 @@
       "title": "Trendyol-Anbindung | Bestellung & Bestand | Ozturksoft"
     },
     "stats": {
-      "s1l": "Bestellungen ziehen",
-      "s2l": "Bestand + Versand",
-      "s3l": "Bestandslieferung"
+      "s1l": "Bestellübernahme",
+      "s2l": "Bestand und Versand",
+      "s3l": "Dauer Bestandsanbindung"
     }
   },
   "danismanlikPage": {
     "hero": {
       "badge": "Roadmap · PoC · KVKK · +90 546 549 6806",
-      "title": "Yapay Zeka Danışmanlığı",
-      "desc": "KI-Beratung: ein ChatGPT-Konto ist keine Strategie. Welcher Prozess, welches Budget, verlassen Daten das Haus — schriftliche Roadmap. Umsetzung ist ein eigener Auftrag: <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">Integration</a>, <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">Chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">Agent</a>. Çankaya, kostenloser Kickoff. Leitfaden: <a href=\"/blog/yapay-zeka-danismanligi-isletmeler-rehberi-2026\" style=\"color:#38bdf8\">Beratungsartikel</a>."
+      "title": "KI-Beratung",
+      "desc": "KI-Beratung hilft Ihnen herauszufinden, wo KI in Ihrem Unternehmen wirklich Nutzen bringt. Gemeinsam prüfen wir, mit welchem Prozess Sie beginnen, welches Budget nötig ist und ob Ihre Daten das Unternehmen verlassen würden, und Sie erhalten eine schriftliche Roadmap. Ein ChatGPT-Konto allein ist noch keine Strategie. Die Umsetzung ist ein eigener Service: <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">KI-Integration</a>, <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">Chatbot</a> oder <a href=\"/ai-agent\" style=\"color:#38bdf8\">AI Agent</a>. Das erste Erstgespräch mit unserem Team in Çankaya ist kostenlos. Zur ersten Orientierung lesen Sie unseren <a href=\"/blog/yapay-zeka-danismanligi-isletmeler-rehberi-2026\" style=\"color:#38bdf8\">Leitfaden zur KI-Beratung</a>."
     },
     "pricing": {
-      "title": "KI-Beratung Preis (2026)",
-      "intro": "Kickoff kostenlos. Roadmap und PoC schriftlich; Code extra. Bänder Ankara 2026.",
-      "row1": "Kickoff",
+      "title": "Preise für KI-Beratung (2026)",
+      "intro": "Das erste Erstgespräch ist kostenlos. Roadmap und Ergebnisse des Pilotprojekts (PoC) erhalten Sie schriftlich; Softwareentwicklung wird separat angeboten. Die folgenden Preisspannen gelten für 2026.",
+      "row1": "Erstgespräch",
       "row2": "Roadmap",
-      "row3": "PoC",
+      "row3": "Pilotprojekt (PoC)",
       "p1": "Kostenlos",
       "t1": "45–90 Min.",
       "t2": "1–3 Wochen",
       "t3": "4–8 Wochen",
-      "linkAi": "Umsetzung: Integration",
-      "linkGuide": "Leitfaden"
+      "linkAi": "Umsetzung: KI-Integration",
+      "linkGuide": "Leitfaden zur Beratung"
     },
     "cards": {
-      "c1title": "🗺️ Prozesswahl",
-      "c1desc": "Support, Belege, Vertrieb — was in 90 Tagen Geld bringt. Liste schriftlich; keine Folien-only-Lieferung.",
+      "c1title": "Den richtigen Prozess wählen",
+      "c1desc": "Support, Belegarbeit oder Vertrieb: Gemeinsam ermitteln wir, was sich innerhalb von 90 Tagen auszahlt. Sie erhalten eine schriftliche Prioritätenliste, nicht nur eine Präsentation.",
       "c1link": "Kickoff buchen →",
-      "c2title": "💰 Kostenband",
-      "c2desc": "Chatbot, RAG, Agent getrennt bepreist. Keine Überraschung. Umsetzung im selben Team.",
+      "c2title": "Kosten im Voraus kennen",
+      "c2desc": "Chatbot, KI mit Antworten aus Ihren Dokumenten (RAG) und AI Agent werden einzeln bepreist, ohne Überraschungen. Die Umsetzung bietet dasselbe Team an.",
       "c2link": "Integrationspreis →",
-      "c3title": "🔒 KVKK",
-      "c3desc": "Verlassen Daten das Haus, On-Premise Pflicht? Architektur für <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">öffentlichen Sektor</a> und Holdings.",
+      "c3title": "KVKK und Datensicherheit",
+      "c3desc": "Wir klären, ob Ihre Daten das Unternehmen verlassen würden und ob das System auf eigenen Servern laufen muss. Für <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">Behörden</a> und Holdings erstellen wir zudem eine Architekturempfehlung.",
       "c3link": "KVKK-Leitfaden →",
-      "c4title": "🛠️ Dann Code",
-      "c4desc": "Ist die Entscheidung klar, bauen <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">Chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">Agent</a> oder LLM dasselbe Çankaya-Team.",
+      "c4title": "Danach die Umsetzung",
+      "c4desc": "Sobald die Entscheidung steht, setzt dasselbe Team in Çankaya das Projekt für <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">Chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">AI Agent</a> oder großes Sprachmodell (LLM) um.",
       "c4link": "KI-Firma →"
     },
     "who": {
-      "title": "Wer beauftragt Beratung?",
-      "intro": "„KI-Beratung“ ist der Auftrag, wenn noch unklar ist, was gebaut wird. ChatGPT-Integration geht auf die Umsetzungsseite. Ozturksoft schreibt zuerst den Weg; dasselbe Team kann codeen.",
-      "i1": "Geschäftsleitung sagt „macht KI“, keine Prozessliste. 90-Tage-Weg und Kostenband schriftlich.",
-      "i2": "Box-Bot gekauft, passt nicht. PoC soll das richtige Szenario beweisen; dann <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">Chatbot</a> oder <a href=\"/ai-agent\" style=\"color:#38bdf8\">Agent</a>.",
-      "i3": "KVKK und öffentlicher Sektor. On-Premise im Kickoff. Umsetzung <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">Integration</a> oder <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">öffentliche KI</a>.",
-      "i4": "Leitfaden gelesen. Infotext <a href=\"/blog/yapay-zeka-danismanligi-isletmeler-rehberi-2026\" style=\"color:#38bdf8\">separat</a>; Arbeit startet hier.",
-      "outro": "Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>."
+      "title": "Für wen eignet sich KI-Beratung?",
+      "intro": "KI-Beratung richtet sich an Unternehmen, die KI nutzen möchten, aber noch nicht wissen, wo sie anfangen sollen. Wenn Sie bereits wissen, was Sie brauchen, etwa eine ChatGPT-Integration, können Sie direkt zu unserem Umsetzungsservice gehen. Ozturksoft erstellt zuerst die Roadmap; auf Wunsch übernimmt dasselbe Team auch die Umsetzung.",
+      "i1": "Die Geschäftsleitung will KI, doch der erste Prozess ist unklar. Sie möchten einen 90-Tage-Plan und eine Budgetspanne schriftlich.",
+      "i2": "Sie haben einen fertigen Bot gekauft, der nicht zu Ihrem Geschäft passt. Sie möchten zuerst mit einem kleinen Pilotprojekt (PoC) das richtige Szenario belegen und dann ein <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">Chatbot</a>- oder <a href=\"/ai-agent\" style=\"color:#38bdf8\">AI-Agent</a>-Projekt starten.",
+      "i3": "Sie sind ein Unternehmen oder eine Behörde und verarbeiten sensible Daten im Rahmen des KVKK. Im Erstgespräch halten wir schriftlich fest, ob das System auf Ihren eigenen Servern laufen muss; die Umsetzung erfolgt über unsere <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">KI-Integration</a> oder <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">KI für Behörden</a>.",
+      "i4": "Sie haben unseren <a href=\"/blog/yapay-zeka-danismanligi-isletmeler-rehberi-2026\" style=\"color:#38bdf8\">Leitfaden</a> zum Thema gelesen und möchten nun einen konkreten Schritt für Ihr Unternehmen gehen.",
+      "outro": "Rufen Sie uns für ein kostenloses Erstgespräch an: <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "Häufige Fragen",
       "q1": "Was kostet KI-Beratung?",
-      "a1": "Kickoff kostenlos. Roadmap 25.000–60.000 TL (1–3 Wochen), PoC 40.000–80.000 TL. Software extra.",
-      "q2": "Unterschied zur Integration?",
-      "a2": "Hier startet man. Code auf <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">KI-Integration</a>, <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">Chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">AI-Agent</a>.",
-      "q3": "Nur Folien?",
-      "a3": "Nein. Prozessliste, Kostenband, 90-Tage-Reihenfolge. Dasselbe Team kann umsetzen.",
+      "a1": "Das erste Erstgespräch ist kostenlos. Eine Roadmap kostet 25.000–60.000 TL und ist in 1–3 Wochen fertig; ein Pilotprojekt (PoC) kostet 40.000–80.000 TL. Softwareentwicklung wird separat angeboten.",
+      "q2": "Was ist der Unterschied zur KI-Integration?",
+      "a2": "Die Beratung klärt, wo Sie anfangen. Die Softwareentwicklung gehört zu unseren Leistungen <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">KI-Integration</a>, <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">Chatbot</a> und <a href=\"/ai-agent\" style=\"color:#38bdf8\">AI Agent</a>.",
+      "q3": "Liefern Sie nur eine Präsentation?",
+      "a3": "Nein. Sie erhalten schriftlich eine Prozessliste, Kostenspannen und eine Umsetzungsreihenfolge für 90 Tage. Auf Wunsch übernimmt dasselbe Team auch die Umsetzung.",
       "q4": "Ist Kickoff wirklich kostenlos?",
-      "a4": "Ja. 45–90 Min., keine Bindung. <a href=\"/iletisim\" style=\"color:#38bdf8\">Formular</a> oder <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>."
+      "a4": "Ja. Das Gespräch dauert 45–90 Minuten und verpflichtet Sie zu nichts. Füllen Sie das <a href=\"/iletisim\" style=\"color:#38bdf8\">Kontaktformular</a> aus oder rufen Sie <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a> an."
     },
     "cta": {
       "btn": "Kostenloses Kickoff-Gespräch",
-      "title": "Sprechen wir über die Roadmap",
-      "desc": "Kostenloser Kickoff — Prozess, KVKK, Budget. <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>",
+      "title": "Sprechen wir über Ihre Roadmap",
+      "desc": "Im kostenlosen Erstgespräch betrachten wir gemeinsam Ihre Prozesse, die KVKK-Anforderungen und Ihr Budget. <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>",
       "btn2": "Kostenloses Angebot"
     },
     "footer": "© 2026 Ozturksoft — KI-Beratung",
@@ -2507,7 +2507,7 @@
       "s1n": "Kostenlos",
       "s1l": "Kickoff-Gespräch",
       "s2l": "Roadmap",
-      "s3l": "PoC"
+      "s3l": "Pilotprojekt (PoC)"
     }
   },
   "softwareFirmPage": {
@@ -2683,67 +2683,67 @@
   },
   "hepsiburadaPage": {
     "hero": {
-      "badge": "Bestellung · Bestand · Versand · N11 · ikas · +90 546 549 6806",
+      "badge": "Bestellungen · Bestand · Versand · N11 · ikas · +90 546 549 6806",
       "title": "Hepsiburada-Anbindung",
-      "desc": "Hepsiburada-Anbindung: Bestellungen nicht aus dem Panel kopieren. Bestand, Versand, Retouren per API. Trendyol ist getrennt — <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">Trendyol-Anbindung</a>. Çankaya, schriftliches Angebot, kostenloser Kickoff."
+      "desc": "Die Hepsiburada-Anbindung überträgt die Bestellungen Ihres Shops ohne manuelles Kopieren in Ihr eigenes System. Bestand, Versand und Retouren bleiben per API (der Schnittstelle, über die Systeme miteinander sprechen) aktuell. Wenn Sie auch auf Trendyol verkaufen: <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">Trendyol-Anbindung</a>. Wir sitzen in Çankaya; Erstgespräch kostenlos, Angebot schriftlich."
     },
     "pricing": {
-      "title": "Hepsiburada-Anbindung Preis (2026)",
-      "intro": "Preis folgt Volumen, Versand und ERP. Bänder Ankara 2026; Kickoff kostenlos, Angebot schriftlich.",
-      "row1": "Bestellungen ziehen",
-      "row2": "Bestand + Versand",
-      "row3": "Marktplatz + ERP",
+      "title": "Preise für die Hepsiburada-Anbindung (2026)",
+      "intro": "Den Preis bestimmen vor allem Bestellvolumen, Versanddienstleister und ERP-Anbindung. Die Spannen entsprechen Ankaraner Preisen 2026; den genauen Preis nennen wir nach einem kostenlosen Erstgespräch schriftlich.",
+      "row1": "Bestellübernahme",
+      "row2": "Bestand und Versand",
+      "row3": "Marktplatz und ERP",
       "t1": "2–4 Wochen",
       "t2": "4–8 Wochen",
       "t3": "8–14 Wochen",
       "linkTy": "Trendyol-Anbindung",
-      "linkLogo": "Logo Netsis",
-      "linkMikro": "Mikro"
+      "linkLogo": "Logo-Netsis-Anbindung",
+      "linkMikro": "Mikro-Anbindung"
     },
     "cards": {
-      "c1title": "📦 Bestellungen",
-      "c1desc": "Neue Bestellungen landen im Panel, Drucker oder in der Lagerwarteschlange. Excel-Kopieren endet.",
-      "c1link": "Kickoff vereinbaren →",
-      "c2title": "📊 Bestandssync",
-      "c2desc": "Verkaufsbestand schreibt von Logo, Mikro oder ikas zurück. Doppelverkauf stoppt. <a href=\"/mikro-entegrasyon\" style=\"color:#ff6000\">Mikro</a> ist dasselbe Team.",
-      "c2link": "Mikro / ERP anbinden →",
-      "c3title": "🚚 Versand und Retouren",
-      "c3desc": "Yurtiçi, Aras, MNG, HepsiJet. Tracking und Retouren. E-Rechnung: <a href=\"/e-fatura-entegrasyonu\" style=\"color:#ff6000\">E-Fatura</a>.",
+      "c1title": "Bestellübernahme",
+      "c1desc": "Jede Hepsiburada-Bestellung landet in Ihrem Panel und geht an Drucker oder Lagerliste. Kopieren in Excel ist nicht mehr nötig.",
+      "c1link": "Erstgespräch vereinbaren →",
+      "c2title": "Bestandsabgleich",
+      "c2desc": "Der Bestand verkaufter Artikel wird automatisch mit Logo, Mikro oder ikas abgeglichen – nichts wird doppelt verkauft. Die <a href=\"/mikro-entegrasyon\" style=\"color:#ff6000\">Mikro-Anbindung</a> richtet dasselbe Team ein.",
+      "c2link": "Mikro oder ERP anbinden →",
+      "c3title": "Versand und Retouren",
+      "c3desc": "Sendungsverfolgung und Retouren für Yurtiçi, Aras, MNG und HepsiJet laufen automatisch. Für Rechnungen: <a href=\"/e-fatura-entegrasyonu\" style=\"color:#ff6000\">E-Rechnung</a>.",
       "c3link": "E-Rechnung anbinden →",
-      "c4title": "🏪 N11, ikas, eigene Site",
-      "c4desc": "N11 als zweiter Kanal. ikas/Ticimax/Shopify-Shop. Eigene Site: <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">E-Commerce erstellen lassen</a>.",
-      "c4link": "E-Commerce-Site →"
+      "c4title": "N11, ikas und eigene Website",
+      "c4desc": "Wir binden auch N11 als zweiten Kanal sowie Ihren ikas-, Ticimax- oder Shopify-Shop an. Für Ihre eigene Website: <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">Onlineshop erstellen lassen</a>.",
+      "c4link": "Zum Onlineshop →"
     },
     "who": {
-      "title": "Wer beauftragt Hepsiburada-Anbindung?",
-      "intro": "„Hepsiburada-Anbindung“ ist ein Marktplatz-API-Auftrag. Kein Fertigpaket; Bestellungen, Bestand und ERP werden in Ihren Ablauf geschrieben.",
-      "i1": "Bestellungen werden aus dem HB-Panel kopiert; der Bestand geht nachts ins Minus.",
-      "i2": "Trendyol ist schon da; HB oder N11 sollen denselben Bestand nutzen. Trendyol ist eine <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">eigene URL</a>.",
-      "i3": "ikas oder Ihr Woo-Shop dürfen nicht mit dem Marktplatz kollidieren.",
-      "i4": "Rechnungen sollen aus Logo/Mikro kommen; iyzico bleibt auf Ihrer Site — <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">E-Commerce</a>.",
-      "outro": "Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#ff6000\">+90 546 549 6806</a>."
+      "title": "Für wen eignet sich die Hepsiburada-Anbindung?",
+      "intro": "Die Hepsiburada-Anbindung verbindet Ihren Shop über eine API mit Ihrem eigenen Bestell-, Lager- und Buchhaltungssystem. Statt allen dieselbe Fertiglösung zu installieren, richten wir die Anbindung nach Ihren Abläufen bei Bestellungen, Bestand und ERP aus.",
+      "i1": "Sie kopieren Bestellungen von Hand aus dem Hepsiburada-Panel, und nachts rutscht der Bestand ins Minus.",
+      "i2": "Sie verkaufen bereits auf Trendyol; Bestellungen von Hepsiburada oder N11 sollen aus demselben Bestand kommen. Für Trendyol: <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">Trendyol-Anbindung</a>.",
+      "i3": "Ihr eigener Shop auf ikas oder WooCommerce soll beim Bestand nicht mit dem Marktplatz kollidieren.",
+      "i4": "Rechnungen sollen aus Logo oder Mikro kommen, iyzico-Zahlungen auf Ihrer eigenen Website bleiben. Für Ihre Website: <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">Onlineshop</a>.",
+      "outro": "Rufen Sie uns für ein kostenloses Erstgespräch an: <a href=\"tel:+905465496806\" style=\"color:#ff6000\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "Häufige Fragen",
-      "q1": "Was kostet die Hepsiburada-Anbindung?",
-      "a1": "Bestellungen 25.000–50.000 TL (2–4 Wochen), Bestand+Versand 50.000–95.000 TL, ERP 95.000–180.000 TL. Kickoff ist kostenlos.",
-      "q2": "Ist das die Trendyol-Seite?",
-      "a2": "Nein. Trendyol ist eine <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">eigene URL</a>. Ein zweiter Kanal kommt auf dieselbe Bestandsachse.",
-      "q3": "N11, ikas, Shopify?",
-      "a3": "N11 ist Marktplatz; ikas, Ticimax, Shopify sind Shop-APIs. Die Kanalzahl wird im Kickoff bepreist.",
-      "q4": "iyzico und Versand?",
-      "a4": "iyzico/PayTR auf Ihrer Site ist <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">E-Commerce</a>. Marktplatzversand: Yurtiçi/Aras/MNG/HepsiJet-API."
+      "q1": "Was kostet eine Hepsiburada-Anbindung?",
+      "a1": "Die Bestellübernahme kostet 25.000–50.000 TL und dauert 2–4 Wochen. Bestand und Versand kosten 50.000–95.000 TL, ein Projekt mit ERP 95.000–180.000 TL. Das Erstgespräch ist kostenlos.",
+      "q2": "Ist Trendyol in diesem Service enthalten?",
+      "a2": "Trendyol beschreiben wir auf einer <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff6000\">eigenen Seite</a>. Nutzen Sie beide Marktplätze, wird Trendyol als zweiter Kanal an dieselbe Bestandsbasis angebunden.",
+      "q3": "Lassen sich N11, ikas oder Shopify anbinden?",
+      "a3": "Ja. N11 wird als Marktplatz angebunden, ikas, Ticimax und Shopify über ihre Shop-APIs. Der Preis richtet sich nach der Zahl der Kanäle und wird im Erstgespräch festgelegt.",
+      "q4": "Wie funktionieren iyzico und Versand?",
+      "a4": "Zahlungen über iyzico oder PayTR gehören zum <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff6000\">Onlineshop</a>-Projekt auf Ihrer eigenen Website. Der Versand von Hepsiburada-Bestellungen wird über die APIs von Yurtiçi, Aras, MNG und HepsiJet verfolgt."
     },
     "cta": {
-      "btn": "Kostenloses Kickoff-Gespräch",
-      "title": "Hepsiburada-Ablauf besprechen",
-      "desc": "Kostenloser Kickoff — Bestellung, Bestand, ERP. <a href=\"tel:+905465496806\" style=\"color:#ff6000\">+90 546 549 6806</a>",
-      "btn2": "Kostenloses Angebot"
+      "btn": "Kostenloses Erstgespräch",
+      "title": "Sprechen wir über Ihren Hepsiburada-Shop",
+      "desc": "Im kostenlosen Erstgespräch klären wir gemeinsam Ihren Bedarf bei Bestellungen, Bestand und ERP. <a href=\"tel:+905465496806\" style=\"color:#ff6000\">+90 546 549 6806</a>",
+      "btn2": "Kostenloses Angebot anfordern"
     },
     "footer": "© 2026 Ozturksoft — Hepsiburada-Anbindung",
     "related": {
       "ty": "Trendyol",
-      "shop": "E-Commerce",
+      "shop": "Onlineshop",
       "mikro": "Mikro",
       "ef": "E-Rechnung",
       "am": "Amazon"
@@ -2752,76 +2752,76 @@
       "title": "Hepsiburada-Anbindung | Bestellung & Bestand | Ozturksoft"
     },
     "stats": {
-      "s1l": "Bestellungen ziehen",
-      "s2l": "Bestand + Versand",
-      "s3l": "Bestandslieferung"
+      "s1l": "Bestellübernahme",
+      "s2l": "Bestand und Versand",
+      "s3l": "Dauer Bestandsanbindung"
     }
   },
   "amazonPage": {
     "hero": {
       "badge": "SP-API · FBA · FBM · Seller Central · +90 546 549 6806",
       "title": "Amazon-Anbindung",
-      "desc": "Amazon-Anbindung: Bestellungen nicht aus Seller Central kopieren. SP-API führt Bestellung, Bestand, FBA/FBM. Trendyol und Hepsiburada sind getrennt — <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">Trendyol</a> · <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">Hepsiburada</a>. Çankaya, schriftliches Angebot, kostenloser Kickoff."
+      "desc": "Die Amazon-Anbindung überträgt Ihre Seller-Central-Bestellungen ohne manuelles Kopieren in Ihr eigenes System. Bestellungen, Bestand und FBA/FBM-Sendungen laufen über SP-API, die Schnittstelle, die Amazon Verkäufern bereitstellt. Für weitere Marktplätze: <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">Trendyol</a> · <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">Hepsiburada</a>. Wir sitzen in Çankaya; Erstgespräch kostenlos, Angebot schriftlich."
     },
     "pricing": {
-      "title": "Preis Amazon-Anbindung (2026)",
-      "intro": "Preis folgt Bestellvolumen, FBA/FBM und ERP. Bänder Ankara 2026; Kickoff kostenlos, Angebot schriftlich. Keine Verkäuferkonten.",
-      "row1": "Bestellungen ziehen",
-      "row2": "Bestand + FBA/FBM",
-      "row3": "Marktplatz + ERP",
+      "title": "Preise für die Amazon-Anbindung (2026)",
+      "intro": "Der Preis hängt vom Bestellvolumen ab, davon, ob Sie FBA (Versand aus dem Amazon-Lager) oder FBM (Versand aus Ihrem eigenen Lager) nutzen, und von Ihrem ERP. Die Spannen entsprechen Ankaraner Preisen 2026; den genauen Preis nennen wir nach einem kostenlosen Erstgespräch schriftlich.",
+      "row1": "Bestellübernahme",
+      "row2": "Bestand und FBA/FBM",
+      "row3": "Marktplatz und ERP",
       "t1": "2–4 Wochen",
       "t2": "4–8 Wochen",
       "t3": "8–14 Wochen",
       "linkTy": "Trendyol-Anbindung",
-      "linkHb": "Hepsiburada",
-      "linkLogo": "Logo Netsis",
-      "linkMikro": "Mikro"
+      "linkHb": "Hepsiburada-Anbindung",
+      "linkLogo": "Logo-Netsis-Anbindung",
+      "linkMikro": "Mikro-Anbindung"
     },
     "cards": {
-      "c1title": "📦 Bestellungen",
-      "c1desc": "Neue Bestellungen landen im Panel, Drucker oder Lager. Copy-Paste aus Seller Central endet.",
-      "c1link": "Kickoff vereinbaren →",
-      "c2title": "📊 Bestandssync",
-      "c2desc": "FBA- und FBM-Bestand schreibt aus Logo, Mikro oder Shop zurück. Doppelverkauf stoppt. <a href=\"/mikro-entegrasyon\" style=\"color:#ff9900\">Mikro</a> im selben Team.",
-      "c2link": "Mikro / ERP anbinden →",
-      "c3title": "🚚 FBA, FBM, Easy Ship",
-      "c3desc": "Amazon-Lager oder Ihr Versand. Tracking und Retouren. E-Rechnung: <a href=\"/e-fatura-entegrasyonu\" style=\"color:#ff9900\">E-Rechnung</a>.",
+      "c1title": "Bestellübernahme",
+      "c1desc": "Amazon-Bestellungen erscheinen automatisch in Ihrem Panel und gehen an Drucker oder Lagerliste. Das Kopieren aus Seller Central entfällt.",
+      "c1link": "Erstgespräch vereinbaren →",
+      "c2title": "Bestandsabgleich",
+      "c2desc": "Ihr FBA- und FBM-Bestand wird automatisch mit Logo, Mikro oder Ihrem Shop abgeglichen – nichts wird doppelt verkauft. Die <a href=\"/mikro-entegrasyon\" style=\"color:#ff9900\">Mikro-Anbindung</a> richtet dasselbe Team ein.",
+      "c2link": "Mikro oder ERP anbinden →",
+      "c3title": "FBA, FBM und Easy Ship",
+      "c3desc": "Ob der Versand aus dem Amazon-Lager oder mit Ihrem eigenen Paketdienst erfolgt: Sendungsverfolgung und Retouren laufen automatisch. Für Rechnungen: <a href=\"/e-fatura-entegrasyonu\" style=\"color:#ff9900\">E-Rechnung</a>.",
       "c3link": "E-Rechnung anbinden →",
-      "c4title": "🏪 Shopify, eigene Site",
-      "c4desc": "Shopify/Woo darf Amazon nicht kreuzen. Eigene Site: <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">E-Commerce bauen lassen</a>.",
-      "c4link": "E-Commerce-Site →"
+      "c4title": "Shopify und eigene Website",
+      "c4desc": "Der Bestand Ihres Shopify- oder WooCommerce-Shops kollidiert nicht mit Amazon. Für Ihre eigene Website: <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">Onlineshop erstellen lassen</a>.",
+      "c4link": "Zum Onlineshop →"
     },
     "who": {
-      "title": "Wer beauftragt die Amazon-Anbindung?",
-      "intro": "„Amazon-Anbindung“ ist ein Amazon.com.tr-SP-API-Auftrag. Keine Verkäuferkonten, kein Fertigpaket; Bestellung, Bestand und ERP werden in Ihren Ablauf geschrieben.",
-      "i1": "Bestellungen werden aus Seller Central kopiert; Bestand geht nachts ins Minus.",
-      "i2": "Trendyol oder Hepsiburada läuft schon; Amazon soll denselben Bestand nutzen. <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">Trendyol</a> · <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">Hepsiburada</a>.",
-      "i3": "FBA und FBM mischen sich; Shopify oder Woo darf Amazon nicht kreuzen.",
-      "i4": "Rechnungen aus Logo/Mikro; iyzico bleibt auf der eigenen Site — <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">E-Commerce</a>.",
-      "outro": "Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#ff9900\">+90 546 549 6806</a>."
+      "title": "Für wen eignet sich die Amazon-Anbindung?",
+      "intro": "Die Amazon-Anbindung verbindet Ihren Amazon.com.tr-Shop über SP-API mit Ihrem eigenen Bestell-, Lager- und Buchhaltungssystem. Das Verkäuferkonto bleibt Ihres; statt eines Fertig-Connectors richten wir die Anbindung nach Ihren Abläufen bei Bestellungen, Bestand und ERP aus.",
+      "i1": "Sie kopieren Bestellungen von Hand aus Seller Central, und nachts rutscht der Bestand ins Minus.",
+      "i2": "Sie verkaufen bereits auf Trendyol oder Hepsiburada; Amazon-Bestellungen sollen aus demselben Bestand kommen: <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">Trendyol</a> · <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">Hepsiburada</a>.",
+      "i3": "FBA- und FBM-Sendungen geraten durcheinander, und der Bestand Ihres Shopify- oder WooCommerce-Shops darf nicht mit Amazon kollidieren.",
+      "i4": "Amazon-Rechnungen sollen aus Logo oder Mikro kommen, während Sie auf Ihrer eigenen Website weiter über iyzico kassieren. Für Ihre Website: <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">Onlineshop</a>.",
+      "outro": "Rufen Sie uns für ein kostenloses Erstgespräch an: <a href=\"tel:+905465496806\" style=\"color:#ff9900\">+90 546 549 6806</a>."
     },
     "faq": {
-      "title": "FAQ",
-      "q1": "Was kostet die Amazon-Anbindung?",
-      "a1": "Bestellungen 25.000–50.000 TL (2–4 Wochen), Bestand+FBA/FBM 50.000–95.000 TL, ERP 95.000–180.000 TL. Kickoff kostenlos.",
-      "q2": "Ist das die Trendyol- oder Hepsiburada-Seite?",
-      "a2": "Nein. Trendyol ist eine <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">eigene URL</a>. Hepsiburada ist eine <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">eigene URL</a>. Ein dritter Kanal sitzt auf derselben Bestandsachse.",
-      "q3": "FBA, FBM, Amazon.com.tr?",
-      "a3": "Amazon.com.tr Seller Central + SP-API. FBA ist Amazons Lager, FBM Ihr Versand, Easy Ship Amazon-Labels. Keine Verkäuferkonten.",
-      "q4": "Shopify, iyzico und Versand?",
-      "a4": "iyzico/PayTR und Shopify auf der eigenen Site sind <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">E-Commerce</a>. Amazon-Zahlung bleibt bei Amazon; FBM-Versand Yurtiçi/Aras/MNG-API."
+      "title": "Häufige Fragen",
+      "q1": "Was kostet eine Amazon-Anbindung?",
+      "a1": "Die Bestellübernahme kostet 25.000–50.000 TL und wird in 2–4 Wochen geliefert. Bestand und FBA/FBM kosten 50.000–95.000 TL, ein Projekt mit ERP 95.000–180.000 TL. Das Erstgespräch ist kostenlos.",
+      "q2": "Binden Sie auch Trendyol und Hepsiburada an?",
+      "a2": "Ja, beides beschreiben wir auf eigenen Seiten: <a href=\"/trendyol-entegrasyonu\" style=\"color:#ff9900\">Trendyol-Anbindung</a> und <a href=\"/hepsiburada-entegrasyonu\" style=\"color:#ff9900\">Hepsiburada-Anbindung</a>. Sind diese Kanäle bereits angebunden, kommt Amazon als dritter Kanal an dieselbe Bestandsbasis.",
+      "q3": "Wie funktionieren FBA, FBM und Amazon.com.tr?",
+      "a3": "Die Anbindung läuft über Ihr Amazon.com.tr-Seller-Central-Konto und SP-API. Bei FBA versendet Amazon aus seinem Lager, bei FBM versenden Sie selbst; bei Easy Ship stellt Amazon das Versandetikett. Das Verkäuferkonto gehört Ihnen; wir binden es an Ihre Systeme an.",
+      "q4": "Wie laufen Shopify, iyzico und Versand?",
+      "a4": "Zahlungen über iyzico oder PayTR und ein Shopify-Shop auf Ihrer eigenen Website gehören zu unserem <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#ff9900\">Onlineshop</a>-Angebot. Amazon-Bestellungen bezahlen Kunden bei Amazon; FBM-Sendungen werden über die APIs von Yurtiçi, Aras und MNG verfolgt."
     },
     "cta": {
-      "btn": "Kostenloses Kickoff-Gespräch",
-      "title": "Amazon-Ablauf besprechen",
-      "desc": "Kostenloser Kickoff — Bestellung, Bestand, FBA, ERP. <a href=\"tel:+905465496806\" style=\"color:#ff9900\">+90 546 549 6806</a>",
-      "btn2": "Kostenloses Angebot"
+      "btn": "Kostenloses Erstgespräch",
+      "title": "Sprechen wir über Ihre Amazon-Verkäufe",
+      "desc": "Im kostenlosen Erstgespräch betrachten wir gemeinsam Ihren Bedarf bei Bestellungen, Bestand, FBA und ERP. <a href=\"tel:+905465496806\" style=\"color:#ff9900\">+90 546 549 6806</a>",
+      "btn2": "Kostenloses Angebot anfordern"
     },
     "footer": "© 2026 Ozturksoft — Amazon-Anbindung",
     "related": {
       "ty": "Trendyol",
       "hb": "Hepsiburada",
-      "shop": "E-Commerce",
+      "shop": "Onlineshop",
       "mikro": "Mikro",
       "ef": "E-Rechnung"
     },
@@ -2829,20 +2829,20 @@
       "title": "Amazon-Anbindung | SP-API Bestellung & Bestand | Ozturksoft"
     },
     "stats": {
-      "s1l": "Bestellungen ziehen",
-      "s2l": "Bestand + FBA/FBM",
-      "s3l": "Bestandslieferung"
+      "s1l": "Bestellübernahme",
+      "s2l": "Bestand und FBA/FBM",
+      "s3l": "Dauer Bestandsanbindung"
     }
   },
   "crmPage": {
     "hero": {
-      "badge": "Vertrieb · Konto · WhatsApp · Logo · +90 546 549 6806",
+      "badge": "Vertrieb · Kundendaten · WhatsApp · Logo · +90 546 549 6806",
       "title": "CRM-Software erstellen lassen",
-      "desc": "CRM-Software erstellen lassen: Schluss mit Excel. Pipeline, Angebote und Zahlungen in einem Panel. Keine Salesforce-Lizenzen — wir schreiben Ihres oder binden eine vorhandene API. Çankaya, kostenloser Kickoff. Leitfaden: <a href=\"/blog/crm-erp-entegrasyonu-rehberi-2026\" style=\"color:#3b82f6\">CRM/ERP-Artikel</a>."
+      "desc": "Schluss mit Kundendaten, die über Excel-Dateien verstreut sind. Ein CRM (Kundenbeziehungsmanagement) bündelt Verkaufschancen, Angebote und Zahlungseingänge auf einem Bildschirm. Wir entwickeln das CRM passend zu Ihrem Geschäft oder binden es per API an Ihr bestehendes System an. Das Erstgespräch in Çankaya ist kostenlos. Mehr dazu: <a href=\"/blog/crm-erp-entegrasyonu-rehberi-2026\" style=\"color:#3b82f6\">unser Artikel zu CRM und ERP</a>."
     },
     "pricing": {
       "title": "CRM-Software Preis (2026)",
-      "intro": "Preis folgt Nutzerzahl, ERP und WhatsApp. Bänder Ankara 2026; Kickoff kostenlos, Angebot schriftlich. Der Leitfaden bleibt getrennt.",
+      "intro": "Der Preis hängt von der Zahl der Nutzer, der Anbindung an Ihr ERP (Buchhaltungs- und Lagersoftware) und dem WhatsApp-Bedarf ab. Die folgenden Preisspannen gelten für 2026; der genaue Preis wird nach einem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt.",
       "row1": "KMU-Vertriebspanel",
       "row2": "CRM + WhatsApp",
       "row3": "CRM + Logo / Mikro",
@@ -2853,43 +2853,43 @@
       "linkGuide": "CRM/ERP-Leitfaden"
     },
     "cards": {
-      "c1title": "👤 Konten und Pipeline",
-      "c1desc": "Firma, Person, Chance, Angebot. Wer angerufen, wer abgeschlossen hat.",
+      "c1title": "Kundendaten und Vertriebssteuerung",
+      "c1desc": "Firmen, Ansprechpartner, Verkaufschancen und Angebote liegen an einem Ort. Sie sehen auf einen Blick, wer angerufen und wer welchen Abschluss gemacht hat.",
       "c1link": "Kickoff vereinbaren →",
-      "c2title": "🔗 ERP-Beleg",
-      "c2desc": "Bestellungen und Zahlungen schreiben nach Logo, Netsis oder Mikro. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#3b82f6\">Logo</a> · <a href=\"/mikro-entegrasyon\" style=\"color:#3b82f6\">Mikro</a>.",
+      "c2title": "Automatische Buchung im ERP",
+      "c2desc": "Aufträge und Zahlungseingänge werden ohne erneute Eingabe an Logo, Netsis oder Mikro übertragen. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#3b82f6\">Logo</a> · <a href=\"/mikro-entegrasyon\" style=\"color:#3b82f6\">Mikro</a>.",
       "c2link": "Logo / Netsis →",
-      "c3title": "💬 WhatsApp-Vertrieb",
-      "c3desc": "Der Chat bindet sich ans Konto. Der Bot öffnet Bestellungen. <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#3b82f6\">WhatsApp-Chatbot</a>.",
+      "c3title": "Verkauf über WhatsApp",
+      "c3desc": "WhatsApp-Chats werden mit dem passenden Kundendatensatz verknüpft, und der Bot kann selbst Aufträge anlegen. <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#3b82f6\">WhatsApp-Chatbot</a>.",
       "c3link": "WhatsApp-Chatbot →",
-      "c4title": "📦 Kein Fertigprodukt",
-      "c4desc": "Keine Paraşüt-/Salesforce-Lizenzen. Passt es nicht, individuelles Panel; passt es, API.",
+      "c4title": "Passend zu Ihrem Geschäft",
+      "c4desc": "Passt Paraşüt oder Salesforce zu Ihnen, binden wir es an Ihre übrigen Systeme an; wenn nicht, entwickeln wir ein eigenes Panel für Sie.",
       "c4link": "Individualsoftware →"
     },
     "who": {
-      "title": "Wer beauftragt CRM?",
-      "intro": "„Ankara CRM“ und „CRM erstellen lassen“ sind derselbe Auftrag: Kunden an einem Ort. Reicht SaaS, kaufen Sie es; weicht Ihr Prozess ab, schreiben wir es.",
-      "i1": "Kunden leben in Excel und WhatsApp. Sie wollen Panel und Rollen.",
-      "i2": "Konten sitzen in Logo; der Vertrieb hat keinen Screen. Belege sollen ins <a href=\"/logo-netsis-entegrasyon\" style=\"color:#3b82f6\">ERP</a> zurückschreiben.",
-      "i3": "Paraşüt reicht nicht oder Salesforce ist teuer. Keine Lizenz — Ihr Ablauf.",
-      "i4": "Der Chatbot soll Bestellungen öffnen. <a href=\"/ankara-ai-asistan\" style=\"color:#3b82f6\">Assistent</a> und CRM sind dasselbe Team.",
-      "outro": "Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#3b82f6\">+90 546 549 6806</a>."
+      "title": "Wer lässt ein CRM entwickeln?",
+      "intro": "Unternehmen, die ein CRM wollen, haben ein gemeinsames Ziel: alle Kundendaten an einem Ort. Wenn eine fertige Cloud-Software (SaaS) Ihren Bedarf deckt, empfehlen wir Ihnen diese; arbeiten Sie anders, entwickeln wir ein CRM speziell für Sie.",
+      "i1": "Ihre Kundendaten verteilen sich auf Excel-Dateien und WhatsApp-Chats. Sie wünschen sich ein Panel, auf das jeder mit seinen eigenen Rechten zugreift.",
+      "i2": "Ihre Kundenkonten liegen in Logo, aber Ihr Vertrieb hat keine eigene Oberfläche. Aufträge aus dem Vertrieb sollen automatisch auch in Ihrem <a href=\"/logo-netsis-entegrasyon\" style=\"color:#3b82f6\">ERP</a> gespeichert werden.",
+      "i3": "Paraşüt reicht Ihnen nicht, oder Salesforce ist Ihnen zu teuer. Statt Lizenzgebühren zu zahlen, möchten Sie ein System, das zu Ihrer Arbeitsweise passt.",
+      "i4": "Der Chatbot soll Kundenaufträge selbst anlegen. <a href=\"/ankara-ai-asistan\" style=\"color:#3b82f6\">KI-Assistent</a> und CRM entwickelt dasselbe Team.",
+      "outro": "Rufen Sie uns für ein kostenloses Erstgespräch an: <a href=\"tel:+905465496806\" style=\"color:#3b82f6\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "Häufige Fragen",
       "q1": "Was kostet individuelles CRM?",
-      "a1": "KMU 80.000–180.000 TL, WhatsApp 120.000–220.000 TL, mit ERP 150.000–300.000 TL. Kickoff ist kostenlos.",
-      "q2": "Verkaufen Sie Salesforce / Paraşüt?",
-      "a2": "Keine Fertiglizenzen. Wir schreiben ein CRM oder binden eine vorhandene API (Salesforce, HubSpot, Paraşüt).",
-      "q3": "Reicht der ERP-Leitfaden?",
-      "a3": "Der Leitfaden ist Information. Die Arbeit startet hier; der Artikel ist der <a href=\"/blog/crm-erp-entegrasyonu-rehberi-2026\" style=\"color:#3b82f6\">CRM/ERP-Leitfaden</a>.",
-      "q4": "Geht Mikro?",
-      "a4": "Ja. <a href=\"/mikro-entegrasyon\" style=\"color:#3b82f6\">Mikro-Anbindung</a> ist dasselbe Çankaya-Team."
+      "a1": "Ein KMU-Vertriebspanel kostet 80.000–180.000 TL, ein CRM mit WhatsApp 120.000–220.000 TL und ein CRM mit ERP-Anbindung 150.000–300.000 TL. Das Erstgespräch ist kostenlos.",
+      "q2": "Verkaufen Sie Salesforce- oder Paraşüt-Lizenzen?",
+      "a2": "Nein, wir verkaufen keine fertigen Lizenzen. Wir entwickeln ein CRM für Sie oder binden Ihr bestehendes System (Salesforce, HubSpot, Paraşüt) per API an Ihre übrige Software an.",
+      "q3": "Wo erfahre ich mehr über die Verbindung von CRM und ERP?",
+      "a3": "Einen allgemeinen Überblick gibt unser <a href=\"/blog/crm-erp-entegrasyonu-rehberi-2026\" style=\"color:#3b82f6\">CRM/ERP-Leitfaden</a>. Für eine Lösung, die zu Ihrem Unternehmen passt, klären wir Ihren Bedarf gemeinsam im kostenlosen Erstgespräch.",
+      "q4": "Funktioniert es mit Mikro?",
+      "a4": "Ja. Auch die <a href=\"/mikro-entegrasyon\" style=\"color:#3b82f6\">Mikro-Integration</a> übernimmt dasselbe Team in Çankaya."
     },
     "cta": {
       "btn": "Kostenloses Kickoff-Gespräch",
       "title": "CRM-Panel besprechen",
-      "desc": "Kostenloser Kickoff — Vertrieb, Konto, ERP. <a href=\"tel:+905465496806\" style=\"color:#3b82f6\">+90 546 549 6806</a>",
+      "desc": "Sprechen wir im kostenlosen Erstgespräch über Ihren Vertriebsprozess, Ihre Kundendaten und die ERP-Anbindung. <a href=\"tel:+905465496806\" style=\"color:#3b82f6\">+90 546 549 6806</a>",
       "btn2": "Kostenloses Angebot"
     },
     "footer": "© 2026 Ozturksoft — CRM-Software erstellen lassen",
@@ -2903,9 +2903,9 @@
       "title": "CRM-Software erstellen lassen | Ankara Preis | Ozturksoft"
     },
     "stats": {
-      "s1l": "KMU-Panel",
-      "s2l": "CRM + ERP",
-      "s3l": "Panel-Lieferung"
+      "s1l": "KMU-Vertriebspanel",
+      "s2l": "CRM + ERP-Anbindung",
+      "s3l": "Lieferzeit"
     }
   },
   "seoPage": {
@@ -2999,66 +2999,66 @@
   },
   "mikroPage": {
     "hero": {
-      "badge": "Mikro Jump · Bestand · Konto · Rechnung · +90 546 549 6806",
+      "badge": "Mikro Jump · Bestand · Kundenkonten · Rechnungen · +90 546 549 6806",
       "title": "Mikro-Anbindung",
-      "desc": "Mikro-Anbindung: Bestand, Konten und Rechnungen sollen zu Web, Marktplatz oder CRM fließen. Keine Händlerlizenz — wir schreiben API gegen Ihr Mikro. Logo ist eine <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">eigene URL</a>. Çankaya, kostenloser Kickoff."
+      "desc": "Die Mikro-Anbindung überträgt Bestands-, Kundenkonto- und Rechnungsdaten aus Mikro automatisch an Ihre Website, Ihre Marktplatz-Shops oder Ihr CRM. Eine neue Mikro-Lizenz brauchen Sie nicht; wir verbinden Ihr bestehendes Mikro per API – also über eine Schnittstelle, über die Systeme miteinander kommunizieren. Wenn Sie Logo oder Netsis nutzen, ist unsere <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">Logo- und Netsis-Anbindung</a> die passende Lösung. Wir sitzen in Çankaya; das Erstgespräch ist kostenlos."
     },
     "pricing": {
-      "title": "Mikro-Anbindung Preis (2026)",
-      "intro": "Preis folgt Belegarten und Richtung. Bänder Ankara 2026; Kickoff kostenlos, Angebot schriftlich. Mikro-Softwarelizenzen extra.",
-      "row1": "Einweg-API",
-      "row2": "Bidirektional",
-      "row3": "Marktplatz + Mikro",
+      "title": "Preise für die Mikro-Anbindung (2026)",
+      "intro": "Der Preis hängt von den zu übertragenden Belegarten ab und davon, ob die Daten in eine oder in beide Richtungen fließen. Die folgenden Preisspannen gelten für 2026; der genaue Preis wird nach einem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt. Die Mikro-Softwarelizenz ist nicht enthalten.",
+      "row1": "Einseitige API-Anbindung",
+      "row2": "Beidseitige Anbindung",
+      "row3": "Marktplatz- und Mikro-Anbindung",
       "t1": "2–4 Wochen",
       "t2": "6–10 Wochen",
       "t3": "8–14 Wochen",
       "linkLogo": "Logo / Netsis",
-      "linkEf": "E-Rechnung"
+      "linkEf": "E-Rechnungs-Anbindung"
     },
     "cards": {
-      "c1title": "📦 Bestand",
-      "c1desc": "Verkaufsbestand fällt in Mikro; Shop oder Marktplatz schreibt zurück.",
-      "c1link": "Hepsiburada →",
-      "c2title": "👤 Konten",
-      "c2desc": "Salden nach CRM oder WhatsApp. <a href=\"/crm-yazilim-yaptirmak\" style=\"color:#14b8a6\">CRM erstellen lassen</a>.",
-      "c2link": "CRM erstellen lassen →",
-      "c3title": "🧾 Rechnungen",
-      "c3desc": "E-Rechnung mit dem Mikro-Satz. <a href=\"/e-fatura-entegrasyonu\" style=\"color:#14b8a6\">E-Fatura</a>.",
-      "c3link": "E-Rechnung →",
-      "c4title": "⚠️ Kein Händler",
-      "c4desc": "Wir verkaufen kein Mikro Jump. Wir schreiben einen Konnektor zu Ihrer Installation.",
-      "c4link": "Individualsoftware →"
+      "c1title": "Bestand",
+      "c1desc": "Verkäufe in Ihrem Onlineshop oder auf Marktplätzen werden automatisch im Mikro-Bestand verbucht, sodass die Bestände auf beiden Seiten aktuell bleiben.",
+      "c1link": "Hepsiburada-Anbindung →",
+      "c2title": "Kundenkonten",
+      "c2desc": "Kundensalden lassen sich in Ihrem CRM oder über WhatsApp einsehen. Für Ihr Vertriebsteam können Sie auch eine <a href=\"/crm-yazilim-yaptirmak\" style=\"color:#14b8a6\">CRM-Software</a> entwickeln lassen.",
+      "c2link": "CRM-Software entwickeln lassen →",
+      "c3title": "Rechnungen",
+      "c3desc": "Ihre E-Rechnungen entstehen zusammen mit dem Beleg in Mikro. Details finden Sie bei unserer <a href=\"/e-fatura-entegrasyonu\" style=\"color:#14b8a6\">E-Rechnungs-Anbindung</a>.",
+      "c3link": "E-Rechnungs-Anbindung →",
+      "c4title": "Anbindung an Ihr bestehendes Mikro",
+      "c4desc": "Wir sind kein Mikro-Händler und verkaufen keine Mikro-Jump-Lizenzen. Wir binden das Mikro an, das in Ihrem Unternehmen bereits installiert ist.",
+      "c4link": "Individualsoftware entwickeln lassen →"
     },
     "who": {
-      "title": "Wer beauftragt Mikro-Anbindung?",
-      "intro": "Mikro ist bei KMU üblich. Logo-Suchende gehen zur Schwesterseite. Ozturksoft verkauft kein Fertig-ERP; wir liefern eine laufende API.",
-      "i1": "Marktplatzbestand ist von Mikro getrennt; nachts geht er ins Minus.",
-      "i2": "E-Rechnungen vom Portal, Belege per Hand. Schreiben Sie einen <a href=\"/e-fatura-entegrasyonu\" style=\"color:#14b8a6\">Konnektor</a>.",
-      "i3": "Der Vertrieb will CRM; die Buchhaltung bleibt in Mikro.",
-      "i4": "Sie nutzen Mikro, nicht Logo; die <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">Logo-Seite</a> soll Sie nicht verfehlen.",
-      "outro": "Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#14b8a6\">+90 546 549 6806</a>."
+      "title": "Für wen eignet sich die Mikro-Anbindung?",
+      "intro": "Mikro ist eine bei KMU weit verbreitete Buchhaltungs- und ERP-Software. Die Mikro-Anbindung lässt sie mit Ihren anderen Systemen kommunizieren, etwa mit Website, Marktplätzen oder CRM. Ozturksoft verkauft kein ERP-Paket, sondern richtet eine funktionierende Anbindung an Ihr Mikro ein und übergibt sie. Wenn Sie Logo nutzen, passt unsere Logo-Anbindung besser.",
+      "i1": "Ihr Marktplatz-Bestand stimmt nicht mit Mikro überein, und bei nächtlichen Bestellungen rutscht der Bestand ins Minus.",
+      "i2": "Sie stellen E-Rechnungen im Portal aus und erfassen die Buchungsbelege von Hand – das soll automatisch geschehen. Dafür lässt sich eine <a href=\"/e-fatura-entegrasyonu\" style=\"color:#14b8a6\">E-Rechnungs-Anbindung</a> einrichten.",
+      "i3": "Ihr Vertrieb wünscht sich ein CRM, die Buchhaltung soll aber in Mikro bleiben.",
+      "i4": "Sie nutzen Mikro statt Logo und suchen eine passende Lösung. Für Logo-Anwender gibt es zusätzlich unsere <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">Logo-Anbindung</a>.",
+      "outro": "Kostenloses Erstgespräch für Ihr Projekt: <a href=\"tel:+905465496806\" style=\"color:#14b8a6\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "Häufige Fragen",
-      "q1": "Was kostet Mikro-Anbindung?",
-      "a1": "Einweg 20.000–45.000 TL (2–4 Wochen), bidirektional 55.000–130.000 TL, Marktplatz 95.000–180.000 TL.",
-      "q2": "Verkaufen Sie Mikro-Lizenzen?",
-      "a2": "Nein. Wir sind kein Händler. Wir binden API an Ihr Mikro Jump / Mikro.",
-      "q3": "Ist das die Logo-Seite?",
-      "a3": "Nein. Logo und Netsis sind eine <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">eigene URL</a>. Diese Seite ist Mikro.",
-      "q4": "Paraşüt?",
-      "a4": "Paraşüt ist Fertig-Buchhaltung; wir verkaufen sie nicht. Individuelles Panel oder API ist <a href=\"/crm-yazilim-yaptirmak\" style=\"color:#14b8a6\">CRM</a>."
+      "q1": "Was kostet eine Mikro-Anbindung?",
+      "a1": "Eine einseitige Anbindung kostet 20.000–45.000 TL und wird in 2–4 Wochen geliefert. Eine beidseitige Anbindung kostet 55.000–130.000 TL, eine Marktplatz- und Mikro-Anbindung 95.000–180.000 TL.",
+      "q2": "Verkaufen Sie auch Mikro-Lizenzen?",
+      "a2": "Nein, wir sind kein Mikro-Händler. Wir binden das Mikro Jump oder Mikro, das Sie bereits nutzen, per API an.",
+      "q3": "Ich nutze Logo oder Netsis. Ist dieser Service für mich geeignet?",
+      "a3": "Dieser Service richtet sich an Unternehmen, die Mikro nutzen. Für Logo und Netsis sehen Sie sich bitte unsere <a href=\"/logo-netsis-entegrasyon\" style=\"color:#14b8a6\">Logo- und Netsis-Anbindung</a> an.",
+      "q4": "Ich nutze Paraşüt. Was können Sie tun?",
+      "a4": "Paraşüt ist eine fertige Software für die Vorbuchhaltung, die wir nicht vertreiben. Wenn Sie ein individuelles Panel oder eine API-Anbindung brauchen, lässt sich das im Rahmen einer <a href=\"/crm-yazilim-yaptirmak\" style=\"color:#14b8a6\">CRM-Software</a> umsetzen."
     },
     "cta": {
-      "btn": "Kostenloses Kickoff-Gespräch",
-      "title": "Mikro-Anbindung besprechen",
-      "desc": "Kostenloser Kickoff — Bestand, Konto, Rechnung. <a href=\"tel:+905465496806\" style=\"color:#14b8a6\">+90 546 549 6806</a>",
-      "btn2": "Kostenloses Angebot"
+      "btn": "Kostenloses Erstgespräch",
+      "title": "Sprechen wir über Ihre Mikro-Anbindung",
+      "desc": "Im kostenlosen Erstgespräch prüfen wir gemeinsam Ihren Bestands-, Kundenkonto- und Rechnungsfluss. <a href=\"tel:+905465496806\" style=\"color:#14b8a6\">+90 546 549 6806</a>",
+      "btn2": "Kostenloses Angebot anfordern"
     },
     "footer": "© 2026 Ozturksoft — Mikro-Anbindung",
     "related": {
-      "logo": "Logo Netsis",
-      "crm": "CRM",
+      "logo": "Logo und Netsis",
+      "crm": "CRM-Software",
       "hb": "Hepsiburada",
       "ef": "E-Rechnung"
     },
@@ -3066,9 +3066,9 @@
       "title": "Mikro-Anbindung | API & Preis | Ozturksoft"
     },
     "stats": {
-      "s1l": "Einweg-API",
-      "s2l": "Bidirektional",
-      "s3l": "Einweg-Lieferung"
+      "s1l": "Einseitige API-Anbindung",
+      "s2l": "Beidseitige Anbindung",
+      "s3l": "Lieferzeit einseitige Anbindung"
     }
   },
   "geoPage": {
@@ -3968,5 +3968,410 @@
       "q5": "Kann meine Betreuung am Gespräch teilnehmen?",
       "a5": "Ja, das empfehlen wir. Wird der Umfang von Anfang an mit der Betreuung abgestimmt, erleichtert das Prozess und Verteidigung."
     }
+  },
+  "logoNetsisPage": {
+    "meta": {
+      "title": "Logo-Netsis-Integration | API & Preise | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Logo Tiger · Netsis · Mikro · API",
+      "title": "Logo- & Netsis-Integration",
+      "desc": "Wir verbinden Lagerbestand, Kundenkonten und Rechnungen aus Logo oder Netsis mit Ihrer Website, Ihrer mobilen App oder Ihrem Chatbot. Sie erhalten keinen Beratungsbericht, sondern eine funktionierende API, also eine Verbindung, über die Ihre Systeme automatisch miteinander kommunizieren. Wir installieren keine SAP-Module, sondern entwickeln individuelle Software, die sich an Ihr bestehendes System anbindet. Wir sitzen in Ankara, und das erste Kennenlerngespräch ist kostenlos.",
+      "btn": "Kostenloses Erstgespräch"
+    },
+    "pricing": {
+      "title": "Preise für Logo- und Netsis-Integration (2026)",
+      "thScope": "Umfang",
+      "thPrice": "Preis",
+      "thTime": "Dauer",
+      "row1": "Einseitige API-Anbindung (Logo / Netsis)",
+      "row2": "Beidseitige Anbindung mit Middleware",
+      "row3": "RFC/API-Anbindung an Ihr bestehendes SAP-System plus individuelles Modul",
+      "t1": "2–4 Wochen",
+      "t2": "6–10 Wochen",
+      "t3": "8–16 Wochen",
+      "note": "Die Preisspannen in der Tabelle gelten für 2026; der genaue Preis wird nach einem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt. Technische Details finden Sie in unserem Leitfaden zur <a href=\"/blog/logo-netsis-erp-entegrasyon-rehberi-2026\" style=\"color:#14b8a6\">Logo-Netsis-ERP-Integration</a>."
+    },
+    "cards": {
+      "c1title": "Lager und Bestellungen",
+      "c1desc": "Bestellungen aus Ihrer Website oder vom Außendienst werden in Logo oder Netsis zur Rechnung, und der Bestand wird sofort aktualisiert.",
+      "c2title": "Kundenkonten und Salden",
+      "c2desc": "Kundensalden, Risikolimits und Zahlungseingänge erscheinen in Ihrem Verwaltungspanel oder in WhatsApp.",
+      "c2link": "WhatsApp-Chatbot entwickeln lassen →",
+      "c3title": "Rechnungsübertragung",
+      "c3desc": "Ausgestellte Rechnungen gelangen automatisch in Ihren Onlineshop oder Ihr B2B-Händlerportal, sodass niemand denselben Datensatz zweimal erfassen muss.",
+      "c4title": "Wenn Sie SAP nutzen",
+      "c4desc": "Wir installieren kein SAP und verkaufen keine Lizenzen; wir binden Ihr vorhandenes SAP-System per API oder RFC an."
+    },
+    "process": {
+      "title": "Wie läuft das Projekt ab?",
+      "i1": "Erstgespräch: Gemeinsam klären wir, welches ERP Sie nutzen, welche Belege übertragen werden sollen und ob die Daten in eine oder in beide Richtungen fließen.",
+      "i2": "Wir testen die Verbindung zunächst in einer Testumgebung mit Beispieldaten zu Lager, Kundenkonten und Rechnungen.",
+      "i3": "Wir fassen den Umfang in einem schriftlichen Angebot zusammen und entwickeln die Middleware zwischen den beiden Systemen.",
+      "i4": "Wir nehmen das System in Betrieb, protokollieren jede Übertragung (Log) und schulen Ihr Team.",
+      "note": "Wenn Sie zusätzlich eine Anwendung speziell für Ihr Unternehmen brauchen, besuchen Sie unsere Seite <a href=\"/ozel-yazilim-yaptirmak\" style=\"color:#14b8a6\">Individualsoftware entwickeln lassen</a>."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Was kostet eine Logo-Integration?",
+      "a1": "Eine einseitige Anbindung kostet 20.000–45.000 TL, eine beidseitige 55.000–130.000 TL. Der genaue Preis steht nach dem Erstgespräch fest.",
+      "q2": "Bieten Sie SAP-Beratung an?",
+      "a2": "Nein. Wir installieren keine SAP-Module, sondern entwickeln Software, die sich per API an Ihr SAP-System anbindet.",
+      "q3": "Arbeiten Sie auch mit Netsis und Mikro?",
+      "a3": "Ja. Die Netsis-Integration gehört zu diesem Angebot. Für Mikro erstellen wir ein separates Angebot; Details finden Sie auf unserer Seite <a href=\"/mikro-entegrasyon\" style=\"color:#14b8a6\">Mikro-Integration</a>.",
+      "q4": "Wie lange dauert eine Integration?",
+      "a4": "Eine einseitige Anbindung dauert 2–4 Wochen, eine beidseitige 6–10 Wochen."
+    },
+    "cta": {
+      "title": "Planen wir Ihre ERP-Anbindung gemeinsam",
+      "desc": "Vereinbaren Sie ein kostenloses Erstgespräch für Ihr Logo-, Netsis- oder bestehendes SAP-System. Telefon: +90 546 549 6806",
+      "btn": "Kostenloses Angebot anfordern"
+    },
+    "related": {
+      "r1": "Individualsoftware entwickeln lassen",
+      "r2": "E-Rechnungs-Integration",
+      "r3": "Trendyol-Integration",
+      "r4": "Hepsiburada-Integration",
+      "r5": "Mikro-Integration",
+      "r6": "CRM-Software entwickeln lassen",
+      "r7": "Rechnungserkennung"
+    },
+    "footer": "© 2026 Ozturksoft — Logo- und Netsis-Integration | <a href=\"/\" style=\"color:#3b82f6\">Startseite</a> · <a href=\"/hizmetler\" style=\"color:#3b82f6\">Leistungen</a> · <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">Softwareunternehmen</a>"
+  },
+  "mobilPage": {
+    "meta": {
+      "title": "Mobile App entwickeln lassen | Flutter & Native Preise | Ozturksoft"
+    },
+    "hero": {
+      "badge": "iOS · Android · Flutter · Ankara",
+      "title": "Mobile App entwickeln lassen",
+      "desc": "Wir entwickeln mobile Apps für Ihr Unternehmen, Ihr Außendienstteam oder Ihre Kunden. Mit Flutter erhalten Sie aus einer einzigen Codebasis sowohl iOS als auch Android, oder Sie entscheiden sich für eine eigene (native) App je Plattform. Die Veröffentlichung im App Store und bei Google Play ist inbegriffen; nach einem kostenlosen Erstgespräch erhalten Sie ein schriftliches Angebot. Ozturksoft, Çankaya.",
+      "cta": "Kostenloses Erstgespräch"
+    },
+    "price": {
+      "title": "Preise für mobile Apps (2026)",
+      "colScope": "Umfang",
+      "colPrice": "Preis",
+      "colTime": "Dauer",
+      "r1": "Erste Version – MVP (eine Plattform)",
+      "r1Time": "6–10 Wochen",
+      "r2": "Flutter (iOS + Android)",
+      "r2Time": "8–14 Wochen",
+      "r3": "Native iOS + Android",
+      "r3Time": "12–20 Wochen",
+      "note": "Für kleine und mittlere Unternehmen liegt das typische Budget bei <strong>120.000–200.000 TL</strong>. Werden eine Serverseite (Backend), Zahlungsfunktionen oder eine ERP-Anbindung benötigt, können diese im Angebot als eigene Positionen ausgewiesen werden. Wie sich die Preise zusammensetzen, erklärt unser <a href=\"/blog/mobil-uygulama-maliyeti-2026\" style=\"color:#a78bfa\">Leitfaden zu den Kosten mobiler Apps</a> ausführlich."
+    },
+    "cards": {
+      "flutter": {
+        "title": "Flutter",
+        "desc": "Eine Codebasis für beide App Stores. Für die meisten Geschäfts- und Außendienst-Apps das beste Verhältnis von Kosten und Tempo."
+      },
+      "api": {
+        "title": "Anbindungen und Verwaltungspanel",
+        "desc": "Benutzer, Bestellungen und Benachrichtigungen verwalten Sie in einem Panel. Auf Wunsch wird die App an Logo/Netsis oder an einen eigenen Server angebunden.",
+        "link": "Logo / Netsis Integration →"
+      },
+      "store": {
+        "title": "Veröffentlichung im Store",
+        "desc": "Die erste Veröffentlichung, Store-Screenshots und die Unterstützung bei der Einrichtung Ihrer Konten sind im Leistungsumfang enthalten."
+      },
+      "qa": {
+        "title": "Tests und Qualitätskontrolle",
+        "desc": "Die App wird auf verschiedenen Geräten getestet und auf Abstürze und Sicherheitslücken geprüft. Der Quellcode bleibt bei Ihnen."
+      }
+    },
+    "process": {
+      "title": "Wie läuft das Projekt ab?",
+      "s1": "Analyse: Gemeinsam legen wir fest, welche Bildschirme Sie brauchen, wer die App nutzen wird und ob Flutter oder native besser passt.",
+      "s2": "Schriftliches Angebot: Preis, Zeitplan, Store-Veröffentlichung und Wartungsbedingungen werden schriftlich festgehalten.",
+      "s3": "Die Entwicklung erfolgt in kurzen Etappen (Sprints). Vor dem Start können Sie die App über TestFlight und den internen Test von Google Play auf Ihrem eigenen Smartphone ausprobieren.",
+      "s4": "Die App wird in den Stores veröffentlicht, und Ihr Team erhält eine Einweisung in die Nutzung.",
+      "note": "Sie interessieren sich für die technischen Details? <a href=\"/blog/ankara-flutter-uygulama-gelistirme-2026\" style=\"color:#a78bfa\">Flutter-App-Entwicklung in Ankara</a>."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Was kostet es, eine mobile App entwickeln zu lassen?",
+      "a1": "Eine erste Version (MVP) kostet 80.000–120.000 TL, eine Flutter-App für iOS und Android 120.000–200.000 TL und eine native iOS- und Android-App 180.000–350.000 TL.",
+      "q2": "Flutter oder native?",
+      "a2": "Für die meisten Geschäfts-Apps reicht Flutter aus und ist wirtschaftlicher. Bei Spielen oder grafikintensiven Apps ist eine native Entwicklung die bessere Wahl.",
+      "q3": "Ist die Veröffentlichung im Store im Preis enthalten?",
+      "a3": "Ja, die Veröffentlichung im App Store und bei Google Play ist enthalten. Die jährlichen Gebühren für die Entwicklerkonten bei Apple und Google tragen Sie selbst.",
+      "q4": "Wie lange dauert es?",
+      "a4": "Eine erste Version (MVP) dauert in der Regel 6–10 Wochen, eine Flutter-App 8–14 Wochen und eine native iOS- und Android-App 12–20 Wochen."
+    },
+    "cta": {
+      "title": "Planen wir Ihre App gemeinsam",
+      "desc": "Im kostenlosen Erstgespräch sprechen wir über die benötigten Bildschirme, Ihr Budget und die Wahl zwischen Flutter und native. Telefon: +90 546 549 6806",
+      "btn": "Kostenloses Angebot anfordern",
+      "links": "<a href=\"/ozel-yazilim-yaptirmak\" style=\"color:#3b82f6\">Individualsoftware entwickeln lassen</a> · <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#3b82f6\">Website erstellen lassen</a>"
+    },
+    "footer": {
+      "text": "© 2026 Ozturksoft — Mobile App entwickeln lassen | <a href=\"/\" style=\"color:#3b82f6\">Startseite</a> · <a href=\"/hizmetler\" style=\"color:#3b82f6\">Leistungen</a> · <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">Softwareunternehmen</a>"
+    }
+  },
+  "ozelYazilimPage": {
+    "meta": {
+      "title": "Individualsoftware entwickeln lassen | Preise & Ablauf in Ankara | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Ankara · Schriftliches Angebot · Übergabe des Quellcodes",
+      "title": "Individualsoftware entwickeln lassen",
+      "desc": "Wenn Standardprogramme nicht zu den Abläufen Ihres Unternehmens passen, entwickeln wir Software speziell für Sie: ein Verwaltungspanel, eine Anbindung an Ihre bestehenden Systeme wie ERP oder CRM, ein Bestellportal für Ihre Händler (B2B) oder KI-gestützte Funktionen. Ozturksoft sitzt in Çankaya, Ankara; Umfang, Preis und Liefertermin erhalten Sie schriftlich.",
+      "btn": "Kostenloses Erstgespräch"
+    },
+    "pricing": {
+      "title": "Preise für Individualsoftware 2026",
+      "thScope": "Umfang",
+      "thPrice": "Preis",
+      "thTime": "Dauer",
+      "row1": "Webanwendung / Verwaltungspanel für KMU",
+      "row2": "ERP-Modul / Händlerportal (B2B)",
+      "row3": "KI-gestütztes Unternehmenssystem",
+      "t1": "8–14 Wochen",
+      "t2": "3–6 Monate",
+      "t3": "4–8 Monate",
+      "note": "Im Preis enthalten sind Bedarfsanalyse, Systementwurf, Entwicklung, Tests und Inbetriebnahme. Anbindungen an Logo, Netsis oder SAP, die Installation auf Ihren eigenen Servern (On-Premise) und die monatliche Wartung werden separat berechnet. Ausführlichere Preisangaben finden Sie auf unserer Seite <a href=\"/sss#ozel-yazilim-fiyat\" style=\"color:#3b82f6\">Häufige Fragen</a>."
+    },
+    "cards": {
+      "c1title": "Unternehmenssoftware und Verwaltungspanels",
+      "c1desc": "Bestellungen, Lager, Außendienst, Termine oder Freigabeprozesse – genau nach Ihrer Arbeitsweise, ohne die Grenzen von Standardprogrammen.",
+      "c2title": "ERP- und CRM-Anbindung",
+      "c2desc": "Wir binden Ihre Logo-Tiger-, Netsis-, Mikro- und bestehenden SAP-Systeme per API an. Sie erhalten keine Beratung, sondern eine funktionierende Integration.",
+      "c3title": "KI-Funktionen",
+      "c3desc": "Ein Chatbot, Belegerkennung (OCR), KI, die aus Ihren Unternehmensdokumenten antwortet (RAG), oder ein KI-Assistent, der Aufgaben selbstständig erledigt (Agent), wird in Ihre bestehende Software integriert. Auf Wunsch bleiben Ihre Daten im Unternehmen.",
+      "c4title": "Was Sie bei der Übergabe erhalten",
+      "c4desc": "Schriftlicher Umfang, eine Vorführung der lauffähigen Version am Ende jedes Entwicklungszyklus (Sprint-Demo), Testbericht, Quellcode und Dokumentation. Auch die Wartungsgebühr wird von Anfang an klar festgehalten."
+    },
+    "process": {
+      "title": "Wie läuft das Projekt ab?",
+      "i1": "Kostenloses Erstgespräch: Wir besprechen Ihren Bedarf, Ihre vorhandenen Systeme und die KVKK-Anforderungen.",
+      "i2": "Schriftliches Angebot: Umfang, Preis, Zeitplan und die Übergabe des Quellcodes werden klar festgelegt.",
+      "i3": "Die Software entsteht in kurzen Entwicklungszyklen (Sprints); am Ende jedes Zyklus sehen Sie eine Zwischenlieferung.",
+      "i4": "Nach Tests und einem Sicherheitsscan geht das System live, und Ihr Team wird geschult.",
+      "note": "In Ankara treffen wir uns persönlich, mit Istanbul und anderen Städten arbeiten wir online. Mehr über uns erfahren Sie auf der Seite <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">Softwareunternehmen in Ankara</a>; zur ERP-Anbindung siehe <a href=\"/logo-netsis-entegrasyon\" style=\"color:#3b82f6\">Logo- / Netsis-Integration</a>."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Was kostet Individualsoftware?",
+      "a1": "KMU-Projekte kosten 80.000–200.000 TL, Unternehmensprojekte 200.000–500.000+ TL. Einen Festpreis nennen wir erst, wenn der Umfang klar ist; das Erstgespräch ist kostenlos.",
+      "q2": "Gehört der Quellcode uns?",
+      "a2": "Ja. Bei der Übergabe erhalten Sie das Code-Repository und die Dokumentation.",
+      "q3": "Individualsoftware oder Standardpaket?",
+      "a3": "Wenn Ihre Abläufe standardisiert sind, kann ein Standardpaket (SaaS) ausreichen. Wenn Ihre Arbeitsweise Sie von anderen unterscheidet, eine Integration mit anderen Systemen nötig ist oder die Software auf Ihren eigenen Servern laufen muss, ist Individualsoftware die bessere Wahl.",
+      "q4": "Wie lange dauert das Projekt?",
+      "a4": "Ein Verwaltungspanel ist in 8–14 Wochen fertig, ein Unternehmenssystem in 3–8 Monaten."
+    },
+    "cta": {
+      "title": "Sprechen wir über Ihr Softwareprojekt",
+      "desc": "Im kostenlosen Erstgespräch klären wir gemeinsam Umfang, Budget und Technologie. Telefon: +90 546 549 6806",
+      "btn": "Kostenloses Angebot anfordern"
+    },
+    "related": {
+      "r1": "Website erstellen lassen",
+      "r2": "WhatsApp-Chatbot",
+      "r3": "Leitfaden Individualsoftware",
+      "r4": "Individuelles Programm statt Excel",
+      "r5": "Übernahme unfertiger Projekte",
+      "r6": "KOSGEB- und TÜBİTAK-geförderte Projekte",
+      "r7": "Akademische Forschungsprojekte"
+    },
+    "footer": "© 2026 Ozturksoft — Individualsoftware entwickeln lassen | <a href=\"/\" style=\"color:#3b82f6\">Startseite</a> · <a href=\"/hizmetler\" style=\"color:#3b82f6\">Leistungen</a> · <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">Softwareunternehmen</a>"
+  },
+  "qaPage": {
+    "meta": {
+      "title": "QA-Testservice | Softwaretests & Testautomatisierung | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Playwright · Cypress · API · CI/CD · Ankara",
+      "title": "QA-Testservice",
+      "desc": "Wir testen Ihre Software, bevor sie Ihre Nutzer erreicht, und übernehmen bei bestehenden Produkten auch eine unabhängige Qualitätssicherung (QA). Zu unseren Leistungen gehören manuelle explorative Tests, automatisierte Tests, Performance-Messung und Sicherheitsscans. Nach einem kostenlosen Erstgespräch erhalten Sie ein schriftliches Angebot.",
+      "cta": "Kostenloses Erstgespräch"
+    },
+    "price": {
+      "title": "Preise für QA-Tests (2026)",
+      "colScope": "Umfang",
+      "colPrice": "Preis",
+      "colTime": "Dauer",
+      "r1": "Qualitätsprüfung eines bestehenden Produkts (QA-Audit)",
+      "r1Time": "1–2 Wochen",
+      "r2": "Testautomatisierung (Playwright / Cypress)",
+      "r2Time": "3–8 Wochen",
+      "r3": "QA in einem neuen Softwareprojekt",
+      "r3Price": "15–25 % der Entwicklungskosten",
+      "r3Time": "Während der gesamten Entwicklung",
+      "note": "Was QA ist, welche Testarten es gibt und welche Werkzeuge eingesetzt werden, erfahren Sie in unserem <a href=\"/blog/qa-test-nedir-yazilim-kalite-guvencesi\" style=\"color:#4ade80\">QA-Leitfaden</a>. Hat ein anderes Unternehmen Ihr Projekt unfertig hinterlassen, hilft Ihnen unser Service <a href=\"/yarim-kalan-yazilim-projesi\" style=\"color:#4ade80\">Übernahme von Softwareprojekten</a> weiter."
+    },
+    "cards": {
+      "manual": {
+        "title": "Manuelle und explorative Tests",
+        "desc": "Kritische Schritte wie Anmeldung, Zahlung und Registrierung werden einzeln durchgespielt. Gefundene Fehler werden nach Priorität aufgelistet."
+      },
+      "auto": {
+        "title": "Testautomatisierung",
+        "desc": "Playwright-, Cypress- und API-Tests laufen bei jeder Codeänderung automatisch (CI)."
+      },
+      "perf": {
+        "title": "Performance und Sicherheit",
+        "desc": "Lasttests, Messung der Seitengeschwindigkeit (Core Web Vitals) und OWASP-Sicherheitsscans; vor dem Livegang erhalten Sie einen Bericht."
+      },
+      "ai": {
+        "title": "QA in KI-Projekten",
+        "desc": "Wir messen, wie genau Chatbots und KI, die aus Ihren Dokumenten antwortet (RAG), antworten, und erkennen erfundene Antworten (Halluzinationen) sowie Verschlechterungen nach Updates.",
+        "link": "KI-Integration →"
+      }
+    },
+    "who": {
+      "title": "Für wen ist das geeignet?",
+      "l1": "Ein anderes Team hat Ihre Software entwickelt und Sie möchten vor dem Livegang einen unabhängigen Test.",
+      "l2": "Bei jeder neuen Version werden dieselben Prüfungen von Hand gemacht, und Sie möchten das automatisieren.",
+      "l3": "Sie können nicht messen, wie genau die Antworten Ihrer KI oder Ihres Chatbots sind.",
+      "l4": "Sie liefern an eine Behörde oder eine Holding, und ein Testbericht wird verlangt."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Was kostet ein QA-Testservice?",
+      "a1": "Ein Audit eines bestehenden Produkts kostet 15.000–40.000 TL, Testautomatisierung 40.000–120.000 TL. In einem neuen Projekt wird QA mit 15–25 % der Entwicklungskosten eingeplant.",
+      "q2": "Muss die Software von Ihnen entwickelt worden sein?",
+      "a2": "Nein. Zugang zu einer Testumgebung (Staging) und zum Quellcode genügt; wir testen unabhängig.",
+      "q3": "Was ist QA und wie funktioniert es?",
+      "a3": "Eine allgemeine Einführung bietet unser Artikel <a href=\"/blog/qa-test-nedir-yazilim-kalite-guvencesi\" style=\"color:#4ade80\">Was ist QA-Testing</a>. Wenn Sie Tests für Ihr eigenes Projekt beauftragen möchten, vereinbaren Sie mit uns ein kostenloses Erstgespräch."
+    },
+    "cta": {
+      "title": "Sprechen wir über Ihren Testbedarf",
+      "desc": "Im kostenlosen Erstgespräch klären wir, welches Produkt Sie testen lassen möchten, welche Risiken Ihnen Sorgen machen und welches Budget Sie haben. Telefon: +90 546 549 6806",
+      "btn": "Kostenloses Angebot anfordern",
+      "links": "<a href=\"/ozel-yazilim-yaptirmak\" style=\"color:#4ade80\">Individualsoftware entwickeln lassen</a> · <a href=\"/blog/qa-test-nedir-yazilim-kalite-guvencesi\" style=\"color:#4ade80\">Leitfaden: Was ist QA</a>"
+    },
+    "footer": {
+      "text": "© 2026 Ozturksoft — QA-Testservice | <a href=\"/\" style=\"color:#3b82f6\">Startseite</a> · <a href=\"/hizmetler\" style=\"color:#3b82f6\">Leistungen</a>"
+    }
+  },
+  "surecPage": {
+    "meta": {
+      "title": "Prozessautomatisierung | RPA & KI-Automatisierung | Ozturksoft"
+    },
+    "hero": {
+      "badge": "RPA · KI · Rechnungen · Dokumente · ERP",
+      "title": "Prozessautomatisierung — RPA + Künstliche Intelligenz",
+      "desc": "Überlassen Sie wiederkehrende Routinearbeit der Software: Rechnungserfassung, Dokumente auslesen, E-Mails sortieren und Daten an Logo/Netsis übertragen. Softwareroboter (RPA) klicken und erfassen Daten nach festgelegten Regeln, die KI liest und klassifiziert Dokumente. Nach einem kostenlosen Erstgespräch erhalten Sie ein schriftliches Angebot. Ozturksoft, Ankara.",
+      "cta": "Kostenloses Erstgespräch"
+    },
+    "price": {
+      "title": "Preise für KI-Automatisierung und RPA (2026)",
+      "colScope": "Umfang",
+      "colPrice": "Preis",
+      "colTime": "Dauer",
+      "r1": "Ein einzelner Prozess (z. B. Rechnungen oder Formulare)",
+      "r1Time": "3–6 Wochen",
+      "r2": "Automatisierungspaket für eine Abteilung",
+      "r2Time": "6–12 Wochen",
+      "r3": "Automatisierung über ERP, CRM und E-Mail hinweg",
+      "r3Time": "8–16 Wochen",
+      "note": "Eine Beispielrechnung zur Rendite (ROI), die zeigt, wie viel Zeit und Geld Automatisierung spart, finden Sie in unserem <a href=\"/blog/ankara-surec-otomasyonu-rpa-yapay-zeka\" style=\"color:#2dd4bf\">Leitfaden zur Prozessautomatisierung</a>."
+    },
+    "cards": {
+      "invoice": {
+        "title": "Rechnungen und Belege auslesen (OCR)",
+        "desc": "Rechnungen als PDF oder Foto werden ausgelesen, die Buchung wird automatisch angelegt.",
+        "link": "Rechnungserkennung beauftragen →"
+      },
+      "erp": {
+        "title": "Logo / Netsis",
+        "desc": "Die Ergebnisse der Automatisierung werden direkt in Ihr ERP-System geschrieben, sodass niemand dieselben Daten zweimal erfassen muss.",
+        "link": "Logo Netsis Integration →"
+      },
+      "email": {
+        "title": "E-Mail- und Freigabeprozesse",
+        "desc": "Eingehende E-Mails werden nach Thema sortiert, und ein KI-Assistent (AI Agent) aktualisiert Ihre CRM-Daten.",
+        "link": "AI Agent →"
+      },
+      "measure": {
+        "title": "Messung",
+        "desc": "Sie sehen, wie viele Dokumente verarbeitet und wie viele Stunden eingespart wurden und wie hoch die Fehlerquote ist. Den ersten Prozess wählen wir gemeinsam im Erstgespräch aus."
+      }
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Was kostet Prozessautomatisierung?",
+      "a1": "Ein einzelner Prozess kostet 40.000–80.000 TL, ein Automatisierungspaket für eine Abteilung 80.000–180.000 TL und eine Automatisierung über mehrere Systeme 120.000–250.000 TL.",
+      "q2": "RPA oder KI?",
+      "a2": "RPA kommt bei Klick- und Erfassungsaufgaben zum Einsatz, die jedes Mal gleich ablaufen. Muss ein Dokument gelesen und sein Inhalt verstanden werden, übernimmt die KI. In den meisten Fällen arbeiten beide zusammen.",
+      "q3": "Mit welchem Prozess sollte man beginnen?",
+      "a3": "Am besten beginnt man mit einem Prozess mit hohem Volumen und klaren Regeln, etwa Rechnungen, Lieferscheinen oder der Übertragung von Bestellungen."
+    },
+    "cta": {
+      "title": "Sprechen wir über Ihren Automatisierungsbedarf",
+      "desc": "Im kostenlosen Erstgespräch klären wir, welche Aufgaben Sie automatisieren möchten, welche Systeme Sie nutzen und welches Budget Sie haben. Telefon: +90 546 549 6806",
+      "btn": "Kostenloses Angebot anfordern",
+      "links": "<a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">KI-Integration</a> · <a href=\"/ai-agent\" style=\"color:#2dd4bf\">AI Agent</a>"
+    },
+    "footer": {
+      "text": "© 2026 Ozturksoft — Prozessautomatisierung | <a href=\"/\" style=\"color:#3b82f6\">Startseite</a> · <a href=\"/ankara-yapay-zeka-firmasi\" style=\"color:#3b82f6\">Künstliche Intelligenz</a>"
+    }
+  },
+  "webSitesiPage": {
+    "meta": {
+      "title": "Website erstellen lassen in Ankara | Preise & Lieferung | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Çankaya, Ankara · SEO · KVKK",
+      "title": "Website erstellen lassen in Ankara",
+      "desc": "Ob eine Unternehmenswebsite, die Ihre Firma vorstellt, oder ein Onlineshop für den Verkauf: Wir liefern eine Website, die auf dem Smartphone gut aussieht, schnell lädt und auf einer technischen Grundlage steht, die Google leicht versteht (technisches SEO). Der Umfang wird schriftlich festgelegt, und das erste Kennenlerngespräch ist kostenlos. Ozturksoft, Çankaya.",
+      "btn": "Kostenloses Erstgespräch"
+    },
+    "pricing": {
+      "title": "Website-Preise in Ankara (2026)",
+      "thScope": "Umfang",
+      "thPrice": "Preis",
+      "thTime": "Dauer",
+      "row1": "Unternehmenswebsite",
+      "row2": "Onlineshop",
+      "row3": "Einzelne Werbe- oder Kampagnenseite (Landingpage)",
+      "t1": "3–6 Wochen",
+      "t2": "6–14 Wochen",
+      "t3": "1–3 Wochen",
+      "note": "Die Preisspannen in der Tabelle gelten für 2026; der genaue Preis wird nach einem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt. Eine detaillierte Kostenaufstellung finden Sie in unserem <a href=\"/blog/ankara-web-sitesi-maliyeti-2026\" style=\"color:#3b82f6\">Leitfaden zu Website-Kosten in Ankara</a>; wenn Sie online verkaufen möchten, besuchen Sie unsere Seite <a href=\"/e-ticaret-sitesi-yaptirmak\" style=\"color:#3b82f6\">Onlineshop erstellen lassen</a>."
+    },
+    "cards": {
+      "c1title": "Unternehmenswebsite",
+      "c1desc": "Ihre Leistungen, Seiten über Ihr Unternehmen, ein Kontaktformular und auf Wunsch mehrere Sprachen. Wir erstellen Websites für Holdings und KMU.",
+      "c2title": "Onlineshop",
+      "c2desc": "Produkte, Onlinezahlung, Versand und Bestandsführung an einem Ort. Ihr Shop entsteht mit WooCommerce oder auf einer individuellen Plattform.",
+      "c2link": "Onlineshop erstellen lassen →",
+      "c3title": "Technisches SEO",
+      "c3desc": "Geschwindigkeit, Mobiltauglichkeit, strukturierte Daten (Schema) und eine saubere Überschriftenstruktur. Ihre Website wird so geliefert, dass Google sie gut finden kann.",
+      "c4title": "Chatbot hinzufügen",
+      "c4desc": "Auf Wunsch ergänzen wir im selben Projekt einen WhatsApp- oder Website-Chatbot, der Ihren Kunden automatisch antwortet.",
+      "c4link": "WhatsApp-Chatbot entwickeln lassen →"
+    },
+    "process": {
+      "title": "Was ist im Lieferumfang enthalten?",
+      "i1": "Schriftlicher Leistungsumfang und Festpreisangebot – ohne spätere Überraschungsposten.",
+      "i2": "Ein Verwaltungspanel, mit dem Sie Inhalte selbst pflegen, ein SSL-Sicherheitszertifikat, Backups und grundlegende Besucherstatistiken.",
+      "i3": "Einbindung des KVKK-Datenschutzhinweises an der richtigen Stelle der Website (den rechtlichen Text erstellt Ihr eigener Rechtsberater).",
+      "i4": "Schulung vor Ort in Ankara oder online.",
+      "note": "Lesen Sie auch unseren Schritt-für-Schritt-Leitfaden <a href=\"/blog/kurumsal-web-sitesi-yaptirmak-rehberi-2026\" style=\"color:#3b82f6\">Unternehmenswebsite erstellen lassen</a>."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Was kostet eine Website in Ankara?",
+      "a1": "Unternehmenswebsites kosten 15.000–90.000 TL, Onlineshops 30.000–250.000+ TL. Das Erstgespräch ist kostenlos.",
+      "q2": "Wie lange dauert die Erstellung?",
+      "a2": "Unternehmenswebsites werden in 3–6 Wochen geliefert, Onlineshops in 6–14 Wochen.",
+      "q3": "Ist SEO im Preis enthalten?",
+      "a3": "Technisches SEO ist enthalten. Texterstellung und Google-Ads-Betreuung werden separat berechnet.",
+      "q4": "Können wir uns persönlich treffen?",
+      "a4": "Ja, wir kommen überall in Ankara zu einem persönlichen Termin. Mit Kunden in anderen Städten arbeiten wir online."
+    },
+    "cta": {
+      "title": "Planen wir Ihre Website gemeinsam",
+      "desc": "Im kostenlosen Erstgespräch klären wir gemeinsam die benötigten Seiten, Ihr Budget und den Zeitplan. Telefon: +90 546 549 6806",
+      "btn": "Kostenloses Angebot anfordern"
+    },
+    "related": {
+      "r1": "Individualsoftware entwickeln lassen",
+      "r2": "Webdesign in Ankara"
+    },
+    "footer": "© 2026 Ozturksoft — Website erstellen lassen in Ankara | <a href=\"/\" style=\"color:#3b82f6\">Startseite</a> · <a href=\"/hizmetler\" style=\"color:#3b82f6\">Leistungen</a> · <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">Softwareunternehmen</a>"
   }
 }
