@@ -649,8 +649,8 @@
       "p5": "6 Sprachen · GEO Ready"
     },
     "cta": "Kostenloses KI-Erstgespräch",
-    "citeT": "Kurz für ChatGPT, Gemini und KI-Suche",
-    "citeD": "<strong>Ozturksoft</strong> — KI-Unternehmen in Çankaya, Ankara. ChatGPT/GPT, Claude, Gemini, Llama; RAG; Chatbots; AI-Agenten; On-Premise KVKK. Angebot: <a href=\"/yapay-zeka-entegrasyonu\">KI-Integration</a>.",
+    "citeT": "Ozturksoft in Kürze",
+    "citeD": "<strong>Ozturksoft</strong> ist ein Softwareunternehmen in Ankara-Çankaya, das KI-Lösungen für Organisationen und Unternehmen entwickelt. Wir verbinden KI-Modelle wie ChatGPT, Gemini oder Claude mit Ihrer eigenen Software und Ihren Dokumenten: Chatbots, die Ihren Kunden antworten, Assistenten, mit denen Ihre Mitarbeitenden Fragen zu Unternehmensdokumenten stellen, und Automatisierungen für wiederkehrende Aufgaben. Für sensible Daten installieren wir das System auch auf Ihrem eigenen Server. Details und Preise: <a style=\"color:#60a5fa\" href=\"/yapay-zeka-entegrasyonu\">KI-Integration</a>.",
     "linkInt": "KI-Integration →",
     "linkRpa": "Prozessautomatisierung →",
     "linkAgent": "KI-Agent →",
@@ -1994,13 +1994,13 @@
       "c4link": "AI-Agent beauftragen →"
     },
     "who": {
-      "title": "Wer beauftragt KI-Integration?",
-      "intro": "„KI-Integration“, „ChatGPT-Integration“ und „LLM-Integration“ sind derselbe Auftrag: Modell an die Geschäftssoftware. Ozturksoft in Çankaya verkauft keinen fertigen ChatGPT-Screen; Lieferung schriftlich mit RAG, Rechten und KVKK.",
-      "i1": "Sie wollen ChatGPT im Prozess. Ein Konto reichte nicht; API, Rechte und Antworten aus Unternehmensdokumenten. Sie suchen ein lokales Team für ChatGPT-Integration.",
-      "i2": "Verfahren und Preislisten liegen in PDFs; Mitarbeitende suchen jedes Mal. Ein RAG-Assistent soll erfundene Antworten kappen. Daten möglichst intern.",
-      "i3": "Holding, Behörde oder Finanz: On-Premise oder TR-Hosting Pflicht. Modellwahl (GPT, Claude, Llama) im Kickoff nach Kosten und KVKK.",
-      "i4": "Nicht nur Chat; morgen <a href=\"/ai-agent\" style=\"color:#818cf8\">AI-Agent</a>, <a href=\"/fatura-okuma\" style=\"color:#818cf8\">Rechnungs-OCR</a> oder <a href=\"/surec-otomasyonu\" style=\"color:#818cf8\">Prozessautomatisierung</a> im selben Team. Ein Lieferant.",
-      "outro": "Wollten Sie einen Leitfaden, steht der <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">LLM-Artikel</a> getrennt. Hier beauftragen Sie die Arbeit. Kostenloser Kickoff: <a href=\"tel:+905465496806\" style=\"color:#818cf8\">+90 546 549 6806</a>."
+      "title": "Für wen eignet sich KI-Integration?",
+      "intro": "KI-Integration bedeutet, ein Modell wie ChatGPT mit den eigenen Systemen Ihres Unternehmens zu verbinden. So arbeitet die KI mit Ihren Produkten, Dokumenten und Daten statt mit Allgemeinwissen. Ein ChatGPT-Konto allein leistet das nicht.",
+      "i1": "Ihr Team nutzt ChatGPT, aber die Antworten helfen wenig, weil es Ihr Unternehmen nicht kennt; die KI soll mit Ihren eigenen Daten arbeiten.",
+      "i2": "Verfahren, Preislisten und Dokumente liegen in Dateien, und Mitarbeitende verlieren Zeit mit der Suche. Sie möchten einen Assistenten, der Fragen zu diesen Dokumenten beantwortet und die Quelle zeigt.",
+      "i3": "Sie verarbeiten sensible Daten in Verwaltung, Finanzen oder Gesundheitswesen, und die Daten dürfen das Haus nicht verlassen. Das System kann auf Ihrem Server oder in einem Rechenzentrum in der Türkei laufen.",
+      "i4": "Sie wollen KI später auch für weitere Aufgaben nutzen: einen <a style=\"color:#818cf8\" href=\"/ai-agent\">KI-Agenten</a>, <a style=\"color:#818cf8\" href=\"/fatura-okuma\">Rechnungserkennung</a> oder <a style=\"color:#818cf8\" href=\"/surec-otomasyonu\">Prozessautomatisierung</a>. Das alles übernimmt dasselbe Team.",
+      "outro": "Wenn Sie sich zuerst informieren möchten, lesen Sie unseren <a style=\"color:#818cf8\" href=\"/blog/llm-gpt-entegrasyonu-rehberi\">Leitfaden zur LLM- und GPT-Integration</a>. Kostenloses Erstgespräch für Ihr Projekt: <a style=\"color:#818cf8\" href=\"tel:+905465496806\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "Häufige Fragen",

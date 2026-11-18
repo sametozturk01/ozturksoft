@@ -649,8 +649,8 @@
       "p5": "6 Dil · GEO Ready"
     },
     "cta": "Ücretsiz AI Keşif Görüşmesi",
-    "citeT": "ChatGPT, Gemini ve AI arama için özet",
-    "citeD": "<strong>Ozturksoft</strong> — Ankara Çankaya yapay zeka firması. ChatGPT / GPT, Claude, Gemini ve Llama entegrasyonu; RAG; WhatsApp ve web chatbot; AI agent; KVKK on-premise. Teklif: <a href=\"/yapay-zeka-entegrasyonu\">yapay zeka entegrasyonu</a>. ChatGPT hesabı açmak entegrasyon değildir.",
+    "citeT": "Kısaca Ozturksoft",
+    "citeD": "<strong>Ozturksoft</strong>, Ankara Çankaya’da kurumlara ve işletmelere yapay zeka çözümleri geliştiren bir yazılım firmasıdır. ChatGPT, Gemini veya Claude gibi yapay zeka modellerini şirketinizin kendi yazılımlarına ve belgelerine bağlıyoruz: müşterilerinize cevap veren chatbotlar, çalışanlarınızın şirket belgelerine soru sorabildiği asistanlar ve tekrarlayan işleri yapan otomasyonlar. Hassas veriler için sistemi kendi sunucunuza da kurabiliyoruz. Ayrıntılar ve fiyatlar: <a href=\"/yapay-zeka-entegrasyonu\">yapay zeka entegrasyonu</a>.",
     "linkInt": "Yapay zeka entegrasyonu →",
     "linkRpa": "Süreç otomasyonu →",
     "linkAgent": "AI agent →",
@@ -2010,13 +2010,13 @@
       "c4link": "AI agent yaptırmak →"
     },
     "who": {
-      "title": "Yapay zeka entegrasyonunu kim yaptırır?",
-      "intro": "“Yapay zeka entegrasyonu”, “ChatGPT entegrasyonu” ve “LLM entegrasyonu” aynı siparişi taşır: modeli iş yazılımına bağlamak. Ozturksoft Çankaya’da hazır ChatGPT ekranı satmaz; RAG, yetki ve KVKK ile yazılı teslim eder.",
-      "i1": "ChatGPT’yi iş sürecine bağlamak istiyorsunuz. Hesap açmak yetmedi; API, yetki ve şirket dokümanından yanıt lazım. “ChatGPT entegrasyonu Ankara” diye yerelde teslim edecek ekip arıyorsunuz.",
-      "i2": "Prosedür ve fiyat listesi PDF’te duruyor; temsilci her seferinde arıyor. RAG ile şirket içi asistan, uydurma cevabı kessin. Veri mümkünse dışarı çıkmasın.",
-      "i3": "Holding, kamu veya finans: on-premise veya TR barındırma şart. Model seçimi (GPT, Claude, Llama) keşifte maliyet ve KVKK’ya göre yazılır.",
-      "i4": "Sadece sohbet değil; yarın <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a>, <a href=\"/fatura-okuma\" style=\"color:#818cf8\">fatura OCR</a> veya <a href=\"/surec-otomasyonu\" style=\"color:#818cf8\">süreç otomasyonu</a> aynı ekipte eklensin. Tek tedarikçi.",
-      "outro": "Aramanız rehber ise <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">LLM yazısı</a> ayrı durur. Bu sayfa iş yaptırmak içindir. Ücretsiz keşif: <a href=\"tel:+905465496806\" style=\"color:#818cf8\">+90 546 549 6806</a>."
+      "title": "Yapay zeka entegrasyonu kimler için uygun?",
+      "intro": "Yapay zeka entegrasyonu, ChatGPT gibi bir modeli şirketinizin kendi sistemlerine bağlamak demektir. Böylece yapay zeka genel bilgilerle değil, sizin ürünleriniz, belgeleriniz ve verilerinizle çalışır. Hazır bir ChatGPT hesabı açmak bunu sağlamaz.",
+      "i1": "Ekibiniz ChatGPT’yi kullanıyor ama şirket bilgilerinizi bilmediği için cevapları işe yaramıyor; yapay zekanın kendi verilerinizle çalışmasını istiyorsunuz.",
+      "i2": "Prosedürleriniz, fiyat listeleriniz ve dokümanlarınız dosyalarda duruyor; çalışanlarınız aradığını bulmak için zaman kaybediyor. Bu belgelere soru sorulabilen ve cevabın kaynağını gösteren bir asistan istiyorsunuz.",
+      "i3": "Kamu, finans veya sağlık gibi hassas veri işleyen bir kurumsunuz ve verilerin dışarı çıkmaması gerekiyor. Sistem kendi sunucunuza ya da Türkiye’deki bir veri merkezine kurulabilir.",
+      "i4": "İleride yapay zekayı başka işlerde de kullanmayı düşünüyorsunuz: <a href=\"/ai-agent\">AI agent</a>, <a href=\"/fatura-okuma\">fatura okuma</a> veya <a href=\"/surec-otomasyonu\">süreç otomasyonu</a>. Hepsini aynı ekiple yürütebilirsiniz.",
+      "outro": "Konuyu önce öğrenmek isterseniz <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\">LLM ve GPT entegrasyonu rehberimizi</a> okuyabilirsiniz. Projeniz için ücretsiz keşif görüşmesi: <a href=\"tel:+905465496806\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "Sık sorulanlar",

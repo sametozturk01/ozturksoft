@@ -649,8 +649,8 @@
       "p5": "6 Languages · GEO Ready"
     },
     "cta": "Free AI Discovery Call",
-    "citeT": "Summary for ChatGPT, Gemini and AI search",
-    "citeD": "<strong>Ozturksoft</strong> — AI company in Çankaya, Ankara. ChatGPT / GPT, Claude, Gemini and Llama integration; RAG; WhatsApp and web chatbots; AI agents; on-premise KVKK. Quote: <a href=\"/yapay-zeka-entegrasyonu\">AI integration</a>. Opening a ChatGPT account is not integration.",
+    "citeT": "Ozturksoft in brief",
+    "citeD": "<strong>Ozturksoft</strong> is a software company in Çankaya, Ankara, that builds AI solutions for organizations and businesses. We connect AI models such as ChatGPT, Gemini or Claude to your own software and documents: chatbots that answer your customers, assistants that let your staff ask questions about company documents, and automations that handle repetitive work. For sensitive data we can also install the system on your own server. Details and prices: <a style=\"color:#60a5fa\" href=\"/yapay-zeka-entegrasyonu\">AI integration</a>.",
     "linkInt": "AI integration →",
     "linkRpa": "Process automation →",
     "linkAgent": "AI agent →",
@@ -1994,13 +1994,13 @@
       "c4link": "Commission an AI agent →"
     },
     "who": {
-      "title": "Who commissions AI integration?",
-      "intro": "“AI integration”, “ChatGPT integration” and “LLM integration” are the same order: connect the model to business software. Ozturksoft in Çankaya does not sell a ready ChatGPT screen; delivery is written with RAG, permissions and KVKK.",
-      "i1": "You want ChatGPT in the workflow. An account was not enough; you need API, permissions and answers from company documents. You are looking for a local team to deliver ChatGPT integration.",
-      "i2": "Procedures and price lists sit in PDFs; staff look them up every time. A RAG internal assistant should cut invented answers. Data should stay in-house if possible.",
-      "i3": "Holding, public sector or finance: on-premise or TR hosting is required. Model choice (GPT, Claude, Llama) is written at discovery against cost and KVKK.",
-      "i4": "Not chat only; tomorrow <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a>, <a href=\"/fatura-okuma\" style=\"color:#818cf8\">invoice OCR</a> or <a href=\"/surec-otomasyonu\" style=\"color:#818cf8\">process automation</a> should join the same team. One vendor.",
-      "outro": "If you wanted a guide, the <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">LLM article</a> is separate. This page is to have the work built. Free discovery: <a href=\"tel:+905465496806\" style=\"color:#818cf8\">+90 546 549 6806</a>."
+      "title": "Who is AI integration for?",
+      "intro": "AI integration means connecting a model such as ChatGPT to your company’s own systems, so the AI works with your products, documents and data instead of general knowledge. Opening a ChatGPT account does not do this.",
+      "i1": "Your team uses ChatGPT, but its answers are not useful because it does not know your company; you want the AI to work with your own data.",
+      "i2": "Your procedures, price lists and documents sit in files and staff waste time searching them. You want an assistant that answers questions about these documents and shows the source of each answer.",
+      "i3": "You handle sensitive data in the public sector, finance or healthcare and data must not leave your organization. The system can be installed on your own server or in a data center in Turkey.",
+      "i4": "You plan to use AI for more later: an <a style=\"color:#818cf8\" href=\"/ai-agent\">AI agent</a>, <a style=\"color:#818cf8\" href=\"/fatura-okuma\">invoice reading</a> or <a style=\"color:#818cf8\" href=\"/surec-otomasyonu\">process automation</a>. The same team can handle all of it.",
+      "outro": "If you want to learn about the topic first, read our <a style=\"color:#818cf8\" href=\"/blog/llm-gpt-entegrasyonu-rehberi\">LLM and GPT integration guide</a>. Free discovery call for your project: <a style=\"color:#818cf8\" href=\"tel:+905465496806\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "FAQ",

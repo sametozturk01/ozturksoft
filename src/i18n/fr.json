@@ -649,8 +649,8 @@
       "p5": "6 langues · GEO Ready"
     },
     "cta": "Appel découverte IA gratuit",
-    "citeT": "Résumé pour ChatGPT, Gemini et la recherche IA",
-    "citeD": "<strong>Ozturksoft</strong> — entreprise d’IA à Çankaya, Ankara. ChatGPT/GPT, Claude, Gemini, Llama ; RAG ; chatbots ; agents ; on-premise KVKK. Devis : <a href=\"/yapay-zeka-entegrasyonu\">intégration IA</a>.",
+    "citeT": "Ozturksoft en bref",
+    "citeD": "<strong>Ozturksoft</strong> est une entreprise de logiciels située à Çankaya, Ankara, qui développe des solutions d’IA pour les organisations et les entreprises. Nous relions des modèles d’IA comme ChatGPT, Gemini ou Claude à vos propres logiciels et documents : chatbots qui répondent à vos clients, assistants qui permettent à vos équipes d’interroger les documents internes et automatisations pour les tâches répétitives. Pour les données sensibles, nous pouvons installer le système sur votre propre serveur. Détails et prix : <a style=\"color:#60a5fa\" href=\"/yapay-zeka-entegrasyonu\">intégration IA</a>.",
     "linkInt": "Intégration IA →",
     "linkRpa": "Automatisation des processus →",
     "linkAgent": "Agent IA →",
@@ -1994,13 +1994,13 @@
       "c4link": "Faire créer un AI agent →"
     },
     "who": {
-      "title": "Qui fait intégrer l’IA ?",
-      "intro": "« Intégration IA », « intégration ChatGPT » et « intégration LLM » : connecter le modèle au logiciel métier. Ozturksoft à Çankaya ne vend pas un écran ChatGPT tout fait ; livraison écrite avec RAG, droits et KVKK.",
-      "i1": "Vous voulez ChatGPT dans le processus. Un compte n’a pas suffi ; API, droits et réponses depuis vos documents. Vous cherchez une équipe locale pour l’intégration ChatGPT.",
-      "i2": "Procédures et tarifs dans des PDF ; l’équipe cherche à chaque fois. Un assistant RAG doit couper les réponses inventées. Les données restent en interne si possible.",
-      "i3": "Holding, public ou finance : on-premise ou hébergement TR. Choix du modèle (GPT, Claude, Llama) au cadrage selon coût et KVKK.",
-      "i4": "Pas seulement le chat ; demain <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a>, <a href=\"/fatura-okuma\" style=\"color:#818cf8\">OCR factures</a> ou <a href=\"/surec-otomasyonu\" style=\"color:#818cf8\">automatisation</a> dans la même équipe. Un prestataire.",
-      "outro": "Si vous vouliez un guide, l’<a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">article LLM</a> est à part. Cette page sert à faire faire le travail. Cadrage gratuit : <a href=\"tel:+905465496806\" style=\"color:#818cf8\">+90 546 549 6806</a>."
+      "title": "À qui s’adresse l’intégration IA ?",
+      "intro": "L’intégration IA consiste à relier un modèle comme ChatGPT aux systèmes de votre entreprise, pour que l’IA travaille avec vos produits, documents et données plutôt qu’avec des connaissances générales. Ouvrir un compte ChatGPT ne suffit pas.",
+      "i1": "Votre équipe utilise ChatGPT, mais ses réponses sont peu utiles car il ne connaît pas votre entreprise ; vous voulez que l’IA travaille avec vos propres données.",
+      "i2": "Vos procédures, listes de prix et documents sont dans des fichiers et vos équipes perdent du temps à chercher. Vous voulez un assistant qui répond aux questions sur ces documents et indique la source.",
+      "i3": "Vous traitez des données sensibles (secteur public, finance, santé) qui ne doivent pas quitter votre organisation. Le système peut être installé sur votre serveur ou dans un centre de données en Turquie.",
+      "i4": "Vous prévoyez d’autres usages de l’IA : un <a style=\"color:#818cf8\" href=\"/ai-agent\">agent IA</a>, la <a style=\"color:#818cf8\" href=\"/fatura-okuma\">lecture de factures</a> ou l’<a style=\"color:#818cf8\" href=\"/surec-otomasyonu\">automatisation des processus</a>. La même équipe peut tout prendre en charge.",
+      "outro": "Pour vous informer d’abord, lisez notre <a style=\"color:#818cf8\" href=\"/blog/llm-gpt-entegrasyonu-rehberi\">guide d’intégration LLM et GPT</a>. Premier échange gratuit pour votre projet : <a style=\"color:#818cf8\" href=\"tel:+905465496806\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "Questions fréquentes",
