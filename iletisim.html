@@ -225,7 +225,7 @@
                 "name": "Proje süresi ne kadar?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Proje karmaşıklığına bağlı olarak 2-12 hafta arasında değişir. İlk görüşmede size detaylı timeline sunuyoruz."
+                    "text": "Süre, projenin kapsamına ve karmaşıklığına göre 2-12 hafta arasında değişir. İlk görüşmede size ayrıntılı bir zaman planı sunuyoruz."
                 }
             },
             {
@@ -233,7 +233,7 @@
                 "name": "Test süreci nasıl işliyor?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Her projeye özel test planı hazırlıyoruz. Otomasyon ve manuel testler ile yüzde 100 kalite güvencesi sağlıyoruz."
+                    "text": "Her proje için ona özel bir test planı hazırlıyoruz. Otomatik ve manuel testlerle %100 kalite güvencesi sağlıyoruz."
                 }
             },
             {
@@ -241,7 +241,7 @@
                 "name": "Proje sonrası destek var mı?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Evet! Tüm projelerimizde 30-90 gün arası ücretsiz destek veriyoruz. Sonrasında bakım paketlerimiz bulunmaktadır."
+                    "text": "Evet. Tüm projelerimizde teslimden sonra 30-90 gün ücretsiz destek veriyoruz. Bu sürenin ardından bakım paketlerimizle devam edebilirsiniz."
                 }
             },
             {
@@ -868,9 +868,7 @@
         <section>
             <div style="text-align: center; margin-bottom: 70px;">
                 <div style="display: inline-block; padding: 8px 20px; background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 30px; margin-bottom: 20px;">
-                    <span style="color: var(--primary); font-weight: 700; font-size: 0.85rem; letter-spacing: 2px;" data-i18n="contactPage.info.badge">
-                        <i class="fas fa-address-book" style="margin-right: 8px;"></i>İLETİŞİM BİLGİLERİ
-                    </span>
+                    <span style="color: var(--primary); font-weight: 700; font-size: 0.85rem; letter-spacing: 2px;" data-i18n="contactPage.info.badge">İLETİŞİM BİLGİLERİ</span>
                 </div>
                 
                 <h2 style="font-size: 3rem; font-weight: 800; margin-bottom: 20px;">
@@ -927,16 +925,12 @@
             
             <div style="text-align: center; margin-bottom: 56px;">
                 <div style="display: inline-block; padding: 8px 20px; background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 30px; margin-bottom: 20px;">
-                    <span style="color: var(--primary); font-weight: 700; font-size: 0.85rem; letter-spacing: 2px;" data-i18n="contactPage.form.badge">
-                        <i class="fas fa-file-signature" style="margin-right: 8px;"></i>PROJE TALEBİ
-                    </span>
+                    <span style="color: var(--primary); font-weight: 700; font-size: 0.85rem; letter-spacing: 2px;" data-i18n="contactPage.form.badge">PROJE TALEBİ</span>
                 </div>
                 <h2 style="font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; margin-bottom: 16px;">
                     <span data-i18n="contactPage.form.title1">Proje</span> <span class="highlight" data-i18n="contactPage.form.title2">Teklifi Alın</span>
                 </h2>
-                <p style="color: var(--text-dim); max-width: 640px; margin: 0 auto; font-size: 1.05rem;" data-i18n="contactPage.form.desc">
-                    AI, yazılım veya dijital dönüşüm projeniz için ücretsiz keşif — 4 saat içinde dönüş.
-                </p>
+                <p style="color: var(--text-dim); max-width: 640px; margin: 0 auto; font-size: 1.05rem;" data-i18n="contactPage.form.desc">Yapay zeka veya yazılım projenizi kısaca anlatın; 4 saat içinde ücretsiz teknik değerlendirme ve fiyat aralığı sunalım.</p>
             </div>
 
             <div class="contact-form-wrap">
@@ -977,7 +971,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="form-label" for="cf-phone" data-i18n="contactPage.form.phone">Telefon</label>
+                                <label class="form-label" for="cf-phone" data-i18n="contactPage.form.phone">Telefon *</label>
                                 <div class="form-field">
                                     <i class="fas fa-phone field-icon" aria-hidden="true"></i>
                                     <input type="tel" id="cf-phone" name="telefon" class="form-input has-icon" required autocomplete="tel" inputmode="numeric" pattern="[0-9]{10,11}" minlength="10" maxlength="11" title="10-11 haneli telefon numarası" data-i18n-placeholder="contactPage.form.placeholderPhone" placeholder="05XXXXXXXXX">
@@ -996,13 +990,13 @@
                                         <option value="chatbot" data-i18n="contactPage.form.options.chatbot">WhatsApp / Web AI chatbot</option>
                                         <option value="ai-agent" data-i18n="contactPage.form.options.agent">AI Agent & otomasyon</option>
                                         <option value="ocr" data-i18n="contactPage.form.options.ocr">Belge OCR & AI sınıflandırma</option>
-                                        <option value="kamu-ai" data-i18n="contactPage.form.options.kamu">Kamu / on-premise AI (KVKK)</option>
+                                        <option value="kamu-ai" data-i18n="contactPage.form.options.kamu">Kamu / kurum içi yapay zeka (KVKK)</option>
                                         <option value="custom-software" data-i18n="contactPage.form.options.custom">Özel yazılım geliştirme</option>
                                         <option value="mobile" data-i18n="contactPage.form.options.mobile">Mobil uygulama (Flutter)</option>
                                         <option value="web-ecom" data-i18n="contactPage.form.options.web">Web sitesi / E-ticaret</option>
                                         <option value="seo-geo" data-i18n="contactPage.form.options.seo">SEO & GEO optimizasyon</option>
                                         <option value="marketplace" data-i18n="contactPage.form.options.marketplace">Trendyol / Hepsiburada / Amazon entegrasyonu</option>
-                                        <option value="crm" data-i18n="contactPage.form.options.crm">CRM yazılım yaptırmak</option>
+                                        <option value="crm" data-i18n="contactPage.form.options.crm">CRM yazılımı (müşteri yönetimi)</option>
                                         <option value="mikro" data-i18n="contactPage.form.options.mikro">Logo / Mikro entegrasyon</option>
                                         <option value="other" data-i18n="contactPage.form.options.other">Diğer</option>
                                     </select>
@@ -1055,7 +1049,7 @@
                             <div class="form-checkbox kvkk-checkbox">
                                 <input type="checkbox" required id="privacy" name="kvkk" value="accepted" aria-describedby="kvkkError">
                                 <label for="privacy">
-                                    <span data-i18n="contactPage.form.kvkkConsent">6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında; ad-soyad, e-posta, telefon, şirket ve proje bilgilerimin teklif hazırlama ve iletişim amacıyla Ozturksoft tarafından işlenmesine açık rıza veriyorum.</span>
+                                    <span data-i18n="contactPage.form.kvkkConsent">6698 sayılı Kanun kapsamında; ad-soyad, e-posta, telefon, şirket ve proje bilgilerimin teklif, iletişim ve gizlilik metninde belirtilen e-posta/barındırma altyapısı üzerinden işlenmesine ve yurt dışına aktarılmasına açık rıza veriyorum.</span>
                                     <span class="kvkk-policy-link">
                                         <a href="/gizlilik" id="privacyLink" data-i18n="contactPage.form.privacyLink">Gizlilik Politikası</a> <span data-i18n="contactPage.form.privacyText">'nı okudum ve kabul ediyorum. *</span>
                                     </span>
@@ -1071,7 +1065,7 @@
                             <span data-i18n="contactPage.form.submit">Ücretsiz Teklif Talep Et</span>
                         </button>
                         <p id="submitKvkkHint" class="submit-kvkk-hint" data-i18n="contactPage.form.submitDisabledHint">Göndermek için yukarıdaki KVKK onayını işaretleyin.</p>
-                        <p class="form-hint" style="text-align:center;margin-top:16px" data-i18n="contactPage.form.hint">Bilgileriniz KVKK kapsamında korunur; üçüncü taraflarla paylaşılmaz.</p>
+                        <p class="form-hint" style="text-align:center;margin-top:16px" data-i18n="contactPage.form.hint">Verileriniz 6698 sayılı Kanun kapsamında işlenir. Barındırma, e-posta iletimi ve sizin başlattığınız WhatsApp yazışmalarıyla ilgili ayrıntılar gizlilik metnindedir.</p>
                     </form>
                 </div>
 
@@ -1091,7 +1085,7 @@
                         <div class="trust-icon"><i class="fas fa-shield-alt"></i></div>
                         <div>
                             <h4 data-i18n="contactPage.form.trust2Title">KVKK uyumlu</h4>
-                            <p data-i18n="contactPage.form.trust2Desc">Verileriniz güvende, NDA imkanı</p>
+                            <p data-i18n="contactPage.form.trust2Desc">Verileriniz güvende; isterseniz gizlilik sözleşmesi (NDA) imzalarız</p>
                         </div>
                     </div>
                     <div class="trust-item">
@@ -1105,7 +1099,7 @@
                         <div class="trust-icon"><i class="fas fa-robot"></i></div>
                         <div>
                             <h4 data-i18n="contactPage.form.trust4Title">Ankara AI uzmanı</h4>
-                            <p data-i18n="contactPage.form.trust4Desc">LLM, chatbot, RAG, on-premise</p>
+                            <p data-i18n="contactPage.form.trust4Desc">Dil modelleri (LLM), chatbot, RAG ve kurum içi kurulum</p>
                         </div>
                     </div>
                 </aside>
@@ -1189,9 +1183,7 @@
                         <i class="fas fa-clock"></i>
                         <span data-i18n="contactPage.faq.q1.title">Proje süresi ne kadar?</span>
                     </h3>
-                    <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;" data-i18n="contactPage.faq.q1.desc">
-                        Proje karmaşıklığına bağlı olarak 2-12 hafta arasında değişir. İlk görüşmede size detaylı timeline sunuyoruz.
-                    </p>
+                    <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;" data-i18n="contactPage.faq.q1.desc">Süre, projenin kapsamına ve karmaşıklığına göre 2-12 hafta arasında değişir. İlk görüşmede size ayrıntılı bir zaman planı sunuyoruz.</p>
                 </div>
 
                 <div class="faq-card">
@@ -1199,9 +1191,7 @@
                         <i class="fas fa-vial"></i>
                         <span data-i18n="contactPage.faq.q2.title">Test süreci nasıl işliyor?</span>
                     </h3>
-                    <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;" data-i18n="contactPage.faq.q2.desc">
-                        Her projeye özel test planı hazırlıyoruz. Automated + Manual testler ile %100 kalite güvencesi sağlıyoruz.
-                    </p>
+                    <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;" data-i18n="contactPage.faq.q2.desc">Her proje için ona özel bir test planı hazırlıyoruz. Otomatik ve manuel testlerle %100 kalite güvencesi sağlıyoruz.</p>
                 </div>
 
                 <div class="faq-card">
@@ -1209,9 +1199,7 @@
                         <i class="fas fa-life-ring"></i>
                         <span data-i18n="contactPage.faq.q3.title">Proje sonrası destek var mı?</span>
                     </h3>
-                    <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;" data-i18n="contactPage.faq.q3.desc">
-                        Evet! Tüm projelerimizde 30-90 gün arası ücretsiz destek veriyoruz. Sonrasında bakım paketlerimiz var.
-                    </p>
+                    <p style="color: var(--text-dim); line-height: 1.8; font-size: 1.05rem;" data-i18n="contactPage.faq.q3.desc">Evet. Tüm projelerimizde teslimden sonra 30-90 gün ücretsiz destek veriyoruz. Bu sürenin ardından bakım paketlerimizle devam edebilirsiniz.</p>
                 </div>
 
                 <div class="faq-card">
@@ -1233,30 +1221,22 @@
                 </h2>
                 
                 <div style="color: var(--text-dim); line-height: 1.9;">
-                    <p style="margin-bottom: 25px; font-size: 1.05rem;" data-i18n="contactPage.modal.p1">
-                        Ozturksoft olarak, web sitemizi ziyaret eden kullanıcıların ve iletişim formu üzerinden paylaşım yapan kişilerin kişisel verilerini koruma sorumluluğunu taşıyoruz.
-                    </p>
+                    <p style="margin-bottom: 25px; font-size: 1.05rem;" data-i18n="contactPage.modal.p1">Ozturksoft, site ziyaretçilerinin ve teklif formu ya da iletişim kanalları üzerinden paylaşılan kişisel verileri 6698 sayılı Kanun’a uygun olarak işler. Metnin tamamına <a href="/gizlilik">/gizlilik</a> sayfasından ulaşabilirsiniz.</p>
 
                     <h3 style="color: var(--primary); margin: 30px 0 18px; font-size: 1.5rem;" data-i18n="contactPage.modal.h1">Toplanan Veriler</h3>
                     <ul style="padding-left: 25px; margin-bottom: 25px; line-height: 1.9;">
-                        <li data-i18n="contactPage.modal.li1">İletişim formu üzerinden sağlanan ad-soyad, e-posta, telefon, şirket bilgisi ve proje detayları</li>
-                        <li data-i18n="contactPage.modal.li2">IP adresi ve tarayıcı bilgileri (web sitesi güvenliği ve performans analizi için)</li>
+                        <li data-i18n="contactPage.modal.li1">Teklif formunda: adınız ve soyadınız, e-posta, telefon, şirket, proje türü, bütçe, zaman planı, notunuz ve açık rıza verdiğiniz zaman</li>
+                        <li data-i18n="contactPage.modal.li2">Barındırma hizmetinin güvenlik kayıtları (IP adresi, tarih, istek) ile tarayıcınızda saklanan dil ve çerez tercihiniz. Reklam analitiği kullanılmaz.</li>
                     </ul>
 
                     <h3 style="color: var(--primary); margin: 30px 0 18px; font-size: 1.5rem;" data-i18n="contactPage.modal.h2">Veri Kullanımı</h3>
-                    <p style="margin-bottom: 25px; font-size: 1.05rem;" data-i18n="contactPage.modal.p2">
-                        Toplanan veriler yalnızca sizinle iletişime geçmek, teklif sunmak ve hizmetlerimizi geliştirmek amacıyla kullanılacaktır. Verileriniz üçüncü kişilerle paylaşılmayacaktır.
-                    </p>
+                    <p style="margin-bottom: 25px; font-size: 1.05rem;" data-i18n="contactPage.modal.p2">Verilerinizi teklif hazırlamak ve sizinle iletişim kurmak için kullanırız. Kişisel verilerinizi hiçbir şekilde satmıyor veya kiralamıyoruz. Vercel, Google (Gmail/Fonts), CDN ve tıklarsanız WhatsApp altyapısıyla ilgili ayrıntılar gizlilik metnindedir.</p>
 
                     <h3 style="color: var(--primary); margin: 30px 0 18px; font-size: 1.5rem;" data-i18n="contactPage.modal.h3">Kullanıcı Hakları</h3>
-                    <p style="margin-bottom: 25px; font-size: 1.05rem;" data-i18n="contactPage.modal.p3">
-                        KVKK kapsamında, kişisel verilerinize erişim, düzeltme, silme, işleme sınırlama ve veri taşınabilirliği haklarınızı kullanabilirsiniz. Taleplerinizi <a href="mailto:info@ozturksoft.net" style="color: var(--primary); text-decoration: none; font-weight: 600;">info@ozturksoft.net</a> adresine iletebilirsiniz.
-                    </p>
+                    <p style="margin-bottom: 25px; font-size: 1.05rem;" data-i18n="contactPage.modal.p3">Kanun’un 11. maddesindeki haklarınızı (erişim, düzeltme, silme, aktarım hakkında bilgi, itiraz) kullanmak için <a href="mailto:info@ozturksoft.net">info@ozturksoft.net</a> adresine yazabilirsiniz. Kişisel Verileri Koruma Kurulu: kvkk.gov.tr. Başvurular kural olarak 30 gün içinde yanıtlanır.</p>
 
                     <h3 style="color: var(--primary); margin: 30px 0 18px; font-size: 1.5rem;" data-i18n="contactPage.modal.h4">Güvenlik</h3>
-                    <p style="margin-bottom: 35px; font-size: 1.05rem;" data-i18n="contactPage.modal.p4">
-                        Ozturksoft, kişisel verilerinizi korumak için teknik ve idari güvenlik önlemleri uygular.
-                    </p>
+                    <p style="margin-bottom: 35px; font-size: 1.05rem;" data-i18n="contactPage.modal.p4">Sitede HTTPS şifreleme kullanılır ve form yalnızca açık rıza verildiğinde gönderilir. Yine de internet üzerinden yapılan hiçbir iletim %100 risksiz değildir.</p>
                 </div>
 
                 <button id="closePrivacy" class="btn btn-primary" style="width: 100%; padding: 18px; font-size: 1.1rem; display: flex; align-items: center; justify-content: center; gap: 12px;">
