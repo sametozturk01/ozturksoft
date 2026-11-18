@@ -469,6 +469,41 @@
       "permanent": true
     },
     {
+      "source": "/spam-update",
+      "destination": "/google-spam-update-cezasi-kurtarma",
+      "permanent": true
+    },
+    {
+      "source": "/spam-update-kurtarma",
+      "destination": "/google-spam-update-cezasi-kurtarma",
+      "permanent": true
+    },
+    {
+      "source": "/google-spam-update",
+      "destination": "/google-spam-update-cezasi-kurtarma",
+      "permanent": true
+    },
+    {
+      "source": "/google-ceza-kaldirma",
+      "destination": "/google-spam-update-cezasi-kurtarma",
+      "permanent": true
+    },
+    {
+      "source": "/google-cezasi",
+      "destination": "/google-spam-update-cezasi-kurtarma",
+      "permanent": true
+    },
+    {
+      "source": "/manuel-islem-kaldirma",
+      "destination": "/google-spam-update-cezasi-kurtarma",
+      "permanent": true
+    },
+    {
+      "source": "/google-penalty-recovery",
+      "destination": "/google-spam-update-cezasi-kurtarma",
+      "permanent": true
+    },
+    {
       "source": "/seo",
       "destination": "/ankara-seo",
       "permanent": true

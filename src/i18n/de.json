@@ -631,7 +631,8 @@
       "takeover": "Übernahme von Softwareprojekten",
       "b2b": "B2B-Händlerportal",
       "tender": "KI-Ausschreibungsanalyse",
-      "softwareCompany": "Softwareunternehmen in Ankara"
+      "softwareCompany": "Softwareunternehmen in Ankara",
+      "spam": "Spam-Update-Wiederherstellung"
     }
   },
   "aiFirmPage": {
@@ -2976,7 +2977,8 @@
       "web": "Webdesign",
       "crm": "CRM",
       "geo": "GEO-Leitfaden",
-      "geoPage": "GEO-Optimierung"
+      "geoPage": "GEO-Optimierung",
+      "spamPage": "Spam-Update-Wiederherstellung"
     },
     "meta": {
       "title": "Ankara-SEO | Technisches SEO & GEO | Ozturksoft"
@@ -4374,5 +4376,124 @@
       "r2": "Webdesign in Ankara"
     },
     "footer": "© 2026 Ozturksoft — Website erstellen lassen in Ankara | <a href=\"/\" style=\"color:#3b82f6\">Startseite</a> · <a href=\"/hizmetler\" style=\"color:#3b82f6\">Leistungen</a> · <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">Softwareunternehmen</a>"
+  },
+  "spamRecoveryPage": {
+    "meta": {
+      "title": "Google Spam-Update-Abstrafung beheben | Traffic-Einbruch und manuelle Maßnahmen | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Spam-Update · Manuelle Maßnahme · Traffic-Einbruch · Search Console",
+      "title": "Hilfe nach einer Google Spam-Update-Abstrafung",
+      "desc": "Wenn Ihre Website nach einem Google-Update plötzlich deutlich weniger Besucher hat, klären wir zuerst die Ursache: Hat ein Google-Mitarbeiter eine Strafe von Hand verhängt (eine manuelle Maßnahme), oder wirkt sich ein Spam-Update automatisch aus? Danach bereinigen wir problematische Inhalte, Links und technische Fehler und bereiten bei Bedarf Ihren Antrag auf erneute Überprüfung bei Google vor. Wir sitzen in Ankara-Çankaya; die erste Einschätzung ist kostenlos."
+    },
+    "stats": {
+      "s1l": "Diagnose der Abstrafung",
+      "s2l": "Bereinigung und Wiederherstellung",
+      "s3l": "Dauer der Diagnose"
+    },
+    "what": {
+      "title": "Was ist eine Spam-Update-Abstrafung?",
+      "p1": "Google veröffentlicht mehrmals im Jahr ein <strong>Spam-Update</strong>, um minderwertige oder irreführende Websites aus den Suchergebnissen zu entfernen. Diese Updates stufen Seiten, die gegen die Spamrichtlinien von Google verstoßen, automatisch ab. Zusätzlich kann ein Google-Mitarbeiter Ihre Website prüfen und eine <strong>manuelle Maßnahme</strong> verhängen; in diesem Fall sehen Sie eine Meldung in der Search Console.",
+      "p2": "Die beiden Fälle werden unterschiedlich gelöst. Bei einer manuellen Maßnahme wird das Problem behoben und ein Antrag auf erneute Überprüfung an Google gesendet. Bei einem automatischen Einbruch gibt es keine Stelle, an die man sich wenden kann: Das Problem wird behoben, und man wartet, bis Google die Website neu bewertet. Außerdem ist nicht jeder Traffic-Rückgang eine Abstrafung; manchmal steckt ein Core-Update, ein technischer Fehler oder ein saisonaler Rückgang dahinter. Deshalb steht am Anfang immer eine genaue Diagnose."
+    },
+    "diff": {
+      "title": "Der Unterschied zwischen manueller Maßnahme und automatischem Einbruch",
+      "h1": "Thema",
+      "h2": "Manuelle Maßnahme",
+      "h3": "Spam-Update (automatisch)",
+      "r1a": "Woran erkennt man es?",
+      "r1b": "Im Bericht „Manuelle Maßnahmen“ der Search Console erscheint eine Meldung",
+      "r1c": "Keine Meldung; der Einbruch fällt mit einem von Google bekannt gegebenen Update-Datum zusammen",
+      "r2a": "Umfang",
+      "r2b": "Die gesamte Website oder bestimmte Seiten",
+      "r2c": "Meist die Seiten, die gegen die Richtlinien verstoßen, manchmal die gesamte Website",
+      "r3a": "Lösung",
+      "r3b": "Korrekturen und Antrag auf erneute Überprüfung",
+      "r3c": "Korrekturen und abwarten, bis Google die Website neu bewertet",
+      "r4a": "Dauer",
+      "r4b": "Der Antrag wird meist innerhalb weniger Tage bis weniger Wochen beantwortet",
+      "r4c": "Die Erholung kann mehrere Monate dauern",
+      "note": "Welcher Fall bei Ihnen vorliegt, ermitteln wir, indem wir Ihre Search-Console-Daten, Ihre Traffic-Kurve und den Update-Kalender von Google vergleichen."
+    },
+    "pricing": {
+      "title": "Preise für die Wiederherstellung nach einem Spam-Update (2026)",
+      "intro": "Der Preis hängt von der Größe Ihrer Website, der Art des Problems (Inhalte, Links oder Hackerangriff) und der Zahl der zu korrigierenden Seiten ab. Die folgenden Preisspannen gelten für 2026; den genauen Preis legen wir nach der kostenlosen Ersteinschätzung in einem schriftlichen Angebot fest.",
+      "row1": "Diagnose der Abstrafung",
+      "row2": "Bereinigung und Wiederherstellung",
+      "row3": "Wiederherstellung + SEO + GEO",
+      "t1": "1–2 Wochen",
+      "t2": "4–8 Wochen",
+      "t3": "8–12 Wochen",
+      "d1": "Wir prüfen Ihre Search-Console-, Traffic- und Linkdaten. Sie erhalten einen schriftlichen Bericht über die Ursache des Einbruchs, die betroffenen Seiten und die nötigen Schritte.",
+      "d2": "Wir beheben die im Bericht gefundenen Probleme: dünne oder doppelte Inhalte, schädliche Links, gehackte Seiten und versteckte Weiterleitungen. Liegt eine manuelle Maßnahme vor, bereiten wir den Antrag auf erneute Überprüfung vor.",
+      "d3": "Nach der Bereinigung überarbeiten wir die Website nach den Qualitätserwartungen von Google und konzentrieren uns mit <a href=\"/ankara-seo\">SEO</a> und <a href=\"/geo-optimizasyonu\">GEO</a> darauf, Ihre Sichtbarkeit zurückzugewinnen."
+    },
+    "cards": {
+      "title": "Welche Probleme lösen wir?",
+      "c1t": "Massenhaft erstellte Inhalte",
+      "c1d": "Wurden mit KI oder Vorlagen viele ähnliche Seiten erstellt, die Lesern keinen Mehrwert bieten, führen wir sie zusammen, verbessern sie oder entfernen sie.",
+      "c2t": "Unnatürliche Links",
+      "c2d": "Wir finden gekaufte Backlinks und solche aus Linknetzwerken. Für Links, die sich nicht entfernen lassen, erstellen wir eine Disavow-Datei für Google.",
+      "c3t": "Gehackte Website",
+      "c3d": "Wir entfernen heimlich eingefügte Spamseiten, fremdsprachige Inhalte ohne Bezug und schädliche Weiterleitungen und schließen die Sicherheitslücke, über die der Angriff erfolgt ist.",
+      "c4t": "Missbrauch des Websiterufs",
+      "c4d": "Wir finden gesponserte Inhalte, die Dritte auf Ihrer Website veröffentlicht haben und die nichts mit Ihrem Thema zu tun haben, und entscheiden gemeinsam mit Ihnen, ob sie entfernt oder aus dem Google-Index ausgeschlossen werden.",
+      "c5t": "Cloaking und Brückenseiten",
+      "c5d": "Wir korrigieren Seiten, die Besuchern und Google unterschiedliche Inhalte zeigen (Cloaking), Brückenseiten, die nur für die Suche angelegt wurden, sowie versteckten Text.",
+      "c6t": "Monitoring und Berichte",
+      "c6d": "Nach der Bereinigung beobachten wir jeden Monat Ihre Search-Console-Daten und Rankings und berichten Ihnen schriftlich über die Entwicklung."
+    },
+    "steps": {
+      "title": "Wie läuft die Wiederherstellung ab?",
+      "s1t": "Kostenlose Ersteinschätzung",
+      "s1d": "Wir sehen uns gemeinsam Ihre Traffic-Kurve an. In diesem Gespräch sagen wir Ihnen, ob der Einbruch nach unserer ersten Einschätzung auf eine Abstrafung oder eine andere Ursache zurückgeht.",
+      "s2t": "Diagnose",
+      "s2d": "Wir vergleichen das Datum des Einbruchs mit dem Update-Kalender von Google und prüfen die betroffenen Seiten, die Qualität der Inhalte und das Linkprofil im Einzelnen.",
+      "s3t": "Bereinigung",
+      "s3d": "Wir verbessern, bündeln oder entfernen problematische Inhalte und beheben schädliche Links und technische Fehler. Das gilt auch, wenn Ihre Website von einer anderen Firma erstellt wurde.",
+      "s4t": "Antrag auf erneute Überprüfung",
+      "s4d": "Liegt eine manuelle Maßnahme vor, senden wir Google über die Search Console einen Antrag auf erneute Überprüfung, der die vorgenommenen Korrekturen mit Beispielen erläutert.",
+      "s5t": "Monitoring",
+      "s5d": "Während Google die Website neu bewertet, beobachten wir Traffic und Rankings und nehmen bei Bedarf weitere Korrekturen vor."
+    },
+    "proof": {
+      "title": "Was wir Ihnen versprechen können",
+      "p1": "Niemand kann die Entscheidung von Google garantieren. Wir versprechen Ihnen eine genaue Diagnose des Problems, die Bereinigung von allem, was gegen die Spamrichtlinien von Google verstößt, und einen schriftlichen Bericht über jeden Arbeitsschritt.",
+      "p2": "Bei automatischen Einbrüchen dauert die Erholung oft mehrere Monate, weil die Systeme von Google Zeit brauchen, um die Website neu zu bewerten. Seien Sie vorsichtig bei Angeboten nach dem Motto „Wir bringen Sie in einer Woche auf Ihre alten Positionen zurück“."
+    },
+    "who": {
+      "title": "Für wen ist das?",
+      "i1": "Unternehmen, deren Besucherzahlen und Kundenanfragen nach einem Google-Update plötzlich eingebrochen sind.",
+      "i2": "Websitebetreiber, die in der Search Console eine Meldung über eine manuelle Maßnahme erhalten haben.",
+      "i3": "Firmen, die früher Backlinks in großen Mengen gekauft oder viele Seiten mit KI haben erstellen lassen.",
+      "i4": "Organisationen, deren Website gehackt wurde und bei denen in Google neben ihrem Namen fremdsprachige oder themenfremde Seiten erscheinen."
+    },
+    "faq": {
+      "title": "Spam-Update-Abstrafung: häufige Fragen",
+      "q1": "Woran erkenne ich, ob meine Website von Google abgestraft wurde?",
+      "a1": "Sehen Sie zuerst in der Search Console im Bereich „Sicherheit und manuelle Maßnahmen“ nach. Steht dort eine Meldung, liegt eine manuelle Maßnahme vor. Gibt es keine Meldung, ist Ihr Traffic aber genau zum Termin eines von Google angekündigten Spam-Updates plötzlich eingebrochen, kann eine automatische Auswirkung dahinterstecken. Für eine sichere Diagnose müssen Traffic- und Seitendaten gemeinsam ausgewertet werden.",
+      "q2": "Was kostet die Wiederherstellung nach einem Spam-Update?",
+      "a2": "Die Diagnose der Abstrafung kostet 15.000–25.000 TL (1–2 Wochen), Bereinigung und Wiederherstellung 40.000–90.000 TL (4–8 Wochen), Wiederherstellung zusammen mit SEO und GEO 80.000–150.000 TL (8–12 Wochen). Die Ersteinschätzung ist kostenlos.",
+      "q3": "Wann kommt mein Traffic zurück?",
+      "a3": "Bei einer manuellen Maßnahme wird der Antrag auf erneute Überprüfung meist innerhalb weniger Tage bis weniger Wochen beantwortet. Bei automatischen Einbrüchen kann es mehrere Monate dauern, bis die Systeme von Google die Änderungen bemerken. Dass der Traffic wieder das alte Niveau erreicht, ist zudem nicht sicher; vor allem Traffic von minderwertigen Seiten kommt möglicherweise nicht zurück.",
+      "q4": "Garantieren Sie, dass mein alter Traffic zurückkommt?",
+      "a4": "Nein. Niemand kann die Entscheidung von Google garantieren. Wir diagnostizieren das Problem genau, bereinigen alles, was gegen die Richtlinien verstößt, und berichten Ihnen jeden Monat schriftlich über den Fortschritt.",
+      "q5": "Ist eine Disavow-Datei (Links für ungültig erklären) immer nötig?",
+      "a5": "Nein. Google ignoriert die meisten schlechten Links ohnehin. Eine Disavow-Datei ist vor allem dann nötig, wenn Sie wegen Links eine manuelle Maßnahme erhalten haben oder viele bewusst gekaufte Links haben. Da eine falsch erstellte Datei auch Ihren nützlichen Links schaden kann, gehen wir dabei sehr sorgfältig vor.",
+      "q6": "Hilft ein Umzug auf eine neue Domain?",
+      "a6": "Meistens nicht. Liegt das Problem bei den Inhalten, erleben Sie auf der neuen Domain dasselbe und verlieren zudem alles, was Ihre alte Domain aufgebaut hat. Zuerst das Problem zu beheben ist fast immer der richtige Weg."
+    },
+    "cta": {
+      "btn": "Kostenlose Ersteinschätzung",
+      "title": "Finden wir gemeinsam heraus, warum Ihr Traffic eingebrochen ist",
+      "desc": "In der kostenlosen Ersteinschätzung sehen wir uns gemeinsam Ihre Traffic-Kurve an und besprechen die wahrscheinliche Ursache des Einbruchs. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Angebot für die Wiederherstellung anfordern"
+    },
+    "related": {
+      "seo": "SEO in Ankara",
+      "geo": "GEO-Optimierung",
+      "guide": "SEO-Leitfaden"
+    },
+    "footer": "© 2026 Ozturksoft — Hilfe nach einer Google Spam-Update-Abstrafung, Ankara"
   }
 }

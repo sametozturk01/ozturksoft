@@ -44,6 +44,7 @@ export default defineConfig({
         crmYazilimYaptirmak: resolve(__dirname, 'crm-yazilim-yaptirmak.html'),
         ankaraSeo: resolve(__dirname, 'ankara-seo.html'),
         geoOptimizasyonu: resolve(__dirname, 'geo-optimizasyonu.html'),
+        spamRecovery: resolve(__dirname, 'google-spam-update-cezasi-kurtarma.html'),
         ocrBelgeOkuma: resolve(__dirname, 'ocr-belge-okuma.html'),
         kurumIciYapayZeka: resolve(__dirname, 'kurum-ici-yapay-zeka.html'),
         yarimKalanProje: resolve(__dirname, 'yarim-kalan-yazilim-projesi.html'),
