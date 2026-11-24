@@ -1864,7 +1864,9 @@
       "a3link": "Have a website built",
       "a3": "is our service for corporate sites that present your company. An e-commerce site adds a cart, online payment and shipping on top of that. You can have both built by the same team.",
       "q4": "Can payment and shipping systems be connected?",
-      "a4": "Yes. We set up iyzico, PayTR, bank virtual POS and Yurtiçi/Aras/MNG shipping connections. If you like, <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">WhatsApp ordering</a> can be added to the same project. Timelines: ready-made theme 3–5 weeks, custom design 6–10 weeks, store with ERP connection 10–16 weeks."
+      "a4": "Yes. We set up iyzico, PayTR, bank virtual POS and Yurtiçi/Aras/MNG shipping connections. If you like, <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">WhatsApp ordering</a> can be added to the same project. Timelines: ready-made theme 3–5 weeks, custom design 6–10 weeks, store with ERP connection 10–16 weeks.",
+      "q5": "Can I move from a ready-made e-commerce plan to my own site?",
+      "a5": "Yes. We move your products, categories and customer list to your new site and redirect old page addresses to the new ones to help protect your Google rankings. Your new site is designed for you, and both the code and the data belong to you. Your current store stays open during the move and we switch over in one step."
     },
     "cta": {
       "btn": "Free discovery call",
@@ -1886,6 +1888,16 @@
       "ef": "E-invoice",
       "hb": "Hepsiburada",
       "am": "Amazon"
+    },
+    "own": {
+      "title": "Tired of renting your store on a monthly plan?",
+      "intro": "With ready-made e-commerce plans, your store does not really belong to you. You use the same themes as thousands of other stores, the monthly fee rises as your plan grows, and you wait for the platform to add the feature you need. With your own e-commerce site, the design, the code and the data are yours.",
+      "i1": "<strong>A design made for you:</strong> You do not share a theme with other stores; your site is designed from scratch around your brand.",
+      "i2": "<strong>Your code, your data:</strong> The source code and your product and customer data are your property. You can continue with another team tomorrow if you wish.",
+      "i3": "<strong>No cut of your sales, no plan upgrades:</strong> You pay no share of each sale and no fee to move to a higher plan; you pay only for hosting and, if you want, maintenance.",
+      "i4": "<strong>The features you need, without waiting:</strong> Dealer-specific prices, your own campaign rules or a connection to your accounting software are built to fit your business.",
+      "i5": "<strong>We handle the move:</strong> We transfer your products, categories and customer list from your current platform to your new site, and redirect old page addresses to new ones to protect your Google rankings.",
+      "note": "A ready-made plan is not wrong for every business: if you are just starting out with few products, it can be a good fit. Once your sales grow and you hit the limits of the plan, moving to your own site makes more sense. We will help you decide in a free discovery call."
     }
   },
   "faturaOkumaPage": {

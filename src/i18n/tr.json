@@ -1880,7 +1880,9 @@
       "a3link": "Web sitesi yaptırmak",
       "a3": "hizmetimiz firmanızı tanıtan siteler içindir. E-ticaret sitesinde buna ek olarak sepet, online ödeme ve kargo bulunur; ikisini aynı ekipten yaptırabilirsiniz.",
       "q4": "Ödeme ve kargo sistemleri bağlanabilir mi?",
-      "a4": "Evet. iyzico, PayTR, banka sanal POS ve Yurtiçi/Aras/MNG kargo bağlantıları kurulur. İsterseniz <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">WhatsApp’tan sipariş</a> de aynı projeye eklenir. Süreler: hazır tema 3–5 hafta, özel tasarım 6–10 hafta, ERP bağlantılı mağaza 10–16 hafta."
+      "a4": "Evet. iyzico, PayTR, banka sanal POS ve Yurtiçi/Aras/MNG kargo bağlantıları kurulur. İsterseniz <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">WhatsApp’tan sipariş</a> de aynı projeye eklenir. Süreler: hazır tema 3–5 hafta, özel tasarım 6–10 hafta, ERP bağlantılı mağaza 10–16 hafta.",
+      "q5": "Hazır e-ticaret paketinden kendi siteme geçebilir miyim?",
+      "a5": "Evet. Ürünlerinizi, kategorilerinizi ve müşteri listenizi yeni sitenize taşırız; eski sayfa adreslerini yeni adreslere yönlendirerek Google’daki sıralamanızı korumaya çalışırız. Yeni siteniz size özel tasarlanır ve kodu da verileri de size ait olur. Taşıma sırasında mevcut mağazanız açık kalır, geçişi tek seferde yaparız."
     },
     "cta": {
       "btn": "Ücretsiz keşif görüşmesi",
@@ -1902,6 +1904,16 @@
       "ef": "E-fatura",
       "hb": "Hepsiburada",
       "am": "Amazon"
+    },
+    "own": {
+      "title": "Aylık paketle kiraladığınız mağazadan sıkıldınız mı?",
+      "intro": "Hazır e-ticaret paketlerinde mağazanız aslında size ait değildir. Binlerce mağazanın kullandığı aynı temaları kullanırsınız, paket büyüdükçe aylık ücret artar ve ihtiyacınız olan bir özellik için platformun onu eklemesini beklersiniz. Kendi e-ticaret sitenizde ise tasarım, kod ve veriler sizindir.",
+      "i1": "<strong>Size özel tasarım:</strong> Başka mağazalarla aynı temayı paylaşmazsınız; siteniz markanıza göre sıfırdan tasarlanır.",
+      "i2": "<strong>Kod ve veriler sizin:</strong> Sitenin kaynak kodu, ürün ve müşteri verileri sizin mülkünüzdür. Dilerseniz yarın başka bir ekiple devam edebilirsiniz.",
+      "i3": "<strong>Satıştan pay ve paket yükseltme yok:</strong> Platforma her satıştan pay ya da daha üst pakete geçiş ücreti ödemezsiniz; yalnızca sunucu ve isterseniz bakım ücreti ödersiniz.",
+      "i4": "<strong>İstediğiniz özellik, beklemeden:</strong> Bayiye özel fiyat, kendi kampanya kurallarınız veya muhasebe programı bağlantısı gibi özellikleri ihtiyacınıza göre yaptırırsınız.",
+      "i5": "<strong>Taşıma bizden:</strong> Ürünlerinizi, kategorilerinizi ve müşteri listenizi mevcut platformunuzdan yeni sitenize taşırız. Google’daki sıralamanızı korumak için eski sayfa adreslerini yeni adreslere yönlendiririz.",
+      "note": "Hazır paket her işletme için yanlış değildir: yeni başlıyorsanız ve ürün sayınız azsa uygun olabilir. Satışlarınız büyüyüp paketin sınırlarına takılmaya başladığınızda kendi sitenize geçmek daha mantıklı hale gelir. Hangisinin size uygun olduğunu ücretsiz keşif görüşmesinde birlikte değerlendiririz."
     }
   },
   "faturaOkumaPage": {

@@ -1864,7 +1864,9 @@
       "a3link": "Website erstellen lassen",
       "a3": "ist unser Angebot für Unternehmenswebsites, die Ihre Firma vorstellen. Ein Onlineshop bietet zusätzlich Warenkorb, Onlinezahlung und Versand. Beides können Sie beim selben Team beauftragen.",
       "q4": "Lassen sich Zahlungs- und Versandsysteme anbinden?",
-      "a4": "Ja. Wir richten iyzico, PayTR, virtuelles Bank-POS und die Versandanbindung an Yurtiçi/Aras/MNG ein. Auf Wunsch kommen <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">Bestellungen per WhatsApp</a> im selben Projekt hinzu. Dauer: fertiges Theme 3–5 Wochen, individuelles Design 6–10 Wochen, Shop mit ERP-Anbindung 10–16 Wochen."
+      "a4": "Ja. Wir richten iyzico, PayTR, virtuelles Bank-POS und die Versandanbindung an Yurtiçi/Aras/MNG ein. Auf Wunsch kommen <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">Bestellungen per WhatsApp</a> im selben Projekt hinzu. Dauer: fertiges Theme 3–5 Wochen, individuelles Design 6–10 Wochen, Shop mit ERP-Anbindung 10–16 Wochen.",
+      "q5": "Kann ich von einem fertigen E-Commerce-Paket zu meinem eigenen Shop wechseln?",
+      "a5": "Ja. Wir übertragen Produkte, Kategorien und Kundenliste in Ihren neuen Shop und leiten alte Seitenadressen auf die neuen um, damit Ihre Google-Rankings möglichst erhalten bleiben. Der neue Shop wird für Sie gestaltet; Code und Daten gehören Ihnen. Ihr bisheriger Shop bleibt während des Umzugs online, die Umstellung erfolgt in einem Schritt."
     },
     "cta": {
       "btn": "Kostenloses Erstgespräch",
@@ -1886,6 +1888,16 @@
       "ef": "E-Rechnung",
       "hb": "Hepsiburada",
       "am": "Amazon"
+    },
+    "own": {
+      "title": "Genug davon, Ihren Shop im Monatsabo zu mieten?",
+      "intro": "Bei fertigen E-Commerce-Paketen gehört Ihr Shop eigentlich nicht Ihnen. Sie nutzen dieselben Themes wie Tausende andere Shops, die Monatsgebühr steigt mit jedem größeren Paket, und auf eine benötigte Funktion warten Sie, bis die Plattform sie anbietet. Bei Ihrem eigenen Onlineshop gehören Design, Code und Daten Ihnen.",
+      "i1": "<strong>Ein Design nur für Sie:</strong> Sie teilen kein Theme mit anderen Shops; Ihre Website wird von Grund auf passend zu Ihrer Marke gestaltet.",
+      "i2": "<strong>Code und Daten gehören Ihnen:</strong> Quellcode sowie Produkt- und Kundendaten sind Ihr Eigentum. Auf Wunsch können Sie morgen mit einem anderen Team weitermachen.",
+      "i3": "<strong>Keine Umsatzbeteiligung, keine Paket-Upgrades:</strong> Sie zahlen weder einen Anteil an jedem Verkauf noch Gebühren für ein größeres Paket – nur Hosting und auf Wunsch Wartung.",
+      "i4": "<strong>Die Funktionen, die Sie brauchen – ohne Warten:</strong> Händlerpreise, eigene Aktionsregeln oder die Anbindung Ihrer Buchhaltungssoftware werden passend für Ihr Geschäft umgesetzt.",
+      "i5": "<strong>Den Umzug übernehmen wir:</strong> Wir übertragen Produkte, Kategorien und Kundenliste von Ihrer bisherigen Plattform und leiten alte Seitenadressen auf die neuen um, um Ihre Google-Rankings zu schützen.",
+      "note": "Ein fertiges Paket ist nicht für jedes Unternehmen falsch: Wenn Sie gerade erst mit wenigen Produkten starten, kann es gut passen. Sobald Ihr Umsatz wächst und Sie an die Grenzen des Pakets stoßen, lohnt sich der Wechsel zum eigenen Shop. Was für Sie passt, besprechen wir in einem kostenlosen Erstgespräch."
     }
   },
   "faturaOkumaPage": {

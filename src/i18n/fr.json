@@ -1864,7 +1864,9 @@
       "a3link": "Faire créer un site",
       "a3": "est notre offre de sites d’entreprise qui présentent votre société. Une boutique en ligne y ajoute le panier, le paiement en ligne et la livraison. Les deux peuvent être réalisés par la même équipe.",
       "q4": "Peut-on connecter les systèmes de paiement et de livraison ?",
-      "a4": "Oui. Nous mettons en place iyzico, PayTR, le TPE virtuel bancaire et les connexions Yurtiçi/Aras/MNG. Si vous le souhaitez, la <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">commande via WhatsApp</a> peut être ajoutée au même projet. Délais : thème prêt à l’emploi 3–5 semaines, design sur mesure 6–10 semaines, boutique connectée à l’ERP 10–16 semaines."
+      "a4": "Oui. Nous mettons en place iyzico, PayTR, le TPE virtuel bancaire et les connexions Yurtiçi/Aras/MNG. Si vous le souhaitez, la <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">commande via WhatsApp</a> peut être ajoutée au même projet. Délais : thème prêt à l’emploi 3–5 semaines, design sur mesure 6–10 semaines, boutique connectée à l’ERP 10–16 semaines.",
+      "q5": "Puis-je passer d’une offre e-commerce clés en main à mon propre site ?",
+      "a5": "Oui. Nous transférons vos produits, catégories et clients vers votre nouveau site et redirigeons les anciennes adresses vers les nouvelles pour préserver au mieux votre référencement Google. Le nouveau site est conçu pour vous, et le code comme les données vous appartiennent. Votre boutique actuelle reste en ligne pendant la migration et la bascule se fait en une seule fois."
     },
     "cta": {
       "btn": "Appel découverte gratuit",
@@ -1886,6 +1888,16 @@
       "ef": "E-facture",
       "hb": "Hepsiburada",
       "am": "Amazon"
+    },
+    "own": {
+      "title": "Lassé de louer votre boutique avec un abonnement mensuel ?",
+      "intro": "Avec les offres e-commerce clés en main, votre boutique ne vous appartient pas vraiment. Vous utilisez les mêmes thèmes que des milliers d’autres boutiques, l’abonnement augmente à mesure que vous montez en gamme, et vous attendez que la plateforme ajoute la fonctionnalité dont vous avez besoin. Avec votre propre site e-commerce, le design, le code et les données vous appartiennent.",
+      "i1": "<strong>Un design rien que pour vous :</strong> vous ne partagez pas votre thème avec d’autres boutiques ; votre site est conçu de zéro autour de votre marque.",
+      "i2": "<strong>Votre code, vos données :</strong> le code source ainsi que vos données produits et clients sont votre propriété. Vous pouvez continuer avec une autre équipe demain si vous le souhaitez.",
+      "i3": "<strong>Ni commission sur vos ventes, ni montée en gamme forcée :</strong> vous ne reversez aucune part de vos ventes et ne payez pas pour passer à une offre supérieure ; seulement l’hébergement et, si vous le souhaitez, la maintenance.",
+      "i4": "<strong>Les fonctionnalités qu’il vous faut, sans attendre :</strong> prix revendeurs, règles promotionnelles propres ou connexion à votre logiciel comptable sont développés selon vos besoins.",
+      "i5": "<strong>Nous nous occupons de la migration :</strong> nous transférons vos produits, catégories et clients depuis votre plateforme actuelle et redirigeons les anciennes adresses vers les nouvelles pour préserver votre référencement Google.",
+      "note": "Une offre clés en main n’est pas un mauvais choix pour tout le monde : si vous débutez avec peu de produits, elle peut convenir. Quand vos ventes progressent et que vous atteignez les limites de l’offre, passer à votre propre site devient plus logique. Nous vous aidons à décider lors d’un premier échange gratuit."
     }
   },
   "faturaOkumaPage": {
