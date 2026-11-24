@@ -43,7 +43,7 @@ Prices below are 2026 ranges in Turkish lira (TL) published on the linked pages;
 - [Mobile apps](https://ozturksoft.net/mobil-uygulama-yaptirmak): MVP 80,000–120,000 TL; Flutter 120,000–200,000 TL; native iOS + Android 180,000–350,000 TL
 - [CRM software](https://ozturksoft.net/crm-yazilim-yaptirmak): SME panel 80,000–180,000 TL; CRM + ERP 150,000–300,000 TL
 - [Website development in Ankara](https://ozturksoft.net/web-sitesi-yaptirmak-ankara) and [Ankara web design](https://ozturksoft.net/ankara-web-tasarim): corporate site 15,000–90,000 TL; e-commerce 30,000–250,000+ TL
-- [E-commerce website](https://ozturksoft.net/e-ticaret-sitesi-yaptirmak): WooCommerce 25,000–45,000 TL; custom store 45,000–120,000 TL; B2B 120,000–250,000+ TL
+- [E-commerce website](https://ozturksoft.net/e-ticaret-sitesi-yaptirmak): stores designed for the brand, with code and data owned by the client, and migration from ready-made monthly platforms. Starter store 25,000–45,000 TL; custom store 45,000–120,000 TL; B2B 120,000–250,000+ TL
 - [QA and test automation](https://ozturksoft.net/qa-test-hizmeti): audit 15,000–40,000 TL; test automation 40,000–120,000 TL (Playwright, Cypress, API, CI/CD)
 - [Ankara software company overview](https://ozturksoft.net/ankara-yazilim-sirketi)
 

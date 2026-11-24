@@ -1809,9 +1809,10 @@
   },
   "eticaretPage": {
     "hero": {
-      "badge": "WooCommerce · Paiement en ligne · Livraison · Logo · Ankara",
+      "badge": "Design sur mesure · Paiement en ligne · Livraison · Logo · Ankara",
       "title": "Faire créer un site e-commerce",
-      "desc": "Présentez vos produits en ligne, encaissez les paiements en ligne et expédiez sans effort. Nous créons une boutique WooCommerce ou sur mesure et réalisons dans le même projet le paiement iyzico/PayTR, la connexion aux transporteurs et la <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">connexion des stocks Logo/Netsis</a>. Plutôt qu’un pack tout fait, notre équipe de Çankaya prépare un devis écrit adapté à votre activité ; le rendez-vous de découverte est gratuit. Pour voir le détail des coûts, consultez notre <a href=\"/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026\" style=\"color:#fb923c\">guide des coûts</a>."
+      "desc": "Lassé du même thème utilisé par des milliers de boutiques, d’un abonnement qui augmente chaque mois et des limites de votre plateforme ? Nous créons un site e-commerce conçu pour votre marque, dont le code et les données vous appartiennent. Paiement iyzico/PayTR, connexion aux transporteurs et <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">connexion des stocks Logo/Netsis</a> sont livrés dans le même projet. Le rendez-vous de découverte avec notre équipe de Çankaya est gratuit ; pour le détail des coûts, consultez notre <a href=\"/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026\" style=\"color:#fb923c\">guide des coûts</a>.",
+      "btn2": "Pourquoi votre propre boutique ?"
     },
     "pricing": {
       "title": "Prix d’un site e-commerce (2026)",
@@ -1819,7 +1820,7 @@
       "col1": "Périmètre",
       "col2": "Prix",
       "col3": "Délai",
-      "row1": "WooCommerce / thème prêt",
+      "row1": "Boutique de démarrage (plateforme prête)",
       "row2": "Boutique design sur mesure (~100 SKU)",
       "row3": "ERP + livraison + multi-paiement",
       "row4": "B2B / marketplace",
@@ -1847,19 +1848,19 @@
     },
     "who": {
       "title": "Qui fait créer une boutique en ligne ?",
-      "intro": "Une PME qui veut vendre en ligne et une marque présente sur Trendyol sans boutique à elle ont besoin des mêmes choses : un panier, le paiement en ligne, la livraison et des stocks justes. Ozturksoft met tout cela en place avec WooCommerce ou un logiciel sur mesure, et la connexion Logo/Netsis est assurée par la même équipe.",
+      "intro": "Une PME qui veut vendre en ligne et une marque présente sur Trendyol sans boutique à elle ont besoin des mêmes choses : un panier, le paiement en ligne, la livraison et des stocks justes. Ozturksoft met tout cela en place dans une boutique conçue pour votre marque, et la connexion Logo/Netsis est assurée par la même équipe.",
       "i1": "Vous avez une boutique physique et voulez aussi vendre en ligne. Vous voulez réunir catalogue, panier, paiement iyzico/PayTR et connexion aux transporteurs sur un seul site, avec une équipe locale à Ankara pour le livrer.",
       "i2": "Vous vendez sur Trendyol ou Hepsiburada mais n’avez pas votre propre boutique. Pour réduire les commissions et garder la maîtrise de votre marque, vous voulez une boutique indépendante, sans conflit entre le stock de la marketplace et celui du site.",
       "i3": "Vous suivez encore les commandes de gros et de revendeurs dans Excel. Il vous faut des tarifs revendeurs (B2B), des comptes clients et un montant minimum de commande, avec une marketplace ou un espace revendeurs dans le même projet.",
-      "i4": "Les packs tout faits ne correspondent pas à vos besoins de stock, de livraison et de Logo. WooCommerce ne suffit pas pour des campagnes spécifiques, un fort trafic ou une connexion ERP, et vous voulez un <a href=\"/ozel-yazilim-yaptirmak\" style=\"color:#fb923c\">logiciel e-commerce sur mesure</a>.",
+      "i4": "Votre offre clés en main actuelle ne correspond pas à vos besoins de stock, de livraison et de Logo, et vous en avez assez que votre site ressemble à toutes les autres boutiques. Pour des campagnes spécifiques, un fort trafic ou une connexion ERP, vous voulez un <a href=\"/ozel-yazilim-yaptirmak\" style=\"color:#fb923c\">logiciel e-commerce sur mesure</a>.",
       "outro": "Si vous cherchez seulement un site qui présente votre entreprise, sans panier ni paiement, découvrez notre offre de <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#fb923c\">site vitrine d’entreprise</a>. Rendez-vous de découverte gratuit : <a href=\"tel:+905465496806\" style=\"color:#fb923c\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "Questions fréquentes",
       "q1": "Combien coûte la création d’un site e-commerce ?",
-      "a1": "Une boutique WooCommerce coûte 25 000–45 000 TL, une boutique au design sur mesure 45 000–75 000 TL, une boutique connectée à l’ERP, aux transporteurs et au paiement 75 000–120 000 TL, et les projets B2B ou marketplace 120 000–250 000+ TL. La moyenne pour une PME se situe entre 50 000 et 80 000 TL ; le rendez-vous de découverte est gratuit.",
-      "q2": "WooCommerce ou logiciel sur mesure ?",
-      "a2": "Si vous vendez 50–200 produits avec un processus de vente standard, WooCommerce suffit. Pour une connexion <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a>, des campagnes spécifiques ou un fort trafic, nous recommandons un logiciel e-commerce sur mesure. Nous décidons ensemble lors du rendez-vous de découverte, à partir de votre liste de produits et d’intégrations.",
+      "a1": "Une boutique de démarrage sur une plateforme prête coûte 25 000–45 000 TL, une boutique conçue pour vous 45 000–75 000 TL, une boutique connectée à l’ERP, aux transporteurs et au paiement 75 000–120 000 TL, et les projets B2B ou marketplace 120 000–250 000+ TL. La moyenne pour une PME se situe entre 50 000 et 80 000 TL ; le rendez-vous de découverte est gratuit.",
+      "q2": "Plateforme prête ou boutique conçue pour vous ?",
+      "a2": "Si vous débutez, vendez 50–200 produits et avez un processus de vente standard, une boutique de démarrage sur une plateforme prête peut suffire. Si vous voulez que votre marque se distingue des autres boutiques, ou s’il vous faut une connexion <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a>, des campagnes spécifiques ou un fort trafic, nous recommandons une boutique conçue pour vous. Nous décidons ensemble lors du rendez-vous de découverte, à partir de votre liste de produits et d’intégrations.",
       "q3": "Différence avec un site corporate ?",
       "a3link": "Faire créer un site",
       "a3": "est notre offre de sites d’entreprise qui présentent votre société. Une boutique en ligne y ajoute le panier, le paiement en ligne et la livraison. Les deux peuvent être réalisés par la même équipe.",

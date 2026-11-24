@@ -1809,9 +1809,10 @@
   },
   "eticaretPage": {
     "hero": {
-      "badge": "WooCommerce · Onlinezahlung · Versand · Logo · Ankara",
+      "badge": "Individuelles Design · Onlinezahlung · Versand · Logo · Ankara",
       "title": "E-Commerce-Shop erstellen lassen",
-      "desc": "Präsentieren Sie Ihre Produkte online, nehmen Sie Zahlungen online an und versenden Sie bequem. Wir bauen einen WooCommerce- oder individuellen Onlineshop und setzen iyzico/PayTR-Zahlungen, die Anbindung an Versanddienstleister und die <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis-Lageranbindung</a> im selben Projekt um. Statt eines fertigen Pakets erstellt unser Team in Çankaya ein schriftliches Angebot für Ihr Geschäft; das Erstgespräch ist kostenlos. Die Kostenpunkte im Detail finden Sie in unserem <a href=\"/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026\" style=\"color:#fb923c\">Kostenleitfaden</a>."
+      "desc": "Genug von demselben Theme, das Tausende Shops nutzen, von monatlich steigenden Paketgebühren und den Grenzen Ihrer Plattform? Wir bauen einen Onlineshop, der für Ihre Marke gestaltet ist und dessen Code und Daten Ihnen gehören. iyzico/PayTR-Zahlungen, Versandanbindung und die <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis-Lageranbindung</a> erhalten Sie im selben Projekt. Das Erstgespräch mit unserem Team in Çankaya ist kostenlos; die Kostenpunkte finden Sie in unserem <a href=\"/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026\" style=\"color:#fb923c\">Kostenleitfaden</a>.",
+      "btn2": "Warum ein eigener Shop?"
     },
     "pricing": {
       "title": "E-Commerce-Website-Preis (2026)",
@@ -1819,7 +1820,7 @@
       "col1": "Umfang",
       "col2": "Preis",
       "col3": "Dauer",
-      "row1": "WooCommerce / Fertigtheme",
+      "row1": "Einstiegsshop (fertige Plattform)",
       "row2": "Individuell gestalteter Shop (~100 SKUs)",
       "row3": "ERP + Versand + Mehrfachzahlung",
       "row4": "B2B / Marktplatz",
@@ -1847,19 +1848,19 @@
     },
     "who": {
       "title": "Wer lässt einen Onlineshop erstellen?",
-      "intro": "Ein KMU, das sein Geschäft ins Internet bringt, und eine Marke, die auf Trendyol verkauft, aber keinen eigenen Shop hat, brauchen dasselbe: Warenkorb, Onlinezahlung, Versand und korrekte Lagerbestände. Ozturksoft setzt das mit WooCommerce oder individueller Software um; die Logo/Netsis-Anbindung übernimmt dasselbe Team.",
+      "intro": "Ein KMU, das sein Geschäft ins Internet bringt, und eine Marke, die auf Trendyol verkauft, aber keinen eigenen Shop hat, brauchen dasselbe: Warenkorb, Onlinezahlung, Versand und korrekte Lagerbestände. Ozturksoft setzt das in einem für Ihre Marke gestalteten Shop um; die Logo/Netsis-Anbindung übernimmt dasselbe Team.",
       "i1": "Sie haben ein Ladengeschäft und möchten auch online verkaufen. Produktkatalog, Warenkorb, iyzico/PayTR-Zahlung und Versandanbindung sollen auf einer Website laufen, und Sie suchen ein lokales Team in Ankara, das liefert.",
       "i2": "Sie verkaufen auf Trendyol oder Hepsiburada, haben aber keinen eigenen Shop. Um Provisionen zu senken und die Kontrolle über Ihre Marke zu behalten, möchten Sie einen unabhängigen Onlineshop – ohne dass sich Marktplatz- und Shopbestand widersprechen.",
       "i3": "Großhandels- und Händlerbestellungen verwalten Sie noch in Excel. Sie brauchen händlerspezifische Preislisten (B2B), Kundenkonten und Mindestbestellwerte und möchten einen Marktplatz oder ein Händlerpanel im selben Projekt.",
-      "i4": "Fertige Pakete passen nicht zu Ihren Anforderungen an Lager, Versand und Logo. Für besondere Kampagnen, hohen Traffic oder eine ERP-Anbindung reicht WooCommerce nicht aus, und Sie möchten <a href=\"/ozel-yazilim-yaptirmak\" style=\"color:#fb923c\">individuelle E-Commerce-Software</a>.",
+      "i4": "Ihr aktuelles Fertigpaket passt nicht zu Ihren Anforderungen an Lager, Versand und Logo, und Sie möchten nicht mehr wie jeder andere Shop aussehen. Für besondere Kampagnen, hohen Traffic oder eine ERP-Anbindung wünschen Sie <a href=\"/ozel-yazilim-yaptirmak\" style=\"color:#fb923c\">individuelle E-Commerce-Software</a>.",
       "outro": "Wenn Sie nur eine Website suchen, die Ihr Unternehmen vorstellt – ohne Warenkorb und Zahlung –, sehen Sie sich unser Angebot für <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#fb923c\">Unternehmenswebsites</a> an. Kostenloses Erstgespräch: <a href=\"tel:+905465496806\" style=\"color:#fb923c\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "Häufige Fragen",
       "q1": "Was kostet ein E-Commerce-Shop?",
-      "a1": "Ein WooCommerce-Shop kostet 25.000–45.000 TL, ein individuell gestalteter Shop 45.000–75.000 TL, ein Shop mit ERP-, Versand- und Zahlungsanbindung 75.000–120.000 TL, B2B- oder Marktplatzprojekte 120.000–250.000+ TL. Der KMU-Durchschnitt liegt bei 50.000–80.000 TL; das Erstgespräch ist kostenlos.",
-      "q2": "WooCommerce oder individuelle Software?",
-      "a2": "Wenn Sie 50–200 Produkte verkaufen und Ihr Verkaufsprozess standardmäßig ist, reicht WooCommerce. Für eine <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a>-Anbindung, besondere Kampagnen oder hohen Traffic empfehlen wir individuelle E-Commerce-Software. Die Entscheidung treffen wir gemeinsam im Erstgespräch anhand Ihrer Produkt- und Integrationsliste.",
+      "a1": "Ein Einstiegsshop auf einer fertigen Plattform kostet 25.000–45.000 TL, ein für Sie gestalteter Shop 45.000–75.000 TL, ein Shop mit ERP-, Versand- und Zahlungsanbindung 75.000–120.000 TL, B2B- oder Marktplatzprojekte 120.000–250.000+ TL. Der KMU-Durchschnitt liegt bei 50.000–80.000 TL; das Erstgespräch ist kostenlos.",
+      "q2": "Fertige Plattform oder ein Shop nur für Sie?",
+      "a2": "Wenn Sie gerade starten, 50–200 Produkte verkaufen und einen Standard-Verkaufsprozess haben, kann ein Einstiegsshop auf einer fertigen Plattform genügen. Soll sich Ihre Marke von anderen Shops abheben oder brauchen Sie eine <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a>-Anbindung, besondere Kampagnen oder viel Traffic, empfehlen wir einen individuellen Shop. Die Entscheidung treffen wir gemeinsam im Erstgespräch anhand Ihrer Produkt- und Integrationsliste.",
       "q3": "Unterschied zur Corporate-Website?",
       "a3link": "Website erstellen lassen",
       "a3": "ist unser Angebot für Unternehmenswebsites, die Ihre Firma vorstellen. Ein Onlineshop bietet zusätzlich Warenkorb, Onlinezahlung und Versand. Beides können Sie beim selben Team beauftragen.",

@@ -1809,9 +1809,10 @@
   },
   "eticaretPage": {
     "hero": {
-      "badge": "WooCommerce · Online payment · Shipping · Logo · Ankara",
+      "badge": "Custom design · Online payments · Shipping · Logo · Ankara",
       "title": "Have an E-Commerce Site Built",
-      "desc": "Showcase your products online, take payments online and ship with ease. We build a WooCommerce or custom online store and complete iyzico/PayTR payments, the shipping-company connection and the <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis stock connection</a> in the same project. Instead of a boxed package, our team in Çankaya prepares a written quote based on your business; the discovery meeting is free. To see the cost items in detail, take a look at our <a href=\"/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026\" style=\"color:#fb923c\">cost guide</a>."
+      "desc": "Tired of the same theme thousands of stores use, a plan fee that rises every month and the limits of your platform? We build an e-commerce site designed for your brand, with code and data that belong to you. iyzico/PayTR payments, shipping connections and the <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis stock connection</a> are delivered in the same project. The discovery meeting with our team in Çankaya is free; to see the cost items, take a look at our <a href=\"/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026\" style=\"color:#fb923c\">cost guide</a>.",
+      "btn2": "Why your own store?"
     },
     "pricing": {
       "title": "E-commerce website price (2026)",
@@ -1819,7 +1820,7 @@
       "col1": "Scope",
       "col2": "Price",
       "col3": "Timeline",
-      "row1": "WooCommerce / ready theme",
+      "row1": "Starter store (ready-made platform)",
       "row2": "Custom-designed store (~100 SKUs)",
       "row3": "ERP + shipping + multi-payment",
       "row4": "B2B / marketplace",
@@ -1847,19 +1848,19 @@
     },
     "who": {
       "title": "Who has an e-commerce site built?",
-      "intro": "An SME moving its shop online and a brand selling on Trendyol without its own store need the same things: a cart, online payment, shipping and accurate stock. Ozturksoft sets these up with WooCommerce or custom software, and the Logo/Netsis connection is handled by the same team.",
+      "intro": "An SME moving its shop online and a brand selling on Trendyol without its own store need the same things: a cart, online payment, shipping and accurate stock. Ozturksoft sets these up in a store built for your brand, and the Logo/Netsis connection is handled by the same team.",
       "i1": "You have a physical shop and want to sell online as well. You want the product catalogue, cart, iyzico/PayTR payment and shipping connection on one site, and you are looking for a local team in Ankara to deliver it.",
       "i2": "You sell on Trendyol or Hepsiburada but have no store of your own. To cut commission costs and keep control of your brand, you want an independent online store, and the marketplace stock must not clash with the stock on your site.",
       "i3": "You still track wholesale and dealer orders in Excel. You need dealer-specific price lists (B2B), customer accounts and minimum order amounts, and you want a marketplace or dealer panel added to the same project.",
-      "i4": "Ready-made packages do not fit your stock, shipping and Logo needs. WooCommerce falls short for special campaigns, heavy traffic or an ERP connection, and you want <a href=\"/ozel-yazilim-yaptirmak\" style=\"color:#fb923c\">custom e-commerce software</a>.",
+      "i4": "Your current ready-made plan does not fit your stock, shipping and Logo needs, and you are tired of your site looking like every other store. For special campaigns, heavy traffic or an ERP connection you want <a href=\"/ozel-yazilim-yaptirmak\" style=\"color:#fb923c\">custom e-commerce software</a>.",
       "outro": "If you only need a site that presents your company, without a cart or payment, take a look at our <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#fb923c\">corporate website</a> service. For a free discovery meeting: <a href=\"tel:+905465496806\" style=\"color:#fb923c\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "FAQ",
       "q1": "How much does it cost to have an e-commerce site built?",
-      "a1": "A WooCommerce store costs 25,000–45,000 TL, a custom-designed store 45,000–75,000 TL, a store with ERP, shipping and payment connections 75,000–120,000 TL, and B2B or marketplace projects 120,000–250,000+ TL. SME projects average 50,000–80,000 TL; the discovery meeting is free.",
-      "q2": "WooCommerce or custom software?",
-      "a2": "If you sell 50–200 products and your sales process is standard, WooCommerce is enough. If you need a <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a> connection, special campaigns or high traffic, we recommend custom e-commerce software. We make the decision together in the discovery meeting, based on your product and integration list.",
+      "a1": "A starter store on a ready-made platform costs 25,000–45,000 TL, a store designed for you 45,000–75,000 TL, a store with ERP, shipping and payment connections 75,000–120,000 TL, and B2B or marketplace projects 120,000–250,000+ TL. SME projects average 50,000–80,000 TL; the discovery meeting is free.",
+      "q2": "Ready-made platform or a store built for you?",
+      "a2": "If you are just starting out, sell 50–200 products and have a standard sales process, a starter store on a ready-made platform may be enough. If you want your brand to stand out from other stores, or you need a <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a> connection, special campaigns or high traffic, we recommend a store built for you. We decide together in the discovery meeting, based on your product and integration list.",
       "q3": "How is it different from a corporate site?",
       "a3link": "Have a website built",
       "a3": "is our service for corporate sites that present your company. An e-commerce site adds a cart, online payment and shipping on top of that. You can have both built by the same team.",

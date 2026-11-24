@@ -1825,9 +1825,10 @@
   },
   "eticaretPage": {
     "hero": {
-      "badge": "WooCommerce · Online ödeme · Kargo · Logo · Ankara",
+      "badge": "Size özel tasarım · Online ödeme · Kargo · Logo · Ankara",
       "title": "E-Ticaret Sitesi Yaptırmak",
-      "desc": "Ürünlerinizi internette sergileyin, ödemeyi online alın, kargoyu kolayca çıkarın. WooCommerce ya da size özel bir online mağaza kuruyor; iyzico/PayTR ödeme, kargo firması bağlantısı ve <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis stok bağlantısını</a> aynı projede tamamlıyoruz. Çankaya’daki ekibimiz hazır paket yerine işinize göre yazılı teklif hazırlar; keşif görüşmesi ücretsizdir. Maliyet kalemlerini ayrıntılı görmek isterseniz <a href=\"/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026\" style=\"color:#fb923c\">maliyet rehberimize</a> göz atabilirsiniz."
+      "desc": "Binlerce mağazanın kullandığı aynı temadan, her ay artan paket ücretinden ve platformun sınırlarından sıkıldınız mı? Markanıza özel tasarlanan, kodu ve verileri size ait bir e-ticaret sitesi kuruyoruz. iyzico/PayTR ödeme, kargo bağlantısı ve <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis stok bağlantısı</a> aynı projede hazır olur. Çankaya’daki ekibimizle keşif görüşmesi ücretsizdir; maliyet kalemlerini görmek için <a href=\"/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026\" style=\"color:#fb923c\">maliyet rehberimize</a> göz atabilirsiniz.",
+      "btn2": "Neden kendi mağazanız?"
     },
     "pricing": {
       "title": "E-ticaret sitesi fiyatı (2026)",
@@ -1835,7 +1836,7 @@
       "col1": "Kapsam",
       "col2": "Fiyat",
       "col3": "Süre",
-      "row1": "WooCommerce / hazır tema",
+      "row1": "Başlangıç mağaza (hazır altyapı)",
       "row2": "Özel tasarımlı mağaza (~100 ürün)",
       "row3": "ERP + kargo + çoklu ödeme",
       "row4": "B2B / pazaryeri",
@@ -1863,19 +1864,19 @@
     },
     "who": {
       "title": "E-ticaret sitesini kimler yaptırır?",
-      "intro": "Dükkânını internete taşımak isteyen bir KOBİ de, Trendyol’da satış yapıp kendi mağazası olmayan bir marka da aynı şeylere ihtiyaç duyar: sepet, online ödeme, kargo ve doğru stok. Ozturksoft bunları WooCommerce ya da size özel bir yazılımla kurar; Logo/Netsis bağlantısı da aynı ekipte yapılır.",
+      "intro": "Dükkânını internete taşımak isteyen bir KOBİ de, Trendyol’da satış yapıp kendi mağazası olmayan bir marka da aynı şeylere ihtiyaç duyar: sepet, online ödeme, kargo ve doğru stok. Ozturksoft bunları markanıza özel bir mağazayla kurar; Logo/Netsis bağlantısı da aynı ekipte yapılır.",
       "i1": "Fiziki bir dükkânınız var ve internetten de satış yapmak istiyorsunuz. Ürün kataloğu, sepet, iyzico/PayTR ödeme ve kargo bağlantısı tek bir sitede olsun; işi Ankara’da teslim edecek yerel bir ekip arıyorsunuz.",
       "i2": "Trendyol veya Hepsiburada’da satıyorsunuz ama kendi mağazanız yok. Komisyon giderini azaltmak ve markanızın kontrolünü elinizde tutmak için bağımsız bir online mağaza istiyorsunuz; pazaryerindeki stokla sitedeki stok çakışmamalı.",
       "i3": "Toptan ve bayi siparişlerinizi hâlâ Excel’de takip ediyorsunuz. Bayilere özel fiyat listesi (B2B), cari hesap ve minimum sipariş tutarı gerekiyor; pazaryeri veya bayi paneli aynı projeye eklensin istiyorsunuz.",
-      "i4": "Hazır paketler stok, kargo ve Logo ihtiyaçlarınıza uymuyor. Özel kampanyalar, yoğun ziyaretçi trafiği veya ERP bağlantısı için WooCommerce yetersiz kalıyor ve <a href=\"/ozel-yazilim-yaptirmak\" style=\"color:#fb923c\">size özel bir e-ticaret yazılımı</a> istiyorsunuz.",
+      "i4": "Kullandığınız hazır paket stok, kargo ve Logo ihtiyaçlarınıza uymuyor; sitenizin de başka mağazalarla aynı görünmesinden sıkıldınız. Özel kampanyalar, yoğun ziyaretçi trafiği veya ERP bağlantısı için <a href=\"/ozel-yazilim-yaptirmak\" style=\"color:#fb923c\">size özel bir e-ticaret yazılımı</a> istiyorsunuz.",
       "outro": "Sepet ve ödeme olmadan yalnızca firmanızı tanıtan bir site arıyorsanız <a href=\"/web-sitesi-yaptirmak-ankara\" style=\"color:#fb923c\">kurumsal tanıtım sitesi</a> hizmetimize göz atabilirsiniz. Ücretsiz keşif görüşmesi için: <a href=\"tel:+905465496806\" style=\"color:#fb923c\">+90 546 549 6806</a>."
     },
     "faq": {
       "title": "Sık sorulanlar",
       "q1": "E-ticaret sitesi yaptırmak ne kadar tutar?",
-      "a1": "WooCommerce mağaza 25.000–45.000 TL, özel tasarımlı mağaza 45.000–75.000 TL, ERP + kargo + ödeme bağlantılı mağaza 75.000–120.000 TL, B2B veya pazaryeri projeleri 120.000–250.000+ TL aralığındadır. KOBİ projelerinin ortalaması 50.000–80.000 TL bandındadır; keşif görüşmesi ücretsizdir.",
-      "q2": "WooCommerce mi, özel yazılım mı?",
-      "a2": "50–200 ürün satıyorsanız ve satış süreciniz standartsa WooCommerce yeterlidir. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a> bağlantısı, özel kampanyalar veya yoğun trafik söz konusuysa size özel bir e-ticaret yazılımı öneririz. Kararı keşif görüşmesinde ürün ve entegrasyon listenize bakarak birlikte veririz.",
+      "a1": "Hazır altyapılı başlangıç mağaza 25.000–45.000 TL, size özel tasarlanan mağaza 45.000–75.000 TL, ERP + kargo + ödeme bağlantılı mağaza 75.000–120.000 TL, B2B veya pazaryeri projeleri 120.000–250.000+ TL aralığındadır. KOBİ projelerinin ortalaması 50.000–80.000 TL bandındadır; keşif görüşmesi ücretsizdir.",
+      "q2": "Hazır altyapı mı, size özel mağaza mı?",
+      "a2": "Yeni başlıyorsanız, 50–200 ürününüz varsa ve satış süreciniz standartsa hazır altyapılı bir başlangıç mağaza yeterli olabilir. Markanızın başka mağazalardan ayrışmasını istiyorsanız ya da <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a> bağlantısı, özel kampanyalar veya yoğun trafik söz konusuysa size özel bir mağaza öneririz. Kararı keşif görüşmesinde ürün ve entegrasyon listenize bakarak birlikte veririz.",
       "q3": "Kurumsal siteden farkı nedir?",
       "a3link": "Web sitesi yaptırmak",
       "a3": "hizmetimiz firmanızı tanıtan siteler içindir. E-ticaret sitesinde buna ek olarak sepet, online ödeme ve kargo bulunur; ikisini aynı ekipten yaptırabilirsiniz.",
