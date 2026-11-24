@@ -1867,7 +1867,13 @@
       "q4": "Lassen sich Zahlungs- und Versandsysteme anbinden?",
       "a4": "Ja. Wir richten iyzico, PayTR, virtuelles Bank-POS und die Versandanbindung an Yurtiçi/Aras/MNG ein. Auf Wunsch kommen <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">Bestellungen per WhatsApp</a> im selben Projekt hinzu. Dauer: fertiges Theme 3–5 Wochen, individuelles Design 6–10 Wochen, Shop mit ERP-Anbindung 10–16 Wochen.",
       "q5": "Kann ich von einem fertigen E-Commerce-Paket zu meinem eigenen Shop wechseln?",
-      "a5": "Ja. Wir übertragen Produkte, Kategorien und Kundenliste in Ihren neuen Shop und leiten alte Seitenadressen auf die neuen um, damit Ihre Google-Rankings möglichst erhalten bleiben. Der neue Shop wird für Sie gestaltet; Code und Daten gehören Ihnen. Ihr bisheriger Shop bleibt während des Umzugs online, die Umstellung erfolgt in einem Schritt."
+      "a5": "Ja. Wir übertragen Produkte, Kategorien und Kundenliste in Ihren neuen Shop und leiten alte Seitenadressen auf die neuen um, damit Ihre Google-Rankings möglichst erhalten bleiben. Der neue Shop wird für Sie gestaltet; Code und Daten gehören Ihnen. Ihr bisheriger Shop bleibt während des Umzugs online, die Umstellung erfolgt in einem Schritt.",
+      "q6": "Wie starte ich mit E-Commerce, und wo fange ich an?",
+      "a6": "Klären Sie zunächst, welche Produkte Sie verkaufen möchten, wer Ihre Zielkunden sind und welche Zahlungs- und Versandoptionen Sie wünschen. Anschließend wird der Onlineshop erstellt, Zahlung und Versand werden angebunden, die Produkte eingepflegt und die Website geht live. Im kostenlosen Erstgespräch planen wir diese Schritte gemeinsam passend zu Ihrem Geschäft.",
+      "q7": "Brauche ich technisches Wissen, um einen Onlineshop einzurichten?",
+      "a7": "Nein. Die gesamte technische Arbeit übernehmen wir. Sie verfolgen Ihre Produkte und Bestellungen lediglich in einem einfachen Verwaltungsbereich, dessen Bedienung wir Ihnen beim Livegang zeigen.",
+      "q8": "Fertigen Onlineshop kaufen oder eigenen Shop entwickeln lassen?",
+      "a8": "Ein fertiger Shop ermöglicht einen schnellen Start, doch die Infrastruktur gehört einem anderen Unternehmen und wird gegen eine monatliche Gebühr gemietet. Wenn Sie für Ihre eigene Marke langfristig die Kontrolle behalten möchten, ist eine individuell entwickelte Website die bessere Wahl: Design, Code und Daten gehören Ihnen."
     },
     "cta": {
       "btn": "Kostenloses Erstgespräch",
@@ -1899,6 +1905,48 @@
       "i4": "<strong>Die Funktionen, die Sie brauchen – ohne Warten:</strong> Händlerpreise, eigene Aktionsregeln oder die Anbindung Ihrer Buchhaltungssoftware werden passend für Ihr Geschäft umgesetzt.",
       "i5": "<strong>Den Umzug übernehmen wir:</strong> Wir übertragen Produkte, Kategorien und Kundenliste von Ihrer bisherigen Plattform und leiten alte Seitenadressen auf die neuen um, um Ihre Google-Rankings zu schützen.",
       "note": "Ein fertiges Paket ist nicht für jedes Unternehmen falsch: Wenn Sie gerade erst mit wenigen Produkten starten, kann es gut passen. Sobald Ihr Umsatz wächst und Sie an die Grenzen des Pakets stoßen, lohnt sich der Wechsel zum eigenen Shop. Was für Sie passt, besprechen wir in einem kostenlosen Erstgespräch."
+    },
+    "what": {
+      "title": "Was ist E-Commerce?",
+      "p1": "E-Commerce bedeutet, dass Sie Ihre Produkte und Dienstleistungen über das Internet verkaufen: Ihr Kunde sieht das Produkt auf Ihrer Website, legt es in den Warenkorb, bezahlt per Karte und erhält seine Bestellung per Versand. Heute erreichen viele Unternehmen durch den Onlineverkauf Kunden weit über ihr Geschäft und ihre Stadt hinaus.",
+      "p2": "Ozturksoft baut Ihren Onlineshop nicht auf der fertigen Plattform eines anderen Anbieters auf, sondern programmiert ihn von Grund auf für Ihre Marke. So ist die Infrastruktur nicht gemietet, sondern gehört Ihnen."
+    },
+    "how": {
+      "title": "Onlineshop erstellen: Ihr eigener Shop in 5 Schritten",
+      "intro": "Die Antwort auf die Frage „Wie starte ich mit E-Commerce?“ sind die folgenden Schritte, die wir gemeinsam gehen:",
+      "s1t": "Kostenloses Erstgespräch",
+      "s1d": "Wir sprechen über Ihre Produkte, Ihre Zielkunden, Ihre Zahlungs- und Versandwünsche sowie Ihre Buchhaltungssoftware und erstellen Ihnen ein schriftliches Angebot.",
+      "s2t": "Individuelles Design",
+      "s2d": "Wir gestalten die Oberfläche Ihres Shops passend zu Ihrer Marke und beginnen nach Ihrer Freigabe mit der Entwicklung.",
+      "s3t": "Entwicklung und Anbindungen",
+      "s3d": "Wir richten Warenkorb, Zahlung (iyzico, PayTR, virtuelles POS-Terminal Ihrer Bank), Versand und bei Bedarf Logo/Netsis- oder Marktplatz-Anbindungen ein.",
+      "s4t": "Produkte einpflegen und testen",
+      "s4d": "Wir pflegen Ihre Produkte und Kategorien ein und testen den Zahlungs- und Bestellablauf mit realen Szenarien.",
+      "s5t": "Livegang und Support",
+      "s5d": "Wir schalten Ihre Website unter Ihrer eigenen Domain live, zeigen Ihnen die Bedienung des Verwaltungsbereichs und bieten Ihnen danach technischen Support."
+    },
+    "needs": {
+      "title": "Was braucht ein erfolgreicher Onlineshop?",
+      "i1": "<strong>Eine schnelle und sichere Website:</strong> Seiten, die sich auf dem Smartphone bequem bedienen lassen, schnell laden und per SSL geschützt sind.",
+      "i2": "<strong>Sichere Zahlung:</strong> iyzico, PayTR oder das virtuelle POS-Terminal Ihrer Bank für Kreditkarten- und Ratenzahlung.",
+      "i3": "<strong>Die richtigen Anbindungen:</strong> Automatischer Datenaustausch mit Ihrem Versanddienstleister, Ihrer Buchhaltungssoftware und den Marktplätzen, auf denen Sie verkaufen.",
+      "i4": "<strong>Ein einfacher Verwaltungsbereich:</strong> Produkte, Lagerbestand, Bestellungen, Kunden, Aktionen und Rabattgutscheine an einem Ort verwalten.",
+      "i5": "<strong>Bei Google gefunden werden:</strong> Eine suchmaschinenfreundliche Seitenstruktur und Produktseiten; auf Wunsch auch <a href=\"/ankara-seo\" style=\"color:#fb923c\">SEO-Optimierung</a>.",
+      "note": "All dies wird in Ihrem Projekt individuell für Sie umgesetzt; nichts davon ist an das Paket einer anderen Plattform oder an ein monatliches Abonnement gebunden."
+    },
+    "smart": {
+      "title": "Intelligenter E-Commerce mit KI",
+      "p": "Als Team, das auch im Bereich künstliche Intelligenz arbeitet, können wir Ihren Shop auf Wunsch um folgende Funktionen erweitern: einen <a href=\"/chatbot-yaptirmak\" style=\"color:#fb923c\">Chatbot</a>, der Kundenfragen 24/7 beantwortet, <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">Bestellungen über WhatsApp</a>, KI-generierte Produktbeschreibungen und eine intelligente Suche, mit der Kunden gesuchte Produkte leichter finden."
+    },
+    "choose": {
+      "title": "Wie wählt man die richtige Agentur für einen Onlineshop aus?",
+      "intro": "Bitten Sie die Anbieter beim Einholen von Angeboten um klare Antworten auf diese Fragen:",
+      "i1": "Wird die Website auf der fertigen Plattform eines anderen Anbieters aufgebaut oder individuell für Sie programmiert?",
+      "i2": "Wem gehören Quellcode und Daten, und können Sie später mit einem anderen Team weiterarbeiten?",
+      "i3": "Gibt es monatliche Paketgebühren, Umsatzprovisionen oder kostenpflichtige Zusatzmodule?",
+      "i4": "Sind Zahlungs-, Versand- und Buchhaltungsanbindungen im Preis enthalten?",
+      "i5": "Wer übernimmt nach dem Livegang technischen Support und Updates?",
+      "outro": "Bei Ozturksoft sind die Antworten eindeutig: Ihre Website wird individuell für Sie programmiert, Code und Daten gehören Ihnen, wir erhalten keinen Anteil an Ihren Umsätzen und der gesamte Leistungsumfang steht im schriftlichen Angebot."
     }
   },
   "faturaOkumaPage": {

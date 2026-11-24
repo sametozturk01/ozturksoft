@@ -1867,7 +1867,13 @@
       "q4": "Peut-on connecter les systèmes de paiement et de livraison ?",
       "a4": "Oui. Nous mettons en place iyzico, PayTR, le TPE virtuel bancaire et les connexions Yurtiçi/Aras/MNG. Si vous le souhaitez, la <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">commande via WhatsApp</a> peut être ajoutée au même projet. Délais : thème prêt à l’emploi 3–5 semaines, design sur mesure 6–10 semaines, boutique connectée à l’ERP 10–16 semaines.",
       "q5": "Puis-je passer d’une offre e-commerce clés en main à mon propre site ?",
-      "a5": "Oui. Nous transférons vos produits, catégories et clients vers votre nouveau site et redirigeons les anciennes adresses vers les nouvelles pour préserver au mieux votre référencement Google. Le nouveau site est conçu pour vous, et le code comme les données vous appartiennent. Votre boutique actuelle reste en ligne pendant la migration et la bascule se fait en une seule fois."
+      "a5": "Oui. Nous transférons vos produits, catégories et clients vers votre nouveau site et redirigeons les anciennes adresses vers les nouvelles pour préserver au mieux votre référencement Google. Le nouveau site est conçu pour vous, et le code comme les données vous appartiennent. Votre boutique actuelle reste en ligne pendant la migration et la bascule se fait en une seule fois.",
+      "q6": "Comment se lancer dans le e-commerce et par où commencer ?",
+      "a6": "Commencez par définir les produits que vous allez vendre, votre clientèle cible et vos préférences de paiement et de livraison. Ensuite, le site e-commerce est créé, le paiement et la livraison sont connectés, les produits sont importés et le site est mis en ligne. Lors du rendez-vous découverte gratuit, nous planifions ensemble ces étapes selon votre activité.",
+      "q7": "Faut-il des connaissances techniques pour créer un site e-commerce ?",
+      "a7": "Non. Nous nous chargeons de tout le travail technique. Il vous suffit de suivre vos produits et vos commandes depuis une interface d'administration simple, dont nous vous apprenons l'utilisation lors de la mise en ligne.",
+      "q8": "Acheter un site e-commerce clé en main ou faire créer mon propre site ?",
+      "a8": "Un site clé en main permet de démarrer vite, mais l'infrastructure appartient à une autre entreprise et se loue moyennant un abonnement mensuel. Si vous souhaitez garder le contrôle à long terme pour votre propre marque, un site développé sur mesure est plus avantageux : le design, le code et les données vous appartiennent."
     },
     "cta": {
       "btn": "Appel découverte gratuit",
@@ -1899,6 +1905,48 @@
       "i4": "<strong>Les fonctionnalités qu’il vous faut, sans attendre :</strong> prix revendeurs, règles promotionnelles propres ou connexion à votre logiciel comptable sont développés selon vos besoins.",
       "i5": "<strong>Nous nous occupons de la migration :</strong> nous transférons vos produits, catégories et clients depuis votre plateforme actuelle et redirigeons les anciennes adresses vers les nouvelles pour préserver votre référencement Google.",
       "note": "Une offre clés en main n’est pas un mauvais choix pour tout le monde : si vous débutez avec peu de produits, elle peut convenir. Quand vos ventes progressent et que vous atteignez les limites de l’offre, passer à votre propre site devient plus logique. Nous vous aidons à décider lors d’un premier échange gratuit."
+    },
+    "what": {
+      "title": "Qu'est-ce que le e-commerce ?",
+      "p1": "Le e-commerce consiste à vendre vos produits et services sur Internet : votre client voit le produit sur votre site, l'ajoute au panier, paie par carte et reçoit sa commande par livraison. Aujourd'hui, de nombreuses entreprises vendent en ligne pour toucher des clients bien au-delà de leur boutique et de leur ville.",
+      "p2": "Ozturksoft ne construit pas votre site e-commerce sur la plateforme toute faite d'une autre entreprise : nous développons votre boutique de A à Z pour votre marque. Ainsi, l'infrastructure n'est pas louée, elle vous appartient."
+    },
+    "how": {
+      "title": "Comment se lancer dans le e-commerce : votre propre boutique en 5 étapes",
+      "intro": "La réponse à la question « Comment se lancer dans le e-commerce ? », ce sont les étapes suivantes, que nous suivrons ensemble :",
+      "s1t": "Rendez-vous découverte gratuit",
+      "s1d": "Nous échangeons sur vos produits, votre clientèle cible, vos préférences de paiement et de livraison ainsi que votre logiciel de comptabilité, puis nous vous remettons un devis écrit.",
+      "s2t": "Un design sur mesure",
+      "s2d": "Nous concevons les écrans de votre boutique selon votre marque et commençons le développement après votre validation.",
+      "s3t": "Développement et intégrations",
+      "s3d": "Nous mettons en place le panier, le paiement (iyzico, PayTR, TPE virtuel bancaire), la livraison et, si nécessaire, les intégrations Logo/Netsis ou marketplaces.",
+      "s4t": "Mise en ligne des produits et tests",
+      "s4d": "Nous importons vos produits et catégories, puis testons le parcours de paiement et de commande avec des scénarios réels.",
+      "s5t": "Mise en ligne et assistance",
+      "s5d": "Nous mettons votre site en ligne sur votre propre nom de domaine, vous formons à l'utilisation de l'interface d'administration et vous apportons ensuite une assistance technique."
+    },
+    "needs": {
+      "title": "De quoi avez-vous besoin pour réussir votre boutique en ligne ?",
+      "i1": "<strong>Un site rapide et sécurisé :</strong> des pages faciles à utiliser sur mobile, qui se chargent vite et sont protégées par SSL.",
+      "i2": "<strong>Un paiement sécurisé :</strong> iyzico, PayTR ou le TPE virtuel de votre banque pour le paiement par carte bancaire et en plusieurs fois.",
+      "i3": "<strong>Les bonnes intégrations :</strong> un échange automatique de données avec votre transporteur, votre logiciel de comptabilité et les marketplaces sur lesquelles vous vendez.",
+      "i4": "<strong>Une interface d'administration simple :</strong> gérer produits, stocks, commandes, clients, promotions et codes de réduction depuis un seul endroit.",
+      "i5": "<strong>Être visible sur Google :</strong> une structure de pages et des fiches produits optimisées pour les moteurs de recherche ; et, si vous le souhaitez, un <a href=\"/ankara-seo\" style=\"color:#fb923c\">travail de référencement SEO</a>.",
+      "note": "Tout cela est conçu sur mesure pour votre projet ; rien n'est lié au forfait d'une autre plateforme ni à un abonnement mensuel."
+    },
+    "smart": {
+      "title": "E-commerce intelligent propulsé par l'IA",
+      "p": "En tant qu'équipe travaillant aussi dans l'intelligence artificielle, nous pouvons ajouter à votre boutique, si vous le souhaitez, les fonctionnalités suivantes : un <a href=\"/chatbot-yaptirmak\" style=\"color:#fb923c\">chatbot</a> qui répond aux questions des clients 24/7, la <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">commande via WhatsApp</a>, des descriptions de produits rédigées par l'IA et une recherche intelligente qui aide vos clients à trouver plus facilement ce qu'ils cherchent."
+    },
+    "choose": {
+      "title": "Comment choisir une agence de création de site e-commerce ?",
+      "intro": "Lorsque vous demandez des devis, exigez des réponses claires à ces questions :",
+      "i1": "Le site est-il construit sur la plateforme toute faite d'une autre entreprise, ou développé sur mesure pour vous ?",
+      "i2": "À qui appartiendront le code source et les données ; pourrez-vous continuer plus tard avec une autre équipe ?",
+      "i3": "Y a-t-il un abonnement mensuel, une commission sur les ventes ou des modules complémentaires payants ?",
+      "i4": "Les intégrations de paiement, de livraison et de comptabilité sont-elles incluses dans le prix ?",
+      "i5": "Qui assurera l'assistance technique et les mises à jour après la mise en ligne ?",
+      "outro": "Chez Ozturksoft, les réponses sont claires : votre site est développé sur mesure pour vous, le code et les données vous appartiennent, nous ne prélevons aucune part sur vos ventes et l'ensemble du périmètre figure dans le devis écrit."
     }
   },
   "faturaOkumaPage": {

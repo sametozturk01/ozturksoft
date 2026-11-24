@@ -1867,7 +1867,13 @@
       "q4": "Can payment and shipping systems be connected?",
       "a4": "Yes. We set up iyzico, PayTR, bank virtual POS and Yurtiçi/Aras/MNG shipping connections. If you like, <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">WhatsApp ordering</a> can be added to the same project. Timelines: ready-made theme 3–5 weeks, custom design 6–10 weeks, store with ERP connection 10–16 weeks.",
       "q5": "Can I move from a ready-made e-commerce plan to my own site?",
-      "a5": "Yes. We move your products, categories and customer list to your new site and redirect old page addresses to the new ones to help protect your Google rankings. Your new site is designed for you, and both the code and the data belong to you. Your current store stays open during the move and we switch over in one step."
+      "a5": "Yes. We move your products, categories and customer list to your new site and redirect old page addresses to the new ones to help protect your Google rankings. Your new site is designed for you, and both the code and the data belong to you. Your current store stays open during the move and we switch over in one step.",
+      "q6": "How do I start an e-commerce business, and where should I begin?",
+      "a6": "First, clarify the products you will sell, your target customers and your payment and shipping preferences. Then the e-commerce website is built, payments and shipping are connected, products are uploaded and the site goes live. In a free discovery call we plan these steps together around your business.",
+      "q7": "Do I need technical knowledge to set up an e-commerce website?",
+      "a7": "No. We handle all the technical work. All you need to do is track your products and orders from an easy admin panel, and we show you how to use it when we launch the site.",
+      "q8": "Should I buy a ready-made e-commerce website or have my own built?",
+      "a8": "A ready-made site gets you started quickly, but the infrastructure belongs to another company and is rented for a monthly fee. If you want to keep control of your own brand in the long run, a custom-built website is the better choice: the design, code and data are yours."
     },
     "cta": {
       "btn": "Free discovery call",
@@ -1899,6 +1905,48 @@
       "i4": "<strong>The features you need, without waiting:</strong> Dealer-specific prices, your own campaign rules or a connection to your accounting software are built to fit your business.",
       "i5": "<strong>We handle the move:</strong> We transfer your products, categories and customer list from your current platform to your new site, and redirect old page addresses to new ones to protect your Google rankings.",
       "note": "A ready-made plan is not wrong for every business: if you are just starting out with few products, it can be a good fit. Once your sales grow and you hit the limits of the plan, moving to your own site makes more sense. We will help you decide in a free discovery call."
+    },
+    "what": {
+      "title": "What is e-commerce?",
+      "p1": "E-commerce means selling your products and services online: your customer sees the product on your website, adds it to the cart, pays by card and receives the order by delivery. Today many businesses sell online to reach customers far beyond their shop and their city.",
+      "p2": "Ozturksoft does not build your e-commerce website on another company's ready-made platform; we write your store from scratch for your brand. That way the infrastructure is not rented, it is yours."
+    },
+    "how": {
+      "title": "How to start an e-commerce business: your own store in 5 steps",
+      "intro": "The answer to “How do I get started with e-commerce?” is the following steps, which we take together:",
+      "s1t": "Free discovery call",
+      "s1d": "We talk about your products, your target customers, your payment and shipping preferences and the accounting software you use, then prepare a written quote for you.",
+      "s2t": "A design made for you",
+      "s2d": "We design your store's screens around your brand and start development once you have approved the design.",
+      "s3t": "Development and integrations",
+      "s3d": "We set up the cart, payments (iyzico, PayTR, bank virtual POS), shipping and, if needed, Logo/Netsis or marketplace integrations.",
+      "s4t": "Product upload and testing",
+      "s4d": "We upload your products and categories and test the payment and order flow with real-world scenarios.",
+      "s5t": "Launch and support",
+      "s5d": "We launch your website on your own domain, show you how to use the admin panel and provide technical support afterwards."
+    },
+    "needs": {
+      "title": "What do you need for a successful online store?",
+      "i1": "<strong>A fast, secure website:</strong> Pages that are easy to use on a phone, load quickly and are protected with SSL.",
+      "i2": "<strong>Secure payments:</strong> iyzico, PayTR or your bank's virtual POS for credit card and installment payments.",
+      "i3": "<strong>The right integrations:</strong> Automatic data exchange with your shipping company, accounting software and the marketplaces you sell on.",
+      "i4": "<strong>An easy admin panel:</strong> Manage products, stock, orders, customers, campaigns and discount coupons in one place.",
+      "i5": "<strong>Being found on Google:</strong> A search-engine-friendly page structure and product pages; plus <a href=\"/ankara-seo\" style=\"color:#fb923c\">SEO work</a> if you wish.",
+      "note": "All of this is built specifically for your project; none of it is tied to another platform's package or a monthly subscription plan."
+    },
+    "smart": {
+      "title": "AI-powered smart e-commerce",
+      "p": "As a team that also works in artificial intelligence, we can add the following features to your store if you wish: a <a href=\"/chatbot-yaptirmak\" style=\"color:#fb923c\">chatbot</a> that answers customer questions 24/7, <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">ordering via WhatsApp</a>, AI-generated product descriptions and smart search that helps customers find what they are looking for more easily."
+    },
+    "choose": {
+      "title": "How to choose an e-commerce development company",
+      "intro": "When you request quotes, ask companies for clear answers to these questions:",
+      "i1": "Will the website be built on another company's ready-made platform, or written specifically for you?",
+      "i2": "Who will own the source code and the data; will you be able to continue with another team later?",
+      "i3": "Are there monthly package fees, a commission on sales or paid add-on modules?",
+      "i4": "Are payment, shipping and accounting integrations included in the price?",
+      "i5": "Who will handle technical support and updates after launch?",
+      "outro": "At Ozturksoft the answers are clear: your website is written specifically for you, the code and data are yours, we take no share of your sales and the full scope is set out in the written quote."
     }
   },
   "faturaOkumaPage": {
