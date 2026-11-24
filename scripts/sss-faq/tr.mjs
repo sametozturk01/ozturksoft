@@ -50,7 +50,7 @@ export default {
     {
       id: 'web-fiyat',
       q: 'Ankara\'da web sitesi yaptırmak ne kadar?',
-      html: 'Kurumsal site <strong>15.000–90.000 TL</strong>, e-ticaret <strong>30.000–250.000+ TL</strong>. <a href="/blog/ankara-web-sitesi-maliyeti-2026">Web maliyet rehberi →</a>',
+      html: 'Kurumsal site <strong>15.000–90.000 TL</strong>, e-ticaret <strong>100.000–500.000+ TL</strong>. <a href="/blog/ankara-web-sitesi-maliyeti-2026">Web maliyet rehberi →</a>',
     },
     {
       id: 'mobil-fiyat',
@@ -129,8 +129,8 @@ export default {
     },
     {
       id: 'e-ticaret-ozel',
-      q: 'E-ticaret sitesi mi özel yazılım mı?',
-      html: '50–200 ürün için WooCommerce yeterli olabilir. ERP entegrasyonu, özel kampanya motoru veya yüksek trafik için özel yazılım tercih edilir. <a href="/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026">E-ticaret maliyet rehberi →</a>',
+      q: 'Hazır e-ticaret paketi mi, size özel mağaza mı?',
+      html: 'Hazır paketlerde mağaza kiralıktır ve binlerce mağazayla aynı temayı paylaşır. Ozturksoft hazır altyapı kullanmaz; mağazanızı sıfırdan yazar, kod ve veriler sizin olur. Özel mağaza <strong>100.000–150.000 TL</strong>, aylık bakım <strong>5.000–10.000 TL</strong>; satıştan pay alınmaz. <a href="/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026">E-ticaret maliyet rehberi →</a>',
     },
     {
       id: 'proje-suresi',

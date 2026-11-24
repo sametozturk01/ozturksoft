@@ -1786,7 +1786,7 @@
     "faq": {
       "title": "Sık sorulanlar",
       "q1": "Ankara web tasarım fiyatları ne kadar?",
-      "a1": "Kurumsal web tasarım 15.000–90.000 TL arasındadır ve 3–6 haftada teslim edilir. E-ticaret siteleri 30.000–250.000+ TL, kampanya sayfaları 5.000–15.000 TL aralığındadır. Keşif görüşmesi ücretsizdir; kesin fiyatı kapsamı birlikte yazdıktan sonra veririz.",
+      "a1": "Kurumsal web tasarım 15.000–90.000 TL arasındadır ve 3–6 haftada teslim edilir. E-ticaret siteleri 100.000–500.000+ TL, kampanya sayfaları 5.000–15.000 TL aralığındadır. Keşif görüşmesi ücretsizdir; kesin fiyatı kapsamı birlikte yazdıktan sonra veririz.",
       "q2": "Ajans mısınız, yazılım şirketi mi?",
       "a2": "Ozturksoft Ankara’da bir yazılım şirketidir ve web tasarımını da aynı ekipte yapar. Size yalnızca bir taslak görsel ya da hazır WordPress teması teslim etmeyiz; yönetim paneli, arama motorlarına uygun site yapısı ve bakım teslimata dahildir.",
       "q3": "Yüz yüze görüşebilir miyiz?",
@@ -1832,21 +1832,22 @@
     },
     "pricing": {
       "title": "E-ticaret sitesi fiyatı (2026)",
-      "intro": "Fiyat; ürün sayısına, ödeme ve kargo seçeneklerine ve ERP (muhasebe ve stok programı) bağlantısına göre değişir. Aşağıdaki fiyat aralıkları 2026 yılı içindir; kesin fiyat ücretsiz keşif görüşmesinden sonra yazılı teklifle belirlenir.",
+      "intro": "Fiyat; ürün sayısına, ödeme ve kargo seçeneklerine ve ERP (muhasebe ve stok programı) bağlantısına göre değişir. Aşağıdaki fiyat aralıkları 2026 yılı içindir; kesin fiyat ücretsiz keşif görüşmesinden sonra yazılı teklifle belirlenir. Yayından sonra sunucu, güvenlik güncellemeleri, yedekleme ve teknik destek için sabit bir aylık bakım ücreti vardır; satışlarınızdan pay alınmaz.",
       "col1": "Kapsam",
       "col2": "Fiyat",
       "col3": "Süre",
-      "row1": "Başlangıç mağaza (hazır altyapı)",
-      "row2": "Özel tasarımlı mağaza (~100 ürün)",
-      "row3": "ERP + kargo + çoklu ödeme",
-      "row4": "B2B / pazaryeri",
-      "t1": "3–5 hafta",
-      "t2": "6–10 hafta",
-      "t3": "10–16 hafta",
-      "t4": "4–8 ay",
+      "row1": "Özel tasarımlı mağaza (~100 ürün)",
+      "row2": "ERP + kargo + çoklu ödeme",
+      "row3": "B2B / pazaryeri",
+      "row4": "Aylık bakım ve destek (sunucu, SSL, güncelleme, yedekleme)",
+      "t1": "6–10 hafta",
+      "t2": "10–16 hafta",
+      "t3": "4–8 ay",
+      "t4": "Her ay",
       "linkGuide": "E-ticaret maliyet rehberi",
       "linkNote": "her maliyet kalemini ayrıntılı anlatır; mağaza yaptırmak için bize doğrudan ulaşabilirsiniz.",
-      "linkB2b": "Bayileriniz için bir sipariş sistemi arıyorsanız: <a href=\"/b2b-bayi-portali\">B2B bayi portalı →</a>"
+      "linkB2b": "Bayileriniz için bir sipariş sistemi arıyorsanız: <a href=\"/b2b-bayi-portali\">B2B bayi portalı →</a>",
+      "p4": "5.000 – 10.000 TL/ay"
     },
     "cards": {
       "c1title": "Online mağaza",
@@ -1874,9 +1875,9 @@
     "faq": {
       "title": "Sık sorulanlar",
       "q1": "E-ticaret sitesi yaptırmak ne kadar tutar?",
-      "a1": "Hazır altyapılı başlangıç mağaza 25.000–45.000 TL, size özel tasarlanan mağaza 45.000–75.000 TL, ERP + kargo + ödeme bağlantılı mağaza 75.000–120.000 TL, B2B veya pazaryeri projeleri 120.000–250.000+ TL aralığındadır. KOBİ projelerinin ortalaması 50.000–80.000 TL bandındadır; keşif görüşmesi ücretsizdir.",
+      "a1": "Size özel tasarlanan mağaza 100.000–150.000 TL, ERP + kargo + ödeme bağlantılı mağaza 150.000–250.000 TL, B2B veya pazaryeri projeleri 250.000–500.000+ TL aralığındadır. Yayından sonra sunucu, güvenlik güncellemeleri, yedekleme ve teknik destek için aylık 5.000–10.000 TL sabit bakım ücreti vardır; satışlarınızdan pay alınmaz. Keşif görüşmesi ücretsizdir.",
       "q2": "Hazır altyapı mı, size özel mağaza mı?",
-      "a2": "Yeni başlıyorsanız, 50–200 ürününüz varsa ve satış süreciniz standartsa hazır altyapılı bir başlangıç mağaza yeterli olabilir. Markanızın başka mağazalardan ayrışmasını istiyorsanız ya da <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a> bağlantısı, özel kampanyalar veya yoğun trafik söz konusuysa size özel bir mağaza öneririz. Kararı keşif görüşmesinde ürün ve entegrasyon listenize bakarak birlikte veririz.",
+      "a2": "Hazır altyapılar hızlı başlatır, ancak mağazanız başka bir firmanın platformunda kiralık kalır. Biz hazır altyapı kullanmıyoruz; her mağazayı markanız için sıfırdan yazıyoruz. Böylece tasarımınız başka mağazalarla aynı olmaz, kod ve veriler sizin olur; <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a> bağlantısı, özel kampanyalar veya yoğun trafik gibi ihtiyaçlar da bir platformun sınırına takılmaz. Kapsamı keşif görüşmesinde ürün ve entegrasyon listenize bakarak birlikte belirleriz.",
       "q3": "Kurumsal siteden farkı nedir?",
       "a3link": "Web sitesi yaptırmak",
       "a3": "hizmetimiz firmanızı tanıtan siteler içindir. E-ticaret sitesinde buna ek olarak sepet, online ödeme ve kargo bulunur; ikisini aynı ekipten yaptırabilirsiniz.",
@@ -1917,7 +1918,7 @@
       "intro": "Hazır e-ticaret paketlerinde mağazanız aslında size ait değildir. Binlerce mağazanın kullandığı aynı temaları kullanırsınız, paket büyüdükçe aylık ücret artar ve ihtiyacınız olan bir özellik için platformun onu eklemesini beklersiniz. Kendi e-ticaret sitenizde ise tasarım, kod ve veriler sizindir.",
       "i1": "<strong>Size özel tasarım:</strong> Başka mağazalarla aynı temayı paylaşmazsınız; siteniz markanıza göre sıfırdan tasarlanır.",
       "i2": "<strong>Kod ve veriler sizin:</strong> Sitenin kaynak kodu, ürün ve müşteri verileri sizin mülkünüzdür. Dilerseniz yarın başka bir ekiple devam edebilirsiniz.",
-      "i3": "<strong>Satıştan pay ve paket yükseltme yok:</strong> Platforma her satıştan pay ya da daha üst pakete geçiş ücreti ödemezsiniz; yalnızca sunucu ve isterseniz bakım ücreti ödersiniz.",
+      "i3": "<strong>Satıştan pay ve paket yükseltme yok:</strong> Her satıştan pay ya da daha üst pakete geçiş ücreti ödemezsiniz. Sunucu, güvenlik ve teknik destek için ödediğiniz aylık bakım ücreti sabittir ve teklifte baştan yazılır.",
       "i4": "<strong>İstediğiniz özellik, beklemeden:</strong> Bayiye özel fiyat, kendi kampanya kurallarınız veya muhasebe programı bağlantısı gibi özellikleri ihtiyacınıza göre yaptırırsınız.",
       "i5": "<strong>Taşıma bizden:</strong> Ürünlerinizi, kategorilerinizi ve müşteri listenizi mevcut platformunuzdan yeni sitenize taşırız. Google’daki sıralamanızı korumak için eski sayfa adreslerini yeni adreslere yönlendiririz.",
       "note": "Hazır paket her işletme için yanlış değildir: yeni başlıyorsanız ve ürün sayınız azsa uygun olabilir. Satışlarınız büyüyüp paketin sınırlarına takılmaya başladığınızda kendi sitenize geçmek daha mantıklı hale gelir. Hangisinin size uygun olduğunu ücretsiz keşif görüşmesinde birlikte değerlendiririz."
@@ -1948,7 +1949,7 @@
       "i3": "<strong>Doğru bağlantılar:</strong> Kargo firması, muhasebe programı ve satış yaptığınız pazaryerleriyle otomatik veri alışverişi.",
       "i4": "<strong>Kolay yönetim paneli:</strong> Ürün, stok, sipariş, müşteri, kampanya ve indirim kuponlarını tek yerden yönetmek.",
       "i5": "<strong>Google’da bulunmak:</strong> Arama motorlarına uygun sayfa yapısı ve ürün sayfaları; isterseniz <a href=\"/ankara-seo\" style=\"color:#fb923c\">SEO çalışması</a>.",
-      "note": "Bunların hepsi projenizde size özel hazırlanır; hiçbiri başka bir platformun paketine ya da aylık abonelik planına bağlı değildir."
+      "note": "Bunların hepsi projenizde size özel hazırlanır; hiçbiri başka bir platformun paketine bağlı değildir."
     },
     "smart": {
       "title": "Yapay zeka destekli akıllı e-ticaret",
@@ -1962,7 +1963,7 @@
       "i3": "Aylık paket ücreti, satıştan pay veya ücretli ek modül var mı?",
       "i4": "Ödeme, kargo ve muhasebe bağlantıları fiyata dahil mi?",
       "i5": "Yayından sonra teknik destek ve güncellemeleri kim yapacak?",
-      "outro": "Ozturksoft’ta bu soruların cevabı nettir: siteniz size özel yazılır, kod ve veriler sizindir, satışlarınızdan pay alınmaz ve kapsamın tamamı yazılı teklifte yer alır."
+      "outro": "Ozturksoft’ta bu soruların cevabı nettir: siteniz size özel yazılır, kod ve veriler sizindir, satışlarınızdan pay alınmaz, aylık bakım ücreti sabittir ve kapsamın tamamı yazılı teklifte yer alır."
     }
   },
   "faturaOkumaPage": {
@@ -4436,7 +4437,7 @@
     "faq": {
       "title": "Sık sorulan sorular",
       "q1": "Ankara’da web sitesi yaptırmak ne kadar tutar?",
-      "a1": "Kurumsal siteler 15.000–90.000 TL, e-ticaret siteleri 30.000–250.000+ TL arasındadır. Keşif görüşmesi ücretsizdir.",
+      "a1": "Kurumsal siteler 15.000–90.000 TL, e-ticaret siteleri 100.000–500.000+ TL arasındadır. Keşif görüşmesi ücretsizdir.",
       "q2": "Site ne kadar sürede hazır olur?",
       "a2": "Kurumsal siteler 3–6 hafta, e-ticaret siteleri 6–14 hafta içinde teslim edilir.",
       "q3": "SEO çalışması fiyata dahil mi?",

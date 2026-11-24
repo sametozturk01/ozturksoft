@@ -1770,7 +1770,7 @@
     "faq": {
       "title": "Häufige Fragen",
       "q1": "Was kostet Webdesign in Ankara?",
-      "a1": "Eine Unternehmenswebsite kostet 15.000–90.000 TL und wird in 3–6 Wochen geliefert. Onlineshops liegen bei 30.000–250.000+ TL, Kampagnenseiten bei 5.000–15.000 TL. Das Erstgespräch ist kostenlos; den genauen Preis nennen wir, sobald wir den Umfang gemeinsam festgehalten haben.",
+      "a1": "Eine Unternehmenswebsite kostet 15.000–90.000 TL und wird in 3–6 Wochen geliefert. Onlineshops liegen bei 100.000–500.000+ TL, Kampagnenseiten bei 5.000–15.000 TL. Das Erstgespräch ist kostenlos; den genauen Preis nennen wir, sobald wir den Umfang gemeinsam festgehalten haben.",
       "q2": "Sind Sie eine Agentur oder ein Softwareunternehmen?",
       "a2": "Ozturksoft ist ein Softwareunternehmen in Ankara, das auch Webdesign im selben Team umsetzt. Sie erhalten nicht nur ein Mock-up oder ein fertiges WordPress-Theme; Verwaltungsbereich, eine suchmaschinenfreundliche Seitenstruktur und Wartung sind inklusive.",
       "q3": "Können wir uns persönlich treffen?",
@@ -1816,21 +1816,22 @@
     },
     "pricing": {
       "title": "E-Commerce-Website-Preis (2026)",
-      "intro": "Der Preis hängt von der Zahl der Produkte, den Zahlungs- und Versandoptionen und der Anbindung an Ihr ERP (Buchhaltungs- und Lagersoftware) ab. Die folgenden Preisspannen gelten für 2026; der genaue Preis wird nach einem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt.",
+      "intro": "Der Preis hängt von der Zahl der Produkte, den Zahlungs- und Versandoptionen und der Anbindung an Ihr ERP (Buchhaltungs- und Lagersoftware) ab. Die folgenden Preisspannen gelten für 2026; der genaue Preis wird nach einem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt. Nach dem Livegang fällt eine feste monatliche Wartungsgebühr für Hosting, Sicherheitsupdates, Backups und technischen Support an; an Ihren Umsätzen sind wir nicht beteiligt.",
       "col1": "Umfang",
       "col2": "Preis",
       "col3": "Dauer",
-      "row1": "Einstiegsshop (fertige Plattform)",
-      "row2": "Individuell gestalteter Shop (~100 SKUs)",
-      "row3": "ERP + Versand + Mehrfachzahlung",
-      "row4": "B2B / Marktplatz",
-      "t1": "3–5 Wochen",
-      "t2": "6–10 Wochen",
-      "t3": "10–16 Wochen",
-      "t4": "4–8 Monate",
+      "row1": "Individuell gestalteter Shop (~100 SKUs)",
+      "row2": "ERP + Versand + Mehrfachzahlung",
+      "row3": "B2B / Marktplatz",
+      "row4": "Monatliche Wartung und Support (Hosting, SSL, Updates, Backups)",
+      "t1": "6–10 Wochen",
+      "t2": "10–16 Wochen",
+      "t3": "4–8 Monate",
+      "t4": "Monatlich",
       "linkGuide": "E-Commerce-Kostenleitfaden",
       "linkNote": "erklärt jeden Kostenpunkt im Detail; wenn Sie Ihren Shop erstellen lassen möchten, sprechen Sie uns einfach direkt an.",
-      "linkB2b": "Sie suchen ein Bestellsystem für Ihre Händler? <a href=\"/b2b-bayi-portali\" style=\"color:#60a5fa\">B2B-Händlerportal (Türkisch) →</a>"
+      "linkB2b": "Sie suchen ein Bestellsystem für Ihre Händler? <a href=\"/b2b-bayi-portali\" style=\"color:#60a5fa\">B2B-Händlerportal (Türkisch) →</a>",
+      "p4": "5.000 – 10.000 TL/Monat"
     },
     "cards": {
       "c1title": "Onlineshop",
@@ -1858,9 +1859,9 @@
     "faq": {
       "title": "Häufige Fragen",
       "q1": "Was kostet ein E-Commerce-Shop?",
-      "a1": "Ein Einstiegsshop auf einer fertigen Plattform kostet 25.000–45.000 TL, ein für Sie gestalteter Shop 45.000–75.000 TL, ein Shop mit ERP-, Versand- und Zahlungsanbindung 75.000–120.000 TL, B2B- oder Marktplatzprojekte 120.000–250.000+ TL. Der KMU-Durchschnitt liegt bei 50.000–80.000 TL; das Erstgespräch ist kostenlos.",
+      "a1": "Ein für Sie gestalteter Shop kostet 100.000–150.000 TL, ein Shop mit ERP-, Versand- und Zahlungsanbindung 150.000–250.000 TL, B2B- oder Marktplatzprojekte 250.000–500.000+ TL. Nach dem Livegang fällt eine feste monatliche Wartungsgebühr von 5.000–10.000 TL für Hosting, Sicherheitsupdates, Backups und technischen Support an; an Ihren Umsätzen sind wir nicht beteiligt. Das Erstgespräch ist kostenlos.",
       "q2": "Fertige Plattform oder ein Shop nur für Sie?",
-      "a2": "Wenn Sie gerade starten, 50–200 Produkte verkaufen und einen Standard-Verkaufsprozess haben, kann ein Einstiegsshop auf einer fertigen Plattform genügen. Soll sich Ihre Marke von anderen Shops abheben oder brauchen Sie eine <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a>-Anbindung, besondere Kampagnen oder viel Traffic, empfehlen wir einen individuellen Shop. Die Entscheidung treffen wir gemeinsam im Erstgespräch anhand Ihrer Produkt- und Integrationsliste.",
+      "a2": "Fertige Plattformen ermöglichen einen schnellen Start, doch Ihr Shop bleibt auf der Plattform eines anderen Unternehmens gemietet. Wir verwenden keine fertigen Plattformen, sondern programmieren jeden Shop von Grund auf für Ihre Marke. So teilen Sie Ihr Design mit keinem anderen Shop, Code und Daten gehören Ihnen, und Anforderungen wie eine <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a>-Anbindung, besondere Kampagnen oder viel Traffic stoßen an keine Plattformgrenzen. Den Umfang legen wir gemeinsam im Erstgespräch anhand Ihrer Produkt- und Integrationsliste fest.",
       "q3": "Unterschied zur Corporate-Website?",
       "a3link": "Website erstellen lassen",
       "a3": "ist unser Angebot für Unternehmenswebsites, die Ihre Firma vorstellen. Ein Onlineshop bietet zusätzlich Warenkorb, Onlinezahlung und Versand. Beides können Sie beim selben Team beauftragen.",
@@ -1901,7 +1902,7 @@
       "intro": "Bei fertigen E-Commerce-Paketen gehört Ihr Shop eigentlich nicht Ihnen. Sie nutzen dieselben Themes wie Tausende andere Shops, die Monatsgebühr steigt mit jedem größeren Paket, und auf eine benötigte Funktion warten Sie, bis die Plattform sie anbietet. Bei Ihrem eigenen Onlineshop gehören Design, Code und Daten Ihnen.",
       "i1": "<strong>Ein Design nur für Sie:</strong> Sie teilen kein Theme mit anderen Shops; Ihre Website wird von Grund auf passend zu Ihrer Marke gestaltet.",
       "i2": "<strong>Code und Daten gehören Ihnen:</strong> Quellcode sowie Produkt- und Kundendaten sind Ihr Eigentum. Auf Wunsch können Sie morgen mit einem anderen Team weitermachen.",
-      "i3": "<strong>Keine Umsatzbeteiligung, keine Paket-Upgrades:</strong> Sie zahlen weder einen Anteil an jedem Verkauf noch Gebühren für ein größeres Paket – nur Hosting und auf Wunsch Wartung.",
+      "i3": "<strong>Keine Umsatzbeteiligung, keine Paket-Upgrades:</strong> Sie zahlen weder einen Anteil an jedem Verkauf noch Gebühren für ein größeres Paket. Die monatliche Wartungsgebühr für Hosting, Sicherheit und Support ist fest und steht von Anfang an im Angebot.",
       "i4": "<strong>Die Funktionen, die Sie brauchen – ohne Warten:</strong> Händlerpreise, eigene Aktionsregeln oder die Anbindung Ihrer Buchhaltungssoftware werden passend für Ihr Geschäft umgesetzt.",
       "i5": "<strong>Den Umzug übernehmen wir:</strong> Wir übertragen Produkte, Kategorien und Kundenliste von Ihrer bisherigen Plattform und leiten alte Seitenadressen auf die neuen um, um Ihre Google-Rankings zu schützen.",
       "note": "Ein fertiges Paket ist nicht für jedes Unternehmen falsch: Wenn Sie gerade erst mit wenigen Produkten starten, kann es gut passen. Sobald Ihr Umsatz wächst und Sie an die Grenzen des Pakets stoßen, lohnt sich der Wechsel zum eigenen Shop. Was für Sie passt, besprechen wir in einem kostenlosen Erstgespräch."
@@ -1932,7 +1933,7 @@
       "i3": "<strong>Die richtigen Anbindungen:</strong> Automatischer Datenaustausch mit Ihrem Versanddienstleister, Ihrer Buchhaltungssoftware und den Marktplätzen, auf denen Sie verkaufen.",
       "i4": "<strong>Ein einfacher Verwaltungsbereich:</strong> Produkte, Lagerbestand, Bestellungen, Kunden, Aktionen und Rabattgutscheine an einem Ort verwalten.",
       "i5": "<strong>Bei Google gefunden werden:</strong> Eine suchmaschinenfreundliche Seitenstruktur und Produktseiten; auf Wunsch auch <a href=\"/ankara-seo\" style=\"color:#fb923c\">SEO-Optimierung</a>.",
-      "note": "All dies wird in Ihrem Projekt individuell für Sie umgesetzt; nichts davon ist an das Paket einer anderen Plattform oder an ein monatliches Abonnement gebunden."
+      "note": "All dies wird in Ihrem Projekt individuell für Sie umgesetzt; nichts davon ist an das Paket einer anderen Plattform gebunden."
     },
     "smart": {
       "title": "Intelligenter E-Commerce mit KI",
@@ -1946,7 +1947,7 @@
       "i3": "Gibt es monatliche Paketgebühren, Umsatzprovisionen oder kostenpflichtige Zusatzmodule?",
       "i4": "Sind Zahlungs-, Versand- und Buchhaltungsanbindungen im Preis enthalten?",
       "i5": "Wer übernimmt nach dem Livegang technischen Support und Updates?",
-      "outro": "Bei Ozturksoft sind die Antworten eindeutig: Ihre Website wird individuell für Sie programmiert, Code und Daten gehören Ihnen, wir erhalten keinen Anteil an Ihren Umsätzen und der gesamte Leistungsumfang steht im schriftlichen Angebot."
+      "outro": "Bei Ozturksoft sind die Antworten klar: Ihre Website wird für Sie programmiert, Code und Daten gehören Ihnen, wir erhalten keinen Anteil an Ihren Umsätzen, die monatliche Wartungsgebühr ist fest und der gesamte Leistungsumfang steht im schriftlichen Angebot."
     }
   },
   "faturaOkumaPage": {
@@ -4420,7 +4421,7 @@
     "faq": {
       "title": "Häufige Fragen",
       "q1": "Was kostet eine Website in Ankara?",
-      "a1": "Unternehmenswebsites kosten 15.000–90.000 TL, Onlineshops 30.000–250.000+ TL. Das Erstgespräch ist kostenlos.",
+      "a1": "Unternehmenswebsites kosten 15.000–90.000 TL, Onlineshops 100.000–500.000+ TL. Das Erstgespräch ist kostenlos.",
       "q2": "Wie lange dauert die Erstellung?",
       "a2": "Unternehmenswebsites werden in 3–6 Wochen geliefert, Onlineshops in 6–14 Wochen.",
       "q3": "Ist SEO im Preis enthalten?",

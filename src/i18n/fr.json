@@ -1770,7 +1770,7 @@
     "faq": {
       "title": "Questions fréquentes",
       "q1": "Combien coûte le web design à Ankara ?",
-      "a1": "Un site d’entreprise coûte 15 000–90 000 TL et est livré en 3–6 semaines. Les sites e-commerce vont de 30 000 à 250 000+ TL, les pages de campagne de 5 000 à 15 000 TL. Le rendez-vous de découverte est gratuit ; nous donnons le prix définitif après avoir rédigé ensemble le périmètre.",
+      "a1": "Un site d’entreprise coûte 15 000–90 000 TL et est livré en 3–6 semaines. Les sites e-commerce vont de 100 000 à 500 000+ TL, les pages de campagne de 5 000 à 15 000 TL. Le rendez-vous de découverte est gratuit ; nous donnons le prix définitif après avoir rédigé ensemble le périmètre.",
       "q2": "Êtes-vous une agence ou une société de logiciels ?",
       "a2": "Ozturksoft est une société de logiciels à Ankara qui réalise aussi le web design au sein de la même équipe. Nous ne livrons pas seulement une maquette ou un thème WordPress tout fait : l’administration, une structure de site adaptée aux moteurs de recherche et la maintenance sont incluses.",
       "q3": "Peut-on se rencontrer en personne ?",
@@ -1816,21 +1816,22 @@
     },
     "pricing": {
       "title": "Prix d’un site e-commerce (2026)",
-      "intro": "Le prix dépend du nombre de produits, des options de paiement et de livraison, et de la connexion à votre ERP (logiciel de comptabilité et de stock). Les fourchettes ci-dessous sont valables pour 2026 ; le prix définitif est fixé dans un devis écrit après un rendez-vous de découverte gratuit.",
+      "intro": "Le prix dépend du nombre de produits, des options de paiement et de livraison, et de la connexion à votre ERP (logiciel de comptabilité et de stock). Les fourchettes ci-dessous sont valables pour 2026 ; le prix définitif est fixé dans un devis écrit après un rendez-vous de découverte gratuit. Après la mise en ligne, des frais de maintenance mensuels fixes couvrent l’hébergement, les mises à jour de sécurité, les sauvegardes et le support technique ; nous ne prélevons aucune part sur vos ventes.",
       "col1": "Périmètre",
       "col2": "Prix",
       "col3": "Délai",
-      "row1": "Boutique de démarrage (plateforme prête)",
-      "row2": "Boutique design sur mesure (~100 SKU)",
-      "row3": "ERP + livraison + multi-paiement",
-      "row4": "B2B / marketplace",
-      "t1": "3–5 semaines",
-      "t2": "6–10 semaines",
-      "t3": "10–16 semaines",
-      "t4": "4–8 mois",
+      "row1": "Boutique design sur mesure (~100 SKU)",
+      "row2": "ERP + livraison + multi-paiement",
+      "row3": "B2B / marketplace",
+      "row4": "Maintenance et support mensuels (hébergement, SSL, mises à jour, sauvegardes)",
+      "t1": "6–10 semaines",
+      "t2": "10–16 semaines",
+      "t3": "4–8 mois",
+      "t4": "Chaque mois",
       "linkGuide": "Guide des coûts e-commerce",
       "linkNote": "détaille chaque poste de coût ; pour faire créer votre boutique, contactez-nous directement.",
-      "linkB2b": "Vous cherchez un système de commande pour vos revendeurs ? <a href=\"/b2b-bayi-portali\" style=\"color:#60a5fa\">portail revendeurs B2B (en turc) →</a>"
+      "linkB2b": "Vous cherchez un système de commande pour vos revendeurs ? <a href=\"/b2b-bayi-portali\" style=\"color:#60a5fa\">portail revendeurs B2B (en turc) →</a>",
+      "p4": "5 000 – 10 000 TL/mois"
     },
     "cards": {
       "c1title": "Boutique en ligne",
@@ -1858,9 +1859,9 @@
     "faq": {
       "title": "Questions fréquentes",
       "q1": "Combien coûte la création d’un site e-commerce ?",
-      "a1": "Une boutique de démarrage sur une plateforme prête coûte 25 000–45 000 TL, une boutique conçue pour vous 45 000–75 000 TL, une boutique connectée à l’ERP, aux transporteurs et au paiement 75 000–120 000 TL, et les projets B2B ou marketplace 120 000–250 000+ TL. La moyenne pour une PME se situe entre 50 000 et 80 000 TL ; le rendez-vous de découverte est gratuit.",
+      "a1": "Une boutique conçue pour vous coûte 100 000–150 000 TL, une boutique connectée à l’ERP, aux transporteurs et au paiement 150 000–250 000 TL, et les projets B2B ou marketplace 250 000–500 000+ TL. Après la mise en ligne, des frais de maintenance mensuels fixes de 5 000–10 000 TL couvrent l’hébergement, les mises à jour de sécurité, les sauvegardes et le support technique ; nous ne prélevons aucune part sur vos ventes. Le rendez-vous de découverte est gratuit.",
       "q2": "Plateforme prête ou boutique conçue pour vous ?",
-      "a2": "Si vous débutez, vendez 50–200 produits et avez un processus de vente standard, une boutique de démarrage sur une plateforme prête peut suffire. Si vous voulez que votre marque se distingue des autres boutiques, ou s’il vous faut une connexion <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a>, des campagnes spécifiques ou un fort trafic, nous recommandons une boutique conçue pour vous. Nous décidons ensemble lors du rendez-vous de découverte, à partir de votre liste de produits et d’intégrations.",
+      "a2": "Les plateformes prêtes à l’emploi permettent de démarrer vite, mais votre boutique reste louée sur la plateforme d’une autre entreprise. Nous n’utilisons pas de plateforme prête : nous développons chaque boutique de zéro pour votre marque. Votre design n’est partagé avec aucune autre boutique, le code et les données vous appartiennent, et des besoins comme une connexion <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a>, des campagnes spécifiques ou un fort trafic ne se heurtent pas aux limites d’une plateforme. Nous définissons ensemble le périmètre lors du rendez-vous de découverte, à partir de votre liste de produits et d’intégrations.",
       "q3": "Différence avec un site corporate ?",
       "a3link": "Faire créer un site",
       "a3": "est notre offre de sites d’entreprise qui présentent votre société. Une boutique en ligne y ajoute le panier, le paiement en ligne et la livraison. Les deux peuvent être réalisés par la même équipe.",
@@ -1901,7 +1902,7 @@
       "intro": "Avec les offres e-commerce clés en main, votre boutique ne vous appartient pas vraiment. Vous utilisez les mêmes thèmes que des milliers d’autres boutiques, l’abonnement augmente à mesure que vous montez en gamme, et vous attendez que la plateforme ajoute la fonctionnalité dont vous avez besoin. Avec votre propre site e-commerce, le design, le code et les données vous appartiennent.",
       "i1": "<strong>Un design rien que pour vous :</strong> vous ne partagez pas votre thème avec d’autres boutiques ; votre site est conçu de zéro autour de votre marque.",
       "i2": "<strong>Votre code, vos données :</strong> le code source ainsi que vos données produits et clients sont votre propriété. Vous pouvez continuer avec une autre équipe demain si vous le souhaitez.",
-      "i3": "<strong>Ni commission sur vos ventes, ni montée en gamme forcée :</strong> vous ne reversez aucune part de vos ventes et ne payez pas pour passer à une offre supérieure ; seulement l’hébergement et, si vous le souhaitez, la maintenance.",
+      "i3": "<strong>Ni commission sur vos ventes, ni montée en gamme forcée :</strong> vous ne reversez aucune part de vos ventes et ne payez pas pour passer à une offre supérieure. Les frais de maintenance mensuels pour l’hébergement, la sécurité et le support sont fixes et inscrits dans le devis dès le départ.",
       "i4": "<strong>Les fonctionnalités qu’il vous faut, sans attendre :</strong> prix revendeurs, règles promotionnelles propres ou connexion à votre logiciel comptable sont développés selon vos besoins.",
       "i5": "<strong>Nous nous occupons de la migration :</strong> nous transférons vos produits, catégories et clients depuis votre plateforme actuelle et redirigeons les anciennes adresses vers les nouvelles pour préserver votre référencement Google.",
       "note": "Une offre clés en main n’est pas un mauvais choix pour tout le monde : si vous débutez avec peu de produits, elle peut convenir. Quand vos ventes progressent et que vous atteignez les limites de l’offre, passer à votre propre site devient plus logique. Nous vous aidons à décider lors d’un premier échange gratuit."
@@ -1932,7 +1933,7 @@
       "i3": "<strong>Les bonnes intégrations :</strong> un échange automatique de données avec votre transporteur, votre logiciel de comptabilité et les marketplaces sur lesquelles vous vendez.",
       "i4": "<strong>Une interface d'administration simple :</strong> gérer produits, stocks, commandes, clients, promotions et codes de réduction depuis un seul endroit.",
       "i5": "<strong>Être visible sur Google :</strong> une structure de pages et des fiches produits optimisées pour les moteurs de recherche ; et, si vous le souhaitez, un <a href=\"/ankara-seo\" style=\"color:#fb923c\">travail de référencement SEO</a>.",
-      "note": "Tout cela est conçu sur mesure pour votre projet ; rien n'est lié au forfait d'une autre plateforme ni à un abonnement mensuel."
+      "note": "Tout cela est conçu sur mesure pour votre projet ; rien n’est lié au forfait d’une autre plateforme."
     },
     "smart": {
       "title": "E-commerce intelligent propulsé par l'IA",
@@ -1946,7 +1947,7 @@
       "i3": "Y a-t-il un abonnement mensuel, une commission sur les ventes ou des modules complémentaires payants ?",
       "i4": "Les intégrations de paiement, de livraison et de comptabilité sont-elles incluses dans le prix ?",
       "i5": "Qui assurera l'assistance technique et les mises à jour après la mise en ligne ?",
-      "outro": "Chez Ozturksoft, les réponses sont claires : votre site est développé sur mesure pour vous, le code et les données vous appartiennent, nous ne prélevons aucune part sur vos ventes et l'ensemble du périmètre figure dans le devis écrit."
+      "outro": "Chez Ozturksoft, les réponses sont claires : votre site est développé pour vous, le code et les données vous appartiennent, nous ne prélevons aucune part sur vos ventes, les frais de maintenance mensuels sont fixes et l’ensemble du périmètre figure dans le devis écrit."
     }
   },
   "faturaOkumaPage": {
@@ -4420,7 +4421,7 @@
     "faq": {
       "title": "Questions fréquentes",
       "q1": "Combien coûte la création d’un site web à Ankara ?",
-      "a1": "Les sites d’entreprise coûtent 15 000–90 000 TL et les sites e-commerce 30 000–250 000+ TL. L’entretien de découverte est gratuit.",
+      "a1": "Les sites d’entreprise coûtent 15 000–90 000 TL et les sites e-commerce 100 000–500 000+ TL. L’entretien de découverte est gratuit.",
       "q2": "En combien de temps le site est-il prêt ?",
       "a2": "Les sites d’entreprise sont livrés en 3–6 semaines et les sites e-commerce en 6–14 semaines.",
       "q3": "Le SEO est-il inclus dans le prix ?",

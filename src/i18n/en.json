@@ -1770,7 +1770,7 @@
     "faq": {
       "title": "FAQ",
       "q1": "How much does Ankara web design cost?",
-      "a1": "Corporate web design costs 15,000–90,000 TL and is delivered in 3–6 weeks. E-commerce sites range from 30,000–250,000+ TL and campaign pages from 5,000–15,000 TL. The discovery meeting is free; we give you the final price once we have written down the scope together.",
+      "a1": "Corporate web design costs 15,000–90,000 TL and is delivered in 3–6 weeks. E-commerce sites range from 100,000–500,000+ TL and campaign pages from 5,000–15,000 TL. The discovery meeting is free; we give you the final price once we have written down the scope together.",
       "q2": "Are you an agency or a software company?",
       "a2": "Ozturksoft is a software company in Ankara that also does web design in the same team. We do not hand over just a mock-up or a ready-made WordPress theme; the admin panel, a search-engine-friendly site structure and maintenance are included.",
       "q3": "Can we meet in person?",
@@ -1816,21 +1816,22 @@
     },
     "pricing": {
       "title": "E-commerce website price (2026)",
-      "intro": "The price depends on the number of products, payment and shipping options, and the connection to your ERP (accounting and stock software). The price ranges below apply to 2026; the final price is set in a written quote after a free discovery meeting.",
+      "intro": "The price depends on the number of products, payment and shipping options, and the connection to your ERP (accounting and stock software). The price ranges below apply to 2026; the final price is set in a written quote after a free discovery meeting. After launch there is a fixed monthly maintenance fee for hosting, security updates, backups and technical support; we take no share of your sales.",
       "col1": "Scope",
       "col2": "Price",
       "col3": "Timeline",
-      "row1": "Starter store (ready-made platform)",
-      "row2": "Custom-designed store (~100 SKUs)",
-      "row3": "ERP + shipping + multi-payment",
-      "row4": "B2B / marketplace",
-      "t1": "3–5 weeks",
-      "t2": "6–10 weeks",
-      "t3": "10–16 weeks",
-      "t4": "4–8 months",
+      "row1": "Custom-designed store (~100 SKUs)",
+      "row2": "ERP + shipping + multi-payment",
+      "row3": "B2B / marketplace",
+      "row4": "Monthly maintenance and support (hosting, SSL, updates, backups)",
+      "t1": "6–10 weeks",
+      "t2": "10–16 weeks",
+      "t3": "4–8 months",
+      "t4": "Monthly",
       "linkGuide": "E-commerce cost guide",
       "linkNote": "explains every cost item in detail; to have your store built, simply get in touch with us directly.",
-      "linkB2b": "Looking for an ordering system for your dealers? <a href=\"/b2b-bayi-portali\" style=\"color:#60a5fa\">B2B dealer portal (in Turkish) →</a>"
+      "linkB2b": "Looking for an ordering system for your dealers? <a href=\"/b2b-bayi-portali\" style=\"color:#60a5fa\">B2B dealer portal (in Turkish) →</a>",
+      "p4": "5,000 – 10,000 TL/mo"
     },
     "cards": {
       "c1title": "Online store",
@@ -1858,9 +1859,9 @@
     "faq": {
       "title": "FAQ",
       "q1": "How much does it cost to have an e-commerce site built?",
-      "a1": "A starter store on a ready-made platform costs 25,000–45,000 TL, a store designed for you 45,000–75,000 TL, a store with ERP, shipping and payment connections 75,000–120,000 TL, and B2B or marketplace projects 120,000–250,000+ TL. SME projects average 50,000–80,000 TL; the discovery meeting is free.",
+      "a1": "A store designed for you costs 100,000–150,000 TL, a store with ERP, shipping and payment connections 150,000–250,000 TL, and B2B or marketplace projects 250,000–500,000+ TL. After launch there is a fixed monthly maintenance fee of 5,000–10,000 TL for hosting, security updates, backups and technical support; we take no share of your sales. The discovery meeting is free.",
       "q2": "Ready-made platform or a store built for you?",
-      "a2": "If you are just starting out, sell 50–200 products and have a standard sales process, a starter store on a ready-made platform may be enough. If you want your brand to stand out from other stores, or you need a <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a> connection, special campaigns or high traffic, we recommend a store built for you. We decide together in the discovery meeting, based on your product and integration list.",
+      "a2": "Ready-made platforms get you started quickly, but your store stays rented on another company’s platform. We do not use ready-made platforms; we write every store from scratch for your brand. Your design is not shared with other stores, the code and data are yours, and needs such as a <a href=\"/logo-netsis-entegrasyon\" style=\"color:#fb923c\">Logo/Netsis</a> connection, special campaigns or high traffic are not held back by a platform’s limits. We set the scope together in the discovery meeting, based on your product and integration list.",
       "q3": "How is it different from a corporate site?",
       "a3link": "Have a website built",
       "a3": "is our service for corporate sites that present your company. An e-commerce site adds a cart, online payment and shipping on top of that. You can have both built by the same team.",
@@ -1901,7 +1902,7 @@
       "intro": "With ready-made e-commerce plans, your store does not really belong to you. You use the same themes as thousands of other stores, the monthly fee rises as your plan grows, and you wait for the platform to add the feature you need. With your own e-commerce site, the design, the code and the data are yours.",
       "i1": "<strong>A design made for you:</strong> You do not share a theme with other stores; your site is designed from scratch around your brand.",
       "i2": "<strong>Your code, your data:</strong> The source code and your product and customer data are your property. You can continue with another team tomorrow if you wish.",
-      "i3": "<strong>No cut of your sales, no plan upgrades:</strong> You pay no share of each sale and no fee to move to a higher plan; you pay only for hosting and, if you want, maintenance.",
+      "i3": "<strong>No cut of your sales, no plan upgrades:</strong> You pay no share of each sale and no fee to move to a higher plan. The monthly maintenance fee for hosting, security and support is fixed and written into the quote from the start.",
       "i4": "<strong>The features you need, without waiting:</strong> Dealer-specific prices, your own campaign rules or a connection to your accounting software are built to fit your business.",
       "i5": "<strong>We handle the move:</strong> We transfer your products, categories and customer list from your current platform to your new site, and redirect old page addresses to new ones to protect your Google rankings.",
       "note": "A ready-made plan is not wrong for every business: if you are just starting out with few products, it can be a good fit. Once your sales grow and you hit the limits of the plan, moving to your own site makes more sense. We will help you decide in a free discovery call."
@@ -1932,7 +1933,7 @@
       "i3": "<strong>The right integrations:</strong> Automatic data exchange with your shipping company, accounting software and the marketplaces you sell on.",
       "i4": "<strong>An easy admin panel:</strong> Manage products, stock, orders, customers, campaigns and discount coupons in one place.",
       "i5": "<strong>Being found on Google:</strong> A search-engine-friendly page structure and product pages; plus <a href=\"/ankara-seo\" style=\"color:#fb923c\">SEO work</a> if you wish.",
-      "note": "All of this is built specifically for your project; none of it is tied to another platform's package or a monthly subscription plan."
+      "note": "All of this is built specifically for your project; none of it is tied to another platform’s package."
     },
     "smart": {
       "title": "AI-powered smart e-commerce",
@@ -1946,7 +1947,7 @@
       "i3": "Are there monthly package fees, a commission on sales or paid add-on modules?",
       "i4": "Are payment, shipping and accounting integrations included in the price?",
       "i5": "Who will handle technical support and updates after launch?",
-      "outro": "At Ozturksoft the answers are clear: your website is written specifically for you, the code and data are yours, we take no share of your sales and the full scope is set out in the written quote."
+      "outro": "At Ozturksoft the answers are clear: your site is written for you, the code and data are yours, we take no share of your sales, the monthly maintenance fee is fixed and the full scope is set out in the written quote."
     }
   },
   "faturaOkumaPage": {
@@ -4420,7 +4421,7 @@
     "faq": {
       "title": "Frequently asked questions",
       "q1": "How much does a website cost in Ankara?",
-      "a1": "Corporate sites cost 15,000–90,000 TL and e-commerce sites 30,000–250,000+ TL. The discovery meeting is free.",
+      "a1": "Corporate sites cost 15,000–90,000 TL and e-commerce sites 100,000–500,000+ TL. The discovery meeting is free.",
       "q2": "How long does it take to build a site?",
       "a2": "Corporate sites are delivered in 3–6 weeks and e-commerce sites in 6–14 weeks.",
       "q3": "Is SEO included in the price?",
