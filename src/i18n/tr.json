@@ -1774,7 +1774,7 @@
       "c1title": "Çankaya’da yerinde keşif",
       "c1desc": "Ankara içinde keşif görüşmesini ofisimizde ya da sizin işyerinizde yapıyoruz; Çankaya, OSTİM, Söğütözü ve organize sanayi bölgeleri dahil. İstanbul ve diğer illerdeki projeleri uzaktan yürütüyoruz.",
       "c2title": "Kurumsal web sitesi",
-      "c2desc": "Holdingler, kamu kurumları ve KOBİ’ler için çok dilli, kolay yönetilen tanıtım siteleri. Hız, mobil uyum ve arama motorları için yapısal veri (schema) teslimata dahildir.",
+      "c2desc": "Holdingler, kamu kurumları ve KOBİ’ler için çok dilli, kolay yönetilen tanıtım siteleri. Hız, mobil uyum ve arama motorları için yapısal veri (schema) teslimata dahildir. Formlar ve çerez onayı <a href=\"/kvkk-uyum-analizi\" style=\"color:#38bdf8\">KVKK’ya uygun</a> kurulur.",
       "c3title": "E-ticaret mağazası",
       "c3desc": "Sepet, iyzico/PayTR ile online ödeme, kargo bağlantısı ve stok takibi. WooCommerce veya özel altyapı kullanılır; Logo/Netsis bağlantısı aynı projeye eklenebilir.",
       "c3link": "E-ticaret sitesi yaptırmak →",
@@ -1959,7 +1959,7 @@
     },
     "needs": {
       "title": "E-ticaret sitenizde neler hazır gelir?",
-      "i1": "<strong>Hızlı ve güvenli bir site:</strong> Telefonda rahat kullanılan, hızlı açılan ve SSL ile korunan sayfalar.",
+      "i1": "<strong>Hızlı ve güvenli bir site:</strong> Telefonda rahat kullanılan, hızlı açılan ve SSL ile korunan sayfalar. Mevcut sitenizin KVKK ve güvenlik durumunu <a href=\"/kvkk-uyum-analizi\" style=\"color:#fb923c\">KVKK uyum analizi</a> ile kontrol ederiz.",
       "i2": "<strong>Güvenli ödeme:</strong> Kredi kartı ve taksitle ödeme için iyzico, PayTR veya bankanızın sanal POS’u.",
       "i3": "<strong>Doğru bağlantılar:</strong> Kargo firması, muhasebe programı ve satış yaptığınız pazaryerleriyle otomatik veri alışverişi.",
       "i4": "<strong>Kolay yönetim paneli:</strong> Ürün, stok, sipariş, müşteri, kampanya ve indirim kuponlarını tek yerden yönetmek.",
@@ -4203,7 +4203,7 @@
       },
       "qa": {
         "title": "Test ve kalite kontrol",
-        "desc": "Uygulama farklı cihazlarda test edilir; çökme ve güvenlik kontrolleri yapılır. Kaynak kodu sizde kalır."
+        "desc": "Uygulama farklı cihazlarda test edilir; çökme ve güvenlik kontrolleri yapılır. Kaynak kodu sizde kalır. İsterseniz uygulamanın KVKK ve veri güvenliği durumunu <a href=\"/kvkk-uyum-analizi\" style=\"color:#a78bfa\">KVKK uyum analizi</a> ile ayrıca kontrol ederiz."
       }
     },
     "process": {
@@ -4474,7 +4474,7 @@
       "title": "Teslimatta neler var?",
       "i1": "Yazılı kapsam ve sabit fiyatlı teklif; sonradan sürpriz bir kalem çıkmaz.",
       "i2": "İçeriği kendiniz güncelleyebileceğiniz bir yönetim paneli, SSL güvenlik sertifikası, yedekleme ve temel ziyaretçi istatistikleri.",
-      "i3": "KVKK aydınlatma metninin sitede doğru yere yerleştirilmesi (metnin hukuki içeriğini sizin hukuk danışmanınız hazırlar).",
+      "i3": "KVKK aydınlatma metninin sitede doğru yere yerleştirilmesi (metnin hukuki içeriğini sizin hukuk danışmanınız hazırlar). Sitenizin genel KVKK ve güvenlik durumunu ayrıca <a href=\"/kvkk-uyum-analizi\" style=\"color:#3b82f6\">KVKK uyum analizi</a> ile kontrol edebiliriz.",
       "i4": "Ankara’da yerinde ya da online kullanım eğitimi.",
       "note": "Kurumsal site sürecini adım adım anlatan <a href=\"/blog/kurumsal-web-sitesi-yaptirmak-rehberi-2026\" style=\"color:#3b82f6\">kurumsal web sitesi yaptırmak</a> rehberimizi de okuyabilirsiniz."
     },
@@ -5548,7 +5548,7 @@
   },
   "kvkkAuditPage": {
     "meta": {
-      "title": "KVKK Uyum Analizi | Web Sitesi ve Uygulama Kontrolü | Ozturksoft"
+      "title": "KVKK Uyum Analizi ve KVKK Uyumlu Web Sitesi | Ozturksoft"
     },
     "hero": {
       "badge": "KVKK · Çerez onayı · Güvenlik kontrolü · Yapay zeka ile yapılan siteler",
@@ -5643,7 +5643,13 @@
       "q7": "Analizden sonra düzeltmeleri siz yapar mısınız?",
       "a7": "Evet, isterseniz. Analiz ve düzeltmeyi birlikte aldığınızda iş 120.000–250.000+ TL aralığında ve 3–6 haftada tamamlanır; çerez onayı, rıza kayıtları, şifreleme, erişim kuralları ve yetkileri düzeltip tekrar kontrol ederiz. Raporu kendi ekibinize de verebilirsiniz; düzenli kontrol için <a href=\"/yazilim-bakim-destek-hizmeti\">bakım ve destek</a> hizmeti aylık 5.000–10.000 TL'dir.",
       "q8": "Kimler için gerekli değil?",
-      "a8": "Formu olmayan, ziyaretçi takibi ve reklam kodu kullanmayan, kişisel veri toplamayan basit bir tanıtım sitesi için tam analiz genellikle gerekmez; kısa bir kontrol yeterlidir. Böyle bir durumdaysanız bunu keşif görüşmesinde açıkça söyleriz. Form, üyelik, ödeme, yapay zeka bağlantısı veya müşteri verisi tutan bir uygulamanız varsa analiz anlamlıdır."
+      "a8": "Formu olmayan, ziyaretçi takibi ve reklam kodu kullanmayan, kişisel veri toplamayan basit bir tanıtım sitesi için tam analiz genellikle gerekmez; kısa bir kontrol yeterlidir. Böyle bir durumdaysanız bunu keşif görüşmesinde açıkça söyleriz. Form, üyelik, ödeme, yapay zeka bağlantısı veya müşteri verisi tutan bir uygulamanız varsa analiz anlamlıdır.",
+      "q9": "Web sitesi için KVKK zorunlu mu?",
+      "a9": "Sitenizde iletişim formu, üyelik, sipariş, analitik çerezi veya reklam takibi gibi kişisel veri işleyen bir özellik varsa KVKK kapsamındaki aydınlatma ve gerektiğinde açık rıza yükümlülükleri gündeme gelir. Hiç form ve izleme içermeyen basit bir tanıtım sitesinde yükümlülükler daha sınırlıdır. Hangi metinlerin gerektiğini avukatınızla netleştirmenizi, teknik tarafını ise birlikte kontrol etmemizi öneririz.",
+      "q10": "Çerez onayı nasıl olmalı?",
+      "a10": "Zorunlu olmayan çerezler (analitik, reklam) kullanıcı onay vermeden çalışmamalı; onay vermek ve reddetmek aynı kolaylıkta olmalı ve kullanıcı tercihini sonradan değiştirebilmeli. Analizde bu çerezlerin onaydan önce yüklenip yüklenmediğini teknik olarak test ederiz. Kendi sitemizde de bu yöntemi kullanıyoruz.",
+      "q11": "Mobil uygulamalarda KVKK için nelere dikkat edilmeli?",
+      "a11": "Uygulamanın istediği izinler (konum, kamera, rehber) gerçekten gerekli olmalı ve nedeni kullanıcıya açıklanmalı; aydınlatma metni uygulama içinde ve mağaza sayfasında erişilebilir olmalı. Analizde uygulamaya eklenen analitik ve reklam kütüphanelerinin hangi verileri nereye gönderdiğini ve kişisel verilerin cihazda ve sunucuda nasıl saklandığını kontrol ederiz."
     },
     "cta": {
       "title": "Sitenizin KVKK ve güvenlik durumunu öğrenin",

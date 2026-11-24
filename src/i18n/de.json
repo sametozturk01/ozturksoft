@@ -1754,7 +1754,7 @@
       "c1title": "Erstgespräch vor Ort in Çankaya",
       "c1desc": "Innerhalb Ankaras findet das Erstgespräch in unserem Büro oder bei Ihnen statt, auch in Çankaya, OSTİM, Söğütözü und den Industriegebieten. Projekte in Istanbul und anderen Städten betreuen wir aus der Ferne.",
       "c2title": "Unternehmenswebsite",
-      "c2desc": "Mehrsprachige, leicht zu pflegende Unternehmenswebsites für Holdings, Behörden und KMU. Geschwindigkeit, Mobiloptimierung und strukturierte Daten (Schema) für Suchmaschinen sind inklusive.",
+      "c2desc": "Mehrsprachige, leicht zu pflegende Unternehmenswebsites für Holdings, Behörden und KMU. Geschwindigkeit, Mobiloptimierung und strukturierte Daten (Schema) für Suchmaschinen sind inklusive. Formulare und Cookie-Einwilligung werden <a href=\"/kvkk-uyum-analizi\" style=\"color:#38bdf8\">KVKK-konform</a> eingerichtet.",
       "c3title": "Onlineshop",
       "c3desc": "Warenkorb, Onlinezahlung über iyzico/PayTR, Versandanbindung und Lagerverwaltung. Auf WooCommerce oder eigener Plattform; eine Logo/Netsis-Anbindung lässt sich im selben Projekt ergänzen.",
       "c3link": "E-Commerce-Shop erstellen lassen →",
@@ -1939,7 +1939,7 @@
     },
     "needs": {
       "title": "Was ist in Ihrem Onlineshop bereits enthalten?",
-      "i1": "<strong>Eine schnelle und sichere Website:</strong> Seiten, die sich auf dem Smartphone bequem bedienen lassen, schnell laden und per SSL geschützt sind.",
+      "i1": "<strong>Eine schnelle und sichere Website:</strong> Seiten, die sich auf dem Smartphone bequem bedienen lassen, schnell laden und per SSL geschützt sind. Den KVKK- und Sicherheitsstatus Ihres bestehenden Shops prüfen wir mit einer <a href=\"/kvkk-uyum-analizi\" style=\"color:#fb923c\">KVKK-Compliance-Prüfung</a>.",
       "i2": "<strong>Sichere Zahlung:</strong> iyzico, PayTR oder das virtuelle POS-Terminal Ihrer Bank für Kreditkarten- und Ratenzahlung.",
       "i3": "<strong>Die richtigen Anbindungen:</strong> Automatischer Datenaustausch mit Ihrem Versanddienstleister, Ihrer Buchhaltungssoftware und den Marktplätzen, auf denen Sie verkaufen.",
       "i4": "<strong>Ein einfacher Verwaltungsbereich:</strong> Produkte, Lagerbestand, Bestellungen, Kunden, Aktionen und Rabattgutscheine an einem Ort verwalten.",
@@ -4183,7 +4183,7 @@
       },
       "qa": {
         "title": "Tests und Qualitätskontrolle",
-        "desc": "Die App wird auf verschiedenen Geräten getestet und auf Abstürze und Sicherheitslücken geprüft. Der Quellcode bleibt bei Ihnen."
+        "desc": "Die App wird auf verschiedenen Geräten getestet und auf Abstürze und Sicherheitslücken geprüft. Der Quellcode bleibt bei Ihnen. Auf Wunsch prüfen wir den KVKK- und Datensicherheitsstatus der App mit einer <a href=\"/kvkk-uyum-analizi\" style=\"color:#a78bfa\">KVKK-Compliance-Prüfung</a>."
       }
     },
     "process": {
@@ -4454,7 +4454,7 @@
       "title": "Was ist im Lieferumfang enthalten?",
       "i1": "Schriftlicher Leistungsumfang und Festpreisangebot – ohne spätere Überraschungsposten.",
       "i2": "Ein Verwaltungspanel, mit dem Sie Inhalte selbst pflegen, ein SSL-Sicherheitszertifikat, Backups und grundlegende Besucherstatistiken.",
-      "i3": "Einbindung des KVKK-Datenschutzhinweises an der richtigen Stelle der Website (den rechtlichen Text erstellt Ihr eigener Rechtsberater).",
+      "i3": "Einbindung des KVKK-Datenschutzhinweises an der richtigen Stelle der Website (den rechtlichen Text erstellt Ihr eigener Rechtsberater). Den allgemeinen KVKK- und Sicherheitsstatus Ihrer Website prüfen wir auf Wunsch mit einer <a href=\"/kvkk-uyum-analizi\" style=\"color:#3b82f6\">KVKK-Compliance-Prüfung</a>.",
       "i4": "Schulung vor Ort in Ankara oder online.",
       "note": "Lesen Sie auch unseren Schritt-für-Schritt-Leitfaden <a href=\"/blog/kurumsal-web-sitesi-yaptirmak-rehberi-2026\" style=\"color:#3b82f6\">Unternehmenswebsite erstellen lassen</a>."
     },
@@ -5528,7 +5528,7 @@
   },
   "kvkkAuditPage": {
     "meta": {
-      "title": "KVKK-Compliance-Analyse für Websites und Apps | Ozturksoft"
+      "title": "KVKK-Compliance-Prüfung und KVKK-konforme Websites | Ozturksoft"
     },
     "hero": {
       "badge": "KVKK · Cookie-Einwilligung · Sicherheitsprüfung · Mit KI gebaute Websites",
@@ -5623,7 +5623,13 @@
       "q7": "Übernehmen Sie nach der Analyse auch die Korrekturen?",
       "a7": "Ja, auf Wunsch. Analyse und Korrekturen zusammen kosten 120.000–250.000+ TL und dauern 3–6 Wochen; wir beheben Cookie-Einwilligung, Einwilligungsnachweise, Verschlüsselung, Zugriffsregeln und Berechtigungen und prüfen danach erneut. Sie können den Bericht auch Ihrem eigenen Team übergeben; für laufende Prüfungen kostet unsere <a href=\"/yazilim-bakim-destek-hizmeti\">Wartung und Support</a> 5.000–10.000 TL pro Monat.",
       "q8": "Wer braucht das nicht?",
-      "a8": "Eine einfache Visitenkarten-Website ohne Formulare, Besucher-Tracking und Werbe-Tags, die keine personenbezogenen Daten erhebt, braucht meist keine vollständige Analyse; eine kurze Prüfung genügt. Trifft das auf Sie zu, sagen wir es Ihnen im Erstgespräch offen. Haben Sie Formulare, Benutzerkonten, Zahlungen, eine KI-Anbindung oder eine App mit Kundendaten, ist eine Analyse sinnvoll."
+      "a8": "Eine einfache Visitenkarten-Website ohne Formulare, Besucher-Tracking und Werbe-Tags, die keine personenbezogenen Daten erhebt, braucht meist keine vollständige Analyse; eine kurze Prüfung genügt. Trifft das auf Sie zu, sagen wir es Ihnen im Erstgespräch offen. Haben Sie Formulare, Benutzerkonten, Zahlungen, eine KI-Anbindung oder eine App mit Kundendaten, ist eine Analyse sinnvoll.",
+      "q9": "Ist KVKK für eine Website Pflicht?",
+      "a9": "Wenn Ihre Website ein Kontaktformular, Mitgliedschaft, Bestellungen, Analyse-Cookies oder Werbetracking nutzt und dabei personenbezogene Daten verarbeitet, gelten nach KVKK Informationspflichten und gegebenenfalls die Pflicht zur ausdrücklichen Einwilligung. Eine einfache Präsentationsseite ohne Formulare und Tracking hat geringere Pflichten. Die nötigen Texte klären Sie am besten mit Ihrem Anwalt, die technische Seite prüfen wir gemeinsam.",
+      "q10": "Wie sollte eine Cookie-Einwilligung aussehen?",
+      "a10": "Nicht notwendige Cookies (Analyse, Werbung) dürfen erst nach der Einwilligung laufen; Zustimmen und Ablehnen sollten gleich einfach sein, und Nutzer sollten ihre Wahl später ändern können. In der Prüfung testen wir technisch, ob diese Cookies vor der Einwilligung geladen werden. Auf unserer eigenen Website nutzen wir dasselbe Verfahren.",
+      "q11": "Worauf sollten mobile Apps bei KVKK achten?",
+      "a11": "Die angeforderten Berechtigungen (Standort, Kamera, Kontakte) sollten wirklich nötig sein und dem Nutzer erklärt werden; die Datenschutzinformation sollte in der App und auf der Store-Seite erreichbar sein. In der Prüfung kontrollieren wir, welche Daten Analyse- und Werbebibliotheken wohin senden und wie personenbezogene Daten auf dem Gerät und dem Server gespeichert werden."
     },
     "cta": {
       "title": "Erfahren Sie, wo Ihre Website bei KVKK und Sicherheit steht",

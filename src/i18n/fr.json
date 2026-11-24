@@ -1754,7 +1754,7 @@
       "c1title": "Rendez-vous sur place à Çankaya",
       "c1desc": "À Ankara, le rendez-vous de découverte a lieu dans nos bureaux ou dans vos locaux, y compris à Çankaya, OSTİM, Söğütözü et dans les zones industrielles. Les projets à Istanbul et dans les autres villes sont menés à distance.",
       "c2title": "Site d’entreprise",
-      "c2desc": "Des sites vitrines multilingues et faciles à gérer pour holdings, institutions publiques et PME. La vitesse, l’adaptation mobile et les données structurées (schema) pour les moteurs de recherche sont incluses.",
+      "c2desc": "Des sites vitrines multilingues et faciles à gérer pour holdings, institutions publiques et PME. La vitesse, l’adaptation mobile et les données structurées (schema) pour les moteurs de recherche sont incluses. Les formulaires et le consentement aux cookies sont configurés <a href=\"/kvkk-uyum-analizi\" style=\"color:#38bdf8\">conformément au KVKK</a>.",
       "c3title": "Boutique en ligne",
       "c3desc": "Panier, paiement en ligne via iyzico/PayTR, connexion aux transporteurs et suivi des stocks. Sur WooCommerce ou une plateforme sur mesure ; une connexion Logo/Netsis peut s’ajouter au même projet.",
       "c3link": "Faire créer une boutique →",
@@ -1939,7 +1939,7 @@
     },
     "needs": {
       "title": "Qu’est-ce qui est inclus dans votre site e-commerce ?",
-      "i1": "<strong>Un site rapide et sécurisé :</strong> des pages faciles à utiliser sur mobile, qui se chargent vite et sont protégées par SSL.",
+      "i1": "<strong>Un site rapide et sécurisé :</strong> des pages faciles à utiliser sur mobile, qui se chargent vite et sont protégées par SSL. Nous vérifions la conformité KVKK et la sécurité de votre site actuel avec un <a href=\"/kvkk-uyum-analizi\" style=\"color:#fb923c\">audit KVKK</a>.",
       "i2": "<strong>Un paiement sécurisé :</strong> iyzico, PayTR ou le TPE virtuel de votre banque pour le paiement par carte bancaire et en plusieurs fois.",
       "i3": "<strong>Les bonnes intégrations :</strong> un échange automatique de données avec votre transporteur, votre logiciel de comptabilité et les marketplaces sur lesquelles vous vendez.",
       "i4": "<strong>Une interface d'administration simple :</strong> gérer produits, stocks, commandes, clients, promotions et codes de réduction depuis un seul endroit.",
@@ -4183,7 +4183,7 @@
       },
       "qa": {
         "title": "Tests et contrôle qualité",
-        "desc": "L’application est testée sur différents appareils et contrôlée contre les plantages et les failles de sécurité. Le code source vous appartient."
+        "desc": "L’application est testée sur différents appareils et contrôlée contre les plantages et les failles de sécurité. Le code source vous appartient. Si vous le souhaitez, nous vérifions aussi la conformité KVKK et la sécurité des données de l’application avec un <a href=\"/kvkk-uyum-analizi\" style=\"color:#a78bfa\">audit KVKK</a>."
       }
     },
     "process": {
@@ -4454,7 +4454,7 @@
       "title": "Que comprend la livraison ?",
       "i1": "Un périmètre écrit et un devis à prix fixe, sans poste surprise par la suite.",
       "i2": "Un panneau d’administration pour mettre à jour le contenu vous-même, un certificat de sécurité SSL, des sauvegardes et des statistiques de visite de base.",
-      "i3": "L’intégration de la notice d’information KVKK au bon endroit du site (le texte juridique est rédigé par votre propre conseiller juridique).",
+      "i3": "L’intégration de la notice d’information KVKK au bon endroit du site (le texte juridique est rédigé par votre propre conseiller juridique). Nous pouvons aussi vérifier la conformité KVKK et la sécurité de votre site avec un <a href=\"/kvkk-uyum-analizi\" style=\"color:#3b82f6\">audit KVKK</a>.",
       "i4": "Une formation sur place à Ankara ou en ligne.",
       "note": "Vous pouvez aussi lire notre guide pas à pas pour <a href=\"/blog/kurumsal-web-sitesi-yaptirmak-rehberi-2026\" style=\"color:#3b82f6\">faire créer un site d’entreprise</a>."
     },
@@ -5528,7 +5528,7 @@
   },
   "kvkkAuditPage": {
     "meta": {
-      "title": "Analyse de conformité KVKK pour sites et applis | Ozturksoft"
+      "title": "Audit KVKK et site web conforme au KVKK | Ozturksoft"
     },
     "hero": {
       "badge": "KVKK · Consentement aux cookies · Contrôle de sécurité · Sites créés avec l'IA",
@@ -5623,7 +5623,13 @@
       "q7": "Réalisez-vous les corrections après l'analyse ?",
       "a7": "Oui, si vous le souhaitez. L'analyse et les corrections ensemble coûtent 120 000–250 000+ TL et prennent 3 à 6 semaines ; nous corrigeons le consentement aux cookies, les preuves de consentement, le chiffrement, les règles d'accès et les droits, puis nous revérifions. Vous pouvez aussi confier le rapport à votre propre équipe ; pour des contrôles suivis, notre service de <a href=\"/yazilim-bakim-destek-hizmeti\">maintenance et support</a> coûte 5 000–10 000 TL par mois.",
       "q8": "Qui n'en a pas besoin ?",
-      "a8": "Un simple site vitrine sans formulaire, sans suivi des visiteurs, sans balise publicitaire et sans collecte de données personnelles n'a généralement pas besoin d'une analyse complète ; un contrôle rapide suffit. Si c'est votre cas, nous vous le dirons franchement lors du premier échange. Si vous avez des formulaires, des comptes, des paiements, une connexion à l'IA ou une application qui stocke des données clients, l'analyse a du sens."
+      "a8": "Un simple site vitrine sans formulaire, sans suivi des visiteurs, sans balise publicitaire et sans collecte de données personnelles n'a généralement pas besoin d'une analyse complète ; un contrôle rapide suffit. Si c'est votre cas, nous vous le dirons franchement lors du premier échange. Si vous avez des formulaires, des comptes, des paiements, une connexion à l'IA ou une application qui stocke des données clients, l'analyse a du sens.",
+      "q9": "Le KVKK est-il obligatoire pour un site web ?",
+      "a9": "Si votre site comporte un formulaire de contact, des comptes, des commandes, des cookies d’analyse ou un suivi publicitaire qui traitent des données personnelles, les obligations d’information du KVKK et, le cas échéant, de consentement explicite s’appliquent. Un simple site vitrine sans formulaire ni suivi a des obligations plus limitées. Nous vous conseillons de valider les textes nécessaires avec votre avocat et d’en vérifier ensemble le volet technique.",
+      "q10": "À quoi doit ressembler le consentement aux cookies ?",
+      "a10": "Les cookies non essentiels (analyse, publicité) ne doivent pas fonctionner avant le consentement de l’utilisateur ; accepter et refuser doivent être aussi simples l’un que l’autre, et l’utilisateur doit pouvoir modifier son choix ensuite. Lors de l’audit, nous testons techniquement si ces cookies se chargent avant le consentement. Nous appliquons la même méthode sur notre propre site.",
+      "q11": "À quoi les applications mobiles doivent-elles faire attention au titre du KVKK ?",
+      "a11": "Les autorisations demandées (localisation, caméra, contacts) doivent être réellement nécessaires et expliquées à l’utilisateur, et la notice d’information doit être accessible dans l’application et sur la page du store. Lors de l’audit, nous vérifions quelles données les bibliothèques d’analyse et de publicité envoient et où, et comment les données personnelles sont stockées sur l’appareil et sur le serveur."
     },
     "cta": {
       "title": "Découvrez où en est votre site en matière de KVKK et de sécurité",

@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="kvkkAuditPage.meta.title">KVKK Uyum Analizi | Web Sitesi ve Uygulama Kontrolü | Ozturksoft</title>
+    <title data-i18n="kvkkAuditPage.meta.title">KVKK Uyum Analizi ve KVKK Uyumlu Web Sitesi | Ozturksoft</title>
     <meta name="description" content="KVKK uyum analizi: yapay zeka ile veya hızlıca yapılan site ve uygulamalarda çerez onayı, formlar, API anahtarı ve veritabanı kontrolü. 30.000 TL&#x27;den. Ankara." />
-    <meta name="keywords" content="kvkk uyum analizi, web sitesi kvkk uyumu, yapay zeka ile yapılan site güvenlik kontrolü, uygulama kvkk kontrolü, çerez onayı kvkk" />
+    <meta name="keywords" content="kvkk uyumlu web sitesi, web sitesi kvkk zorunlu mu, çerez politikası, çerez onayı nasıl olmalı, mobil uygulama kvkk, kvkk uyum analizi, web sitesi kvkk uyumu, yapay zeka ile yapılan site güvenlik kontrolü, uygulama kvkk kontrolü, çerez onayı kvkk" />
     <meta name="robots" content="index, follow">
     <meta name="geo.region" content="TR-06" />
     <meta name="geo.placename" content="Ankara" />
@@ -17,7 +17,7 @@
     <link rel="alternate" hreflang="tr" href="https://ozturksoft.net/kvkk-uyum-analizi" />
     <link rel="alternate" hreflang="x-default" href="https://ozturksoft.net/kvkk-uyum-analizi" />
     <link rel="icon" href="/favicon.ico" sizes="any">
-    <meta property="og:title" content="KVKK Uyum Analizi | Web Sitesi ve Uygulama Kontrolü | Ozturksoft">
+    <meta property="og:title" content="KVKK Uyum Analizi ve KVKK Uyumlu Web Sitesi">
     <meta property="og:description" content="Çerez onayı, formlar, yapay zekaya giden veriler, açık API anahtarları ve veritabanı kuralları için teknik analiz. 30.000–250.000+ TL, Ankara.">
     <meta property="og:url" content="https://ozturksoft.net/kvkk-uyum-analizi">
     <meta property="og:image" content="https://ozturksoft.net/og-image.png">
@@ -66,6 +66,10 @@
     {
       "@type": "FAQPage",
       "mainEntity": [
+        {"@type": "Question", "name": "Web sitesi için KVKK zorunlu mu?", "acceptedAnswer": {"@type": "Answer", "text": "Sitenizde iletişim formu, üyelik, sipariş, analitik çerezi veya reklam takibi gibi kişisel veri işleyen bir özellik varsa KVKK kapsamındaki aydınlatma ve gerektiğinde açık rıza yükümlülükleri gündeme gelir. Hiç form ve izleme içermeyen basit bir tanıtım sitesinde yükümlülükler daha sınırlıdır. Hangi metinlerin gerektiğini avukatınızla netleştirmenizi, teknik tarafını ise birlikte kontrol etmemizi öneririz."}},
+        {"@type": "Question", "name": "Çerez onayı nasıl olmalı?", "acceptedAnswer": {"@type": "Answer", "text": "Zorunlu olmayan çerezler (analitik, reklam) kullanıcı onay vermeden çalışmamalı; onay vermek ve reddetmek aynı kolaylıkta olmalı ve kullanıcı tercihini sonradan değiştirebilmeli. Analizde bu çerezlerin onaydan önce yüklenip yüklenmediğini teknik olarak test ederiz. Kendi sitemizde de bu yöntemi kullanıyoruz."}},
+        {"@type": "Question", "name": "Mobil uygulamalarda KVKK için nelere dikkat edilmeli?", "acceptedAnswer": {"@type": "Answer", "text": "Uygulamanın istediği izinler (konum, kamera, rehber) gerçekten gerekli olmalı ve nedeni kullanıcıya açıklanmalı; aydınlatma metni uygulama içinde ve mağaza sayfasında erişilebilir olmalı. Analizde uygulamaya eklenen analitik ve reklam kütüphanelerinin hangi verileri nereye gönderdiğini ve kişisel verilerin cihazda ve sunucuda nasıl saklandığını kontrol ederiz."}},
+
   {
     "@type": "Question",
     "name": "Yapay zeka ile yaptığım site KVKK'ya uygun mu?",
@@ -343,6 +347,18 @@
         <details>
             <summary data-i18n="kvkkAuditPage.faq.q8">Kimler için gerekli değil?</summary>
             <p data-i18n="kvkkAuditPage.faq.a8">Formu olmayan, ziyaretçi takibi ve reklam kodu kullanmayan, kişisel veri toplamayan basit bir tanıtım sitesi için tam analiz genellikle gerekmez; kısa bir kontrol yeterlidir. Böyle bir durumdaysanız bunu keşif görüşmesinde açıkça söyleriz. Form, üyelik, ödeme, yapay zeka bağlantısı veya müşteri verisi tutan bir uygulamanız varsa analiz anlamlıdır.</p>
+        </details>
+        <details>
+            <summary data-i18n="kvkkAuditPage.faq.q9">Web sitesi için KVKK zorunlu mu?</summary>
+            <p data-i18n="kvkkAuditPage.faq.a9">Sitenizde iletişim formu, üyelik, sipariş, analitik çerezi veya reklam takibi gibi kişisel veri işleyen bir özellik varsa KVKK kapsamındaki aydınlatma ve gerektiğinde açık rıza yükümlülükleri gündeme gelir. Hiç form ve izleme içermeyen basit bir tanıtım sitesinde yükümlülükler daha sınırlıdır. Hangi metinlerin gerektiğini avukatınızla netleştirmenizi, teknik tarafını ise birlikte kontrol etmemizi öneririz.</p>
+        </details>
+    <details>
+            <summary data-i18n="kvkkAuditPage.faq.q10">Çerez onayı nasıl olmalı?</summary>
+            <p data-i18n="kvkkAuditPage.faq.a10">Zorunlu olmayan çerezler (analitik, reklam) kullanıcı onay vermeden çalışmamalı; onay vermek ve reddetmek aynı kolaylıkta olmalı ve kullanıcı tercihini sonradan değiştirebilmeli. Analizde bu çerezlerin onaydan önce yüklenip yüklenmediğini teknik olarak test ederiz. Kendi sitemizde de bu yöntemi kullanıyoruz.</p>
+        </details>
+    <details>
+            <summary data-i18n="kvkkAuditPage.faq.q11">Mobil uygulamalarda KVKK için nelere dikkat edilmeli?</summary>
+            <p data-i18n="kvkkAuditPage.faq.a11">Uygulamanın istediği izinler (konum, kamera, rehber) gerçekten gerekli olmalı ve nedeni kullanıcıya açıklanmalı; aydınlatma metni uygulama içinde ve mağaza sayfasında erişilebilir olmalı. Analizde uygulamaya eklenen analitik ve reklam kütüphanelerinin hangi verileri nereye gönderdiğini ve kişisel verilerin cihazda ve sunucuda nasıl saklandığını kontrol ederiz.</p>
         </details>
     </section>
 

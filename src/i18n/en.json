@@ -1754,7 +1754,7 @@
       "c1title": "On-site discovery in Çankaya",
       "c1desc": "Within Ankara we hold the discovery meeting at our office or at your premises, including Çankaya, OSTİM, Söğütözü and the organised industrial zones. Projects in Istanbul and other cities are run remotely.",
       "c2title": "Corporate website",
-      "c2desc": "Multilingual, easy-to-manage company websites for holdings, public institutions and SMEs. Speed, mobile compatibility and structured data (schema) for search engines are included.",
+      "c2desc": "Multilingual, easy-to-manage company websites for holdings, public institutions and SMEs. Speed, mobile compatibility and structured data (schema) for search engines are included. Forms and cookie consent are set up in a <a href=\"/kvkk-uyum-analizi\" style=\"color:#38bdf8\">KVKK-compliant</a> way.",
       "c3title": "E-commerce store",
       "c3desc": "Cart, online payment via iyzico/PayTR, shipping connection and stock tracking. Built on WooCommerce or a custom platform; a Logo/Netsis connection can be added to the same project.",
       "c3link": "Have an e-commerce site built →",
@@ -1939,7 +1939,7 @@
     },
     "needs": {
       "title": "What comes ready with your e-commerce site?",
-      "i1": "<strong>A fast, secure website:</strong> Pages that are easy to use on a phone, load quickly and are protected with SSL.",
+      "i1": "<strong>A fast, secure website:</strong> Pages that are easy to use on a phone, load quickly and are protected with SSL. We check your current site’s KVKK and security status with a <a href=\"/kvkk-uyum-analizi\" style=\"color:#fb923c\">KVKK compliance audit</a>.",
       "i2": "<strong>Secure payments:</strong> iyzico, PayTR or your bank's virtual POS for credit card and installment payments.",
       "i3": "<strong>The right integrations:</strong> Automatic data exchange with your shipping company, accounting software and the marketplaces you sell on.",
       "i4": "<strong>An easy admin panel:</strong> Manage products, stock, orders, customers, campaigns and discount coupons in one place.",
@@ -4183,7 +4183,7 @@
       },
       "qa": {
         "title": "Testing and quality control",
-        "desc": "The app is tested on different devices and checked for crashes and security issues. The source code stays with you."
+        "desc": "The app is tested on different devices and checked for crashes and security issues. The source code stays with you. If you wish, we also check the app’s KVKK and data security status with a <a href=\"/kvkk-uyum-analizi\" style=\"color:#a78bfa\">KVKK compliance audit</a>."
       }
     },
     "process": {
@@ -4454,7 +4454,7 @@
       "title": "What is included in the delivery?",
       "i1": "A written scope and a fixed-price quote, with no surprise items later.",
       "i2": "A management panel for updating content yourself, an SSL security certificate, backups and basic visitor statistics.",
-      "i3": "Placement of the KVKK privacy notice in the right place on the site (the legal wording is prepared by your own legal adviser).",
+      "i3": "Placement of the KVKK privacy notice in the right place on the site (the legal wording is prepared by your own legal adviser). We can also check your site’s overall KVKK and security status with a <a href=\"/kvkk-uyum-analizi\" style=\"color:#3b82f6\">KVKK compliance audit</a>.",
       "i4": "User training on site in Ankara or online.",
       "note": "You can also read our step-by-step guide to <a href=\"/blog/kurumsal-web-sitesi-yaptirmak-rehberi-2026\" style=\"color:#3b82f6\">getting a corporate website built</a>."
     },
@@ -5528,7 +5528,7 @@
   },
   "kvkkAuditPage": {
     "meta": {
-      "title": "KVKK Compliance Audit for Websites and Apps | Ozturksoft"
+      "title": "KVKK Compliance Audit and KVKK-Compliant Websites | Ozturksoft"
     },
     "hero": {
       "badge": "KVKK · Cookie consent · Security check · Sites built with AI",
@@ -5623,7 +5623,13 @@
       "q7": "Will you make the fixes after the audit?",
       "a7": "Yes, if you want. When you take the audit and fixes together, the work costs 120,000–250,000+ TL and takes 3–6 weeks; we fix cookie consent, consent records, encryption, access rules and permissions, then re-check. You can also hand the report to your own team; for ongoing checks, our <a href=\"/yazilim-bakim-destek-hizmeti\">maintenance and support</a> service is 5,000–10,000 TL per month.",
       "q8": "Who does not need this?",
-      "a8": "A simple brochure site with no forms, no visitor tracking, no ad tags and no personal data collection usually does not need a full audit; a short check is enough. If that is your situation, we will tell you so openly in the discovery call. If you have forms, accounts, payments, an AI connection or an app that stores customer data, an audit makes sense."
+      "a8": "A simple brochure site with no forms, no visitor tracking, no ad tags and no personal data collection usually does not need a full audit; a short check is enough. If that is your situation, we will tell you so openly in the discovery call. If you have forms, accounts, payments, an AI connection or an app that stores customer data, an audit makes sense.",
+      "q9": "Is KVKK mandatory for a website?",
+      "a9": "If your site has a contact form, membership, orders, analytics cookies or ad tracking that process personal data, KVKK duties to inform users and, where needed, obtain explicit consent apply. A simple brochure site with no forms or tracking has more limited obligations. We recommend clarifying the required texts with your lawyer and checking the technical side with us.",
+      "q10": "What should cookie consent look like?",
+      "a10": "Non-essential cookies (analytics, advertising) should not run before the user consents; accepting and rejecting should be equally easy, and users should be able to change their choice later. In the audit we technically test whether these cookies load before consent. We use the same approach on our own website.",
+      "q11": "What should mobile apps watch out for under KVKK?",
+      "a11": "The permissions the app requests (location, camera, contacts) should be genuinely needed and explained to the user, and the privacy notice should be reachable inside the app and on the store page. In the audit we check which data the analytics and advertising libraries send where, and how personal data is stored on the device and the server."
     },
     "cta": {
       "title": "Find out where your site stands on KVKK and security",
