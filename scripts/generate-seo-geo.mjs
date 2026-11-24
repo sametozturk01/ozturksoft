@@ -7,7 +7,7 @@ const root = resolve(__dirname, '..');
 const blogDir = resolve(root, 'blog');
 const publicDir = resolve(root, 'public');
 const BASE = 'https://ozturksoft.net';
-const INDEXNOW_KEY = 'a7f3c9e2b1d84f6a8e0c2d5b9f1a3e7c';
+const INDEXNOW_KEY = '831fa507378a69d3567fdd4ad6dab3f4';
 
 function escapeXml(s) {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
