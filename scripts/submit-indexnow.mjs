@@ -15,35 +15,107 @@ import {
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, '..');
 
-const priorityPaths = [
-  '/',
-  '/sss',
-  '/ankara-yapay-zeka-firmasi',
-  '/ankara-yapay-zeka-cozumleri',
-  '/ankara-yazilim-sirketi',
-  '/ankara-ai-asistan',
-  '/ankara-kamu-yapay-zeka',
-  '/blog/ankara-yapay-zeka-firmasi-nasil-secilir-2026',
-  '/blog/ankara-yapay-zeka-firmalari-karsilastirma-2026',
-  '/blog/ankara-llm-entegrasyonu-maliyeti-2026',
-  '/hizmetler',
-  '/blog',
-  '/hakkimizda',
-  '/iletisim',
-  '/en',
-  '/de',
-];
+// Submit only the pages that changed in this deploy. Re-sending the same ~100 URLs on every build
+// wastes Bing's crawl budget and can trip its 429 "potential spam" limit.
+// Builds on Vercel diff against the previous deploy; local builds skip (the Vercel deploy submits).
+// `npm run indexnow -- --all` resubmits the full sitemap by hand.
+import { execSync } from 'child_process';
+import { existsSync, readdirSync } from 'fs';
 
-let extra = [];
-try {
-  const sitemap = readFileSync(resolve(root, 'public/sitemap.xml'), 'utf8');
-  extra = [...sitemap.matchAll(/<loc>(https:\/\/ozturksoft\.net[^<]+)<\/loc>/g)]
-    .map((m) => m[1])
-    .filter((u) => !priorityPaths.some((p) => u === BASE + p || u.endsWith(p)))
-    .slice(0, 80);
-} catch {}
+const args = process.argv.slice(2);
+const fromBuild = args.includes('--from-build');
+const sendAll = args.includes('--all');
 
-const urlList = [...new Set([...priorityPaths.map((p) => BASE + p), ...extra])].slice(0, 100);
+if (fromBuild && !process.env.VERCEL) {
+  console.log('IndexNow: local build — skipped (the Vercel deploy submits changed pages)');
+  process.exit(0);
+}
+
+const git = (cmd) => {
+  try { return execSync(`git ${cmd}`, { cwd: root, stdio: ['ignore', 'pipe', 'ignore'] }).toString(); }
+  catch { return null; }
+};
+
+function sitemapUrls(xml) {
+  return [...(xml || '').matchAll(/<loc>(https:\/\/ozturksoft\.net[^<]+)<\/loc>/g)].map((m) => m[1]);
+}
+
+const rootHtml = readdirSync(root).filter((f) => f.endsWith('.html'));
+const LOCALES = ['en', 'de', 'fr', 'ar', 'ru'];
+const pageUrl = (file) => {
+  if (file === 'index.html') return BASE + '/';
+  return BASE + '/' + file.replace(/\.html$/, '').replace(/\/index$/, '');
+};
+
+function changedUrls(base) {
+  const names = git(`diff --name-status ${base} HEAD`);
+  if (names === null) return null;
+  const urls = new Set();
+  for (const line of names.trim().split('\n').filter(Boolean)) {
+    const [, file] = line.split('\t');
+    if (!file) continue;
+    if (/^[^/]+\.html$/.test(file) && !file.startsWith('__')) {
+      urls.add(pageUrl(file));
+      if (file === 'index.html') LOCALES.forEach((l) => urls.add(`${BASE}/${l}`));
+    } else if (/^blog\/[^/]+\.html$/.test(file) || /^(en|de|fr|ar|ru)\/.+\.html$/.test(file)) {
+      urls.add(pageUrl(file));
+    } else if (/^src\/i18n\/articles\/(.+)-(en|de|fr|ar|ru|tr)\.html$/.test(file)) {
+      const [, article, lang] = file.match(/^src\/i18n\/articles\/(.+)-(\w\w)\.html$/);
+      for (const f of readdirSync(resolve(root, 'blog'))) {
+        const html = readFileSync(resolve(root, 'blog', f), 'utf8');
+        if (html.includes(`data-article="${article}"`)) {
+          urls.add(lang === 'tr' ? `${BASE}/blog/${f.replace(/\.html$/, '')}` : `${BASE}/${lang}/blog/${f.replace(/\.html$/, '')}`);
+        }
+      }
+    } else if (/^src\/i18n\/(tr|en|de|fr|ar|ru)\.json$/.test(file)) {
+      // Find the namespaces whose text changed and the pages that use them
+      let before = {}, after = {};
+      try { before = JSON.parse(git(`show ${base}:${file}`) || '{}'); } catch {}
+      try { after = JSON.parse(readFileSync(resolve(root, file), 'utf8')); } catch {}
+      const changedNs = Object.keys({ ...before, ...after }).filter(
+        (ns) => JSON.stringify(before[ns]) !== JSON.stringify(after[ns])
+      );
+      for (const ns of changedNs) {
+        for (const f of rootHtml) {
+          if (readFileSync(resolve(root, f), 'utf8').includes(`data-i18n="${ns}.`)) urls.add(pageUrl(f));
+        }
+      }
+    } else if (/^scripts\/sss-faq\//.test(file)) {
+      urls.add(`${BASE}/sss`);
+      LOCALES.forEach((l) => urls.add(`${BASE}/${l}/faq`));
+    }
+  }
+  // Pages newly added to the sitemap
+  const oldMap = new Set(sitemapUrls(git(`show ${base}:public/sitemap.xml`)));
+  for (const u of sitemapUrls(readFileSync(resolve(root, 'public/sitemap.xml'), 'utf8'))) {
+    if (!oldMap.has(u)) urls.add(u);
+  }
+  return [...urls];
+}
+
+let urlList;
+if (sendAll) {
+  urlList = sitemapUrls(readFileSync(resolve(root, 'public/sitemap.xml'), 'utf8'));
+} else {
+  const prev = process.env.VERCEL_GIT_PREVIOUS_SHA;
+  const baseArg = args.find((a) => a.startsWith('--base='))?.slice(7);
+  const base = baseArg || (prev && git(`cat-file -e ${prev}^{commit}`) !== null ? prev : 'HEAD~1');
+  urlList = changedUrls(base);
+  if (urlList === null) {
+    console.log(`IndexNow: git history not available (base ${base}) — skipped`);
+    process.exit(0);
+  }
+  console.log(`IndexNow: ${urlList.length} changed URL(s) since ${base.slice(0, 12)}`);
+}
+urlList = [...new Set(urlList)].slice(0, 1000);
+if (!urlList.length) {
+  console.log('IndexNow: nothing changed — skipped');
+  process.exit(0);
+}
+if (args.includes('--dry')) {
+  urlList.forEach((u) => console.log('  ' + u));
+  process.exit(0);
+}
 
 const body = {
   host: HOST,

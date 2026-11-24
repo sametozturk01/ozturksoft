@@ -163,7 +163,17 @@ function hreflangInner(slug, langs) {
   return lines.join('\n');
 }
 
+// Bing flags short meta descriptions; pad the short ones with a localized call to action
+const DESC_TAIL = {
+  en: ' Free discovery call and a written quote.',
+  de: ' Kostenloses Erstgespräch und schriftliches Angebot.',
+  fr: ' Premier échange gratuit et devis écrit.',
+  ar: ' جلسة استكشاف مجانية وعرض سعر مكتوب.',
+  ru: ' Бесплатная консультация и письменное предложение.',
+};
+
 function pageHtml({ lang, locale, slug, trSlug, title, desc, h1, body, rtl }) {
+  if (desc.length < 120 && DESC_TAIL[lang]) desc = desc.replace(/\s*$/, '') + DESC_TAIL[lang];
   const canonical = `${BASE}${locale.home}/${localePath(locale, trSlug)}`;
   const m = META[lang];
   const og = OG_LOCALE[lang] || 'en_US';

@@ -37,11 +37,23 @@ function getPostTitle(lang, articleKey, fallback) {
   return title || fallback;
 }
 
-// Meta description from the translated article's opening paragraph (~155 chars)
+// Bing flags short meta descriptions; pad short ones with a localized pointer to the guide
+const POST_DESC_TAIL = {
+  en: ' Practical 2026 guide with prices from Ozturksoft, Ankara.',
+  de: ' Praxisleitfaden 2026 mit Preisen von Ozturksoft, Ankara.',
+  fr: ' Guide pratique 2026 avec les prix, par Ozturksoft à Ankara.',
+  ar: ' دليل عملي لعام 2026 مع الأسعار من Ozturksoft في أنقرة.',
+  ru: ' Практическое руководство 2026 с ценами от Ozturksoft, Анкара.',
+};
+
+// Meta description from the translated article's opening paragraphs: at least ~120, at most ~158 chars
 function firstParagraph(body) {
-  const m = body.match(/<p[^>]*>([\s\S]*?)<\/p>/);
-  if (!m) return '';
-  const text = m[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+  const paras = [...body.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/g)]
+    .map((m) => m[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim())
+    .filter((t) => t && !/^[⚡💼]/.test(t));
+  if (!paras.length) return '';
+  let text = paras[0];
+  for (let i = 1; i < paras.length && text.length < 120; i++) text += ' ' + paras[i];
   if (text.length <= 158) return text;
   return text.slice(0, 155).replace(/\s+\S*$/, '') + '…';
 }
@@ -61,7 +73,9 @@ function replaceMeta(html, { lang, slug, title, description, articleKey, langs }
 
   let out = html;
   out = out.replace(/<html lang="[^"]*">/, `<html lang="${lang}">`);
-  out = out.replace(/<title>[^<]*<\/title>/, `<title>${title} | Ozturksoft</title>`);
+  // Bing flags titles that are too long; drop the brand suffix on long post titles
+  const fullTitle = title.length > 78 ? title : `${title} | Ozturksoft`;
+  out = out.replace(/<title>[^<]*<\/title>/, `<title>${fullTitle}</title>`);
   out = out.replace(
     /<meta name="description" content="[^"]*">/,
     `<meta name="description" content="${description.replace(/"/g, '&quot;')}">`
@@ -154,7 +168,8 @@ for (const file of readdirSync(sourceBlogDir).filter((f) => f.endsWith('.html'))
     const articlePath = resolve(articlesDir, `${prefix}-${lang}.html`);
     const body = readFileSync(articlePath, 'utf8');
     const title = getPostTitle(lang, articleKey, trTitle);
-    const description = firstParagraph(body) || trDesc;
+    let description = firstParagraph(body) || trDesc;
+    if (description.length < 120 && POST_DESC_TAIL[lang]) description = description.replace(/\s*$/, '') + POST_DESC_TAIL[lang];
 
     const outDir = resolve(distDir, lang, 'blog');
     mkdirSync(outDir, { recursive: true });
