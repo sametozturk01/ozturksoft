@@ -489,7 +489,7 @@
       "placeholderPhone": "05XXXXXXXXX",
       "placeholderDetails": "Zum Beispiel: ein System, das unsere Rechnungen automatisch ausliest, eine Unternehmenswebsite, ein WhatsApp-Chatbot...",
       "kvkkTitle": "DSGVO / KVKK Einwilligung",
-      "kvkkConsent": "Gemäß Gesetz Nr. 6698 willige ich ausdrücklich ein, dass mein Name, meine Telefonnummer und meine Anfrage zur Angebotserstellung und Kontaktaufnahme über die in der Datenschutzerklärung genannten E-Mail- und Hosting-Dienste (Google, Vercel) verarbeitet werden.",
+      "kvkkConsent": "Ich willige ausdrücklich ein, dass meine personenbezogenen Daten gemäß der Datenschutzerklärung verarbeitet werden und Sie mich kontaktieren.",
       "privacyLink": "Datenschutzrichtlinie",
       "privacyText": "gelesen und akzeptiert. *",
       "privacyRequired": "Sie müssen das KVKK/DSGVO-Einwilligungsfeld ankreuzen, bevor Sie das Formular absenden.",

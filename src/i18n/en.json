@@ -489,7 +489,7 @@
       "placeholderPhone": "05XXXXXXXXX",
       "placeholderDetails": "For example: a system that reads our invoices automatically, a corporate website, a WhatsApp chatbot...",
       "kvkkTitle": "GDPR / KVKK Explicit Consent",
-      "kvkkConsent": "Under Law No. 6698, I give explicit consent for my name, phone number and request details to be processed for quotes and contact through the email and hosting services described in the privacy notice (Google, Vercel).",
+      "kvkkConsent": "I give explicit consent for my personal data to be processed under the Privacy Notice and for you to contact me.",
       "privacyLink": "Privacy Policy",
       "privacyText": "read and accepted. *",
       "privacyRequired": "You must check the KVKK/GDPR consent box before submitting the form.",
