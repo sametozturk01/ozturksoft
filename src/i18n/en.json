@@ -633,7 +633,15 @@
       "tender": "AI tender document analysis",
       "softwareCompany": "Ankara software company",
       "spam": "Spam update recovery",
-      "logoNetsis": "Logo / Netsis integration"
+      "logoNetsis": "Logo / Netsis integration",
+      "stock": "Inventory tracking software",
+      "production": "Production tracking software",
+      "fieldService": "Field service software",
+      "maintenance": "Software maintenance and support",
+      "salesAi": "AI customer service",
+      "dashboard": "Reporting dashboards",
+      "saas": "SaaS development",
+      "voiceAi": "AI voice assistant"
     }
   },
   "aiFirmPage": {
@@ -4591,5 +4599,918 @@
       "i6": "Pages you don't recognize, in a foreign language, are showing up on Google under your site's name.",
       "note": "If you see any of these signs, the sooner someone looks at it, the easier the recovery."
     }
+  },
+  "stockPage": {
+    "meta": {
+      "title": "Custom Stock Tracking Software | Barcode & Warehouse | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Stock tracking · Barcode · Warehouse · Orders",
+      "title": "Custom Stock Tracking Software",
+      "desc": "If your stock count never matches your Excel sheet and you have to phone around to find out which product is left in which warehouse, the problem is your stock tracking. We build stock, warehouse and order software around the way you work, and set up barcode counting and the connection to Logo, Netsis or Mikro. Team based in Çankaya, Ankara; free discovery call.",
+      "btn": "Free discovery call"
+    },
+    "stats": {
+      "s1l": "Basic stock and order tracking",
+      "s2l": "Barcode, multiple warehouses and mobile counting",
+      "s3l": "Time for the basic system"
+    },
+    "symptoms": {
+      "title": "Does any of this sound familiar?",
+      "i1": "Whenever we count, the stock in Excel never matches what is on the shelf.",
+      "i2": "We only notice that a product is out of stock after taking the order.",
+      "i3": "We have two warehouses and a shop, and we phone around to find out how many of each product are left where.",
+      "i4": "The same product sells on our website and on marketplaces, stock is updated by hand and we oversell.",
+      "i5": "The stock in our accounting software differs from what is actually in the warehouse.",
+      "i6": "We are looking for warehouse tracking software, but off-the-shelf programs do not fit the way we work.",
+      "note": "If you still keep your stock in Excel, this guide may help before you decide: <a href=\"/blog/excel-yerine-ozel-program-yaptirmak-2026\">Replacing Excel with custom software</a>."
+    },
+    "pricing": {
+      "title": "How much does custom stock tracking software cost? (2026)",
+      "intro": "The price ranges below apply to 2026; the exact price is set in a written quote after the free discovery call.",
+      "monthly": "After delivery, a fixed monthly maintenance fee covers the server, security updates, backups and technical support: 5,000–10,000 TL/month. We take no share of your sales.",
+      "row1": "Basic stock and order tracking",
+      "t1": "6–10 weeks",
+      "d1": "Product records, stock in/out movements, low-stock alerts, order entry and basic reports; your existing Excel list is imported.",
+      "row2": "Barcode, multiple warehouses and mobile counting",
+      "t2": "10–14 weeks",
+      "d2": "Stock in/out by barcode or QR code, transfers between warehouses and shelves, counting by phone and lot or serial number tracking.",
+      "row3": "Stock system connected to Logo/Netsis/Mikro",
+      "t3": "3–5 months",
+      "d3": "A full system that syncs stock, customer/supplier accounts and invoices automatically with your accounting or ERP software, with approval steps and user permissions."
+    },
+    "cards": {
+      "title": "What we build into your stock software",
+      "c1t": "Product and stock records",
+      "c1d": "One product list with variants (colour, size), units, shelf location and minimum stock. Every movement is recorded together with who made it.",
+      "c2t": "Barcode stock tracking",
+      "c2d": "Stock in, out and counts by scanning with a handheld terminal, USB barcode scanner or phone camera. Fewer manual typing errors.",
+      "c3t": "Multiple warehouses and transfers",
+      "c3d": "Stock in several warehouses, shops or vehicles is tracked separately; transfers between them are made with a document.",
+      "c4t": "Orders linked to stock",
+      "c4d": "When an order is entered, stock is reserved; missing items trigger an alert and a purchase suggestion. Shipping status is visible on the same screen.",
+      "c5t": "Mobile counting",
+      "c5d": "Warehouse staff count stock with their phones; differences are posted to stock after approval.",
+      "c6t": "Reports and alerts",
+      "c6d": "Reports on low stock, slow-moving items, stock value per warehouse and movements; Excel export and email alerts if needed."
+    },
+    "integr": {
+      "title": "Works with the systems you already use",
+      "p1": "The new software does not have to replace the systems you use; it is set up to exchange data with them.",
+      "i1": "<strong>Logo and Netsis:</strong> stock, account and invoice data are synced both ways. Details: <a href=\"/logo-netsis-entegrasyon\">Logo and Netsis integration</a>.",
+      "i2": "<strong>Mikro:</strong> stock records and movements are kept identical with Mikro. Details: <a href=\"/mikro-entegrasyon\">Mikro integration</a>.",
+      "i3": "<strong>Excel:</strong> your existing product and stock list is imported; reports can be downloaded as Excel files.",
+      "i4": "<strong>E-commerce and marketplaces:</strong> stock on your own website, Trendyol or Hepsiburada is updated from one place.",
+      "i5": "<strong>API</strong> (automatic data exchange between two programs): connections to a courier, supplier or other software are possible."
+    },
+    "steps": {
+      "title": "How the process works",
+      "s1t": "Free discovery",
+      "s1d": "We look at your warehouse and your current Excel file or software together, and work out where stock goes missing and which connections are needed.",
+      "s2t": "Written scope and quote",
+      "s2d": "Screens, reports, connections, timeline and price are set out in the written quote. Nothing outside the scope is added without your approval.",
+      "s3t": "Design and development",
+      "s3d": "We show you the screens first and start coding after your approval. During development you see a working version every two weeks.",
+      "s4t": "Testing and installation",
+      "s4d": "A trial count is done with your real products, existing data is migrated and the system is installed on your server or the cloud of your choice.",
+      "s5t": "Training and support",
+      "s5d": "Warehouse and office staff are trained. After delivery, maintenance and support continue for a fixed monthly fee."
+    },
+    "notfor": {
+      "title": "Who is this not for?",
+      "p1": "If you have one warehouse, a few hundred products and standard buying and selling, an off-the-shelf stock program or the stock module of your accounting software will cost less; you do not need custom software. If your budget is below 80,000 TL or your way of working is not settled yet, we recommend waiting. We will tell you this openly in the discovery call."
+    },
+    "faq": {
+      "title": "Stock tracking software: frequently asked questions",
+      "q1": "How much does it cost to have stock tracking software built?",
+      "a1": "At 2026 prices, basic stock and order tracking costs 80,000–150,000 TL (6–10 weeks), barcode, multiple warehouses and mobile counting 150,000–250,000 TL (10–14 weeks), and a stock system connected to Logo, Netsis or Mikro 250,000–400,000+ TL (3–5 months). The price depends less on the number of products than on the number of warehouses, connections and your specific rules. The exact price is given in a written quote after the free discovery call.",
+      "q2": "Which companies in Ankara build stock tracking software, and which one is best?",
+      "a2": "There is no single best company for everyone; the right one depends on your business and the software you use. When deciding, check whether they give a written scope, have experience connecting to Logo, Netsis or Mikro, hand over the source code and can support you on site. Ozturksoft is one of these companies: from Çankaya we build stock, warehouse and order software and handle installation and training on site.",
+      "q3": "Should I buy ready-made stock software or have custom software built?",
+      "a3": "For businesses with standard buying and selling and a single warehouse, ready-made software is usually cheaper and sufficient. With multiple warehouses, production-linked stock, marketplace sales or your own approval rules, adapting a ready-made program gets harder, and custom software makes sense. If we see in the discovery call that a ready-made program is enough, we will tell you.",
+      "q4": "Does custom stock software work with Logo, Netsis, Mikro or Excel?",
+      "a4": "Yes. Stock, account and invoice data can be synced automatically with Logo, Netsis and Mikro, and your accounting side stays as it is. Your existing Excel lists are imported, and stock can also be connected to Trendyol, Hepsiburada or your own online shop.",
+      "q5": "How long does it take to build stock tracking software?",
+      "a5": "Basic stock and order tracking takes 6–10 weeks, a system with barcode, multiple warehouses and mobile counting 10–14 weeks, and a stock system connected to Logo, Netsis or Mikro 3–5 months. The timeline is part of the written quote, and you see a working version every two weeks during development.",
+      "q6": "Is my stock data safe and KVKK-compliant? Will we own the source code?",
+      "a6": "Data is stored on your own server or a cloud server of your choice, with user permissions, activity logs and regular backups. If customer or staff data is processed, the system is designed to meet KVKK requirements (Turkey's data protection law). At delivery you receive the source code, the database and server access; this is written in the contract.",
+      "q7": "Who is custom stock software not suitable for?",
+      "a7": "For businesses with one warehouse, a few hundred products and standard buying and selling, a ready-made program or the stock module of their accounting software is more economical. We also advise businesses with a budget below 80,000 TL, or whose way of working is not yet settled, to wait.",
+      "q8": "Is there a monthly cost for the stock software?",
+      "a8": "After delivery there is a fixed maintenance fee of 5,000–10,000 TL/month for the server, security updates, backups and technical support; we take no share of your sales. New feature requests are priced separately with a written quote."
+    },
+    "cta": {
+      "title": "Let's put your stock on one screen",
+      "desc": "In the free discovery call we map your warehouse flow together and tell you honestly whether you need ready-made or custom software. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Get a quote for stock software"
+    },
+    "related": {
+      "custom": "Custom software development",
+      "logo": "Logo and Netsis integration",
+      "mikro": "Mikro integration",
+      "ecommerce": "E-commerce website development",
+      "excel": "Guide: custom software instead of Excel"
+    },
+    "footer": "© 2026 Ozturksoft — Stock Tracking Software, Ankara"
+  },
+  "productionPage": {
+    "meta": {
+      "title": "Production Tracking Software | Work Orders & Factory | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Production tracking · Work orders · Scrap · Quality",
+      "title": "Production Tracking Software",
+      "desc": "If work orders travel on paper and you only find out which order is on which machine by walking onto the shop floor, production tracking software is built for exactly this. We bring work orders, scrap, quality and machine tracking onto one screen, tailored to your factory, and connect it to Logo, Netsis or Mikro. Team based in Çankaya, Ankara; free discovery call.",
+      "btn": "Free discovery call"
+    },
+    "stats": {
+      "s1l": "Work order and production tracking",
+      "s2l": "Quality, scrap, barcode and machine data",
+      "s3l": "Time for the first system"
+    },
+    "symptoms": {
+      "title": "Does any of this sound familiar?",
+      "i1": "Work orders are handed out on paper or via WhatsApp, and nobody knows for sure which ones are finished.",
+      "i2": "When a customer asks “when will my order ship?”, we have to call the production floor.",
+      "i3": "We estimate scrap and waste quantities at the end of the month.",
+      "i4": "We cannot measure how long each machine stands still, or why.",
+      "i5": "Quality control results are in a notebook; when a batch has a problem, we cannot trace it back.",
+      "i6": "The production plan in Excel changes every day and reaches the shop floor too late.",
+      "note": "We have collected the software questions Ankara manufacturers ask most often in our <a href=\"/blog/ankara-sanayi-yazilim-2026\">software guide for Ankara industry</a>."
+    },
+    "pricing": {
+      "title": "How much does production tracking software cost? (2026)",
+      "intro": "The price ranges below apply to 2026; the exact price is set in a written quote after the free discovery call.",
+      "monthly": "After delivery, a fixed monthly maintenance fee covers the server, security updates, backups and technical support: 5,000–10,000 TL/month. We take no share of your sales.",
+      "row1": "Work order and production tracking",
+      "t1": "8–12 weeks",
+      "d1": "Creating work orders, progress per workstation and operator, planned versus actual quantities, production status per customer order and basic reports.",
+      "row2": "Quality, scrap, barcode and machine data",
+      "t2": "3–5 months",
+      "d2": "Quality control forms, scrap and waste records, batch tracking by barcode and automatic collection of counter and downtime data from machines.",
+      "row3": "ERP-connected factory system",
+      "t3": "5–8 months",
+      "d3": "Full factory software in which bills of materials, stock and orders are synced with Logo, Netsis or Mikro, including planning, costing and a management dashboard."
+    },
+    "cards": {
+      "title": "What we build into your production tracking software",
+      "c1t": "Work order tracking",
+      "c1d": "Work orders are created automatically from customer orders and assigned to workstations; operators record start and finish on a tablet or terminal.",
+      "c2t": "Production planning",
+      "c2d": "Which job runs on which machine, and in what order, is planned on screen; changes reach the shop floor immediately.",
+      "c3t": "Machine data and downtime",
+      "c3d": "Counter and run data are collected automatically from suitable machines; operators select the downtime reason, which is then reported.",
+      "c4t": "Quality control",
+      "c4d": "Measurement and inspection forms are filled in digitally; non-conforming products and corrective actions are recorded and traceable by batch.",
+      "c5t": "Scrap and barcode traceability",
+      "c5d": "Scrap and waste are recorded immediately with reason and quantity. Batches and lots are traced by barcode from raw material to finished product.",
+      "c6t": "Management dashboard",
+      "c6d": "Daily output, efficiency, scrap rate and late work orders on one screen; it can also be shown on a TV on the shop floor."
+    },
+    "integr": {
+      "title": "Works with the systems you already use",
+      "p1": "Production software does not replace your accounting or ERP software; it works by connecting to it.",
+      "i1": "<strong>Logo and Netsis:</strong> bills of materials, stock, orders and production slips are transferred automatically. Details: <a href=\"/logo-netsis-entegrasyon\">Logo and Netsis integration</a>.",
+      "i2": "<strong>Mikro:</strong> stock records, bills of materials and production movements are synced with Mikro. Details: <a href=\"/mikro-entegrasyon\">Mikro integration</a>.",
+      "i3": "<strong>Excel:</strong> your existing product, bill-of-materials and planning lists are imported; reports can be downloaded as Excel files.",
+      "i4": "<strong>Machines:</strong> counter and downtime data can be read via the PLC (the machine's control unit) or a sensor. Older machines may need an extra sensor; we check this together during discovery.",
+      "i5": "<strong>API</strong> (automatic data exchange between two programs): connections to a customer portal, supplier system or other software are possible."
+    },
+    "steps": {
+      "title": "How the process works",
+      "s1t": "Free discovery",
+      "s1d": "We walk through your production area on site and review the path a work order takes from customer order to shipment, along with your current software.",
+      "s2t": "Written scope and quote",
+      "s2d": "Screens, reports, connections, timeline and price are set out in the written quote. Nothing outside the scope is added without your approval.",
+      "s3t": "Design and development",
+      "s3d": "We first show you the operator and management screens and start coding after your approval. During development you see a working version every two weeks.",
+      "s4t": "Testing and installation",
+      "s4d": "The system is first tried on a single line or department, then rolled out to the whole factory. Tablets, terminals and barcode devices are installed.",
+      "s5t": "Training and support",
+      "s5d": "Operators, supervisors and office staff receive separate training. After delivery, maintenance and support continue for a fixed monthly fee."
+    },
+    "notfor": {
+      "title": "Who is this not for?",
+      "p1": "For small workshops with a few people, a single product or simple contract manufacturing, a ready-made production module or a well-built Excel file is usually enough. If your budget is below 120,000 TL, or your work order flow still varies from person to person, we recommend clarifying the process first. We will tell you this openly in the discovery call."
+    },
+    "faq": {
+      "title": "Production tracking software: frequently asked questions",
+      "q1": "How much does it cost to have production tracking software built?",
+      "a1": "At 2026 prices, work order and production tracking costs 120,000–220,000 TL (8–12 weeks), a system with quality, scrap, barcode and machine data 220,000–400,000 TL (3–5 months), and an ERP-connected factory system 400,000–750,000+ TL (5–8 months). The price depends on the number of workstations, machine connections and ERP integration. The exact price is given in a written quote after the free discovery call.",
+      "q2": "Which companies in Ankara build production tracking software, and which one is best?",
+      "a2": "There is no single best company for everyone; the right choice depends on your sector, your machines and the ERP you use. Check whether they visit the shop floor, give a written scope, have Logo, Netsis or Mikro experience and hand over the source code. Ozturksoft is one of these companies: we are based in Çankaya and can do on-site discovery and installation for manufacturers in OSTİM, İvedik, Sincan and Ankara Sanayi Odası 1. OSB.",
+      "q3": "Ready-made production software or custom factory software?",
+      "a3": "For companies making standard products whose ERP production module already does the job, a ready-made solution is cheaper and faster. If you produce to order, have multi-step routings, need your own quality forms or machine connections, adapting a ready-made program gets expensive, and custom software makes sense. If we see during discovery that a ready-made solution is enough, we will tell you.",
+      "q4": "Does production tracking software work with Logo, Netsis, Mikro or Excel?",
+      "a4": "Yes. Bills of materials, stock, orders and production slips can be synced automatically with Logo, Netsis and Mikro, and your accounting side stays as it is. Your product, bill-of-materials and planning lists in Excel are imported. Reading data from machines depends on the machine model; we check this together during discovery.",
+      "q5": "How long does it take to set up production tracking software?",
+      "a5": "Work order and production tracking takes 8–12 weeks, a system with quality, scrap, barcode and machine data 3–5 months, and an ERP-connected factory system 5–8 months. We usually start on a single line and then roll out to the whole factory, so the switch happens step by step.",
+      "q6": "Is my production data safe and KVKK-compliant? Will we own the source code?",
+      "a6": "Data is stored on a server in your factory or a cloud server of your choice, with user permissions, activity logs and regular backups. If staff data is processed, the system is designed to meet KVKK requirements (Turkey's data protection law). At delivery you receive the source code, the database and server access; this is written in the contract.",
+      "q7": "Who is production tracking software not suitable for?",
+      "a7": "For small workshops with a few people, a single product or simple contract manufacturing, a ready-made production module or a well-built Excel file is usually enough. We advise businesses with a budget below 120,000 TL, or whose work order flow is not yet settled, to clarify the process first.",
+      "q8": "Is there a monthly cost for production tracking software?",
+      "a8": "After delivery there is a fixed maintenance fee of 5,000–10,000 TL/month for the server, security updates, backups and technical support; we take no share of your sales or production volume. New feature requests are priced separately with a written quote."
+    },
+    "cta": {
+      "title": "Let's bring your shop floor onto a screen",
+      "desc": "In the free discovery we see your production area on site and map your work order flow together. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Get a quote for production software"
+    },
+    "related": {
+      "custom": "Custom software development",
+      "logo": "Logo and Netsis integration",
+      "mikro": "Mikro integration",
+      "automation": "Process automation",
+      "guide": "Software guide for Ankara industry"
+    },
+    "footer": "© 2026 Ozturksoft — Production Tracking Software, Ankara"
+  },
+  "fieldServicePage": {
+    "meta": {
+      "title": "Field Service Management Software Development | Ankara | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Technical service · Field teams · Installation and maintenance",
+      "title": "Custom Field Service Management Software",
+      "desc": "If service forms get lost on paper and you have to phone around to find out where each technician is, your business has outgrown working without software. We build a web panel for the office and a mobile app for the field team: work orders, routes, photos, customer signatures and spare parts in one place. We work from Çankaya, Ankara; the discovery call is free.",
+      "btn": "Free discovery call"
+    },
+    "stats": {
+      "s1l": "Web panel + field app",
+      "s2l": "Routes, signatures, stock and notifications",
+      "s3v": "8–12 weeks",
+      "s3l": "First release delivery"
+    },
+    "pain": {
+      "title": "Does any of this sound familiar?",
+      "i1": "Service forms are filled in on paper and reach the office late, or not at all.",
+      "i2": "You call technicians one by one to find out who is at which customer.",
+      "i3": "When a customer says “nobody came” or “you never installed that part”, you have no photo or signature to show.",
+      "i4": "Nobody knows the spare parts stock in the vans, so the same part is ordered twice.",
+      "i5": "Warranty, periodic maintenance and installation dates live in Excel, and maintenance visits get missed.",
+      "i6": "The job is done but the invoice goes out days later, because the information never reaches accounting."
+    },
+    "pricing": {
+      "title": "How much does field service software cost? (2026)",
+      "intro": "The price ranges below apply to 2026; the exact price is set in a written quote after the free discovery call.",
+      "monthly": "After delivery there is a fixed monthly maintenance fee of TL 5,000–10,000/month (server monitoring, updates, small fixes); we take no share per technician, work order or revenue.",
+      "c1t": "Web panel + field mobile app",
+      "c1time": "8–12 weeks",
+      "c1d": "Creating work orders, assigning technicians, a daily job list on the phone, a digital service form and live status tracking in the office.",
+      "c2t": "Routes, photos, signatures, stock and notifications",
+      "c2time": "3–4 months",
+      "c2d": "Routes on a map, before-and-after photos, on-screen customer signature, spare parts stock per van and warehouse, and SMS or e-mail notifications to customers.",
+      "c3t": "Service system linked to ERP and invoicing",
+      "c3time": "4–6 months",
+      "c3d": "Everything above, plus customer account, stock and invoice links with Logo, Netsis or Mikro, contract maintenance and warranty tracking, and management reports."
+    },
+    "build": {
+      "title": "What does the field service software include?",
+      "c1t": "Work orders and dispatch",
+      "c1d": "A fault report received by phone, web form or e-mail becomes a work order and is assigned to the right technician in one click.",
+      "c2t": "Field team tracking app",
+      "c2d": "Technicians see their daily jobs on the phone and tap “on the way, started, done”; without internet the app stores data and sends it once a connection is back.",
+      "c3t": "Service form and signature app",
+      "c3d": "Work done, parts used and time spent go into the form; the customer signs on screen and a PDF service report is e-mailed automatically.",
+      "c4t": "Photos and location",
+      "c4d": "Before-and-after photos of the installation or fault are attached to the job record with time and location, so you have proof in a dispute.",
+      "c5t": "Spare parts stock",
+      "c5d": "Warehouse and van stock are tracked separately; parts used on a job are deducted automatically and you get an alert when stock runs low.",
+      "c6t": "Installation and maintenance tracking",
+      "c6d": "Reminders for periodic maintenance, warranty expiry and contract customers, a list of devices due for service, and notifications to customers."
+    },
+    "compat": {
+      "title": "Works with your existing systems",
+      "p1": "The most common question is “will it talk to the program we already use?”. Even though the service software is built from scratch, it does not break your current setup:",
+      "i1": "<strong>Logo, Netsis, Mikro:</strong> customer accounts and stock come from there, and the invoice for a finished job lands in accounting as a draft. Details: <a href=\"/logo-netsis-entegrasyon\">Logo and Netsis integration</a>, <a href=\"/mikro-entegrasyon\">Mikro integration</a>.",
+      "i2": "<strong>Excel:</strong> customer lists, device serial numbers and past service records are imported; reports can be downloaded as Excel.",
+      "i3": "<strong>Website or CRM:</strong> requests from the fault form on your site or from your CRM become work orders directly via an API (automatic data exchange between two programs).",
+      "i4": "<strong>WhatsApp:</strong> “technician on the way” messages or appointment reminders can also be sent via WhatsApp Business. Since 15 January 2026 Meta only allows business-scope messages and bots on WhatsApp (support, orders, appointments); general-purpose chat assistants are not permitted."
+    },
+    "steps": {
+      "title": "How does the process work?",
+      "s1t": "Free discovery",
+      "s1d": "We map your service flow together: how faults come in, who assigns them, what goes on the form and how invoices are issued. We review your current paper forms and Excel files.",
+      "s2t": "Written scope and quote",
+      "s2d": "The screens, integrations, number of users, price and delivery date are all set out in a written quote.",
+      "s3t": "Design and development",
+      "s3d": "We first show you screen mock-ups; after your approval we build in stages and show you each stage in a test environment.",
+      "s4t": "Testing and roll-out",
+      "s4d": "We first try the app on real jobs with a few technicians, fix issues, then roll it out to the whole team. The mobile app runs on Android and iPhone.",
+      "s5t": "Training and support",
+      "s5d": "Office and field staff get a short training; after delivery, a fixed monthly maintenance fee covers the server, updates and small fixes."
+    },
+    "notfit": {
+      "title": "Who is this not right for?",
+      "p1": "If you have one or two technicians and a standard workflow, a ready-made service program on a monthly subscription is most likely cheaper and faster, and we will tell you so. Custom software makes sense when your own service form, accounting link, spare parts or contract maintenance rules do not fit a ready-made product. If you need to go live within a month, we are not the right choice either: the first release takes at least 8 weeks."
+    },
+    "faq": {
+      "title": "Field service software: frequently asked questions",
+      "q1": "How much does it cost to have field service tracking software built?",
+      "a1": "For 2026: a web panel and field mobile app costs TL 100,000–180,000 (8–12 weeks); with routes, photos, signatures, spare parts stock and customer notifications TL 180,000–300,000 (3–4 months); a service system linked to ERP and invoicing TL 300,000–450,000 or more (4–6 months). The exact price is set in a written quote after the free discovery call.",
+      "q2": "Which companies in Ankara build field service software, and which is the best?",
+      "a2": "There is no single “best” company for everyone; the right choice depends on your service flow and the accounting software you use. When comparing, look at the written scope, whether the source code is handed over to you, experience with Logo, Netsis or Mikro links, and the monthly fee after delivery. Ozturksoft is one of the companies in Çankaya, Ankara that builds the web panel and the field mobile app together.",
+      "q3": "Should I buy ready-made service software or have custom software built?",
+      "a3": "For a few technicians and a standard workflow, a ready-made program is usually cheaper and faster. Custom software makes sense if your own service form, contract maintenance rules, spare parts structure or accounting link do not fit a ready-made program, or if per-user subscriptions get expensive as the team grows.",
+      "q4": "Does the service software work with Logo, Netsis, Mikro or Excel?",
+      "a4": "Yes. Customer and stock cards are taken from Logo, Netsis or Mikro, and the invoice for a finished job is transferred to the accounting software. Customer, device and past service records in Excel are imported at the start, and the fault form on your website can also be connected via API.",
+      "q5": "How long does it take to build a field team tracking app?",
+      "a5": "The first release with a web panel and mobile app is delivered in 8–12 weeks, the version with routes, photos, signatures, stock and notifications in 3–4 months, and the system linked to ERP and invoicing in 4–6 months. Timeline and delivery date are stated in the written quote.",
+      "q6": "Is my customer data safe and KVKK-compliant? Do we own the source code?",
+      "a6": "Data is kept on the server you choose over an encrypted connection, and each user sees only the records they are authorised for. For personal data such as photos, signatures and technician location, the KVKK privacy notice and retention periods are defined together with you. At delivery you receive the source code, database and server access; this is written in the contract.",
+      "q7": "Who should not have custom field service software built?",
+      "a7": "If you have one or two technicians and a standard workflow, a ready-made program on a monthly subscription is most likely cheaper. Custom software is also not a fit if you need to go live within a month, because the first release takes at least 8 weeks. In these cases we recommend a ready-made solution.",
+      "q8": "Is there a monthly cost for the service software?",
+      "a8": "After delivery there is a fixed monthly maintenance fee of TL 5,000–10,000, covering server monitoring, updates and small fixes. We take no share based on the number of technicians, work orders or revenue. Third-party services such as SMS sending are paid separately according to usage."
+    },
+    "cta": {
+      "title": "Let's map your service flow together",
+      "desc": "In the free discovery call we review your current forms and Excel files and tell you the scope and price range that fit you. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Get a quote"
+    },
+    "related": {
+      "r1": "Mobile app development",
+      "r2": "Logo and Netsis integration",
+      "r3": "Custom CRM software",
+      "r4": "Custom software development",
+      "r5": "Process automation"
+    },
+    "footer": {
+      "text": "© 2026 Ozturksoft — Field Service Management Software, Ankara"
+    }
+  },
+  "maintenancePage": {
+    "meta": {
+      "title": "Software Maintenance and Support Services | Ankara | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Maintenance contract · Website maintenance · Ankara",
+      "title": "Software Maintenance and Support Services",
+      "desc": "If the company that built your software no longer returns calls, your website has not been updated for years, or you do not know whom to contact when something breaks, you are not alone. We take over your existing software and website under a monthly maintenance contract, even if another company built it: updates, backups, monitoring and ongoing development. We work from Çankaya, Ankara; the discovery call is free.",
+      "btn": "Free discovery call"
+    },
+    "stats": {
+      "s1v": "TL 5,000 – 10,000/month",
+      "s1l": "Basic maintenance",
+      "s2v": "TL 10,000 – 25,000/month",
+      "s2l": "Standard support",
+      "s3v": "Monthly",
+      "s3l": "Contract term, no quote per task"
+    },
+    "pain": {
+      "title": "Does any of this sound familiar?",
+      "i1": "The company that built the software closed, quit, or now takes days to call back.",
+      "i2": "WordPress, plugins or the server have not been updated for years; nobody touches them for fear of breaking something.",
+      "i3": "One morning the site is down and you hear about it from a customer.",
+      "i4": "Nobody knows whether backups are taken, or where they are stored.",
+      "i5": "Even a small change means a separate quote and weeks of waiting every time.",
+      "i6": "Source code, server and domain passwords are stuck with the old supplier or a former employee."
+    },
+    "pricing": {
+      "title": "Software maintenance contract prices (2026)",
+      "intro": "The price ranges below apply to 2026; the exact price is set in a written quote after the free discovery call.",
+      "c1t": "Basic maintenance",
+      "c1a": "TL 5,000 – 10,000/month",
+      "c1d": "Security and software updates, regular backups with restore tests, and automatic monitoring of the site and server (if it goes down, the alert comes to us).",
+      "c2t": "Standard support",
+      "c2a": "TL 10,000 – 25,000/month",
+      "c2d": "Basic maintenance plus a set number of development hours each month (small changes, new fields, reports) and a response time written into the contract.",
+      "c3t": "Enterprise support",
+      "c3a": "TL 25,000 – 60,000+/month",
+      "c3d": "Priority response for critical systems, a regular development schedule, a monthly report and review meeting.",
+      "monthlyType": "Monthly contract",
+      "review": "<strong>Initial system review (one-time): TL 15,000–40,000.</strong> Before we take over code we do not know, we document the state of the code, security gaps, backups and missing documentation in a written report; the monthly plan is finalised based on this report. We take no share of your sales or revenue."
+    },
+    "build": {
+      "title": "What is included in maintenance and support?",
+      "c1t": "Updates",
+      "c1d": "Framework, plugin, library and server updates are tested in a staging environment first, then applied to the live system.",
+      "c2t": "Backups",
+      "c2d": "Database and files are backed up regularly, copies are stored in a separate location, and restores are tested at set intervals.",
+      "c3t": "Monitoring",
+      "c3d": "If the site or app goes down, slows down, or its SSL certificate (the padlock in the address bar) is about to expire, the alert comes to us first.",
+      "c4t": "Security",
+      "c4d": "Vulnerability scans, removal of unused accounts and old passwords, and monitoring of suspicious login attempts.",
+      "c5t": "Bug fixes and small improvements",
+      "c5d": "Bugs you report and small changes are covered by the monthly development hours in your plan; every task and the time spent are reported.",
+      "c6t": "Single point of contact",
+      "c6d": "Requests come in through one support channel and you can see the status of each one. Response and resolution times are written into the contract in hours."
+    },
+    "compat": {
+      "title": "We also take over systems built by other companies",
+      "p1": "It does not matter that we did not write the software; if access to the source code and server can be provided, we can take over its maintenance:",
+      "i1": "<strong>Websites:</strong> WordPress and WooCommerce sites as well as custom-built PHP, .NET, Node.js or Python applications.",
+      "i2": "<strong>Logo, Netsis, Mikro and Excel links:</strong> monitoring integrations that exchange data with your accounting software and repairing broken connections.",
+      "i3": "<strong>E-commerce and marketplaces:</strong> Trendyol, Hepsiburada and Amazon integrations, payment gateway updates.",
+      "i4": "<strong>Mobile apps and APIs:</strong> store updates for Android and iPhone apps and monitoring of APIs (the connections through which programs send data to each other).",
+      "i5": "If the project was left unfinished, it may need to be completed first; in that case we start with our <a href=\"/yarim-kalan-yazilim-projesi\">unfinished software project</a> service."
+    },
+    "steps": {
+      "title": "How does maintenance start?",
+      "s1t": "Free discovery",
+      "s1d": "We talk through which systems you have, who built them, where they run and what problems you are facing now.",
+      "s2t": "Review, written scope and quote",
+      "s2d": "If needed, a one-time review covers the code, server and backups. The plan, monthly hours, response times and out-of-scope work are set out in a written quote.",
+      "s3t": "Handover and fixes",
+      "s3d": "Access rights and passwords are moved to your account, missing documentation is written and urgent issues found in the review are fixed.",
+      "s4t": "Testing and monitoring setup",
+      "s4d": "A staging environment, automatic backups and monitoring are set up; every update is tested there first. For more thorough testing, our <a href=\"/qa-test-hizmeti\">QA testing service</a> can be added.",
+      "s5t": "Monthly support and reporting",
+      "s5d": "Every month we report the work done, hours used, and backup and update status; new needs are prioritised together."
+    },
+    "notfit": {
+      "title": "Who is this not right for?",
+      "p1": "If you have a fully static brochure site with few visitors that changes once or twice a year, a monthly maintenance contract may be unnecessary; your hosting provider's automatic backups plus one-off work when needed is cheaper. We also cannot maintain a system whose source code and server are completely inaccessible; access has to be recovered first. If all you need is “tell me when the site goes down”, ready-made monitoring tools may be enough."
+    },
+    "faq": {
+      "title": "Software maintenance and support: frequently asked questions",
+      "q1": "How much does software maintenance and support cost per month?",
+      "a1": "For 2026: basic maintenance (updates, backups, monitoring) costs TL 5,000–10,000 per month, standard support with monthly development hours and a set response time TL 10,000–25,000, and enterprise support with priority response and regular development TL 25,000–60,000 or more. The one-time review before we take over unfamiliar code costs TL 15,000–40,000.",
+      "q2": "I am looking for a software support company in Ankara. Which one is the best?",
+      "a2": "There is no single “best” company for everyone; what matters is what the contract says. Check that response and resolution times are written in hours, that monthly hours and out-of-scope work are clear, that you get regular reports, and that all access stays with you when the contract ends. Ozturksoft is one of the companies in Çankaya, Ankara that also takes over systems built by others.",
+      "q3": "Is my hosting provider's maintenance package enough, or do I need a software maintenance contract?",
+      "a3": "For a standard WordPress site, your hosting provider's automatic update and backup package may be enough. If you have a custom-built system, an accounting or marketplace integration, or regular change requests, you need a software maintenance contract with a team that understands the code; the hosting provider protects the server, not your software.",
+      "q4": "Do you maintain software built by another company, or Logo, Netsis and Mikro integrations?",
+      "a4": "Yes. If access to the source code and server can be provided, we take over maintenance of websites, applications and Logo, Netsis, Mikro, Excel or marketplace integrations built by other companies. We first document the state of the code in a written report through a one-time review costing TL 15,000–40,000.",
+      "q5": "How soon does a maintenance contract start, and how quickly are problems solved?",
+      "a5": "For a system we already know, maintenance starts once the contract is signed; for code we do not know, the initial review comes first. Response and resolution times are written into the contract in hours and depend on the plan; with enterprise support your requests have priority.",
+      "q6": "Is my data safe and KVKK-compliant during maintenance? Who keeps the source code?",
+      "a6": "Access is used only by the team doing the work, and confidentiality and KVKK data processing terms are written into the contract. Source code, database and server stay in your account; if the contract ends, all access and the documentation we prepared are handed over to you. This is also written in the contract.",
+      "q7": "Who does not need a software maintenance contract?",
+      "a7": "If you have a static brochure site with few visitors that changes once or twice a year, your hosting provider's automatic backups plus one-off work when needed is cheaper. A system whose source code and server cannot be accessed cannot be maintained either; access has to be recovered first.",
+      "q8": "Are there extra costs on top of the monthly maintenance fee?",
+      "a8": "The monthly fee is fixed and the included hours are written into the contract; we take no share of sales or revenue. Larger developments that exceed the plan's hours are submitted for your approval in a written quote beforehand. Third-party costs such as the server, domain name and paid plugin licences are paid directly from your own account."
+    },
+    "cta": {
+      "title": "Let's review your current system together",
+      "desc": "In the free discovery call we listen to how your system is doing and tell you which plan is enough and whether an initial review is needed. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Get a maintenance quote"
+    },
+    "related": {
+      "r1": "Unfinished software project",
+      "r2": "QA testing service",
+      "r3": "Software company in Ankara",
+      "r4": "Custom software development",
+      "r5": "Website development"
+    },
+    "footer": {
+      "text": "© 2026 Ozturksoft — Software Maintenance and Support, Ankara"
+    }
+  },
+  "salesAiPage": {
+    "meta": {
+      "title": "Automated Customer Service and AI for Sales | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Customer service · Sales · WhatsApp · CRM",
+      "title": "Automated Customer Service and AI for Sales",
+      "desc": "If your team answers the same questions every day and enquiries that arrive after hours go unanswered, AI-powered customer service takes over much of that load. We build an assistant that answers on your website and on WhatsApp using your company information and passes sales-ready customers to your team. Team based in Çankaya, Ankara; the discovery call is free.",
+      "btn": "Free discovery call"
+    },
+    "stats": {
+      "s1l": "Customer service assistant",
+      "s2l": "Sales assistant + CRM",
+      "s3v": "3–5 weeks",
+      "s3l": "Until the first assistant goes live"
+    },
+    "pain": {
+      "title": "Does any of this sound familiar?",
+      "intro": "According to TÜİK (Turkish Statistical Institute) data, marketing and sales is the most common area of AI use among AI-using enterprises in Turkey (46.5%). AI in sales and marketing is no longer an experiment but everyday work. If any of the following happens in your company, you are in the right place:",
+      "i1": "We reply to WhatsApp messages late, and in the meantime the customer writes to a competitor.",
+      "i2": "We answer the same questions about prices, shipping, returns and opening hours by hand all day long.",
+      "i3": "Enquiries that arrive in the evening or at the weekend wait until the next morning.",
+      "i4": "We cannot tell which enquiries are real buyers and which only want information.",
+      "i5": "Writing quotes and follow-up e-mails eats up the sales team's day.",
+      "i6": "We do not know how many enquiries come from which channel or how many turn into sales."
+    },
+    "pricing": {
+      "title": "Automated customer service pricing (2026)",
+      "intro": "The price ranges below apply to 2026; the exact price is set in a written quote after the free discovery call.",
+      "row1": "AI customer service assistant",
+      "t1": "3–5 weeks",
+      "d1": "An assistant on your website and/or WhatsApp that answers from your company documents and FAQs and hands the conversation over to an employee when needed.",
+      "row2": "Sales assistant + CRM integration",
+      "t2": "6–10 weeks",
+      "d2": "In addition to the customer service assistant, a system that scores enquiries, assigns them to the right sales representative, drafts quotes and e-mails and creates records in your CRM.",
+      "row3": "Enterprise multichannel system",
+      "t3": "3–5 months",
+      "d3": "An enterprise setup that brings web, WhatsApp, e-mail and call-centre records together in one place, integrated with your ERP, CRM and permission structure, with reporting.",
+      "monthly": "The monthly AI usage fee is calculated separately based on usage (the API fee, i.e. the per-message usage charge paid to the model provider). In addition, fixed monthly maintenance and support costs 5,000–10,000 TL/month. We do not take a share of your sales."
+    },
+    "cards": {
+      "title": "What we build",
+      "c1t": "Web and WhatsApp customer assistant",
+      "c1d": "Answers 24/7 on your website and your WhatsApp Business number. Under Meta's rule in force since 15 January 2026, the WhatsApp assistant only talks about your business (support, orders, appointments); it is not set up as a general-purpose chatbot.",
+      "c2t": "Answers from your company documents",
+      "c2d": "We teach the assistant your price list, catalogue, terms and FAQs. The assistant does not make up answers; if the information is not in your documents, it says so and passes the conversation to an employee.",
+      "c3t": "Lead scoring and routing to sales",
+      "c3d": "Assesses each enquiry with a few questions on budget, need and urgency (lead qualification, i.e. sorting out real prospective buyers) and notifies the right sales representative immediately about hot leads.",
+      "c4t": "Quote and e-mail drafts",
+      "c4d": "Prepares draft quotes, follow-up e-mails and meeting summaries from conversation notes. The decision to send always stays with your team.",
+      "c5t": "CRM integration",
+      "c5d": "Every conversation lands in your CRM (customer tracking software) as a customer record and an opportunity. If you do not have a CRM yet, we can also build <a href=\"/crm-yazilim-yaptirmak\">CRM software</a> for you.",
+      "c6t": "Reporting",
+      "c6d": "Enquiries per channel, response time, conversations handed over to employees and enquiries that turned into sales, all in one report."
+    },
+    "compat": {
+      "title": "Works with your existing systems",
+      "p1": "When companies start working with AI, the most common question is whether the new system will talk to the programs they already use. We do not move you to a new platform; we connect the assistant to your existing setup:",
+      "i1": "<strong>WhatsApp Business API</strong> and the live chat window on your website",
+      "i2": "<strong>CRM</strong>: customer and opportunity records via your CRM's API (the data connection between programs)",
+      "i3": "<strong>Logo, Netsis, Mikro</strong>: stock, price and order status lookups",
+      "i4": "<strong>E-commerce and marketplaces</strong>: order and shipping status",
+      "i5": "<strong>Excel and PDF documents</strong>: price lists, catalogues and FAQ content"
+    },
+    "steps": {
+      "title": "How the process works",
+      "s1t": "Free discovery",
+      "s1d": "Together we look at which questions come in through which channel, how your sales team works and which programs you use.",
+      "s2t": "Written scope and quote",
+      "s2d": "What the assistant answers and what it hands over to staff, which systems it connects to, the timeline and the price are all set out in a written quote.",
+      "s3t": "Design and development",
+      "s3d": "The assistant learns your documents, and the conversation flows and CRM connection are set up. We try out interim versions together with you.",
+      "s4t": "Testing and launch",
+      "s4d": "The assistant is tested with real customer questions, wrong or incomplete answers are corrected, and then it goes live.",
+      "s5t": "Training and support",
+      "s5d": "We show your team how to update the assistant's knowledge and how to handle handed-over conversations; with monthly maintenance we keep an eye on answer quality."
+    },
+    "fit": {
+      "title": "Who is this not for?",
+      "p1": "If you receive a few dozen messages a month and most questions are standard, the built-in automatic replies of the WhatsApp Business app or a ready-made chatbot on a monthly subscription may be cheaper and sufficient. If your sales process is entirely face to face, or you do not yet have documents such as a price list, catalogue and FAQs for the answers to rely on, we recommend preparing that foundation first.",
+      "p2": "<strong>An honest note:</strong> An AI assistant does not replace your team; it reduces repetitive work, while decisions and customer relationships stay with your sales team."
+    },
+    "faq": {
+      "title": "Automated customer service: frequently asked questions",
+      "q1": "How much does an automated customer service system cost?",
+      "a1": "At 2026 prices, an AI customer service assistant costs 40,000–80,000 TL (3–5 weeks), a sales assistant + CRM integration 80,000–200,000 TL (6–10 weeks) and an enterprise multichannel system 200,000–400,000+ TL (3–5 months). The monthly AI usage fee is calculated separately based on usage. The exact price is set in a written quote after the free discovery call.",
+      "q2": "Which companies in Ankara build AI customer service systems, and which one is the best?",
+      "a2": "There is no single “best” company for everyone. When choosing, check whether the company does WhatsApp and CRM integration, whether the answers are based on your own documents, who will own the source code and data, and whether support continues after launch. Ozturksoft, in Çankaya, Ankara, is one of the companies that build these systems with businesses' own data and programs.",
+      "q3": "Should I buy a ready-made chatbot or have a custom AI assistant built?",
+      "a3": "If the number of questions is small and they are standard, a ready-made chatbot subscription is more economical. If the assistant needs to pull stock, order or customer information from your own systems, distribute enquiries to the sales team according to your rules, or keep the data on your side, a custom setup is the better choice. In the discovery call we compare both options and tell you plainly.",
+      "q4": "Will the AI assistant work with my Logo, Netsis, Mikro or CRM?",
+      "a4": "In most cases, yes. Stock, prices and order status can be read from Logo, Netsis and Mikro; customer and opportunity records can be created in your CRM via its API; Excel and PDF documents serve as knowledge sources. We check the version of your software and its connection options during the discovery call.",
+      "q5": "How long does it take to set up AI customer service?",
+      "a5": "A customer service assistant goes live in 3–5 weeks, a sales assistant with CRM integration in 6–10 weeks and an enterprise multichannel system in 3–5 months. The timeline depends mostly on how ready your documents are and how many systems need to be connected.",
+      "q6": "Is my customer data safe and KVKK-compliant? Do we own the source code?",
+      "a6": "Conversations are stored on your server or in the cloud of your choice, no more personal data than necessary is sent to the model provider, and the KVKK privacy notice is built into the flow. Customers are clearly told that they are talking to an AI assistant. At delivery you receive the source code, the database and server access; this is written in the contract.",
+      "q7": "Who is automated customer service not suitable for?",
+      "a7": "For businesses that receive few messages a month and get standard questions, the built-in automatic replies of WhatsApp Business or a ready-made chatbot may be enough. If the documents and information the answers should rely on do not exist yet, they need to be prepared first. The assistant does not replace the sales team; it reduces repetitive work.",
+      "q8": "Is there a monthly cost for the AI assistant?",
+      "a8": "Yes. The monthly AI usage fee is calculated separately based on usage; it grows with the number of messages, and we estimate the amount together in the discovery call. With the WhatsApp Business API, Meta's own message fees also apply separately. On top of that, fixed monthly maintenance and support costs 5,000–10,000 TL/month; we do not take a share of your sales."
+    },
+    "cta": {
+      "title": "Let's lighten your customer service workload with AI",
+      "desc": "In the free discovery call we review your 10 most frequent customer questions together and tell you which ones can be answered automatically. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Get a quote"
+    },
+    "related": {
+      "r1": "Chatbot development",
+      "r2": "WhatsApp chatbot",
+      "r3": "CRM software",
+      "r4": "AI agent",
+      "r5": "Management dashboard and reporting"
+    },
+    "footer": "© 2026 Ozturksoft — Automated Customer Service and AI for Sales, Ankara"
+  },
+  "dashboardPage": {
+    "meta": {
+      "title": "Custom Management Dashboard and Reporting | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Dashboard · Reporting · Business intelligence (BI)",
+      "title": "Custom Management Dashboard Development",
+      "desc": "If your sales sit in Logo, your customers in the CRM, your orders on marketplaces and your targets in Excel, and preparing the month-end report takes days, we build a reporting system that brings this data together on one screen. The figures update automatically every day and reports arrive in your inbox. Team based in Çankaya, Ankara; the discovery call is free.",
+      "btn": "Free discovery call"
+    },
+    "stats": {
+      "s1l": "Single-source dashboard",
+      "s2l": "Multi-source dashboard",
+      "s3v": "3–5 weeks",
+      "s3l": "Delivery of the first dashboard"
+    },
+    "pain": {
+      "title": "Does any of this sound familiar?",
+      "i1": "To prepare the month-end report, we copy data from three different programs into Excel.",
+      "i2": "To answer “How much did we sell today?” someone has to call accounting.",
+      "i3": "The revenue in Logo and the sales in the e-commerce panel do not match.",
+      "i4": "We cannot clearly see which product, branch or sales representative is actually profitable.",
+      "i5": "Everyone gets the same reports; a branch manager sees the figures of the entire company.",
+      "i6": "We want to see all our data on one screen but do not know where to start."
+    },
+    "pricing": {
+      "title": "Dashboard development pricing (2026)",
+      "intro": "The price ranges below apply to 2026; the exact price is set in a written quote after the free discovery call.",
+      "row1": "Single-source management dashboard",
+      "t1": "3–5 weeks",
+      "d1": "A dashboard that is updated every day and shows sales, stock and collection figures based on data from a single program (for example Logo or your online shop).",
+      "row2": "Multi-source dashboard (ERP + CRM + e-commerce)",
+      "t2": "6–10 weeks",
+      "d2": "A management dashboard that combines ERP, CRM, e-commerce/marketplace and Excel data, with role-based access and automatic e-mail reports.",
+      "row3": "AI-powered reporting and forecasting",
+      "t3": "3–4 months",
+      "d3": "In addition to the multi-source dashboard, a system that summarises the figures in plain sentences, forecasts sales and stock, and flags unusual changes.",
+      "monthly": "After launch, fixed monthly maintenance and support costs 5,000–10,000 TL/month (server monitoring, keeping data connections running, small report changes). In the AI-powered package, the monthly AI usage fee is calculated separately based on usage. We do not take a share of your sales."
+    },
+    "cards": {
+      "title": "What we build",
+      "c1t": "Combining data sources",
+      "c1d": "We collect Logo, Netsis, Mikro, CRM, e-commerce, marketplace and Excel data in a single database and match the same customer or product across different programs.",
+      "c2t": "Management screen",
+      "c2d": "Revenue, profit, collections, stock and target achievement on one screen, filterable by date, branch, product or sales rep. It also opens on your phone.",
+      "c3t": "Automatic e-mail reports",
+      "c3d": "The daily sales summary, weekly performance and month-end report arrive in your inbox automatically at the time you choose.",
+      "c4t": "Role-based access",
+      "c4d": "The general manager sees the whole company, a branch manager sees their own branch, and a sales rep sees only their own customers.",
+      "c5t": "Alerts",
+      "c5d": "Sends a notification to the right person when stock falls to a critical level, a payment is overdue or daily sales fall below target.",
+      "c6t": "AI summaries and forecasts (optional)",
+      "c6d": "Summarises the figures in plain sentences such as “Sales this week are below last week because two products ran out of stock” and forecasts sales and stock based on historical data."
+    },
+    "compat": {
+      "title": "Works with your existing systems",
+      "p1": "You do not need to buy a new program. The dashboard reads data from your existing programs and does not write data back to them:",
+      "i1": "<strong>Logo, Netsis, Mikro</strong>: sales, customer account, stock and collection data (<a href=\"/logo-netsis-entegrasyon\">Logo and Netsis integration</a>, <a href=\"/mikro-entegrasyon\">Mikro integration</a>)",
+      "i2": "<strong>CRM</strong>: customer, opportunity and sales rep data",
+      "i3": "<strong>E-commerce and marketplaces</strong>: orders from your own shop and from Trendyol, Hepsiburada and Amazon",
+      "i4": "<strong>Excel and Google Sheets</strong>: targets, budgets and manually kept spreadsheets",
+      "i5": "Other software that offers an <strong>API</strong> (a data connection between programs)"
+    },
+    "steps": {
+      "title": "How the process works",
+      "s1t": "Free discovery",
+      "s1d": "Together we define which figures you want to see every day, which programs hold the data and who will use the reports.",
+      "s2t": "Written scope and quote",
+      "s2d": "The data sources to connect, the indicators, user roles, timeline and price are set out in a written quote.",
+      "s3t": "Design and development",
+      "s3d": "The data connections are built, the figures are checked against your previous reports, and the screen design is shaped together with you.",
+      "s4t": "Testing and launch",
+      "s4d": "For a while the dashboard runs with real data in parallel to your existing reports; once every figure matches, it is installed on your server or in the cloud.",
+      "s5t": "Training and support",
+      "s5d": "Managers and staff are trained to use it; monthly maintenance keeps the data connections and reports running."
+    },
+    "fit": {
+      "title": "Who is this not for?",
+      "p1": "If all your data is in one program and its reports meet your needs, do not spend money on a new dashboard: the program's built-in reports or a ready-made BI (business intelligence) tool such as Power BI or Looker Studio may be enough. If your data is not entered consistently, a dashboard will only show the wrong figures faster; data entry needs to be fixed first.",
+      "p2": "<strong>When does a custom dashboard make sense?</strong> When data is spread across several programs, when you combine figures by hand every day or every month, or when different people need to see different figures."
+    },
+    "faq": {
+      "title": "Management dashboards and reporting: frequently asked questions",
+      "q1": "How much does it cost to have a management dashboard built?",
+      "a1": "At 2026 prices, a single-source management dashboard costs 40,000–80,000 TL (3–5 weeks), a multi-source dashboard combining ERP + CRM + e-commerce data 80,000–180,000 TL (6–10 weeks), and AI-powered reporting and forecasting 180,000–350,000+ TL (3–4 months). The exact price is set in a written quote after the free discovery call.",
+      "q2": "Which companies in Ankara build dashboards and reporting systems, and which one is the best?",
+      "a2": "There is no single “best” company for everyone. Check whether the company can pull data from programs such as Logo, Netsis or Mikro, whether it verifies the figures against your previous reports, who will own the source code and whether it provides support after delivery. Ozturksoft, in Çankaya, Ankara, is one of the companies that build management dashboards connected to businesses' own programs.",
+      "q3": "Should I use a ready-made tool like Power BI or have a custom management dashboard built?",
+      "a3": "If your data is clean and in a single source, and you have an employee who can build the reports, ready-made tools such as Power BI or Looker Studio are more economical. If the data is spread across many programs, or you need role-based access, automatic e-mail reports or calculations specific to your company, a custom dashboard removes more manual work. In the discovery call we compare both options and tell you plainly.",
+      "q4": "Will the dashboard work with my Logo, Netsis, Mikro and Excel data?",
+      "a4": "Yes. Sales, customer account, stock and collection data are read from Logo, Netsis and Mikro; CRM, online shop and marketplace orders are added via API, and Excel sheets via file import. The dashboard does not write anything to your existing programs; it only reads. We check your software version during the discovery call.",
+      "q5": "How long does it take to set up a reporting system?",
+      "a5": "A single-source dashboard is delivered in 3–5 weeks, a multi-source dashboard in 6–10 weeks and AI-powered reporting and forecasting in 3–4 months. The timeline depends mostly on the number of sources to connect and how clean the data is.",
+      "q6": "Is my company data safe and KVKK-compliant? Do we own the source code?",
+      "a6": "The dashboard runs on your server or in the cloud of your choice, everyone sees only the data they are authorised to see, and access is logged. Personal data is masked where necessary. At delivery you receive the source code, the database and server access; this is written in the contract.",
+      "q7": "Who is a management dashboard not suitable for?",
+      "a7": "If all your data is in one program and its reports are sufficient, the program's built-in reports or a ready-made BI tool will do the job more cheaply. If data entry is inconsistent, that needs to be fixed first; otherwise the dashboard will show wrong figures.",
+      "q8": "Is there a monthly cost for the dashboard?",
+      "a8": "Fixed monthly maintenance and support costs 5,000–10,000 TL/month and covers keeping the data connections running, server monitoring and small report changes. If AI summaries are used, the monthly AI usage fee is calculated separately based on usage. We do not take a share of your sales."
+    },
+    "cta": {
+      "title": "Let's put all your figures on one screen",
+      "desc": "In the free discovery call we work out together the 5–10 figures you want to see every day and where that data lives. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Get a quote"
+    },
+    "related": {
+      "r1": "Logo and Netsis integration",
+      "r2": "Mikro integration",
+      "r3": "CRM software",
+      "r4": "E-commerce website",
+      "r5": "Automated customer service"
+    },
+    "footer": "© 2026 Ozturksoft — Custom Management Dashboard Development, Ankara"
+  },
+  "saasPage": {
+    "meta": {
+      "title": "Build a SaaS Product | MVP & Subscription Software | Ozturksoft"
+    },
+    "hero": {
+      "badge": "SaaS · Subscription software development · MVP · Web application",
+      "title": "Have Your SaaS Product Built",
+      "desc": "Do you have a software idea you want to sell to customers as a monthly subscription, but don't know where to start or what it will cost? We turn your idea first into a first sellable version (MVP), then into a multi-customer product with subscription billing; the source code is yours. Team in Çankaya, Ankara; the discovery call is free.",
+      "btn": "Free discovery call"
+    },
+    "stats": {
+      "s1l": "MVP (first sellable version)",
+      "s2l": "Full product",
+      "s3v": "3–4 months",
+      "s3l": "MVP timeline"
+    },
+    "pain": {
+      "title": "Does any of this sound familiar?",
+      "i1": "You have a software idea and think “I could sell this as a subscription”, but you don't know what it costs to have a web application built.",
+      "i2": "You want to sell a tool you use inside your company to other businesses as well.",
+      "i3": "You want to move a service you run with Excel and off-the-shelf tools onto a platform where customers log in themselves.",
+      "i4": "You started with a freelancer, the project stalled, or you don't have the source code.",
+      "i5": "You need to show a working product (MVP) to investors or for a grant application.",
+      "i6": "Once subscription payments, free trials, invoicing and user permissions came in, you realised the job is bigger than expected."
+    },
+    "pricing": {
+      "title": "How much does it cost to have SaaS software built? (2026)",
+      "intro": "The price ranges below apply to 2026; the exact price is set in a written quote after the free discovery call.",
+      "c1t": "MVP (first sellable version)",
+      "c1time": "3–4 months",
+      "c1d": "One core workflow, user login, a basic admin screen and first payments: a version you can sell to real customers and collect feedback with.",
+      "c2t": "Full product",
+      "c2time": "5–8 months",
+      "c2d": "Multi-tenant architecture (each customer company's data kept separate), subscriptions and automatic billing, admin panel, roles and reports.",
+      "c3t": "Monthly development and maintenance",
+      "c3amt": "Based on quote",
+      "c3time": "After launch, monthly",
+      "c3d": "Security updates, bug fixes, backups and new features based on customer feedback; the scope is agreed in writing every month.",
+      "monthly": "Server, domain and payment-provider fees are paid from your own accounts; we take no share of your subscription revenue or sales.",
+      "support": "If your product qualifies as R&amp;D, part of the cost may be covered by public support programmes: <a href=\"/blog/kosgeb-tubitak-destekli-yazilim-projesi-2026\">guide to KOSGEB and TÜBİTAK-supported software projects</a>."
+    },
+    "cards": {
+      "title": "What we build into your SaaS product",
+      "c1t": "Multi-tenant architecture",
+      "c1d": "Many customer companies use one application; each company's data, users and settings are kept separate from the others.",
+      "c2t": "Subscriptions and payments",
+      "c2d": "Monthly/annual plans, free trial, automatic card billing (iyzico, PayTR or Stripe), plan upgrades and cancellation.",
+      "c3t": "Admin panel",
+      "c3d": "Customers, active subscriptions, monthly revenue and overdue payments on one screen; you manage customer accounts from here.",
+      "c4t": "User and permission management",
+      "c4d": "A login system where your customers invite their own teams and assign roles and permissions, with an optional two-step verification.",
+      "c5t": "Web and mobile",
+      "c5d": "A web application that runs in the browser and works on phones; if needed, a <a href=\"/mobil-uygulama-yaptirmak\">mobile app</a> on the same back end.",
+      "c6t": "Usage tracking and scaling",
+      "c6d": "Reports showing which features are used and how much; a cloud server setup that can grow as your customer count rises."
+    },
+    "compat": {
+      "title": "Works with existing systems",
+      "intro": "A SaaS product doesn't stand alone; it sells to the extent that it can talk to the systems your customers already use.",
+      "i1": "<strong>Logo, Netsis, Mikro:</strong> Pulling account, stock or invoice data from your customers' accounting/ERP software via an API (a data connection between programs) or a transfer service.",
+      "i2": "<strong>Excel import:</strong> New customers can upload their old data in one go via Excel/CSV, the feature most often requested at onboarding.",
+      "i3": "<strong>Payments and invoicing:</strong> Collection via iyzico, PayTR or Stripe; automatic invoicing through an e-Fatura (e-invoice) integrator.",
+      "i4": "<strong>E-commerce and marketplaces:</strong> If your product targets online sellers, connections to Trendyol, Hepsiburada and shop platforms.",
+      "i5": "<strong>Public API:</strong> A documented API so your customers can connect their own software to your product."
+    },
+    "steps": {
+      "title": "The SaaS development process",
+      "s1t": "Free discovery",
+      "s1d": "We discuss the idea, your target customer and your pricing model, and decide together what belongs in the first version and what can wait.",
+      "s2t": "Written scope and quote",
+      "s2d": "The MVP's screens, feature list, timeline and price are set out in a written quote. The contract states that the source code belongs to you.",
+      "s3t": "Design and development",
+      "s3d": "First clickable screen mock-ups, then development in two-week chunks; at the end of each chunk you try the working version yourself.",
+      "s4t": "Testing and launch",
+      "s4d": "Tests of payments, permissions and data separation; server setup, domain, backups and monitoring. The product opens to your first customers.",
+      "s5t": "Training and support",
+      "s5d": "We show your team how to use the admin panel; after launch, monthly maintenance and development grow the product based on customer feedback."
+    },
+    "notfor": {
+      "title": "Who is this not right for?",
+      "p1": "If you haven't discussed your idea with a single customer yet, we recommend talking to a few potential customers or running a simple test with no-code tools (platforms for building apps without writing code) before investing 100,000 TL in an MVP. If you only need a tool for use inside your own company, you don't need subscription infrastructure; <a href=\"/ozel-yazilim-yaptirmak\">custom software</a> is a better fit and cheaper. If a good ready-made solution already exists and nothing sets your product apart, we will tell you so openly in the discovery call."
+    },
+    "faq": {
+      "title": "Building a SaaS product: frequently asked questions",
+      "q1": "How much does it cost to have SaaS software built?",
+      "a1": "For 2026, a first sellable version (MVP) costs 100,000–180,000 TL and takes 3–4 months. A full product with multi-tenant architecture, subscription billing and an admin panel costs 250,000–500,000+ TL and takes 5–8 months. The exact price is set in a written quote after the free discovery call.",
+      "q2": "Which companies in Ankara develop SaaS products, and which is the best?",
+      "a2": "There is no single “best” company; the right choice depends on your product and budget. Ask a firm whether it has built subscription products before, who will own the source code, how it narrows down the MVP scope and who will maintain the product after launch. Ozturksoft is one of the companies in Çankaya, Ankara that develop SaaS from MVP to full product.",
+      "q3": "Should I use a ready-made platform or no-code, or have a software product built from scratch?",
+      "a3": "To test an idea quickly, no-code tools or ready-made templates can be the right choice and are much cheaper. Once the customer count grows and you need custom business rules, data separation and performance, custom development becomes necessary. We compare both honestly in the discovery call.",
+      "q4": "Will my SaaS work with my customers' Logo, Netsis, Mikro, Excel or e-commerce systems?",
+      "a4": "Yes, if it is included in the scope. Data can be pulled from Logo, Netsis and Mikro via an API or transfer service, Excel/CSV import can be added, and marketplaces such as Trendyol and Hepsiburada can be connected. The quote lists separately which connections are in the MVP and which come in a later version.",
+      "q5": "How long does SaaS MVP development take?",
+      "a5": "A focused MVP goes live in 3–4 months; a full product takes 5–8 months. What delays projects most is trying to fit every feature into the first version, so we narrow down the scope together in the discovery call.",
+      "q6": "Is my customers' data safe and KVKK-compliant? Do we own the source code?",
+      "a6": "Each customer company's data is kept separate, connections are encrypted, regular backups are taken and permissions are role-based; the KVKK privacy notice and terms-acceptance screens are built into the product. At delivery you receive the source code, database and server access, and this is written into the contract. Owning the source code matters in investor talks and company valuation.",
+      "q7": "Who is building a SaaS not right for?",
+      "a7": "If you have never validated the idea with customers and your budget is below 100,000 TL, a no-code test makes more sense first. If you only want a tool for your own company, subscription infrastructure is unnecessary; custom software is cheaper.",
+      "q8": "Are there monthly costs? Do you take a share of sales?",
+      "a8": "The monthly maintenance and development fee after launch is set in a quote based on the amount of work needed, and it is fixed. Server costs and payment-provider fees are paid separately from your own accounts. We take no share of your subscription revenue or sales."
+    },
+    "cta": {
+      "title": "Let's plan your software product together",
+      "desc": "In the free discovery call we listen to your idea and work out the MVP scope and budget together. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Get a SaaS quote"
+    },
+    "related": {
+      "blog": "Ankara SaaS development guide 2026",
+      "mobile": "Mobile app development",
+      "custom": "Custom software development",
+      "takeover": "Taking over a stalled software project"
+    },
+    "footer": "© 2026 Ozturksoft — SaaS Software Development, Ankara"
+  },
+  "voiceAiPage": {
+    "meta": {
+      "title": "AI Voice Agent | AI Phone Assistant in Turkish | Ozturksoft"
+    },
+    "hero": {
+      "badge": "AI voice agent · AI phone assistant · Turkish",
+      "title": "AI Voice Assistant for Your Phone Line",
+      "desc": "Do calls go unanswered at busy times, and does your team answer the same questions all day? Let AI pick up the phone: we set up an assistant that answers questions about opening hours, order status and appointment requests in Turkish, transfers the call to your team when needed and writes a call summary into your CRM. Team in Çankaya, Ankara; the discovery call is free.",
+      "btn": "Free discovery call"
+    },
+    "stats": {
+      "s1l": "Pilot (single scenario)",
+      "s2l": "Call centre / CRM integration",
+      "s3v": "4–6 weeks",
+      "s3l": "Pilot timeline"
+    },
+    "pain": {
+      "title": "Does any of this sound familiar?",
+      "i1": "Calls after hours and at lunchtime go unanswered, and the customer calls a competitor instead.",
+      "i2": "Half the calls are the same questions: “What time do you open?”, “Where is my order?”",
+      "i3": "Callers who want an appointment are kept on hold; the receptionist can't handle two lines at once.",
+      "i4": "The caller's name, number and request aren't written down anywhere, so callbacks are forgotten.",
+      "i5": "Costs rise as the call-centre team grows, and the lines jam on busy campaign days."
+    },
+    "pricing": {
+      "title": "How much does an AI voice assistant cost? (2026)",
+      "intro": "The price ranges below apply to 2026; the exact price is set in a written quote after the free discovery call.",
+      "c1t": "Pilot (single scenario, single line)",
+      "c1time": "4–6 weeks",
+      "c1d": "A Turkish voice assistant for one task (e.g. opening hours + appointment requests), human handover, and call summaries sent to email or a spreadsheet.",
+      "c2t": "Call centre / CRM integration",
+      "c2time": "2–4 months",
+      "c2d": "Multiple scenarios, phone system and call routing, connection to your order/appointment system, and a summary of every call written to the CRM record.",
+      "c3t": "Monthly telephony and AI usage",
+      "c3amt": "Per minute",
+      "c3time": "Monthly, based on usage",
+      "c3d": "The phone line and AI usage are billed by minutes of conversation; the per-minute usage fee is calculated separately.",
+      "monthly": "In addition, fixed monthly maintenance for scenario updates and technical monitoring is 5,000–10,000 TL/month; we take no share of your sales."
+    },
+    "cards": {
+      "title": "What the voice assistant does",
+      "c1t": "Answers the phone and the question",
+      "c1d": "Answers frequent questions such as opening hours, address, price list or delivery times in natural Turkish, using only information you have approved.",
+      "c2t": "Order status",
+      "c2d": "Looks up the order in your e-commerce or ERP system by order number or phone number and tells the caller where it is.",
+      "c3t": "Appointment requests",
+      "c3d": "Takes the preferred day and time and records the appointment request in your calendar or system; it can be completed with a confirmation SMS.",
+      "c4t": "Call routing and human handover",
+      "c4d": "Understands the topic and routes the call to the right department. When it doesn't understand, when the caller asks, or when the matter is sensitive, it connects the call to a member of your staff right away.",
+      "c5t": "Caller details and CRM summary",
+      "c5d": "Collects name, phone number and request; writes a short summary and outcome of every call into the CRM and flags those that need a callback.",
+      "c6t": "KVKK-compliant greeting",
+      "c6d": "At the start of the call, callers are told that they are talking to an AI and whether the call is recorded; recordings are deleted after an agreed period."
+    },
+    "compat": {
+      "title": "Works with your existing systems",
+      "intro": "To answer, the assistant reads information from your own systems; you don't need to switch to new software.",
+      "i1": "<strong>Phone system and line:</strong> Your existing number stays; it connects via an IP PBX (a phone system that runs over the internet) or operator call forwarding.",
+      "i2": "<strong>CRM:</strong> Call summaries and caller details are written to your existing CRM; if you don't have one, it can be set up together with <a href=\"/crm-yazilim-yaptirmak\">CRM software</a>.",
+      "i3": "<strong>Logo, Netsis, Mikro:</strong> Account, order and balance information is read via an API (a data connection between programs) or a transfer service.",
+      "i4": "<strong>E-commerce and marketplaces:</strong> Shipping status is looked up from your shop platform or from Trendyol and Hepsiburada orders.",
+      "i5": "<strong>Excel and calendar:</strong> FAQs and opening hours can be updated from Excel; appointments go into Google or Outlook Calendar."
+    },
+    "steps": {
+      "title": "The setup process",
+      "s1t": "Free discovery",
+      "s1d": "We discuss what most of your incoming calls are about, and decide which task the assistant takes on first and when it hands over to a person.",
+      "s2t": "Written scope and quote",
+      "s2d": "Scenarios, systems to connect, handover rules, timeline and price are set out in a written quote, along with an estimated cost for monthly minute usage.",
+      "s3t": "Scenarios and development",
+      "s3d": "The assistant's conversation flow, the answers you approve and the system connections are prepared; the KVKK privacy notice sentence is added to the greeting.",
+      "s4t": "Testing and installation",
+      "s4d": "Test calls are made with background noise, different accents and fast speech; it then goes live first after hours or on a single line.",
+      "s5t": "Training and support",
+      "s5d": "We show your team how to follow up on summaries and transferred calls, and improve the answers every month based on real conversations."
+    },
+    "notfor": {
+      "title": "Who is this not right for?",
+      "p1": "If you receive only a few calls a day, a voice assistant won't pay for itself; a simple keypad phone menu (IVR) or a staff member calling back is cheaper. If most conversations need empathy and authority, such as complaints, negotiations or sensitive health and legal matters, the assistant should only greet and route callers while a person handles the actual conversation. Speech recognition can make mistakes with background noise and strong accents, which is why every setup includes a handover to a human."
+    },
+    "faq": {
+      "title": "AI voice assistant: frequently asked questions",
+      "q1": "How much does it cost to have an AI voice assistant built?",
+      "a1": "For 2026, a single-scenario, single-line pilot costs 80,000–150,000 TL and takes 4–6 weeks. Call-centre and CRM integration costs 150,000–350,000 TL and takes 2–4 months. The phone line and AI usage are billed separately each month by minutes of conversation.",
+      "q2": "Which companies in Ankara set up AI phone assistants, and which is the best?",
+      "a2": "There is no single “best” company. Ask a firm how it tests Turkish speech recognition in noisy conditions, how the handover to a human works, how it handles the KVKK privacy notice and whether it estimates the per-minute cost in advance. Ozturksoft is one of the companies in Çankaya, Ankara that set up voice assistants connected to the phone system and CRM.",
+      "q3": "Ready-made call-centre software or a custom AI voice assistant?",
+      "a3": "If your calls are few and standard, ready-made call-centre software or a keypad phone menu (IVR) is cheaper and sufficient. A custom assistant makes sense on busy lines where callers speak freely and your order or appointment system needs to be checked. In the discovery call we tell you openly which one suits you.",
+      "q4": "If AI answers the phone, will it work with my existing phone system, CRM, Logo, Netsis, Mikro or e-commerce system?",
+      "a4": "Yes. Your existing number stays and is connected via an IP PBX or operator call forwarding. Order and account information is read via API from Logo, Netsis, Mikro or your e-commerce platform, FAQs can be updated from Excel, and call summaries are written to your CRM.",
+      "q5": "How long does it take to set up AI for a call centre?",
+      "a5": "A single-scenario pilot goes live in 4–6 weeks. Multiple scenarios with phone-system and CRM integration take 2–4 months. We recommend starting with after-hours calls or a single line and expanding based on the results.",
+      "q6": "Must callers be told they are speaking to an AI, and are recordings KVKK-compliant? Do we own the source code?",
+      "a6": "Yes; at the start of the call, the caller is told they are talking to an AI and whether the call is recorded, as part of the KVKK duty to inform. Recordings and summaries are stored encrypted, deleted after an agreed period, and access is restricted by permissions. At delivery you receive the source code, database and server access, and this is written into the contract.",
+      "q7": "Who is an AI voice assistant not right for, and what happens if it misunderstands?",
+      "a7": "For businesses with only a few calls a day, it won't pay for itself. Speech recognition can make mistakes with noise or strong accents; when the assistant isn't sure, it asks again or transfers the call to a member of your staff. Complaints and sensitive matters should be handled by a person.",
+      "q8": "Are there monthly costs?",
+      "a8": "Yes, there are two items. The phone line and AI usage are billed monthly by minutes of conversation; the per-minute usage fee is calculated separately and estimated in the quote. Fixed maintenance for scenario updates and technical monitoring is 5,000–10,000 TL/month; we take no share of your sales."
+    },
+    "cta": {
+      "title": "Let AI greet your callers while your team focuses on the real work",
+      "desc": "In the free discovery call we review your incoming calls together and work out the first scenario and the monthly minute cost. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Get a voice assistant quote"
+    },
+    "related": {
+      "aiIntegration": "AI integration",
+      "aiAgent": "AI agent",
+      "privateAi": "In-house AI",
+      "crm": "CRM software development"
+    },
+    "footer": "© 2026 Ozturksoft — AI Voice Assistant, Ankara"
   }
 }

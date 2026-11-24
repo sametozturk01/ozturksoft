@@ -633,7 +633,15 @@
       "tender": "KI-Ausschreibungsanalyse",
       "softwareCompany": "Softwareunternehmen in Ankara",
       "spam": "Spam-Update-Wiederherstellung",
-      "logoNetsis": "Logo-/Netsis-Integration"
+      "logoNetsis": "Logo-/Netsis-Integration",
+      "stock": "Lagerverwaltungssoftware",
+      "production": "Produktionsverfolgungssoftware",
+      "fieldService": "Außendienst-Software",
+      "maintenance": "Softwarewartung und Support",
+      "salesAi": "KI-Kundenservice",
+      "dashboard": "Reporting-Dashboards",
+      "saas": "SaaS-Entwicklung",
+      "voiceAi": "KI-Sprachassistent"
     }
   },
   "aiFirmPage": {
@@ -4591,5 +4599,918 @@
       "i6": "Bei Google erscheinen unter dem Namen Ihrer Website fremdsprachige Seiten, die Sie nicht kennen.",
       "note": "Wenn eines dieser Anzeichen zutrifft, gilt: Je früher sich jemand die Sache ansieht, desto leichter ist die Wiederherstellung."
     }
+  },
+  "stockPage": {
+    "meta": {
+      "title": "Lagerverwaltung programmieren lassen | Barcode & Lager | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Lagerbestand · Barcode · Lager · Aufträge",
+      "title": "Lagerverwaltungsprogramm programmieren lassen",
+      "desc": "Wenn die Inventur nie mit Ihrer Excel-Liste übereinstimmt und Sie telefonisch nachfragen müssen, welcher Artikel in welchem Lager liegt, liegt das Problem in der Lagerverwaltung. Wir entwickeln Lager-, Bestands- und Auftragssoftware passend zu Ihren Abläufen und richten Barcode-Inventur sowie die Anbindung an Logo, Netsis oder Mikro ein. Team in Çankaya, Ankara; kostenloses Erstgespräch.",
+      "btn": "Kostenloses Erstgespräch"
+    },
+    "stats": {
+      "s1l": "Basis-Lager- und Auftragsverwaltung",
+      "s2l": "Barcode, mehrere Lager und mobile Inventur",
+      "s3l": "Dauer des Basissystems"
+    },
+    "symptoms": {
+      "title": "Kommt Ihnen das bekannt vor?",
+      "i1": "Bei jeder Inventur stimmt der Bestand in Excel nicht mit dem Regal überein.",
+      "i2": "Erst nach der Auftragsannahme merken wir, dass der Artikel nicht vorrätig ist.",
+      "i3": "Wir haben zwei Lager und ein Geschäft und fragen telefonisch nach, wo wie viele Artikel noch vorhanden sind.",
+      "i4": "Derselbe Artikel wird im Onlineshop und auf Marktplätzen verkauft, der Bestand wird von Hand gepflegt und es kommt zu Überverkäufen.",
+      "i5": "Der Bestand in der Buchhaltungssoftware weicht vom tatsächlichen Lagerbestand ab.",
+      "i6": "Wir suchen eine Lagerverwaltungssoftware, aber Standardprogramme passen nicht zu unseren Abläufen.",
+      "note": "Wenn Sie Ihren Bestand noch in Excel führen, hilft Ihnen dieser Leitfaden bei der Entscheidung: <a href=\"/blog/excel-yerine-ozel-program-yaptirmak-2026\">Individuelles Programm statt Excel</a>."
+    },
+    "pricing": {
+      "title": "Was kostet ein individuelles Lagerverwaltungsprogramm? (2026)",
+      "intro": "Die folgenden Preisspannen gelten für 2026; der genaue Preis wird nach dem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt.",
+      "monthly": "Nach der Übergabe deckt eine feste monatliche Wartungspauschale Server, Sicherheitsupdates, Backups und technischen Support ab: 5.000–10.000 TL/Monat. Eine Umsatzbeteiligung gibt es nicht.",
+      "row1": "Basis-Lager- und Auftragsverwaltung",
+      "t1": "6–10 Wochen",
+      "d1": "Artikelstamm, Zu- und Abgänge, Warnung bei Mindestbestand, Auftragserfassung und Basisberichte; Ihre bestehende Excel-Liste wird übernommen.",
+      "row2": "Barcode, mehrere Lager und mobile Inventur",
+      "t2": "10–14 Wochen",
+      "d2": "Zu- und Abgänge per Barcode oder QR-Code, Umlagerungen zwischen Lagern und Regalplätzen, Inventur per Smartphone sowie Chargen- oder Seriennummernverfolgung.",
+      "row3": "Lagersystem mit Anbindung an Logo/Netsis/Mikro",
+      "t3": "3–5 Monate",
+      "d3": "Ein umfassendes System, das Bestände, Kunden- und Lieferantenkonten sowie Rechnungen automatisch mit Ihrer Buchhaltungs- oder ERP-Software abgleicht, mit Freigabeschritten und Benutzerrechten."
+    },
+    "cards": {
+      "title": "Was wir in Ihre Lagersoftware einbauen",
+      "c1t": "Artikel- und Bestandsstamm",
+      "c1d": "Eine Artikelliste mit Varianten (Farbe, Größe), Einheiten, Lagerplatz und Mindestbestand. Jede Bewegung wird mit dem ausführenden Mitarbeiter gespeichert.",
+      "c2t": "Bestandsführung per Barcode",
+      "c2d": "Zugang, Abgang und Inventur per Handscanner, USB-Barcodeleser oder Smartphone-Kamera. Weniger Tippfehler.",
+      "c3t": "Mehrere Lager und Umlagerungen",
+      "c3d": "Bestände in mehreren Lagern, Filialen oder Fahrzeugen werden getrennt geführt; Umlagerungen erfolgen per Beleg.",
+      "c4t": "Aufträge mit Bestand verknüpft",
+      "c4d": "Bei Auftragserfassung wird Bestand reserviert; fehlende Artikel lösen eine Warnung und einen Bestellvorschlag aus. Der Versandstatus ist auf derselben Ansicht sichtbar.",
+      "c5t": "Mobile Inventur",
+      "c5d": "Lagermitarbeiter zählen per Smartphone; Differenzen werden nach Freigabe in den Bestand gebucht.",
+      "c6t": "Berichte und Warnungen",
+      "c6d": "Berichte zu Mindestbestand, Ladenhütern, Bestandswert je Lager und Bewegungen; auf Wunsch Excel-Export und E-Mail-Benachrichtigung."
+    },
+    "integr": {
+      "title": "Arbeitet mit Ihren bestehenden Systemen",
+      "p1": "Die neue Software muss Ihre bestehenden Systeme nicht ersetzen; sie wird so eingerichtet, dass sie Daten mit ihnen austauscht.",
+      "i1": "<strong>Logo und Netsis:</strong> Bestände, Konten und Rechnungen werden in beide Richtungen abgeglichen. Details: <a href=\"/logo-netsis-entegrasyon\">Logo- und Netsis-Integration</a>.",
+      "i2": "<strong>Mikro:</strong> Artikelstamm und Bewegungen bleiben mit Mikro synchron. Details: <a href=\"/mikro-entegrasyon\">Mikro-Integration</a>.",
+      "i3": "<strong>Excel:</strong> Ihre bestehende Artikel- und Bestandsliste wird importiert; Berichte lassen sich als Excel herunterladen.",
+      "i4": "<strong>Onlineshop und Marktplätze:</strong> Bestände im eigenen Shop, bei Trendyol oder Hepsiburada werden zentral aktualisiert.",
+      "i5": "<strong>API</strong> (automatischer Datenaustausch zwischen zwei Programmen): Anbindung an Paketdienst, Lieferanten oder andere Software möglich."
+    },
+    "steps": {
+      "title": "So läuft das Projekt ab",
+      "s1t": "Kostenloses Erstgespräch",
+      "s1d": "Wir sehen uns gemeinsam Ihr Lager und Ihre aktuelle Excel-Datei oder Software an und ermitteln, wo Bestand verloren geht und welche Anbindungen nötig sind.",
+      "s2t": "Schriftlicher Umfang und Angebot",
+      "s2d": "Ansichten, Berichte, Anbindungen, Dauer und Preis stehen im schriftlichen Angebot. Zusätzliche Arbeiten werden nur mit Ihrer Zustimmung aufgenommen.",
+      "s3t": "Design und Entwicklung",
+      "s3d": "Zuerst zeigen wir Ihnen die Ansichten, programmiert wird nach Ihrer Freigabe. Während der Entwicklung sehen Sie alle zwei Wochen eine lauffähige Version.",
+      "s4t": "Test und Installation",
+      "s4d": "Mit Ihren echten Artikeln wird eine Probeinventur durchgeführt, Altdaten werden übernommen und das System auf Ihrem Server oder in der Cloud Ihrer Wahl installiert.",
+      "s5t": "Schulung und Support",
+      "s5d": "Lager- und Büroteam werden geschult. Nach der Übergabe laufen Wartung und Support zu einer festen Monatspauschale weiter."
+    },
+    "notfor": {
+      "title": "Für wen ist das nicht geeignet?",
+      "p1": "Bei einem Lager, einigen hundert Artikeln und normalem Ein- und Verkauf ist ein Standard-Lagerprogramm oder das Lagermodul Ihrer Buchhaltungssoftware günstiger; eine Individualsoftware brauchen Sie dann nicht. Liegt Ihr Budget unter 80.000 TL oder sind Ihre Abläufe noch nicht klar, empfehlen wir abzuwarten. Das sagen wir Ihnen im Erstgespräch offen."
+    },
+    "faq": {
+      "title": "Lagerverwaltungsprogramm: häufige Fragen",
+      "q1": "Was kostet es, ein Lagerverwaltungsprogramm entwickeln zu lassen?",
+      "a1": "Zu Preisen von 2026 kostet die Basis-Lager- und Auftragsverwaltung 80.000–150.000 TL (6–10 Wochen), Barcode, mehrere Lager und mobile Inventur 150.000–250.000 TL (10–14 Wochen) und ein an Logo, Netsis oder Mikro angebundenes Lagersystem 250.000–400.000+ TL (3–5 Monate). Den Preis bestimmen weniger die Artikelanzahl als die Zahl der Lager, die Anbindungen und Ihre individuellen Regeln. Den genauen Preis erhalten Sie nach dem kostenlosen Erstgespräch als schriftliches Angebot.",
+      "q2": "Welche Firmen in Ankara entwickeln Lagerverwaltungssoftware, und welche ist die beste?",
+      "a2": "Die eine beste Firma für alle gibt es nicht; die richtige hängt von Ihrem Geschäft und Ihrer bestehenden Software ab. Achten Sie darauf, ob ein schriftlicher Leistungsumfang vorliegt, Erfahrung mit Logo-, Netsis- oder Mikro-Anbindungen besteht, der Quellcode übergeben wird und Support vor Ort möglich ist. Ozturksoft ist eine dieser Firmen: Von Çankaya aus entwickeln wir Lager-, Bestands- und Auftragssoftware und übernehmen Installation und Schulung vor Ort.",
+      "q3": "Soll ich ein fertiges Lagerprogramm kaufen oder eine Individualsoftware entwickeln lassen?",
+      "a3": "Für Betriebe mit normalem Ein- und Verkauf und einem Lager ist ein fertiges Programm meist günstiger und ausreichend. Bei mehreren Lagern, produktionsgebundenem Bestand, Marktplatzverkäufen oder eigenen Freigaberegeln wird die Anpassung schwierig; dann lohnt sich eine Individualsoftware. Wenn wir im Erstgespräch sehen, dass ein fertiges Programm genügt, sagen wir Ihnen das.",
+      "q4": "Funktioniert eine individuelle Lagersoftware mit Logo, Netsis, Mikro oder Excel?",
+      "a4": "Ja. Bestände, Konten und Rechnungen lassen sich automatisch mit Logo, Netsis und Mikro abgleichen; Ihre Buchhaltung bleibt unverändert. Bestehende Excel-Listen werden importiert, und auch eine Bestandsanbindung an Trendyol, Hepsiburada oder Ihren eigenen Onlineshop ist möglich.",
+      "q5": "Wie lange dauert die Entwicklung eines Lagerverwaltungsprogramms?",
+      "a5": "Die Basis-Lager- und Auftragsverwaltung dauert 6–10 Wochen, ein System mit Barcode, mehreren Lagern und mobiler Inventur 10–14 Wochen und ein an Logo, Netsis oder Mikro angebundenes Lagersystem 3–5 Monate. Die Dauer steht im schriftlichen Angebot; während der Entwicklung sehen Sie alle zwei Wochen eine lauffähige Version.",
+      "q6": "Sind meine Lagerdaten sicher und KVKK-konform? Gehört uns der Quellcode?",
+      "a6": "Die Daten liegen auf Ihrem eigenen Server oder einem Cloud-Server Ihrer Wahl; Benutzerrechte, Protokollierung und regelmäßige Backups werden eingerichtet. Werden Kunden- oder Mitarbeiterdaten verarbeitet, wird das System nach den Vorgaben des KVKK (türkisches Datenschutzgesetz) gestaltet. Bei der Übergabe erhalten Sie Quellcode, Datenbank und Serverzugang; das steht im Vertrag.",
+      "q7": "Für wen ist eine individuelle Lagersoftware nicht geeignet?",
+      "a7": "Für Betriebe mit einem Lager, einigen hundert Artikeln und normalem Ein- und Verkauf ist ein fertiges Programm oder das Lagermodul der Buchhaltungssoftware wirtschaftlicher. Betrieben mit einem Budget unter 80.000 TL oder noch nicht gefestigten Abläufen empfehlen wir ebenfalls abzuwarten.",
+      "q8": "Gibt es monatliche Kosten für die Lagersoftware?",
+      "a8": "Nach der Übergabe fällt eine feste Wartungspauschale von 5.000–10.000 TL/Monat für Server, Sicherheitsupdates, Backups und technischen Support an; eine Umsatzbeteiligung gibt es nicht. Neue Funktionswünsche werden separat schriftlich angeboten."
+    },
+    "cta": {
+      "title": "Ihr gesamter Bestand auf einem Bildschirm",
+      "desc": "Im kostenlosen Erstgespräch skizzieren wir gemeinsam Ihre Lagerabläufe und sagen Ihnen offen, ob ein fertiges Programm oder eine Individualsoftware passt. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Angebot für Lagersoftware anfordern"
+    },
+    "related": {
+      "custom": "Individualsoftware entwickeln lassen",
+      "logo": "Logo- und Netsis-Integration",
+      "mikro": "Mikro-Integration",
+      "ecommerce": "Onlineshop erstellen lassen",
+      "excel": "Leitfaden: Individualsoftware statt Excel"
+    },
+    "footer": "© 2026 Ozturksoft — Lagerverwaltungsprogramm, Ankara"
+  },
+  "productionPage": {
+    "meta": {
+      "title": "Software für Produktionsverfolgung | Fertigungsaufträge | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Produktionsverfolgung · Fertigungsaufträge · Ausschuss · Qualität",
+      "title": "Software für Produktionsverfolgung",
+      "desc": "Wenn Fertigungsaufträge auf Papier kursieren und Sie erst in der Halle erfahren, welcher Auftrag auf welcher Maschine läuft, ist eine Software für Produktionsverfolgung genau das Richtige. Wir bündeln Aufträge, Ausschuss, Qualität und Maschinendaten passend zu Ihrem Werk auf einem Bildschirm und binden Logo, Netsis oder Mikro an. Team in Çankaya, Ankara; kostenloses Erstgespräch.",
+      "btn": "Kostenloses Erstgespräch"
+    },
+    "stats": {
+      "s1l": "Auftrags- und Produktionsverfolgung",
+      "s2l": "Qualität, Ausschuss, Barcode und Maschinendaten",
+      "s3l": "Dauer des ersten Systems"
+    },
+    "symptoms": {
+      "title": "Kommt Ihnen das bekannt vor?",
+      "i1": "Fertigungsaufträge werden auf Papier oder per WhatsApp verteilt, und niemand weiß genau, welche fertig sind.",
+      "i2": "Wenn ein Kunde fragt „Wann ist mein Auftrag fertig?“, rufen wir in der Produktion an.",
+      "i3": "Ausschuss- und Schrottmengen schätzen wir am Monatsende.",
+      "i4": "Wir können nicht messen, wie lange welche Maschine stillsteht und warum.",
+      "i5": "Qualitätsprüfungen stehen in einem Heft; bei einer fehlerhaften Charge können wir nicht zurückverfolgen.",
+      "i6": "Der Produktionsplan in Excel ändert sich täglich und kommt zu spät in der Halle an.",
+      "note": "Die häufigsten Softwarefragen von Herstellern in Ankara haben wir in unserem <a href=\"/blog/ankara-sanayi-yazilim-2026\">Software-Leitfaden für die Industrie in Ankara</a> zusammengefasst."
+    },
+    "pricing": {
+      "title": "Was kostet eine Software für Produktionsverfolgung? (2026)",
+      "intro": "Die folgenden Preisspannen gelten für 2026; der genaue Preis wird nach dem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt.",
+      "monthly": "Nach der Übergabe deckt eine feste monatliche Wartungspauschale Server, Sicherheitsupdates, Backups und technischen Support ab: 5.000–10.000 TL/Monat. Eine Umsatzbeteiligung gibt es nicht.",
+      "row1": "Auftrags- und Produktionsverfolgung",
+      "t1": "8–12 Wochen",
+      "d1": "Anlegen von Fertigungsaufträgen, Fortschritt je Arbeitsplatz und Bediener, Plan- und Istmengen, Produktionsstatus je Kundenauftrag und Basisberichte.",
+      "row2": "Qualität, Ausschuss, Barcode und Maschinendaten",
+      "t2": "3–5 Monate",
+      "d2": "Qualitätsprüfformulare, Erfassung von Ausschuss und Schrott, Chargenverfolgung per Barcode und automatische Übernahme von Zähler- und Stillstandsdaten der Maschinen.",
+      "row3": "Werkssystem mit ERP-Anbindung",
+      "t3": "5–8 Monate",
+      "d3": "Umfassende Werkssoftware, in der Stücklisten, Bestände und Aufträge mit Logo, Netsis oder Mikro abgeglichen werden, inklusive Planung, Kalkulation und Management-Dashboard."
+    },
+    "cards": {
+      "title": "Was wir in Ihre Produktionssoftware einbauen",
+      "c1t": "Auftragsverfolgung",
+      "c1d": "Fertigungsaufträge entstehen automatisch aus Kundenaufträgen und werden den Arbeitsplätzen zugeteilt; Bediener melden Start und Ende per Tablet oder Terminal.",
+      "c2t": "Produktionsplanung",
+      "c2d": "Welcher Auftrag auf welcher Maschine in welcher Reihenfolge läuft, wird am Bildschirm geplant; Änderungen sind sofort in der Halle sichtbar.",
+      "c3t": "Maschinendaten und Stillstände",
+      "c3d": "Von geeigneten Maschinen werden Zähler- und Laufdaten automatisch übernommen; den Stillstandsgrund wählt der Bediener, und er wird ausgewertet.",
+      "c4t": "Qualitätskontrolle",
+      "c4d": "Mess- und Prüfformulare werden digital ausgefüllt; fehlerhafte Teile und Korrekturmaßnahmen werden erfasst und sind je Charge rückverfolgbar.",
+      "c5t": "Ausschuss und Rückverfolgbarkeit per Barcode",
+      "c5d": "Ausschuss und Schrott werden sofort mit Grund und Menge erfasst. Chargen und Lose sind per Barcode vom Rohmaterial bis zum Endprodukt rückverfolgbar.",
+      "c6t": "Management-Dashboard",
+      "c6d": "Tagesproduktion, Effizienz, Ausschussquote und verspätete Aufträge auf einem Bildschirm; auf Wunsch auch auf einem Monitor in der Halle."
+    },
+    "integr": {
+      "title": "Arbeitet mit Ihren bestehenden Systemen",
+      "p1": "Die Produktionssoftware ersetzt Ihre Buchhaltungs- oder ERP-Software nicht, sondern arbeitet mit ihr verbunden.",
+      "i1": "<strong>Logo und Netsis:</strong> Stücklisten, Bestände, Aufträge und Fertigungsbelege werden automatisch übertragen. Details: <a href=\"/logo-netsis-entegrasyon\">Logo- und Netsis-Integration</a>.",
+      "i2": "<strong>Mikro:</strong> Artikelstamm, Stücklisten und Fertigungsbewegungen werden mit Mikro abgeglichen. Details: <a href=\"/mikro-entegrasyon\">Mikro-Integration</a>.",
+      "i3": "<strong>Excel:</strong> Ihre bestehenden Artikel-, Stücklisten- und Planungslisten werden importiert; Berichte lassen sich als Excel herunterladen.",
+      "i4": "<strong>Maschinen:</strong> Zähler- und Stillstandsdaten können über die SPS (die Steuerung der Maschine) oder einen Sensor gelesen werden. Ältere Maschinen brauchen eventuell einen Zusatzsensor; das prüfen wir gemeinsam im Erstgespräch.",
+      "i5": "<strong>API</strong> (automatischer Datenaustausch zwischen zwei Programmen): Anbindung an Kundenportal, Lieferantensystem oder andere Software möglich."
+    },
+    "steps": {
+      "title": "So läuft das Projekt ab",
+      "s1t": "Kostenloses Erstgespräch",
+      "s1d": "Wir besichtigen Ihre Produktion vor Ort und sehen uns den Weg eines Auftrags vom Kundenauftrag bis zum Versand sowie Ihre bestehende Software an.",
+      "s2t": "Schriftlicher Umfang und Angebot",
+      "s2d": "Ansichten, Berichte, Anbindungen, Dauer und Preis stehen im schriftlichen Angebot. Zusätzliche Arbeiten werden nur mit Ihrer Zustimmung aufgenommen.",
+      "s3t": "Design und Entwicklung",
+      "s3d": "Zuerst zeigen wir Ihnen die Bediener- und Managementansichten, programmiert wird nach Ihrer Freigabe. Während der Entwicklung sehen Sie alle zwei Wochen eine lauffähige Version.",
+      "s4t": "Test und Installation",
+      "s4d": "Das System wird zuerst an einer Linie oder in einer Abteilung erprobt und dann im ganzen Werk eingeführt. Tablets, Terminals und Barcodegeräte werden installiert.",
+      "s5t": "Schulung und Support",
+      "s5d": "Bediener, Meister und Büroteam werden getrennt geschult. Nach der Übergabe laufen Wartung und Support zu einer festen Monatspauschale weiter."
+    },
+    "notfor": {
+      "title": "Für wen ist das nicht geeignet?",
+      "p1": "Für kleine Werkstätten mit wenigen Mitarbeitern, einem Produkt oder einfacher Lohnfertigung genügt meist ein fertiges Produktionsmodul oder eine gut aufgebaute Excel-Datei. Liegt Ihr Budget unter 120.000 TL oder ändert sich Ihr Auftragsablauf noch von Person zu Person, empfehlen wir, zuerst den Prozess zu klären. Das sagen wir Ihnen im Erstgespräch offen."
+    },
+    "faq": {
+      "title": "Software für Produktionsverfolgung: häufige Fragen",
+      "q1": "Was kostet es, eine Software für Produktionsverfolgung entwickeln zu lassen?",
+      "a1": "Zu Preisen von 2026 kostet die Auftrags- und Produktionsverfolgung 120.000–220.000 TL (8–12 Wochen), ein System mit Qualität, Ausschuss, Barcode und Maschinendaten 220.000–400.000 TL (3–5 Monate) und ein Werkssystem mit ERP-Anbindung 400.000–750.000+ TL (5–8 Monate). Den Preis bestimmen Anzahl der Arbeitsplätze, Maschinenanbindung und ERP-Integration. Den genauen Preis erhalten Sie nach dem kostenlosen Erstgespräch als schriftliches Angebot.",
+      "q2": "Welche Firmen in Ankara entwickeln Produktionssoftware, und welche ist die beste?",
+      "a2": "Die eine beste Firma für alle gibt es nicht; die richtige Wahl hängt von Ihrer Branche, Ihren Maschinen und Ihrem ERP ab. Achten Sie darauf, ob die Firma die Fertigung vor Ort ansieht, einen schriftlichen Leistungsumfang vorlegt, Erfahrung mit Logo, Netsis oder Mikro hat und den Quellcode übergibt. Ozturksoft ist eine dieser Firmen: Wir sitzen in Çankaya und übernehmen Erstanalyse und Installation vor Ort für Hersteller in OSTİM, İvedik, Sincan und im Ankara Sanayi Odası 1. OSB.",
+      "q3": "Fertige Produktionssoftware oder individuelle Werkssoftware?",
+      "a3": "Für Firmen mit Standardprodukten, deren ERP-Produktionsmodul ausreicht, ist eine fertige Lösung günstiger und schneller. Bei Auftragsfertigung, mehrstufigen Arbeitsplänen, eigenen Qualitätsformularen oder Maschinenanbindung wird die Anpassung teuer; dann lohnt sich Individualsoftware. Wenn wir im Erstgespräch sehen, dass eine fertige Lösung genügt, sagen wir Ihnen das.",
+      "q4": "Funktioniert die Produktionssoftware mit Logo, Netsis, Mikro oder Excel?",
+      "a4": "Ja. Stücklisten, Bestände, Aufträge und Fertigungsbelege lassen sich automatisch mit Logo, Netsis und Mikro abgleichen; Ihre Buchhaltung bleibt unverändert. Artikel-, Stücklisten- und Planungslisten aus Excel werden importiert. Ob Maschinendaten gelesen werden können, hängt vom Maschinenmodell ab; das prüfen wir gemeinsam im Erstgespräch.",
+      "q5": "Wie lange dauert die Einführung einer Produktionssoftware?",
+      "a5": "Die Auftrags- und Produktionsverfolgung dauert 8–12 Wochen, ein System mit Qualität, Ausschuss, Barcode und Maschinendaten 3–5 Monate und ein Werkssystem mit ERP-Anbindung 5–8 Monate. Meist beginnen wir an einer Linie und weiten es dann auf das ganze Werk aus; so erfolgt die Umstellung Schritt für Schritt.",
+      "q6": "Sind meine Produktionsdaten sicher und KVKK-konform? Gehört uns der Quellcode?",
+      "a6": "Die Daten liegen auf einem Server in Ihrem Werk oder einem Cloud-Server Ihrer Wahl; Benutzerrechte, Protokollierung und regelmäßige Backups werden eingerichtet. Werden Mitarbeiterdaten verarbeitet, wird das System nach den Vorgaben des KVKK (türkisches Datenschutzgesetz) gestaltet. Bei der Übergabe erhalten Sie Quellcode, Datenbank und Serverzugang; das steht im Vertrag.",
+      "q7": "Für wen ist eine Produktionssoftware nicht geeignet?",
+      "a7": "Für kleine Werkstätten mit wenigen Mitarbeitern, einem Produkt oder einfacher Lohnfertigung genügt meist ein fertiges Produktionsmodul oder eine gut aufgebaute Excel-Datei. Betrieben mit einem Budget unter 120.000 TL oder noch nicht gefestigtem Auftragsablauf empfehlen wir, zuerst den Prozess zu klären.",
+      "q8": "Gibt es monatliche Kosten für die Produktionssoftware?",
+      "a8": "Nach der Übergabe fällt eine feste Wartungspauschale von 5.000–10.000 TL/Monat für Server, Sicherheitsupdates, Backups und technischen Support an; eine Beteiligung an Umsatz oder Produktionsmenge gibt es nicht. Neue Funktionswünsche werden separat schriftlich angeboten."
+    },
+    "cta": {
+      "title": "Bringen wir Ihre Fertigung auf den Bildschirm",
+      "desc": "Im kostenlosen Erstgespräch sehen wir uns Ihre Fertigung vor Ort an und skizzieren gemeinsam Ihren Auftragsablauf. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Angebot für Produktionssoftware anfordern"
+    },
+    "related": {
+      "custom": "Individualsoftware entwickeln lassen",
+      "logo": "Logo- und Netsis-Integration",
+      "mikro": "Mikro-Integration",
+      "automation": "Prozessautomatisierung",
+      "guide": "Software-Leitfaden für die Industrie in Ankara"
+    },
+    "footer": "© 2026 Ozturksoft — Software für Produktionsverfolgung, Ankara"
+  },
+  "fieldServicePage": {
+    "meta": {
+      "title": "Software für Technischen Service entwickeln lassen | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Technischer Service · Außendienst · Montage und Wartung",
+      "title": "Software für Technischen Service entwickeln lassen",
+      "desc": "Wenn Serviceberichte auf Papier verloren gehen und Sie telefonisch herumfragen müssen, wo welcher Techniker ist, ist Ihr Betrieb zu groß für die Arbeit ohne Software geworden. Wir entwickeln ein Web-Panel für das Büro und eine mobile App für den Außendienst: Aufträge, Routen, Fotos, Kundenunterschrift und Ersatzteile an einem Ort. Wir arbeiten in Çankaya, Ankara; das Erstgespräch ist kostenlos.",
+      "btn": "Kostenloses Erstgespräch"
+    },
+    "stats": {
+      "s1l": "Web-Panel + Außendienst-App",
+      "s2l": "Routen, Unterschrift, Lager und Benachrichtigung",
+      "s3v": "8–12 Wochen",
+      "s3l": "Lieferzeit der ersten Version"
+    },
+    "pain": {
+      "title": "Kommt Ihnen das bekannt vor?",
+      "i1": "Serviceberichte werden auf Papier ausgefüllt und kommen spät oder gar nicht im Büro an.",
+      "i2": "Sie rufen die Techniker einzeln an, um zu erfahren, wer bei welchem Kunden ist.",
+      "i3": "Wenn ein Kunde sagt „es kam niemand“ oder „das Teil wurde nicht eingebaut“, haben Sie weder Foto noch Unterschrift.",
+      "i4": "Niemand kennt den Ersatzteilbestand in den Fahrzeugen; dasselbe Teil wird doppelt bestellt.",
+      "i5": "Garantie-, Wartungs- und Montagetermine stehen in Excel, und Wartungen werden verpasst.",
+      "i6": "Der Einsatz ist erledigt, die Rechnung geht aber erst Tage später raus, weil die Information nicht in der Buchhaltung ankommt."
+    },
+    "pricing": {
+      "title": "Was kostet eine Software für den Technischen Service? (2026)",
+      "intro": "Die folgenden Preisspannen gelten für 2026; der genaue Preis wird nach dem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt.",
+      "monthly": "Nach der Übergabe fällt eine feste monatliche Wartungsgebühr von 5.000–10.000 TL/Monat an (Serverüberwachung, Updates, kleine Korrekturen); keine Beteiligung pro Techniker, Auftrag oder Umsatz.",
+      "c1t": "Web-Panel + mobile Außendienst-App",
+      "c1time": "8–12 Wochen",
+      "c1d": "Aufträge anlegen, Techniker zuweisen, tägliche Auftragsliste auf dem Handy, digitaler Servicebericht und Live-Status im Büro.",
+      "c2t": "Routen, Fotos, Unterschrift, Lager und Benachrichtigung",
+      "c2time": "3–4 Monate",
+      "c2d": "Routen auf der Karte, Fotos vor und nach dem Einsatz, Kundenunterschrift auf dem Bildschirm, Ersatzteillager je Fahrzeug und Lager sowie SMS- oder E-Mail-Benachrichtigung an Kunden.",
+      "c3t": "Servicesystem mit ERP- und Rechnungsanbindung",
+      "c3time": "4–6 Monate",
+      "c3d": "Alles oben Genannte plus Kunden-, Lager- und Rechnungsanbindung an Logo, Netsis oder Mikro, Wartungsverträge, Garantieverfolgung und Management-Berichte."
+    },
+    "build": {
+      "title": "Was enthält die Service-Software?",
+      "c1t": "Aufträge und Disposition",
+      "c1d": "Eine Störungsmeldung per Telefon, Webformular oder E-Mail wird zum Auftrag und mit einem Klick dem passenden Techniker zugewiesen.",
+      "c2t": "App zur Außendienststeuerung",
+      "c2d": "Techniker sehen ihre Tagesaufträge auf dem Handy und melden „unterwegs, begonnen, erledigt“; ohne Internet speichert die App die Daten und sendet sie später.",
+      "c3t": "Servicebericht und Unterschrift",
+      "c3d": "Arbeiten, verbrauchte Teile und Zeit werden erfasst; der Kunde unterschreibt auf dem Bildschirm, der Servicebericht geht automatisch als PDF per E-Mail raus.",
+      "c4t": "Fotos und Standort",
+      "c4d": "Fotos vor und nach Montage oder Reparatur werden mit Uhrzeit und Standort am Auftrag gespeichert. Bei Streitfällen haben Sie einen Nachweis.",
+      "c5t": "Ersatzteillager",
+      "c5d": "Lager- und Fahrzeugbestand werden getrennt geführt; verbrauchte Teile werden abgebucht, bei niedrigem Bestand kommt eine Warnung.",
+      "c6t": "Montage- und Wartungsplanung",
+      "c6d": "Erinnerungen für regelmäßige Wartung, Garantieende und Vertragskunden, eine Liste fälliger Geräte und Benachrichtigung der Kunden."
+    },
+    "compat": {
+      "title": "Funktioniert mit Ihren bestehenden Systemen",
+      "p1": "Die häufigste Frage lautet: „Arbeitet das mit unserem bisherigen Programm zusammen?“ Auch wenn die Software neu entwickelt wird, bleibt Ihre bestehende Struktur erhalten:",
+      "i1": "<strong>Logo, Netsis, Mikro:</strong> Kundenkonten und Bestand kommen von dort, die Rechnung für einen abgeschlossenen Einsatz landet als Entwurf in der Buchhaltung. Details: <a href=\"/logo-netsis-entegrasyon\">Logo- und Netsis-Integration</a>, <a href=\"/mikro-entegrasyon\">Mikro-Integration</a>.",
+      "i2": "<strong>Excel:</strong> Kundenlisten, Geräteseriennummern und frühere Serviceeinsätze werden importiert; Berichte lassen sich als Excel herunterladen.",
+      "i3": "<strong>Website oder CRM:</strong> Anfragen aus dem Störungsformular Ihrer Website oder aus dem CRM werden per API (automatischer Datenaustausch zwischen zwei Programmen) direkt zu Aufträgen.",
+      "i4": "<strong>WhatsApp:</strong> Nachrichten wie „Techniker ist unterwegs“ oder Terminerinnerungen können auch über WhatsApp Business gesendet werden. Seit dem 15. Januar 2026 erlaubt Meta auf WhatsApp nur geschäftsbezogene Nachrichten und Bots (Support, Bestellungen, Termine); allgemeine Chat-Assistenten sind nicht zulässig."
+    },
+    "steps": {
+      "title": "Wie läuft das Projekt ab?",
+      "s1t": "Kostenloses Erstgespräch",
+      "s1d": "Wir zeichnen gemeinsam Ihren Serviceablauf: Wie kommen Störungen herein, wer disponiert, was steht im Bericht, wie wird abgerechnet? Wir sehen uns Ihre Papierformulare und Excel-Dateien an.",
+      "s2t": "Schriftlicher Umfang und Angebot",
+      "s2d": "Bildschirme, Integrationen, Nutzerzahl, Preis und Liefertermin stehen im schriftlichen Angebot.",
+      "s3t": "Design und Entwicklung",
+      "s3d": "Zuerst zeigen wir Ihnen Bildschirmentwürfe; nach Ihrer Freigabe entwickeln wir in Etappen und zeigen jede Etappe in einer Testumgebung.",
+      "s4t": "Test und Einführung",
+      "s4d": "Wir testen die App zuerst mit einigen Technikern an echten Einsätzen, beheben Fehler und geben sie dann für das ganze Team frei. Die App läuft auf Android und iPhone.",
+      "s5t": "Schulung und Support",
+      "s5d": "Büro und Außendienst erhalten eine kurze Schulung; nach der Übergabe übernehmen wir Server, Updates und kleine Korrekturen gegen eine feste Monatsgebühr."
+    },
+    "notfit": {
+      "title": "Für wen ist das nicht geeignet?",
+      "p1": "Wenn Sie ein oder zwei Techniker und einen Standardablauf haben, ist eine fertige Service-Software im Monatsabo sehr wahrscheinlich günstiger und schneller; das sagen wir Ihnen offen. Individuelle Software lohnt sich, wenn Ihr eigener Servicebericht, die Buchhaltungsanbindung, Ersatzteil- oder Wartungsvertragsregeln nicht in ein Standardprodukt passen. Wenn Sie innerhalb eines Monats live gehen müssen, sind wir ebenfalls nicht die richtige Wahl: Die erste Version dauert mindestens 8 Wochen."
+    },
+    "faq": {
+      "title": "Service-Software: häufige Fragen",
+      "q1": "Was kostet es, eine Software für den Technischen Service entwickeln zu lassen?",
+      "a1": "Für 2026: Web-Panel und mobile Außendienst-App 100.000–180.000 TL (8–12 Wochen); mit Routen, Fotos, Unterschrift, Ersatzteillager und Kundenbenachrichtigung 180.000–300.000 TL (3–4 Monate); ein Servicesystem mit ERP- und Rechnungsanbindung 300.000–450.000 TL und mehr (4–6 Monate). Der genaue Preis steht nach dem kostenlosen Erstgespräch im schriftlichen Angebot.",
+      "q2": "Welche Firmen in Ankara entwickeln Service-Software, und welche ist die beste?",
+      "a2": "Es gibt nicht die eine „beste“ Firma für alle; die richtige Wahl hängt von Ihrem Serviceablauf und Ihrer Buchhaltungssoftware ab. Achten Sie beim Vergleich auf den schriftlichen Umfang, die Übergabe des Quellcodes, Erfahrung mit Logo-, Netsis- oder Mikro-Anbindungen und die monatliche Gebühr nach der Übergabe. Ozturksoft ist eine der Firmen in Çankaya, Ankara, die Web-Panel und mobile Außendienst-App zusammen entwickeln.",
+      "q3": "Soll ich eine fertige Service-Software kaufen oder eine individuelle entwickeln lassen?",
+      "a3": "Für wenige Techniker und einen Standardablauf ist ein fertiges Programm meist günstiger und schneller. Individuelle Software lohnt sich, wenn Ihr Servicebericht, Ihre Wartungsvertragsregeln, Ihre Ersatzteilstruktur oder die Buchhaltungsanbindung nicht in ein fertiges Programm passen oder wenn Abos pro Nutzer mit wachsendem Team teuer werden.",
+      "q4": "Funktioniert die Service-Software mit Logo, Netsis, Mikro oder Excel?",
+      "a4": "Ja. Kunden- und Artikelkarten werden aus Logo, Netsis oder Mikro übernommen, die Rechnung für einen abgeschlossenen Einsatz geht in die Buchhaltungssoftware. Kunden-, Geräte- und frühere Servicedaten aus Excel werden zu Beginn importiert; auch das Störungsformular Ihrer Website kann per API angebunden werden.",
+      "q5": "Wie lange dauert die Entwicklung einer Außendienst-App?",
+      "a5": "Die erste Version mit Web-Panel und mobiler App wird in 8–12 Wochen geliefert, die Version mit Routen, Fotos, Unterschrift, Lager und Benachrichtigung in 3–4 Monaten, das System mit ERP- und Rechnungsanbindung in 4–6 Monaten. Dauer und Liefertermin stehen im schriftlichen Angebot.",
+      "q6": "Sind meine Kundendaten sicher und KVKK-konform? Gehört uns der Quellcode?",
+      "a6": "Die Daten liegen auf dem Server Ihrer Wahl und werden verschlüsselt übertragen; jeder Nutzer sieht nur die Datensätze, für die er berechtigt ist. Für personenbezogene Daten wie Fotos, Unterschriften und Technikerstandort legen wir die KVKK-Datenschutzinformation und Aufbewahrungsfristen gemeinsam fest. Bei der Übergabe erhalten Sie Quellcode, Datenbank und Serverzugang; das steht im Vertrag.",
+      "q7": "Für wen lohnt sich eine individuelle Service-Software nicht?",
+      "a7": "Mit ein oder zwei Technikern und einem Standardablauf ist ein fertiges Programm im Monatsabo sehr wahrscheinlich günstiger. Auch wer innerhalb eines Monats live gehen muss, ist mit individueller Software falsch beraten, denn die erste Version dauert mindestens 8 Wochen. In diesen Fällen empfehlen wir eine fertige Lösung.",
+      "q8": "Fallen für die Service-Software monatliche Kosten an?",
+      "a8": "Nach der Übergabe beträgt die feste monatliche Wartungsgebühr 5.000–10.000 TL; Serverüberwachung, Updates und kleine Korrekturen sind enthalten. Es gibt keine Beteiligung nach Technikerzahl, Aufträgen oder Umsatz. Drittanbieterdienste wie SMS-Versand werden nach Verbrauch separat bezahlt."
+    },
+    "cta": {
+      "title": "Lassen Sie uns Ihren Serviceablauf gemeinsam skizzieren",
+      "desc": "Im kostenlosen Erstgespräch sehen wir uns Ihre Formulare und Excel-Dateien an und nennen Ihnen den passenden Umfang und die Preisspanne. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Angebot anfordern"
+    },
+    "related": {
+      "r1": "Mobile App entwickeln lassen",
+      "r2": "Logo- und Netsis-Integration",
+      "r3": "CRM-Software entwickeln lassen",
+      "r4": "Individualsoftware entwickeln lassen",
+      "r5": "Prozessautomatisierung"
+    },
+    "footer": {
+      "text": "© 2026 Ozturksoft — Software für Technischen Service, Ankara"
+    }
+  },
+  "maintenancePage": {
+    "meta": {
+      "title": "Softwarewartung und Support | Ankara | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Wartungsvertrag · Website-Wartung · Ankara",
+      "title": "Softwarewartung und Support",
+      "desc": "Wenn die Firma, die Ihre Software entwickelt hat, nicht mehr zurückruft, Ihre Website seit Jahren nicht aktualisiert wurde oder Sie bei einem Fehler nicht wissen, an wen Sie sich wenden sollen, sind Sie nicht allein. Wir übernehmen Ihre bestehende Software und Website mit einem monatlichen Wartungsvertrag, auch wenn eine andere Firma sie gebaut hat: Updates, Backups, Überwachung und laufende Weiterentwicklung. Wir arbeiten in Çankaya, Ankara; das Erstgespräch ist kostenlos.",
+      "btn": "Kostenloses Erstgespräch"
+    },
+    "stats": {
+      "s1v": "5.000 – 10.000 TL/Monat",
+      "s1l": "Basiswartung",
+      "s2v": "10.000 – 25.000 TL/Monat",
+      "s2l": "Standard-Support",
+      "s3v": "Monatlich",
+      "s3l": "Vertragslaufzeit, kein Angebot pro Auftrag"
+    },
+    "pain": {
+      "title": "Kommt Ihnen das bekannt vor?",
+      "i1": "Die Firma, die die Software gebaut hat, hat geschlossen, aufgehört oder ruft erst nach Tagen zurück.",
+      "i2": "WordPress, Plugins oder Server wurden seit Jahren nicht aktualisiert; aus Angst, etwas kaputtzumachen, fasst sie niemand an.",
+      "i3": "Eines Morgens ist die Website nicht erreichbar, und Sie erfahren es von einem Kunden.",
+      "i4": "Niemand weiß, ob Backups gemacht werden und wo sie liegen.",
+      "i5": "Selbst für eine kleine Änderung jedes Mal ein eigenes Angebot und wochenlanges Warten.",
+      "i6": "Quellcode, Server- und Domain-Passwörter liegen beim alten Dienstleister oder bei einem ausgeschiedenen Mitarbeiter."
+    },
+    "pricing": {
+      "title": "Preise für Softwarewartungsverträge (2026)",
+      "intro": "Die folgenden Preisspannen gelten für 2026; der genaue Preis wird nach dem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt.",
+      "c1t": "Basiswartung",
+      "c1a": "5.000 – 10.000 TL/Monat",
+      "c1d": "Sicherheits- und Software-Updates, regelmäßige Backups mit Wiederherstellungstest und automatische Überwachung von Website und Server (bei einem Ausfall geht die Warnung an uns).",
+      "c2t": "Standard-Support",
+      "c2a": "10.000 – 25.000 TL/Monat",
+      "c2d": "Basiswartung plus ein festes Kontingent an Entwicklungsstunden pro Monat (kleine Änderungen, neue Felder, Berichte) und eine vertraglich festgelegte Reaktionszeit.",
+      "c3t": "Enterprise-Support",
+      "c3a": "25.000 – 60.000+ TL/Monat",
+      "c3d": "Vorrangige Reaktion für kritische Systeme, ein fester Entwicklungsplan, monatlicher Bericht und Abstimmungstermin.",
+      "monthlyType": "Monatsvertrag",
+      "review": "<strong>Einmalige Systemprüfung zu Beginn: 15.000–40.000 TL.</strong> Bevor wir Code übernehmen, den wir nicht kennen, halten wir Codezustand, Sicherheitslücken, Backups und fehlende Dokumentation in einem schriftlichen Bericht fest; das Monatspaket richtet sich nach diesem Bericht. Keine Beteiligung an Ihren Verkäufen oder Ihrem Umsatz."
+    },
+    "build": {
+      "title": "Was umfasst Wartung und Support?",
+      "c1t": "Updates",
+      "c1d": "Framework-, Plugin-, Bibliotheks- und Server-Updates werden zuerst in einer Testumgebung geprüft und dann live eingespielt.",
+      "c2t": "Backups",
+      "c2d": "Datenbank und Dateien werden regelmäßig gesichert, an einem separaten Ort aufbewahrt, und die Wiederherstellung wird in festen Abständen getestet.",
+      "c3t": "Überwachung",
+      "c3d": "Fällt die Website oder App aus, wird sie langsam oder läuft das SSL-Zertifikat (das Schloss in der Adresszeile) bald ab, geht die Warnung zuerst an uns.",
+      "c4t": "Sicherheit",
+      "c4d": "Schwachstellen-Scans, Entfernen ungenutzter Konten und alter Passwörter, Überwachung verdächtiger Anmeldeversuche.",
+      "c5t": "Fehlerbehebung und kleine Erweiterungen",
+      "c5d": "Gemeldete Fehler und kleine Änderungen werden aus dem monatlichen Stundenkontingent Ihres Pakets erledigt; jede Aufgabe und die aufgewendete Zeit werden dokumentiert.",
+      "c6t": "Ein fester Ansprechpartner",
+      "c6d": "Anfragen laufen über einen Support-Kanal, und der Status jeder Anfrage ist sichtbar. Reaktions- und Lösungszeiten werden im Vertrag in Stunden festgelegt."
+    },
+    "compat": {
+      "title": "Wir übernehmen auch Systeme anderer Anbieter",
+      "p1": "Es spielt keine Rolle, dass die Software nicht von uns stammt; wenn Zugang zu Quellcode und Server besteht, können wir die Wartung übernehmen:",
+      "i1": "<strong>Websites:</strong> WordPress- und WooCommerce-Seiten sowie individuell entwickelte PHP-, .NET-, Node.js- oder Python-Anwendungen.",
+      "i2": "<strong>Logo-, Netsis-, Mikro- und Excel-Anbindungen:</strong> Überwachung der Schnittstellen zur Buchhaltungssoftware und Reparatur unterbrochener Verbindungen.",
+      "i3": "<strong>E-Commerce und Marktplätze:</strong> Trendyol-, Hepsiburada- und Amazon-Integrationen, Updates der Zahlungsanbindung.",
+      "i4": "<strong>Mobile Apps und APIs:</strong> Store-Updates für Android- und iPhone-Apps und Überwachung der APIs (Schnittstellen, über die Programme Daten austauschen).",
+      "i5": "Wurde das Projekt nicht fertiggestellt, muss es eventuell zuerst abgeschlossen werden; dann beginnen wir mit unserem Service für <a href=\"/yarim-kalan-yazilim-projesi\">unvollendete Softwareprojekte</a>."
+    },
+    "steps": {
+      "title": "Wie beginnt die Wartung?",
+      "s1t": "Kostenloses Erstgespräch",
+      "s1d": "Wir besprechen, welche Systeme Sie haben, wer sie gebaut hat, wo sie laufen und welche Probleme Sie aktuell haben.",
+      "s2t": "Prüfung, schriftlicher Umfang und Angebot",
+      "s2d": "Bei Bedarf prüfen wir in einer einmaligen Analyse Code, Server und Backups. Paket, Monatsstunden, Reaktionszeiten und nicht enthaltene Leistungen stehen im schriftlichen Angebot.",
+      "s3t": "Übernahme und Korrekturen",
+      "s3d": "Zugänge und Passwörter werden auf Ihr Konto übertragen, fehlende Dokumentation wird erstellt und dringende Lücken aus der Prüfung werden geschlossen.",
+      "s4t": "Test- und Überwachungseinrichtung",
+      "s4d": "Testumgebung, automatische Backups und Überwachung werden eingerichtet; jedes Update wird zuerst dort getestet. Für umfassendere Tests kann unser <a href=\"/qa-test-hizmeti\">QA-Testservice</a> ergänzt werden.",
+      "s5t": "Monatlicher Support und Bericht",
+      "s5d": "Jeden Monat berichten wir über erledigte Arbeiten, verbrauchte Stunden sowie Backup- und Update-Status; neue Anforderungen priorisieren wir gemeinsam."
+    },
+    "notfit": {
+      "title": "Für wen ist das nicht geeignet?",
+      "p1": "Wenn Sie eine rein statische Firmenwebsite mit wenigen Besuchern haben, die sich ein- oder zweimal im Jahr ändert, ist ein monatlicher Wartungsvertrag womöglich unnötig; die automatischen Backups Ihres Hosters und einzelne Aufträge bei Bedarf sind günstiger. Auch ein System, auf dessen Quellcode und Server keinerlei Zugriff besteht, können wir nicht warten; zuerst muss der Zugang wiederhergestellt werden. Wenn Sie nur „Bescheid geben, wenn die Seite ausfällt“ brauchen, reichen fertige Monitoring-Tools möglicherweise aus."
+    },
+    "faq": {
+      "title": "Softwarewartung und Support: häufige Fragen",
+      "q1": "Was kostet Softwarewartung und Support pro Monat?",
+      "a1": "Für 2026: Basiswartung (Updates, Backups, Überwachung) kostet 5.000–10.000 TL pro Monat, Standard-Support mit monatlichen Entwicklungsstunden und fester Reaktionszeit 10.000–25.000 TL, Enterprise-Support mit vorrangiger Reaktion und laufender Entwicklung 25.000–60.000 TL und mehr. Die einmalige Prüfung vor der Übernahme unbekannten Codes kostet 15.000–40.000 TL.",
+      "q2": "Ich suche eine Firma für Software-Support in Ankara. Welche ist die beste?",
+      "a2": "Es gibt nicht die eine „beste“ Firma für alle; entscheidend ist, was im Vertrag steht. Achten Sie darauf, dass Reaktions- und Lösungszeiten in Stunden festgelegt sind, Monatsstunden und nicht enthaltene Leistungen klar sind, regelmäßig berichtet wird und alle Zugänge nach Vertragsende bei Ihnen bleiben. Ozturksoft ist eine der Firmen in Çankaya, Ankara, die auch Systeme anderer Anbieter übernimmt.",
+      "q3": "Reicht das Wartungspaket meines Hosters, oder brauche ich einen Softwarewartungsvertrag?",
+      "a3": "Für eine Standard-WordPress-Seite kann das Update- und Backup-Paket des Hosters ausreichen. Bei einem individuell entwickelten System, einer Buchhaltungs- oder Marktplatzanbindung oder regelmäßigem Änderungsbedarf brauchen Sie einen Wartungsvertrag mit einem Team, das den Code versteht; der Hoster schützt den Server, nicht Ihre Software.",
+      "q4": "Warten Sie auch Software anderer Firmen oder Logo-, Netsis- und Mikro-Integrationen?",
+      "a4": "Ja. Wenn Zugang zu Quellcode und Server besteht, übernehmen wir die Wartung von Websites, Anwendungen und Logo-, Netsis-, Mikro-, Excel- oder Marktplatzintegrationen anderer Anbieter. Zuerst halten wir den Zustand des Codes in einer einmaligen Prüfung für 15.000–40.000 TL schriftlich fest.",
+      "q5": "Wann beginnt ein Wartungsvertrag, und wie schnell werden Probleme gelöst?",
+      "a5": "Bei einem System, das wir kennen, beginnt die Wartung mit der Vertragsunterzeichnung; bei unbekanntem Code steht zuerst die Erstprüfung an. Reaktions- und Lösungszeiten werden im Vertrag in Stunden festgelegt und hängen vom Paket ab; im Enterprise-Support haben Ihre Anfragen Vorrang.",
+      "q6": "Sind meine Daten während der Wartung sicher und KVKK-konform? Wer behält den Quellcode?",
+      "a6": "Die Zugänge nutzt nur das ausführende Team; Vertraulichkeit und Datenverarbeitungsbedingungen nach KVKK werden im Vertrag festgehalten. Quellcode, Datenbank und Server bleiben in Ihrem Konto; endet der Vertrag, erhalten Sie alle Zugänge und die von uns erstellte Dokumentation. Auch das steht im Vertrag.",
+      "q7": "Für wen ist ein Softwarewartungsvertrag unnötig?",
+      "a7": "Bei einer statischen Firmenwebsite mit wenigen Besuchern, die sich ein- oder zweimal im Jahr ändert, sind die automatischen Backups des Hosters und einzelne Aufträge bei Bedarf günstiger. Ein System ohne Zugriff auf Quellcode und Server lässt sich ebenfalls nicht warten; zuerst muss der Zugang wiederhergestellt werden.",
+      "q8": "Entstehen neben der monatlichen Wartungsgebühr zusätzliche Kosten?",
+      "a8": "Die Monatsgebühr ist fest, die enthaltenen Stunden stehen im Vertrag; es gibt keine Beteiligung an Verkäufen oder Umsatz. Größere Entwicklungen über das Stundenkontingent hinaus legen wir Ihnen vorab als schriftliches Angebot zur Freigabe vor. Drittkosten wie Server, Domain und kostenpflichtige Plugin-Lizenzen zahlen Sie direkt über Ihr eigenes Konto."
+    },
+    "cta": {
+      "title": "Lassen Sie uns Ihr bestehendes System gemeinsam ansehen",
+      "desc": "Im kostenlosen Erstgespräch hören wir uns den Zustand Ihres Systems an und sagen Ihnen, welches Paket reicht und ob eine Erstprüfung nötig ist. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Wartungsangebot anfordern"
+    },
+    "related": {
+      "r1": "Unvollendetes Softwareprojekt",
+      "r2": "QA-Testservice",
+      "r3": "Softwarefirma in Ankara",
+      "r4": "Individualsoftware entwickeln lassen",
+      "r5": "Website erstellen lassen"
+    },
+    "footer": {
+      "text": "© 2026 Ozturksoft — Softwarewartung und Support, Ankara"
+    }
+  },
+  "salesAiPage": {
+    "meta": {
+      "title": "Automatisierter Kundenservice und KI im Vertrieb | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Kundenservice · Vertrieb · WhatsApp · CRM",
+      "title": "Automatisierter Kundenservice und KI im Vertrieb",
+      "desc": "Wenn Sie täglich dieselben Fragen beantworten und Anfragen außerhalb der Geschäftszeiten verloren gehen, nimmt Ihnen KI-gestützter Kundenservice einen großen Teil dieser Arbeit ab. Wir bauen einen Assistenten, der auf Ihrer Website und über WhatsApp mit Ihren Unternehmensinformationen antwortet und kaufbereite Kunden an Ihr Team weiterleitet. Team in Ankara-Çankaya, das Erstgespräch ist kostenlos.",
+      "btn": "Kostenloses Erstgespräch"
+    },
+    "stats": {
+      "s1l": "Kundenservice-Assistent",
+      "s2l": "Vertriebsassistent + CRM",
+      "s3v": "3–5 Wochen",
+      "s3l": "Bis zum Start des ersten Assistenten"
+    },
+    "pain": {
+      "title": "Kommt Ihnen das bekannt vor?",
+      "intro": "Laut Daten von TÜİK (Türkisches Statistikamt) ist Marketing und Vertrieb der häufigste Einsatzbereich von KI bei Unternehmen in der Türkei, die KI nutzen (46,5 %). KI in Vertrieb und Marketing ist kein Experiment mehr, sondern Alltag. Wenn Ihnen eines der folgenden Beispiele bekannt vorkommt, sind Sie hier richtig:",
+      "i1": "Wir antworten spät auf WhatsApp-Nachrichten, und der Kunde schreibt in der Zwischenzeit der Konkurrenz.",
+      "i2": "Wir beantworten den ganzen Tag dieselben Fragen zu Preisen, Versand, Rückgabe und Öffnungszeiten von Hand.",
+      "i3": "Anfragen vom Abend oder Wochenende bleiben bis zum nächsten Morgen liegen.",
+      "i4": "Wir können nicht unterscheiden, welche Anfragen echte Käufer sind und welche nur Informationen wollen.",
+      "i5": "Angebote und Nachfass-E-Mails zu schreiben kostet das Vertriebsteam den halben Tag.",
+      "i6": "Wir wissen nicht, wie viele Anfragen über welchen Kanal kommen und wie viele davon zu Verkäufen werden."
+    },
+    "pricing": {
+      "title": "Preise für automatisierten Kundenservice (2026)",
+      "intro": "Die folgenden Preisspannen gelten für 2026; der genaue Preis wird nach dem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt.",
+      "row1": "KI-Kundenservice-Assistent",
+      "t1": "3–5 Wochen",
+      "d1": "Ein Assistent auf Ihrer Website und/oder in WhatsApp, der auf Basis Ihrer Unternehmensdokumente und FAQs antwortet und das Gespräch bei Bedarf an einen Mitarbeiter übergibt.",
+      "row2": "Vertriebsassistent + CRM-Anbindung",
+      "t2": "6–10 Wochen",
+      "d2": "Zusätzlich zum Kundenservice-Assistenten ein System, das Anfragen bewertet, dem passenden Vertriebsmitarbeiter zuweist, Angebots- und E-Mail-Entwürfe erstellt und Datensätze im CRM anlegt.",
+      "row3": "Mehrkanalsystem für Unternehmen",
+      "t3": "3–5 Monate",
+      "d3": "Eine Unternehmenslösung, die Web, WhatsApp, E-Mail und Callcenter-Aufzeichnungen an einem Ort bündelt, mit ERP, CRM und Berechtigungsstruktur integriert ist und Berichte liefert.",
+      "monthly": "Die monatliche KI-Nutzungsgebühr wird separat nach Verbrauch berechnet (die API-Gebühr, also das nutzungsabhängige Entgelt pro Nachricht an den Modellanbieter). Hinzu kommen feste monatliche Wartung und Support für 5.000–10.000 TL/Monat. Wir beteiligen uns nicht an Ihrem Umsatz."
+    },
+    "cards": {
+      "title": "Was wir umsetzen",
+      "c1t": "Kundenassistent für Web und WhatsApp",
+      "c1d": "Antwortet rund um die Uhr auf Ihrer Website und über Ihre WhatsApp-Business-Nummer. Nach der seit dem 15. Januar 2026 geltenden Meta-Regel spricht der WhatsApp-Assistent nur über Ihr Geschäft (Support, Bestellungen, Termine); er wird nicht als allgemeiner Chatbot eingerichtet.",
+      "c2t": "Antworten aus Ihren Unternehmensdokumenten",
+      "c2d": "Wir bringen dem Assistenten Ihre Preisliste, Ihren Katalog, Ihre Vertragsbedingungen und FAQs bei. Der Assistent erfindet keine Antworten; steht etwas nicht in den Dokumenten, sagt er das und übergibt an einen Mitarbeiter.",
+      "c3t": "Lead-Bewertung und Weiterleitung an den Vertrieb",
+      "c3d": "Bewertet jede Anfrage mit einigen Fragen zu Budget, Bedarf und Dringlichkeit (Lead-Qualifizierung, also das Herausfiltern echter Kaufinteressenten) und informiert bei heißen Leads sofort den zuständigen Vertriebsmitarbeiter.",
+      "c4t": "Angebots- und E-Mail-Entwürfe",
+      "c4d": "Erstellt aus Gesprächsnotizen Entwürfe für Angebote, Nachfass-E-Mails und Besprechungsprotokolle. Die Entscheidung über den Versand liegt immer bei Ihrem Team.",
+      "c5t": "CRM-Anbindung",
+      "c5d": "Jedes Gespräch landet als Kundenkarte und Verkaufschance in Ihrem CRM (Kundenverwaltungsprogramm). Wenn Sie noch kein CRM haben, können wir auch eine <a href=\"/crm-yazilim-yaptirmak\">CRM-Software</a> aufbauen.",
+      "c6t": "Berichte",
+      "c6d": "Anfragen pro Kanal, Antwortzeit, an Mitarbeiter übergebene Gespräche und Anfragen, die zu Verkäufen wurden – alles in einem Bericht."
+    },
+    "compat": {
+      "title": "Funktioniert mit Ihren bestehenden Systemen",
+      "p1": "Wer mit KI zu arbeiten beginnt, fragt meist zuerst, ob das neue System mit den vorhandenen Programmen zusammenarbeitet. Wir ziehen Sie nicht auf eine neue Plattform um, sondern binden den Assistenten an Ihre bestehende Infrastruktur an:",
+      "i1": "<strong>WhatsApp Business API</strong> und das Live-Chat-Fenster auf Ihrer Website",
+      "i2": "<strong>CRM</strong>: Kunden- und Verkaufschancen-Datensätze über die API (Datenschnittstelle zwischen Programmen) Ihres CRM",
+      "i3": "<strong>Logo, Netsis, Mikro</strong>: Abfrage von Lagerbestand, Preisen und Bestellstatus",
+      "i4": "<strong>E-Commerce und Marktplätze</strong>: Bestell- und Versandstatus",
+      "i5": "<strong>Excel- und PDF-Dokumente</strong>: Preislisten, Kataloge und FAQ-Inhalte"
+    },
+    "steps": {
+      "title": "So läuft das Projekt ab",
+      "s1t": "Kostenloses Erstgespräch",
+      "s1d": "Gemeinsam sehen wir uns an, welche Fragen über welche Kanäle kommen, wie Ihr Vertriebsteam arbeitet und welche Programme Sie nutzen.",
+      "s2t": "Schriftlicher Umfang und Angebot",
+      "s2d": "Was der Assistent beantwortet und was er an Mitarbeiter übergibt, an welche Systeme er angebunden wird, Dauer und Preis werden im schriftlichen Angebot festgelegt.",
+      "s3t": "Konzeption und Entwicklung",
+      "s3d": "Der Assistent lernt Ihre Dokumente, Gesprächsabläufe und CRM-Anbindung werden eingerichtet. Zwischenversionen testen wir gemeinsam mit Ihnen.",
+      "s4t": "Test und Inbetriebnahme",
+      "s4d": "Der Assistent wird mit echten Kundenfragen getestet, falsche oder unvollständige Antworten werden korrigiert, danach geht er live.",
+      "s5t": "Schulung und Support",
+      "s5d": "Wir zeigen Ihrem Team, wie es das Wissen des Assistenten aktualisiert und übergebene Gespräche bearbeitet; im Rahmen der monatlichen Wartung überwachen wir die Antwortqualität."
+    },
+    "fit": {
+      "title": "Für wen ist das nicht geeignet?",
+      "p1": "Wenn Sie nur einige Dutzend Nachrichten im Monat erhalten und die meisten Fragen Standardfragen sind, können die automatischen Antworten der WhatsApp-Business-App oder ein fertiger Chatbot im Monatsabo günstiger und ausreichend sein. Läuft Ihr Vertrieb vollständig persönlich ab oder fehlen noch Dokumente wie Preisliste, Katalog und FAQs, auf die sich Antworten stützen können, empfehlen wir, zuerst diese Grundlage zu schaffen.",
+      "p2": "<strong>Ehrlich gesagt:</strong> Ein KI-Assistent ersetzt Ihr Team nicht; er reduziert wiederkehrende Arbeit, Entscheidungen und Kundenbeziehungen bleiben bei Ihrem Vertrieb."
+    },
+    "faq": {
+      "title": "Automatisierter Kundenservice: häufige Fragen",
+      "q1": "Was kostet ein automatisierter Kundenservice?",
+      "a1": "Zu Preisen von 2026 kostet ein KI-Kundenservice-Assistent 40.000–80.000 TL (3–5 Wochen), ein Vertriebsassistent mit CRM-Anbindung 80.000–200.000 TL (6–10 Wochen) und ein Mehrkanalsystem für Unternehmen 200.000–400.000+ TL (3–5 Monate). Die monatliche KI-Nutzungsgebühr wird separat nach Verbrauch berechnet. Der genaue Preis wird nach dem kostenlosen Erstgespräch schriftlich angeboten.",
+      "q2": "Welche Firmen in Ankara bauen KI-Kundenservice-Systeme, und welche ist die beste?",
+      "a2": "Es gibt nicht die eine „beste“ Firma für alle. Achten Sie bei der Auswahl darauf, ob die Firma WhatsApp- und CRM-Integrationen umsetzt, ob die Antworten auf Ihren eigenen Dokumenten beruhen, wem Quellcode und Daten gehören und ob es nach dem Start Support gibt. Ozturksoft in Ankara-Çankaya ist eine der Firmen, die solche Systeme mit den eigenen Daten und Programmen der Unternehmen aufbauen.",
+      "q3": "Sollte ich einen fertigen Chatbot kaufen oder einen individuellen KI-Assistenten entwickeln lassen?",
+      "a3": "Bei wenigen Standardfragen ist ein fertiger Chatbot im Abo günstiger. Muss der Assistent Lager-, Bestell- oder Kundendaten aus Ihren eigenen Systemen abrufen, Anfragen nach Ihren Regeln an den Vertrieb verteilen oder sollen die Daten bei Ihnen bleiben, ist eine individuelle Lösung die bessere Wahl. Im Erstgespräch vergleichen wir beide Optionen und sagen es Ihnen offen.",
+      "q4": "Funktioniert der KI-Assistent mit meinem Logo, Netsis, Mikro oder CRM?",
+      "a4": "In den meisten Fällen ja. Lagerbestand, Preise und Bestellstatus lassen sich aus Logo, Netsis und Mikro lesen; im CRM können über die API Kunden- und Verkaufschancen-Datensätze angelegt werden; Excel- und PDF-Dokumente dienen als Wissensquelle. Version und Anbindungsmöglichkeiten Ihres Programms prüfen wir im Erstgespräch.",
+      "q5": "Wie lange dauert die Einrichtung eines KI-Kundenservice?",
+      "a5": "Ein Kundenservice-Assistent geht in 3–5 Wochen live, ein Vertriebsassistent mit CRM-Anbindung in 6–10 Wochen und ein Mehrkanalsystem für Unternehmen in 3–5 Monaten. Die Dauer hängt vor allem davon ab, wie gut Ihre Dokumente vorbereitet sind und wie viele Systeme angebunden werden.",
+      "q6": "Sind meine Kundendaten sicher und KVKK-konform? Gehört uns der Quellcode?",
+      "a6": "Gespräche werden auf Ihrem Server oder in der Cloud Ihrer Wahl gespeichert, an den Modellanbieter werden nicht mehr personenbezogene Daten als nötig übermittelt, und der KVKK-Datenschutzhinweis ist in den Ablauf eingebaut. Kunden wird klar gesagt, dass sie mit einem KI-Assistenten sprechen. Bei der Übergabe erhalten Sie Quellcode, Datenbank und Serverzugang; das steht im Vertrag.",
+      "q7": "Für wen ist automatisierter Kundenservice nicht geeignet?",
+      "a7": "Für Unternehmen mit wenigen Nachrichten pro Monat und Standardfragen können die automatischen Antworten von WhatsApp Business oder ein fertiger Chatbot ausreichen. Gibt es die Dokumente und Informationen, auf die sich die Antworten stützen sollen, noch nicht, müssen sie zuerst erstellt werden. Der Assistent ersetzt den Vertrieb nicht, er reduziert wiederkehrende Arbeit.",
+      "q8": "Gibt es laufende monatliche Kosten für den KI-Assistenten?",
+      "a8": "Ja. Die monatliche KI-Nutzungsgebühr wird separat nach Verbrauch berechnet; sie steigt mit der Zahl der Nachrichten, und wir schätzen den Betrag im Erstgespräch gemeinsam ab. Bei der WhatsApp Business API fallen zusätzlich die Nachrichtengebühren von Meta an. Dazu kommen feste monatliche Wartung und Support für 5.000–10.000 TL/Monat; am Umsatz beteiligen wir uns nicht."
+    },
+    "cta": {
+      "title": "Entlasten wir Ihren Kundenservice mit KI",
+      "desc": "Im kostenlosen Erstgespräch gehen wir gemeinsam Ihre 10 häufigsten Kundenfragen durch und sagen Ihnen, welche automatisch beantwortet werden können. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Angebot anfordern"
+    },
+    "related": {
+      "r1": "Chatbot entwickeln lassen",
+      "r2": "WhatsApp-Chatbot",
+      "r3": "CRM-Software",
+      "r4": "KI-Agent",
+      "r5": "Management-Dashboard und Reporting"
+    },
+    "footer": "© 2026 Ozturksoft — Automatisierter Kundenservice und KI im Vertrieb, Ankara"
+  },
+  "dashboardPage": {
+    "meta": {
+      "title": "Management-Dashboard und Reporting entwickeln lassen | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Dashboard · Reporting · Business Intelligence (BI)",
+      "title": "Management-Dashboard entwickeln lassen",
+      "desc": "Wenn Ihre Umsätze in Logo, die Kunden im CRM, die Bestellungen auf Marktplätzen und die Ziele in Excel liegen und der Monatsbericht Tage dauert, bauen wir ein Reporting-System, das diese Daten auf einem Bildschirm zusammenführt. Die Zahlen aktualisieren sich täglich von selbst, Berichte kommen per E-Mail. Team in Ankara-Çankaya, das Erstgespräch ist kostenlos.",
+      "btn": "Kostenloses Erstgespräch"
+    },
+    "stats": {
+      "s1l": "Dashboard mit einer Datenquelle",
+      "s2l": "Dashboard mit mehreren Quellen",
+      "s3v": "3–5 Wochen",
+      "s3l": "Bis zur Übergabe des ersten Dashboards"
+    },
+    "pain": {
+      "title": "Kommt Ihnen das bekannt vor?",
+      "i1": "Für den Monatsbericht kopieren wir Daten aus drei verschiedenen Programmen nach Excel.",
+      "i2": "Um die Frage „Wie viel haben wir heute verkauft?“ zu beantworten, muss jemand die Buchhaltung anrufen.",
+      "i3": "Der Umsatz in Logo und die Verkäufe im E-Commerce-Panel stimmen nicht überein.",
+      "i4": "Wir sehen nicht klar, welches Produkt, welche Filiale oder welcher Vertriebsmitarbeiter wirklich Gewinn bringt.",
+      "i5": "Alle bekommen dieselben Berichte; ein Filialleiter sieht die Zahlen des gesamten Unternehmens.",
+      "i6": "Wir möchten alle Daten auf einem Bildschirm sehen, wissen aber nicht, wo wir anfangen sollen."
+    },
+    "pricing": {
+      "title": "Preise für ein Dashboard (2026)",
+      "intro": "Die folgenden Preisspannen gelten für 2026; der genaue Preis wird nach dem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt.",
+      "row1": "Management-Dashboard mit einer Datenquelle",
+      "t1": "3–5 Wochen",
+      "d1": "Ein täglich aktualisiertes Dashboard mit Kennzahlen zu Umsatz, Lagerbestand und Zahlungseingängen auf Basis eines einzigen Programms (zum Beispiel Logo oder Ihr Onlineshop).",
+      "row2": "Dashboard mit mehreren Quellen (ERP + CRM + E-Commerce)",
+      "t2": "6–10 Wochen",
+      "d2": "Ein Management-Dashboard, das ERP-, CRM-, E-Commerce-/Marktplatz- und Excel-Daten zusammenführt, mit rollenbasiertem Zugriff und automatischen E-Mail-Berichten.",
+      "row3": "KI-gestütztes Reporting und Prognosen",
+      "t3": "3–4 Monate",
+      "d3": "Zusätzlich zum Dashboard mit mehreren Quellen ein System, das die Zahlen in einfachen Sätzen zusammenfasst, Umsatz und Bestand prognostiziert und ungewöhnliche Veränderungen meldet.",
+      "monthly": "Nach dem Start kosten feste monatliche Wartung und Support 5.000–10.000 TL/Monat (Serverüberwachung, funktionierende Datenverbindungen, kleine Berichtsänderungen). Im KI-gestützten Paket wird die monatliche KI-Nutzungsgebühr separat nach Verbrauch berechnet. Wir beteiligen uns nicht an Ihrem Umsatz."
+    },
+    "cards": {
+      "title": "Was wir umsetzen",
+      "c1t": "Datenquellen zusammenführen",
+      "c1d": "Wir bündeln Daten aus Logo, Netsis, Mikro, CRM, E-Commerce, Marktplätzen und Excel in einer Datenbank und ordnen denselben Kunden oder dasselbe Produkt programmübergreifend zu.",
+      "c2t": "Management-Ansicht",
+      "c2d": "Umsatz, Gewinn, Zahlungseingänge, Lagerbestand und Zielerreichung auf einem Bildschirm, filterbar nach Datum, Filiale, Produkt oder Vertriebsmitarbeiter. Auch auf dem Smartphone nutzbar.",
+      "c3t": "Automatische E-Mail-Berichte",
+      "c3d": "Tägliche Umsatzübersicht, Wochenleistung und Monatsbericht kommen automatisch zur gewünschten Uhrzeit per E-Mail.",
+      "c4t": "Rollenbasierter Zugriff",
+      "c4d": "Die Geschäftsführung sieht das gesamte Unternehmen, Filialleiter ihre Filiale und Vertriebsmitarbeiter nur ihre eigenen Kunden.",
+      "c5t": "Warnmeldungen",
+      "c5d": "Benachrichtigt die zuständige Person, wenn der Bestand ein kritisches Niveau erreicht, eine Zahlung überfällig ist oder der Tagesumsatz unter dem Ziel liegt.",
+      "c6t": "KI-Zusammenfassungen und Prognosen (optional)",
+      "c6d": "Fasst die Zahlen in einfachen Sätzen zusammen, etwa „Der Umsatz liegt diese Woche unter der Vorwoche, weil zwei Produkte ausverkauft waren“, und prognostiziert Umsatz und Bestand auf Basis historischer Daten."
+    },
+    "compat": {
+      "title": "Funktioniert mit Ihren bestehenden Systemen",
+      "p1": "Sie müssen kein neues Programm kaufen. Das Dashboard liest Daten aus Ihren vorhandenen Programmen und schreibt nichts in sie zurück:",
+      "i1": "<strong>Logo, Netsis, Mikro</strong>: Umsatz-, Kontokorrent-, Bestands- und Zahlungsdaten (<a href=\"/logo-netsis-entegrasyon\">Logo- und Netsis-Integration</a>, <a href=\"/mikro-entegrasyon\">Mikro-Integration</a>)",
+      "i2": "<strong>CRM</strong>: Kunden-, Verkaufschancen- und Vertriebsmitarbeiterdaten",
+      "i3": "<strong>E-Commerce und Marktplätze</strong>: Bestellungen aus Ihrem eigenen Shop sowie von Trendyol, Hepsiburada und Amazon",
+      "i4": "<strong>Excel und Google Sheets</strong>: Ziele, Budgets und manuell gepflegte Tabellen",
+      "i5": "Weitere Software mit <strong>API</strong> (Datenschnittstelle zwischen Programmen)"
+    },
+    "steps": {
+      "title": "So läuft das Projekt ab",
+      "s1t": "Kostenloses Erstgespräch",
+      "s1d": "Gemeinsam legen wir fest, welche Zahlen Sie täglich sehen möchten, in welchen Programmen die Daten liegen und wer die Berichte nutzt.",
+      "s2t": "Schriftlicher Umfang und Angebot",
+      "s2d": "Anzubindende Quellen, Kennzahlen, Benutzerrollen, Dauer und Preis werden im schriftlichen Angebot festgelegt.",
+      "s3t": "Konzeption und Entwicklung",
+      "s3d": "Die Datenverbindungen werden eingerichtet, die Zahlen mit Ihren bisherigen Berichten abgeglichen und die Ansicht gemeinsam mit Ihnen gestaltet.",
+      "s4t": "Test und Inbetriebnahme",
+      "s4d": "Das Dashboard läuft eine Zeit lang mit echten Daten parallel zu Ihren bisherigen Berichten; sobald alle Zahlen stimmen, wird es auf Ihrem Server oder in der Cloud installiert.",
+      "s5t": "Schulung und Support",
+      "s5d": "Führungskräfte und Team werden geschult; die monatliche Wartung hält Datenverbindungen und Berichte am Laufen."
+    },
+    "fit": {
+      "title": "Für wen ist das nicht geeignet?",
+      "p1": "Liegen alle Ihre Daten in einem Programm und reichen dessen Berichte aus, sparen Sie sich ein neues Dashboard: Die eingebauten Berichte oder ein fertiges BI-Tool (Business Intelligence) wie Power BI oder Looker Studio können genügen. Werden Daten nicht sauber erfasst, zeigt ein Dashboard falsche Zahlen nur schneller an; zuerst muss die Datenerfassung stimmen.",
+      "p2": "<strong>Wann lohnt sich ein individuelles Dashboard?</strong> Wenn Daten auf mehrere Programme verteilt sind, wenn Sie Zahlen täglich oder monatlich von Hand zusammenführen oder wenn verschiedene Personen unterschiedliche Zahlen sehen sollen."
+    },
+    "faq": {
+      "title": "Management-Dashboard und Reporting: häufige Fragen",
+      "q1": "Was kostet es, ein Management-Dashboard entwickeln zu lassen?",
+      "a1": "Zu Preisen von 2026 kostet ein Management-Dashboard mit einer Datenquelle 40.000–80.000 TL (3–5 Wochen), ein Dashboard mit mehreren Quellen (ERP + CRM + E-Commerce) 80.000–180.000 TL (6–10 Wochen) und KI-gestütztes Reporting mit Prognosen 180.000–350.000+ TL (3–4 Monate). Der genaue Preis wird nach dem kostenlosen Erstgespräch schriftlich angeboten.",
+      "q2": "Welche Firmen in Ankara entwickeln Dashboards und Reporting-Systeme, und welche ist die beste?",
+      "a2": "Es gibt nicht die eine „beste“ Firma für alle. Prüfen Sie, ob die Firma Daten aus Programmen wie Logo, Netsis oder Mikro abrufen kann, ob sie die Zahlen mit Ihren bisherigen Berichten abgleicht, wem der Quellcode gehört und ob es nach der Übergabe Support gibt. Ozturksoft in Ankara-Çankaya ist eine der Firmen, die Management-Dashboards mit Anbindung an die eigenen Programme der Unternehmen bauen.",
+      "q3": "Sollte ich ein fertiges Tool wie Power BI nutzen oder ein individuelles Management-Dashboard entwickeln lassen?",
+      "a3": "Sind Ihre Daten sauber und in einer Quelle und haben Sie jemanden, der die Berichte erstellt, sind fertige Tools wie Power BI oder Looker Studio günstiger. Sind die Daten auf viele Programme verteilt oder brauchen Sie rollenbasierten Zugriff, automatische E-Mail-Berichte oder unternehmensspezifische Berechnungen, spart ein individuelles Dashboard mehr Handarbeit. Im Erstgespräch vergleichen wir beide Optionen und sagen es Ihnen offen.",
+      "q4": "Funktioniert das Dashboard mit meinen Daten aus Logo, Netsis, Mikro und Excel?",
+      "a4": "Ja. Umsatz-, Kontokorrent-, Bestands- und Zahlungsdaten werden aus Logo, Netsis und Mikro gelesen; CRM-, Shop- und Marktplatzbestellungen kommen per API hinzu, Excel-Tabellen per Dateiimport. Das Dashboard schreibt nichts in Ihre bestehenden Programme, es liest nur. Die Version Ihres Programms prüfen wir im Erstgespräch.",
+      "q5": "Wie lange dauert die Einrichtung eines Reporting-Systems?",
+      "a5": "Ein Dashboard mit einer Quelle wird in 3–5 Wochen übergeben, eines mit mehreren Quellen in 6–10 Wochen, KI-gestütztes Reporting mit Prognosen in 3–4 Monaten. Die Dauer hängt vor allem von der Zahl der anzubindenden Quellen und der Datenqualität ab.",
+      "q6": "Sind meine Unternehmensdaten sicher und KVKK-konform? Gehört uns der Quellcode?",
+      "a6": "Das Dashboard läuft auf Ihrem Server oder in der Cloud Ihrer Wahl, jede Person sieht nur die Daten, für die sie berechtigt ist, und Zugriffe werden protokolliert. Personenbezogene Daten werden bei Bedarf maskiert. Bei der Übergabe erhalten Sie Quellcode, Datenbank und Serverzugang; das steht im Vertrag.",
+      "q7": "Für wen ist ein Management-Dashboard nicht geeignet?",
+      "a7": "Liegen alle Daten in einem Programm und reichen dessen Berichte aus, erledigen die eingebauten Berichte oder ein fertiges BI-Tool die Aufgabe günstiger. Ist die Datenerfassung uneinheitlich, muss sie zuerst korrigiert werden; sonst zeigt das Dashboard falsche Zahlen.",
+      "q8": "Gibt es laufende monatliche Kosten für das Dashboard?",
+      "a8": "Feste monatliche Wartung und Support kosten 5.000–10.000 TL/Monat und umfassen funktionierende Datenverbindungen, Serverüberwachung und kleine Berichtsänderungen. Werden KI-Zusammenfassungen genutzt, wird die monatliche KI-Nutzungsgebühr separat nach Verbrauch berechnet. Wir beteiligen uns nicht an Ihrem Umsatz."
+    },
+    "cta": {
+      "title": "Bringen wir alle Ihre Zahlen auf einen Bildschirm",
+      "desc": "Im kostenlosen Erstgespräch ermitteln wir gemeinsam die 5–10 Zahlen, die Sie täglich sehen möchten, und wo diese Daten liegen. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Angebot anfordern"
+    },
+    "related": {
+      "r1": "Logo- und Netsis-Integration",
+      "r2": "Mikro-Integration",
+      "r3": "CRM-Software",
+      "r4": "Onlineshop",
+      "r5": "Automatisierter Kundenservice"
+    },
+    "footer": "© 2026 Ozturksoft — Management-Dashboard entwickeln lassen, Ankara"
+  },
+  "saasPage": {
+    "meta": {
+      "title": "SaaS-Software entwickeln lassen | MVP & Abo-Software | Ozturksoft"
+    },
+    "hero": {
+      "badge": "SaaS · Abo-Software-Entwicklung · MVP · Webanwendung",
+      "title": "SaaS-Software entwickeln lassen",
+      "desc": "Sie haben eine Software-Idee, die Sie Kunden im Monatsabo verkaufen möchten, wissen aber nicht, wo Sie anfangen sollen und was es kostet? Wir machen aus Ihrer Idee zuerst eine erste verkaufsfähige Version (MVP) und dann ein Produkt für viele Kunden mit Abo-Zahlung; der Quellcode gehört Ihnen. Team in Ankara-Çankaya, das Erstgespräch ist kostenlos.",
+      "btn": "Kostenloses Erstgespräch"
+    },
+    "stats": {
+      "s1l": "MVP (erste verkaufsfähige Version)",
+      "s2l": "Vollständiges Produkt",
+      "s3v": "3–4 Monate",
+      "s3l": "Dauer des MVP"
+    },
+    "pain": {
+      "title": "Kommt Ihnen das bekannt vor?",
+      "i1": "Sie haben eine Software-Idee und denken „Das könnte ich im Abo verkaufen“, wissen aber nicht, was die Entwicklung einer Webanwendung kostet.",
+      "i2": "Sie möchten ein Tool, das Sie intern nutzen, auch an andere Unternehmen verkaufen.",
+      "i3": "Sie möchten eine Dienstleistung, die Sie mit Excel und Standard-Tools erbringen, auf eine Plattform bringen, auf der sich Kunden selbst anmelden.",
+      "i4": "Sie haben mit einem Freelancer angefangen, das Projekt ist liegen geblieben oder Sie haben den Quellcode nicht.",
+      "i5": "Sie müssen Investoren oder für einen Förderantrag ein funktionierendes Produkt (MVP) zeigen.",
+      "i6": "Spätestens bei Abo-Zahlungen, Testphasen, Rechnungen und Benutzerrechten haben Sie gemerkt, dass das Vorhaben größer ist als gedacht."
+    },
+    "pricing": {
+      "title": "Was kostet es, SaaS-Software entwickeln zu lassen? (2026)",
+      "intro": "Die folgenden Preisspannen gelten für 2026; der genaue Preis wird nach dem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt.",
+      "c1t": "MVP (erste verkaufsfähige Version)",
+      "c1time": "3–4 Monate",
+      "c1d": "Ein zentraler Arbeitsablauf, Benutzer-Login, einfache Verwaltungsoberfläche und erste Zahlungen: eine Version, die Sie echten Kunden verkaufen und mit der Sie Feedback sammeln können.",
+      "c2t": "Vollständiges Produkt",
+      "c2time": "5–8 Monate",
+      "c2d": "Mandantenfähige Architektur (die Daten jedes Kundenunternehmens getrennt), Abos und automatischer Zahlungseinzug, Admin-Panel, Rollen und Berichte.",
+      "c3t": "Monatliche Weiterentwicklung und Wartung",
+      "c3amt": "Nach Angebot",
+      "c3time": "Nach dem Launch, monatlich",
+      "c3d": "Sicherheitsupdates, Fehlerbehebung, Backups und neue Funktionen nach Kundenfeedback; der Umfang wird jeden Monat schriftlich festgelegt.",
+      "monthly": "Server, Domain und Gebühren des Zahlungsanbieters laufen über Ihre eigenen Konten; wir erhalten keinen Anteil an Ihren Abo-Einnahmen oder Umsätzen.",
+      "support": "Hat Ihr Produkt F&amp;E-Charakter, kann ein Teil der Kosten durch Förderprogramme gedeckt werden: <a href=\"/blog/kosgeb-tubitak-destekli-yazilim-projesi-2026\">Leitfaden zu KOSGEB- und TÜBİTAK-geförderten Softwareprojekten</a>."
+    },
+    "cards": {
+      "title": "Was wir in Ihrem SaaS-Produkt umsetzen",
+      "c1t": "Mandantenfähige Architektur (Multi-Tenant)",
+      "c1d": "Viele Kundenunternehmen nutzen eine Anwendung; Daten, Benutzer und Einstellungen jedes Unternehmens bleiben voneinander getrennt.",
+      "c2t": "Abos und Zahlungen",
+      "c2d": "Monats-/Jahrespläne, Testphase, automatischer Karteneinzug (iyzico, PayTR oder Stripe), Upgrade und Kündigung.",
+      "c3t": "Admin-Panel",
+      "c3d": "Kunden, aktive Abos, Monatsumsatz und überfällige Zahlungen auf einem Bildschirm; hier verwalten Sie die Kundenkonten.",
+      "c4t": "Benutzer- und Rechteverwaltung",
+      "c4d": "Ein Login-System, in dem Ihre Kunden ihre eigenen Teams einladen und Rollen und Rechte vergeben; optional mit Zwei-Faktor-Bestätigung.",
+      "c5t": "Web und Mobil",
+      "c5d": "Eine Webanwendung im Browser, die auch auf dem Smartphone funktioniert; bei Bedarf eine <a href=\"/mobil-uygulama-yaptirmak\">mobile App</a> auf derselben Basis.",
+      "c6t": "Nutzungsanalyse und Skalierung",
+      "c6d": "Berichte, welche Funktionen wie stark genutzt werden; eine Cloud-Server-Struktur, die mit der Kundenzahl mitwächst."
+    },
+    "compat": {
+      "title": "Arbeitet mit bestehenden Systemen",
+      "intro": "Ein SaaS-Produkt steht nicht für sich allein; es verkauft sich in dem Maß, in dem es mit den Systemen Ihrer Kunden zusammenarbeitet.",
+      "i1": "<strong>Logo, Netsis, Mikro:</strong> Kunden-, Lager- oder Rechnungsdaten aus der Buchhaltungs-/ERP-Software Ihrer Kunden per API (Datenverbindung zwischen Programmen) oder Übertragungsdienst abrufen.",
+      "i2": "<strong>Excel-Import:</strong> Neue Kunden laden ihre Altdaten in einem Schritt per Excel/CSV hoch, die beim Einstieg am häufigsten gewünschte Funktion.",
+      "i3": "<strong>Zahlung und Rechnung:</strong> Einzug über iyzico, PayTR oder Stripe; automatische Rechnungsstellung über einen e-Fatura-Integrator (E-Rechnung).",
+      "i4": "<strong>E-Commerce und Marktplätze:</strong> Richtet sich Ihr Produkt an Online-Händler, Anbindung an Trendyol, Hepsiburada und Shop-Systeme.",
+      "i5": "<strong>Offene API:</strong> Eine dokumentierte API, damit Ihre Kunden ihre eigene Software an Ihr Produkt anbinden können."
+    },
+    "steps": {
+      "title": "Der Ablauf der SaaS-Entwicklung",
+      "s1t": "Kostenloses Erstgespräch",
+      "s1d": "Wir besprechen Idee, Zielkunden und Preismodell und legen gemeinsam fest, was in die erste Version gehört und was warten kann.",
+      "s2t": "Schriftlicher Umfang und Angebot",
+      "s2d": "Bildschirme, Funktionsliste, Dauer und Preis des MVP stehen im schriftlichen Angebot. Im Vertrag steht, dass der Quellcode Ihnen gehört.",
+      "s3t": "Design und Entwicklung",
+      "s3d": "Zuerst klickbare Bildschirmentwürfe, dann Entwicklung in Zwei-Wochen-Abschnitten; am Ende jedes Abschnitts testen Sie die lauffähige Version selbst.",
+      "s4t": "Test und Launch",
+      "s4d": "Tests von Zahlungen, Rechten und Datentrennung; Server-Einrichtung, Domain, Backups und Monitoring. Das Produkt geht an Ihre ersten Kunden.",
+      "s5t": "Schulung und Support",
+      "s5d": "Wir schulen Ihr Team im Admin-Panel; nach dem Launch entwickeln wir das Produkt mit monatlicher Wartung und Weiterentwicklung nach Kundenfeedback weiter."
+    },
+    "notfor": {
+      "title": "Für wen ist das nicht geeignet?",
+      "p1": "Wenn Sie Ihre Idee noch mit keinem Kunden besprochen haben, empfehlen wir, vor einem MVP für 100.000 TL zuerst mit einigen potenziellen Kunden zu sprechen oder einen einfachen Test mit No-Code-Tools (Plattformen, mit denen sich Apps ohne Programmieren bauen lassen) zu machen. Brauchen Sie nur ein Tool für den eigenen Betrieb, ist keine Abo-Infrastruktur nötig; <a href=\"/ozel-yazilim-yaptirmak\">Individualsoftware</a> passt besser und ist günstiger. Gibt es bereits eine gute fertige Lösung und hebt sich Ihr Produkt nicht ab, sagen wir Ihnen das im Erstgespräch offen."
+    },
+    "faq": {
+      "title": "SaaS-Software entwickeln lassen: häufige Fragen",
+      "q1": "Was kostet es, SaaS-Software entwickeln zu lassen?",
+      "a1": "Für 2026 kostet eine erste verkaufsfähige Version (MVP) 100.000–180.000 TL und dauert 3–4 Monate. Ein vollständiges Produkt mit mandantenfähiger Architektur, Abo-Zahlung und Admin-Panel liegt bei 250.000–500.000+ TL und dauert 5–8 Monate. Der genaue Preis wird nach dem kostenlosen Erstgespräch schriftlich angeboten.",
+      "q2": "Welche Firmen in Ankara entwickeln SaaS, und welche ist die beste?",
+      "a2": "Die eine „beste“ Firma gibt es nicht; die richtige Wahl hängt von Ihrem Produkt und Budget ab. Fragen Sie, ob die Firma schon Abo-Produkte entwickelt hat, wem der Quellcode gehören wird, wie sie den MVP-Umfang eingrenzt und wer das Produkt nach dem Launch wartet. Ozturksoft ist eines der Unternehmen in Ankara-Çankaya, die SaaS vom MVP bis zum vollständigen Produkt entwickeln.",
+      "q3": "Sollte ich eine fertige Plattform oder No-Code nutzen oder ein Softwareprodukt von Grund auf entwickeln lassen?",
+      "a3": "Um eine Idee schnell zu testen, können No-Code-Tools oder fertige Vorlagen die richtige und deutlich günstigere Wahl sein. Wenn die Kundenzahl wächst und eigene Geschäftsregeln, Datentrennung und Leistung gefragt sind, wird Individualentwicklung nötig. Im Erstgespräch vergleichen wir beides ehrlich.",
+      "q4": "Funktioniert meine SaaS mit Logo, Netsis, Mikro, Excel oder den E-Commerce-Systemen meiner Kunden?",
+      "a4": "Ja, wenn es im Umfang enthalten ist. Daten aus Logo, Netsis und Mikro lassen sich per API oder Übertragungsdienst abrufen, ein Excel/CSV-Import kann ergänzt und Marktplätze wie Trendyol und Hepsiburada können angebunden werden. Im Angebot steht getrennt, welche Anbindung ins MVP und welche in eine spätere Version kommt.",
+      "q5": "Wie lange dauert die Entwicklung eines SaaS-MVP?",
+      "a5": "Ein fokussiertes MVP geht in 3–4 Monaten live, ein vollständiges Produkt dauert 5–8 Monate. Am meisten verzögert, jede Funktion in die erste Version packen zu wollen; deshalb grenzen wir den Umfang im Erstgespräch gemeinsam ein.",
+      "q6": "Sind die Daten meiner Kunden sicher und KVKK-konform? Gehört uns der Quellcode?",
+      "a6": "Die Daten jedes Kundenunternehmens werden getrennt gehalten, Verbindungen verschlüsselt, regelmäßige Backups erstellt und Rechte rollenbasiert vergeben; KVKK-Datenschutzhinweis und Zustimmungsbildschirme sind im Produkt enthalten. Bei Übergabe erhalten Sie Quellcode, Datenbank und Serverzugänge, und das steht im Vertrag. Der eigene Quellcode ist bei Investorengesprächen und der Unternehmensbewertung wichtig.",
+      "q7": "Für wen lohnt sich eine eigene SaaS nicht?",
+      "a7": "Wer seine Idee noch nie mit Kunden geprüft hat und weniger als 100.000 TL Budget hat, fährt mit einem No-Code-Test besser. Wer nur ein Tool für das eigene Unternehmen braucht, benötigt keine Abo-Infrastruktur; Individualsoftware ist günstiger.",
+      "q8": "Gibt es monatliche Kosten? Erhalten Sie einen Anteil am Umsatz?",
+      "a8": "Die monatliche Gebühr für Wartung und Weiterentwicklung nach dem Launch wird je nach Arbeitsumfang per Angebot festgelegt und ist fix. Serverkosten und Gebühren des Zahlungsanbieters zahlen Sie separat über Ihre eigenen Konten. Wir erhalten keinen Anteil an Ihren Abo-Einnahmen oder Umsätzen."
+    },
+    "cta": {
+      "title": "Planen wir Ihr Softwareprodukt gemeinsam",
+      "desc": "Im kostenlosen Erstgespräch hören wir uns Ihre Idee an und erarbeiten gemeinsam Umfang und Budget des MVP. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "SaaS-Angebot anfordern"
+    },
+    "related": {
+      "blog": "Leitfaden SaaS-Entwicklung Ankara 2026",
+      "mobile": "Mobile App entwickeln lassen",
+      "custom": "Individualsoftware entwickeln lassen",
+      "takeover": "Liegengebliebenes Softwareprojekt übernehmen"
+    },
+    "footer": "© 2026 Ozturksoft — SaaS-Softwareentwicklung, Ankara"
+  },
+  "voiceAiPage": {
+    "meta": {
+      "title": "KI-Sprachassistent fürs Telefon | AI Voice Agent | Ozturksoft"
+    },
+    "hero": {
+      "badge": "AI Voice Agent · KI-Telefonassistent · Türkisch",
+      "title": "KI-Sprachassistent fürs Telefon",
+      "desc": "Bleiben Anrufe zu Stoßzeiten unbeantwortet, und beantwortet Ihr Team den ganzen Tag dieselben Fragen? Lassen Sie die KI ans Telefon gehen: Wir richten einen Assistenten ein, der Fragen zu Öffnungszeiten, Bestellstatus und Terminwünschen auf Türkisch beantwortet, das Gespräch bei Bedarf an Ihr Team weiterleitet und eine Gesprächszusammenfassung ins CRM schreibt. Team in Ankara-Çankaya, das Erstgespräch ist kostenlos.",
+      "btn": "Kostenloses Erstgespräch"
+    },
+    "stats": {
+      "s1l": "Pilot (ein Szenario)",
+      "s2l": "Callcenter- / CRM-Integration",
+      "s3v": "4–6 Wochen",
+      "s3l": "Dauer des Pilots"
+    },
+    "pain": {
+      "title": "Kommt Ihnen das bekannt vor?",
+      "i1": "Anrufe nach Feierabend und in der Mittagspause bleiben unbeantwortet, und der Kunde ruft die Konkurrenz an.",
+      "i2": "Die Hälfte der Anrufe sind immer dieselben Fragen: „Wann haben Sie geöffnet?“, „Wo ist meine Bestellung?“",
+      "i3": "Anrufer mit Terminwunsch landen in der Warteschleife; die Rezeption schafft nicht zwei Leitungen gleichzeitig.",
+      "i4": "Name, Nummer und Anliegen des Anrufers werden nirgends notiert, Rückrufe gehen vergessen.",
+      "i5": "Mit jedem neuen Callcenter-Mitarbeiter steigen die Kosten, und an Aktionstagen sind die Leitungen dicht."
+    },
+    "pricing": {
+      "title": "Was kostet ein KI-Sprachassistent? (2026)",
+      "intro": "Die folgenden Preisspannen gelten für 2026; der genaue Preis wird nach dem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt.",
+      "c1t": "Pilot (ein Szenario, eine Leitung)",
+      "c1time": "4–6 Wochen",
+      "c1d": "Ein türkischsprachiger Sprachassistent für eine Aufgabe (z. B. Öffnungszeiten + Terminwünsche), Übergabe an Mitarbeiter und Gesprächszusammenfassungen per E-Mail oder in eine Tabelle.",
+      "c2t": "Callcenter- / CRM-Integration",
+      "c2time": "2–4 Monate",
+      "c2d": "Mehrere Szenarien, Telefonanlage und Anrufweiterleitung, Anbindung an Ihr Bestell-/Terminsystem und eine Zusammenfassung jedes Gesprächs im CRM-Datensatz.",
+      "c3t": "Monatliche Telefonie- und KI-Nutzung",
+      "c3amt": "Pro Minute",
+      "c3time": "Monatlich, nach Nutzung",
+      "c3d": "Telefonleitung und KI-Nutzung werden nach Gesprächsminuten abgerechnet; die Nutzungsgebühr pro Minute wird separat berechnet.",
+      "monthly": "Zusätzlich beträgt die feste monatliche Wartung für Szenario-Updates und technische Betreuung 5.000–10.000 TL/Monat; wir erhalten keinen Anteil an Ihren Umsätzen."
+    },
+    "cards": {
+      "title": "Was der Sprachassistent erledigt",
+      "c1t": "Nimmt ab und beantwortet Fragen",
+      "c1d": "Beantwortet häufige Fragen zu Öffnungszeiten, Adresse, Preisliste oder Lieferzeit in natürlichem Türkisch, mit den Informationen, die Sie freigegeben haben.",
+      "c2t": "Bestellstatus",
+      "c2d": "Sucht die Bestellung anhand von Bestell- oder Telefonnummer in Ihrem Shop- oder ERP-System und sagt dem Anrufer, wo sie ist.",
+      "c3t": "Terminwünsche",
+      "c3d": "Nimmt Wunschtag und -uhrzeit auf und trägt den Terminwunsch in Ihren Kalender oder Ihr System ein; auf Wunsch mit Bestätigungs-SMS.",
+      "c4t": "Weiterleitung und Übergabe an Mitarbeiter",
+      "c4d": "Erkennt das Anliegen und leitet an die richtige Abteilung weiter. Versteht er etwas nicht, wünscht es der Anrufer oder ist das Thema heikel, verbindet er sofort mit einem Mitarbeiter.",
+      "c5t": "Anruferdaten und CRM-Zusammenfassung",
+      "c5d": "Erfasst Name, Telefonnummer und Anliegen, schreibt eine kurze Zusammenfassung und das Ergebnis jedes Gesprächs ins CRM und markiert nötige Rückrufe.",
+      "c6t": "KVKK-konforme Begrüßung",
+      "c6d": "Zu Beginn des Gesprächs erfährt der Anrufer, dass er mit einer KI spricht und ob das Gespräch aufgezeichnet wird; Aufnahmen werden nach einer festgelegten Frist gelöscht."
+    },
+    "compat": {
+      "title": "Arbeitet mit Ihren bestehenden Systemen",
+      "intro": "Für seine Antworten liest der Assistent die Informationen aus Ihren eigenen Systemen; Sie müssen auf keine neue Software umsteigen.",
+      "i1": "<strong>Telefonanlage und Leitung:</strong> Ihre bestehende Nummer bleibt; die Anbindung erfolgt über eine IP-Telefonanlage (Telefonanlage über das Internet) oder eine Weiterleitung beim Anbieter.",
+      "i2": "<strong>CRM:</strong> Gesprächszusammenfassung und Anruferdaten landen in Ihrem bestehenden CRM; haben Sie keins, kann es zusammen mit einer <a href=\"/crm-yazilim-yaptirmak\">CRM-Software</a> eingerichtet werden.",
+      "i3": "<strong>Logo, Netsis, Mikro:</strong> Kunden-, Bestell- und Saldoinformationen werden per API (Datenverbindung zwischen Programmen) oder Übertragungsdienst gelesen.",
+      "i4": "<strong>E-Commerce und Marktplätze:</strong> Der Versandstatus wird aus Ihrem Shop-System oder aus Trendyol- und Hepsiburada-Bestellungen abgefragt.",
+      "i5": "<strong>Excel und Kalender:</strong> Häufige Fragen und Öffnungszeiten lassen sich per Excel aktualisieren; Termine landen im Google- oder Outlook-Kalender."
+    },
+    "steps": {
+      "title": "Der Ablauf der Einrichtung",
+      "s1t": "Kostenloses Erstgespräch",
+      "s1d": "Wir besprechen, worum es bei Ihren Anrufen meistens geht, und legen fest, welche Aufgabe der Assistent zuerst übernimmt und wann er an einen Menschen übergibt.",
+      "s2t": "Schriftlicher Umfang und Angebot",
+      "s2d": "Szenarien, anzubindende Systeme, Übergaberegeln, Dauer und Preis stehen im schriftlichen Angebot, dazu eine Kostenschätzung für die monatliche Minutennutzung.",
+      "s3t": "Szenarien und Entwicklung",
+      "s3d": "Gesprächsablauf, die von Ihnen freigegebenen Antworten und die Systemanbindungen werden vorbereitet; der KVKK-Hinweissatz kommt in die Begrüßung.",
+      "s4t": "Test und Einrichtung",
+      "s4d": "Testanrufe mit Hintergrundgeräuschen, verschiedenen Dialekten und schnellem Sprechen; live geht es zuerst außerhalb der Geschäftszeiten oder auf einer Leitung.",
+      "s5t": "Schulung und Support",
+      "s5d": "Wir zeigen Ihrem Team, wie es Zusammenfassungen und übergebene Anrufe nachverfolgt, und verbessern die Antworten jeden Monat anhand echter Gespräche."
+    },
+    "notfor": {
+      "title": "Für wen ist das nicht geeignet?",
+      "p1": "Bei nur wenigen Anrufen pro Tag rechnet sich ein Sprachassistent nicht; ein einfaches Tastenmenü (IVR) oder ein Rückruf durch einen Mitarbeiter ist günstiger. Erfordern die meisten Gespräche Einfühlungsvermögen und Entscheidungsbefugnis, etwa Beschwerden, Verhandlungen oder heikle Gesundheits- und Rechtsfragen, sollte der Assistent nur begrüßen und weiterleiten und ein Mensch das eigentliche Gespräch führen. Spracherkennung kann bei Hintergrundgeräuschen und starkem Akzent Fehler machen; deshalb gehört die Übergabe an einen Menschen zu jeder Einrichtung."
+    },
+    "faq": {
+      "title": "KI-Sprachassistent: häufige Fragen",
+      "q1": "Was kostet ein KI-Sprachassistent?",
+      "a1": "Für 2026 kostet ein Pilot mit einem Szenario und einer Leitung 80.000–150.000 TL und dauert 4–6 Wochen. Callcenter- und CRM-Integration kosten 150.000–350.000 TL und dauern 2–4 Monate. Telefonleitung und KI-Nutzung werden monatlich separat nach Gesprächsminuten abgerechnet.",
+      "q2": "Welche Firmen in Ankara richten KI-Telefonassistenten ein, und welche ist die beste?",
+      "a2": "Die eine „beste“ Firma gibt es nicht. Fragen Sie, wie die türkische Spracherkennung bei Lärm getestet wird, wie die Übergabe an einen Menschen funktioniert, wie der KVKK-Hinweis umgesetzt wird und ob die Kosten pro Minute vorab geschätzt werden. Ozturksoft ist eines der Unternehmen in Ankara-Çankaya, die Sprachassistenten mit Anbindung an Telefonanlage und CRM einrichten.",
+      "q3": "Fertige Callcenter-Software oder ein individueller KI-Sprachassistent?",
+      "a3": "Sind Ihre Anrufe wenige und standardisiert, ist eine fertige Callcenter-Software oder ein Tastenmenü (IVR) günstiger und ausreichend. Ein individueller Assistent lohnt sich bei stark ausgelasteten Leitungen, wenn Anrufer frei sprechen und Ihr Bestell- oder Terminsystem abgefragt werden muss. Im Erstgespräch sagen wir offen, was zu Ihnen passt.",
+      "q4": "Funktioniert die KI am Telefon mit meiner Telefonanlage, meinem CRM, Logo, Netsis, Mikro oder meinem Shop-System?",
+      "a4": "Ja. Ihre bestehende Nummer bleibt und wird über eine IP-Telefonanlage oder eine Weiterleitung beim Anbieter angebunden. Bestell- und Kundendaten werden per API aus Logo, Netsis, Mikro oder Ihrem Shop-System gelesen, häufige Fragen lassen sich per Excel pflegen, und Gesprächszusammenfassungen landen in Ihrem CRM.",
+      "q5": "Wie lange dauert die Einführung von KI im Callcenter?",
+      "a5": "Ein Pilot mit einem Szenario geht in 4–6 Wochen live. Mehrere Szenarien mit Anbindung an Telefonanlage und CRM dauern 2–4 Monate. Wir empfehlen, mit Anrufen außerhalb der Geschäftszeiten oder einer Leitung zu starten und je nach Ergebnis auszubauen.",
+      "q6": "Muss der Anrufer erfahren, dass er mit einer KI spricht, und sind Aufnahmen KVKK-konform? Gehört uns der Quellcode?",
+      "a6": "Ja; zu Beginn des Gesprächs erfährt der Anrufer, dass er mit einer KI spricht und ob aufgezeichnet wird, als Teil der KVKK-Informationspflicht. Aufnahmen und Zusammenfassungen werden verschlüsselt gespeichert, nach einer festgelegten Frist gelöscht, und der Zugriff ist auf Berechtigte beschränkt. Bei Übergabe erhalten Sie Quellcode, Datenbank und Serverzugänge, und das steht im Vertrag.",
+      "q7": "Für wen ist ein KI-Sprachassistent nicht geeignet, und was passiert bei Missverständnissen?",
+      "a7": "Bei nur wenigen Anrufen pro Tag rechnet er sich nicht. Spracherkennung kann bei Lärm oder starkem Akzent Fehler machen; ist sich der Assistent unsicher, fragt er nach oder verbindet mit einem Mitarbeiter. Beschwerden und heikle Themen sollte ein Mensch übernehmen.",
+      "q8": "Gibt es monatliche Kosten?",
+      "a8": "Ja, zwei Posten. Telefonleitung und KI-Nutzung werden monatlich nach Gesprächsminuten abgerechnet; die Nutzungsgebühr pro Minute wird separat berechnet und im Angebot geschätzt. Die feste Wartung für Szenario-Updates und technische Betreuung beträgt 5.000–10.000 TL/Monat; wir erhalten keinen Anteil an Ihren Umsätzen."
+    },
+    "cta": {
+      "title": "Lassen Sie die KI Ihre Anrufe annehmen, damit sich Ihr Team auf das Wesentliche konzentriert",
+      "desc": "Im kostenlosen Erstgespräch sehen wir uns Ihre eingehenden Anrufe gemeinsam an und ermitteln das erste Szenario und die monatlichen Minutenkosten. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Angebot für Sprachassistenten anfordern"
+    },
+    "related": {
+      "aiIntegration": "KI-Integration",
+      "aiAgent": "AI-Agent",
+      "privateAi": "Unternehmensinterne KI",
+      "crm": "CRM-Software entwickeln lassen"
+    },
+    "footer": "© 2026 Ozturksoft — KI-Sprachassistent, Ankara"
   }
 }

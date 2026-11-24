@@ -469,6 +469,121 @@
       "permanent": true
     },
     {
+      "source": "/stok-takip-programi",
+      "destination": "/stok-takip-programi-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/depo-takip-yazilimi",
+      "destination": "/stok-takip-programi-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/stok-programi",
+      "destination": "/stok-takip-programi-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/uretim-takip-programi",
+      "destination": "/uretim-takip-yazilimi",
+      "permanent": true
+    },
+    {
+      "source": "/fabrika-yazilimi",
+      "destination": "/uretim-takip-yazilimi",
+      "permanent": true
+    },
+    {
+      "source": "/is-emri-takip",
+      "destination": "/uretim-takip-yazilimi",
+      "permanent": true
+    },
+    {
+      "source": "/teknik-servis-programi",
+      "destination": "/teknik-servis-takip-programi",
+      "permanent": true
+    },
+    {
+      "source": "/saha-ekibi-takip",
+      "destination": "/teknik-servis-takip-programi",
+      "permanent": true
+    },
+    {
+      "source": "/servis-takip-programi",
+      "destination": "/teknik-servis-takip-programi",
+      "permanent": true
+    },
+    {
+      "source": "/yazilim-destek",
+      "destination": "/yazilim-bakim-destek-hizmeti",
+      "permanent": true
+    },
+    {
+      "source": "/web-sitesi-bakim",
+      "destination": "/yazilim-bakim-destek-hizmeti",
+      "permanent": true
+    },
+    {
+      "source": "/otomatik-musteri-hizmetleri",
+      "destination": "/otomatik-musteri-hizmetleri-yapay-zeka",
+      "permanent": true
+    },
+    {
+      "source": "/yapay-zeka-musteri-hizmetleri",
+      "destination": "/otomatik-musteri-hizmetleri-yapay-zeka",
+      "permanent": true
+    },
+    {
+      "source": "/satis-yapay-zeka",
+      "destination": "/otomatik-musteri-hizmetleri-yapay-zeka",
+      "permanent": true
+    },
+    {
+      "source": "/dashboard-yaptirmak",
+      "destination": "/raporlama-dashboard-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/yonetim-paneli",
+      "destination": "/raporlama-dashboard-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/raporlama-sistemi",
+      "destination": "/raporlama-dashboard-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/saas-yaptirmak",
+      "destination": "/saas-yazilim-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/mvp-gelistirme",
+      "destination": "/saas-yazilim-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/web-uygulamasi-yaptirmak",
+      "destination": "/saas-yazilim-yaptirmak",
+      "permanent": true
+    },
+    {
+      "source": "/sesli-asistan",
+      "destination": "/sesli-yapay-zeka-asistani",
+      "permanent": true
+    },
+    {
+      "source": "/cagri-merkezi-yapay-zeka",
+      "destination": "/sesli-yapay-zeka-asistani",
+      "permanent": true
+    },
+    {
+      "source": "/ai-voice-agent",
+      "destination": "/sesli-yapay-zeka-asistani",
+      "permanent": true
+    },
+    {
       "source": "/blog/e-arsiv-fatura-zorunlulugu-2027",
       "destination": "/e-fatura-entegrasyonu",
       "permanent": true

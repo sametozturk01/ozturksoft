@@ -44,6 +44,14 @@ Prices below are 2026 ranges in Turkish lira (TL) published on the linked pages;
 - [CRM software](https://ozturksoft.net/crm-yazilim-yaptirmak): SME panel 80,000–180,000 TL; CRM + ERP 150,000–300,000 TL
 - [Website development in Ankara](https://ozturksoft.net/web-sitesi-yaptirmak-ankara) and [Ankara web design](https://ozturksoft.net/ankara-web-tasarim): corporate site 15,000–90,000 TL; e-commerce 100,000–500,000+ TL
 - [E-commerce website](https://ozturksoft.net/e-ticaret-sitesi-yaptirmak): stores written from scratch for the brand (no ready-made platform), code and data owned by the client, migration from monthly platforms. Custom store 100,000–150,000 TL; with ERP, shipping and payments 150,000–250,000 TL; B2B / marketplace 250,000–500,000+ TL; fixed monthly maintenance 5,000–10,000 TL, no share of sales.
+- [Inventory tracking software](https://ozturksoft.net/stok-takip-programi-yaptirmak): Inventory and warehouse tracking software: barcode, multi-warehouse, Logo/Netsis/Mikro link. 80,000–400,000+ TL.
+- [Production tracking software](https://ozturksoft.net/uretim-takip-yazilimi): Production and work-order tracking software for factories and workshops (Ankara OSTİM, İvedik, Sincan). 120,000–750,000+ TL.
+- [Field service software](https://ozturksoft.net/teknik-servis-takip-programi): Field service and technical service tracking: web panel + mobile app, photos, signatures, spare-part stock. 100,000–450,000+ TL.
+- [Software maintenance and support](https://ozturksoft.net/yazilim-bakim-destek-hizmeti): Monthly software and website maintenance and support, also for systems built by other firms. 5,000–60,000+ TL/month.
+- [AI customer service](https://ozturksoft.net/otomatik-musteri-hizmetleri-yapay-zeka): AI for customer service, sales and marketing: assistants, lead qualification, CRM link. 40,000–400,000+ TL.
+- [Reporting dashboards](https://ozturksoft.net/raporlama-dashboard-yaptirmak): Management dashboards and reporting that combine ERP, CRM, e-commerce and Excel data. 40,000–350,000+ TL.
+- [SaaS development](https://ozturksoft.net/saas-yazilim-yaptirmak): SaaS and subscription software products: MVP 100,000–180,000 TL, full product 250,000–500,000+ TL, source code owned by the client.
+- [AI voice assistant](https://ozturksoft.net/sesli-yapay-zeka-asistani): Turkish AI voice assistant that answers business phone calls with human handover and CRM summaries. Pilot 80,000–150,000 TL, call-center integration 150,000–350,000 TL, usage billed per minute.
 - [QA and test automation](https://ozturksoft.net/qa-test-hizmeti): audit 15,000–40,000 TL; test automation 40,000–120,000 TL (Playwright, Cypress, API, CI/CD)
 - [Ankara software company overview](https://ozturksoft.net/ankara-yazilim-sirketi)
 

@@ -633,7 +633,15 @@
       "tender": "Analyse d'appels d'offres par IA",
       "softwareCompany": "Entreprise de logiciels à Ankara",
       "spam": "Récupération après un spam update",
-      "logoNetsis": "Intégration Logo / Netsis"
+      "logoNetsis": "Intégration Logo / Netsis",
+      "stock": "Logiciel de gestion de stock",
+      "production": "Logiciel de suivi de production",
+      "fieldService": "Logiciel d’intervention terrain",
+      "maintenance": "Maintenance et support logiciel",
+      "salesAi": "Service client automatisé par IA",
+      "dashboard": "Tableaux de bord",
+      "saas": "Développement SaaS",
+      "voiceAi": "Assistant vocal IA"
     }
   },
   "aiFirmPage": {
@@ -4591,5 +4599,918 @@
       "i6": "Sur Google, des pages en langue étrangère que vous ne connaissez pas apparaissent sous le nom de votre site.",
       "note": "Si vous constatez l'un de ces signes, plus on intervient tôt, plus la récupération est facile."
     }
+  },
+  "stockPage": {
+    "meta": {
+      "title": "Logiciel de gestion de stock sur mesure | Code-barres | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Suivi de stock · Code-barres · Entrepôt · Commandes",
+      "title": "Faire développer un logiciel de gestion de stock",
+      "desc": "Si votre inventaire ne correspond jamais à votre fichier Excel et que vous devez téléphoner pour savoir quel produit reste dans quel entrepôt, le problème vient de votre suivi de stock. Nous développons un logiciel de stock, d'entrepôt et de commandes adapté à votre façon de travailler, avec inventaire par code-barres et connexion à Logo, Netsis ou Mikro. Équipe basée à Çankaya, Ankara ; premier échange gratuit.",
+      "btn": "Premier échange gratuit"
+    },
+    "stats": {
+      "s1l": "Suivi de stock et de commandes de base",
+      "s2l": "Code-barres, multi-entrepôts et inventaire mobile",
+      "s3l": "Délai du système de base"
+    },
+    "symptoms": {
+      "title": "L'une de ces situations vous parle ?",
+      "i1": "À chaque inventaire, le stock dans Excel ne correspond pas à celui des rayons.",
+      "i2": "Nous découvrons qu'un produit est en rupture seulement après avoir pris la commande.",
+      "i3": "Nous avons deux entrepôts et un magasin, et nous téléphonons pour savoir combien il reste de chaque produit et où.",
+      "i4": "Le même produit est vendu sur notre site et sur des places de marché, le stock est mis à jour à la main et nous vendons plus que ce que nous avons.",
+      "i5": "Le stock du logiciel comptable diffère de la réalité de l'entrepôt.",
+      "i6": "Nous cherchons un logiciel de gestion d'entrepôt, mais les solutions toutes faites ne correspondent pas à notre façon de travailler.",
+      "note": "Si vous gérez encore votre stock dans Excel, ce guide peut vous aider à décider : <a href=\"/blog/excel-yerine-ozel-program-yaptirmak-2026\">Remplacer Excel par un logiciel sur mesure</a>."
+    },
+    "pricing": {
+      "title": "Combien coûte un logiciel de gestion de stock sur mesure ? (2026)",
+      "intro": "Les fourchettes de prix ci-dessous s'appliquent à 2026 ; le prix exact est fixé par un devis écrit après le premier échange gratuit.",
+      "monthly": "Après la livraison, un forfait de maintenance mensuel fixe couvre le serveur, les mises à jour de sécurité, les sauvegardes et le support technique : 5 000–10 000 TL/mois. Aucune part de vos ventes n'est prélevée.",
+      "row1": "Suivi de stock et de commandes de base",
+      "t1": "6 à 10 semaines",
+      "d1": "Fiches produits, entrées et sorties, alerte de stock minimum, saisie des commandes et rapports de base ; votre liste Excel existante est importée.",
+      "row2": "Code-barres, multi-entrepôts et inventaire mobile",
+      "t2": "10 à 14 semaines",
+      "d2": "Entrées et sorties par code-barres ou QR code, transferts entre entrepôts et emplacements, inventaire par téléphone et suivi des lots ou numéros de série.",
+      "row3": "Système de stock connecté à Logo/Netsis/Mikro",
+      "t3": "3 à 5 mois",
+      "d3": "Un système complet qui synchronise automatiquement le stock, les comptes clients et fournisseurs et les factures avec votre logiciel comptable ou ERP, avec étapes de validation et droits d'accès."
+    },
+    "cards": {
+      "title": "Ce que nous intégrons à votre logiciel de stock",
+      "c1t": "Fiches produits et stock",
+      "c1d": "Une seule liste de produits avec variantes (couleur, taille), unités, emplacement et stock minimum. Chaque mouvement est enregistré avec son auteur.",
+      "c2t": "Suivi de stock par code-barres",
+      "c2d": "Entrées, sorties et inventaires en scannant avec un terminal portable, un lecteur USB ou la caméra du téléphone. Moins d'erreurs de saisie.",
+      "c3t": "Multi-entrepôts et transferts",
+      "c3d": "Le stock de plusieurs entrepôts, magasins ou véhicules est suivi séparément ; les transferts se font avec un bon.",
+      "c4t": "Commandes liées au stock",
+      "c4d": "Dès qu'une commande est saisie, le stock est réservé ; un article manquant déclenche une alerte et une proposition d'achat. L'état d'expédition est visible sur le même écran.",
+      "c5t": "Inventaire mobile",
+      "c5d": "Le personnel d'entrepôt compte avec son téléphone ; les écarts sont intégrés au stock après validation.",
+      "c6t": "Rapports et alertes",
+      "c6d": "Rapports sur le stock critique, les produits à rotation lente, la valeur du stock par entrepôt et les mouvements ; export Excel et alertes par e-mail si besoin."
+    },
+    "integr": {
+      "title": "Fonctionne avec vos systèmes existants",
+      "p1": "Le nouveau logiciel n'a pas à remplacer vos systèmes actuels ; il est configuré pour échanger des données avec eux.",
+      "i1": "<strong>Logo et Netsis :</strong> stock, comptes et factures sont synchronisés dans les deux sens. Détails : <a href=\"/logo-netsis-entegrasyon\">intégration Logo et Netsis</a>.",
+      "i2": "<strong>Mikro :</strong> fiches et mouvements de stock restent identiques à Mikro. Détails : <a href=\"/mikro-entegrasyon\">intégration Mikro</a>.",
+      "i3": "<strong>Excel :</strong> votre liste de produits et de stock est importée ; les rapports se téléchargent au format Excel.",
+      "i4": "<strong>E-commerce et places de marché :</strong> le stock de votre site, de Trendyol ou de Hepsiburada est mis à jour depuis un seul endroit.",
+      "i5": "<strong>API</strong> (échange automatique de données entre deux logiciels) : connexion possible avec un transporteur, un fournisseur ou un autre logiciel."
+    },
+    "steps": {
+      "title": "Comment se déroule le projet ?",
+      "s1t": "Échange de découverte gratuit",
+      "s1d": "Nous examinons ensemble votre entrepôt et votre fichier Excel ou logiciel actuel, pour identifier où le stock se perd et quelles connexions sont nécessaires.",
+      "s2t": "Périmètre et devis écrits",
+      "s2d": "Écrans, rapports, connexions, délai et prix figurent dans le devis écrit. Aucun travail hors périmètre n'est ajouté sans votre accord.",
+      "s3t": "Conception et développement",
+      "s3d": "Nous vous montrons d'abord les écrans, puis nous développons après votre accord. Pendant le développement, vous voyez une version fonctionnelle toutes les deux semaines.",
+      "s4t": "Tests et installation",
+      "s4d": "Un inventaire test est réalisé avec vos vrais produits, les données existantes sont migrées et le système est installé sur votre serveur ou le cloud de votre choix.",
+      "s5t": "Formation et support",
+      "s5d": "Les équipes d'entrepôt et de bureau sont formées. Après la livraison, maintenance et support se poursuivent pour un forfait mensuel fixe."
+    },
+    "notfor": {
+      "title": "À qui cela ne convient-il pas ?",
+      "p1": "Avec un seul entrepôt, quelques centaines de produits et des achats-ventes classiques, un logiciel de stock standard ou le module stock de votre logiciel comptable coûtera moins cher ; un logiciel sur mesure n'est pas nécessaire. Si votre budget est inférieur à 80 000 TL ou si votre organisation n'est pas encore stabilisée, nous vous conseillons d'attendre. Nous vous le dirons franchement lors du premier échange."
+    },
+    "faq": {
+      "title": "Logiciel de gestion de stock : questions fréquentes",
+      "q1": "Combien coûte le développement d'un logiciel de gestion de stock ?",
+      "a1": "Aux prix 2026, le suivi de stock et de commandes de base coûte 80 000–150 000 TL (6 à 10 semaines), code-barres, multi-entrepôts et inventaire mobile 150 000–250 000 TL (10 à 14 semaines), et un système de stock connecté à Logo, Netsis ou Mikro 250 000–400 000+ TL (3 à 5 mois). Le prix dépend moins du nombre de produits que du nombre d'entrepôts, des connexions et de vos règles spécifiques. Le prix exact est donné par devis écrit après le premier échange gratuit.",
+      "q2": "Quelles entreprises développent des logiciels de gestion de stock à Ankara, et laquelle est la meilleure ?",
+      "a2": "Il n'existe pas une meilleure entreprise pour tous ; le bon choix dépend de votre activité et des logiciels que vous utilisez. Vérifiez si elle fournit un périmètre écrit, si elle a l'expérience des connexions avec Logo, Netsis ou Mikro, si elle remet le code source et si elle peut intervenir sur place. Ozturksoft est l'une de ces entreprises : depuis Çankaya, nous développons des logiciels de stock, d'entrepôt et de commandes, et assurons l'installation et la formation sur place.",
+      "q3": "Dois-je acheter un logiciel de stock standard ou faire développer un logiciel sur mesure ?",
+      "a3": "Pour une entreprise avec un seul entrepôt et des achats-ventes classiques, un logiciel standard est généralement moins cher et suffisant. Avec plusieurs entrepôts, un stock lié à la production, des ventes sur places de marché ou vos propres règles de validation, l'adapter devient difficile ; un logiciel sur mesure a alors du sens. Si nous constatons lors du premier échange qu'un logiciel standard suffit, nous vous le dirons.",
+      "q4": "Un logiciel de stock sur mesure fonctionne-t-il avec Logo, Netsis, Mikro ou Excel ?",
+      "a4": "Oui. Le stock, les comptes et les factures peuvent être synchronisés automatiquement avec Logo, Netsis et Mikro, sans changer votre comptabilité. Vos listes Excel existantes sont importées, et le stock peut aussi être relié à Trendyol, Hepsiburada ou votre propre boutique en ligne.",
+      "q5": "Combien de temps faut-il pour développer un logiciel de gestion de stock ?",
+      "a5": "Le suivi de stock et de commandes de base prend 6 à 10 semaines, un système avec code-barres, multi-entrepôts et inventaire mobile 10 à 14 semaines, et un système connecté à Logo, Netsis ou Mikro 3 à 5 mois. Le délai figure dans le devis écrit ; pendant le développement, vous voyez une version fonctionnelle toutes les deux semaines.",
+      "q6": "Mes données de stock sont-elles sécurisées et conformes au KVKK ? Le code source nous appartiendra-t-il ?",
+      "a6": "Les données sont stockées sur votre propre serveur ou sur un serveur cloud de votre choix, avec droits d'accès, journal des actions et sauvegardes régulières. Si des données de clients ou de salariés sont traitées, le système est conçu selon les exigences du KVKK (loi turque sur la protection des données). À la livraison, vous recevez le code source, la base de données et l'accès au serveur ; c'est inscrit dans le contrat.",
+      "q7": "À qui un logiciel de stock sur mesure ne convient-il pas ?",
+      "a7": "Pour une entreprise avec un seul entrepôt, quelques centaines de produits et des achats-ventes classiques, un logiciel standard ou le module stock du logiciel comptable est plus économique. Nous conseillons aussi d'attendre aux entreprises dont le budget est inférieur à 80 000 TL ou dont l'organisation n'est pas encore stabilisée.",
+      "q8": "Le logiciel de stock entraîne-t-il un coût mensuel ?",
+      "a8": "Après la livraison, un forfait de maintenance fixe de 5 000–10 000 TL/mois couvre le serveur, les mises à jour de sécurité, les sauvegardes et le support technique ; aucune part de vos ventes n'est prélevée. Les nouvelles fonctionnalités font l'objet d'un devis écrit séparé."
+    },
+    "cta": {
+      "title": "Votre stock sur un seul écran",
+      "desc": "Lors du premier échange gratuit, nous retraçons ensemble vos flux d'entrepôt et vous disons franchement s'il vous faut un logiciel standard ou sur mesure. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Demander un devis logiciel de stock"
+    },
+    "related": {
+      "custom": "Logiciel sur mesure",
+      "logo": "Intégration Logo et Netsis",
+      "mikro": "Intégration Mikro",
+      "ecommerce": "Création de site e-commerce",
+      "excel": "Guide : logiciel sur mesure au lieu d'Excel"
+    },
+    "footer": "© 2026 Ozturksoft — Logiciel de gestion de stock, Ankara"
+  },
+  "productionPage": {
+    "meta": {
+      "title": "Logiciel de suivi de production | Ordres de fabrication | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Suivi de production · Ordres de fabrication · Rebuts · Qualité",
+      "title": "Logiciel de suivi de production",
+      "desc": "Si les ordres de fabrication circulent sur papier et que vous ne savez quelle commande est sur quelle machine qu'en allant dans l'atelier, un logiciel de suivi de production répond exactement à ce besoin. Nous réunissons ordres de fabrication, rebuts, qualité et suivi des machines sur un seul écran, adapté à votre usine, et le connectons à Logo, Netsis ou Mikro. Équipe basée à Çankaya, Ankara ; premier échange gratuit.",
+      "btn": "Premier échange gratuit"
+    },
+    "stats": {
+      "s1l": "Suivi des ordres et de la production",
+      "s2l": "Qualité, rebuts, code-barres et données machines",
+      "s3l": "Délai du premier système"
+    },
+    "symptoms": {
+      "title": "L'une de ces situations vous parle ?",
+      "i1": "Les ordres de fabrication sont distribués sur papier ou par WhatsApp, et personne ne sait vraiment lesquels sont terminés.",
+      "i2": "Quand un client demande « quand ma commande sera-t-elle prête ? », nous appelons l'atelier.",
+      "i3": "Nous estimons les quantités de rebuts et de déchets en fin de mois.",
+      "i4": "Nous ne savons pas mesurer combien de temps chaque machine est à l'arrêt, ni pourquoi.",
+      "i5": "Les résultats de contrôle qualité sont dans un cahier ; quand un lot pose problème, impossible de remonter la trace.",
+      "i6": "Le planning de production dans Excel change chaque jour et arrive trop tard à l'atelier.",
+      "note": "Nous avons rassemblé les questions logicielles les plus fréquentes des industriels d'Ankara dans notre <a href=\"/blog/ankara-sanayi-yazilim-2026\">guide logiciel pour l'industrie d'Ankara</a>."
+    },
+    "pricing": {
+      "title": "Combien coûte un logiciel de suivi de production ? (2026)",
+      "intro": "Les fourchettes de prix ci-dessous s'appliquent à 2026 ; le prix exact est fixé par un devis écrit après le premier échange gratuit.",
+      "monthly": "Après la livraison, un forfait de maintenance mensuel fixe couvre le serveur, les mises à jour de sécurité, les sauvegardes et le support technique : 5 000–10 000 TL/mois. Aucune part de vos ventes n'est prélevée.",
+      "row1": "Suivi des ordres et de la production",
+      "t1": "8 à 12 semaines",
+      "d1": "Création des ordres de fabrication, avancement par poste et par opérateur, quantités prévues et réalisées, état de production par commande et rapports de base.",
+      "row2": "Qualité, rebuts, code-barres et données machines",
+      "t2": "3 à 5 mois",
+      "d2": "Formulaires de contrôle qualité, saisie des rebuts et déchets, suivi des lots par code-barres et collecte automatique des compteurs et arrêts des machines.",
+      "row3": "Système d'usine connecté à l'ERP",
+      "t3": "5 à 8 mois",
+      "d3": "Logiciel d'usine complet où nomenclatures, stock et commandes sont synchronisés avec Logo, Netsis ou Mikro, avec planification, calcul des coûts et tableau de bord de direction."
+    },
+    "cards": {
+      "title": "Ce que nous intégrons à votre logiciel de production",
+      "c1t": "Suivi des ordres de fabrication",
+      "c1d": "Les ordres de fabrication sont créés automatiquement à partir des commandes et répartis sur les postes ; l'opérateur saisit début et fin sur tablette ou terminal.",
+      "c2t": "Planification de la production",
+      "c2d": "Quelle tâche sur quelle machine et dans quel ordre : tout se planifie à l'écran, et les changements arrivent immédiatement à l'atelier.",
+      "c3t": "Données machines et arrêts",
+      "c3d": "Les compteurs et temps de marche sont collectés automatiquement sur les machines compatibles ; l'opérateur choisit le motif d'arrêt, qui est ensuite analysé.",
+      "c4t": "Contrôle qualité",
+      "c4d": "Les fiches de mesure et de contrôle sont remplies en numérique ; non-conformités et actions correctives sont enregistrées et traçables par lot.",
+      "c5t": "Rebuts et traçabilité par code-barres",
+      "c5d": "Rebuts et déchets sont saisis immédiatement avec motif et quantité. Lots et séries sont suivis par code-barres, de la matière première au produit fini.",
+      "c6t": "Tableau de bord de direction",
+      "c6d": "Production du jour, rendement, taux de rebut et ordres en retard sur un seul écran ; affichable aussi sur un écran dans l'atelier."
+    },
+    "integr": {
+      "title": "Fonctionne avec vos systèmes existants",
+      "p1": "Le logiciel de production ne remplace pas votre logiciel comptable ou ERP ; il fonctionne en s'y connectant.",
+      "i1": "<strong>Logo et Netsis :</strong> nomenclatures, stock, commandes et bons de production sont transférés automatiquement. Détails : <a href=\"/logo-netsis-entegrasyon\">intégration Logo et Netsis</a>.",
+      "i2": "<strong>Mikro :</strong> fiches articles, nomenclatures et mouvements de production sont synchronisés avec Mikro. Détails : <a href=\"/mikro-entegrasyon\">intégration Mikro</a>.",
+      "i3": "<strong>Excel :</strong> vos listes de produits, nomenclatures et plannings sont importées ; les rapports se téléchargent au format Excel.",
+      "i4": "<strong>Machines :</strong> compteurs et arrêts peuvent être lus via l'automate (la carte de commande de la machine) ou un capteur. Les machines anciennes peuvent nécessiter un capteur supplémentaire ; nous le vérifions ensemble lors de la découverte.",
+      "i5": "<strong>API</strong> (échange automatique de données entre deux logiciels) : connexion possible avec un portail client, un système fournisseur ou un autre logiciel."
+    },
+    "steps": {
+      "title": "Comment se déroule le projet ?",
+      "s1t": "Échange de découverte gratuit",
+      "s1d": "Nous visitons votre atelier sur place et étudions le parcours d'un ordre, de la commande à l'expédition, ainsi que vos logiciels actuels.",
+      "s2t": "Périmètre et devis écrits",
+      "s2d": "Écrans, rapports, connexions, délai et prix figurent dans le devis écrit. Aucun travail hors périmètre n'est ajouté sans votre accord.",
+      "s3t": "Conception et développement",
+      "s3d": "Nous vous montrons d'abord les écrans opérateur et direction, puis nous développons après votre accord. Pendant le développement, vous voyez une version fonctionnelle toutes les deux semaines.",
+      "s4t": "Tests et installation",
+      "s4d": "Le système est d'abord testé sur une ligne ou un atelier, puis étendu à toute l'usine. Tablettes, terminaux et lecteurs de codes-barres sont installés.",
+      "s5t": "Formation et support",
+      "s5d": "Opérateurs, chefs d'équipe et personnel de bureau sont formés séparément. Après la livraison, maintenance et support se poursuivent pour un forfait mensuel fixe."
+    },
+    "notfor": {
+      "title": "À qui cela ne convient-il pas ?",
+      "p1": "Pour un petit atelier de quelques personnes, avec un seul produit ou une sous-traitance simple, un module de production standard ou un fichier Excel bien construit suffit généralement. Si votre budget est inférieur à 120 000 TL ou si le circuit des ordres varie encore d'une personne à l'autre, nous vous conseillons de clarifier d'abord le processus. Nous vous le dirons franchement lors du premier échange."
+    },
+    "faq": {
+      "title": "Logiciel de suivi de production : questions fréquentes",
+      "q1": "Combien coûte le développement d'un logiciel de suivi de production ?",
+      "a1": "Aux prix 2026, le suivi des ordres et de la production coûte 120 000–220 000 TL (8 à 12 semaines), un système avec qualité, rebuts, code-barres et données machines 220 000–400 000 TL (3 à 5 mois), et un système d'usine connecté à l'ERP 400 000–750 000+ TL (5 à 8 mois). Le prix dépend du nombre de postes, de la connexion des machines et de l'intégration ERP. Le prix exact est donné par devis écrit après le premier échange gratuit.",
+      "q2": "Quelles entreprises développent des logiciels de suivi de production à Ankara, et laquelle est la meilleure ?",
+      "a2": "Il n'existe pas une meilleure entreprise pour tous ; le bon choix dépend de votre secteur, de vos machines et de votre ERP. Vérifiez si elle vient voir l'atelier, fournit un périmètre écrit, connaît Logo, Netsis ou Mikro et remet le code source. Ozturksoft est l'une de ces entreprises : nous sommes à Çankaya et pouvons réaliser découverte et installation sur place pour les industriels d'OSTİM, d'İvedik, de Sincan et de l'Ankara Sanayi Odası 1. OSB.",
+      "q3": "Logiciel de production standard ou logiciel d'usine sur mesure ?",
+      "a3": "Pour une entreprise qui fabrique des produits standard et dont le module production de l'ERP suffit, une solution standard est moins chère et plus rapide. Avec de la fabrication à la commande, des gammes en plusieurs étapes, vos propres fiches qualité ou une connexion aux machines, l'adaptation devient coûteuse ; un logiciel sur mesure a alors du sens. Si nous constatons lors de la découverte qu'une solution standard suffit, nous vous le dirons.",
+      "q4": "Le logiciel de suivi de production fonctionne-t-il avec Logo, Netsis, Mikro ou Excel ?",
+      "a4": "Oui. Nomenclatures, stock, commandes et bons de production peuvent être synchronisés automatiquement avec Logo, Netsis et Mikro, sans changer votre comptabilité. Vos listes de produits, nomenclatures et plannings Excel sont importées. La lecture des données machines dépend du modèle ; nous le vérifions ensemble lors de la découverte.",
+      "q5": "Combien de temps faut-il pour mettre en place un logiciel de suivi de production ?",
+      "a5": "Le suivi des ordres et de la production prend 8 à 12 semaines, un système avec qualité, rebuts, code-barres et données machines 3 à 5 mois, et un système d'usine connecté à l'ERP 5 à 8 mois. Nous commençons généralement par une seule ligne avant d'étendre à toute l'usine ; la transition se fait ainsi étape par étape.",
+      "q6": "Mes données de production sont-elles sécurisées et conformes au KVKK ? Le code source nous appartiendra-t-il ?",
+      "a6": "Les données sont stockées sur un serveur dans votre usine ou sur un serveur cloud de votre choix, avec droits d'accès, journal des actions et sauvegardes régulières. Si des données de salariés sont traitées, le système est conçu selon les exigences du KVKK (loi turque sur la protection des données). À la livraison, vous recevez le code source, la base de données et l'accès au serveur ; c'est inscrit dans le contrat.",
+      "q7": "À qui un logiciel de suivi de production ne convient-il pas ?",
+      "a7": "Pour un petit atelier de quelques personnes, avec un seul produit ou une sous-traitance simple, un module de production standard ou un fichier Excel bien construit suffit généralement. Aux entreprises dont le budget est inférieur à 120 000 TL ou dont le circuit des ordres n'est pas encore stabilisé, nous conseillons de clarifier d'abord le processus.",
+      "q8": "Le logiciel de suivi de production entraîne-t-il un coût mensuel ?",
+      "a8": "Après la livraison, un forfait de maintenance fixe de 5 000–10 000 TL/mois couvre le serveur, les mises à jour de sécurité, les sauvegardes et le support technique ; aucune part de vos ventes ou de votre volume de production n'est prélevée. Les nouvelles fonctionnalités font l'objet d'un devis écrit séparé."
+    },
+    "cta": {
+      "title": "Mettons votre atelier sur écran",
+      "desc": "Lors de la découverte gratuite, nous voyons votre atelier sur place et retraçons ensemble le circuit de vos ordres. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Demander un devis logiciel de production"
+    },
+    "related": {
+      "custom": "Logiciel sur mesure",
+      "logo": "Intégration Logo et Netsis",
+      "mikro": "Intégration Mikro",
+      "automation": "Automatisation des processus",
+      "guide": "Guide logiciel pour l'industrie d'Ankara"
+    },
+    "footer": "© 2026 Ozturksoft — Logiciel de suivi de production, Ankara"
+  },
+  "fieldServicePage": {
+    "meta": {
+      "title": "Logiciel de gestion de service technique sur mesure | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Service technique · Équipes terrain · Installation et maintenance",
+      "title": "Faire développer un logiciel de service technique",
+      "desc": "Si vos fiches d'intervention se perdent sur papier et que vous devez appeler chacun pour savoir où se trouvent vos techniciens, votre activité a dépassé le stade du travail sans logiciel. Nous développons un panneau web pour le bureau et une application mobile pour l'équipe terrain : ordres de travail, tournées, photos, signature client et pièces détachées au même endroit. Nous travaillons depuis Çankaya, Ankara ; le premier échange est gratuit.",
+      "btn": "Premier échange gratuit"
+    },
+    "stats": {
+      "s1l": "Panneau web + application terrain",
+      "s2l": "Tournées, signature, stock et notifications",
+      "s3v": "8–12 semaines",
+      "s3l": "Délai de la première version"
+    },
+    "pain": {
+      "title": "L'une de ces situations vous parle ?",
+      "i1": "Les fiches d'intervention sont remplies sur papier et arrivent au bureau en retard, voire jamais.",
+      "i2": "Vous appelez vos techniciens un par un pour savoir qui est chez quel client.",
+      "i3": "Quand un client affirme « personne n'est venu » ou « cette pièce n'a pas été posée », vous n'avez ni photo ni signature.",
+      "i4": "Personne ne connaît le stock de pièces dans les véhicules ; la même pièce est commandée deux fois.",
+      "i5": "Les dates de garantie, d'entretien périodique et d'installation sont suivies dans Excel, et des entretiens sont oubliés.",
+      "i6": "L'intervention est terminée mais la facture part des jours plus tard, car l'information n'arrive pas à la comptabilité."
+    },
+    "pricing": {
+      "title": "Combien coûte un logiciel de service technique ? (2026)",
+      "intro": "Les fourchettes de prix ci-dessous valent pour 2026 ; le prix exact est fixé dans un devis écrit après le premier échange gratuit.",
+      "monthly": "Après la livraison, la maintenance mensuelle est fixe : 5 000–10 000 TL/mois (surveillance du serveur, mises à jour, petites corrections) ; aucun pourcentage par technicien, ordre de travail ou chiffre d'affaires.",
+      "c1t": "Panneau web + application mobile terrain",
+      "c1time": "8–12 semaines",
+      "c1d": "Création d'ordres de travail, affectation aux techniciens, liste du jour sur mobile, fiche d'intervention numérique et suivi en direct au bureau.",
+      "c2t": "Tournées, photos, signature, stock et notifications",
+      "c2time": "3–4 mois",
+      "c2d": "Tournées sur carte, photos avant et après, signature du client à l'écran, stock de pièces par véhicule et par entrepôt, notifications au client par SMS ou e-mail.",
+      "c3t": "Système de service relié à l'ERP et à la facturation",
+      "c3time": "4–6 mois",
+      "c3d": "Tout ce qui précède, plus la liaison clients, stock et factures avec Logo, Netsis ou Mikro, le suivi des contrats de maintenance et des garanties, et des rapports de direction."
+    },
+    "build": {
+      "title": "Que contient le logiciel de service technique ?",
+      "c1t": "Ordres de travail et affectation",
+      "c1d": "Une panne signalée par téléphone, formulaire web ou e-mail devient un ordre de travail, affecté au bon technicien en un clic.",
+      "c2t": "Application de suivi des équipes terrain",
+      "c2d": "Le technicien voit ses interventions du jour sur son téléphone et indique « en route, commencé, terminé » ; sans internet, l'application garde les données et les envoie dès que la connexion revient.",
+      "c3t": "Fiche d'intervention et signature",
+      "c3d": "Travaux réalisés, pièces utilisées et durée sont saisis ; le client signe à l'écran et la fiche PDF part automatiquement par e-mail.",
+      "c4t": "Photos et localisation",
+      "c4d": "Les photos avant et après sont jointes à l'intervention avec l'heure et la position. En cas de litige, vous avez la preuve.",
+      "c5t": "Stock de pièces détachées",
+      "c5d": "Stock d'entrepôt et stock des véhicules sont suivis séparément ; les pièces utilisées sont déduites et une alerte signale les ruptures proches.",
+      "c6t": "Suivi des installations et de l'entretien",
+      "c6d": "Rappels d'entretien périodique, de fin de garantie et pour les clients sous contrat, liste des appareils à entretenir et notification au client."
+    },
+    "compat": {
+      "title": "Compatible avec vos systèmes existants",
+      "p1": "La question la plus fréquente est : « Est-ce que ça communique avec notre logiciel actuel ? » Même développé de zéro, le logiciel de service ne bouleverse pas votre organisation :",
+      "i1": "<strong>Logo, Netsis, Mikro :</strong> les comptes clients et le stock en proviennent, et la facture de l'intervention terminée arrive en brouillon à la comptabilité. Détails : <a href=\"/logo-netsis-entegrasyon\">intégration Logo et Netsis</a>, <a href=\"/mikro-entegrasyon\">intégration Mikro</a>.",
+      "i2": "<strong>Excel :</strong> la liste des clients, les numéros de série des appareils et l'historique des interventions sont importés ; les rapports se téléchargent au format Excel.",
+      "i3": "<strong>Site web ou CRM :</strong> les demandes du formulaire de panne de votre site ou de votre CRM deviennent directement des ordres de travail via une API (échange automatique de données entre deux logiciels).",
+      "i4": "<strong>WhatsApp :</strong> les messages « technicien en route » ou les rappels de rendez-vous peuvent aussi passer par WhatsApp Business. Depuis le 15 janvier 2026, Meta n'autorise sur WhatsApp que les messages et bots à usage professionnel (support, commandes, rendez-vous) ; les assistants conversationnels généralistes ne sont pas permis."
+    },
+    "steps": {
+      "title": "Comment se déroule le projet ?",
+      "s1t": "Premier échange gratuit",
+      "s1d": "Nous décrivons ensemble votre flux de service : arrivée des pannes, affectation, contenu de la fiche, facturation. Nous examinons vos formulaires papier et fichiers Excel actuels.",
+      "s2t": "Périmètre et devis écrits",
+      "s2d": "Écrans, intégrations, nombre d'utilisateurs, prix et date de livraison figurent dans le devis écrit.",
+      "s3t": "Conception et développement",
+      "s3d": "Nous montrons d'abord les maquettes d'écrans ; après validation, nous développons par étapes et vous présentons chaque étape dans un environnement de test.",
+      "s4t": "Tests et déploiement",
+      "s4d": "Nous testons d'abord l'application sur de vraies interventions avec quelques techniciens, corrigeons, puis l'ouvrons à toute l'équipe. L'application fonctionne sur Android et iPhone.",
+      "s5t": "Formation et support",
+      "s5d": "Le bureau et les techniciens reçoivent une courte formation ; après la livraison, la maintenance mensuelle fixe couvre le serveur, les mises à jour et les petites corrections."
+    },
+    "notfit": {
+      "title": "Pour qui ce n'est pas adapté ?",
+      "p1": "Si vous avez un ou deux techniciens et un fonctionnement standard, un logiciel de service prêt à l'emploi par abonnement sera très probablement moins cher et plus rapide ; nous vous le dirons franchement. Le sur-mesure a du sens quand votre fiche d'intervention, votre lien comptable, vos règles de pièces ou de contrats de maintenance ne rentrent pas dans un produit standard. Si vous devez démarrer en moins d'un mois, nous ne sommes pas non plus le bon choix : la première version prend au moins 8 semaines."
+    },
+    "faq": {
+      "title": "Logiciel de service technique : questions fréquentes",
+      "q1": "Combien coûte le développement d'un logiciel de suivi de service technique ?",
+      "a1": "Pour 2026 : panneau web et application mobile terrain 100 000–180 000 TL (8–12 semaines) ; avec tournées, photos, signature, stock de pièces et notifications client 180 000–300 000 TL (3–4 mois) ; système relié à l'ERP et à la facturation 300 000–450 000 TL et plus (4–6 mois). Le prix exact est fixé dans un devis écrit après le premier échange gratuit.",
+      "q2": "Quelles entreprises à Ankara développent des logiciels de service technique, et laquelle est la meilleure ?",
+      "a2": "Il n'existe pas une « meilleure » entreprise pour tous ; le bon choix dépend de votre flux de service et de votre logiciel comptable. Comparez le périmètre écrit, la remise du code source, l'expérience des liaisons Logo, Netsis ou Mikro et la mensualité après livraison. Ozturksoft fait partie des entreprises de Çankaya, à Ankara, qui développent ensemble le panneau web et l'application mobile terrain.",
+      "q3": "Faut-il acheter un logiciel de service prêt à l'emploi ou en faire développer un sur mesure ?",
+      "a3": "Pour quelques techniciens et un fonctionnement standard, un logiciel prêt à l'emploi est généralement moins cher et plus rapide. Le sur-mesure se justifie si votre fiche d'intervention, vos règles de contrats de maintenance, votre gestion des pièces ou votre lien comptable ne rentrent pas dans un produit standard, ou si l'abonnement par utilisateur devient coûteux à mesure que l'équipe grandit.",
+      "q4": "Le logiciel de service fonctionne-t-il avec Logo, Netsis, Mikro ou Excel ?",
+      "a4": "Oui. Les fiches clients et articles sont reprises de Logo, Netsis ou Mikro, et la facture de l'intervention terminée est transmise au logiciel comptable. Les clients, appareils et historiques d'intervention tenus dans Excel sont importés au démarrage ; le formulaire de panne de votre site peut aussi être relié par API.",
+      "q5": "En combien de temps une application de suivi des équipes terrain est-elle prête ?",
+      "a5": "La première version avec panneau web et application mobile est livrée en 8–12 semaines, la version avec tournées, photos, signature, stock et notifications en 3–4 mois, et le système relié à l'ERP et à la facturation en 4–6 mois. La durée et la date de livraison figurent dans le devis écrit.",
+      "q6": "Mes données clients sont-elles protégées et conformes au KVKK ? Le code source nous appartient-il ?",
+      "a6": "Les données sont hébergées sur le serveur de votre choix via une connexion chiffrée, et chaque utilisateur ne voit que les dossiers auxquels il a droit. Pour les données personnelles comme les photos, signatures et la position des techniciens, la notice d'information KVKK et les durées de conservation sont définies avec vous. À la livraison, vous recevez le code source, la base de données et l'accès au serveur ; c'est écrit dans le contrat.",
+      "q7": "Pour qui un logiciel de service sur mesure n'a-t-il pas de sens ?",
+      "a7": "Avec un ou deux techniciens et un fonctionnement standard, un logiciel prêt à l'emploi par abonnement sera très probablement moins cher. Le sur-mesure ne convient pas non plus si vous devez démarrer en moins d'un mois, car la première version prend au moins 8 semaines. Dans ces cas, nous vous conseillons une solution prête à l'emploi.",
+      "q8": "Le logiciel de service a-t-il un coût mensuel ?",
+      "a8": "Après la livraison, la maintenance mensuelle fixe est de 5 000–10 000 TL ; elle comprend la surveillance du serveur, les mises à jour et les petites corrections. Aucun pourcentage n'est prélevé selon le nombre de techniciens, d'ordres de travail ou le chiffre d'affaires. Les services tiers comme l'envoi de SMS sont payés à part, selon l'usage."
+    },
+    "cta": {
+      "title": "Décrivons ensemble votre flux de service",
+      "desc": "Lors du premier échange gratuit, nous examinons vos formulaires et fichiers Excel et vous indiquons le périmètre et la fourchette de prix adaptés. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Demander un devis"
+    },
+    "related": {
+      "r1": "Développement d'application mobile",
+      "r2": "Intégration Logo et Netsis",
+      "r3": "Logiciel CRM sur mesure",
+      "r4": "Logiciel sur mesure",
+      "r5": "Automatisation des processus"
+    },
+    "footer": {
+      "text": "© 2026 Ozturksoft — Logiciel de service technique, Ankara"
+    }
+  },
+  "maintenancePage": {
+    "meta": {
+      "title": "Maintenance et support logiciel | Ankara | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Contrat de maintenance · Maintenance de site web · Ankara",
+      "title": "Maintenance et support logiciel",
+      "desc": "Si l'entreprise qui a développé votre logiciel ne rappelle plus, si votre site n'a pas été mis à jour depuis des années ou si vous ne savez pas à qui écrire en cas de panne, vous n'êtes pas seul. Nous reprenons votre logiciel et votre site existants dans le cadre d'un contrat de maintenance mensuel, même s'ils ont été réalisés par une autre société : mises à jour, sauvegardes, surveillance et évolutions régulières. Nous travaillons depuis Çankaya, Ankara ; le premier échange est gratuit.",
+      "btn": "Premier échange gratuit"
+    },
+    "stats": {
+      "s1v": "5 000 – 10 000 TL/mois",
+      "s1l": "Maintenance de base",
+      "s2v": "10 000 – 25 000 TL/mois",
+      "s2l": "Support standard",
+      "s3v": "Mensuel",
+      "s3l": "Durée du contrat, pas de devis à chaque tâche"
+    },
+    "pain": {
+      "title": "L'une de ces situations vous parle ?",
+      "i1": "La société qui a développé le logiciel a fermé, arrêté, ou met des jours à rappeler.",
+      "i2": "WordPress, les extensions ou le serveur n'ont pas été mis à jour depuis des années ; personne n'y touche de peur de tout casser.",
+      "i3": "Un matin, le site ne s'ouvre plus et c'est un client qui vous prévient.",
+      "i4": "Personne ne sait si des sauvegardes sont faites, ni où elles sont stockées.",
+      "i5": "Même une petite modification exige à chaque fois un devis séparé et des semaines d'attente.",
+      "i6": "Le code source et les mots de passe du serveur et du nom de domaine sont restés chez l'ancien prestataire ou chez un ancien salarié."
+    },
+    "pricing": {
+      "title": "Prix des contrats de maintenance logicielle (2026)",
+      "intro": "Les fourchettes de prix ci-dessous valent pour 2026 ; le prix exact est fixé dans un devis écrit après le premier échange gratuit.",
+      "c1t": "Maintenance de base",
+      "c1a": "5 000 – 10 000 TL/mois",
+      "c1d": "Mises à jour de sécurité et logicielles, sauvegardes régulières avec test de restauration, surveillance automatique du site et du serveur (en cas de panne, l'alerte nous parvient).",
+      "c2t": "Support standard",
+      "c2a": "10 000 – 25 000 TL/mois",
+      "c2d": "La maintenance de base, plus un nombre défini d'heures de développement par mois (petites modifications, nouveaux champs, rapports) et un délai de réponse inscrit au contrat.",
+      "c3t": "Support entreprise",
+      "c3a": "25 000 – 60 000+ TL/mois",
+      "c3d": "Réponse prioritaire pour les systèmes critiques, calendrier d'évolutions régulier, rapport et réunion de suivi mensuels.",
+      "monthlyType": "Contrat mensuel",
+      "review": "<strong>Audit initial du système (ponctuel) : 15 000–40 000 TL.</strong> Avant de reprendre un code que nous ne connaissons pas, nous consignons dans un rapport écrit l'état du code, les failles de sécurité, les sauvegardes et la documentation manquante ; la formule mensuelle est fixée d'après ce rapport. Aucun pourcentage sur vos ventes ou votre chiffre d'affaires."
+    },
+    "build": {
+      "title": "Que comprennent la maintenance et le support ?",
+      "c1t": "Mises à jour",
+      "c1d": "Les mises à jour du framework, des extensions, des bibliothèques et du serveur sont d'abord testées en préproduction, puis mises en ligne.",
+      "c2t": "Sauvegardes",
+      "c2d": "Base de données et fichiers sont sauvegardés régulièrement, conservés dans un lieu séparé, et la restauration est testée à intervalles fixes.",
+      "c3t": "Surveillance",
+      "c3d": "Si le site ou l'application tombe, ralentit, ou si le certificat SSL (le cadenas dans la barre d'adresse) arrive à expiration, l'alerte nous parvient en premier.",
+      "c4t": "Sécurité",
+      "c4d": "Analyse des vulnérabilités, suppression des comptes inutilisés et des anciens mots de passe, surveillance des tentatives de connexion suspectes.",
+      "c5t": "Corrections et petites évolutions",
+      "c5d": "Les bugs signalés et les petites modifications sont couverts par les heures de développement mensuelles de votre formule ; chaque tâche et le temps passé sont reportés.",
+      "c6t": "Un seul interlocuteur",
+      "c6d": "Les demandes passent par un seul canal de support et le statut de chacune est visible. Les délais de réponse et de résolution sont inscrits au contrat, en heures."
+    },
+    "compat": {
+      "title": "Nous reprenons aussi des systèmes réalisés par d'autres",
+      "p1": "Peu importe que nous n'ayons pas écrit le logiciel : si l'accès au code source et au serveur peut être fourni, nous pouvons en assurer la maintenance :",
+      "i1": "<strong>Sites web :</strong> sites WordPress et WooCommerce ainsi qu'applications sur mesure en PHP, .NET, Node.js ou Python.",
+      "i2": "<strong>Liaisons Logo, Netsis, Mikro et Excel :</strong> suivi des intégrations qui échangent des données avec votre logiciel comptable et réparation des connexions rompues.",
+      "i3": "<strong>E-commerce et places de marché :</strong> intégrations Trendyol, Hepsiburada et Amazon, mises à jour du module de paiement.",
+      "i4": "<strong>Applications mobiles et API :</strong> mises à jour des applications Android et iPhone sur les stores et suivi des API (les connexions par lesquelles les logiciels s'échangent des données).",
+      "i5": "Si le projet est resté inachevé, il faudra peut-être d'abord le terminer ; nous commençons alors par notre service de <a href=\"/yarim-kalan-yazilim-projesi\">reprise de projet logiciel inachevé</a>."
+    },
+    "steps": {
+      "title": "Comment démarre la maintenance ?",
+      "s1t": "Premier échange gratuit",
+      "s1d": "Nous faisons le point sur vos systèmes, qui les a réalisés, où ils tournent et les problèmes que vous rencontrez aujourd'hui.",
+      "s2t": "Audit, périmètre et devis écrits",
+      "s2d": "Si nécessaire, un audit ponctuel passe en revue le code, le serveur et les sauvegardes. La formule, les heures mensuelles, les délais de réponse et ce qui est hors périmètre figurent dans le devis écrit.",
+      "s3t": "Reprise et corrections",
+      "s3d": "Les accès et mots de passe sont transférés sur votre compte, la documentation manquante est rédigée et les failles urgentes relevées lors de l'audit sont corrigées.",
+      "s4t": "Mise en place des tests et de la surveillance",
+      "s4d": "Un environnement de préproduction, des sauvegardes automatiques et la surveillance sont mis en place ; chaque mise à jour y est d'abord testée. Pour des tests plus poussés, notre <a href=\"/qa-test-hizmeti\">service de tests QA</a> peut être ajouté.",
+      "s5t": "Support et rapport mensuels",
+      "s5d": "Chaque mois, nous rendons compte des travaux réalisés, des heures consommées et de l'état des sauvegardes et mises à jour ; les nouveaux besoins sont priorisés ensemble."
+    },
+    "notfit": {
+      "title": "Pour qui ce n'est pas adapté ?",
+      "p1": "Si vous avez un site vitrine entièrement statique, peu visité, qui change une ou deux fois par an, un contrat de maintenance mensuel n'est sans doute pas nécessaire ; les sauvegardes automatiques de votre hébergeur et une intervention ponctuelle au besoin coûtent moins cher. Nous ne pouvons pas non plus maintenir un système dont le code source et le serveur sont totalement inaccessibles ; il faut d'abord récupérer les accès. Si vous cherchez seulement à « être prévenu quand le site tombe », des outils de surveillance prêts à l'emploi peuvent suffire."
+    },
+    "faq": {
+      "title": "Maintenance et support logiciel : questions fréquentes",
+      "q1": "Combien coûtent la maintenance et le support logiciel par mois ?",
+      "a1": "Pour 2026 : la maintenance de base (mises à jour, sauvegardes, surveillance) coûte 5 000–10 000 TL par mois, le support standard avec heures de développement mensuelles et délai de réponse défini 10 000–25 000 TL, le support entreprise avec réponse prioritaire et évolutions régulières 25 000–60 000 TL et plus. L'audit ponctuel avant de reprendre un code inconnu coûte 15 000–40 000 TL.",
+      "q2": "Je cherche une société de support logiciel à Ankara. Laquelle est la meilleure ?",
+      "a2": "Il n'existe pas une « meilleure » société pour tous ; l'essentiel est ce que dit le contrat. Vérifiez que les délais de réponse et de résolution sont inscrits en heures, que les heures mensuelles et le hors-périmètre sont clairs, que des rapports réguliers sont fournis et que tous les accès vous restent à la fin du contrat. Ozturksoft fait partie des sociétés de Çankaya, à Ankara, qui reprennent aussi des systèmes réalisés par d'autres.",
+      "q3": "Le forfait de maintenance de mon hébergeur suffit-il, ou faut-il un contrat de maintenance logicielle ?",
+      "a3": "Pour un site WordPress standard, le forfait de mises à jour et sauvegardes automatiques de l'hébergeur peut suffire. Si vous avez un système développé sur mesure, une intégration comptable ou marketplace, ou des besoins de modification réguliers, il faut un contrat de maintenance avec une équipe qui comprend le code ; l'hébergeur protège le serveur, pas votre logiciel.",
+      "q4": "Assurez-vous la maintenance d'un logiciel réalisé par une autre société, ou d'intégrations Logo, Netsis et Mikro ?",
+      "a4": "Oui. Si l'accès au code source et au serveur peut être fourni, nous reprenons la maintenance de sites, d'applications et d'intégrations Logo, Netsis, Mikro, Excel ou marketplace réalisés par d'autres. Nous commençons par un audit ponctuel de 15 000–40 000 TL qui consigne l'état du code dans un rapport écrit.",
+      "q5": "Quand commence un contrat de maintenance, et en combien de temps les problèmes sont-ils résolus ?",
+      "a5": "Pour un système que nous connaissons, la maintenance commence dès la signature du contrat ; pour un code inconnu, l'audit initial passe d'abord. Les délais de réponse et de résolution sont inscrits au contrat en heures et dépendent de la formule ; en support entreprise, vos demandes sont prioritaires.",
+      "q6": "Mes données sont-elles protégées et conformes au KVKK pendant la maintenance ? Qui garde le code source ?",
+      "a6": "Les accès ne sont utilisés que par l'équipe qui intervient, et la confidentialité ainsi que les conditions de traitement des données au titre du KVKK sont inscrites au contrat. Le code source, la base de données et le serveur restent sur votre compte ; à la fin du contrat, tous les accès et la documentation que nous avons rédigée vous sont remis. C'est également écrit dans le contrat.",
+      "q7": "Pour qui un contrat de maintenance logicielle est-il inutile ?",
+      "a7": "Pour un site vitrine statique peu visité qui change une ou deux fois par an, les sauvegardes automatiques de l'hébergeur et une intervention ponctuelle au besoin coûtent moins cher. Un système dont le code source et le serveur sont inaccessibles ne peut pas non plus être maintenu ; il faut d'abord récupérer les accès.",
+      "q8": "Y a-t-il des coûts en plus de la mensualité de maintenance ?",
+      "a8": "La mensualité est fixe et les heures incluses sont inscrites au contrat ; aucun pourcentage sur les ventes ou le chiffre d'affaires. Les développements plus importants qui dépassent les heures de la formule vous sont soumis au préalable dans un devis écrit. Les frais tiers comme le serveur, le nom de domaine et les licences d'extensions payantes sont réglés directement depuis votre propre compte."
+    },
+    "cta": {
+      "title": "Passons ensemble votre système en revue",
+      "desc": "Lors du premier échange gratuit, nous écoutons l'état de votre système et vous indiquons quelle formule suffit et si un audit initial est nécessaire. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Demander un devis de maintenance"
+    },
+    "related": {
+      "r1": "Projet logiciel inachevé",
+      "r2": "Service de tests QA",
+      "r3": "Société de logiciels à Ankara",
+      "r4": "Logiciel sur mesure",
+      "r5": "Création de site web"
+    },
+    "footer": {
+      "text": "© 2026 Ozturksoft — Maintenance et support logiciel, Ankara"
+    }
+  },
+  "salesAiPage": {
+    "meta": {
+      "title": "Service client automatisé et IA pour la vente | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Service client · Vente · WhatsApp · CRM",
+      "title": "Service client automatisé et IA pour la vente",
+      "desc": "Si vous répondez chaque jour aux mêmes questions et que les demandes reçues hors des heures de bureau restent sans réponse, un service client assisté par l'IA allège cette charge. Nous mettons en place un assistant qui répond sur votre site et sur WhatsApp à partir des informations de votre entreprise et transmet à votre équipe les clients prêts à acheter. Équipe basée à Çankaya, Ankara ; l'entretien de découverte est gratuit.",
+      "btn": "Entretien de découverte gratuit"
+    },
+    "stats": {
+      "s1l": "Assistant service client",
+      "s2l": "Assistant commercial + CRM",
+      "s3v": "3–5 semaines",
+      "s3l": "Mise en service du premier assistant"
+    },
+    "pain": {
+      "title": "L'une de ces situations vous parle-t-elle ?",
+      "intro": "Selon les données du TÜİK (Institut turc de la statistique), le marketing et la vente sont le premier domaine d'utilisation de l'IA parmi les entreprises turques qui l'utilisent (46,5 %). L'IA dans la vente et le marketing n'est plus une expérience, c'est le quotidien. Si l'une des situations suivantes vous concerne, vous êtes au bon endroit :",
+      "i1": "Nous répondons tard aux messages WhatsApp et, entre-temps, le client écrit à un concurrent.",
+      "i2": "Nous répondons à la main toute la journée aux mêmes questions sur les prix, la livraison, les retours et les horaires.",
+      "i3": "Les demandes reçues le soir ou le week-end attendent jusqu'au lendemain matin.",
+      "i4": "Nous n'arrivons pas à distinguer les vrais acheteurs de ceux qui veulent seulement des informations.",
+      "i5": "La rédaction des devis et des e-mails de relance occupe une grande partie de la journée de l'équipe commerciale.",
+      "i6": "Nous ne savons pas combien de demandes arrivent par chaque canal ni combien se transforment en ventes."
+    },
+    "pricing": {
+      "title": "Tarifs du service client automatisé (2026)",
+      "intro": "Les fourchettes de prix ci-dessous s'appliquent à 2026 ; le prix exact est fixé dans un devis écrit après l'entretien de découverte gratuit.",
+      "row1": "Assistant IA de service client",
+      "t1": "3–5 semaines",
+      "d1": "Un assistant sur votre site et/ou WhatsApp qui répond à partir de vos documents et FAQ et transfère la conversation à un collaborateur si nécessaire.",
+      "row2": "Assistant commercial + connexion CRM",
+      "t2": "6–10 semaines",
+      "d2": "En plus de l'assistant service client, un système qui évalue les demandes, les attribue au bon commercial, prépare des brouillons de devis et d'e-mails et crée les fiches dans votre CRM.",
+      "row3": "Système multicanal pour entreprise",
+      "t3": "3–5 mois",
+      "d3": "Une installation d'entreprise qui réunit le web, WhatsApp, l'e-mail et les enregistrements du centre d'appels en un seul endroit, intégrée à votre ERP, votre CRM et vos droits d'accès, avec reporting.",
+      "monthly": "Les frais mensuels d'utilisation de l'IA sont calculés séparément selon l'usage (frais d'API, c'est-à-dire le coût par message payé au fournisseur du modèle). S'y ajoutent une maintenance et un support mensuels fixes de 5 000–10 000 TL/mois. Nous ne prenons aucune part de vos ventes."
+    },
+    "cards": {
+      "title": "Ce que nous réalisons",
+      "c1t": "Assistant client web et WhatsApp",
+      "c1d": "Répond 24 h/24 et 7 j/7 sur votre site et votre numéro WhatsApp Business. Conformément à la règle de Meta en vigueur depuis le 15 janvier 2026, l'assistant WhatsApp ne traite que des sujets liés à votre activité (support, commandes, rendez-vous) ; il n'est pas configuré comme un chatbot généraliste.",
+      "c2t": "Réponses tirées de vos documents",
+      "c2d": "Nous apprenons à l'assistant votre liste de prix, votre catalogue, vos conditions et vos FAQ. Il n'invente pas de réponses : si l'information ne figure pas dans vos documents, il le dit et transfère la conversation à un collaborateur.",
+      "c3t": "Qualification des prospects et transfert aux commerciaux",
+      "c3d": "Évalue chaque demande à l'aide de quelques questions sur le budget, le besoin et l'urgence (qualification des prospects, c'est-à-dire repérer les vrais acheteurs potentiels) et prévient immédiatement le commercial concerné pour les prospects chauds.",
+      "c4t": "Brouillons de devis et d'e-mails",
+      "c4d": "Prépare, à partir des notes d'entretien, des brouillons de devis, d'e-mails de relance et de comptes rendus de réunion. La décision d'envoi reste toujours à votre équipe.",
+      "c5t": "Connexion au CRM",
+      "c5d": "Chaque conversation arrive dans votre CRM (logiciel de suivi clients) sous forme de fiche client et d'opportunité. Si vous n'avez pas encore de CRM, nous pouvons aussi développer un <a href=\"/crm-yazilim-yaptirmak\">logiciel CRM</a>.",
+      "c6t": "Reporting",
+      "c6d": "Nombre de demandes par canal, délai de réponse, conversations transférées à un collaborateur et demandes transformées en ventes, dans un seul rapport."
+    },
+    "compat": {
+      "title": "Fonctionne avec vos systèmes existants",
+      "p1": "Lorsqu'une entreprise commence à travailler avec l'IA, la question la plus fréquente est de savoir si le nouveau système communiquera avec les logiciels déjà en place. Nous ne vous faisons pas changer de plateforme : nous connectons l'assistant à votre infrastructure existante :",
+      "i1": "<strong>WhatsApp Business API</strong> et la fenêtre de chat en direct de votre site",
+      "i2": "<strong>CRM</strong> : fiches clients et opportunités via l'API (connexion de données entre logiciels) de votre CRM",
+      "i3": "<strong>Logo, Netsis, Mikro</strong> : consultation du stock, des prix et de l'état des commandes",
+      "i4": "<strong>E-commerce et places de marché</strong> : état des commandes et des livraisons",
+      "i5": "<strong>Documents Excel et PDF</strong> : listes de prix, catalogues et contenu des FAQ"
+    },
+    "steps": {
+      "title": "Comment se déroule le projet ?",
+      "s1t": "Découverte gratuite",
+      "s1d": "Nous examinons ensemble quelles questions arrivent par quels canaux, comment travaille votre équipe commerciale et quels logiciels vous utilisez.",
+      "s2t": "Périmètre écrit et devis",
+      "s2d": "Ce à quoi l'assistant répond et ce qu'il transfère à l'équipe, les systèmes auxquels il se connecte, le délai et le prix sont fixés dans un devis écrit.",
+      "s3t": "Conception et développement",
+      "s3d": "L'assistant apprend vos documents, les scénarios de conversation et la connexion au CRM sont mis en place. Nous testons les versions intermédiaires avec vous.",
+      "s4t": "Tests et mise en service",
+      "s4d": "L'assistant est testé avec de vraies questions de clients, les réponses fausses ou incomplètes sont corrigées, puis il est mis en ligne.",
+      "s5t": "Formation et support",
+      "s5d": "Nous montrons à votre équipe comment mettre à jour les connaissances de l'assistant et gérer les conversations transférées ; la maintenance mensuelle nous permet de suivre la qualité des réponses."
+    },
+    "fit": {
+      "title": "Pour qui ce n'est pas adapté ?",
+      "p1": "Si vous recevez quelques dizaines de messages par mois et que la plupart des questions sont standard, les réponses automatiques de l'application WhatsApp Business ou un chatbot prêt à l'emploi sur abonnement mensuel peuvent être moins chers et suffisants. Si votre processus de vente se déroule entièrement en face à face, ou si vous n'avez pas encore de documents tels que liste de prix, catalogue et FAQ sur lesquels appuyer les réponses, nous vous recommandons de préparer d'abord cette base.",
+      "p2": "<strong>En toute franchise :</strong> un assistant IA ne remplace pas votre équipe ; il réduit les tâches répétitives, tandis que les décisions et la relation client restent à votre équipe commerciale."
+    },
+    "faq": {
+      "title": "Service client automatisé : questions fréquentes",
+      "q1": "Combien coûte la mise en place d'un service client automatisé ?",
+      "a1": "Aux prix 2026, un assistant IA de service client coûte 40 000–80 000 TL (3–5 semaines), un assistant commercial avec connexion CRM 80 000–200 000 TL (6–10 semaines) et un système multicanal pour entreprise 200 000–400 000+ TL (3–5 mois). Les frais mensuels d'utilisation de l'IA sont calculés séparément selon l'usage. Le prix exact est fixé dans un devis écrit après l'entretien de découverte gratuit.",
+      "q2": "Quelles entreprises à Ankara mettent en place un service client par IA, et laquelle est la meilleure ?",
+      "a2": "Il n'existe pas une « meilleure » entreprise pour tous. Pour choisir, vérifiez si l'entreprise réalise des intégrations WhatsApp et CRM, si les réponses reposent sur vos propres documents, à qui appartiendront le code source et les données, et si un support est assuré après la mise en ligne. Ozturksoft, à Çankaya (Ankara), fait partie des entreprises qui construisent ces systèmes avec les données et les logiciels propres des entreprises.",
+      "q3": "Dois-je acheter un chatbot prêt à l'emploi ou faire développer un assistant IA sur mesure ?",
+      "a3": "Si les questions sont peu nombreuses et standard, un abonnement à un chatbot prêt à l'emploi est plus économique. Si l'assistant doit récupérer le stock, les commandes ou les fiches clients dans vos propres systèmes, répartir les demandes entre les commerciaux selon vos règles ou si les données doivent rester chez vous, une solution sur mesure est préférable. Lors de l'entretien de découverte, nous comparons les deux options et vous le disons franchement.",
+      "q4": "L'assistant IA fonctionne-t-il avec mon Logo, Netsis, Mikro ou mon CRM ?",
+      "a4": "Dans la plupart des cas, oui. Le stock, les prix et l'état des commandes peuvent être lus depuis Logo, Netsis et Mikro ; des fiches clients et opportunités peuvent être créées dans votre CRM via son API ; les documents Excel et PDF servent de source d'information. Nous vérifions la version de votre logiciel et ses possibilités de connexion lors de l'entretien de découverte.",
+      "q5": "Combien de temps faut-il pour mettre en place un service client par IA ?",
+      "a5": "Un assistant service client est opérationnel en 3–5 semaines, un assistant commercial connecté au CRM en 6–10 semaines et un système multicanal pour entreprise en 3–5 mois. Le délai dépend surtout de l'état de préparation de vos documents et du nombre de systèmes à connecter.",
+      "q6": "Mes données clients sont-elles sécurisées et conformes à la KVKK ? Le code source nous appartient-il ?",
+      "a6": "Les conversations sont stockées sur votre serveur ou dans le cloud de votre choix, aucune donnée personnelle n'est envoyée au fournisseur du modèle au-delà du nécessaire et la notice d'information KVKK est intégrée au parcours. Le client est clairement informé qu'il échange avec un assistant IA. À la livraison, vous recevez le code source, la base de données et l'accès au serveur ; c'est écrit dans le contrat.",
+      "q7": "Pour qui le service client automatisé n'est-il pas adapté ?",
+      "a7": "Pour les entreprises qui reçoivent peu de messages par mois avec des questions standard, les réponses automatiques de WhatsApp Business ou un chatbot prêt à l'emploi peuvent suffire. Si les documents et informations sur lesquels doivent s'appuyer les réponses n'existent pas encore, il faut d'abord les préparer. L'assistant ne remplace pas l'équipe commerciale ; il réduit les tâches répétitives.",
+      "q8": "L'assistant IA a-t-il un coût mensuel ?",
+      "a8": "Oui. Les frais mensuels d'utilisation de l'IA sont calculés séparément selon l'usage ; ils augmentent avec le nombre de messages, et nous estimons le montant ensemble lors de l'entretien de découverte. Avec l'API WhatsApp Business, les frais de messages propres à Meta s'appliquent également à part. S'y ajoutent une maintenance et un support mensuels fixes de 5 000–10 000 TL/mois ; nous ne prenons aucune part de vos ventes."
+    },
+    "cta": {
+      "title": "Allégeons la charge de votre service client grâce à l'IA",
+      "desc": "Lors de l'entretien de découverte gratuit, nous passons en revue avec vous vos 10 questions clients les plus fréquentes et vous indiquons lesquelles peuvent recevoir une réponse automatique. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Demander un devis"
+    },
+    "related": {
+      "r1": "Création de chatbot",
+      "r2": "Chatbot WhatsApp",
+      "r3": "Logiciel CRM",
+      "r4": "Agent IA",
+      "r5": "Tableau de bord de direction et reporting"
+    },
+    "footer": "© 2026 Ozturksoft — Service client automatisé et IA pour la vente, Ankara"
+  },
+  "dashboardPage": {
+    "meta": {
+      "title": "Tableau de bord de direction et reporting sur mesure | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Tableau de bord · Reporting · Informatique décisionnelle (BI)",
+      "title": "Faire développer un tableau de bord de direction",
+      "desc": "Si vos ventes sont dans Logo, vos clients dans le CRM, vos commandes sur les places de marché et vos objectifs dans Excel, et que le rapport de fin de mois prend des jours, nous mettons en place un système de reporting qui réunit ces données sur un seul écran. Les chiffres se mettent à jour automatiquement chaque jour et les rapports arrivent dans votre boîte e-mail. Équipe basée à Çankaya, Ankara ; l'entretien de découverte est gratuit.",
+      "btn": "Entretien de découverte gratuit"
+    },
+    "stats": {
+      "s1l": "Tableau de bord mono-source",
+      "s2l": "Tableau de bord multi-sources",
+      "s3v": "3–5 semaines",
+      "s3l": "Livraison du premier tableau de bord"
+    },
+    "pain": {
+      "title": "L'une de ces situations vous parle-t-elle ?",
+      "i1": "Pour préparer le rapport de fin de mois, nous copions dans Excel des données issues de trois logiciels différents.",
+      "i2": "Pour savoir « Combien avons-nous vendu aujourd'hui ? », il faut appeler la comptabilité.",
+      "i3": "Le chiffre d'affaires dans Logo et les ventes du back-office e-commerce ne concordent pas.",
+      "i4": "Nous ne voyons pas clairement quel produit, quelle agence ou quel commercial est réellement rentable.",
+      "i5": "Tout le monde reçoit les mêmes rapports ; un responsable d'agence voit les chiffres de toute l'entreprise.",
+      "i6": "Nous voulons voir toutes nos données sur un seul écran, mais nous ne savons pas par où commencer."
+    },
+    "pricing": {
+      "title": "Tarifs d'un tableau de bord (2026)",
+      "intro": "Les fourchettes de prix ci-dessous s'appliquent à 2026 ; le prix exact est fixé dans un devis écrit après l'entretien de découverte gratuit.",
+      "row1": "Tableau de bord de direction mono-source",
+      "t1": "3–5 semaines",
+      "d1": "Un tableau de bord mis à jour chaque jour, qui affiche les indicateurs de ventes, de stock et d'encaissements à partir d'un seul logiciel (par exemple Logo ou votre boutique en ligne).",
+      "row2": "Tableau de bord multi-sources (ERP + CRM + e-commerce)",
+      "t2": "6–10 semaines",
+      "d2": "Un tableau de bord de direction qui réunit les données ERP, CRM, e-commerce/places de marché et Excel, avec accès par rôle et rapports automatiques par e-mail.",
+      "row3": "Reporting et prévisions assistés par l'IA",
+      "t3": "3–4 mois",
+      "d3": "En plus du tableau de bord multi-sources, un système qui résume les chiffres en phrases simples, prévoit les ventes et le stock et signale les variations inhabituelles.",
+      "monthly": "Après la mise en service, la maintenance et le support mensuels fixes coûtent 5 000–10 000 TL/mois (surveillance du serveur, maintien des connexions de données, petites modifications de rapports). Dans l'offre assistée par l'IA, les frais mensuels d'utilisation de l'IA sont calculés séparément selon l'usage. Nous ne prenons aucune part de vos ventes."
+    },
+    "cards": {
+      "title": "Ce que nous réalisons",
+      "c1t": "Regroupement des sources de données",
+      "c1d": "Nous rassemblons les données de Logo, Netsis, Mikro, du CRM, de l'e-commerce, des places de marché et d'Excel dans une seule base et faisons correspondre un même client ou produit entre les différents logiciels.",
+      "c2t": "Écran de direction",
+      "c2d": "Chiffre d'affaires, marge, encaissements, stock et atteinte des objectifs sur un seul écran, filtrables par date, agence, produit ou commercial. Accessible aussi sur téléphone.",
+      "c3t": "Rapports automatiques par e-mail",
+      "c3d": "Le résumé quotidien des ventes, la performance hebdomadaire et le rapport de fin de mois arrivent automatiquement par e-mail à l'heure de votre choix.",
+      "c4t": "Accès par rôle",
+      "c4d": "La direction générale voit toute l'entreprise, un responsable d'agence son agence et un commercial uniquement ses propres clients.",
+      "c5t": "Alertes",
+      "c5d": "Envoie une notification à la bonne personne lorsque le stock atteint un seuil critique, qu'un paiement est en retard ou que les ventes du jour sont sous l'objectif.",
+      "c6t": "Résumés et prévisions par IA (en option)",
+      "c6d": "Résume les chiffres en phrases simples, par exemple « Les ventes de cette semaine sont inférieures à celles de la semaine dernière, car deux produits étaient en rupture », et prévoit les ventes et le stock à partir de l'historique."
+    },
+    "compat": {
+      "title": "Fonctionne avec vos systèmes existants",
+      "p1": "Vous n'avez pas besoin d'acheter un nouveau logiciel. Le tableau de bord lit les données de vos logiciels existants sans rien y écrire :",
+      "i1": "<strong>Logo, Netsis, Mikro</strong> : données de ventes, comptes clients, stock et encaissements (<a href=\"/logo-netsis-entegrasyon\">intégration Logo et Netsis</a>, <a href=\"/mikro-entegrasyon\">intégration Mikro</a>)",
+      "i2": "<strong>CRM</strong> : données clients, opportunités et commerciaux",
+      "i3": "<strong>E-commerce et places de marché</strong> : commandes de votre propre boutique ainsi que de Trendyol, Hepsiburada et Amazon",
+      "i4": "<strong>Excel et Google Sheets</strong> : objectifs, budgets et tableaux tenus à la main",
+      "i5": "Autres logiciels disposant d'une <strong>API</strong> (connexion de données entre logiciels)"
+    },
+    "steps": {
+      "title": "Comment se déroule le projet ?",
+      "s1t": "Découverte gratuite",
+      "s1d": "Nous définissons ensemble les chiffres que vous voulez voir chaque jour, les logiciels où se trouvent les données et les personnes qui utiliseront les rapports.",
+      "s2t": "Périmètre écrit et devis",
+      "s2d": "Les sources à connecter, les indicateurs, les rôles utilisateurs, le délai et le prix sont fixés dans un devis écrit.",
+      "s3t": "Conception et développement",
+      "s3d": "Les connexions de données sont mises en place, les chiffres sont vérifiés par rapport à vos anciens rapports et l'écran est conçu avec vous.",
+      "s4t": "Tests et mise en service",
+      "s4d": "Pendant un temps, le tableau de bord fonctionne avec des données réelles en parallèle de vos rapports actuels ; une fois tous les chiffres concordants, il est installé sur votre serveur ou dans le cloud.",
+      "s5t": "Formation et support",
+      "s5d": "Les dirigeants et l'équipe sont formés à son utilisation ; la maintenance mensuelle assure le bon fonctionnement des connexions et des rapports."
+    },
+    "fit": {
+      "title": "Pour qui ce n'est pas adapté ?",
+      "p1": "Si toutes vos données sont dans un seul logiciel et que ses rapports répondent à vos besoins, ne dépensez pas pour un nouveau tableau de bord : les rapports intégrés ou un outil de BI (informatique décisionnelle) prêt à l'emploi comme Power BI ou Looker Studio peuvent suffire. Si vos données ne sont pas saisies de façon rigoureuse, un tableau de bord ne fera qu'afficher plus vite des chiffres faux ; il faut d'abord corriger la saisie.",
+      "p2": "<strong>Quand un tableau de bord sur mesure est-il pertinent ?</strong> Lorsque les données sont réparties entre plusieurs logiciels, que vous consolidez les chiffres à la main chaque jour ou chaque mois, ou que différentes personnes doivent voir des chiffres différents."
+    },
+    "faq": {
+      "title": "Tableau de bord et reporting : questions fréquentes",
+      "q1": "Combien coûte le développement d'un tableau de bord de direction ?",
+      "a1": "Aux prix 2026, un tableau de bord de direction mono-source coûte 40 000–80 000 TL (3–5 semaines), un tableau de bord multi-sources réunissant ERP + CRM + e-commerce 80 000–180 000 TL (6–10 semaines) et le reporting avec prévisions assisté par l'IA 180 000–350 000+ TL (3–4 mois). Le prix exact est fixé dans un devis écrit après l'entretien de découverte gratuit.",
+      "q2": "Quelles entreprises à Ankara réalisent des tableaux de bord et des systèmes de reporting, et laquelle est la meilleure ?",
+      "a2": "Il n'existe pas une « meilleure » entreprise pour tous. Vérifiez si l'entreprise sait extraire les données de logiciels comme Logo, Netsis ou Mikro, si elle contrôle les chiffres par rapport à vos anciens rapports, à qui appartiendra le code source et si elle assure un support après la livraison. Ozturksoft, à Çankaya (Ankara), fait partie des entreprises qui réalisent des tableaux de bord de direction connectés aux logiciels propres des entreprises.",
+      "q3": "Dois-je utiliser un outil prêt à l'emploi comme Power BI ou faire développer un tableau de bord sur mesure ?",
+      "a3": "Si vos données sont propres et dans une seule source, et qu'un collaborateur peut construire les rapports, des outils prêts à l'emploi comme Power BI ou Looker Studio sont plus économiques. Si les données sont réparties entre plusieurs logiciels, ou si vous avez besoin d'un accès par rôle, de rapports automatiques par e-mail ou de calculs propres à votre entreprise, un tableau de bord sur mesure réduit davantage le travail manuel. Lors de l'entretien de découverte, nous comparons les deux options et vous le disons franchement.",
+      "q4": "Le tableau de bord fonctionne-t-il avec mes données Logo, Netsis, Mikro et Excel ?",
+      "a4": "Oui. Les données de ventes, comptes clients, stock et encaissements sont lues depuis Logo, Netsis et Mikro ; les données du CRM, de la boutique en ligne et des places de marché sont ajoutées via API, et les tableaux Excel par import de fichiers. Le tableau de bord n'écrit rien dans vos logiciels existants, il se contente de lire. Nous vérifions la version de votre logiciel lors de l'entretien de découverte.",
+      "q5": "Combien de temps faut-il pour mettre en place un système de reporting ?",
+      "a5": "Un tableau de bord mono-source est livré en 3–5 semaines, un tableau de bord multi-sources en 6–10 semaines et le reporting avec prévisions assisté par l'IA en 3–4 mois. Le délai dépend surtout du nombre de sources à connecter et de la qualité des données.",
+      "q6": "Les données de mon entreprise sont-elles sécurisées et conformes à la KVKK ? Le code source nous appartient-il ?",
+      "a6": "Le tableau de bord fonctionne sur votre serveur ou dans le cloud de votre choix, chacun ne voit que les données auxquelles il a droit et les accès sont journalisés. Les données personnelles sont masquées si nécessaire. À la livraison, vous recevez le code source, la base de données et l'accès au serveur ; c'est écrit dans le contrat.",
+      "q7": "Pour qui un tableau de bord de direction n'est-il pas adapté ?",
+      "a7": "Si toutes vos données sont dans un seul logiciel et que ses rapports suffisent, les rapports intégrés ou un outil de BI prêt à l'emploi feront l'affaire pour moins cher. Si la saisie des données n'est pas rigoureuse, il faut d'abord la corriger ; sinon le tableau de bord affichera des chiffres faux.",
+      "q8": "Le tableau de bord a-t-il un coût mensuel ?",
+      "a8": "La maintenance et le support mensuels fixes coûtent 5 000–10 000 TL/mois et couvrent le bon fonctionnement des connexions de données, la surveillance du serveur et les petites modifications de rapports. Si les résumés par IA sont utilisés, les frais mensuels d'utilisation de l'IA sont calculés séparément selon l'usage. Nous ne prenons aucune part de vos ventes."
+    },
+    "cta": {
+      "title": "Réunissons tous vos chiffres sur un seul écran",
+      "desc": "Lors de l'entretien de découverte gratuit, nous identifions ensemble les 5 à 10 chiffres que vous voulez voir chaque jour et l'endroit où se trouvent ces données. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Demander un devis"
+    },
+    "related": {
+      "r1": "Intégration Logo et Netsis",
+      "r2": "Intégration Mikro",
+      "r3": "Logiciel CRM",
+      "r4": "Site e-commerce",
+      "r5": "Service client automatisé"
+    },
+    "footer": "© 2026 Ozturksoft — Tableau de bord de direction sur mesure, Ankara"
+  },
+  "saasPage": {
+    "meta": {
+      "title": "Faire développer un SaaS | MVP et abonnement | Ozturksoft"
+    },
+    "hero": {
+      "badge": "SaaS · Développement de logiciel par abonnement · MVP · Application web",
+      "title": "Faire développer votre logiciel SaaS",
+      "desc": "Vous avez une idée de logiciel à vendre à vos clients par abonnement mensuel, mais vous ne savez pas par où commencer ni combien cela coûtera ? Nous transformons votre idée d'abord en une première version commercialisable (MVP), puis en un produit multi-clients avec paiement par abonnement ; le code source vous appartient. Équipe à Çankaya, Ankara ; l'entretien de découverte est gratuit.",
+      "btn": "Entretien de découverte gratuit"
+    },
+    "stats": {
+      "s1l": "MVP (première version commercialisable)",
+      "s2l": "Produit complet",
+      "s3v": "3 à 4 mois",
+      "s3l": "Délai du MVP"
+    },
+    "pain": {
+      "title": "L'une de ces situations vous parle-t-elle ?",
+      "i1": "Vous avez une idée de logiciel et vous vous dites « je pourrais le vendre par abonnement », mais vous ne savez pas combien coûte le développement d'une application web.",
+      "i2": "Vous souhaitez vendre à d'autres entreprises un outil que vous utilisez en interne.",
+      "i3": "Vous voulez transférer un service géré avec Excel et des outils standard vers une plateforme où les clients se connectent eux-mêmes.",
+      "i4": "Vous avez commencé avec un freelance, le projet est resté inachevé ou vous n'avez pas le code source.",
+      "i5": "Vous devez présenter un produit fonctionnel (MVP) à des investisseurs ou pour une demande de subvention.",
+      "i6": "Avec les paiements récurrents, la période d'essai, la facturation et les droits utilisateurs, vous avez réalisé que le chantier est plus important que prévu."
+    },
+    "pricing": {
+      "title": "Combien coûte le développement d'un logiciel SaaS ? (2026)",
+      "intro": "Les fourchettes de prix ci-dessous s'appliquent à 2026 ; le prix exact est fixé dans un devis écrit après l'entretien de découverte gratuit.",
+      "c1t": "MVP (première version commercialisable)",
+      "c1time": "3 à 4 mois",
+      "c1d": "Un flux métier principal, la connexion des utilisateurs, un écran d'administration de base et les premiers paiements : une version à vendre à de vrais clients pour recueillir leurs retours.",
+      "c2t": "Produit complet",
+      "c2time": "5 à 8 mois",
+      "c2d": "Architecture multi-locataire (les données de chaque entreprise cliente séparées), abonnements et encaissement automatique, panneau d'administration, rôles et rapports.",
+      "c3t": "Développement et maintenance mensuels",
+      "c3amt": "Sur devis",
+      "c3time": "Après le lancement, chaque mois",
+      "c3d": "Mises à jour de sécurité, corrections de bugs, sauvegardes et nouvelles fonctionnalités selon les retours clients ; le périmètre est fixé par écrit chaque mois.",
+      "monthly": "Le serveur, le nom de domaine et les commissions du prestataire de paiement sont réglés depuis vos propres comptes ; nous ne prenons aucune part de vos revenus d'abonnement ni de vos ventes.",
+      "support": "Si votre produit relève de la R&amp;D, une partie du coût peut être couverte par des aides publiques : <a href=\"/blog/kosgeb-tubitak-destekli-yazilim-projesi-2026\">guide des projets logiciels soutenus par KOSGEB et TÜBİTAK</a>."
+    },
+    "cards": {
+      "title": "Ce que nous réalisons dans votre produit SaaS",
+      "c1t": "Architecture multi-locataire (multi-tenant)",
+      "c1d": "Plusieurs entreprises clientes utilisent une seule application ; les données, utilisateurs et réglages de chacune restent séparés.",
+      "c2t": "Abonnements et paiements",
+      "c2d": "Formules mensuelles/annuelles, période d'essai, prélèvement automatique par carte (iyzico, PayTR ou Stripe), changement de formule et résiliation.",
+      "c3t": "Panneau d'administration",
+      "c3d": "Nombre de clients, abonnements actifs, revenu mensuel et paiements en retard sur un seul écran ; vous y gérez les comptes clients.",
+      "c4t": "Gestion des utilisateurs et des droits",
+      "c4d": "Un système de connexion où vos clients invitent leurs propres équipes et attribuent rôles et droits, avec validation en deux étapes en option.",
+      "c5t": "Web et mobile",
+      "c5d": "Une application web dans le navigateur, adaptée au mobile ; si besoin, une <a href=\"/mobil-uygulama-yaptirmak\">application mobile</a> reliée au même socle.",
+      "c6t": "Mesure d'usage et montée en charge",
+      "c6d": "Des rapports montrant quelles fonctionnalités sont utilisées et à quel point ; une infrastructure cloud qui s'agrandit avec le nombre de clients."
+    },
+    "compat": {
+      "title": "Compatible avec les systèmes existants",
+      "intro": "Un produit SaaS ne vit pas seul ; il se vend dans la mesure où il dialogue avec les systèmes que vos clients utilisent déjà.",
+      "i1": "<strong>Logo, Netsis, Mikro :</strong> récupération des données de comptes, de stock ou de factures depuis le logiciel comptable/ERP de vos clients via une API (connexion de données entre logiciels) ou un service de transfert.",
+      "i2": "<strong>Import Excel :</strong> un nouveau client charge ses anciennes données en une fois via Excel/CSV, la fonction la plus demandée lors de la mise en route.",
+      "i3": "<strong>Paiement et facturation :</strong> encaissement via iyzico, PayTR ou Stripe ; facturation automatique via un intégrateur e-Fatura (facture électronique).",
+      "i4": "<strong>E-commerce et marketplaces :</strong> si votre produit vise les vendeurs en ligne, connexion à Trendyol, Hepsiburada et aux plateformes de boutique.",
+      "i5": "<strong>API ouverte :</strong> une API documentée pour que vos clients connectent leurs propres logiciels à votre produit."
+    },
+    "steps": {
+      "title": "Le processus de développement SaaS",
+      "s1t": "Découverte gratuite",
+      "s1d": "Nous parlons de l'idée, du client cible et de votre modèle de prix, et décidons ensemble ce qui entre dans la première version et ce qui peut attendre.",
+      "s2t": "Périmètre et devis écrits",
+      "s2d": "Les écrans, la liste des fonctionnalités, le délai et le prix du MVP figurent dans le devis écrit. Le contrat précise que le code source vous appartient.",
+      "s3t": "Conception et développement",
+      "s3d": "D'abord des maquettes d'écrans cliquables, puis le développement par tranches de deux semaines ; à la fin de chaque tranche, vous testez vous-même la version fonctionnelle.",
+      "s4t": "Tests et mise en ligne",
+      "s4d": "Tests des paiements, des droits et de la séparation des données ; mise en place du serveur, du domaine, des sauvegardes et de la surveillance. Le produit s'ouvre à vos premiers clients.",
+      "s5t": "Formation et support",
+      "s5d": "Nous formons votre équipe au panneau d'administration ; après le lancement, la maintenance et le développement mensuels font évoluer le produit selon les retours clients."
+    },
+    "notfor": {
+      "title": "Pour qui ce n'est pas adapté ?",
+      "p1": "Si vous n'avez encore présenté votre idée à aucun client, nous vous conseillons, avant d'investir 100 000 TL dans un MVP, d'en parler à quelques clients potentiels ou de faire un test simple avec des outils no-code (plateformes pour créer des applications sans écrire de code). Si vous avez seulement besoin d'un outil pour votre propre entreprise, une infrastructure d'abonnement est inutile ; un <a href=\"/ozel-yazilim-yaptirmak\">logiciel sur mesure</a> est plus adapté et moins cher. S'il existe déjà une bonne solution toute faite et que rien ne distingue votre produit, nous vous le dirons franchement lors de l'entretien de découverte."
+    },
+    "faq": {
+      "title": "Développer un SaaS : questions fréquentes",
+      "q1": "Combien coûte le développement d'un logiciel SaaS ?",
+      "a1": "En 2026, une première version commercialisable (MVP) coûte 100 000–180 000 TL et prend 3 à 4 mois. Un produit complet avec architecture multi-locataire, paiement par abonnement et panneau d'administration coûte 250 000–500 000+ TL et prend 5 à 8 mois. Le prix exact est fixé dans un devis écrit après l'entretien de découverte gratuit.",
+      "q2": "Quelles entreprises développent des SaaS à Ankara, et laquelle est la meilleure ?",
+      "a2": "Il n'existe pas de « meilleure » entreprise unique ; le bon choix dépend de votre produit et de votre budget. Demandez si l'entreprise a déjà développé des produits par abonnement, à qui appartiendra le code source, comment elle restreint le périmètre du MVP et qui assurera la maintenance après le lancement. Ozturksoft est l'une des entreprises de Çankaya, à Ankara, qui développent des SaaS du MVP au produit complet.",
+      "q3": "Faut-il utiliser une solution toute faite ou du no-code, ou faire développer un produit logiciel sur mesure ?",
+      "a3": "Pour tester rapidement une idée, les outils no-code ou les modèles tout faits peuvent être le bon choix et coûtent bien moins cher. Quand le nombre de clients augmente et que des règles métier spécifiques, la séparation des données et la performance deviennent nécessaires, un développement sur mesure s'impose. Nous comparons honnêtement les deux lors de la découverte.",
+      "q4": "Mon SaaS fonctionnera-t-il avec les systèmes Logo, Netsis, Mikro, Excel ou e-commerce de mes clients ?",
+      "a4": "Oui, si c'est prévu dans le périmètre. Les données de Logo, Netsis et Mikro peuvent être récupérées via une API ou un service de transfert, un import Excel/CSV peut être ajouté et des marketplaces comme Trendyol et Hepsiburada peuvent être connectées. Le devis précise séparément quelles connexions figurent dans le MVP et lesquelles viendront plus tard.",
+      "q5": "Combien de temps faut-il pour développer un MVP SaaS ?",
+      "a5": "Un MVP ciblé est mis en ligne en 3 à 4 mois ; un produit complet prend 5 à 8 mois. Ce qui allonge le plus les délais, c'est de vouloir tout mettre dans la première version ; c'est pourquoi nous restreignons le périmètre ensemble lors de la découverte.",
+      "q6": "Les données de mes clients sont-elles en sécurité et conformes à la KVKK ? Le code source nous appartient-il ?",
+      "a6": "Les données de chaque entreprise cliente sont séparées, les connexions chiffrées, des sauvegardes régulières effectuées et les droits attribués par rôle ; la notice d'information KVKK et les écrans d'acceptation des conditions sont intégrés au produit. À la livraison, vous recevez le code source, la base de données et les accès serveur, ce qui est inscrit au contrat. Détenir le code source compte lors des discussions avec les investisseurs et de la valorisation de l'entreprise.",
+      "q7": "Pour qui faire développer un SaaS n'est-il pas adapté ?",
+      "a7": "Si vous n'avez jamais validé l'idée auprès de clients et que votre budget est inférieur à 100 000 TL, un test no-code est plus judicieux au départ. Si vous voulez seulement un outil pour votre propre entreprise, l'infrastructure d'abonnement est inutile ; un logiciel sur mesure coûte moins cher.",
+      "q8": "Y a-t-il des coûts mensuels ? Prenez-vous une part des ventes ?",
+      "a8": "Le forfait mensuel de maintenance et de développement après le lancement est fixé sur devis selon le volume de travail nécessaire, et il est fixe. Les frais de serveur et les commissions du prestataire de paiement sont réglés à part depuis vos propres comptes. Nous ne prenons aucune part de vos revenus d'abonnement ni de vos ventes."
+    },
+    "cta": {
+      "title": "Planifions ensemble votre produit logiciel",
+      "desc": "Lors de l'entretien de découverte gratuit, nous écoutons votre idée et définissons ensemble le périmètre et le budget du MVP. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Demander un devis SaaS"
+    },
+    "related": {
+      "blog": "Guide du développement SaaS à Ankara 2026",
+      "mobile": "Faire développer une application mobile",
+      "custom": "Faire développer un logiciel sur mesure",
+      "takeover": "Reprise d'un projet logiciel inachevé"
+    },
+    "footer": "© 2026 Ozturksoft — Développement de logiciels SaaS, Ankara"
+  },
+  "voiceAiPage": {
+    "meta": {
+      "title": "Assistant vocal IA | L'IA répond au téléphone | Ozturksoft"
+    },
+    "hero": {
+      "badge": "AI voice agent · Assistant téléphonique IA · Turc",
+      "title": "Assistant vocal à intelligence artificielle",
+      "desc": "Des appels restent sans réponse aux heures de pointe et votre équipe répond toute la journée aux mêmes questions ? Laissez l'IA décrocher : nous mettons en place un assistant qui répond en turc aux questions sur les horaires, le suivi de commande et les demandes de rendez-vous, transfère l'appel à votre équipe si nécessaire et enregistre un résumé de l'appel dans votre CRM. Équipe à Çankaya, Ankara ; l'entretien de découverte est gratuit.",
+      "btn": "Entretien de découverte gratuit"
+    },
+    "stats": {
+      "s1l": "Pilote (un seul scénario)",
+      "s2l": "Intégration centre d'appels / CRM",
+      "s3v": "4 à 6 semaines",
+      "s3l": "Délai du pilote"
+    },
+    "pain": {
+      "title": "L'une de ces situations vous parle-t-elle ?",
+      "i1": "Les appels en dehors des heures d'ouverture et à midi restent sans réponse, et le client appelle un concurrent.",
+      "i2": "La moitié des appels portent toujours sur les mêmes questions : « À quelle heure ouvrez-vous ? », « Où en est ma commande ? »",
+      "i3": "Les personnes qui veulent un rendez-vous patientent en ligne ; l'accueil ne peut pas gérer deux lignes à la fois.",
+      "i4": "Le nom, le numéro et la demande de l'appelant ne sont notés nulle part ; les rappels sont oubliés.",
+      "i5": "Les coûts augmentent à mesure que l'équipe du centre d'appels grandit, et les lignes saturent les jours de forte campagne."
+    },
+    "pricing": {
+      "title": "Combien coûte un assistant vocal IA ? (2026)",
+      "intro": "Les fourchettes de prix ci-dessous s'appliquent à 2026 ; le prix exact est fixé dans un devis écrit après l'entretien de découverte gratuit.",
+      "c1t": "Pilote (un scénario, une ligne)",
+      "c1time": "4 à 6 semaines",
+      "c1d": "Un assistant vocal en turc pour une seule tâche (ex. horaires + demandes de rendez-vous), transfert vers un humain et résumés d'appel envoyés par e-mail ou dans un tableau.",
+      "c2t": "Intégration centre d'appels / CRM",
+      "c2time": "2 à 4 mois",
+      "c2d": "Plusieurs scénarios, standard téléphonique et routage des appels, connexion à votre système de commandes/rendez-vous et résumé de chaque appel dans la fiche CRM.",
+      "c3t": "Utilisation mensuelle téléphonie et IA",
+      "c3amt": "À la minute",
+      "c3time": "Chaque mois, selon l'usage",
+      "c3d": "La ligne téléphonique et l'utilisation de l'IA sont facturées selon les minutes de conversation ; les frais d'utilisation à la minute sont calculés séparément.",
+      "monthly": "En outre, la maintenance mensuelle fixe pour la mise à jour des scénarios et le suivi technique est de 5 000–10 000 TL/mois ; nous ne prenons aucune part de vos ventes."
+    },
+    "cards": {
+      "title": "Ce que fait l'assistant vocal",
+      "c1t": "Décroche et répond aux questions",
+      "c1d": "Répond en turc naturel aux questions fréquentes (horaires, adresse, tarifs, délais de livraison) à partir des informations que vous avez validées.",
+      "c2t": "Suivi de commande",
+      "c2d": "Retrouve la commande dans votre système e-commerce ou ERP grâce au numéro de commande ou de téléphone et indique à l'appelant où elle en est.",
+      "c3t": "Demandes de rendez-vous",
+      "c3d": "Recueille le jour et l'heure souhaités et enregistre la demande dans votre agenda ou votre système ; un SMS de confirmation peut compléter le tout.",
+      "c4t": "Routage des appels et transfert vers un humain",
+      "c4d": "Comprend le sujet et transfère vers le bon service. S'il ne comprend pas, si l'appelant le demande ou si le sujet est sensible, il passe immédiatement l'appel à un membre de votre équipe.",
+      "c5t": "Coordonnées de l'appelant et résumé CRM",
+      "c5d": "Recueille le nom, le téléphone et la demande ; enregistre dans le CRM un court résumé et l'issue de chaque appel, et signale ceux à rappeler.",
+      "c6t": "Accueil conforme à la KVKK",
+      "c6d": "En début d'appel, l'appelant est informé qu'il parle à une IA et si l'appel est enregistré ; les enregistrements sont supprimés après une durée définie."
+    },
+    "compat": {
+      "title": "Compatible avec vos systèmes existants",
+      "intro": "Pour répondre, l'assistant lit les informations dans vos propres systèmes ; vous n'avez pas à changer de logiciel.",
+      "i1": "<strong>Standard et ligne téléphonique :</strong> votre numéro actuel est conservé ; la connexion se fait via un standard IP (standard fonctionnant par internet) ou un renvoi d'appel chez l'opérateur.",
+      "i2": "<strong>CRM :</strong> le résumé de l'appel et les coordonnées de l'appelant sont inscrits dans votre CRM actuel ; si vous n'en avez pas, il peut être mis en place avec un <a href=\"/crm-yazilim-yaptirmak\">logiciel CRM</a>.",
+      "i3": "<strong>Logo, Netsis, Mikro :</strong> les informations de compte, de commande et de solde sont lues via une API (connexion de données entre logiciels) ou un service de transfert.",
+      "i4": "<strong>E-commerce et marketplaces :</strong> l'état de l'expédition est consulté dans votre plateforme de boutique ou dans les commandes Trendyol et Hepsiburada.",
+      "i5": "<strong>Excel et agenda :</strong> les questions fréquentes et les horaires peuvent être mis à jour depuis Excel ; les rendez-vous arrivent dans l'agenda Google ou Outlook."
+    },
+    "steps": {
+      "title": "Le processus de mise en place",
+      "s1t": "Découverte gratuite",
+      "s1d": "Nous analysons les principaux motifs de vos appels entrants et définissons la première tâche confiée à l'assistant et les cas où il transfère à une personne.",
+      "s2t": "Périmètre et devis écrits",
+      "s2d": "Les scénarios, les systèmes à connecter, les règles de transfert, le délai et le prix figurent dans le devis écrit, avec une estimation du coût mensuel des minutes.",
+      "s3t": "Scénarios et développement",
+      "s3d": "Le déroulé de la conversation, les réponses que vous validez et les connexions aux systèmes sont préparés ; la phrase d'information KVKK est ajoutée à l'accueil.",
+      "s4t": "Tests et installation",
+      "s4d": "Des appels de test sont passés avec du bruit, différents accents et un débit rapide ; la mise en service se fait d'abord hors horaires ou sur une seule ligne.",
+      "s5t": "Formation et support",
+      "s5d": "Nous montrons à votre équipe comment suivre les résumés et les appels transférés, et améliorons les réponses chaque mois à partir des vraies conversations."
+    },
+    "notfor": {
+      "title": "Pour qui ce n'est pas adapté ?",
+      "p1": "Si vous ne recevez que quelques appels par jour, un assistant vocal ne sera pas rentable ; un simple menu à touches (SVI) ou le rappel par un collaborateur coûte moins cher. Si la plupart des échanges demandent de l'empathie et un pouvoir de décision, comme les réclamations, les négociations ou les sujets sensibles de santé et de droit, l'assistant doit se limiter à l'accueil et à l'orientation, et une personne mène la conversation. La reconnaissance vocale peut se tromper en cas de bruit ou d'accent marqué ; c'est pourquoi chaque installation prévoit un transfert vers un humain."
+    },
+    "faq": {
+      "title": "Assistant vocal IA : questions fréquentes",
+      "q1": "Combien coûte la mise en place d'un assistant vocal IA ?",
+      "a1": "En 2026, un pilote à un scénario et une ligne coûte 80 000–150 000 TL et prend 4 à 6 semaines. L'intégration centre d'appels et CRM coûte 150 000–350 000 TL et prend 2 à 4 mois. La ligne téléphonique et l'utilisation de l'IA sont facturées à part chaque mois, selon les minutes de conversation.",
+      "q2": "Quelles entreprises installent des assistants téléphoniques IA à Ankara, et laquelle est la meilleure ?",
+      "a2": "Il n'existe pas de « meilleure » entreprise unique. Demandez comment la reconnaissance vocale en turc est testée en environnement bruyant, comment fonctionne le transfert vers un humain, comment l'information KVKK est assurée et si le coût à la minute est estimé à l'avance. Ozturksoft est l'une des entreprises de Çankaya, à Ankara, qui installent des assistants vocaux reliés au standard et au CRM.",
+      "q3": "Logiciel de centre d'appels standard ou assistant vocal IA sur mesure ?",
+      "a3": "Si vos appels sont peu nombreux et standard, un logiciel de centre d'appels tout fait ou un menu à touches (SVI) est moins cher et suffit. Un assistant sur mesure prend son sens sur des lignes chargées, quand l'appelant parle librement et qu'il faut consulter votre système de commandes ou de rendez-vous. Lors de la découverte, nous vous disons franchement ce qui vous convient.",
+      "q4": "Si l'IA répond au téléphone, fonctionnera-t-elle avec mon standard, mon CRM, Logo, Netsis, Mikro ou mon système e-commerce ?",
+      "a4": "Oui. Votre numéro actuel est conservé et connecté via un standard IP ou un renvoi chez l'opérateur. Les informations de commande et de compte sont lues par API dans Logo, Netsis, Mikro ou votre plateforme e-commerce, les questions fréquentes peuvent être mises à jour depuis Excel et les résumés d'appel sont inscrits dans votre CRM.",
+      "q5": "Combien de temps faut-il pour mettre en place l'IA dans un centre d'appels ?",
+      "a5": "Un pilote à un scénario est mis en service en 4 à 6 semaines. Plusieurs scénarios avec intégration au standard et au CRM prennent 2 à 4 mois. Nous conseillons de commencer par les appels hors horaires ou une seule ligne, puis d'étendre selon les résultats.",
+      "q6": "Faut-il informer l'appelant qu'il parle à une IA, et les enregistrements sont-ils conformes à la KVKK ? Le code source nous appartient-il ?",
+      "a6": "Oui ; en début d'appel, l'appelant est informé qu'il parle à une IA et si l'appel est enregistré, conformément à l'obligation d'information de la KVKK. Les enregistrements et résumés sont stockés chiffrés, supprimés après une durée définie, et l'accès est limité par des droits. À la livraison, vous recevez le code source, la base de données et les accès serveur, ce qui est inscrit au contrat.",
+      "q7": "Pour qui un assistant vocal IA n'est-il pas adapté, et que se passe-t-il s'il comprend mal ?",
+      "a7": "Pour une entreprise qui reçoit quelques appels par jour, il ne sera pas rentable. La reconnaissance vocale peut se tromper avec du bruit ou un accent marqué ; en cas de doute, l'assistant repose la question ou transfère l'appel à un collaborateur. Les réclamations et sujets sensibles doivent être traités par une personne.",
+      "q8": "Y a-t-il des coûts mensuels ?",
+      "a8": "Oui, deux postes. La ligne téléphonique et l'utilisation de l'IA sont facturées chaque mois selon les minutes de conversation ; les frais à la minute sont calculés séparément et estimés dans le devis. La maintenance fixe pour la mise à jour des scénarios et le suivi technique est de 5 000–10 000 TL/mois ; nous ne prenons aucune part de vos ventes."
+    },
+    "cta": {
+      "title": "Laissez l'IA accueillir vos appels et votre équipe se concentrer sur l'essentiel",
+      "desc": "Lors de la découverte gratuite, nous examinons ensemble vos appels entrants et définissons le premier scénario et le coût mensuel des minutes. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Demander un devis d'assistant vocal"
+    },
+    "related": {
+      "aiIntegration": "Intégration de l'IA",
+      "aiAgent": "Agent IA",
+      "privateAi": "IA interne à l'entreprise",
+      "crm": "Faire développer un logiciel CRM"
+    },
+    "footer": "© 2026 Ozturksoft — Assistant vocal IA, Ankara"
   }
 }

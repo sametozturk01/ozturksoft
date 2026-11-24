@@ -633,7 +633,15 @@
       "tender": "İhale şartnamesi yapay zeka",
       "softwareCompany": "Ankara yazılım şirketi",
       "spam": "Spam update kurtarma",
-      "logoNetsis": "Logo / Netsis entegrasyonu"
+      "logoNetsis": "Logo / Netsis entegrasyonu",
+      "stock": "Stok takip programı",
+      "production": "Üretim takip yazılımı",
+      "fieldService": "Teknik servis programı",
+      "maintenance": "Yazılım bakım ve destek",
+      "salesAi": "Otomatik müşteri hizmetleri",
+      "dashboard": "Raporlama ve yönetim paneli",
+      "saas": "SaaS yazılım yaptırmak",
+      "voiceAi": "Sesli yapay zeka asistanı"
     }
   },
   "aiFirmPage": {
@@ -4611,5 +4619,918 @@
       "i6": "Google'da sitenizin adının yanında tanımadığınız, yabancı dilde sayfalar görünüyor.",
       "note": "Bu belirtilerden biri varsa, ne kadar erken bakılırsa kurtarma o kadar kolaylaşır."
     }
+  },
+  "stockPage": {
+    "meta": {
+      "title": "Stok Takip Programı Yaptırmak | Barkod ve Depo | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Stok takip · Barkod · Depo · Sipariş",
+      "title": "Stok Takip Programı Yaptırmak",
+      "desc": "Sayımda Excel ile raf bir türlü tutmuyor, hangi ürünün hangi depoda kaldığını telefonla soruyorsanız sorun stok takibindedir. İşinize göre stok, depo ve sipariş programı yazıyor; barkodlu sayımı ve Logo, Netsis, Mikro bağlantısını kuruyoruz. Ankara Çankaya ekibi, ücretsiz keşif görüşmesi.",
+      "btn": "Ücretsiz keşif görüşmesi"
+    },
+    "stats": {
+      "s1l": "Temel stok ve sipariş takibi",
+      "s2l": "Barkod, çoklu depo ve mobil sayım",
+      "s3l": "Temel sistemin süresi"
+    },
+    "symptoms": {
+      "title": "Bu durumlardan biri tanıdık mı?",
+      "i1": "Sayım yaptığımızda Excel'deki stok ile raftaki stok bir türlü tutmuyor.",
+      "i2": "Siparişi aldıktan sonra üründe stok olmadığını fark ediyoruz.",
+      "i3": "İki depo ve bir mağaza var; hangi üründen nerede kaç tane kaldığını telefonla soruyoruz.",
+      "i4": "Aynı ürün hem sitede hem pazaryerinde satılıyor, stoklar elle güncelleniyor ve fazla satış oluyor.",
+      "i5": "Muhasebe programındaki stok ile depodaki gerçek durum farklı.",
+      "i6": "Depo takip yazılımı arıyoruz ama hazır programlar bizim çalışma şeklimize uymuyor.",
+      "note": "Stoku hâlâ Excel'de tutuyorsanız karar vermeden önce şu rehbere bakabilirsiniz: <a href=\"/blog/excel-yerine-ozel-program-yaptirmak-2026\">Excel yerine özel program yaptırmak</a>."
+    },
+    "pricing": {
+      "title": "Stok takip programı yaptırmak ne kadar tutar? (2026)",
+      "intro": "Aşağıdaki fiyat aralıkları 2026 yılı içindir; kesin fiyat ücretsiz keşif görüşmesinden sonra yazılı teklifle belirlenir.",
+      "monthly": "Teslimden sonra sunucu, güvenlik güncellemeleri, yedekleme ve teknik destek için aylık bakım ücreti sabittir: 5.000–10.000 TL/ay. Satışlarınızdan pay alınmaz.",
+      "row1": "Temel stok ve sipariş takibi",
+      "t1": "6–10 hafta",
+      "d1": "Ürün kartları, giriş-çıkış hareketleri, kritik stok uyarısı, sipariş kaydı ve temel raporlar; Excel'deki mevcut listeniz içeri aktarılır.",
+      "row2": "Barkod, çoklu depo ve mobil sayım",
+      "t2": "10–14 hafta",
+      "d2": "Barkod veya karekodla giriş-çıkış, depolar ve raflar arası transfer, telefonla sayım ve lot ya da seri numarası takibi.",
+      "row3": "Logo/Netsis/Mikro bağlantılı stok sistemi",
+      "t3": "3–5 ay",
+      "d3": "Muhasebe veya ERP programınızla stok, cari ve fatura bilgisinin otomatik eşitlendiği, onay ve yetki adımları olan kapsamlı sistem."
+    },
+    "cards": {
+      "title": "Stok programında neler yapıyoruz?",
+      "c1t": "Ürün ve stok kartları",
+      "c1d": "Varyant (renk, beden), birim, raf yeri ve minimum stok bilgisiyle tek ürün listesi. Her giriş-çıkış, kimin yaptığıyla birlikte kaydedilir.",
+      "c2t": "Barkodlu stok takip",
+      "c2d": "El terminali, USB barkod okuyucu veya telefon kamerasıyla okutarak giriş, çıkış ve sayım. Elle yazma hataları azalır.",
+      "c3t": "Çoklu depo ve transfer",
+      "c3d": "Birden fazla depo, mağaza veya araç stoku ayrı ayrı izlenir; depolar arası transfer belgeyle yapılır.",
+      "c4t": "Sipariş ve stok bağlantısı",
+      "c4d": "Sipariş girildiğinde stok ayrılır, eksik ürün için uyarı ve satın alma önerisi çıkar. Sevkiyat durumu aynı ekrandan izlenir.",
+      "c5t": "Mobil sayım",
+      "c5d": "Depo personeli telefondan sayım yapar; sayım farkları onaydan sonra stoka işlenir.",
+      "c6t": "Raporlar ve uyarılar",
+      "c6d": "Kritik stok, yavaş dönen ürün, depo bazında stok değeri ve hareket raporları; istenirse Excel'e aktarım ve e-posta bildirimi."
+    },
+    "integr": {
+      "title": "Mevcut sistemlerinizle çalışır",
+      "p1": "Yeni program, kullandığınız sistemlerin yerine geçmek zorunda değil; onlarla veri alışverişi yapacak şekilde kurulur.",
+      "i1": "<strong>Logo ve Netsis:</strong> stok, cari ve fatura bilgisi iki yönlü eşitlenir. Ayrıntı: <a href=\"/logo-netsis-entegrasyon\">Logo ve Netsis entegrasyonu</a>.",
+      "i2": "<strong>Mikro:</strong> stok kartları ve hareketleri Mikro ile aynı tutulur. Ayrıntı: <a href=\"/mikro-entegrasyon\">Mikro entegrasyonu</a>.",
+      "i3": "<strong>Excel:</strong> mevcut ürün ve stok listeniz içeri aktarılır; raporlar Excel olarak indirilebilir.",
+      "i4": "<strong>E-ticaret ve pazaryeri:</strong> kendi siteniz, Trendyol veya Hepsiburada stokları tek merkezden güncellenir.",
+      "i5": "<strong>API</strong> (iki yazılımın otomatik veri alışverişi): kargo firması, tedarikçi veya başka bir programla bağlantı kurulabilir."
+    },
+    "steps": {
+      "title": "Süreç nasıl işler?",
+      "s1t": "Ücretsiz keşif",
+      "s1d": "Deponuzu ve mevcut Excel ya da programınızı birlikte inceleriz; stokun nerede kaybolduğunu ve hangi bağlantıların gerektiğini çıkarırız.",
+      "s2t": "Yazılı kapsam ve teklif",
+      "s2d": "Ekranlar, raporlar, bağlantılar, süre ve fiyat yazılı teklifte yer alır. Kapsam dışı iş, onayınız olmadan eklenmez.",
+      "s3t": "Tasarım ve geliştirme",
+      "s3d": "Önce ekranları gösteririz, onayınızdan sonra kodlarız. Geliştirme boyunca her iki haftada bir çalışan sürümü görürsünüz.",
+      "s4t": "Test ve kurulum",
+      "s4d": "Gerçek ürünlerinizle deneme sayımı yapılır, eski veriler aktarılır, sistem sunucunuza veya seçtiğiniz buluta kurulur.",
+      "s5t": "Eğitim ve destek",
+      "s5d": "Depo ve ofis ekibine eğitim verilir. Teslimden sonra bakım ve destek sabit aylık ücretle sürer."
+    },
+    "notfor": {
+      "title": "Kimler için uygun değil?",
+      "p1": "Tek depo, birkaç yüz ürün ve standart alış-satış yapıyorsanız hazır bir stok programı veya muhasebe programınızın stok modülü daha ucuza gelir; özel yazılıma gerek yoktur. Bütçeniz 80.000 TL'nin altındaysa ya da çalışma şekliniz henüz netleşmediyse beklemenizi öneririz. Keşif görüşmesinde bunu açıkça söyleriz."
+    },
+    "faq": {
+      "title": "Stok takip programı: sık sorulanlar",
+      "q1": "Stok takip programı yaptırmak ne kadar tutar?",
+      "a1": "2026 fiyatlarıyla temel stok ve sipariş takibi 80.000–150.000 TL (6–10 hafta), barkod, çoklu depo ve mobil sayım 150.000–250.000 TL (10–14 hafta), Logo, Netsis veya Mikro bağlantılı stok sistemi 250.000–400.000+ TL (3–5 ay) tutar. Fiyatı ürün sayısından çok depo sayısı, bağlantılar ve size özel kurallar belirler. Kesin fiyat ücretsiz keşiften sonra yazılı teklifle verilir.",
+      "q2": "Ankara'da stok takip programı yapan firmalar hangileri, en iyisi hangisi?",
+      "a2": "Herkes için tek bir en iyi firma yok; doğru firma işinize ve kullandığınız programlara göre değişir. Karar verirken yazılı kapsam verip vermediğine, Logo, Netsis veya Mikro bağlantısı deneyimine, kaynak kodu teslim edip etmediğine ve yerinde destek verebildiğine bakın. Ozturksoft bu firmalardan biridir: Çankaya'dan stok, depo ve sipariş programı yazıyor, kurulumu ve eğitimi yerinde yapıyoruz.",
+      "q3": "Hazır stok programı mı almalıyım, özel yazılım mı yaptırmalıyım?",
+      "a3": "Standart alış-satış yapan ve tek depolu işletmeler için hazır program genellikle daha ucuz ve yeterlidir. Çoklu depo, üretime bağlı stok, pazaryeri satışı veya size özel onay kuralları varsa hazır programı işinize uydurmak zorlaşır; o zaman özel yazılım mantıklı olur. Keşif görüşmesinde hazır programın yeterli olduğunu görürsek bunu söyleriz.",
+      "q4": "Özel stok programı Logo, Netsis, Mikro veya Excel ile çalışır mı?",
+      "a4": "Evet. Logo, Netsis ve Mikro ile stok, cari ve fatura bilgisi otomatik eşitlenebilir; muhasebe tarafınız değişmeden kalır. Excel'deki mevcut listeleriniz içeri aktarılır; Trendyol, Hepsiburada veya kendi e-ticaret sitenizle stok bağlantısı da kurulabilir.",
+      "q5": "Stok takip programı yaptırmak ne kadar sürer?",
+      "a5": "Temel stok ve sipariş takibi 6–10 hafta, barkod, çoklu depo ve mobil sayımlı sistem 10–14 hafta, Logo, Netsis veya Mikro bağlantılı stok sistemi 3–5 ay sürer. Süre yazılı teklifte yer alır; geliştirme boyunca her iki haftada bir çalışan sürümü görürsünüz.",
+      "q6": "Stok verilerim güvende mi, KVKK'ya uygun mu? Kaynak kod bize mi ait olur?",
+      "a6": "Veriler kendi sunucunuzda veya seçtiğiniz bulut sunucusunda tutulur; kullanıcı yetkileri, işlem kaydı ve düzenli yedekleme kurulur. Müşteri veya personel bilgisi işleniyorsa sistem KVKK gereklerine göre tasarlanır. Teslimde kaynak kod, veritabanı ve sunucu erişimi size verilir; bu sözleşmede yazılıdır.",
+      "q7": "Özel stok programı kimler için uygun değil?",
+      "a7": "Tek depolu, birkaç yüz ürünlü ve standart alış-satış yapan işletmeler için hazır program veya muhasebe programının stok modülü daha ekonomiktir. Bütçesi 80.000 TL'nin altında olan ya da çalışma şekli henüz oturmamış işletmelere de beklemelerini öneririz.",
+      "q8": "Stok programının aylık maliyeti var mı?",
+      "a8": "Teslimden sonra sunucu, güvenlik güncellemeleri, yedekleme ve teknik destek için sabit 5.000–10.000 TL/ay bakım ücreti vardır; satışlarınızdan pay alınmaz. Yeni özellik istekleri ayrıca yazılı teklifle fiyatlanır."
+    },
+    "cta": {
+      "title": "Stokunuzu tek ekranda görelim",
+      "desc": "Ücretsiz keşif görüşmesinde depo akışınızı birlikte çıkarır, hazır program mı özel yazılım mı gerektiğini açıkça söyleriz. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Stok programı teklifi al"
+    },
+    "related": {
+      "custom": "Özel yazılım yaptırmak",
+      "logo": "Logo ve Netsis entegrasyonu",
+      "mikro": "Mikro entegrasyonu",
+      "ecommerce": "E-ticaret sitesi yaptırmak",
+      "excel": "Excel yerine özel program rehberi"
+    },
+    "footer": "© 2026 Ozturksoft — Stok Takip Programı, Ankara"
+  },
+  "productionPage": {
+    "meta": {
+      "title": "Üretim Takip Yazılımı | İş Emri ve Fabrika Yazılımı | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Üretim takip · İş emri · Fire · Kalite",
+      "title": "Üretim Takip Yazılımı",
+      "desc": "İş emirleri kâğıtta dolaşıyor, hangi siparişin hangi makinede olduğunu ancak sahaya inince öğreniyorsanız üretim takip yazılımı tam bu işe yarar. Fabrikanıza göre iş emri, fire, kalite ve makine takibini tek ekranda topluyor, Logo, Netsis veya Mikro ile bağlıyoruz. Ankara Çankaya ekibi, ücretsiz keşif görüşmesi.",
+      "btn": "Ücretsiz keşif görüşmesi"
+    },
+    "stats": {
+      "s1l": "İş emri ve üretim takibi",
+      "s2l": "Kalite, fire, barkod ve makine verisi",
+      "s3l": "İlk sistemin süresi"
+    },
+    "symptoms": {
+      "title": "Bu durumlardan biri tanıdık mı?",
+      "i1": "İş emirleri kâğıtla veya WhatsApp'tan dağıtılıyor, hangisinin bittiğini kimse net bilmiyor.",
+      "i2": "Müşteri “siparişim ne zaman çıkar?” diye sorduğunda üretime telefon açıyoruz.",
+      "i3": "Fire ve hurda miktarını ay sonunda tahminle yazıyoruz.",
+      "i4": "Hangi makinenin ne kadar durduğunu, neden durduğunu ölçemiyoruz.",
+      "i5": "Kalite kontrol sonuçları defterde; bir parti sorun çıkarınca geriye dönük izleyemiyoruz.",
+      "i6": "Excel'deki üretim planı her gün değişiyor ve sahaya geç ulaşıyor.",
+      "note": "Ankara'daki üreticilerin yazılımla ilgili en sık sorduğu konuları <a href=\"/blog/ankara-sanayi-yazilim-2026\">Ankara sanayi için yazılım rehberinde</a> topladık."
+    },
+    "pricing": {
+      "title": "Üretim takip yazılımı ne kadar tutar? (2026)",
+      "intro": "Aşağıdaki fiyat aralıkları 2026 yılı içindir; kesin fiyat ücretsiz keşif görüşmesinden sonra yazılı teklifle belirlenir.",
+      "monthly": "Teslimden sonra sunucu, güvenlik güncellemeleri, yedekleme ve teknik destek için aylık bakım ücreti sabittir: 5.000–10.000 TL/ay. Satışlarınızdan pay alınmaz.",
+      "row1": "İş emri ve üretim takibi",
+      "t1": "8–12 hafta",
+      "d1": "İş emri açma, istasyon ve operatör bazında ilerleme, planlanan ve gerçekleşen miktar, siparişe göre üretim durumu ve temel raporlar.",
+      "row2": "Kalite, fire, barkod ve makine verisi",
+      "t2": "3–5 ay",
+      "d2": "Kalite kontrol formları, fire ve hurda kaydı, barkodla parti takibi ve makinelerden sayaç ile duruş bilgisinin otomatik alınması.",
+      "row3": "ERP bağlantılı fabrika sistemi",
+      "t3": "5–8 ay",
+      "d3": "Logo, Netsis veya Mikro ile reçete, stok ve sipariş bilgisinin eşitlendiği; planlama, maliyet ve yönetim panosunu içeren kapsamlı fabrika yazılımı."
+    },
+    "cards": {
+      "title": "Üretim takip programında neler yapıyoruz?",
+      "c1t": "İş emri takip",
+      "c1d": "İş emri siparişten otomatik açılır ve istasyonlara dağıtılır; operatör başladı-bitti bilgisini tablet veya terminalden girer.",
+      "c2t": "Üretim planlama",
+      "c2d": "Hangi işin hangi makinede, hangi sırayla yapılacağı ekranda planlanır; değişiklik sahaya anında yansır.",
+      "c3t": "Makine verisi ve duruşlar",
+      "c3d": "Uygun makinelerden sayaç ve çalışma bilgisi otomatik alınır; duruş nedenini operatör seçer ve raporlanır.",
+      "c4t": "Kalite kontrol",
+      "c4d": "Ölçüm ve kontrol formları dijital doldurulur; uygunsuz ürün ve düzeltici faaliyet kaydı tutulur, parti bazında geriye izlenebilir.",
+      "c5t": "Fire ve barkodlu izlenebilirlik",
+      "c5d": "Fire ve hurda, nedeni ve miktarıyla anında kaydedilir. Hammaddeden ürüne kadar parti ve lot barkodla izlenir.",
+      "c6t": "Yönetim panosu",
+      "c6d": "Günlük üretim, verimlilik, fire oranı ve geciken iş emirleri tek ekranda; istenirse üretim alanındaki TV ekranında gösterilir."
+    },
+    "integr": {
+      "title": "Mevcut sistemlerinizle çalışır",
+      "p1": "Üretim yazılımı mevcut muhasebe veya ERP programınızın yerine geçmez; ona bağlanarak çalışır.",
+      "i1": "<strong>Logo ve Netsis:</strong> reçete, stok, sipariş ve üretim fişleri otomatik aktarılır. Ayrıntı: <a href=\"/logo-netsis-entegrasyon\">Logo ve Netsis entegrasyonu</a>.",
+      "i2": "<strong>Mikro:</strong> stok kartları, reçeteler ve üretim hareketleri Mikro ile eşitlenir. Ayrıntı: <a href=\"/mikro-entegrasyon\">Mikro entegrasyonu</a>.",
+      "i3": "<strong>Excel:</strong> mevcut ürün, reçete ve plan listeleriniz içeri aktarılır; raporlar Excel olarak indirilebilir.",
+      "i4": "<strong>Makineler:</strong> PLC (makinenin kontrol kartı) veya sensör üzerinden sayaç ve duruş bilgisi alınabilir. Eski makinelerde ek sensör gerekebilir; bunu keşifte birlikte bakarız.",
+      "i5": "<strong>API</strong> (iki yazılımın otomatik veri alışverişi): müşteri portalı, tedarikçi sistemi veya başka bir programla bağlantı kurulabilir."
+    },
+    "steps": {
+      "title": "Süreç nasıl işler?",
+      "s1t": "Ücretsiz keşif",
+      "s1d": "Üretim alanınızı yerinde gezer, iş emrinin siparişten sevkiyata kadar izlediği yolu ve mevcut programlarınızı inceleriz.",
+      "s2t": "Yazılı kapsam ve teklif",
+      "s2d": "Ekranlar, raporlar, bağlantılar, süre ve fiyat yazılı teklifte yer alır. Kapsam dışı iş, onayınız olmadan eklenmez.",
+      "s3t": "Tasarım ve geliştirme",
+      "s3d": "Önce operatör ve yönetici ekranlarını gösteririz, onayınızdan sonra kodlarız. Geliştirme boyunca her iki haftada bir çalışan sürümü görürsünüz.",
+      "s4t": "Test ve kurulum",
+      "s4d": "Sistem önce tek bir hat veya bölümde denenir, sonra tüm fabrikaya yayılır. Tablet, terminal ve barkod cihazları kurulur.",
+      "s5t": "Eğitim ve destek",
+      "s5d": "Operatör, ustabaşı ve ofis ekibine ayrı eğitim verilir. Teslimden sonra bakım ve destek sabit aylık ücretle sürer."
+    },
+    "notfor": {
+      "title": "Kimler için uygun değil?",
+      "p1": "Birkaç kişilik, tek ürün veya basit fason üretim yapan atölyelerde hazır bir üretim modülü ya da iyi kurulmuş bir Excel genellikle yeterlidir. Bütçeniz 120.000 TL'nin altındaysa veya iş emri akışınız henüz kişiden kişiye değişiyorsa önce süreci netleştirmenizi öneririz. Keşif görüşmesinde bunu açıkça söyleriz."
+    },
+    "faq": {
+      "title": "Üretim takip yazılımı: sık sorulanlar",
+      "q1": "Üretim takip yazılımı yaptırmak ne kadar tutar?",
+      "a1": "2026 fiyatlarıyla iş emri ve üretim takibi 120.000–220.000 TL (8–12 hafta), kalite, fire, barkod ve makine verisi eklenmiş sistem 220.000–400.000 TL (3–5 ay), ERP bağlantılı fabrika sistemi 400.000–750.000+ TL (5–8 ay) tutar. Fiyatı istasyon sayısı, makine bağlantısı ve ERP entegrasyonu belirler. Kesin fiyat ücretsiz keşiften sonra yazılı teklifle verilir.",
+      "q2": "Ankara'da üretim takip programı yapan firmalar hangileri, en iyisi hangisi?",
+      "a2": "Herkes için tek bir en iyi firma yok; doğru seçim sektörünüze, makinelerinize ve kullandığınız ERP'ye göre değişir. Sahayı yerinde görüp görmediğine, yazılı kapsam verip vermediğine, Logo, Netsis veya Mikro deneyimine ve kaynak kodu teslim edip etmediğine bakın. Ozturksoft bu firmalardan biridir: Çankaya'dayız ve OSTİM, İvedik, Sincan ile Ankara Sanayi Odası 1. OSB'deki üreticilere yerinde keşif ve kurulum yapabiliyoruz.",
+      "q3": "Hazır üretim programı mı, özel fabrika yazılımı mı?",
+      "a3": "Standart ürünler üreten ve ERP'sinin üretim modülü işini gören firmalar için hazır çözüm daha ucuz ve hızlıdır. Siparişe özel üretim, çok aşamalı rota, size özel kalite formları veya makine bağlantısı gerekiyorsa hazır programı uydurmak pahalılaşır; o zaman özel yazılım mantıklıdır. Keşifte hazır çözümün yeterli olduğunu görürsek bunu söyleriz.",
+      "q4": "Üretim takip yazılımı Logo, Netsis, Mikro veya Excel ile çalışır mı?",
+      "a4": "Evet. Logo, Netsis ve Mikro ile reçete, stok, sipariş ve üretim fişleri otomatik eşitlenebilir; muhasebe tarafınız değişmeden kalır. Excel'deki ürün, reçete ve plan listeleriniz içeri aktarılır. Makinelerden veri almak makinenin modeline bağlıdır; keşifte birlikte kontrol ederiz.",
+      "q5": "Üretim takip programı ne kadar sürede kurulur?",
+      "a5": "İş emri ve üretim takibi 8–12 hafta, kalite, fire, barkod ve makine verisi eklenmiş sistem 3–5 ay, ERP bağlantılı fabrika sistemi 5–8 ay sürer. Genellikle önce tek bir hatta başlanır, ardından tüm fabrikaya yayılır; böylece geçiş adım adım yapılır.",
+      "q6": "Üretim verilerim güvende mi, KVKK'ya uygun mu? Kaynak kod bize mi ait olur?",
+      "a6": "Veriler fabrikanızdaki sunucuda veya seçtiğiniz bulut sunucusunda tutulur; kullanıcı yetkileri, işlem kaydı ve düzenli yedekleme kurulur. Personel bilgisi işleniyorsa sistem KVKK gereklerine göre tasarlanır. Teslimde kaynak kod, veritabanı ve sunucu erişimi size verilir; bu sözleşmede yazılıdır.",
+      "q7": "Üretim takip yazılımı kimler için uygun değil?",
+      "a7": "Birkaç kişilik, tek ürün veya basit fason üretim yapan atölyelerde hazır bir üretim modülü ya da iyi kurulmuş bir Excel genellikle yeterlidir. Bütçesi 120.000 TL'nin altında olan veya iş emri akışı henüz oturmamış işletmelere önce süreci netleştirmelerini öneririz.",
+      "q8": "Üretim takip yazılımının aylık maliyeti var mı?",
+      "a8": "Teslimden sonra sunucu, güvenlik güncellemeleri, yedekleme ve teknik destek için sabit 5.000–10.000 TL/ay bakım ücreti vardır; satışlarınızdan veya üretim hacminizden pay alınmaz. Yeni özellik istekleri ayrıca yazılı teklifle fiyatlanır."
+    },
+    "cta": {
+      "title": "Üretiminizi sahadan ekrana taşıyalım",
+      "desc": "Ücretsiz keşifte üretim alanınızı yerinde görür, iş emri akışınızı birlikte çıkarırız. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Üretim yazılımı teklifi al"
+    },
+    "related": {
+      "custom": "Özel yazılım yaptırmak",
+      "logo": "Logo ve Netsis entegrasyonu",
+      "mikro": "Mikro entegrasyonu",
+      "automation": "Süreç otomasyonu",
+      "guide": "Ankara sanayi yazılım rehberi"
+    },
+    "footer": "© 2026 Ozturksoft — Üretim Takip Yazılımı, Ankara"
+  },
+  "fieldServicePage": {
+    "meta": {
+      "title": "Teknik Servis Takip Programı Yaptırmak | Ankara | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Teknik servis · Saha ekibi · Montaj ve bakım",
+      "title": "Teknik Servis Takip Programı Yaptırmak",
+      "desc": "Servis formları kağıtta kayboluyor ve hangi teknisyenin nerede olduğunu telefonla soruyorsanız, işiniz programsız yürüyemeyecek kadar büyümüş demektir. Ofis için web panel, saha ekibi için mobil uygulama geliştiriyoruz: iş emri, rota, fotoğraf, müşteri imzası ve yedek parça tek yerde. Ankara Çankaya'dan çalışıyoruz; keşif görüşmesi ücretsizdir.",
+      "btn": "Ücretsiz keşif görüşmesi"
+    },
+    "stats": {
+      "s1l": "Web panel + saha uygulaması",
+      "s2l": "Rota, imza, stok ve bildirim",
+      "s3v": "8–12 hafta",
+      "s3l": "İlk sürüm teslim süresi"
+    },
+    "pain": {
+      "title": "Bu durumlardan biri tanıdık mı?",
+      "i1": "Servis formları kağıda yazılıyor, ofise geç geliyor ya da hiç gelmiyor.",
+      "i2": "Hangi teknisyenin hangi müşteride olduğunu öğrenmek için ekibi tek tek arıyorsunuz.",
+      "i3": "Müşteri “usta gelmedi” ya da “bu parçayı takmadınız” dediğinde elinizde fotoğraf veya imza yok.",
+      "i4": "Araçlardaki yedek parça stoğunu kimse bilmiyor; aynı parça iki kez sipariş ediliyor.",
+      "i5": "Garanti, periyodik bakım ve montaj tarihleri Excel'de tutuluyor; bakım zamanı kaçırılıyor.",
+      "i6": "Servis bittiği hâlde fatura günler sonra kesiliyor, çünkü bilgi muhasebeye ulaşmıyor."
+    },
+    "pricing": {
+      "title": "Teknik servis programı yaptırmak ne kadar tutar? (2026)",
+      "intro": "Aşağıdaki fiyat aralıkları 2026 yılı içindir; kesin fiyat ücretsiz keşif görüşmesinden sonra yazılı teklifle belirlenir.",
+      "monthly": "Teslimden sonra sabit aylık bakım ücreti 5.000–10.000 TL/ay'dır (sunucu takibi, güncellemeler, küçük düzeltmeler); teknisyen sayısı, iş emri veya ciro üzerinden pay alınmaz.",
+      "c1t": "Web panel + saha mobil uygulaması",
+      "c1time": "8–12 hafta",
+      "c1d": "İş emri açma, teknisyene atama, mobilde günlük iş listesi, dijital servis formu ve ofiste anlık durum takibi.",
+      "c2t": "Rota, fotoğraf, imza, stok ve bildirim",
+      "c2time": "3–4 ay",
+      "c2d": "Haritada rota, işin öncesi ve sonrası fotoğraf, ekranda müşteri imzası, araç ve depo bazında yedek parça stoğu, müşteriye SMS veya e-posta bildirimi.",
+      "c3t": "ERP/fatura bağlantılı servis sistemi",
+      "c3time": "4–6 ay",
+      "c3d": "Yukarıdakilere ek olarak Logo, Netsis veya Mikro ile cari, stok ve fatura bağlantısı, sözleşmeli bakım ve garanti takibi, yönetim raporları."
+    },
+    "build": {
+      "title": "Teknik servis takip programında neler var?",
+      "c1t": "İş emri ve atama",
+      "c1d": "Telefonla, web formundan ya da e-postayla gelen arıza kaydı iş emrine dönüşür ve uygun teknisyene tek tıkla atanır.",
+      "c2t": "Saha ekibi takip uygulaması",
+      "c2d": "Teknisyen günlük işlerini telefonda görür, “yola çıktım, başladım, bitti” durumlarını işaretler; internet yokken veriyi saklar, bağlantı gelince gönderir.",
+      "c3t": "Servis formu ve imza uygulaması",
+      "c3d": "Yapılan işlem, kullanılan parça ve süre forma girilir; müşteri ekranda imzalar, PDF servis formu otomatik olarak e-postayla gider.",
+      "c4t": "Fotoğraf ve konum",
+      "c4d": "Montajın veya arızanın öncesi ve sonrası fotoğraflanır, iş kaydına saat ve konumla birlikte eklenir. Anlaşmazlıkta kanıt elinizdedir.",
+      "c5t": "Yedek parça stoğu",
+      "c5d": "Depo ve araç stoğu ayrı izlenir; serviste kullanılan parça stoktan düşer, azalan parça için uyarı gelir.",
+      "c6t": "Montaj ve bakım takip",
+      "c6d": "Periyodik bakım, garanti bitişi ve sözleşmeli müşteriler için hatırlatma; bakım zamanı gelen cihazların listesi ve müşteriye bildirim."
+    },
+    "compat": {
+      "title": "Mevcut sistemlerinizle çalışır",
+      "p1": "En sık sorulan soru “elimizdeki programla konuşur mu?” oluyor. Servis programı sıfırdan yazılsa da mevcut düzeninizi bozmaz:",
+      "i1": "<strong>Logo, Netsis, Mikro:</strong> cari kartlar ve stok buradan gelir, biten servisin faturası taslak olarak muhasebeye düşer. Ayrıntı: <a href=\"/logo-netsis-entegrasyon\">Logo ve Netsis entegrasyonu</a>, <a href=\"/mikro-entegrasyon\">Mikro entegrasyonu</a>.",
+      "i2": "<strong>Excel:</strong> müşteri listesi, cihaz seri numaraları ve geçmiş servis kayıtları içe aktarılır; raporlar Excel olarak indirilebilir.",
+      "i3": "<strong>Web sitesi veya CRM:</strong> sitenizdeki arıza formu ya da CRM'deki talepler API (iki yazılımın otomatik veri alışverişi) ile doğrudan iş emrine dönüşür.",
+      "i4": "<strong>WhatsApp:</strong> “teknisyen yola çıktı” veya randevu hatırlatması WhatsApp Business üzerinden de gönderilebilir. Meta 15 Ocak 2026'dan beri WhatsApp'ta yalnızca işle ilgili (destek, sipariş, randevu) mesaj ve botlara izin veriyor; genel amaçlı sohbet asistanları kurulmuyor."
+    },
+    "steps": {
+      "title": "Süreç nasıl işler?",
+      "s1t": "Ücretsiz keşif",
+      "s1d": "Servis akışınızı birlikte çizeriz: arıza nasıl geliyor, kim atıyor, formda ne yazıyor, fatura nasıl kesiliyor. Mevcut kağıt formlarınızı ve Excel dosyalarınızı inceleriz.",
+      "s2t": "Yazılı kapsam ve teklif",
+      "s2d": "Hangi ekranların, hangi entegrasyonların ve kaç kullanıcının olacağı, fiyat ve teslim tarihi yazılı teklife girer.",
+      "s3t": "Tasarım ve geliştirme",
+      "s3d": "Önce ekran taslaklarını gösteririz; onayınızdan sonra parça parça geliştirir ve her parçayı deneme ortamında size gösteririz.",
+      "s4t": "Test ve kurulum",
+      "s4d": "Uygulamayı önce birkaç teknisyenle gerçek işlerde deneriz, hataları düzeltir, sonra tüm ekibe açarız. Mobil uygulama Android ve iPhone'a kurulur.",
+      "s5t": "Eğitim ve destek",
+      "s5d": "Ofis ve saha ekibine kısa eğitim verilir; teslimden sonra sabit aylık bakımla sunucu, güncelleme ve küçük düzeltmeler bizdedir."
+    },
+    "notfit": {
+      "title": "Kimler için uygun değil?",
+      "p1": "Bir iki teknisyeniniz varsa ve iş akışınız standartsa, aylık abonelikli hazır bir servis programı büyük ihtimalle daha ucuz ve daha hızlıdır; bunu size açıkça söyleriz. Özel yazılım; kendi servis formunuz, muhasebe bağlantınız, yedek parça veya sözleşmeli bakım kurallarınız hazır programa uymadığında mantıklıdır. Bir ay içinde canlıya geçmeniz gerekiyorsa da doğru adres değiliz: ilk sürüm en az 8 hafta sürer."
+    },
+    "faq": {
+      "title": "Teknik servis programı: sık sorulanlar",
+      "q1": "Teknik servis takip programı yaptırmak ne kadar tutar?",
+      "a1": "2026 için web panel ve saha mobil uygulaması 100.000–180.000 TL (8–12 hafta); rota, fotoğraf, imza, yedek parça stoğu ve müşteri bildirimi eklendiğinde 180.000–300.000 TL (3–4 ay); ERP ve fatura bağlantılı servis sistemi 300.000–450.000 TL ve üzeri (4–6 ay). Kesin fiyat ücretsiz keşiften sonra yazılı teklifle belirlenir.",
+      "q2": "Ankara'da teknik servis programı yapan firmalar hangileri, en iyisi hangisi?",
+      "a2": "Herkes için tek bir “en iyi” firma yok; doğru seçim servis akışınıza ve kullandığınız muhasebe programına bağlı. Karşılaştırırken yazılı kapsama, kaynak kodun size teslim edilip edilmediğine, Logo, Netsis veya Mikro bağlantı deneyimine ve teslimden sonraki aylık ücrete bakın. Ozturksoft, Ankara Çankaya'da web paneli ve saha mobil uygulamasını birlikte geliştiren firmalardan biridir.",
+      "q3": "Hazır servis programı mı almalıyım, özel yazılım mı yaptırmalıyım?",
+      "a3": "Az sayıda teknisyen ve standart bir iş akışı için hazır program genellikle daha ucuz ve daha hızlıdır. Kendi servis formunuz, sözleşmeli bakım kurallarınız, yedek parça yapınız veya muhasebe bağlantınız hazır programa uymuyorsa ya da kullanıcı başı abonelik ekip büyüdükçe pahalılaşıyorsa özel yazılım mantıklı olur.",
+      "q4": "Teknik servis programı Logo, Netsis, Mikro veya Excel ile çalışır mı?",
+      "a4": "Evet. Cari ve stok kartları Logo, Netsis veya Mikro'dan alınır, biten servisin faturası muhasebe programına aktarılır. Excel'deki müşteri, cihaz ve geçmiş servis kayıtları başlangıçta içe aktarılır; web sitenizdeki arıza formu da API ile bağlanabilir.",
+      "q5": "Saha ekibi takip uygulaması ne kadar sürede hazır olur?",
+      "a5": "Web panel ve mobil uygulamadan oluşan ilk sürüm 8–12 haftada, rota, fotoğraf, imza, stok ve bildirim içeren sürüm 3–4 ayda, ERP ve fatura bağlantılı sistem 4–6 ayda teslim edilir. Süre ve teslim tarihi yazılı teklifte yer alır.",
+      "q6": "Müşteri verilerim güvende mi, KVKK'ya uygun mu? Kaynak kod bize mi ait?",
+      "a6": "Veriler seçtiğiniz sunucuda şifreli bağlantıyla tutulur ve her kullanıcı yalnızca yetkili olduğu kayıtları görür. Fotoğraf, imza ve teknisyen konumu gibi kişisel veriler için KVKK aydınlatma metni ve saklama süreleri birlikte belirlenir. Teslimde kaynak kod, veritabanı ve sunucu erişimi size verilir; bu sözleşmede yazılıdır.",
+      "q7": "Teknik servis programı yaptırmak kimler için mantıklı değil?",
+      "a7": "Bir iki teknisyeniniz ve standart bir iş akışınız varsa aylık abonelikli hazır bir program büyük ihtimalle daha ucuzdur. Bir ay içinde canlıya geçmeniz gerekiyorsa da özel yazılım uygun değildir, çünkü ilk sürüm en az 8 hafta sürer. Bu durumlarda size hazır çözümü öneririz.",
+      "q8": "Teknik servis programının aylık maliyeti var mı?",
+      "a8": "Teslimden sonra sabit aylık bakım ücreti 5.000–10.000 TL'dir; sunucu takibi, güncellemeler ve küçük düzeltmeler buna dahildir. Teknisyen sayısına, iş emrine veya ciroya göre pay alınmaz. SMS gönderimi gibi üçüncü taraf hizmetler kullandığınız kadar ayrıca ödenir."
+    },
+    "cta": {
+      "title": "Servis akışınızı birlikte çizelim",
+      "desc": "Ücretsiz keşif görüşmesinde mevcut formlarınızı ve Excel dosyalarınızı inceleyip size uygun kapsamı ve fiyat aralığını söyleriz. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Teklif al"
+    },
+    "related": {
+      "r1": "Mobil uygulama yaptırmak",
+      "r2": "Logo ve Netsis entegrasyonu",
+      "r3": "CRM yazılımı yaptırmak",
+      "r4": "Özel yazılım yaptırmak",
+      "r5": "Süreç otomasyonu"
+    },
+    "footer": {
+      "text": "© 2026 Ozturksoft — Teknik Servis Takip Programı, Ankara"
+    }
+  },
+  "maintenancePage": {
+    "meta": {
+      "title": "Yazılım Bakım ve Destek Hizmeti | Ankara | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Bakım sözleşmesi · Web sitesi bakımı · Ankara",
+      "title": "Yazılım Bakım ve Destek Hizmeti",
+      "desc": "Yazılımı yapan firma artık telefonlara dönmüyorsa, siteniz yıllardır güncellenmediyse ya da bir hata çıktığında kime yazacağınızı bilmiyorsanız yalnız değilsiniz. Mevcut yazılımınızı ve web sitenizi, başka bir firma yazmış olsa bile, aylık bakım sözleşmesiyle devralıyoruz: güncelleme, yedekleme, izleme ve düzenli geliştirme. Ankara Çankaya'dan çalışıyoruz; keşif görüşmesi ücretsizdir.",
+      "btn": "Ücretsiz keşif görüşmesi"
+    },
+    "stats": {
+      "s1v": "5.000 – 10.000 TL/ay",
+      "s1l": "Temel bakım",
+      "s2v": "10.000 – 25.000 TL/ay",
+      "s2l": "Standart destek",
+      "s3v": "Aylık",
+      "s3l": "Sözleşme süresi, iş başına teklif yok"
+    },
+    "pain": {
+      "title": "Bu durumlardan biri tanıdık mı?",
+      "i1": "Yazılımı yapan firma kapandı, işi bıraktı ya da artık telefonlara günler sonra dönüyor.",
+      "i2": "WordPress, eklentiler veya sunucu yıllardır güncellenmedi; “bir şey bozulur” korkusuyla kimse dokunmuyor.",
+      "i3": "Site bir sabah açılmıyor ve bunu müşterinizden öğreniyorsunuz.",
+      "i4": "Yedek alınıp alınmadığını, alınıyorsa nereye alındığını kimse bilmiyor.",
+      "i5": "Küçük bir değişiklik için bile her seferinde ayrı teklif ve haftalarca bekleme.",
+      "i6": "Kaynak kod, sunucu ve alan adı şifreleri eski firmada ya da ayrılan bir çalışanda kaldı."
+    },
+    "pricing": {
+      "title": "Yazılım bakım sözleşmesi fiyatları (2026)",
+      "intro": "Aşağıdaki fiyat aralıkları 2026 yılı içindir; kesin fiyat ücretsiz keşif görüşmesinden sonra yazılı teklifle belirlenir.",
+      "c1t": "Temel bakım",
+      "c1a": "5.000 – 10.000 TL/ay",
+      "c1d": "Güvenlik ve yazılım güncellemeleri, düzenli yedekleme ve yedekten geri dönme denemesi, site ve sunucunun otomatik izlenmesi (kapanırsa uyarı bize gelir).",
+      "c2t": "Standart destek",
+      "c2a": "10.000 – 25.000 TL/ay",
+      "c2d": "Temel bakıma ek olarak her ay belirli sayıda geliştirme saati (küçük değişiklikler, yeni alanlar, raporlar) ve sözleşmede yazılı yanıt süresi.",
+      "c3t": "Kurumsal destek",
+      "c3a": "25.000 – 60.000+ TL/ay",
+      "c3d": "Kritik sistemler için öncelikli yanıt, düzenli geliştirme takvimi, aylık rapor ve değerlendirme toplantısı.",
+      "monthlyType": "Aylık sözleşme",
+      "review": "<strong>Başlangıç sistem incelemesi (tek seferlik): 15.000–40.000 TL.</strong> Kodunu bilmediğimiz bir sistemi devralmadan önce kodun durumu, güvenlik açıkları, yedekler ve eksik belgeler yazılı raporla çıkarılır; aylık paket bu rapora göre netleşir. Satışınızdan veya cirodan pay alınmaz."
+    },
+    "build": {
+      "title": "Bakım ve destek kapsamında ne yapıyoruz?",
+      "c1t": "Güncellemeler",
+      "c1d": "Çerçeve, eklenti, kütüphane ve sunucu güncellemeleri önce deneme ortamında test edilir, sonra canlıya alınır.",
+      "c2t": "Yedekleme",
+      "c2d": "Veritabanı ve dosyalar düzenli yedeklenir, yedek ayrı bir yerde tutulur ve geri yüklenebildiği belirli aralıklarla denenir.",
+      "c3t": "İzleme",
+      "c3d": "Site veya uygulama kapanırsa, yavaşlarsa ya da SSL sertifikasının (adres çubuğundaki kilit) süresi dolmak üzereyse uyarı önce bize gelir.",
+      "c4t": "Güvenlik",
+      "c4d": "Güvenlik açığı taraması, kullanılmayan hesapların ve eski şifrelerin temizlenmesi, şüpheli giriş denemelerinin izlenmesi.",
+      "c5t": "Hata düzeltme ve küçük geliştirme",
+      "c5d": "Bildirdiğiniz hatalar ve küçük değişiklikler paketinizdeki aylık geliştirme saatinden karşılanır; her iş ve harcanan süre raporlanır.",
+      "c6t": "Tek iletişim noktası",
+      "c6d": "Talepler tek bir destek kanalından alınır ve her talebin durumu görülebilir. Yanıt ve çözüm süreleri saat olarak sözleşmede yazılır."
+    },
+    "compat": {
+      "title": "Başka firmanın yazdığı sistemleri de devralıyoruz",
+      "p1": "Yazılımı bizim yazmamış olmamız sorun değil; kaynak koda ve sunucuya erişim sağlanabiliyorsa bakımını üstlenebiliriz:",
+      "i1": "<strong>Web siteleri:</strong> WordPress ve WooCommerce siteleri ile özel yazılmış PHP, .NET, Node.js veya Python uygulamaları.",
+      "i2": "<strong>Logo, Netsis, Mikro ve Excel bağlantıları:</strong> muhasebe programıyla veri alışverişi yapan entegrasyonların takibi ve kopan bağlantıların onarımı.",
+      "i3": "<strong>E-ticaret ve pazaryeri:</strong> Trendyol, Hepsiburada ve Amazon entegrasyonları, ödeme altyapısı güncellemeleri.",
+      "i4": "<strong>Mobil uygulamalar ve API'ler:</strong> Android ve iPhone uygulamalarının mağaza güncellemeleri ve API (yazılımların birbirine veri gönderdiği bağlantı) takibi.",
+      "i5": "Proje yarıda kaldıysa önce onu tamamlamak gerekebilir; bu durumda <a href=\"/yarim-kalan-yazilim-projesi\">yarım kalan yazılım projesi</a> hizmetimizle başlarız."
+    },
+    "steps": {
+      "title": "Bakım süreci nasıl başlar?",
+      "s1t": "Ücretsiz keşif",
+      "s1d": "Hangi sistemleriniz var, kim yazdı, nerede çalışıyor ve şu an ne sorun yaşıyorsunuz; bunları birlikte konuşuruz.",
+      "s2t": "İnceleme, yazılı kapsam ve teklif",
+      "s2d": "Gerekirse tek seferlik incelemeyle kodu, sunucuyu ve yedekleri gözden geçiririz. Paket, aylık saatler, yanıt süreleri ve kapsam dışı işler yazılı teklife girer.",
+      "s3t": "Devralma ve düzeltme",
+      "s3d": "Erişimler ve şifreler sizin hesabınıza alınır, eksik belgeler hazırlanır ve incelemede çıkan acil açıklar kapatılır.",
+      "s4t": "Test ve izleme kurulumu",
+      "s4d": "Deneme ortamı, otomatik yedekleme ve izleme kurulur; her güncelleme önce burada test edilir. Daha kapsamlı testler için <a href=\"/qa-test-hizmeti\">QA test hizmeti</a> eklenebilir.",
+      "s5t": "Aylık destek ve rapor",
+      "s5d": "Her ay yapılan işler, harcanan saatler, yedek ve güncelleme durumu raporlanır; yeni ihtiyaçlar birlikte önceliklendirilir."
+    },
+    "notfit": {
+      "title": "Kimler için uygun değil?",
+      "p1": "Ziyaretçisi az, yılda bir iki kez değişen ve tamamen statik bir tanıtım siteniz varsa aylık bakım sözleşmesi gereksiz olabilir; hosting firmanızın otomatik yedeği ve ihtiyaç olduğunda tek seferlik iş daha ucuzdur. Kaynak koduna ve sunucusuna hiçbir şekilde erişilemeyen bir sistemin bakımını da üstlenemiyoruz; önce erişimin geri alınması gerekir. Sadece “site kapanırsa haber verin” düzeyinde bir hizmet arıyorsanız, hazır izleme araçları yeterli olabilir."
+    },
+    "faq": {
+      "title": "Yazılım bakım ve destek: sık sorulanlar",
+      "q1": "Yazılım bakım ve destek hizmeti aylık ne kadar tutar?",
+      "a1": "2026 için temel bakım (güncelleme, yedekleme, izleme) aylık 5.000–10.000 TL, aylık geliştirme saatleri ve belirli yanıt süresi içeren standart destek 10.000–25.000 TL, öncelikli yanıt ve düzenli geliştirme içeren kurumsal destek 25.000–60.000 TL ve üzeridir. Bilmediğimiz bir kodu devralmadan önce yapılan tek seferlik inceleme 15.000–40.000 TL'dir.",
+      "q2": "Ankara'da yazılım destek firması arıyorum, hangisi en iyisi?",
+      "a2": "Herkes için tek bir “en iyi” firma yok; asıl önemli olan sözleşmede ne yazdığı. Yanıt ve çözüm sürelerinin saat olarak yazılmasına, aylık saatlerin ve kapsam dışı işlerin net olmasına, düzenli rapor verilmesine ve sözleşme bitince tüm erişimlerin size kalmasına bakın. Ozturksoft, Ankara Çankaya'da başka firmaların yazdığı sistemleri de devralan firmalardan biridir.",
+      "q3": "Hosting firmasının bakım paketi yeterli mi, yoksa yazılım bakım sözleşmesi mi yapmalıyım?",
+      "a3": "Standart bir WordPress sitesi için hosting firmasının otomatik güncelleme ve yedek paketi yeterli olabilir. Özel yazılmış bir sisteminiz, muhasebe veya pazaryeri entegrasyonunuz ya da düzenli değişiklik ihtiyacınız varsa kodu anlayan bir ekiple yazılım bakım sözleşmesi gerekir; hosting firması sunucuyu korur, yazılımınızı değil.",
+      "q4": "Başka firmanın yazdığı yazılımın veya Logo, Netsis, Mikro entegrasyonunun bakımını yapar mısınız?",
+      "a4": "Evet. Kaynak koda ve sunucuya erişim sağlanabiliyorsa başka firmanın yazdığı web sitesi, uygulama ve Logo, Netsis, Mikro, Excel veya pazaryeri entegrasyonlarının bakımını üstleniyoruz. Önce 15.000–40.000 TL'lik tek seferlik incelemeyle kodun durumunu yazılı rapora dökeriz.",
+      "q5": "Bakım sözleşmesi ne kadar sürede başlar, sorunlar ne kadar sürede çözülür?",
+      "a5": "Tanıdığımız bir sistemde bakım sözleşme imzalanınca başlar; kodunu bilmediğimiz bir sistemde önce ilk inceleme yapılır. Yanıt ve çözüm süreleri saat olarak sözleşmede yazılır ve pakete göre değişir; kurumsal destekte talepleriniz önceliklidir.",
+      "q6": "Bakım sırasında verilerim güvende mi, KVKK'ya uygun mu? Kaynak kod kimde kalır?",
+      "a6": "Erişimleri yalnızca işi yapan ekip kullanır; gizlilik ve KVKK kapsamındaki veri işleme şartları sözleşmeye yazılır. Kaynak kod, veritabanı ve sunucu sizin hesabınızda kalır; sözleşme biterse tüm erişimler ve hazırladığımız belgeler size teslim edilir. Bu da sözleşmede yazılıdır.",
+      "q7": "Yazılım bakım sözleşmesi kimler için gereksiz?",
+      "a7": "Ziyaretçisi az, yılda bir iki kez değişen statik bir tanıtım siteniz varsa hosting firmasının otomatik yedeği ve gerektiğinde tek seferlik iş daha ucuzdur. Kaynak koduna ve sunucusuna erişilemeyen bir sistemin bakımı da yapılamaz; önce erişimin geri alınması gerekir.",
+      "q8": "Aylık bakım ücreti dışında ek maliyet çıkar mı?",
+      "a8": "Aylık ücret sabittir ve pakete dahil saatler sözleşmede yazılıdır; satış veya ciro üzerinden pay alınmaz. Paket saatini aşan büyük geliştirmeler önceden yazılı teklifle onayınıza sunulur. Sunucu, alan adı ve ücretli eklenti lisansları gibi üçüncü taraf giderler doğrudan sizin hesabınızdan ödenir."
+    },
+    "cta": {
+      "title": "Mevcut sisteminizi birlikte gözden geçirelim",
+      "desc": "Ücretsiz keşif görüşmesinde sisteminizin durumunu dinler, hangi paketin yeteceğini ve ilk inceleme gerekip gerekmediğini söyleriz. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Bakım teklifi al"
+    },
+    "related": {
+      "r1": "Yarım kalan yazılım projesi",
+      "r2": "QA test hizmeti",
+      "r3": "Ankara yazılım şirketi",
+      "r4": "Özel yazılım yaptırmak",
+      "r5": "Web sitesi yaptırmak"
+    },
+    "footer": {
+      "text": "© 2026 Ozturksoft — Yazılım Bakım ve Destek Hizmeti, Ankara"
+    }
+  },
+  "salesAiPage": {
+    "meta": {
+      "title": "Otomatik Müşteri Hizmetleri ve Satışta Yapay Zeka | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Müşteri hizmetleri · Satış · WhatsApp · CRM",
+      "title": "Otomatik Müşteri Hizmetleri ve Satışta Yapay Zeka",
+      "desc": "Aynı soruları her gün tekrar tekrar cevaplıyor, mesai dışında gelen talepleri kaçırıyorsanız yapay zeka ile müşteri hizmetleri bu yükü azaltır. Web sitenizde ve WhatsApp'ta şirket bilgilerinizle cevap veren, satışa hazır müşteriyi ekibinize yönlendiren bir asistan kuruyoruz. Ankara Çankaya ekibi, keşif görüşmesi ücretsiz.",
+      "btn": "Ücretsiz keşif görüşmesi"
+    },
+    "stats": {
+      "s1l": "Müşteri hizmetleri asistanı",
+      "s2l": "Satış asistanı + CRM",
+      "s3v": "3–5 hafta",
+      "s3l": "İlk asistanın devreye girmesi"
+    },
+    "pain": {
+      "title": "Bu durumlardan biri tanıdık mı?",
+      "intro": "TÜİK verilerine göre Türkiye'de yapay zeka kullanan işletmelerin en çok kullandığı alan pazarlama ve satış (%46,5). Satış ve pazarlamada yapay zeka artık deneme değil, günlük iş. Aşağıdakilerden biri sizde de oluyorsa doğru yerdesiniz:",
+      "i1": "WhatsApp'a gelen mesajlara geç dönüyoruz, müşteri bu arada rakibe yazıyor.",
+      "i2": "Fiyat, kargo, iade, çalışma saati gibi aynı soruları gün boyu elle cevaplıyoruz.",
+      "i3": "Akşam ve hafta sonu gelen talepler sabaha kadar bekliyor.",
+      "i4": "Gelen taleplerin hangisi gerçekten alıcı, hangisi sadece bilgi istiyor ayıramıyoruz.",
+      "i5": "Teklif ve takip e-postalarını yazmak satış ekibinin gününü yiyor.",
+      "i6": "Hangi kanaldan kaç talep geldiğini, kaçının satışa döndüğünü bilmiyoruz."
+    },
+    "pricing": {
+      "title": "Otomatik müşteri hizmetleri fiyatı (2026)",
+      "intro": "Aşağıdaki fiyat aralıkları 2026 yılı içindir; kesin fiyat ücretsiz keşif görüşmesinden sonra yazılı teklifle belirlenir.",
+      "row1": "Yapay zeka müşteri hizmetleri asistanı",
+      "t1": "3–5 hafta",
+      "d1": "Web sitesi ve/veya WhatsApp'ta, şirket belgelerinizden ve SSS'lerinizden cevap veren, gerektiğinde konuşmayı bir çalışana devreden asistan.",
+      "row2": "Satış asistanı + CRM bağlantısı",
+      "t2": "6–10 hafta",
+      "d2": "Müşteri hizmetleri asistanına ek olarak talepleri puanlayıp doğru satış temsilcisine atayan, teklif ve e-posta taslağı hazırlayan, CRM'e kayıt açan sistem.",
+      "row3": "Kurumsal çok kanallı sistem",
+      "t3": "3–5 ay",
+      "d3": "Web, WhatsApp, e-posta ve çağrı merkezi kayıtlarını tek yerde toplayan; ERP, CRM ve yetki yapısıyla entegre, raporlamalı kurumsal kurulum.",
+      "monthly": "Aylık yapay zeka kullanım ücreti kullanıma göre ayrıca hesaplanır (model sağlayıcısına ödenen API, yani mesaj başına kullanım bedeli). Buna ek olarak sabit aylık bakım ve destek 5.000–10.000 TL/ay'dır. Satışlarınızdan pay almıyoruz."
+    },
+    "cards": {
+      "title": "Neler yapıyoruz?",
+      "c1t": "Web ve WhatsApp müşteri asistanı",
+      "c1d": "Sitenizde ve WhatsApp Business hattınızda 7/24 cevap verir. Meta'nın 15 Ocak 2026'dan beri geçerli kuralı gereği WhatsApp asistanı yalnızca işinizle ilgili konularda (destek, sipariş, randevu) konuşur; genel amaçlı sohbet botu olarak kurulmaz.",
+      "c2t": "Şirket belgelerinizden cevap",
+      "c2d": "Fiyat listesi, katalog, sözleşme ve SSS'lerinizi asistana öğretiriz. Asistan cevap uydurmaz; bilgi belgede yoksa bunu söyler ve konuşmayı bir çalışana aktarır.",
+      "c3t": "Talep puanlama ve satışa yönlendirme",
+      "c3d": "Bütçe, ihtiyaç ve aciliyet gibi birkaç soruyla talebi değerlendirir (lead qualification, yani alıcı adayını ayıklama); sıcak talepleri ilgili satış temsilcisine anında bildirir.",
+      "c4t": "Teklif ve e-posta taslakları",
+      "c4d": "Görüşme notlarından teklif metni, takip e-postası ve toplantı özeti taslağı hazırlar. Gönderme kararı her zaman sizin ekibinizdedir.",
+      "c5t": "CRM bağlantısı",
+      "c5d": "Her konuşma, müşteri kartı ve fırsat olarak CRM'inize (müşteri takip programı) düşer. Mevcut bir CRM'iniz yoksa <a href=\"/crm-yazilim-yaptirmak\">CRM yazılımı</a> da kurabiliriz.",
+      "c6t": "Raporlama",
+      "c6d": "Kanal başına talep sayısı, cevap süresi, çalışana devredilen konuşmalar ve satışa dönen talepler tek raporda."
+    },
+    "compat": {
+      "title": "Mevcut sistemlerinizle çalışır",
+      "p1": "Yapay zeka ile iş yapmaya başlarken en sık sorulan soru, yeni sistemin eldeki programlarla konuşup konuşmayacağıdır. Sizi yeni bir platforma taşımıyoruz; asistanı mevcut altyapınıza bağlıyoruz:",
+      "i1": "<strong>WhatsApp Business API</strong> ve web sitenizdeki canlı destek penceresi",
+      "i2": "<strong>CRM</strong>: kullandığınız CRM'in API'si (programlar arası veri bağlantısı) üzerinden müşteri ve fırsat kaydı",
+      "i3": "<strong>Logo, Netsis, Mikro</strong>: stok, fiyat ve sipariş durumu sorgulama",
+      "i4": "<strong>E-ticaret ve pazaryeri</strong>: sipariş ve kargo durumu bilgisi",
+      "i5": "<strong>Excel ve PDF belgeler</strong>: fiyat listesi, katalog ve SSS içeriği"
+    },
+    "steps": {
+      "title": "Süreç nasıl işler?",
+      "s1t": "Ücretsiz keşif",
+      "s1d": "Hangi kanaldan ne tür sorular geldiğini, satış ekibinizin nasıl çalıştığını ve hangi programları kullandığınızı birlikte inceleriz.",
+      "s2t": "Yazılı kapsam ve teklif",
+      "s2d": "Asistanın neyi cevaplayıp neyi çalışana devredeceği, hangi sistemlere bağlanacağı, süre ve fiyat yazılı teklifte netleşir.",
+      "s3t": "Tasarım ve geliştirme",
+      "s3d": "Belgeleriniz asistana öğretilir, konuşma akışları ve CRM bağlantısı kurulur. Ara sürümleri sizinle birlikte deneriz.",
+      "s4t": "Test ve kurulum",
+      "s4d": "Asistan gerçek müşteri sorularıyla denenir, yanlış veya eksik cevaplar düzeltilir, sonra canlıya alınır.",
+      "s5t": "Eğitim ve destek",
+      "s5d": "Ekibinize asistanın bilgisini nasıl güncelleyeceğini ve devredilen konuşmaları nasıl yöneteceğini gösteririz; aylık bakımla cevap kalitesini izleriz."
+    },
+    "fit": {
+      "title": "Kimler için uygun değil?",
+      "p1": "Ayda birkaç düzine mesaj alıyor ve soruların çoğu standartsa, WhatsApp Business uygulamasının hazır otomatik cevapları veya aylık abonelikli hazır bir chatbot daha ucuz ve yeterli olabilir. Satış süreciniz tamamen yüz yüze ilerliyorsa ya da cevapların dayanacağı fiyat listesi, katalog ve SSS gibi belgeleriniz henüz yoksa önce bu temeli hazırlamanızı öneririz.",
+      "p2": "<strong>Dürüst not:</strong> Yapay zeka asistanı ekibinizin yerini almaz; tekrarlayan işi azaltır, karar ve müşteri ilişkisi satış ekibinizde kalır."
+    },
+    "faq": {
+      "title": "Otomatik müşteri hizmetleri: sık sorulanlar",
+      "q1": "Otomatik müşteri hizmetleri yaptırmak ne kadar tutar?",
+      "a1": "2026 fiyatlarıyla yapay zeka müşteri hizmetleri asistanı 40.000–80.000 TL (3–5 hafta), satış asistanı + CRM bağlantısı 80.000–200.000 TL (6–10 hafta), kurumsal çok kanallı sistem 200.000–400.000+ TL (3–5 ay). Aylık yapay zeka kullanım ücreti kullanıma göre ayrıca hesaplanır. Kesin fiyat ücretsiz keşiften sonra yazılı teklifle belirlenir.",
+      "q2": "Ankara'da yapay zeka ile müşteri hizmetleri kuran firmalar hangileri, en iyisi hangisi?",
+      "a2": "Herkes için tek bir “en iyi” firma yok. Seçerken firmanın WhatsApp ve CRM entegrasyonu yapıp yapmadığına, cevapların sizin belgelerinize dayanıp dayanmadığına, kaynak kodun ve verinin kime ait olacağına ve canlıya aldıktan sonra destek verip vermediğine bakın. Ozturksoft, Ankara Çankaya'da bu sistemleri şirketlerin kendi verileri ve programlarıyla kuran firmalardan biridir.",
+      "q3": "Hazır chatbot mu almalıyım, özel yapay zeka asistanı mı yaptırmalıyım?",
+      "a3": "Soru sayısı az ve standartsa hazır bir chatbot aboneliği daha ekonomiktir. Asistanın stok, sipariş veya müşteri kaydı gibi bilgileri kendi sistemlerinizden alması, talepleri satış ekibine sizin kurallarınıza göre dağıtması ya da verinin sizde kalması gerekiyorsa özel kurulum daha doğru olur. Keşifte iki seçeneği karşılaştırıp size açıkça söyleriz.",
+      "q4": "Yapay zeka asistanı Logo, Netsis, Mikro veya CRM'imle çalışır mı?",
+      "a4": "Çoğu durumda evet. Logo, Netsis ve Mikro'dan stok, fiyat ve sipariş durumu okunabilir; CRM'inize API üzerinden müşteri ve fırsat kaydı açılabilir; Excel ve PDF belgeler bilgi kaynağı olarak kullanılır. Kullandığınız programın sürümünü ve bağlantı imkânını keşifte kontrol ederiz.",
+      "q5": "Yapay zeka müşteri hizmetleri kurulumu ne kadar sürer?",
+      "a5": "Müşteri hizmetleri asistanı 3–5 haftada, CRM bağlantılı satış asistanı 6–10 haftada, kurumsal çok kanallı sistem 3–5 ayda devreye girer. Süreyi en çok belgelerinizin hazır olması ve bağlanacak sistem sayısı belirler.",
+      "q6": "Müşteri verilerim güvende mi, KVKK'ya uygun mu? Kaynak kod bize mi ait?",
+      "a6": "Konuşmalar sizin sunucunuzda veya seçtiğiniz bulutta saklanır, kişisel veriler model sağlayıcısına gereğinden fazla gönderilmez ve KVKK aydınlatma metni akışa eklenir. Müşteriye bir yapay zeka asistanıyla konuştuğu açıkça söylenir. Teslimde kaynak kod, veritabanı ve sunucu erişimi size verilir; bu sözleşmede yazılıdır.",
+      "q7": "Otomatik müşteri hizmetleri kimler için uygun değil?",
+      "a7": "Ayda az sayıda mesaj alan ve soruları standart olan işletmeler için WhatsApp Business'ın hazır otomatik cevapları veya hazır bir chatbot yeterli olabilir. Cevapların dayanacağı belge ve bilgiler henüz yoksa önce bunların hazırlanması gerekir. Asistan satış ekibinin yerini almaz, tekrarlayan işi azaltır.",
+      "q8": "Yapay zeka asistanının aylık maliyeti var mı?",
+      "a8": "Evet. Aylık yapay zeka kullanım ücreti kullanıma göre ayrıca hesaplanır; mesaj sayısı arttıkça artar ve tahmini tutarı keşifte birlikte çıkarırız. WhatsApp Business API'de Meta'nın kendi mesaj ücretleri de ayrıca uygulanır. Bunlara ek olarak sabit aylık bakım ve destek 5.000–10.000 TL/ay'dır; satışlarınızdan pay almıyoruz."
+    },
+    "cta": {
+      "title": "Müşteri hizmetlerinizin yükünü yapay zeka ile hafifletelim",
+      "desc": "Ücretsiz keşifte en sık gelen 10 müşteri sorunuzu birlikte inceler, hangilerinin otomatik cevaplanabileceğini söyleriz. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Teklif al"
+    },
+    "related": {
+      "r1": "Chatbot yaptırmak",
+      "r2": "WhatsApp chatbot",
+      "r3": "CRM yazılımı",
+      "r4": "AI agent",
+      "r5": "Yönetim paneli ve raporlama"
+    },
+    "footer": "© 2026 Ozturksoft — Otomatik Müşteri Hizmetleri ve Satışta Yapay Zeka, Ankara"
+  },
+  "dashboardPage": {
+    "meta": {
+      "title": "Yönetim Paneli (Dashboard) Yaptırmak | Raporlama | Ozturksoft"
+    },
+    "hero": {
+      "badge": "Dashboard · Raporlama · İş zekası (BI)",
+      "title": "Yönetim Paneli (Dashboard) Yaptırmak",
+      "desc": "Satışlar Logo'da, müşteriler CRM'de, siparişler pazaryerinde, hedefler Excel'de duruyor ve her ay sonu rapor hazırlamak günler sürüyorsa, bu verileri tek ekranda birleştiren bir raporlama sistemi kuruyoruz. Rakamlar her gün kendiliğinden güncellenir, raporlar e-postanıza gelir. Ankara Çankaya ekibi, keşif görüşmesi ücretsiz.",
+      "btn": "Ücretsiz keşif görüşmesi"
+    },
+    "stats": {
+      "s1l": "Tek kaynaklı panel",
+      "s2l": "Çok kaynaklı panel",
+      "s3v": "3–5 hafta",
+      "s3l": "İlk panelin teslimi"
+    },
+    "pain": {
+      "title": "Bu durumlardan biri tanıdık mı?",
+      "i1": "Ay sonu raporunu hazırlamak için üç ayrı programdan Excel'e veri kopyalıyoruz.",
+      "i2": "“Bugün ne kadar sattık?” sorusunun cevabı için muhasebeyi aramak gerekiyor.",
+      "i3": "Logo'daki ciro ile e-ticaret panelindeki satış birbirini tutmuyor.",
+      "i4": "Hangi ürünün, şubenin veya satış temsilcisinin kâr getirdiğini net göremiyoruz.",
+      "i5": "Raporlar herkese aynı gidiyor; şube müdürü tüm şirketin rakamlarını görüyor.",
+      "i6": "Tüm verileri tek ekranda görmek istiyoruz ama nereden başlayacağımızı bilmiyoruz."
+    },
+    "pricing": {
+      "title": "Dashboard yaptırmak fiyatı (2026)",
+      "intro": "Aşağıdaki fiyat aralıkları 2026 yılı içindir; kesin fiyat ücretsiz keşif görüşmesinden sonra yazılı teklifle belirlenir.",
+      "row1": "Tek kaynaklı yönetim paneli",
+      "t1": "3–5 hafta",
+      "d1": "Tek bir programdan (örneğin Logo veya e-ticaret siteniz) gelen veriyle satış, stok ve tahsilat göstergelerini gösteren, her gün güncellenen panel.",
+      "row2": "Çok kaynaklı panel (ERP + CRM + e-ticaret)",
+      "t2": "6–10 hafta",
+      "d2": "ERP, CRM, e-ticaret/pazaryeri ve Excel verilerini birleştiren, rol bazlı erişimli ve otomatik e-posta raporlu yönetim paneli.",
+      "row3": "Yapay zeka destekli raporlama ve tahmin",
+      "t3": "3–4 ay",
+      "d3": "Çok kaynaklı panele ek olarak rakamları düz cümlelerle özetleyen, satış ve stok tahmini yapan, olağandışı değişimleri bildiren sistem.",
+      "monthly": "Yayına aldıktan sonra sabit aylık bakım ve destek 5.000–10.000 TL/ay'dır (sunucu takibi, veri bağlantılarının çalışır tutulması, küçük rapor değişiklikleri). Yapay zeka destekli pakette aylık yapay zeka kullanım ücreti kullanıma göre ayrıca hesaplanır. Satışlarınızdan pay almıyoruz."
+    },
+    "cards": {
+      "title": "Neler yapıyoruz?",
+      "c1t": "Veri kaynaklarını birleştirme",
+      "c1d": "Logo, Netsis, Mikro, CRM, e-ticaret, pazaryeri ve Excel verilerini tek bir veritabanında toplar; aynı müşteriyi veya ürünü farklı programlarda eşleştiririz.",
+      "c2t": "Yönetim ekranı",
+      "c2d": "Ciro, kâr, tahsilat, stok ve hedef gerçekleşmesi tek ekranda; tarih, şube, ürün veya temsilciye göre filtrelenir. Telefondan da açılır.",
+      "c3t": "Otomatik e-posta raporları",
+      "c3d": "Günlük satış özeti, haftalık performans ve ay sonu raporu belirlediğiniz saatte e-postanıza kendiliğinden gelir.",
+      "c4t": "Rol bazlı erişim",
+      "c4d": "Genel müdür tüm şirketi, şube müdürü kendi şubesini, satış temsilcisi yalnızca kendi müşterilerini görür.",
+      "c5t": "Uyarılar",
+      "c5d": "Stok kritik seviyeye indiğinde, tahsilat geciktiğinde veya günlük satış hedefin altında kaldığında ilgili kişiye bildirim gönderir.",
+      "c6t": "Yapay zeka özetleri ve tahmin (isteğe bağlı)",
+      "c6d": "Rakamları “Bu hafta satışlar geçen haftanın altında; iki üründe stok bittiği için” gibi düz cümlelerle özetler, geçmiş veriye göre satış ve stok tahmini yapar."
+    },
+    "compat": {
+      "title": "Mevcut sistemlerinizle çalışır",
+      "p1": "Yeni bir program almanız gerekmez. Panel mevcut programlarınızdan veriyi okur, onlara veri yazmaz:",
+      "i1": "<strong>Logo, Netsis, Mikro</strong>: satış, cari, stok ve tahsilat verileri (<a href=\"/logo-netsis-entegrasyon\">Logo ve Netsis entegrasyonu</a>, <a href=\"/mikro-entegrasyon\">Mikro entegrasyonu</a>)",
+      "i2": "<strong>CRM</strong>: müşteri, fırsat ve satış temsilcisi verileri",
+      "i3": "<strong>E-ticaret ve pazaryeri</strong>: kendi siteniz ile Trendyol, Hepsiburada ve Amazon siparişleri",
+      "i4": "<strong>Excel ve Google Sheets</strong>: hedefler, bütçe ve elle tutulan tablolar",
+      "i5": "<strong>API</strong> (programlar arası veri bağlantısı) sunan diğer yazılımlar"
+    },
+    "steps": {
+      "title": "Süreç nasıl işler?",
+      "s1t": "Ücretsiz keşif",
+      "s1d": "Her gün hangi rakamları görmek istediğinizi, verinin hangi programlarda durduğunu ve raporu kimlerin kullanacağını birlikte belirleriz.",
+      "s2t": "Yazılı kapsam ve teklif",
+      "s2d": "Bağlanacak kaynaklar, göstergeler, kullanıcı rolleri, süre ve fiyat yazılı teklifte netleşir.",
+      "s3t": "Tasarım ve geliştirme",
+      "s3d": "Veri bağlantıları kurulur, rakamlar eski raporlarınızla karşılaştırılarak doğrulanır, ekran tasarımı sizinle birlikte şekillenir.",
+      "s4t": "Test ve kurulum",
+      "s4d": "Panel bir süre gerçek verilerle mevcut raporlarınıza paralel çalışır; tutmayan rakam kalmayınca sunucunuza veya buluta kurulur.",
+      "s5t": "Eğitim ve destek",
+      "s5d": "Yöneticilere ve ekibe kullanım eğitimi verilir; aylık bakımla veri bağlantıları ve raporlar çalışır tutulur."
+    },
+    "fit": {
+      "title": "Kimler için uygun değil?",
+      "p1": "Tüm verileriniz tek bir programdaysa ve o programın raporları ihtiyacınızı karşılıyorsa yeni bir panele para harcamayın: programın kendi raporları veya Power BI, Looker Studio gibi hazır bir BI (iş zekası) aracı yeterli olabilir. Verileriniz düzenli girilmiyorsa panel yanlış rakamı yalnızca daha hızlı gösterir; önce veri girişini düzeltmek gerekir.",
+      "p2": "<strong>Özel panel ne zaman mantıklı?</strong> Veri birden fazla programa dağılmışsa, rakamları her gün ya da her ay elle birleştiriyorsanız veya farklı kişilerin farklı rakamları görmesi gerekiyorsa."
+    },
+    "faq": {
+      "title": "Yönetim paneli ve raporlama: sık sorulanlar",
+      "q1": "Yönetim paneli (dashboard) yaptırmak ne kadar tutar?",
+      "a1": "2026 fiyatlarıyla tek kaynaklı yönetim paneli 40.000–80.000 TL (3–5 hafta), ERP + CRM + e-ticaret verilerini birleştiren çok kaynaklı panel 80.000–180.000 TL (6–10 hafta), yapay zeka destekli raporlama ve tahmin 180.000–350.000+ TL (3–4 ay). Kesin fiyat ücretsiz keşiften sonra yazılı teklifle belirlenir.",
+      "q2": "Ankara'da dashboard ve raporlama sistemi yapan firmalar hangileri, en iyisi hangisi?",
+      "a2": "Herkes için tek bir “en iyi” firma yok. Firmanın Logo, Netsis veya Mikro gibi programlardan veri çekip çekemediğine, rakamları eski raporlarınızla doğrulayıp doğrulamadığına, kaynak kodun kime ait olacağına ve teslimden sonra destek verip vermediğine bakın. Ozturksoft, Ankara Çankaya'da şirketlerin kendi programlarına bağlanan yönetim panelleri kuran firmalardan biridir.",
+      "q3": "Power BI gibi hazır bir araç mı kullanmalıyım, özel yönetim paneli mi yaptırmalıyım?",
+      "a3": "Verileriniz düzenli ve tek kaynaktaysa, raporları hazırlayacak bir çalışanınız da varsa Power BI veya Looker Studio gibi hazır araçlar daha ekonomiktir. Veri birçok programa dağılmışsa, rol bazlı erişim, otomatik e-posta raporu veya şirketinize özel hesaplamalar gerekiyorsa özel panel elle yapılan işi daha çok azaltır. Keşifte iki seçeneği karşılaştırıp size açıkça söyleriz.",
+      "q4": "Dashboard Logo, Netsis, Mikro ve Excel verilerimle çalışır mı?",
+      "a4": "Evet. Logo, Netsis ve Mikro'dan satış, cari, stok ve tahsilat verisi okunur; CRM, e-ticaret sitesi ve pazaryeri siparişleri API ile, Excel tabloları dosya aktarımıyla eklenir. Panel mevcut programlarınıza veri yazmaz, yalnızca okur. Programınızın sürümünü keşifte kontrol ederiz.",
+      "q5": "Raporlama sistemi kurmak ne kadar sürer?",
+      "a5": "Tek kaynaklı panel 3–5 haftada, çok kaynaklı panel 6–10 haftada, yapay zeka destekli raporlama ve tahmin 3–4 ayda teslim edilir. Süreyi en çok bağlanacak kaynak sayısı ve verinin ne kadar düzenli olduğu belirler.",
+      "q6": "Şirket verilerim güvende mi, KVKK'ya uygun mu? Kaynak kod bize mi ait?",
+      "a6": "Panel sizin sunucunuzda veya seçtiğiniz bulutta çalışır, herkes yalnızca yetkili olduğu veriyi görür ve erişimler kayıt altına alınır. Kişisel veriler gereken yerde maskelenir. Teslimde kaynak kod, veritabanı ve sunucu erişimi size verilir; bu sözleşmede yazılıdır.",
+      "q7": "Yönetim paneli kimler için uygun değil?",
+      "a7": "Tüm veriniz tek programdaysa ve o programın raporları yeterliyse, programın kendi raporları veya hazır bir BI aracı işinizi daha ucuza görür. Veri girişi düzensizse önce onun düzeltilmesi gerekir; aksi hâlde panel yanlış rakamı gösterir.",
+      "q8": "Dashboard'un aylık maliyeti var mı?",
+      "a8": "Sabit aylık bakım ve destek 5.000–10.000 TL/ay'dır; veri bağlantılarının çalışmasını, sunucu takibini ve küçük rapor değişikliklerini kapsar. Yapay zeka özetleri kullanılıyorsa aylık yapay zeka kullanım ücreti kullanıma göre ayrıca hesaplanır. Satışlarınızdan pay almıyoruz."
+    },
+    "cta": {
+      "title": "Tüm rakamlarınızı tek ekranda görelim",
+      "desc": "Ücretsiz keşifte her gün görmek istediğiniz 5–10 rakamı ve bu verinin nerede durduğunu birlikte çıkarırız. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Teklif al"
+    },
+    "related": {
+      "r1": "Logo ve Netsis entegrasyonu",
+      "r2": "Mikro entegrasyonu",
+      "r3": "CRM yazılımı",
+      "r4": "E-ticaret sitesi",
+      "r5": "Otomatik müşteri hizmetleri"
+    },
+    "footer": "© 2026 Ozturksoft — Yönetim Paneli (Dashboard) Yaptırmak, Ankara"
+  },
+  "saasPage": {
+    "meta": {
+      "title": "SaaS Yazılım Yaptırmak | MVP ve Abonelikli Yazılım | Ozturksoft"
+    },
+    "hero": {
+      "badge": "SaaS · Abonelikli yazılım geliştirme · MVP · Web uygulaması",
+      "title": "SaaS Yazılım Yaptırmak",
+      "desc": "Aklınızda müşterilere aylık abonelikle satmak istediğiniz bir yazılım fikri var ama nereden başlayacağınızı ve ne kadar tutacağını bilmiyor musunuz? Fikrinizi önce satılabilir ilk sürüme (MVP), sonra çok müşterili, abonelik ödemeli bir ürüne dönüştürüyoruz; kaynak kod sizin olur. Ankara Çankaya ekibi, keşif görüşmesi ücretsiz.",
+      "btn": "Ücretsiz keşif görüşmesi"
+    },
+    "stats": {
+      "s1l": "MVP (ilk satılabilir sürüm)",
+      "s2l": "Tam ürün",
+      "s3v": "3–4 ay",
+      "s3l": "MVP süresi"
+    },
+    "pain": {
+      "title": "Bu durumlardan biri tanıdık mı?",
+      "i1": "Bir yazılım fikriniz var, “bunu abonelikle satarım” diyorsunuz ama web uygulaması yaptırmak ne kadar tutar, bilmiyorsunuz.",
+      "i2": "Şirket içinde kullandığınız bir aracı başka firmalara da satmak istiyorsunuz.",
+      "i3": "Excel ve hazır araçlarla yürüttüğünüz hizmeti, müşterilerin kendi giriş yaptığı bir platforma taşımak istiyorsunuz.",
+      "i4": "Bir freelancer'la başladınız, proje yarım kaldı ya da kaynak kod elinizde değil.",
+      "i5": "Yatırımcı veya hibe başvurusu için çalışan bir ürün (MVP) göstermeniz gerekiyor.",
+      "i6": "Abonelik ödemesi, deneme süresi, fatura ve kullanıcı yetkileri işin içine girince işin büyüdüğünü fark ettiniz."
+    },
+    "pricing": {
+      "title": "SaaS yazılım yaptırmak ne kadar tutar? (2026)",
+      "intro": "Aşağıdaki fiyat aralıkları 2026 yılı içindir; kesin fiyat ücretsiz keşif görüşmesinden sonra yazılı teklifle belirlenir.",
+      "c1t": "MVP (ilk satılabilir sürüm)",
+      "c1time": "3–4 ay",
+      "c1d": "Tek ana iş akışı, kullanıcı girişi, temel yönetim ekranı ve ilk ödeme alma; gerçek müşteriye satıp geri bildirim toplayabileceğiniz sürüm.",
+      "c2t": "Tam ürün",
+      "c2time": "5–8 ay",
+      "c2d": "Çok kiracılı yapı (her müşteri firmanın verisi ayrı), abonelik ve otomatik tahsilat, yönetim paneli, roller ve raporlar.",
+      "c3t": "Aylık geliştirme ve bakım",
+      "c3amt": "Teklife göre",
+      "c3time": "Yayından sonra, aylık",
+      "c3d": "Güvenlik güncellemeleri, hata düzeltme, yedekleme ve müşteri geri bildirimine göre yeni özellikler; kapsam her ay yazılı belirlenir.",
+      "monthly": "Sunucu, alan adı ve ödeme kuruluşu komisyonları sizin hesabınızdan ödenir; abonelik gelirinizden veya satışlarınızdan pay almayız.",
+      "support": "Ürününüz Ar-Ge niteliği taşıyorsa maliyetin bir kısmı desteklerle karşılanabilir: <a href=\"/blog/kosgeb-tubitak-destekli-yazilim-projesi-2026\">KOSGEB ve TÜBİTAK destekli yazılım projesi rehberi</a>."
+    },
+    "cards": {
+      "title": "SaaS ürününüzde neler yapıyoruz?",
+      "c1t": "Çok kiracılı yapı (multi-tenant)",
+      "c1d": "Tek uygulamayı birçok müşteri firma kullanır; her firmanın verisi, kullanıcıları ve ayarları birbirinden ayrı tutulur.",
+      "c2t": "Abonelik ve ödeme",
+      "c2d": "Aylık/yıllık plan, deneme süresi, kartla otomatik tahsilat (iyzico, PayTR veya Stripe), plan yükseltme ve iptal.",
+      "c3t": "Yönetim paneli",
+      "c3d": "Kaç müşteri, kaç aktif abonelik, aylık gelir ve geciken ödemeler tek ekranda; müşteri hesaplarını buradan yönetirsiniz.",
+      "c4t": "Kullanıcı ve yetki yönetimi",
+      "c4d": "Müşterilerinizin kendi ekiplerini davet ettiği, rol ve yetki verdiği giriş sistemi; iki adımlı doğrulama seçeneği.",
+      "c5t": "Web ve mobil",
+      "c5d": "Tarayıcıda çalışan, telefona uyumlu web uygulaması; gerekirse aynı altyapıya bağlı <a href=\"/mobil-uygulama-yaptirmak\">mobil uygulama</a>.",
+      "c6t": "Kullanım ölçümü ve büyüme",
+      "c6d": "Hangi özelliğin ne kadar kullanıldığını gösteren raporlar; müşteri sayısı arttıkça büyütülebilen bulut sunucu yapısı."
+    },
+    "compat": {
+      "title": "Mevcut sistemlerle çalışır",
+      "intro": "SaaS ürününüz tek başına durmaz; müşterilerinizin kullandığı sistemlerle konuşabildiği ölçüde satılır.",
+      "i1": "<strong>Logo, Netsis, Mikro:</strong> Müşterilerinizin muhasebe/ERP programından cari, stok veya fatura verisini API (programlar arası veri bağlantısı) ya da aktarım servisiyle alma.",
+      "i2": "<strong>Excel içe aktarma:</strong> Yeni müşterinin eski verisini Excel/CSV ile tek seferde yükleyebilmesi; ilk kurulumda en çok istenen özellik.",
+      "i3": "<strong>Ödeme ve fatura:</strong> iyzico, PayTR veya Stripe ile tahsilat; e-Fatura entegratörü üzerinden otomatik fatura kesme.",
+      "i4": "<strong>E-ticaret ve pazaryeri:</strong> Ürününüz e-ticaret satıcılarına yönelikse Trendyol, Hepsiburada ve site altyapılarıyla bağlantı.",
+      "i5": "<strong>Açık API:</strong> Müşterilerinizin kendi yazılımlarını ürününüze bağlayabilmesi için belgelenmiş API."
+    },
+    "steps": {
+      "title": "SaaS geliştirme süreci",
+      "s1t": "Ücretsiz keşif",
+      "s1d": "Fikri, hedef müşteriyi ve fiyatlandırma modelinizi konuşuruz; ilk sürümde neyin olması, neyin sonraya kalması gerektiğini birlikte ayırırız.",
+      "s2t": "Yazılı kapsam ve teklif",
+      "s2d": "MVP'nin ekranları, özellik listesi, süre ve fiyat yazılı teklifte yer alır. Kaynak kodun size ait olduğu sözleşmeye yazılır.",
+      "s3t": "Tasarım ve geliştirme",
+      "s3d": "Önce tıklanabilir ekran taslakları, sonra iki haftalık parçalar hâlinde geliştirme; her parçanın sonunda çalışan sürümü siz de denersiniz.",
+      "s4t": "Test ve yayına alma",
+      "s4d": "Ödeme, yetki ve veri ayrımı testleri; sunucu kurulumu, alan adı, yedekleme ve izleme. Ürün ilk müşterilerinize açılır.",
+      "s5t": "Eğitim ve destek",
+      "s5d": "Yönetim panelinin kullanımını ekibinize anlatırız; yayından sonra aylık bakım ve geliştirmeyle ürünü müşteri geri bildirimine göre büyütürüz."
+    },
+    "notfor": {
+      "title": "Kimler için uygun değil?",
+      "p1": "Fikrinizi henüz hiçbir müşteriyle konuşmadıysanız, 100.000 TL'lik bir MVP'den önce birkaç potansiyel müşteriyle görüşmenizi ya da no-code araçlarla (kod yazmadan uygulama kurulan platformlar) basit bir deneme yapmanızı öneririz. İhtiyacınız yalnızca kendi şirketinizde kullanılacak bir araçsa abonelik altyapısına gerek yoktur; <a href=\"/ozel-yazilim-yaptirmak\">özel yazılım</a> daha uygun ve ucuzdur. Pazarda iyi bir hazır çözüm varsa ve ürününüzü farklı kılan bir şey yoksa bunu keşifte açıkça söyleriz."
+    },
+    "faq": {
+      "title": "SaaS yazılım yaptırmak: sık sorulanlar",
+      "q1": "SaaS yazılım yaptırmak ne kadar tutar?",
+      "a1": "2026 için satılabilir ilk sürüm (MVP) 100.000–180.000 TL'dir ve 3–4 ay sürer. Çok kiracılı yapı, abonelik ödemesi ve yönetim paneli içeren tam ürün 250.000–500.000+ TL aralığındadır ve 5–8 ay sürer. Kesin fiyat ücretsiz keşiften sonra yazılı teklifle belirlenir.",
+      "q2": "Ankara'da SaaS geliştiren firmalar hangileri, en iyisi hangisi?",
+      "a2": "Tek bir “en iyi” firma yok; doğru seçim ürününüze ve bütçenize bağlıdır. Firmaya daha önce abonelikli ürün geliştirip geliştirmediğini, kaynak kodun kime ait olacağını, MVP kapsamını nasıl daralttığını ve yayından sonra bakımı kimin yapacağını sorun. Ozturksoft, Ankara Çankaya'da MVP'den tam ürüne kadar SaaS geliştiren firmalardan biridir.",
+      "q3": "Hazır altyapı veya no-code mu kullanmalıyım, sıfırdan yazılım ürünü yaptırmak mı?",
+      "a3": "Fikri hızlıca denemek için no-code araçlar veya hazır şablonlar doğru tercih olabilir ve çok daha ucuzdur. Müşteri sayısı arttığında, özel iş kuralları, veri ayrımı ve performans gerektiğinde ise özel geliştirme gerekir. Keşifte ikisini dürüstçe karşılaştırırız.",
+      "q4": "Yaptıracağım SaaS, müşterilerimin Logo, Netsis, Mikro, Excel veya e-ticaret sistemleriyle çalışır mı?",
+      "a4": "Evet, kapsama eklenirse. Logo, Netsis ve Mikro'dan API veya aktarım servisiyle veri alınabilir, Excel/CSV içe aktarma eklenebilir, Trendyol ve Hepsiburada gibi pazaryerlerine bağlanılabilir. Hangi bağlantının MVP'de, hangisinin sonraki sürümde olacağını teklifte ayrı yazarız.",
+      "q5": "SaaS MVP geliştirme ne kadar sürer?",
+      "a5": "Odaklı bir MVP 3–4 ayda yayına çıkar, tam ürün 5–8 ay sürer. Süreyi en çok uzatan şey, ilk sürüme her özelliği sığdırmaya çalışmaktır; bu yüzden kapsamı keşifte birlikte daraltırız.",
+      "q6": "Müşterilerimin verileri güvende mi, KVKK'ya uygun mu? Kaynak kod bize mi ait?",
+      "a6": "Her müşteri firmanın verisi ayrı tutulur, bağlantılar şifrelenir, düzenli yedek alınır ve yetkiler rol bazlıdır; KVKK aydınlatma metni ve sözleşme onay ekranları üründe yer alır. Teslimde kaynak kod, veritabanı ve sunucu erişimleri size verilir ve bu sözleşmeye yazılır. Kaynak kodun sizde olması yatırımcı görüşmelerinde ve şirket değerlemesinde önemlidir.",
+      "q7": "SaaS yaptırmak kimler için uygun değil?",
+      "a7": "Fikrini hiç müşteriyle doğrulamamış ve bütçesi 100.000 TL'nin altında olanlar için önce no-code bir deneme daha mantıklıdır. Sadece kendi şirketinde kullanacağı bir araç isteyenler için abonelik altyapısı gereksizdir; özel yazılım daha ucuzdur.",
+      "q8": "Aylık maliyet var mı, satışlardan pay alıyor musunuz?",
+      "a8": "Yayından sonraki aylık bakım ve geliştirme ücreti, ihtiyaç duyulan iş miktarına göre teklifle belirlenir ve sabittir. Sunucu ve ödeme kuruluşu komisyonları ayrıca sizin hesabınızdan ödenir. Abonelik gelirinizden veya satışlarınızdan pay almayız."
+    },
+    "cta": {
+      "title": "Yazılım ürününüzü birlikte planlayalım",
+      "desc": "Ücretsiz keşif görüşmesinde fikrinizi dinler, MVP kapsamını ve bütçesini birlikte çıkarırız. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "SaaS teklifi al"
+    },
+    "related": {
+      "blog": "Ankara SaaS geliştirme rehberi 2026",
+      "mobile": "Mobil uygulama yaptırmak",
+      "custom": "Özel yazılım yaptırmak",
+      "takeover": "Yarım kalan yazılım projesi"
+    },
+    "footer": "© 2026 Ozturksoft — SaaS Yazılım Geliştirme, Ankara"
+  },
+  "voiceAiPage": {
+    "meta": {
+      "title": "Sesli Yapay Zeka Asistanı | Telefonu Yapay Zeka Açsın | Ozturksoft"
+    },
+    "hero": {
+      "badge": "AI voice agent · Yapay zeka telefon asistanı · Türkçe",
+      "title": "Sesli Yapay Zeka Asistanı",
+      "desc": "Telefonlar yoğun saatlerde cevapsız mı kalıyor, ekibiniz gün boyu aynı soruları mı yanıtlıyor? Telefonu yapay zeka açsın: çalışma saati, sipariş durumu ve randevu taleplerini Türkçe yanıtlayan, gerektiğinde çağrıyı ekibinize aktaran ve görüşme özetini CRM'e yazan bir asistan kuruyoruz. Ankara Çankaya ekibi, keşif görüşmesi ücretsiz.",
+      "btn": "Ücretsiz keşif görüşmesi"
+    },
+    "stats": {
+      "s1l": "Pilot (tek senaryo)",
+      "s2l": "Çağrı merkezi / CRM entegrasyonu",
+      "s3v": "4–6 hafta",
+      "s3l": "Pilot süresi"
+    },
+    "pain": {
+      "title": "Bu durumlardan biri tanıdık mı?",
+      "i1": "Mesai dışında ve öğle arasında gelen aramalar cevapsız kalıyor, müşteri rakibi arıyor.",
+      "i2": "Aramaların yarısı “Kaçta açıksınız?”, “Siparişim nerede?” gibi hep aynı sorular.",
+      "i3": "Randevu almak isteyen arayan bekletiliyor, sekreter aynı anda iki hattı yetiştiremiyor.",
+      "i4": "Arayanın adı, numarası ve ne istediği bir yere not edilmiyor; geri dönüş unutuluyor.",
+      "i5": "Çağrı merkezi ekibi büyüdükçe maliyet artıyor, yoğun kampanya günlerinde hat kilitleniyor."
+    },
+    "pricing": {
+      "title": "Sesli yapay zeka asistanı ne kadar tutar? (2026)",
+      "intro": "Aşağıdaki fiyat aralıkları 2026 yılı içindir; kesin fiyat ücretsiz keşif görüşmesinden sonra yazılı teklifle belirlenir.",
+      "c1t": "Pilot (tek senaryo, tek hat)",
+      "c1time": "4–6 hafta",
+      "c1d": "Tek bir iş için (ör. çalışma saati + randevu talebi) Türkçe sesli asistan, insana aktarma ve görüşme özetinin e-postaya veya tabloya düşmesi.",
+      "c2t": "Çağrı merkezi / CRM entegrasyonu",
+      "c2time": "2–4 ay",
+      "c2d": "Birden fazla senaryo, santral ve çağrı yönlendirme, sipariş/randevu sistemine bağlantı ve her görüşmenin özetinin CRM kaydına yazılması.",
+      "c3t": "Aylık telefon ve yapay zeka kullanımı",
+      "c3amt": "Dakika başı",
+      "c3time": "Her ay, kullanıma göre",
+      "c3d": "Telefon hattı ve yapay zeka kullanımı konuşulan dakikaya göre faturalanır; dakika başı kullanım ücreti ayrıca hesaplanır.",
+      "monthly": "Bunlara ek olarak senaryo güncellemesi ve teknik takip için sabit aylık bakım 5.000–10.000 TL/ay'dır; satışlarınızdan pay almayız."
+    },
+    "cards": {
+      "title": "Sesli asistan neler yapar?",
+      "c1t": "Telefonu açar, soruyu yanıtlar",
+      "c1d": "Çalışma saatleri, adres, fiyat listesi, kargo süresi gibi sık soruları sizin onayladığınız bilgilerle, doğal Türkçe konuşarak yanıtlar.",
+      "c2t": "Sipariş durumu",
+      "c2d": "Arayanın sipariş numarası veya telefonuyla e-ticaret ya da ERP sisteminizden siparişin nerede olduğunu okuyup söyler.",
+      "c3t": "Randevu talebi",
+      "c3d": "Uygun gün ve saat tercihini alır, randevu talebini takviminize veya sisteminize kaydeder; onay SMS'iyle tamamlanabilir.",
+      "c4t": "Çağrı yönlendirme ve insana devir",
+      "c4d": "Konuyu anlayıp doğru birime aktarır. Anlayamadığında, arayan istediğinde veya konu hassassa çağrıyı hemen bir çalışanınıza bağlar.",
+      "c5t": "Arayan bilgisi ve CRM özeti",
+      "c5d": "Ad, telefon ve talebi toplar; her görüşmenin kısa özetini ve sonucunu CRM'e yazar, geri dönülmesi gerekenleri işaretler.",
+      "c6t": "KVKK uyumlu açılış",
+      "c6d": "Görüşme başında arayana yapay zekayla konuştuğu ve çağrının kaydedilip kaydedilmediği söylenir; kayıtlar belirlenen süre sonunda silinir."
+    },
+    "compat": {
+      "title": "Mevcut sistemlerinizle çalışır",
+      "intro": "Asistan, cevap verebilmek için bilgiyi sizin sistemlerinizden okur; yeni bir programa geçmeniz gerekmez.",
+      "i1": "<strong>Santral ve telefon hattı:</strong> Mevcut numaranız korunur; IP santral (internet üzerinden çalışan santral) veya operatör yönlendirmesiyle bağlanır.",
+      "i2": "<strong>CRM:</strong> Görüşme özeti ve arayan bilgisi mevcut CRM'inize yazılır; CRM'iniz yoksa <a href=\"/crm-yazilim-yaptirmak\">CRM yazılımı</a> ile birlikte kurulabilir.",
+      "i3": "<strong>Logo, Netsis, Mikro:</strong> Cari, sipariş ve bakiye bilgisi API (programlar arası veri bağlantısı) veya aktarım servisiyle okunur.",
+      "i4": "<strong>E-ticaret ve pazaryeri:</strong> Site altyapınızdan veya Trendyol ve Hepsiburada siparişlerinden kargo durumu sorgulanır.",
+      "i5": "<strong>Excel ve takvim:</strong> Sık sorular ve çalışma saatleri Excel'den güncellenebilir; randevular Google veya Outlook takvimine düşer."
+    },
+    "steps": {
+      "title": "Kurulum süreci",
+      "s1t": "Ücretsiz keşif",
+      "s1d": "Size gelen aramaların hangi konularda yoğunlaştığını konuşur, asistanın ilk hangi işi üstleneceğini ve hangi durumda insana aktaracağını belirleriz.",
+      "s2t": "Yazılı kapsam ve teklif",
+      "s2d": "Senaryolar, bağlanacak sistemler, insana devir kuralları, süre ve fiyat yazılı teklifte yer alır; aylık dakika kullanımı için tahmini maliyet de verilir.",
+      "s3t": "Senaryo ve geliştirme",
+      "s3d": "Asistanın konuşma akışı, sizin onayladığınız cevaplar ve sistem bağlantıları hazırlanır; KVKK aydınlatma cümlesi açılışa eklenir.",
+      "s4t": "Test ve kurulum",
+      "s4d": "Gürültülü ortam, farklı şiveler ve hızlı konuşmayla deneme aramaları yapılır; önce mesai dışında veya tek hatta canlıya alınır.",
+      "s5t": "Eğitim ve destek",
+      "s5d": "Ekibinize özetleri ve devredilen çağrıları nasıl takip edeceğini gösteririz; gerçek görüşmelere bakarak cevapları her ay iyileştiririz."
+    },
+    "notfor": {
+      "title": "Kimler için uygun değil?",
+      "p1": "Günde birkaç arama alıyorsanız sesli asistanın maliyeti kendini çıkarmaz; basit bir tuşlamalı sesli menü (IVR) veya bir çalışanın geri dönmesi daha ucuzdur. Konuşmaların çoğu şikâyet, pazarlık ya da hassas sağlık ve hukuk konuları gibi empati ve yetki gerektiriyorsa asistan yalnızca karşılama ve yönlendirme yapmalı, asıl görüşmeyi insan sürdürmelidir. Ses tanıma gürültülü ortamda ve güçlü aksanda hata yapabilir; bu yüzden insana devir her kurulumda vardır."
+    },
+    "faq": {
+      "title": "Sesli yapay zeka asistanı: sık sorulanlar",
+      "q1": "Sesli yapay zeka asistanı yaptırmak ne kadar tutar?",
+      "a1": "2026 için tek senaryolu, tek hatlı pilot 80.000–150.000 TL'dir ve 4–6 hafta sürer. Çağrı merkezi ve CRM entegrasyonu 150.000–350.000 TL'dir ve 2–4 ay sürer. Telefon hattı ve yapay zeka kullanımı aylık olarak, konuşulan dakikaya göre ayrıca faturalanır.",
+      "q2": "Ankara'da yapay zeka telefon asistanı kuran firmalar hangileri, en iyisi hangisi?",
+      "a2": "Tek bir “en iyi” firma yok. Firmaya Türkçe ses tanımayı gürültülü ortamda nasıl test ettiğini, insana devrin nasıl çalıştığını, KVKK aydınlatmasını nasıl yaptığını ve dakika başı maliyeti önceden hesaplayıp hesaplamadığını sorun. Ozturksoft, Ankara Çankaya'da sesli asistanı santral ve CRM'e bağlayarak kuran firmalardan biridir.",
+      "q3": "Hazır çağrı merkezi yazılımı mı, özel sesli yapay zeka asistanı mı?",
+      "a3": "Aramalarınız az ve standartsa hazır bir çağrı merkezi yazılımı veya tuşlamalı sesli menü (IVR) daha ucuz ve yeterlidir. Arayanın serbestçe konuştuğu, sipariş veya randevu sisteminize bakılması gereken yoğun hatlarda özel asistan anlam kazanır. Keşifte hangisinin size uygun olduğunu açıkça söyleriz.",
+      "q4": "Telefonu yapay zeka açarsa mevcut santralim, CRM'im, Logo, Netsis, Mikro veya e-ticaret sistemimle çalışır mı?",
+      "a4": "Evet. Mevcut numaranız korunur, IP santral veya operatör yönlendirmesiyle bağlanır. Sipariş ve cari bilgisi Logo, Netsis, Mikro veya e-ticaret altyapınızdan API ile okunur, sık sorular Excel'den güncellenebilir, görüşme özetleri CRM'inize yazılır.",
+      "q5": "Çağrı merkezi yapay zeka kurulumu ne kadar sürer?",
+      "a5": "Tek senaryolu pilot 4–6 haftada canlıya çıkar. Birden fazla senaryo, santral ve CRM entegrasyonu 2–4 ay sürer. Önce mesai dışı aramalarla veya tek hatla başlayıp sonuçlara göre genişletmeyi öneririz.",
+      "q6": "Arayan kişiye yapay zeka olduğu söylenmeli mi, kayıtlar KVKK'ya uygun mu? Kaynak kod bize mi ait?",
+      "a6": "Evet; görüşme başında arayana yapay zekayla konuştuğu ve çağrının kaydedilip kaydedilmediği söylenir, bu KVKK aydınlatma yükümlülüğünün parçasıdır. Kayıtlar ve özetler şifreli saklanır, belirlenen süre sonunda silinir ve erişim yetkiyle sınırlanır. Teslimde kaynak kod, veritabanı ve sunucu erişimleri size verilir ve bu sözleşmeye yazılır.",
+      "q7": "Sesli yapay zeka asistanı kimler için uygun değil, yanlış anlarsa ne olur?",
+      "a7": "Günde birkaç arama alan işletmeler için maliyeti kendini çıkarmaz. Ses tanıma gürültüde veya güçlü aksanda hata yapabilir; asistan emin olmadığında soruyu tekrar sorar ya da çağrıyı bir çalışanınıza aktarır. Şikâyet ve hassas konularda görüşmeyi insan sürdürmelidir.",
+      "q8": "Aylık maliyet var mı?",
+      "a8": "Evet, iki kalem var. Telefon hattı ve yapay zeka kullanımı aylık olarak konuşulan dakikaya göre faturalanır; dakika başı kullanım ücreti ayrıca hesaplanır ve teklifte tahmini verilir. Senaryo güncellemesi ve teknik takip için sabit bakım 5.000–10.000 TL/ay'dır; satışlarınızdan pay almayız."
+    },
+    "cta": {
+      "title": "Telefonlarınızı yapay zeka karşılasın, ekibiniz asıl işe odaklansın",
+      "desc": "Ücretsiz keşifte size gelen aramaları birlikte inceler, ilk senaryoyu ve aylık dakika maliyetini çıkarırız. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn": "Sesli asistan teklifi al"
+    },
+    "related": {
+      "aiIntegration": "Yapay zeka entegrasyonu",
+      "aiAgent": "AI agent",
+      "privateAi": "Kurum içi yapay zeka",
+      "crm": "CRM yazılımı yaptırmak"
+    },
+    "footer": "© 2026 Ozturksoft — Sesli Yapay Zeka Asistanı, Ankara"
   }
 }
