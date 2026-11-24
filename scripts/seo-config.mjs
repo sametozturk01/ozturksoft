@@ -7,7 +7,7 @@ const root = resolve(__dirname, '..');
 
 export const BASE = 'https://ozturksoft.net';
 export const HOST = 'ozturksoft.net';
-export const INDEXNOW_KEY = '831fa507378a69d3567fdd4ad6dab3f4';
+export const INDEXNOW_KEY = 'a7deb6fa3548476fa494ee86218d76ef';
 export const INDEXNOW_KEY_URL = `${BASE}/${INDEXNOW_KEY}.txt`;
 
 export const INDEXNOW_ENDPOINTS = [

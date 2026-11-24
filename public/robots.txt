@@ -32,4 +32,4 @@ Allow: /ai.txt
 # https://ozturksoft.net/blog/feed.xml
 
 # IndexNow key
-# https://ozturksoft.net/831fa507378a69d3567fdd4ad6dab3f4.txt
+# https://ozturksoft.net/a7deb6fa3548476fa494ee86218d76ef.txt
