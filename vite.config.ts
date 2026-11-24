@@ -92,6 +92,7 @@ export default defineConfig({
         blogAnkaraOcr: resolve(__dirname, 'blog/ankara-ocr-belge-ai-2026.html'),
         blogExcelProgram: resolve(__dirname, 'blog/excel-yerine-ozel-program-yaptirmak-2026.html'),
         blogEcomMigration: resolve(__dirname, 'blog/hazir-e-ticaret-paketinden-kendi-sitenize-gecis-2026.html'),
+        blogEarsiv2027: resolve(__dirname, 'blog/e-arsiv-fatura-zorunlulugu-2027.html'),
         blogPdfEfatura: resolve(__dirname, 'blog/pdf-e-fatura-muhasebeye-aktarma-2026.html'),
         blogEbysAi: resolve(__dirname, 'blog/ebys-yapay-zeka-evrak-siniflandirma-2026.html'),
         blogAnkaraFlutter: resolve(__dirname, 'blog/ankara-flutter-uygulama-gelistirme-2026.html'),

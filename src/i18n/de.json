@@ -2397,7 +2397,9 @@
       "q5": "Was unterscheidet GİB-Portal, privaten Integrator und direkte GİB-Anbindung?",
       "a5": "Das GİB-Portal ist für Unternehmen mit wenigen Rechnungen gedacht und erfasst sie nicht in Ihrer Buchhaltungssoftware. Der private Integrator ist in der Türkei der Standardweg; Lizenz- und Kontör-Gebühren gehen an den Integrator. Eine direkte GİB-Anbindung setzt ein hohes Rechnungsvolumen, ein Hardware-Sicherheitsmodul (HSM) und ein rund um die Uhr (24/7) verfügbares IT-Team voraus; sie wird gesondert angeboten. Ozturksoft verkauft keine Paketlizenzen, sondern richtet die Anbindung in Ihrer Buchhaltungssoftware ein.",
       "q6": "Sind Kontör und e-Defter im Preis enthalten?",
-      "a6": "Nein. Die obigen Preise umfassen die Software- und Anbindungsarbeit. Die Jahreslizenz des Integrators (ca. 4.000–35.000 TL) und die Kontör-Gebühren pro Beleg werden gesondert bezahlt. Die e-Defter-Anbindung ist eine Zusatzleistung für 90.000–180.000 TL. Alle Posten werden nach dem Erstgespräch einzeln im schriftlichen Angebot aufgeführt."
+      "a6": "Nein. Die obigen Preise umfassen die Software- und Anbindungsarbeit. Die Jahreslizenz des Integrators (ca. 4.000–35.000 TL) und die Kontör-Gebühren pro Beleg werden gesondert bezahlt. Die e-Defter-Anbindung ist eine Zusatzleistung für 90.000–180.000 TL. Alle Posten werden nach dem Erstgespräch einzeln im schriftlichen Angebot aufgeführt.",
+      "q7": "Wird die Papierrechnung am 1. Januar 2027 vollständig abgeschafft?",
+      "a7": "Für Steuerpflichtige mit vereinfachter Gewinnermittlung und einfacher Buchführung endet die Ausnahme für Papierrechnungen bis 3.000 TL am 31. Dezember 2026; ab dem 1. Januar 2027 müssen Rechnungen unabhängig vom Betrag als e-Arşiv-Rechnung ausgestellt werden. Für bilanzierende Steuerpflichtige gilt diese Regel bereits seit 2026. Wir können Ihr Verkaufssystem an e-Arşiv anbinden, sodass Rechnungen automatisch ausgestellt werden; bitte sprechen Sie für Ihre individuelle Situation auch mit Ihrem Steuerberater."
     },
     "cta": {
       "btn": "Kostenloses Erstgespräch",
@@ -2420,6 +2422,12 @@
       "s1l": "Anbindung an ein Buchhaltungssystem",
       "s2l": "Inklusive E-Archiv und E-Lieferschein",
       "s3l": "Lieferzeit"
+    },
+    "y2027": {
+      "title": "1. Januar 2027: Das Ende der Papierrechnung",
+      "p1": "Nach dem Allgemeinen Kommuniqué Nr. 589 zum Steuerverfahrensgesetz (VUK) (Amtsblatt Resmî Gazete, 31. Dezember 2025) dürfen Steuerpflichtige mit vereinfachter Gewinnermittlung (basit usul) und mit einfacher Buchführung (işletme hesabı) Rechnungen bis 3.000 TL (inklusive Steuern) an Empfänger, die nicht im e-Fatura-System registriert sind, noch bis zum 31. Dezember 2026 auf Papier ausstellen. <strong>Ab dem 1. Januar 2027 entfällt diese Ausnahme; alle Rechnungen müssen unabhängig vom Betrag als e-Arşiv-Rechnung ausgestellt werden.</strong> Für bilanzierende Steuerpflichtige gilt diese Regel bereits seit dem 1. Januar 2026.",
+      "p2": "Sie können Rechnungen einzeln von Hand über das GİB-Portal ausstellen; für ein Unternehmen mit vielen Verkäufen pro Tag kostet das jedoch Zeit und ist fehleranfällig. Wenn wir Ihr Verkaufsprogramm, Ihren Onlineshop oder Ihre Buchhaltungssoftware an e-Arşiv anbinden, wird bei jedem Verkauf automatisch eine Rechnung erstellt und per E-Mail an Ihren Kunden gesendet.",
+      "note": "Wer betroffen ist und was für die Umstellung zu tun ist, erläutern wir in unserem <a href=\"/blog/e-arsiv-fatura-zorunlulugu-2027\">Leitfaden zur e-Arşiv-Rechnungspflicht 2027</a> (auf Türkisch). Diese Angaben beruhen auf dem Kommuniqué; für Ihre individuelle Situation empfehlen wir Ihnen, Ihren Steuerberater zu konsultieren."
     }
   },
   "trendyolPage": {
@@ -2577,7 +2585,7 @@
   },
   "softwareFirmPage": {
     "meta": {
-      "title": "Softwareunternehmen Ankara | Individualsoftware & KI | Ozturksoft"
+      "title": "Softwarefirma in Ankara | Preise und Auswahl einer Softwarefirma | Ozturksoft"
     },
     "badge": "Çankaya, Ankara",
     "h1": "Softwareunternehmen Ankara — Konzerne, Öffentliche Hand & KMU",
@@ -2698,7 +2706,26 @@
     "q7": "Arbeiten Sie mit öffentlichen Einrichtungen?",
     "a7": "Für öffentliche Einrichtungen entwickeln wir On-Premise-KI und Dokumenten-OCR, bei denen die Daten im Netz der Behörde bleiben. Details: <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#3b82f6\">KI für den öffentlichen Sektor</a>.",
     "q8": "Bieten Sie Support nach der Übergabe?",
-    "a8": "Jedes Projekt umfasst 30–90 Tage kostenlose Fehlerbehebung, danach optional einen monatlichen Wartungsvertrag."
+    "a8": "Jedes Projekt umfasst 30–90 Tage kostenlose Fehlerbehebung, danach optional einen monatlichen Wartungsvertrag.",
+    "ask": {
+      "title": "8 Fragen an eine Softwarefirma, bevor Sie ein Angebot einholen",
+      "intro": "Wenn Sie Angebote von Softwarefirmen in Ankara einholen, lassen Sie sich diese Fragen schriftlich beantworten. Ein Angebot ohne klare Antworten bedeutet überraschende Kosten während des Projekts.",
+      "i1": "Ist der Leistungsumfang Bildschirm für Bildschirm schriftlich festgehalten, und wie werden Zusatzleistungen außerhalb des Umfangs berechnet?",
+      "i2": "Wird die Zahlung in Raten aufgeteilt (Anzahlung und Lieferschritte)?",
+      "i3": "Wann werden Quellcode, Datenbank und Dokumentation übergeben?",
+      "i4": "Auf wessen Namen werden Domain, Server und Drittanbieter-Konten eröffnet?",
+      "i5": "Nach welchen Abnahmekriterien wird entschieden, dass die Arbeit abgeschlossen ist?",
+      "i6": "Wie lange dauert der kostenlose Support, und was umfasst die Wartung danach, mit welcher Reaktionszeit bei Störungen?",
+      "i7": "Was passiert, wenn Sie später mit einem anderen Team weiterarbeiten möchten?",
+      "i8": "Wo werden personenbezogene Daten gespeichert, und wie werden die KVKK-Pflichten aufgeteilt?",
+      "outro": "Bei Ozturksoft stehen die Antworten auf diese Fragen schriftlich im Angebot und im Vertrag."
+    },
+    "q9": "Welche sind die besten Softwarefirmen in Ankara?",
+    "a9": "Es gibt nicht die eine „beste“ Firma für alle, sondern die Firma, die am besten zu Ihrem Projekt passt. Achten Sie beim Vergleich von Softwarefirmen in Ankara auf den schriftlichen Leistungsumfang, die Übergabe des Quellcodes, Live-Referenzen, den Testprozess und die Supportbedingungen nach der Lieferung; prüfen Sie auch unabhängige Profile wie Bewertungen auf Clutch, GoodFirms und Google. Die Profile von Ozturksoft finden Sie auf <a href=\"https://clutch.co/profile/ozturksoft\" target=\"_blank\" rel=\"noopener\">Clutch</a> und <a href=\"https://www.goodfirms.co/company/ozturksoft\" target=\"_blank\" rel=\"noopener\">GoodFirms</a>.",
+    "q10": "Was sollte in einem Softwarevertrag stehen?",
+    "a10": "Der Leistungsumfang (Liste der Bildschirme und Funktionen), der Gesamtpreis und ein gestaffelter Zahlungsplan, der Liefertermin, die Abnahmekriterien, der Zeitpunkt der Quellcode-Übergabe, auf wessen Namen Domain- und Serverkonten eröffnet werden, Support- und Wartungsbedingungen sowie KVKK-Klauseln. Die vermögensrechtlichen Befugnisse an einer Software entstehen grundsätzlich bei der Partei, die sie entwickelt, und für eine wirksame Übertragung ist ein schriftlicher Vertrag erforderlich (türkisches Gesetz über geistige und künstlerische Werke, Art. 52 – FSEK m. 52); deshalb muss die Code-Übergabe unbedingt im Vertrag stehen.",
+    "q11": "Bieten Sie einen Festpreis an, und wie werden Leistungen außerhalb des Umfangs berechnet?",
+    "a11": "Sobald der Leistungsumfang schriftlich geklärt ist, nennen wir Ihnen einen Festpreis. Wird während des Projekts eine neue Funktion gewünscht, erstellen wir zuerst ein schriftliches Zusatzangebot; ohne Ihre Zustimmung fallen keine Mehrkosten an."
   },
   "cookieBanner": {
     "title": "Ihre Cookie-Einstellungen",

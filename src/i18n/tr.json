@@ -1116,6 +1116,10 @@
       "ecomMigrationCard": {
         "title": "Hazır E-Ticaret Paketinden Kendi Sitenize Geçiş: Ne Zaman, Nasıl, Maliyeti Ne? [2026]",
         "desc": "Aylık paketle kiralanan mağazadan kendi sitenize geçiş: geçiş zamanını gösteren işaretler, hazır paket ile size ait site karşılaştırması, 2026 maliyeti ve Google sıralamasını kaybetmeden geçişin 6 adımı."
+      },
+      "earsiv2027Card": {
+        "title": "1 Ocak 2027’de Kâğıt Fatura Kalkıyor: e-Arşiv Fatura Zorunluluğu Kimleri Kapsıyor?",
+        "desc": "Basit usul ve işletme hesabı mükellefleri için 3.000 TL’lik kâğıt fatura istisnası bitiyor: kimler etkileniyor, takvim, e-Arşiv fatura kesmenin 3 yolu ve yılbaşından önce yapılacaklar."
       }
     },
     "posts": {
@@ -2417,7 +2421,9 @@
       "q5": "GİB Portalı, özel entegratör ve doğrudan GİB bağlantısı arasındaki fark nedir?",
       "a5": "GİB Portalı az sayıda fatura kesenler içindir ve faturaları muhasebe programınıza kaydetmez. Özel entegratör Türkiye’de standart yöntemdir; lisans ve kontör ücretleri entegratöre ödenir. Doğrudan GİB bağlantısı ise yüksek fatura hacmi, donanım güvenlik modülü (HSM) ve 7/24 çalışan bir bilgi işlem ekibi gerektirir; ayrıca tekliflendirilir. Ozturksoft paket lisans satmaz, bağlantıyı sizin muhasebe programınıza kurar.",
       "q6": "Kontör ve E-Defter fiyata dahil mi?",
-      "a6": "Hayır. Yukarıdaki fiyatlar yazılım ve bağlantı işini kapsar. Entegratörün yıllık lisansı (yaklaşık 4.000–35.000 TL) ve belge başına ödenen kontör ücreti ayrıca ödenir. E-Defter bağlantısı 90.000–180.000 TL tutarında ek bir hizmettir. Tüm kalemler keşif görüşmesinden sonra yazılı teklifte ayrı ayrı belirtilir."
+      "a6": "Hayır. Yukarıdaki fiyatlar yazılım ve bağlantı işini kapsar. Entegratörün yıllık lisansı (yaklaşık 4.000–35.000 TL) ve belge başına ödenen kontör ücreti ayrıca ödenir. E-Defter bağlantısı 90.000–180.000 TL tutarında ek bir hizmettir. Tüm kalemler keşif görüşmesinden sonra yazılı teklifte ayrı ayrı belirtilir.",
+      "q7": "1 Ocak 2027’de kâğıt fatura tamamen kalkıyor mu?",
+      "a7": "Basit usul ve işletme hesabı mükellefleri için 3.000 TL’ye kadar kâğıt fatura düzenleme istisnası 31 Aralık 2026’da sona eriyor; 1 Ocak 2027’den itibaren tutarı ne olursa olsun faturaların e-Arşiv olarak düzenlenmesi gerekiyor. Bilanço esaslı mükellefler için bu kural 2026’dan beri geçerli. Satış sisteminizi e-Arşiv’e bağlayarak faturaların otomatik kesilmesini sağlayabiliriz; kendi durumunuz için mali müşavirinize de danışın."
     },
     "cta": {
       "btn": "Ücretsiz keşif görüşmesi",
@@ -2440,6 +2446,12 @@
       "s1l": "Tek muhasebe programına bağlantı",
       "s2l": "E-arşiv ve e-irsaliye dahil",
       "s3l": "Teslim süresi"
+    },
+    "y2027": {
+      "title": "1 Ocak 2027: kâğıt fatura dönemi bitiyor",
+      "p1": "589 Sıra No.lu VUK Genel Tebliği (Resmî Gazete, 31 Aralık 2025) ile basit usulde ve işletme hesabı esasına göre defter tutan mükellefler, e-Fatura sistemine kayıtlı olmayan alıcılara 3.000 TL’ye (vergiler dahil) kadar olan faturaları 31 Aralık 2026’ya kadar kâğıt olarak düzenleyebiliyor. <strong>1 Ocak 2027’den itibaren bu istisna sona eriyor; tutarı ne olursa olsun tüm faturaların e-Arşiv fatura olarak düzenlenmesi gerekiyor.</strong> Bilanço esasına göre defter tutan mükellefler için bu kural 1 Ocak 2026’dan beri geçerli.",
+      "p2": "Faturaları GİB portalından tek tek elle kesmek mümkün; ancak günde çok sayıda satış yapan bir işletme için bu hem zaman kaybı hem hata kaynağıdır. Satış programınızı, e-ticaret sitenizi veya muhasebe yazılımınızı e-Arşiv’e bağladığımızda her satışta fatura kendiliğinden oluşur ve müşterinize e-posta ile gider.",
+      "note": "Kimlerin etkilendiğini ve geçiş için yapılması gerekenleri <a href=\"/blog/e-arsiv-fatura-zorunlulugu-2027\">e-Arşiv fatura zorunluluğu 2027 rehberimizde</a> anlattık. Bu bilgiler tebliğe dayanır; kendi durumunuz için mali müşavirinize danışmanızı öneririz."
     }
   },
   "trendyolPage": {
@@ -2597,7 +2609,7 @@
   },
   "softwareFirmPage": {
     "meta": {
-      "title": "Ankara Yazılım Şirketi | Özel Yazılım & AI | Ozturksoft"
+      "title": "Ankara Yazılım Şirketi | Fiyatlar ve Yazılım Firması Seçimi | Ozturksoft"
     },
     "badge": "Çankaya, Ankara",
     "h1": "Ankara Yazılım Şirketi — Kurumlar, Kamu & Özel Sektör",
@@ -2718,7 +2730,26 @@
     "q7": "Kamu kurumlarıyla çalışıyor musunuz?",
     "a7": "Kamu kurumları için verinin kurum ağında kaldığı on-premise yapay zeka ve belge OCR çözümleri geliştiriyoruz. Ayrıntı: <a href=\"/ankara-kamu-yapay-zeka\">kamu yapay zeka çözümleri</a>.",
     "q8": "Teslimden sonra destek veriyor musunuz?",
-    "a8": "Her projede 30–90 gün ücretsiz hata düzeltme desteği vardır; sonrasında isteğe bağlı aylık bakım sözleşmesi yapılır."
+    "a8": "Her projede 30–90 gün ücretsiz hata düzeltme desteği vardır; sonrasında isteğe bağlı aylık bakım sözleşmesi yapılır.",
+    "ask": {
+      "title": "Teklif alırken yazılım firmasına sorulacak 8 soru",
+      "intro": "Ankara’daki yazılım firmalarından teklif toplarken bu soruların cevabını yazılı olarak isteyin. Cevapları net olmayan teklif, proje sırasında sürpriz maliyet demektir.",
+      "i1": "Kapsam ekran ekran yazılı mı, kapsam dışı işler nasıl fiyatlandırılıyor?",
+      "i2": "Ödeme aşamalara bölünüyor mu (peşinat ve teslim adımlarına göre)?",
+      "i3": "Kaynak kod, veritabanı ve dokümantasyon ne zaman devrediliyor?",
+      "i4": "Alan adı, sunucu ve üçüncü taraf hesaplar kimin adına açılıyor?",
+      "i5": "İşin bittiğine hangi kabul kriterleriyle karar verilecek?",
+      "i6": "Ücretsiz destek süresi ne kadar; sonrasında bakımın kapsamı ve arıza yanıt süresi ne?",
+      "i7": "İleride başka bir ekiple devam etmek isterseniz ne oluyor?",
+      "i8": "Kişisel veriler nerede saklanacak, KVKK sorumlulukları nasıl paylaşılıyor?",
+      "outro": "Ozturksoft’ta bu soruların cevapları teklifte ve sözleşmede yazılı olarak yer alır."
+    },
+    "q9": "Ankara’daki en iyi yazılım şirketleri hangileri?",
+    "a9": "Herkes için tek bir “en iyi” firma yoktur; projenize en uygun firma vardır. Ankara’daki yazılım firmalarını karşılaştırırken yazılı kapsam, kaynak kod devri, canlı referanslar, test süreci ve teslim sonrası destek şartlarına bakın; firmanın Clutch, GoodFirms ve Google yorumları gibi bağımsız profillerini de kontrol edin. Ozturksoft’un profillerine <a href=\"https://clutch.co/profile/ozturksoft\" target=\"_blank\" rel=\"noopener\">Clutch</a> ve <a href=\"https://www.goodfirms.co/company/ozturksoft\" target=\"_blank\" rel=\"noopener\">GoodFirms</a> üzerinden ulaşabilirsiniz.",
+    "q10": "Yazılım sözleşmesinde neler yazmalı?",
+    "a10": "Kapsam (ekran ve özellik listesi), toplam fiyat ve aşamalı ödeme planı, teslim takvimi, kabul kriterleri, kaynak kodun ne zaman devredileceği, alan adı ve sunucu hesaplarının kimin adına açılacağı, destek ve bakım şartları ile KVKK maddeleri. Yazılımın mali hakları kural olarak onu geliştiren tarafta doğar ve devrin geçerli olması için yazılı sözleşme gerekir (FSEK m. 52); bu yüzden kod devri mutlaka sözleşmede yazmalıdır.",
+    "q11": "Sabit fiyat veriyor musunuz, kapsam dışı işler nasıl ücretlendiriliyor?",
+    "a11": "Kapsam yazılı olarak netleştiğinde sabit fiyat veririz. Proje sırasında yeni bir özellik istenirse önce yazılı ek teklif hazırlanır; onayınız olmadan ek ücret çıkmaz."
   },
   "cookieBanner": {
     "title": "Çerez tercihleriniz",
