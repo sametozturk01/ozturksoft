@@ -2397,9 +2397,7 @@
       "q5": "Quelle différence entre le portail GİB, un intégrateur privé et une connexion directe à GİB ?",
       "a5": "Le portail GİB est destiné aux entreprises qui émettent peu de factures et ne les enregistre pas dans votre logiciel comptable. L’intégrateur privé est la méthode standard en Turquie ; la licence et les crédits sont payés à l’intégrateur. Une connexion directe à GİB exige un volume élevé de factures, un module de sécurité matériel (HSM) et une équipe informatique disponible 24/7 ; elle fait l’objet d’un devis séparé. Ozturksoft ne vend pas de licences en boîte : nous mettons en place la connexion dans votre logiciel comptable.",
       "q6": "Les crédits et l’e-Defter sont-ils inclus dans le prix ?",
-      "a6": "Non. Les prix ci-dessus couvrent le travail logiciel et de connexion. La licence annuelle de l’intégrateur (environ 4 000–35 000 TL) et les crédits par document sont payés à part. La connexion e-Defter est un service complémentaire de 90 000–180 000 TL. Chaque poste est détaillé dans le devis écrit après l’entretien de découverte.",
-      "q7": "La facture papier disparaît-elle complètement le 1er janvier 2027 ?",
-      "a7": "Pour les contribuables au régime simplifié et en comptabilité de trésorerie, l’exception permettant d’émettre des factures papier jusqu’à 3 000 TL prend fin le 31 décembre 2026 ; à compter du 1er janvier 2027, les factures doivent être émises en e-Arşiv, quel que soit leur montant. Pour les contribuables soumis au régime du bilan, cette règle s’applique depuis 2026. Nous pouvons connecter votre système de vente à e-Arşiv afin que les factures soient émises automatiquement ; consultez également votre expert-comptable pour votre situation particulière."
+      "a6": "Non. Les prix ci-dessus couvrent le travail logiciel et de connexion. La licence annuelle de l’intégrateur (environ 4 000–35 000 TL) et les crédits par document sont payés à part. La connexion e-Defter est un service complémentaire de 90 000–180 000 TL. Chaque poste est détaillé dans le devis écrit après l’entretien de découverte."
     },
     "cta": {
       "btn": "Entretien de découverte gratuit",
@@ -2422,12 +2420,6 @@
       "s1l": "Connexion à un logiciel comptable",
       "s2l": "E-archive et bon de livraison inclus",
       "s3l": "Délai de livraison"
-    },
-    "y2027": {
-      "title": "1er janvier 2027 : fin de la facture papier",
-      "p1": "En vertu du Communiqué général n° 589 relatif à la loi de procédure fiscale (VUK) (Journal officiel – Resmî Gazete, 31 décembre 2025), les contribuables relevant du régime simplifié (basit usul) et ceux tenant une comptabilité de trésorerie (işletme hesabı) peuvent émettre sur papier, jusqu’au 31 décembre 2026, les factures d’un montant maximal de 3 000 TL (taxes comprises) destinées à des acheteurs non inscrits au système e-Fatura. <strong>À compter du 1er janvier 2027, cette exception prend fin : toutes les factures, quel que soit leur montant, doivent être émises en tant que factures e-Arşiv.</strong> Pour les contribuables tenant leur comptabilité selon le régime du bilan, cette règle s’applique depuis le 1er janvier 2026.",
-      "p2": "Il est possible d’émettre les factures une par une sur le portail du GİB ; mais pour une entreprise qui réalise de nombreuses ventes par jour, c’est à la fois une perte de temps et une source d’erreurs. Lorsque nous connectons votre logiciel de vente, votre site e-commerce ou votre logiciel de comptabilité à e-Arşiv, la facture est générée automatiquement à chaque vente et envoyée par e-mail à votre client.",
-      "note": "Nous expliquons qui est concerné et ce qu’il faut faire pour la transition dans notre <a href=\"/blog/e-arsiv-fatura-zorunlulugu-2027\">guide sur l’obligation de facture e-Arşiv 2027</a> (en turc). Ces informations reposent sur le communiqué ; nous vous recommandons de consulter votre expert-comptable pour votre situation particulière."
     }
   },
   "trendyolPage": {

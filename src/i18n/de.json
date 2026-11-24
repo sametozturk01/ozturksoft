@@ -2397,9 +2397,7 @@
       "q5": "Was unterscheidet GİB-Portal, privaten Integrator und direkte GİB-Anbindung?",
       "a5": "Das GİB-Portal ist für Unternehmen mit wenigen Rechnungen gedacht und erfasst sie nicht in Ihrer Buchhaltungssoftware. Der private Integrator ist in der Türkei der Standardweg; Lizenz- und Kontör-Gebühren gehen an den Integrator. Eine direkte GİB-Anbindung setzt ein hohes Rechnungsvolumen, ein Hardware-Sicherheitsmodul (HSM) und ein rund um die Uhr (24/7) verfügbares IT-Team voraus; sie wird gesondert angeboten. Ozturksoft verkauft keine Paketlizenzen, sondern richtet die Anbindung in Ihrer Buchhaltungssoftware ein.",
       "q6": "Sind Kontör und e-Defter im Preis enthalten?",
-      "a6": "Nein. Die obigen Preise umfassen die Software- und Anbindungsarbeit. Die Jahreslizenz des Integrators (ca. 4.000–35.000 TL) und die Kontör-Gebühren pro Beleg werden gesondert bezahlt. Die e-Defter-Anbindung ist eine Zusatzleistung für 90.000–180.000 TL. Alle Posten werden nach dem Erstgespräch einzeln im schriftlichen Angebot aufgeführt.",
-      "q7": "Wird die Papierrechnung am 1. Januar 2027 vollständig abgeschafft?",
-      "a7": "Für Steuerpflichtige mit vereinfachter Gewinnermittlung und einfacher Buchführung endet die Ausnahme für Papierrechnungen bis 3.000 TL am 31. Dezember 2026; ab dem 1. Januar 2027 müssen Rechnungen unabhängig vom Betrag als e-Arşiv-Rechnung ausgestellt werden. Für bilanzierende Steuerpflichtige gilt diese Regel bereits seit 2026. Wir können Ihr Verkaufssystem an e-Arşiv anbinden, sodass Rechnungen automatisch ausgestellt werden; bitte sprechen Sie für Ihre individuelle Situation auch mit Ihrem Steuerberater."
+      "a6": "Nein. Die obigen Preise umfassen die Software- und Anbindungsarbeit. Die Jahreslizenz des Integrators (ca. 4.000–35.000 TL) und die Kontör-Gebühren pro Beleg werden gesondert bezahlt. Die e-Defter-Anbindung ist eine Zusatzleistung für 90.000–180.000 TL. Alle Posten werden nach dem Erstgespräch einzeln im schriftlichen Angebot aufgeführt."
     },
     "cta": {
       "btn": "Kostenloses Erstgespräch",
@@ -2422,12 +2420,6 @@
       "s1l": "Anbindung an ein Buchhaltungssystem",
       "s2l": "Inklusive E-Archiv und E-Lieferschein",
       "s3l": "Lieferzeit"
-    },
-    "y2027": {
-      "title": "1. Januar 2027: Das Ende der Papierrechnung",
-      "p1": "Nach dem Allgemeinen Kommuniqué Nr. 589 zum Steuerverfahrensgesetz (VUK) (Amtsblatt Resmî Gazete, 31. Dezember 2025) dürfen Steuerpflichtige mit vereinfachter Gewinnermittlung (basit usul) und mit einfacher Buchführung (işletme hesabı) Rechnungen bis 3.000 TL (inklusive Steuern) an Empfänger, die nicht im e-Fatura-System registriert sind, noch bis zum 31. Dezember 2026 auf Papier ausstellen. <strong>Ab dem 1. Januar 2027 entfällt diese Ausnahme; alle Rechnungen müssen unabhängig vom Betrag als e-Arşiv-Rechnung ausgestellt werden.</strong> Für bilanzierende Steuerpflichtige gilt diese Regel bereits seit dem 1. Januar 2026.",
-      "p2": "Sie können Rechnungen einzeln von Hand über das GİB-Portal ausstellen; für ein Unternehmen mit vielen Verkäufen pro Tag kostet das jedoch Zeit und ist fehleranfällig. Wenn wir Ihr Verkaufsprogramm, Ihren Onlineshop oder Ihre Buchhaltungssoftware an e-Arşiv anbinden, wird bei jedem Verkauf automatisch eine Rechnung erstellt und per E-Mail an Ihren Kunden gesendet.",
-      "note": "Wer betroffen ist und was für die Umstellung zu tun ist, erläutern wir in unserem <a href=\"/blog/e-arsiv-fatura-zorunlulugu-2027\">Leitfaden zur e-Arşiv-Rechnungspflicht 2027</a> (auf Türkisch). Diese Angaben beruhen auf dem Kommuniqué; für Ihre individuelle Situation empfehlen wir Ihnen, Ihren Steuerberater zu konsultieren."
     }
   },
   "trendyolPage": {

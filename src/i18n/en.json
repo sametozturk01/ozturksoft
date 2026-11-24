@@ -2397,9 +2397,7 @@
       "q5": "What is the difference between the GİB Portal, a private integrator and a direct GİB connection?",
       "a5": "The GİB Portal is meant for businesses that issue few invoices and does not record them in your accounting software. A private integrator is the standard approach in Turkey; licence and credit fees are paid to the integrator. A direct GİB connection requires high invoice volume, a hardware security module (HSM) and an IT team working 24/7; it is quoted separately. Ozturksoft does not sell boxed licences; it builds the connection into your accounting software.",
       "q6": "Are credits and e-Ledger included in the price?",
-      "a6": "No. The prices above cover the software and connection work. The integrator’s annual licence (roughly 4,000–35,000 TL) and per-document credits are paid separately. The e-Ledger connection is an add-on service costing 90,000–180,000 TL. Every item is listed separately in the written quote after the discovery call.",
-      "q7": "Will paper invoices disappear completely on 1 January 2027?",
-      "a7": "For simplified-method and business-account taxpayers, the exception allowing paper invoices of up to 3,000 TL ends on 31 December 2026; from 1 January 2027, invoices must be issued as e-Arşiv invoices whatever their amount. For balance-sheet basis taxpayers, this rule has applied since 2026. We can connect your sales system to e-Arşiv so that invoices are issued automatically; please also consult your accountant about your own situation."
+      "a6": "No. The prices above cover the software and connection work. The integrator’s annual licence (roughly 4,000–35,000 TL) and per-document credits are paid separately. The e-Ledger connection is an add-on service costing 90,000–180,000 TL. Every item is listed separately in the written quote after the discovery call."
     },
     "cta": {
       "btn": "Free discovery call",
@@ -2422,12 +2420,6 @@
       "s1l": "Connection to one accounting system",
       "s2l": "Including e-archive and e-dispatch",
       "s3l": "Delivery time"
-    },
-    "y2027": {
-      "title": "1 January 2027: the end of paper invoices",
-      "p1": "Under Tax Procedure Law General Communiqué No. 589 (VUK) (Official Gazette, 31 December 2025), simplified-method taxpayers and taxpayers keeping business-account (single-entry) books may issue paper invoices of up to 3,000 TL (taxes included) to buyers not registered in the e-Fatura system until 31 December 2026. <strong>From 1 January 2027 this exception ends; every invoice, whatever its amount, must be issued as an e-Arşiv invoice.</strong> For taxpayers keeping books on a balance-sheet basis, this rule has applied since 1 January 2026.",
-      "p2": "You can issue invoices one by one on the GİB portal, but for a business with many sales a day this wastes time and invites errors. Once we connect your sales software, e-commerce site or accounting software to e-Arşiv, an invoice is created automatically with every sale and emailed to your customer.",
-      "note": "We explain who is affected and what to do before the switch in our <a href=\"/blog/e-arsiv-fatura-zorunlulugu-2027\">guide to the 2027 e-Arşiv invoice requirement</a> (in Turkish). This information is based on the communiqué; we recommend consulting your accountant about your own situation."
     }
   },
   "trendyolPage": {

@@ -469,6 +469,11 @@
       "permanent": true
     },
     {
+      "source": "/blog/e-arsiv-fatura-zorunlulugu-2027",
+      "destination": "/e-fatura-entegrasyonu",
+      "permanent": true
+    },
+    {
       "source": "/spam-update",
       "destination": "/google-spam-update-cezasi-kurtarma",
       "permanent": true
