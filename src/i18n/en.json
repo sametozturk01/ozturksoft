@@ -641,7 +641,8 @@
       "salesAi": "AI customer service",
       "dashboard": "Reporting dashboards",
       "saas": "SaaS development",
-      "voiceAi": "AI voice assistant"
+      "voiceAi": "AI voice assistant",
+      "kvkkAudit": "KVKK compliance audit"
     }
   },
   "aiFirmPage": {
@@ -666,7 +667,7 @@
     "linkAgent": "AI agent →",
     "cards": {
       "llmT": "LLM and GPT integration",
-      "llmD": "We turn OpenAI, Claude or Llama models into a company assistant that answers from your own data (RAG).",
+      "llmD": "We turn OpenAI, Gemini, Claude or Llama models into a company assistant that answers from your own data (RAG).",
       "llmL": "AI integration →",
       "agentT": "AI agent development",
       "agentD": "We build AI assistants that connect to your CRM, ERP and other systems and carry out multi-step tasks on their own.",
@@ -760,7 +761,9 @@
       "sw": "The same team builds the software the AI connects to (ERP, CRM, web, mobile): <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">Ankara software company</a>.",
       "r7": "In-house AI (private company ChatGPT)",
       "r8": "Tender document analysis"
-    }
+    },
+    "q9": "Can we use Gemini instead of ChatGPT?",
+    "a9": "Yes. The model is chosen to fit your needs: Gemini is a natural fit for companies that use Google Workspace, ChatGPT or Claude for others, and open-source models such as Llama for on-premise installations. Because the integration is built to be model-independent, you can switch models later; usage is billed by the model provider."
   },
   "aiPage": {
     "hero": {
@@ -2036,9 +2039,9 @@
   },
   "yzEntegrasyonPage": {
     "hero": {
-      "badge": "ChatGPT · GPT · Claude · RAG · KVKK · +90 546 549 6806",
+      "badge": "ChatGPT · GPT · Gemini · Claude · RAG · KVKK · +90 546 549 6806",
       "title": "AI Integration",
-      "desc": "We connect an AI model such as ChatGPT (GPT), Claude or Llama to the software you already use. The model can then answer from your company documents (RAG), work as a chatbot on your website, or stay on your own server to meet KVKK requirements. This is different from opening a ChatGPT account: the model is linked to your systems and workflows through an API (the connection that lets systems talk to each other), and access rights are defined. Ozturksoft builds each project from Çankaya around your needs; the discovery meeting is free and the quote is in writing. If you would like to read first: <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">LLM guide</a> · <a href=\"/blog/ankara-llm-entegrasyonu-maliyeti-2026\" style=\"color:#818cf8\">cost article</a>."
+      "desc": "We connect an AI model such as ChatGPT (GPT), Gemini, Claude or Llama to the software you already use. The model can then answer from your company documents (RAG), work as a chatbot on your website, or stay on your own server to meet KVKK requirements. This is different from opening a ChatGPT account: the model is linked to your systems and workflows through an API (the connection that lets systems talk to each other), and access rights are defined. Ozturksoft builds each project from Çankaya around your needs; the discovery meeting is free and the quote is in writing. If you would like to read first: <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">LLM guide</a> · <a href=\"/blog/ankara-llm-entegrasyonu-maliyeti-2026\" style=\"color:#818cf8\">cost article</a>."
     },
     "pricing": {
       "title": "AI integration price (2026)",
@@ -2054,7 +2057,7 @@
     },
     "cards": {
       "c1title": "Connecting ChatGPT to your software",
-      "c1desc": "We connect an OpenAI, Claude or Llama model to your business software via API. Permissions, logs and answer templates follow your processes, so your team no longer has to copy and paste into ChatGPT.",
+      "c1desc": "We connect an OpenAI, Gemini, Claude or Llama model to your business software via API. Permissions, logs and answer templates follow your processes, so your team no longer has to copy and paste into ChatGPT.",
       "c1link": "Book a discovery meeting →",
       "c2title": "Answers from company documents (RAG)",
       "c2desc": "Your procedures, price lists and documents become the AI’s source. Instead of guessing, the model answers from your own texts; an internal company assistant works this way.",
@@ -2086,7 +2089,9 @@
       "q4": "Can I also have a chatbot or an AI agent built?",
       "a4": "Yes. For a chat assistant on your website see <a href=\"/chatbot-yaptirmak\" style=\"color:#818cf8\">have a chatbot built</a>, for WhatsApp <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp chatbot</a>, and for an AI that carries out tasks on its own <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a>.",
       "q5": "How much is the monthly API / token fee?",
-      "a5": "The setup fee (40,000–500,000+ TL) is paid once. On top of that, models such as OpenAI, Claude, Azure OpenAI or Gemini have a monthly token fee (tokens measure the amount of text the model processes): 12,000–35,000 TL/month for a lightly used bot, 35,000–90,000 TL/month for a heavily used RAG assistant. Meta’s WhatsApp conversation fees are explained on the WhatsApp chatbot page. If you install the system on your own server, server/GPU costs replace token fees. Discovery is free; the exact amount depends on your usage volume."
+      "a5": "The setup fee (40,000–500,000+ TL) is paid once. On top of that, models such as OpenAI, Claude, Azure OpenAI or Gemini have a monthly token fee (tokens measure the amount of text the model processes): 12,000–35,000 TL/month for a lightly used bot, 35,000–90,000 TL/month for a heavily used RAG assistant. Meta’s WhatsApp conversation fees are explained on the WhatsApp chatbot page. If you install the system on your own server, server/GPU costs replace token fees. Discovery is free; the exact amount depends on your usage volume.",
+      "q6": "Can we use Gemini instead of ChatGPT?",
+      "a6": "Yes. The model is chosen to fit your needs: Gemini is a natural fit for companies that use Google Workspace, ChatGPT or Claude for others, and open-source models such as Llama for on-premise installations. Because the integration is built to be model-independent, you can switch models later; usage is billed by the model provider."
     },
     "cta": {
       "btn": "Free discovery call",
@@ -2117,7 +2122,7 @@
     "hero": {
       "badge": "Web · GPT · CRM · KVKK · +90 546 549 6806",
       "title": "Have a Chatbot Built",
-      "desc": "We set up a chatbot on your website that answers your customers’ questions 24/7. It talks in natural language with GPT and draws its answers from your company documents (RAG). Ozturksoft prepares each chatbot from Çankaya around your business; the discovery meeting is free and the quote is in writing. For WhatsApp: <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">have a WhatsApp chatbot built</a>. Costs: <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">chatbot costs</a>."
+      "desc": "We set up a chatbot on your website that answers your customers’ questions 24/7. It talks in natural language using a model such as ChatGPT (GPT), Gemini or Claude and draws its answers from your company documents (RAG). Ozturksoft prepares each chatbot from Çankaya around your business; the discovery meeting is free and the quote is in writing. For WhatsApp: <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">have a WhatsApp chatbot built</a>. Costs: <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">chatbot costs</a>."
     },
     "pricing": {
       "title": "Chatbot price (2026)",
@@ -2147,7 +2152,7 @@
     },
     "who": {
       "title": "Who is a chatbot right for?",
-      "intro": "A chatbot is a chat assistant on your website or portal that answers your customers’ questions 24/7. An AI chatbot powered by GPT replies in natural language using your company information. Ozturksoft builds each chatbot around your scenarios, the GPT model to be used and your CRM system, and hands it over with written documentation.",
+      "intro": "A chatbot is a chat assistant on your website or portal that answers your customers’ questions 24/7. An AI chatbot powered by a model such as GPT or Gemini replies in natural language using your company information. Ozturksoft builds each chatbot around your scenarios, the model to be used (GPT, Gemini or Claude) and your CRM system, and hands it over with written documentation.",
       "i1": "Your customer service is closed outside working hours. You want the chatbot on your site to answer shipping, returns and frequent questions, and to pass difficult ones to your team.",
       "i2": "You want an assistant that answers from your product catalogue with GPT. A ChatGPT account is not enough; you need a chat window on your site, access rights and a setup that answers from your documents (RAG).",
       "i3": "You are thinking about WhatsApp too, but want to start with your website. WhatsApp can be added later as a <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp chatbot</a> that uses the same assistant.",
@@ -2163,7 +2168,9 @@
       "q3": "What is the difference between a chatbot and an AI agent?",
       "a3": "A chatbot answers questions. An AI agent uses tools to do the work itself: it sends emails, enters CRM records and creates orders. Details on our <a href=\"/ai-agent\" style=\"color:#2dd4bf\">AI agent</a> page.",
       "q4": "Does our data leave the company?",
-      "a4": "It doesn’t have to. The system can be installed on your own server (on-premise) or hosted in Turkey. The AI layer is built on the same KVKK-compliant architecture as our <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">AI integration</a> service."
+      "a4": "It doesn’t have to. The system can be installed on your own server (on-premise) or hosted in Turkey. The AI layer is built on the same KVKK-compliant architecture as our <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">AI integration</a> service.",
+      "q5": "Can our chatbot use Gemini instead of ChatGPT?",
+      "a5": "Yes. The model is chosen to fit your needs: Gemini is a natural fit for companies that use Google Workspace, ChatGPT or Claude for others, and open-source models such as Llama where data must stay in-house. Because the chatbot is built to be model-independent, you can switch models later; usage is billed by the model provider."
     },
     "cta": {
       "btn": "Free discovery call",
@@ -2223,7 +2230,7 @@
     },
     "who": {
       "title": "Who is an AI agent for?",
-      "intro": "An AI agent means that AI does more than talk: it gets work done using tools such as email, CRM or ERP. It is also known as “autonomous AI”. Instead of selling a ready-made package, Ozturksoft works out with you which tasks the agent will handle, what permissions it will have and at which steps it must ask for approval, and delivers all of this in writing.",
+      "intro": "An AI agent means that AI (for example ChatGPT, Gemini or Claude) does more than talk: it gets work done using tools such as email, CRM or ERP. It is also known as “autonomous AI”. Instead of selling a ready-made package, Ozturksoft works out with you which tasks the agent will handle, what permissions it will have and at which steps it must ask for approval, and delivers all of this in writing.",
       "i1": "Support requests and emails are still sorted by hand. You want the agent to classify incoming messages, draft replies and create CRM records, with one of your employees approving any uncertain entries.",
       "i2": "Your customers talk to a bot about orders or appointments, but the information never reaches your system. You want the agent to create the record directly through an API, with the same team setting up the Logo or Netsis connection.",
       "i3": "You are a public institution or holding company, and your data must stay in your network. The system runs on your own servers, uses MCP, a standard for connecting AI securely to your systems, and logs every action for audits. The model is chosen during discovery.",
@@ -2239,7 +2246,9 @@
       "q3": "Does the agent work without supervision?",
       "a3": "No. At critical steps, one of your employees always makes the final decision. A log of every action and clear permissions for who may do what are part of the delivery.",
       "q4": "Can it connect to our ERP?",
-      "a4": "Yes. It can connect to <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">Logo, Netsis</a> and other software that offers an API. Important actions are sent for your approval first so that no incorrect documents are created."
+      "a4": "Yes. It can connect to <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">Logo, Netsis</a> and other software that offers an API. Important actions are sent for your approval first so that no incorrect documents are created.",
+      "q5": "Can the agent run on Gemini instead of ChatGPT?",
+      "a5": "Yes. The model is chosen to fit your needs: Gemini is a natural fit for companies that use Google Workspace, ChatGPT or Claude for others, and open-source models such as Llama for on-premise installations. Because the agent is built to be model-independent, you can switch models later; usage is billed by the model provider."
     },
     "cta": {
       "btn": "Free discovery call",
@@ -2257,7 +2266,7 @@
       "guide": "Guide"
     },
     "meta": {
-      "title": "Have an AI Agent Built | Autonomous AI | Ozturksoft"
+      "title": "AI Agent Development: 2026 Prices from 60,000 TL | Ozturksoft"
     },
     "stats": {
       "s1l": "Pilot project (PoC)",
@@ -2536,12 +2545,12 @@
       "c3desc": "We clarify whether your data would leave the company and whether the system needs to run on your own servers. For <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">public institutions</a> and holding companies we also prepare an architecture recommendation.",
       "c3link": "KVKK guide →",
       "c4title": "Then implementation",
-      "c4desc": "Once the decision is clear, the same team in Çankaya builds the <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">AI agent</a> or large language model (LLM) project.",
+      "c4desc": "Once the decision is clear, the same team in Çankaya builds the <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">AI agent</a> or large language model (LLM; e.g. ChatGPT, Gemini or Claude) project.",
       "c4link": "AI company →"
     },
     "who": {
       "title": "Who is AI consulting for?",
-      "intro": "AI consulting is for companies that want to use AI but do not yet know where to start. If you already know what you need, such as a ChatGPT integration, you can go straight to our implementation service. Ozturksoft first draws up the roadmap, and if you wish, the same team carries out the implementation.",
+      "intro": "AI consulting is for companies that want to use AI but do not yet know where to start. If you already know what you need, such as a ChatGPT or Gemini integration, you can go straight to our implementation service. Ozturksoft first draws up the roadmap, and if you wish, the same team carries out the implementation.",
       "i1": "Management wants AI, but nobody knows which process to start with. You want a 90-day plan and a budget range in writing.",
       "i2": "You bought a ready-made bot, but it did not fit your business. You want to prove the right scenario with a small pilot project (PoC) first, and then move on to a <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">chatbot</a> or <a href=\"/ai-agent\" style=\"color:#38bdf8\">AI agent</a> project.",
       "i3": "You are a company or public institution that processes sensitive data under KVKK. During discovery we determine in writing whether the system must run on your own servers; implementation is then done through our <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">AI integration</a> or <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">AI for public institutions</a> service.",
@@ -2557,7 +2566,9 @@
       "q3": "Do you only deliver a presentation?",
       "a3": "No. You receive a process list, cost ranges and a 90-day implementation sequence in writing. If you wish, the same team also carries out the implementation.",
       "q4": "Is discovery really free?",
-      "a4": "Yes. The meeting takes 45–90 minutes and does not commit you to anything. Fill in the <a href=\"/iletisim\" style=\"color:#38bdf8\">contact form</a> or call <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>."
+      "a4": "Yes. The meeting takes 45–90 minutes and does not commit you to anything. Fill in the <a href=\"/iletisim\" style=\"color:#38bdf8\">contact form</a> or call <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>.",
+      "q5": "Can we use Gemini instead of ChatGPT?",
+      "a5": "Yes. In consulting we choose the model with you to fit your needs: Gemini is a natural fit for companies that use Google Workspace, ChatGPT or Claude for others, and open-source models such as Llama are recommended for on-premise installations. Because the architecture in the roadmap is designed to be model-independent, the model can be changed later; usage is billed by the model provider."
     },
     "cta": {
       "btn": "Free discovery call",
@@ -3393,7 +3404,7 @@
     "what": {
       "title": "What is it?",
       "p1": "An employee types <em>“What is the late-delivery penalty in our contract with company X?”</em> or <em>“How do I apply for annual leave?”</em>. The AI finds the answer in your contracts, procedures and regulations, gives a short, clear reply and shows <strong>which document and section it came from</strong>.",
-      "p2": "The difference: this assistant does not run on a server abroad like ChatGPT, but on <strong>your own server</strong>. Your documents, questions and answers stay inside your network. It is built with open-source language models (such as Llama, Qwen and Mistral) and a searchable knowledge base of your documents (RAG)."
+      "p2": "The difference: this assistant does not run on a server abroad like ChatGPT or Gemini, but on <strong>your own server</strong>. Your documents, questions and answers stay inside your network. It is built with open-source language models (such as Llama, Qwen and Mistral) and a searchable knowledge base of your documents (RAG)."
     },
     "cmp": {
       "title": "How it differs from public ChatGPT",
@@ -3456,7 +3467,7 @@
     },
     "note": {
       "title": "To be honest",
-      "p1": "Open-source models running in-house are not as broadly knowledgeable as the latest ChatGPT. But for questions grounded in your documents, which is this system's real job, they are usually sufficient and consistent. The pilot exists to measure exactly that with your documents, before any large investment.",
+      "p1": "Open-source models running in-house are not as broadly knowledgeable as the latest ChatGPT or Gemini. But for questions grounded in your documents, which is this system's real job, they are usually sufficient and consistent. The pilot exists to measure exactly that with your documents, before any large investment.",
       "p2": "Under KVKK, an in-house deployment removes data-transfer risk, but data inventory, access rights and logging still need planning. Details: <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#60a5fa\">KVKK-compliant AI guide</a>."
     },
     "faq": {
@@ -3472,7 +3483,9 @@
       "q5": "Which documents does it work with?",
       "a5": "PDF, Word, Excel, email archives, EDMS and document management systems. Scanned documents are converted to text with OCR first. Details: <a href=\"/ocr-belge-okuma\" style=\"color:#60a5fa\">OCR and document reading</a>.",
       "q6": "Can everyone see every document?",
-      "a6": "No. Permissions are department- and role-based; users only get answers from documents they are authorized to access."
+      "a6": "No. Permissions are department- and role-based; users only get answers from documents they are authorized to access.",
+      "q7": "Can we use Gemini instead of ChatGPT?",
+      "a7": "Yes, the model is chosen to fit your needs. If data must stay inside your network, an open-source model such as Llama is installed on your server; if processing in the cloud is acceptable, Gemini is a natural fit for companies using Google Workspace, and ChatGPT or Claude for others. Because the system is built to be model-independent, the model can be changed later; with cloud models, usage is billed by the model provider."
     },
     "cta": {
       "btn": "Free discovery call",
@@ -5512,5 +5525,118 @@
       "crm": "CRM software development"
     },
     "footer": "© 2026 Ozturksoft — AI Voice Assistant, Ankara"
+  },
+  "kvkkAuditPage": {
+    "meta": {
+      "title": "KVKK Compliance Audit for Websites and Apps | Ozturksoft"
+    },
+    "hero": {
+      "badge": "KVKK · Cookie consent · Security check · Sites built with AI",
+      "title": "KVKK Compliance Audit",
+      "desc": "If your website or app was built with AI tools or quickly by a freelancer, cookie consent, forms and database settings often go live without anyone checking them. We technically review your website's and app's KVKK compliance and basic security, and give you a written report with a prioritised fix list. Team based in Çankaya, Ankara; free discovery call.",
+      "btn": "Free discovery call"
+    },
+    "stats": {
+      "s1l": "Website KVKK and security audit",
+      "s2l": "Web or mobile app audit",
+      "s3l": "Time for a website audit"
+    },
+    "symptoms": {
+      "title": "Does any of this sound familiar?",
+      "i1": "I built my site with Lovable, Bolt or Cursor; it works, but I do not know whether it is KVKK-compliant or secure.",
+      "i2": "We have a cookie banner, but Google Analytics and ad tags may be running before the visitor consents.",
+      "i3": "Our contact and application forms have no privacy notice or consent checkbox, or we do not know what to put there.",
+      "i4": "What people type into our forms goes to an AI service (OpenAI, Gemini, Claude), but we do not tell users.",
+      "i5": "The person who built the app has left; we do not know who can log in to the admin panel or whether the database is open.",
+      "i6": "A large customer or institution is asking for our KVKK and security status in writing before working with us.",
+      "note": "Important: this is a technical compliance and security audit, not legal advice. We recommend finalising legal matters such as the privacy notice (aydınlatma metni), explicit consent wording and any VERBİS obligation with a lawyer; our report contains the technical findings that make your lawyer's work easier."
+    },
+    "pricing": {
+      "title": "KVKK compliance audit prices (2026)",
+      "intro": "The price ranges below apply to 2026; the exact price is set in a written quote after the free discovery call.",
+      "row1": "Website KVKK and security audit",
+      "t1": "1–2 weeks",
+      "d1": "Cookie consent and tracking tags, the notice and consent flow on forms, keys exposed in the browser and basic security settings; written report and prioritised fix list.",
+      "row2": "App audit (web/mobile, AI-connected)",
+      "t2": "2–4 weeks",
+      "d2": "Everything in the website audit, plus database access rules, login and permission structure, admin panel, file uploads, logs and the data sent to AI services.",
+      "row3": "Audit + fixes",
+      "t3": "3–6 weeks",
+      "d3": "Ozturksoft fixes the issues found in the audit: cookie consent, consent records, encryption, access rules and permissions; then we re-check and update the report.",
+      "monthly": "The audit is a one-off service with no monthly fee. If you want regular checks and updates afterwards, our <a href=\"/yazilim-bakim-destek-hizmeti\">software maintenance and support</a> service has a fixed fee of 5,000–10,000 TL/month."
+    },
+    "cards": {
+      "title": "What do we check?",
+      "c1t": "Cookie consent and tracking tags",
+      "c1d": "We test whether Google Analytics, Meta Pixel and ad tags run before the visitor consents, whether consent is recorded and whether the \"reject\" option actually works.",
+      "c2t": "Forms: privacy notice and consent",
+      "c2d": "On contact, quote, sign-up and application forms we check whether the privacy notice is shown, whether explicit consent is asked separately and not pre-ticked, and where that consent is stored.",
+      "c3t": "Data sent to AI services",
+      "c3d": "We map which personal data your forms, chatbot or automations send to services abroad such as OpenAI (GPT), Google Gemini or Anthropic Claude, and whether users are told about it.",
+      "c4t": "Exposed API keys and secrets",
+      "c4d": "A common problem in code written with AI tools: keys for payment, email or AI services (an API key is the password for accessing a service) are embedded in the code sent to the browser, where anyone can see them. We look for these.",
+      "c5t": "Database, admin panel and permissions",
+      "c5d": "We check whether database access rules have been left open (for example, whether row-level security, which lets each user see only their own records, is turned off), whether the admin panel is protected by a proper login, and who can see which data.",
+      "c6t": "Encryption, logs and file uploads",
+      "c6d": "We check whether passwords and personal data are stored unencrypted, what the logs (system records) keep and for how long, and whether uploaded files sit somewhere anyone can open them."
+    },
+    "integr": {
+      "title": "It does not matter which tool was used",
+      "p1": "Your site or app may have been built with an AI site builder, by a freelancer or by an agency; we work with access to the live site and, where possible, the source code. During the review we use a test environment where possible and sign a confidentiality agreement.",
+      "i1": "Sites and apps built with AI coding tools: Cursor, Lovable, Bolt, v0, Replit and similar",
+      "i2": "Ready-made site platforms: WordPress, Shopify and similar systems, their plugins and added code",
+      "i3": "Database and back-end (server-side) services: Supabase, Firebase or a database on your own server",
+      "i4": "AI connections: forms, chatbots and automations running on OpenAI (GPT), Google Gemini, Anthropic Claude or open-source models (Llama)",
+      "i5": "Analytics and marketing tags: Google Analytics, Google Tag Manager, Meta Pixel, ad and live-chat scripts"
+    },
+    "steps": {
+      "title": "How does the audit work?",
+      "s1t": "1. Free discovery",
+      "s1d": "We talk about your site or app, which data you collect and which services you use, and tell you openly whether a full audit is needed.",
+      "s2t": "2. Written scope and quote",
+      "s2d": "We set out in writing which pages, forms and systems will be reviewed, the timeline and the price, and agree on access and confidentiality together.",
+      "s3t": "3. Technical review",
+      "s3d": "We use automated scanning tools, but an expert verifies every finding by hand; we check cookies, forms, database rules and code one by one.",
+      "s4t": "4. Report and walkthrough",
+      "s4d": "You receive a report in plain language and a fix list sorted by urgency; we go through the findings with you and, if you wish, with your lawyer.",
+      "s5t": "5. Fixes and re-check",
+      "s5d": "Your own team can make the fixes or you can leave them to Ozturksoft; once they are done we re-check and update the report."
+    },
+    "notfor": {
+      "title": "Who is this not for?",
+      "p1": "A simple brochure site with no forms, no visitor tracking and no ad tags usually does not need a full audit; a short check is enough, and we will tell you so in the discovery call. If you only want legal texts written, the right person is a lawyer; we review the technical side."
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "q1": "Is the site I built with AI compliant with KVKK?",
+      "a1": "It is impossible to say without looking; AI tools produce a working site, but they do not set up cookie consent, the privacy notice or database access rules correctly on their own. The problems we see most often are analytics tags running without consent, API keys exposed in the browser and database rules left open. A website audit answers this question in writing within 1–2 weeks, for 30,000–60,000 TL.",
+      "q2": "How much does a KVKK compliance audit cost?",
+      "a2": "For 2026, a website KVKK and security audit costs 30,000–60,000 TL, an audit of an AI-connected web or mobile app 60,000–120,000 TL, and an audit combined with fixes 120,000–250,000+ TL. The price depends on the number of forms, pages and systems; we give the exact price in a written quote after the discovery call. There is no monthly fee for the audit.",
+      "q3": "Is it a problem to use Google Analytics without cookie consent?",
+      "a3": "Analytics and advertising cookies are not considered strictly necessary, so they are generally expected not to run before the user consents. What we check technically is whether these tags really stay off before consent, whether the \"reject\" option works and whether consent is recorded. Ozturksoft uses the same approach on its own site: analytics cookies do not run before consent and a consent record is kept (<a href=\"/gizlilik\">our cookie and KVKK notice</a>). The legal assessment for your site should come from your lawyer.",
+      "q4": "What should I do if the forms on my site send data to AI?",
+      "a4": "First you need to know which data goes to which service (such as OpenAI, Google Gemini or Anthropic Claude) and to which country; we map this in the audit. We then suggest steps such as stripping unnecessary personal data before sending, informing users on the form and asking for explicit consent where needed; you finalise the wording with your lawyer. If the data must not leave the country at all, running the AI <a href=\"/kurum-ici-yapay-zeka\">on your own on-premise server</a> is also an option.",
+      "q5": "How long does the audit take?",
+      "a5": "A website audit usually takes 1–2 weeks, and an audit of an AI-connected web or mobile app 2–4 weeks. If the audit and fixes are done together, the total is 3–6 weeks. The timeline also depends on how quickly access (live site, source code, database) is provided.",
+      "q6": "Do you also provide legal advice?",
+      "a6": "No; we are a software team and our work is a technical compliance and security audit. We recommend finalising the wording of the privacy notice and consent texts, and whether VERBİS registration is required, with a lawyer. Our report sets out clearly the technical facts your lawyer needs for these decisions (which data goes where, where it is stored, who can see it).",
+      "q7": "Will you make the fixes after the audit?",
+      "a7": "Yes, if you want. When you take the audit and fixes together, the work costs 120,000–250,000+ TL and takes 3–6 weeks; we fix cookie consent, consent records, encryption, access rules and permissions, then re-check. You can also hand the report to your own team; for ongoing checks, our <a href=\"/yazilim-bakim-destek-hizmeti\">maintenance and support</a> service is 5,000–10,000 TL per month.",
+      "q8": "Who does not need this?",
+      "a8": "A simple brochure site with no forms, no visitor tracking, no ad tags and no personal data collection usually does not need a full audit; a short check is enough. If that is your situation, we will tell you so openly in the discovery call. If you have forms, accounts, payments, an AI connection or an app that stores customer data, an audit makes sense."
+    },
+    "cta": {
+      "title": "Find out where your site stands on KVKK and security",
+      "desc": "In a free discovery call we look at your site or app together and tell you openly whether you need a full audit or just a short check. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Get a quote for a KVKK audit"
+    },
+    "related": {
+      "maint": "Software maintenance and support",
+      "qa": "QA and testing service",
+      "unfinished": "Unfinished software projects",
+      "onprem": "On-premise AI",
+      "privacy": "Our cookie and KVKK notice"
+    },
+    "footer": "© 2026 Ozturksoft — KVKK Compliance Audit, Ankara"
   }
 }

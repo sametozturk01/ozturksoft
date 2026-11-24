@@ -641,7 +641,8 @@
       "salesAi": "Service client automatisé par IA",
       "dashboard": "Tableaux de bord",
       "saas": "Développement SaaS",
-      "voiceAi": "Assistant vocal IA"
+      "voiceAi": "Assistant vocal IA",
+      "kvkkAudit": "Audit de conformité KVKK"
     }
   },
   "aiFirmPage": {
@@ -666,7 +667,7 @@
     "linkAgent": "Agent IA →",
     "cards": {
       "llmT": "Intégration LLM et GPT",
-      "llmD": "Nous transformons les modèles OpenAI, Claude ou Llama en un assistant d’entreprise qui répond à partir de vos propres données (RAG).",
+      "llmD": "Nous transformons les modèles OpenAI, Gemini, Claude ou Llama en un assistant d’entreprise qui répond à partir de vos propres données (RAG).",
       "llmL": "Intégration IA →",
       "agentT": "Développement d’agents IA",
       "agentD": "Nous développons des assistants IA qui se connectent à votre CRM, votre ERP et vos autres systèmes et mènent seuls des tâches en plusieurs étapes.",
@@ -760,7 +761,9 @@
       "sw": "La même équipe développe le logiciel auquel l'IA se connecte (ERP, CRM, web, mobile) : <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">entreprise de logiciels à Ankara</a>.",
       "r7": "IA interne (ChatGPT privé d'entreprise)",
       "r8": "Analyse de dossiers d'appel d'offres"
-    }
+    },
+    "q9": "Pouvons-nous utiliser Gemini plutôt que ChatGPT ?",
+    "a9": "Oui. Le modèle est choisi selon vos besoins : Gemini est un choix naturel pour les entreprises qui utilisent Google Workspace, ChatGPT ou Claude pour les autres, et des modèles open source comme Llama pour les installations sur site (on-premise). Comme l’intégration est conçue indépendamment du modèle, vous pouvez en changer plus tard ; l’utilisation est facturée par le fournisseur du modèle."
   },
   "aiPage": {
     "hero": {
@@ -2036,9 +2039,9 @@
   },
   "yzEntegrasyonPage": {
     "hero": {
-      "badge": "ChatGPT · GPT · Claude · RAG · KVKK · +90 546 549 6806",
+      "badge": "ChatGPT · GPT · Gemini · Claude · RAG · KVKK · +90 546 549 6806",
       "title": "Intégration IA",
-      "desc": "Nous connectons un modèle d’IA comme ChatGPT (GPT), Claude ou Llama au logiciel que vous utilisez déjà. Le modèle peut alors répondre à partir des documents de votre entreprise (RAG), fonctionner comme chatbot sur votre site ou rester sur votre propre serveur pour respecter la KVKK. Ce n’est pas la même chose qu’ouvrir un compte ChatGPT : le modèle est relié à vos systèmes et à vos processus via une API (la connexion qui permet aux systèmes de communiquer entre eux), et les droits d’accès sont définis. Ozturksoft réalise chaque projet depuis Çankaya selon vos besoins ; l’entretien de découverte est gratuit et le devis est remis par écrit. Pour vous documenter d’abord : <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">guide LLM</a> · <a href=\"/blog/ankara-llm-entegrasyonu-maliyeti-2026\" style=\"color:#818cf8\">article sur les coûts</a>."
+      "desc": "Nous connectons un modèle d’IA comme ChatGPT (GPT), Gemini, Claude ou Llama au logiciel que vous utilisez déjà. Le modèle peut alors répondre à partir des documents de votre entreprise (RAG), fonctionner comme chatbot sur votre site ou rester sur votre propre serveur pour respecter la KVKK. Ce n’est pas la même chose qu’ouvrir un compte ChatGPT : le modèle est relié à vos systèmes et à vos processus via une API (la connexion qui permet aux systèmes de communiquer entre eux), et les droits d’accès sont définis. Ozturksoft réalise chaque projet depuis Çankaya selon vos besoins ; l’entretien de découverte est gratuit et le devis est remis par écrit. Pour vous documenter d’abord : <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">guide LLM</a> · <a href=\"/blog/ankara-llm-entegrasyonu-maliyeti-2026\" style=\"color:#818cf8\">article sur les coûts</a>."
     },
     "pricing": {
       "title": "Prix d’intégration IA (2026)",
@@ -2054,7 +2057,7 @@
     },
     "cards": {
       "c1title": "Connecter ChatGPT à votre logiciel",
-      "c1desc": "Nous connectons un modèle OpenAI, Claude ou Llama à votre logiciel métier via API. Droits, journaux et modèles de réponse suivent vos processus ; votre équipe n’a plus à copier-coller dans ChatGPT.",
+      "c1desc": "Nous connectons un modèle OpenAI, Gemini, Claude ou Llama à votre logiciel métier via API. Droits, journaux et modèles de réponse suivent vos processus ; votre équipe n’a plus à copier-coller dans ChatGPT.",
       "c1link": "Planifier un entretien de découverte →",
       "c2title": "Réponses à partir de vos documents (RAG)",
       "c2desc": "Vos procédures, listes de prix et documents deviennent la source de l’IA. Au lieu de deviner, le modèle répond à partir de vos propres textes ; c’est ainsi que fonctionne un assistant interne.",
@@ -2086,7 +2089,9 @@
       "q4": "Puis-je aussi faire créer un chatbot ou un agent IA ?",
       "a4": "Oui. Pour un assistant de discussion sur votre site, voyez <a href=\"/chatbot-yaptirmak\" style=\"color:#818cf8\">faire créer un chatbot</a> ; pour WhatsApp, <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">chatbot WhatsApp</a> ; pour une IA qui mène des tâches seule, <a href=\"/ai-agent\" style=\"color:#818cf8\">agent IA</a>.",
       "q5": "Combien coûtent l’API et les tokens chaque mois ?",
-      "a5": "Les frais de mise en place (40 000–500 000+ TL) se paient une seule fois. S’y ajoutent les frais mensuels de tokens (les tokens mesurent la quantité de texte traitée par le modèle) pour des modèles comme OpenAI, Claude, Azure OpenAI ou Gemini : 12 000–35 000 TL/mois pour un bot peu utilisé, 35 000–90 000 TL/mois pour un assistant RAG très sollicité. Les frais de conversation facturés par Meta pour WhatsApp sont expliqués sur la page chatbot WhatsApp. Si vous installez le système sur votre propre serveur, les coûts serveur/GPU remplacent les tokens. La découverte est gratuite ; le montant exact dépend de votre volume d’utilisation."
+      "a5": "Les frais de mise en place (40 000–500 000+ TL) se paient une seule fois. S’y ajoutent les frais mensuels de tokens (les tokens mesurent la quantité de texte traitée par le modèle) pour des modèles comme OpenAI, Claude, Azure OpenAI ou Gemini : 12 000–35 000 TL/mois pour un bot peu utilisé, 35 000–90 000 TL/mois pour un assistant RAG très sollicité. Les frais de conversation facturés par Meta pour WhatsApp sont expliqués sur la page chatbot WhatsApp. Si vous installez le système sur votre propre serveur, les coûts serveur/GPU remplacent les tokens. La découverte est gratuite ; le montant exact dépend de votre volume d’utilisation.",
+      "q6": "Pouvons-nous utiliser Gemini plutôt que ChatGPT ?",
+      "a6": "Oui. Le modèle est choisi selon vos besoins : Gemini est un choix naturel pour les entreprises qui utilisent Google Workspace, ChatGPT ou Claude pour les autres, et des modèles open source comme Llama pour les installations sur site (on-premise). Comme l’intégration est conçue indépendamment du modèle, vous pouvez en changer plus tard ; l’utilisation est facturée par le fournisseur du modèle."
     },
     "cta": {
       "btn": "Appel découverte gratuit",
@@ -2117,7 +2122,7 @@
     "hero": {
       "badge": "Web · GPT · CRM · KVKK · +90 546 549 6806",
       "title": "Faire créer un chatbot",
-      "desc": "Nous installons sur votre site un chatbot qui répond aux questions de vos clients 7j/7, 24 h/24. Il converse en langage naturel grâce à GPT et répond à partir des documents de votre entreprise (RAG). Ozturksoft prépare chaque chatbot depuis Çankaya selon votre activité ; l’entretien de découverte est gratuit, le devis écrit. Pour WhatsApp : <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">faire créer un chatbot WhatsApp</a>. Coûts : <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">coût d’un chatbot</a>."
+      "desc": "Nous installons sur votre site un chatbot qui répond aux questions de vos clients 7j/7, 24 h/24. Il converse en langage naturel grâce à un modèle comme ChatGPT (GPT), Gemini ou Claude et répond à partir des documents de votre entreprise (RAG). Ozturksoft prépare chaque chatbot depuis Çankaya selon votre activité ; l’entretien de découverte est gratuit, le devis écrit. Pour WhatsApp : <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">faire créer un chatbot WhatsApp</a>. Coûts : <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">coût d’un chatbot</a>."
     },
     "pricing": {
       "title": "Prix d’un chatbot (2026)",
@@ -2147,7 +2152,7 @@
     },
     "who": {
       "title": "À qui s’adresse un chatbot ?",
-      "intro": "Un chatbot est un assistant de discussion, sur votre site ou votre espace client, qui répond aux questions de vos clients 7j/7, 24 h/24. Un chatbot IA fondé sur GPT répond en langage naturel à partir des informations de votre entreprise. Ozturksoft construit chaque chatbot selon vos scénarios, le modèle GPT retenu et votre CRM, et le livre avec une documentation écrite.",
+      "intro": "Un chatbot est un assistant de discussion, sur votre site ou votre espace client, qui répond aux questions de vos clients 7j/7, 24 h/24. Un chatbot IA fondé sur un modèle comme GPT ou Gemini répond en langage naturel à partir des informations de votre entreprise. Ozturksoft construit chaque chatbot selon vos scénarios, le modèle retenu (GPT, Gemini ou Claude) et votre CRM, et le livre avec une documentation écrite.",
       "i1": "Votre service client est fermé en dehors des heures de bureau. Vous voulez que le chatbot du site réponde aux questions sur la livraison, les retours et aux questions fréquentes, et transmette les cas difficiles à votre équipe.",
       "i2": "Vous voulez un assistant qui répond à partir de votre catalogue grâce à GPT. Un compte ChatGPT ne suffit pas : il faut une fenêtre de discussion sur le site, des droits d’accès et un dispositif qui répond à partir de vos documents (RAG).",
       "i3": "Vous pensez aussi à WhatsApp, mais voulez commencer par le site. WhatsApp peut être ajouté plus tard sous forme de <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">chatbot WhatsApp</a>, avec le même assistant.",
@@ -2163,7 +2168,9 @@
       "q3": "Quelle différence entre un chatbot et un agent IA ?",
       "a3": "Un chatbot répond aux questions. Un agent IA utilise des outils pour faire le travail lui-même : il envoie des e-mails, saisit des fiches CRM et crée des commandes. Détails sur notre page <a href=\"/ai-agent\" style=\"color:#2dd4bf\">agent IA</a>.",
       "q4": "Nos données sortent-elles de l’entreprise ?",
-      "a4": "Ce n’est pas nécessaire. Le système peut être installé sur votre propre serveur (on-premise) ou hébergé en Turquie. La couche d’IA repose sur la même architecture conforme à la KVKK que notre service d’<a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">intégration d’IA</a>."
+      "a4": "Ce n’est pas nécessaire. Le système peut être installé sur votre propre serveur (on-premise) ou hébergé en Turquie. La couche d’IA repose sur la même architecture conforme à la KVKK que notre service d’<a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">intégration d’IA</a>.",
+      "q5": "Notre chatbot peut-il utiliser Gemini plutôt que ChatGPT ?",
+      "a5": "Oui. Le modèle est choisi selon vos besoins : Gemini est un choix naturel pour les entreprises qui utilisent Google Workspace, ChatGPT ou Claude pour les autres, et des modèles open source comme Llama lorsque les données doivent rester en interne. Comme le chatbot est conçu indépendamment du modèle, vous pouvez en changer plus tard ; l’utilisation est facturée par le fournisseur du modèle."
     },
     "cta": {
       "btn": "Appel découverte gratuit",
@@ -2223,7 +2230,7 @@
     },
     "who": {
       "title": "À qui s’adresse un agent IA ?",
-      "intro": "Un agent IA, c’est une intelligence artificielle qui ne se contente pas de converser : elle accomplit des tâches à l’aide d’outils comme la messagerie, le CRM ou l’ERP. On parle aussi d’« IA autonome ». Plutôt que de vendre un produit tout fait, Ozturksoft définit avec vous les tâches de l’agent, ses droits d’accès et les étapes où il doit demander une validation, puis vous remet le tout par écrit.",
+      "intro": "Un agent IA, c’est une intelligence artificielle (par exemple ChatGPT, Gemini ou Claude) qui ne se contente pas de converser : elle accomplit des tâches à l’aide d’outils comme la messagerie, le CRM ou l’ERP. On parle aussi d’« IA autonome ». Plutôt que de vendre un produit tout fait, Ozturksoft définit avec vous les tâches de l’agent, ses droits d’accès et les étapes où il doit demander une validation, puis vous remet le tout par écrit.",
       "i1": "Les demandes de support et les e-mails sont encore triés à la main. Vous voulez que l’agent classe les messages entrants, rédige des brouillons de réponse et crée les fiches CRM, un collaborateur validant les cas incertains.",
       "i2": "Vos clients passent commande ou prennent rendez-vous avec un bot, mais ces informations n’arrivent pas dans votre système. Vous voulez que l’agent crée l’enregistrement directement via une API, la même équipe se chargeant de la connexion à Logo ou Netsis.",
       "i3": "Vous êtes une administration ou un groupe, et vos données doivent rester sur votre réseau. Le système est installé sur vos serveurs, utilise MCP, un standard qui relie l’IA à vos systèmes en toute sécurité, et journalise chaque opération pour l’audit. Le modèle est choisi lors de la découverte.",
@@ -2239,7 +2246,9 @@
       "q3": "L’agent agit-il sans contrôle ?",
       "a3": "Non. Aux étapes critiques, c’est toujours un de vos collaborateurs qui décide en dernier. Le journal de chaque opération et la définition des droits d’accès font partie de la livraison.",
       "q4": "Peut-il se connecter à notre ERP ?",
-      "a4": "Oui. Il peut se connecter à <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">Logo, Netsis</a> et à tout autre logiciel disposant d’une API. Les opérations importantes sont d’abord soumises à votre validation pour éviter les pièces erronées."
+      "a4": "Oui. Il peut se connecter à <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">Logo, Netsis</a> et à tout autre logiciel disposant d’une API. Les opérations importantes sont d’abord soumises à votre validation pour éviter les pièces erronées.",
+      "q5": "L’agent peut-il fonctionner avec Gemini plutôt que ChatGPT ?",
+      "a5": "Oui. Le modèle est choisi selon vos besoins : Gemini est un choix naturel pour les entreprises qui utilisent Google Workspace, ChatGPT ou Claude pour les autres, et des modèles open source comme Llama pour les installations sur site (on-premise). Comme l’agent est conçu indépendamment du modèle, vous pouvez en changer plus tard ; l’utilisation est facturée par le fournisseur du modèle."
     },
     "cta": {
       "btn": "Appel de découverte gratuit",
@@ -2257,7 +2266,7 @@
       "guide": "Guide"
     },
     "meta": {
-      "title": "Faire créer un agent IA | IA autonome | Ozturksoft"
+      "title": "Développement d’agents IA : prix 2026 dès 60 000 TL | Ozturksoft"
     },
     "stats": {
       "s1l": "Projet pilote (PoC)",
@@ -2536,12 +2545,12 @@
       "c3desc": "Nous précisons si vos données sortiraient de l’entreprise et si le système doit être installé sur vos propres serveurs. Pour les <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">administrations</a> et les groupes, nous préparons aussi une recommandation d’architecture.",
       "c3link": "Guide KVKK →",
       "c4title": "Ensuite, la mise en œuvre",
-      "c4desc": "Une fois la décision prise, la même équipe de Çankaya réalise le projet de <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">chatbot</a>, d’<a href=\"/ai-agent\" style=\"color:#38bdf8\">agent IA</a> ou de grand modèle de langage (LLM).",
+      "c4desc": "Une fois la décision prise, la même équipe de Çankaya réalise le projet de <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">chatbot</a>, d’<a href=\"/ai-agent\" style=\"color:#38bdf8\">agent IA</a> ou de grand modèle de langage (LLM, par exemple ChatGPT, Gemini ou Claude).",
       "c4link": "Société IA →"
     },
     "who": {
       "title": "À qui s’adresse le conseil en IA ?",
-      "intro": "Le conseil en IA s’adresse aux entreprises qui veulent utiliser l’IA sans savoir encore par où commencer. Si vous savez déjà ce qu’il vous faut, par exemple une intégration de ChatGPT, vous pouvez passer directement à notre service de mise en œuvre. Ozturksoft établit d’abord la feuille de route ; si vous le souhaitez, la même équipe réalise ensuite le projet.",
+      "intro": "Le conseil en IA s’adresse aux entreprises qui veulent utiliser l’IA sans savoir encore par où commencer. Si vous savez déjà ce qu’il vous faut, par exemple une intégration de ChatGPT ou de Gemini, vous pouvez passer directement à notre service de mise en œuvre. Ozturksoft établit d’abord la feuille de route ; si vous le souhaitez, la même équipe réalise ensuite le projet.",
       "i1": "La direction veut de l’IA, mais on ignore par quel processus commencer. Vous voulez un plan sur 90 jours et une fourchette budgétaire par écrit.",
       "i2": "Vous avez acheté un bot tout fait, mais il ne convenait pas à votre activité. Vous voulez d’abord valider le bon scénario avec un petit projet pilote (PoC), puis passer à un projet de <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">chatbot</a> ou d’<a href=\"/ai-agent\" style=\"color:#38bdf8\">agent IA</a>.",
       "i3": "Vous êtes une entreprise ou une administration qui traite des données sensibles au sens de la KVKK. Lors de la découverte, nous établissons par écrit si le système doit être installé sur vos propres serveurs ; la mise en œuvre passe ensuite par notre service d’<a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">intégration de l’IA</a> ou d’<a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">IA pour le secteur public</a>.",
@@ -2557,7 +2566,9 @@
       "q3": "Livrez-vous seulement une présentation ?",
       "a3": "Non. Vous recevez par écrit une liste de processus, des fourchettes de coûts et un ordre de mise en œuvre sur 90 jours. Si vous le souhaitez, la même équipe réalise aussi le projet.",
       "q4": "La découverte est-elle vraiment gratuite ?",
-      "a4": "Oui. L’entretien dure 45–90 minutes et ne vous engage à rien. Remplissez le <a href=\"/iletisim\" style=\"color:#38bdf8\">formulaire de contact</a> ou appelez le <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>."
+      "a4": "Oui. L’entretien dure 45–90 minutes et ne vous engage à rien. Remplissez le <a href=\"/iletisim\" style=\"color:#38bdf8\">formulaire de contact</a> ou appelez le <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>.",
+      "q5": "Pouvons-nous utiliser Gemini plutôt que ChatGPT ?",
+      "a5": "Oui. Pendant le conseil, nous choisissons avec vous le modèle adapté à vos besoins : Gemini est un choix naturel pour les entreprises qui utilisent Google Workspace, ChatGPT ou Claude pour les autres, et nous recommandons des modèles open source comme Llama pour les installations sur site (on-premise). L’architecture de la feuille de route étant conçue indépendamment du modèle, celui-ci peut être changé plus tard ; l’utilisation est facturée par le fournisseur du modèle."
     },
     "cta": {
       "btn": "Appel de découverte gratuit",
@@ -3393,7 +3404,7 @@
     "what": {
       "title": "De quoi s'agit-il ?",
       "p1": "Un employé écrit : <em>« Quelle est la pénalité de retard dans notre contrat avec la société X ? »</em> ou <em>« Comment demander mes congés annuels ? »</em>. L'IA trouve la réponse dans vos contrats, procédures et règlements, répond clairement et indique <strong>de quel document et de quelle section</strong> elle provient.",
-      "p2": "La différence : cet assistant ne tourne pas sur un serveur à l'étranger comme ChatGPT, mais sur <strong>votre propre serveur</strong>. Documents, questions et réponses restent dans votre réseau. Il repose sur des modèles de langage open source (Llama, Qwen, Mistral…) et une base de connaissances consultable de vos documents (RAG)."
+      "p2": "La différence : cet assistant ne tourne pas sur un serveur à l'étranger comme ChatGPT ou Gemini, mais sur <strong>votre propre serveur</strong>. Documents, questions et réponses restent dans votre réseau. Il repose sur des modèles de langage open source (Llama, Qwen, Mistral…) et une base de connaissances consultable de vos documents (RAG)."
     },
     "cmp": {
       "title": "Différence avec ChatGPT public",
@@ -3456,7 +3467,7 @@
     },
     "note": {
       "title": "Pour être honnête",
-      "p1": "Les modèles open source exécutés en interne ne sont pas aussi généralistes que le dernier ChatGPT. Mais pour les questions fondées sur vos documents, qui sont le vrai rôle de ce système, ils sont généralement suffisants et cohérents. Le pilote sert précisément à le mesurer avec vos documents, avant tout investissement important.",
+      "p1": "Les modèles open source exécutés en interne ne sont pas aussi généralistes que les dernières versions de ChatGPT ou de Gemini. Mais pour les questions fondées sur vos documents, qui sont le vrai rôle de ce système, ils sont généralement suffisants et cohérents. Le pilote sert précisément à le mesurer avec vos documents, avant tout investissement important.",
       "p2": "Au regard du KVKK, une installation interne supprime le risque de transfert de données, mais l'inventaire des données, les droits d'accès et la journalisation restent à planifier. Détails : <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#60a5fa\">guide de l'IA conforme KVKK</a>."
     },
     "faq": {
@@ -3472,7 +3483,9 @@
       "q5": "Avec quels documents fonctionne-t-il ?",
       "a5": "PDF, Word, Excel, archives e-mail, GED et systèmes documentaires. Les documents scannés sont d'abord convertis en texte par OCR. Détails : <a href=\"/ocr-belge-okuma\" style=\"color:#60a5fa\">OCR et lecture de documents</a>.",
       "q6": "Tout le monde voit-il tous les documents ?",
-      "a6": "Non. Les droits sont définis par service et par rôle ; chacun n'obtient des réponses qu'à partir des documents auxquels il a accès."
+      "a6": "Non. Les droits sont définis par service et par rôle ; chacun n'obtient des réponses qu'à partir des documents auxquels il a accès.",
+      "q7": "Pouvons-nous utiliser Gemini plutôt que ChatGPT ?",
+      "a7": "Oui, le modèle est choisi selon vos besoins. Si les données doivent rester dans votre réseau, un modèle open source comme Llama est installé sur votre serveur ; si un traitement dans le cloud est acceptable, Gemini est un choix naturel pour les entreprises qui utilisent Google Workspace, ChatGPT ou Claude pour les autres. Le système étant conçu indépendamment du modèle, celui-ci peut être changé plus tard ; pour les modèles cloud, l’utilisation est facturée par le fournisseur du modèle."
     },
     "cta": {
       "btn": "Premier échange gratuit",
@@ -5512,5 +5525,118 @@
       "crm": "Faire développer un logiciel CRM"
     },
     "footer": "© 2026 Ozturksoft — Assistant vocal IA, Ankara"
+  },
+  "kvkkAuditPage": {
+    "meta": {
+      "title": "Analyse de conformité KVKK pour sites et applis | Ozturksoft"
+    },
+    "hero": {
+      "badge": "KVKK · Consentement aux cookies · Contrôle de sécurité · Sites créés avec l'IA",
+      "title": "Analyse de conformité KVKK",
+      "desc": "Si votre site ou votre application a été créé avec des outils d'IA ou rapidement par un freelance, le consentement aux cookies, les formulaires et les réglages de la base de données sont souvent mis en ligne sans vérification. Nous analysons techniquement la conformité KVKK et la sécurité de base de votre site et de votre application, et vous remettons un rapport écrit avec une liste de corrections classées par priorité. Équipe basée à Çankaya, Ankara ; premier échange gratuit.",
+      "btn": "Premier échange gratuit"
+    },
+    "stats": {
+      "s1l": "Analyse KVKK et sécurité du site",
+      "s2l": "Analyse d'application web ou mobile",
+      "s3l": "Délai d'une analyse de site"
+    },
+    "symptoms": {
+      "title": "L'une de ces situations vous parle ?",
+      "i1": "J'ai créé mon site avec Lovable, Bolt ou Cursor ; il fonctionne, mais je ne sais pas s'il est conforme au KVKK ni s'il est sûr.",
+      "i2": "Nous avons un bandeau cookies, mais Google Analytics et les balises publicitaires tournent peut-être avant le consentement du visiteur.",
+      "i3": "Nos formulaires de contact et de candidature n'ont ni note d'information ni case de consentement, ou nous ne savons pas quoi y mettre.",
+      "i4": "Ce que les visiteurs saisissent dans nos formulaires part vers un service d'IA (OpenAI, Gemini, Claude), mais nous ne le leur disons pas.",
+      "i5": "La personne qui a développé l'application est partie ; nous ne savons pas qui peut accéder au panneau d'administration ni si la base de données est ouverte.",
+      "i6": "Un grand client ou une institution demande par écrit notre situation KVKK et sécurité avant de travailler avec nous.",
+      "note": "Important : il s'agit d'une analyse technique de conformité et de sécurité, pas d'un conseil juridique. Nous vous recommandons de finaliser avec un avocat les questions juridiques comme la note d'information (aydınlatma metni), les textes de consentement explicite et une éventuelle obligation VERBİS ; notre rapport contient les constats techniques qui facilitent son travail."
+    },
+    "pricing": {
+      "title": "Tarifs de l'analyse de conformité KVKK (2026)",
+      "intro": "Les fourchettes de prix ci-dessous valent pour 2026 ; le prix exact est fixé dans un devis écrit après le premier échange gratuit.",
+      "row1": "Analyse KVKK et sécurité du site web",
+      "t1": "1 à 2 semaines",
+      "d1": "Consentement aux cookies et balises de suivi, parcours d'information et de consentement des formulaires, clés exposées dans le navigateur et réglages de sécurité de base ; rapport écrit et liste de corrections priorisée.",
+      "row2": "Analyse d'application (web/mobile, connectée à l'IA)",
+      "t2": "2 à 4 semaines",
+      "d2": "Tout le contenu de l'analyse de site, plus les règles d'accès à la base de données, la connexion et les droits, le panneau d'administration, l'envoi de fichiers, les journaux et les données transmises aux services d'IA.",
+      "row3": "Analyse + corrections",
+      "t3": "3 à 6 semaines",
+      "d3": "Ozturksoft corrige les problèmes relevés : consentement aux cookies, preuves de consentement, chiffrement, règles d'accès et droits ; puis nous revérifions et mettons le rapport à jour.",
+      "monthly": "L'analyse est une prestation ponctuelle, sans frais mensuels. Si vous souhaitez ensuite des contrôles et mises à jour réguliers, notre service de <a href=\"/yazilim-bakim-destek-hizmeti\">maintenance et support logiciel</a> coûte un forfait fixe de 5 000–10 000 TL/mois."
+    },
+    "cards": {
+      "title": "Que vérifions-nous ?",
+      "c1t": "Consentement aux cookies et balises de suivi",
+      "c1d": "Nous testons si Google Analytics, Meta Pixel et les balises publicitaires se déclenchent avant le consentement, si le consentement est enregistré et si l'option « refuser » fonctionne vraiment.",
+      "c2t": "Formulaires : information et consentement",
+      "c2d": "Sur les formulaires de contact, de devis, d'inscription et de candidature, nous vérifions que la note d'information s'affiche, que le consentement explicite est demandé séparément et sans case précochée, et où il est conservé.",
+      "c3t": "Données transmises aux services d'IA",
+      "c3d": "Nous identifions les données personnelles que vos formulaires, chatbot ou automatisations envoient à des services à l'étranger comme OpenAI (GPT), Google Gemini ou Anthropic Claude, et si les utilisateurs en sont informés.",
+      "c4t": "Clés d'API et secrets exposés",
+      "c4d": "Un problème fréquent dans le code écrit avec des outils d'IA : les clés des services de paiement, d'e-mail ou d'IA (une clé d'API est le mot de passe d'accès à un service) sont intégrées au code envoyé au navigateur, visibles par tous. Nous les recherchons.",
+      "c5t": "Base de données, administration et droits",
+      "c5d": "Nous vérifions si les règles d'accès à la base de données sont restées ouvertes (par exemple si la sécurité au niveau des lignes, qui fait que chaque utilisateur ne voit que ses propres données, est désactivée), si le panneau d'administration est protégé par une vraie connexion et qui peut voir quelles données.",
+      "c6t": "Chiffrement, journaux et envoi de fichiers",
+      "c6d": "Nous vérifions si les mots de passe et les données personnelles sont stockés sans chiffrement, ce que conservent les journaux (traces système) et pendant combien de temps, et si les fichiers envoyés sont accessibles à n'importe qui."
+    },
+    "integr": {
+      "title": "Peu importe l'outil utilisé",
+      "p1": "Votre site ou application a pu être créé avec un outil d'IA, par un freelance ou par une agence ; nous travaillons avec un accès au site en ligne et, si possible, au code source. Pendant l'analyse, nous utilisons si possible un environnement de test et signons un accord de confidentialité.",
+      "i1": "Sites et applications créés avec des outils de code IA : Cursor, Lovable, Bolt, v0, Replit et similaires",
+      "i2": "Plateformes de site prêtes à l'emploi : WordPress, Shopify et systèmes similaires, leurs extensions et le code ajouté",
+      "i3": "Base de données et services back-end (côté serveur) : Supabase, Firebase ou une base sur votre propre serveur",
+      "i4": "Connexions IA : formulaires, chatbots et automatisations fonctionnant avec OpenAI (GPT), Google Gemini, Anthropic Claude ou des modèles open source (Llama)",
+      "i5": "Balises de mesure et de marketing : Google Analytics, Google Tag Manager, Meta Pixel, scripts publicitaires et de chat en direct"
+    },
+    "steps": {
+      "title": "Comment se déroule l'analyse ?",
+      "s1t": "1. Premier échange gratuit",
+      "s1d": "Nous parlons de votre site ou application, des données que vous collectez et des services utilisés, et vous disons franchement si une analyse complète est nécessaire.",
+      "s2t": "2. Périmètre et devis écrits",
+      "s2d": "Nous indiquons par écrit les pages, formulaires et systèmes analysés, le délai et le prix, et convenons ensemble des accès et de la confidentialité.",
+      "s3t": "3. Analyse technique",
+      "s3d": "Nous utilisons des outils d'analyse automatique, mais chaque constat est vérifié manuellement par un expert ; cookies, formulaires, règles de base de données et code sont contrôlés un par un.",
+      "s4t": "4. Rapport et présentation",
+      "s4d": "Vous recevez un rapport en langage clair et une liste de corrections classée par urgence ; nous passons les constats en revue avec vous et, si vous le souhaitez, avec votre avocat.",
+      "s5t": "5. Corrections et nouvelle vérification",
+      "s5d": "Votre équipe peut appliquer les corrections ou vous pouvez les confier à Ozturksoft ; une fois terminées, nous revérifions et mettons le rapport à jour."
+    },
+    "notfor": {
+      "title": "Pour qui ce n'est pas adapté ?",
+      "p1": "Un simple site vitrine sans formulaire, sans suivi des visiteurs ni balise publicitaire n'a généralement pas besoin d'une analyse complète ; un contrôle rapide suffit, et nous vous le dirons lors du premier échange. Si vous voulez seulement faire rédiger des textes juridiques, adressez-vous à un avocat ; nous analysons le volet technique."
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "q1": "Le site que j'ai créé avec l'IA est-il conforme au KVKK ?",
+      "a1": "Impossible de le dire sans regarder ; les outils d'IA produisent un site qui fonctionne, mais ne configurent pas seuls correctement le consentement aux cookies, la note d'information ou les règles d'accès à la base de données. Les problèmes les plus fréquents : balises d'analyse actives sans consentement, clés d'API exposées dans le navigateur et règles de base de données restées ouvertes. Une analyse de site répond par écrit à cette question en 1 à 2 semaines, pour 30 000–60 000 TL.",
+      "q2": "Combien coûte une analyse de conformité KVKK ?",
+      "a2": "Pour 2026, l'analyse KVKK et sécurité d'un site coûte 30 000–60 000 TL, celle d'une application web ou mobile connectée à l'IA 60 000–120 000 TL, et l'analyse avec corrections 120 000–250 000+ TL. Le prix dépend du nombre de formulaires, de pages et de systèmes ; nous donnons le prix exact dans un devis écrit après le premier échange. L'analyse n'entraîne aucun frais mensuel.",
+      "q3": "Est-ce un problème d'utiliser Google Analytics sans consentement aux cookies ?",
+      "a3": "Les cookies d'analyse et de publicité ne sont pas considérés comme strictement nécessaires ; on attend donc en général qu'ils ne se déclenchent pas avant le consentement. Techniquement, nous vérifions que ces balises restent réellement inactives avant le consentement, que l'option « refuser » fonctionne et que le consentement est enregistré. Ozturksoft applique la même approche sur son propre site : les cookies d'analyse ne s'activent qu'après consentement et une trace du consentement est conservée (<a href=\"/gizlilik\">notre note cookies et KVKK</a>). L'évaluation juridique de votre site revient à votre avocat.",
+      "q4": "Que faire si les formulaires de mon site envoient des données à une IA ?",
+      "a4": "Il faut d'abord savoir quelles données partent vers quel service (OpenAI, Google Gemini, Anthropic Claude…) et dans quel pays ; nous l'établissons pendant l'analyse. Nous proposons ensuite des mesures comme retirer les données personnelles inutiles avant l'envoi, informer l'utilisateur sur le formulaire et recueillir un consentement explicite si nécessaire ; vous finalisez le texte avec votre avocat. Si les données ne doivent pas quitter le pays, faire tourner l'IA <a href=\"/kurum-ici-yapay-zeka\">sur un serveur interne</a> est aussi une option.",
+      "q5": "Combien de temps dure l'analyse ?",
+      "a5": "Une analyse de site prend généralement 1 à 2 semaines, celle d'une application web ou mobile connectée à l'IA 2 à 4 semaines. Si l'analyse et les corrections sont faites ensemble, comptez 3 à 6 semaines au total. Le délai dépend aussi de la rapidité avec laquelle les accès (site en ligne, code source, base de données) sont fournis.",
+      "q6": "Fournissez-vous aussi un conseil juridique ?",
+      "a6": "Non ; nous sommes une équipe logicielle et notre travail est une analyse technique de conformité et de sécurité. Nous vous recommandons de finaliser avec un avocat la rédaction de la note d'information et des textes de consentement, ainsi que la question de l'enregistrement VERBİS. Notre rapport expose clairement les éléments techniques dont il a besoin (quelles données vont où, où elles sont stockées, qui peut les voir).",
+      "q7": "Réalisez-vous les corrections après l'analyse ?",
+      "a7": "Oui, si vous le souhaitez. L'analyse et les corrections ensemble coûtent 120 000–250 000+ TL et prennent 3 à 6 semaines ; nous corrigeons le consentement aux cookies, les preuves de consentement, le chiffrement, les règles d'accès et les droits, puis nous revérifions. Vous pouvez aussi confier le rapport à votre propre équipe ; pour des contrôles suivis, notre service de <a href=\"/yazilim-bakim-destek-hizmeti\">maintenance et support</a> coûte 5 000–10 000 TL par mois.",
+      "q8": "Qui n'en a pas besoin ?",
+      "a8": "Un simple site vitrine sans formulaire, sans suivi des visiteurs, sans balise publicitaire et sans collecte de données personnelles n'a généralement pas besoin d'une analyse complète ; un contrôle rapide suffit. Si c'est votre cas, nous vous le dirons franchement lors du premier échange. Si vous avez des formulaires, des comptes, des paiements, une connexion à l'IA ou une application qui stocke des données clients, l'analyse a du sens."
+    },
+    "cta": {
+      "title": "Découvrez où en est votre site en matière de KVKK et de sécurité",
+      "desc": "Lors d'un premier échange gratuit, nous examinons ensemble votre site ou votre application et vous disons franchement s'il faut une analyse complète ou un simple contrôle. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Demander un devis d'analyse KVKK"
+    },
+    "related": {
+      "maint": "Maintenance et support logiciel",
+      "qa": "Service de QA et de tests",
+      "unfinished": "Projet logiciel inachevé",
+      "onprem": "IA sur site",
+      "privacy": "Notre note cookies et KVKK"
+    },
+    "footer": "© 2026 Ozturksoft — Analyse de conformité KVKK, Ankara"
   }
 }

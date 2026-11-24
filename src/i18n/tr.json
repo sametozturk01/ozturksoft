@@ -641,7 +641,8 @@
       "salesAi": "Otomatik müşteri hizmetleri",
       "dashboard": "Raporlama ve yönetim paneli",
       "saas": "SaaS yazılım yaptırmak",
-      "voiceAi": "Sesli yapay zeka asistanı"
+      "voiceAi": "Sesli yapay zeka asistanı",
+      "kvkkAudit": "KVKK uyum analizi"
     }
   },
   "aiFirmPage": {
@@ -666,7 +667,7 @@
     "linkAgent": "AI agent →",
     "cards": {
       "llmT": "LLM ve GPT entegrasyonu",
-      "llmD": "OpenAI, Claude veya Llama modellerini, şirket verilerinizle yanıt veren kurumsal bir asistana (RAG) dönüştürüyoruz.",
+      "llmD": "OpenAI, Gemini, Claude veya Llama modellerini, şirket verilerinizle yanıt veren kurumsal bir asistana (RAG) dönüştürüyoruz.",
       "llmL": "Yapay zeka entegrasyonu →",
       "agentT": "AI agent geliştirme",
       "agentD": "CRM, ERP ve diğer sistemlerinize bağlanıp çok adımlı işleri kendi başına yürüten yapay zeka asistanları geliştiriyoruz.",
@@ -760,7 +761,9 @@
       "sw": "Yapay zekanın bağlanacağı yazılım altyapısını (ERP, CRM, web, mobil) da aynı ekip geliştirir: <a href=\"/ankara-yazilim-sirketi\">Ankara yazılım şirketi</a>.",
       "r7": "Kurum içi yapay zeka (şirkete özel ChatGPT)",
       "r8": "İhale şartnamesi analizi"
-    }
+    },
+    "q9": "ChatGPT yerine Gemini kullanabilir miyiz?",
+    "a9": "Evet. Model ihtiyacınıza göre seçilir: Google Workspace kullanan şirketler için Gemini doğal bir seçenektir, diğer durumlarda ChatGPT veya Claude, kurum içi (on-premise) kurulumlarda ise Llama gibi açık kaynak modeller kullanılır. Entegrasyon modelden bağımsız kurulduğu için modeli sonradan değiştirebilirsiniz; kullanım ücretini model sağlayıcısı faturalar."
   },
   "aiPage": {
     "hero": {
@@ -2056,9 +2059,9 @@
   },
   "yzEntegrasyonPage": {
     "hero": {
-      "badge": "ChatGPT · GPT · Claude · RAG · KVKK · +90 546 549 6806",
+      "badge": "ChatGPT · GPT · Gemini · Claude · RAG · KVKK · +90 546 549 6806",
       "title": "Yapay Zeka Entegrasyonu",
-      "desc": "ChatGPT (GPT), Claude veya Llama gibi bir yapay zeka modelini kullandığınız yazılıma bağlıyoruz. Böylece model şirket belgelerinizden yanıt verebilir (RAG), sitenizde chatbot olarak çalışabilir veya KVKK gereği kendi sunucunuzda kalabilir. Bu, ChatGPT hesabı açmaktan farklıdır: model API (sistemlerin birbiriyle konuştuğu bağlantı) üzerinden sistemlerinize ve iş süreçlerinize bağlanır, erişim yetkileri belirlenir. Ozturksoft her projeyi Çankaya’dan ihtiyacınıza göre kurar; keşif görüşmesi ücretsizdir, teklif yazılı verilir. Önce okumak isterseniz: <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">LLM rehberi</a> · <a href=\"/blog/ankara-llm-entegrasyonu-maliyeti-2026\" style=\"color:#818cf8\">maliyet yazısı</a>."
+      "desc": "ChatGPT (GPT), Gemini, Claude veya Llama gibi bir yapay zeka modelini kullandığınız yazılıma bağlıyoruz. Böylece model şirket belgelerinizden yanıt verebilir (RAG), sitenizde chatbot olarak çalışabilir veya KVKK gereği kendi sunucunuzda kalabilir. Bu, ChatGPT hesabı açmaktan farklıdır: model API (sistemlerin birbiriyle konuştuğu bağlantı) üzerinden sistemlerinize ve iş süreçlerinize bağlanır, erişim yetkileri belirlenir. Ozturksoft her projeyi Çankaya’dan ihtiyacınıza göre kurar; keşif görüşmesi ücretsizdir, teklif yazılı verilir. Önce okumak isterseniz: <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">LLM rehberi</a> · <a href=\"/blog/ankara-llm-entegrasyonu-maliyeti-2026\" style=\"color:#818cf8\">maliyet yazısı</a>."
     },
     "pricing": {
       "title": "Yapay zeka entegrasyonu fiyatı (2026)",
@@ -2074,7 +2077,7 @@
     },
     "cards": {
       "c1title": "ChatGPT’yi yazılımınıza bağlama",
-      "c1desc": "OpenAI, Claude veya Llama modelini API üzerinden iş yazılımınıza bağlarız. Yetkiler, kayıtlar ve yanıt şablonları süreçlerinize göre kurulur; ekibiniz ChatGPT’ye kopyala-yapıştır yapmak zorunda kalmaz.",
+      "c1desc": "OpenAI, Gemini, Claude veya Llama modelini API üzerinden iş yazılımınıza bağlarız. Yetkiler, kayıtlar ve yanıt şablonları süreçlerinize göre kurulur; ekibiniz ChatGPT’ye kopyala-yapıştır yapmak zorunda kalmaz.",
       "c1link": "Keşif görüşmesi ayarlayın →",
       "c2title": "Şirket belgelerinden yanıt (RAG)",
       "c2desc": "Prosedürleriniz, fiyat listeleriniz ve evraklarınız yapay zekaya kaynak olur. Model tahmin yürütmek yerine sizin metinlerinizden yanıt verir; şirket içi asistan bu yapıyla çalışır.",
@@ -2106,7 +2109,9 @@
       "q4": "Chatbot veya AI agent da yaptırabilir miyim?",
       "a4": "Evet. Sitenizde çalışacak bir sohbet asistanı için <a href=\"/chatbot-yaptirmak\" style=\"color:#818cf8\">chatbot yaptırmak</a>, WhatsApp için <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp chatbot</a>, işleri kendi başına yürüten bir yapay zeka için <a href=\"/ai-agent\" style=\"color:#818cf8\">AI agent</a> sayfalarımıza bakabilirsiniz.",
       "q5": "Aylık API / token ücreti ne kadar tutar?",
-      "a5": "Kurulum ücreti (40.000–500.000+ TL) bir kez ödenir. Bunun dışında OpenAI, Claude, Azure OpenAI veya Gemini gibi modellerin aylık token (modelin işlediği metin miktarı) ücreti vardır: az kullanılan bir bot için 12.000–35.000 TL/ay, yoğun kullanılan bir RAG asistanı için 35.000–90.000 TL/ay. WhatsApp’ta Meta’nın aldığı konuşma ücretleri WhatsApp chatbot sayfasında anlatılır. Sistemi kendi sunucunuza kurarsanız token yerine sunucu/GPU maliyeti hesaplanır. Keşif ücretsizdir; kesin tutar kullanım hacminize göre belirlenir."
+      "a5": "Kurulum ücreti (40.000–500.000+ TL) bir kez ödenir. Bunun dışında OpenAI, Claude, Azure OpenAI veya Gemini gibi modellerin aylık token (modelin işlediği metin miktarı) ücreti vardır: az kullanılan bir bot için 12.000–35.000 TL/ay, yoğun kullanılan bir RAG asistanı için 35.000–90.000 TL/ay. WhatsApp’ta Meta’nın aldığı konuşma ücretleri WhatsApp chatbot sayfasında anlatılır. Sistemi kendi sunucunuza kurarsanız token yerine sunucu/GPU maliyeti hesaplanır. Keşif ücretsizdir; kesin tutar kullanım hacminize göre belirlenir.",
+      "q6": "ChatGPT yerine Gemini kullanabilir miyiz?",
+      "a6": "Evet. Model ihtiyacınıza göre seçilir: Google Workspace kullanan şirketler için Gemini doğal bir seçenektir, diğer durumlarda ChatGPT veya Claude, kurum içi (on-premise) kurulumlarda ise Llama gibi açık kaynak modeller kullanılır. Entegrasyon modelden bağımsız kurulduğu için modeli sonradan değiştirebilirsiniz; kullanım ücretini model sağlayıcısı faturalar."
     },
     "cta": {
       "btn": "Ücretsiz keşif görüşmesi",
@@ -2137,7 +2142,7 @@
     "hero": {
       "badge": "Web · GPT · CRM · KVKK · +90 546 549 6806",
       "title": "Chatbot Yaptırmak",
-      "desc": "Sitenize, müşterilerinizin sorularını 7/24 yanıtlayan bir chatbot kuruyoruz. Chatbot GPT ile doğal bir dille konuşur, yanıtlarını şirket belgelerinizden üretir (RAG). Ozturksoft her chatbotu Çankaya’dan işinize göre hazırlar; keşif görüşmesi ücretsizdir, teklif yazılı verilir. WhatsApp için: <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp chatbot yaptırmak</a>. Maliyetler: <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">chatbot maliyeti</a>."
+      "desc": "Sitenize, müşterilerinizin sorularını 7/24 yanıtlayan bir chatbot kuruyoruz. Chatbot ChatGPT (GPT), Gemini veya Claude gibi bir modelle doğal bir dille konuşur, yanıtlarını şirket belgelerinizden üretir (RAG). Ozturksoft her chatbotu Çankaya’dan işinize göre hazırlar; keşif görüşmesi ücretsizdir, teklif yazılı verilir. WhatsApp için: <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp chatbot yaptırmak</a>. Maliyetler: <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">chatbot maliyeti</a>."
     },
     "pricing": {
       "title": "Chatbot yaptırmak fiyatı (2026)",
@@ -2167,7 +2172,7 @@
     },
     "who": {
       "title": "Chatbot kimler için uygun?",
-      "intro": "Chatbot, sitenizde veya panelinizde müşterilerinizin sorularını 7/24 yanıtlayan bir sohbet asistanıdır. GPT ile çalışan bir yapay zeka chatbotu, şirket bilgilerinizi kullanarak doğal bir dille cevap verir. Ozturksoft her chatbotu senaryolarınıza, kullanılacak GPT modeline ve CRM sisteminize göre kurar ve yazılı olarak teslim eder.",
+      "intro": "Chatbot, sitenizde veya panelinizde müşterilerinizin sorularını 7/24 yanıtlayan bir sohbet asistanıdır. GPT veya Gemini gibi bir modelle çalışan bir yapay zeka chatbotu, şirket bilgilerinizi kullanarak doğal bir dille cevap verir. Ozturksoft her chatbotu senaryolarınıza, kullanılacak modele (GPT, Gemini veya Claude) ve CRM sisteminize göre kurar ve yazılı olarak teslim eder.",
       "i1": "Müşteri hizmetleriniz mesai saatleri dışında kapalı. Kargo, iade ve sık sorulan soruların sitede chatbot tarafından yanıtlanmasını, zor soruların ise ekibinize aktarılmasını istiyorsunuz.",
       "i2": "GPT ile ürün kataloğunuzdan yanıt veren bir asistan istiyorsunuz. Bunun için ChatGPT hesabı yetmez; sitede bir sohbet penceresi, yetkiler ve belgelerinizden yanıt üreten bir yapı (RAG) gerekir.",
       "i3": "WhatsApp’ı da düşünüyorsunuz ama önce siteden başlamak istiyorsunuz. WhatsApp daha sonra <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp chatbot</a> olarak eklenir ve aynı asistanı kullanır.",
@@ -2183,7 +2188,9 @@
       "q3": "Chatbot ile AI agent arasındaki fark nedir?",
       "a3": "Chatbot soruları yanıtlar. AI agent ise araçları kullanarak işi kendisi yapar: e-posta gönderir, CRM’e kayıt girer, sipariş açar. Ayrıntılar <a href=\"/ai-agent\" style=\"color:#2dd4bf\">AI agent</a> sayfamızda.",
       "q4": "Verilerimiz şirket dışına çıkar mı?",
-      "a4": "Çıkması gerekmez. Sistem kendi sunucunuza (on-premise) kurulabilir veya Türkiye’de barındırılabilir. Yapay zeka katmanı, <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">yapay zeka entegrasyonu</a> hizmetimizle aynı KVKK uyumlu yapıda kurulur."
+      "a4": "Çıkması gerekmez. Sistem kendi sunucunuza (on-premise) kurulabilir veya Türkiye’de barındırılabilir. Yapay zeka katmanı, <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">yapay zeka entegrasyonu</a> hizmetimizle aynı KVKK uyumlu yapıda kurulur.",
+      "q5": "Chatbotta ChatGPT yerine Gemini kullanabilir miyiz?",
+      "a5": "Evet. Model ihtiyacınıza göre seçilir: Google Workspace kullanan şirketler için Gemini doğal bir seçenektir, diğer durumlarda ChatGPT veya Claude, verilerin kurum içinde kalması gereken kurulumlarda ise Llama gibi açık kaynak modeller kullanılır. Chatbot modelden bağımsız kurulduğu için modeli sonradan değiştirebilirsiniz; kullanım ücretini model sağlayıcısı faturalar."
     },
     "cta": {
       "btn": "Ücretsiz keşif görüşmesi",
@@ -2243,7 +2250,7 @@
     },
     "who": {
       "title": "AI agent kimler için uygun?",
-      "intro": "AI agent, yapay zekanın yalnızca konuşmakla kalmayıp e-posta, CRM veya ERP gibi araçları kullanarak iş yapması demektir; “otonom yapay zeka” olarak da bilinir. Ozturksoft hazır bir paket satmak yerine agent’ın hangi işleri yapacağını, hangi yetkilere sahip olacağını ve hangi adımlarda onay isteyeceğini sizinle birlikte belirler ve bunları yazılı olarak teslim eder.",
+      "intro": "AI agent, ChatGPT, Gemini veya Claude gibi bir yapay zekanın yalnızca konuşmakla kalmayıp e-posta, CRM veya ERP gibi araçları kullanarak iş yapması demektir; “otonom yapay zeka” olarak da bilinir. Ozturksoft hazır bir paket satmak yerine agent’ın hangi işleri yapacağını, hangi yetkilere sahip olacağını ve hangi adımlarda onay isteyeceğini sizinle birlikte belirler ve bunları yazılı olarak teslim eder.",
       "i1": "Destek talepleri ve e-postalar hâlâ elle ayıklanıyor. Agent gelen mesajları sınıflandırsın, yanıt taslağı hazırlasın ve CRM’e kayıt açsın; emin olunamayan kayıtları bir çalışanınız onaylasın.",
       "i2": "Müşterileriniz sipariş veya randevu için bir botla konuşuyor ama bu bilgiler sisteminize işlenmiyor. Agent kaydı API üzerinden doğrudan açsın; Logo veya Netsis bağlantısını da aynı ekip kursun.",
       "i3": "Kamu kurumu ya da holdingsiniz ve verileriniz kendi ağınızda kalmalı. Sistem kendi sunucunuza kurulur, yapay zekayı sistemlerinize güvenle bağlayan MCP standardıyla çalışır ve her işlemi denetim için kaydeder. Model seçimi keşifte netleşir.",
@@ -2259,7 +2266,9 @@
       "q3": "Agent kontrolsüz mü çalışır?",
       "a3": "Hayır. Kritik adımlarda son kararı her zaman bir çalışanınız verir. Her işlemin kaydı ve kimin hangi işleme yetkili olduğu teslimatın parçasıdır.",
       "q4": "ERP sistemimize bağlanabilir mi?",
-      "a4": "Evet. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">Logo, Netsis</a> ve API’si olan diğer yazılımlara bağlanabilir. Hatalı fiş oluşmaması için önemli işlemler önce onayınıza sunulur."
+      "a4": "Evet. <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">Logo, Netsis</a> ve API’si olan diğer yazılımlara bağlanabilir. Hatalı fiş oluşmaması için önemli işlemler önce onayınıza sunulur.",
+      "q5": "Agent ChatGPT yerine Gemini ile çalışabilir mi?",
+      "a5": "Evet. Model ihtiyacınıza göre seçilir: Google Workspace kullanan şirketler için Gemini doğal bir seçenektir, diğer durumlarda ChatGPT veya Claude, kurum içi (on-premise) kurulumlarda ise Llama gibi açık kaynak modeller kullanılır. Agent modelden bağımsız kurulduğu için modeli sonradan değiştirebilirsiniz; kullanım ücretini model sağlayıcısı faturalar."
     },
     "cta": {
       "btn": "Ücretsiz keşif görüşmesi",
@@ -2277,7 +2286,7 @@
       "guide": "Rehber"
     },
     "meta": {
-      "title": "AI Agent Yaptırmak | Otonom Yapay Zeka | Ozturksoft"
+      "title": "AI Agent Yaptırmak: 2026 Fiyatları 60.000 TL’den | Ozturksoft"
     },
     "stats": {
       "s1l": "Deneme projesi (PoC)",
@@ -2556,12 +2565,12 @@
       "c3desc": "Verilerinizin dışarı çıkıp çıkmayacağını ve sistemin kendi sunucunuza kurulması gerekip gerekmediğini netleştiririz. <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">Kamu kurumları</a> ve holdingler için mimari öneri de hazırlarız.",
       "c3link": "KVKK rehberi →",
       "c4title": "Ardından uygulama",
-      "c4desc": "Karar netleştiğinde <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">AI agent</a> veya büyük dil modeli (LLM) projesini Çankaya’daki aynı ekip hayata geçirir.",
+      "c4desc": "Karar netleştiğinde <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">AI agent</a> veya büyük dil modeli (LLM; örneğin ChatGPT, Gemini veya Claude) projesini Çankaya’daki aynı ekip hayata geçirir.",
       "c4link": "Yapay zeka firması →"
     },
     "who": {
       "title": "Yapay zeka danışmanlığı kimler için uygun?",
-      "intro": "Yapay zeka danışmanlığı, yapay zekayı kullanmak isteyip nereden başlayacağını henüz bilmeyen şirketler içindir. Ne yaptırmak istediğinizi zaten biliyorsanız, örneğin bir ChatGPT entegrasyonu, doğrudan uygulama hizmetimize geçebilirsiniz. Ozturksoft önce yol haritasını çıkarır; isterseniz uygulamayı da aynı ekip yapar.",
+      "intro": "Yapay zeka danışmanlığı, yapay zekayı kullanmak isteyip nereden başlayacağını henüz bilmeyen şirketler içindir. Ne yaptırmak istediğinizi zaten biliyorsanız, örneğin bir ChatGPT veya Gemini entegrasyonu, doğrudan uygulama hizmetimize geçebilirsiniz. Ozturksoft önce yol haritasını çıkarır; isterseniz uygulamayı da aynı ekip yapar.",
       "i1": "Yönetim yapay zeka istiyor ama hangi süreçle başlanacağı belli değil. 90 günlük bir plan ve bütçe aralığı yazılı olarak hazırlansın istiyorsunuz.",
       "i2": "Hazır bir bot aldınız ama işinize uymadı. Önce küçük bir deneme projesiyle (PoC) doğru senaryoyu kanıtlamak, ardından <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">chatbot</a> veya <a href=\"/ai-agent\" style=\"color:#38bdf8\">AI agent</a> projesine geçmek istiyorsunuz.",
       "i3": "KVKK kapsamında hassas veri işleyen bir şirket ya da kamu kurumusunuz. Sistemin kendi sunucunuza kurulması gerekip gerekmediğini keşifte yazılı olarak belirleriz; uygulama <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">yapay zeka entegrasyonu</a> veya <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">kamu kurumları için yapay zeka</a> hizmetimizle yapılır.",
@@ -2577,7 +2586,9 @@
       "q3": "Sadece bir sunum mu teslim ediyorsunuz?",
       "a3": "Hayır. Süreç listesi, maliyet aralıkları ve 90 günlük uygulama sırası yazılı olarak teslim edilir. İsterseniz uygulamayı da aynı ekip yapar.",
       "q4": "Keşif gerçekten ücretsiz mi?",
-      "a4": "Evet. Görüşme 45–90 dakika sürer ve sizi hiçbir şekilde bağlamaz. <a href=\"/iletisim\" style=\"color:#38bdf8\">İletişim formunu</a> doldurabilir ya da <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a> numarasını arayabilirsiniz."
+      "a4": "Evet. Görüşme 45–90 dakika sürer ve sizi hiçbir şekilde bağlamaz. <a href=\"/iletisim\" style=\"color:#38bdf8\">İletişim formunu</a> doldurabilir ya da <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a> numarasını arayabilirsiniz.",
+      "q5": "ChatGPT yerine Gemini kullanabilir miyiz?",
+      "a5": "Evet. Danışmanlıkta modeli ihtiyacınıza göre birlikte seçeriz: Google Workspace kullanan şirketler için Gemini doğal bir seçenektir, diğer durumlarda ChatGPT veya Claude, kurum içi (on-premise) kurulumlarda ise Llama gibi açık kaynak modeller önerilir. Yol haritasındaki yapı modelden bağımsız tasarlandığı için model sonradan değiştirilebilir; kullanım ücretini model sağlayıcısı faturalar."
     },
     "cta": {
       "btn": "Ücretsiz keşif görüşmesi",
@@ -3413,7 +3424,7 @@
     "what": {
       "title": "Nasıl bir şey?",
       "p1": "Bir çalışan sohbet ekranına <em>“X firmasıyla sözleşmemizde gecikme cezası maddesi ne?”</em> ya da <em>“Yıllık izin başvurusu nasıl yapılıyor?”</em> diye yazar. Yapay zeka şirketinizin sözleşmeleri, prosedürleri ve yönetmelikleri arasından cevabı bulur, kısa ve anlaşılır bir yanıt verir ve <strong>hangi belgenin hangi bölümünden aldığını</strong> gösterir.",
-      "p2": "Fark şurada: bu asistan ChatGPT gibi yurt dışındaki bir sunucuda değil, <strong>kendi sunucunuzda</strong> çalışır. Belgeleriniz, sorularınız ve cevaplar kurumunuzun ağında kalır. Açık kaynaklı dil modelleri (Llama, Qwen, Mistral gibi) ve şirket belgelerinizden oluşan aranabilir bir bilgi tabanı (RAG) ile kurulur."
+      "p2": "Fark şurada: bu asistan ChatGPT veya Gemini gibi yurt dışındaki bir sunucuda değil, <strong>kendi sunucunuzda</strong> çalışır. Belgeleriniz, sorularınız ve cevaplar kurumunuzun ağında kalır. Açık kaynaklı dil modelleri (Llama, Qwen, Mistral gibi) ve şirket belgelerinizden oluşan aranabilir bir bilgi tabanı (RAG) ile kurulur."
     },
     "cmp": {
       "title": "Genel ChatGPT ile farkı",
@@ -3476,7 +3487,7 @@
     },
     "note": {
       "title": "Dürüst olmak gerekirse",
-      "p1": "Kurum içinde çalışan açık kaynak modeller, en güncel ChatGPT kadar genel bilgili değildir. Ama şirket belgelerinize dayalı soru-cevapta, yani bu sistemin asıl işinde, çoğu zaman yeterli ve tutarlıdır. Pilot proje tam olarak bunu sizin belgelerinizle ölçmek için vardır; büyük bir yatırımdan önce sonucu görürsünüz.",
+      "p1": "Kurum içinde çalışan açık kaynak modeller, en güncel ChatGPT veya Gemini kadar genel bilgili değildir. Ama şirket belgelerinize dayalı soru-cevapta, yani bu sistemin asıl işinde, çoğu zaman yeterli ve tutarlıdır. Pilot proje tam olarak bunu sizin belgelerinizle ölçmek için vardır; büyük bir yatırımdan önce sonucu görürsünüz.",
       "p2": "KVKK açısından kurum içi kurulum veri aktarımı riskini ortadan kaldırır; ancak veri envanteri, erişim yetkileri ve kayıt tutma yine planlanmalıdır. Ayrıntı: <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\">KVKK uyumlu yapay zeka rehberi</a>."
     },
     "faq": {
@@ -3492,7 +3503,9 @@
       "q5": "Hangi belgelerle çalışır?",
       "a5": "PDF, Word, Excel, e-posta arşivi, EBYS ve doküman yönetim sistemlerindeki belgeler. Taranmış belgeler önce OCR ile metne çevrilir. Ayrıntı: <a href=\"/ocr-belge-okuma\">OCR ve belge okuma</a>.",
       "q6": "Herkes her belgeyi görebilir mi?",
-      "a6": "Hayır. Departman ve rol bazında yetkilendirme yapılır; kullanıcı yalnızca erişim yetkisi olan belgelerden cevap alır."
+      "a6": "Hayır. Departman ve rol bazında yetkilendirme yapılır; kullanıcı yalnızca erişim yetkisi olan belgelerden cevap alır.",
+      "q7": "ChatGPT yerine Gemini kullanabilir miyiz?",
+      "a7": "Evet, model ihtiyaca göre seçilir. Veriler kurum ağında kalacaksa sunucunuza Llama gibi açık kaynak bir model kurulur; verilerin bulutta işlenmesi uygunsa Google Workspace kullanan şirketler için Gemini, diğerleri için ChatGPT veya Claude doğal seçeneklerdir. Sistem modelden bağımsız kurulduğu için model sonradan değiştirilebilir; bulut modellerinde kullanım ücretini model sağlayıcısı faturalar."
     },
     "cta": {
       "btn": "Ücretsiz keşif görüşmesi",
@@ -5532,5 +5545,118 @@
       "crm": "CRM yazılımı yaptırmak"
     },
     "footer": "© 2026 Ozturksoft — Sesli Yapay Zeka Asistanı, Ankara"
+  },
+  "kvkkAuditPage": {
+    "meta": {
+      "title": "KVKK Uyum Analizi | Web Sitesi ve Uygulama Kontrolü | Ozturksoft"
+    },
+    "hero": {
+      "badge": "KVKK · Çerez onayı · Güvenlik kontrolü · Yapay zeka ile yapılan siteler",
+      "title": "KVKK Uyum Analizi",
+      "desc": "Sitenizi veya uygulamanızı yapay zeka araçlarıyla ya da hızlıca bir serbest çalışana yaptırdıysanız, çerez onayı, formlar ve veritabanı ayarları çoğu zaman kontrol edilmeden yayına çıkar. Web sitenizin ve uygulamanızın KVKK uyumunu ve temel güvenliğini teknik olarak inceliyor, yazılı rapor ve öncelik sırasına konmuş düzeltme listesi veriyoruz. Ankara Çankaya ekibi, ücretsiz keşif görüşmesi.",
+      "btn": "Ücretsiz keşif görüşmesi"
+    },
+    "stats": {
+      "s1l": "Web sitesi KVKK ve güvenlik analizi",
+      "s2l": "Web veya mobil uygulama analizi",
+      "s3l": "Web sitesi analizinin süresi"
+    },
+    "symptoms": {
+      "title": "Bu durumlardan biri tanıdık mı?",
+      "i1": "Sitemi Lovable, Bolt veya Cursor ile yaptım; çalışıyor ama KVKK'ya uygun mu, güvenli mi bilmiyorum.",
+      "i2": "Çerez bandımız var ama Google Analytics ve reklam kodları kullanıcı onay vermeden çalışıyor olabilir.",
+      "i3": "İletişim ve başvuru formlarımızda aydınlatma metni ya da açık rıza kutucuğu yok veya ne yazacağımızı bilmiyoruz.",
+      "i4": "Formlara yazılanlar yapay zekaya (OpenAI, Gemini, Claude) gidiyor ama kullanıcıya bunu söylemiyoruz.",
+      "i5": "Uygulamayı yapan kişi işi bıraktı; yönetim paneline kimlerin girebildiğini ve veritabanının açık olup olmadığını bilmiyoruz.",
+      "i6": "Büyük bir müşteri veya kurum, iş vermeden önce KVKK ve güvenlik durumumuzu yazılı olarak soruyor.",
+      "note": "Önemli: Bu hizmet teknik bir uyum ve güvenlik analizidir, hukuki danışmanlık değildir. Aydınlatma metni, açık rıza metinleri ve VERBİS yükümlülüğü gibi hukuki konuları bir avukatla netleştirmenizi öneririz; raporumuz avukatınızın işini kolaylaştıran teknik bulguları içerir."
+    },
+    "pricing": {
+      "title": "KVKK uyum analizi fiyatları (2026)",
+      "intro": "Aşağıdaki fiyat aralıkları 2026 yılı içindir; kesin fiyat ücretsiz keşif görüşmesinden sonra yazılı teklifle belirlenir.",
+      "row1": "Web sitesi KVKK ve güvenlik analizi",
+      "t1": "1–2 hafta",
+      "d1": "Çerez onayı ve izleme kodları, formlardaki aydınlatma ve rıza akışı, tarayıcıda açıkta kalan anahtarlar ve temel güvenlik ayarları; yazılı rapor ve öncelikli düzeltme listesi.",
+      "row2": "Uygulama analizi (web/mobil, yapay zeka bağlantılı)",
+      "t2": "2–4 hafta",
+      "d2": "Web sitesi analizine ek olarak veritabanı erişim kuralları, giriş ve yetki yapısı, yönetim paneli, dosya yükleme, loglar ve yapay zeka servislerine giden veriler incelenir.",
+      "row3": "Analiz + düzeltme",
+      "t3": "3–6 hafta",
+      "d3": "Analizde bulunan sorunları Ozturksoft düzeltir: çerez onayı, rıza kayıtları, şifreleme, erişim kuralları ve yetkiler; ardından tekrar kontrol edip raporu güncelleriz.",
+      "monthly": "Analiz tek seferlik bir hizmettir, aylık ücret yoktur. Sonrasında düzenli kontrol ve güncelleme isterseniz <a href=\"/yazilim-bakim-destek-hizmeti\">yazılım bakım ve destek</a> hizmetiyle sabit aylık ücret 5.000–10.000 TL/ay'dır."
+    },
+    "cards": {
+      "title": "Neleri kontrol ediyoruz?",
+      "c1t": "Çerez onayı ve izleme kodları",
+      "c1d": "Google Analytics, Meta Pixel ve reklam kodlarının kullanıcı onay vermeden çalışıp çalışmadığını, onayın kaydedilip kaydedilmediğini ve \"reddet\" seçeneğinin gerçekten işe yarayıp yaramadığını test ederiz.",
+      "c2t": "Formlar: aydınlatma ve açık rıza",
+      "c2d": "İletişim, teklif, üyelik ve başvuru formlarında aydınlatma metninin görünüp görünmediğini, açık rızanın ayrı ve önceden işaretlenmemiş olarak alınıp alınmadığını ve bu rızanın nerede saklandığını kontrol ederiz.",
+      "c3t": "Yapay zeka servislerine giden veriler",
+      "c3d": "Form, sohbet botu veya otomasyonlarınızın OpenAI (GPT), Google Gemini ya da Anthropic Claude gibi yurt dışındaki servislere hangi kişisel verileri gönderdiğini ve kullanıcının bundan haberdar edilip edilmediğini çıkarırız.",
+      "c4t": "Açıkta kalan API anahtarları",
+      "c4d": "Yapay zeka araçlarıyla yazılan kodda sık görülen bir sorun: ödeme, e-posta veya yapay zeka servisi anahtarları (API key, yani servise erişim şifresi) tarayıcıya giden koda gömülür ve herkes görebilir. Bunları ararız.",
+      "c5t": "Veritabanı, yönetim paneli ve yetkiler",
+      "c5d": "Veritabanı erişim kurallarının açık bırakılıp bırakılmadığına (örneğin satır düzeyinde güvenlik, yani her kullanıcının yalnızca kendi kaydını görmesi kapalı mı), yönetim panelinin düzgün girişle korunup korunmadığına ve kimin hangi veriyi görebildiğine bakarız.",
+      "c6t": "Şifreleme, loglar ve dosya yükleme",
+      "c6d": "Şifrelerin ve kişisel verilerin şifrelenmeden saklanıp saklanmadığını, logların (sistem kayıtları) neyi ne kadar süre tuttuğunu ve yüklenen dosyaların herkesin açabileceği bir yerde durup durmadığını kontrol ederiz."
+    },
+    "integr": {
+      "title": "Hangi araçla yapıldığı fark etmez",
+      "p1": "Siteniz veya uygulamanız yapay zeka ile site yapma araçlarıyla, bir serbest çalışanla ya da bir ajansla yapılmış olabilir; canlı siteye ve mümkünse kaynak koda erişimle çalışırız. İnceleme sırasında mümkünse test ortamı kullanır, gizlilik sözleşmesi imzalarız.",
+      "i1": "Yapay zeka kod araçlarıyla yapılan siteler ve uygulamalar: Cursor, Lovable, Bolt, v0, Replit ve benzerleri",
+      "i2": "Hazır site altyapıları: WordPress, Shopify ve benzeri sistemler, eklentileri ve eklenen kodlar",
+      "i3": "Veritabanı ve arka uç (sunucu tarafı) servisleri: Supabase, Firebase veya kendi sunucunuzdaki veritabanı",
+      "i4": "Yapay zeka bağlantıları: OpenAI (GPT), Google Gemini, Anthropic Claude veya açık kaynak modellerle (Llama) çalışan formlar, sohbet botları ve otomasyonlar",
+      "i5": "Ölçüm ve pazarlama kodları: Google Analytics, Google Tag Manager, Meta Pixel, reklam ve canlı destek kodları"
+    },
+    "steps": {
+      "title": "Analiz nasıl ilerler?",
+      "s1t": "1. Ücretsiz keşif",
+      "s1d": "Sitenizi veya uygulamanızı, hangi verileri topladığınızı ve hangi servisleri kullandığınızı konuşuruz; tam analiz gerekip gerekmediğini açıkça söyleriz.",
+      "s2t": "2. Yazılı kapsam ve teklif",
+      "s2d": "Hangi sayfaların, formların ve sistemlerin inceleneceğini, süreyi ve fiyatı yazılı olarak veririz; erişim ve gizlilik koşullarını birlikte belirleriz.",
+      "s3t": "3. Teknik inceleme",
+      "s3d": "Otomatik tarama araçlarını kullanırız ama her bulguyu bir uzman elle doğrular; çerezleri, formları, veritabanı kurallarını ve kodu tek tek kontrol ederiz.",
+      "s4t": "4. Rapor ve sunum",
+      "s4d": "Sade bir dille yazılmış rapor ve aciliyetine göre sıralanmış düzeltme listesi veririz; bulguları sizinle ve isterseniz avukatınızla birlikte üzerinden geçeriz.",
+      "s5t": "5. Düzeltme ve tekrar kontrol",
+      "s5d": "Düzeltmeleri kendi ekibiniz yapabilir ya da Ozturksoft'a bırakabilirsiniz; düzeltmeler bitince tekrar kontrol eder, raporu güncelleriz."
+    },
+    "notfor": {
+      "title": "Kimler için uygun değil?",
+      "p1": "Formu olmayan, ziyaretçi takibi ve reklam kodu kullanmayan basit bir tanıtım sitesi için tam analiz genellikle gerekmez; kısa bir kontrol yeterli olur ve bunu keşif görüşmesinde söyleriz. Yalnızca hukuki metin yazdırmak istiyorsanız doğru adres bir avukattır; biz teknik tarafı inceleriz."
+    },
+    "faq": {
+      "title": "Sık sorulan sorular",
+      "q1": "Yapay zeka ile yaptığım site KVKK'ya uygun mu?",
+      "a1": "Bunu bakmadan söylemek mümkün değil; yapay zeka araçları çalışan bir site üretir ama çerez onayını, aydınlatma metnini veya veritabanı erişim kurallarını kendiliğinden doğru kurmaz. En sık gördüğümüz sorunlar onaysız çalışan analiz kodları, tarayıcıda açıkta kalan API anahtarları ve açık bırakılmış veritabanı kurallarıdır. Web sitesi analizi 1–2 haftada, 30.000–60.000 TL aralığında bu soruya yazılı cevap verir.",
+      "q2": "KVKK uyum analizi ne kadar tutar?",
+      "a2": "2026 için web sitesi KVKK ve güvenlik analizi 30.000–60.000 TL, yapay zeka bağlantılı web veya mobil uygulama analizi 60.000–120.000 TL, analiz ve düzeltmelerin birlikte yapıldığı iş 120.000–250.000+ TL'dir. Fiyatı form, sayfa ve sistem sayısı belirler; kesin fiyatı keşif görüşmesinden sonra yazılı teklifle veririz. Analiz için aylık ücret yoktur.",
+      "q3": "Çerez onayı olmadan Google Analytics kullanmak sorun mu?",
+      "a3": "Analiz ve reklam çerezleri zorunlu çerez sayılmaz; bu yüzden genellikle kullanıcının onayı alınmadan çalıştırılmaması beklenir. Teknik olarak kontrol ettiğimiz şey, bu kodların onaydan önce gerçekten durup durmadığı, \"reddet\" seçeneğinin işe yarayıp yaramadığı ve onayın kaydedilip kaydedilmediğidir. Ozturksoft kendi sitesinde de aynı yaklaşımı kullanır: analiz çerezleri onaydan önce çalışmaz ve onay kaydı tutulur (<a href=\"/gizlilik\">çerez ve KVKK aydınlatma metnimiz</a>). Sizin siteniz için hukuki değerlendirmeyi avukatınız yapmalıdır.",
+      "q4": "Sitemdeki formlar yapay zekaya veri gönderiyorsa ne yapmalıyım?",
+      "a4": "Önce hangi verinin, hangi servise (OpenAI, Google Gemini, Anthropic Claude gibi) ve hangi ülkeye gittiğini netleştirmek gerekir; analizde bunu çıkarırız. Ardından gerekmeyen kişisel verileri göndermeden önce ayıklamak, kullanıcıyı formda bilgilendirmek ve gerekiyorsa açık rıza almak gibi adımlar öneririz; metnin son halini avukatınızla netleştirirsiniz. Veri hiç yurt dışına çıkmamalıysa yapay zekayı <a href=\"/kurum-ici-yapay-zeka\">kurum içi sunucuda</a> çalıştırmak da bir seçenektir.",
+      "q5": "Analiz ne kadar sürer?",
+      "a5": "Web sitesi analizi genellikle 1–2 hafta, yapay zeka bağlantılı web veya mobil uygulama analizi 2–4 hafta sürer. Analiz ve düzeltmeler birlikte yapılıyorsa toplam süre 3–6 haftadır. Süre, erişimlerin (canlı site, kaynak kod, veritabanı) ne kadar hızlı verildiğine de bağlıdır.",
+      "q6": "Hukuki danışmanlık da veriyor musunuz?",
+      "a6": "Hayır; biz yazılım ekibiyiz ve yaptığımız iş teknik uyum ve güvenlik analizidir. Aydınlatma metninin ve açık rıza metinlerinin son hali, VERBİS kaydının gerekip gerekmediği gibi konuları bir avukatla netleştirmenizi öneririz. Raporumuz, avukatınızın bu kararları verirken ihtiyaç duyduğu teknik bilgileri (hangi veri nereye gidiyor, nerede saklanıyor, kim görebiliyor) açıkça ortaya koyar.",
+      "q7": "Analizden sonra düzeltmeleri siz yapar mısınız?",
+      "a7": "Evet, isterseniz. Analiz ve düzeltmeyi birlikte aldığınızda iş 120.000–250.000+ TL aralığında ve 3–6 haftada tamamlanır; çerez onayı, rıza kayıtları, şifreleme, erişim kuralları ve yetkileri düzeltip tekrar kontrol ederiz. Raporu kendi ekibinize de verebilirsiniz; düzenli kontrol için <a href=\"/yazilim-bakim-destek-hizmeti\">bakım ve destek</a> hizmeti aylık 5.000–10.000 TL'dir.",
+      "q8": "Kimler için gerekli değil?",
+      "a8": "Formu olmayan, ziyaretçi takibi ve reklam kodu kullanmayan, kişisel veri toplamayan basit bir tanıtım sitesi için tam analiz genellikle gerekmez; kısa bir kontrol yeterlidir. Böyle bir durumdaysanız bunu keşif görüşmesinde açıkça söyleriz. Form, üyelik, ödeme, yapay zeka bağlantısı veya müşteri verisi tutan bir uygulamanız varsa analiz anlamlıdır."
+    },
+    "cta": {
+      "title": "Sitenizin KVKK ve güvenlik durumunu öğrenin",
+      "desc": "Ücretsiz keşif görüşmesinde sitenizi veya uygulamanızı birlikte gözden geçirir, tam analiz mi yoksa kısa bir kontrol mü gerektiğini açıkça söyleriz. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "KVKK analizi teklifi al"
+    },
+    "related": {
+      "maint": "Yazılım bakım ve destek",
+      "qa": "QA ve test hizmeti",
+      "unfinished": "Yarım kalan yazılım projesi",
+      "onprem": "Kurum içi yapay zeka",
+      "privacy": "Çerez ve KVKK aydınlatma metnimiz"
+    },
+    "footer": "© 2026 Ozturksoft — KVKK Uyum Analizi, Ankara"
   }
 }

@@ -641,7 +641,8 @@
       "salesAi": "KI-Kundenservice",
       "dashboard": "Reporting-Dashboards",
       "saas": "SaaS-Entwicklung",
-      "voiceAi": "KI-Sprachassistent"
+      "voiceAi": "KI-Sprachassistent",
+      "kvkkAudit": "KVKK-Compliance-Prüfung"
     }
   },
   "aiFirmPage": {
@@ -666,7 +667,7 @@
     "linkAgent": "KI-Agent →",
     "cards": {
       "llmT": "LLM- und GPT-Integration",
-      "llmD": "Wir machen aus OpenAI-, Claude- oder Llama-Modellen einen Unternehmensassistenten, der mit Ihren eigenen Daten antwortet (RAG).",
+      "llmD": "Wir machen aus OpenAI-, Gemini-, Claude- oder Llama-Modellen einen Unternehmensassistenten, der mit Ihren eigenen Daten antwortet (RAG).",
       "llmL": "KI-Integration →",
       "agentT": "Entwicklung von KI-Agenten",
       "agentD": "Wir entwickeln KI-Assistenten, die sich mit CRM, ERP und weiteren Systemen verbinden und mehrstufige Aufgaben selbstständig erledigen.",
@@ -760,7 +761,9 @@
       "sw": "Die Software, an die die KI angebunden wird (ERP, CRM, Web, Mobile), entwickelt dasselbe Team: <a href=\"/ankara-yazilim-sirketi\" style=\"color:#3b82f6\">Softwareunternehmen in Ankara</a>.",
       "r7": "Interne KI (firmeneigenes ChatGPT)",
       "r8": "Ausschreibungsanalyse"
-    }
+    },
+    "q9": "Können wir Gemini statt ChatGPT nutzen?",
+    "a9": "Ja. Das Modell wird nach Ihrem Bedarf gewählt: Für Unternehmen, die Google Workspace nutzen, ist Gemini eine naheliegende Wahl, sonst ChatGPT oder Claude, und bei Installationen im eigenen Haus (On-Premise) Open-Source-Modelle wie Llama. Da die Integration modellunabhängig aufgebaut ist, können Sie das Modell später wechseln; die Nutzung rechnet der Modellanbieter ab."
   },
   "aiPage": {
     "hero": {
@@ -2036,9 +2039,9 @@
   },
   "yzEntegrasyonPage": {
     "hero": {
-      "badge": "ChatGPT · GPT · Claude · RAG · KVKK · +90 546 549 6806",
+      "badge": "ChatGPT · GPT · Gemini · Claude · RAG · KVKK · +90 546 549 6806",
       "title": "KI-Integration",
-      "desc": "Wir verbinden ein KI-Modell wie ChatGPT (GPT), Claude oder Llama mit der Software, die Sie bereits nutzen. So kann das Modell aus Ihren Unternehmensdokumenten antworten (RAG), als Chatbot auf Ihrer Website arbeiten oder gemäß KVKK auf Ihrem eigenen Server bleiben. Das ist etwas anderes als ein ChatGPT-Konto: Das Modell wird über eine API (die Verbindung, über die Systeme miteinander kommunizieren) an Ihre Systeme und Abläufe angebunden, und Zugriffsrechte werden festgelegt. Ozturksoft setzt jedes Projekt von Çankaya aus passend zu Ihrem Bedarf um; das Erstgespräch ist kostenlos, das Angebot erhalten Sie schriftlich. Wenn Sie sich zuerst einlesen möchten: <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">LLM-Leitfaden</a> · <a href=\"/blog/ankara-llm-entegrasyonu-maliyeti-2026\" style=\"color:#818cf8\">Kostenartikel</a>."
+      "desc": "Wir verbinden ein KI-Modell wie ChatGPT (GPT), Gemini, Claude oder Llama mit der Software, die Sie bereits nutzen. So kann das Modell aus Ihren Unternehmensdokumenten antworten (RAG), als Chatbot auf Ihrer Website arbeiten oder gemäß KVKK auf Ihrem eigenen Server bleiben. Das ist etwas anderes als ein ChatGPT-Konto: Das Modell wird über eine API (die Verbindung, über die Systeme miteinander kommunizieren) an Ihre Systeme und Abläufe angebunden, und Zugriffsrechte werden festgelegt. Ozturksoft setzt jedes Projekt von Çankaya aus passend zu Ihrem Bedarf um; das Erstgespräch ist kostenlos, das Angebot erhalten Sie schriftlich. Wenn Sie sich zuerst einlesen möchten: <a href=\"/blog/llm-gpt-entegrasyonu-rehberi\" style=\"color:#818cf8\">LLM-Leitfaden</a> · <a href=\"/blog/ankara-llm-entegrasyonu-maliyeti-2026\" style=\"color:#818cf8\">Kostenartikel</a>."
     },
     "pricing": {
       "title": "KI-Integrationspreis (2026)",
@@ -2054,7 +2057,7 @@
     },
     "cards": {
       "c1title": "ChatGPT an Ihre Software anbinden",
-      "c1desc": "Wir binden ein Modell von OpenAI, Claude oder Llama per API an Ihre Unternehmenssoftware an. Rechte, Protokolle und Antwortvorlagen richten sich nach Ihren Abläufen; Ihr Team muss nicht mehr in ChatGPT kopieren und einfügen.",
+      "c1desc": "Wir binden ein Modell von OpenAI, Gemini, Claude oder Llama per API an Ihre Unternehmenssoftware an. Rechte, Protokolle und Antwortvorlagen richten sich nach Ihren Abläufen; Ihr Team muss nicht mehr in ChatGPT kopieren und einfügen.",
       "c1link": "Erstgespräch vereinbaren →",
       "c2title": "Antworten aus Unternehmensdokumenten (RAG)",
       "c2desc": "Ihre Verfahren, Preislisten und Unterlagen werden zur Quelle der KI. Statt zu raten, antwortet das Modell aus Ihren eigenen Texten; so arbeitet ein interner Unternehmensassistent.",
@@ -2086,7 +2089,9 @@
       "q4": "Kann ich auch einen Chatbot oder KI-Agenten erstellen lassen?",
       "a4": "Ja. Für einen Chat-Assistenten auf Ihrer Website siehe <a href=\"/chatbot-yaptirmak\" style=\"color:#818cf8\">Chatbot erstellen lassen</a>, für WhatsApp <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#818cf8\">WhatsApp-Chatbot</a> und für eine KI, die Aufgaben selbstständig erledigt, <a href=\"/ai-agent\" style=\"color:#818cf8\">KI-Agent</a>.",
       "q5": "Wie hoch ist die monatliche API- bzw. Token-Gebühr?",
-      "a5": "Die Einrichtungsgebühr (40.000–500.000+ TL) zahlen Sie einmalig. Dazu kommt bei Modellen wie OpenAI, Claude, Azure OpenAI oder Gemini eine monatliche Token-Gebühr (Tokens messen die Textmenge, die das Modell verarbeitet): 12.000–35.000 TL/Monat für einen wenig genutzten Bot, 35.000–90.000 TL/Monat für einen intensiv genutzten RAG-Assistenten. Die Gesprächsgebühren von Meta für WhatsApp erläutern wir auf der WhatsApp-Chatbot-Seite. Installieren Sie das System auf Ihrem eigenen Server, fallen statt Tokens Server-/GPU-Kosten an. Das Erstgespräch ist kostenlos; der genaue Betrag richtet sich nach Ihrem Nutzungsvolumen."
+      "a5": "Die Einrichtungsgebühr (40.000–500.000+ TL) zahlen Sie einmalig. Dazu kommt bei Modellen wie OpenAI, Claude, Azure OpenAI oder Gemini eine monatliche Token-Gebühr (Tokens messen die Textmenge, die das Modell verarbeitet): 12.000–35.000 TL/Monat für einen wenig genutzten Bot, 35.000–90.000 TL/Monat für einen intensiv genutzten RAG-Assistenten. Die Gesprächsgebühren von Meta für WhatsApp erläutern wir auf der WhatsApp-Chatbot-Seite. Installieren Sie das System auf Ihrem eigenen Server, fallen statt Tokens Server-/GPU-Kosten an. Das Erstgespräch ist kostenlos; der genaue Betrag richtet sich nach Ihrem Nutzungsvolumen.",
+      "q6": "Können wir Gemini statt ChatGPT nutzen?",
+      "a6": "Ja. Das Modell wird nach Ihrem Bedarf gewählt: Für Unternehmen, die Google Workspace nutzen, ist Gemini eine naheliegende Wahl, sonst ChatGPT oder Claude, und bei Installationen im eigenen Haus (On-Premise) Open-Source-Modelle wie Llama. Da die Integration modellunabhängig aufgebaut ist, können Sie das Modell später wechseln; die Nutzung rechnet der Modellanbieter ab."
     },
     "cta": {
       "btn": "Kostenloses Erstgespräch",
@@ -2117,7 +2122,7 @@
     "hero": {
       "badge": "Web · GPT · CRM · KVKK · +90 546 549 6806",
       "title": "Chatbot erstellen lassen",
-      "desc": "Wir richten auf Ihrer Website einen Chatbot ein, der Kundenfragen 24/7 beantwortet. Er spricht mit GPT in natürlicher Sprache und antwortet aus Ihren Unternehmensdokumenten (RAG). Ozturksoft entwickelt jeden Chatbot von Çankaya aus passend zu Ihrem Geschäft; das Erstgespräch ist kostenlos, das Angebot schriftlich. Für WhatsApp: <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp-Chatbot erstellen lassen</a>. Kosten: <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">Chatbot-Kosten</a>."
+      "desc": "Wir richten auf Ihrer Website einen Chatbot ein, der Kundenfragen 24/7 beantwortet. Er spricht mit einem Modell wie ChatGPT (GPT), Gemini oder Claude in natürlicher Sprache und antwortet aus Ihren Unternehmensdokumenten (RAG). Ozturksoft entwickelt jeden Chatbot von Çankaya aus passend zu Ihrem Geschäft; das Erstgespräch ist kostenlos, das Angebot schriftlich. Für WhatsApp: <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp-Chatbot erstellen lassen</a>. Kosten: <a href=\"/blog/ankara-chatbot-gelistirme-2026\" style=\"color:#2dd4bf\">Chatbot-Kosten</a>."
     },
     "pricing": {
       "title": "Chatbot-Preis (2026)",
@@ -2147,7 +2152,7 @@
     },
     "who": {
       "title": "Für wen eignet sich ein Chatbot?",
-      "intro": "Ein Chatbot ist ein Chat-Assistent auf Ihrer Website oder in Ihrem Portal, der die Fragen Ihrer Kunden 24/7 beantwortet. Ein KI-Chatbot mit GPT antwortet in natürlicher Sprache auf Basis Ihrer Unternehmensinformationen. Ozturksoft richtet jeden Chatbot nach Ihren Szenarien, dem eingesetzten GPT-Modell und Ihrem CRM-System ein und übergibt ihn schriftlich dokumentiert.",
+      "intro": "Ein Chatbot ist ein Chat-Assistent auf Ihrer Website oder in Ihrem Portal, der die Fragen Ihrer Kunden 24/7 beantwortet. Ein KI-Chatbot mit einem Modell wie GPT oder Gemini antwortet in natürlicher Sprache auf Basis Ihrer Unternehmensinformationen. Ozturksoft richtet jeden Chatbot nach Ihren Szenarien, dem eingesetzten Modell (GPT, Gemini oder Claude) und Ihrem CRM-System ein und übergibt ihn schriftlich dokumentiert.",
       "i1": "Ihr Kundenservice ist außerhalb der Geschäftszeiten nicht erreichbar. Fragen zu Versand, Rücksendungen und häufige Fragen soll der Chatbot auf der Website beantworten, schwierige an Ihr Team weitergeben.",
       "i2": "Sie möchten einen Assistenten, der mit GPT aus Ihrem Produktkatalog antwortet. Ein ChatGPT-Konto reicht dafür nicht; nötig sind ein Chatfenster auf der Website, Zugriffsrechte und ein Aufbau, der aus Ihren Dokumenten antwortet (RAG).",
       "i3": "Sie denken auch an WhatsApp, möchten aber mit der Website beginnen. WhatsApp lässt sich später als <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#2dd4bf\">WhatsApp-Chatbot</a> mit demselben Assistenten ergänzen.",
@@ -2163,7 +2168,9 @@
       "q3": "Was ist der Unterschied zwischen Chatbot und KI-Agent?",
       "a3": "Ein Chatbot beantwortet Fragen. Ein KI-Agent nutzt Werkzeuge und erledigt die Arbeit selbst: Er versendet E-Mails, legt CRM-Einträge an und erstellt Bestellungen. Details auf unserer Seite <a href=\"/ai-agent\" style=\"color:#2dd4bf\">KI-Agent</a>.",
       "q4": "Verlassen unsere Daten das Unternehmen?",
-      "a4": "Das ist nicht nötig. Das System kann auf Ihrem eigenen Server (On-Premise) installiert oder in der Türkei gehostet werden. Die KI-Schicht wird in derselben KVKK-konformen Architektur aufgebaut wie unsere <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">KI-Integration</a>."
+      "a4": "Das ist nicht nötig. Das System kann auf Ihrem eigenen Server (On-Premise) installiert oder in der Türkei gehostet werden. Die KI-Schicht wird in derselben KVKK-konformen Architektur aufgebaut wie unsere <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#2dd4bf\">KI-Integration</a>.",
+      "q5": "Kann unser Chatbot Gemini statt ChatGPT nutzen?",
+      "a5": "Ja. Das Modell wird nach Ihrem Bedarf gewählt: Für Unternehmen, die Google Workspace nutzen, ist Gemini eine naheliegende Wahl, sonst ChatGPT oder Claude, und, wenn die Daten im Haus bleiben müssen, Open-Source-Modelle wie Llama. Da der Chatbot modellunabhängig aufgebaut ist, können Sie das Modell später wechseln; die Nutzung rechnet der Modellanbieter ab."
     },
     "cta": {
       "btn": "Kostenloses Erstgespräch",
@@ -2223,7 +2230,7 @@
     },
     "who": {
       "title": "Für wen eignet sich ein AI Agent?",
-      "intro": "Ein AI Agent bedeutet, dass KI nicht nur spricht, sondern mit Werkzeugen wie E-Mail, CRM oder ERP Aufgaben erledigt. Man spricht auch von „autonomer KI“. Statt ein fertiges Paket zu verkaufen, legt Ozturksoft gemeinsam mit Ihnen fest, welche Aufgaben der Agent übernimmt, welche Berechtigungen er hat und bei welchen Schritten er eine Freigabe einholt, und übergibt all das schriftlich.",
+      "intro": "Ein AI Agent bedeutet, dass KI (etwa ChatGPT, Gemini oder Claude) nicht nur spricht, sondern mit Werkzeugen wie E-Mail, CRM oder ERP Aufgaben erledigt. Man spricht auch von „autonomer KI“. Statt ein fertiges Paket zu verkaufen, legt Ozturksoft gemeinsam mit Ihnen fest, welche Aufgaben der Agent übernimmt, welche Berechtigungen er hat und bei welchen Schritten er eine Freigabe einholt, und übergibt all das schriftlich.",
       "i1": "Supportanfragen und E-Mails werden noch von Hand sortiert. Der Agent soll eingehende Nachrichten einordnen, Antwortentwürfe schreiben und CRM-Einträge anlegen; unsichere Einträge gibt ein Mitarbeitender frei.",
       "i2": "Ihre Kunden besprechen Bestellungen oder Termine mit einem Bot, doch die Daten landen nicht in Ihrem System. Der Agent soll den Eintrag direkt über eine API anlegen; die Anbindung an Logo oder Netsis richtet dasselbe Team ein.",
       "i3": "Sie sind eine Behörde oder Holding, und Ihre Daten müssen in Ihrem Netzwerk bleiben. Das System läuft auf Ihren eigenen Servern, nutzt MCP, einen Standard für die sichere Anbindung von KI an Ihre Systeme, und protokolliert jeden Vorgang für Prüfungen. Das Modell wählen wir im Erstgespräch.",
@@ -2239,7 +2246,9 @@
       "q3": "Arbeitet der Agent unkontrolliert?",
       "a3": "Nein. Bei kritischen Schritten entscheidet immer ein Mitarbeitender zuletzt. Ein Protokoll aller Vorgänge und klare Berechtigungen sind Teil der Lieferung.",
       "q4": "Lässt er sich an unser ERP anbinden?",
-      "a4": "Ja. Er lässt sich an <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">Logo, Netsis</a> und andere Software mit API anbinden. Wichtige Vorgänge werden Ihnen zuerst zur Freigabe vorgelegt, damit keine fehlerhaften Belege entstehen."
+      "a4": "Ja. Er lässt sich an <a href=\"/logo-netsis-entegrasyon\" style=\"color:#c084fc\">Logo, Netsis</a> und andere Software mit API anbinden. Wichtige Vorgänge werden Ihnen zuerst zur Freigabe vorgelegt, damit keine fehlerhaften Belege entstehen.",
+      "q5": "Kann der Agent mit Gemini statt ChatGPT arbeiten?",
+      "a5": "Ja. Das Modell wird nach Ihrem Bedarf gewählt: Für Unternehmen, die Google Workspace nutzen, ist Gemini eine naheliegende Wahl, sonst ChatGPT oder Claude, und bei Installationen im eigenen Haus (On-Premise) Open-Source-Modelle wie Llama. Da der Agent modellunabhängig aufgebaut ist, können Sie das Modell später wechseln; die Nutzung rechnet der Modellanbieter ab."
     },
     "cta": {
       "btn": "Kostenloses Kickoff-Gespräch",
@@ -2257,7 +2266,7 @@
       "guide": "Leitfaden"
     },
     "meta": {
-      "title": "AI-Agent erstellen lassen | Autonome KI | Ozturksoft"
+      "title": "KI-Agenten entwickeln lassen: Preise 2026 ab 60.000 TL | Ozturksoft"
     },
     "stats": {
       "s1l": "Pilotprojekt (PoC)",
@@ -2536,12 +2545,12 @@
       "c3desc": "Wir klären, ob Ihre Daten das Unternehmen verlassen würden und ob das System auf eigenen Servern laufen muss. Für <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">Behörden</a> und Holdings erstellen wir zudem eine Architekturempfehlung.",
       "c3link": "KVKK-Leitfaden →",
       "c4title": "Danach die Umsetzung",
-      "c4desc": "Sobald die Entscheidung steht, setzt dasselbe Team in Çankaya das Projekt für <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">Chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">AI Agent</a> oder großes Sprachmodell (LLM) um.",
+      "c4desc": "Sobald die Entscheidung steht, setzt dasselbe Team in Çankaya das Projekt für <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">Chatbot</a>, <a href=\"/ai-agent\" style=\"color:#38bdf8\">AI Agent</a> oder großes Sprachmodell (LLM, z. B. ChatGPT, Gemini oder Claude) um.",
       "c4link": "KI-Firma →"
     },
     "who": {
       "title": "Für wen eignet sich KI-Beratung?",
-      "intro": "KI-Beratung richtet sich an Unternehmen, die KI nutzen möchten, aber noch nicht wissen, wo sie anfangen sollen. Wenn Sie bereits wissen, was Sie brauchen, etwa eine ChatGPT-Integration, können Sie direkt zu unserem Umsetzungsservice gehen. Ozturksoft erstellt zuerst die Roadmap; auf Wunsch übernimmt dasselbe Team auch die Umsetzung.",
+      "intro": "KI-Beratung richtet sich an Unternehmen, die KI nutzen möchten, aber noch nicht wissen, wo sie anfangen sollen. Wenn Sie bereits wissen, was Sie brauchen, etwa eine ChatGPT- oder Gemini-Integration, können Sie direkt zu unserem Umsetzungsservice gehen. Ozturksoft erstellt zuerst die Roadmap; auf Wunsch übernimmt dasselbe Team auch die Umsetzung.",
       "i1": "Die Geschäftsleitung will KI, doch der erste Prozess ist unklar. Sie möchten einen 90-Tage-Plan und eine Budgetspanne schriftlich.",
       "i2": "Sie haben einen fertigen Bot gekauft, der nicht zu Ihrem Geschäft passt. Sie möchten zuerst mit einem kleinen Pilotprojekt (PoC) das richtige Szenario belegen und dann ein <a href=\"/chatbot-yaptirmak\" style=\"color:#38bdf8\">Chatbot</a>- oder <a href=\"/ai-agent\" style=\"color:#38bdf8\">AI-Agent</a>-Projekt starten.",
       "i3": "Sie sind ein Unternehmen oder eine Behörde und verarbeiten sensible Daten im Rahmen des KVKK. Im Erstgespräch halten wir schriftlich fest, ob das System auf Ihren eigenen Servern laufen muss; die Umsetzung erfolgt über unsere <a href=\"/yapay-zeka-entegrasyonu\" style=\"color:#38bdf8\">KI-Integration</a> oder <a href=\"/ankara-kamu-yapay-zeka\" style=\"color:#38bdf8\">KI für Behörden</a>.",
@@ -2557,7 +2566,9 @@
       "q3": "Liefern Sie nur eine Präsentation?",
       "a3": "Nein. Sie erhalten schriftlich eine Prozessliste, Kostenspannen und eine Umsetzungsreihenfolge für 90 Tage. Auf Wunsch übernimmt dasselbe Team auch die Umsetzung.",
       "q4": "Ist Kickoff wirklich kostenlos?",
-      "a4": "Ja. Das Gespräch dauert 45–90 Minuten und verpflichtet Sie zu nichts. Füllen Sie das <a href=\"/iletisim\" style=\"color:#38bdf8\">Kontaktformular</a> aus oder rufen Sie <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a> an."
+      "a4": "Ja. Das Gespräch dauert 45–90 Minuten und verpflichtet Sie zu nichts. Füllen Sie das <a href=\"/iletisim\" style=\"color:#38bdf8\">Kontaktformular</a> aus oder rufen Sie <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a> an.",
+      "q5": "Können wir Gemini statt ChatGPT nutzen?",
+      "a5": "Ja. In der Beratung wählen wir das Modell gemeinsam nach Ihrem Bedarf: Für Unternehmen, die Google Workspace nutzen, ist Gemini eine naheliegende Wahl, sonst ChatGPT oder Claude, und bei Installationen im eigenen Haus (On-Premise) empfehlen wir Open-Source-Modelle wie Llama. Da die Architektur der Roadmap modellunabhängig geplant wird, lässt sich das Modell später wechseln; die Nutzung rechnet der Modellanbieter ab."
     },
     "cta": {
       "btn": "Kostenloses Kickoff-Gespräch",
@@ -3393,7 +3404,7 @@
     "what": {
       "title": "Was ist das?",
       "p1": "Ein Mitarbeiter fragt im Chat: <em>„Wie hoch ist die Vertragsstrafe im Vertrag mit Firma X?“</em> oder <em>„Wie beantrage ich Jahresurlaub?“</em>. Die KI findet die Antwort in Ihren Verträgen, Verfahren und Richtlinien, antwortet kurz und verständlich und zeigt, <strong>aus welchem Dokument und Abschnitt</strong> sie stammt.",
-      "p2": "Der Unterschied: Dieser Assistent läuft nicht wie ChatGPT auf einem Server im Ausland, sondern auf <strong>Ihrem eigenen Server</strong>. Dokumente, Fragen und Antworten bleiben in Ihrem Netz. Er basiert auf Open-Source-Sprachmodellen (z. B. Llama, Qwen, Mistral) und einer durchsuchbaren Wissensbasis Ihrer Dokumente (RAG)."
+      "p2": "Der Unterschied: Dieser Assistent läuft nicht wie ChatGPT oder Gemini auf einem Server im Ausland, sondern auf <strong>Ihrem eigenen Server</strong>. Dokumente, Fragen und Antworten bleiben in Ihrem Netz. Er basiert auf Open-Source-Sprachmodellen (z. B. Llama, Qwen, Mistral) und einer durchsuchbaren Wissensbasis Ihrer Dokumente (RAG)."
     },
     "cmp": {
       "title": "Unterschied zum öffentlichen ChatGPT",
@@ -3456,7 +3467,7 @@
     },
     "note": {
       "title": "Ehrlich gesagt",
-      "p1": "Intern betriebene Open-Source-Modelle sind nicht so breit informiert wie das neueste ChatGPT. Für Fragen auf Basis Ihrer Dokumente – die eigentliche Aufgabe dieses Systems – sind sie meist ausreichend und konsistent. Genau das misst das Pilotprojekt mit Ihren Dokumenten, bevor Sie größer investieren.",
+      "p1": "Intern betriebene Open-Source-Modelle sind nicht so breit informiert wie die neuesten Versionen von ChatGPT oder Gemini. Für Fragen auf Basis Ihrer Dokumente – die eigentliche Aufgabe dieses Systems – sind sie meist ausreichend und konsistent. Genau das misst das Pilotprojekt mit Ihren Dokumenten, bevor Sie größer investieren.",
       "p2": "Nach KVKK beseitigt eine interne Installation das Risiko der Datenübermittlung; Dateninventar, Zugriffsrechte und Protokollierung müssen dennoch geplant werden. Details: <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\" style=\"color:#60a5fa\">Leitfaden KVKK-konforme KI</a>."
     },
     "faq": {
@@ -3472,7 +3483,9 @@
       "q5": "Mit welchen Dokumenten funktioniert es?",
       "a5": "PDF, Word, Excel, E-Mail-Archive, DMS und Dokumentensysteme. Gescannte Dokumente werden zuerst per OCR in Text umgewandelt. Details: <a href=\"/ocr-belge-okuma\" style=\"color:#60a5fa\">OCR und Dokumentenerkennung</a>.",
       "q6": "Kann jeder jedes Dokument sehen?",
-      "a6": "Nein. Rechte werden nach Abteilung und Rolle vergeben; Nutzer erhalten nur Antworten aus Dokumenten, auf die sie Zugriff haben."
+      "a6": "Nein. Rechte werden nach Abteilung und Rolle vergeben; Nutzer erhalten nur Antworten aus Dokumenten, auf die sie Zugriff haben.",
+      "q7": "Können wir Gemini statt ChatGPT nutzen?",
+      "a7": "Ja, das Modell wird nach Bedarf gewählt. Wenn die Daten in Ihrem Netz bleiben müssen, wird ein Open-Source-Modell wie Llama auf Ihrem Server installiert; ist eine Verarbeitung in der Cloud zulässig, ist Gemini für Unternehmen mit Google Workspace eine naheliegende Wahl, für andere ChatGPT oder Claude. Da das System modellunabhängig aufgebaut ist, lässt sich das Modell später wechseln; bei Cloud-Modellen rechnet der Modellanbieter die Nutzung ab."
     },
     "cta": {
       "btn": "Kostenloses Erstgespräch",
@@ -5512,5 +5525,118 @@
       "crm": "CRM-Software entwickeln lassen"
     },
     "footer": "© 2026 Ozturksoft — KI-Sprachassistent, Ankara"
+  },
+  "kvkkAuditPage": {
+    "meta": {
+      "title": "KVKK-Compliance-Analyse für Websites und Apps | Ozturksoft"
+    },
+    "hero": {
+      "badge": "KVKK · Cookie-Einwilligung · Sicherheitsprüfung · Mit KI gebaute Websites",
+      "title": "KVKK-Compliance-Analyse",
+      "desc": "Wurde Ihre Website oder App mit KI-Werkzeugen oder schnell von einem Freelancer erstellt, gehen Cookie-Einwilligung, Formulare und Datenbankeinstellungen oft ungeprüft online. Wir prüfen die KVKK-Konformität und die grundlegende Sicherheit Ihrer Website und App technisch und liefern einen schriftlichen Bericht mit einer priorisierten Liste von Korrekturen. Team in Çankaya, Ankara; kostenloses Erstgespräch.",
+      "btn": "Kostenloses Erstgespräch"
+    },
+    "stats": {
+      "s1l": "KVKK- und Sicherheitsanalyse der Website",
+      "s2l": "Analyse einer Web- oder Mobil-App",
+      "s3l": "Dauer der Website-Analyse"
+    },
+    "symptoms": {
+      "title": "Kommt Ihnen das bekannt vor?",
+      "i1": "Ich habe meine Website mit Lovable, Bolt oder Cursor gebaut; sie läuft, aber ich weiß nicht, ob sie KVKK-konform und sicher ist.",
+      "i2": "Wir haben ein Cookie-Banner, aber Google Analytics und Werbe-Tags laufen womöglich schon vor der Einwilligung.",
+      "i3": "In unseren Kontakt- und Bewerbungsformularen fehlen Datenschutzhinweis oder Einwilligungs-Checkbox, oder wir wissen nicht, was dort stehen soll.",
+      "i4": "Was in unsere Formulare eingegeben wird, geht an einen KI-Dienst (OpenAI, Gemini, Claude), aber wir informieren die Nutzer nicht darüber.",
+      "i5": "Der Entwickler der App ist weg; wir wissen nicht, wer sich ins Admin-Panel einloggen kann und ob die Datenbank offen ist.",
+      "i6": "Ein großer Kunde oder eine Institution verlangt vor der Zusammenarbeit eine schriftliche Auskunft zu KVKK und Sicherheit.",
+      "note": "Wichtig: Dies ist eine technische Compliance- und Sicherheitsanalyse, keine Rechtsberatung. Rechtliche Fragen wie Datenschutzhinweis (aydınlatma metni), Einwilligungstexte und eine etwaige VERBİS-Pflicht klären Sie bitte mit einer Anwältin oder einem Anwalt; unser Bericht liefert die technischen Befunde, die diese Arbeit erleichtern."
+    },
+    "pricing": {
+      "title": "Preise der KVKK-Compliance-Analyse (2026)",
+      "intro": "Die folgenden Preisspannen gelten für 2026; der genaue Preis wird nach dem kostenlosen Erstgespräch in einem schriftlichen Angebot festgelegt.",
+      "row1": "KVKK- und Sicherheitsanalyse der Website",
+      "t1": "1–2 Wochen",
+      "d1": "Cookie-Einwilligung und Tracking-Tags, Hinweis- und Einwilligungsablauf in Formularen, im Browser offenliegende Schlüssel und grundlegende Sicherheitseinstellungen; schriftlicher Bericht und priorisierte Korrekturliste.",
+      "row2": "App-Analyse (Web/Mobil, mit KI-Anbindung)",
+      "t2": "2–4 Wochen",
+      "d2": "Alles aus der Website-Analyse, zusätzlich Datenbank-Zugriffsregeln, Login- und Berechtigungsstruktur, Admin-Panel, Datei-Uploads, Logs und die an KI-Dienste gesendeten Daten.",
+      "row3": "Analyse + Korrekturen",
+      "t3": "3–6 Wochen",
+      "d3": "Ozturksoft behebt die in der Analyse gefundenen Probleme: Cookie-Einwilligung, Einwilligungsnachweise, Verschlüsselung, Zugriffsregeln und Berechtigungen; danach prüfen wir erneut und aktualisieren den Bericht.",
+      "monthly": "Die Analyse ist eine einmalige Leistung ohne monatliche Gebühr. Wünschen Sie danach regelmäßige Prüfungen und Updates, kostet unsere <a href=\"/yazilim-bakim-destek-hizmeti\">Softwarewartung und Support</a> pauschal 5.000–10.000 TL/Monat."
+    },
+    "cards": {
+      "title": "Was prüfen wir?",
+      "c1t": "Cookie-Einwilligung und Tracking-Tags",
+      "c1d": "Wir testen, ob Google Analytics, Meta Pixel und Werbe-Tags vor der Einwilligung laufen, ob die Einwilligung gespeichert wird und ob die Option \"Ablehnen\" wirklich funktioniert.",
+      "c2t": "Formulare: Hinweis und Einwilligung",
+      "c2d": "In Kontakt-, Angebots-, Registrierungs- und Bewerbungsformularen prüfen wir, ob der Datenschutzhinweis sichtbar ist, ob die ausdrückliche Einwilligung separat und nicht vorausgewählt eingeholt wird und wo sie gespeichert wird.",
+      "c3t": "An KI-Dienste gesendete Daten",
+      "c3d": "Wir ermitteln, welche personenbezogenen Daten Ihre Formulare, Chatbots oder Automationen an Dienste im Ausland wie OpenAI (GPT), Google Gemini oder Anthropic Claude senden und ob die Nutzer darüber informiert werden.",
+      "c4t": "Offenliegende API-Schlüssel",
+      "c4d": "Ein häufiges Problem in mit KI-Werkzeugen geschriebenem Code: Schlüssel für Zahlungs-, E-Mail- oder KI-Dienste (ein API-Schlüssel ist das Passwort für den Zugriff auf einen Dienst) stecken im Code, der an den Browser geht, und sind für jeden sichtbar. Danach suchen wir.",
+      "c5t": "Datenbank, Admin-Panel und Berechtigungen",
+      "c5d": "Wir prüfen, ob Datenbank-Zugriffsregeln offen gelassen wurden (zum Beispiel, ob Row-Level-Security, also dass jeder Nutzer nur seine eigenen Datensätze sieht, abgeschaltet ist), ob das Admin-Panel durch einen richtigen Login geschützt ist und wer welche Daten sehen kann.",
+      "c6t": "Verschlüsselung, Logs und Datei-Uploads",
+      "c6d": "Wir prüfen, ob Passwörter und personenbezogene Daten unverschlüsselt gespeichert werden, was die Logs (Systemprotokolle) wie lange speichern und ob hochgeladene Dateien an einem für jeden zugänglichen Ort liegen."
+    },
+    "integr": {
+      "title": "Egal, mit welchem Werkzeug gebaut",
+      "p1": "Ihre Website oder App kann mit einem KI-Baukasten, von einem Freelancer oder einer Agentur erstellt worden sein; wir arbeiten mit Zugriff auf die Live-Seite und nach Möglichkeit auf den Quellcode. Während der Prüfung nutzen wir wenn möglich eine Testumgebung und unterzeichnen eine Vertraulichkeitsvereinbarung.",
+      "i1": "Mit KI-Coding-Werkzeugen gebaute Websites und Apps: Cursor, Lovable, Bolt, v0, Replit und ähnliche",
+      "i2": "Fertige Website-Plattformen: WordPress, Shopify und ähnliche Systeme samt Plugins und eingefügtem Code",
+      "i3": "Datenbank- und Backend-Dienste (serverseitig): Supabase, Firebase oder eine Datenbank auf Ihrem eigenen Server",
+      "i4": "KI-Anbindungen: Formulare, Chatbots und Automationen mit OpenAI (GPT), Google Gemini, Anthropic Claude oder Open-Source-Modellen (Llama)",
+      "i5": "Analyse- und Marketing-Tags: Google Analytics, Google Tag Manager, Meta Pixel, Werbe- und Live-Chat-Skripte"
+    },
+    "steps": {
+      "title": "Wie läuft die Analyse ab?",
+      "s1t": "1. Kostenloses Erstgespräch",
+      "s1d": "Wir sprechen über Ihre Website oder App, welche Daten Sie erheben und welche Dienste Sie nutzen, und sagen offen, ob eine vollständige Analyse nötig ist.",
+      "s2t": "2. Schriftlicher Umfang und Angebot",
+      "s2d": "Wir legen schriftlich fest, welche Seiten, Formulare und Systeme geprüft werden, Dauer und Preis, und vereinbaren gemeinsam Zugriff und Vertraulichkeit.",
+      "s3t": "3. Technische Prüfung",
+      "s3d": "Wir setzen automatische Scan-Werkzeuge ein, doch jeder Befund wird von einer Fachkraft manuell bestätigt; Cookies, Formulare, Datenbankregeln und Code prüfen wir einzeln.",
+      "s4t": "4. Bericht und Besprechung",
+      "s4d": "Sie erhalten einen verständlich geschriebenen Bericht und eine nach Dringlichkeit sortierte Korrekturliste; wir besprechen die Befunde mit Ihnen und auf Wunsch mit Ihrer Anwältin oder Ihrem Anwalt.",
+      "s5t": "5. Korrekturen und Nachprüfung",
+      "s5d": "Die Korrekturen kann Ihr eigenes Team umsetzen oder Sie überlassen sie Ozturksoft; danach prüfen wir erneut und aktualisieren den Bericht."
+    },
+    "notfor": {
+      "title": "Für wen ist das nicht geeignet?",
+      "p1": "Eine einfache Visitenkarten-Website ohne Formulare, Besucher-Tracking und Werbe-Tags braucht meist keine vollständige Analyse; eine kurze Prüfung genügt, und das sagen wir Ihnen im Erstgespräch. Wenn Sie nur Rechtstexte erstellen lassen möchten, ist eine Anwältin oder ein Anwalt die richtige Adresse; wir prüfen die technische Seite."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Ist meine mit KI gebaute Website KVKK-konform?",
+      "a1": "Ohne Prüfung lässt sich das nicht sagen; KI-Werkzeuge erzeugen eine funktionierende Website, richten aber Cookie-Einwilligung, Datenschutzhinweis oder Datenbank-Zugriffsregeln nicht von selbst korrekt ein. Am häufigsten sehen wir Analyse-Tags ohne Einwilligung, im Browser offenliegende API-Schlüssel und offen gelassene Datenbankregeln. Eine Website-Analyse beantwortet diese Frage schriftlich in 1–2 Wochen für 30.000–60.000 TL.",
+      "q2": "Was kostet eine KVKK-Compliance-Analyse?",
+      "a2": "Für 2026 kostet eine KVKK- und Sicherheitsanalyse der Website 30.000–60.000 TL, die Analyse einer Web- oder Mobil-App mit KI-Anbindung 60.000–120.000 TL und Analyse plus Korrekturen 120.000–250.000+ TL. Der Preis hängt von der Zahl der Formulare, Seiten und Systeme ab; den genauen Preis nennen wir nach dem Erstgespräch in einem schriftlichen Angebot. Für die Analyse fällt keine monatliche Gebühr an.",
+      "q3": "Ist es ein Problem, Google Analytics ohne Cookie-Einwilligung zu nutzen?",
+      "a3": "Analyse- und Werbe-Cookies gelten nicht als unbedingt erforderlich; daher wird in der Regel erwartet, dass sie nicht vor der Einwilligung laufen. Technisch prüfen wir, ob diese Tags vor der Einwilligung wirklich stillstehen, ob die Option \"Ablehnen\" funktioniert und ob die Einwilligung gespeichert wird. Ozturksoft nutzt denselben Ansatz auf der eigenen Website: Analyse-Cookies laufen erst nach der Einwilligung, und die Einwilligung wird protokolliert (<a href=\"/gizlilik\">unser Cookie- und KVKK-Hinweis</a>). Die rechtliche Bewertung Ihrer Website sollte Ihre Anwältin oder Ihr Anwalt vornehmen.",
+      "q4": "Was soll ich tun, wenn die Formulare meiner Website Daten an eine KI senden?",
+      "a4": "Zunächst muss klar sein, welche Daten an welchen Dienst (etwa OpenAI, Google Gemini oder Anthropic Claude) und in welches Land gehen; das ermitteln wir in der Analyse. Danach empfehlen wir Schritte wie das Entfernen unnötiger personenbezogener Daten vor dem Senden, einen Hinweis im Formular und bei Bedarf eine ausdrückliche Einwilligung; den endgültigen Text klären Sie mit Ihrer Anwältin oder Ihrem Anwalt. Dürfen die Daten das Land gar nicht verlassen, ist der Betrieb der KI <a href=\"/kurum-ici-yapay-zeka\">auf einem eigenen Server im Haus</a> eine Option.",
+      "q5": "Wie lange dauert die Analyse?",
+      "a5": "Eine Website-Analyse dauert in der Regel 1–2 Wochen, die Analyse einer Web- oder Mobil-App mit KI-Anbindung 2–4 Wochen. Werden Analyse und Korrekturen zusammen erledigt, sind es insgesamt 3–6 Wochen. Die Dauer hängt auch davon ab, wie schnell die Zugänge (Live-Seite, Quellcode, Datenbank) bereitgestellt werden.",
+      "q6": "Bieten Sie auch Rechtsberatung an?",
+      "a6": "Nein; wir sind ein Software-Team, und unsere Leistung ist eine technische Compliance- und Sicherheitsanalyse. Die endgültige Fassung von Datenschutzhinweis und Einwilligungstexten sowie die Frage einer VERBİS-Registrierung klären Sie bitte mit einer Anwältin oder einem Anwalt. Unser Bericht stellt die technischen Fakten klar dar, die dafür nötig sind (welche Daten wohin gehen, wo sie gespeichert werden, wer sie sehen kann).",
+      "q7": "Übernehmen Sie nach der Analyse auch die Korrekturen?",
+      "a7": "Ja, auf Wunsch. Analyse und Korrekturen zusammen kosten 120.000–250.000+ TL und dauern 3–6 Wochen; wir beheben Cookie-Einwilligung, Einwilligungsnachweise, Verschlüsselung, Zugriffsregeln und Berechtigungen und prüfen danach erneut. Sie können den Bericht auch Ihrem eigenen Team übergeben; für laufende Prüfungen kostet unsere <a href=\"/yazilim-bakim-destek-hizmeti\">Wartung und Support</a> 5.000–10.000 TL pro Monat.",
+      "q8": "Wer braucht das nicht?",
+      "a8": "Eine einfache Visitenkarten-Website ohne Formulare, Besucher-Tracking und Werbe-Tags, die keine personenbezogenen Daten erhebt, braucht meist keine vollständige Analyse; eine kurze Prüfung genügt. Trifft das auf Sie zu, sagen wir es Ihnen im Erstgespräch offen. Haben Sie Formulare, Benutzerkonten, Zahlungen, eine KI-Anbindung oder eine App mit Kundendaten, ist eine Analyse sinnvoll."
+    },
+    "cta": {
+      "title": "Erfahren Sie, wo Ihre Website bei KVKK und Sicherheit steht",
+      "desc": "Im kostenlosen Erstgespräch sehen wir uns Ihre Website oder App gemeinsam an und sagen offen, ob eine vollständige Analyse oder eine kurze Prüfung nötig ist. <a href=\"tel:+905465496806\">+90 546 549 6806</a>",
+      "btn2": "Angebot für eine KVKK-Analyse anfordern"
+    },
+    "related": {
+      "maint": "Softwarewartung und Support",
+      "qa": "QA- und Testservice",
+      "unfinished": "Unvollendete Softwareprojekte",
+      "onprem": "KI im eigenen Haus",
+      "privacy": "Unser Cookie- und KVKK-Hinweis"
+    },
+    "footer": "© 2026 Ozturksoft — KVKK-Compliance-Analyse, Ankara"
   }
 }

@@ -53,6 +53,7 @@ export default defineConfig({
         dashboard: resolve(__dirname, 'raporlama-dashboard-yaptirmak.html'),
         saasDevelopment: resolve(__dirname, 'saas-yazilim-yaptirmak.html'),
         voiceAi: resolve(__dirname, 'sesli-yapay-zeka-asistani.html'),
+        kvkkAudit: resolve(__dirname, 'kvkk-uyum-analizi.html'),
         ocrBelgeOkuma: resolve(__dirname, 'ocr-belge-okuma.html'),
         kurumIciYapayZeka: resolve(__dirname, 'kurum-ici-yapay-zeka.html'),
         yarimKalanProje: resolve(__dirname, 'yarim-kalan-yazilim-projesi.html'),

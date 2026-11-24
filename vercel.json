@@ -469,6 +469,21 @@
       "permanent": true
     },
     {
+      "source": "/kvkk-analizi",
+      "destination": "/kvkk-uyum-analizi",
+      "permanent": true
+    },
+    {
+      "source": "/kvkk-uyumlu-web-sitesi",
+      "destination": "/kvkk-uyum-analizi",
+      "permanent": true
+    },
+    {
+      "source": "/web-sitesi-kvkk-kontrolu",
+      "destination": "/kvkk-uyum-analizi",
+      "permanent": true
+    },
+    {
       "source": "/stok-takip-programi",
       "destination": "/stok-takip-programi-yaptirmak",
       "permanent": true

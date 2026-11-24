@@ -94,6 +94,11 @@
           "@type": "Question",
           "name": "Herkes her belgeyi görebilir mi?",
           "acceptedAnswer": { "@type": "Answer", "text": "Hayır. Departman ve rol bazında yetkilendirme yapılır; kullanıcı yalnızca erişim yetkisi olan belgelerden cevap alır." }
+        },
+        {
+          "@type": "Question",
+          "name": "ChatGPT yerine Gemini kullanabilir miyiz?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Evet, model ihtiyaca göre seçilir. Veriler kurum ağında kalacaksa sunucunuza Llama gibi açık kaynak bir model kurulur; verilerin bulutta işlenmesi uygunsa Google Workspace kullanan şirketler için Gemini, diğerleri için ChatGPT veya Claude doğal seçeneklerdir. Sistem modelden bağımsız kurulduğu için model sonradan değiştirilebilir; bulut modellerinde kullanım ücretini model sağlayıcısı faturalar." }
         }
       ]
     }
@@ -158,7 +163,7 @@
     <section class="lp-section lp-narrow">
         <h2 data-i18n="privateAiPage.what.title">Nasıl bir şey?</h2>
         <p class="lp-lead" data-i18n="privateAiPage.what.p1">Bir çalışan sohbet ekranına <em>“X firmasıyla sözleşmemizde gecikme cezası maddesi ne?”</em> ya da <em>“Yıllık izin başvurusu nasıl yapılıyor?”</em> diye yazar. Yapay zeka şirketinizin sözleşmeleri, prosedürleri ve yönetmelikleri arasından cevabı bulur, kısa ve anlaşılır bir yanıt verir ve <strong>hangi belgenin hangi bölümünden aldığını</strong> gösterir.</p>
-        <p class="lp-lead" data-i18n="privateAiPage.what.p2">Fark şurada: bu asistan ChatGPT gibi yurt dışındaki bir sunucuda değil, <strong>kendi sunucunuzda</strong> çalışır. Belgeleriniz, sorularınız ve cevaplar kurumunuzun ağında kalır. Açık kaynaklı dil modelleri (Llama, Qwen, Mistral gibi) ve şirket belgelerinizden oluşan aranabilir bir bilgi tabanı (RAG) ile kurulur.</p>
+        <p class="lp-lead" data-i18n="privateAiPage.what.p2">Fark şurada: bu asistan ChatGPT veya Gemini gibi yurt dışındaki bir sunucuda değil, <strong>kendi sunucunuzda</strong> çalışır. Belgeleriniz, sorularınız ve cevaplar kurumunuzun ağında kalır. Açık kaynaklı dil modelleri (Llama, Qwen, Mistral gibi) ve şirket belgelerinizden oluşan aranabilir bir bilgi tabanı (RAG) ile kurulur.</p>
     </section>
 
     <section class="lp-section lp-narrow" style="padding-top:0">
@@ -266,7 +271,7 @@
     <section class="lp-section lp-narrow" style="padding-top:0">
         <div class="lp-note">
             <h2 data-i18n="privateAiPage.note.title">Dürüst olmak gerekirse</h2>
-            <p data-i18n="privateAiPage.note.p1">Kurum içinde çalışan açık kaynak modeller, en güncel ChatGPT kadar genel bilgili değildir. Ama şirket belgelerinize dayalı soru-cevapta, yani bu sistemin asıl işinde, çoğu zaman yeterli ve tutarlıdır. Pilot proje tam olarak bunu sizin belgelerinizle ölçmek için vardır; büyük bir yatırımdan önce sonucu görürsünüz.</p>
+            <p data-i18n="privateAiPage.note.p1">Kurum içinde çalışan açık kaynak modeller, en güncel ChatGPT veya Gemini kadar genel bilgili değildir. Ama şirket belgelerinize dayalı soru-cevapta, yani bu sistemin asıl işinde, çoğu zaman yeterli ve tutarlıdır. Pilot proje tam olarak bunu sizin belgelerinizle ölçmek için vardır; büyük bir yatırımdan önce sonucu görürsünüz.</p>
             <p data-i18n="privateAiPage.note.p2">KVKK açısından kurum içi kurulum veri aktarımı riskini ortadan kaldırır; ancak veri envanteri, erişim yetkileri ve kayıt tutma yine planlanmalıdır. Ayrıntı: <a href="/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026">KVKK uyumlu yapay zeka rehberi</a>.</p>
         </div>
     </section>
@@ -296,6 +301,10 @@
         <details>
             <summary data-i18n="privateAiPage.faq.q6">Herkes her belgeyi görebilir mi?</summary>
             <p data-i18n="privateAiPage.faq.a6">Hayır. Departman ve rol bazında yetkilendirme yapılır; kullanıcı yalnızca erişim yetkisi olan belgelerden cevap alır.</p>
+        </details>
+        <details>
+            <summary data-i18n="privateAiPage.faq.q7">ChatGPT yerine Gemini kullanabilir miyiz?</summary>
+            <p data-i18n="privateAiPage.faq.a7">Evet, model ihtiyaca göre seçilir. Veriler kurum ağında kalacaksa sunucunuza Llama gibi açık kaynak bir model kurulur; verilerin bulutta işlenmesi uygunsa Google Workspace kullanan şirketler için Gemini, diğerleri için ChatGPT veya Claude doğal seçeneklerdir. Sistem modelden bağımsız kurulduğu için model sonradan değiştirilebilir; bulut modellerinde kullanım ücretini model sağlayıcısı faturalar.</p>
         </details>
     </section>
 

@@ -52,6 +52,7 @@ Prices below are 2026 ranges in Turkish lira (TL) published on the linked pages;
 - [Reporting dashboards](https://ozturksoft.net/raporlama-dashboard-yaptirmak): Management dashboards and reporting that combine ERP, CRM, e-commerce and Excel data. 60,000–450,000+ TL.
 - [SaaS development](https://ozturksoft.net/saas-yazilim-yaptirmak): SaaS and subscription software products: MVP 150,000–300,000 TL, full product 300,000–700,000+ TL, source code owned by the client.
 - [AI voice assistant](https://ozturksoft.net/sesli-yapay-zeka-asistani): Turkish AI voice assistant that answers business phone calls with human handover and CRM summaries. Pilot 120,000–200,000 TL, call-center integration 200,000–450,000 TL, usage billed per minute.
+- [KVKK compliance audit](https://ozturksoft.net/kvkk-uyum-analizi): Technical KVKK and security analysis for websites and apps, especially ones built with AI coding tools: cookie consent, consent on forms, data sent to AI services, exposed keys, open database rules. 30,000–250,000+ TL. Not legal advice.
 - [QA and test automation](https://ozturksoft.net/qa-test-hizmeti): audit 15,000–40,000 TL; test automation 40,000–120,000 TL (Playwright, Cypress, API, CI/CD)
 - [Ankara software company overview](https://ozturksoft.net/ankara-yazilim-sirketi)
 
