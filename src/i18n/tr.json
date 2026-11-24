@@ -1112,6 +1112,10 @@
       "kosgebTubitakCard": {
         "title": "KOSGEB ve TÜBİTAK Destekleriyle Yazılım ve Yapay Zeka Projesi: Neye Dikkat Edilmeli? [2026]",
         "desc": "Yazılım veya yapay zeka projesini KOSGEB ya da TÜBİTAK desteğiyle yapmak isteyenler için: hangi proje hangi desteğe uyar, Ar-Ge ile standart yazılım farkı, destekli projede yazılım tarafında dikkat edilecekler."
+      },
+      "ecomMigrationCard": {
+        "title": "Hazır E-Ticaret Paketinden Kendi Sitenize Geçiş: Ne Zaman, Nasıl, Maliyeti Ne? [2026]",
+        "desc": "Aylık paketle kiralanan mağazadan kendi sitenize geçiş: geçiş zamanını gösteren işaretler, hazır paket ile size ait site karşılaştırması, 2026 maliyeti ve Google sıralamasını kaybetmeden geçişin 6 adımı."
       }
     },
     "posts": {
@@ -1921,7 +1925,7 @@
       "i3": "<strong>Satıştan pay ve paket yükseltme yok:</strong> Her satıştan pay ya da daha üst pakete geçiş ücreti ödemezsiniz. Sunucu, güvenlik ve teknik destek için ödediğiniz aylık bakım ücreti sabittir ve teklifte baştan yazılır.",
       "i4": "<strong>İstediğiniz özellik, beklemeden:</strong> Bayiye özel fiyat, kendi kampanya kurallarınız veya muhasebe programı bağlantısı gibi özellikleri ihtiyacınıza göre yaptırırsınız.",
       "i5": "<strong>Taşıma bizden:</strong> Ürünlerinizi, kategorilerinizi ve müşteri listenizi mevcut platformunuzdan yeni sitenize taşırız. Google’daki sıralamanızı korumak için eski sayfa adreslerini yeni adreslere yönlendiririz.",
-      "note": "Hazır paket her işletme için yanlış değildir: yeni başlıyorsanız ve ürün sayınız azsa uygun olabilir. Satışlarınız büyüyüp paketin sınırlarına takılmaya başladığınızda kendi sitenize geçmek daha mantıklı hale gelir. Hangisinin size uygun olduğunu ücretsiz keşif görüşmesinde birlikte değerlendiririz."
+      "note": "Hazır paket her işletme için yanlış değildir: yeni başlıyorsanız ve ürün sayınız azsa uygun olabilir. Satışlarınız büyüyüp paketin sınırlarına takılmaya başladığınızda kendi sitenize geçmek daha mantıklı hale gelir. Hangisinin size uygun olduğunu ücretsiz keşif görüşmesinde birlikte değerlendiririz. Geçişin adımlarını ve Google sıralamasının nasıl korunduğunu <a href=\"/blog/hazir-e-ticaret-paketinden-kendi-sitenize-gecis-2026\" style=\"color:#fb923c\">hazır paketten kendi sitenize geçiş rehberimizde</a> anlattık."
     },
     "what": {
       "title": "E-ticaret sitesi yaptırmak: kiralık değil, size ait mağaza",

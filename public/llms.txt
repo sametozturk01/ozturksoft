@@ -71,6 +71,7 @@ Prices below are 2026 ranges in Turkish lira (TL) published on the linked pages;
 - [Document OCR with AI](https://ozturksoft.net/blog/ankara-ocr-belge-ai-2026)
 - [Process automation with RPA + AI](https://ozturksoft.net/blog/ankara-surec-otomasyonu-rpa-yapay-zeka)
 - [Replacing Excel with custom software](https://ozturksoft.net/blog/excel-yerine-ozel-program-yaptirmak-2026) (Turkish)
+- [Moving from a ready-made e-commerce plan to your own store](https://ozturksoft.net/blog/hazir-e-ticaret-paketinden-kendi-sitenize-gecis-2026) (Turkish): signs it is time to switch, cost, and a 6-step migration that keeps Google rankings
 - [Transferring e-invoices and PDF invoices into accounting](https://ozturksoft.net/blog/pdf-e-fatura-muhasebeye-aktarma-2026) (Turkish)
 - [EDMS (EBYS) and AI document classification for the public sector](https://ozturksoft.net/blog/ebys-yapay-zeka-evrak-siniflandirma-2026) (Turkish)
 - [How to choose an AI company in Ankara](https://ozturksoft.net/blog/ankara-yapay-zeka-firmasi-nasil-secilir-2026) and [how to choose a software company](https://ozturksoft.net/blog/ankara-yazilim-sirketi-nasil-secilir-2026)
