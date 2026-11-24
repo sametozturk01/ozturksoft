@@ -13,6 +13,8 @@ export const INDEXNOW_KEY_URL = `${BASE}/${INDEXNOW_KEY}.txt`;
 export const INDEXNOW_ENDPOINTS = [
   { name: 'IndexNow (all engines)', url: 'https://api.indexnow.org/indexnow' },
   { name: 'Bing', url: 'https://www.bing.com/indexnow' },
+  // Yandex accepts our key while Bing returns 403; IndexNow engines share submissions, so this still reaches Bing
+  { name: 'Yandex', url: 'https://yandex.com/indexnow' },
 ];
 
 export function readIndexNowKeyFromDisk() {
