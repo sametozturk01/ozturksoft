@@ -489,7 +489,7 @@
       "placeholderPhone": "05XXXXXXXXX",
       "placeholderDetails": "Par exemple : un système qui lit automatiquement nos factures, un site web d’entreprise, un chatbot WhatsApp...",
       "kvkkTitle": "Consentement RGPD / KVKK",
-      "kvkkConsent": "Conformément à la loi n° 6698, je consens expressément à ce que mon nom, mon numéro de téléphone et ma demande soient traités pour l’établissement d’un devis et la prise de contact via les services e-mail/hébergement décrits dans la politique de confidentialité, y compris leur transfert à l’étranger.",
+      "kvkkConsent": "Conformément à la loi n° 6698, je consens expressément à ce que mon nom, mon numéro de téléphone et ma demande soient traités pour l’établissement d’un devis et la prise de contact via les services e-mail et d’hébergement décrits dans la politique de confidentialité (Google, Vercel).",
       "privacyLink": "Politique de confidentialité",
       "privacyText": "lue et acceptée. *",
       "privacyRequired": "Vous devez cocher la case de consentement KVKK/RGPD avant d'envoyer le formulaire.",
