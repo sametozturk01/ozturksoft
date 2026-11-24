@@ -1884,8 +1884,8 @@
       "a4": "Evet. iyzico, PayTR, banka sanal POS ve Yurtiçi/Aras/MNG kargo bağlantıları kurulur. İsterseniz <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">WhatsApp’tan sipariş</a> de aynı projeye eklenir. Süreler: hazır tema 3–5 hafta, özel tasarım 6–10 hafta, ERP bağlantılı mağaza 10–16 hafta.",
       "q5": "Hazır e-ticaret paketinden kendi siteme geçebilir miyim?",
       "a5": "Evet. Ürünlerinizi, kategorilerinizi ve müşteri listenizi yeni sitenize taşırız; eski sayfa adreslerini yeni adreslere yönlendirerek Google’daki sıralamanızı korumaya çalışırız. Yeni siteniz size özel tasarlanır ve kodu da verileri de size ait olur. Taşıma sırasında mevcut mağazanız açık kalır, geçişi tek seferde yaparız.",
-      "q6": "E-ticaret nasıl yapılır, nereden başlamalıyım?",
-      "a6": "Önce satacağınız ürünleri, hedef müşterinizi ve ödeme/kargo tercihlerinizi netleştirin. Ardından e-ticaret sitesi kurulur, ödeme ve kargo bağlanır, ürünler yüklenir ve site yayına alınır. Ücretsiz keşif görüşmesinde bu adımları işinize göre birlikte planlarız.",
+      "q6": "E-ticaret sitesi yaptırmak için nereden başlamalıyım?",
+      "a6": "Satacağınız ürünleri, yaklaşık ürün sayınızı ve ödeme/kargo tercihlerinizi not etmeniz yeterli. Ücretsiz keşif görüşmesinde bunlara bakarak mağazanızın kapsamını, süresini ve fiyatını yazılı olarak çıkarırız; tasarım, geliştirme ve yayına alma adımlarını da biz yürütürüz.",
       "q7": "E-ticaret sitesi kurmak için teknik bilgi gerekir mi?",
       "a7": "Hayır. Teknik işlerin tamamını biz yaparız. Size kalan, ürünlerinizi ve siparişlerinizi kolay bir yönetim panelinden takip etmektir; panelin kullanımını da siteyi yayına alırken öğretiriz.",
       "q8": "Hazır e-ticaret sitesi satın almak mı, kendi sitemi yaptırmak mı?",
@@ -1923,13 +1923,13 @@
       "note": "Hazır paket her işletme için yanlış değildir: yeni başlıyorsanız ve ürün sayınız azsa uygun olabilir. Satışlarınız büyüyüp paketin sınırlarına takılmaya başladığınızda kendi sitenize geçmek daha mantıklı hale gelir. Hangisinin size uygun olduğunu ücretsiz keşif görüşmesinde birlikte değerlendiririz."
     },
     "what": {
-      "title": "E-ticaret nedir?",
-      "p1": "E-ticaret, ürün ve hizmetlerinizi internet üzerinden satmanızdır: müşteriniz ürünü sitenizde görür, sepete ekler, kartıyla öder ve siparişini kargoyla alır. Bugün birçok işletme internetten satış yaparak dükkânının ve şehrinin sınırlarının ötesindeki müşterilere ulaşıyor.",
+      "title": "E-ticaret sitesi yaptırmak: kiralık değil, size ait mağaza",
+      "p1": "Ürünlerinizi internetten satmak için müşterinin ürünü görüp sepete ekleyebildiği, kartıyla ödeyip siparişini kargoyla alabildiği bir siteye ihtiyacınız var. Biz bu siteyi işletmenize göre baştan sona kuruyor ve yayına alıyoruz.",
       "p2": "Ozturksoft e-ticaret sitenizi başka bir firmanın hazır platformu üzerine kurmaz; mağazanızı markanız için sıfırdan yazar. Böylece altyapı kiralık değil, sizin olur."
     },
     "how": {
-      "title": "E-ticaret nasıl yapılır? 5 adımda kendi mağazanız",
-      "intro": "“E-ticarete nasıl başlanır?” sorusunun cevabı, birlikte izleyeceğimiz şu adımlardır:",
+      "title": "E-ticaret sitesi nasıl yaptırılır? 5 adımda kendi mağazanız",
+      "intro": "Bizimle çalıştığınızda süreç şu adımlarla ilerler:",
       "s1t": "Ücretsiz keşif görüşmesi",
       "s1d": "Ürünlerinizi, hedef müşterinizi, ödeme ve kargo tercihlerinizi ve kullandığınız muhasebe programını konuşur, size yazılı teklif hazırlarız.",
       "s2t": "Size özel tasarım",
@@ -1942,7 +1942,7 @@
       "s5d": "Sitenizi kendi alan adınızda yayına alır, yönetim panelinin kullanımını öğretir ve sonrasında teknik destek veririz."
     },
     "needs": {
-      "title": "Başarılı bir e-ticaret için neler gerekir?",
+      "title": "E-ticaret sitenizde neler hazır gelir?",
       "i1": "<strong>Hızlı ve güvenli bir site:</strong> Telefonda rahat kullanılan, hızlı açılan ve SSL ile korunan sayfalar.",
       "i2": "<strong>Güvenli ödeme:</strong> Kredi kartı ve taksitle ödeme için iyzico, PayTR veya bankanızın sanal POS’u.",
       "i3": "<strong>Doğru bağlantılar:</strong> Kargo firması, muhasebe programı ve satış yaptığınız pazaryerleriyle otomatik veri alışverişi.",
@@ -1955,7 +1955,7 @@
       "p": "Yapay zeka alanında da çalışan bir ekip olarak mağazanıza isterseniz şu özellikleri ekleyebiliriz: müşteri sorularını 7/24 yanıtlayan bir <a href=\"/chatbot-yaptirmak\" style=\"color:#fb923c\">chatbot</a>, <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">WhatsApp’tan sipariş</a>, ürün açıklamalarının yapay zekayla hazırlanması ve aranan ürünü daha kolay bulduran akıllı arama."
     },
     "choose": {
-      "title": "E-ticaret sitesi yapan firmalar arasında nasıl seçim yapılır?",
+      "title": "Ankara’da e-ticaret sitesi yapan firmalar arasında nasıl seçim yapılır?",
       "intro": "Teklif alırken firmalardan şu sorulara net cevap isteyin:",
       "i1": "Site başka bir firmanın hazır platformu üzerine mi kuruluyor, yoksa size özel mi yazılıyor?",
       "i2": "Kaynak kod ve veriler kime ait olacak; ileride başka bir ekiple devam edebilecek misiniz?",

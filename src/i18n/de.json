@@ -1868,8 +1868,8 @@
       "a4": "Ja. Wir richten iyzico, PayTR, virtuelles Bank-POS und die Versandanbindung an Yurtiçi/Aras/MNG ein. Auf Wunsch kommen <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">Bestellungen per WhatsApp</a> im selben Projekt hinzu. Dauer: fertiges Theme 3–5 Wochen, individuelles Design 6–10 Wochen, Shop mit ERP-Anbindung 10–16 Wochen.",
       "q5": "Kann ich von einem fertigen E-Commerce-Paket zu meinem eigenen Shop wechseln?",
       "a5": "Ja. Wir übertragen Produkte, Kategorien und Kundenliste in Ihren neuen Shop und leiten alte Seitenadressen auf die neuen um, damit Ihre Google-Rankings möglichst erhalten bleiben. Der neue Shop wird für Sie gestaltet; Code und Daten gehören Ihnen. Ihr bisheriger Shop bleibt während des Umzugs online, die Umstellung erfolgt in einem Schritt.",
-      "q6": "Wie starte ich mit E-Commerce, und wo fange ich an?",
-      "a6": "Klären Sie zunächst, welche Produkte Sie verkaufen möchten, wer Ihre Zielkunden sind und welche Zahlungs- und Versandoptionen Sie wünschen. Anschließend wird der Onlineshop erstellt, Zahlung und Versand werden angebunden, die Produkte eingepflegt und die Website geht live. Im kostenlosen Erstgespräch planen wir diese Schritte gemeinsam passend zu Ihrem Geschäft.",
+      "q6": "Wo fange ich an, wenn ich einen Onlineshop erstellen lassen möchte?",
+      "a6": "Notieren Sie einfach, welche Produkte Sie verkaufen, wie viele es ungefähr sind und welche Zahlungs- und Versandarten Sie möchten. Im kostenlosen Erstgespräch legen wir damit Umfang, Dauer und Preis Ihres Shops schriftlich fest; Design, Entwicklung und Livegang übernehmen wir.",
       "q7": "Brauche ich technisches Wissen, um einen Onlineshop einzurichten?",
       "a7": "Nein. Die gesamte technische Arbeit übernehmen wir. Sie verfolgen Ihre Produkte und Bestellungen lediglich in einem einfachen Verwaltungsbereich, dessen Bedienung wir Ihnen beim Livegang zeigen.",
       "q8": "Fertigen Onlineshop kaufen oder eigenen Shop entwickeln lassen?",
@@ -1907,13 +1907,13 @@
       "note": "Ein fertiges Paket ist nicht für jedes Unternehmen falsch: Wenn Sie gerade erst mit wenigen Produkten starten, kann es gut passen. Sobald Ihr Umsatz wächst und Sie an die Grenzen des Pakets stoßen, lohnt sich der Wechsel zum eigenen Shop. Was für Sie passt, besprechen wir in einem kostenlosen Erstgespräch."
     },
     "what": {
-      "title": "Was ist E-Commerce?",
-      "p1": "E-Commerce bedeutet, dass Sie Ihre Produkte und Dienstleistungen über das Internet verkaufen: Ihr Kunde sieht das Produkt auf Ihrer Website, legt es in den Warenkorb, bezahlt per Karte und erhält seine Bestellung per Versand. Heute erreichen viele Unternehmen durch den Onlineverkauf Kunden weit über ihr Geschäft und ihre Stadt hinaus.",
+      "title": "Onlineshop erstellen lassen: ein Shop, der Ihnen gehört – nicht gemietet",
+      "p1": "Um Ihre Produkte online zu verkaufen, brauchen Sie eine Website, auf der Kunden ein Produkt sehen, in den Warenkorb legen, per Karte bezahlen und die Bestellung per Versand erhalten. Wir bauen diese Website von Anfang bis Ende passend zu Ihrem Geschäft und bringen sie online.",
       "p2": "Ozturksoft baut Ihren Onlineshop nicht auf der fertigen Plattform eines anderen Anbieters auf, sondern programmiert ihn von Grund auf für Ihre Marke. So ist die Infrastruktur nicht gemietet, sondern gehört Ihnen."
     },
     "how": {
-      "title": "Onlineshop erstellen: Ihr eigener Shop in 5 Schritten",
-      "intro": "Die Antwort auf die Frage „Wie starte ich mit E-Commerce?“ sind die folgenden Schritte, die wir gemeinsam gehen:",
+      "title": "Wie lässt man einen Onlineshop erstellen? Ihr eigener Shop in 5 Schritten",
+      "intro": "Wenn Sie mit uns arbeiten, läuft das Projekt in diesen Schritten ab:",
       "s1t": "Kostenloses Erstgespräch",
       "s1d": "Wir sprechen über Ihre Produkte, Ihre Zielkunden, Ihre Zahlungs- und Versandwünsche sowie Ihre Buchhaltungssoftware und erstellen Ihnen ein schriftliches Angebot.",
       "s2t": "Individuelles Design",
@@ -1926,7 +1926,7 @@
       "s5d": "Wir schalten Ihre Website unter Ihrer eigenen Domain live, zeigen Ihnen die Bedienung des Verwaltungsbereichs und bieten Ihnen danach technischen Support."
     },
     "needs": {
-      "title": "Was braucht ein erfolgreicher Onlineshop?",
+      "title": "Was ist in Ihrem Onlineshop bereits enthalten?",
       "i1": "<strong>Eine schnelle und sichere Website:</strong> Seiten, die sich auf dem Smartphone bequem bedienen lassen, schnell laden und per SSL geschützt sind.",
       "i2": "<strong>Sichere Zahlung:</strong> iyzico, PayTR oder das virtuelle POS-Terminal Ihrer Bank für Kreditkarten- und Ratenzahlung.",
       "i3": "<strong>Die richtigen Anbindungen:</strong> Automatischer Datenaustausch mit Ihrem Versanddienstleister, Ihrer Buchhaltungssoftware und den Marktplätzen, auf denen Sie verkaufen.",
@@ -1939,7 +1939,7 @@
       "p": "Als Team, das auch im Bereich künstliche Intelligenz arbeitet, können wir Ihren Shop auf Wunsch um folgende Funktionen erweitern: einen <a href=\"/chatbot-yaptirmak\" style=\"color:#fb923c\">Chatbot</a>, der Kundenfragen 24/7 beantwortet, <a href=\"/whatsapp-chatbot-yaptirmak\" style=\"color:#fb923c\">Bestellungen über WhatsApp</a>, KI-generierte Produktbeschreibungen und eine intelligente Suche, mit der Kunden gesuchte Produkte leichter finden."
     },
     "choose": {
-      "title": "Wie wählt man die richtige Agentur für einen Onlineshop aus?",
+      "title": "Wie wählt man unter den E-Commerce-Agenturen in Ankara die richtige?",
       "intro": "Bitten Sie die Anbieter beim Einholen von Angeboten um klare Antworten auf diese Fragen:",
       "i1": "Wird die Website auf der fertigen Plattform eines anderen Anbieters aufgebaut oder individuell für Sie programmiert?",
       "i2": "Wem gehören Quellcode und Daten, und können Sie später mit einem anderen Team weiterarbeiten?",
