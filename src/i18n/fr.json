@@ -632,7 +632,8 @@
       "b2b": "Portail revendeurs B2B",
       "tender": "Analyse d'appels d'offres par IA",
       "softwareCompany": "Entreprise de logiciels à Ankara",
-      "spam": "Récupération après un spam update"
+      "spam": "Récupération après un spam update",
+      "logoNetsis": "Intégration Logo / Netsis"
     }
   },
   "aiFirmPage": {
@@ -4509,14 +4510,5 @@
       "i6": "Sur Google, des pages en langue étrangère que vous ne connaissez pas apparaissent sous le nom de votre site.",
       "note": "Si vous constatez l'un de ces signes, plus on intervient tôt, plus la récupération est facile."
     }
-  },
-  "popular": {
-    "title": "Services les plus demandés",
-    "invoice": "Lecture de factures",
-    "agent": "Agents IA",
-    "aiFirm": "Entreprise IA à Ankara",
-    "software": "Société de logiciels à Ankara",
-    "logo": "Intégration Logo / Netsis",
-    "aiInt": "Intégration de l’IA"
   }
 }

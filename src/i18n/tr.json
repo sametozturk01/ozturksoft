@@ -632,7 +632,8 @@
       "b2b": "B2B bayi portalı",
       "tender": "İhale şartnamesi yapay zeka",
       "softwareCompany": "Ankara yazılım şirketi",
-      "spam": "Spam update kurtarma"
+      "spam": "Spam update kurtarma",
+      "logoNetsis": "Logo / Netsis entegrasyonu"
     }
   },
   "aiFirmPage": {
@@ -4525,14 +4526,5 @@
       "i6": "Google'da sitenizin adının yanında tanımadığınız, yabancı dilde sayfalar görünüyor.",
       "note": "Bu belirtilerden biri varsa, ne kadar erken bakılırsa kurtarma o kadar kolaylaşır."
     }
-  },
-  "popular": {
-    "title": "En çok talep gören hizmetler",
-    "invoice": "Fatura okuma",
-    "agent": "AI agent",
-    "aiFirm": "Ankara yapay zeka firması",
-    "software": "Ankara yazılım şirketi",
-    "logo": "Logo / Netsis entegrasyonu",
-    "aiInt": "Yapay zeka entegrasyonu"
   }
 }

@@ -2069,12 +2069,3 @@ html.cookie-banner-open[dir="rtl"] .back-to-top {
 }
 .only-lang-note a { color: #93c5fd; font-weight: 700; text-decoration: none; white-space: nowrap; }
 .only-lang-note a:hover { color: #fff; }
-
-/* Home: most requested services line above the footer */
-.popular-strip{padding:22px 8% 26px;text-align:center;border-top:1px solid rgba(148,163,184,.12)}
-.popular-strip p{margin:0;color:#94a3b8;font-size:.9rem;line-height:1.9}
-.popular-strip strong{color:#cbd5e1;font-weight:600}
-.popular-strip a{color:#93c5fd;text-decoration:none}
-.popular-strip a:hover,.popular-strip a:focus-visible{text-decoration:underline}
-.popular-strip span{color:#475569;margin:0 4px}
-@media(max-width:600px){.popular-strip{padding:20px 16px 24px}.popular-strip p{font-size:.85rem}}

@@ -632,7 +632,8 @@
       "b2b": "B2B dealer portal",
       "tender": "AI tender document analysis",
       "softwareCompany": "Ankara software company",
-      "spam": "Spam update recovery"
+      "spam": "Spam update recovery",
+      "logoNetsis": "Logo / Netsis integration"
     }
   },
   "aiFirmPage": {
@@ -4509,14 +4510,5 @@
       "i6": "Pages you don't recognize, in a foreign language, are showing up on Google under your site's name.",
       "note": "If you see any of these signs, the sooner someone looks at it, the easier the recovery."
     }
-  },
-  "popular": {
-    "title": "Most requested services",
-    "invoice": "Invoice reading",
-    "agent": "AI agents",
-    "aiFirm": "AI company in Ankara",
-    "software": "Software company in Ankara",
-    "logo": "Logo / Netsis integration",
-    "aiInt": "AI integration"
   }
 }

@@ -632,7 +632,8 @@
       "b2b": "B2B-Händlerportal",
       "tender": "KI-Ausschreibungsanalyse",
       "softwareCompany": "Softwareunternehmen in Ankara",
-      "spam": "Spam-Update-Wiederherstellung"
+      "spam": "Spam-Update-Wiederherstellung",
+      "logoNetsis": "Logo-/Netsis-Integration"
     }
   },
   "aiFirmPage": {
@@ -4509,14 +4510,5 @@
       "i6": "Bei Google erscheinen unter dem Namen Ihrer Website fremdsprachige Seiten, die Sie nicht kennen.",
       "note": "Wenn eines dieser Anzeichen zutrifft, gilt: Je früher sich jemand die Sache ansieht, desto leichter ist die Wiederherstellung."
     }
-  },
-  "popular": {
-    "title": "Am häufigsten angefragte Leistungen",
-    "invoice": "Rechnungserkennung",
-    "agent": "KI-Agenten",
-    "aiFirm": "KI-Firma in Ankara",
-    "software": "Softwarefirma in Ankara",
-    "logo": "Logo-/Netsis-Integration",
-    "aiInt": "KI-Integration"
   }
 }
