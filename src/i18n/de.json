@@ -474,7 +474,7 @@
       "badge": "PROJEKTANFRAGE",
       "title1": "Projektangebot",
       "title2": "anfragen",
-      "desc": "Beschreiben Sie kurz Ihr KI- oder Softwareprojekt — wir senden innerhalb von 4 Stunden eine kostenlose technische Einschätzung und Budgetspanne.",
+      "desc": "Nennen Sie uns Ihren Namen, Ihre Telefonnummer und Ihr Vorhaben; wir rufen Sie innerhalb von 4 Stunden an – mit einer kostenlosen Einschätzung und einer Preisspanne.",
       "name": "Vollständiger Name *",
       "company": "Unternehmen / Organisation",
       "email": "E-Mail *",
@@ -482,14 +482,14 @@
       "type": "Projekttyp *",
       "budget": "Budgetrahmen",
       "timeline": "Geplanter Start",
-      "details": "Projektdetails *",
+      "details": "Was möchten Sie umsetzen lassen? *",
       "placeholderName": "Ihr vollständiger Name",
       "placeholderCompany": "Firmenname (optional)",
       "placeholderEmail": "sie@firma.de",
       "placeholderPhone": "05XXXXXXXXX",
-      "placeholderDetails": "Beschreiben Sie kurz Ihr Projekt: Ziele, bestehende Systeme, Integrationsbedarf...",
+      "placeholderDetails": "Zum Beispiel: ein System, das unsere Rechnungen automatisch ausliest, eine Unternehmenswebsite, ein WhatsApp-Chatbot...",
       "kvkkTitle": "DSGVO / KVKK Einwilligung",
-      "kvkkConsent": "Ich willige ausdrücklich nach Gesetz Nr. 6698 ein, dass Name, E-Mail, Telefon, Firma und Projektdaten für Angebot und Kontakt verarbeitet und — wie im Hinweis beschrieben — per E-Mail/Hosting auch ins Ausland übermittelt werden.",
+      "kvkkConsent": "Gemäß Gesetz Nr. 6698 willige ich ausdrücklich ein, dass mein Name, meine Telefonnummer und meine Anfrage zur Angebotserstellung und Kontaktaufnahme über die in der Datenschutzerklärung genannten E-Mail-/Hosting-Dienste verarbeitet und dabei ins Ausland übermittelt werden.",
       "privacyLink": "Datenschutzrichtlinie",
       "privacyText": "gelesen und akzeptiert. *",
       "privacyRequired": "Sie müssen das KVKK/DSGVO-Einwilligungsfeld ankreuzen, bevor Sie das Formular absenden.",
@@ -497,7 +497,7 @@
       "submit": "Kostenloses Angebot anfragen",
       "sending": "Wird gesendet...",
       "successTitle": "Anfrage erhalten!",
-      "successDesc": "Unser Team meldet sich innerhalb von 4 Stunden. Für dringende Projekte können Sie uns auch per WhatsApp kontaktieren.",
+      "successDesc": "Unser Team ruft Sie innerhalb von 4 Stunden an. In dringenden Fällen können Sie uns auch per WhatsApp schreiben.",
       "sendAnother": "Neue Anfrage senden",
       "error": "Beim Senden ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt per E-Mail.",
       "hint": "Ihre Daten werden nach dem Gesetz Nr. 6698 verarbeitet. Einzelheiten zu Hosting, E-Mail-Versand und von Ihnen begonnenen WhatsApp-Chats finden Sie im Datenschutzhinweis.",
@@ -4509,5 +4509,14 @@
       "i6": "Bei Google erscheinen unter dem Namen Ihrer Website fremdsprachige Seiten, die Sie nicht kennen.",
       "note": "Wenn eines dieser Anzeichen zutrifft, gilt: Je früher sich jemand die Sache ansieht, desto leichter ist die Wiederherstellung."
     }
+  },
+  "popular": {
+    "title": "Am häufigsten angefragte Leistungen",
+    "invoice": "Rechnungserkennung",
+    "agent": "KI-Agenten",
+    "aiFirm": "KI-Firma in Ankara",
+    "software": "Softwarefirma in Ankara",
+    "logo": "Logo-/Netsis-Integration",
+    "aiInt": "KI-Integration"
   }
 }

@@ -92,7 +92,7 @@ export default async function handler(req, res) {
   const kvkkConsentAt = String(body.kvkkConsentAt || new Date().toISOString());
   const sourcePage = String(body.sourcePage || '').trim().slice(0, 200);
 
-  if (!name || !email || !projectType || !message) {
+  if (!name || !message) {
     return res.status(400).json({ ok: false, error: 'Zorunlu alanları doldurun.' });
   }
 
@@ -104,7 +104,7 @@ export default async function handler(req, res) {
     return res.status(400).json({ ok: false, error: 'Geçerli bir cep telefonu numarası girin.' });
   }
 
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+  if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     return res.status(400).json({ ok: false, error: 'Geçersiz e-posta.' });
   }
 
@@ -130,9 +130,9 @@ export default async function handler(req, res) {
     const rows = [
       ['Ad Soyad', name],
       ['Şirket', company || '—'],
-      ['E-posta', email],
+      ['E-posta', email || '—'],
       ['Telefon', phoneDigits],
-      ['Proje Türü', projectType],
+      ['Proje Türü', projectType || '—'],
       ['Bütçe', budget || '—'],
       ['Başlangıç', timeline || '—'],
       ['Geldiği sayfa', sourcePage || '—'],
@@ -152,17 +152,17 @@ export default async function handler(req, res) {
     await transporter.sendMail({
       from: `"Ozturksoft İletişim Formu" <${user}>`,
       to,
-      replyTo: email,
-      subject: `[Teklif] ${projectType} — ${name}`,
+      ...(email ? { replyTo: email } : {}),
+      subject: `[Teklif] ${projectType || 'Hızlı talep'} — ${name} · ${phoneDigits}`,
       headers: { 'X-Entity-Ref-ID': 'ozturksoft-teklif-formu' },
       text: [
         '━━━ OZTURKSOFT TEKLİF FORMU ━━━',
         '',
         `Ad Soyad: ${name}`,
         `Şirket: ${company || '—'}`,
-        `E-posta: ${email}`,
+        `E-posta: ${email || '—'}`,
         `Telefon: ${phoneDigits}`,
-        `Proje Türü: ${projectType}`,
+        `Proje Türü: ${projectType || '—'}`,
         `Bütçe: ${budget || '—'}`,
         `Başlangıç: ${timeline || '—'}`,
         `Geldiği sayfa: ${sourcePage || '—'}`,
@@ -170,7 +170,7 @@ export default async function handler(req, res) {
         'Politika: https://ozturksoft.net/gizlilik · 2026-11-18',
         `IP: ${clientIp(req) || '—'}`,
         '',
-        'Proje Detayları:',
+        'Ne yaptırmak istiyor:',
         message,
         '',
         `Tarih: ${now}`,
@@ -184,7 +184,7 @@ export default async function handler(req, res) {
           </div>
           <div style="background:#f8fafc;padding:20px 24px;border:1px solid #e2e8f0;border-top:none;border-radius:0 0 12px 12px">
             <table style="width:100%;border-collapse:collapse;font-size:14px;margin-bottom:16px">${tableHtml}</table>
-            <p style="margin:0 0 8px;color:#64748b;font-size:13px">Proje Detayları</p>
+            <p style="margin:0 0 8px;color:#64748b;font-size:13px">Ne yaptırmak istiyor?</p>
             <p style="margin:0;padding:14px;background:#fff;border:1px solid #e2e8f0;border-radius:8px;color:#0f172a;line-height:1.6;white-space:pre-wrap">${escapeHtml(message)}</p>
             ${waLink ? `<p style="margin:20px 0 0"><a href="${waLink}" style="display:inline-block;background:#25D366;color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600">WhatsApp ile Yanıtla</a></p>` : ''}
             <p style="margin:16px 0 0;color:#94a3b8;font-size:12px">${now} · ozturksoft.net</p>

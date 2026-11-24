@@ -474,7 +474,7 @@
       "badge": "PROJE TALEBİ",
       "title1": "Proje",
       "title2": "Teklifi Alın",
-      "desc": "Yapay zeka veya yazılım projenizi kısaca anlatın; 4 saat içinde ücretsiz teknik değerlendirme ve fiyat aralığı sunalım.",
+      "desc": "Adınızı, telefonunuzu ve ne yaptırmak istediğinizi yazın; en geç 4 saat içinde sizi arayıp ücretsiz değerlendirme ve fiyat aralığı sunalım.",
       "name": "Ad Soyad *",
       "company": "Şirket / Kurum",
       "email": "E-posta *",
@@ -482,14 +482,14 @@
       "type": "Proje Türü *",
       "budget": "Bütçe Aralığı",
       "timeline": "Hedef başlangıç",
-      "details": "Proje Detayları *",
+      "details": "Ne yaptırmak istiyorsunuz? *",
       "placeholderName": "Adınız Soyadınız",
       "placeholderCompany": "Şirket adı (opsiyonel)",
       "placeholderEmail": "ornek@sirket.com",
       "placeholderPhone": "05XXXXXXXXX",
-      "placeholderDetails": "Projenizi kısaca anlatın: hedef, mevcut sistemler, entegrasyon ihtiyaçları...",
+      "placeholderDetails": "Örneğin: faturalarımızı otomatik okuyan bir sistem, kurumsal web sitesi, WhatsApp chatbot...",
       "kvkkTitle": "KVKK Açık Rıza Bildirimi",
-      "kvkkConsent": "6698 sayılı Kanun kapsamında; ad-soyad, e-posta, telefon, şirket ve proje bilgilerimin teklif, iletişim ve gizlilik metninde belirtilen e-posta/barındırma altyapısı üzerinden işlenmesine ve yurt dışına aktarılmasına açık rıza veriyorum.",
+      "kvkkConsent": "6698 sayılı Kanun kapsamında; ad-soyad, telefon ve talep bilgilerimin teklif ve iletişim amacıyla, gizlilik metninde belirtilen e-posta/barındırma altyapısı üzerinden işlenmesine ve yurt dışına aktarılmasına açık rıza veriyorum.",
       "privacyLink": "Gizlilik Politikası",
       "privacyText": "'nı okudum ve kabul ediyorum. *",
       "privacyRequired": "Formu göndermek için KVKK açık rıza kutusunu işaretlemeniz zorunludur.",
@@ -497,7 +497,7 @@
       "submit": "Ücretsiz Teklif Talep Et",
       "sending": "Gönderiliyor...",
       "successTitle": "Talebiniz alındı!",
-      "successDesc": "Ekibimiz en geç 4 saat içinde size dönüş yapacak. Acil projeler için WhatsApp'tan da yazabilirsiniz.",
+      "successDesc": "Ekibimiz en geç 4 saat içinde sizi arayacak. Acil durumlar için WhatsApp'tan da yazabilirsiniz.",
       "sendAnother": "Yeni talep gönder",
       "error": "Gönderim sırasında bir sorun oluştu. Lütfen tekrar deneyin veya doğrudan e-posta gönderin.",
       "hint": "Verileriniz 6698 sayılı Kanun kapsamında işlenir. Barındırma, e-posta iletimi ve sizin başlattığınız WhatsApp yazışmalarıyla ilgili ayrıntılar gizlilik metnindedir.",
@@ -4525,5 +4525,14 @@
       "i6": "Google'da sitenizin adının yanında tanımadığınız, yabancı dilde sayfalar görünüyor.",
       "note": "Bu belirtilerden biri varsa, ne kadar erken bakılırsa kurtarma o kadar kolaylaşır."
     }
+  },
+  "popular": {
+    "title": "En çok talep gören hizmetler",
+    "invoice": "Fatura okuma",
+    "agent": "AI agent",
+    "aiFirm": "Ankara yapay zeka firması",
+    "software": "Ankara yazılım şirketi",
+    "logo": "Logo / Netsis entegrasyonu",
+    "aiInt": "Yapay zeka entegrasyonu"
   }
 }

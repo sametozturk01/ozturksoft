@@ -474,7 +474,7 @@
       "badge": "DEMANDE DE PROJET",
       "title1": "Demander un",
       "title2": "devis de projet",
-      "desc": "Décrivez brièvement votre projet IA ou logiciel — nous vous enverrons une évaluation technique gratuite et une fourchette budgétaire sous 4 heures.",
+      "desc": "Indiquez votre nom, votre téléphone et ce que vous souhaitez réaliser ; nous vous rappelons sous 4 heures avec une évaluation gratuite et une fourchette de prix.",
       "name": "Nom complet *",
       "company": "Entreprise / Organisation",
       "email": "E-mail *",
@@ -482,14 +482,14 @@
       "type": "Type de projet *",
       "budget": "Plage budgétaire",
       "timeline": "Démarrage souhaité",
-      "details": "Détails du projet *",
+      "details": "Que souhaitez-vous faire réaliser ? *",
       "placeholderName": "Votre nom complet",
       "placeholderCompany": "Nom de l'entreprise (optionnel)",
       "placeholderEmail": "vous@entreprise.com",
       "placeholderPhone": "05XXXXXXXXX",
-      "placeholderDetails": "Décrivez brièvement votre projet : objectifs, systèmes existants, besoins d'intégration...",
+      "placeholderDetails": "Par exemple : un système qui lit automatiquement nos factures, un site web d’entreprise, un chatbot WhatsApp...",
       "kvkkTitle": "Consentement RGPD / KVKK",
-      "kvkkConsent": "Je consens expressément, loi n° 6698, au traitement de mes nom, e-mail, téléphone, société et projet pour le devis, y compris l’e-mail/hébergement décrits et les transferts associés.",
+      "kvkkConsent": "Conformément à la loi n° 6698, je consens expressément à ce que mon nom, mon numéro de téléphone et ma demande soient traités pour l’établissement d’un devis et la prise de contact via les services e-mail/hébergement décrits dans la politique de confidentialité, y compris leur transfert à l’étranger.",
       "privacyLink": "Politique de confidentialité",
       "privacyText": "lue et acceptée. *",
       "privacyRequired": "Vous devez cocher la case de consentement KVKK/RGPD avant d'envoyer le formulaire.",
@@ -497,7 +497,7 @@
       "submit": "Demander un devis gratuit",
       "sending": "Envoi en cours...",
       "successTitle": "Demande reçue !",
-      "successDesc": "Notre équipe vous répondra sous 4 heures. Pour les projets urgents, vous pouvez aussi nous écrire sur WhatsApp.",
+      "successDesc": "Notre équipe vous appellera sous 4 heures. En cas d’urgence, vous pouvez aussi nous écrire sur WhatsApp.",
       "sendAnother": "Envoyer une nouvelle demande",
       "error": "Une erreur s'est produite. Veuillez réessayer ou nous envoyer un e-mail directement.",
       "hint": "Vos données sont traitées conformément à la loi n° 6698. Les détails sur l’hébergement, l’envoi des e-mails et les conversations WhatsApp que vous lancez figurent dans la notice de confidentialité.",
@@ -4509,5 +4509,14 @@
       "i6": "Sur Google, des pages en langue étrangère que vous ne connaissez pas apparaissent sous le nom de votre site.",
       "note": "Si vous constatez l'un de ces signes, plus on intervient tôt, plus la récupération est facile."
     }
+  },
+  "popular": {
+    "title": "Services les plus demandés",
+    "invoice": "Lecture de factures",
+    "agent": "Agents IA",
+    "aiFirm": "Entreprise IA à Ankara",
+    "software": "Société de logiciels à Ankara",
+    "logo": "Intégration Logo / Netsis",
+    "aiInt": "Intégration de l’IA"
   }
 }
