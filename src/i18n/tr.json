@@ -4698,16 +4698,16 @@
     },
     "notfor": {
       "title": "Kimler için uygun değil?",
-      "p1": "Tek depo, birkaç yüz ürün ve standart alış-satış yapıyorsanız hazır bir stok programı veya muhasebe programınızın stok modülü daha ucuza gelir; özel yazılıma gerek yoktur. Bütçeniz 80.000 TL'nin altındaysa ya da çalışma şekliniz henüz netleşmediyse beklemenizi öneririz. Keşif görüşmesinde bunu açıkça söyleriz."
+      "p1": "Tek depo, birkaç yüz ürün ve standart alış-satış yapıyorsanız hazır bir stok programı veya muhasebe programınızın stok modülü daha ucuza gelir; özel yazılıma gerek yoktur. Bütçeniz 100.000 TL'nin altındaysa ya da çalışma şekliniz henüz netleşmediyse beklemenizi öneririz. Keşif görüşmesinde bunu açıkça söyleriz."
     },
     "faq": {
       "title": "Stok takip programı: sık sorulanlar",
       "q1": "Stok takip programı yaptırmak ne kadar tutar?",
-      "a1": "2026 fiyatlarıyla temel stok ve sipariş takibi 80.000–150.000 TL (6–10 hafta), barkod, çoklu depo ve mobil sayım 150.000–250.000 TL (10–14 hafta), Logo, Netsis veya Mikro bağlantılı stok sistemi 250.000–400.000+ TL (3–5 ay) tutar. Fiyatı ürün sayısından çok depo sayısı, bağlantılar ve size özel kurallar belirler. Kesin fiyat ücretsiz keşiften sonra yazılı teklifle verilir.",
+      "a1": "2026 fiyatlarıyla temel stok ve sipariş takibi 100.000–180.000 TL (6–10 hafta), barkod, çoklu depo ve mobil sayım 180.000–300.000 TL (10–14 hafta), Logo, Netsis veya Mikro bağlantılı stok sistemi 300.000–500.000+ TL (3–5 ay) tutar. Fiyatı ürün sayısından çok depo sayısı, bağlantılar ve size özel kurallar belirler. Kesin fiyat ücretsiz keşiften sonra yazılı teklifle verilir.",
       "q2": "Ankara'da stok takip programı yapan firmalar hangileri, en iyisi hangisi?",
       "a2": "Herkes için tek bir en iyi firma yok; doğru firma işinize ve kullandığınız programlara göre değişir. Karar verirken yazılı kapsam verip vermediğine, Logo, Netsis veya Mikro bağlantısı deneyimine, kaynak kodu teslim edip etmediğine ve yerinde destek verebildiğine bakın. Ozturksoft bu firmalardan biridir: Çankaya'dan stok, depo ve sipariş programı yazıyor, kurulumu ve eğitimi yerinde yapıyoruz.",
       "q3": "Hazır stok programı mı almalıyım, özel yazılım mı yaptırmalıyım?",
-      "a3": "Standart alış-satış yapan ve tek depolu işletmeler için hazır program genellikle daha ucuz ve yeterlidir. Çoklu depo, üretime bağlı stok, pazaryeri satışı veya size özel onay kuralları varsa hazır programı işinize uydurmak zorlaşır; o zaman özel yazılım mantıklı olur. Keşif görüşmesinde hazır programın yeterli olduğunu görürsek bunu söyleriz.",
+      "a3": "Standart alış-satış yapan ve tek depolu işletmeler için hazır program genellikle daha ucuz ve yeterlidir. Çoklu depo, üretime bağlı stok, pazaryeri satışı veya size özel onay kuralları varsa hazır programı işinize uydurmak zorlaşır; o zaman özel yazılım mantıklı olur. Keşif görüşmesinde hazır programın yeterli olduğunu görürsek bunu söyleriz. Ozturksoft hazır paket satmaz; yalnızca işinize özel yazılım geliştirir. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
       "q4": "Özel stok programı Logo, Netsis, Mikro veya Excel ile çalışır mı?",
       "a4": "Evet. Logo, Netsis ve Mikro ile stok, cari ve fatura bilgisi otomatik eşitlenebilir; muhasebe tarafınız değişmeden kalır. Excel'deki mevcut listeleriniz içeri aktarılır; Trendyol, Hepsiburada veya kendi e-ticaret sitenizle stok bağlantısı da kurulabilir.",
       "q5": "Stok takip programı yaptırmak ne kadar sürer?",
@@ -4715,7 +4715,7 @@
       "q6": "Stok verilerim güvende mi, KVKK'ya uygun mu? Kaynak kod bize mi ait olur?",
       "a6": "Veriler kendi sunucunuzda veya seçtiğiniz bulut sunucusunda tutulur; kullanıcı yetkileri, işlem kaydı ve düzenli yedekleme kurulur. Müşteri veya personel bilgisi işleniyorsa sistem KVKK gereklerine göre tasarlanır. Teslimde kaynak kod, veritabanı ve sunucu erişimi size verilir; bu sözleşmede yazılıdır.",
       "q7": "Özel stok programı kimler için uygun değil?",
-      "a7": "Tek depolu, birkaç yüz ürünlü ve standart alış-satış yapan işletmeler için hazır program veya muhasebe programının stok modülü daha ekonomiktir. Bütçesi 80.000 TL'nin altında olan ya da çalışma şekli henüz oturmamış işletmelere de beklemelerini öneririz.",
+      "a7": "Tek depolu, birkaç yüz ürünlü ve standart alış-satış yapan işletmeler için hazır program veya muhasebe programının stok modülü daha ekonomiktir. Bütçesi 100.000 TL'nin altında olan ya da çalışma şekli henüz oturmamış işletmelere de beklemelerini öneririz.",
       "q8": "Stok programının aylık maliyeti var mı?",
       "a8": "Teslimden sonra sunucu, güvenlik güncellemeleri, yedekleme ve teknik destek için sabit 5.000–10.000 TL/ay bakım ücreti vardır; satışlarınızdan pay alınmaz. Yeni özellik istekleri ayrıca yazılı teklifle fiyatlanır."
     },
@@ -4811,16 +4811,16 @@
     },
     "notfor": {
       "title": "Kimler için uygun değil?",
-      "p1": "Birkaç kişilik, tek ürün veya basit fason üretim yapan atölyelerde hazır bir üretim modülü ya da iyi kurulmuş bir Excel genellikle yeterlidir. Bütçeniz 120.000 TL'nin altındaysa veya iş emri akışınız henüz kişiden kişiye değişiyorsa önce süreci netleştirmenizi öneririz. Keşif görüşmesinde bunu açıkça söyleriz."
+      "p1": "Birkaç kişilik, tek ürün veya basit fason üretim yapan atölyelerde hazır bir üretim modülü ya da iyi kurulmuş bir Excel genellikle yeterlidir. Bütçeniz 150.000 TL'nin altındaysa veya iş emri akışınız henüz kişiden kişiye değişiyorsa önce süreci netleştirmenizi öneririz. Keşif görüşmesinde bunu açıkça söyleriz."
     },
     "faq": {
       "title": "Üretim takip yazılımı: sık sorulanlar",
       "q1": "Üretim takip yazılımı yaptırmak ne kadar tutar?",
-      "a1": "2026 fiyatlarıyla iş emri ve üretim takibi 120.000–220.000 TL (8–12 hafta), kalite, fire, barkod ve makine verisi eklenmiş sistem 220.000–400.000 TL (3–5 ay), ERP bağlantılı fabrika sistemi 400.000–750.000+ TL (5–8 ay) tutar. Fiyatı istasyon sayısı, makine bağlantısı ve ERP entegrasyonu belirler. Kesin fiyat ücretsiz keşiften sonra yazılı teklifle verilir.",
+      "a1": "2026 fiyatlarıyla iş emri ve üretim takibi 150.000–280.000 TL (8–12 hafta), kalite, fire, barkod ve makine verisi eklenmiş sistem 280.000–500.000 TL (3–5 ay), ERP bağlantılı fabrika sistemi 500.000–1.000.000+ TL (5–8 ay) tutar. Fiyatı istasyon sayısı, makine bağlantısı ve ERP entegrasyonu belirler. Kesin fiyat ücretsiz keşiften sonra yazılı teklifle verilir.",
       "q2": "Ankara'da üretim takip programı yapan firmalar hangileri, en iyisi hangisi?",
       "a2": "Herkes için tek bir en iyi firma yok; doğru seçim sektörünüze, makinelerinize ve kullandığınız ERP'ye göre değişir. Sahayı yerinde görüp görmediğine, yazılı kapsam verip vermediğine, Logo, Netsis veya Mikro deneyimine ve kaynak kodu teslim edip etmediğine bakın. Ozturksoft bu firmalardan biridir: Çankaya'dayız ve OSTİM, İvedik, Sincan ile Ankara Sanayi Odası 1. OSB'deki üreticilere yerinde keşif ve kurulum yapabiliyoruz.",
       "q3": "Hazır üretim programı mı, özel fabrika yazılımı mı?",
-      "a3": "Standart ürünler üreten ve ERP'sinin üretim modülü işini gören firmalar için hazır çözüm daha ucuz ve hızlıdır. Siparişe özel üretim, çok aşamalı rota, size özel kalite formları veya makine bağlantısı gerekiyorsa hazır programı uydurmak pahalılaşır; o zaman özel yazılım mantıklıdır. Keşifte hazır çözümün yeterli olduğunu görürsek bunu söyleriz.",
+      "a3": "Standart ürünler üreten ve ERP'sinin üretim modülü işini gören firmalar için hazır çözüm daha ucuz ve hızlıdır. Siparişe özel üretim, çok aşamalı rota, size özel kalite formları veya makine bağlantısı gerekiyorsa hazır programı uydurmak pahalılaşır; o zaman özel yazılım mantıklıdır. Keşifte hazır çözümün yeterli olduğunu görürsek bunu söyleriz. Ozturksoft hazır paket satmaz; yalnızca işinize özel yazılım geliştirir. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
       "q4": "Üretim takip yazılımı Logo, Netsis, Mikro veya Excel ile çalışır mı?",
       "a4": "Evet. Logo, Netsis ve Mikro ile reçete, stok, sipariş ve üretim fişleri otomatik eşitlenebilir; muhasebe tarafınız değişmeden kalır. Excel'deki ürün, reçete ve plan listeleriniz içeri aktarılır. Makinelerden veri almak makinenin modeline bağlıdır; keşifte birlikte kontrol ederiz.",
       "q5": "Üretim takip programı ne kadar sürede kurulur?",
@@ -4828,7 +4828,7 @@
       "q6": "Üretim verilerim güvende mi, KVKK'ya uygun mu? Kaynak kod bize mi ait olur?",
       "a6": "Veriler fabrikanızdaki sunucuda veya seçtiğiniz bulut sunucusunda tutulur; kullanıcı yetkileri, işlem kaydı ve düzenli yedekleme kurulur. Personel bilgisi işleniyorsa sistem KVKK gereklerine göre tasarlanır. Teslimde kaynak kod, veritabanı ve sunucu erişimi size verilir; bu sözleşmede yazılıdır.",
       "q7": "Üretim takip yazılımı kimler için uygun değil?",
-      "a7": "Birkaç kişilik, tek ürün veya basit fason üretim yapan atölyelerde hazır bir üretim modülü ya da iyi kurulmuş bir Excel genellikle yeterlidir. Bütçesi 120.000 TL'nin altında olan veya iş emri akışı henüz oturmamış işletmelere önce süreci netleştirmelerini öneririz.",
+      "a7": "Birkaç kişilik, tek ürün veya basit fason üretim yapan atölyelerde hazır bir üretim modülü ya da iyi kurulmuş bir Excel genellikle yeterlidir. Bütçesi 150.000 TL'nin altında olan veya iş emri akışı henüz oturmamış işletmelere önce süreci netleştirmelerini öneririz.",
       "q8": "Üretim takip yazılımının aylık maliyeti var mı?",
       "a8": "Teslimden sonra sunucu, güvenlik güncellemeleri, yedekleme ve teknik destek için sabit 5.000–10.000 TL/ay bakım ücreti vardır; satışlarınızdan veya üretim hacminizden pay alınmaz. Yeni özellik istekleri ayrıca yazılı teklifle fiyatlanır."
     },
@@ -4928,11 +4928,11 @@
     "faq": {
       "title": "Teknik servis programı: sık sorulanlar",
       "q1": "Teknik servis takip programı yaptırmak ne kadar tutar?",
-      "a1": "2026 için web panel ve saha mobil uygulaması 100.000–180.000 TL (8–12 hafta); rota, fotoğraf, imza, yedek parça stoğu ve müşteri bildirimi eklendiğinde 180.000–300.000 TL (3–4 ay); ERP ve fatura bağlantılı servis sistemi 300.000–450.000 TL ve üzeri (4–6 ay). Kesin fiyat ücretsiz keşiften sonra yazılı teklifle belirlenir.",
+      "a1": "2026 için web panel ve saha mobil uygulaması 120.000–220.000 TL (8–12 hafta); rota, fotoğraf, imza, yedek parça stoğu ve müşteri bildirimi eklendiğinde 220.000–380.000 TL (3–4 ay); ERP ve fatura bağlantılı servis sistemi 380.000–600.000 TL ve üzeri (4–6 ay). Kesin fiyat ücretsiz keşiften sonra yazılı teklifle belirlenir.",
       "q2": "Ankara'da teknik servis programı yapan firmalar hangileri, en iyisi hangisi?",
       "a2": "Herkes için tek bir “en iyi” firma yok; doğru seçim servis akışınıza ve kullandığınız muhasebe programına bağlı. Karşılaştırırken yazılı kapsama, kaynak kodun size teslim edilip edilmediğine, Logo, Netsis veya Mikro bağlantı deneyimine ve teslimden sonraki aylık ücrete bakın. Ozturksoft, Ankara Çankaya'da web paneli ve saha mobil uygulamasını birlikte geliştiren firmalardan biridir.",
       "q3": "Hazır servis programı mı almalıyım, özel yazılım mı yaptırmalıyım?",
-      "a3": "Az sayıda teknisyen ve standart bir iş akışı için hazır program genellikle daha ucuz ve daha hızlıdır. Kendi servis formunuz, sözleşmeli bakım kurallarınız, yedek parça yapınız veya muhasebe bağlantınız hazır programa uymuyorsa ya da kullanıcı başı abonelik ekip büyüdükçe pahalılaşıyorsa özel yazılım mantıklı olur.",
+      "a3": "Az sayıda teknisyen ve standart bir iş akışı için hazır program genellikle daha ucuz ve daha hızlıdır. Kendi servis formunuz, sözleşmeli bakım kurallarınız, yedek parça yapınız veya muhasebe bağlantınız hazır programa uymuyorsa ya da kullanıcı başı abonelik ekip büyüdükçe pahalılaşıyorsa özel yazılım mantıklı olur. Ozturksoft hazır paket satmaz; yalnızca işinize özel yazılım geliştirir. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
       "q4": "Teknik servis programı Logo, Netsis, Mikro veya Excel ile çalışır mı?",
       "a4": "Evet. Cari ve stok kartları Logo, Netsis veya Mikro'dan alınır, biten servisin faturası muhasebe programına aktarılır. Excel'deki müşteri, cihaz ve geçmiş servis kayıtları başlangıçta içe aktarılır; web sitenizdeki arıza formu da API ile bağlanabilir.",
       "q5": "Saha ekibi takip uygulaması ne kadar sürede hazır olur?",
@@ -4973,7 +4973,7 @@
     "stats": {
       "s1v": "5.000 – 10.000 TL/ay",
       "s1l": "Temel bakım",
-      "s2v": "10.000 – 25.000 TL/ay",
+      "s2v": "12.000 – 30.000 TL/ay",
       "s2l": "Standart destek",
       "s3v": "Aylık",
       "s3l": "Sözleşme süresi, iş başına teklif yok"
@@ -4994,13 +4994,13 @@
       "c1a": "5.000 – 10.000 TL/ay",
       "c1d": "Güvenlik ve yazılım güncellemeleri, düzenli yedekleme ve yedekten geri dönme denemesi, site ve sunucunun otomatik izlenmesi (kapanırsa uyarı bize gelir).",
       "c2t": "Standart destek",
-      "c2a": "10.000 – 25.000 TL/ay",
+      "c2a": "12.000 – 30.000 TL/ay",
       "c2d": "Temel bakıma ek olarak her ay belirli sayıda geliştirme saati (küçük değişiklikler, yeni alanlar, raporlar) ve sözleşmede yazılı yanıt süresi.",
       "c3t": "Kurumsal destek",
-      "c3a": "25.000 – 60.000+ TL/ay",
+      "c3a": "30.000 – 75.000+ TL/ay",
       "c3d": "Kritik sistemler için öncelikli yanıt, düzenli geliştirme takvimi, aylık rapor ve değerlendirme toplantısı.",
       "monthlyType": "Aylık sözleşme",
-      "review": "<strong>Başlangıç sistem incelemesi (tek seferlik): 15.000–40.000 TL.</strong> Kodunu bilmediğimiz bir sistemi devralmadan önce kodun durumu, güvenlik açıkları, yedekler ve eksik belgeler yazılı raporla çıkarılır; aylık paket bu rapora göre netleşir. Satışınızdan veya cirodan pay alınmaz."
+      "review": "<strong>Başlangıç sistem incelemesi (tek seferlik): 20.000–50.000 TL.</strong> Kodunu bilmediğimiz bir sistemi devralmadan önce kodun durumu, güvenlik açıkları, yedekler ve eksik belgeler yazılı raporla çıkarılır; aylık paket bu rapora göre netleşir. Satışınızdan veya cirodan pay alınmaz."
     },
     "build": {
       "title": "Bakım ve destek kapsamında ne yapıyoruz?",
@@ -5046,13 +5046,13 @@
     "faq": {
       "title": "Yazılım bakım ve destek: sık sorulanlar",
       "q1": "Yazılım bakım ve destek hizmeti aylık ne kadar tutar?",
-      "a1": "2026 için temel bakım (güncelleme, yedekleme, izleme) aylık 5.000–10.000 TL, aylık geliştirme saatleri ve belirli yanıt süresi içeren standart destek 10.000–25.000 TL, öncelikli yanıt ve düzenli geliştirme içeren kurumsal destek 25.000–60.000 TL ve üzeridir. Bilmediğimiz bir kodu devralmadan önce yapılan tek seferlik inceleme 15.000–40.000 TL'dir.",
+      "a1": "2026 için temel bakım (güncelleme, yedekleme, izleme) aylık 5.000–10.000 TL, aylık geliştirme saatleri ve belirli yanıt süresi içeren standart destek 12.000–30.000 TL, öncelikli yanıt ve düzenli geliştirme içeren kurumsal destek 30.000–75.000 TL ve üzeridir. Bilmediğimiz bir kodu devralmadan önce yapılan tek seferlik inceleme 20.000–50.000 TL'dir.",
       "q2": "Ankara'da yazılım destek firması arıyorum, hangisi en iyisi?",
       "a2": "Herkes için tek bir “en iyi” firma yok; asıl önemli olan sözleşmede ne yazdığı. Yanıt ve çözüm sürelerinin saat olarak yazılmasına, aylık saatlerin ve kapsam dışı işlerin net olmasına, düzenli rapor verilmesine ve sözleşme bitince tüm erişimlerin size kalmasına bakın. Ozturksoft, Ankara Çankaya'da başka firmaların yazdığı sistemleri de devralan firmalardan biridir.",
       "q3": "Hosting firmasının bakım paketi yeterli mi, yoksa yazılım bakım sözleşmesi mi yapmalıyım?",
       "a3": "Standart bir WordPress sitesi için hosting firmasının otomatik güncelleme ve yedek paketi yeterli olabilir. Özel yazılmış bir sisteminiz, muhasebe veya pazaryeri entegrasyonunuz ya da düzenli değişiklik ihtiyacınız varsa kodu anlayan bir ekiple yazılım bakım sözleşmesi gerekir; hosting firması sunucuyu korur, yazılımınızı değil.",
       "q4": "Başka firmanın yazdığı yazılımın veya Logo, Netsis, Mikro entegrasyonunun bakımını yapar mısınız?",
-      "a4": "Evet. Kaynak koda ve sunucuya erişim sağlanabiliyorsa başka firmanın yazdığı web sitesi, uygulama ve Logo, Netsis, Mikro, Excel veya pazaryeri entegrasyonlarının bakımını üstleniyoruz. Önce 15.000–40.000 TL'lik tek seferlik incelemeyle kodun durumunu yazılı rapora dökeriz.",
+      "a4": "Evet. Kaynak koda ve sunucuya erişim sağlanabiliyorsa başka firmanın yazdığı web sitesi, uygulama ve Logo, Netsis, Mikro, Excel veya pazaryeri entegrasyonlarının bakımını üstleniyoruz. Önce 20.000–50.000 TL'lik tek seferlik incelemeyle kodun durumunu yazılı rapora dökeriz.",
       "q5": "Bakım sözleşmesi ne kadar sürede başlar, sorunlar ne kadar sürede çözülür?",
       "a5": "Tanıdığımız bir sistemde bakım sözleşme imzalanınca başlar; kodunu bilmediğimiz bir sistemde önce ilk inceleme yapılır. Yanıt ve çözüm süreleri saat olarak sözleşmede yazılır ve pakete göre değişir; kurumsal destekte talepleriniz önceliklidir.",
       "q6": "Bakım sırasında verilerim güvende mi, KVKK'ya uygun mu? Kaynak kod kimde kalır?",
@@ -5163,11 +5163,11 @@
     "faq": {
       "title": "Otomatik müşteri hizmetleri: sık sorulanlar",
       "q1": "Otomatik müşteri hizmetleri yaptırmak ne kadar tutar?",
-      "a1": "2026 fiyatlarıyla yapay zeka müşteri hizmetleri asistanı 40.000–80.000 TL (3–5 hafta), satış asistanı + CRM bağlantısı 80.000–200.000 TL (6–10 hafta), kurumsal çok kanallı sistem 200.000–400.000+ TL (3–5 ay). Aylık yapay zeka kullanım ücreti kullanıma göre ayrıca hesaplanır. Kesin fiyat ücretsiz keşiften sonra yazılı teklifle belirlenir.",
+      "a1": "2026 fiyatlarıyla yapay zeka müşteri hizmetleri asistanı 60.000–120.000 TL (3–5 hafta), satış asistanı + CRM bağlantısı 120.000–250.000 TL (6–10 hafta), kurumsal çok kanallı sistem 250.000–500.000+ TL (3–5 ay). Aylık yapay zeka kullanım ücreti kullanıma göre ayrıca hesaplanır. Kesin fiyat ücretsiz keşiften sonra yazılı teklifle belirlenir.",
       "q2": "Ankara'da yapay zeka ile müşteri hizmetleri kuran firmalar hangileri, en iyisi hangisi?",
       "a2": "Herkes için tek bir “en iyi” firma yok. Seçerken firmanın WhatsApp ve CRM entegrasyonu yapıp yapmadığına, cevapların sizin belgelerinize dayanıp dayanmadığına, kaynak kodun ve verinin kime ait olacağına ve canlıya aldıktan sonra destek verip vermediğine bakın. Ozturksoft, Ankara Çankaya'da bu sistemleri şirketlerin kendi verileri ve programlarıyla kuran firmalardan biridir.",
       "q3": "Hazır chatbot mu almalıyım, özel yapay zeka asistanı mı yaptırmalıyım?",
-      "a3": "Soru sayısı az ve standartsa hazır bir chatbot aboneliği daha ekonomiktir. Asistanın stok, sipariş veya müşteri kaydı gibi bilgileri kendi sistemlerinizden alması, talepleri satış ekibine sizin kurallarınıza göre dağıtması ya da verinin sizde kalması gerekiyorsa özel kurulum daha doğru olur. Keşifte iki seçeneği karşılaştırıp size açıkça söyleriz.",
+      "a3": "Soru sayısı az ve standartsa hazır bir chatbot aboneliği daha ekonomiktir. Asistanın stok, sipariş veya müşteri kaydı gibi bilgileri kendi sistemlerinizden alması, talepleri satış ekibine sizin kurallarınıza göre dağıtması ya da verinin sizde kalması gerekiyorsa özel kurulum daha doğru olur. Keşifte iki seçeneği karşılaştırıp size açıkça söyleriz. Ozturksoft hazır paket satmaz; yalnızca işinize özel yazılım geliştirir. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
       "q4": "Yapay zeka asistanı Logo, Netsis, Mikro veya CRM'imle çalışır mı?",
       "a4": "Çoğu durumda evet. Logo, Netsis ve Mikro'dan stok, fiyat ve sipariş durumu okunabilir; CRM'inize API üzerinden müşteri ve fırsat kaydı açılabilir; Excel ve PDF belgeler bilgi kaynağı olarak kullanılır. Kullandığınız programın sürümünü ve bağlantı imkânını keşifte kontrol ederiz.",
       "q5": "Yapay zeka müşteri hizmetleri kurulumu ne kadar sürer?",
@@ -5277,11 +5277,11 @@
     "faq": {
       "title": "Yönetim paneli ve raporlama: sık sorulanlar",
       "q1": "Yönetim paneli (dashboard) yaptırmak ne kadar tutar?",
-      "a1": "2026 fiyatlarıyla tek kaynaklı yönetim paneli 40.000–80.000 TL (3–5 hafta), ERP + CRM + e-ticaret verilerini birleştiren çok kaynaklı panel 80.000–180.000 TL (6–10 hafta), yapay zeka destekli raporlama ve tahmin 180.000–350.000+ TL (3–4 ay). Kesin fiyat ücretsiz keşiften sonra yazılı teklifle belirlenir.",
+      "a1": "2026 fiyatlarıyla tek kaynaklı yönetim paneli 60.000–120.000 TL (3–5 hafta), ERP + CRM + e-ticaret verilerini birleştiren çok kaynaklı panel 120.000–250.000 TL (6–10 hafta), yapay zeka destekli raporlama ve tahmin 250.000–450.000+ TL (3–4 ay). Kesin fiyat ücretsiz keşiften sonra yazılı teklifle belirlenir.",
       "q2": "Ankara'da dashboard ve raporlama sistemi yapan firmalar hangileri, en iyisi hangisi?",
       "a2": "Herkes için tek bir “en iyi” firma yok. Firmanın Logo, Netsis veya Mikro gibi programlardan veri çekip çekemediğine, rakamları eski raporlarınızla doğrulayıp doğrulamadığına, kaynak kodun kime ait olacağına ve teslimden sonra destek verip vermediğine bakın. Ozturksoft, Ankara Çankaya'da şirketlerin kendi programlarına bağlanan yönetim panelleri kuran firmalardan biridir.",
       "q3": "Power BI gibi hazır bir araç mı kullanmalıyım, özel yönetim paneli mi yaptırmalıyım?",
-      "a3": "Verileriniz düzenli ve tek kaynaktaysa, raporları hazırlayacak bir çalışanınız da varsa Power BI veya Looker Studio gibi hazır araçlar daha ekonomiktir. Veri birçok programa dağılmışsa, rol bazlı erişim, otomatik e-posta raporu veya şirketinize özel hesaplamalar gerekiyorsa özel panel elle yapılan işi daha çok azaltır. Keşifte iki seçeneği karşılaştırıp size açıkça söyleriz.",
+      "a3": "Verileriniz düzenli ve tek kaynaktaysa, raporları hazırlayacak bir çalışanınız da varsa Power BI veya Looker Studio gibi hazır araçlar daha ekonomiktir. Veri birçok programa dağılmışsa, rol bazlı erişim, otomatik e-posta raporu veya şirketinize özel hesaplamalar gerekiyorsa özel panel elle yapılan işi daha çok azaltır. Keşifte iki seçeneği karşılaştırıp size açıkça söyleriz. Ozturksoft hazır paket satmaz; yalnızca işinize özel yazılım geliştirir. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
       "q4": "Dashboard Logo, Netsis, Mikro ve Excel verilerimle çalışır mı?",
       "a4": "Evet. Logo, Netsis ve Mikro'dan satış, cari, stok ve tahsilat verisi okunur; CRM, e-ticaret sitesi ve pazaryeri siparişleri API ile, Excel tabloları dosya aktarımıyla eklenir. Panel mevcut programlarınıza veri yazmaz, yalnızca okur. Programınızın sürümünü keşifte kontrol ederiz.",
       "q5": "Raporlama sistemi kurmak ne kadar sürer?",
@@ -5387,16 +5387,16 @@
     },
     "notfor": {
       "title": "Kimler için uygun değil?",
-      "p1": "Fikrinizi henüz hiçbir müşteriyle konuşmadıysanız, 100.000 TL'lik bir MVP'den önce birkaç potansiyel müşteriyle görüşmenizi ya da no-code araçlarla (kod yazmadan uygulama kurulan platformlar) basit bir deneme yapmanızı öneririz. İhtiyacınız yalnızca kendi şirketinizde kullanılacak bir araçsa abonelik altyapısına gerek yoktur; <a href=\"/ozel-yazilim-yaptirmak\">özel yazılım</a> daha uygun ve ucuzdur. Pazarda iyi bir hazır çözüm varsa ve ürününüzü farklı kılan bir şey yoksa bunu keşifte açıkça söyleriz."
+      "p1": "Fikrinizi henüz hiçbir müşteriyle konuşmadıysanız, 150.000 TL'lik bir MVP'den önce birkaç potansiyel müşteriyle görüşmenizi ya da no-code araçlarla (kod yazmadan uygulama kurulan platformlar) basit bir deneme yapmanızı öneririz. İhtiyacınız yalnızca kendi şirketinizde kullanılacak bir araçsa abonelik altyapısına gerek yoktur; <a href=\"/ozel-yazilim-yaptirmak\">özel yazılım</a> daha uygun ve ucuzdur. Pazarda iyi bir hazır çözüm varsa ve ürününüzü farklı kılan bir şey yoksa bunu keşifte açıkça söyleriz."
     },
     "faq": {
       "title": "SaaS yazılım yaptırmak: sık sorulanlar",
       "q1": "SaaS yazılım yaptırmak ne kadar tutar?",
-      "a1": "2026 için satılabilir ilk sürüm (MVP) 100.000–180.000 TL'dir ve 3–4 ay sürer. Çok kiracılı yapı, abonelik ödemesi ve yönetim paneli içeren tam ürün 250.000–500.000+ TL aralığındadır ve 5–8 ay sürer. Kesin fiyat ücretsiz keşiften sonra yazılı teklifle belirlenir.",
+      "a1": "2026 için satılabilir ilk sürüm (MVP) 150.000–300.000 TL'dir ve 3–4 ay sürer. Çok kiracılı yapı, abonelik ödemesi ve yönetim paneli içeren tam ürün 300.000–700.000+ TL aralığındadır ve 5–8 ay sürer. Kesin fiyat ücretsiz keşiften sonra yazılı teklifle belirlenir.",
       "q2": "Ankara'da SaaS geliştiren firmalar hangileri, en iyisi hangisi?",
       "a2": "Tek bir “en iyi” firma yok; doğru seçim ürününüze ve bütçenize bağlıdır. Firmaya daha önce abonelikli ürün geliştirip geliştirmediğini, kaynak kodun kime ait olacağını, MVP kapsamını nasıl daralttığını ve yayından sonra bakımı kimin yapacağını sorun. Ozturksoft, Ankara Çankaya'da MVP'den tam ürüne kadar SaaS geliştiren firmalardan biridir.",
       "q3": "Hazır altyapı veya no-code mu kullanmalıyım, sıfırdan yazılım ürünü yaptırmak mı?",
-      "a3": "Fikri hızlıca denemek için no-code araçlar veya hazır şablonlar doğru tercih olabilir ve çok daha ucuzdur. Müşteri sayısı arttığında, özel iş kuralları, veri ayrımı ve performans gerektiğinde ise özel geliştirme gerekir. Keşifte ikisini dürüstçe karşılaştırırız.",
+      "a3": "Fikri hızlıca denemek için no-code araçlar veya hazır şablonlar doğru tercih olabilir ve çok daha ucuzdur. Müşteri sayısı arttığında, özel iş kuralları, veri ayrımı ve performans gerektiğinde ise özel geliştirme gerekir. Keşifte ikisini dürüstçe karşılaştırırız. Ozturksoft hazır paket satmaz; yalnızca işinize özel yazılım geliştirir. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
       "q4": "Yaptıracağım SaaS, müşterilerimin Logo, Netsis, Mikro, Excel veya e-ticaret sistemleriyle çalışır mı?",
       "a4": "Evet, kapsama eklenirse. Logo, Netsis ve Mikro'dan API veya aktarım servisiyle veri alınabilir, Excel/CSV içe aktarma eklenebilir, Trendyol ve Hepsiburada gibi pazaryerlerine bağlanılabilir. Hangi bağlantının MVP'de, hangisinin sonraki sürümde olacağını teklifte ayrı yazarız.",
       "q5": "SaaS MVP geliştirme ne kadar sürer?",
@@ -5404,7 +5404,7 @@
       "q6": "Müşterilerimin verileri güvende mi, KVKK'ya uygun mu? Kaynak kod bize mi ait?",
       "a6": "Her müşteri firmanın verisi ayrı tutulur, bağlantılar şifrelenir, düzenli yedek alınır ve yetkiler rol bazlıdır; KVKK aydınlatma metni ve sözleşme onay ekranları üründe yer alır. Teslimde kaynak kod, veritabanı ve sunucu erişimleri size verilir ve bu sözleşmeye yazılır. Kaynak kodun sizde olması yatırımcı görüşmelerinde ve şirket değerlemesinde önemlidir.",
       "q7": "SaaS yaptırmak kimler için uygun değil?",
-      "a7": "Fikrini hiç müşteriyle doğrulamamış ve bütçesi 100.000 TL'nin altında olanlar için önce no-code bir deneme daha mantıklıdır. Sadece kendi şirketinde kullanacağı bir araç isteyenler için abonelik altyapısı gereksizdir; özel yazılım daha ucuzdur.",
+      "a7": "Fikrini hiç müşteriyle doğrulamamış ve bütçesi 150.000 TL'nin altında olanlar için önce no-code bir deneme daha mantıklıdır. Sadece kendi şirketinde kullanacağı bir araç isteyenler için abonelik altyapısı gereksizdir; özel yazılım daha ucuzdur.",
       "q8": "Aylık maliyet var mı, satışlardan pay alıyor musunuz?",
       "a8": "Yayından sonraki aylık bakım ve geliştirme ücreti, ihtiyaç duyulan iş miktarına göre teklifle belirlenir ve sabittir. Sunucu ve ödeme kuruluşu komisyonları ayrıca sizin hesabınızdan ödenir. Abonelik gelirinizden veya satışlarınızdan pay almayız."
     },
@@ -5504,11 +5504,11 @@
     "faq": {
       "title": "Sesli yapay zeka asistanı: sık sorulanlar",
       "q1": "Sesli yapay zeka asistanı yaptırmak ne kadar tutar?",
-      "a1": "2026 için tek senaryolu, tek hatlı pilot 80.000–150.000 TL'dir ve 4–6 hafta sürer. Çağrı merkezi ve CRM entegrasyonu 150.000–350.000 TL'dir ve 2–4 ay sürer. Telefon hattı ve yapay zeka kullanımı aylık olarak, konuşulan dakikaya göre ayrıca faturalanır.",
+      "a1": "2026 için tek senaryolu, tek hatlı pilot 120.000–200.000 TL'dir ve 4–6 hafta sürer. Çağrı merkezi ve CRM entegrasyonu 200.000–450.000 TL'dir ve 2–4 ay sürer. Telefon hattı ve yapay zeka kullanımı aylık olarak, konuşulan dakikaya göre ayrıca faturalanır.",
       "q2": "Ankara'da yapay zeka telefon asistanı kuran firmalar hangileri, en iyisi hangisi?",
       "a2": "Tek bir “en iyi” firma yok. Firmaya Türkçe ses tanımayı gürültülü ortamda nasıl test ettiğini, insana devrin nasıl çalıştığını, KVKK aydınlatmasını nasıl yaptığını ve dakika başı maliyeti önceden hesaplayıp hesaplamadığını sorun. Ozturksoft, Ankara Çankaya'da sesli asistanı santral ve CRM'e bağlayarak kuran firmalardan biridir.",
       "q3": "Hazır çağrı merkezi yazılımı mı, özel sesli yapay zeka asistanı mı?",
-      "a3": "Aramalarınız az ve standartsa hazır bir çağrı merkezi yazılımı veya tuşlamalı sesli menü (IVR) daha ucuz ve yeterlidir. Arayanın serbestçe konuştuğu, sipariş veya randevu sisteminize bakılması gereken yoğun hatlarda özel asistan anlam kazanır. Keşifte hangisinin size uygun olduğunu açıkça söyleriz.",
+      "a3": "Aramalarınız az ve standartsa hazır bir çağrı merkezi yazılımı veya tuşlamalı sesli menü (IVR) daha ucuz ve yeterlidir. Arayanın serbestçe konuştuğu, sipariş veya randevu sisteminize bakılması gereken yoğun hatlarda özel asistan anlam kazanır. Keşifte hangisinin size uygun olduğunu açıkça söyleriz. Ozturksoft hazır paket satmaz; yalnızca işinize özel yazılım geliştirir. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
       "q4": "Telefonu yapay zeka açarsa mevcut santralim, CRM'im, Logo, Netsis, Mikro veya e-ticaret sistemimle çalışır mı?",
       "a4": "Evet. Mevcut numaranız korunur, IP santral veya operatör yönlendirmesiyle bağlanır. Sipariş ve cari bilgisi Logo, Netsis, Mikro veya e-ticaret altyapınızdan API ile okunur, sık sorular Excel'den güncellenebilir, görüşme özetleri CRM'inize yazılır.",
       "q5": "Çağrı merkezi yapay zeka kurulumu ne kadar sürer?",

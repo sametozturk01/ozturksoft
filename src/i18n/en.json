@@ -4678,16 +4678,16 @@
     },
     "notfor": {
       "title": "Who is this not for?",
-      "p1": "If you have one warehouse, a few hundred products and standard buying and selling, an off-the-shelf stock program or the stock module of your accounting software will cost less; you do not need custom software. If your budget is below 80,000 TL or your way of working is not settled yet, we recommend waiting. We will tell you this openly in the discovery call."
+      "p1": "If you have one warehouse, a few hundred products and standard buying and selling, an off-the-shelf stock program or the stock module of your accounting software will cost less; you do not need custom software. If your budget is below 100,000 TL or your way of working is not settled yet, we recommend waiting. We will tell you this openly in the discovery call."
     },
     "faq": {
       "title": "Stock tracking software: frequently asked questions",
       "q1": "How much does it cost to have stock tracking software built?",
-      "a1": "At 2026 prices, basic stock and order tracking costs 80,000–150,000 TL (6–10 weeks), barcode, multiple warehouses and mobile counting 150,000–250,000 TL (10–14 weeks), and a stock system connected to Logo, Netsis or Mikro 250,000–400,000+ TL (3–5 months). The price depends less on the number of products than on the number of warehouses, connections and your specific rules. The exact price is given in a written quote after the free discovery call.",
+      "a1": "At 2026 prices, basic stock and order tracking costs 100,000–180,000 TL (6–10 weeks), barcode, multiple warehouses and mobile counting 180,000–300,000 TL (10–14 weeks), and a stock system connected to Logo, Netsis or Mikro 300,000–500,000+ TL (3–5 months). The price depends less on the number of products than on the number of warehouses, connections and your specific rules. The exact price is given in a written quote after the free discovery call.",
       "q2": "Which companies in Ankara build stock tracking software, and which one is best?",
       "a2": "There is no single best company for everyone; the right one depends on your business and the software you use. When deciding, check whether they give a written scope, have experience connecting to Logo, Netsis or Mikro, hand over the source code and can support you on site. Ozturksoft is one of these companies: from Çankaya we build stock, warehouse and order software and handle installation and training on site.",
       "q3": "Should I buy ready-made stock software or have custom software built?",
-      "a3": "For businesses with standard buying and selling and a single warehouse, ready-made software is usually cheaper and sufficient. With multiple warehouses, production-linked stock, marketplace sales or your own approval rules, adapting a ready-made program gets harder, and custom software makes sense. If we see in the discovery call that a ready-made program is enough, we will tell you.",
+      "a3": "For businesses with standard buying and selling and a single warehouse, ready-made software is usually cheaper and sufficient. With multiple warehouses, production-linked stock, marketplace sales or your own approval rules, adapting a ready-made program gets harder, and custom software makes sense. If we see in the discovery call that a ready-made program is enough, we will tell you. Ozturksoft does not sell ready-made packages; we only build software tailored to your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
       "q4": "Does custom stock software work with Logo, Netsis, Mikro or Excel?",
       "a4": "Yes. Stock, account and invoice data can be synced automatically with Logo, Netsis and Mikro, and your accounting side stays as it is. Your existing Excel lists are imported, and stock can also be connected to Trendyol, Hepsiburada or your own online shop.",
       "q5": "How long does it take to build stock tracking software?",
@@ -4695,7 +4695,7 @@
       "q6": "Is my stock data safe and KVKK-compliant? Will we own the source code?",
       "a6": "Data is stored on your own server or a cloud server of your choice, with user permissions, activity logs and regular backups. If customer or staff data is processed, the system is designed to meet KVKK requirements (Turkey's data protection law). At delivery you receive the source code, the database and server access; this is written in the contract.",
       "q7": "Who is custom stock software not suitable for?",
-      "a7": "For businesses with one warehouse, a few hundred products and standard buying and selling, a ready-made program or the stock module of their accounting software is more economical. We also advise businesses with a budget below 80,000 TL, or whose way of working is not yet settled, to wait.",
+      "a7": "For businesses with one warehouse, a few hundred products and standard buying and selling, a ready-made program or the stock module of their accounting software is more economical. We also advise businesses with a budget below 100,000 TL, or whose way of working is not yet settled, to wait.",
       "q8": "Is there a monthly cost for the stock software?",
       "a8": "After delivery there is a fixed maintenance fee of 5,000–10,000 TL/month for the server, security updates, backups and technical support; we take no share of your sales. New feature requests are priced separately with a written quote."
     },
@@ -4791,16 +4791,16 @@
     },
     "notfor": {
       "title": "Who is this not for?",
-      "p1": "For small workshops with a few people, a single product or simple contract manufacturing, a ready-made production module or a well-built Excel file is usually enough. If your budget is below 120,000 TL, or your work order flow still varies from person to person, we recommend clarifying the process first. We will tell you this openly in the discovery call."
+      "p1": "For small workshops with a few people, a single product or simple contract manufacturing, a ready-made production module or a well-built Excel file is usually enough. If your budget is below 150,000 TL, or your work order flow still varies from person to person, we recommend clarifying the process first. We will tell you this openly in the discovery call."
     },
     "faq": {
       "title": "Production tracking software: frequently asked questions",
       "q1": "How much does it cost to have production tracking software built?",
-      "a1": "At 2026 prices, work order and production tracking costs 120,000–220,000 TL (8–12 weeks), a system with quality, scrap, barcode and machine data 220,000–400,000 TL (3–5 months), and an ERP-connected factory system 400,000–750,000+ TL (5–8 months). The price depends on the number of workstations, machine connections and ERP integration. The exact price is given in a written quote after the free discovery call.",
+      "a1": "At 2026 prices, work order and production tracking costs 150,000–280,000 TL (8–12 weeks), a system with quality, scrap, barcode and machine data 280,000–500,000 TL (3–5 months), and an ERP-connected factory system 500,000–1,000,000+ TL (5–8 months). The price depends on the number of workstations, machine connections and ERP integration. The exact price is given in a written quote after the free discovery call.",
       "q2": "Which companies in Ankara build production tracking software, and which one is best?",
       "a2": "There is no single best company for everyone; the right choice depends on your sector, your machines and the ERP you use. Check whether they visit the shop floor, give a written scope, have Logo, Netsis or Mikro experience and hand over the source code. Ozturksoft is one of these companies: we are based in Çankaya and can do on-site discovery and installation for manufacturers in OSTİM, İvedik, Sincan and Ankara Sanayi Odası 1. OSB.",
       "q3": "Ready-made production software or custom factory software?",
-      "a3": "For companies making standard products whose ERP production module already does the job, a ready-made solution is cheaper and faster. If you produce to order, have multi-step routings, need your own quality forms or machine connections, adapting a ready-made program gets expensive, and custom software makes sense. If we see during discovery that a ready-made solution is enough, we will tell you.",
+      "a3": "For companies making standard products whose ERP production module already does the job, a ready-made solution is cheaper and faster. If you produce to order, have multi-step routings, need your own quality forms or machine connections, adapting a ready-made program gets expensive, and custom software makes sense. If we see during discovery that a ready-made solution is enough, we will tell you. Ozturksoft does not sell ready-made packages; we only build software tailored to your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
       "q4": "Does production tracking software work with Logo, Netsis, Mikro or Excel?",
       "a4": "Yes. Bills of materials, stock, orders and production slips can be synced automatically with Logo, Netsis and Mikro, and your accounting side stays as it is. Your product, bill-of-materials and planning lists in Excel are imported. Reading data from machines depends on the machine model; we check this together during discovery.",
       "q5": "How long does it take to set up production tracking software?",
@@ -4808,7 +4808,7 @@
       "q6": "Is my production data safe and KVKK-compliant? Will we own the source code?",
       "a6": "Data is stored on a server in your factory or a cloud server of your choice, with user permissions, activity logs and regular backups. If staff data is processed, the system is designed to meet KVKK requirements (Turkey's data protection law). At delivery you receive the source code, the database and server access; this is written in the contract.",
       "q7": "Who is production tracking software not suitable for?",
-      "a7": "For small workshops with a few people, a single product or simple contract manufacturing, a ready-made production module or a well-built Excel file is usually enough. We advise businesses with a budget below 120,000 TL, or whose work order flow is not yet settled, to clarify the process first.",
+      "a7": "For small workshops with a few people, a single product or simple contract manufacturing, a ready-made production module or a well-built Excel file is usually enough. We advise businesses with a budget below 150,000 TL, or whose work order flow is not yet settled, to clarify the process first.",
       "q8": "Is there a monthly cost for production tracking software?",
       "a8": "After delivery there is a fixed maintenance fee of 5,000–10,000 TL/month for the server, security updates, backups and technical support; we take no share of your sales or production volume. New feature requests are priced separately with a written quote."
     },
@@ -4908,11 +4908,11 @@
     "faq": {
       "title": "Field service software: frequently asked questions",
       "q1": "How much does it cost to have field service tracking software built?",
-      "a1": "For 2026: a web panel and field mobile app costs TL 100,000–180,000 (8–12 weeks); with routes, photos, signatures, spare parts stock and customer notifications TL 180,000–300,000 (3–4 months); a service system linked to ERP and invoicing TL 300,000–450,000 or more (4–6 months). The exact price is set in a written quote after the free discovery call.",
+      "a1": "For 2026: a web panel and field mobile app costs TL 120,000–220,000 (8–12 weeks); with routes, photos, signatures, spare parts stock and customer notifications TL 220,000–380,000 (3–4 months); a service system linked to ERP and invoicing TL 380,000–600,000 or more (4–6 months). The exact price is set in a written quote after the free discovery call.",
       "q2": "Which companies in Ankara build field service software, and which is the best?",
       "a2": "There is no single “best” company for everyone; the right choice depends on your service flow and the accounting software you use. When comparing, look at the written scope, whether the source code is handed over to you, experience with Logo, Netsis or Mikro links, and the monthly fee after delivery. Ozturksoft is one of the companies in Çankaya, Ankara that builds the web panel and the field mobile app together.",
       "q3": "Should I buy ready-made service software or have custom software built?",
-      "a3": "For a few technicians and a standard workflow, a ready-made program is usually cheaper and faster. Custom software makes sense if your own service form, contract maintenance rules, spare parts structure or accounting link do not fit a ready-made program, or if per-user subscriptions get expensive as the team grows.",
+      "a3": "For a few technicians and a standard workflow, a ready-made program is usually cheaper and faster. Custom software makes sense if your own service form, contract maintenance rules, spare parts structure or accounting link do not fit a ready-made program, or if per-user subscriptions get expensive as the team grows. Ozturksoft does not sell ready-made packages; we only build software tailored to your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
       "q4": "Does the service software work with Logo, Netsis, Mikro or Excel?",
       "a4": "Yes. Customer and stock cards are taken from Logo, Netsis or Mikro, and the invoice for a finished job is transferred to the accounting software. Customer, device and past service records in Excel are imported at the start, and the fault form on your website can also be connected via API.",
       "q5": "How long does it take to build a field team tracking app?",
@@ -4953,7 +4953,7 @@
     "stats": {
       "s1v": "TL 5,000 – 10,000/month",
       "s1l": "Basic maintenance",
-      "s2v": "TL 10,000 – 25,000/month",
+      "s2v": "TL 12,000 – 30,000/month",
       "s2l": "Standard support",
       "s3v": "Monthly",
       "s3l": "Contract term, no quote per task"
@@ -4974,13 +4974,13 @@
       "c1a": "TL 5,000 – 10,000/month",
       "c1d": "Security and software updates, regular backups with restore tests, and automatic monitoring of the site and server (if it goes down, the alert comes to us).",
       "c2t": "Standard support",
-      "c2a": "TL 10,000 – 25,000/month",
+      "c2a": "TL 12,000 – 30,000/month",
       "c2d": "Basic maintenance plus a set number of development hours each month (small changes, new fields, reports) and a response time written into the contract.",
       "c3t": "Enterprise support",
-      "c3a": "TL 25,000 – 60,000+/month",
+      "c3a": "TL 30,000 – 75,000+/month",
       "c3d": "Priority response for critical systems, a regular development schedule, a monthly report and review meeting.",
       "monthlyType": "Monthly contract",
-      "review": "<strong>Initial system review (one-time): TL 15,000–40,000.</strong> Before we take over code we do not know, we document the state of the code, security gaps, backups and missing documentation in a written report; the monthly plan is finalised based on this report. We take no share of your sales or revenue."
+      "review": "<strong>Initial system review (one-time): TL 20,000–50,000.</strong> Before we take over code we do not know, we document the state of the code, security gaps, backups and missing documentation in a written report; the monthly plan is finalised based on this report. We take no share of your sales or revenue."
     },
     "build": {
       "title": "What is included in maintenance and support?",
@@ -5026,13 +5026,13 @@
     "faq": {
       "title": "Software maintenance and support: frequently asked questions",
       "q1": "How much does software maintenance and support cost per month?",
-      "a1": "For 2026: basic maintenance (updates, backups, monitoring) costs TL 5,000–10,000 per month, standard support with monthly development hours and a set response time TL 10,000–25,000, and enterprise support with priority response and regular development TL 25,000–60,000 or more. The one-time review before we take over unfamiliar code costs TL 15,000–40,000.",
+      "a1": "For 2026: basic maintenance (updates, backups, monitoring) costs TL 5,000–10,000 per month, standard support with monthly development hours and a set response time TL 12,000–30,000, and enterprise support with priority response and regular development TL 30,000–75,000 or more. The one-time review before we take over unfamiliar code costs TL 20,000–50,000.",
       "q2": "I am looking for a software support company in Ankara. Which one is the best?",
       "a2": "There is no single “best” company for everyone; what matters is what the contract says. Check that response and resolution times are written in hours, that monthly hours and out-of-scope work are clear, that you get regular reports, and that all access stays with you when the contract ends. Ozturksoft is one of the companies in Çankaya, Ankara that also takes over systems built by others.",
       "q3": "Is my hosting provider's maintenance package enough, or do I need a software maintenance contract?",
       "a3": "For a standard WordPress site, your hosting provider's automatic update and backup package may be enough. If you have a custom-built system, an accounting or marketplace integration, or regular change requests, you need a software maintenance contract with a team that understands the code; the hosting provider protects the server, not your software.",
       "q4": "Do you maintain software built by another company, or Logo, Netsis and Mikro integrations?",
-      "a4": "Yes. If access to the source code and server can be provided, we take over maintenance of websites, applications and Logo, Netsis, Mikro, Excel or marketplace integrations built by other companies. We first document the state of the code in a written report through a one-time review costing TL 15,000–40,000.",
+      "a4": "Yes. If access to the source code and server can be provided, we take over maintenance of websites, applications and Logo, Netsis, Mikro, Excel or marketplace integrations built by other companies. We first document the state of the code in a written report through a one-time review costing TL 20,000–50,000.",
       "q5": "How soon does a maintenance contract start, and how quickly are problems solved?",
       "a5": "For a system we already know, maintenance starts once the contract is signed; for code we do not know, the initial review comes first. Response and resolution times are written into the contract in hours and depend on the plan; with enterprise support your requests have priority.",
       "q6": "Is my data safe and KVKK-compliant during maintenance? Who keeps the source code?",
@@ -5143,11 +5143,11 @@
     "faq": {
       "title": "Automated customer service: frequently asked questions",
       "q1": "How much does an automated customer service system cost?",
-      "a1": "At 2026 prices, an AI customer service assistant costs 40,000–80,000 TL (3–5 weeks), a sales assistant + CRM integration 80,000–200,000 TL (6–10 weeks) and an enterprise multichannel system 200,000–400,000+ TL (3–5 months). The monthly AI usage fee is calculated separately based on usage. The exact price is set in a written quote after the free discovery call.",
+      "a1": "At 2026 prices, an AI customer service assistant costs 60,000–120,000 TL (3–5 weeks), a sales assistant + CRM integration 120,000–250,000 TL (6–10 weeks) and an enterprise multichannel system 250,000–500,000+ TL (3–5 months). The monthly AI usage fee is calculated separately based on usage. The exact price is set in a written quote after the free discovery call.",
       "q2": "Which companies in Ankara build AI customer service systems, and which one is the best?",
       "a2": "There is no single “best” company for everyone. When choosing, check whether the company does WhatsApp and CRM integration, whether the answers are based on your own documents, who will own the source code and data, and whether support continues after launch. Ozturksoft, in Çankaya, Ankara, is one of the companies that build these systems with businesses' own data and programs.",
       "q3": "Should I buy a ready-made chatbot or have a custom AI assistant built?",
-      "a3": "If the number of questions is small and they are standard, a ready-made chatbot subscription is more economical. If the assistant needs to pull stock, order or customer information from your own systems, distribute enquiries to the sales team according to your rules, or keep the data on your side, a custom setup is the better choice. In the discovery call we compare both options and tell you plainly.",
+      "a3": "If the number of questions is small and they are standard, a ready-made chatbot subscription is more economical. If the assistant needs to pull stock, order or customer information from your own systems, distribute enquiries to the sales team according to your rules, or keep the data on your side, a custom setup is the better choice. In the discovery call we compare both options and tell you plainly. Ozturksoft does not sell ready-made packages; we only build software tailored to your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
       "q4": "Will the AI assistant work with my Logo, Netsis, Mikro or CRM?",
       "a4": "In most cases, yes. Stock, prices and order status can be read from Logo, Netsis and Mikro; customer and opportunity records can be created in your CRM via its API; Excel and PDF documents serve as knowledge sources. We check the version of your software and its connection options during the discovery call.",
       "q5": "How long does it take to set up AI customer service?",
@@ -5257,11 +5257,11 @@
     "faq": {
       "title": "Management dashboards and reporting: frequently asked questions",
       "q1": "How much does it cost to have a management dashboard built?",
-      "a1": "At 2026 prices, a single-source management dashboard costs 40,000–80,000 TL (3–5 weeks), a multi-source dashboard combining ERP + CRM + e-commerce data 80,000–180,000 TL (6–10 weeks), and AI-powered reporting and forecasting 180,000–350,000+ TL (3–4 months). The exact price is set in a written quote after the free discovery call.",
+      "a1": "At 2026 prices, a single-source management dashboard costs 60,000–120,000 TL (3–5 weeks), a multi-source dashboard combining ERP + CRM + e-commerce data 120,000–250,000 TL (6–10 weeks), and AI-powered reporting and forecasting 250,000–450,000+ TL (3–4 months). The exact price is set in a written quote after the free discovery call.",
       "q2": "Which companies in Ankara build dashboards and reporting systems, and which one is the best?",
       "a2": "There is no single “best” company for everyone. Check whether the company can pull data from programs such as Logo, Netsis or Mikro, whether it verifies the figures against your previous reports, who will own the source code and whether it provides support after delivery. Ozturksoft, in Çankaya, Ankara, is one of the companies that build management dashboards connected to businesses' own programs.",
       "q3": "Should I use a ready-made tool like Power BI or have a custom management dashboard built?",
-      "a3": "If your data is clean and in a single source, and you have an employee who can build the reports, ready-made tools such as Power BI or Looker Studio are more economical. If the data is spread across many programs, or you need role-based access, automatic e-mail reports or calculations specific to your company, a custom dashboard removes more manual work. In the discovery call we compare both options and tell you plainly.",
+      "a3": "If your data is clean and in a single source, and you have an employee who can build the reports, ready-made tools such as Power BI or Looker Studio are more economical. If the data is spread across many programs, or you need role-based access, automatic e-mail reports or calculations specific to your company, a custom dashboard removes more manual work. In the discovery call we compare both options and tell you plainly. Ozturksoft does not sell ready-made packages; we only build software tailored to your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
       "q4": "Will the dashboard work with my Logo, Netsis, Mikro and Excel data?",
       "a4": "Yes. Sales, customer account, stock and collection data are read from Logo, Netsis and Mikro; CRM, online shop and marketplace orders are added via API, and Excel sheets via file import. The dashboard does not write anything to your existing programs; it only reads. We check your software version during the discovery call.",
       "q5": "How long does it take to set up a reporting system?",
@@ -5367,16 +5367,16 @@
     },
     "notfor": {
       "title": "Who is this not right for?",
-      "p1": "If you haven't discussed your idea with a single customer yet, we recommend talking to a few potential customers or running a simple test with no-code tools (platforms for building apps without writing code) before investing 100,000 TL in an MVP. If you only need a tool for use inside your own company, you don't need subscription infrastructure; <a href=\"/ozel-yazilim-yaptirmak\">custom software</a> is a better fit and cheaper. If a good ready-made solution already exists and nothing sets your product apart, we will tell you so openly in the discovery call."
+      "p1": "If you haven't discussed your idea with a single customer yet, we recommend talking to a few potential customers or running a simple test with no-code tools (platforms for building apps without writing code) before investing 150,000 TL in an MVP. If you only need a tool for use inside your own company, you don't need subscription infrastructure; <a href=\"/ozel-yazilim-yaptirmak\">custom software</a> is a better fit and cheaper. If a good ready-made solution already exists and nothing sets your product apart, we will tell you so openly in the discovery call."
     },
     "faq": {
       "title": "Building a SaaS product: frequently asked questions",
       "q1": "How much does it cost to have SaaS software built?",
-      "a1": "For 2026, a first sellable version (MVP) costs 100,000–180,000 TL and takes 3–4 months. A full product with multi-tenant architecture, subscription billing and an admin panel costs 250,000–500,000+ TL and takes 5–8 months. The exact price is set in a written quote after the free discovery call.",
+      "a1": "For 2026, a first sellable version (MVP) costs 150,000–300,000 TL and takes 3–4 months. A full product with multi-tenant architecture, subscription billing and an admin panel costs 300,000–700,000+ TL and takes 5–8 months. The exact price is set in a written quote after the free discovery call.",
       "q2": "Which companies in Ankara develop SaaS products, and which is the best?",
       "a2": "There is no single “best” company; the right choice depends on your product and budget. Ask a firm whether it has built subscription products before, who will own the source code, how it narrows down the MVP scope and who will maintain the product after launch. Ozturksoft is one of the companies in Çankaya, Ankara that develop SaaS from MVP to full product.",
       "q3": "Should I use a ready-made platform or no-code, or have a software product built from scratch?",
-      "a3": "To test an idea quickly, no-code tools or ready-made templates can be the right choice and are much cheaper. Once the customer count grows and you need custom business rules, data separation and performance, custom development becomes necessary. We compare both honestly in the discovery call.",
+      "a3": "To test an idea quickly, no-code tools or ready-made templates can be the right choice and are much cheaper. Once the customer count grows and you need custom business rules, data separation and performance, custom development becomes necessary. We compare both honestly in the discovery call. Ozturksoft does not sell ready-made packages; we only build software tailored to your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
       "q4": "Will my SaaS work with my customers' Logo, Netsis, Mikro, Excel or e-commerce systems?",
       "a4": "Yes, if it is included in the scope. Data can be pulled from Logo, Netsis and Mikro via an API or transfer service, Excel/CSV import can be added, and marketplaces such as Trendyol and Hepsiburada can be connected. The quote lists separately which connections are in the MVP and which come in a later version.",
       "q5": "How long does SaaS MVP development take?",
@@ -5384,7 +5384,7 @@
       "q6": "Is my customers' data safe and KVKK-compliant? Do we own the source code?",
       "a6": "Each customer company's data is kept separate, connections are encrypted, regular backups are taken and permissions are role-based; the KVKK privacy notice and terms-acceptance screens are built into the product. At delivery you receive the source code, database and server access, and this is written into the contract. Owning the source code matters in investor talks and company valuation.",
       "q7": "Who is building a SaaS not right for?",
-      "a7": "If you have never validated the idea with customers and your budget is below 100,000 TL, a no-code test makes more sense first. If you only want a tool for your own company, subscription infrastructure is unnecessary; custom software is cheaper.",
+      "a7": "If you have never validated the idea with customers and your budget is below 150,000 TL, a no-code test makes more sense first. If you only want a tool for your own company, subscription infrastructure is unnecessary; custom software is cheaper.",
       "q8": "Are there monthly costs? Do you take a share of sales?",
       "a8": "The monthly maintenance and development fee after launch is set in a quote based on the amount of work needed, and it is fixed. Server costs and payment-provider fees are paid separately from your own accounts. We take no share of your subscription revenue or sales."
     },
@@ -5484,11 +5484,11 @@
     "faq": {
       "title": "AI voice assistant: frequently asked questions",
       "q1": "How much does it cost to have an AI voice assistant built?",
-      "a1": "For 2026, a single-scenario, single-line pilot costs 80,000–150,000 TL and takes 4–6 weeks. Call-centre and CRM integration costs 150,000–350,000 TL and takes 2–4 months. The phone line and AI usage are billed separately each month by minutes of conversation.",
+      "a1": "For 2026, a single-scenario, single-line pilot costs 120,000–200,000 TL and takes 4–6 weeks. Call-centre and CRM integration costs 200,000–450,000 TL and takes 2–4 months. The phone line and AI usage are billed separately each month by minutes of conversation.",
       "q2": "Which companies in Ankara set up AI phone assistants, and which is the best?",
       "a2": "There is no single “best” company. Ask a firm how it tests Turkish speech recognition in noisy conditions, how the handover to a human works, how it handles the KVKK privacy notice and whether it estimates the per-minute cost in advance. Ozturksoft is one of the companies in Çankaya, Ankara that set up voice assistants connected to the phone system and CRM.",
       "q3": "Ready-made call-centre software or a custom AI voice assistant?",
-      "a3": "If your calls are few and standard, ready-made call-centre software or a keypad phone menu (IVR) is cheaper and sufficient. A custom assistant makes sense on busy lines where callers speak freely and your order or appointment system needs to be checked. In the discovery call we tell you openly which one suits you.",
+      "a3": "If your calls are few and standard, ready-made call-centre software or a keypad phone menu (IVR) is cheaper and sufficient. A custom assistant makes sense on busy lines where callers speak freely and your order or appointment system needs to be checked. In the discovery call we tell you openly which one suits you. Ozturksoft does not sell ready-made packages; we only build software tailored to your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
       "q4": "If AI answers the phone, will it work with my existing phone system, CRM, Logo, Netsis, Mikro or e-commerce system?",
       "a4": "Yes. Your existing number stays and is connected via an IP PBX or operator call forwarding. Order and account information is read via API from Logo, Netsis, Mikro or your e-commerce platform, FAQs can be updated from Excel, and call summaries are written to your CRM.",
       "q5": "How long does it take to set up AI for a call centre?",
