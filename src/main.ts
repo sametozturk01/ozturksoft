@@ -389,6 +389,16 @@ async function changeLanguage(lang: string) {
         return;
     }
     const path = currentPath();
+    // Page has its own URL in that language (hreflang): go there instead of translating in place
+    const alt = document.querySelector<HTMLLinkElement>(`link[rel="alternate"][hreflang="${lang}"]`);
+    if (alt) {
+        const altPath = new URL(alt.href).pathname.replace(/\.html$/, '').replace(/\/$/, '') || '/';
+        if (altPath !== path) {
+            saveLang(lang);
+            window.location.href = altPath;
+            return;
+        }
+    }
     if (isLocaleHomePage(path)) {
         const target = LOCALE_HOME[lang];
         if (target && path !== target) {

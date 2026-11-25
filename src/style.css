@@ -2505,3 +2505,6 @@ body .hub-faq > p, body .hub-faq h3 + p { max-width:none; }
 .svc-note a { color:#60a5fa; font-weight:600; text-decoration:none; margin-right:18px; display:inline-block; }
 .svc-note a:hover { color:#fff; }
 @media (max-width:600px){ .svc-note-box { flex-direction:column; padding:22px 20px; } }
+/* RTL: keep numbers and price ranges in reading order */
+[dir="rtl"] .lp-stat strong, [dir="rtl"] .lp-amt, [dir="rtl"] .lp-time, [dir="rtl"] .lp-table td, [dir="rtl"] .compare-table td { unicode-bidi:plaintext; text-align:right; }
+[dir="rtl"] a[href^="tel:"] { direction:ltr; unicode-bidi:isolate; }
