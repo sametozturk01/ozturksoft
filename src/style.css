@@ -2082,8 +2082,8 @@ html.cookie-banner-open[dir="rtl"] .back-to-top {
 .grev-score strong{font-size:1.15rem;color:#fff}
 .grev-g{width:16px;height:16px;flex-shrink:0}
 .grev-stars{color:#fbbf24;letter-spacing:1px;font-size:.8rem}
-.grev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-@media(max-width:900px){.grev-grid{grid-template-columns:repeat(2,1fr)}}
+.grev-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media(max-width:1100px){.grev-grid{grid-template-columns:repeat(2,1fr)}}
 .grev-card{text-align:left;background:#fff;color:#1f2937;border-radius:14px;padding:16px 18px;box-shadow:0 8px 22px rgba(0,0,0,.22);display:flex;flex-direction:column;gap:10px}
 .grev-head{display:flex;align-items:center;gap:10px}
 .grev-av{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:.78rem;letter-spacing:.02em;flex-shrink:0}
