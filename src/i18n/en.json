@@ -650,16 +650,22 @@
       "kvkkAudit": "KVKK compliance audit",
       "mobile": "Mobile apps",
       "academic": "Academic research software",
-      "products": "Our products"
+      "products": "Our products",
+      "faq": "FAQ"
     },
     "groups": {
       "ai": "Artificial Intelligence",
       "software": "Software",
       "ecom": "E-commerce & Integrations",
       "visibility": "Visibility & Compliance",
-      "company": "Company"
+      "company": "Company",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact"
     },
-    "allServices": "All services →"
+    "allServices": "All services →",
+    "brand": "AI and software development company based in Çankaya, Ankara. We build custom software, AI and e-commerce solutions for organisations in Turkey and worldwide.",
+    "tagline": "AI · Custom Software · Ankara"
   },
   "aiFirmPage": {
     "meta": {

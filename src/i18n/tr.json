@@ -650,16 +650,22 @@
       "kvkkAudit": "KVKK uyum analizi",
       "mobile": "Mobil uygulama",
       "academic": "Akademik araştırma yazılımı",
-      "products": "Ürünlerimiz"
+      "products": "Ürünlerimiz",
+      "faq": "Sık sorulan sorular"
     },
     "groups": {
       "ai": "Yapay Zeka",
       "software": "Yazılım",
       "ecom": "E-ticaret ve Entegrasyon",
       "visibility": "Görünürlük ve Uyum",
-      "company": "Kurumsal"
+      "company": "Kurumsal",
+      "services": "Hizmetler",
+      "products": "Ürünler",
+      "contact": "İletişim"
     },
-    "allServices": "Tüm hizmetler →"
+    "allServices": "Tüm hizmetler →",
+    "brand": "Ankara Çankaya merkezli yapay zeka ve yazılım geliştirme şirketi. Türkiye ve dünyadaki kurumlar için özel yazılım, yapay zeka ve e-ticaret çözümleri geliştiriyoruz.",
+    "tagline": "Yapay Zeka · Özel Yazılım · Ankara"
   },
   "aiFirmPage": {
     "meta": {

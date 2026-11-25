@@ -650,16 +650,22 @@
       "kvkkAudit": "Audit de conformité KVKK",
       "mobile": "Applications mobiles",
       "academic": "Logiciels de recherche académique",
-      "products": "Nos produits"
+      "products": "Nos produits",
+      "faq": "FAQ"
     },
     "groups": {
       "ai": "Intelligence artificielle",
       "software": "Logiciel",
       "ecom": "E-commerce et intégrations",
       "visibility": "Visibilité et conformité",
-      "company": "Entreprise"
+      "company": "Entreprise",
+      "services": "Services",
+      "products": "Produits",
+      "contact": "Contact"
     },
-    "allServices": "Tous les services →"
+    "allServices": "Tous les services →",
+    "brand": "Société de développement IA et logiciel basée à Çankaya, Ankara. Nous concevons des logiciels sur mesure, des solutions IA et e-commerce pour les organisations en Turquie et dans le monde.",
+    "tagline": "IA · Logiciel sur mesure · Ankara"
   },
   "aiFirmPage": {
     "meta": {

@@ -650,16 +650,22 @@
       "kvkkAudit": "KVKK-Compliance-Prüfung",
       "mobile": "Mobile Apps",
       "academic": "Software für Forschung",
-      "products": "Unsere Produkte"
+      "products": "Unsere Produkte",
+      "faq": "FAQ"
     },
     "groups": {
       "ai": "Künstliche Intelligenz",
       "software": "Software",
       "ecom": "E-Commerce & Integrationen",
       "visibility": "Sichtbarkeit & Compliance",
-      "company": "Unternehmen"
+      "company": "Unternehmen",
+      "services": "Leistungen",
+      "products": "Produkte",
+      "contact": "Kontakt"
     },
-    "allServices": "Alle Leistungen →"
+    "allServices": "Alle Leistungen →",
+    "brand": "KI- und Softwareentwicklungsunternehmen mit Sitz in Çankaya, Ankara. Wir entwickeln Individualsoftware, KI- und E-Commerce-Lösungen für Unternehmen in der Türkei und weltweit.",
+    "tagline": "KI · Individualsoftware · Ankara"
   },
   "aiFirmPage": {
     "meta": {
