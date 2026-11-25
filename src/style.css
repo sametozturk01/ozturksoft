@@ -2422,3 +2422,78 @@ html[dir="rtl"] .lp-steps li { padding:74px 24px 24px; }
 html[dir="rtl"] .lp-checks li { padding-left:0; padding-right:34px; }
 html[dir="rtl"] .lp-checks li::before { left:auto; right:0; }
 @media (max-width:900px) { .lp-duo { grid-template-columns:1fr; } .lp-duo-card { padding:24px; } }
+
+/* ==========================================
+   Hub sayfaları (hub-*) — modern kartlı düzen
+   ========================================== */
+body .hub-hero { position:relative; padding:170px max(24px,calc((100vw - 1200px)/2)) 90px; background-size:cover; }
+body .hub-hero::after { content:""; position:absolute; left:0; right:0; bottom:0; height:140px; background:linear-gradient(180deg,transparent,var(--dark-bg)); pointer-events:none; }
+body .hub-hero > * { position:relative; z-index:1; }
+body .hub-hero h1 { font-size:clamp(2.4rem,5vw,3.9rem); letter-spacing:-.035em; line-height:1.06; max-width:960px; margin:14px 0 20px; }
+body .hub-hero p { color:#aab8cf; font-size:1.08rem; line-height:1.75; max-width:760px; }
+body .hub-hero .btn { border-radius:12px; }
+body .pill-row { gap:10px; margin:24px 0 28px; }
+body .pill { background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.14); color:#e2e8f0; border-radius:999px; padding:8px 16px; }
+
+body .hub-section { max-width:1248px; padding:70px 24px; }
+body .hub-section h2 { font-size:clamp(1.7rem,3.2vw,2.4rem); letter-spacing:-.02em; line-height:1.15; border:0; padding:0; margin-bottom:18px; max-width:900px; }
+body .hub-section h2::before { content:""; display:block; width:36px; height:3px; border-radius:3px; background:#3b82f6; margin-bottom:16px; }
+html[dir="rtl"] body .hub-section h2 { border:0; padding:0; }
+body .hub-section > p { max-width:860px; color:#aab8cf; line-height:1.75; }
+
+/* "Kısaca" / cite box */
+body #ai-cite, body .hub-section.hub-cite { max-width:1200px; margin:10px auto 0; padding:34px 38px; border-radius:22px; background:linear-gradient(120deg,rgba(59,130,246,.14),rgba(15,23,42,.7) 60%); border:1px solid rgba(59,130,246,.32); }
+body #ai-cite h2 { font-size:1.4rem; }
+body #ai-cite h2::before { display:none; }
+body #ai-cite p { max-width:none; color:#dbe4f0; }
+
+/* card grids */
+body .hub-top, body .hub-grid { max-width:1248px; padding:30px 24px 0; gap:20px; }
+body .hub-grid { grid-template-columns:repeat(3,minmax(0,1fr)); padding-top:20px; }
+body .hub-card { position:relative; display:flex; flex-direction:column; border-radius:20px; padding:28px; background:linear-gradient(180deg,rgba(59,130,246,.07),#0b1324 65%); border:1px solid rgba(255,255,255,.08); box-shadow:0 20px 40px -28px rgba(0,0,0,.8); transition:transform .2s, border-color .2s, box-shadow .2s; }
+body .hub-card:hover { transform:translateY(-4px); border-color:rgba(59,130,246,.45); box-shadow:0 26px 50px -24px rgba(59,130,246,.35); }
+body .hub-card--featured { border-color:rgba(59,130,246,.6); background:linear-gradient(160deg,rgba(59,130,246,.22),#0b1324 70%); }
+body .hub-card h3 { font-size:1.15rem; line-height:1.35; }
+body .hub-card p { color:#aab8cf; line-height:1.65; flex:1; }
+body .hub-card a { color:#60a5fa; }
+.hub-ico { width:46px; height:46px; border-radius:13px; display:grid; place-items:center; margin-bottom:18px; color:#60a5fa; background:rgba(59,130,246,.12); border:1px solid rgba(59,130,246,.3); font-size:1.05rem; }
+.hub-card--featured .hub-ico { background:#3b82f6; color:#fff; border-color:#3b82f6; }
+
+/* "why" bullet lists → cards */
+body .hub-section > ul { list-style:none; padding:0; margin:10px 0 0; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
+body .hub-section > ul > li { position:relative; margin:0; padding:24px 24px 24px 64px; border-radius:18px; background:#0b1324; border:1px solid rgba(255,255,255,.08); color:#aab8cf; line-height:1.65; }
+body .hub-section > ul > li::before { content:"\f00c"; font-family:'Font Awesome 6 Free'; font-weight:900; position:absolute; left:22px; top:24px; width:28px; height:28px; border-radius:50%; display:grid; place-items:center; font-size:.72rem; color:#60a5fa; background:rgba(59,130,246,.16); }
+body .hub-section > ul > li strong { display:block; color:#fff; font-size:1.02rem; margin-bottom:4px; }
+html[dir="rtl"] body .hub-section > ul > li { padding:24px 64px 24px 24px; }
+html[dir="rtl"] body .hub-section > ul > li::before { left:auto; right:22px; }
+
+/* tables */
+body .compare-table, body .hub-section .lp-table { width:100%; border-collapse:separate; border-spacing:0; border:1px solid rgba(255,255,255,.1); border-radius:18px; overflow:hidden; background:#0b1324; font-size:.97rem; }
+body .compare-table th, body .compare-table td { border:0; border-bottom:1px solid rgba(255,255,255,.07); padding:16px 20px; }
+body .compare-table tr:last-child td { border-bottom:0; }
+body .compare-table thead th { background:rgba(59,130,246,.14); color:#fff; font-size:.85rem; letter-spacing:.04em; }
+body .compare-table td:first-child { color:#fff; font-weight:600; }
+body .compare-table td:nth-child(2) { color:#c7e0ff; background:rgba(59,130,246,.05); }
+
+/* FAQ as cards */
+body .hub-faq { max-width:948px; }
+body .hub-faq h3 { margin:14px 0 0; padding:20px 24px 8px; background:#0b1324; border:1px solid rgba(255,255,255,.08); border-bottom:0; border-radius:16px 16px 0 0; color:#fff; font-size:1.05rem; }
+body .hub-faq h3 + p { margin:0; padding:0 24px 20px; background:#0b1324; border:1px solid rgba(255,255,255,.08); border-top:0; border-radius:0 0 16px 16px; color:#aab8cf; }
+
+/* CTA */
+body .hub-cta { max-width:1200px; margin:40px auto 90px; padding:72px 8%; border-radius:26px; border:1px solid rgba(96,165,250,.3); background:radial-gradient(520px 260px at 12% 0%,rgba(59,130,246,.22),transparent 70%),radial-gradient(520px 260px at 88% 0%,rgba(66,83,211,.25),transparent 70%),#0b1324; }
+body .hub-cta h2 { font-size:clamp(1.8rem,3.4vw,2.6rem) !important; letter-spacing:-.02em; }
+
+@media (max-width:1000px) {
+  body .hub-grid, body .hub-section > ul { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media (max-width:640px) {
+  body .hub-hero { padding:120px 16px 56px; }
+  body .hub-section { padding:50px 16px; }
+  body .hub-top, body .hub-grid { padding-left:16px; padding-right:16px; }
+  body .hub-grid, body .hub-section > ul { grid-template-columns:1fr; }
+  body #ai-cite { margin:10px 16px 0; padding:24px 20px; }
+  body .compare-table { display:block; overflow-x:auto; }
+  body .hub-cta { margin:20px 16px 60px; padding:48px 22px; }
+}
+body .hub-faq > p, body .hub-faq h3 + p { max-width:none; }
