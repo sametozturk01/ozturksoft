@@ -109,7 +109,8 @@ a{color:inherit}
 .hero h1{font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.08;font-weight:800;letter-spacing:-.02em;margin-bottom:18px}
 .hero .sub{color:var(--dim);font-size:1.06rem;max-width:720px;margin:0 auto}
 .quick{max-width:820px;margin:30px auto 0;text-align:left;background:linear-gradient(120deg,rgba(59,130,246,.12),rgba(15,23,42,.6));border:1px solid rgba(59,130,246,.3);border-radius:18px;padding:20px 24px;color:#dbe4f0;font-size:.97rem;line-height:1.7}
-.quick strong{color:#fff}.quick a{color:#93c5fd}.quick a[href^="tel"],.sss-a strong{white-space:nowrap}
+.quick strong{color:#fff}.quick a{color:#93c5fd}
+.quick a[href^="tel"],.sss-a strong{white-space:nowrap}.quick a[href^="tel"],.sss-a strong{white-space:nowrap}
 .chips{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:28px}
 .chips a{text-decoration:none;font-size:.88rem;font-weight:600;padding:9px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.14);color:#e2e8f0;background:rgba(255,255,255,.03)}
 .chips a:hover{border-color:var(--primary);background:rgba(59,130,246,.12)}
