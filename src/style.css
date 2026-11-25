@@ -2140,8 +2140,8 @@ html.cookie-banner-open[dir="rtl"] .back-to-top {
 .pr-logo--xl.pr-logo--alfaihale { width:min(420px,80vw); margin:0 auto 22px; }
 
 /* hero */
-.pr-hero { max-width:1200px; margin:0 auto; padding:170px 6% 90px; display:grid; grid-template-columns:1.15fr .85fr; gap:60px; align-items:center; }
-.pr-hero::before { content:""; position:absolute; inset:0; z-index:-1; background:radial-gradient(600px 380px at 10% 20%,rgba(66,83,211,.14),transparent 70%),radial-gradient(700px 420px at 90% 60%,rgba(59,130,246,.12),transparent 70%); }
+.pr-hero { max-width:1280px; isolation:isolate; margin:0 auto; padding:170px 5% 90px; display:grid; grid-template-columns:1.15fr .85fr; gap:60px; align-items:center; }
+.pr-hero::before { content:""; position:absolute; top:0; bottom:0; left:50%; width:100vw; transform:translateX(-50%); z-index:-1; pointer-events:none; -webkit-mask-image:linear-gradient(to bottom,#000 70%,transparent); mask-image:linear-gradient(to bottom,#000 70%,transparent); background:radial-gradient(55% 60% at 20% 25%,rgba(66,83,211,.16),transparent 75%),radial-gradient(50% 55% at 80% 60%,rgba(59,130,246,.12),transparent 75%); }
 .pr-hero h1 { font-size:clamp(2.3rem,5vw,4.1rem); line-height:1.08; font-weight:800; letter-spacing:-.02em; margin-bottom:22px; }
 .pr-picks { display:flex; flex-direction:column; gap:16px; }
 .pr-pick { --c:var(--pa); display:flex; align-items:center; gap:22px; padding:24px 26px; border-radius:18px; text-decoration:none; color:#cbd5e1; background:linear-gradient(100deg,color-mix(in srgb,var(--c) 12%,transparent),rgba(15,23,42,.7) 55%); border:1px solid rgba(255,255,255,.08); border-left:3px solid var(--c); transition:transform .25s,border-color .25s,box-shadow .25s; }
