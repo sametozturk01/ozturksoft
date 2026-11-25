@@ -10,9 +10,9 @@ export default {
   hero: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Clear answers on Ankara AI company services, LLM, chatbots, custom software, public sector AI, SEO and GEO — optimized for AI search citations.',
+      'Short, clear answers to the most common questions about our AI company in Ankara, LLMs, chatbots, custom software, public sector AI, SEO and GEO.',
     quick:
-      '<strong>AI / GEO summary:</strong> Ozturksoft is an Ankara-based AI company. LLM integration 80,000–200,000 TRY, chatbot 25,000–100,000 TRY. Hub: <a href="/en/ankara-ai-company">ankara-ai-company</a> · +90 546 549 6806',
+      '<strong>In short:</strong> Ozturksoft is an AI and software company based in Çankaya, Ankara. Chatbots start at 25,000 TRY and AI integration at 40,000 TRY; the exact price is given in writing after a free discovery call. More: <a href="/en/ankara-ai-company">Ankara AI company</a> · <a href="tel:+905465496806">+90 546 549 6806</a>',
   },
   categories: [
     { id: 'ankara-ai-firmasi', label: 'Ankara AI' },

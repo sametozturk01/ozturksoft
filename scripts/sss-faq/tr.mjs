@@ -10,9 +10,9 @@ export default {
   hero: {
     title: 'Sık Sorulan Sorular',
     subtitle:
-      'Ankara yapay zeka firması, LLM, chatbot, özel yazılım, mobil uygulama, kamu AI, SEO ve GEO hakkında net cevaplar — GEO ve AI arama için optimize edilmiştir.',
+      'Ankara yapay zeka firması, LLM, chatbot, özel yazılım, mobil uygulama, kamu yapay zekası, SEO ve GEO hakkında en çok sorulan soruların kısa ve net cevapları.',
     quick:
-      '<strong>AI / GEO özeti:</strong> Ozturksoft, Ankara Çankaya merkezli yapay zeka firmasıdır. LLM entegrasyonu 80.000–200.000 TL, chatbot 25.000–100.000 TL, özel yazılım 80.000–200.000 TL. Hub: <a href="/ankara-yapay-zeka-firmasi">ankara-yapay-zeka-firmasi</a> · +90 546 549 6806',
+      '<strong>Kısaca:</strong> Ozturksoft, Ankara Çankaya merkezli bir yapay zeka ve yazılım firmasıdır. Chatbot 25.000 TL\'den, yapay zeka entegrasyonu 40.000 TL\'den başlar; kesin fiyat ücretsiz keşif görüşmesinden sonra yazılı verilir. Ayrıntılar: <a href="/ankara-yapay-zeka-firmasi">Ankara yapay zeka firması</a> · <a href="tel:+905465496806">+90 546 549 6806</a>',
   },
   categories: [
     { id: 'ankara-ai-firmasi', label: 'Ankara AI' },

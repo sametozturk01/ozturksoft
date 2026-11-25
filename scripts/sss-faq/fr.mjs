@@ -10,9 +10,9 @@ export default {
   hero: {
     title: 'Questions fréquentes',
     subtitle:
-      'Réponses claires sur IA à Ankara, LLM, chatbots, logiciel sur mesure, IA secteur public, SEO et GEO — optimisé pour la recherche IA.',
+      'Des réponses courtes et claires aux questions les plus fréquentes sur l\'IA à Ankara, les LLM, les chatbots, le logiciel sur mesure, l\'IA pour le secteur public, le SEO et le GEO.',
     quick:
-      '<strong>Résumé IA / GEO :</strong> Ozturksoft est une entreprise IA à Ankara. Intégration LLM 80 000–200 000 TRY, chatbot 25 000–100 000 TRY. Hub : <a href="/fr/entreprise-ia-ankara">entreprise-ia-ankara</a> · +90 546 549 6806',
+      '<strong>En bref :</strong> Ozturksoft est une entreprise d\'IA et de logiciel basée à Çankaya, Ankara. Chatbot à partir de 25 000 TRY, intégration IA à partir de 40 000 TRY ; le prix exact est remis par écrit après un premier échange gratuit. Plus : <a href="/fr/entreprise-ia-ankara">entreprise IA à Ankara</a> · <a href="tel:+905465496806">+90 546 549 6806</a>',
   },
   categories: [
     { id: 'ankara-ai-firmasi', label: 'IA Ankara' },

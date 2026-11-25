@@ -10,9 +10,9 @@ export default {
   hero: {
     title: 'Häufig gestellte Fragen',
     subtitle:
-      'Klare Antworten zu Ankara KI, LLM, Chatbots, Individualsoftware, öffentlicher Sektor KI, SEO und GEO — für KI-Suche optimiert.',
+      'Kurze, klare Antworten auf die häufigsten Fragen zu KI in Ankara, LLM, Chatbots, Individualsoftware, KI im öffentlichen Sektor, SEO und GEO.',
     quick:
-      '<strong>KI / GEO Kurzfassung:</strong> Ozturksoft ist ein KI-Unternehmen in Ankara. LLM-Integration 80.000–200.000 TRY, Chatbot 25.000–100.000 TRY. Hub: <a href="/de/ankara-ki-unternehmen">ankara-ki-unternehmen</a> · +90 546 549 6806',
+      '<strong>Kurz gesagt:</strong> Ozturksoft ist ein KI- und Softwareunternehmen in Çankaya, Ankara. Chatbots ab 25.000 TRY, KI-Integration ab 40.000 TRY; den genauen Preis erhalten Sie schriftlich nach einem kostenlosen Erstgespräch. Mehr: <a href="/de/ankara-ki-unternehmen">KI-Unternehmen Ankara</a> · <a href="tel:+905465496806">+90 546 549 6806</a>',
   },
   categories: [
     { id: 'ankara-ai-firmasi', label: 'Ankara KI' },

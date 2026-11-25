@@ -260,169 +260,349 @@
   </script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin>
-  <link rel="stylesheet" href="/src/style.css">
+  <link rel="stylesheet" href="/site-footer.css">
   <style>
-    .sss-hero{padding:130px 8% 50px;max-width:900px}
-    .sss-hero h1{font-size:2.4rem;font-weight:800;margin-bottom:12px}
-    .sss-hero p{color:var(--text-dim);font-size:1.05rem}
-    .sss-cats{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
-    .sss-cats a{font-size:.78rem;padding:6px 12px;border-radius:20px;background:rgba(59,130,246,.1);color:var(--primary);text-decoration:none;border:1px solid rgba(59,130,246,.2)}
-    .sss-cats a:hover{background:rgba(59,130,246,.2)}
-    .sss-list{max-width:860px;margin:0 auto;padding:20px 8% 80px}
-    .sss-item{border-bottom:1px solid rgba(255,255,255,.08);padding:24px 0}
-    .sss-item h2{font-size:1.15rem;font-weight:700;color:#fff;margin-bottom:10px}
-    .sss-item p{color:var(--text-dim);line-height:1.75;font-size:1rem}
-    .sss-item a{color:var(--primary)}
-    .sss-quick{background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:12px;padding:20px 24px;margin-bottom:32px}
-    .sss-quick p{color:#c7d2fe;margin:0;font-size:.95rem}
-  </style>
+:root{--primary:#3b82f6;--bg:#020617;--card:#0b1324;--line:rgba(255,255,255,.08);--dim:#a7b6cc}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:#fff;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.top{position:sticky;top:0;z-index:1000;background:rgba(2,6,23,.88);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.top-in{max-width:1240px;margin:0 auto;height:84px;padding:0 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.top-logo img{height:64px;width:auto;display:block}
+.top-links{display:flex;gap:26px;list-style:none}
+.top-links a{text-decoration:none;color:#bbcee7;font-weight:600;font-size:.94rem}
+.top-links a:hover,.top-links a.on{color:#fff}
+.top-links a.on{border-bottom:2px solid var(--primary);padding-bottom:4px}
+.top-r{display:flex;align-items:center;gap:12px}
+.langs{display:flex;gap:2px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:3px}
+.langs a{text-decoration:none;font-size:.74rem;font-weight:700;color:#94a3b8;padding:5px 8px;border-radius:999px}
+.langs a.on{background:var(--primary);color:#fff}
+.btn{display:inline-flex;align-items:center;gap:9px;text-decoration:none;font-weight:700;border-radius:999px;padding:11px 20px;font-size:.9rem;transition:.2s}
+.btn-p{background:var(--primary);color:#fff;box-shadow:0 10px 26px rgba(59,130,246,.3)}.btn-p:hover{background:#2563eb}
+.btn-o{border:1.5px solid rgba(96,165,250,.6);color:#93c5fd}.btn-o:hover{background:rgba(59,130,246,.12);color:#fff}
+.m-only{display:none}
+.burger{display:none;background:none;border:0;color:#fff;font-size:1.4rem;cursor:pointer}
+.hero{position:relative;text-align:center;padding:80px 24px 50px;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(50% 70% at 25% 10%,rgba(66,83,211,.18),transparent 75%),radial-gradient(45% 60% at 80% 40%,rgba(59,130,246,.12),transparent 75%)}
+.kicker{display:inline-flex;align-items:center;gap:10px;color:#60a5fa;font-size:.78rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;margin-bottom:16px}
+.kicker::before{content:"";width:22px;height:2px;background:var(--primary)}
+.hero h1{font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.08;font-weight:800;letter-spacing:-.02em;margin-bottom:18px}
+.hero .sub{color:var(--dim);font-size:1.06rem;max-width:720px;margin:0 auto}
+.quick{max-width:820px;margin:30px auto 0;text-align:left;background:linear-gradient(120deg,rgba(59,130,246,.12),rgba(15,23,42,.6));border:1px solid rgba(59,130,246,.3);border-radius:18px;padding:20px 24px;color:#dbe4f0;font-size:.97rem;line-height:1.7}
+.quick strong{color:#fff}.quick a{color:#93c5fd}
+.chips{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:28px}
+.chips a{text-decoration:none;font-size:.88rem;font-weight:600;padding:9px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.14);color:#e2e8f0;background:rgba(255,255,255,.03)}
+.chips a:hover{border-color:var(--primary);background:rgba(59,130,246,.12)}
+.wrap{max-width:1240px;margin:0 auto;padding:30px 24px 40px;display:grid;grid-template-columns:240px minmax(0,1fr);gap:48px;align-items:start}
+.side{position:sticky;top:110px}
+.side p{font-size:.76rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#64748b;margin-bottom:12px}
+.side a{display:flex;justify-content:space-between;gap:10px;text-decoration:none;color:#cbd5e1;font-weight:600;font-size:.95rem;padding:10px 14px;border-radius:12px;border-left:2px solid transparent}
+.side a span{color:#64748b;font-weight:700;font-size:.8rem}
+.side a:hover,.side a.on{background:rgba(59,130,246,.1);border-left-color:var(--primary);color:#fff}
+.sss-group{scroll-margin-top:110px;margin-bottom:44px}
+.sss-group-title{font-size:1.5rem;font-weight:800;margin-bottom:16px;letter-spacing:-.01em}
+.sss-item{scroll-margin-top:110px;background:var(--card);border:1px solid var(--line);border-radius:16px;margin-bottom:12px;transition:border-color .2s}
+.sss-item[open]{border-color:rgba(59,130,246,.4);background:linear-gradient(180deg,rgba(59,130,246,.06),var(--card))}
+.sss-item summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:20px 22px}
+.sss-item summary::-webkit-details-marker{display:none}
+.sss-item h3{font-size:1.05rem;font-weight:700;line-height:1.45}
+.sss-ico{flex:0 0 30px;height:30px;border-radius:50%;background:rgba(59,130,246,.14);position:relative}
+.sss-ico::before,.sss-ico::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:2px;background:#93c5fd;transform:translate(-50%,-50%);transition:transform .2s}
+.sss-ico::after{transform:translate(-50%,-50%) rotate(90deg)}
+.sss-item[open] .sss-ico::after{transform:translate(-50%,-50%) rotate(0)}
+.sss-a{padding:0 22px 20px}
+.sss-a p{color:var(--dim);line-height:1.8;font-size:.98rem}
+.sss-a a{color:#93c5fd}
+.cta{max-width:1100px;margin:20px auto 90px;padding:56px 24px;text-align:center;border-radius:24px;border:1px solid rgba(59,130,246,.35);background:radial-gradient(500px 260px at 15% 0%,rgba(66,83,211,.2),transparent 70%),radial-gradient(500px 260px at 85% 0%,rgba(59,130,246,.16),transparent 70%),rgba(15,23,42,.7)}
+.cta h2{font-size:clamp(1.6rem,3.2vw,2.4rem);font-weight:800;margin-bottom:12px}
+.cta p{color:var(--dim);max-width:620px;margin:0 auto 26px}
+.cta .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+@media (max-width:1100px){.top-links{gap:16px}.top-links a{font-size:.86rem}}
+@media (max-width:960px){
+ .burger{display:block}
+ .top-links{position:fixed;top:84px;left:0;right:0;flex-direction:column;gap:0;background:#0b1324;border-bottom:1px solid var(--line);padding:8px 24px 16px;display:none}
+ .top-links.open{display:flex}
+ .top-links a{display:block;padding:12px 0;font-size:1rem}
+ .wrap{grid-template-columns:1fr;gap:10px}
+ .side{display:none}
+}
+@media (max-width:600px){
+ .top-in{height:72px;padding:0 16px}.top-logo img{height:54px}.top-links{top:72px}
+ .top-r .btn-p,.top-r .langs{display:none}
+ .m-only{display:block;padding-top:10px}
+ .m-only .langs{display:inline-flex}
+ .m-only .langs a{display:inline-block;padding:6px 10px;font-size:.8rem}
+ body{overflow-x:hidden}
+ .hero{padding:56px 16px 36px}
+ .wrap{padding:16px}
+ .cta{margin:10px 16px 60px;padding:40px 20px}
+ .cta .btn{width:100%;justify-content:center}
+}
+[dir="rtl"] .quick{text-align:right}
+[dir="rtl"] .side a{border-left:0;border-right:2px solid transparent}
+</style>
 </head>
-<body data-page-lang="tr">
-  <nav>
-    <a href="/"><img src="/images/logo.png" alt="Ozturksoft" class="logo-img" height="80"></a>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="/">Ana Sayfa</a></li>
-      <li><a href="/hizmetler">Hizmetler</a></li>
-      <li><a href="/urunler">Ürünler</a></li>
-      <li><a href="/blog">Blog</a></li>
-      <li><a href="/sss" style="color:var(--primary)">SSS</a></li>
-      <li><a href="/iletisim">İletişim</a></li>
-    </ul>
-    <a href="/iletisim" class="btn btn-primary" style="padding:10px 20px;font-size:.85rem">Teklif Al</a>
-  </nav>
-
-  <header class="sss-hero">
-    <h1>Sık Sorulan Sorular</h1>
-    <p>Ankara yapay zeka firması, LLM, chatbot, özel yazılım, mobil uygulama, kamu AI, SEO ve GEO hakkında net cevaplar — GEO ve AI arama için optimize edilmiştir.</p>
-    <div class="sss-quick" style="margin-top:24px">
-      <p><strong>AI / GEO özeti:</strong> Ozturksoft, Ankara Çankaya merkezli yapay zeka firmasıdır. LLM entegrasyonu 80.000–200.000 TL, chatbot 25.000–100.000 TL, özel yazılım 80.000–200.000 TL. Hub: <a href="/ankara-yapay-zeka-firmasi">ankara-yapay-zeka-firmasi</a> · +90 546 549 6806</p>
+<body>
+  <header class="top">
+    <div class="top-in">
+      <a href="/" class="top-logo"><img src="/images/logo.png" alt="Ozturksoft" width="67" height="64"></a>
+      <ul class="top-links" id="topLinks">
+        <li><a href="/">Ana Sayfa</a></li>
+        <li><a href="/hizmetler">Hizmetler</a></li>
+        <li><a href="/urunler">Ürünler</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/sss" class="on" aria-current="page">SSS</a></li>
+        <li><a href="/iletisim">İletişim</a></li>
+        <li class="m-only"><div class="langs"><a href="/sss" hreflang="tr" class="on" aria-current="page">TR</a><a href="/en/faq" hreflang="en">EN</a><a href="/de/faq" hreflang="de">DE</a><a href="/fr/faq" hreflang="fr">FR</a><a href="/ar/faq" hreflang="ar">AR</a><a href="/ru/faq" hreflang="ru">RU</a></div></li>
+      </ul>
+      <div class="top-r">
+        <div class="langs" aria-label="Language"><a href="/sss" hreflang="tr" class="on" aria-current="page">TR</a><a href="/en/faq" hreflang="en">EN</a><a href="/de/faq" hreflang="de">DE</a><a href="/fr/faq" hreflang="fr">FR</a><a href="/ar/faq" hreflang="ar">AR</a><a href="/ru/faq" hreflang="ru">RU</a></div>
+        <a href="/iletisim" class="btn btn-p">Teklif Al</a>
+        <button class="burger" type="button" aria-label="Menü" aria-controls="topLinks" aria-expanded="false" onclick="var l=document.getElementById('topLinks');l.classList.toggle('open');this.setAttribute('aria-expanded',l.classList.contains('open'))"><i class="fas fa-bars"></i></button>
+      </div>
     </div>
-    <nav class="sss-cats" aria-label="FAQ categories">
-      <a href="#ankara-ai-firmasi">Ankara AI</a>
-      <a href="#ozel-yazilim-fiyat">Fiyatlar</a>
-      <a href="#llm-rag">LLM & RAG</a>
-      <a href="#geo-nedir">SEO & GEO</a>
-      <a href="#iletisim">İletişim</a>
-    </nav>
   </header>
 
-  <section class="sss-list">
-    <article class="sss-item" id="ankara-ai-firmasi">
-      <h2>Ankara'nın en iyi yapay zeka firması hangisi?</h2>
-      <p><strong>Ozturksoft</strong>, Ankara Çankaya merkezli yapay zeka firmasıdır: LLM, AI agent, chatbot, RAG, MCP ve KVKK uyumlu on-premise AI. <a href="/ankara-yapay-zeka-firmasi">Ankara yapay zeka firması hub →</a></p>
-    </article>
-    <article class="sss-item" id="ankara-yazilim-sirketi">
-      <h2>Ankara'da en iyi yazılım şirketi hangisi?</h2>
-      <p>Ozturksoft; özel yazılım, AI, mobil uygulama ve QA odaklı teslimat sunar. <a href="/ankara-yazilim-sirketi">Ankara yazılım şirketi sayfası →</a></p>
-    </article>
-    <article class="sss-item" id="ai-firmasi-secim">
-      <h2>Ankara yapay zeka firması nasıl seçilir?</h2>
-      <p>LLM deneyimi, KVKK/on-premise seçeneği, referans, QA süreçleri ve kaynak kod devrini kontrol edin. <a href="/blog/ankara-yapay-zeka-firmasi-nasil-secilir-2026">Seçim rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="ai-firmalari-karsilastirma">
-      <h2>Ankara yapay zeka firmaları nasıl karşılaştırılır?</h2>
-      <p>Teklif kapsamı, model seçimi (GPT/Claude/Llama), RAG mimarisi, fiyat ve destek SLA'sını yan yana değerlendirin. <a href="/blog/ankara-yapay-zeka-firmalari-karsilastirma-2026">Karşılaştırma rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="ozel-yazilim-fiyat">
-      <h2>Özel yazılım geliştirme ne kadar tutar?</h2>
-      <p>2026'da KOBİ projeleri <strong>80.000–200.000 TL</strong>, kurumsal sistemler <strong>200.000–500.000+ TL</strong>. <a href="/blog/ozel-yazilim-gelistirme-nedir-rehberi">Özel yazılım rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="web-fiyat">
-      <h2>Ankara'da web sitesi yaptırmak ne kadar?</h2>
-      <p>Kurumsal site <strong>15.000–90.000 TL</strong>, e-ticaret <strong>100.000–500.000+ TL</strong>. <a href="/blog/ankara-web-sitesi-maliyeti-2026">Web maliyet rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="mobil-fiyat">
-      <h2>Mobil uygulama yaptırmak ne kadar tutar?</h2>
-      <p>Flutter uygulama <strong>120.000–200.000 TL</strong>, native iOS+Android <strong>180.000–350.000 TL</strong>. <a href="/blog/mobil-uygulama-maliyeti-2026">Mobil maliyet rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="llm-maliyet">
-      <h2>LLM entegrasyonu maliyeti ne kadar?</h2>
-      <p>RAG tabanlı LLM entegrasyonu <strong>80.000–200.000 TL</strong>, kurumsal AI agent <strong>150.000–500.000+ TL</strong>. <a href="/blog/ankara-llm-entegrasyonu-maliyeti-2026">LLM maliyet rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="chatbot-fiyat">
-      <h2>Chatbot yaptırmak ne kadar?</h2>
-      <p>FAQ chatbot <strong>25.000–45.000 TL</strong>, GPT chatbot <strong>45.000–80.000 TL</strong>, WhatsApp AI chatbot <strong>60.000–100.000 TL</strong>. <a href="/blog/ankara-chatbot-gelistirme-2026">Chatbot rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="ai-entegrasyon">
-      <h2>Yapay zeka entegrasyonu nedir?</h2>
-      <p>İş süreçlerinize LLM, chatbot, OCR veya otomasyon katmanı eklemektir. <a href="/ankara-yapay-zeka-cozumleri">Ankara AI çözümleri →</a> · <a href="/blog/yapay-zeka-entegrasyonu-rehberi">AI entegrasyon rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="llm-rag">
-      <h2>LLM ve GPT entegrasyonu nedir?</h2>
-      <p>GPT-4o, Claude veya Llama modellerinin API ile iş yazılımınıza bağlanması; RAG ile şirket dokümanlarından yanıt üretilir. <a href="/blog/llm-gpt-entegrasyonu-rehberi">LLM rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="rag-nedir">
-      <h2>RAG (Retrieval Augmented Generation) nedir?</h2>
-      <p>LLM'in yanıt üretmeden önce şirket dokümanlarınızdan ilgili parçaları arayıp bağlam olarak kullanmasıdır. Halüsinasyon riskini azaltır, KVKK için on-premise vektör DB ile birleştirilebilir.</p>
-    </article>
-    <article class="sss-item" id="ai-agent">
-      <h2>AI agent nedir?</h2>
-      <p>Belirli görevleri otonom yürüten yapay zeka ajanlarıdır: e-posta sınıflandırma, CRM güncelleme, rapor üretme, çok adımlı iş akışları. <a href="/blog/ankara-ai-agents-gelistirme-2026">AI agent rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="mcp-nedir">
-      <h2>MCP sunucu nedir?</h2>
-      <p>Model Context Protocol (MCP), LLM'lerin harici araçlara ve veri kaynaklarına güvenli bağlanmasını sağlayan standarttır. Kurumsal AI altyapısında entegrasyon kolaylaştırır. <a href="/blog/ankara-mcp-sunucu-gelistirme-2026">MCP rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="whatsapp-chatbot">
-      <h2>WhatsApp AI chatbot nasıl kurulur?</h2>
-      <p>WhatsApp Business API + GPT entegrasyonu + isteğe bağlı CRM ile <strong>4–6 haftada</strong> canlıya alınır. <a href="/blog/whatsapp-chatbot-isletme-rehberi-2026">WhatsApp chatbot rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="on-premise-kvkk">
-      <h2>KVKK uyumlu on-premise yapay zeka mümkün mü?</h2>
-      <p>Evet. Model ve veriler kurum sunucunuzda veya özel bulutta çalışır; veri dışarı çıkmaz. <a href="/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026">KVKK AI rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="kamu-ai">
-      <h2>Kamu kurumları için yapay zeka çözümü sunuyor musunuz?</h2>
-      <p>Evet — on-premise LLM, belge OCR, ihale otomasyonu ve KVKK uyumlu mimari. <a href="/ankara-kamu-yapay-zeka">Kamu yapay zeka landing →</a> · <a href="/blog/ankara-kamu-yazilim-2026">Kamu yazılım rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="ocr-belge">
-      <h2>Belge OCR ve AI sınıflandırma nedir?</h2>
-      <p>Fatura, evrak ve sözleşmelerin OCR ile dijitalleştirilip AI ile kategorize edilmesidir. Muhasebe ve kamu süreçlerinde süreyi kısaltır. <a href="/blog/ankara-ocr-belge-ai-2026">OCR AI rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="geo-nedir">
-      <h2>GEO nedir?</h2>
-      <p><strong>Generative Engine Optimization</strong> — ChatGPT, Perplexity ve Google AI Overviews'ta markanızın kaynak gösterilmesi. <a href="/blog/geo-nedir-generative-engine-optimization-rehberi-2026">GEO rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="seo-geo-fark">
-      <h2>SEO ile GEO arasındaki fark nedir?</h2>
-      <p>SEO Google sıralamasına odaklanır; GEO AI aramada kaynak olarak görünmeyi hedefler. İkisi birlikte uygulanmalıdır. <a href="/blog/seo-nedir-onemi-rehberi-2026">SEO rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="erp-entegrasyon">
-      <h2>Logo, Netsis veya SAP entegrasyonu yapıyor musunuz?</h2>
-      <p>SAP implementasyonu yapmıyoruz; mevcut Logo, Netsis, Mikro ve SAP sistemlerine API/RFC ile özel entegrasyon geliştiriyoruz. <a href="/blog/logo-netsis-erp-entegrasyon-rehberi-2026">ERP entegrasyon rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="e-ticaret-ozel">
-      <h2>Hazır e-ticaret paketi mi, size özel mağaza mı?</h2>
-      <p>Hazır paketlerde mağaza kiralıktır ve binlerce mağazayla aynı temayı paylaşır. Ozturksoft hazır altyapı kullanmaz; mağazanızı sıfırdan yazar, kod ve veriler sizin olur. Özel mağaza <strong>100.000–150.000 TL</strong>, aylık bakım <strong>5.000–10.000 TL</strong>; satıştan pay alınmaz. <a href="/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026">E-ticaret maliyet rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="proje-suresi">
-      <h2>Yazılım ve AI projesi ne kadar sürer?</h2>
-      <p>Kurumsal web <strong>3–6 hafta</strong>, chatbot <strong>4–6 hafta</strong>, mobil <strong>8–20 hafta</strong>, özel yazılım/AI <strong>2–6 ay</strong>. Keşif sonrası net takvim paylaşılır.</p>
-    </article>
-    <article class="sss-item" id="qa-test">
-      <h2>QA test neden önemli?</h2>
-      <p>Canlıya çıkmadan önce hata ve güvenlik açıklarını tespit eder. Ozturksoft TDD ve CI/CD ile kalite odaklı teslimat sunar. <a href="/blog/qa-test-nedir-yazilim-kalite-guvencesi">QA rehberi →</a></p>
-    </article>
-    <article class="sss-item" id="teknolojiler">
-      <h2>Hangi teknolojileri kullanıyorsunuz?</h2>
-      <p>React, TypeScript, Python, Flutter, PostgreSQL, OpenAI/Claude API, LangChain, RAG vektör DB, RPA ve AWS/Azure. AI tarafında GPT-4o, Claude 3.5 ve açık kaynak Llama modelleri.</p>
-    </article>
-    <article class="sss-item" id="diller-hizmet">
-      <h2>Ozturksoft hangi dillerde hizmet veriyor?</h2>
-      <p>Türkçe, İngilizce, Almanca, Fransızca, Arapça ve Rusça. Blog ve ana sayfalar çok dilli URL'lerle sunulur: <a href="/en">/en</a>, <a href="/de">/de</a>, <a href="/fr">/fr</a>.</p>
-    </article>
-    <article class="sss-item" id="destek-kesif">
-      <h2>Ücretsiz keşif görüşmesi ve proje sonrası destek var mı?</h2>
-      <p>Evet — ücretsiz keşif görüşmesi sunuyoruz. Projelerde <strong>30–90 gün</strong> ücretsiz destek; sonrasında bakım paketleri mevcuttur. <a href="/iletisim">İletişim →</a></p>
-    </article>
-    <article class="sss-item" id="iletisim">
-      <h2>Ozturksoft ile nasıl iletişime geçilir?</h2>
-      <p>Telefon: <strong>+90 546 549 6806</strong> · E-posta: info@ozturksoft.net · <a href="/iletisim">İletişim formu</a> · Ankara dışına uzaktan, Ankara'da yerinde görüşme imkânı.</p>
-    </article>
+  <section class="hero">
+    <span class="kicker">Sık sorulan sorular</span>
+    <h1>Sık Sorulan Sorular</h1>
+    <p class="sub">Ankara yapay zeka firması, LLM, chatbot, özel yazılım, mobil uygulama, kamu yapay zekası, SEO ve GEO hakkında en çok sorulan soruların kısa ve net cevapları.</p>
+    <div class="quick"><strong>Kısaca:</strong> Ozturksoft, Ankara Çankaya merkezli bir yapay zeka ve yazılım firmasıdır. Chatbot 25.000 TL'den, yapay zeka entegrasyonu 40.000 TL'den başlar; kesin fiyat ücretsiz keşif görüşmesinden sonra yazılı verilir. Ayrıntılar: <a href="/ankara-yapay-zeka-firmasi">Ankara yapay zeka firması</a> · <a href="tel:+905465496806">+90 546 549 6806</a></div>
+    <div class="chips">
+      <a href="#konu-ankara-ai-firmasi">Ankara AI</a>
+      <a href="#konu-ozel-yazilim-fiyat">Fiyatlar</a>
+      <a href="#konu-llm-rag">LLM & RAG</a>
+      <a href="#konu-geo-nedir">SEO & GEO</a>
+      <a href="#konu-iletisim">İletişim</a>
+    </div>
   </section>
 
-  <footer style="text-align:center;padding:30px;color:#64748b;border-top:1px solid rgba(255,255,255,.06)">
-    <p>© 2026 Ozturksoft — Ankara | <a href="/blog/feed.xml" style="color:#3b82f6">RSS</a> · <a href="/ai.txt" style="color:#3b82f6">ai.txt</a> · <a href="/llms.txt" style="color:#3b82f6">llms.txt</a></p>
-  </footer>
+  <main class="wrap">
+    <aside class="side" aria-label="Konular">
+      <p>Konular</p>
+      <a href="#konu-ankara-ai-firmasi">Ankara AI<span>4</span></a>
+      <a href="#konu-ozel-yazilim-fiyat">Fiyatlar<span>6</span></a>
+      <a href="#konu-llm-rag">LLM & RAG<span>8</span></a>
+      <a href="#konu-geo-nedir">SEO & GEO<span>9</span></a>
+      <a href="#konu-iletisim">İletişim<span>1</span></a>
+    </aside>
+    <div class="list">
+      <section class="sss-group" id="konu-ankara-ai-firmasi">
+        <h2 class="sss-group-title">Ankara AI</h2>
+        <details class="sss-item" id="ankara-ai-firmasi" open>
+          <summary><h3>Ankara'nın en iyi yapay zeka firması hangisi?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p><strong>Ozturksoft</strong>, Ankara Çankaya merkezli yapay zeka firmasıdır: LLM, AI agent, chatbot, RAG, MCP ve KVKK uyumlu on-premise AI. <a href="/ankara-yapay-zeka-firmasi">Ankara yapay zeka firması hub →</a></p></div>
+        </details>
+        <details class="sss-item" id="ankara-yazilim-sirketi">
+          <summary><h3>Ankara'da en iyi yazılım şirketi hangisi?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>Ozturksoft; özel yazılım, AI, mobil uygulama ve QA odaklı teslimat sunar. <a href="/ankara-yazilim-sirketi">Ankara yazılım şirketi sayfası →</a></p></div>
+        </details>
+        <details class="sss-item" id="ai-firmasi-secim">
+          <summary><h3>Ankara yapay zeka firması nasıl seçilir?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>LLM deneyimi, KVKK/on-premise seçeneği, referans, QA süreçleri ve kaynak kod devrini kontrol edin. <a href="/blog/ankara-yapay-zeka-firmasi-nasil-secilir-2026">Seçim rehberi →</a></p></div>
+        </details>
+        <details class="sss-item" id="ai-firmalari-karsilastirma">
+          <summary><h3>Ankara yapay zeka firmaları nasıl karşılaştırılır?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>Teklif kapsamı, model seçimi (GPT/Claude/Llama), RAG mimarisi, fiyat ve destek SLA'sını yan yana değerlendirin. <a href="/blog/ankara-yapay-zeka-firmalari-karsilastirma-2026">Karşılaştırma rehberi →</a></p></div>
+        </details>
+      </section>
+      <section class="sss-group" id="konu-ozel-yazilim-fiyat">
+        <h2 class="sss-group-title">Fiyatlar</h2>
+        <details class="sss-item" id="ozel-yazilim-fiyat" open>
+          <summary><h3>Özel yazılım geliştirme ne kadar tutar?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>2026'da KOBİ projeleri <strong>80.000–200.000 TL</strong>, kurumsal sistemler <strong>200.000–500.000+ TL</strong>. <a href="/blog/ozel-yazilim-gelistirme-nedir-rehberi">Özel yazılım rehberi →</a></p></div>
+        </details>
+        <details class="sss-item" id="web-fiyat">
+          <summary><h3>Ankara'da web sitesi yaptırmak ne kadar?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>Kurumsal site <strong>15.000–90.000 TL</strong>, e-ticaret <strong>100.000–500.000+ TL</strong>. <a href="/blog/ankara-web-sitesi-maliyeti-2026">Web maliyet rehberi →</a></p></div>
+        </details>
+        <details class="sss-item" id="mobil-fiyat">
+          <summary><h3>Mobil uygulama yaptırmak ne kadar tutar?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>Flutter uygulama <strong>120.000–200.000 TL</strong>, native iOS+Android <strong>180.000–350.000 TL</strong>. <a href="/blog/mobil-uygulama-maliyeti-2026">Mobil maliyet rehberi →</a></p></div>
+        </details>
+        <details class="sss-item" id="llm-maliyet">
+          <summary><h3>LLM entegrasyonu maliyeti ne kadar?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>RAG tabanlı LLM entegrasyonu <strong>80.000–200.000 TL</strong>, kurumsal AI agent <strong>150.000–500.000+ TL</strong>. <a href="/blog/ankara-llm-entegrasyonu-maliyeti-2026">LLM maliyet rehberi →</a></p></div>
+        </details>
+        <details class="sss-item" id="chatbot-fiyat">
+          <summary><h3>Chatbot yaptırmak ne kadar?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>FAQ chatbot <strong>25.000–45.000 TL</strong>, GPT chatbot <strong>45.000–80.000 TL</strong>, WhatsApp AI chatbot <strong>60.000–100.000 TL</strong>. <a href="/blog/ankara-chatbot-gelistirme-2026">Chatbot rehberi →</a></p></div>
+        </details>
+        <details class="sss-item" id="ai-entegrasyon">
+          <summary><h3>Yapay zeka entegrasyonu nedir?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>İş süreçlerinize LLM, chatbot, OCR veya otomasyon katmanı eklemektir. <a href="/ankara-yapay-zeka-cozumleri">Ankara AI çözümleri →</a> · <a href="/blog/yapay-zeka-entegrasyonu-rehberi">AI entegrasyon rehberi →</a></p></div>
+        </details>
+      </section>
+      <section class="sss-group" id="konu-llm-rag">
+        <h2 class="sss-group-title">LLM & RAG</h2>
+        <details class="sss-item" id="llm-rag" open>
+          <summary><h3>LLM ve GPT entegrasyonu nedir?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>GPT-4o, Claude veya Llama modellerinin API ile iş yazılımınıza bağlanması; RAG ile şirket dokümanlarından yanıt üretilir. <a href="/blog/llm-gpt-entegrasyonu-rehberi">LLM rehberi →</a></p></div>
+        </details>
+        <details class="sss-item" id="rag-nedir">
+          <summary><h3>RAG (Retrieval Augmented Generation) nedir?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>LLM'in yanıt üretmeden önce şirket dokümanlarınızdan ilgili parçaları arayıp bağlam olarak kullanmasıdır. Halüsinasyon riskini azaltır, KVKK için on-premise vektör DB ile birleştirilebilir.</p></div>
+        </details>
+        <details class="sss-item" id="ai-agent">
+          <summary><h3>AI agent nedir?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>Belirli görevleri otonom yürüten yapay zeka ajanlarıdır: e-posta sınıflandırma, CRM güncelleme, rapor üretme, çok adımlı iş akışları. <a href="/blog/ankara-ai-agents-gelistirme-2026">AI agent rehberi →</a></p></div>
+        </details>
+        <details class="sss-item" id="mcp-nedir">
+          <summary><h3>MCP sunucu nedir?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>Model Context Protocol (MCP), LLM'lerin harici araçlara ve veri kaynaklarına güvenli bağlanmasını sağlayan standarttır. Kurumsal AI altyapısında entegrasyon kolaylaştırır. <a href="/blog/ankara-mcp-sunucu-gelistirme-2026">MCP rehberi →</a></p></div>
+        </details>
+        <details class="sss-item" id="whatsapp-chatbot">
+          <summary><h3>WhatsApp AI chatbot nasıl kurulur?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>WhatsApp Business API + GPT entegrasyonu + isteğe bağlı CRM ile <strong>4–6 haftada</strong> canlıya alınır. <a href="/blog/whatsapp-chatbot-isletme-rehberi-2026">WhatsApp chatbot rehberi →</a></p></div>
+        </details>
+        <details class="sss-item" id="on-premise-kvkk">
+          <summary><h3>KVKK uyumlu on-premise yapay zeka mümkün mü?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>Evet. Model ve veriler kurum sunucunuzda veya özel bulutta çalışır; veri dışarı çıkmaz. <a href="/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026">KVKK AI rehberi →</a></p></div>
+        </details>
+        <details class="sss-item" id="kamu-ai">
+          <summary><h3>Kamu kurumları için yapay zeka çözümü sunuyor musunuz?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>Evet — on-premise LLM, belge OCR, ihale otomasyonu ve KVKK uyumlu mimari. <a href="/ankara-kamu-yapay-zeka">Kamu yapay zeka landing →</a> · <a href="/blog/ankara-kamu-yazilim-2026">Kamu yazılım rehberi →</a></p></div>
+        </details>
+        <details class="sss-item" id="ocr-belge">
+          <summary><h3>Belge OCR ve AI sınıflandırma nedir?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>Fatura, evrak ve sözleşmelerin OCR ile dijitalleştirilip AI ile kategorize edilmesidir. Muhasebe ve kamu süreçlerinde süreyi kısaltır. <a href="/blog/ankara-ocr-belge-ai-2026">OCR AI rehberi →</a></p></div>
+        </details>
+      </section>
+      <section class="sss-group" id="konu-geo-nedir">
+        <h2 class="sss-group-title">SEO & GEO</h2>
+        <details class="sss-item" id="geo-nedir" open>
+          <summary><h3>GEO nedir?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p><strong>Generative Engine Optimization</strong> — ChatGPT, Perplexity ve Google AI Overviews'ta markanızın kaynak gösterilmesi. <a href="/blog/geo-nedir-generative-engine-optimization-rehberi-2026">GEO rehberi →</a></p></div>
+        </details>
+        <details class="sss-item" id="seo-geo-fark">
+          <summary><h3>SEO ile GEO arasındaki fark nedir?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>SEO Google sıralamasına odaklanır; GEO AI aramada kaynak olarak görünmeyi hedefler. İkisi birlikte uygulanmalıdır. <a href="/blog/seo-nedir-onemi-rehberi-2026">SEO rehberi →</a></p></div>
+        </details>
+        <details class="sss-item" id="erp-entegrasyon">
+          <summary><h3>Logo, Netsis veya SAP entegrasyonu yapıyor musunuz?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>SAP implementasyonu yapmıyoruz; mevcut Logo, Netsis, Mikro ve SAP sistemlerine API/RFC ile özel entegrasyon geliştiriyoruz. <a href="/blog/logo-netsis-erp-entegrasyon-rehberi-2026">ERP entegrasyon rehberi →</a></p></div>
+        </details>
+        <details class="sss-item" id="e-ticaret-ozel">
+          <summary><h3>Hazır e-ticaret paketi mi, size özel mağaza mı?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>Hazır paketlerde mağaza kiralıktır ve binlerce mağazayla aynı temayı paylaşır. Ozturksoft hazır altyapı kullanmaz; mağazanızı sıfırdan yazar, kod ve veriler sizin olur. Özel mağaza <strong>100.000–150.000 TL</strong>, aylık bakım <strong>5.000–10.000 TL</strong>; satıştan pay alınmaz. <a href="/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026">E-ticaret maliyet rehberi →</a></p></div>
+        </details>
+        <details class="sss-item" id="proje-suresi">
+          <summary><h3>Yazılım ve AI projesi ne kadar sürer?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>Kurumsal web <strong>3–6 hafta</strong>, chatbot <strong>4–6 hafta</strong>, mobil <strong>8–20 hafta</strong>, özel yazılım/AI <strong>2–6 ay</strong>. Keşif sonrası net takvim paylaşılır.</p></div>
+        </details>
+        <details class="sss-item" id="qa-test">
+          <summary><h3>QA test neden önemli?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>Canlıya çıkmadan önce hata ve güvenlik açıklarını tespit eder. Ozturksoft TDD ve CI/CD ile kalite odaklı teslimat sunar. <a href="/blog/qa-test-nedir-yazilim-kalite-guvencesi">QA rehberi →</a></p></div>
+        </details>
+        <details class="sss-item" id="teknolojiler">
+          <summary><h3>Hangi teknolojileri kullanıyorsunuz?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>React, TypeScript, Python, Flutter, PostgreSQL, OpenAI/Claude API, LangChain, RAG vektör DB, RPA ve AWS/Azure. AI tarafında GPT-4o, Claude 3.5 ve açık kaynak Llama modelleri.</p></div>
+        </details>
+        <details class="sss-item" id="diller-hizmet">
+          <summary><h3>Ozturksoft hangi dillerde hizmet veriyor?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>Türkçe, İngilizce, Almanca, Fransızca, Arapça ve Rusça. Blog ve ana sayfalar çok dilli URL'lerle sunulur: <a href="/en">/en</a>, <a href="/de">/de</a>, <a href="/fr">/fr</a>.</p></div>
+        </details>
+        <details class="sss-item" id="destek-kesif">
+          <summary><h3>Ücretsiz keşif görüşmesi ve proje sonrası destek var mı?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>Evet — ücretsiz keşif görüşmesi sunuyoruz. Projelerde <strong>30–90 gün</strong> ücretsiz destek; sonrasında bakım paketleri mevcuttur. <a href="/iletisim">İletişim →</a></p></div>
+        </details>
+      </section>
+      <section class="sss-group" id="konu-iletisim">
+        <h2 class="sss-group-title">İletişim</h2>
+        <details class="sss-item" id="iletisim" open>
+          <summary><h3>Ozturksoft ile nasıl iletişime geçilir?</h3><span class="sss-ico" aria-hidden="true"></span></summary>
+          <div class="sss-a"><p>Telefon: <strong>+90 546 549 6806</strong> · E-posta: info@ozturksoft.net · <a href="/iletisim">İletişim formu</a> · Ankara dışına uzaktan, Ankara'da yerinde görüşme imkânı.</p></div>
+        </details>
+      </section>
+    </div>
+  </main>
+
+  <section class="cta">
+    <h2>Sorunuzun cevabını bulamadınız mı?</h2>
+    <p>Projenizi kısaca anlatın; ücretsiz keşif görüşmesinde net bir yol haritası ve yazılı fiyat verelim.</p>
+    <div class="row">
+      <a href="/iletisim" class="btn btn-p">Ücretsiz keşif görüşmesi <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      <a href="tel:+905465496806" class="btn btn-o"><i class="fas fa-phone" aria-hidden="true"></i> Hemen arayın</a>
+    </div>
+  </section>
+
+  <footer class="sf">
+        <div class="sf-grid">
+            <div class="sf-brand">
+                <a href="/" class="sf-logo"><img src="/images/logo.png" alt="Ozturksoft" width="90" height="86" loading="lazy"></a>
+                <p data-i18n="footer.brand">Ankara Çankaya merkezli yapay zeka ve yazılım geliştirme şirketi. Türkiye ve dünyadaki kurumlar için özel yazılım, yapay zeka ve e-ticaret çözümleri geliştiriyoruz.</p>
+                <div class="sf-social">
+                    <a href="https://www.linkedin.com/company/ozturksoft" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a href="https://www.google.com/maps/search/?api=1&amp;query=Ozturksoft%20Yaz%C4%B1l%C4%B1m%20%26%20AI%20%C3%87%C3%B6z%C3%BCmleri%20%C3%87ankaya" target="_blank" rel="noopener" aria-label="Google Maps"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></a>
+                    <a href="https://wa.me/905465496806" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                    <a href="mailto:info@ozturksoft.net" aria-label="E-posta"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="sf-col sf-col--services">
+                <p class="sf-title" data-i18n="footer.groups.services">Hizmetler</p>
+                <div class="sf-two">
+                    <a href="/yapay-zeka-entegrasyonu" data-i18n="footer.links.aiIntegration">Yapay zeka entegrasyonu</a>
+                    <a href="/kurum-ici-yapay-zeka" data-i18n="footer.links.privateAi">Şirketinize özel ChatGPT</a>
+                    <a href="/ai-agent" data-i18n="footer.links.aiAgent">AI agent</a>
+                    <a href="/chatbot-yaptirmak" data-i18n="footer.links.chatbot">Chatbot yaptırmak</a>
+                    <a href="/otomatik-musteri-hizmetleri-yapay-zeka" data-i18n="footer.links.salesAi">Otomatik müşteri hizmetleri</a>
+                    <a href="/ozel-yazilim-yaptirmak" data-i18n="footer.links.customSoftware">Özel yazılım</a>
+                    <a href="/web-sitesi-yaptirmak-ankara" data-i18n="footer.links.website">Web sitesi yaptırmak</a>
+                    <a href="/mobil-uygulama-yaptirmak" data-i18n="footer.links.mobile">Mobil uygulama</a>
+                    <a href="/stok-takip-programi-yaptirmak" data-i18n="footer.links.stock">Stok takip programı</a>
+                    <a href="/yazilim-bakim-destek-hizmeti" data-i18n="footer.links.maintenance">Yazılım bakım ve destek</a>
+                    <a href="/e-ticaret-sitesi-yaptirmak" data-i18n="footer.links.ecommerce">E-ticaret yaptırmak</a>
+                    <a href="/trendyol-entegrasyonu" data-i18n="footer.links.trendyol">Trendyol entegrasyonu</a>
+                    <a href="/logo-netsis-entegrasyon" data-i18n="footer.links.logoNetsis">Logo / Netsis entegrasyonu</a>
+                    <a href="/e-fatura-entegrasyonu" data-i18n="footer.links.einvoice">E-fatura</a>
+                </div>
+                <a href="/hizmetler" class="sf-all" data-i18n="footer.allServices">Tüm hizmetler →</a>
+                <p class="sf-title sf-title--sub" data-i18n="footer.groups.products">Ürünler</p>
+                <a href="/urunler/alfaihale" class="sf-prod">AlfaIhale <span>· <span data-i18n="productsPage.pick.alfa">Kamu ihale takibi</span></span></a>
+                <a href="/urunler/addjarvis" class="sf-prod">AddJarvis <span>· <span data-i18n="productsPage.pick.addjarvis">Yapay zeka ile B2B satış</span></span></a>
+                <a href="/urunler/arena" class="sf-prod">Arena <span>· <span data-i18n="productsPage.pick.arena">Satış ekibi eğitimi</span></span></a>
+            </div>
+            <div class="sf-col">
+                <p class="sf-title" data-i18n="footer.groups.company">Kurumsal</p>
+                <a href="/ankara-yazilim-sirketi" data-i18n="footer.links.softwareCompany">Ankara yazılım şirketi</a>
+                <a href="/hakkimizda" data-i18n="nav.about">Hakkımızda</a>
+                <a href="/urunler" data-i18n="footer.links.products">Ürünlerimiz</a>
+                <a href="/blog" data-i18n="nav.blog">Blog</a>
+                <a href="/sss" data-i18n="footer.links.faq">Sık sorulan sorular</a>
+                <a href="/iletisim" data-i18n="nav.contact">İletişim</a>
+                <a href="/gizlilik" data-i18n="footer.links.privacy">Gizlilik &amp; çerezler</a>
+                <a href="#" data-cookie-settings="1" data-i18n="cookieBanner.settings">Çerez ayarları</a>
+            </div>
+            <div class="sf-col sf-contact">
+                <p class="sf-title" data-i18n="footer.groups.contact">İletişim</p>
+                <a href="tel:+905465496806"><i class="fas fa-phone" aria-hidden="true"></i><span>+90 546 549 6806</span></a>
+                <a href="mailto:info@ozturksoft.net"><i class="fas fa-envelope" aria-hidden="true"></i><span>info@ozturksoft.net</span></a>
+                <a href="https://wa.me/905465496806" target="_blank" rel="noopener"><i class="fab fa-whatsapp" aria-hidden="true"></i><span data-i18n="nav.whatsapp">Canlı Destek</span></a>
+                <address><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span>Kızılırmak Mah. 1445. Sk. The Paragon No: 2/1 İç Kapı No: 113, 06530 Çankaya/Ankara, Türkiye</span></address>
+            </div>
+        </div>
+        <div class="sf-bottom">
+            <p data-i18n="footer.copyright">© 2026 Ozturksoft | Tüm Hakları Saklıdır.</p>
+            <p class="sf-tag" data-i18n="footer.tagline">Yapay Zeka · Özel Yazılım · Ankara</p>
+        </div>
+        <div class="footer-langs">
+            <a href="/" hreflang="tr" lang="tr">Türkçe</a>
+            <a href="/en" hreflang="en" lang="en">English</a>
+            <a href="/de" hreflang="de" lang="de">Deutsch</a>
+            <a href="/fr" hreflang="fr" lang="fr">Français</a>
+            <a href="/ar" hreflang="ar" lang="ar">العربية</a>
+            <a href="/ru" hreflang="ru" lang="ru">Русский</a>
+        </div>
+    </footer>
+  <script>
+  (function(){
+    function openHash(){var id=decodeURIComponent(location.hash.slice(1));var el=id&&document.getElementById(id);if(el&&el.tagName==='DETAILS')el.open=true;}
+    openHash();window.addEventListener('hashchange',openHash);
+    var links=[].slice.call(document.querySelectorAll('.side a'));
+    if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id)})}})},{rootMargin:'-30% 0px -60% 0px'});
+    document.querySelectorAll('.sss-group').forEach(function(g){io.observe(g)});}
+  })();
+  </script>
 </body>
 </html>

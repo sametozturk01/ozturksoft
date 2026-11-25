@@ -139,6 +139,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin>
     <link rel="stylesheet" href="/src/style.css">
     <script type="module" src="/src/main.ts"></script>
+  <link rel="stylesheet" href="/site-footer.css">
 </head>
 <body style="--lp-accent:#f97316">
     <nav>
@@ -360,9 +361,73 @@
         </p>
     </section>
 
-    <footer class="lp-footer">
-        <p data-i18n="productionPage.footer">© 2026 Ozturksoft — Üretim Takip Yazılımı, Ankara</p>
-        <p style="margin-top:10px"><a href="/" data-i18n="nav.home">Ana Sayfa</a> · <a href="/hizmetler" data-i18n="nav.services">Hizmetler</a> · <a href="/ozel-yazilim-yaptirmak" data-i18n="productionPage.related.custom">Özel yazılım yaptırmak</a> · <a href="/iletisim" data-i18n="nav.contact">İletişim</a></p>
+    <footer class="sf">
+        <div class="sf-grid">
+            <div class="sf-brand">
+                <a href="/" class="sf-logo"><img src="/images/logo.png" alt="Ozturksoft" width="90" height="86" loading="lazy"></a>
+                <p data-i18n="footer.brand">Ankara Çankaya merkezli yapay zeka ve yazılım geliştirme şirketi. Türkiye ve dünyadaki kurumlar için özel yazılım, yapay zeka ve e-ticaret çözümleri geliştiriyoruz.</p>
+                <div class="sf-social">
+                    <a href="https://www.linkedin.com/company/ozturksoft" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a href="https://www.google.com/maps/search/?api=1&amp;query=Ozturksoft%20Yaz%C4%B1l%C4%B1m%20%26%20AI%20%C3%87%C3%B6z%C3%BCmleri%20%C3%87ankaya" target="_blank" rel="noopener" aria-label="Google Maps"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></a>
+                    <a href="https://wa.me/905465496806" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                    <a href="mailto:info@ozturksoft.net" aria-label="E-posta"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="sf-col sf-col--services">
+                <p class="sf-title" data-i18n="footer.groups.services">Hizmetler</p>
+                <div class="sf-two">
+                    <a href="/yapay-zeka-entegrasyonu" data-i18n="footer.links.aiIntegration">Yapay zeka entegrasyonu</a>
+                    <a href="/kurum-ici-yapay-zeka" data-i18n="footer.links.privateAi">Şirketinize özel ChatGPT</a>
+                    <a href="/ai-agent" data-i18n="footer.links.aiAgent">AI agent</a>
+                    <a href="/chatbot-yaptirmak" data-i18n="footer.links.chatbot">Chatbot yaptırmak</a>
+                    <a href="/otomatik-musteri-hizmetleri-yapay-zeka" data-i18n="footer.links.salesAi">Otomatik müşteri hizmetleri</a>
+                    <a href="/ozel-yazilim-yaptirmak" data-i18n="footer.links.customSoftware">Özel yazılım</a>
+                    <a href="/web-sitesi-yaptirmak-ankara" data-i18n="footer.links.website">Web sitesi yaptırmak</a>
+                    <a href="/mobil-uygulama-yaptirmak" data-i18n="footer.links.mobile">Mobil uygulama</a>
+                    <a href="/stok-takip-programi-yaptirmak" data-i18n="footer.links.stock">Stok takip programı</a>
+                    <a href="/yazilim-bakim-destek-hizmeti" data-i18n="footer.links.maintenance">Yazılım bakım ve destek</a>
+                    <a href="/e-ticaret-sitesi-yaptirmak" data-i18n="footer.links.ecommerce">E-ticaret yaptırmak</a>
+                    <a href="/trendyol-entegrasyonu" data-i18n="footer.links.trendyol">Trendyol entegrasyonu</a>
+                    <a href="/logo-netsis-entegrasyon" data-i18n="footer.links.logoNetsis">Logo / Netsis entegrasyonu</a>
+                    <a href="/e-fatura-entegrasyonu" data-i18n="footer.links.einvoice">E-fatura</a>
+                </div>
+                <a href="/hizmetler" class="sf-all" data-i18n="footer.allServices">Tüm hizmetler →</a>
+                <p class="sf-title sf-title--sub" data-i18n="footer.groups.products">Ürünler</p>
+                <a href="/urunler/alfaihale" class="sf-prod">AlfaIhale <span>· <span data-i18n="productsPage.pick.alfa">Kamu ihale takibi</span></span></a>
+                <a href="/urunler/addjarvis" class="sf-prod">AddJarvis <span>· <span data-i18n="productsPage.pick.addjarvis">Yapay zeka ile B2B satış</span></span></a>
+                <a href="/urunler/arena" class="sf-prod">Arena <span>· <span data-i18n="productsPage.pick.arena">Satış ekibi eğitimi</span></span></a>
+            </div>
+            <div class="sf-col">
+                <p class="sf-title" data-i18n="footer.groups.company">Kurumsal</p>
+                <a href="/ankara-yazilim-sirketi" data-i18n="footer.links.softwareCompany">Ankara yazılım şirketi</a>
+                <a href="/hakkimizda" data-i18n="nav.about">Hakkımızda</a>
+                <a href="/urunler" data-i18n="footer.links.products">Ürünlerimiz</a>
+                <a href="/blog" data-i18n="nav.blog">Blog</a>
+                <a href="/sss" data-i18n="footer.links.faq">Sık sorulan sorular</a>
+                <a href="/iletisim" data-i18n="nav.contact">İletişim</a>
+                <a href="/gizlilik" data-i18n="footer.links.privacy">Gizlilik &amp; çerezler</a>
+                <a href="#" data-cookie-settings="1" data-i18n="cookieBanner.settings">Çerez ayarları</a>
+            </div>
+            <div class="sf-col sf-contact">
+                <p class="sf-title" data-i18n="footer.groups.contact">İletişim</p>
+                <a href="tel:+905465496806"><i class="fas fa-phone" aria-hidden="true"></i><span>+90 546 549 6806</span></a>
+                <a href="mailto:info@ozturksoft.net"><i class="fas fa-envelope" aria-hidden="true"></i><span>info@ozturksoft.net</span></a>
+                <a href="https://wa.me/905465496806" target="_blank" rel="noopener"><i class="fab fa-whatsapp" aria-hidden="true"></i><span data-i18n="nav.whatsapp">Canlı Destek</span></a>
+                <address><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span>Kızılırmak Mah. 1445. Sk. The Paragon No: 2/1 İç Kapı No: 113, 06530 Çankaya/Ankara, Türkiye</span></address>
+            </div>
+        </div>
+        <div class="sf-bottom">
+            <p data-i18n="footer.copyright">© 2026 Ozturksoft | Tüm Hakları Saklıdır.</p>
+            <p class="sf-tag" data-i18n="footer.tagline">Yapay Zeka · Özel Yazılım · Ankara</p>
+        </div>
+        <div class="footer-langs">
+            <a href="/" hreflang="tr" lang="tr">Türkçe</a>
+            <a href="/en" hreflang="en" lang="en">English</a>
+            <a href="/de" hreflang="de" lang="de">Deutsch</a>
+            <a href="/fr" hreflang="fr" lang="fr">Français</a>
+            <a href="/ar" hreflang="ar" lang="ar">العربية</a>
+            <a href="/ru" hreflang="ru" lang="ru">Русский</a>
+        </div>
     </footer>
 </body>
 </html>
