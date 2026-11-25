@@ -2590,7 +2590,13 @@
       "q4": "Ist Kickoff wirklich kostenlos?",
       "a4": "Ja. Das Gespräch dauert 45–90 Minuten und verpflichtet Sie zu nichts. Füllen Sie das <a href=\"/iletisim\" style=\"color:#38bdf8\">Kontaktformular</a> aus oder rufen Sie <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a> an.",
       "q5": "Können wir Gemini statt ChatGPT nutzen?",
-      "a5": "Ja. In der Beratung wählen wir das Modell gemeinsam nach Ihrem Bedarf: Für Unternehmen, die Google Workspace nutzen, ist Gemini eine naheliegende Wahl, sonst ChatGPT oder Claude, und bei Installationen im eigenen Haus (On-Premise) empfehlen wir Open-Source-Modelle wie Llama. Da die Architektur der Roadmap modellunabhängig geplant wird, lässt sich das Modell später wechseln; die Nutzung rechnet der Modellanbieter ab."
+      "a5": "Ja. In der Beratung wählen wir das Modell gemeinsam nach Ihrem Bedarf: Für Unternehmen, die Google Workspace nutzen, ist Gemini eine naheliegende Wahl, sonst ChatGPT oder Claude, und bei Installationen im eigenen Haus (On-Premise) empfehlen wir Open-Source-Modelle wie Llama. Da die Architektur der Roadmap modellunabhängig geplant wird, lässt sich das Modell später wechseln; die Nutzung rechnet der Modellanbieter ab.",
+      "q6": "Wie lange dauert eine KI-Beratung?",
+      "a6": "Analyse und Fahrplan dauern je nach Unternehmensgröße meist 1–3 Wochen. Auf Wunsch folgt ein Pilotprojekt (PoC) von 4–8 Wochen.",
+      "q7": "Sind Sie an einen bestimmten KI-Anbieter gebunden?",
+      "a7": "Nein. Wir empfehlen je nach Bedarf und Budget ChatGPT (OpenAI), Claude, Gemini oder Open-Source-Modelle auf Ihrem eigenen Server; das Modell lässt sich später wechseln.",
+      "q8": "Arbeiten Sie mit kleinen und mittleren Unternehmen?",
+      "a8": "Ja. Für KMU bieten wir kürzere, auf einen Prozess fokussierte Beratungen an; oft genügen ein Fahrplan und ein kleines Pilotprojekt."
     },
     "cta": {
       "btn": "Kostenloses Kickoff-Gespräch",
@@ -2614,6 +2620,42 @@
       "s1l": "Kickoff-Gespräch",
       "s2l": "Roadmap",
       "s3l": "Pilotprojekt (PoC)"
+    },
+    "scope": {
+      "title": "Was wir in der KI-Beratung tun",
+      "intro": "Beratung endet nicht mit einer Präsentation: Wir finden die passenden KI-Einsätze, bringen sie in eine Reihenfolge und übergeben einen umsetzbaren Plan.",
+      "doT": "Was wir tun",
+      "d1": "Analyse, ob Ihr Unternehmen bereit für KI ist",
+      "d2": "Prozesse finden und priorisieren, in denen sich KI lohnt",
+      "d3": "Auswahl von Modell und Anbieter: ChatGPT, Claude, Gemini oder Open Source",
+      "d4": "Prüfung von Datensicherheit und KVKK (Datenschutz)",
+      "d5": "Interne Regeln und Nutzungsrichtlinie für KI",
+      "d6": "Workshops für Führungskräfte und Teams",
+      "getT": "Was Sie erhalten",
+      "g1": "Eine priorisierte Liste von KI-Einsatzfällen",
+      "g2": "Ein 90-Tage-Umsetzungsplan",
+      "g3": "Empfehlung für technische Umsetzung und Budget",
+      "g4": "KVKK-Vorprüfung und Risikoliste"
+    },
+    "guides": {
+      "title": "Ratgeber zum Thema",
+      "g1t": "Ratgeber KI-Beratung für Unternehmen",
+      "g1d": "Wann sich Beratung lohnt, wie sie abläuft und was sie kostet.",
+      "g2t": "KI-Einsatz gemäß KVKK",
+      "g2d": "Daten klassifizieren, anonymisieren und den richtigen Server wählen.",
+      "g3t": "Wie wählt man ein KI-Unternehmen?",
+      "g3d": "Fragen und Warnsignale beim Einholen von Angeboten.",
+      "more": "Weiterlesen →"
+    },
+    "rel": {
+      "title": "Verwandte Leistungen",
+      "r1t": "KI-Integration",
+      "r1d": "Wir binden ChatGPT, Claude oder Gemini sicher an Ihre bestehende Software an.",
+      "r2t": "Ihr firmeneigenes ChatGPT",
+      "r2d": "Ein Assistent, der aus Ihren Dokumenten mit Quellen antwortet – die Daten bleiben bei Ihnen.",
+      "r3t": "KI-Agenten und Prozessautomatisierung",
+      "r3d": "KI-Agenten, die wiederkehrende Aufgaben mit Ihrer Freigabe in Ihren Systemen erledigen.",
+      "more": "Mehr erfahren →"
     }
   },
   "softwareFirmPage": {

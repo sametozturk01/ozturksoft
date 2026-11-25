@@ -2590,7 +2590,13 @@
       "q4": "La découverte est-elle vraiment gratuite ?",
       "a4": "Oui. L’entretien dure 45–90 minutes et ne vous engage à rien. Remplissez le <a href=\"/iletisim\" style=\"color:#38bdf8\">formulaire de contact</a> ou appelez le <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>.",
       "q5": "Pouvons-nous utiliser Gemini plutôt que ChatGPT ?",
-      "a5": "Oui. Pendant le conseil, nous choisissons avec vous le modèle adapté à vos besoins : Gemini est un choix naturel pour les entreprises qui utilisent Google Workspace, ChatGPT ou Claude pour les autres, et nous recommandons des modèles open source comme Llama pour les installations sur site (on-premise). L’architecture de la feuille de route étant conçue indépendamment du modèle, celui-ci peut être changé plus tard ; l’utilisation est facturée par le fournisseur du modèle."
+      "a5": "Oui. Pendant le conseil, nous choisissons avec vous le modèle adapté à vos besoins : Gemini est un choix naturel pour les entreprises qui utilisent Google Workspace, ChatGPT ou Claude pour les autres, et nous recommandons des modèles open source comme Llama pour les installations sur site (on-premise). L’architecture de la feuille de route étant conçue indépendamment du modèle, celui-ci peut être changé plus tard ; l’utilisation est facturée par le fournisseur du modèle.",
+      "q6": "Combien de temps dure un conseil en IA ?",
+      "a6": "L'analyse et la feuille de route prennent en général 1 à 3 semaines selon la taille de l'entreprise. Un projet pilote (PoC) de 4 à 8 semaines peut suivre.",
+      "q7": "Êtes-vous lié à un fournisseur d'IA particulier ?",
+      "a7": "Non. Nous recommandons, selon vos besoins et votre budget, ChatGPT (OpenAI), Claude, Gemini ou des modèles open source sur votre propre serveur ; le modèle peut être changé plus tard.",
+      "q8": "Travaillez-vous avec les PME ?",
+      "a8": "Oui. Pour les PME, nous proposons un conseil plus court centré sur un seul processus ; souvent, une feuille de route et un petit pilote suffisent."
     },
     "cta": {
       "btn": "Appel de découverte gratuit",
@@ -2614,6 +2620,42 @@
       "s1l": "Appel de découverte",
       "s2l": "Feuille de route",
       "s3l": "Projet pilote (PoC)"
+    },
+    "scope": {
+      "title": "Ce que nous faisons en conseil IA",
+      "intro": "Le conseil ne s'arrête pas à une présentation : nous identifions les usages de l'IA adaptés à votre entreprise, les priorisons et vous remettons un plan applicable.",
+      "doT": "Ce que nous faisons",
+      "d1": "Évaluation de la maturité de votre entreprise pour l'IA",
+      "d2": "Identification et priorisation des processus où l'IA est rentable",
+      "d3": "Choix du modèle et du fournisseur : ChatGPT, Claude, Gemini ou open source",
+      "d4": "Évaluation de la sécurité des données et du KVKK (protection des données)",
+      "d5": "Règles internes et charte d'utilisation de l'IA",
+      "d6": "Ateliers de formation pour dirigeants et équipes",
+      "getT": "Ce que vous obtenez",
+      "g1": "Une liste priorisée de cas d'usage IA",
+      "g2": "Un plan de mise en œuvre sur 90 jours",
+      "g3": "Une proposition d'architecture technique et de budget",
+      "g4": "Pré-évaluation KVKK et liste des risques"
+    },
+    "guides": {
+      "title": "Guides sur ce sujet",
+      "g1t": "Guide du conseil IA pour les entreprises",
+      "g1d": "Quand faire appel au conseil, comment il se déroule et combien il coûte.",
+      "g2t": "Utiliser l'IA en conformité avec le KVKK",
+      "g2d": "Classer, anonymiser les données et choisir le bon serveur.",
+      "g3t": "Comment choisir une entreprise d'IA ?",
+      "g3d": "Questions à poser et signaux d'alerte lors des devis.",
+      "more": "Lire la suite →"
+    },
+    "rel": {
+      "title": "Services associés",
+      "r1t": "Intégration de l'IA",
+      "r1d": "Nous connectons ChatGPT, Claude ou Gemini en toute sécurité à vos logiciels.",
+      "r2t": "Un ChatGPT privé pour votre entreprise",
+      "r2d": "Un assistant qui répond à partir de vos documents avec sources, vos données restent chez vous.",
+      "r3t": "Agents IA et automatisation des processus",
+      "r3d": "Des agents IA qui effectuent les tâches répétitives dans vos systèmes, avec votre accord.",
+      "more": "En savoir plus →"
     }
   },
   "softwareFirmPage": {

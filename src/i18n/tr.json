@@ -2610,7 +2610,13 @@
       "q4": "Keşif gerçekten ücretsiz mi?",
       "a4": "Evet. Görüşme 45–90 dakika sürer ve sizi hiçbir şekilde bağlamaz. <a href=\"/iletisim\" style=\"color:#38bdf8\">İletişim formunu</a> doldurabilir ya da <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a> numarasını arayabilirsiniz.",
       "q5": "ChatGPT yerine Gemini kullanabilir miyiz?",
-      "a5": "Evet. Danışmanlıkta modeli ihtiyacınıza göre birlikte seçeriz: Google Workspace kullanan şirketler için Gemini doğal bir seçenektir, diğer durumlarda ChatGPT veya Claude, kurum içi (on-premise) kurulumlarda ise Llama gibi açık kaynak modeller önerilir. Yol haritasındaki yapı modelden bağımsız tasarlandığı için model sonradan değiştirilebilir; kullanım ücretini model sağlayıcısı faturalar."
+      "a5": "Evet. Danışmanlıkta modeli ihtiyacınıza göre birlikte seçeriz: Google Workspace kullanan şirketler için Gemini doğal bir seçenektir, diğer durumlarda ChatGPT veya Claude, kurum içi (on-premise) kurulumlarda ise Llama gibi açık kaynak modeller önerilir. Yol haritasındaki yapı modelden bağımsız tasarlandığı için model sonradan değiştirilebilir; kullanım ücretini model sağlayıcısı faturalar.",
+      "q6": "Yapay zeka danışmanlığı ne kadar sürer?",
+      "a6": "Keşif ve yol haritası çalışması şirketin büyüklüğüne göre genellikle 1–3 hafta sürer. Ardından istenirse 4–8 haftalık bir deneme projesine (PoC) geçilir.",
+      "q7": "Belirli bir yapay zeka sağlayıcısına bağlı mısınız?",
+      "a7": "Hayır. ChatGPT (OpenAI), Claude, Gemini ve kendi sunucunuzda çalışabilen açık kaynak modeller arasından ihtiyacınıza ve bütçenize uygun olanı öneririz; yapı, model sonradan değiştirilebilecek şekilde kurulur.",
+      "q8": "Küçük ve orta ölçekli işletmelerle çalışıyor musunuz?",
+      "a8": "Evet. KOBİ'ler için daha kısa ve tek bir sürece odaklanan danışmanlık çalışmaları yapıyoruz; çoğu zaman tek bir yol haritası ve küçük bir deneme projesi yeterli olur."
     },
     "cta": {
       "btn": "Ücretsiz keşif görüşmesi",
@@ -2634,6 +2640,42 @@
       "s1l": "Keşif görüşmesi",
       "s2l": "Yol haritası",
       "s3l": "Deneme projesi (PoC)"
+    },
+    "scope": {
+      "title": "Yapay zeka danışmanlığında neler yapıyoruz?",
+      "intro": "Danışmanlık bir sunumla bitmez: şirketinize uygun yapay zeka işlerini bulur, sıraya koyar ve uygulanabilir bir plan olarak teslim ederiz.",
+      "doT": "Neler yapıyoruz?",
+      "d1": "Şirketinizin yapay zekaya hazır olup olmadığının analizi",
+      "d2": "Yapay zekanın işe yarayacağı süreçleri bulma ve önceliklendirme",
+      "d3": "Model ve sağlayıcı seçimi: ChatGPT, Claude, Gemini veya açık kaynak",
+      "d4": "Veri güvenliği ve KVKK değerlendirmesi",
+      "d5": "Şirket içi yapay zeka kullanım kuralları ve politikası",
+      "d6": "Yönetici ve ekip eğitimleri (workshop)",
+      "getT": "Elde edeceğiniz sonuçlar",
+      "g1": "Önceliklendirilmiş yapay zeka kullanım listesi",
+      "g2": "90 günlük uygulama planı",
+      "g3": "Teknik yapı ve bütçe önerisi",
+      "g4": "KVKK ön değerlendirmesi ve risk listesi"
+    },
+    "guides": {
+      "title": "Bu konuda rehberler",
+      "g1t": "İşletmeler için yapay zeka danışmanlığı rehberi",
+      "g1d": "Danışmanlığın ne zaman gerektiği, nasıl ilerlediği ve neye mal olduğu.",
+      "g2t": "KVKK uyumlu yapay zeka kullanımı",
+      "g2d": "Veriyi sınıflandırma, anonimleştirme ve doğru sunucu seçimi.",
+      "g3t": "Yapay zeka firması nasıl seçilir?",
+      "g3d": "Teklif alırken sorulacak sorular ve dikkat edilecek işaretler.",
+      "more": "Devamını oku →"
+    },
+    "rel": {
+      "title": "İlgili hizmetler",
+      "r1t": "Yapay zeka entegrasyonu",
+      "r1d": "ChatGPT, Claude veya Gemini'yi kullandığınız programlara güvenle bağlıyoruz.",
+      "r2t": "Şirketinize özel ChatGPT",
+      "r2d": "Belgelerinizden kaynak göstererek cevap veren, verisi sizde kalan asistan.",
+      "r3t": "AI agent ve süreç otomasyonu",
+      "r3d": "Tekrarlayan işleri sistemlerinizde sizin onayınızla yapan yapay zeka ajanları.",
+      "more": "Detaylı incele →"
     }
   },
   "softwareFirmPage": {

@@ -2590,7 +2590,13 @@
       "q4": "Is discovery really free?",
       "a4": "Yes. The meeting takes 45–90 minutes and does not commit you to anything. Fill in the <a href=\"/iletisim\" style=\"color:#38bdf8\">contact form</a> or call <a href=\"tel:+905465496806\" style=\"color:#38bdf8\">+90 546 549 6806</a>.",
       "q5": "Can we use Gemini instead of ChatGPT?",
-      "a5": "Yes. In consulting we choose the model with you to fit your needs: Gemini is a natural fit for companies that use Google Workspace, ChatGPT or Claude for others, and open-source models such as Llama are recommended for on-premise installations. Because the architecture in the roadmap is designed to be model-independent, the model can be changed later; usage is billed by the model provider."
+      "a5": "Yes. In consulting we choose the model with you to fit your needs: Gemini is a natural fit for companies that use Google Workspace, ChatGPT or Claude for others, and open-source models such as Llama are recommended for on-premise installations. Because the architecture in the roadmap is designed to be model-independent, the model can be changed later; usage is billed by the model provider.",
+      "q6": "How long does AI consulting take?",
+      "a6": "The discovery and roadmap usually take 1–3 weeks depending on company size. If you wish, a 4–8 week pilot project (PoC) follows.",
+      "q7": "Are you tied to a particular AI provider?",
+      "a7": "No. We recommend the right option for your needs and budget among ChatGPT (OpenAI), Claude, Gemini and open-source models that can run on your own server; the setup lets you switch models later.",
+      "q8": "Do you work with small and medium-sized businesses?",
+      "a8": "Yes. For SMBs we run shorter consulting work focused on a single process; often one roadmap and a small pilot are enough."
     },
     "cta": {
       "btn": "Free discovery call",
@@ -2614,6 +2620,42 @@
       "s1l": "Discovery call",
       "s2l": "Roadmap",
       "s3l": "Pilot project (PoC)"
+    },
+    "scope": {
+      "title": "What we do in AI consulting",
+      "intro": "Consulting does not end with a slide deck: we find the AI work that fits your company, put it in order and hand it over as a plan you can carry out.",
+      "doT": "What we do",
+      "d1": "Assessing whether your company is ready for AI",
+      "d2": "Finding and prioritising the processes where AI pays off",
+      "d3": "Choosing the model and provider: ChatGPT, Claude, Gemini or open source",
+      "d4": "Data security and KVKK (data protection) review",
+      "d5": "Internal rules and a usage policy for AI",
+      "d6": "Training workshops for managers and teams",
+      "getT": "What you get",
+      "g1": "A prioritised list of AI use cases",
+      "g2": "A 90-day implementation plan",
+      "g3": "A recommended technical setup and budget",
+      "g4": "A KVKK pre-assessment and risk list"
+    },
+    "guides": {
+      "title": "Guides on this topic",
+      "g1t": "AI consulting guide for businesses",
+      "g1d": "When you need consulting, how it works and what it costs.",
+      "g2t": "Using AI in line with KVKK",
+      "g2d": "Classifying data, anonymising it and choosing the right server.",
+      "g3t": "How to choose an AI company",
+      "g3d": "Questions to ask and warning signs when collecting quotes.",
+      "more": "Read more →"
+    },
+    "rel": {
+      "title": "Related services",
+      "r1t": "AI integration",
+      "r1d": "We connect ChatGPT, Claude or Gemini safely to the software you already use.",
+      "r2t": "A private ChatGPT for your company",
+      "r2d": "An assistant that answers from your documents with sources, keeping data with you.",
+      "r3t": "AI agents and process automation",
+      "r3d": "AI agents that carry out repetitive work in your systems, with your approval.",
+      "more": "Learn more →"
     }
   },
   "softwareFirmPage": {
