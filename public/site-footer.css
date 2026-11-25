@@ -35,3 +35,6 @@ footer.sf, footer.sf p, footer.sf .sf-title { text-align:left !important; }
 [dir="rtl"] footer.sf, [dir="rtl"] footer.sf p, [dir="rtl"] footer.sf .sf-title { text-align:right !important; }
 @media (max-width:620px) { .sf-bottom { flex-direction:column; gap:6px; } }
 footer.sf .footer-langs { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); clip-path:inset(50%); white-space:nowrap; border:0; }
+footer.sf .sf-langs-wrap { display:flex; flex-wrap:wrap; gap:6px 14px; position:static; width:auto; height:auto; clip:auto; clip-path:none; overflow:visible; margin:0; }
+footer.sf .sf-langs-wrap a { color:#7c8ba3; font-size:.84rem; text-decoration:none; }
+footer.sf .sf-langs-wrap a:hover { color:#fff; }

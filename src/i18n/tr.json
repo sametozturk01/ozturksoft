@@ -5932,68 +5932,68 @@
     },
     "hero": {
       "kicker": "Satış eğitimi",
-      "partner": "Arena, Satış Mühendisliği™ iş birliğiyle geliştirildi.",
+      "partner": "Satış Mühendisliği™ ile ortak geliştirilen platform",
       "title": "Satışı önce <span class=\"pr-grad\">sanal müşteriyle</span> prova edin.",
-      "desc": "Arena'da satış danışmanı, gizli bir itirazı olan yapay zeka müşteriyle yazılı ya da sesli görüşür. Görüşme SONAR-41 çerçevesiyle ölçülür; her puan görüşmeden bir alıntıya bağlanır, danışman neyi neden kaçırdığını açıkça görür."
+      "desc": "Arena'da satış danışmanınız, aklındaki asıl çekinceyi söylemeyen bir yapay zeka müşteriyle konuşur; ister yazarak ister sesli. Görüşme bittiğinde SONAR-41 ile değerlendirilir ve her not, konuşmadan alınmış bir cümleyle gerekçelendirilir."
     },
     "strip": {
       "s1": "Satış eğitimi için"
     },
     "about": {
       "title": "Arena nedir?",
-      "p": "Arena, satış ekipleri için yapay zeka destekli bir rol oyunu ve ölçüm platformu. Danışman telefon, online toplantı, showroom veya mesajlaşma senaryosunda sanal müşteriyle görüşür. Görüşme bittiğinde SONAR-41 ile puanlanır ve tek bir gelişim alanı önerilir. Yöneticiler ekibin ilerleyişini raporlar, ligler ve koçluk araçlarıyla takip eder."
+      "p": "Arena, satış ekiplerinin gerçek müşteriyle karşılaşmadan önce prova yaptığı, yapay zekayla çalışan bir antrenman ve değerlendirme ortamıdır. Danışman telefon, video görüşme, showroom ya da yazışma senaryosu seçer ve sanal müşteriyle konuşur. Ardından SONAR-41 değerlendirmesi gelir ve danışmana üzerinde çalışması gereken tek bir konu söylenir. Yöneticiler kimin nerede olduğunu raporlardan, liglerden ve koçluk ekranlarından izler."
     },
     "who": {
-      "i1": "Bayi ve showroom satış ekipleri; otomotiv, gayrimenkul, sigorta, eğitim gibi danışmanlık gerektiren satışlar",
-      "i2": "Yeni danışmanlarını sahaya hızlı hazırlamak isteyen şirketler",
-      "i3": "Ekibine birebir koçluk yapmaya vakit bulamayan satış yöneticileri"
+      "i1": "Otomobil, emlak, sigorta, eğitim gibi müşteriye danışmanlık yapılarak satış yapılan sektörlerdeki bayi ve showroom ekipleri",
+      "i2": "Yeni işe aldığı danışmanları kısa sürede müşteri karşısına çıkarmak isteyen firmalar",
+      "i3": "Ekibindeki herkese tek tek koçluk yapacak zamanı olmayan satış müdürleri"
     },
     "pain": {
-      "i1": "Danışmanlar işi gerçek müşteri üzerinde deneyerek öğreniyor",
-      "i2": "Eğitimler kalıcı olmuyor: eksik olan bilgi değil, prova",
-      "i3": "Yönetici kimin neyi geliştirmesi gerektiğini ölçemiyor"
+      "i1": "Yeni danışman hatalarını gerçek müşteri karşısında yapıyor",
+      "i2": "Eğitimden sonra birkaç hafta içinde her şey unutuluyor; çünkü bilgi değil pratik eksik",
+      "i3": "Kimin hangi konuda zayıf olduğunu gösteren somut bir ölçü yok"
     },
     "partner": {
       "kicker": "İş birliği",
       "title": "Satış Mühendisliği™ ile birlikte geliştirildi",
-      "p": "Arena'yı satış eğitimi alanında çalışan Satış Mühendisliği™ ile birlikte geliştirdik: danışmanların gerçek müşteriden önce prova yapması ve her görüşmenin kanıta dayalı ölçülmesi için. Arena bugün Satış Mühendisliği™ markasıyla da şirketlere sunuluyor."
+      "p": "Arena'yı, satış eğitimleri veren Satış Mühendisliği™ ekibiyle birlikte tasarladık. Amaç, danışmanın müşteriye çıkmadan önce bol bol deneme yapması ve her görüşmenin kişisel izlenime değil kanıta göre değerlendirilmesi. Arena, Satış Mühendisliği™ markasıyla da şirketlere sunuluyor."
     },
-    "f1t": "Gizli itirazı olan sanal müşteri",
-    "f1d": "Telefon, online toplantı, showroom ve mesajlaşma kanallarında yazılı ya da sesli prova. Müşterinin asıl itirazını görüşme içinde bulmak danışmana kalır.",
+    "f1t": "Çekincesini saklayan sanal müşteri",
+    "f1d": "Telefon, video toplantı, showroom ya da yazışma senaryosunda yazılı veya sesli konuşma yapılır. Müşterinin neden tereddüt ettiğini doğru sorularla ortaya çıkarmak danışmanın işidir.",
     "f2t": "SONAR-41 ile ölçüm",
-    "f2d": "5 boyutta 41 davranış 1–5 ölçeğiyle puanlanır. Her puan görüşmeden birebir bir alıntıya dayanır; CRM'e girilen not da ayrıca değerlendirilir.",
-    "f3t": "Tek odaklı rapor",
-    "f3d": "Her görüşmeden sonra tek bir gelişim alanı, güçlü yanlar ve o anda söylenmesi gereken cümle verilir. Danışman kendi değerlendirmesini sonuçla karşılaştırır.",
-    "f4t": "Hazırlık: rakipler ve itirazlar",
-    "f4d": "Rakip karşılaştırmaları ve itiraz kartlarıyla danışman görüşmeye hazırlanır; şirketinizin ürünleri ve rakipleri senaryolara işlenir.",
-    "f5t": "Ligler, gelişim ve koçluk",
-    "f5d": "Şirket ve ekip ligleri, rozetler ve gelişim haritası. Yöneticiler için kalibrasyon vakaları, Koç Ligi ve koçluk araçları.",
+    "f2d": "Beş başlık altında toplanan 41 davranış 1'den 5'e kadar notlanır. Her not, görüşmede geçen gerçek bir cümleye bağlanır; danışmanın CRM'e yazdığı görüşme notu da ayrıca değerlendirilir.",
+    "f3t": "Tek konuya odaklanan geri bildirim",
+    "f3d": "Her görüşmenin sonunda danışmana bir gelişim konusu, iyi yaptığı şeyler ve o noktada kurması gereken cümle gösterilir. Danışman önce kendini değerlendirir, sonra sonucu kendi notuyla kıyaslar.",
+    "f4t": "Görüşme öncesi hazırlık kartları",
+    "f4d": "Danışman, rakip ürünlerle karşılaştırma kartları ve sık duyulan itirazlara hazır cevaplarla görüşmeye hazırlanır; senaryolarda sizin ürünleriniz ve rakipleriniz yer alır.",
+    "f5t": "Lig, rozet ve koçluk ekranları",
+    "f5d": "Şirket içinde ve ekipler arasında ligler, rozetler ve kişisel gelişim haritası bulunur. Yöneticiler için örnek görüşmelerle not birliği sağlama, Koç Ligi ve koçluk araçları vardır.",
     "s1t": "Senaryo",
-    "s1d": "Şirketinizin ürünleri, rakipleri ve müşteri tipleri sanal müşterilere işlenir.",
+    "s1d": "Ürünleriniz, rakipleriniz ve tipik müşteri profilleriniz sanal müşteri senaryolarına eklenir.",
     "s2t": "Prova",
-    "s2d": "Danışman seçtiği kanalda sanal müşteriyle görüşür; müşterinin gizli bir itirazı vardır.",
+    "s2d": "Danışman istediği kanalı seçer ve çekincesini saklayan sanal müşteriyle konuşur.",
     "s3t": "Ölçüm",
-    "s3d": "Görüşme SONAR-41 ile puanlanır, her puan bir alıntıya bağlanır.",
+    "s3d": "Konuşma SONAR-41 ile notlanır; her not konuşmadan bir cümleyle desteklenir.",
     "s4t": "Gelişim",
-    "s4d": "Rapor tek bir odak alanı verir; ligler, görevler ve koçluk gelişimi sürdürür.",
+    "s4d": "Rapor tek bir çalışma konusu belirler; lig, görev ve koçluklarla gelişim sürer.",
     "sec": {
-      "title": "Alıntısı olmayan puan yazılmaz.",
-      "i1": "Danışman, ekip lideri ve şirket yöneticisi için ayrı rol ve yetkiler.",
-      "i2": "Veriler Frankfurt'taki sunucularda tutulur.",
-      "i3": "Türkçe ve İngilizce arayüz ve görüşme."
+      "title": "Konuşmadan bir cümleyle desteklenmeyen not verilmez.",
+      "i1": "Danışman, ekip lideri ve yönetici farklı ekranlar ve farklı yetkilerle çalışır.",
+      "i2": "Görüşme verileri Almanya'da (Frankfurt) bulunan sunucularda saklanır.",
+      "i3": "Arayüz ve sanal müşteriyle konuşma dili Türkçe veya İngilizce olabilir."
     },
     "faq": {
       "title": "Arena hakkında sık sorulanlar",
       "q1": "Sanal müşteriyle sesli görüşme yapılabiliyor mu?",
-      "a1": "Evet. Danışman yazılı ya da sesli görüşebilir; telefon, online toplantı, showroom ve mesajlaşma senaryoları var.",
+      "a1": "Evet. Danışman sanal müşteriyle yazarak veya konuşarak görüşebilir; telefon, video toplantı, showroom ve yazışma senaryoları hazırdır.",
       "q2": "Hangi sektörlerde kullanılabilir?",
-      "a2": "Danışmanlık gerektiren her satışta kullanılabilir. Otomotiv, gayrimenkul, sigorta ve eğitim için örnek senaryolar hazır; senaryolar şirketinize göre uyarlanır.",
+      "a2": "Müşteriye danışmanlık ederek satış yapılan her alanda kullanılabilir. Otomobil, emlak, sigorta ve eğitim için hazır senaryolar var; senaryolar sizin ürün ve müşterilerinize göre düzenlenir.",
       "q3": "Puanlar nasıl veriliyor, SONAR-41 nedir?",
-      "a3": "SONAR-41, 5 boyutta 41 satış davranışını 1–5 ölçeğiyle puanlayan bir çerçevedir. Her puan görüşmeden birebir bir alıntıya dayanır; alıntısı olmayan puan yazılmaz.",
+      "a3": "SONAR-41, satış görüşmesindeki 41 davranışı beş başlıkta 1–5 arasında notlayan bir değerlendirme yöntemidir. Her not görüşmeden alınmış bir cümleye dayanır; dayanağı olmayan not verilmez.",
       "q4": "Arena'nın fiyatı ne kadar?",
       "a4": "Fiyat danışman sayısına ve şirketinize özel senaryo ihtiyacına göre belirlenir. Demo görüşmesinden sonra yazılı teklif veriyoruz; demo ücretsizdir.",
       "q5": "Nasıl başlarız?",
-      "a5": "Demo görüşmesinde Arena'yı örnek bir şirket üzerinden birlikte inceliyoruz; ardından size özel senaryoları ve kurulumu planlıyoruz."
+      "a5": "Demo görüşmesinde Arena'yı örnek bir firma üzerinde birlikte deneriz. Sonra sizin ürünlerinize göre senaryoları ve kurulumu planlarız."
     },
     "cta": {
       "title": "Ekibiniz ilk provasını bizimle yapsın.",
@@ -6009,7 +6009,7 @@
     "hero": {
       "kicker": "B2B satış",
       "title": "Müşteriyi yapay zeka bulsun, <span class=\"pr-grad\">siz toplantıya girin.</span>",
-      "desc": "AddJarvis, birlikte çalışan sekiz yapay zeka ajanından oluşan bir satış ekibi. Hedef müşteri tanımınıza uyan firmaları bulur, puanlar, her birine özel e-posta hazırlar ve olumlu yanıtları takviminize toplantı olarak ekler. E-postalar varsayılan olarak siz onaylamadan gitmez."
+      "desc": "AddJarvis, birbirine iş devreden sekiz yapay zeka ajanıyla çalışan bir satış ekibidir. Hedeflediğiniz müşteri tipine uyan firmaları bulur, değerlendirir, her birine ayrı bir e-posta taslağı yazar ve olumlu dönüşleri takviminize toplantı olarak işler. Siz onaylamadan hiçbir e-posta gönderilmez."
     },
     "strip": {
       "s1": "B2B satış için",
@@ -6018,12 +6018,12 @@
     },
     "about": {
       "title": "AddJarvis nedir?",
-      "p": "AddJarvis, satış ekibinizin en çok vakit kaybettiği işi, yani kimin aranacağını bulmayı üstlenir. İdeal müşteri tanımınıza uyan firmaları bulur, web sitelerini okuyup uygunluklarını gerekçesiyle puanlar, kişiye özel ilk e-postayı ve takipleri hazırlar, yanıtları okuyup görüşmeleri takviminize ekler. Her e-posta varsayılan olarak onayınıza gelir; hangi işi otomatiğe bırakacağınıza siz karar verirsiniz."
+      "p": "AddJarvis, satışçıların en çok zaman kaybettiği işi üstlenir: kime ulaşılacağını bulmak. Tarif ettiğiniz müşteri profiline uyan firmaları arar, sitelerini inceleyip neden uygun olduklarını açıklayarak puan verir, ilk e-postayı ve takip mesajlarını yazar, gelen cevapları okuyup görüşmeleri takviminize koyar. Başlangıçta her e-posta önce size gelir; neyin otomatik yürüyeceğine siz karar verirsiniz."
     },
     "who": {
-      "i1": "5–200 çalışanlı B2B firmalar: ajanslar, endüstriyel tedarikçiler, danışmanlık ve hizmet firmaları",
-      "i2": "Satışçıları müşteriyle konuşmaktan çok araştırma yapan firmalar",
-      "i3": "Yeni bir sektöre veya pazara açılmak isteyen ekipler"
+      "i1": "5 ile 200 kişi arasında çalışanı olan, başka firmalara satış yapan şirketler: ajanslar, sanayi tedarikçileri, danışmanlık ve hizmet firmaları",
+      "i2": "Satış ekibi günün çoğunu müşteri aramak ve araştırmakla geçiren firmalar",
+      "i3": "Yeni bir sektöre ya da bölgeye satış yapmaya başlamak isteyen ekipler"
     },
     "pain": {
       "i1": "Kimin aranacağını bulmak satış ekibinin vaktinin çoğunu yiyor",
@@ -6033,50 +6033,50 @@
     "agents": {
       "kicker": "Nasıl çalışır",
       "title": "Sekiz ajan, tek satış ekibi",
-      "sub": "Her e-posta varsayılan olarak gönderilmeden önce onayınıza gelir."
+      "sub": "Başlangıç ayarında hiçbir e-posta siz onaylamadan çıkmaz."
     },
     "a1t": "Kâşif",
     "a1d": "Hedef müşteri tanımınıza uyan yeni firmaları bulur.",
     "a2t": "Analist",
-    "a2d": "Firmanın web sitesini okur, uygunluğu 0–100 arası puanlar.",
+    "a2d": "Her firmanın web sitesine bakar ve ne kadar uygun olduğunu 0–100 arası puanlar.",
     "a3t": "Yazar",
-    "a3d": "Kişiye özel ilk e-postayı ve her yanıtı hazırlar.",
+    "a3d": "Firmaya özel ilk e-postayı ve gelen her cevaba yanıt taslağını yazar.",
     "a4t": "Kurye",
-    "a4d": "Onaylanan e-postaları alan adınızı koruyan bir hızla gönderir.",
+    "a4d": "Onay verdiğiniz e-postaları alan adınızın itibarını koruyacak hızda gönderir.",
     "a5t": "Dinleyici",
     "a5d": "Gelen yanıtları okur ve ne istendiğini çıkarır.",
     "a6t": "Planlayıcı",
-    "a6d": "Toplantıyı kısa bir özetle takviminize ekler.",
+    "a6d": "Toplantıyı kısa bir firma özetiyle birlikte takviminize koyar.",
     "a7t": "Stratejist",
-    "a7d": "Her turu yönetir, neyin sonuç verdiğini öğrenip sonraki aramayı belirler.",
+    "a7d": "Her turu yönetir, hangi aramanın işe yaradığını öğrenir ve sonraki hedefi seçer.",
     "a8t": "Kalkan",
-    "a8d": "KVKK kurallarını, ret taleplerini ve gönderim sınırlarını uygular.",
+    "a8d": "KVKK kurallarına, listeden çıkmak isteyenlere ve günlük gönderim sınırlarına uyulmasını sağlar.",
     "f1t": "Kendi kendine çalışan ajan ekibi",
-    "f1d": "Sekiz ajan bir tur boyunca birbirine iş devreder. Hangi ajanın o anda ne yaptığını ve kime ne ilettiğini ekranda canlı izlersiniz.",
+    "f1d": "Sekiz ajan bir arama turu boyunca işi birbirine devreder. Hangi ajanın şu an ne üzerinde çalıştığını ve kime ne aktardığını ekranda anlık görürsünüz.",
     "f2t": "Doğru firmayı bulma ve puanlama",
-    "f2d": "Firmalar Google Haritalar'daki işletme kayıtlarından bulunur. Analist her firmanın sitesini okur ve 0–100 arası puanı gerekçesiyle birlikte verir; eşiği siz belirlersiniz.",
-    "f3t": "Kişiye özel e-postalar, sizin onayınızla",
-    "f3d": "Yazar her firma için ayrı bir ilk e-posta ve yanıt taslakları hazırlar, konu satırlarını A/B testiyle dener. Taslaklar onay ekranına düşer; düzeltip gönderirsiniz.",
+    "f2d": "Firmalar Google Haritalar'daki işletme kayıtları üzerinden bulunur. Analist her sitenin içeriğine bakıp 0–100 arası bir puan ve bu puanın nedenini yazar; hangi puanın üstünün değerlendirileceğine siz karar verirsiniz.",
+    "f3t": "Her firmaya ayrı e-posta, son söz sizde",
+    "f3d": "Yazar her firma için ayrı bir ilk mesaj ve cevap taslakları hazırlar; hangi konu başlığının daha çok açıldığını A/B denemesiyle ölçer. Taslaklar onay ekranında sizi bekler, düzeltip gönderirsiniz.",
     "f4t": "Yanıttan toplantıya",
-    "f4d": "Dinleyici gelen yanıtın ne istediğini anlar; Planlayıcı toplantıyı takviminize ekler ve görüşmeden önce firmayı anlatan tek sayfalık bir özet hazırlar.",
-    "f5t": "Satış hattı ve geri kazanım",
-    "f5d": "Fırsatlar sürükle-bırak bir satış hattında aşama aşama ilerler. Eski müşteri listenizi yükleyip onlara geri kazanım e-postaları da gönderebilirsiniz.",
+    "f4d": "Dinleyici gelen cevabın ne istediğini anlar; Planlayıcı uygun saati takviminize işler ve görüşmeden önce o firmayı anlatan bir sayfalık not çıkarır.",
+    "f5t": "Satış takibi ve eski müşterileri geri kazanma",
+    "f5d": "Fırsatlar, kartları sürükleyerek ilerlettiğiniz bir satış panosunda aşama aşama takip edilir. Eski müşteri listenizi yükleyerek onlara yeniden ulaşan e-postalar da hazırlatabilirsiniz.",
     "sec": {
       "title": "Kontrol sizde: hiçbir e-posta habersiz gitmez.",
-      "i1": "Kalkan ajanı KVKK kurallarını, ret taleplerini ve gönderim sınırlarını uygular.",
-      "i2": "Gerçek gönderimden önce her şeyi test modunda deneyebilirsiniz.",
-      "i3": "Gmail, Outlook veya başka bir e-posta kutusu; Google Takvim ve Outlook; Slack ve Teams bildirimleri."
+      "i1": "Kalkan ajanı KVKK'ya, abonelikten çıkma isteklerine ve gönderim sınırlarına uyulmasını denetler.",
+      "i2": "Gerçek gönderime geçmeden önce her şeyi deneme modunda çalıştırıp sonuçlarını görebilirsiniz.",
+      "i3": "Gmail, Outlook veya kendi e-posta kutunuz; Google Takvim ve Outlook takvimi; Slack ve Microsoft Teams'e bildirim."
     },
     "faq": {
       "title": "AddJarvis hakkında sık sorulanlar",
       "q1": "AddJarvis satış ekibimin yerini mi alır?",
-      "a1": "Hayır. Araştırma, ön eleme ve ilk taslakları AddJarvis üstlenir; görüşmeler, teklifler ve müşteri ilişkisi ekibinizde kalır.",
+      "a1": "Hayır. Firma araştırması, uygun olanları ayıklama ve ilk taslaklar AddJarvis'te; görüşmeyi yapmak, teklif vermek ve müşteriyle ilişkiyi yürütmek ekibinizde kalır.",
       "q2": "E-postalar otomatik mi gönderiliyor?",
-      "a2": "Varsayılan olarak hayır: her taslak gönderilmeden önce onayınıza gelir. İsterseniz onay adımını ayarlardan kapatıp belirli işleri otomatiğe bırakabilirsiniz.",
+      "a2": "Başlangıç ayarında hayır; her taslak önce onayınıza gelir. İsterseniz onay adımını kapatıp belirli e-posta türlerini otomatik gönderime bırakabilirsiniz.",
       "q3": "Hangi dillerde çalışıyor?",
-      "a3": "Arayüz ve e-postalar Türkçe ve İngilizcedir.",
-      "q4": "AddJarvis işe yarıyor mu, sonuç verdi mi?",
-      "a4": "Farklı sektörlerdeki B2B firmalarla yaptığımız uygulamada müşteri bulma oranı yaklaşık %70 arttı. Sonuç sektöre ve hedef müşteri tanımına göre değişir; demo görüşmesinde sizin sektörünüz üzerinden konuşuruz.",
+      "a3": "Kullanım ekranları ve yazılan e-postalar Türkçe ya da İngilizce olabilir.",
+      "q4": "AddJarvis'i kullanmaya nasıl başlarız?",
+      "a4": "Önce ücretsiz bir demo görüşmesi yaparız: hedef müşteri tanımınızı birlikte çıkarır, ajanları sizin sektörünüzden örnek firmalarla çalıştırırız. Ardından deneme modunda başlayıp sonuçları birlikte değerlendiririz.",
       "q5": "AddJarvis'in fiyatı ne kadar?",
       "a5": "Fiyat kullanıcı sayısına ve aylık gönderim hacmine göre belirlenir. Demo görüşmesinden sonra firmanıza özel yazılı teklif veriyoruz; demo ücretsizdir."
     },
