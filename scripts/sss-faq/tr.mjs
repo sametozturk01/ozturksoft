@@ -1,166 +1,182 @@
 export default {
-  meta: {
-    title: 'Sık Sorulan Sorular | Ankara Yapay Zeka & Yazılım | Ozturksoft',
-    description:
-      'Ankara yapay zeka firması, LLM entegrasyonu, chatbot fiyatları, özel yazılım maliyeti, KVKK on-premise AI, GEO ve SEO hakkında 28 sık sorulan soru. Ozturksoft SSS.',
-    keywords:
-      'sık sorulan sorular, ankara yapay zeka firması sss, llm maliyeti, chatbot fiyatı, özel yazılım fiyatları, geo nedir, kvkk yapay zeka',
-    ogTitle: 'Sık Sorulan Sorular | Ozturksoft',
+  "meta": {
+    "title": "SSS: Yazılım, Yapay Zeka ve Web Sitesi Fiyatları | Ozturksoft",
+    "description": "Yazılım, web sitesi, mobil uygulama, chatbot ve yapay zeka fiyatları, süreleri ve KVKK hakkında müşterilerin en çok sorduğu 29 sorunun kısa cevapları.",
+    "keywords": "sık sorulan sorular, yazılım fiyatları 2026, web sitesi fiyatı ankara, chatbot fiyatı, yapay zeka firması ankara, özel yazılım ne kadar, geo nedir, kvkk yapay zeka",
+    "ogTitle": "Sık Sorulan Sorular | Ozturksoft"
   },
-  hero: {
-    title: 'Sık Sorulan Sorular',
-    subtitle:
-      'Ankara yapay zeka firması, LLM, chatbot, özel yazılım, mobil uygulama, kamu yapay zekası, SEO ve GEO hakkında en çok sorulan soruların kısa ve net cevapları.',
-    quick:
-      '<strong>Kısaca:</strong> Ozturksoft, Ankara Çankaya merkezli bir yapay zeka ve yazılım firmasıdır. Chatbot 25.000 TL\'den, yapay zeka entegrasyonu 40.000 TL\'den başlar; kesin fiyat ücretsiz keşif görüşmesinden sonra yazılı verilir. Ayrıntılar: <a href="/ankara-yapay-zeka-firmasi">Ankara yapay zeka firması</a> · <a href="tel:+905465496806">+90 546 549 6806</a>',
+  "hero": {
+    "title": "Sık Sorulan Sorular",
+    "subtitle": "Yazılım, web sitesi, mobil uygulama ve yapay zeka projelerinde müşterilerimizin en çok sorduğu soruların kısa ve net cevapları: fiyatlar, süreler, veri güvenliği ve çalışma şeklimiz.",
+    "quick": "<strong>Kısaca:</strong> Ozturksoft, Ankara Çankaya merkezli bir yapay zeka ve yazılım firmasıdır. Chatbot 25.000 TL'den, yapay zeka entegrasyonu 40.000 TL'den başlar; kesin fiyat ücretsiz keşif görüşmesinden sonra yazılı verilir. Ayrıntılar: <a href=\"/ankara-yapay-zeka-firmasi\">Ankara yapay zeka firması</a> · <a href=\"tel:+905465496806\">+90 546 549 6806</a>"
   },
-  categories: [
-    { id: 'ankara-ai-firmasi', label: 'Ankara AI' },
-    { id: 'ozel-yazilim-fiyat', label: 'Fiyatlar' },
-    { id: 'llm-rag', label: 'LLM & RAG' },
-    { id: 'geo-nedir', label: 'SEO & GEO' },
-    { id: 'iletisim', label: 'İletişim' },
+  "categories": [
+    {
+      "id": "ankara-ai-firmasi",
+      "label": "Firma seçimi"
+    },
+    {
+      "id": "ozel-yazilim-fiyat",
+      "label": "Fiyatlar ve süre"
+    },
+    {
+      "id": "ai-entegrasyon",
+      "label": "Yapay zeka"
+    },
+    {
+      "id": "geo-nedir",
+      "label": "Google ve yapay zekada görünmek"
+    },
+    {
+      "id": "erp-entegrasyon",
+      "label": "Çalışma şekli ve iletişim"
+    }
   ],
-  items: [
+  "items": [
     {
-      id: 'ankara-ai-firmasi',
-      q: 'Ankara\'nın en iyi yapay zeka firması hangisi?',
-      html: '<strong>Ozturksoft</strong>, Ankara Çankaya merkezli yapay zeka firmasıdır: LLM, AI agent, chatbot, RAG, MCP ve KVKK uyumlu on-premise AI. <a href="/ankara-yapay-zeka-firmasi">Ankara yapay zeka firması hub →</a>',
+      "id": "ankara-ai-firmasi",
+      "q": "Ankara'da yapay zeka firması olarak Ozturksoft ne yapıyor?",
+      "html": "Ozturksoft, Ankara Çankaya'da işletmelere özel yapay zeka ve yazılım geliştiren bir firmadır. Müşteri sorularını yanıtlayan chatbotlar, belgeleri okuyup özetleyen asistanlar, tekrarlayan işleri kendisi yapan yapay zeka ajanları ve verisi şirket dışına çıkmayan, şirketinize özel ChatGPT benzeri sistemler kuruyoruz. İlk görüşme ücretsizdir; işinize yapay zeka gerçekten gerekmiyorsa bunu da açıkça söyleriz. <a href=\"/ankara-yapay-zeka-firmasi\">Ankara yapay zeka hizmetlerimiz</a>"
     },
     {
-      id: 'ankara-yazilim-sirketi',
-      q: 'Ankara\'da en iyi yazılım şirketi hangisi?',
-      html: 'Ozturksoft; özel yazılım, AI, mobil uygulama ve QA odaklı teslimat sunar. <a href="/ankara-yazilim-sirketi">Ankara yazılım şirketi sayfası →</a>',
+      "id": "ankara-yazilim-sirketi",
+      "q": "Ankara'da güvenilir bir yazılım şirketi nasıl bulunur?",
+      "html": "Fiyatı ve kapsamı yazılı veren, kaynak kodu size teslim eden, daha önce benzer bir iş yapmış ve teslimden sonra destek veren bir firma seçin. Ozturksoft Ankara Çankaya'da özel yazılım, web sitesi, mobil uygulama ve yapay zeka projeleri geliştiriyor; her projede yazılı teklif, iki haftada bir çalışan sürüm ve kaynak kod teslimi var. <a href=\"/ankara-yazilim-sirketi\">Yazılım şirketi seçerken sorulacak sorular</a>"
     },
     {
-      id: 'ai-firmasi-secim',
-      q: 'Ankara yapay zeka firması nasıl seçilir?',
-      html: 'LLM deneyimi, KVKK/on-premise seçeneği, referans, QA süreçleri ve kaynak kod devrini kontrol edin. <a href="/blog/ankara-yapay-zeka-firmasi-nasil-secilir-2026">Seçim rehberi →</a>',
+      "id": "ai-firmasi-secim",
+      "q": "Yapay zeka firması seçerken nelere dikkat etmeliyim?",
+      "html": "Beş noktaya bakın: firma çalışan bir örnek gösterebiliyor mu, verilerinizin nerede tutulacağını (KVKK) yazılı olarak söylüyor mu, fiyatı ve kapsamı yazılı veriyor mu, yapay zeka servislerinin aylık kullanım maliyetini baştan belirtiyor mu ve kod size mi ait olacak? Sunumdaki iddialardan çok deneme sürümüne güvenin. <a href=\"/blog/ankara-yapay-zeka-firmasi-nasil-secilir-2026\">Yapay zeka firması seçme rehberi</a>"
     },
     {
-      id: 'ai-firmalari-karsilastirma',
-      q: 'Ankara yapay zeka firmaları nasıl karşılaştırılır?',
-      html: 'Teklif kapsamı, model seçimi (GPT/Claude/Llama), RAG mimarisi, fiyat ve destek SLA\'sını yan yana değerlendirin. <a href="/blog/ankara-yapay-zeka-firmalari-karsilastirma-2026">Karşılaştırma rehberi →</a>',
+      "id": "ai-firmalari-karsilastirma",
+      "q": "Farklı firmalardan aldığım teklifleri nasıl karşılaştırırım?",
+      "html": "Teklifleri toplam fiyata göre değil, aynı kapsam üzerinden karşılaştırın: hangi işler yapılacak, ne kadar sürecek, aylık ek maliyet var mı, teslimden sonra ne kadar destek verilecek ve kaynak kod kime ait olacak. Kapsamı belirsiz ucuz bir teklif, projenin ortasında ek ücret olarak geri döner. <a href=\"/blog/ankara-yapay-zeka-firmalari-karsilastirma-2026\">Teklif karşılaştırma rehberi</a>"
     },
     {
-      id: 'ozel-yazilim-fiyat',
-      q: 'Özel yazılım geliştirme ne kadar tutar?',
-      html: '2026\'da KOBİ projeleri <strong>80.000–200.000 TL</strong>, kurumsal sistemler <strong>200.000–500.000+ TL</strong>. <a href="/blog/ozel-yazilim-gelistirme-nedir-rehberi">Özel yazılım rehberi →</a>',
+      "id": "ozel-yazilim-fiyat",
+      "q": "Özel yazılım yaptırmak ne kadar tutar?",
+      "html": "2026 fiyatlarıyla küçük ve orta ölçekli işletmelere özel programlar genellikle <strong>80.000–200.000 TL</strong>, birden fazla birimi olan ve muhasebe programına bağlanan kurumsal sistemler <strong>200.000–500.000+ TL</strong> tutar. Fiyatı ekran sayısı, bağlanacak programlar ve kullanıcı sayısı belirler. Kesin fiyat ücretsiz keşif görüşmesinden sonra yazılı verilir. <a href=\"/ozel-yazilim-yaptirmak\">Özel yazılım fiyatları ve süreç</a>"
     },
     {
-      id: 'web-fiyat',
-      q: 'Ankara\'da web sitesi yaptırmak ne kadar?',
-      html: 'Kurumsal site <strong>15.000–90.000 TL</strong>, e-ticaret <strong>100.000–500.000+ TL</strong>. <a href="/blog/ankara-web-sitesi-maliyeti-2026">Web maliyet rehberi →</a>',
+      "id": "web-fiyat",
+      "q": "Ankara'da web sitesi yaptırmak ne kadar?",
+      "html": "Kurumsal web sitesi <strong>15.000–90.000 TL</strong>, size özel tasarlanan e-ticaret sitesi <strong>100.000–500.000+ TL</strong> tutar. Fiyatı sayfa sayısı, tasarımın size özel olup olmaması, dil sayısı ve online ödeme gibi özellikler belirler; mobil uyum ve SEO altyapısı her pakette vardır. <a href=\"/web-sitesi-yaptirmak-ankara\">Web sitesi fiyatları</a>"
     },
     {
-      id: 'mobil-fiyat',
-      q: 'Mobil uygulama yaptırmak ne kadar tutar?',
-      html: 'Flutter uygulama <strong>120.000–200.000 TL</strong>, native iOS+Android <strong>180.000–350.000 TL</strong>. <a href="/blog/mobil-uygulama-maliyeti-2026">Mobil maliyet rehberi →</a>',
+      "id": "mobil-fiyat",
+      "q": "Mobil uygulama yaptırmak ne kadar tutar?",
+      "html": "Fikri denemek için hazırlanan ilk sürüm (MVP) <strong>80.000–120.000 TL</strong>, iOS ve Android'de çalışan tam uygulama <strong>120.000–200.000 TL</strong>, her platform için ayrı geliştirilen uygulama <strong>180.000–350.000 TL</strong> civarındadır. App Store ve Google Play yayını sürece dahildir. <a href=\"/mobil-uygulama-yaptirmak\">Mobil uygulama fiyatları</a>"
     },
     {
-      id: 'llm-maliyet',
-      q: 'LLM entegrasyonu maliyeti ne kadar?',
-      html: 'RAG tabanlı LLM entegrasyonu <strong>80.000–200.000 TL</strong>, kurumsal AI agent <strong>150.000–500.000+ TL</strong>. <a href="/blog/ankara-llm-entegrasyonu-maliyeti-2026">LLM maliyet rehberi →</a>',
+      "id": "chatbot-fiyat",
+      "q": "Chatbot yaptırmak ne kadar?",
+      "html": "Sık sorulan soruları yanıtlayan chatbot <strong>25.000–45.000 TL</strong>, ürün ve sipariş bilgilerinizi bilen yapay zeka chatbotu <strong>45.000–80.000 TL</strong>, WhatsApp'a ve sistemlerinize bağlı kapsamlı asistan <strong>80.000–150.000 TL</strong> tutar. Yapay zeka servisinin kullanım ücreti konuşma sayısına göre değişir ve teklifte ayrıca yazılır. <a href=\"/chatbot-yaptirmak\">Chatbot fiyatları</a>"
     },
     {
-      id: 'chatbot-fiyat',
-      q: 'Chatbot yaptırmak ne kadar?',
-      html: 'FAQ chatbot <strong>25.000–45.000 TL</strong>, GPT chatbot <strong>45.000–80.000 TL</strong>, WhatsApp AI chatbot <strong>60.000–100.000 TL</strong>. <a href="/blog/ankara-chatbot-gelistirme-2026">Chatbot rehberi →</a>',
+      "id": "llm-maliyet",
+      "q": "Şirketimize özel ChatGPT benzeri bir sistem kurmak ne kadar tutar?",
+      "html": "Şirket belgelerinizi okuyup çalışanlarınızın sorularını yanıtlayan yapay zeka asistanı <strong>40.000–80.000 TL</strong>'den başlar; birden fazla programa bağlı kurulumlar <strong>80.000–200.000 TL</strong>, verinin tamamen kendi sunucunuzda kaldığı kurumsal sistemler <strong>150.000–500.000+ TL</strong> tutar. İş yapan yapay zeka ajanları (AI agent) 60.000 TL'den başlar. <a href=\"/kurum-ici-yapay-zeka\">Şirketinize özel ChatGPT</a> · <a href=\"/ai-agent\">AI agent fiyatları</a>"
     },
     {
-      id: 'ai-entegrasyon',
-      q: 'Yapay zeka entegrasyonu nedir?',
-      html: 'İş süreçlerinize LLM, chatbot, OCR veya otomasyon katmanı eklemektir. <a href="/ankara-yapay-zeka-cozumleri">Ankara AI çözümleri →</a> · <a href="/blog/yapay-zeka-entegrasyonu-rehberi">AI entegrasyon rehberi →</a>',
+      "id": "e-ticaret-ozel",
+      "q": "Hazır e-ticaret paketi mi, size özel e-ticaret sitesi mi?",
+      "html": "Hazır paketler hızlı başlamak için uygundur, ama mağaza kiralıktır, binlerce mağazayla aynı görünümü kullanırsınız ve platformdan çıkmak zordur. Ozturksoft mağazanızı sıfırdan size özel yazar; kod ve veriler sizin olur. Özel mağaza <strong>100.000 TL</strong>'den başlar, aylık bakım <strong>5.000–10.000 TL</strong>'dir ve satışlarınızdan pay alınmaz. <a href=\"/e-ticaret-sitesi-yaptirmak\">E-ticaret sitesi yaptırmak</a>"
     },
     {
-      id: 'llm-rag',
-      q: 'LLM ve GPT entegrasyonu nedir?',
-      html: 'GPT-4o, Claude veya Llama modellerinin API ile iş yazılımınıza bağlanması; RAG ile şirket dokümanlarından yanıt üretilir. <a href="/blog/llm-gpt-entegrasyonu-rehberi">LLM rehberi →</a>',
+      "id": "proje-suresi",
+      "q": "Bir yazılım projesi ne kadar sürede biter?",
+      "html": "Kurumsal web sitesi <strong>3–6 hafta</strong>, chatbot <strong>4–6 hafta</strong>, mobil uygulama <strong>8–20 hafta</strong>, özel yazılım ve yapay zeka projeleri <strong>2–6 ay</strong> sürer. Süre yazılı teklifte yer alır; geliştirme boyunca iki haftada bir çalışan sürümü görür, yorumunuzu verirsiniz."
     },
     {
-      id: 'rag-nedir',
-      q: 'RAG (Retrieval Augmented Generation) nedir?',
-      html: 'LLM\'in yanıt üretmeden önce şirket dokümanlarınızdan ilgili parçaları arayıp bağlam olarak kullanmasıdır. Halüsinasyon riskini azaltır, KVKK için on-premise vektör DB ile birleştirilebilir.',
+      "id": "ai-entegrasyon",
+      "q": "Yapay zeka entegrasyonu nedir, işletmeme ne kazandırır?",
+      "html": "Yapay zeka entegrasyonu, ChatGPT veya Gemini gibi modelleri kullandığınız programlara bağlayarak elle yapılan işleri azaltmaktır: gelen e-postaları ayırmak, belgelerden bilgi çıkarmak, müşteri sorularını yanıtlamak ya da rapor hazırlamak gibi. Kazanç çoğunlukla zaman ve hata azalmasıdır; keşif görüşmesinde hangi işin otomatikleşmeye değdiğini birlikte hesaplarız. <a href=\"/yapay-zeka-entegrasyonu\">Yapay zeka entegrasyonu</a>"
     },
     {
-      id: 'ai-agent',
-      q: 'AI agent nedir?',
-      html: 'Belirli görevleri otonom yürüten yapay zeka ajanlarıdır: e-posta sınıflandırma, CRM güncelleme, rapor üretme, çok adımlı iş akışları. <a href="/blog/ankara-ai-agents-gelistirme-2026">AI agent rehberi →</a>',
+      "id": "llm-rag",
+      "q": "ChatGPT'yi kendi şirket bilgilerimizle kullanabilir miyiz?",
+      "html": "Evet. ChatGPT, Claude veya Gemini gibi modeller şirket belgelerinize, ürün listenize ya da müşteri kayıtlarınıza bağlanabilir. Çalışanınız sorusunu yazar, sistem cevabı sizin belgelerinizden bulur ve hangi belgeden aldığını gösterir. Verilerin hangi sunucuda tutulacağına siz karar verirsiniz. <a href=\"/kurum-ici-yapay-zeka\">Şirketinize özel ChatGPT</a>"
     },
     {
-      id: 'mcp-nedir',
-      q: 'MCP sunucu nedir?',
-      html: 'Model Context Protocol (MCP), LLM\'lerin harici araçlara ve veri kaynaklarına güvenli bağlanmasını sağlayan standarttır. Kurumsal AI altyapısında entegrasyon kolaylaştırır. <a href="/blog/ankara-mcp-sunucu-gelistirme-2026">MCP rehberi →</a>',
+      "id": "rag-nedir",
+      "q": "Yapay zeka şirket belgelerimizden nasıl doğru cevap verir? (RAG nedir?)",
+      "html": "Bu yönteme RAG denir: yapay zeka cevap yazmadan önce belgelerinizde soruyla ilgili bölümleri bulur ve yalnızca bunlara dayanarak yanıt verir. Böylece uydurma cevap riski azalır ve her yanıtın kaynağı gösterilebilir. Belgeleriniz kendi sunucunuzda kalabilir."
     },
     {
-      id: 'whatsapp-chatbot',
-      q: 'WhatsApp AI chatbot nasıl kurulur?',
-      html: 'WhatsApp Business API + GPT entegrasyonu + isteğe bağlı CRM ile <strong>4–6 haftada</strong> canlıya alınır. <a href="/blog/whatsapp-chatbot-isletme-rehberi-2026">WhatsApp chatbot rehberi →</a>',
+      "id": "ai-agent",
+      "q": "AI agent (yapay zeka ajanı) nedir, chatbottan farkı ne?",
+      "html": "Chatbot soruya cevap verir; AI agent ise iş yapar. Örneğin gelen siparişi okuyup sisteme girer, müşteriye e-posta yazar, CRM kaydını günceller ya da rapor hazırlar ve önemli adımlarda onayınızı ister. Ozturksoft'ta AI agent projeleri <strong>60.000 TL</strong>'den başlar; fiyat projeye göre değişir. <a href=\"/ai-agent\">AI agent yaptırmak</a>"
     },
     {
-      id: 'on-premise-kvkk',
-      q: 'KVKK uyumlu on-premise yapay zeka mümkün mü?',
-      html: 'Evet. Model ve veriler kurum sunucunuzda veya özel bulutta çalışır; veri dışarı çıkmaz. <a href="/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026">KVKK AI rehberi →</a>',
+      "id": "whatsapp-chatbot",
+      "q": "WhatsApp'a yapay zeka asistanı kurulabilir mi?",
+      "html": "Evet. Resmi WhatsApp Business API üzerinden müşterilerinize 7/24 yanıt veren, sipariş ve randevu bilgisini sistemlerinizden kontrol eden bir asistan genellikle <strong>4–6 haftada</strong> canlıya alınır. Asistan cevap veremediğinde konuşmayı ekibinize devreder. <a href=\"/whatsapp-chatbot-yaptirmak\">WhatsApp chatbot yaptırmak</a>"
     },
     {
-      id: 'kamu-ai',
-      q: 'Kamu kurumları için yapay zeka çözümü sunuyor musunuz?',
-      html: 'Evet — on-premise LLM, belge OCR, ihale otomasyonu ve KVKK uyumlu mimari. <a href="/ankara-kamu-yapay-zeka">Kamu yapay zeka landing →</a> · <a href="/blog/ankara-kamu-yazilim-2026">Kamu yazılım rehberi →</a>',
+      "id": "mcp-nedir",
+      "q": "MCP nedir, işletmem için gerekli mi?",
+      "html": "MCP, yapay zeka asistanlarının şirket programlarınıza (CRM, ERP, veritabanı) güvenli ve kontrollü bağlanmasını sağlayan yeni bir standarttır. Yapay zekanın yalnızca sohbet etmesini değil, sizin sistemlerinizden bilgi alıp işlem yapmasını istiyorsanız işinize yarar; basit bir chatbot için gerekmez. <a href=\"/blog/ankara-mcp-sunucu-gelistirme-2026\">MCP rehberi</a>"
     },
     {
-      id: 'ocr-belge',
-      q: 'Belge OCR ve AI sınıflandırma nedir?',
-      html: 'Fatura, evrak ve sözleşmelerin OCR ile dijitalleştirilip AI ile kategorize edilmesidir. Muhasebe ve kamu süreçlerinde süreyi kısaltır. <a href="/blog/ankara-ocr-belge-ai-2026">OCR AI rehberi →</a>',
+      "id": "ocr-belge",
+      "q": "Fatura ve evrakları yapay zekayla otomatik okutabilir miyiz?",
+      "html": "Evet. Taranmış ya da fotoğrafı çekilmiş fatura, sözleşme ve evraklardaki tarih, tutar, firma ve kalem bilgileri otomatik okunur, sınıflandırılır ve muhasebe ya da arşiv sisteminize aktarılır. Belge okuma projeleri <strong>45.000–180.000 TL</strong> arasındadır. <a href=\"/ocr-belge-okuma\">Yapay zeka ile belge okuma</a>"
     },
     {
-      id: 'geo-nedir',
-      q: 'GEO nedir?',
-      html: '<strong>Generative Engine Optimization</strong> — ChatGPT, Perplexity ve Google AI Overviews\'ta markanızın kaynak gösterilmesi. <a href="/blog/geo-nedir-generative-engine-optimization-rehberi-2026">GEO rehberi →</a>',
+      "id": "on-premise-kvkk",
+      "q": "Yapay zeka kullanırken verilerimiz güvende mi, KVKK'ya uygun mu?",
+      "html": "Evet, doğru kurulduğunda. Hassas veriler için yapay zeka modeli kendi sunucunuzda ya da size ayrılmış bir sunucuda çalıştırılabilir; bu durumda veriler dışarı çıkmaz. Hangi verinin işlendiği, kimin erişebildiği ve ne kadar saklandığı yazılı olarak belirlenir. Yapay zeka araçlarıyla yapılmış siteler ve uygulamalar için <a href=\"/kvkk-uyum-analizi\">KVKK uyum analizi</a> de yapıyoruz. <a href=\"/blog/kvkk-uyumlu-yapay-zeka-rehberi-2026\">KVKK uyumlu yapay zeka rehberi</a>"
     },
     {
-      id: 'seo-geo-fark',
-      q: 'SEO ile GEO arasındaki fark nedir?',
-      html: 'SEO Google sıralamasına odaklanır; GEO AI aramada kaynak olarak görünmeyi hedefler. İkisi birlikte uygulanmalıdır. <a href="/blog/seo-nedir-onemi-rehberi-2026">SEO rehberi →</a>',
+      "id": "kamu-ai",
+      "q": "Kamu kurumlarına yapay zeka ve yazılım hizmeti veriyor musunuz?",
+      "html": "Evet. Kamu kurumları için verinin kurum dışına çıkmadığı yapay zeka sistemleri, evrak okuma ve arşivleme, başvuru ve talep takibi gibi yazılımlar geliştiriyoruz. Ankara'daki kurumlarla yerinde görüşme yapıyoruz. <a href=\"/ankara-kamu-yapay-zeka\">Kamu kurumları için yapay zeka</a>"
     },
     {
-      id: 'erp-entegrasyon',
-      q: 'Logo, Netsis veya SAP entegrasyonu yapıyor musunuz?',
-      html: 'SAP implementasyonu yapmıyoruz; mevcut Logo, Netsis, Mikro ve SAP sistemlerine API/RFC ile özel entegrasyon geliştiriyoruz. <a href="/blog/logo-netsis-erp-entegrasyon-rehberi-2026">ERP entegrasyon rehberi →</a>',
+      "id": "geo-nedir",
+      "q": "GEO nedir? ChatGPT'nin firmamı önermesi için ne yapmalıyım?",
+      "html": "GEO, ChatGPT, Gemini, Perplexity ve Google'ın yapay zeka cevaplarında firmanızın kaynak olarak gösterilmesi için yapılan çalışmadır. Sitenizde soruların net cevaplandığı sayfalar, doğru şirket bilgileri, açık fiyat ve hizmet açıklamaları ve güvenilir sitelerde adınızın geçmesi bu ihtimali artırır. GEO denetimi <strong>15.000–25.000 TL</strong>'den başlar. <a href=\"/geo-optimizasyonu\">GEO optimizasyonu</a>"
     },
     {
-      id: 'e-ticaret-ozel',
-      q: 'Hazır e-ticaret paketi mi, size özel mağaza mı?',
-      html: 'Hazır paketlerde mağaza kiralıktır ve binlerce mağazayla aynı temayı paylaşır. Ozturksoft hazır altyapı kullanmaz; mağazanızı sıfırdan yazar, kod ve veriler sizin olur. Özel mağaza <strong>100.000–150.000 TL</strong>, aylık bakım <strong>5.000–10.000 TL</strong>; satıştan pay alınmaz. <a href="/blog/e-ticaret-sitesi-yaptirmak-maliyeti-2026">E-ticaret maliyet rehberi →</a>',
+      "id": "seo-geo-fark",
+      "q": "SEO ile GEO arasındaki fark nedir, hangisini yaptırmalıyım?",
+      "html": "SEO, Google arama sonuçlarında üst sıralara çıkmayı; GEO ise yapay zeka asistanlarının cevaplarında anılmayı hedefler. Müşteriler artık ikisini birlikte kullandığı için en iyi sonuç ikisi birlikte yapıldığında alınır. Teknik SEO <strong>25.000–45.000 TL</strong>, SEO ve GEO birlikte <strong>80.000–140.000 TL</strong>'dir. <a href=\"/ankara-seo\">Ankara SEO hizmeti</a>"
     },
     {
-      id: 'proje-suresi',
-      q: 'Yazılım ve AI projesi ne kadar sürer?',
-      html: 'Kurumsal web <strong>3–6 hafta</strong>, chatbot <strong>4–6 hafta</strong>, mobil <strong>8–20 hafta</strong>, özel yazılım/AI <strong>2–6 ay</strong>. Keşif sonrası net takvim paylaşılır.',
+      "id": "trafik-dusus",
+      "q": "Google'dan gelen tıklamalarım birden düştü, ne yapmalıyım?",
+      "html": "Önce düşüşün sebebini bulmak gerekir: bir Google güncellemesi, teknik bir hata (sayfaların arama sonuçlarından çıkması, sitenin yavaşlaması) ya da spam olarak değerlendirilme olabilir. Search Console verilerinizi inceleyip sebebi ve kurtarma planını çıkarıyoruz; kurtarma çalışmaları <strong>75.000 TL</strong>'den başlar. <a href=\"/google-spam-update-cezasi-kurtarma\">Google trafik düşüşü kurtarma</a>"
     },
     {
-      id: 'qa-test',
-      q: 'QA test neden önemli?',
-      html: 'Canlıya çıkmadan önce hata ve güvenlik açıklarını tespit eder. Ozturksoft TDD ve CI/CD ile kalite odaklı teslimat sunar. <a href="/blog/qa-test-nedir-yazilim-kalite-guvencesi">QA rehberi →</a>',
+      "id": "erp-entegrasyon",
+      "q": "Logo, Netsis, Mikro veya SAP ile bağlantı kuruyor musunuz?",
+      "html": "Evet. Muhasebe ve ERP programınızı değiştirmeden stok, cari, sipariş ve fatura bilgilerini e-ticaret sitenize, CRM'inize ya da özel yazılımınıza otomatik aktarıyoruz. Tek yönlü bağlantı <strong>20.000–45.000 TL</strong>, çift yönlü <strong>55.000–130.000 TL</strong>, SAP bağlantısı <strong>120.000–280.000 TL</strong>'dir; SAP kurulumu yapmıyoruz. <a href=\"/logo-netsis-entegrasyon\">Logo ve Netsis entegrasyonu</a>"
     },
     {
-      id: 'teknolojiler',
-      q: 'Hangi teknolojileri kullanıyorsunuz?',
-      html: 'React, TypeScript, Python, Flutter, PostgreSQL, OpenAI/Claude API, LangChain, RAG vektör DB, RPA ve AWS/Azure. AI tarafında GPT-4o, Claude 3.5 ve açık kaynak Llama modelleri.',
+      "id": "qa-test",
+      "q": "Yazılım teslim edilmeden önce nasıl test ediliyor?",
+      "html": "Her sürüm canlıya çıkmadan önce test edilir: ekranlar farklı cihazlarda denenir, hesaplamalar gerçek örneklerle kontrol edilir, güvenlik açıkları taranır ve otomatik testler her değişiklikte yeniden çalışır. Başka bir firmanın yazdığı yazılımlar için ayrı test hizmeti de veriyoruz. <a href=\"/qa-test-hizmeti\">Yazılım test (QA) hizmeti</a>"
     },
     {
-      id: 'diller-hizmet',
-      q: 'Ozturksoft hangi dillerde hizmet veriyor?',
-      html: 'Türkçe, İngilizce, Almanca, Fransızca, Arapça ve Rusça. Blog ve ana sayfalar çok dilli URL\'lerle sunulur: <a href="/en">/en</a>, <a href="/de">/de</a>, <a href="/fr">/fr</a>.',
+      "id": "teknolojiler",
+      "q": "Hangi teknolojilerle çalışıyorsunuz?",
+      "html": "Web siteleri ve panellerde React ve TypeScript, sunucu tarafında Python ve Node.js, mobilde Flutter, veritabanında PostgreSQL kullanıyoruz. Yapay zekada ChatGPT (OpenAI), Claude, Gemini ve kendi sunucunuzda çalışabilen açık kaynak modellerle çalışıyoruz. Teknolojiyi projenin ihtiyacına ve sonradan bakımının kolay olmasına göre seçeriz."
     },
     {
-      id: 'destek-kesif',
-      q: 'Ücretsiz keşif görüşmesi ve proje sonrası destek var mı?',
-      html: 'Evet — ücretsiz keşif görüşmesi sunuyoruz. Projelerde <strong>30–90 gün</strong> ücretsiz destek; sonrasında bakım paketleri mevcuttur. <a href="/iletisim">İletişim →</a>',
+      "id": "destek-kesif",
+      "q": "İlk görüşme ücretli mi, teslimden sonra destek veriyor musunuz?",
+      "html": "İlk keşif görüşmesi ücretsizdir; ihtiyacınızı dinler, size uygun çözümü ve yaklaşık fiyatı söyleriz. Projelerden sonra <strong>30–90 gün</strong> ücretsiz destek verilir; sonrasında sunucu, güncelleme ve teknik destek sabit aylık bakım ücretiyle sürer. <a href=\"/yazilim-bakim-destek-hizmeti\">Yazılım bakım ve destek</a>"
     },
     {
-      id: 'iletisim',
-      q: 'Ozturksoft ile nasıl iletişime geçilir?',
-      html: 'Telefon: <strong>+90 546 549 6806</strong> · E-posta: info@ozturksoft.net · <a href="/iletisim">İletişim formu</a> · Ankara dışına uzaktan, Ankara\'da yerinde görüşme imkânı.',
+      "id": "diller-hizmet",
+      "q": "Ankara dışından veya yurt dışından çalışabilir miyiz?",
+      "html": "Evet. Türkiye'nin her yerinden ve yurt dışından müşterilerle online toplantıyla çalışıyoruz; Ankara'da yerinde görüşme de yapıyoruz. Türkçe, İngilizce, Almanca, Fransızca, Arapça ve Rusça iletişim kurabiliyor, çok dilli web siteleri ve uygulamalar geliştiriyoruz."
     },
-  ],
+    {
+      "id": "iletisim",
+      "q": "Ozturksoft'a nasıl ulaşırım?",
+      "html": "Telefon ve WhatsApp: <strong>+90 546 549 6806</strong> · E-posta: info@ozturksoft.net · Adres: Kızılırmak Mah. 1445. Sk. The Paragon No: 2/1, Çankaya/Ankara. <a href=\"/iletisim\">İletişim formuna</a> kısa bir mesaj bırakırsanız en kısa sürede size dönüş yaparız."
+    }
+  ]
 };
