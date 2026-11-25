@@ -432,6 +432,10 @@
       "t4": "#CriticalInfrastructure",
       "t5": "#HighAvailability",
       "t6": "#GlobalArchitecture"
+    },
+    "directory": {
+      "title": "All our services",
+      "desc": "Find the service you need by category; every page lists price ranges, timelines and FAQs."
     }
   },
   "contactPage": {
@@ -642,8 +646,18 @@
       "dashboard": "Reporting dashboards",
       "saas": "SaaS development",
       "voiceAi": "AI voice assistant",
-      "kvkkAudit": "KVKK compliance audit"
-    }
+      "kvkkAudit": "KVKK compliance audit",
+      "mobile": "Mobile apps",
+      "academic": "Academic research software"
+    },
+    "groups": {
+      "ai": "Artificial Intelligence",
+      "software": "Software",
+      "ecom": "E-commerce & Integrations",
+      "visibility": "Visibility & Compliance",
+      "company": "Company"
+    },
+    "allServices": "All services →"
   },
   "aiFirmPage": {
     "meta": {

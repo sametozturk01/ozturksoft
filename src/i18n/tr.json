@@ -432,6 +432,10 @@
       "t4": "#KritikAltyapı",
       "t5": "#YüksekErişilebilirlik",
       "t6": "#GlobalMimari"
+    },
+    "directory": {
+      "title": "Tüm hizmetlerimiz",
+      "desc": "Aradığınız hizmeti başlığa göre bulun; her sayfada fiyat aralığı, süre ve sık sorulan sorular yer alır."
     }
   },
   "contactPage": {
@@ -642,8 +646,18 @@
       "dashboard": "Raporlama ve yönetim paneli",
       "saas": "SaaS yazılım yaptırmak",
       "voiceAi": "Sesli yapay zeka asistanı",
-      "kvkkAudit": "KVKK uyum analizi"
-    }
+      "kvkkAudit": "KVKK uyum analizi",
+      "mobile": "Mobil uygulama",
+      "academic": "Akademik araştırma yazılımı"
+    },
+    "groups": {
+      "ai": "Yapay Zeka",
+      "software": "Yazılım",
+      "ecom": "E-ticaret ve Entegrasyon",
+      "visibility": "Görünürlük ve Uyum",
+      "company": "Kurumsal"
+    },
+    "allServices": "Tüm hizmetler →"
   },
   "aiFirmPage": {
     "meta": {

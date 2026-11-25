@@ -432,6 +432,10 @@
       "t4": "#InfrastructureCritique",
       "t5": "#HauteDisponibilité",
       "t6": "#ArchitectureGlobale"
+    },
+    "directory": {
+      "title": "Tous nos services",
+      "desc": "Trouvez le service qu’il vous faut par catégorie ; chaque page indique les fourchettes de prix, les délais et une FAQ."
     }
   },
   "contactPage": {
@@ -642,8 +646,18 @@
       "dashboard": "Tableaux de bord",
       "saas": "Développement SaaS",
       "voiceAi": "Assistant vocal IA",
-      "kvkkAudit": "Audit de conformité KVKK"
-    }
+      "kvkkAudit": "Audit de conformité KVKK",
+      "mobile": "Applications mobiles",
+      "academic": "Logiciels de recherche académique"
+    },
+    "groups": {
+      "ai": "Intelligence artificielle",
+      "software": "Logiciel",
+      "ecom": "E-commerce et intégrations",
+      "visibility": "Visibilité et conformité",
+      "company": "Entreprise"
+    },
+    "allServices": "Tous les services →"
   },
   "aiFirmPage": {
     "meta": {

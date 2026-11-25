@@ -432,6 +432,10 @@
       "t4": "#KritischeInfrastruktur",
       "t5": "#Hochverfügbarkeit",
       "t6": "#GlobaleArchitektur"
+    },
+    "directory": {
+      "title": "Alle unsere Leistungen",
+      "desc": "Finden Sie die passende Leistung nach Kategorie; jede Seite nennt Preisspannen, Dauer und häufige Fragen."
     }
   },
   "contactPage": {
@@ -642,8 +646,18 @@
       "dashboard": "Reporting-Dashboards",
       "saas": "SaaS-Entwicklung",
       "voiceAi": "KI-Sprachassistent",
-      "kvkkAudit": "KVKK-Compliance-Prüfung"
-    }
+      "kvkkAudit": "KVKK-Compliance-Prüfung",
+      "mobile": "Mobile Apps",
+      "academic": "Software für Forschung"
+    },
+    "groups": {
+      "ai": "Künstliche Intelligenz",
+      "software": "Software",
+      "ecom": "E-Commerce & Integrationen",
+      "visibility": "Sichtbarkeit & Compliance",
+      "company": "Unternehmen"
+    },
+    "allServices": "Alle Leistungen →"
   },
   "aiFirmPage": {
     "meta": {
