@@ -99,6 +99,7 @@ ${faqSchema(data.items)}
     <ul class="nav-links" id="navLinks">
       <li><a href="${locale.home}">${locale.nav.home}</a></li>
       <li><a href="${locale.services}">${locale.nav.services}</a></li>
+      <li><a href="/urunler">${locale.nav.products}</a></li>
       <li><a href="${locale.blog}">${locale.nav.blog}</a></li>
       <li><a href="${locale.faq}"${navFaqStyle}>${locale.nav.faq}</a></li>
       <li><a href="${locale.contact}">${locale.nav.contact}</a></li>

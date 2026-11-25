@@ -484,6 +484,41 @@
       "permanent": true
     },
     {
+      "source": "/urunlerimiz",
+      "destination": "/urunler",
+      "permanent": true
+    },
+    {
+      "source": "/products",
+      "destination": "/urunler",
+      "permanent": true
+    },
+    {
+      "source": "/alfaihale",
+      "destination": "/urunler/alfaihale",
+      "permanent": true
+    },
+    {
+      "source": "/ihale-takip-programi",
+      "destination": "/urunler/alfaihale",
+      "permanent": true
+    },
+    {
+      "source": "/ihale-takip-yazilimi",
+      "destination": "/urunler/alfaihale",
+      "permanent": true
+    },
+    {
+      "source": "/urunler/alfaihale/",
+      "destination": "/urunler/alfaihale",
+      "permanent": true
+    },
+    {
+      "source": "/urunler/",
+      "destination": "/urunler",
+      "permanent": true
+    },
+    {
       "source": "/stok-takip-programi",
       "destination": "/stok-takip-programi-yaptirmak",
       "permanent": true

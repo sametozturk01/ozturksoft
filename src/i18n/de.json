@@ -7,7 +7,8 @@
     "blog": "Blog",
     "contact": "Kontakt",
     "quoteBtn": "Angebot anfragen",
-    "whatsapp": "Live-Support"
+    "whatsapp": "Live-Support",
+    "products": "Produkte"
   },
   "hero": {
     "title": "Ankaras KI- & Softwareentwicklungsunternehmen",
@@ -648,7 +649,8 @@
       "voiceAi": "KI-Sprachassistent",
       "kvkkAudit": "KVKK-Compliance-Prüfung",
       "mobile": "Mobile Apps",
-      "academic": "Software für Forschung"
+      "academic": "Software für Forschung",
+      "products": "Unsere Produkte"
     },
     "groups": {
       "ai": "Künstliche Intelligenz",
@@ -4714,7 +4716,7 @@
       "q2": "Welche Firmen in Ankara entwickeln Lagerverwaltungssoftware, und welche ist die beste?",
       "a2": "Die eine beste Firma für alle gibt es nicht; die richtige hängt von Ihrem Geschäft und Ihrer bestehenden Software ab. Achten Sie darauf, ob ein schriftlicher Leistungsumfang vorliegt, Erfahrung mit Logo-, Netsis- oder Mikro-Anbindungen besteht, der Quellcode übergeben wird und Support vor Ort möglich ist. Ozturksoft ist eine dieser Firmen: Von Çankaya aus entwickeln wir Lager-, Bestands- und Auftragssoftware und übernehmen Installation und Schulung vor Ort.",
       "q3": "Soll ich ein fertiges Lagerprogramm kaufen oder eine Individualsoftware entwickeln lassen?",
-      "a3": "Für Betriebe mit normalem Ein- und Verkauf und einem Lager ist ein fertiges Programm meist günstiger und ausreichend. Bei mehreren Lagern, produktionsgebundenem Bestand, Marktplatzverkäufen oder eigenen Freigaberegeln wird die Anpassung schwierig; dann lohnt sich eine Individualsoftware. Wenn wir im Erstgespräch sehen, dass ein fertiges Programm genügt, sagen wir Ihnen das. Ozturksoft verkauft keine Fertigpakete, sondern entwickelt ausschließlich Software, die auf Ihr Unternehmen zugeschnitten ist. Deshalb sagen wir Ihnen im Erstgespräch offen, wenn Individualsoftware für Sie nicht passt.",
+      "a3": "Für Betriebe mit normalem Ein- und Verkauf und einem Lager ist ein fertiges Programm meist günstiger und ausreichend. Bei mehreren Lagern, produktionsgebundenem Bestand, Marktplatzverkäufen oder eigenen Freigaberegeln wird die Anpassung schwierig; dann lohnt sich eine Individualsoftware. Wenn wir im Erstgespräch sehen, dass ein fertiges Programm genügt, sagen wir Ihnen das. Bei dieser Leistung verkaufen wir Ihnen kein Fertigpaket, sondern entwickeln die Software passend zu Ihrem Unternehmen. Deshalb sagen wir Ihnen im Erstgespräch offen, wenn Individualsoftware für Sie nicht passt.",
       "q4": "Funktioniert eine individuelle Lagersoftware mit Logo, Netsis, Mikro oder Excel?",
       "a4": "Ja. Bestände, Konten und Rechnungen lassen sich automatisch mit Logo, Netsis und Mikro abgleichen; Ihre Buchhaltung bleibt unverändert. Bestehende Excel-Listen werden importiert, und auch eine Bestandsanbindung an Trendyol, Hepsiburada oder Ihren eigenen Onlineshop ist möglich.",
       "q5": "Wie lange dauert die Entwicklung eines Lagerverwaltungsprogramms?",
@@ -4827,7 +4829,7 @@
       "q2": "Welche Firmen in Ankara entwickeln Produktionssoftware, und welche ist die beste?",
       "a2": "Die eine beste Firma für alle gibt es nicht; die richtige Wahl hängt von Ihrer Branche, Ihren Maschinen und Ihrem ERP ab. Achten Sie darauf, ob die Firma die Fertigung vor Ort ansieht, einen schriftlichen Leistungsumfang vorlegt, Erfahrung mit Logo, Netsis oder Mikro hat und den Quellcode übergibt. Ozturksoft ist eine dieser Firmen: Wir sitzen in Çankaya und übernehmen Erstanalyse und Installation vor Ort für Hersteller in OSTİM, İvedik, Sincan und im Ankara Sanayi Odası 1. OSB.",
       "q3": "Fertige Produktionssoftware oder individuelle Werkssoftware?",
-      "a3": "Für Firmen mit Standardprodukten, deren ERP-Produktionsmodul ausreicht, ist eine fertige Lösung günstiger und schneller. Bei Auftragsfertigung, mehrstufigen Arbeitsplänen, eigenen Qualitätsformularen oder Maschinenanbindung wird die Anpassung teuer; dann lohnt sich Individualsoftware. Wenn wir im Erstgespräch sehen, dass eine fertige Lösung genügt, sagen wir Ihnen das. Ozturksoft verkauft keine Fertigpakete, sondern entwickelt ausschließlich Software, die auf Ihr Unternehmen zugeschnitten ist. Deshalb sagen wir Ihnen im Erstgespräch offen, wenn Individualsoftware für Sie nicht passt.",
+      "a3": "Für Firmen mit Standardprodukten, deren ERP-Produktionsmodul ausreicht, ist eine fertige Lösung günstiger und schneller. Bei Auftragsfertigung, mehrstufigen Arbeitsplänen, eigenen Qualitätsformularen oder Maschinenanbindung wird die Anpassung teuer; dann lohnt sich Individualsoftware. Wenn wir im Erstgespräch sehen, dass eine fertige Lösung genügt, sagen wir Ihnen das. Bei dieser Leistung verkaufen wir Ihnen kein Fertigpaket, sondern entwickeln die Software passend zu Ihrem Unternehmen. Deshalb sagen wir Ihnen im Erstgespräch offen, wenn Individualsoftware für Sie nicht passt.",
       "q4": "Funktioniert die Produktionssoftware mit Logo, Netsis, Mikro oder Excel?",
       "a4": "Ja. Stücklisten, Bestände, Aufträge und Fertigungsbelege lassen sich automatisch mit Logo, Netsis und Mikro abgleichen; Ihre Buchhaltung bleibt unverändert. Artikel-, Stücklisten- und Planungslisten aus Excel werden importiert. Ob Maschinendaten gelesen werden können, hängt vom Maschinenmodell ab; das prüfen wir gemeinsam im Erstgespräch.",
       "q5": "Wie lange dauert die Einführung einer Produktionssoftware?",
@@ -4939,7 +4941,7 @@
       "q2": "Welche Firmen in Ankara entwickeln Service-Software, und welche ist die beste?",
       "a2": "Es gibt nicht die eine „beste“ Firma für alle; die richtige Wahl hängt von Ihrem Serviceablauf und Ihrer Buchhaltungssoftware ab. Achten Sie beim Vergleich auf den schriftlichen Umfang, die Übergabe des Quellcodes, Erfahrung mit Logo-, Netsis- oder Mikro-Anbindungen und die monatliche Gebühr nach der Übergabe. Ozturksoft ist eine der Firmen in Çankaya, Ankara, die Web-Panel und mobile Außendienst-App zusammen entwickeln.",
       "q3": "Soll ich eine fertige Service-Software kaufen oder eine individuelle entwickeln lassen?",
-      "a3": "Für wenige Techniker und einen Standardablauf ist ein fertiges Programm meist günstiger und schneller. Individuelle Software lohnt sich, wenn Ihr Servicebericht, Ihre Wartungsvertragsregeln, Ihre Ersatzteilstruktur oder die Buchhaltungsanbindung nicht in ein fertiges Programm passen oder wenn Abos pro Nutzer mit wachsendem Team teuer werden. Ozturksoft verkauft keine Fertigpakete, sondern entwickelt ausschließlich Software, die auf Ihr Unternehmen zugeschnitten ist. Deshalb sagen wir Ihnen im Erstgespräch offen, wenn Individualsoftware für Sie nicht passt.",
+      "a3": "Für wenige Techniker und einen Standardablauf ist ein fertiges Programm meist günstiger und schneller. Individuelle Software lohnt sich, wenn Ihr Servicebericht, Ihre Wartungsvertragsregeln, Ihre Ersatzteilstruktur oder die Buchhaltungsanbindung nicht in ein fertiges Programm passen oder wenn Abos pro Nutzer mit wachsendem Team teuer werden. Bei dieser Leistung verkaufen wir Ihnen kein Fertigpaket, sondern entwickeln die Software passend zu Ihrem Unternehmen. Deshalb sagen wir Ihnen im Erstgespräch offen, wenn Individualsoftware für Sie nicht passt.",
       "q4": "Funktioniert die Service-Software mit Logo, Netsis, Mikro oder Excel?",
       "a4": "Ja. Kunden- und Artikelkarten werden aus Logo, Netsis oder Mikro übernommen, die Rechnung für einen abgeschlossenen Einsatz geht in die Buchhaltungssoftware. Kunden-, Geräte- und frühere Servicedaten aus Excel werden zu Beginn importiert; auch das Störungsformular Ihrer Website kann per API angebunden werden.",
       "q5": "Wie lange dauert die Entwicklung einer Außendienst-App?",
@@ -5174,7 +5176,7 @@
       "q2": "Welche Firmen in Ankara bauen KI-Kundenservice-Systeme, und welche ist die beste?",
       "a2": "Es gibt nicht die eine „beste“ Firma für alle. Achten Sie bei der Auswahl darauf, ob die Firma WhatsApp- und CRM-Integrationen umsetzt, ob die Antworten auf Ihren eigenen Dokumenten beruhen, wem Quellcode und Daten gehören und ob es nach dem Start Support gibt. Ozturksoft in Ankara-Çankaya ist eine der Firmen, die solche Systeme mit den eigenen Daten und Programmen der Unternehmen aufbauen.",
       "q3": "Sollte ich einen fertigen Chatbot kaufen oder einen individuellen KI-Assistenten entwickeln lassen?",
-      "a3": "Bei wenigen Standardfragen ist ein fertiger Chatbot im Abo günstiger. Muss der Assistent Lager-, Bestell- oder Kundendaten aus Ihren eigenen Systemen abrufen, Anfragen nach Ihren Regeln an den Vertrieb verteilen oder sollen die Daten bei Ihnen bleiben, ist eine individuelle Lösung die bessere Wahl. Im Erstgespräch vergleichen wir beide Optionen und sagen es Ihnen offen. Ozturksoft verkauft keine Fertigpakete, sondern entwickelt ausschließlich Software, die auf Ihr Unternehmen zugeschnitten ist. Deshalb sagen wir Ihnen im Erstgespräch offen, wenn Individualsoftware für Sie nicht passt.",
+      "a3": "Bei wenigen Standardfragen ist ein fertiger Chatbot im Abo günstiger. Muss der Assistent Lager-, Bestell- oder Kundendaten aus Ihren eigenen Systemen abrufen, Anfragen nach Ihren Regeln an den Vertrieb verteilen oder sollen die Daten bei Ihnen bleiben, ist eine individuelle Lösung die bessere Wahl. Im Erstgespräch vergleichen wir beide Optionen und sagen es Ihnen offen. Bei dieser Leistung verkaufen wir Ihnen kein Fertigpaket, sondern entwickeln die Software passend zu Ihrem Unternehmen. Deshalb sagen wir Ihnen im Erstgespräch offen, wenn Individualsoftware für Sie nicht passt.",
       "q4": "Funktioniert der KI-Assistent mit meinem Logo, Netsis, Mikro oder CRM?",
       "a4": "In den meisten Fällen ja. Lagerbestand, Preise und Bestellstatus lassen sich aus Logo, Netsis und Mikro lesen; im CRM können über die API Kunden- und Verkaufschancen-Datensätze angelegt werden; Excel- und PDF-Dokumente dienen als Wissensquelle. Version und Anbindungsmöglichkeiten Ihres Programms prüfen wir im Erstgespräch.",
       "q5": "Wie lange dauert die Einrichtung eines KI-Kundenservice?",
@@ -5288,7 +5290,7 @@
       "q2": "Welche Firmen in Ankara entwickeln Dashboards und Reporting-Systeme, und welche ist die beste?",
       "a2": "Es gibt nicht die eine „beste“ Firma für alle. Prüfen Sie, ob die Firma Daten aus Programmen wie Logo, Netsis oder Mikro abrufen kann, ob sie die Zahlen mit Ihren bisherigen Berichten abgleicht, wem der Quellcode gehört und ob es nach der Übergabe Support gibt. Ozturksoft in Ankara-Çankaya ist eine der Firmen, die Management-Dashboards mit Anbindung an die eigenen Programme der Unternehmen bauen.",
       "q3": "Sollte ich ein fertiges Tool wie Power BI nutzen oder ein individuelles Management-Dashboard entwickeln lassen?",
-      "a3": "Sind Ihre Daten sauber und in einer Quelle und haben Sie jemanden, der die Berichte erstellt, sind fertige Tools wie Power BI oder Looker Studio günstiger. Sind die Daten auf viele Programme verteilt oder brauchen Sie rollenbasierten Zugriff, automatische E-Mail-Berichte oder unternehmensspezifische Berechnungen, spart ein individuelles Dashboard mehr Handarbeit. Im Erstgespräch vergleichen wir beide Optionen und sagen es Ihnen offen. Ozturksoft verkauft keine Fertigpakete, sondern entwickelt ausschließlich Software, die auf Ihr Unternehmen zugeschnitten ist. Deshalb sagen wir Ihnen im Erstgespräch offen, wenn Individualsoftware für Sie nicht passt.",
+      "a3": "Sind Ihre Daten sauber und in einer Quelle und haben Sie jemanden, der die Berichte erstellt, sind fertige Tools wie Power BI oder Looker Studio günstiger. Sind die Daten auf viele Programme verteilt oder brauchen Sie rollenbasierten Zugriff, automatische E-Mail-Berichte oder unternehmensspezifische Berechnungen, spart ein individuelles Dashboard mehr Handarbeit. Im Erstgespräch vergleichen wir beide Optionen und sagen es Ihnen offen. Bei dieser Leistung verkaufen wir Ihnen kein Fertigpaket, sondern entwickeln die Software passend zu Ihrem Unternehmen. Deshalb sagen wir Ihnen im Erstgespräch offen, wenn Individualsoftware für Sie nicht passt.",
       "q4": "Funktioniert das Dashboard mit meinen Daten aus Logo, Netsis, Mikro und Excel?",
       "a4": "Ja. Umsatz-, Kontokorrent-, Bestands- und Zahlungsdaten werden aus Logo, Netsis und Mikro gelesen; CRM-, Shop- und Marktplatzbestellungen kommen per API hinzu, Excel-Tabellen per Dateiimport. Das Dashboard schreibt nichts in Ihre bestehenden Programme, es liest nur. Die Version Ihres Programms prüfen wir im Erstgespräch.",
       "q5": "Wie lange dauert die Einrichtung eines Reporting-Systems?",
@@ -5403,7 +5405,7 @@
       "q2": "Welche Firmen in Ankara entwickeln SaaS, und welche ist die beste?",
       "a2": "Die eine „beste“ Firma gibt es nicht; die richtige Wahl hängt von Ihrem Produkt und Budget ab. Fragen Sie, ob die Firma schon Abo-Produkte entwickelt hat, wem der Quellcode gehören wird, wie sie den MVP-Umfang eingrenzt und wer das Produkt nach dem Launch wartet. Ozturksoft ist eines der Unternehmen in Ankara-Çankaya, die SaaS vom MVP bis zum vollständigen Produkt entwickeln.",
       "q3": "Sollte ich eine fertige Plattform oder No-Code nutzen oder ein Softwareprodukt von Grund auf entwickeln lassen?",
-      "a3": "Um eine Idee schnell zu testen, können No-Code-Tools oder fertige Vorlagen die richtige und deutlich günstigere Wahl sein. Wenn die Kundenzahl wächst und eigene Geschäftsregeln, Datentrennung und Leistung gefragt sind, wird Individualentwicklung nötig. Im Erstgespräch vergleichen wir beides ehrlich. Ozturksoft verkauft keine Fertigpakete, sondern entwickelt ausschließlich Software, die auf Ihr Unternehmen zugeschnitten ist. Deshalb sagen wir Ihnen im Erstgespräch offen, wenn Individualsoftware für Sie nicht passt.",
+      "a3": "Um eine Idee schnell zu testen, können No-Code-Tools oder fertige Vorlagen die richtige und deutlich günstigere Wahl sein. Wenn die Kundenzahl wächst und eigene Geschäftsregeln, Datentrennung und Leistung gefragt sind, wird Individualentwicklung nötig. Im Erstgespräch vergleichen wir beides ehrlich. Bei dieser Leistung verkaufen wir Ihnen kein Fertigpaket, sondern entwickeln die Software passend zu Ihrem Unternehmen. Deshalb sagen wir Ihnen im Erstgespräch offen, wenn Individualsoftware für Sie nicht passt.",
       "q4": "Funktioniert meine SaaS mit Logo, Netsis, Mikro, Excel oder den E-Commerce-Systemen meiner Kunden?",
       "a4": "Ja, wenn es im Umfang enthalten ist. Daten aus Logo, Netsis und Mikro lassen sich per API oder Übertragungsdienst abrufen, ein Excel/CSV-Import kann ergänzt und Marktplätze wie Trendyol und Hepsiburada können angebunden werden. Im Angebot steht getrennt, welche Anbindung ins MVP und welche in eine spätere Version kommt.",
       "q5": "Wie lange dauert die Entwicklung eines SaaS-MVP?",
@@ -5515,7 +5517,7 @@
       "q2": "Welche Firmen in Ankara richten KI-Telefonassistenten ein, und welche ist die beste?",
       "a2": "Die eine „beste“ Firma gibt es nicht. Fragen Sie, wie die türkische Spracherkennung bei Lärm getestet wird, wie die Übergabe an einen Menschen funktioniert, wie der KVKK-Hinweis umgesetzt wird und ob die Kosten pro Minute vorab geschätzt werden. Ozturksoft ist eines der Unternehmen in Ankara-Çankaya, die Sprachassistenten mit Anbindung an Telefonanlage und CRM einrichten.",
       "q3": "Fertige Callcenter-Software oder ein individueller KI-Sprachassistent?",
-      "a3": "Sind Ihre Anrufe wenige und standardisiert, ist eine fertige Callcenter-Software oder ein Tastenmenü (IVR) günstiger und ausreichend. Ein individueller Assistent lohnt sich bei stark ausgelasteten Leitungen, wenn Anrufer frei sprechen und Ihr Bestell- oder Terminsystem abgefragt werden muss. Im Erstgespräch sagen wir offen, was zu Ihnen passt. Ozturksoft verkauft keine Fertigpakete, sondern entwickelt ausschließlich Software, die auf Ihr Unternehmen zugeschnitten ist. Deshalb sagen wir Ihnen im Erstgespräch offen, wenn Individualsoftware für Sie nicht passt.",
+      "a3": "Sind Ihre Anrufe wenige und standardisiert, ist eine fertige Callcenter-Software oder ein Tastenmenü (IVR) günstiger und ausreichend. Ein individueller Assistent lohnt sich bei stark ausgelasteten Leitungen, wenn Anrufer frei sprechen und Ihr Bestell- oder Terminsystem abgefragt werden muss. Im Erstgespräch sagen wir offen, was zu Ihnen passt. Bei dieser Leistung verkaufen wir Ihnen kein Fertigpaket, sondern entwickeln die Software passend zu Ihrem Unternehmen. Deshalb sagen wir Ihnen im Erstgespräch offen, wenn Individualsoftware für Sie nicht passt.",
       "q4": "Funktioniert die KI am Telefon mit meiner Telefonanlage, meinem CRM, Logo, Netsis, Mikro oder meinem Shop-System?",
       "a4": "Ja. Ihre bestehende Nummer bleibt und wird über eine IP-Telefonanlage oder eine Weiterleitung beim Anbieter angebunden. Bestell- und Kundendaten werden per API aus Logo, Netsis, Mikro oder Ihrem Shop-System gelesen, häufige Fragen lassen sich per Excel pflegen, und Gesprächszusammenfassungen landen in Ihrem CRM.",
       "q5": "Wie lange dauert die Einführung von KI im Callcenter?",
@@ -5665,5 +5667,189 @@
     "sub": "Eine Auswahl echter Bewertungen aus unserem Google-Unternehmensprofil, unverändert im türkischen Original.",
     "rating": "Google-Bewertung",
     "all": "Alle Bewertungen auf Google ansehen"
+  },
+  "productsPage": {
+    "meta": {
+      "title": "Softwareprodukte: Ausschreibungen, KI-Vertrieb, Verkaufstraining | Ozturksoft",
+      "desc": "Ozturksoft-Produkte: AlfaIhale für öffentliche Ausschreibungen, MyEden als KI-Vertriebsteam für B2B und Arena für Verkaufstraining. Kostenlose Demo."
+    },
+    "hero": {
+      "kicker": "Unsere Produkte",
+      "title": "Produkte, die Sie <span class=\"pr-grad\">sofort nutzen</span> – ohne auf eine Eigenentwicklung zu warten.",
+      "desc": "Drei fertige Produkte, die wir für Ausschreibungen, KI-gestützten B2B-Vertrieb und Verkaufstraining entwickelt haben. Wir zeigen Ihnen das passende in einer kurzen Demo an Ihrem eigenen Ablauf.",
+      "btn1": "Demo anfragen",
+      "btn2": "Produkte ansehen"
+    },
+    "pick": {
+      "alfa": "Öffentliche Ausschreibungen",
+      "myeden": "KI-gestützter B2B-Vertrieb",
+      "arena": "Verkaufstraining"
+    },
+    "alfa": {
+      "kicker": "01 · Öffentliche Ausschreibungen",
+      "title": "EKAP-Ausschreibungen verfolgen, das Angebot aus dem Lastenheft erstellen und bis zum Zahlungseingang begleiten.",
+      "desc": "Ausschreibungs- und Angebotssoftware für Unternehmen, die Waren an die öffentliche Hand liefern. Sie wählt passende Ausschreibungen aus Ihren EKAP-Benachrichtigungen, liest das Lastenheft, extrahiert die Positionen und bündelt die Kalkulation in einer Tabelle.",
+      "b1": "Ausschreibungsliste mit Passungs-Score",
+      "b2": "Automatische Positionserkennung im Lastenheft",
+      "b3": "Preis- und Margenkalkulation mit der Hauptliste",
+      "b4": "Akte in sieben Schritten – vom Dokument bis zum Abschluss",
+      "b5": "Bestellungen, Rechnungen und Zahlungen im Blick",
+      "chip1": "Auf Ihrem eigenen Rechner oder Server",
+      "chip2": "Türkische Oberfläche",
+      "more": "AlfaIhale ansehen"
+    },
+    "myeden": {
+      "kicker": "02 · B2B-Vertrieb",
+      "title": "Ein KI-Vertriebsteam, das Interessenten findet, sie anschreibt und Termine in Ihren Kalender legt.",
+      "desc": "Acht zusammenarbeitende KI-Agenten finden und bewerten Zielunternehmen, entwerfen für jedes eine persönliche E-Mail und machen aus Antworten Termine. Standardmäßig wird keine E-Mail ohne Ihre Freigabe versendet.",
+      "b1": "Ein Team zusammenarbeitender Agenten",
+      "b2": "Zielunternehmen finden und bewerten",
+      "b3": "Persönliche E-Mails, versendet mit Ihrer Freigabe",
+      "b4": "Von der Antwort zum Termin",
+      "b5": "Vertriebspipeline und Rückgewinnung verlorener Chancen"
+    },
+    "web": {
+      "chip1": "Läuft im Browser, ohne Installation",
+      "chip2": "Türkisch und Englisch"
+    },
+    "demo": {
+      "more": "Demo anfragen"
+    },
+    "arena": {
+      "kicker": "03 · Verkaufstraining",
+      "title": "Ihre Verkaufsberater üben mit einem virtuellen Kunden, bevor sie auf echte Kunden treffen.",
+      "desc": "Der Berater spricht mit einem KI-Kunden, der einen verborgenen Einwand hat. Jedes Gespräch wird bewertet, und jede Bewertung wird mit einem Zitat aus dem Gespräch belegt – so sieht der Berater genau, was er warum verpasst hat.",
+      "b1": "Virtuelle Kunden mit verborgenen Einwänden",
+      "b2": "Bewertung mit Begründung für jedes Gespräch",
+      "b3": "Ein fokussierter Entwicklungsbericht",
+      "b4": "Vorbereitung auf Wettbewerber und Einwände",
+      "b5": "Ligen, Fortschrittsverfolgung und Coaching"
+    },
+    "compare": {
+      "kicker": "Produkt oder Dienstleistung?",
+      "title": "Fertiges Produkt oder Software nach Maß?",
+      "p1t": "Produkte",
+      "p1": "Fertige Software für eine konkrete Aufgabe. Sie sehen sie zuerst in einer Demo; nach der Einrichtung kann Ihr Team sofort loslegen.",
+      "p2t": "Individualsoftware",
+      "p2": "Passt Ihr Ablauf zu keinem fertigen Produkt, ermitteln wir gemeinsam den Bedarf und entwickeln Software und KI-Lösung passend zu Ihrem Unternehmen.",
+      "link": "Unsere Leistungen"
+    },
+    "faq": {
+      "title": "Häufige Fragen zu unseren Produkten",
+      "q1": "Welche fertigen Softwareprodukte bietet Ozturksoft an?",
+      "a1": "Wir haben drei Produkte: AlfaIhale, eine Ausschreibungs- und Angebotssoftware für Unternehmen, die an öffentlichen Ausschreibungen teilnehmen; MyEden, ein KI-Vertriebsteam für B2B-Unternehmen; und Arena, in dem Verkaufsberater mit einem virtuellen Kunden üben.",
+      "q2": "Was kosten die Produkte?",
+      "a2": "Der Preis hängt vom Produkt, der Zahl der Nutzer und der Installationsart ab. Nach der Demo erhalten Sie ein schriftliches Angebot für Ihr Unternehmen; die Demo ist kostenlos.",
+      "q3": "Kann ich ein Produkt vor dem Kauf testen?",
+      "a3": "Ja. In der Demo zeigen wir das Produkt an einem Beispiel aus Ihrem Geschäft und planen anschließend Test und Einrichtung gemeinsam.",
+      "q4": "Laufen die Produkte in der Cloud oder auf unserem eigenen Server?",
+      "a4": "AlfaIhale wird auf Ihrem eigenen Rechner oder Büroserver installiert, Ihre Dokumente bleiben bei Ihnen. MyEden und Arena sind webbasiert und laufen ohne Installation im Browser.",
+      "q5": "Was, wenn mein Bedarf zu keinem Produkt passt?",
+      "a5": "Dann entwickeln wir Software für Ihr Unternehmen. Details finden Sie unter <a href=\"/ozel-yazilim-yaptirmak\">Individualsoftware entwickeln lassen</a>."
+    },
+    "cta": {
+      "title": "Finden wir gemeinsam heraus, welches Produkt zu Ihnen passt.",
+      "desc": "In einer kurzen Demo zeigen wir das Produkt an Ihrem eigenen Ablauf und beantworten Ihre Fragen."
+    },
+    "shots": {
+      "note": "Die Daten in den Screenshots sind Beispieldaten."
+    },
+    "footer": "© 2026 Ozturksoft — Softwareprodukte, Ankara"
+  },
+  "alfaihalePage": {
+    "meta": {
+      "title": "AlfaIhale: Software für öffentliche Ausschreibungen und Angebote | Ozturksoft",
+      "desc": "AlfaIhale ist eine Ausschreibungssoftware für Lieferanten der türkischen öffentlichen Hand: passende EKAP-Ausschreibungen, Lastenheft-Analyse, Kalkulation und Zahlungen."
+    },
+    "hero": {
+      "kicker": "Öffentliche Ausschreibungen",
+      "title": "Keine passende Ausschreibung verpassen, das Angebot aus dem Lastenheft erstellen und <span class=\"pr-grad\">alles bis zur Zahlung in einer Akte verfolgen.</span>",
+      "desc": "AlfaIhale ist unsere Software zur Ausschreibungsverfolgung und Angebotserstellung für Unternehmen, die Waren an die öffentliche Hand liefern. Sie hebt passende Ausschreibungen aus Ihren EKAP-Benachrichtigungen hervor, liest das Lastenheft und hält Kalkulation und Abwicklung an einem Ort.",
+      "call": "Jetzt anrufen"
+    },
+    "strip": {
+      "label": "Kurz gesagt",
+      "s1": "Für öffentliche Ausschreibungen",
+      "s2": "Läuft auf Ihrem eigenen Rechner oder Server",
+      "s3": "Oberfläche: Türkisch"
+    },
+    "about": {
+      "kicker": "Über das Produkt",
+      "title": "Was ist AlfaIhale?",
+      "p": "AlfaIhale bündelt die gesamte Arbeit an einer Ausschreibung in einer Akte. Es sortiert die per EKAP-E-Mail eingehenden Ausschreibungen nach ihrer Passung zu Ihrem Unternehmen, extrahiert Positionen und Angaben zur Vergabestelle aus dem Lastenheft und berechnet den Preis in der Hauptliste. Angebot, Ergebnis, Vertrag, Bestellungen und Zahlung werden in derselben Akte verfolgt. Da es auf Ihrem eigenen Rechner oder Server läuft, verlassen Ihre Dokumente das Unternehmen nicht."
+    },
+    "who": {
+      "title": "Für wen?",
+      "i1": "Unternehmen, die über EKAP Waren an die öffentliche Hand liefern: Lebensmittel, Reinigung, Bürobedarf, Medizin, Bau, IT, Möbel, Textil, Kraftstoff und Landwirtschaft",
+      "i2": "Teams, die Angebote noch mit Excel-Dateien und Ordnern erstellen",
+      "i3": "Unternehmen, die mehrere Ausschreibungen und Lieferungen gleichzeitig abwickeln"
+    },
+    "pain": {
+      "title": "Welche Probleme löst es?",
+      "i1": "Passende Ausschreibungen werden übersehen oder bleiben bis zum letzten Tag liegen",
+      "i2": "Positionen einzeln aus dem Lastenheft nach Excel zu übertragen dauert Stunden",
+      "i3": "Angebote, Verträge, Bestellungen und Zahlungen liegen in verschiedenen Ordnern – unklar, wer was verfolgt"
+    },
+    "sectors": {
+      "title": "Fertige Branchenvorlagen",
+      "list": "<span>Lebensmittel</span><span>Reinigung</span><span>Bürobedarf</span><span>Medizin</span><span>Bau</span><span>IT</span><span>Möbel</span><span>Textil</span><span>Kraftstoff</span><span>Landwirtschaft</span>",
+      "note": "Für andere Branchen gibt es eine allgemeine Vorlage."
+    },
+    "feat": {
+      "kicker": "Funktionen",
+      "title": "Die wichtigsten Funktionen – Bildschirm für Bildschirm"
+    },
+    "f1t": "Passende Ausschreibungen",
+    "f1d": "Die Benachrichtigungen, die EKAP gemäß Ihren Filtern sendet, werden aus Ihrem Postfach gelesen. Jede Ausschreibung erhält anhand Ihrer Schlüsselwörter und OKAS-Codes einen Passungs-Score – mit sichtbarer Begründung. Den Schwellenwert legen Sie fest.",
+    "f2t": "Ein Dokumentschritt, der das Lastenheft liest",
+    "f2d": "Positionen und Angaben zur Vergabestelle werden aus ZIP-, PDF-, Word-, Excel- und EKAP-Dokumenten extrahiert. Punkte, die vor dem Angebot zu prüfen sind – etwa Muster, Teilangebote oder Verzugsstrafen –, werden separat aufgelistet. Gescannte Dokumente werden lokal mit türkischer Texterkennung gelesen.",
+    "f3t": "Kalkulation mit der Hauptliste",
+    "f3d": "Positionen, Kosten, Bietersicherheit und Ihre bisherigen Preise stehen in einer Tabelle. Angebotssumme und Marge sehen Sie schon beim Erstellen – inklusive Kosten wie Vertragsgebühr, Stempelsteuer und Transport.",
+    "f4t": "Die Ausschreibungsakte in sieben Schritten",
+    "f4d": "Dokument, Hauptliste, Angebot, Ergebnis, Vertrag, Bestellungen und Abschluss. Jede Ausschreibung ist eine eigene Akte; das Board zeigt auf einen Blick, wo jede steht und was als Nächstes zu tun ist.",
+    "f5t": "Von der Lieferung bis zur Zahlung",
+    "f5d": "Gelieferte und offene Ware, gestellte Rechnungen und Zahlungen werden verfolgt. Beim Abschluss stehen geplanter und tatsächlicher Gewinn nebeneinander; Excel-Exporte und der Aktenordner lassen sich herunterladen.",
+    "how": {
+      "kicker": "In vier Schritten",
+      "title": "Wie funktioniert es?"
+    },
+    "s1t": "Installation",
+    "s1d": "Installation unter Windows, Linux, auf einem Mac mit Apple Silicon oder Ihrem Büroserver; Ihr Team arbeitet im Browser.",
+    "s2t": "Anbindung",
+    "s2d": "Das Postfach mit den EKAP-Benachrichtigungen wird verbunden, Ihre Schlüsselwörter und OKAS-Codes werden hinterlegt.",
+    "s3t": "Verfolgung",
+    "s3d": "Passende Ausschreibungen erscheinen auf dem Heute-Bildschirm; für die gewählte wird eine Akte angelegt und die Dokumente werden gelesen.",
+    "s4t": "Angebot und danach",
+    "s4d": "Kalkulation, Angebot, Vertrag, Bestellungen und Zahlung laufen in derselben Akte; Excel-Exporte nutzen Ihre eigenen Vorlagen.",
+    "sec": {
+      "kicker": "Sicherheit und Kontrolle",
+      "title": "Ihr EKAP-Passwort wird nie benötigt; die Software liest nur die an Sie gesendeten Benachrichtigungen.",
+      "i1": "Läuft auf Ihrem eigenen Rechner oder Server; Dokumente werden lokal verarbeitet.",
+      "i2": "Rollen für Administrator, Angebotsspezialist und Betrachter; jede Aktion wird protokolliert.",
+      "i3": "Signierte Lizenz: läuft auch ohne Internetverbindung bis zu 30 Tage weiter."
+    },
+    "faq": {
+      "title": "Häufige Fragen zu AlfaIhale",
+      "q1": "Braucht AlfaIhale mein EKAP-Passwort?",
+      "a1": "Nein. AlfaIhale verbindet sich nicht mit EKAP und sendet keine Anfragen dorthin; es liest die Ausschreibungen aus den Benachrichtigungen, die EKAP Ihnen gemäß Ihren Filtern schickt.",
+      "q2": "Wo wird es installiert, und läuft es offline?",
+      "a2": "Es wird auf einem Windows-, Linux- oder Apple-Silicon-Mac-Rechner oder Ihrem Büroserver installiert und im Browser genutzt. Die Lizenzprüfung braucht Internet; fällt die Verbindung aus, läuft die Software bis zu 30 Tage weiter.",
+      "q3": "Für welche Branchen eignet es sich?",
+      "a3": "Es gibt fertige Vorlagen für Lebensmittel, Reinigung, Bürobedarf, Medizin, Bau, IT, Möbel, Textil, Kraftstoff und Landwirtschaft. Andere Branchen nutzen die allgemeine Vorlage.",
+      "q4": "Können wir unsere eigenen Excel-Vorlagen nutzen?",
+      "a4": "Ja. Excel-Exporte werden mit den Vorlagen Ihres Unternehmens erzeugt – Ihr Team arbeitet im gewohnten Format weiter.",
+      "q5": "Was kostet AlfaIhale?",
+      "a5": "Der Preis richtet sich nach Nutzerzahl und Installationsart. Nach der Demo erhalten Sie ein schriftliches Angebot; die Demo ist kostenlos.",
+      "q6": "Wie kann ich es testen?",
+      "a6": "In der Demo gehen wir AlfaIhale gemeinsam an einer Beispielausschreibung aus Ihrer Branche durch und planen dann Einrichtung und Testphase."
+    },
+    "other": {
+      "title": "Weitere Produkte"
+    },
+    "cta": {
+      "title": "Erleben Sie AlfaIhale mit Ihren eigenen Ausschreibungen.",
+      "desc": "In der Demo zeigen wir das Produkt an einer Ausschreibung aus Ihrer Branche und beantworten Ihre Fragen."
+    },
+    "footer": "© 2026 Ozturksoft — AlfaIhale Ausschreibungssoftware, Ankara"
   }
 }

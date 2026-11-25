@@ -8,7 +8,7 @@ export const SSS_LOCALES = [
     blog: '/blog',
     faq: '/sss',
     contact: '/iletisim',
-    nav: { home: 'Ana Sayfa', services: 'Hizmetler', blog: 'Blog', faq: 'SSS', contact: 'İletişim', quote: 'Teklif Al' },
+    nav: { home: 'Ana Sayfa', products: 'Ürünler', services: 'Hizmetler', blog: 'Blog', faq: 'SSS', contact: 'İletişim', quote: 'Teklif Al' },
   },
   {
     lang: 'en',
@@ -19,7 +19,7 @@ export const SSS_LOCALES = [
     blog: '/blog',
     faq: '/en/faq',
     contact: '/iletisim',
-    nav: { home: 'Home', services: 'Services', blog: 'Blog', faq: 'FAQ', contact: 'Contact', quote: 'Get a Quote' },
+    nav: { home: 'Home', products: 'Products', services: 'Services', blog: 'Blog', faq: 'FAQ', contact: 'Contact', quote: 'Get a Quote' },
   },
   {
     lang: 'de',
@@ -30,7 +30,7 @@ export const SSS_LOCALES = [
     blog: '/blog',
     faq: '/de/faq',
     contact: '/iletisim',
-    nav: { home: 'Startseite', services: 'Leistungen', blog: 'Blog', faq: 'FAQ', contact: 'Kontakt', quote: 'Angebot' },
+    nav: { home: 'Startseite', products: 'Produkte', services: 'Leistungen', blog: 'Blog', faq: 'FAQ', contact: 'Kontakt', quote: 'Angebot' },
   },
   {
     lang: 'fr',
@@ -41,7 +41,7 @@ export const SSS_LOCALES = [
     blog: '/blog',
     faq: '/fr/faq',
     contact: '/iletisim',
-    nav: { home: 'Accueil', services: 'Services', blog: 'Blog', faq: 'FAQ', contact: 'Contact', quote: 'Devis' },
+    nav: { home: 'Accueil', products: 'Produits', services: 'Services', blog: 'Blog', faq: 'FAQ', contact: 'Contact', quote: 'Devis' },
   },
   {
     lang: 'ar',
@@ -52,7 +52,7 @@ export const SSS_LOCALES = [
     blog: '/blog',
     faq: '/ar/faq',
     contact: '/iletisim',
-    nav: { home: 'الرئيسية', services: 'الخدمات', blog: 'المدونة', faq: 'الأسئلة', contact: 'اتصل', quote: 'عرض سعر' },
+    nav: { home: 'الرئيسية', products: 'المنتجات', services: 'الخدمات', blog: 'المدونة', faq: 'الأسئلة', contact: 'اتصل', quote: 'عرض سعر' },
   },
   {
     lang: 'ru',
@@ -63,7 +63,7 @@ export const SSS_LOCALES = [
     blog: '/blog',
     faq: '/ru/faq',
     contact: '/iletisim',
-    nav: { home: 'Главная', services: 'Услуги', blog: 'Блог', faq: 'FAQ', contact: 'Контакты', quote: 'Заявка' },
+    nav: { home: 'Главная', products: 'Продукты', services: 'Услуги', blog: 'Блог', faq: 'FAQ', contact: 'Контакты', quote: 'Заявка' },
   },
 ];
 

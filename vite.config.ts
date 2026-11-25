@@ -45,6 +45,8 @@ export default defineConfig({
         ankaraSeo: resolve(__dirname, 'ankara-seo.html'),
         geoOptimizasyonu: resolve(__dirname, 'geo-optimizasyonu.html'),
         spamRecovery: resolve(__dirname, 'google-spam-update-cezasi-kurtarma.html'),
+        products: resolve(__dirname, 'urunler.html'),
+        productAlfaIhale: resolve(__dirname, 'urunler/alfaihale.html'),
         stockProgram: resolve(__dirname, 'stok-takip-programi-yaptirmak.html'),
         productionSoftware: resolve(__dirname, 'uretim-takip-yazilimi.html'),
         fieldService: resolve(__dirname, 'teknik-servis-takip-programi.html'),

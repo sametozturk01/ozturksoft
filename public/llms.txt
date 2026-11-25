@@ -56,6 +56,12 @@ Prices below are 2026 ranges in Turkish lira (TL) published on the linked pages;
 - [QA and test automation](https://ozturksoft.net/qa-test-hizmeti): audit 15,000–40,000 TL; test automation 40,000–120,000 TL (Playwright, Cypress, API, CI/CD)
 - [Ankara software company overview](https://ozturksoft.net/ankara-yazilim-sirketi)
 
+## Products
+Ready-to-use software products developed by Ozturksoft (overview: https://ozturksoft.net/urunler). Pricing is quoted after a free demo, based on users and installation.
+- [AlfaIhale – public tender tracking and bid software](https://ozturksoft.net/urunler/alfaihale) (Turkish): for companies selling goods to Turkish public bodies via EKAP. Reads EKAP notification emails (never asks for the EKAP password), scores tenders by keywords and OKAS codes, extracts items from specifications (ZIP/PDF/Word/Excel, local Turkish OCR), master-list pricing with margin, seven-step tender file from documents to closing, delivery/invoice/payment tracking. Installed on the customer's own Windows, Linux or Apple Silicon Mac computer or office server; works up to 30 days offline.
+- MyEden – AI sales team for B2B companies: eight cooperating AI agents find and score target companies, draft personal emails (sent only after approval by default) and turn replies into meetings. Web-based, Turkish and English.
+- Arena – sales training simulation: consultants talk to an AI customer with a hidden objection; every score is backed by a quote from the conversation. Web-based, Turkish and English.
+
 ## Integrations
 
 - [Logo Tiger / Netsis](https://ozturksoft.net/logo-netsis-entegrasyon) and [Mikro](https://ozturksoft.net/mikro-entegrasyon): one-way API 20,000–45,000 TL; two-way sync 55,000–130,000 TL

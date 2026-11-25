@@ -7,7 +7,8 @@
     "blog": "Blog",
     "contact": "Contact",
     "quoteBtn": "Demander un devis",
-    "whatsapp": "Support en ligne"
+    "whatsapp": "Support en ligne",
+    "products": "Produits"
   },
   "hero": {
     "title": "Entreprise de développement IA & logiciels à Ankara",
@@ -648,7 +649,8 @@
       "voiceAi": "Assistant vocal IA",
       "kvkkAudit": "Audit de conformité KVKK",
       "mobile": "Applications mobiles",
-      "academic": "Logiciels de recherche académique"
+      "academic": "Logiciels de recherche académique",
+      "products": "Nos produits"
     },
     "groups": {
       "ai": "Intelligence artificielle",
@@ -4714,7 +4716,7 @@
       "q2": "Quelles entreprises développent des logiciels de gestion de stock à Ankara, et laquelle est la meilleure ?",
       "a2": "Il n'existe pas une meilleure entreprise pour tous ; le bon choix dépend de votre activité et des logiciels que vous utilisez. Vérifiez si elle fournit un périmètre écrit, si elle a l'expérience des connexions avec Logo, Netsis ou Mikro, si elle remet le code source et si elle peut intervenir sur place. Ozturksoft est l'une de ces entreprises : depuis Çankaya, nous développons des logiciels de stock, d'entrepôt et de commandes, et assurons l'installation et la formation sur place.",
       "q3": "Dois-je acheter un logiciel de stock standard ou faire développer un logiciel sur mesure ?",
-      "a3": "Pour une entreprise avec un seul entrepôt et des achats-ventes classiques, un logiciel standard est généralement moins cher et suffisant. Avec plusieurs entrepôts, un stock lié à la production, des ventes sur places de marché ou vos propres règles de validation, l'adapter devient difficile ; un logiciel sur mesure a alors du sens. Si nous constatons lors du premier échange qu'un logiciel standard suffit, nous vous le dirons. Ozturksoft ne vend pas de solutions toutes faites : nous développons uniquement des logiciels sur mesure pour votre activité. C’est pourquoi nous vous disons franchement lors du premier échange si le sur-mesure ne vous convient pas.",
+      "a3": "Pour une entreprise avec un seul entrepôt et des achats-ventes classiques, un logiciel standard est généralement moins cher et suffisant. Avec plusieurs entrepôts, un stock lié à la production, des ventes sur places de marché ou vos propres règles de validation, l'adapter devient difficile ; un logiciel sur mesure a alors du sens. Si nous constatons lors du premier échange qu'un logiciel standard suffit, nous vous le dirons. Pour ce service, nous ne vous vendons pas de solution toute faite : nous développons le logiciel sur mesure pour votre activité. C’est pourquoi nous vous disons franchement lors du premier échange si le sur-mesure ne vous convient pas.",
       "q4": "Un logiciel de stock sur mesure fonctionne-t-il avec Logo, Netsis, Mikro ou Excel ?",
       "a4": "Oui. Le stock, les comptes et les factures peuvent être synchronisés automatiquement avec Logo, Netsis et Mikro, sans changer votre comptabilité. Vos listes Excel existantes sont importées, et le stock peut aussi être relié à Trendyol, Hepsiburada ou votre propre boutique en ligne.",
       "q5": "Combien de temps faut-il pour développer un logiciel de gestion de stock ?",
@@ -4827,7 +4829,7 @@
       "q2": "Quelles entreprises développent des logiciels de suivi de production à Ankara, et laquelle est la meilleure ?",
       "a2": "Il n'existe pas une meilleure entreprise pour tous ; le bon choix dépend de votre secteur, de vos machines et de votre ERP. Vérifiez si elle vient voir l'atelier, fournit un périmètre écrit, connaît Logo, Netsis ou Mikro et remet le code source. Ozturksoft est l'une de ces entreprises : nous sommes à Çankaya et pouvons réaliser découverte et installation sur place pour les industriels d'OSTİM, d'İvedik, de Sincan et de l'Ankara Sanayi Odası 1. OSB.",
       "q3": "Logiciel de production standard ou logiciel d'usine sur mesure ?",
-      "a3": "Pour une entreprise qui fabrique des produits standard et dont le module production de l'ERP suffit, une solution standard est moins chère et plus rapide. Avec de la fabrication à la commande, des gammes en plusieurs étapes, vos propres fiches qualité ou une connexion aux machines, l'adaptation devient coûteuse ; un logiciel sur mesure a alors du sens. Si nous constatons lors de la découverte qu'une solution standard suffit, nous vous le dirons. Ozturksoft ne vend pas de solutions toutes faites : nous développons uniquement des logiciels sur mesure pour votre activité. C’est pourquoi nous vous disons franchement lors du premier échange si le sur-mesure ne vous convient pas.",
+      "a3": "Pour une entreprise qui fabrique des produits standard et dont le module production de l'ERP suffit, une solution standard est moins chère et plus rapide. Avec de la fabrication à la commande, des gammes en plusieurs étapes, vos propres fiches qualité ou une connexion aux machines, l'adaptation devient coûteuse ; un logiciel sur mesure a alors du sens. Si nous constatons lors de la découverte qu'une solution standard suffit, nous vous le dirons. Pour ce service, nous ne vous vendons pas de solution toute faite : nous développons le logiciel sur mesure pour votre activité. C’est pourquoi nous vous disons franchement lors du premier échange si le sur-mesure ne vous convient pas.",
       "q4": "Le logiciel de suivi de production fonctionne-t-il avec Logo, Netsis, Mikro ou Excel ?",
       "a4": "Oui. Nomenclatures, stock, commandes et bons de production peuvent être synchronisés automatiquement avec Logo, Netsis et Mikro, sans changer votre comptabilité. Vos listes de produits, nomenclatures et plannings Excel sont importées. La lecture des données machines dépend du modèle ; nous le vérifions ensemble lors de la découverte.",
       "q5": "Combien de temps faut-il pour mettre en place un logiciel de suivi de production ?",
@@ -4939,7 +4941,7 @@
       "q2": "Quelles entreprises à Ankara développent des logiciels de service technique, et laquelle est la meilleure ?",
       "a2": "Il n'existe pas une « meilleure » entreprise pour tous ; le bon choix dépend de votre flux de service et de votre logiciel comptable. Comparez le périmètre écrit, la remise du code source, l'expérience des liaisons Logo, Netsis ou Mikro et la mensualité après livraison. Ozturksoft fait partie des entreprises de Çankaya, à Ankara, qui développent ensemble le panneau web et l'application mobile terrain.",
       "q3": "Faut-il acheter un logiciel de service prêt à l'emploi ou en faire développer un sur mesure ?",
-      "a3": "Pour quelques techniciens et un fonctionnement standard, un logiciel prêt à l'emploi est généralement moins cher et plus rapide. Le sur-mesure se justifie si votre fiche d'intervention, vos règles de contrats de maintenance, votre gestion des pièces ou votre lien comptable ne rentrent pas dans un produit standard, ou si l'abonnement par utilisateur devient coûteux à mesure que l'équipe grandit. Ozturksoft ne vend pas de solutions toutes faites : nous développons uniquement des logiciels sur mesure pour votre activité. C’est pourquoi nous vous disons franchement lors du premier échange si le sur-mesure ne vous convient pas.",
+      "a3": "Pour quelques techniciens et un fonctionnement standard, un logiciel prêt à l'emploi est généralement moins cher et plus rapide. Le sur-mesure se justifie si votre fiche d'intervention, vos règles de contrats de maintenance, votre gestion des pièces ou votre lien comptable ne rentrent pas dans un produit standard, ou si l'abonnement par utilisateur devient coûteux à mesure que l'équipe grandit. Pour ce service, nous ne vous vendons pas de solution toute faite : nous développons le logiciel sur mesure pour votre activité. C’est pourquoi nous vous disons franchement lors du premier échange si le sur-mesure ne vous convient pas.",
       "q4": "Le logiciel de service fonctionne-t-il avec Logo, Netsis, Mikro ou Excel ?",
       "a4": "Oui. Les fiches clients et articles sont reprises de Logo, Netsis ou Mikro, et la facture de l'intervention terminée est transmise au logiciel comptable. Les clients, appareils et historiques d'intervention tenus dans Excel sont importés au démarrage ; le formulaire de panne de votre site peut aussi être relié par API.",
       "q5": "En combien de temps une application de suivi des équipes terrain est-elle prête ?",
@@ -5174,7 +5176,7 @@
       "q2": "Quelles entreprises à Ankara mettent en place un service client par IA, et laquelle est la meilleure ?",
       "a2": "Il n'existe pas une « meilleure » entreprise pour tous. Pour choisir, vérifiez si l'entreprise réalise des intégrations WhatsApp et CRM, si les réponses reposent sur vos propres documents, à qui appartiendront le code source et les données, et si un support est assuré après la mise en ligne. Ozturksoft, à Çankaya (Ankara), fait partie des entreprises qui construisent ces systèmes avec les données et les logiciels propres des entreprises.",
       "q3": "Dois-je acheter un chatbot prêt à l'emploi ou faire développer un assistant IA sur mesure ?",
-      "a3": "Si les questions sont peu nombreuses et standard, un abonnement à un chatbot prêt à l'emploi est plus économique. Si l'assistant doit récupérer le stock, les commandes ou les fiches clients dans vos propres systèmes, répartir les demandes entre les commerciaux selon vos règles ou si les données doivent rester chez vous, une solution sur mesure est préférable. Lors de l'entretien de découverte, nous comparons les deux options et vous le disons franchement. Ozturksoft ne vend pas de solutions toutes faites : nous développons uniquement des logiciels sur mesure pour votre activité. C’est pourquoi nous vous disons franchement lors du premier échange si le sur-mesure ne vous convient pas.",
+      "a3": "Si les questions sont peu nombreuses et standard, un abonnement à un chatbot prêt à l'emploi est plus économique. Si l'assistant doit récupérer le stock, les commandes ou les fiches clients dans vos propres systèmes, répartir les demandes entre les commerciaux selon vos règles ou si les données doivent rester chez vous, une solution sur mesure est préférable. Lors de l'entretien de découverte, nous comparons les deux options et vous le disons franchement. Pour ce service, nous ne vous vendons pas de solution toute faite : nous développons le logiciel sur mesure pour votre activité. C’est pourquoi nous vous disons franchement lors du premier échange si le sur-mesure ne vous convient pas.",
       "q4": "L'assistant IA fonctionne-t-il avec mon Logo, Netsis, Mikro ou mon CRM ?",
       "a4": "Dans la plupart des cas, oui. Le stock, les prix et l'état des commandes peuvent être lus depuis Logo, Netsis et Mikro ; des fiches clients et opportunités peuvent être créées dans votre CRM via son API ; les documents Excel et PDF servent de source d'information. Nous vérifions la version de votre logiciel et ses possibilités de connexion lors de l'entretien de découverte.",
       "q5": "Combien de temps faut-il pour mettre en place un service client par IA ?",
@@ -5288,7 +5290,7 @@
       "q2": "Quelles entreprises à Ankara réalisent des tableaux de bord et des systèmes de reporting, et laquelle est la meilleure ?",
       "a2": "Il n'existe pas une « meilleure » entreprise pour tous. Vérifiez si l'entreprise sait extraire les données de logiciels comme Logo, Netsis ou Mikro, si elle contrôle les chiffres par rapport à vos anciens rapports, à qui appartiendra le code source et si elle assure un support après la livraison. Ozturksoft, à Çankaya (Ankara), fait partie des entreprises qui réalisent des tableaux de bord de direction connectés aux logiciels propres des entreprises.",
       "q3": "Dois-je utiliser un outil prêt à l'emploi comme Power BI ou faire développer un tableau de bord sur mesure ?",
-      "a3": "Si vos données sont propres et dans une seule source, et qu'un collaborateur peut construire les rapports, des outils prêts à l'emploi comme Power BI ou Looker Studio sont plus économiques. Si les données sont réparties entre plusieurs logiciels, ou si vous avez besoin d'un accès par rôle, de rapports automatiques par e-mail ou de calculs propres à votre entreprise, un tableau de bord sur mesure réduit davantage le travail manuel. Lors de l'entretien de découverte, nous comparons les deux options et vous le disons franchement. Ozturksoft ne vend pas de solutions toutes faites : nous développons uniquement des logiciels sur mesure pour votre activité. C’est pourquoi nous vous disons franchement lors du premier échange si le sur-mesure ne vous convient pas.",
+      "a3": "Si vos données sont propres et dans une seule source, et qu'un collaborateur peut construire les rapports, des outils prêts à l'emploi comme Power BI ou Looker Studio sont plus économiques. Si les données sont réparties entre plusieurs logiciels, ou si vous avez besoin d'un accès par rôle, de rapports automatiques par e-mail ou de calculs propres à votre entreprise, un tableau de bord sur mesure réduit davantage le travail manuel. Lors de l'entretien de découverte, nous comparons les deux options et vous le disons franchement. Pour ce service, nous ne vous vendons pas de solution toute faite : nous développons le logiciel sur mesure pour votre activité. C’est pourquoi nous vous disons franchement lors du premier échange si le sur-mesure ne vous convient pas.",
       "q4": "Le tableau de bord fonctionne-t-il avec mes données Logo, Netsis, Mikro et Excel ?",
       "a4": "Oui. Les données de ventes, comptes clients, stock et encaissements sont lues depuis Logo, Netsis et Mikro ; les données du CRM, de la boutique en ligne et des places de marché sont ajoutées via API, et les tableaux Excel par import de fichiers. Le tableau de bord n'écrit rien dans vos logiciels existants, il se contente de lire. Nous vérifions la version de votre logiciel lors de l'entretien de découverte.",
       "q5": "Combien de temps faut-il pour mettre en place un système de reporting ?",
@@ -5403,7 +5405,7 @@
       "q2": "Quelles entreprises développent des SaaS à Ankara, et laquelle est la meilleure ?",
       "a2": "Il n'existe pas de « meilleure » entreprise unique ; le bon choix dépend de votre produit et de votre budget. Demandez si l'entreprise a déjà développé des produits par abonnement, à qui appartiendra le code source, comment elle restreint le périmètre du MVP et qui assurera la maintenance après le lancement. Ozturksoft est l'une des entreprises de Çankaya, à Ankara, qui développent des SaaS du MVP au produit complet.",
       "q3": "Faut-il utiliser une solution toute faite ou du no-code, ou faire développer un produit logiciel sur mesure ?",
-      "a3": "Pour tester rapidement une idée, les outils no-code ou les modèles tout faits peuvent être le bon choix et coûtent bien moins cher. Quand le nombre de clients augmente et que des règles métier spécifiques, la séparation des données et la performance deviennent nécessaires, un développement sur mesure s'impose. Nous comparons honnêtement les deux lors de la découverte. Ozturksoft ne vend pas de solutions toutes faites : nous développons uniquement des logiciels sur mesure pour votre activité. C’est pourquoi nous vous disons franchement lors du premier échange si le sur-mesure ne vous convient pas.",
+      "a3": "Pour tester rapidement une idée, les outils no-code ou les modèles tout faits peuvent être le bon choix et coûtent bien moins cher. Quand le nombre de clients augmente et que des règles métier spécifiques, la séparation des données et la performance deviennent nécessaires, un développement sur mesure s'impose. Nous comparons honnêtement les deux lors de la découverte. Pour ce service, nous ne vous vendons pas de solution toute faite : nous développons le logiciel sur mesure pour votre activité. C’est pourquoi nous vous disons franchement lors du premier échange si le sur-mesure ne vous convient pas.",
       "q4": "Mon SaaS fonctionnera-t-il avec les systèmes Logo, Netsis, Mikro, Excel ou e-commerce de mes clients ?",
       "a4": "Oui, si c'est prévu dans le périmètre. Les données de Logo, Netsis et Mikro peuvent être récupérées via une API ou un service de transfert, un import Excel/CSV peut être ajouté et des marketplaces comme Trendyol et Hepsiburada peuvent être connectées. Le devis précise séparément quelles connexions figurent dans le MVP et lesquelles viendront plus tard.",
       "q5": "Combien de temps faut-il pour développer un MVP SaaS ?",
@@ -5515,7 +5517,7 @@
       "q2": "Quelles entreprises installent des assistants téléphoniques IA à Ankara, et laquelle est la meilleure ?",
       "a2": "Il n'existe pas de « meilleure » entreprise unique. Demandez comment la reconnaissance vocale en turc est testée en environnement bruyant, comment fonctionne le transfert vers un humain, comment l'information KVKK est assurée et si le coût à la minute est estimé à l'avance. Ozturksoft est l'une des entreprises de Çankaya, à Ankara, qui installent des assistants vocaux reliés au standard et au CRM.",
       "q3": "Logiciel de centre d'appels standard ou assistant vocal IA sur mesure ?",
-      "a3": "Si vos appels sont peu nombreux et standard, un logiciel de centre d'appels tout fait ou un menu à touches (SVI) est moins cher et suffit. Un assistant sur mesure prend son sens sur des lignes chargées, quand l'appelant parle librement et qu'il faut consulter votre système de commandes ou de rendez-vous. Lors de la découverte, nous vous disons franchement ce qui vous convient. Ozturksoft ne vend pas de solutions toutes faites : nous développons uniquement des logiciels sur mesure pour votre activité. C’est pourquoi nous vous disons franchement lors du premier échange si le sur-mesure ne vous convient pas.",
+      "a3": "Si vos appels sont peu nombreux et standard, un logiciel de centre d'appels tout fait ou un menu à touches (SVI) est moins cher et suffit. Un assistant sur mesure prend son sens sur des lignes chargées, quand l'appelant parle librement et qu'il faut consulter votre système de commandes ou de rendez-vous. Lors de la découverte, nous vous disons franchement ce qui vous convient. Pour ce service, nous ne vous vendons pas de solution toute faite : nous développons le logiciel sur mesure pour votre activité. C’est pourquoi nous vous disons franchement lors du premier échange si le sur-mesure ne vous convient pas.",
       "q4": "Si l'IA répond au téléphone, fonctionnera-t-elle avec mon standard, mon CRM, Logo, Netsis, Mikro ou mon système e-commerce ?",
       "a4": "Oui. Votre numéro actuel est conservé et connecté via un standard IP ou un renvoi chez l'opérateur. Les informations de commande et de compte sont lues par API dans Logo, Netsis, Mikro ou votre plateforme e-commerce, les questions fréquentes peuvent être mises à jour depuis Excel et les résumés d'appel sont inscrits dans votre CRM.",
       "q5": "Combien de temps faut-il pour mettre en place l'IA dans un centre d'appels ?",
@@ -5665,5 +5667,189 @@
     "sub": "Une sélection d’avis réels de notre fiche Google, publiés sans modification dans leur version turque d’origine.",
     "rating": "Note Google",
     "all": "Voir tous les avis sur Google"
+  },
+  "productsPage": {
+    "meta": {
+      "title": "Logiciels : suivi des appels d'offres, vente IA, formation commerciale | Ozturksoft",
+      "desc": "Produits Ozturksoft : AlfaIhale pour les appels d'offres publics, MyEden, équipe commerciale IA B2B, et Arena, simulation de vente. Démo gratuite."
+    },
+    "hero": {
+      "kicker": "Nos produits",
+      "title": "Des produits <span class=\"pr-grad\">prêts à l'emploi</span>, sans attendre un développement sur mesure.",
+      "desc": "Trois produits prêts à l'emploi que nous avons développés pour le suivi des appels d'offres, la vente B2B assistée par IA et la formation des commerciaux. Nous vous montrons le bon en courte démo, sur votre propre processus.",
+      "btn1": "Demander une démo",
+      "btn2": "Voir les produits"
+    },
+    "pick": {
+      "alfa": "Appels d'offres publics",
+      "myeden": "Vente B2B assistée par IA",
+      "arena": "Formation des commerciaux"
+    },
+    "alfa": {
+      "kicker": "01 · Appels d'offres publics",
+      "title": "Suivez les appels d'offres EKAP, préparez l'offre à partir du cahier des charges et suivez-la jusqu'au paiement.",
+      "desc": "Logiciel de suivi et de réponse aux appels d'offres pour les entreprises qui vendent au secteur public. Il sélectionne les appels d'offres pertinents dans vos notifications EKAP, lit le cahier des charges, en extrait les lignes et réunit la tarification dans un seul tableau.",
+      "b1": "Liste d'appels d'offres avec score de pertinence",
+      "b2": "Extraction automatique des lignes du cahier des charges",
+      "b3": "Calcul du prix et de la marge avec la liste principale",
+      "b4": "Un dossier en sept étapes, des documents à la clôture",
+      "b5": "Suivi des commandes, factures et encaissements",
+      "chip1": "Sur votre ordinateur ou votre serveur",
+      "chip2": "Interface en turc",
+      "more": "Découvrir AlfaIhale"
+    },
+    "myeden": {
+      "kicker": "02 · Vente B2B",
+      "title": "Une équipe commerciale IA qui trouve des prospects, leur écrit et place les rendez-vous dans votre agenda.",
+      "desc": "Huit agents IA qui travaillent ensemble trouvent et notent les entreprises cibles, rédigent un e-mail personnalisé pour chacune et transforment les réponses en rendez-vous. Par défaut, aucun e-mail ne part sans votre accord.",
+      "b1": "Une équipe d'agents qui collaborent",
+      "b2": "Recherche et notation des entreprises cibles",
+      "b3": "E-mails personnalisés envoyés avec votre accord",
+      "b4": "De la réponse au rendez-vous",
+      "b5": "Pipeline commercial et relance des opportunités perdues"
+    },
+    "web": {
+      "chip1": "Fonctionne dans le navigateur, sans installation",
+      "chip2": "Turc et anglais"
+    },
+    "demo": {
+      "more": "Demander une démo"
+    },
+    "arena": {
+      "kicker": "03 · Formation commerciale",
+      "title": "Vos conseillers s'entraînent avec un client virtuel avant de rencontrer un vrai client.",
+      "desc": "Le conseiller échange avec un client IA qui cache une objection. Chaque entretien est noté et chaque note s'appuie sur une citation de l'échange : le conseiller voit précisément ce qu'il a manqué et pourquoi.",
+      "b1": "Clients virtuels avec objections cachées",
+      "b2": "Une note justifiée pour chaque entretien",
+      "b3": "Un rapport de progrès ciblé",
+      "b4": "Préparation face aux concurrents et objections",
+      "b5": "Ligues, suivi des progrès et coaching"
+    },
+    "compare": {
+      "kicker": "Produit ou service ?",
+      "title": "Produit prêt à l'emploi ou logiciel sur mesure ?",
+      "p1t": "Produits",
+      "p1": "Des logiciels prêts à l'emploi pour une tâche précise. Vous les voyez d'abord en démo ; après l'installation, votre équipe s'en sert tout de suite.",
+      "p2t": "Logiciel sur mesure",
+      "p2": "Si votre processus ne correspond à aucun produit existant, nous définissons ensemble vos besoins et développons le logiciel et la solution IA adaptés à votre activité.",
+      "link": "Voir nos services"
+    },
+    "faq": {
+      "title": "Questions fréquentes sur nos produits",
+      "q1": "Quels logiciels prêts à l'emploi Ozturksoft propose-t-elle ?",
+      "a1": "Nous proposons trois produits : AlfaIhale, logiciel de suivi et de réponse aux appels d'offres publics ; MyEden, une équipe commerciale IA pour les entreprises B2B ; et Arena, où les conseillers s'entraînent avec un client virtuel.",
+      "q2": "Combien coûtent les produits ?",
+      "a2": "Le prix dépend du produit, du nombre d'utilisateurs et du mode d'installation. Après la démo, nous vous envoyons un devis écrit pour votre entreprise ; la démo est gratuite.",
+      "q3": "Puis-je essayer un produit avant de l'acheter ?",
+      "a3": "Oui. Lors de la démo, nous présentons le produit sur un exemple proche de votre activité, puis nous planifions ensemble l'essai et l'installation.",
+      "q4": "Les produits fonctionnent-ils dans le cloud ou sur notre propre serveur ?",
+      "a4": "AlfaIhale s'installe sur votre ordinateur ou le serveur de votre bureau : vos documents restent chez vous. MyEden et Arena sont des applications web, utilisables dans le navigateur sans installation.",
+      "q5": "Et si mon besoin ne correspond à aucun produit ?",
+      "a5": "Nous développons alors un logiciel pour votre activité. Détails sur la page <a href=\"/ozel-yazilim-yaptirmak\">développement de logiciel sur mesure</a>."
+    },
+    "cta": {
+      "title": "Voyons ensemble quel produit convient à votre activité.",
+      "desc": "Lors d'une courte démo, nous montrons le produit sur votre propre processus et répondons à vos questions."
+    },
+    "shots": {
+      "note": "Les données des captures d'écran sont fictives."
+    },
+    "footer": "© 2026 Ozturksoft — Logiciels, Ankara"
+  },
+  "alfaihalePage": {
+    "meta": {
+      "title": "AlfaIhale : logiciel de suivi et de réponse aux appels d'offres | Ozturksoft",
+      "desc": "AlfaIhale, logiciel de suivi des appels d'offres pour les fournisseurs du secteur public turc : appels EKAP pertinents, lecture du cahier des charges, tarification et encaissements."
+    },
+    "hero": {
+      "kicker": "Appels d'offres publics",
+      "title": "Ne manquez aucun appel d'offres pertinent, construisez l'offre à partir du cahier des charges et <span class=\"pr-grad\">suivez tout dans un seul dossier jusqu'au paiement.</span>",
+      "desc": "AlfaIhale est le logiciel de suivi et de préparation des offres que nous avons conçu pour les entreprises qui vendent au secteur public. Il met en avant les appels d'offres pertinents parmi les notifications EKAP, lit le cahier des charges et regroupe tarification et suivi après livraison.",
+      "call": "Appelez-nous"
+    },
+    "strip": {
+      "label": "En bref",
+      "s1": "Pour les appels d'offres publics",
+      "s2": "Fonctionne sur votre ordinateur ou serveur",
+      "s3": "Interface : turc"
+    },
+    "about": {
+      "kicker": "À propos du produit",
+      "title": "Qu'est-ce qu'AlfaIhale ?",
+      "p": "AlfaIhale réunit tout le travail d'un appel d'offres dans un seul dossier. Il classe les appels reçus par e-mail EKAP selon leur pertinence pour votre entreprise, extrait du cahier des charges les lignes et les informations de l'acheteur, et calcule le prix dans la liste principale. Offre, résultat, contrat, commandes et paiement sont suivis dans le même dossier. Comme il fonctionne sur votre ordinateur ou serveur, vos documents ne quittent pas l'entreprise."
+    },
+    "who": {
+      "title": "Pour qui ?",
+      "i1": "Les entreprises qui vendent au secteur public via EKAP : alimentation, nettoyage, papeterie, médical, construction, informatique, mobilier, textile, carburant et agriculture",
+      "i2": "Les équipes qui préparent encore leurs offres avec Excel et des dossiers",
+      "i3": "Les entreprises qui gèrent plusieurs appels d'offres et livraisons en parallèle"
+    },
+    "pain": {
+      "title": "Quels problèmes résout-il ?",
+      "i1": "Des appels d'offres pertinents passent inaperçus ou sont traités à la dernière minute",
+      "i2": "Recopier une à une les lignes du cahier des charges dans Excel prend des heures",
+      "i3": "Offres, contrats, commandes et paiements sont dispersés et l'on ne sait pas qui suit quoi"
+    },
+    "sectors": {
+      "title": "Modèles sectoriels prêts à l'emploi",
+      "list": "<span>Alimentation</span><span>Nettoyage</span><span>Papeterie</span><span>Médical</span><span>Construction</span><span>Informatique</span><span>Mobilier</span><span>Textile</span><span>Carburant</span><span>Agriculture</span>",
+      "note": "Les autres secteurs utilisent le modèle général."
+    },
+    "feat": {
+      "kicker": "Fonctionnalités",
+      "title": "Les fonctionnalités clés, écran par écran"
+    },
+    "f1t": "Les appels d'offres qui vous correspondent",
+    "f1d": "Les notifications envoyées par EKAP selon vos filtres sont lues dans votre boîte mail. Chaque appel d'offres reçoit un score de pertinence selon vos mots-clés et codes OKAS, avec la justification visible. Vous fixez le seuil.",
+    "f2t": "Une étape qui lit le cahier des charges",
+    "f2d": "Les lignes et les informations de l'acheteur sont extraites des documents ZIP, PDF, Word, Excel et EKAP. Les points à vérifier avant l'offre — échantillons, offre partielle, pénalités de retard — sont listés à part. Les documents scannés sont lus sur votre ordinateur grâce à la reconnaissance de texte en turc.",
+    "f3t": "Tarification avec la liste principale",
+    "f3d": "Lignes, frais, montant de la garantie de soumission et vos prix passés tiennent dans un seul tableau. Vous voyez le montant de l'offre et la marge en la préparant, frais de contrat, droit de timbre et transport compris.",
+    "f4t": "Un dossier d'appel d'offres en sept étapes",
+    "f4d": "Documents, liste principale, offre, résultat, contrat, commandes et clôture. Chaque appel d'offres est un dossier ; le tableau de bord montre d'un coup d'œil l'étape de chacun et la prochaine action.",
+    "f5t": "De la livraison au paiement",
+    "f5d": "Marchandises livrées et restantes, factures émises et encaissements sont suivis. À la clôture, bénéfice prévu et réel s'affichent côte à côte ; exports Excel et dossier complet sont téléchargeables.",
+    "how": {
+      "kicker": "En quatre étapes",
+      "title": "Comment ça marche ?"
+    },
+    "s1t": "Installation",
+    "s1d": "S'installe sur Windows, Linux, un Mac Apple Silicon ou le serveur du bureau ; votre équipe l'utilise dans le navigateur.",
+    "s2t": "Connexion",
+    "s2d": "On connecte la boîte mail qui reçoit les notifications EKAP et on saisit vos mots-clés et codes OKAS.",
+    "s3t": "Suivi",
+    "s3d": "Les appels pertinents s'affichent sur l'écran Aujourd'hui ; un dossier est ouvert pour celui que vous choisissez et ses documents sont lus.",
+    "s4t": "L'offre et la suite",
+    "s4d": "Tarification, offre, contrat, commandes et paiement avancent dans le même dossier ; les exports Excel utilisent vos propres modèles.",
+    "sec": {
+      "kicker": "Sécurité et contrôle",
+      "title": "Votre mot de passe EKAP n'est jamais demandé : le logiciel lit seulement les e-mails de notification qui vous sont envoyés.",
+      "i1": "Fonctionne sur votre ordinateur ou serveur ; les documents sont traités en local.",
+      "i2": "Rôles administrateur, spécialiste des offres et lecteur ; chaque action est journalisée.",
+      "i3": "Licence signée : continue de fonctionner jusqu'à 30 jours sans connexion internet."
+    },
+    "faq": {
+      "title": "Questions fréquentes sur AlfaIhale",
+      "q1": "AlfaIhale a-t-il besoin de mon mot de passe EKAP ?",
+      "a1": "Non. AlfaIhale ne se connecte pas à EKAP et ne lui envoie aucune requête ; il lit les appels d'offres dans les e-mails de notification qu'EKAP vous envoie selon vos filtres.",
+      "q2": "Où s'installe-t-il et fonctionne-t-il hors ligne ?",
+      "a2": "Il s'installe sur un ordinateur Windows, Linux ou Mac Apple Silicon, ou sur le serveur du bureau, et s'utilise dans le navigateur. La vérification de licence nécessite internet, mais en cas de coupure le logiciel continue jusqu'à 30 jours.",
+      "q3": "Pour quels secteurs convient-il ?",
+      "a3": "Des modèles prêts existent pour l'alimentation, le nettoyage, la papeterie, le médical, la construction, l'informatique, le mobilier, le textile, le carburant et l'agriculture. Les autres secteurs utilisent le modèle général.",
+      "q4": "Pouvons-nous utiliser nos propres modèles Excel ?",
+      "a4": "Oui. Les exports Excel utilisent les modèles de votre entreprise : votre équipe garde le format qu'elle connaît.",
+      "q5": "Combien coûte AlfaIhale ?",
+      "a5": "Le prix dépend du nombre d'utilisateurs et du mode d'installation. Après la démo, nous envoyons un devis écrit ; la démo est gratuite.",
+      "q6": "Comment l'essayer ?",
+      "a6": "Lors de la démo, nous parcourons AlfaIhale ensemble sur un appel d'offres type de votre secteur, puis nous planifions l'installation et l'essai."
+    },
+    "other": {
+      "title": "Nos autres produits"
+    },
+    "cta": {
+      "title": "Découvrez AlfaIhale avec vos propres appels d'offres.",
+      "desc": "Lors de la démo, nous montrons le produit sur un appel d'offres de votre secteur et répondons à vos questions."
+    },
+    "footer": "© 2026 Ozturksoft — AlfaIhale, logiciel d'appels d'offres, Ankara"
   }
 }

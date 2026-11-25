@@ -7,7 +7,8 @@
     "blog": "Blog",
     "contact": "İletişim",
     "quoteBtn": "Teklif Al",
-    "whatsapp": "Canlı Destek"
+    "whatsapp": "Canlı Destek",
+    "products": "Ürünler"
   },
   "hero": {
     "title": "Ankara'nın Yapay Zeka & Yazılım Geliştirme Firması",
@@ -648,7 +649,8 @@
       "voiceAi": "Sesli yapay zeka asistanı",
       "kvkkAudit": "KVKK uyum analizi",
       "mobile": "Mobil uygulama",
-      "academic": "Akademik araştırma yazılımı"
+      "academic": "Akademik araştırma yazılımı",
+      "products": "Ürünlerimiz"
     },
     "groups": {
       "ai": "Yapay Zeka",
@@ -4734,7 +4736,7 @@
       "q2": "Ankara'da stok takip programı yapan firmalar hangileri, en iyisi hangisi?",
       "a2": "Herkes için tek bir en iyi firma yok; doğru firma işinize ve kullandığınız programlara göre değişir. Karar verirken yazılı kapsam verip vermediğine, Logo, Netsis veya Mikro bağlantısı deneyimine, kaynak kodu teslim edip etmediğine ve yerinde destek verebildiğine bakın. Ozturksoft bu firmalardan biridir: Çankaya'dan stok, depo ve sipariş programı yazıyor, kurulumu ve eğitimi yerinde yapıyoruz.",
       "q3": "Hazır stok programı mı almalıyım, özel yazılım mı yaptırmalıyım?",
-      "a3": "Standart alış-satış yapan ve tek depolu işletmeler için hazır program genellikle daha ucuz ve yeterlidir. Çoklu depo, üretime bağlı stok, pazaryeri satışı veya size özel onay kuralları varsa hazır programı işinize uydurmak zorlaşır; o zaman özel yazılım mantıklı olur. Keşif görüşmesinde hazır programın yeterli olduğunu görürsek bunu söyleriz. Ozturksoft hazır paket satmaz; yalnızca işinize özel yazılım geliştirir. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
+      "a3": "Standart alış-satış yapan ve tek depolu işletmeler için hazır program genellikle daha ucuz ve yeterlidir. Çoklu depo, üretime bağlı stok, pazaryeri satışı veya size özel onay kuralları varsa hazır programı işinize uydurmak zorlaşır; o zaman özel yazılım mantıklı olur. Keşif görüşmesinde hazır programın yeterli olduğunu görürsek bunu söyleriz. Bu hizmette size hazır paket satmıyoruz; yazılımı işinize özel geliştiriyoruz. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
       "q4": "Özel stok programı Logo, Netsis, Mikro veya Excel ile çalışır mı?",
       "a4": "Evet. Logo, Netsis ve Mikro ile stok, cari ve fatura bilgisi otomatik eşitlenebilir; muhasebe tarafınız değişmeden kalır. Excel'deki mevcut listeleriniz içeri aktarılır; Trendyol, Hepsiburada veya kendi e-ticaret sitenizle stok bağlantısı da kurulabilir.",
       "q5": "Stok takip programı yaptırmak ne kadar sürer?",
@@ -4847,7 +4849,7 @@
       "q2": "Ankara'da üretim takip programı yapan firmalar hangileri, en iyisi hangisi?",
       "a2": "Herkes için tek bir en iyi firma yok; doğru seçim sektörünüze, makinelerinize ve kullandığınız ERP'ye göre değişir. Sahayı yerinde görüp görmediğine, yazılı kapsam verip vermediğine, Logo, Netsis veya Mikro deneyimine ve kaynak kodu teslim edip etmediğine bakın. Ozturksoft bu firmalardan biridir: Çankaya'dayız ve OSTİM, İvedik, Sincan ile Ankara Sanayi Odası 1. OSB'deki üreticilere yerinde keşif ve kurulum yapabiliyoruz.",
       "q3": "Hazır üretim programı mı, özel fabrika yazılımı mı?",
-      "a3": "Standart ürünler üreten ve ERP'sinin üretim modülü işini gören firmalar için hazır çözüm daha ucuz ve hızlıdır. Siparişe özel üretim, çok aşamalı rota, size özel kalite formları veya makine bağlantısı gerekiyorsa hazır programı uydurmak pahalılaşır; o zaman özel yazılım mantıklıdır. Keşifte hazır çözümün yeterli olduğunu görürsek bunu söyleriz. Ozturksoft hazır paket satmaz; yalnızca işinize özel yazılım geliştirir. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
+      "a3": "Standart ürünler üreten ve ERP'sinin üretim modülü işini gören firmalar için hazır çözüm daha ucuz ve hızlıdır. Siparişe özel üretim, çok aşamalı rota, size özel kalite formları veya makine bağlantısı gerekiyorsa hazır programı uydurmak pahalılaşır; o zaman özel yazılım mantıklıdır. Keşifte hazır çözümün yeterli olduğunu görürsek bunu söyleriz. Bu hizmette size hazır paket satmıyoruz; yazılımı işinize özel geliştiriyoruz. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
       "q4": "Üretim takip yazılımı Logo, Netsis, Mikro veya Excel ile çalışır mı?",
       "a4": "Evet. Logo, Netsis ve Mikro ile reçete, stok, sipariş ve üretim fişleri otomatik eşitlenebilir; muhasebe tarafınız değişmeden kalır. Excel'deki ürün, reçete ve plan listeleriniz içeri aktarılır. Makinelerden veri almak makinenin modeline bağlıdır; keşifte birlikte kontrol ederiz.",
       "q5": "Üretim takip programı ne kadar sürede kurulur?",
@@ -4959,7 +4961,7 @@
       "q2": "Ankara'da teknik servis programı yapan firmalar hangileri, en iyisi hangisi?",
       "a2": "Herkes için tek bir “en iyi” firma yok; doğru seçim servis akışınıza ve kullandığınız muhasebe programına bağlı. Karşılaştırırken yazılı kapsama, kaynak kodun size teslim edilip edilmediğine, Logo, Netsis veya Mikro bağlantı deneyimine ve teslimden sonraki aylık ücrete bakın. Ozturksoft, Ankara Çankaya'da web paneli ve saha mobil uygulamasını birlikte geliştiren firmalardan biridir.",
       "q3": "Hazır servis programı mı almalıyım, özel yazılım mı yaptırmalıyım?",
-      "a3": "Az sayıda teknisyen ve standart bir iş akışı için hazır program genellikle daha ucuz ve daha hızlıdır. Kendi servis formunuz, sözleşmeli bakım kurallarınız, yedek parça yapınız veya muhasebe bağlantınız hazır programa uymuyorsa ya da kullanıcı başı abonelik ekip büyüdükçe pahalılaşıyorsa özel yazılım mantıklı olur. Ozturksoft hazır paket satmaz; yalnızca işinize özel yazılım geliştirir. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
+      "a3": "Az sayıda teknisyen ve standart bir iş akışı için hazır program genellikle daha ucuz ve daha hızlıdır. Kendi servis formunuz, sözleşmeli bakım kurallarınız, yedek parça yapınız veya muhasebe bağlantınız hazır programa uymuyorsa ya da kullanıcı başı abonelik ekip büyüdükçe pahalılaşıyorsa özel yazılım mantıklı olur. Bu hizmette size hazır paket satmıyoruz; yazılımı işinize özel geliştiriyoruz. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
       "q4": "Teknik servis programı Logo, Netsis, Mikro veya Excel ile çalışır mı?",
       "a4": "Evet. Cari ve stok kartları Logo, Netsis veya Mikro'dan alınır, biten servisin faturası muhasebe programına aktarılır. Excel'deki müşteri, cihaz ve geçmiş servis kayıtları başlangıçta içe aktarılır; web sitenizdeki arıza formu da API ile bağlanabilir.",
       "q5": "Saha ekibi takip uygulaması ne kadar sürede hazır olur?",
@@ -5194,7 +5196,7 @@
       "q2": "Ankara'da yapay zeka ile müşteri hizmetleri kuran firmalar hangileri, en iyisi hangisi?",
       "a2": "Herkes için tek bir “en iyi” firma yok. Seçerken firmanın WhatsApp ve CRM entegrasyonu yapıp yapmadığına, cevapların sizin belgelerinize dayanıp dayanmadığına, kaynak kodun ve verinin kime ait olacağına ve canlıya aldıktan sonra destek verip vermediğine bakın. Ozturksoft, Ankara Çankaya'da bu sistemleri şirketlerin kendi verileri ve programlarıyla kuran firmalardan biridir.",
       "q3": "Hazır chatbot mu almalıyım, özel yapay zeka asistanı mı yaptırmalıyım?",
-      "a3": "Soru sayısı az ve standartsa hazır bir chatbot aboneliği daha ekonomiktir. Asistanın stok, sipariş veya müşteri kaydı gibi bilgileri kendi sistemlerinizden alması, talepleri satış ekibine sizin kurallarınıza göre dağıtması ya da verinin sizde kalması gerekiyorsa özel kurulum daha doğru olur. Keşifte iki seçeneği karşılaştırıp size açıkça söyleriz. Ozturksoft hazır paket satmaz; yalnızca işinize özel yazılım geliştirir. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
+      "a3": "Soru sayısı az ve standartsa hazır bir chatbot aboneliği daha ekonomiktir. Asistanın stok, sipariş veya müşteri kaydı gibi bilgileri kendi sistemlerinizden alması, talepleri satış ekibine sizin kurallarınıza göre dağıtması ya da verinin sizde kalması gerekiyorsa özel kurulum daha doğru olur. Keşifte iki seçeneği karşılaştırıp size açıkça söyleriz. Bu hizmette size hazır paket satmıyoruz; yazılımı işinize özel geliştiriyoruz. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
       "q4": "Yapay zeka asistanı Logo, Netsis, Mikro veya CRM'imle çalışır mı?",
       "a4": "Çoğu durumda evet. Logo, Netsis ve Mikro'dan stok, fiyat ve sipariş durumu okunabilir; CRM'inize API üzerinden müşteri ve fırsat kaydı açılabilir; Excel ve PDF belgeler bilgi kaynağı olarak kullanılır. Kullandığınız programın sürümünü ve bağlantı imkânını keşifte kontrol ederiz.",
       "q5": "Yapay zeka müşteri hizmetleri kurulumu ne kadar sürer?",
@@ -5308,7 +5310,7 @@
       "q2": "Ankara'da dashboard ve raporlama sistemi yapan firmalar hangileri, en iyisi hangisi?",
       "a2": "Herkes için tek bir “en iyi” firma yok. Firmanın Logo, Netsis veya Mikro gibi programlardan veri çekip çekemediğine, rakamları eski raporlarınızla doğrulayıp doğrulamadığına, kaynak kodun kime ait olacağına ve teslimden sonra destek verip vermediğine bakın. Ozturksoft, Ankara Çankaya'da şirketlerin kendi programlarına bağlanan yönetim panelleri kuran firmalardan biridir.",
       "q3": "Power BI gibi hazır bir araç mı kullanmalıyım, özel yönetim paneli mi yaptırmalıyım?",
-      "a3": "Verileriniz düzenli ve tek kaynaktaysa, raporları hazırlayacak bir çalışanınız da varsa Power BI veya Looker Studio gibi hazır araçlar daha ekonomiktir. Veri birçok programa dağılmışsa, rol bazlı erişim, otomatik e-posta raporu veya şirketinize özel hesaplamalar gerekiyorsa özel panel elle yapılan işi daha çok azaltır. Keşifte iki seçeneği karşılaştırıp size açıkça söyleriz. Ozturksoft hazır paket satmaz; yalnızca işinize özel yazılım geliştirir. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
+      "a3": "Verileriniz düzenli ve tek kaynaktaysa, raporları hazırlayacak bir çalışanınız da varsa Power BI veya Looker Studio gibi hazır araçlar daha ekonomiktir. Veri birçok programa dağılmışsa, rol bazlı erişim, otomatik e-posta raporu veya şirketinize özel hesaplamalar gerekiyorsa özel panel elle yapılan işi daha çok azaltır. Keşifte iki seçeneği karşılaştırıp size açıkça söyleriz. Bu hizmette size hazır paket satmıyoruz; yazılımı işinize özel geliştiriyoruz. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
       "q4": "Dashboard Logo, Netsis, Mikro ve Excel verilerimle çalışır mı?",
       "a4": "Evet. Logo, Netsis ve Mikro'dan satış, cari, stok ve tahsilat verisi okunur; CRM, e-ticaret sitesi ve pazaryeri siparişleri API ile, Excel tabloları dosya aktarımıyla eklenir. Panel mevcut programlarınıza veri yazmaz, yalnızca okur. Programınızın sürümünü keşifte kontrol ederiz.",
       "q5": "Raporlama sistemi kurmak ne kadar sürer?",
@@ -5423,7 +5425,7 @@
       "q2": "Ankara'da SaaS geliştiren firmalar hangileri, en iyisi hangisi?",
       "a2": "Tek bir “en iyi” firma yok; doğru seçim ürününüze ve bütçenize bağlıdır. Firmaya daha önce abonelikli ürün geliştirip geliştirmediğini, kaynak kodun kime ait olacağını, MVP kapsamını nasıl daralttığını ve yayından sonra bakımı kimin yapacağını sorun. Ozturksoft, Ankara Çankaya'da MVP'den tam ürüne kadar SaaS geliştiren firmalardan biridir.",
       "q3": "Hazır altyapı veya no-code mu kullanmalıyım, sıfırdan yazılım ürünü yaptırmak mı?",
-      "a3": "Fikri hızlıca denemek için no-code araçlar veya hazır şablonlar doğru tercih olabilir ve çok daha ucuzdur. Müşteri sayısı arttığında, özel iş kuralları, veri ayrımı ve performans gerektiğinde ise özel geliştirme gerekir. Keşifte ikisini dürüstçe karşılaştırırız. Ozturksoft hazır paket satmaz; yalnızca işinize özel yazılım geliştirir. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
+      "a3": "Fikri hızlıca denemek için no-code araçlar veya hazır şablonlar doğru tercih olabilir ve çok daha ucuzdur. Müşteri sayısı arttığında, özel iş kuralları, veri ayrımı ve performans gerektiğinde ise özel geliştirme gerekir. Keşifte ikisini dürüstçe karşılaştırırız. Bu hizmette size hazır paket satmıyoruz; yazılımı işinize özel geliştiriyoruz. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
       "q4": "Yaptıracağım SaaS, müşterilerimin Logo, Netsis, Mikro, Excel veya e-ticaret sistemleriyle çalışır mı?",
       "a4": "Evet, kapsama eklenirse. Logo, Netsis ve Mikro'dan API veya aktarım servisiyle veri alınabilir, Excel/CSV içe aktarma eklenebilir, Trendyol ve Hepsiburada gibi pazaryerlerine bağlanılabilir. Hangi bağlantının MVP'de, hangisinin sonraki sürümde olacağını teklifte ayrı yazarız.",
       "q5": "SaaS MVP geliştirme ne kadar sürer?",
@@ -5535,7 +5537,7 @@
       "q2": "Ankara'da yapay zeka telefon asistanı kuran firmalar hangileri, en iyisi hangisi?",
       "a2": "Tek bir “en iyi” firma yok. Firmaya Türkçe ses tanımayı gürültülü ortamda nasıl test ettiğini, insana devrin nasıl çalıştığını, KVKK aydınlatmasını nasıl yaptığını ve dakika başı maliyeti önceden hesaplayıp hesaplamadığını sorun. Ozturksoft, Ankara Çankaya'da sesli asistanı santral ve CRM'e bağlayarak kuran firmalardan biridir.",
       "q3": "Hazır çağrı merkezi yazılımı mı, özel sesli yapay zeka asistanı mı?",
-      "a3": "Aramalarınız az ve standartsa hazır bir çağrı merkezi yazılımı veya tuşlamalı sesli menü (IVR) daha ucuz ve yeterlidir. Arayanın serbestçe konuştuğu, sipariş veya randevu sisteminize bakılması gereken yoğun hatlarda özel asistan anlam kazanır. Keşifte hangisinin size uygun olduğunu açıkça söyleriz. Ozturksoft hazır paket satmaz; yalnızca işinize özel yazılım geliştirir. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
+      "a3": "Aramalarınız az ve standartsa hazır bir çağrı merkezi yazılımı veya tuşlamalı sesli menü (IVR) daha ucuz ve yeterlidir. Arayanın serbestçe konuştuğu, sipariş veya randevu sisteminize bakılması gereken yoğun hatlarda özel asistan anlam kazanır. Keşifte hangisinin size uygun olduğunu açıkça söyleriz. Bu hizmette size hazır paket satmıyoruz; yazılımı işinize özel geliştiriyoruz. Bu yüzden özel yazılım size uygun değilse bunu keşif görüşmesinde açıkça söyleriz.",
       "q4": "Telefonu yapay zeka açarsa mevcut santralim, CRM'im, Logo, Netsis, Mikro veya e-ticaret sistemimle çalışır mı?",
       "a4": "Evet. Mevcut numaranız korunur, IP santral veya operatör yönlendirmesiyle bağlanır. Sipariş ve cari bilgisi Logo, Netsis, Mikro veya e-ticaret altyapınızdan API ile okunur, sık sorular Excel'den güncellenebilir, görüşme özetleri CRM'inize yazılır.",
       "q5": "Çağrı merkezi yapay zeka kurulumu ne kadar sürer?",
@@ -5685,5 +5687,189 @@
     "sub": "Google İşletme Profilimizdeki gerçek yorumlardan bazıları; metinler değiştirilmeden paylaşılmıştır.",
     "rating": "Google puanı",
     "all": "Google’da tüm yorumları görün"
+  },
+  "productsPage": {
+    "meta": {
+      "title": "Yazılım Ürünleri: İhale Takip, AI Satış ve Satış Eğitimi | Ozturksoft",
+      "desc": "Ozturksoft ürünleri: kamu ihale takip programı AlfaIhale, yapay zeka B2B satış ekibi MyEden ve satış eğitimi simülasyonu Arena. Ücretsiz demo, Ankara."
+    },
+    "hero": {
+      "kicker": "Ürünlerimiz",
+      "title": "Sıfırdan yazılım beklemeden <span class=\"pr-grad\">hemen kullanılan</span> ürünler.",
+      "desc": "İhale takibi, yapay zeka ile B2B satış ve satış ekibi eğitimi için geliştirdiğimiz üç hazır ürün. Size uygun olanı kendi iş akışınız üzerinden kısa bir demoda gösterelim.",
+      "btn1": "Demo isteyin",
+      "btn2": "Ürünlere göz atın"
+    },
+    "pick": {
+      "alfa": "Kamu ihale takibi",
+      "myeden": "Yapay zeka ile B2B satış",
+      "arena": "Satış ekibi eğitimi"
+    },
+    "alfa": {
+      "kicker": "01 · Kamu ihaleleri",
+      "title": "EKAP ihalelerini takip edin, teklifi şartnameden hazırlayın, tahsilata kadar izleyin.",
+      "desc": "Kamuya mal satan firmalar için ihale takip ve teklif yazılımı. Size gelen EKAP bildirimlerinden uygun ihaleleri seçer, şartnameyi okuyup kalemleri çıkarır, fiyatlandırmayı tek tabloda toplar.",
+      "b1": "Uygunluk puanıyla ihale listesi",
+      "b2": "Şartnameden otomatik kalem çıkarma",
+      "b3": "ANA LİSTE ile fiyat ve kâr hesabı",
+      "b4": "Dokümandan kapanışa yedi adımlı dosya",
+      "b5": "Sipariş, fatura ve tahsilat takibi",
+      "chip1": "Kendi bilgisayarınızda veya sunucunuzda",
+      "chip2": "Türkçe arayüz",
+      "more": "AlfaIhale'yi inceleyin"
+    },
+    "myeden": {
+      "kicker": "02 · B2B satış",
+      "title": "Müşteri adaylarını bulan, onlara yazan ve toplantıları takviminize ekleyen yapay zeka satış ekibi.",
+      "desc": "Birlikte çalışan sekiz yapay zeka ajanı hedef firmaları bulur ve puanlar, her firmaya özel e-posta taslağı hazırlar, gelen yanıtları toplantıya çevirir. E-postalar varsayılan olarak sizin onayınız olmadan gönderilmez.",
+      "b1": "Birlikte çalışan ajan ekibi",
+      "b2": "Hedef firma bulma ve puanlama",
+      "b3": "Onayınızla giden kişiye özel e-postalar",
+      "b4": "Yanıttan toplantıya",
+      "b5": "Satış hattı ve kaybedilen fırsatları geri kazanma"
+    },
+    "web": {
+      "chip1": "Tarayıcıdan çalışır, kurulum yok",
+      "chip2": "Türkçe ve İngilizce"
+    },
+    "demo": {
+      "more": "Demosunu isteyin"
+    },
+    "arena": {
+      "kicker": "03 · Satış eğitimi",
+      "title": "Satış danışmanlarınız gerçek müşteriden önce sanal müşteriyle pratik yapsın.",
+      "desc": "Danışman, gizli bir itirazı olan yapay zeka müşteriyle görüşür. Her görüşme puanlanır ve her puanın gerekçesi görüşmeden bir alıntıyla gösterilir; danışman neyi neden kaçırdığını açıkça görür.",
+      "b1": "Gizli itirazı olan sanal müşteriler",
+      "b2": "Her görüşmeye puan ve gerekçe",
+      "b3": "Tek odaklı gelişim raporu",
+      "b4": "Rakip ve itiraz hazırlığı",
+      "b5": "Ligler, gelişim takibi ve koçluk"
+    },
+    "compare": {
+      "kicker": "Ürün mü, hizmet mi?",
+      "title": "Hazır ürün mü, size özel yazılım mı?",
+      "p1t": "Ürünler",
+      "p1": "Belirli bir işi çözen hazır yazılımlar. Önce demoda görürsünüz; kurulumdan sonra ekibiniz hemen kullanmaya başlar.",
+      "p2t": "Özel yazılım",
+      "p2": "Süreciniz hazır bir ürüne uymuyorsa ihtiyacınızı birlikte çıkarır, yazılımı ve yapay zeka çözümünü işinize göre geliştiririz.",
+      "link": "Hizmetlerimize bakın"
+    },
+    "faq": {
+      "title": "Ürünlerimiz hakkında sık sorulanlar",
+      "q1": "Ozturksoft'un hazır yazılım ürünleri hangileri?",
+      "a1": "Üç ürünümüz var: kamu ihalelerine katılan firmalar için ihale takip ve teklif programı AlfaIhale, B2B firmalar için yapay zeka satış ekibi MyEden ve satış danışmanlarının sanal müşteriyle pratik yaptığı Arena.",
+      "q2": "Ürünlerin fiyatı ne kadar?",
+      "a2": "Fiyat ürüne, kullanıcı sayısına ve kurulum şekline göre değişir. Demo görüşmesinden sonra firmanıza özel yazılı teklif veriyoruz; demo ücretsizdir.",
+      "q3": "Satın almadan önce deneyebilir miyim?",
+      "a3": "Evet. Demo görüşmesinde ürünü işinize benzeyen bir örnek üzerinden gösteriyoruz; ardından deneme ve kurulum sürecini birlikte planlıyoruz.",
+      "q4": "Ürünler bulutta mı çalışıyor, kendi sunucumuza kurulabilir mi?",
+      "a4": "AlfaIhale kendi bilgisayarınıza veya ofis sunucunuza kurulur, belgeleriniz sizde kalır. MyEden ve Arena web tabanlıdır; tarayıcıdan kullanılır, kurulum gerektirmez.",
+      "q5": "İhtiyacım hiçbir ürüne uymuyorsa ne olur?",
+      "a5": "O zaman işinize özel yazılım geliştiririz. Ayrıntılar için <a href=\"/ozel-yazilim-yaptirmak\">özel yazılım yaptırmak</a> sayfasına bakabilirsiniz."
+    },
+    "cta": {
+      "title": "Hangi ürünün işinize yarayacağına birlikte bakalım.",
+      "desc": "Kısa bir demo görüşmesinde ürünü kendi iş akışınız üzerinden gösterir, sorularınızı yanıtlarız."
+    },
+    "shots": {
+      "note": "Ekran görüntülerindeki veriler örnektir."
+    },
+    "footer": "© 2026 Ozturksoft — Yazılım ürünleri, Ankara"
+  },
+  "alfaihalePage": {
+    "meta": {
+      "title": "AlfaIhale: İhale Takip Programı ve Teklif Hazırlama Yazılımı | Ozturksoft",
+      "desc": "AlfaIhale, kamuya mal satan firmalar için ihale takip programı: EKAP bildirimlerinden uygun ihaleler, şartname okuma, ANA LİSTE fiyatlandırma ve tahsilat takibi."
+    },
+    "hero": {
+      "kicker": "Kamu ihaleleri",
+      "title": "Uygun ihaleyi kaçırmayın, teklifi şartnameden çıkarın, <span class=\"pr-grad\">tahsilata kadar tek dosyada izleyin.</span>",
+      "desc": "AlfaIhale, kamuya mal satan firmalar için geliştirdiğimiz ihale takip ve teklif hazırlama programı. EKAP'ın size gönderdiği bildirimlerden uygun ihaleleri öne çıkarır, şartnameyi okur; fiyatlandırmayı ve teslimat sonrasını aynı yerde tutar.",
+      "call": "Hemen arayın"
+    },
+    "strip": {
+      "label": "Kısaca",
+      "s1": "Kamu ihaleleri için",
+      "s2": "Kendi bilgisayarınızda veya sunucunuzda çalışır",
+      "s3": "Arayüz: Türkçe"
+    },
+    "about": {
+      "kicker": "Ürün hakkında",
+      "title": "AlfaIhale nedir?",
+      "p": "AlfaIhale bir ihalenin bütün işini tek dosyada toplar. EKAP bildirim e-postalarıyla gelen ihaleleri firmanıza uygunluğuna göre sıralar; şartnameden kalemleri ve idare bilgilerini çıkarır; fiyatı ANA LİSTE tablosunda hesaplatır. Teklif, sonuç, sözleşme, sipariş ve tahsilat adımlarını da aynı dosyada izler. Program kendi bilgisayarınızda ya da sunucunuzda çalıştığı için belgeleriniz dışarı çıkmaz."
+    },
+    "who": {
+      "title": "Kimler kullanır?",
+      "i1": "EKAP üzerinden kamuya mal satan firmalar: gıda, temizlik, kırtasiye, medikal, yapı, bilişim, mobilya, tekstil, akaryakıt ve tarım",
+      "i2": "Teklifleri hâlâ Excel dosyaları ve klasörlerle hazırlayan ekipler",
+      "i3": "Aynı anda birkaç ihaleyi ve teslimatı yürüten firmalar"
+    },
+    "pain": {
+      "title": "Hangi sorunları çözer?",
+      "i1": "Uygun ihaleler gözden kaçıyor ya da son güne kalıyor",
+      "i2": "Şartnamedeki kalemleri tek tek Excel'e geçirmek saatler sürüyor",
+      "i3": "Teklif, sözleşme, sipariş ve tahsilat farklı klasörlerde; kimin neyi takip ettiği belli değil"
+    },
+    "sectors": {
+      "title": "Hazır sektör şablonları",
+      "list": "<span>Gıda</span><span>Temizlik</span><span>Kırtasiye</span><span>Medikal</span><span>Yapı</span><span>Bilişim</span><span>Mobilya</span><span>Tekstil</span><span>Akaryakıt</span><span>Tarım</span>",
+      "note": "Listede olmayan sektörlerde genel şablon kullanılır."
+    },
+    "feat": {
+      "kicker": "Özellikler",
+      "title": "Ekran ekran öne çıkan özellikler"
+    },
+    "f1t": "Size uygun ihaleler",
+    "f1d": "EKAP'ın filtrelerinize göre gönderdiği bildirimler e-posta kutunuzdan okunur. Her ihale anahtar kelimelerinize ve OKAS kodlarınıza göre bir uygunluk puanı alır; puanın neden verildiği de görünür. Eşiği siz belirlersiniz.",
+    "f2t": "Şartnameyi okuyan belge adımı",
+    "f2d": "ZIP, PDF, Word, Excel ve EKAP belgelerinden kalemler ve idare bilgileri çıkarılır. Numune, kısmi teklif, gecikme cezası gibi teklif öncesi dikkat edilecek maddeler ayrıca listelenir. Taranmış belgeler de bilgisayarınızda Türkçe metin tanımayla okunur.",
+    "f3t": "ANA LİSTE ile fiyatlandırma",
+    "f3d": "Kalemler, giderler, geçici teminat tutarı ve geçmiş fiyatlarınız tek tabloda durur. Teklif tutarını ve kâr oranını hazırlarken görürsünüz; sözleşme harcı, damga vergisi ve nakliye gibi giderler de hesaba katılır.",
+    "f4t": "Yedi adımlı ihale dosyası",
+    "f4d": "Doküman, ana liste, teklif, sonuç, sözleşme, siparişler ve kapanış. Her ihale ayrı bir dosyadır; panoda hangi ihalenin hangi aşamada olduğunu ve sıradaki işi tek bakışta görürsünüz.",
+    "f5t": "Teslimattan tahsilata",
+    "f5d": "Giden ve kalan malzeme, kesilen faturalar ve tahsilatlar takip edilir. Kapanışta planlanan ve gerçekleşen kâr yan yana görünür; Excel çıktıları ve dosya klasörü indirilebilir.",
+    "how": {
+      "kicker": "Dört adımda",
+      "title": "Nasıl çalışır?"
+    },
+    "s1t": "Kurulum",
+    "s1d": "Windows, Linux veya Apple Silicon işlemcili bir Mac'e ya da ofis sunucunuza kurulur; ekibiniz tarayıcıdan kullanır.",
+    "s2t": "Bağlantı",
+    "s2d": "EKAP bildirimlerinin geldiği e-posta kutusu bağlanır; takip ettiğiniz anahtar kelimeler ve OKAS kodları girilir.",
+    "s3t": "Takip",
+    "s3d": "Uygun ihaleler Bugün ekranında listelenir; seçtiğiniz ihale için dosya açılır ve belgeler okunur.",
+    "s4t": "Teklif ve sonrası",
+    "s4d": "Fiyatlandırma, teklif, sözleşme, sipariş ve tahsilat aynı dosyada ilerler; Excel çıktıları firmanızın kendi şablonlarıyla alınır.",
+    "sec": {
+      "kicker": "Güvenlik ve kontrol",
+      "title": "EKAP şifreniz istenmez; program yalnızca size gelen bildirim e-postalarını okur.",
+      "i1": "Kendi bilgisayarınızda veya sunucunuzda çalışır; belgeler yerelde işlenir.",
+      "i2": "Yönetici, teklif uzmanı ve izleyici rolleri; yapılan her işlem kayda geçer.",
+      "i3": "İmzalı lisans: internet bağlantısı kesilse de 30 güne kadar çalışmaya devam eder."
+    },
+    "faq": {
+      "title": "AlfaIhale hakkında sık sorulanlar",
+      "q1": "AlfaIhale EKAP şifremi istiyor mu?",
+      "a1": "Hayır. AlfaIhale EKAP'a bağlanmaz ve EKAP'a istek göndermez; ihaleleri, EKAP'ın filtrelerinize göre size gönderdiği bildirim e-postalarından okur.",
+      "q2": "Nereye kurulur, internet olmadan çalışır mı?",
+      "a2": "Windows, Linux veya Apple Silicon işlemcili Mac bilgisayara ya da ofis sunucunuza kurulur, ekibiniz tarayıcıdan kullanır. Lisans kontrolü için internet gerekir; bağlantı kesilirse program 30 güne kadar çalışmaya devam eder.",
+      "q3": "Hangi sektörlerde kullanılabilir?",
+      "a3": "Gıda, temizlik, kırtasiye, medikal, yapı, bilişim, mobilya, tekstil, akaryakıt ve tarım için hazır şablonlar var. Diğer sektörlerde genel şablonla kullanılır.",
+      "q4": "Kendi Excel teklif şablonlarımızı kullanabilir miyiz?",
+      "a4": "Evet. Excel çıktıları firmanızın kendi şablonlarıyla alınır; ekibiniz alıştığı formatta çalışmaya devam eder.",
+      "q5": "İhale takip programı AlfaIhale'nin fiyatı ne kadar?",
+      "a5": "Fiyat kullanıcı sayısına ve kurulum şekline göre belirlenir. Demo görüşmesinden sonra firmanıza özel yazılı teklif veriyoruz; demo ücretsizdir.",
+      "q6": "Nasıl deneyebilirim?",
+      "a6": "Demo görüşmesinde AlfaIhale'yi sizin sektörünüzden örnek bir ihale üzerinden birlikte inceliyoruz. Ardından kurulumu ve deneme sürecini firmanıza göre planlıyoruz."
+    },
+    "other": {
+      "title": "Diğer ürünlerimiz"
+    },
+    "cta": {
+      "title": "AlfaIhale'yi kendi ihalelerinizle görün.",
+      "desc": "Demo görüşmesinde ürünü sizin sektörünüzden bir ihale üzerinden gösterir, sorularınızı yanıtlarız."
+    },
+    "footer": "© 2026 Ozturksoft — AlfaIhale ihale takip programı, Ankara"
   }
 }

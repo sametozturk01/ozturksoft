@@ -7,7 +7,8 @@
     "blog": "Blog",
     "contact": "Contact",
     "quoteBtn": "Get a Quote",
-    "whatsapp": "Live Support"
+    "whatsapp": "Live Support",
+    "products": "Products"
   },
   "hero": {
     "title": "Ankara's AI & Software Development Company",
@@ -648,7 +649,8 @@
       "voiceAi": "AI voice assistant",
       "kvkkAudit": "KVKK compliance audit",
       "mobile": "Mobile apps",
-      "academic": "Academic research software"
+      "academic": "Academic research software",
+      "products": "Our products"
     },
     "groups": {
       "ai": "Artificial Intelligence",
@@ -4714,7 +4716,7 @@
       "q2": "Which companies in Ankara build stock tracking software, and which one is best?",
       "a2": "There is no single best company for everyone; the right one depends on your business and the software you use. When deciding, check whether they give a written scope, have experience connecting to Logo, Netsis or Mikro, hand over the source code and can support you on site. Ozturksoft is one of these companies: from Çankaya we build stock, warehouse and order software and handle installation and training on site.",
       "q3": "Should I buy ready-made stock software or have custom software built?",
-      "a3": "For businesses with standard buying and selling and a single warehouse, ready-made software is usually cheaper and sufficient. With multiple warehouses, production-linked stock, marketplace sales or your own approval rules, adapting a ready-made program gets harder, and custom software makes sense. If we see in the discovery call that a ready-made program is enough, we will tell you. Ozturksoft does not sell ready-made packages; we only build software tailored to your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
+      "a3": "For businesses with standard buying and selling and a single warehouse, ready-made software is usually cheaper and sufficient. With multiple warehouses, production-linked stock, marketplace sales or your own approval rules, adapting a ready-made program gets harder, and custom software makes sense. If we see in the discovery call that a ready-made program is enough, we will tell you. In this service we do not sell you a ready-made package; we build the software around your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
       "q4": "Does custom stock software work with Logo, Netsis, Mikro or Excel?",
       "a4": "Yes. Stock, account and invoice data can be synced automatically with Logo, Netsis and Mikro, and your accounting side stays as it is. Your existing Excel lists are imported, and stock can also be connected to Trendyol, Hepsiburada or your own online shop.",
       "q5": "How long does it take to build stock tracking software?",
@@ -4827,7 +4829,7 @@
       "q2": "Which companies in Ankara build production tracking software, and which one is best?",
       "a2": "There is no single best company for everyone; the right choice depends on your sector, your machines and the ERP you use. Check whether they visit the shop floor, give a written scope, have Logo, Netsis or Mikro experience and hand over the source code. Ozturksoft is one of these companies: we are based in Çankaya and can do on-site discovery and installation for manufacturers in OSTİM, İvedik, Sincan and Ankara Sanayi Odası 1. OSB.",
       "q3": "Ready-made production software or custom factory software?",
-      "a3": "For companies making standard products whose ERP production module already does the job, a ready-made solution is cheaper and faster. If you produce to order, have multi-step routings, need your own quality forms or machine connections, adapting a ready-made program gets expensive, and custom software makes sense. If we see during discovery that a ready-made solution is enough, we will tell you. Ozturksoft does not sell ready-made packages; we only build software tailored to your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
+      "a3": "For companies making standard products whose ERP production module already does the job, a ready-made solution is cheaper and faster. If you produce to order, have multi-step routings, need your own quality forms or machine connections, adapting a ready-made program gets expensive, and custom software makes sense. If we see during discovery that a ready-made solution is enough, we will tell you. In this service we do not sell you a ready-made package; we build the software around your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
       "q4": "Does production tracking software work with Logo, Netsis, Mikro or Excel?",
       "a4": "Yes. Bills of materials, stock, orders and production slips can be synced automatically with Logo, Netsis and Mikro, and your accounting side stays as it is. Your product, bill-of-materials and planning lists in Excel are imported. Reading data from machines depends on the machine model; we check this together during discovery.",
       "q5": "How long does it take to set up production tracking software?",
@@ -4939,7 +4941,7 @@
       "q2": "Which companies in Ankara build field service software, and which is the best?",
       "a2": "There is no single “best” company for everyone; the right choice depends on your service flow and the accounting software you use. When comparing, look at the written scope, whether the source code is handed over to you, experience with Logo, Netsis or Mikro links, and the monthly fee after delivery. Ozturksoft is one of the companies in Çankaya, Ankara that builds the web panel and the field mobile app together.",
       "q3": "Should I buy ready-made service software or have custom software built?",
-      "a3": "For a few technicians and a standard workflow, a ready-made program is usually cheaper and faster. Custom software makes sense if your own service form, contract maintenance rules, spare parts structure or accounting link do not fit a ready-made program, or if per-user subscriptions get expensive as the team grows. Ozturksoft does not sell ready-made packages; we only build software tailored to your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
+      "a3": "For a few technicians and a standard workflow, a ready-made program is usually cheaper and faster. Custom software makes sense if your own service form, contract maintenance rules, spare parts structure or accounting link do not fit a ready-made program, or if per-user subscriptions get expensive as the team grows. In this service we do not sell you a ready-made package; we build the software around your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
       "q4": "Does the service software work with Logo, Netsis, Mikro or Excel?",
       "a4": "Yes. Customer and stock cards are taken from Logo, Netsis or Mikro, and the invoice for a finished job is transferred to the accounting software. Customer, device and past service records in Excel are imported at the start, and the fault form on your website can also be connected via API.",
       "q5": "How long does it take to build a field team tracking app?",
@@ -5174,7 +5176,7 @@
       "q2": "Which companies in Ankara build AI customer service systems, and which one is the best?",
       "a2": "There is no single “best” company for everyone. When choosing, check whether the company does WhatsApp and CRM integration, whether the answers are based on your own documents, who will own the source code and data, and whether support continues after launch. Ozturksoft, in Çankaya, Ankara, is one of the companies that build these systems with businesses' own data and programs.",
       "q3": "Should I buy a ready-made chatbot or have a custom AI assistant built?",
-      "a3": "If the number of questions is small and they are standard, a ready-made chatbot subscription is more economical. If the assistant needs to pull stock, order or customer information from your own systems, distribute enquiries to the sales team according to your rules, or keep the data on your side, a custom setup is the better choice. In the discovery call we compare both options and tell you plainly. Ozturksoft does not sell ready-made packages; we only build software tailored to your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
+      "a3": "If the number of questions is small and they are standard, a ready-made chatbot subscription is more economical. If the assistant needs to pull stock, order or customer information from your own systems, distribute enquiries to the sales team according to your rules, or keep the data on your side, a custom setup is the better choice. In the discovery call we compare both options and tell you plainly. In this service we do not sell you a ready-made package; we build the software around your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
       "q4": "Will the AI assistant work with my Logo, Netsis, Mikro or CRM?",
       "a4": "In most cases, yes. Stock, prices and order status can be read from Logo, Netsis and Mikro; customer and opportunity records can be created in your CRM via its API; Excel and PDF documents serve as knowledge sources. We check the version of your software and its connection options during the discovery call.",
       "q5": "How long does it take to set up AI customer service?",
@@ -5288,7 +5290,7 @@
       "q2": "Which companies in Ankara build dashboards and reporting systems, and which one is the best?",
       "a2": "There is no single “best” company for everyone. Check whether the company can pull data from programs such as Logo, Netsis or Mikro, whether it verifies the figures against your previous reports, who will own the source code and whether it provides support after delivery. Ozturksoft, in Çankaya, Ankara, is one of the companies that build management dashboards connected to businesses' own programs.",
       "q3": "Should I use a ready-made tool like Power BI or have a custom management dashboard built?",
-      "a3": "If your data is clean and in a single source, and you have an employee who can build the reports, ready-made tools such as Power BI or Looker Studio are more economical. If the data is spread across many programs, or you need role-based access, automatic e-mail reports or calculations specific to your company, a custom dashboard removes more manual work. In the discovery call we compare both options and tell you plainly. Ozturksoft does not sell ready-made packages; we only build software tailored to your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
+      "a3": "If your data is clean and in a single source, and you have an employee who can build the reports, ready-made tools such as Power BI or Looker Studio are more economical. If the data is spread across many programs, or you need role-based access, automatic e-mail reports or calculations specific to your company, a custom dashboard removes more manual work. In the discovery call we compare both options and tell you plainly. In this service we do not sell you a ready-made package; we build the software around your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
       "q4": "Will the dashboard work with my Logo, Netsis, Mikro and Excel data?",
       "a4": "Yes. Sales, customer account, stock and collection data are read from Logo, Netsis and Mikro; CRM, online shop and marketplace orders are added via API, and Excel sheets via file import. The dashboard does not write anything to your existing programs; it only reads. We check your software version during the discovery call.",
       "q5": "How long does it take to set up a reporting system?",
@@ -5403,7 +5405,7 @@
       "q2": "Which companies in Ankara develop SaaS products, and which is the best?",
       "a2": "There is no single “best” company; the right choice depends on your product and budget. Ask a firm whether it has built subscription products before, who will own the source code, how it narrows down the MVP scope and who will maintain the product after launch. Ozturksoft is one of the companies in Çankaya, Ankara that develop SaaS from MVP to full product.",
       "q3": "Should I use a ready-made platform or no-code, or have a software product built from scratch?",
-      "a3": "To test an idea quickly, no-code tools or ready-made templates can be the right choice and are much cheaper. Once the customer count grows and you need custom business rules, data separation and performance, custom development becomes necessary. We compare both honestly in the discovery call. Ozturksoft does not sell ready-made packages; we only build software tailored to your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
+      "a3": "To test an idea quickly, no-code tools or ready-made templates can be the right choice and are much cheaper. Once the customer count grows and you need custom business rules, data separation and performance, custom development becomes necessary. We compare both honestly in the discovery call. In this service we do not sell you a ready-made package; we build the software around your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
       "q4": "Will my SaaS work with my customers' Logo, Netsis, Mikro, Excel or e-commerce systems?",
       "a4": "Yes, if it is included in the scope. Data can be pulled from Logo, Netsis and Mikro via an API or transfer service, Excel/CSV import can be added, and marketplaces such as Trendyol and Hepsiburada can be connected. The quote lists separately which connections are in the MVP and which come in a later version.",
       "q5": "How long does SaaS MVP development take?",
@@ -5515,7 +5517,7 @@
       "q2": "Which companies in Ankara set up AI phone assistants, and which is the best?",
       "a2": "There is no single “best” company. Ask a firm how it tests Turkish speech recognition in noisy conditions, how the handover to a human works, how it handles the KVKK privacy notice and whether it estimates the per-minute cost in advance. Ozturksoft is one of the companies in Çankaya, Ankara that set up voice assistants connected to the phone system and CRM.",
       "q3": "Ready-made call-centre software or a custom AI voice assistant?",
-      "a3": "If your calls are few and standard, ready-made call-centre software or a keypad phone menu (IVR) is cheaper and sufficient. A custom assistant makes sense on busy lines where callers speak freely and your order or appointment system needs to be checked. In the discovery call we tell you openly which one suits you. Ozturksoft does not sell ready-made packages; we only build software tailored to your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
+      "a3": "If your calls are few and standard, ready-made call-centre software or a keypad phone menu (IVR) is cheaper and sufficient. A custom assistant makes sense on busy lines where callers speak freely and your order or appointment system needs to be checked. In the discovery call we tell you openly which one suits you. In this service we do not sell you a ready-made package; we build the software around your business. That is why we tell you openly in the discovery call if custom software is not right for you.",
       "q4": "If AI answers the phone, will it work with my existing phone system, CRM, Logo, Netsis, Mikro or e-commerce system?",
       "a4": "Yes. Your existing number stays and is connected via an IP PBX or operator call forwarding. Order and account information is read via API from Logo, Netsis, Mikro or your e-commerce platform, FAQs can be updated from Excel, and call summaries are written to your CRM.",
       "q5": "How long does it take to set up AI for a call centre?",
@@ -5665,5 +5667,189 @@
     "sub": "A selection of real reviews from our Google Business Profile, shared unedited in their original Turkish.",
     "rating": "Google rating",
     "all": "See all reviews on Google"
+  },
+  "productsPage": {
+    "meta": {
+      "title": "Software Products: Tender Tracking, AI Sales and Sales Training | Ozturksoft",
+      "desc": "Ozturksoft products: AlfaIhale public tender tracking software, MyEden AI sales team for B2B and Arena sales training simulation. Free demo, Ankara."
+    },
+    "hero": {
+      "kicker": "Our products",
+      "title": "Products you can <span class=\"pr-grad\">use right away</span>, without waiting for custom development.",
+      "desc": "Three ready-made products we built for tender tracking, AI-driven B2B sales and sales team training. Let us show you the right one on your own workflow in a short demo.",
+      "btn1": "Request a demo",
+      "btn2": "Browse the products"
+    },
+    "pick": {
+      "alfa": "Public tender tracking",
+      "myeden": "AI-driven B2B sales",
+      "arena": "Sales team training"
+    },
+    "alfa": {
+      "kicker": "01 · Public tenders",
+      "title": "Track EKAP tenders, prepare the bid from the specification and follow it through to payment.",
+      "desc": "Tender tracking and bidding software for companies that sell goods to the public sector. It picks suitable tenders from your EKAP notifications, reads the specification, extracts the items and brings pricing into a single table.",
+      "b1": "Tender list with a fit score",
+      "b2": "Automatic item extraction from the specification",
+      "b3": "Price and margin calculation with the master list",
+      "b4": "A seven-step file from documents to closing",
+      "b5": "Order, invoice and payment tracking",
+      "chip1": "On your own computer or server",
+      "chip2": "Turkish interface",
+      "more": "Explore AlfaIhale"
+    },
+    "myeden": {
+      "kicker": "02 · B2B sales",
+      "title": "An AI sales team that finds prospects, writes to them and puts meetings in your calendar.",
+      "desc": "Eight AI agents working together find and score target companies, draft a personal email for each one and turn replies into meetings. By default, no email goes out without your approval.",
+      "b1": "A team of agents working together",
+      "b2": "Finding and scoring target companies",
+      "b3": "Personal emails sent with your approval",
+      "b4": "From reply to meeting",
+      "b5": "Sales pipeline and win-back of lost deals"
+    },
+    "web": {
+      "chip1": "Runs in the browser, no installation",
+      "chip2": "Turkish and English"
+    },
+    "demo": {
+      "more": "Ask for a demo"
+    },
+    "arena": {
+      "kicker": "03 · Sales training",
+      "title": "Let your sales consultants practise with a virtual customer before they meet a real one.",
+      "desc": "The consultant talks to an AI customer who has a hidden objection. Every conversation is scored and each score is backed by a quote from the conversation, so the consultant sees exactly what was missed and why.",
+      "b1": "Virtual customers with hidden objections",
+      "b2": "A score and the reason for every conversation",
+      "b3": "A focused improvement report",
+      "b4": "Preparation for competitors and objections",
+      "b5": "Leagues, progress tracking and coaching"
+    },
+    "compare": {
+      "kicker": "Product or service?",
+      "title": "A ready-made product or software built for you?",
+      "p1t": "Products",
+      "p1": "Ready-made software that solves one specific job. You see it in a demo first; after setup your team can start using it straight away.",
+      "p2t": "Custom software",
+      "p2": "If your process does not fit a ready-made product, we map your needs together and build the software and AI solution around your business.",
+      "link": "See our services"
+    },
+    "faq": {
+      "title": "Frequently asked questions about our products",
+      "q1": "Which ready-made software products does Ozturksoft offer?",
+      "a1": "We have three products: AlfaIhale, tender tracking and bidding software for companies that take part in public tenders; MyEden, an AI sales team for B2B companies; and Arena, where sales consultants practise with a virtual customer.",
+      "q2": "How much do the products cost?",
+      "a2": "The price depends on the product, the number of users and how it is installed. After the demo we send you a written quote for your company; the demo is free.",
+      "q3": "Can I try a product before buying?",
+      "a3": "Yes. In the demo we show the product on an example similar to your business, then we plan the trial and setup together.",
+      "q4": "Do the products run in the cloud, or can they be installed on our own server?",
+      "a4": "AlfaIhale is installed on your own computer or office server, so your documents stay with you. MyEden and Arena are web-based: they run in the browser and need no installation.",
+      "q5": "What if my needs do not fit any product?",
+      "a5": "Then we build software for your business. See <a href=\"/ozel-yazilim-yaptirmak\">custom software development</a> for details."
+    },
+    "cta": {
+      "title": "Let's see together which product fits your business.",
+      "desc": "In a short demo call we show the product on your own workflow and answer your questions."
+    },
+    "shots": {
+      "note": "The data in the screenshots is sample data."
+    },
+    "footer": "© 2026 Ozturksoft — Software products, Ankara"
+  },
+  "alfaihalePage": {
+    "meta": {
+      "title": "AlfaIhale: Public Tender Tracking and Bid Preparation Software | Ozturksoft",
+      "desc": "AlfaIhale is tender tracking software for companies selling to the Turkish public sector: suitable EKAP tenders, specification reading, master-list pricing and payment tracking."
+    },
+    "hero": {
+      "kicker": "Public tenders",
+      "title": "Never miss a suitable tender, build the bid from the specification and <span class=\"pr-grad\">follow it in one file until you are paid.</span>",
+      "desc": "AlfaIhale is the tender tracking and bid preparation software we built for companies that sell goods to the public sector. It highlights suitable tenders from the notifications EKAP sends you, reads the specification and keeps pricing and post-delivery work in one place.",
+      "call": "Call us"
+    },
+    "strip": {
+      "label": "In short",
+      "s1": "For public tenders",
+      "s2": "Runs on your own computer or server",
+      "s3": "Interface: Turkish"
+    },
+    "about": {
+      "kicker": "About the product",
+      "title": "What is AlfaIhale?",
+      "p": "AlfaIhale puts all the work of a tender into one file. It ranks the tenders that arrive in EKAP notification emails by how well they fit your company, extracts the items and authority details from the specification and calculates the price in the master list. Bid, result, contract, orders and payment are tracked in the same file. Because it runs on your own computer or server, your documents never leave your company."
+    },
+    "who": {
+      "title": "Who is it for?",
+      "i1": "Companies selling goods to the public sector via EKAP: food, cleaning, stationery, medical, construction, IT, furniture, textiles, fuel and agriculture",
+      "i2": "Teams that still prepare bids with Excel files and folders",
+      "i3": "Companies running several tenders and deliveries at the same time"
+    },
+    "pain": {
+      "title": "What problems does it solve?",
+      "i1": "Suitable tenders get missed or are left to the last day",
+      "i2": "Copying specification items into Excel one by one takes hours",
+      "i3": "Bids, contracts, orders and payments sit in different folders and nobody knows who is following what"
+    },
+    "sectors": {
+      "title": "Ready-made sector templates",
+      "list": "<span>Food</span><span>Cleaning</span><span>Stationery</span><span>Medical</span><span>Construction</span><span>IT</span><span>Furniture</span><span>Textiles</span><span>Fuel</span><span>Agriculture</span>",
+      "note": "Sectors not on the list use the general template."
+    },
+    "feat": {
+      "kicker": "Features",
+      "title": "Key features, screen by screen"
+    },
+    "f1t": "Tenders that fit you",
+    "f1d": "The notifications EKAP sends according to your filters are read from your mailbox. Each tender gets a fit score based on your keywords and OKAS codes, and you can see why it got that score. You set the threshold.",
+    "f2t": "A document step that reads the specification",
+    "f2d": "Items and authority details are extracted from ZIP, PDF, Word, Excel and EKAP documents. Points to check before bidding, such as samples, partial bids or late-delivery penalties, are listed separately. Scanned documents are read on your computer with Turkish text recognition.",
+    "f3t": "Pricing with the master list",
+    "f3d": "Items, costs, the bid bond amount and your past prices sit in one table. You see the bid total and margin while you prepare it, with costs such as contract fees, stamp duty and transport included.",
+    "f4t": "A seven-step tender file",
+    "f4d": "Documents, master list, bid, result, contract, orders and closing. Every tender is its own file; the board shows at a glance which tender is at which stage and what needs doing next.",
+    "f5t": "From delivery to payment",
+    "f5d": "Delivered and remaining goods, issued invoices and payments are tracked. At closing, planned and actual profit appear side by side; Excel exports and the whole file folder can be downloaded.",
+    "how": {
+      "kicker": "In four steps",
+      "title": "How does it work?"
+    },
+    "s1t": "Setup",
+    "s1d": "Installed on Windows, Linux, an Apple Silicon Mac or your office server; your team uses it from the browser.",
+    "s2t": "Connection",
+    "s2d": "The mailbox that receives EKAP notifications is connected, and the keywords and OKAS codes you follow are entered.",
+    "s3t": "Tracking",
+    "s3d": "Suitable tenders appear on the Today screen; a file is opened for the tender you choose and its documents are read.",
+    "s4t": "Bid and beyond",
+    "s4d": "Pricing, bid, contract, orders and payment move forward in the same file; Excel exports use your company's own templates.",
+    "sec": {
+      "kicker": "Security and control",
+      "title": "Your EKAP password is never needed; the software only reads the notification emails sent to you.",
+      "i1": "Runs on your own computer or server; documents are processed locally.",
+      "i2": "Administrator, bid specialist and viewer roles; every action is logged.",
+      "i3": "Signed licence: keeps working for up to 30 days even without an internet connection."
+    },
+    "faq": {
+      "title": "Frequently asked questions about AlfaIhale",
+      "q1": "Does AlfaIhale need my EKAP password?",
+      "a1": "No. AlfaIhale does not connect to EKAP or send any requests to it; it reads tenders from the notification emails EKAP sends you based on your filters.",
+      "q2": "Where is it installed, and does it work offline?",
+      "a2": "It is installed on a Windows, Linux or Apple Silicon Mac computer or on your office server, and your team uses it from the browser. The licence check needs internet, but if the connection drops the software keeps working for up to 30 days.",
+      "q3": "Which sectors can use it?",
+      "a3": "There are ready-made templates for food, cleaning, stationery, medical, construction, IT, furniture, textiles, fuel and agriculture. Other sectors use the general template.",
+      "q4": "Can we use our own Excel bid templates?",
+      "a4": "Yes. Excel exports are produced with your company's own templates, so your team keeps working in the format it knows.",
+      "q5": "How much does AlfaIhale cost?",
+      "a5": "The price depends on the number of users and how it is installed. After the demo we send a written quote for your company; the demo is free.",
+      "q6": "How can I try it?",
+      "a6": "In the demo call we walk through AlfaIhale together using a sample tender from your sector. Then we plan the setup and trial for your company."
+    },
+    "other": {
+      "title": "Our other products"
+    },
+    "cta": {
+      "title": "See AlfaIhale with your own tenders.",
+      "desc": "In the demo we show the product on a tender from your sector and answer your questions."
+    },
+    "footer": "© 2026 Ozturksoft — AlfaIhale tender tracking software, Ankara"
   }
 }
