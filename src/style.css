@@ -2497,3 +2497,11 @@ body .hub-cta h2 { font-size:clamp(1.8rem,3.4vw,2.6rem) !important; letter-spaci
   body .hub-cta { margin:20px 16px 60px; padding:48px 22px; }
 }
 body .hub-faq > p, body .hub-faq h3 + p { max-width:none; }
+.svc-note { max-width:1200px; margin:0 auto; padding:10px 24px 40px; }
+.svc-note-box { display:flex; gap:20px; align-items:flex-start; padding:26px 30px; border-radius:20px; background:linear-gradient(120deg,rgba(59,130,246,.10),rgba(15,23,42,.6) 60%); border:1px solid rgba(59,130,246,.3); }
+.svc-note-ico { flex:0 0 46px; height:46px; border-radius:13px; display:grid; place-items:center; color:#60a5fa; background:rgba(59,130,246,.14); border:1px solid rgba(59,130,246,.3); }
+.svc-note h3 { color:#fff; font-size:1.15rem; margin-bottom:8px; }
+.svc-note p { color:var(--text-dim); line-height:1.7; margin-bottom:12px; }
+.svc-note a { color:#60a5fa; font-weight:600; text-decoration:none; margin-right:18px; display:inline-block; }
+.svc-note a:hover { color:#fff; }
+@media (max-width:600px){ .svc-note-box { flex-direction:column; padding:22px 20px; } }
