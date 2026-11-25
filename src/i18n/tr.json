@@ -5738,7 +5738,7 @@
   },
   "productsPage": {
     "meta": {
-      "title": "Yazılım Ürünleri: İhale Takip, AI Satış ve Satış Eğitimi | Ozturksoft",
+      "title": "Yazılım Ürünleri: İhale Takip, AI Satış, Satış Eğitimi | Ozturksoft",
       "desc": "Ozturksoft ürünleri: kamu ihale takip programı AlfaIhale, yapay zeka B2B satış ekibi AddJarvis ve satış eğitimi simülasyonu Arena. Ücretsiz demo, Ankara."
     },
     "hero": {
@@ -5831,8 +5831,8 @@
   },
   "alfaihalePage": {
     "meta": {
-      "title": "AlfaIhale: İhale Takip Programı ve Teklif Hazırlama Yazılımı | Ozturksoft",
-      "desc": "AlfaIhale, kamuya mal satan firmalar için ihale takip programı: EKAP bildirimlerinden uygun ihaleler, şartname okuma, ANA LİSTE fiyatlandırma ve tahsilat takibi."
+      "title": "AlfaIhale: İhale Takip Programı ve Teklif Yazılımı | Ozturksoft",
+      "desc": "AlfaIhale ihale takip programı: EKAP bildirimlerinden uygun ihaleler, şartname okuma, ANA LİSTE fiyatlandırma ve tahsilat takibi. Ücretsiz demo."
     },
     "hero": {
       "kicker": "Kamu ihaleleri",
@@ -5928,7 +5928,7 @@
   "arenaPage": {
     "meta": {
       "title": "Arena: Yapay Zeka ile Satış Eğitimi ve Satış Simülasyonu | Ozturksoft",
-      "desc": "Arena, satış danışmanlarının gizli itirazı olan yapay zeka müşteriyle prova yaptığı satış eğitimi platformu. SONAR-41 ölçümü, alıntıya dayalı puan, ligler ve koçluk."
+      "desc": "Arena: satış danışmanlarının gizli itirazı olan yapay zeka müşteriyle prova yaptığı eğitim platformu. Alıntıya dayalı SONAR-41 puanı ve koçluk."
     },
     "hero": {
       "kicker": "Satış eğitimi",
@@ -6003,8 +6003,8 @@
   },
   "addjarvisPage": {
     "meta": {
-      "title": "AddJarvis: B2B Firmalar için Yapay Zeka Satış Ekibi ve Müşteri Bulma | Ozturksoft",
-      "desc": "AddJarvis, B2B firmalar için yapay zeka satış ekibi: sekiz ajan uygun firmaları bulur ve puanlar, onayınızla kişiye özel e-posta gönderir, yanıtları toplantıya çevirir."
+      "title": "AddJarvis: Yapay Zeka Satış Ekibi ve B2B Müşteri Bulma | Ozturksoft",
+      "desc": "AddJarvis, B2B firmalar için yapay zeka satış ekibi: sekiz ajan uygun firmaları bulur, onayınızla e-posta yazar, yanıtları toplantıya çevirir."
     },
     "hero": {
       "kicker": "B2B satış",
