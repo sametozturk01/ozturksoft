@@ -5691,7 +5691,7 @@
   "productsPage": {
     "meta": {
       "title": "Yazılım Ürünleri: İhale Takip, AI Satış ve Satış Eğitimi | Ozturksoft",
-      "desc": "Ozturksoft ürünleri: kamu ihale takip programı AlfaIhale, yapay zeka B2B satış ekibi MyEden ve satış eğitimi simülasyonu Arena. Ücretsiz demo, Ankara."
+      "desc": "Ozturksoft ürünleri: kamu ihale takip programı AlfaIhale, yapay zeka B2B satış ekibi AddJarvis ve satış eğitimi simülasyonu Arena. Ücretsiz demo, Ankara."
     },
     "hero": {
       "kicker": "Ürünlerimiz",
@@ -5702,7 +5702,7 @@
     },
     "pick": {
       "alfa": "Kamu ihale takibi",
-      "myeden": "Yapay zeka ile B2B satış",
+      "addjarvis": "Yapay zeka ile B2B satış",
       "arena": "Satış ekibi eğitimi"
     },
     "alfa": {
@@ -5718,7 +5718,7 @@
       "chip2": "Türkçe arayüz",
       "more": "AlfaIhale'yi inceleyin"
     },
-    "myeden": {
+    "addjarvis": {
       "kicker": "02 · B2B satış",
       "title": "Müşteri adaylarını bulan, onlara yazan ve toplantıları takviminize ekleyen yapay zeka satış ekibi.",
       "desc": "Birlikte çalışan sekiz yapay zeka ajanı hedef firmaları bulur ve puanlar, her firmaya özel e-posta taslağı hazırlar, gelen yanıtları toplantıya çevirir. E-postalar varsayılan olarak sizin onayınız olmadan gönderilmez.",
@@ -5726,7 +5726,8 @@
       "b2": "Hedef firma bulma ve puanlama",
       "b3": "Onayınızla giden kişiye özel e-postalar",
       "b4": "Yanıttan toplantıya",
-      "b5": "Satış hattı ve kaybedilen fırsatları geri kazanma"
+      "b5": "Satış hattı ve kaybedilen fırsatları geri kazanma",
+      "more": "AddJarvis'i inceleyin"
     },
     "web": {
       "chip1": "Tarayıcıdan çalışır, kurulum yok",
@@ -5743,7 +5744,8 @@
       "b2": "Her görüşmeye puan ve gerekçe",
       "b3": "Tek odaklı gelişim raporu",
       "b4": "Rakip ve itiraz hazırlığı",
-      "b5": "Ligler, gelişim takibi ve koçluk"
+      "b5": "Ligler, gelişim takibi ve koçluk",
+      "more": "Arena'yı inceleyin"
     },
     "compare": {
       "kicker": "Ürün mü, hizmet mi?",
@@ -5757,13 +5759,13 @@
     "faq": {
       "title": "Ürünlerimiz hakkında sık sorulanlar",
       "q1": "Ozturksoft'un hazır yazılım ürünleri hangileri?",
-      "a1": "Üç ürünümüz var: kamu ihalelerine katılan firmalar için ihale takip ve teklif programı AlfaIhale, B2B firmalar için yapay zeka satış ekibi MyEden ve satış danışmanlarının sanal müşteriyle pratik yaptığı Arena.",
+      "a1": "Üç ürünümüz var: kamu ihalelerine katılan firmalar için ihale takip ve teklif programı AlfaIhale, B2B firmalar için yapay zeka satış ekibi AddJarvis ve satış danışmanlarının sanal müşteriyle pratik yaptığı Arena.",
       "q2": "Ürünlerin fiyatı ne kadar?",
       "a2": "Fiyat ürüne, kullanıcı sayısına ve kurulum şekline göre değişir. Demo görüşmesinden sonra firmanıza özel yazılı teklif veriyoruz; demo ücretsizdir.",
       "q3": "Satın almadan önce deneyebilir miyim?",
       "a3": "Evet. Demo görüşmesinde ürünü işinize benzeyen bir örnek üzerinden gösteriyoruz; ardından deneme ve kurulum sürecini birlikte planlıyoruz.",
       "q4": "Ürünler bulutta mı çalışıyor, kendi sunucumuza kurulabilir mi?",
-      "a4": "AlfaIhale kendi bilgisayarınıza veya ofis sunucunuza kurulur, belgeleriniz sizde kalır. MyEden ve Arena web tabanlıdır; tarayıcıdan kullanılır, kurulum gerektirmez.",
+      "a4": "AlfaIhale kendi bilgisayarınıza veya ofis sunucunuza kurulur, belgeleriniz sizde kalır. AddJarvis ve Arena web tabanlıdır; tarayıcıdan kullanılır, kurulum gerektirmez.",
       "q5": "İhtiyacım hiçbir ürüne uymuyorsa ne olur?",
       "a5": "O zaman işinize özel yazılım geliştiririz. Ayrıntılar için <a href=\"/ozel-yazilim-yaptirmak\">özel yazılım yaptırmak</a> sayfasına bakabilirsiniz."
     },
@@ -5774,7 +5776,10 @@
     "shots": {
       "note": "Ekran görüntülerindeki veriler örnektir."
     },
-    "footer": "© 2026 Ozturksoft — Yazılım ürünleri, Ankara"
+    "footer": "© 2026 Ozturksoft — Yazılım ürünleri, Ankara",
+    "cat": {
+      "dl": "Kataloğu indir (PDF)"
+    }
   },
   "alfaihalePage": {
     "meta": {
@@ -5871,5 +5876,166 @@
       "desc": "Demo görüşmesinde ürünü sizin sektörünüzden bir ihale üzerinden gösterir, sorularınızı yanıtlarız."
     },
     "footer": "© 2026 Ozturksoft — AlfaIhale ihale takip programı, Ankara"
+  },
+  "arenaPage": {
+    "meta": {
+      "title": "Arena: Yapay Zeka ile Satış Eğitimi ve Satış Simülasyonu | Ozturksoft",
+      "desc": "Arena, satış danışmanlarının gizli itirazı olan yapay zeka müşteriyle prova yaptığı satış eğitimi platformu. SONAR-41 ölçümü, alıntıya dayalı puan, ligler ve koçluk."
+    },
+    "hero": {
+      "kicker": "Satış eğitimi",
+      "partner": "Arena, Satış Mühendisliği™ iş birliğiyle geliştirildi.",
+      "title": "Satışı önce <span class=\"pr-grad\">sanal müşteriyle</span> prova edin.",
+      "desc": "Arena'da satış danışmanı, gizli bir itirazı olan yapay zeka müşteriyle yazılı ya da sesli görüşür. Görüşme SONAR-41 çerçevesiyle ölçülür; her puan görüşmeden bir alıntıya bağlanır, danışman neyi neden kaçırdığını açıkça görür."
+    },
+    "strip": {
+      "s1": "Satış eğitimi için"
+    },
+    "about": {
+      "title": "Arena nedir?",
+      "p": "Arena, satış ekipleri için yapay zeka destekli bir rol oyunu ve ölçüm platformu. Danışman telefon, online toplantı, showroom veya mesajlaşma senaryosunda sanal müşteriyle görüşür. Görüşme bittiğinde SONAR-41 ile puanlanır ve tek bir gelişim alanı önerilir. Yöneticiler ekibin ilerleyişini raporlar, ligler ve koçluk araçlarıyla takip eder."
+    },
+    "who": {
+      "i1": "Bayi ve showroom satış ekipleri; otomotiv, gayrimenkul, sigorta, eğitim gibi danışmanlık gerektiren satışlar",
+      "i2": "Yeni danışmanlarını sahaya hızlı hazırlamak isteyen şirketler",
+      "i3": "Ekibine birebir koçluk yapmaya vakit bulamayan satış yöneticileri"
+    },
+    "pain": {
+      "i1": "Danışmanlar işi gerçek müşteri üzerinde deneyerek öğreniyor",
+      "i2": "Eğitimler kalıcı olmuyor: eksik olan bilgi değil, prova",
+      "i3": "Yönetici kimin neyi geliştirmesi gerektiğini ölçemiyor"
+    },
+    "partner": {
+      "kicker": "İş birliği",
+      "title": "Satış Mühendisliği™ ile birlikte geliştirildi",
+      "p": "Arena'yı satış eğitimi alanında çalışan Satış Mühendisliği™ ile birlikte geliştirdik: danışmanların gerçek müşteriden önce prova yapması ve her görüşmenin kanıta dayalı ölçülmesi için. Arena bugün Satış Mühendisliği™ markasıyla da şirketlere sunuluyor."
+    },
+    "f1t": "Gizli itirazı olan sanal müşteri",
+    "f1d": "Telefon, online toplantı, showroom ve mesajlaşma kanallarında yazılı ya da sesli prova. Müşterinin asıl itirazını görüşme içinde bulmak danışmana kalır.",
+    "f2t": "SONAR-41 ile ölçüm",
+    "f2d": "5 boyutta 41 davranış 1–5 ölçeğiyle puanlanır. Her puan görüşmeden birebir bir alıntıya dayanır; CRM'e girilen not da ayrıca değerlendirilir.",
+    "f3t": "Tek odaklı rapor",
+    "f3d": "Her görüşmeden sonra tek bir gelişim alanı, güçlü yanlar ve o anda söylenmesi gereken cümle verilir. Danışman kendi değerlendirmesini sonuçla karşılaştırır.",
+    "f4t": "Hazırlık: rakipler ve itirazlar",
+    "f4d": "Rakip karşılaştırmaları ve itiraz kartlarıyla danışman görüşmeye hazırlanır; şirketinizin ürünleri ve rakipleri senaryolara işlenir.",
+    "f5t": "Ligler, gelişim ve koçluk",
+    "f5d": "Şirket ve ekip ligleri, rozetler ve gelişim haritası. Yöneticiler için kalibrasyon vakaları, Koç Ligi ve koçluk araçları.",
+    "s1t": "Senaryo",
+    "s1d": "Şirketinizin ürünleri, rakipleri ve müşteri tipleri sanal müşterilere işlenir.",
+    "s2t": "Prova",
+    "s2d": "Danışman seçtiği kanalda sanal müşteriyle görüşür; müşterinin gizli bir itirazı vardır.",
+    "s3t": "Ölçüm",
+    "s3d": "Görüşme SONAR-41 ile puanlanır, her puan bir alıntıya bağlanır.",
+    "s4t": "Gelişim",
+    "s4d": "Rapor tek bir odak alanı verir; ligler, görevler ve koçluk gelişimi sürdürür.",
+    "sec": {
+      "title": "Alıntısı olmayan puan yazılmaz.",
+      "i1": "Danışman, ekip lideri ve şirket yöneticisi için ayrı rol ve yetkiler.",
+      "i2": "Veriler Frankfurt'taki sunucularda tutulur.",
+      "i3": "Türkçe ve İngilizce arayüz ve görüşme."
+    },
+    "faq": {
+      "title": "Arena hakkında sık sorulanlar",
+      "q1": "Sanal müşteriyle sesli görüşme yapılabiliyor mu?",
+      "a1": "Evet. Danışman yazılı ya da sesli görüşebilir; telefon, online toplantı, showroom ve mesajlaşma senaryoları var.",
+      "q2": "Hangi sektörlerde kullanılabilir?",
+      "a2": "Danışmanlık gerektiren her satışta kullanılabilir. Otomotiv, gayrimenkul, sigorta ve eğitim için örnek senaryolar hazır; senaryolar şirketinize göre uyarlanır.",
+      "q3": "Puanlar nasıl veriliyor, SONAR-41 nedir?",
+      "a3": "SONAR-41, 5 boyutta 41 satış davranışını 1–5 ölçeğiyle puanlayan bir çerçevedir. Her puan görüşmeden birebir bir alıntıya dayanır; alıntısı olmayan puan yazılmaz.",
+      "q4": "Arena'nın fiyatı ne kadar?",
+      "a4": "Fiyat danışman sayısına ve şirketinize özel senaryo ihtiyacına göre belirlenir. Demo görüşmesinden sonra yazılı teklif veriyoruz; demo ücretsizdir.",
+      "q5": "Nasıl başlarız?",
+      "a5": "Demo görüşmesinde Arena'yı örnek bir şirket üzerinden birlikte inceliyoruz; ardından size özel senaryoları ve kurulumu planlıyoruz."
+    },
+    "cta": {
+      "title": "Ekibiniz ilk provasını bizimle yapsın.",
+      "desc": "Demo görüşmesinde sizin sektörünüzden bir sanal müşteriyle örnek görüşme yapar, raporu birlikte inceleriz."
+    },
+    "footer": "© 2026 Ozturksoft — Arena satış eğitimi platformu, Ankara"
+  },
+  "addjarvisPage": {
+    "meta": {
+      "title": "AddJarvis: B2B Firmalar için Yapay Zeka Satış Ekibi ve Müşteri Bulma | Ozturksoft",
+      "desc": "AddJarvis, B2B firmalar için yapay zeka satış ekibi: sekiz ajan uygun firmaları bulur ve puanlar, onayınızla kişiye özel e-posta gönderir, yanıtları toplantıya çevirir."
+    },
+    "hero": {
+      "kicker": "B2B satış",
+      "title": "Müşteriyi yapay zeka bulsun, <span class=\"pr-grad\">siz toplantıya girin.</span>",
+      "desc": "AddJarvis, birlikte çalışan sekiz yapay zeka ajanından oluşan bir satış ekibi. Hedef müşteri tanımınıza uyan firmaları bulur, puanlar, her birine özel e-posta hazırlar ve olumlu yanıtları takviminize toplantı olarak ekler. E-postalar varsayılan olarak siz onaylamadan gitmez."
+    },
+    "strip": {
+      "s1": "B2B satış için",
+      "s2": "Web tabanlı, kurulum gerektirmez",
+      "s3": "Arayüz: Türkçe ve İngilizce"
+    },
+    "about": {
+      "title": "AddJarvis nedir?",
+      "p": "AddJarvis, satış ekibinizin en çok vakit kaybettiği işi, yani kimin aranacağını bulmayı üstlenir. İdeal müşteri tanımınıza uyan firmaları bulur, web sitelerini okuyup uygunluklarını gerekçesiyle puanlar, kişiye özel ilk e-postayı ve takipleri hazırlar, yanıtları okuyup görüşmeleri takviminize ekler. Her e-posta varsayılan olarak onayınıza gelir; hangi işi otomatiğe bırakacağınıza siz karar verirsiniz."
+    },
+    "who": {
+      "i1": "5–200 çalışanlı B2B firmalar: ajanslar, endüstriyel tedarikçiler, danışmanlık ve hizmet firmaları",
+      "i2": "Satışçıları müşteriyle konuşmaktan çok araştırma yapan firmalar",
+      "i3": "Yeni bir sektöre veya pazara açılmak isteyen ekipler"
+    },
+    "pain": {
+      "i1": "Kimin aranacağını bulmak satış ekibinin vaktinin çoğunu yiyor",
+      "i2": "Takipler unutuluyor, ilgilenen müşteri soğuyor",
+      "i3": "Satın alınan listeler hem işe yaramıyor hem de KVKK riski taşıyor"
+    },
+    "agents": {
+      "kicker": "Nasıl çalışır",
+      "title": "Sekiz ajan, tek satış ekibi",
+      "sub": "Her e-posta varsayılan olarak gönderilmeden önce onayınıza gelir."
+    },
+    "a1t": "Kâşif",
+    "a1d": "Hedef müşteri tanımınıza uyan yeni firmaları bulur.",
+    "a2t": "Analist",
+    "a2d": "Firmanın web sitesini okur, uygunluğu 0–100 arası puanlar.",
+    "a3t": "Yazar",
+    "a3d": "Kişiye özel ilk e-postayı ve her yanıtı hazırlar.",
+    "a4t": "Kurye",
+    "a4d": "Onaylanan e-postaları alan adınızı koruyan bir hızla gönderir.",
+    "a5t": "Dinleyici",
+    "a5d": "Gelen yanıtları okur ve ne istendiğini çıkarır.",
+    "a6t": "Planlayıcı",
+    "a6d": "Toplantıyı kısa bir özetle takviminize ekler.",
+    "a7t": "Stratejist",
+    "a7d": "Her turu yönetir, neyin sonuç verdiğini öğrenip sonraki aramayı belirler.",
+    "a8t": "Kalkan",
+    "a8d": "KVKK kurallarını, ret taleplerini ve gönderim sınırlarını uygular.",
+    "f1t": "Kendi kendine çalışan ajan ekibi",
+    "f1d": "Sekiz ajan bir tur boyunca birbirine iş devreder. Hangi ajanın o anda ne yaptığını ve kime ne ilettiğini ekranda canlı izlersiniz.",
+    "f2t": "Doğru firmayı bulma ve puanlama",
+    "f2d": "Firmalar Google Haritalar'daki işletme kayıtlarından bulunur. Analist her firmanın sitesini okur ve 0–100 arası puanı gerekçesiyle birlikte verir; eşiği siz belirlersiniz.",
+    "f3t": "Kişiye özel e-postalar, sizin onayınızla",
+    "f3d": "Yazar her firma için ayrı bir ilk e-posta ve yanıt taslakları hazırlar, konu satırlarını A/B testiyle dener. Taslaklar onay ekranına düşer; düzeltip gönderirsiniz.",
+    "f4t": "Yanıttan toplantıya",
+    "f4d": "Dinleyici gelen yanıtın ne istediğini anlar; Planlayıcı toplantıyı takviminize ekler ve görüşmeden önce firmayı anlatan tek sayfalık bir özet hazırlar.",
+    "f5t": "Satış hattı ve geri kazanım",
+    "f5d": "Fırsatlar sürükle-bırak bir satış hattında aşama aşama ilerler. Eski müşteri listenizi yükleyip onlara geri kazanım e-postaları da gönderebilirsiniz.",
+    "sec": {
+      "title": "Kontrol sizde: hiçbir e-posta habersiz gitmez.",
+      "i1": "Kalkan ajanı KVKK kurallarını, ret taleplerini ve gönderim sınırlarını uygular.",
+      "i2": "Gerçek gönderimden önce her şeyi test modunda deneyebilirsiniz.",
+      "i3": "Gmail, Outlook veya başka bir e-posta kutusu; Google Takvim ve Outlook; Slack ve Teams bildirimleri."
+    },
+    "faq": {
+      "title": "AddJarvis hakkında sık sorulanlar",
+      "q1": "AddJarvis satış ekibimin yerini mi alır?",
+      "a1": "Hayır. Araştırma, ön eleme ve ilk taslakları AddJarvis üstlenir; görüşmeler, teklifler ve müşteri ilişkisi ekibinizde kalır.",
+      "q2": "E-postalar otomatik mi gönderiliyor?",
+      "a2": "Varsayılan olarak hayır: her taslak gönderilmeden önce onayınıza gelir. İsterseniz onay adımını ayarlardan kapatıp belirli işleri otomatiğe bırakabilirsiniz.",
+      "q3": "Hangi dillerde çalışıyor?",
+      "a3": "Arayüz ve e-postalar Türkçe ve İngilizcedir.",
+      "q4": "AddJarvis işe yarıyor mu, sonuç verdi mi?",
+      "a4": "Farklı sektörlerdeki B2B firmalarla yaptığımız uygulamada müşteri bulma oranı yaklaşık %70 arttı. Sonuç sektöre ve hedef müşteri tanımına göre değişir; demo görüşmesinde sizin sektörünüz üzerinden konuşuruz.",
+      "q5": "AddJarvis'in fiyatı ne kadar?",
+      "a5": "Fiyat kullanıcı sayısına ve aylık gönderim hacmine göre belirlenir. Demo görüşmesinden sonra firmanıza özel yazılı teklif veriyoruz; demo ücretsizdir."
+    },
+    "cta": {
+      "title": "AddJarvis'i kendi hedef müşterilerinizle görün.",
+      "desc": "Demo görüşmesinde ajanları sizin sektörünüzdeki örnek firmalar üzerinden çalıştırır, sorularınızı yanıtlarız."
+    },
+    "footer": "© 2026 Ozturksoft — AddJarvis yapay zeka satış ekibi, Ankara"
   }
 }

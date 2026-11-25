@@ -5671,7 +5671,7 @@
   "productsPage": {
     "meta": {
       "title": "Logiciels : suivi des appels d'offres, vente IA, formation commerciale | Ozturksoft",
-      "desc": "Produits Ozturksoft : AlfaIhale pour les appels d'offres publics, MyEden, équipe commerciale IA B2B, et Arena, simulation de vente. Démo gratuite."
+      "desc": "Produits Ozturksoft : AlfaIhale pour les appels d'offres publics, AddJarvis, équipe commerciale IA B2B, et Arena, simulation de vente. Démo gratuite."
     },
     "hero": {
       "kicker": "Nos produits",
@@ -5682,7 +5682,7 @@
     },
     "pick": {
       "alfa": "Appels d'offres publics",
-      "myeden": "Vente B2B assistée par IA",
+      "addjarvis": "Vente B2B assistée par IA",
       "arena": "Formation des commerciaux"
     },
     "alfa": {
@@ -5698,7 +5698,7 @@
       "chip2": "Interface en turc",
       "more": "Découvrir AlfaIhale"
     },
-    "myeden": {
+    "addjarvis": {
       "kicker": "02 · Vente B2B",
       "title": "Une équipe commerciale IA qui trouve des prospects, leur écrit et place les rendez-vous dans votre agenda.",
       "desc": "Huit agents IA qui travaillent ensemble trouvent et notent les entreprises cibles, rédigent un e-mail personnalisé pour chacune et transforment les réponses en rendez-vous. Par défaut, aucun e-mail ne part sans votre accord.",
@@ -5706,7 +5706,8 @@
       "b2": "Recherche et notation des entreprises cibles",
       "b3": "E-mails personnalisés envoyés avec votre accord",
       "b4": "De la réponse au rendez-vous",
-      "b5": "Pipeline commercial et relance des opportunités perdues"
+      "b5": "Pipeline commercial et relance des opportunités perdues",
+      "more": "Découvrir AddJarvis"
     },
     "web": {
       "chip1": "Fonctionne dans le navigateur, sans installation",
@@ -5723,7 +5724,8 @@
       "b2": "Une note justifiée pour chaque entretien",
       "b3": "Un rapport de progrès ciblé",
       "b4": "Préparation face aux concurrents et objections",
-      "b5": "Ligues, suivi des progrès et coaching"
+      "b5": "Ligues, suivi des progrès et coaching",
+      "more": "Découvrir Arena"
     },
     "compare": {
       "kicker": "Produit ou service ?",
@@ -5737,13 +5739,13 @@
     "faq": {
       "title": "Questions fréquentes sur nos produits",
       "q1": "Quels logiciels prêts à l'emploi Ozturksoft propose-t-elle ?",
-      "a1": "Nous proposons trois produits : AlfaIhale, logiciel de suivi et de réponse aux appels d'offres publics ; MyEden, une équipe commerciale IA pour les entreprises B2B ; et Arena, où les conseillers s'entraînent avec un client virtuel.",
+      "a1": "Nous proposons trois produits : AlfaIhale, logiciel de suivi et de réponse aux appels d'offres publics ; AddJarvis, une équipe commerciale IA pour les entreprises B2B ; et Arena, où les conseillers s'entraînent avec un client virtuel.",
       "q2": "Combien coûtent les produits ?",
       "a2": "Le prix dépend du produit, du nombre d'utilisateurs et du mode d'installation. Après la démo, nous vous envoyons un devis écrit pour votre entreprise ; la démo est gratuite.",
       "q3": "Puis-je essayer un produit avant de l'acheter ?",
       "a3": "Oui. Lors de la démo, nous présentons le produit sur un exemple proche de votre activité, puis nous planifions ensemble l'essai et l'installation.",
       "q4": "Les produits fonctionnent-ils dans le cloud ou sur notre propre serveur ?",
-      "a4": "AlfaIhale s'installe sur votre ordinateur ou le serveur de votre bureau : vos documents restent chez vous. MyEden et Arena sont des applications web, utilisables dans le navigateur sans installation.",
+      "a4": "AlfaIhale s'installe sur votre ordinateur ou le serveur de votre bureau : vos documents restent chez vous. AddJarvis et Arena sont des applications web, utilisables dans le navigateur sans installation.",
       "q5": "Et si mon besoin ne correspond à aucun produit ?",
       "a5": "Nous développons alors un logiciel pour votre activité. Détails sur la page <a href=\"/ozel-yazilim-yaptirmak\">développement de logiciel sur mesure</a>."
     },
@@ -5754,7 +5756,10 @@
     "shots": {
       "note": "Les données des captures d'écran sont fictives."
     },
-    "footer": "© 2026 Ozturksoft — Logiciels, Ankara"
+    "footer": "© 2026 Ozturksoft — Logiciels, Ankara",
+    "cat": {
+      "dl": "Télécharger le catalogue (PDF, turc)"
+    }
   },
   "alfaihalePage": {
     "meta": {
@@ -5851,5 +5856,166 @@
       "desc": "Lors de la démo, nous montrons le produit sur un appel d'offres de votre secteur et répondons à vos questions."
     },
     "footer": "© 2026 Ozturksoft — AlfaIhale, logiciel d'appels d'offres, Ankara"
+  },
+  "arenaPage": {
+    "meta": {
+      "title": "Arena : formation commerciale et simulation de vente par IA | Ozturksoft",
+      "desc": "Arena, plateforme de formation où les conseillers s'entraînent avec un client IA à l'objection cachée. Évaluation SONAR-41 appuyée sur des citations, ligues et coaching."
+    },
+    "hero": {
+      "kicker": "Formation commerciale",
+      "partner": "Arena a été développé en partenariat avec Satış Mühendisliği™.",
+      "title": "Répétez la vente d'abord avec un <span class=\"pr-grad\">client virtuel</span>.",
+      "desc": "Dans Arena, le conseiller échange par écrit ou à l'oral avec un client IA qui cache une objection. L'entretien est mesuré avec le cadre SONAR-41 ; chaque note est liée à une citation, pour voir précisément ce qui a été manqué."
+    },
+    "strip": {
+      "s1": "Pour la formation commerciale"
+    },
+    "about": {
+      "title": "Qu'est-ce qu'Arena ?",
+      "p": "Arena est une plateforme de jeu de rôle et de mesure assistée par IA pour les équipes commerciales. Le conseiller échange avec un client virtuel au téléphone, en visio, en showroom ou par messagerie. L'entretien est ensuite noté avec SONAR-41 et un axe de progrès est proposé. Les managers suivent l'équipe grâce aux rapports, aux ligues et aux outils de coaching."
+    },
+    "who": {
+      "i1": "Équipes de vente en concession et showroom ; ventes de conseil comme l'automobile, l'immobilier, l'assurance et l'éducation",
+      "i2": "Entreprises qui veulent former vite leurs nouveaux conseillers",
+      "i3": "Managers commerciaux qui manquent de temps pour le coaching individuel"
+    },
+    "pain": {
+      "i1": "Les conseillers apprennent en s'exerçant sur de vrais clients",
+      "i2": "Les formations ne durent pas : il manque la répétition, pas le savoir",
+      "i3": "Les managers ne peuvent pas mesurer qui doit progresser sur quoi"
+    },
+    "partner": {
+      "kicker": "Partenariat",
+      "title": "Développé avec Satış Mühendisliği™",
+      "p": "Nous avons conçu Arena avec Satış Mühendisliği™, spécialiste de la formation commerciale, pour que les conseillers répètent avant de rencontrer de vrais clients et que chaque entretien soit mesuré sur des preuves. Arena est aussi proposé sous la marque Satış Mühendisliği™."
+    },
+    "f1t": "Un client virtuel à l'objection cachée",
+    "f1d": "Répétition écrite ou orale par téléphone, visio, showroom ou messagerie. C'est au conseiller de découvrir la vraie objection du client.",
+    "f2t": "Mesure avec SONAR-41",
+    "f2d": "41 comportements répartis en 5 dimensions sont notés de 1 à 5. Chaque note s'appuie sur une citation exacte ; la saisie CRM est aussi évaluée.",
+    "f3t": "Un rapport centré sur un seul point",
+    "f3d": "Après chaque entretien : un axe de progrès, les points forts et la phrase qu'il aurait fallu dire. Le conseiller compare son auto-évaluation au résultat.",
+    "f4t": "Préparation : concurrents et objections",
+    "f4d": "Comparatifs concurrents et cartes d'objections préparent le conseiller ; vos produits et concurrents sont intégrés aux scénarios.",
+    "f5t": "Ligues, progrès et coaching",
+    "f5d": "Ligues d'entreprise et d'équipe, badges et carte de progression. Pour les managers : cas de calibrage, Ligue des coachs et outils de coaching.",
+    "s1t": "Scénario",
+    "s1d": "Vos produits, concurrents et types de clients sont intégrés aux clients virtuels.",
+    "s2t": "Répétition",
+    "s2d": "Le conseiller échange avec le client virtuel sur le canal choisi ; le client cache une objection.",
+    "s3t": "Mesure",
+    "s3d": "L'entretien est noté avec SONAR-41, chaque note étant liée à une citation.",
+    "s4t": "Progression",
+    "s4d": "Le rapport fixe un axe ; ligues, missions et coaching entretiennent la progression.",
+    "sec": {
+      "title": "Pas de note sans citation.",
+      "i1": "Rôles et droits distincts pour conseillers, chefs d'équipe et direction.",
+      "i2": "Les données sont hébergées sur des serveurs à Francfort.",
+      "i3": "Interface et entretiens en turc et en anglais."
+    },
+    "faq": {
+      "title": "Questions fréquentes sur Arena",
+      "q1": "Peut-on parler au client virtuel à l'oral ?",
+      "a1": "Oui. Le conseiller peut échanger par écrit ou à l'oral, avec des scénarios téléphone, visio, showroom et messagerie.",
+      "q2": "Pour quels secteurs ?",
+      "a2": "Pour toute vente de conseil. Des scénarios types existent pour l'automobile, l'immobilier, l'assurance et l'éducation, adaptés ensuite à votre entreprise.",
+      "q3": "Comment les notes sont-elles attribuées et qu'est-ce que SONAR-41 ?",
+      "a3": "SONAR-41 est un cadre qui note 41 comportements de vente répartis en 5 dimensions, de 1 à 5. Chaque note repose sur une citation exacte ; sans citation, pas de note.",
+      "q4": "Combien coûte Arena ?",
+      "a4": "Le prix dépend du nombre de conseillers et des scénarios sur mesure nécessaires. Après la démo, nous envoyons un devis écrit ; la démo est gratuite.",
+      "q5": "Comment démarrer ?",
+      "a5": "Lors de la démo, nous parcourons Arena sur une entreprise type, puis planifions vos scénarios et la mise en place."
+    },
+    "cta": {
+      "title": "Faites faire à votre équipe sa première répétition avec nous.",
+      "desc": "Lors de la démo, nous menons un entretien type avec un client virtuel de votre secteur et analysons le rapport ensemble."
+    },
+    "footer": "© 2026 Ozturksoft — Arena, formation commerciale, Ankara"
+  },
+  "addjarvisPage": {
+    "meta": {
+      "title": "AddJarvis : équipe commerciale IA et prospection B2B | Ozturksoft",
+      "desc": "AddJarvis, équipe commerciale IA pour le B2B : huit agents trouvent et notent les entreprises cibles, envoient des e-mails personnalisés avec votre accord et décrochent des rendez-vous."
+    },
+    "hero": {
+      "kicker": "Vente B2B",
+      "title": "L'IA trouve les clients, <span class=\"pr-grad\">vous menez les rendez-vous.</span>",
+      "desc": "AddJarvis est une équipe commerciale de huit agents IA qui collaborent. Elle trouve les entreprises correspondant à votre client idéal, les note, rédige un e-mail personnalisé pour chacune et ajoute les réponses positives à votre agenda. Par défaut, aucun e-mail ne part sans votre accord."
+    },
+    "strip": {
+      "s1": "Pour la vente B2B",
+      "s2": "Application web, sans installation",
+      "s3": "Interface : turc et anglais"
+    },
+    "about": {
+      "title": "Qu'est-ce que AddJarvis ?",
+      "p": "AddJarvis prend en charge la tâche qui fait perdre le plus de temps à vos commerciaux : savoir qui contacter. Il trouve les entreprises qui correspondent à votre client idéal, lit leur site et note leur pertinence avec justification, rédige le premier e-mail et les relances, lit les réponses et place les rendez-vous dans votre agenda. Chaque e-mail vous est soumis par défaut ; vous décidez de ce qui est automatisé."
+    },
+    "who": {
+      "i1": "Entreprises B2B de 5 à 200 salariés : agences, fournisseurs industriels, cabinets de conseil et de services",
+      "i2": "Entreprises dont les commerciaux passent plus de temps à chercher qu'à parler aux clients",
+      "i3": "Équipes qui veulent s'ouvrir à un nouveau secteur ou marché"
+    },
+    "pain": {
+      "i1": "Trouver qui contacter absorbe l'essentiel du temps commercial",
+      "i2": "Les relances sont oubliées et les prospects intéressés refroidissent",
+      "i3": "Les listes achetées rapportent peu et présentent un risque KVKK"
+    },
+    "agents": {
+      "kicker": "Fonctionnement",
+      "title": "Huit agents, une seule équipe commerciale",
+      "sub": "Par défaut, chaque e-mail vous est soumis avant l'envoi."
+    },
+    "a1t": "Éclaireur",
+    "a1d": "Trouve de nouvelles entreprises correspondant à votre client idéal.",
+    "a2t": "Analyste",
+    "a2d": "Lit le site de l'entreprise et note la pertinence de 0 à 100.",
+    "a3t": "Rédacteur",
+    "a3d": "Rédige le premier e-mail personnalisé et chaque réponse.",
+    "a4t": "Coursier",
+    "a4d": "Envoie les e-mails validés à un rythme qui protège votre domaine.",
+    "a5t": "Auditeur",
+    "a5d": "Lit les réponses et comprend ce que chacune demande.",
+    "a6t": "Planificateur",
+    "a6d": "Ajoute le rendez-vous à votre agenda avec un court résumé.",
+    "a7t": "Stratège",
+    "a7d": "Pilote chaque cycle, apprend ce qui marche et oriente la recherche suivante.",
+    "a8t": "Bouclier",
+    "a8d": "Applique les règles de protection des données, les désinscriptions et les limites d'envoi.",
+    "f1t": "Une équipe d'agents autonome",
+    "f1d": "Les huit agents se passent le relais tout au long d'un cycle. Vous voyez en direct ce que fait chacun et ce qu'il transmet.",
+    "f2t": "Trouver et noter les bonnes entreprises",
+    "f2d": "Les entreprises sont trouvées via les fiches Google Maps. L'Analyste lit chaque site et attribue une note de 0 à 100 justifiée ; vous fixez le seuil.",
+    "f3t": "Des e-mails personnalisés, avec votre accord",
+    "f3d": "Le Rédacteur prépare un premier e-mail et des réponses propres à chaque entreprise et teste les objets en A/B. Les brouillons arrivent dans l'écran de validation, où vous corrigez et envoyez.",
+    "f4t": "De la réponse au rendez-vous",
+    "f4d": "L'Auditeur comprend ce que veut chaque réponse ; le Planificateur fixe le rendez-vous et prépare une fiche d'une page sur l'entreprise.",
+    "f5t": "Pipeline et reconquête",
+    "f5d": "Les opportunités avancent étape par étape dans un pipeline en glisser-déposer. Vous pouvez aussi importer vos anciens clients et leur envoyer des e-mails de reconquête.",
+    "sec": {
+      "title": "Vous gardez la main : aucun e-mail ne part à votre insu.",
+      "i1": "L'agent Bouclier applique les règles KVKK, les désinscriptions et les limites d'envoi.",
+      "i2": "Vous pouvez tout essayer en mode test avant le moindre envoi réel.",
+      "i3": "Gmail, Outlook ou toute boîte mail ; Google Agenda et Outlook ; notifications Slack et Teams."
+    },
+    "faq": {
+      "title": "Questions fréquentes sur AddJarvis",
+      "q1": "AddJarvis remplace-t-il mon équipe commerciale ?",
+      "a1": "Non. AddJarvis se charge de la recherche, de la qualification et des premiers brouillons ; rendez-vous, propositions et relation client restent à votre équipe.",
+      "q2": "Les e-mails partent-ils automatiquement ?",
+      "a2": "Pas par défaut : chaque brouillon vous est soumis avant l'envoi. Si vous le souhaitez, vous pouvez désactiver la validation dans les réglages et automatiser certaines tâches.",
+      "q3": "Quelles langues sont prises en charge ?",
+      "a3": "L'interface et les e-mails sont en turc et en anglais.",
+      "q4": "AddJarvis donne-t-il des résultats ?",
+      "a4": "Lors de notre déploiement auprès d'entreprises B2B de différents secteurs, le taux de clients trouvés a augmenté d'environ 70 %. Les résultats varient selon le secteur et la cible ; nous en parlons pour le vôtre lors de la démo.",
+      "q5": "Combien coûte AddJarvis ?",
+      "a5": "Le prix dépend du nombre d'utilisateurs et du volume d'envoi mensuel. Après la démo, nous envoyons un devis écrit ; la démo est gratuite."
+    },
+    "cta": {
+      "title": "Découvrez AddJarvis avec vos propres clients cibles.",
+      "desc": "Lors de la démo, nous faisons travailler les agents sur des entreprises types de votre secteur et répondons à vos questions."
+    },
+    "footer": "© 2026 Ozturksoft — AddJarvis, équipe commerciale IA, Ankara"
   }
 }

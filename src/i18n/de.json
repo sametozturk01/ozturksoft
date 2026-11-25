@@ -5671,7 +5671,7 @@
   "productsPage": {
     "meta": {
       "title": "Softwareprodukte: Ausschreibungen, KI-Vertrieb, Verkaufstraining | Ozturksoft",
-      "desc": "Ozturksoft-Produkte: AlfaIhale für öffentliche Ausschreibungen, MyEden als KI-Vertriebsteam für B2B und Arena für Verkaufstraining. Kostenlose Demo."
+      "desc": "Ozturksoft-Produkte: AlfaIhale für öffentliche Ausschreibungen, AddJarvis als KI-Vertriebsteam für B2B und Arena für Verkaufstraining. Kostenlose Demo."
     },
     "hero": {
       "kicker": "Unsere Produkte",
@@ -5682,7 +5682,7 @@
     },
     "pick": {
       "alfa": "Öffentliche Ausschreibungen",
-      "myeden": "KI-gestützter B2B-Vertrieb",
+      "addjarvis": "KI-gestützter B2B-Vertrieb",
       "arena": "Verkaufstraining"
     },
     "alfa": {
@@ -5698,7 +5698,7 @@
       "chip2": "Türkische Oberfläche",
       "more": "AlfaIhale ansehen"
     },
-    "myeden": {
+    "addjarvis": {
       "kicker": "02 · B2B-Vertrieb",
       "title": "Ein KI-Vertriebsteam, das Interessenten findet, sie anschreibt und Termine in Ihren Kalender legt.",
       "desc": "Acht zusammenarbeitende KI-Agenten finden und bewerten Zielunternehmen, entwerfen für jedes eine persönliche E-Mail und machen aus Antworten Termine. Standardmäßig wird keine E-Mail ohne Ihre Freigabe versendet.",
@@ -5706,7 +5706,8 @@
       "b2": "Zielunternehmen finden und bewerten",
       "b3": "Persönliche E-Mails, versendet mit Ihrer Freigabe",
       "b4": "Von der Antwort zum Termin",
-      "b5": "Vertriebspipeline und Rückgewinnung verlorener Chancen"
+      "b5": "Vertriebspipeline und Rückgewinnung verlorener Chancen",
+      "more": "AddJarvis ansehen"
     },
     "web": {
       "chip1": "Läuft im Browser, ohne Installation",
@@ -5723,7 +5724,8 @@
       "b2": "Bewertung mit Begründung für jedes Gespräch",
       "b3": "Ein fokussierter Entwicklungsbericht",
       "b4": "Vorbereitung auf Wettbewerber und Einwände",
-      "b5": "Ligen, Fortschrittsverfolgung und Coaching"
+      "b5": "Ligen, Fortschrittsverfolgung und Coaching",
+      "more": "Arena ansehen"
     },
     "compare": {
       "kicker": "Produkt oder Dienstleistung?",
@@ -5737,13 +5739,13 @@
     "faq": {
       "title": "Häufige Fragen zu unseren Produkten",
       "q1": "Welche fertigen Softwareprodukte bietet Ozturksoft an?",
-      "a1": "Wir haben drei Produkte: AlfaIhale, eine Ausschreibungs- und Angebotssoftware für Unternehmen, die an öffentlichen Ausschreibungen teilnehmen; MyEden, ein KI-Vertriebsteam für B2B-Unternehmen; und Arena, in dem Verkaufsberater mit einem virtuellen Kunden üben.",
+      "a1": "Wir haben drei Produkte: AlfaIhale, eine Ausschreibungs- und Angebotssoftware für Unternehmen, die an öffentlichen Ausschreibungen teilnehmen; AddJarvis, ein KI-Vertriebsteam für B2B-Unternehmen; und Arena, in dem Verkaufsberater mit einem virtuellen Kunden üben.",
       "q2": "Was kosten die Produkte?",
       "a2": "Der Preis hängt vom Produkt, der Zahl der Nutzer und der Installationsart ab. Nach der Demo erhalten Sie ein schriftliches Angebot für Ihr Unternehmen; die Demo ist kostenlos.",
       "q3": "Kann ich ein Produkt vor dem Kauf testen?",
       "a3": "Ja. In der Demo zeigen wir das Produkt an einem Beispiel aus Ihrem Geschäft und planen anschließend Test und Einrichtung gemeinsam.",
       "q4": "Laufen die Produkte in der Cloud oder auf unserem eigenen Server?",
-      "a4": "AlfaIhale wird auf Ihrem eigenen Rechner oder Büroserver installiert, Ihre Dokumente bleiben bei Ihnen. MyEden und Arena sind webbasiert und laufen ohne Installation im Browser.",
+      "a4": "AlfaIhale wird auf Ihrem eigenen Rechner oder Büroserver installiert, Ihre Dokumente bleiben bei Ihnen. AddJarvis und Arena sind webbasiert und laufen ohne Installation im Browser.",
       "q5": "Was, wenn mein Bedarf zu keinem Produkt passt?",
       "a5": "Dann entwickeln wir Software für Ihr Unternehmen. Details finden Sie unter <a href=\"/ozel-yazilim-yaptirmak\">Individualsoftware entwickeln lassen</a>."
     },
@@ -5754,7 +5756,10 @@
     "shots": {
       "note": "Die Daten in den Screenshots sind Beispieldaten."
     },
-    "footer": "© 2026 Ozturksoft — Softwareprodukte, Ankara"
+    "footer": "© 2026 Ozturksoft — Softwareprodukte, Ankara",
+    "cat": {
+      "dl": "Katalog herunterladen (PDF, Türkisch)"
+    }
   },
   "alfaihalePage": {
     "meta": {
@@ -5851,5 +5856,166 @@
       "desc": "In der Demo zeigen wir das Produkt an einer Ausschreibung aus Ihrer Branche und beantworten Ihre Fragen."
     },
     "footer": "© 2026 Ozturksoft — AlfaIhale Ausschreibungssoftware, Ankara"
+  },
+  "arenaPage": {
+    "meta": {
+      "title": "Arena: KI-Verkaufstraining und Verkaufssimulation | Ozturksoft",
+      "desc": "Arena ist eine Trainingsplattform, auf der Verkaufsberater mit einem KI-Kunden mit verborgenem Einwand üben. SONAR-41-Bewertung mit Zitaten, Ligen und Coaching."
+    },
+    "hero": {
+      "kicker": "Verkaufstraining",
+      "partner": "Arena wurde in Zusammenarbeit mit Satış Mühendisliği™ entwickelt.",
+      "title": "Proben Sie den Verkauf zuerst mit einem <span class=\"pr-grad\">virtuellen Kunden</span>.",
+      "desc": "In Arena spricht der Verkaufsberater schriftlich oder per Stimme mit einem KI-Kunden, der einen verborgenen Einwand hat. Das Gespräch wird mit dem SONAR-41-Rahmen gemessen; jede Bewertung ist an ein Zitat gebunden."
+    },
+    "strip": {
+      "s1": "Für Verkaufstraining"
+    },
+    "about": {
+      "title": "Was ist Arena?",
+      "p": "Arena ist eine KI-gestützte Rollenspiel- und Messplattform für Vertriebsteams. Der Berater spricht in einem Telefon-, Online-Meeting-, Showroom- oder Chat-Szenario mit einem virtuellen Kunden. Danach wird das Gespräch mit SONAR-41 bewertet und ein Entwicklungsfeld vorgeschlagen. Führungskräfte verfolgen den Fortschritt über Berichte, Ligen und Coaching-Tools."
+    },
+    "who": {
+      "i1": "Händler- und Showroom-Vertriebsteams; beratungsintensive Branchen wie Automobil, Immobilien, Versicherung und Bildung",
+      "i2": "Unternehmen, die neue Berater schnell einsatzbereit machen wollen",
+      "i3": "Vertriebsleiter ohne Zeit für Einzelcoaching"
+    },
+    "pain": {
+      "i1": "Berater lernen durch Ausprobieren am echten Kunden",
+      "i2": "Schulungen wirken nicht nach: Es fehlt nicht Wissen, sondern Übung",
+      "i3": "Führungskräfte können nicht messen, wer woran arbeiten muss"
+    },
+    "partner": {
+      "kicker": "Partnerschaft",
+      "title": "Gemeinsam mit Satış Mühendisliği™ entwickelt",
+      "p": "Wir haben Arena mit dem Verkaufstrainings-Spezialisten Satış Mühendisliği™ entwickelt, damit Berater vor echten Kunden üben und jedes Gespräch evidenzbasiert gemessen wird. Arena wird auch unter der Marke Satış Mühendisliği™ angeboten."
+    },
+    "f1t": "Ein virtueller Kunde mit verborgenem Einwand",
+    "f1d": "Schriftliche oder mündliche Übung per Telefon, Online-Meeting, Showroom oder Chat. Den echten Einwand des Kunden muss der Berater selbst aufdecken.",
+    "f2t": "Messung mit SONAR-41",
+    "f2d": "41 Verhaltensweisen in 5 Dimensionen werden auf einer Skala von 1–5 bewertet. Jede Bewertung stützt sich auf ein wörtliches Zitat; auch der CRM-Eintrag wird bewertet.",
+    "f3t": "Ein Bericht mit einem Fokus",
+    "f3d": "Nach jedem Gespräch: ein Entwicklungsfeld, Stärken und der Satz, der hätte fallen sollen. Der Berater vergleicht seine Selbsteinschätzung mit dem Ergebnis.",
+    "f4t": "Vorbereitung: Wettbewerber und Einwände",
+    "f4d": "Wettbewerbsvergleiche und Einwandkarten bereiten den Berater vor; Ihre Produkte und Wettbewerber fließen in die Szenarien ein.",
+    "f5t": "Ligen, Fortschritt und Coaching",
+    "f5d": "Firmen- und Teamligen, Abzeichen und eine Fortschrittskarte. Für Führungskräfte: Kalibrierungsfälle, eine Coach-Liga und Coaching-Tools.",
+    "s1t": "Szenario",
+    "s1d": "Ihre Produkte, Wettbewerber und Kundentypen fließen in die virtuellen Kunden ein.",
+    "s2t": "Probe",
+    "s2d": "Der Berater spricht im gewählten Kanal mit dem virtuellen Kunden, der einen verborgenen Einwand hat.",
+    "s3t": "Messung",
+    "s3d": "Das Gespräch wird mit SONAR-41 bewertet, jede Bewertung ist an ein Zitat gebunden.",
+    "s4t": "Entwicklung",
+    "s4d": "Der Bericht nennt ein Fokusfeld; Ligen, Aufgaben und Coaching halten die Entwicklung am Laufen.",
+    "sec": {
+      "title": "Keine Bewertung ohne Zitat.",
+      "i1": "Getrennte Rollen und Rechte für Berater, Teamleiter und Geschäftsführung.",
+      "i2": "Daten werden auf Servern in Frankfurt gespeichert.",
+      "i3": "Oberfläche und Gespräche auf Türkisch und Englisch."
+    },
+    "faq": {
+      "title": "Häufige Fragen zu Arena",
+      "q1": "Kann man mit dem virtuellen Kunden sprechen?",
+      "a1": "Ja. Der Berater kann schriftlich oder per Stimme sprechen – mit Szenarien für Telefon, Online-Meeting, Showroom und Chat.",
+      "q2": "Für welche Branchen eignet es sich?",
+      "a2": "Für jeden beratungsintensiven Verkauf. Beispielszenarien gibt es für Automobil, Immobilien, Versicherung und Bildung; sie werden an Ihr Unternehmen angepasst.",
+      "q3": "Wie wird bewertet, und was ist SONAR-41?",
+      "a3": "SONAR-41 ist ein Rahmen, der 41 Verkaufsverhaltensweisen in 5 Dimensionen auf einer Skala von 1–5 bewertet. Jede Bewertung stützt sich auf ein wörtliches Zitat.",
+      "q4": "Was kostet Arena?",
+      "a4": "Der Preis richtet sich nach der Zahl der Berater und dem Bedarf an eigenen Szenarien. Nach der Demo erhalten Sie ein schriftliches Angebot; die Demo ist kostenlos.",
+      "q5": "Wie fangen wir an?",
+      "a5": "In der Demo gehen wir Arena an einem Beispielunternehmen durch und planen dann Ihre eigenen Szenarien und die Einrichtung."
+    },
+    "cta": {
+      "title": "Lassen Sie Ihr Team die erste Probe mit uns machen.",
+      "desc": "In der Demo führen wir ein Beispielgespräch mit einem virtuellen Kunden aus Ihrer Branche und besprechen den Bericht."
+    },
+    "footer": "© 2026 Ozturksoft — Arena Verkaufstraining, Ankara"
+  },
+  "addjarvisPage": {
+    "meta": {
+      "title": "AddJarvis: KI-Vertriebsteam und Neukundengewinnung für B2B | Ozturksoft",
+      "desc": "AddJarvis ist ein KI-Vertriebsteam für B2B: acht Agenten finden und bewerten passende Firmen, senden mit Ihrer Freigabe persönliche E-Mails und machen Antworten zu Terminen."
+    },
+    "hero": {
+      "kicker": "B2B-Vertrieb",
+      "title": "Die KI findet Kunden, <span class=\"pr-grad\">Sie führen die Termine.</span>",
+      "desc": "AddJarvis ist ein Vertriebsteam aus acht zusammenarbeitenden KI-Agenten. Es findet Firmen, die zu Ihrem Wunschkunden passen, bewertet sie, schreibt jeder eine persönliche E-Mail und trägt positive Antworten als Termine in Ihren Kalender ein. Standardmäßig geht keine E-Mail ohne Ihre Freigabe raus."
+    },
+    "strip": {
+      "s1": "Für B2B-Vertrieb",
+      "s2": "Webbasiert, ohne Installation",
+      "s3": "Oberfläche: Türkisch und Englisch"
+    },
+    "about": {
+      "title": "Was ist AddJarvis?",
+      "p": "AddJarvis übernimmt die Aufgabe, bei der Ihr Vertrieb die meiste Zeit verliert: herauszufinden, wen man ansprechen sollte. Es findet Firmen, die zu Ihrem Wunschkunden passen, liest deren Websites und bewertet die Passung mit Begründung, entwirft Erst-E-Mail und Nachfassaktionen, liest die Antworten und legt Termine in Ihren Kalender. Jede E-Mail kommt standardmäßig zur Freigabe; was automatisch läuft, entscheiden Sie."
+    },
+    "who": {
+      "i1": "B2B-Unternehmen mit 5–200 Mitarbeitern: Agenturen, Industriezulieferer, Beratungs- und Dienstleistungsfirmen",
+      "i2": "Firmen, deren Verkäufer mehr recherchieren als mit Kunden sprechen",
+      "i3": "Teams, die eine neue Branche oder einen neuen Markt erschließen wollen"
+    },
+    "pain": {
+      "i1": "Herauszufinden, wen man anspricht, frisst den Großteil der Vertriebszeit",
+      "i2": "Nachfassaktionen werden vergessen, Interessenten kühlen ab",
+      "i3": "Gekaufte Listen bringen wenig und bergen Datenschutzrisiken (KVKK)"
+    },
+    "agents": {
+      "kicker": "So funktioniert es",
+      "title": "Acht Agenten, ein Vertriebsteam",
+      "sub": "Standardmäßig kommt jede E-Mail vor dem Versand zu Ihnen zur Freigabe."
+    },
+    "a1t": "Scout",
+    "a1d": "Findet neue Firmen, die zu Ihrem Wunschkunden passen.",
+    "a2t": "Analyst",
+    "a2d": "Liest die Website und bewertet die Passung von 0 bis 100.",
+    "a3t": "Autor",
+    "a3d": "Schreibt die persönliche Erst-E-Mail und jede Antwort.",
+    "a4t": "Kurier",
+    "a4d": "Versendet freigegebene E-Mails in einem Tempo, das Ihre Domain schützt.",
+    "a5t": "Zuhörer",
+    "a5d": "Liest eingehende Antworten und erkennt das Anliegen.",
+    "a6t": "Planer",
+    "a6d": "Trägt den Termin mit kurzer Zusammenfassung in Ihren Kalender ein.",
+    "a7t": "Stratege",
+    "a7d": "Steuert jede Runde, lernt, was funktioniert, und plant die nächste Suche.",
+    "a8t": "Schild",
+    "a8d": "Setzt Datenschutzregeln, Abmeldungen und Versandlimits durch.",
+    "f1t": "Ein Agententeam, das selbstständig arbeitet",
+    "f1d": "Die acht Agenten übergeben sich während einer Runde gegenseitig Aufgaben. Sie sehen live, was jeder gerade tut und was er weitergibt.",
+    "f2t": "Die richtigen Firmen finden und bewerten",
+    "f2d": "Firmen werden über Google-Maps-Einträge gefunden. Der Analyst liest jede Website und vergibt einen Score von 0–100 mit Begründung; den Schwellenwert legen Sie fest.",
+    "f3t": "Persönliche E-Mails mit Ihrer Freigabe",
+    "f3d": "Der Autor entwirft für jede Firma eine eigene Erst-E-Mail und Antworten und testet Betreffzeilen per A/B-Test. Entwürfe landen in der Freigabe, wo Sie bearbeiten und senden.",
+    "f4t": "Von der Antwort zum Termin",
+    "f4d": "Der Zuhörer erkennt das Anliegen jeder Antwort; der Planer trägt den Termin ein und bereitet vorab eine einseitige Firmenübersicht vor.",
+    "f5t": "Pipeline und Rückgewinnung",
+    "f5d": "Chancen durchlaufen Stufe für Stufe eine Drag-and-drop-Pipeline. Sie können auch Ihre Altkundenliste hochladen und Rückgewinnungs-E-Mails senden.",
+    "sec": {
+      "title": "Sie behalten die Kontrolle: keine E-Mail geht ohne Ihr Wissen raus.",
+      "i1": "Der Schild-Agent setzt KVKK-Regeln, Abmeldungen und Versandlimits durch.",
+      "i2": "Vor dem echten Versand können Sie alles im Testmodus ausprobieren.",
+      "i3": "Gmail, Outlook oder jedes Postfach; Google Kalender und Outlook; Benachrichtigungen in Slack und Teams."
+    },
+    "faq": {
+      "title": "Häufige Fragen zu AddJarvis",
+      "q1": "Ersetzt AddJarvis mein Vertriebsteam?",
+      "a1": "Nein. Recherche, Vorqualifizierung und erste Entwürfe übernimmt AddJarvis; Gespräche, Angebote und die Kundenbeziehung bleiben bei Ihrem Team.",
+      "q2": "Werden E-Mails automatisch versendet?",
+      "a2": "Standardmäßig nicht: jeder Entwurf kommt vor dem Versand zur Freigabe. Auf Wunsch schalten Sie den Freigabeschritt in den Einstellungen ab und automatisieren bestimmte Aufgaben.",
+      "q3": "Welche Sprachen werden unterstützt?",
+      "a3": "Oberfläche und E-Mails gibt es auf Türkisch und Englisch.",
+      "q4": "Bringt AddJarvis tatsächlich Ergebnisse?",
+      "a4": "Bei unserem Einsatz mit B2B-Firmen verschiedener Branchen stieg die Quote gefundener Kunden um rund 70 %. Ergebnisse hängen von Branche und Zielkunde ab; in der Demo sprechen wir über Ihre Branche.",
+      "q5": "Was kostet AddJarvis?",
+      "a5": "Der Preis richtet sich nach Nutzerzahl und monatlichem Versandvolumen. Nach der Demo erhalten Sie ein schriftliches Angebot; die Demo ist kostenlos."
+    },
+    "cta": {
+      "title": "Erleben Sie AddJarvis mit Ihren eigenen Zielkunden.",
+      "desc": "In der Demo lassen wir die Agenten mit Beispielfirmen aus Ihrer Branche arbeiten und beantworten Ihre Fragen."
+    },
+    "footer": "© 2026 Ozturksoft — AddJarvis KI-Vertriebsteam, Ankara"
   }
 }

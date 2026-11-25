@@ -484,6 +484,31 @@
       "permanent": true
     },
     {
+      "source": "/addjarvis",
+      "destination": "/urunler/addjarvis",
+      "permanent": true
+    },
+    {
+      "source": "/arena",
+      "destination": "/urunler/arena",
+      "permanent": true
+    },
+    {
+      "source": "/urunler/myeden",
+      "destination": "/urunler/addjarvis",
+      "permanent": true
+    },
+    {
+      "source": "/urunler/addjarvis/",
+      "destination": "/urunler/addjarvis",
+      "permanent": true
+    },
+    {
+      "source": "/urunler/arena/",
+      "destination": "/urunler/arena",
+      "permanent": true
+    },
+    {
       "source": "/urunlerimiz",
       "destination": "/urunler",
       "permanent": true

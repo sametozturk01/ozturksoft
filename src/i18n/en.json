@@ -5671,7 +5671,7 @@
   "productsPage": {
     "meta": {
       "title": "Software Products: Tender Tracking, AI Sales and Sales Training | Ozturksoft",
-      "desc": "Ozturksoft products: AlfaIhale public tender tracking software, MyEden AI sales team for B2B and Arena sales training simulation. Free demo, Ankara."
+      "desc": "Ozturksoft products: AlfaIhale public tender tracking software, AddJarvis AI sales team for B2B and Arena sales training simulation. Free demo, Ankara."
     },
     "hero": {
       "kicker": "Our products",
@@ -5682,7 +5682,7 @@
     },
     "pick": {
       "alfa": "Public tender tracking",
-      "myeden": "AI-driven B2B sales",
+      "addjarvis": "AI-driven B2B sales",
       "arena": "Sales team training"
     },
     "alfa": {
@@ -5698,7 +5698,7 @@
       "chip2": "Turkish interface",
       "more": "Explore AlfaIhale"
     },
-    "myeden": {
+    "addjarvis": {
       "kicker": "02 · B2B sales",
       "title": "An AI sales team that finds prospects, writes to them and puts meetings in your calendar.",
       "desc": "Eight AI agents working together find and score target companies, draft a personal email for each one and turn replies into meetings. By default, no email goes out without your approval.",
@@ -5706,7 +5706,8 @@
       "b2": "Finding and scoring target companies",
       "b3": "Personal emails sent with your approval",
       "b4": "From reply to meeting",
-      "b5": "Sales pipeline and win-back of lost deals"
+      "b5": "Sales pipeline and win-back of lost deals",
+      "more": "Explore AddJarvis"
     },
     "web": {
       "chip1": "Runs in the browser, no installation",
@@ -5723,7 +5724,8 @@
       "b2": "A score and the reason for every conversation",
       "b3": "A focused improvement report",
       "b4": "Preparation for competitors and objections",
-      "b5": "Leagues, progress tracking and coaching"
+      "b5": "Leagues, progress tracking and coaching",
+      "more": "Explore Arena"
     },
     "compare": {
       "kicker": "Product or service?",
@@ -5737,13 +5739,13 @@
     "faq": {
       "title": "Frequently asked questions about our products",
       "q1": "Which ready-made software products does Ozturksoft offer?",
-      "a1": "We have three products: AlfaIhale, tender tracking and bidding software for companies that take part in public tenders; MyEden, an AI sales team for B2B companies; and Arena, where sales consultants practise with a virtual customer.",
+      "a1": "We have three products: AlfaIhale, tender tracking and bidding software for companies that take part in public tenders; AddJarvis, an AI sales team for B2B companies; and Arena, where sales consultants practise with a virtual customer.",
       "q2": "How much do the products cost?",
       "a2": "The price depends on the product, the number of users and how it is installed. After the demo we send you a written quote for your company; the demo is free.",
       "q3": "Can I try a product before buying?",
       "a3": "Yes. In the demo we show the product on an example similar to your business, then we plan the trial and setup together.",
       "q4": "Do the products run in the cloud, or can they be installed on our own server?",
-      "a4": "AlfaIhale is installed on your own computer or office server, so your documents stay with you. MyEden and Arena are web-based: they run in the browser and need no installation.",
+      "a4": "AlfaIhale is installed on your own computer or office server, so your documents stay with you. AddJarvis and Arena are web-based: they run in the browser and need no installation.",
       "q5": "What if my needs do not fit any product?",
       "a5": "Then we build software for your business. See <a href=\"/ozel-yazilim-yaptirmak\">custom software development</a> for details."
     },
@@ -5754,7 +5756,10 @@
     "shots": {
       "note": "The data in the screenshots is sample data."
     },
-    "footer": "© 2026 Ozturksoft — Software products, Ankara"
+    "footer": "© 2026 Ozturksoft — Software products, Ankara",
+    "cat": {
+      "dl": "Download catalogue (PDF, Turkish)"
+    }
   },
   "alfaihalePage": {
     "meta": {
@@ -5851,5 +5856,166 @@
       "desc": "In the demo we show the product on a tender from your sector and answer your questions."
     },
     "footer": "© 2026 Ozturksoft — AlfaIhale tender tracking software, Ankara"
+  },
+  "arenaPage": {
+    "meta": {
+      "title": "Arena: AI Sales Training and Sales Role-Play Simulation | Ozturksoft",
+      "desc": "Arena is a sales training platform where consultants rehearse with an AI customer who has a hidden objection. SONAR-41 scoring backed by quotes, leagues and coaching."
+    },
+    "hero": {
+      "kicker": "Sales training",
+      "partner": "Arena was developed in partnership with Satış Mühendisliği™.",
+      "title": "Rehearse the sale with a <span class=\"pr-grad\">virtual customer</span> first.",
+      "desc": "In Arena, the sales consultant talks in writing or by voice to an AI customer with a hidden objection. The conversation is measured with the SONAR-41 framework; every score is tied to a quote, so the consultant sees exactly what was missed and why."
+    },
+    "strip": {
+      "s1": "For sales training"
+    },
+    "about": {
+      "title": "What is Arena?",
+      "p": "Arena is an AI-powered role-play and measurement platform for sales teams. The consultant talks to a virtual customer in a phone, online meeting, showroom or messaging scenario. Afterwards the conversation is scored with SONAR-41 and one improvement area is suggested. Managers follow the team's progress through reports, leagues and coaching tools."
+    },
+    "who": {
+      "i1": "Dealer and showroom sales teams; consultative sales such as automotive, real estate, insurance and education",
+      "i2": "Companies that want new consultants ready for the field quickly",
+      "i3": "Sales managers who lack time for one-to-one coaching"
+    },
+    "pain": {
+      "i1": "Consultants learn by practising on real customers",
+      "i2": "Training doesn't stick: what's missing is rehearsal, not knowledge",
+      "i3": "Managers can't measure who needs to improve what"
+    },
+    "partner": {
+      "kicker": "Partnership",
+      "title": "Developed together with Satış Mühendisliği™",
+      "p": "We built Arena with Satış Mühendisliği™, a sales training specialist, so consultants can rehearse before meeting real customers and every conversation is measured on evidence. Arena is also offered to companies under the Satış Mühendisliği™ brand."
+    },
+    "f1t": "A virtual customer with a hidden objection",
+    "f1d": "Written or voice rehearsal over phone, online meeting, showroom and messaging channels. Uncovering the customer's real objection is up to the consultant.",
+    "f2t": "Measured with SONAR-41",
+    "f2d": "41 behaviours across 5 dimensions are scored on a 1–5 scale. Every score rests on a verbatim quote from the conversation; the CRM entry is scored too.",
+    "f3t": "A single-focus report",
+    "f3d": "After each conversation: one improvement area, strengths and the sentence that should have been said. The consultant compares their self-assessment with the result.",
+    "f4t": "Preparation: competitors and objections",
+    "f4d": "Competitor comparisons and objection cards prepare the consultant; your products and competitors are built into the scenarios.",
+    "f5t": "Leagues, progress and coaching",
+    "f5d": "Company and team leagues, badges and a progress map. For managers: calibration cases, a Coach League and coaching tools.",
+    "s1t": "Scenario",
+    "s1d": "Your products, competitors and customer types are built into the virtual customers.",
+    "s2t": "Rehearsal",
+    "s2d": "The consultant talks to the virtual customer in the chosen channel; the customer has a hidden objection.",
+    "s3t": "Measurement",
+    "s3d": "The conversation is scored with SONAR-41 and every score is tied to a quote.",
+    "s4t": "Progress",
+    "s4d": "The report gives one focus area; leagues, tasks and coaching keep progress going.",
+    "sec": {
+      "title": "No score without a quote.",
+      "i1": "Separate roles and permissions for consultants, team leads and company managers.",
+      "i2": "Data is stored on servers in Frankfurt.",
+      "i3": "Turkish and English interface and conversations."
+    },
+    "faq": {
+      "title": "Frequently asked questions about Arena",
+      "q1": "Can consultants talk to the virtual customer by voice?",
+      "a1": "Yes. The consultant can talk in writing or by voice, with phone, online meeting, showroom and messaging scenarios.",
+      "q2": "Which sectors can use it?",
+      "a2": "Any consultative sale. Sample scenarios exist for automotive, real estate, insurance and education, and scenarios are adapted to your company.",
+      "q3": "How are scores given, and what is SONAR-41?",
+      "a3": "SONAR-41 is a framework that scores 41 sales behaviours across 5 dimensions on a 1–5 scale. Every score rests on a verbatim quote; no quote, no score.",
+      "q4": "How much does Arena cost?",
+      "a4": "The price depends on the number of consultants and how many custom scenarios you need. After the demo we send a written quote; the demo is free.",
+      "q5": "How do we get started?",
+      "a5": "In the demo we go through Arena together using a sample company, then plan your custom scenarios and setup."
+    },
+    "cta": {
+      "title": "Let your team do its first rehearsal with us.",
+      "desc": "In the demo we run a sample conversation with a virtual customer from your sector and review the report together."
+    },
+    "footer": "© 2026 Ozturksoft — Arena sales training platform, Ankara"
+  },
+  "addjarvisPage": {
+    "meta": {
+      "title": "AddJarvis: AI Sales Team and Lead Generation for B2B Companies | Ozturksoft",
+      "desc": "AddJarvis is an AI sales team for B2B companies: eight agents find and score suitable companies, send personal emails with your approval and turn replies into meetings."
+    },
+    "hero": {
+      "kicker": "B2B sales",
+      "title": "AI finds the customers, <span class=\"pr-grad\">you take the meetings.</span>",
+      "desc": "AddJarvis is a sales team of eight AI agents working together. It finds companies that match your ideal customer, scores them, drafts a personal email for each and adds positive replies to your calendar as meetings. By default, no email goes out without your approval."
+    },
+    "strip": {
+      "s1": "For B2B sales",
+      "s2": "Web-based, no installation",
+      "s3": "Interface: Turkish and English"
+    },
+    "about": {
+      "title": "What is AddJarvis?",
+      "p": "AddJarvis takes over the job where your sales team loses the most time: working out who to contact. It finds companies matching your ideal customer, reads their websites and scores their fit with reasons, drafts the first email and follow-ups, reads the replies and puts meetings in your calendar. Every email comes to you for approval by default; you decide what to automate."
+    },
+    "who": {
+      "i1": "B2B companies with 5–200 employees: agencies, industrial suppliers, consulting and service firms",
+      "i2": "Companies whose salespeople spend more time researching than talking to customers",
+      "i3": "Teams that want to enter a new sector or market"
+    },
+    "pain": {
+      "i1": "Finding who to contact eats most of the sales team's time",
+      "i2": "Follow-ups get forgotten and interested prospects go cold",
+      "i3": "Bought lists perform poorly and carry data protection (KVKK) risk"
+    },
+    "agents": {
+      "kicker": "How it works",
+      "title": "Eight agents, one sales team",
+      "sub": "By default, every email comes to you for approval before it is sent."
+    },
+    "a1t": "Scout",
+    "a1d": "Finds new companies that match your ideal customer.",
+    "a2t": "Analyst",
+    "a2d": "Reads each company's website and scores the fit from 0 to 100.",
+    "a3t": "Writer",
+    "a3d": "Drafts the personal first email and every reply.",
+    "a4t": "Courier",
+    "a4d": "Sends approved emails at a pace that protects your domain.",
+    "a5t": "Listener",
+    "a5d": "Reads incoming replies and works out what each one wants.",
+    "a6t": "Planner",
+    "a6d": "Adds the meeting to your calendar with a short brief.",
+    "a7t": "Strategist",
+    "a7d": "Runs each round, learns what worked and decides the next search.",
+    "a8t": "Shield",
+    "a8d": "Enforces data protection rules, opt-outs and sending limits.",
+    "f1t": "An agent team that runs on its own",
+    "f1d": "The eight agents hand work to each other throughout a round. You watch live on screen what each agent is doing and what it passes on.",
+    "f2t": "Finding and scoring the right companies",
+    "f2d": "Companies are found through Google Maps business listings. The Analyst reads each website and gives a 0–100 score with its reasoning; you set the threshold.",
+    "f3t": "Personal emails, with your approval",
+    "f3d": "The Writer drafts a separate first email and replies for each company and A/B tests subject lines. Drafts land on the approval screen, where you edit and send.",
+    "f4t": "From reply to meeting",
+    "f4d": "The Listener understands what each reply wants; the Planner books the meeting in your calendar and prepares a one-page brief on the company beforehand.",
+    "f5t": "Pipeline and win-back",
+    "f5d": "Opportunities move stage by stage through a drag-and-drop pipeline. You can also upload your past customer list and send them win-back emails.",
+    "sec": {
+      "title": "You stay in control: no email goes out behind your back.",
+      "i1": "The Shield agent enforces KVKK rules, opt-out requests and sending limits.",
+      "i2": "You can try everything in test mode before anything is really sent.",
+      "i3": "Gmail, Outlook or any mailbox; Google Calendar and Outlook; Slack and Teams notifications."
+    },
+    "faq": {
+      "title": "Frequently asked questions about AddJarvis",
+      "q1": "Does AddJarvis replace my sales team?",
+      "a1": "No. AddJarvis takes care of research, qualification and first drafts; meetings, proposals and the customer relationship stay with your team.",
+      "q2": "Are emails sent automatically?",
+      "a2": "Not by default: every draft comes to you for approval before sending. If you wish, you can switch the approval step off in settings and automate certain tasks.",
+      "q3": "Which languages does it support?",
+      "a3": "The interface and emails are in Turkish and English.",
+      "q4": "Does AddJarvis actually deliver results?",
+      "a4": "In our rollout with B2B companies across different sectors, the rate of finding customers rose by about 70%. Results vary by sector and target customer; in the demo we discuss your own sector.",
+      "q5": "How much does AddJarvis cost?",
+      "a5": "The price depends on the number of users and monthly sending volume. After the demo we send a written quote for your company; the demo is free."
+    },
+    "cta": {
+      "title": "See AddJarvis with your own target customers.",
+      "desc": "In the demo we run the agents on sample companies from your sector and answer your questions."
+    },
+    "footer": "© 2026 Ozturksoft — AddJarvis AI sales team, Ankara"
   }
 }

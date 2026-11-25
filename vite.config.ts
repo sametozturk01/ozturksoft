@@ -47,6 +47,8 @@ export default defineConfig({
         spamRecovery: resolve(__dirname, 'google-spam-update-cezasi-kurtarma.html'),
         products: resolve(__dirname, 'urunler.html'),
         productAlfaIhale: resolve(__dirname, 'urunler/alfaihale.html'),
+        productAddJarvis: resolve(__dirname, 'urunler/addjarvis.html'),
+        productArena: resolve(__dirname, 'urunler/arena.html'),
         stockProgram: resolve(__dirname, 'stok-takip-programi-yaptirmak.html'),
         productionSoftware: resolve(__dirname, 'uretim-takip-yazilimi.html'),
         fieldService: resolve(__dirname, 'teknik-servis-takip-programi.html'),
