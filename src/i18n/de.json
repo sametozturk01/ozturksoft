@@ -5644,5 +5644,12 @@
       "privacy": "Unser Cookie- und KVKK-Hinweis"
     },
     "footer": "© 2026 Ozturksoft — KVKK-Compliance-Analyse, Ankara"
+  },
+  "googleReviews": {
+    "badge": "Google-Bewertungen",
+    "title": "Was unsere Kunden auf Google sagen",
+    "sub": "Eine Auswahl echter Bewertungen aus unserem Google-Unternehmensprofil, unverändert im türkischen Original.",
+    "rating": "Google-Bewertung",
+    "all": "Alle Bewertungen auf Google ansehen"
   }
 }

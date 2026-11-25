@@ -5644,5 +5644,12 @@
       "privacy": "Our cookie and KVKK notice"
     },
     "footer": "© 2026 Ozturksoft — KVKK Compliance Audit, Ankara"
+  },
+  "googleReviews": {
+    "badge": "Google reviews",
+    "title": "What our clients say on Google",
+    "sub": "A selection of real reviews from our Google Business Profile, shared unedited in their original Turkish.",
+    "rating": "Google rating",
+    "all": "See all reviews on Google"
   }
 }

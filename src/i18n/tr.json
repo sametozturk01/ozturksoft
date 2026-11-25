@@ -5664,5 +5664,12 @@
       "privacy": "Çerez ve KVKK aydınlatma metnimiz"
     },
     "footer": "© 2026 Ozturksoft — KVKK Uyum Analizi, Ankara"
+  },
+  "googleReviews": {
+    "badge": "Google yorumları",
+    "title": "Google’da müşterilerimiz ne diyor?",
+    "sub": "Google İşletme Profilimizdeki gerçek yorumlardan bazıları; metinler değiştirilmeden paylaşılmıştır.",
+    "rating": "Google puanı",
+    "all": "Google’da tüm yorumları görün"
   }
 }
