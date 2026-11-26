@@ -5738,20 +5738,19 @@
   },
   "productsPage": {
     "meta": {
-      "title": "Yazılım Ürünleri: İhale Takip, AI Satış, Satış Eğitimi | Ozturksoft",
-      "desc": "Ozturksoft ürünleri: kamu ihale takip programı AlfaIhale, yapay zeka B2B satış ekibi AddJarvis ve satış eğitimi simülasyonu Arena. Ücretsiz demo, Ankara."
+      "title": "Yazılım Ürünleri: İhale Takip ve Yapay Zeka Satış | Ozturksoft",
+      "desc": "Ozturksoft ürünleri: kamu ihale takip programı AlfaIhale ve B2B firmalar için yapay zeka satış ekibi AddJarvis. Ücretsiz demo, Ankara."
     },
     "hero": {
       "kicker": "Ürünlerimiz",
       "title": "Kullanıma <span class=\"pr-grad\">hazır</span> yazılım ürünleri.",
-      "desc": "İhale takibi, yapay zeka ile B2B satış ve satış ekibi eğitimi için geliştirdiğimiz üç hazır ürün. Size uygun olanı kendi iş akışınız üzerinden kısa bir demoda gösterelim.",
+      "desc": "İhale takibi ve yapay zeka ile B2B satış için geliştirdiğimiz iki hazır ürün. Size uygun olanı kendi iş akışınız üzerinden kısa bir demoda gösterelim.",
       "btn1": "Demo isteyin",
       "btn2": "Ürünlere göz atın"
     },
     "pick": {
       "alfa": "Kamu ihale takibi",
-      "addjarvis": "Yapay zeka ile B2B satış",
-      "arena": "Satış ekibi eğitimi"
+      "addjarvis": "Yapay zeka ile B2B satış"
     },
     "alfa": {
       "kicker": "01 · Kamu ihaleleri",
@@ -5784,17 +5783,6 @@
     "demo": {
       "more": "Demosunu isteyin"
     },
-    "arena": {
-      "kicker": "03 · Satış eğitimi",
-      "title": "Satış danışmanlarınız gerçek müşteriden önce sanal müşteriyle pratik yapsın.",
-      "desc": "Danışman, gizli bir itirazı olan yapay zeka müşteriyle görüşür. Her görüşme puanlanır ve her puanın gerekçesi görüşmeden bir alıntıyla gösterilir; danışman neyi neden kaçırdığını açıkça görür.",
-      "b1": "Gizli itirazı olan sanal müşteriler",
-      "b2": "Her görüşmeye puan ve gerekçe",
-      "b3": "Tek odaklı gelişim raporu",
-      "b4": "Rakip ve itiraz hazırlığı",
-      "b5": "Ligler, gelişim takibi ve koçluk",
-      "more": "Arena'yı inceleyin"
-    },
     "compare": {
       "kicker": "Ürün mü, hizmet mi?",
       "title": "Hazır ürün mü, size özel yazılım mı?",
@@ -5807,13 +5795,13 @@
     "faq": {
       "title": "Ürünlerimiz hakkında sık sorulanlar",
       "q1": "Ozturksoft'un hazır yazılım ürünleri hangileri?",
-      "a1": "Üç ürünümüz var: kamu ihalelerine katılan firmalar için ihale takip ve teklif programı AlfaIhale, B2B firmalar için yapay zeka satış ekibi AddJarvis ve satış danışmanlarının sanal müşteriyle pratik yaptığı Arena.",
+      "a1": "İki ürünümüz var: kamu ihalelerine katılan firmalar için ihale takip ve teklif programı AlfaIhale ve B2B firmalar için yapay zeka satış ekibi AddJarvis.",
       "q2": "Ürünlerin fiyatı ne kadar?",
       "a2": "Fiyat ürüne, kullanıcı sayısına ve kurulum şekline göre değişir. Demo görüşmesinden sonra firmanıza özel yazılı teklif veriyoruz; demo ücretsizdir.",
       "q3": "Satın almadan önce deneyebilir miyim?",
       "a3": "Evet. Demo görüşmesinde ürünü işinize benzeyen bir örnek üzerinden gösteriyoruz; ardından deneme ve kurulum sürecini birlikte planlıyoruz.",
       "q4": "Ürünler bulutta mı çalışıyor, kendi sunucumuza kurulabilir mi?",
-      "a4": "AlfaIhale kendi bilgisayarınıza veya ofis sunucunuza kurulur, belgeleriniz sizde kalır. AddJarvis ve Arena web tabanlıdır; tarayıcıdan kullanılır, kurulum gerektirmez.",
+      "a4": "AlfaIhale kendi bilgisayarınıza veya ofis sunucunuza kurulur, belgeleriniz sizde kalır. AddJarvis web tabanlıdır; tarayıcıdan kullanılır, kurulum gerektirmez.",
       "q5": "İhtiyacım hiçbir ürüne uymuyorsa ne olur?",
       "a5": "O zaman işinize özel yazılım geliştiririz. Ayrıntılar için <a href=\"/ozel-yazilim-yaptirmak\">özel yazılım yaptırmak</a> sayfasına bakabilirsiniz."
     },
@@ -5924,82 +5912,6 @@
       "desc": "Demo görüşmesinde ürünü sizin sektörünüzden bir ihale üzerinden gösterir, sorularınızı yanıtlarız."
     },
     "footer": "© 2026 Ozturksoft — AlfaIhale ihale takip programı, Ankara"
-  },
-  "arenaPage": {
-    "meta": {
-      "title": "Arena: Yapay Zeka ile Satış Eğitimi ve Satış Simülasyonu | Ozturksoft",
-      "desc": "Arena: satış danışmanlarının gizli itirazı olan yapay zeka müşteriyle prova yaptığı eğitim platformu. Alıntıya dayalı SONAR-41 puanı ve koçluk."
-    },
-    "hero": {
-      "kicker": "Satış eğitimi",
-      "partner": "Satış Mühendisliği™ ile ortak geliştirilen platform",
-      "title": "Satışı önce <span class=\"pr-grad\">sanal müşteriyle</span> prova edin.",
-      "desc": "Arena'da satış danışmanınız, aklındaki asıl çekinceyi söylemeyen bir yapay zeka müşteriyle konuşur; ister yazarak ister sesli. Görüşme bittiğinde SONAR-41 ile değerlendirilir ve her not, konuşmadan alınmış bir cümleyle gerekçelendirilir."
-    },
-    "strip": {
-      "s1": "Satış eğitimi için"
-    },
-    "about": {
-      "title": "Arena nedir?",
-      "p": "Arena, satış ekiplerinin gerçek müşteriyle karşılaşmadan önce prova yaptığı, yapay zekayla çalışan bir antrenman ve değerlendirme ortamıdır. Danışman telefon, video görüşme, showroom ya da yazışma senaryosu seçer ve sanal müşteriyle konuşur. Ardından SONAR-41 değerlendirmesi gelir ve danışmana üzerinde çalışması gereken tek bir konu söylenir. Yöneticiler kimin nerede olduğunu raporlardan, liglerden ve koçluk ekranlarından izler."
-    },
-    "who": {
-      "i1": "Otomobil, emlak, sigorta, eğitim gibi müşteriye danışmanlık yapılarak satış yapılan sektörlerdeki bayi ve showroom ekipleri",
-      "i2": "Yeni işe aldığı danışmanları kısa sürede müşteri karşısına çıkarmak isteyen firmalar",
-      "i3": "Ekibindeki herkese tek tek koçluk yapacak zamanı olmayan satış müdürleri"
-    },
-    "pain": {
-      "i1": "Yeni danışman hatalarını gerçek müşteri karşısında yapıyor",
-      "i2": "Eğitimden sonra birkaç hafta içinde her şey unutuluyor; çünkü bilgi değil pratik eksik",
-      "i3": "Kimin hangi konuda zayıf olduğunu gösteren somut bir ölçü yok"
-    },
-    "partner": {
-      "kicker": "İş birliği",
-      "title": "Satış Mühendisliği™ ile birlikte geliştirildi",
-      "p": "Arena'yı, satış eğitimleri veren Satış Mühendisliği™ ekibiyle birlikte tasarladık. Amaç, danışmanın müşteriye çıkmadan önce bol bol deneme yapması ve her görüşmenin kişisel izlenime değil kanıta göre değerlendirilmesi. Arena, Satış Mühendisliği™ markasıyla da şirketlere sunuluyor."
-    },
-    "f1t": "Çekincesini saklayan sanal müşteri",
-    "f1d": "Telefon, video toplantı, showroom ya da yazışma senaryosunda yazılı veya sesli konuşma yapılır. Müşterinin neden tereddüt ettiğini doğru sorularla ortaya çıkarmak danışmanın işidir.",
-    "f2t": "SONAR-41 ile ölçüm",
-    "f2d": "Beş başlık altında toplanan 41 davranış 1'den 5'e kadar notlanır. Her not, görüşmede geçen gerçek bir cümleye bağlanır; danışmanın CRM'e yazdığı görüşme notu da ayrıca değerlendirilir.",
-    "f3t": "Tek konuya odaklanan geri bildirim",
-    "f3d": "Her görüşmenin sonunda danışmana bir gelişim konusu, iyi yaptığı şeyler ve o noktada kurması gereken cümle gösterilir. Danışman önce kendini değerlendirir, sonra sonucu kendi notuyla kıyaslar.",
-    "f4t": "Görüşme öncesi hazırlık kartları",
-    "f4d": "Danışman, rakip ürünlerle karşılaştırma kartları ve sık duyulan itirazlara hazır cevaplarla görüşmeye hazırlanır; senaryolarda sizin ürünleriniz ve rakipleriniz yer alır.",
-    "f5t": "Lig, rozet ve koçluk ekranları",
-    "f5d": "Şirket içinde ve ekipler arasında ligler, rozetler ve kişisel gelişim haritası bulunur. Yöneticiler için örnek görüşmelerle not birliği sağlama, Koç Ligi ve koçluk araçları vardır.",
-    "s1t": "Senaryo",
-    "s1d": "Ürünleriniz, rakipleriniz ve tipik müşteri profilleriniz sanal müşteri senaryolarına eklenir.",
-    "s2t": "Prova",
-    "s2d": "Danışman istediği kanalı seçer ve çekincesini saklayan sanal müşteriyle konuşur.",
-    "s3t": "Ölçüm",
-    "s3d": "Konuşma SONAR-41 ile notlanır; her not konuşmadan bir cümleyle desteklenir.",
-    "s4t": "Gelişim",
-    "s4d": "Rapor tek bir çalışma konusu belirler; lig, görev ve koçluklarla gelişim sürer.",
-    "sec": {
-      "title": "Konuşmadan bir cümleyle desteklenmeyen not verilmez.",
-      "i1": "Danışman, ekip lideri ve yönetici farklı ekranlar ve farklı yetkilerle çalışır.",
-      "i2": "Görüşme verileri Almanya'da (Frankfurt) bulunan sunucularda saklanır.",
-      "i3": "Arayüz ve sanal müşteriyle konuşma dili Türkçe veya İngilizce olabilir."
-    },
-    "faq": {
-      "title": "Arena hakkında sık sorulanlar",
-      "q1": "Sanal müşteriyle sesli görüşme yapılabiliyor mu?",
-      "a1": "Evet. Danışman sanal müşteriyle yazarak veya konuşarak görüşebilir; telefon, video toplantı, showroom ve yazışma senaryoları hazırdır.",
-      "q2": "Hangi sektörlerde kullanılabilir?",
-      "a2": "Müşteriye danışmanlık ederek satış yapılan her alanda kullanılabilir. Otomobil, emlak, sigorta ve eğitim için hazır senaryolar var; senaryolar sizin ürün ve müşterilerinize göre düzenlenir.",
-      "q3": "Puanlar nasıl veriliyor, SONAR-41 nedir?",
-      "a3": "SONAR-41, satış görüşmesindeki 41 davranışı beş başlıkta 1–5 arasında notlayan bir değerlendirme yöntemidir. Her not görüşmeden alınmış bir cümleye dayanır; dayanağı olmayan not verilmez.",
-      "q4": "Arena'nın fiyatı ne kadar?",
-      "a4": "Fiyat danışman sayısına ve şirketinize özel senaryo ihtiyacına göre belirlenir. Demo görüşmesinden sonra yazılı teklif veriyoruz; demo ücretsizdir.",
-      "q5": "Nasıl başlarız?",
-      "a5": "Demo görüşmesinde Arena'yı örnek bir firma üzerinde birlikte deneriz. Sonra sizin ürünlerinize göre senaryoları ve kurulumu planlarız."
-    },
-    "cta": {
-      "title": "Ekibiniz ilk provasını bizimle yapsın.",
-      "desc": "Demo görüşmesinde sizin sektörünüzden bir sanal müşteriyle örnek görüşme yapar, raporu birlikte inceleriz."
-    },
-    "footer": "© 2026 Ozturksoft — Arena satış eğitimi platformu, Ankara"
   },
   "addjarvisPage": {
     "meta": {

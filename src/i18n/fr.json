@@ -5718,20 +5718,19 @@
   },
   "productsPage": {
     "meta": {
-      "title": "Logiciels : suivi des appels d'offres, vente IA, formation commerciale | Ozturksoft",
-      "desc": "Produits Ozturksoft : AlfaIhale pour les appels d'offres publics, AddJarvis, équipe commerciale IA B2B, et Arena, simulation de vente. Démo gratuite."
+      "title": "Logiciels : appels d'offres et vente assistée par IA | Ozturksoft",
+      "desc": "Produits Ozturksoft : AlfaIhale pour les appels d'offres publics et AddJarvis, une équipe commerciale IA pour le B2B. Démo gratuite, Ankara."
     },
     "hero": {
       "kicker": "Nos produits",
       "title": "Des logiciels <span class=\"pr-grad\">prêts</span> à l'emploi.",
-      "desc": "Trois produits prêts à l'emploi que nous avons développés pour le suivi des appels d'offres, la vente B2B assistée par IA et la formation des commerciaux. Nous vous montrons le bon en courte démo, sur votre propre processus.",
+      "desc": "Deux produits prêts à l'emploi que nous avons développés pour le suivi des appels d'offres et la vente B2B assistée par IA. Nous vous montrons le bon en courte démo, sur votre propre processus.",
       "btn1": "Demander une démo",
       "btn2": "Voir les produits"
     },
     "pick": {
       "alfa": "Appels d'offres publics",
-      "addjarvis": "Vente B2B assistée par IA",
-      "arena": "Formation des commerciaux"
+      "addjarvis": "Vente B2B assistée par IA"
     },
     "alfa": {
       "kicker": "01 · Appels d'offres publics",
@@ -5764,17 +5763,6 @@
     "demo": {
       "more": "Demander une démo"
     },
-    "arena": {
-      "kicker": "03 · Formation commerciale",
-      "title": "Vos conseillers s'entraînent avec un client virtuel avant de rencontrer un vrai client.",
-      "desc": "Le conseiller échange avec un client IA qui cache une objection. Chaque entretien est noté et chaque note s'appuie sur une citation de l'échange : le conseiller voit précisément ce qu'il a manqué et pourquoi.",
-      "b1": "Clients virtuels avec objections cachées",
-      "b2": "Une note justifiée pour chaque entretien",
-      "b3": "Un rapport de progrès ciblé",
-      "b4": "Préparation face aux concurrents et objections",
-      "b5": "Ligues, suivi des progrès et coaching",
-      "more": "Découvrir Arena"
-    },
     "compare": {
       "kicker": "Produit ou service ?",
       "title": "Produit prêt à l'emploi ou logiciel sur mesure ?",
@@ -5787,13 +5775,13 @@
     "faq": {
       "title": "Questions fréquentes sur nos produits",
       "q1": "Quels logiciels prêts à l'emploi Ozturksoft propose-t-elle ?",
-      "a1": "Nous proposons trois produits : AlfaIhale, logiciel de suivi et de réponse aux appels d'offres publics ; AddJarvis, une équipe commerciale IA pour les entreprises B2B ; et Arena, où les conseillers s'entraînent avec un client virtuel.",
+      "a1": "Nous proposons deux produits : AlfaIhale, logiciel de suivi et de réponse aux appels d'offres publics, et AddJarvis, une équipe commerciale IA pour les entreprises B2B.",
       "q2": "Combien coûtent les produits ?",
       "a2": "Le prix dépend du produit, du nombre d'utilisateurs et du mode d'installation. Après la démo, nous vous envoyons un devis écrit pour votre entreprise ; la démo est gratuite.",
       "q3": "Puis-je essayer un produit avant de l'acheter ?",
       "a3": "Oui. Lors de la démo, nous présentons le produit sur un exemple proche de votre activité, puis nous planifions ensemble l'essai et l'installation.",
       "q4": "Les produits fonctionnent-ils dans le cloud ou sur notre propre serveur ?",
-      "a4": "AlfaIhale s'installe sur votre ordinateur ou le serveur de votre bureau : vos documents restent chez vous. AddJarvis et Arena sont des applications web, utilisables dans le navigateur sans installation.",
+      "a4": "AlfaIhale s'installe sur votre ordinateur ou le serveur de votre bureau : vos documents restent chez vous. AddJarvis est une application web, utilisable dans le navigateur sans installation.",
       "q5": "Et si mon besoin ne correspond à aucun produit ?",
       "a5": "Nous développons alors un logiciel pour votre activité. Détails sur la page <a href=\"/ozel-yazilim-yaptirmak\">développement de logiciel sur mesure</a>."
     },
@@ -5904,82 +5892,6 @@
       "desc": "Lors de la démo, nous montrons le produit sur un appel d'offres de votre secteur et répondons à vos questions."
     },
     "footer": "© 2026 Ozturksoft — AlfaIhale, logiciel d'appels d'offres, Ankara"
-  },
-  "arenaPage": {
-    "meta": {
-      "title": "Arena : formation commerciale et simulation de vente par IA | Ozturksoft",
-      "desc": "Arena, plateforme de formation où les conseillers s'entraînent avec un client IA à l'objection cachée. Évaluation SONAR-41 appuyée sur des citations, ligues et coaching."
-    },
-    "hero": {
-      "kicker": "Formation commerciale",
-      "partner": "Arena a été développé en partenariat avec Satış Mühendisliği™.",
-      "title": "Répétez la vente d'abord avec un <span class=\"pr-grad\">client virtuel</span>.",
-      "desc": "Dans Arena, le conseiller échange par écrit ou à l'oral avec un client IA qui cache une objection. L'entretien est mesuré avec le cadre SONAR-41 ; chaque note est liée à une citation, pour voir précisément ce qui a été manqué."
-    },
-    "strip": {
-      "s1": "Pour la formation commerciale"
-    },
-    "about": {
-      "title": "Qu'est-ce qu'Arena ?",
-      "p": "Arena est une plateforme de jeu de rôle et de mesure assistée par IA pour les équipes commerciales. Le conseiller échange avec un client virtuel au téléphone, en visio, en showroom ou par messagerie. L'entretien est ensuite noté avec SONAR-41 et un axe de progrès est proposé. Les managers suivent l'équipe grâce aux rapports, aux ligues et aux outils de coaching."
-    },
-    "who": {
-      "i1": "Équipes de vente en concession et showroom ; ventes de conseil comme l'automobile, l'immobilier, l'assurance et l'éducation",
-      "i2": "Entreprises qui veulent former vite leurs nouveaux conseillers",
-      "i3": "Managers commerciaux qui manquent de temps pour le coaching individuel"
-    },
-    "pain": {
-      "i1": "Les conseillers apprennent en s'exerçant sur de vrais clients",
-      "i2": "Les formations ne durent pas : il manque la répétition, pas le savoir",
-      "i3": "Les managers ne peuvent pas mesurer qui doit progresser sur quoi"
-    },
-    "partner": {
-      "kicker": "Partenariat",
-      "title": "Développé avec Satış Mühendisliği™",
-      "p": "Nous avons conçu Arena avec Satış Mühendisliği™, spécialiste de la formation commerciale, pour que les conseillers répètent avant de rencontrer de vrais clients et que chaque entretien soit mesuré sur des preuves. Arena est aussi proposé sous la marque Satış Mühendisliği™."
-    },
-    "f1t": "Un client virtuel à l'objection cachée",
-    "f1d": "Répétition écrite ou orale par téléphone, visio, showroom ou messagerie. C'est au conseiller de découvrir la vraie objection du client.",
-    "f2t": "Mesure avec SONAR-41",
-    "f2d": "41 comportements répartis en 5 dimensions sont notés de 1 à 5. Chaque note s'appuie sur une citation exacte ; la saisie CRM est aussi évaluée.",
-    "f3t": "Un rapport centré sur un seul point",
-    "f3d": "Après chaque entretien : un axe de progrès, les points forts et la phrase qu'il aurait fallu dire. Le conseiller compare son auto-évaluation au résultat.",
-    "f4t": "Préparation : concurrents et objections",
-    "f4d": "Comparatifs concurrents et cartes d'objections préparent le conseiller ; vos produits et concurrents sont intégrés aux scénarios.",
-    "f5t": "Ligues, progrès et coaching",
-    "f5d": "Ligues d'entreprise et d'équipe, badges et carte de progression. Pour les managers : cas de calibrage, Ligue des coachs et outils de coaching.",
-    "s1t": "Scénario",
-    "s1d": "Vos produits, concurrents et types de clients sont intégrés aux clients virtuels.",
-    "s2t": "Répétition",
-    "s2d": "Le conseiller échange avec le client virtuel sur le canal choisi ; le client cache une objection.",
-    "s3t": "Mesure",
-    "s3d": "L'entretien est noté avec SONAR-41, chaque note étant liée à une citation.",
-    "s4t": "Progression",
-    "s4d": "Le rapport fixe un axe ; ligues, missions et coaching entretiennent la progression.",
-    "sec": {
-      "title": "Pas de note sans citation.",
-      "i1": "Rôles et droits distincts pour conseillers, chefs d'équipe et direction.",
-      "i2": "Les données sont hébergées sur des serveurs à Francfort.",
-      "i3": "Interface et entretiens en turc et en anglais."
-    },
-    "faq": {
-      "title": "Questions fréquentes sur Arena",
-      "q1": "Peut-on parler au client virtuel à l'oral ?",
-      "a1": "Oui. Le conseiller peut échanger par écrit ou à l'oral, avec des scénarios téléphone, visio, showroom et messagerie.",
-      "q2": "Pour quels secteurs ?",
-      "a2": "Pour toute vente de conseil. Des scénarios types existent pour l'automobile, l'immobilier, l'assurance et l'éducation, adaptés ensuite à votre entreprise.",
-      "q3": "Comment les notes sont-elles attribuées et qu'est-ce que SONAR-41 ?",
-      "a3": "SONAR-41 est un cadre qui note 41 comportements de vente répartis en 5 dimensions, de 1 à 5. Chaque note repose sur une citation exacte ; sans citation, pas de note.",
-      "q4": "Combien coûte Arena ?",
-      "a4": "Le prix dépend du nombre de conseillers et des scénarios sur mesure nécessaires. Après la démo, nous envoyons un devis écrit ; la démo est gratuite.",
-      "q5": "Comment démarrer ?",
-      "a5": "Lors de la démo, nous parcourons Arena sur une entreprise type, puis planifions vos scénarios et la mise en place."
-    },
-    "cta": {
-      "title": "Faites faire à votre équipe sa première répétition avec nous.",
-      "desc": "Lors de la démo, nous menons un entretien type avec un client virtuel de votre secteur et analysons le rapport ensemble."
-    },
-    "footer": "© 2026 Ozturksoft — Arena, formation commerciale, Ankara"
   },
   "addjarvisPage": {
     "meta": {

@@ -181,12 +181,6 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://ozturksoft.net/urunler/arena</loc>
-    <lastmod>2026-11-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
     <loc>https://ozturksoft.net/stok-takip-programi-yaptirmak</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -2306,36 +2300,6 @@
   </url>
   <url>
     <loc>https://ozturksoft.net/ru/produkty/addjarvis</loc>
-    <lastmod>2026-11-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ozturksoft.net/en/products/arena</loc>
-    <lastmod>2026-11-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ozturksoft.net/de/produkte/arena</loc>
-    <lastmod>2026-11-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ozturksoft.net/fr/produits/arena</loc>
-    <lastmod>2026-11-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ozturksoft.net/ar/products/arena</loc>
-    <lastmod>2026-11-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ozturksoft.net/ru/produkty/arena</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

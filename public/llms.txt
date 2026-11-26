@@ -57,10 +57,9 @@ Prices below are 2026 ranges in Turkish lira (TL) published on the linked pages;
 - [Ankara software company overview](https://ozturksoft.net/ankara-yazilim-sirketi)
 
 ## Products
-Ready-to-use software products developed by Ozturksoft (overview: https://ozturksoft.net/urunler). Pricing is quoted after a free demo, based on users and installation. Turkish PDF catalogues: https://ozturksoft.net/katalog/alfaihale-katalog.pdf, https://ozturksoft.net/katalog/addjarvis-katalog.pdf, https://ozturksoft.net/katalog/arena-katalog.pdf
+Ready-to-use software products developed by Ozturksoft (overview: https://ozturksoft.net/urunler). Pricing is quoted after a free demo, based on users and installation. Turkish PDF catalogues: https://ozturksoft.net/katalog/alfaihale-katalog.pdf, https://ozturksoft.net/katalog/addjarvis-katalog.pdf
 - [AlfaIhale – public tender tracking and bid software](https://ozturksoft.net/urunler/alfaihale) (Turkish): for companies selling goods to Turkish public bodies via EKAP. Reads EKAP notification emails (never asks for the EKAP password), scores tenders by keywords and OKAS codes, extracts items from specifications (ZIP/PDF/Word/Excel, local Turkish OCR), master-list pricing with margin, seven-step tender file from documents to closing, delivery/invoice/payment tracking. Installed on the customer's own Windows, Linux or Apple Silicon Mac computer or office server; works up to 30 days offline.
 - [AddJarvis – AI sales team for B2B companies](https://ozturksoft.net/urunler/addjarvis) (Turkish): eight cooperating AI agents find and score target companies, draft personal emails (sent only after approval by default) and turn replies into meetings. Web-based, Turkish and English.
-- [Arena – sales training simulation](https://ozturksoft.net/urunler/arena) (Turkish), developed with Satış Mühendisliği™: SONAR-41 scoring (41 behaviours, 5 dimensions, every score tied to a quote); consultants talk to an AI customer with a hidden objection; every score is backed by a quote from the conversation. Web-based, Turkish and English.
 
 ## Integrations
 

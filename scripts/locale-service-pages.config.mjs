@@ -132,7 +132,6 @@ export const LOCALE_PAGES = [
   { tr: 'urunler', slug: { en: 'products', de: 'produkte', fr: 'produits', ar: 'products', ru: 'produkty' }, descKey: 'productsPage.meta.desc' },
   { tr: 'urunler/alfaihale', slug: { en: 'products/alfaihale', de: 'produkte/alfaihale', fr: 'produits/alfaihale', ar: 'products/alfaihale', ru: 'produkty/alfaihale' }, descKey: 'alfaihalePage.meta.desc' },
   { tr: 'urunler/addjarvis', slug: { en: 'products/addjarvis', de: 'produkte/addjarvis', fr: 'produits/addjarvis', ar: 'products/addjarvis', ru: 'produkty/addjarvis' }, descKey: 'addjarvisPage.meta.desc' },
-  { tr: 'urunler/arena', slug: { en: 'products/arena', de: 'produkte/arena', fr: 'produits/arena', ar: 'products/arena', ru: 'produkty/arena' }, descKey: 'arenaPage.meta.desc' },
 ];
 
 // Existing locale URLs for pages that already have their own locale versions (used to rewrite internal links)

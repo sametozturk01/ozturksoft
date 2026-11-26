@@ -490,7 +490,7 @@
     },
     {
       "source": "/arena",
-      "destination": "/urunler/arena",
+      "destination": "/urunler",
       "permanent": true
     },
     {
@@ -504,8 +504,43 @@
       "permanent": true
     },
     {
-      "source": "/urunler/arena/",
-      "destination": "/urunler/arena",
+      "source": "/urunler/arena/:path*",
+      "destination": "/urunler",
+      "permanent": true
+    },
+    {
+      "source": "/urunler/arena",
+      "destination": "/urunler",
+      "permanent": true
+    },
+    {
+      "source": "/katalog/arena-katalog.pdf",
+      "destination": "/urunler",
+      "permanent": true
+    },
+    {
+      "source": "/en/products/arena",
+      "destination": "/en/products",
+      "permanent": true
+    },
+    {
+      "source": "/de/produkte/arena",
+      "destination": "/de/produkte",
+      "permanent": true
+    },
+    {
+      "source": "/fr/produits/arena",
+      "destination": "/fr/produits",
+      "permanent": true
+    },
+    {
+      "source": "/ar/products/arena",
+      "destination": "/ar/products",
+      "permanent": true
+    },
+    {
+      "source": "/ru/produkty/arena",
+      "destination": "/ru/produkty",
       "permanent": true
     },
     {

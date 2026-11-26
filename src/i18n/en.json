@@ -5718,20 +5718,19 @@
   },
   "productsPage": {
     "meta": {
-      "title": "Software Products: Tender Tracking, AI Sales and Sales Training | Ozturksoft",
-      "desc": "Ozturksoft products: AlfaIhale public tender tracking software, AddJarvis AI sales team for B2B and Arena sales training simulation. Free demo, Ankara."
+      "title": "Software Products: Tender Tracking and AI Sales | Ozturksoft",
+      "desc": "Ozturksoft products: AlfaIhale, tender tracking software for public procurement, and AddJarvis, an AI sales team for B2B companies. Free demo, Ankara."
     },
     "hero": {
       "kicker": "Our products",
       "title": "Software products <span class=\"pr-grad\">ready</span> to use.",
-      "desc": "Three ready-made products we built for tender tracking, AI-driven B2B sales and sales team training. Let us show you the right one on your own workflow in a short demo.",
+      "desc": "Two ready-made products we built for tender tracking and AI-driven B2B sales. Let us show you the right one on your own workflow in a short demo.",
       "btn1": "Request a demo",
       "btn2": "Browse the products"
     },
     "pick": {
       "alfa": "Public tender tracking",
-      "addjarvis": "AI-driven B2B sales",
-      "arena": "Sales team training"
+      "addjarvis": "AI-driven B2B sales"
     },
     "alfa": {
       "kicker": "01 · Public tenders",
@@ -5764,17 +5763,6 @@
     "demo": {
       "more": "Ask for a demo"
     },
-    "arena": {
-      "kicker": "03 · Sales training",
-      "title": "Let your sales consultants practise with a virtual customer before they meet a real one.",
-      "desc": "The consultant talks to an AI customer who has a hidden objection. Every conversation is scored and each score is backed by a quote from the conversation, so the consultant sees exactly what was missed and why.",
-      "b1": "Virtual customers with hidden objections",
-      "b2": "A score and the reason for every conversation",
-      "b3": "A focused improvement report",
-      "b4": "Preparation for competitors and objections",
-      "b5": "Leagues, progress tracking and coaching",
-      "more": "Explore Arena"
-    },
     "compare": {
       "kicker": "Product or service?",
       "title": "A ready-made product or software built for you?",
@@ -5787,13 +5775,13 @@
     "faq": {
       "title": "Frequently asked questions about our products",
       "q1": "Which ready-made software products does Ozturksoft offer?",
-      "a1": "We have three products: AlfaIhale, tender tracking and bidding software for companies that take part in public tenders; AddJarvis, an AI sales team for B2B companies; and Arena, where sales consultants practise with a virtual customer.",
+      "a1": "We have two products: AlfaIhale, tender tracking and bidding software for companies that take part in public tenders, and AddJarvis, an AI sales team for B2B companies.",
       "q2": "How much do the products cost?",
       "a2": "The price depends on the product, the number of users and how it is installed. After the demo we send you a written quote for your company; the demo is free.",
       "q3": "Can I try a product before buying?",
       "a3": "Yes. In the demo we show the product on an example similar to your business, then we plan the trial and setup together.",
       "q4": "Do the products run in the cloud, or can they be installed on our own server?",
-      "a4": "AlfaIhale is installed on your own computer or office server, so your documents stay with you. AddJarvis and Arena are web-based: they run in the browser and need no installation.",
+      "a4": "AlfaIhale is installed on your own computer or office server, so your documents stay with you. AddJarvis is web-based: it runs in the browser and needs no installation.",
       "q5": "What if my needs do not fit any product?",
       "a5": "Then we build software for your business. See <a href=\"/ozel-yazilim-yaptirmak\">custom software development</a> for details."
     },
@@ -5904,82 +5892,6 @@
       "desc": "In the demo we show the product on a tender from your sector and answer your questions."
     },
     "footer": "© 2026 Ozturksoft — AlfaIhale tender tracking software, Ankara"
-  },
-  "arenaPage": {
-    "meta": {
-      "title": "Arena: AI Sales Training and Sales Role-Play Simulation | Ozturksoft",
-      "desc": "Arena is a sales training platform where consultants rehearse with an AI customer who has a hidden objection. SONAR-41 scoring backed by quotes, leagues and coaching."
-    },
-    "hero": {
-      "kicker": "Sales training",
-      "partner": "Arena was developed in partnership with Satış Mühendisliği™.",
-      "title": "Rehearse the sale with a <span class=\"pr-grad\">virtual customer</span> first.",
-      "desc": "In Arena, the sales consultant talks in writing or by voice to an AI customer with a hidden objection. The conversation is measured with the SONAR-41 framework; every score is tied to a quote, so the consultant sees exactly what was missed and why."
-    },
-    "strip": {
-      "s1": "For sales training"
-    },
-    "about": {
-      "title": "What is Arena?",
-      "p": "Arena is an AI-powered role-play and measurement platform for sales teams. The consultant talks to a virtual customer in a phone, online meeting, showroom or messaging scenario. Afterwards the conversation is scored with SONAR-41 and one improvement area is suggested. Managers follow the team's progress through reports, leagues and coaching tools."
-    },
-    "who": {
-      "i1": "Dealer and showroom sales teams; consultative sales such as automotive, real estate, insurance and education",
-      "i2": "Companies that want new consultants ready for the field quickly",
-      "i3": "Sales managers who lack time for one-to-one coaching"
-    },
-    "pain": {
-      "i1": "Consultants learn by practising on real customers",
-      "i2": "Training doesn't stick: what's missing is rehearsal, not knowledge",
-      "i3": "Managers can't measure who needs to improve what"
-    },
-    "partner": {
-      "kicker": "Partnership",
-      "title": "Developed together with Satış Mühendisliği™",
-      "p": "We built Arena with Satış Mühendisliği™, a sales training specialist, so consultants can rehearse before meeting real customers and every conversation is measured on evidence. Arena is also offered to companies under the Satış Mühendisliği™ brand."
-    },
-    "f1t": "A virtual customer with a hidden objection",
-    "f1d": "Written or voice rehearsal over phone, online meeting, showroom and messaging channels. Uncovering the customer's real objection is up to the consultant.",
-    "f2t": "Measured with SONAR-41",
-    "f2d": "41 behaviours across 5 dimensions are scored on a 1–5 scale. Every score rests on a verbatim quote from the conversation; the CRM entry is scored too.",
-    "f3t": "A single-focus report",
-    "f3d": "After each conversation: one improvement area, strengths and the sentence that should have been said. The consultant compares their self-assessment with the result.",
-    "f4t": "Preparation: competitors and objections",
-    "f4d": "Competitor comparisons and objection cards prepare the consultant; your products and competitors are built into the scenarios.",
-    "f5t": "Leagues, progress and coaching",
-    "f5d": "Company and team leagues, badges and a progress map. For managers: calibration cases, a Coach League and coaching tools.",
-    "s1t": "Scenario",
-    "s1d": "Your products, competitors and customer types are built into the virtual customers.",
-    "s2t": "Rehearsal",
-    "s2d": "The consultant talks to the virtual customer in the chosen channel; the customer has a hidden objection.",
-    "s3t": "Measurement",
-    "s3d": "The conversation is scored with SONAR-41 and every score is tied to a quote.",
-    "s4t": "Progress",
-    "s4d": "The report gives one focus area; leagues, tasks and coaching keep progress going.",
-    "sec": {
-      "title": "No score without a quote.",
-      "i1": "Separate roles and permissions for consultants, team leads and company managers.",
-      "i2": "Data is stored on servers in Frankfurt.",
-      "i3": "Turkish and English interface and conversations."
-    },
-    "faq": {
-      "title": "Frequently asked questions about Arena",
-      "q1": "Can consultants talk to the virtual customer by voice?",
-      "a1": "Yes. The consultant can talk in writing or by voice, with phone, online meeting, showroom and messaging scenarios.",
-      "q2": "Which sectors can use it?",
-      "a2": "Any consultative sale. Sample scenarios exist for automotive, real estate, insurance and education, and scenarios are adapted to your company.",
-      "q3": "How are scores given, and what is SONAR-41?",
-      "a3": "SONAR-41 is a framework that scores 41 sales behaviours across 5 dimensions on a 1–5 scale. Every score rests on a verbatim quote; no quote, no score.",
-      "q4": "How much does Arena cost?",
-      "a4": "The price depends on the number of consultants and how many custom scenarios you need. After the demo we send a written quote; the demo is free.",
-      "q5": "How do we get started?",
-      "a5": "In the demo we go through Arena together using a sample company, then plan your custom scenarios and setup."
-    },
-    "cta": {
-      "title": "Let your team do its first rehearsal with us.",
-      "desc": "In the demo we run a sample conversation with a virtual customer from your sector and review the report together."
-    },
-    "footer": "© 2026 Ozturksoft — Arena sales training platform, Ankara"
   },
   "addjarvisPage": {
     "meta": {
